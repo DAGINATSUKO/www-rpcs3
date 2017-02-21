@@ -1,0 +1,115 @@
+ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
+	margin:0;
+	padding:0;
+}
+body {
+	background:#e7e7e7;
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	line-height:inherit;
+	text-align:inherit;
+}
+h1,h2,h3,h4,h5,p {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	line-height:inherit;
+	text-align:inherit;
+	color:inherit;
+}
+ul,li {
+	font-size:14px !important;
+	line-height:24px !important;
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	line-height:inherit;
+	text-align:inherit;
+}
+b {
+	color:#0066cc;
+	font-family:inherit;
+	font-size:inherit;
+	line-height:inherit;
+	text-align: inherit;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+a:visited {
+	text-decoration:none;
+	color:#000;
+}
+a:active {
+	text-decoration:none;
+	color:#0066cc;
+}
+a:link {
+	text-decoration:none;
+	color:#000;
+}
+a:hover {
+	text-decoration:none;
+	color:#0066cc;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+::-webkit-scrollbar {
+	width:10px;
+}
+::-webkit-scrollbar-track {
+	background:#dcdcdc;
+}
+::-webkit-scrollbar-thumb {
+	background:#a9a9a9;
+}
+::-webkit-scrollbar-thumb:hover {
+	background:#9c9c9c;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+:focus {
+	outline-color:transparent;
+	outline-style:none;
+	background: #f2f2f2 !important;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+iframe {
+	width:100%;
+	height:100%;
+	border: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+table {
+	font-family:helvetica;
+	font-size:12px;
+	line-height:35px;
+	width:100%;
+	border-spacing:0;
+	border-collapse:collapse;
+	color:#fff;
+}
+th {
+	padding-left:25px;
+	text-align:left;
+	color:#000;
+	border-bottom:1px solid rgba(0,0,0,.02);
+	background-color:#fff;
+}
+td {
+	height:35px;
+	padding-left:25px;
+	text-align:left;
+	color:#000;
+	border-bottom:1px solid rgba(0,0,0,.02);
+}
+td:hover a {
+	text-decoration:underline;
+}
+tr {
+	background:#fff;
+}
+input {
+	padding-left:24px;
+	height:100%;
+	border:none;
+	background:#fff;
+	color: #000;
+}

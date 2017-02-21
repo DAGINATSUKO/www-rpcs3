@@ -1,0 +1,30 @@
+Options All -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Unless directory, remove trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect external .php requests to extension less url
+RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+RewriteRule ^(.+)\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+# Resolve .php file for extension-less php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+# Disables page caching for real-time updating
+<filesMatch "\.(html|htm|js|css|php)$">
+FileETag None
+Header unset ETag
+Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+</filesMatch>
+
+
+# Assigns an error page
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
