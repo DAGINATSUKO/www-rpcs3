@@ -69,6 +69,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-author'>
 				<div id='featured-ico-author'>
 				</div>
+				<div id='featured-tx1-speed'>
+					<p class="feature-2-speed">
+						 Speed Here
+					</p>
+				</div>
 				<div id='featured-tx1-author'>
 					<p class="feature-1-author">
 						 Author Here
@@ -125,12 +130,18 @@ https://github.com/daginatsuko
 			<div id="featured-tx1-heading">
 				<h1>Featured Videos</h1>
 			</div>
-			<?php include 'lib/video/ui-video-6.php';?><!-- Left -->
-			<?php include 'lib/video/ui-video-7.php';?><!-- Right -->
-			<?php include 'lib/video/ui-video-2.php';?><!-- Left -->
-			<?php include 'lib/video/ui-video-3.php';?><!-- Right -->
-			<?php include 'lib/video/ui-video-4.php';?><!-- Left -->
-			<?php include 'lib/video/ui-video-5.php';?><!-- Right -->
+			<?php include 'lib/video/ui-video-2.php';?>
+			<!-- Left -->
+			<?php include 'lib/video/ui-video-7.php';?>
+			<!-- Right -->
+			<?php include 'lib/video/ui-video-6.php';?>
+			<!-- Left -->
+			<?php include 'lib/video/ui-video-3.php';?>
+			<!-- Right -->
+			<?php include 'lib/video/ui-video-4.php';?>
+			<!-- Left -->
+			<?php include 'lib/video/ui-video-5.php';?>
+			<!-- Right -->
 			<!-- End -->
 		</div>
 	</div>
