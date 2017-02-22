@@ -547,7 +547,7 @@
 }
 #featured-tx1-content {
 	font-family:helvetica;
-	font-size: 16px;
+	font-size: 14px;
 	line-height:50px;
 	position: absolute;
 	top: 0px;
@@ -941,7 +941,7 @@
 	padding-right: 8px;
 	padding-left: 8px;
 	text-align:left;
-	background: #002556;
+	background: rgba(0, 37, 86, .2);
 	border-radius: 16px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
