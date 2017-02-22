@@ -19,9 +19,9 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 <head>
 <!-- Data Metadata -->
 <title>RPCS3 - Compatibility List</title>
-<meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation®3 emulator written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation®3, emulator, nekotekina, compatibility list">
+<meta charset=UTF-8>
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator written in C++ for Windows and Linux.">
+<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, compatibility list">
 <meta name="author" content="RPCS3">
 <!-- Data Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
@@ -103,7 +103,7 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 		</div>
 		<div id="compat-con-author">
 			<div id="compat-tx1-author">
-				<p>Compatibility list coded by <a href='https://github.com/AniLeo' target="_blank">Ani</a>&nbsp; - &nbsp;<?php echo 'Page generated in '.$total_time.' seconds'; ?></p>
+				<p>Compatibility list coded by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>&nbsp; - &nbsp;<?php echo 'Page generated in '.$total_time.' seconds'; ?></p>
 			</div>
 		</div>
 <!--End -->

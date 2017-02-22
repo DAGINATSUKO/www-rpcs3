@@ -9,8 +9,8 @@ https://github.com/daginatsuko
 <!-- Metadata -->
 <title>RPCS3 - FAQ</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation®3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation®3, emulator, nekotekina, faq">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
+<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, faq">
 <meta name="author" content="RPCS3">
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
@@ -63,7 +63,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is an open-source Sony PlayStation®3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern DirectX 12, Vulkan and OpenGL renderers. The emulator is capable of booting and playing a decent amount of commercial games and many more are becoming playable with future developments. The source code for RPCS3 is hosted publicly on our GitHub. You're welcome to grab the latest compiled revisions from our AppVeyor or compile your own build for personal use.
+							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern DirectX 12, Vulkan and OpenGL renderers. The emulator is capable of booting and playing a decent amount of commercial games and many more are becoming playable with future developments. The source code for RPCS3 is hosted publicly on our GitHub. You're welcome to grab the latest compiled revisions from our AppVeyor or compile your own build for personal use.
 						</p>
 					</div>
 				</div>
@@ -124,11 +124,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>What PlayStation®3 peripherals can I use with RPCS3?</h1>
+						<h1>What PlayStation 3 peripherals can I use with RPCS3?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 We currently don't have support for additional PlayStation®3 peripherals such as the PlayStation®3 Move controller(s) or the PlayStation® Eye Camera. We plan to add support for them in the future once development is farther along or if a contributor implements compatibility for said peripheral beforehand.
+							 We currently don't have support for additional PlayStation 3 peripherals such as the PlayStation 3 Move controller(s) or the PlayStation® Eye Camera. We plan to add support for them in the future once development is farther along or if a contributor implements compatibility for said peripheral beforehand.
 						</p>
 					</div>
 				</div>
@@ -137,11 +137,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Can I just insert a PlayStation®3 game disc and start playing games?</h1>
+						<h1>Can I just insert a PlayStation 3 game disc and start playing games?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 In its current state, RPCS3 does not support reading game data directly from PlayStation®3 format discs. PlayStation®3 discs are formatted in a very special way that can only be read with an actual PlayStation®3 system, or a compatible Blu-ray drive from select manufacturers. For more information on what Blu-ray drives are capable of reading games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 In its current state, RPCS3 does not support reading game data directly from PlayStation 3 format discs. PlayStation 3 discs are formatted in a very special way that can only be read with an actual PlayStation 3 system, or a compatible Blu-ray drive from select manufacturers. For more information on what Blu-ray drives are capable of reading games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -150,15 +150,15 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I get PlayStation®3 games and software?</h1>
+						<h1>Where do I get PlayStation 3 games and software?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Typically, you want to dump your own PlayStation®3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC.
+							 Typically, you want to dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC.
 						</p>
 						<br>
 						<p>
-							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation®3 games due to how data is formatted on the disc. For more information on what Blu-ray drives are capable of reading games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. For more information on what Blu-ray drives are capable of reading games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -167,11 +167,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How do I dump PlayStation®3 games and software?</h1>
+						<h1>How do I dump PlayStation 3 games and software?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You will need two different tools for dumping PlayStation®3 game discs from a Blu-ray drive. For more information on how to get started dumping your own games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 You will need two different tools for dumping PlayStation 3 game discs from a Blu-ray drive. For more information on how to get started dumping your own games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -184,7 +184,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Unfortunately, this is not something we're remotely close to implementing just yet in RPCS3's current stage of development. Multiplayer is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible. Playing games online with real PlayStation®3 systems would require the client to connect to PlayStation Network which isn't very feasible at the moment due to obvious technical and legal limitations.
+							 Unfortunately, this is not something we're remotely close to implementing just yet in RPCS3's current stage of development. Multiplayer is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible. Playing games online with real PlayStation 3 systems would require the client to connect to PlayStation Network which isn't very feasible at the moment due to obvious technical and legal limitations.
 						</p>
 					</div>
 				</div>
@@ -197,7 +197,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 We currently do not have support for multiple controllers in RPCS3 just yet, but we plan to in the future once we're farther in development. The foundation for multiple controllers is already there, but it just isn't priority for now. Similarly to how the a PlayStation®3 has support for up to 7 concurrent controllers, we plan to replicate that feature in its entirety.
+							 We currently do not have support for multiple controllers in RPCS3 just yet, but we plan to in the future once we're farther in development. The foundation for multiple controllers is already there, but it just isn't priority for now. Similarly to how the a PlayStation 3 has support for up to 7 concurrent controllers, we plan to replicate that feature in its entirety.
 						</p>
 					</div>
 				</div>
@@ -206,11 +206,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Can I at least import my save data from my real PlayStation®3? </h1>
+						<h1>Can I at least import my save data from my real PlayStation 3? </h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Yes, saves can be imported from a real PlayStation®3 system using the standard USB flash drive transfer method. Due to how the user account system works on a real PlayStation®3 system, in some cases, you may need to re-sign your save. For more information on how to manage your save data within RPCS3, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 Yes, saves can be imported from a real PlayStation 3 system using the standard USB flash drive transfer method. Due to how the user account system works on a real PlayStation 3 system, in some cases, you may need to re-sign your save. For more information on how to manage your save data within RPCS3, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -223,7 +223,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 As long as the platform is powerful enough to emulate the PlayStation®3, most likely yes. At the moment we only target Windows and Linux. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and it currently doesn't support Vulkan or DirectX 12 either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement the feature. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as multiple languages, higher rendering resolutions, PlayStation® Move support, etc.
+							 As long as the platform is powerful enough to emulate the PlayStation 3, most likely yes. At the moment we only target Windows and Linux. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and it currently doesn't support Vulkan or DirectX 12 either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement the feature. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as multiple languages, higher rendering resolutions, PlayStation® Move support, etc.
 						</p>
 					</div>
 				</div>

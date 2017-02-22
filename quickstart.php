@@ -9,8 +9,8 @@ https://github.com/daginatsuko
 <!-- Metadata -->
 <title>RPCS3 - Quickstart</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation®3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation®3, emulator, nekotekina, quickstart">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
+<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, quickstart">
 <meta name="author" content="RPCS3">
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
@@ -143,11 +143,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How can I obtain PlayStation®3 firmware files?</h1>
+						<h1>How can I obtain PlayStation 3 firmware files?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation®3 system. Alternatively you can download the latest PlayStation®3 firmware update file from <a class="txt-link" href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under <b>Tools</b> > <b>Install Firmware</b>. The files will then be installed and then correctly placed in their appropriate directories.
+							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a class="txt-link" href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under <b>Tools</b> > <b>Install Firmware</b>. The files will then be installed and then correctly placed in their appropriate directories.
 						</p>
 					</div>
 				</div>
@@ -156,11 +156,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I manually place my PlayStation®3 firmware files?</h1>
+						<h1>Where do I manually place my PlayStation 3 firmware files?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 In the rare instance that you may want to manually dump your own encrypted or decrypted firmware files from your own PlayStation®3 system, they must be placed in the following locations:
+							 In the rare instance that you may want to manually dump your own encrypted or decrypted firmware files from your own PlayStation 3 system, they must be placed in the following locations:
 						</p>
 						<br>
 						<p>
@@ -218,11 +218,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I manage my PlayStation®3 save data?</h1>
+						<h1>Where do I manage my PlayStation 3 save data?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 • PlayStation®3 save data files can be managed in: <b>\dev_hdd0\home\00000001\savedata\</b>
+							 • PlayStation 3 save data files can be managed in: <b>\dev_hdd0\home\00000001\savedata\</b>
 						</p>
 						<p>
 							 • Please note that save data is stored in folders that correspond to your game's region ID.
@@ -234,11 +234,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Managing PlayStation®3 games and software</h1>
+						<h1>Managing PlayStation 3 games and software</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Again, due to copyright and obvious <b>legal</b> reasons, PlayStation®3 games and software cannot be distributed online and must be self-dumped from your own PlayStation®3 console. Once these games are dumped from your console, they can be in either Package format (.pkg), Blu-Ray Disc format or PlayStation® Network format.
+							 Again, due to copyright and obvious <b>legal</b> reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console. Once these games are dumped from your console, they can be in either Package format (.pkg), Blu-Ray Disc format or PlayStation® Network format.
 						</p>
 						<br>
 						<p>
@@ -283,7 +283,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I place PlayStation®3 game and software files</h1>
+						<h1>Where do I place PlayStation 3 game and software files</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -308,15 +308,15 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I get PlayStation®3 games and software?</h1>
+						<h1>Where do I get PlayStation 3 games and software?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Typically, you want to dump your own PlayStation®3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC. To do this, you will need a PlayStation®3 system with a custom firmware and various software tools that are used to rip/dump games from your system's Blu-ray drive or internal storage.
+							 Typically, you want to dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump games from your system's Blu-ray drive or internal storage.
 						</p>
 						<br>
 						<p>
-							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation®3 games due to how data is formatted on the disc. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
+							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
 						</p>
 						<br>
 						<p>
@@ -350,11 +350,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How do I dump PlayStation®3 games and software?</h1>
+						<h1>How do I dump PlayStation 3 games and software?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You will need two different tools for dumping PlayStation®3 game discs from a Blu-ray drive:
+							 You will need two different tools for dumping PlayStation 3 game discs from a Blu-ray drive:
 						</p>
 						<br>
 						<p>
@@ -365,7 +365,7 @@ https://github.com/daginatsuko
 						</p>
 						<br>
 						<p>
-							 1 - Insert a PlayStation®3 <b>Blu-ray disc game</b> of your choice.
+							 1 - Insert a PlayStation 3 <b>Blu-ray disc game</b> of your choice.
 						</p>
 						<p>
 							 2 - Dump the <b>.iso</b> image using a program like <b>Alcohol 120%</b>.
@@ -424,11 +424,11 @@ https://github.com/daginatsuko
 						</p>
 						<br>
 						<p>
-							 Optimal resolutions for testing are <b>1920x1080</b> (1080p) and <b>1280x720</b> (720p). Not all games will render at 1080p because the real PlayStation®3 doesn't support this resolution on all games. If you run into any issues, try lowering the resolution of the game.
+							 Optimal resolutions for testing are <b>1920x1080</b> (1080p) and <b>1280x720</b> (720p). Not all games will render at 1080p because the real PlayStation 3 doesn't support this resolution on all games. If you run into any issues, try lowering the resolution of the game.
 						</p>
 						<br>
 						<p>
-							<b>Frame-limit</b> should be set to <b>'Auto'</b>, otherwise some games may surpass their 60FPS target causing issues such as sped-up gameplay. Games are only intended to run up to 60FPS on a real PlayStation®3.
+							<b>Frame-limit</b> should be set to <b>'Auto'</b>, otherwise some games may surpass their 60FPS target causing issues such as sped-up gameplay. Games are only intended to run up to 60FPS on a real PlayStation 3.
 						</p>
 						<br>
 						<p>
@@ -466,7 +466,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 That's cool, we're all open ears. Feel free to join our Discord server where you can interact with developers and contributors by asking questions, submitting feedback and even posting screenshots of your findings. Any feedback is greatly appreciated and we hope to see PlayStation®3 emulation hit the mainstream really soon.
+							 That's cool, we're all open ears. Feel free to join our Discord server where you can interact with developers and contributors by asking questions, submitting feedback and even posting screenshots of your findings. Any feedback is greatly appreciated and we hope to see PlayStation 3 emulation hit the mainstream really soon.
 						</p>
 					</div>
 				</div>

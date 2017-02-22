@@ -9,8 +9,8 @@ https://github.com/daginatsuko
 <!-- Metadata -->
 <title>RPCS3 - PlayStation 3 Emulator</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation®3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation®3, emulator, nekotekina, home">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
+<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, home">
 <meta name="author" content="RPCS3">
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
@@ -96,7 +96,7 @@ https://github.com/daginatsuko
 			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p class="build-number">
@@ -184,7 +184,7 @@ https://github.com/daginatsuko
 						<h1>Minimum Requirements</h1>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/os.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/os.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-os">
@@ -193,7 +193,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/cpu.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/cpu.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-cpu">
@@ -202,7 +202,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/ins.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/ins.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-ins">
@@ -211,7 +211,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/gpu.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/gpu.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-gpu">
@@ -220,7 +220,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/ram.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/ram.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-ram">
@@ -229,7 +229,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-files">
@@ -238,7 +238,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/lle.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/lle.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-lle">
@@ -247,7 +247,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/disc.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/disc.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-rom">
@@ -256,7 +256,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/hdd.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/hdd.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-hdd">
@@ -265,7 +265,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/piracy.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/piracy.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-piracy">
@@ -310,7 +310,7 @@ https://github.com/daginatsuko
 				<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
 				<div id='featured-con-button' style="float: left; left: 0px; width: 32%; margin-right: 1%;">
 					<div id='featured-wrp-button' style="width: 152px; margin: 0 -76px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/forum.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-button' style="background:url('/img/icons/buttons/forum.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx1-button'>
 							<p>
@@ -323,7 +323,7 @@ https://github.com/daginatsuko
 				<a href='/quickstart' target="_blank">
 				<div id='featured-con-button' style="float: left; width: 34%;">
 					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/newcomers.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-button' style="background:url('/img/icons/buttons/newcomers.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx1-button'>
 							<p>
@@ -336,7 +336,7 @@ https://github.com/daginatsuko
 				<a href='http://www.emunewz.net/forum/showthread.php?tid=171465' target="_blank">
 				<div id='featured-con-button' style="float: right; left: 0px; width: 32%; margin-left: 1%;">
 					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/issues.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-button' style="background:url('/img/icons/buttons/issues.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx1-button'>
 							<p>
@@ -384,7 +384,7 @@ https://github.com/daginatsuko
 			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 216px; margin: 0 -108px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
@@ -410,7 +410,7 @@ https://github.com/daginatsuko
 			<a href='https://www.patreon.com/Nekotekina' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 182px; margin: 0 -91px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/patreon.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/patreon.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>

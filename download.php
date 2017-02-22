@@ -9,8 +9,8 @@ https://github.com/daginatsuko
 <!-- Metadata -->
 <title>RPCS3 - Download</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation®3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation®3, emulator, nekotekina, download">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
+<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, download">
 <meta name="author" content="RPCS3">
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
@@ -108,7 +108,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners. RPCS3 is in no way affiliated with Sony, PlayStation® or any mentioned software developers for PlayStation®3. <br>
+							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners. RPCS3 is in no way affiliated with Sony, PlayStation® or any mentioned software developers for PlayStation 3. <br>
 							<br>
 							<b>Last updated on February 13th, 2017 at 10:08PM.</b>
 						</p>
