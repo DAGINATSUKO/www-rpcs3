@@ -7,7 +7,7 @@ https://github.com/daginatsuko
 <html lang="en-US">
 <head>
 <!-- Metadata -->
-<title>RPCS3 - 404</title>
+<title>RPCS3 - 403</title>
 <meta charset="UTF-8">
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers..">
 <meta name="keywords" content=" ">
@@ -28,14 +28,14 @@ https://github.com/daginatsuko
 	<div class="visual-wavebar">
 	</div>
 	<div id='error-con-content'>
-		<div id='error-ico-content' style="background: url('/img/icons/error/404.png') no-repeat center; background-size:40px;">
+		<div id='error-ico-content' style="background: url('/img/icons/error/403.png') no-repeat center; background-size:40px;">
 		</div>
 		<div id='error-tx1-content'>
-			<h1>NOT FOUND</h1>
+			<h1>FORBIDDEN</h1>
 		</div>
 		<div id='error-tx2-content'>
 			<p>
-				 This page cannot be found on the host server
+				 This page or file directory is forbidden
 			</p>
 		</div>
 	</div>
