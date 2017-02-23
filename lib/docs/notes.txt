@@ -1,0 +1,3 @@
+(style.css) hidden .comments-area
+(style.css) hidden .widget_recent_comments
+(style.css) hidden .comments-link
