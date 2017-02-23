@@ -9,7 +9,7 @@ https://github.com/daginatsuko
 <!-- Metadata -->
 <title>RPCS3 - PlayStation 3 Emulator</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, home">
 <meta name="author" content="RPCS3">
 <!-- Metadata -->
@@ -21,6 +21,7 @@ https://github.com/daginatsuko
 </head>
 <?php include 'lib/module/call-sys.php';?>
 <?php include 'lib/module/call-php.php';?>
+<?php include 'lib/module/call-video.php'?>
 <?php include 'lib/module/ui-video.php';?>
 <body>
 <!-- Content -->
@@ -130,18 +131,67 @@ https://github.com/daginatsuko
 			<div id="featured-tx1-heading">
 				<h1>Featured Videos</h1>
 			</div>
-			<?php include 'lib/video/ui-video-2.php';?>
-			<!-- Left -->
-			<?php include 'lib/video/ui-video-7.php';?>
-			<!-- Right -->
-			<?php include 'lib/video/ui-video-6.php';?>
-			<!-- Left -->
-			<?php include 'lib/video/ui-video-3.php';?>
-			<!-- Right -->
-			<?php include 'lib/video/ui-video-4.php';?>
-			<!-- Left -->
-			<?php include 'lib/video/ui-video-5.php';?>
-			<!-- Right -->
+			<?php 
+				getVideo(
+				'2',
+				'left',
+				'CqkmEKcITqU',
+				'The Legend of Spyro: Dawn of the Dragon',
+				'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra Entertainment. It was released for both PlayStation 2 and PlayStation 3.',
+				'Emulator_Team',
+				'High-Speed'
+				);
+				
+				getVideo(
+				'6',
+				'right',
+				'ghEI8khqpSo',
+				'SoulCalibur IV',
+				'SoulCalibur IV is the fifth installment in Bandai Namco\'s SoulCalibur series of fighting games. The game features a healthy list of playable fighters with varying weapons and combat abilities. It was released for both PlayStation 3 and Xbox 360.',
+				'John GodGames',
+				'Low-Speed'
+				);
+				
+				getVideo(
+				'7',
+				'left',
+				'j-DpOOChMiw',
+				'Dragon\'s Crown',
+				'Dragon\'s Crown is a 2D fantasy action role-playing video game developed by Vanillaware. The game features up to four players traversing dungeons and labyrinths. It was released for both PlayStation 3 and Xbox 360.',
+				'John GodGames',
+				'High-Speed'
+				);
+				
+				getVideo(
+				'3',
+				'right',
+				'mIHYAAq5NNM',
+				'Dragon Ball Z: Burst Limit',
+				'Dragon Ball Z: Burst Limit is a 3D fighting game developed by Dimps and published by Atari in North America. It is based on the popular anime and manga series Dragon Ball Z. It was released for both PlayStation 3 and Xbox 360.',
+				'Rain Kikyou',
+				'High-Speed'
+				);
+				
+				getVideo(
+				'4',
+				'left',
+				'_02AvhOfhbs',
+				'G-Force',
+				'G-Force is a third-person action movie game developed by Disney Interactive Studios. The game is based heavily on the original Disney animated action movie, dubbed G-Force. It was released for both PlayStation 3 and Xbox 360.',
+				'John GodGames',
+				'Full-Speed'
+				);
+				
+				getVideo(
+				'5',
+				'right',
+				'Qhmcj8Zo6hE',
+				'Rainbow Moon',
+				'Rainbow Moon is a tactical RPG developed by SideQuest Studios. The game borrows heavily from dungeon crawler genres while incorporating elements from tactical RPGs. It was released exclusively for PlayStation consoles and PlayStation consoles handhelds.',
+				'thestalker01',
+				'High-Speed'
+				);	
+			?>
 			<!-- End -->
 		</div>
 	</div>

@@ -9,7 +9,7 @@ https://github.com/daginatsuko
 <!-- Metadata -->
 <title>RPCS3 - Quickstart</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows. It is powered by OpenGL, Vulkan and DirectX 12. RPCS3's development is made possible with our contributors and core developers.">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, quickstart">
 <meta name="author" content="RPCS3">
 <!-- Metadata -->
