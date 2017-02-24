@@ -1,5 +1,6 @@
 Options All -Indexes
 
+# RewriteEngine
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
@@ -24,7 +25,8 @@ Header set Pragma "no-cache"
 Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </filesMatch>
 
-
 # Assigns an error page
 ErrorDocument 404 /404.php
-ErrorDocument 403 /404.php
+ErrorDocument 403 /403.php
+ErrorDocument 401 /401.php
+ErrorDocument 400 /400.php
