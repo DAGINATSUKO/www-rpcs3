@@ -796,10 +796,11 @@
     margin-bottom: 14px;
 }
 .compat-con-container tr:hover {
-	background: #f2f2f2;
+	background: rgba(0, 37, 86, .1);
 }
 .compat-con-container {
     overflow: hidden;
+    background: #fff;
 }
 #compat-con-status {
 	width:100%;

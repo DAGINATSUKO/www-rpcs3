@@ -86,11 +86,20 @@ table {
 	border-collapse:collapse;
 	color:#fff;
 }
+
+tr:nth-child(2n) {
+    background-color: rgba(0, 37, 86, .02);
+}
+
+tr:nth-child(2n+1) {
+    background-color: #fff;
+}
+
+
 th {
 	padding-left:25px;
 	text-align:left;
 	color:#000;
-	border-bottom:1px solid rgba(0,0,0,.02);
 	background-color:#fff;
 }
 td {
@@ -98,10 +107,6 @@ td {
 	padding-left:25px;
 	text-align:left;
 	color:#000;
-	border-bottom:1px solid rgba(0,0,0,.02);
-}
-td:hover a {
-	text-decoration:underline;
 }
 tr {
 	background:#fff;

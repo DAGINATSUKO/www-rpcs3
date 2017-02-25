@@ -1,5 +1,6 @@
 <?php
-function getVideo($id, $pos, $vid, $title, $desc, $author, $speed) {
+function preloadVideo($id, $vid, $title, $desc, $author, $speed) {	
+
 echo"
 <script type=\"text/javascript\">
 $(document).ready(function() {
@@ -9,15 +10,17 @@ $(document).ready(function() {
 	$('.feature-$id-speed').text(\"$speed\");
 });
 </script>
-<div id='video-con-dim' class='stop-video toggle-video-$id'>
-	<div id='video-con-viewport' class='video-con-scale'>
-		<iframe id='video-$id' src=\"https://www.youtube.com/embed/$vid?enablejsapi=1&color=white&version=3&playerapiid=ytplayer\" 
+<div id=\"video-con-dim\" class=\"toggle-video-$id stop-video\">
+	<div id=\"video-con-viewport\" class=\"video-con-scale\">
+		<iframe id=\"video-$id\" src=\"https://www.youtube.com/embed/$vid?enablejsapi=1&color=white&version=3&playerapiid=ytplayer\" 
 			frameborder=\"0\" allowfullscreen=\"true\" allowscriptaccess=\"always\" type=\"text/html\" width=\"100%\" height=\"100%\">
 		</iframe>
 	</div>
 </div>
 ";
-	
+}
+
+function loadVideo($id, $pos) {
 echo "<div id='featured-con-grid' class=\"div-video-$pos\">
 	<div id='featured-img-grid' style=\"background:url('/img/featured/$id.jpg') no-repeat center; background-size: cover;\">
 		<div id='featured-btn-play' class=\"page-video-$id\">
