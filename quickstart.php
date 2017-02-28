@@ -27,7 +27,9 @@ https://github.com/daginatsuko
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner fade-onload">
 		</div>
-		<div id='header-con-overlay'>
+		<div id='header-con-overlay-a'>
+		</div>
+		<div id='header-con-overlay-b'>
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
@@ -143,34 +145,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How can I obtain PlayStation 3 firmware files?</h1>
+						<h1>How can I obtain and install PlayStation 3 firmware files?</h1>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
 							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a class="txt-link" href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under <b>Tools</b> > <b>Install Firmware</b>. The files will then be installed and then correctly placed in their appropriate directories.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h1>Where do I manually place my PlayStation 3 firmware files?</h1>
-					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							 In the rare instance that you may want to manually dump your own encrypted or decrypted firmware files from your own PlayStation 3 system, they must be placed in the following locations:
-						</p>
-						<br>
-						<p>
-							 • .prx files must be placed in: <b>\dev_flash\sys\external\</b>
-						</p>
-						<p>
-							 • .pic files must be placed in: <b>\dev_flash\sys\external\</b>
-						</p>
-						<p>
-							 • .ttf files (Fonts) must be placed in: <b>\dev_flash\data\font\</b>
 						</p>
 					</div>
 				</div>
@@ -238,7 +217,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Again, due to copyright and obvious <b>legal</b> reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console. Once these games are dumped from your console, they can be in either Package format (.pkg), Blu-Ray Disc format or PlayStation® Network format.
+							 Again, due to copyright and obvious <b>legal</b> reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console. Once these games are dumped from your console, they can be in either Package format (.pkg), Blu-Ray Disc format or PlayStation Network format.
 						</p>
 						<br>
 						<p>
@@ -249,21 +228,21 @@ https://github.com/daginatsuko
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <b>PlayStation® Network </b> game's root directory:
+							 The typical layout of a <b>PlayStation Network </b> game's root directory:
 						</p>
 						<p>
 							 • TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc
 						</p>
 						<br>
 						<p>
-							 Both Blu-ray and PlayStation® Network games must be placed in a single folder with their respective files and the folder name must correspond to the game's ID. If you are not sure what your dumped game's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your game case or your game is a PlayStation® Network game, you can do an internet search for your "Your Game Name Here + Region ID". Please note that it is very important you use the correct region ID.
+							 Both Blu-ray and PlayStation Network games must be placed in a single folder with their respective files and the folder name must correspond to the game's ID. If you are not sure what your dumped game's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your game case or your game is a PlayStation Network game, you can do an internet search for your "Your Game Name Here + Region ID". Please note that it is very important you use the correct region ID.
 						</p>
 						<br>
 						<p>
 							 • For example: <b>BCUS00000</b> is a USA <b>Blu-ray Disc</b> game
 						</p>
 						<p>
-							 • For example: <b>NPUA00000</b> is a USA <b>PlayStation® Network</b> game
+							 • For example: <b>NPUA00000</b> is a USA <b>PlayStation Network</b> game
 						</p>
 						<br>
 						<p>
@@ -274,7 +253,7 @@ https://github.com/daginatsuko
 							 • For example: <b>BCUS98233</b> is a USA Blu-ray Disc copy of <b>Uncharted 3</b>
 						</p>
 						<p>
-							 • For example: <b>NPUA80472</b> is a USA PlayStation® Network copy of <b>LittleBigPlanet</b>
+							 • For example: <b>NPUA80472</b> is a USA PlayStation Network copy of <b>LittleBigPlanet</b>
 						</p>
 					</div>
 				</div>
@@ -296,10 +275,10 @@ https://github.com/daginatsuko
 							 • Blu-ray Disc game data can be placed <b>anywhere</b> and must be booted with 'Boot Game'.
 						</p>
 						<p>
-							 • PlayStation® Network game data must be placed in: <b>\dev_hdd0\game\</b>
+							 • PlayStation Network game data must be placed in: <b>\dev_hdd0\game\</b>
 						</p>
 						<p>
-							 • PlayStation® Network .rap files must be placed in: <b>\dev_hdd0\home\00000001\exdata\</b>
+							 • PlayStation Network .rap files must be placed in: <b>\dev_hdd0\home\00000001\exdata\</b>
 						</p>
 					</div>
 				</div>
@@ -336,6 +315,9 @@ https://github.com/daginatsuko
 						</p>
 						<p>
 							 • LG BD <b>UH12NS30</b>
+						</p>
+						<p>
+							 • LG BD <b>WH14NS40</b>
 						</p>
 						<p>
 							 • LG BD-RE <b>WH16NS40</b>

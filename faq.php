@@ -27,7 +27,9 @@ https://github.com/daginatsuko
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner fade-onload">
 		</div>
-		<div id='header-con-overlay'>
+		<div id='header-con-overlay-a'>
+		</div>
+		<div id='header-con-overlay-b'>
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
@@ -128,7 +130,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 We currently don't have support for additional PlayStation 3 peripherals such as the PlayStation 3 Move controller(s) or the PlayStation® Eye Camera. We plan to add support for them in the future once development is farther along or if a contributor implements compatibility for said peripheral beforehand.
+							 We currently don't have support for additional PlayStation 3 peripherals such as the PlayStation 3 Move controller(s) or the PlayStation Eye Camera. We plan to add support for them in the future once development is farther along or if a contributor implements compatibility for said peripheral beforehand.
 						</p>
 					</div>
 				</div>
@@ -223,7 +225,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 As long as the platform is powerful enough to emulate the PlayStation 3, most likely yes. At the moment we only target Windows and Linux. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and it currently doesn't support Vulkan or DirectX 12 either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement the feature. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as multiple languages, higher rendering resolutions, PlayStation® Move support, etc.
+							 As long as the platform is powerful enough to emulate the PlayStation 3, most likely yes. At the moment we only target Windows and Linux. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and it currently doesn't support Vulkan or DirectX 12 either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement the feature. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as multiple languages, higher rendering resolutions, PlayStation Move support, etc.
 						</p>
 					</div>
 				</div>

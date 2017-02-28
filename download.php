@@ -27,22 +27,23 @@ https://github.com/daginatsuko
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner fade-onload">
 		</div>
-		<div id='header-con-overlay'>
+		<div id='header-con-overlay-a'>
+		</div>
+		<div id='header-con-overlay-b'>
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
-				<h1>GET IT</h1>
+				<h1>DOWNLOAD</h1>
 			</div>
 			<div id='header-tx2-body-b'>
 				<p>
-					 Download the latest version of RPCS3
+					 Download the latest RPCS3 build
 				</p>
 			</div>
 		</div>
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -108,7 +109,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners. RPCS3 is in no way affiliated with Sony, PlayStation® or any mentioned software developers for PlayStation 3. <br>
+							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners. RPCS3 is in no way affiliated with Sony, PlayStation or any mentioned software developers for PlayStation 3. <br>
 							<br>
 							<b>Last updated on February 23rd, 2017 at 4:10PM.</b>
 						</p>

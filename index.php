@@ -28,47 +28,42 @@ https://github.com/daginatsuko
 	'2',
 	'CqkmEKcITqU',
 	'The Legend of Spyro: Dawn of the Dragon',
-	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra Entertainment. It was released for both PlayStation 2 and PlayStation 3.',
+	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra. It was proceeded to be the final installment in the Spyro series. It was released for both PlayStation 2 and PlayStation 3.',
 	'Emulator_Team',
 	'High-Speed'
 	);
-	
 	preloadVideo(
 	'6',
 	'ghEI8khqpSo',
 	'SoulCalibur IV',
-	'SoulCalibur IV is the fifth installment in Bandai Namco\'s SoulCalibur series of fighting games. The game features a healthy list of playable fighters with varying weapons and combat abilities. It was released for both PlayStation 3 and Xbox 360.',
+	'SoulCalibur IV is the fifth installment in Bandai Namco\'s SoulCalibur series of fighting games. The game features a healthy list of classic playable fighters with varying weapons and combat abilities. It was released for both PlayStation 3 and Xbox 360.',
 	'John GodGames',
 	'Low-Speed'
 	);
-	
 	preloadVideo(
 	'7',
 	'j-DpOOChMiw',
 	'Dragon\'s Crown',
-	'Dragon\'s Crown is a 2D fantasy action role-playing video game developed by Vanillaware. The game features up to four players traversing dungeons and labyrinths. It was released for both PlayStation 3 and Xbox 360.',
+	'Dragon\'s Crown is a 2D fantasy action role-playing  adventure game developed by Vanillaware and published by Atlus. The game features up to four players traversing a multitude of dungeons and labyrinths. It was released for both PlayStation 3 and Xbox 360.',
 	'John GodGames',
 	'High-Speed'
 	);
-	
 	preloadVideo(
 	'3',
 	'mIHYAAq5NNM',
 	'Dragon Ball Z: Burst Limit',
-	'Dragon Ball Z: Burst Limit is a 3D fighting game developed by Dimps and published by Atari in North America. It is based on the popular anime and manga series Dragon Ball Z. It was released for both PlayStation 3 and Xbox 360.',
+	'Dragon Ball Z: Burst Limit is a 3D multi-directional fighting game developed by Dimps and published by Atari in North America. It is heavily based on the popular anime and manga series Dragon Ball Z. It was released for both PlayStation 3 and Xbox 360.',
 	'Rain Kikyou',
 	'High-Speed'
 	);
-	
 	preloadVideo(
 	'4',
 	'_02AvhOfhbs',
 	'G-Force',
-	'G-Force is a third-person action movie game developed by Disney Interactive Studios. The game is based heavily on the original Disney animated action movie, dubbed G-Force. It was released for both PlayStation 3 and Xbox 360.',
+	'G-Force is a third-person action movie game developed by Disney Interactive Studios. The game is heavily based on the original Disney animated action movie, dubbed G-Force that original released in 2009. It was released for both PlayStation 3 and Xbox 360.',
 	'John GodGames',
 	'Full-Speed'
 	);
-	
 	preloadVideo(
 	'5',
 	'Qhmcj8Zo6hE',
@@ -84,21 +79,18 @@ https://github.com/daginatsuko
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner fade-onload">
 		</div>
-		<div id='header-con-overlay'>
+		<div id='header-con-overlay-a'>
 		</div>
-		<div id='header-con-body'>
-			<div id='header-tx1-body'>
+		<div id='header-con-overlay-b'>
+		</div>
+		<div id='header-con-body-b'>
+			<div id='header-tx1-body-b'>
 				<h1 class="title">
 				Welcome Here </h1>
 			</div>
-			<div id='header-tx2-body'>
+			<div id='header-tx2-body-b'>
 				<p class="description">
 					 Description Here
-				</p>
-			</div>
-			<div id='header-tx3-body'>
-				<p class="disclaim">
-					 Disclaimer Here
 				</p>
 			</div>
 		</div>
@@ -149,6 +141,29 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<a href='https://rpcs3.net/blog/2017/02/26/rpcs3-progress-report-february-2017/' target="_blank">
+			<div id='featured-con-report' style="background:#fff url('/img/featured/report.jpg') no-repeat center; background-size: cover;">
+				<div id='featured-con-users'>
+					<p style="float:left;">
+						Written By Ssshadow and Ani
+					</p>
+					<div id='featured-usr-report' style="background:#002556 url('/img/users/ani.png') no-repeat center; background-size: cover;">
+					</div>
+					<div id='featured-usr-report' style="background:#002556 url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div id='featured-ovr-report'>
+				</div>
+				<div id='featured-ico-report'>
+				</div>
+				<div id='featured-tx3-report'>
+					<p>
+						February 2017 Progress Report
+					</p>
+				</div>
+			</div>
+			</a>
+			<!-- End -->
 			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
@@ -180,7 +195,7 @@ https://github.com/daginatsuko
 	</div>
 </div>
 <!-- End -->
-<div id="page-con-content" style="background: #f2f2f2;">
+<div id="page-con-content" style="background: #eaeaea;">
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<div id="featured-tx1-heading">
@@ -327,31 +342,27 @@ https://github.com/daginatsuko
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block' class="div-important">
-				<div class="div-piracy-img">
-				</div>
+			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="disclaim-title txt-important">
+						<h1 class="disclaim-title">
 						Title Here </h1>
 					</div>
 					<div id='featured-tx2-block'>
-						<p class="disclaim-desc txt-important">
+						<p class="disclaim-desc">
 							 Description Here
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
-			<div id='featured-con-block' class="div-eyecatcher">
-				<div class="div-started-img">
-				</div>
+			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="start-title txt-important">Title Here</h1>
+						<h1 class="start-title">Title Here</h1>
 					</div>
 					<div id='featured-tx2-block'>
-						<p class="start-desc txt-important">
+						<p class="start-desc">
 							 Description Here
 						</p>
 					</div>
@@ -360,11 +371,11 @@ https://github.com/daginatsuko
 			<!-- End -->
 			<div id="page-in-container">
 				<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
-				<div id='featured-con-button' style="float: left; left: 0px; width: 32%; margin-right: 1%;">
+				<div id='featured-con-button' style="float: left; left: 0px; width: 32%; margin-right: 1%; background: #fff;">
 					<div id='featured-wrp-button' style="width: 152px; margin: 0 -76px;">
 						<div id='featured-ico-button' style="background:url('/img/icons/buttons/forum.png') no-repeat center; background-size: 16px;">
 						</div>
-						<div id='featured-tx1-button'>
+						<div id='featured-tx1-button' style="color:#002556;">
 							<p>
 								 RPCS3 Forum
 							</p>
@@ -373,11 +384,11 @@ https://github.com/daginatsuko
 				</div>
 				</a>
 				<a href='/quickstart' target="_blank">
-				<div id='featured-con-button' style="float: left; width: 34%;">
+				<div id='featured-con-button' style="float: left; width: 34%; background: #fff;">
 					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
 						<div id='featured-ico-button' style="background:url('/img/icons/buttons/newcomers.png') no-repeat center; background-size: 16px;">
 						</div>
-						<div id='featured-tx1-button'>
+						<div id='featured-tx1-button' style="color:#002556;">
 							<p>
 								 Quickstart Guide
 							</p>
@@ -386,11 +397,11 @@ https://github.com/daginatsuko
 				</div>
 				</a>
 				<a href='http://www.emunewz.net/forum/showthread.php?tid=171465' target="_blank">
-				<div id='featured-con-button' style="float: right; left: 0px; width: 32%; margin-left: 1%;">
+				<div id='featured-con-button' style="float: right; left: 0px; width: 32%; margin-left: 1%; background: #fff;">
 					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
 						<div id='featured-ico-button' style="background:url('/img/icons/buttons/issues.png') no-repeat center; background-size: 16px;">
 						</div>
-						<div id='featured-tx1-button'>
+						<div id='featured-tx1-button' style="color:#002556;">
 							<p>
 								 Issue Reporting
 							</p>
@@ -467,6 +478,33 @@ https://github.com/daginatsuko
 					<div id='featured-tx1-button'>
 						<p>
 							 Become a Patron
+						</p>
+					</div>
+				</div>
+			</div>
+			</a>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h1>Keeping in Touch</h1>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 That's cool, we're all open ears. Feel free to join our Discord server where you can interact with developers and contributors by asking questions, submitting feedback and even posting screenshots of your findings. Any feedback is greatly appreciated and we hope to see PlayStation 3 emulation hit the mainstream really soon.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<a href='https://discord.me/RPCS3' target="_blank">
+			<div id='featured-con-button'>
+				<div id='featured-wrp-button' style="width: 166px; margin: 0 -83px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/discord.png') no-repeat center; background-size: 20px;">
+					</div>
+					<div id='featured-tx1-button'>
+						<p>
+							 Join us on Discord
 						</p>
 					</div>
 				</div>

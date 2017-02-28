@@ -27,7 +27,9 @@ https://github.com/daginatsuko
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner fade-onload">
 		</div>
-		<div id='header-con-overlay'>
+		<div id='header-con-overlay-a'>
+		</div>
+		<div id='header-con-overlay-b'>
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
