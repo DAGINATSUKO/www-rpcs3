@@ -15,7 +15,7 @@
 	animation-duration:4s;
 	animation-iteration-count:infinite;
 	animation-direction:alternate;
-	background: #000;
+	background: #fff;
 	opacity: 0.05;
 	pointer-events: none;
 }
@@ -30,8 +30,8 @@
 	animation-duration:4s;
 	animation-iteration-count:infinite;
 	animation-direction:alternate;
-	background: #002556;
-	opacity: 0.014;
+	background: #fff;
+	opacity: .05;
 	pointer-events: none;
 }
 @-webkit-keyframes tide {

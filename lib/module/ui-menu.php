@@ -13,8 +13,6 @@
 	</div>
 	</a>
 </div>
-<div class='back-to-top' id='menu-btn-backtotop'>
-</div>
 <div id='menu-con-dim' class='toggle-menu'>
 	<div id='menu-con-anim' class='dropin-load'>
 		<div id='menu-con-canvas'>
@@ -117,9 +115,9 @@
 			</div>
 			<a href="https://github.com/DAGINATSUKO/RPCS3-Website" target="_blank">
 			<div id='menu-tx1-footer'>
-				<p style="color: #002556 !important;" class="txt-link">
+				<div style="color: #002556 !important;" class="txt-link">
 					Website source code on GitHub
-				</p>
+				</div>
 			</div>
 		</div>
 		</a>

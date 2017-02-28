@@ -1,3 +1,18 @@
 .div-notify {
 	display:none;
 }
+#footer-btn-discord {
+	background: url('/img/icons/menu/discordserver.png') no-repeat center;
+	background-size: 100px;
+	position:absolute;
+	width: 100px;
+	height: 60px;
+	bottom: 0px;
+	left: 20px;
+	z-index:1;
+	cursor: pointer;
+}
+
+#footer-btn-discord:hover {
+	opacity:0.8;
+}

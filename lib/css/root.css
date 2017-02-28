@@ -3,12 +3,12 @@ ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 	padding:0;
 }
 body {
-	background:#e7e7e7;
 	font-family:inherit;
 	font-size:inherit;
 	font-weight:inherit;
 	line-height:inherit;
 	text-align:inherit;
+	background:#f2f2f2;
 }
 h1,h2,h3,h4,h5,p {
 	font-family:inherit;
@@ -19,20 +19,23 @@ h1,h2,h3,h4,h5,p {
 	color:inherit;
 }
 ul,li {
-	font-size:14px !important;
-	line-height:24px !important;
 	font-family:inherit;
+	font-size:14px !important;
 	font-size:inherit;
 	font-weight:inherit;
+	line-height:24px !important;
 	line-height:inherit;
 	text-align:inherit;
 }
+ul {
+	list-style-type:square;
+}
 b {
-	color:#0066cc;
 	font-family:inherit;
 	font-size:inherit;
 	line-height:inherit;
-	text-align: inherit;
+	text-align:inherit;
+	color: #06c;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 a:visited {
@@ -41,7 +44,7 @@ a:visited {
 }
 a:active {
 	text-decoration:none;
-	color:#0066cc;
+	color:#06c;
 }
 a:link {
 	text-decoration:none;
@@ -49,7 +52,7 @@ a:link {
 }
 a:hover {
 	text-decoration:none;
-	color:#0066cc;
+	color:#06c;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 ::-webkit-scrollbar {
@@ -62,13 +65,11 @@ a:hover {
 	background:#a9a9a9;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background:#9c9c9c;
+	background: #9c9c9c;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-:focus {
-	outline-color:transparent;
-	outline-style:none;
-	background: #f2f2f2 !important;
+input:focus {
+	outline-color: transparent;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 iframe {
@@ -86,16 +87,12 @@ table {
 	border-collapse:collapse;
 	color:#fff;
 }
-
 tr:nth-child(2n) {
-    background-color: rgba(0, 37, 86, .02);
+	background-color:rgba(0,37,86,.02);
 }
-
 tr:nth-child(2n+1) {
-    background-color: #fff;
+	background-color:#fff;
 }
-
-
 th {
 	padding-left:25px;
 	text-align:left;
@@ -112,9 +109,9 @@ tr {
 	background:#fff;
 }
 input {
-	padding-left:24px;
 	height:100%;
+	padding-left:24px;
+	color:#000;
 	border:none;
-	background:#fff;
-	color: #000;
+	background: #fff;
 }
