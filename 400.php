@@ -28,7 +28,7 @@ https://github.com/daginatsuko
 	<div class="visual-wavebar">
 	</div>
 	<div id='error-con-content'>
-		<div id='error-ico-content' style="background: url('/img/icons/error/400.png') no-repeat center; background-size:40px;">
+		<div id='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
 		</div>
 		<div id='error-tx1-content'>
 			<h1>BAD REQUEST</h1>

@@ -12,6 +12,7 @@ https://github.com/daginatsuko
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, home">
 <meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8" />
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
@@ -217,22 +218,6 @@ https://github.com/daginatsuko
 <div id="page-con-content">
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<div id='featured-con-block' class="div-content-ad">
-				<div id='featured-con-ad'>
-					<p>
-						 Ad
-					</p>
-				</div>
-				<center>
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rpcs3_new -->
-				<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</center>
-			</div>
-			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -245,6 +230,7 @@ https://github.com/daginatsuko
 					</div>
 				</div>
 			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>

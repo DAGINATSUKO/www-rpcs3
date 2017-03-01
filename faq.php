@@ -33,7 +33,7 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
-				<h1>FAQ</h1>
+				<h1>FAQs</h1>
 			</div>
 			<div id='header-tx2-body-b'>
 				<p>
