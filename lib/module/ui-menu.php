@@ -115,7 +115,7 @@
 			</div>
 			<a href="https://github.com/DAGINATSUKO/RPCS3-Website" target="_blank">
 			<div id='menu-tx1-footer'>
-				<div style="color: #002556 !important;" class="txt-link">
+				<div style="color: #002556 !important;" class="txt-link" title="Website designed by DAGINATSUKO">
 					Website source code on GitHub
 				</div>
 			</div>
