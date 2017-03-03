@@ -12,7 +12,7 @@ https://github.com/daginatsuko
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, home">
 <meta name="author" content="RPCS3">
-<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8" />
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
@@ -69,7 +69,7 @@ https://github.com/daginatsuko
 	'5',
 	'Qhmcj8Zo6hE',
 	'Rainbow Moon',
-	'Rainbow Moon is a tactical RPG developed by SideQuest Studios. The game borrows heavily from dungeon crawler genres while incorporating elements from tactical RPGs. It was released exclusively for PlayStation consoles and PlayStation consoles handhelds.',
+	'Rainbow Moon is a tactical RPG developed by SideQuest Studios. The game borrows heavily from dungeon crawler genres while incorporating elements from tactical RPGs. It was released exclusively for PlayStation 3, PlayStation 4 and PlayStation Vita.',
 	'thestalker01',
 	'High-Speed'
 	);	
@@ -101,18 +101,40 @@ https://github.com/daginatsuko
 <div id="page-con-content">
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<!-- End -->
-			<div id='featured-con-content' style="background:#fff url('/img/featured/1.jpg') no-repeat center; background-size: cover;">
-				<div id='featured-ico-content'>
+			<div id='featured-con-master'>
+				<!-- End -->
+				<div id='featured-con-sidebar'>
+					<div id='featured-img-sidebar'>
+					</div>
+					<div id='featured-ovr-sidebar'>
+					</div>
+					<div id='featured-ico-sidebar'>
+					</div>
+					<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
+					<div id='featured-btn-sidebar'>
+						<p>
+							Download Latest Build
+						</p>
+					</div>
+					</a>
 				</div>
-				<div id='featured-tx1-content'>
-					<p>
-						 Featured Progress
-					</p>
-				</div>
-				<div id='featured-btn-play-b' class="page-video-1">
-				</div>
-				<div id='featured-ico-host'>
+				<!-- End -->
+				<div id='featured-con-main'>
+					<div id='featured-con-content' style="background:#fff url('/img/featured/1.jpg') no-repeat center; background-size: cover;">
+						<div id='featured-ico-content'>
+						</div>
+						<div id='featured-tx1-content'>
+							<p>
+								 Featured Progress
+							</p>
+						</div>
+						<div id='featured-btn-play-b' class="page-video-1">
+						</div>
+						<div id="featured-ovr-play">
+						</div>
+						<div id='featured-ico-host'>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id='featured-con-author'>
@@ -141,43 +163,36 @@ https://github.com/daginatsuko
 					</div>
 				</div>
 			</div>
-			<!-- End -->
-			<a href='https://rpcs3.net/blog/2017/02/26/rpcs3-progress-report-february-2017/' target="_blank">
-			<div id='featured-con-report' style="background:#fff url('/img/featured/report.jpg') no-repeat center; background-size: cover;">
-				<div id='featured-con-users'>
-					<p style="float:left;">
-						Written By Ssshadow and Ani
-					</p>
-					<div id='featured-usr-report' style="background:#002556 url('/img/users/ani.png') no-repeat center; background-size: cover;">
+			<div id='featured-wrp-duo'>
+				<!-- End -->
+				<a href='https://rpcs3.net/blog/2017/02/26/rpcs3-progress-report-february-2017/' target="_blank">
+				<div id='featured-con-duo' class="div-duo-left" style="background:#fff url('/img/featured/report.jpg') no-repeat center; background-size: cover; ">
+					<div id='featured-ovr-duo'>
 					</div>
-					<div id='featured-usr-report' style="background:#002556 url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+					<div id='featured-ico-duo' style="background: url('/img/icons/menu/logo-h.png') no-repeat center; background-size: 130px;">
 					</div>
-				</div>
-				<div id='featured-ovr-report'>
-				</div>
-				<div id='featured-ico-report'>
-				</div>
-				<div id='featured-tx3-report'>
-					<p>
-						February 2017 Progress Report
-					</p>
-				</div>
-			</div>
-			</a>
-			<!-- End -->
-			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
-			<div id='featured-con-button'>
-				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p class="build-number">
-							 Build Number Here
+					<div id='featured-tx3-duo'>
+						<p>
+							 February Progress Report
 						</p>
 					</div>
 				</div>
+				</a>
+				<!-- End -->
+				<a href='https://discord.me/RPCS3' target="_blank">
+				<div id='featured-con-duo' class="div-duo-right" style="background:#fff url('/img/featured/discussion.jpg') no-repeat center; background-size: cover;">
+					<div id='featured-ovr-duo'>
+					</div>
+					<div id='featured-ico-duo' style="background: url('/img/icons/menu/discordserver.png') no-repeat center; background-size: 130px;">
+					</div>
+					<div id='featured-tx3-duo'>
+						<p>
+							 Join The Discussion
+						</p>
+					</div>
+				</div>
+				</a>
 			</div>
-			</a>
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
@@ -218,6 +233,22 @@ https://github.com/daginatsuko
 <div id="page-con-content">
 	<div id="page-con-container">
 		<div id="page-in-container">
+			<div id='featured-con-block' class="div-content-ad">
+				<div id='featured-con-ad'>
+					<p>
+						 Ad
+					</p>
+				</div>
+				<center>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Ad -->
+				<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</center>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -357,7 +388,7 @@ https://github.com/daginatsuko
 			<!-- End -->
 			<div id="page-in-container">
 				<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
-				<div id='featured-con-button' style="float: left; left: 0px; width: 32%; margin-right: 1%; background: #fff;">
+				<div id='featured-con-button' style="background: #fff;" class="div-button-left">
 					<div id='featured-wrp-button' style="width: 152px; margin: 0 -76px;">
 						<div id='featured-ico-button' style="background:url('/img/icons/buttons/forum.png') no-repeat center; background-size: 16px;">
 						</div>
@@ -370,7 +401,7 @@ https://github.com/daginatsuko
 				</div>
 				</a>
 				<a href='/quickstart' target="_blank">
-				<div id='featured-con-button' style="float: left; width: 34%; background: #fff;">
+				<div id='featured-con-button' style="background: #fff;" class="div-button-center">
 					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
 						<div id='featured-ico-button' style="background:url('/img/icons/buttons/newcomers.png') no-repeat center; background-size: 16px;">
 						</div>
@@ -383,7 +414,7 @@ https://github.com/daginatsuko
 				</div>
 				</a>
 				<a href='http://www.emunewz.net/forum/showthread.php?tid=171465' target="_blank">
-				<div id='featured-con-button' style="float: right; left: 0px; width: 32%; margin-left: 1%; background: #fff;">
+				<div id='featured-con-button' style="background: #fff;" class="div-button-right">
 					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
 						<div id='featured-ico-button' style="background:url('/img/icons/buttons/issues.png') no-repeat center; background-size: 16px;">
 						</div>
@@ -464,33 +495,6 @@ https://github.com/daginatsuko
 					<div id='featured-tx1-button'>
 						<p>
 							 Become a Patron
-						</p>
-					</div>
-				</div>
-			</div>
-			</a>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h1>Keeping in Touch</h1>
-					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							 That's cool, we're all open ears. Feel free to join our Discord server where you can interact with developers and contributors by asking questions, submitting feedback and even posting screenshots of your findings. Any feedback is greatly appreciated and we hope to see PlayStation 3 emulation hit the mainstream really soon.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<a href='https://discord.me/RPCS3' target="_blank">
-			<div id='featured-con-button'>
-				<div id='featured-wrp-button' style="width: 166px; margin: 0 -83px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/discord.png') no-repeat center; background-size: 20px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Join us on Discord
 						</p>
 					</div>
 				</div>
