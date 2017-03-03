@@ -25,6 +25,8 @@ echo "<div id='featured-con-grid' class=\"div-video-$pos\">
 	<div id='featured-img-grid' style=\"background:url('/img/featured/$id.jpg') no-repeat center; background-size: cover;\">
 		<div id='featured-btn-play' class=\"page-video-$id\">
 		</div>
+			<div id='featured-ovr-play'>
+			</div>
 		<div id='featured-ico-host'>
 		</div>
 	</div>
