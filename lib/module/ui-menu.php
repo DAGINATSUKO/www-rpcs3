@@ -1,11 +1,6 @@
 <div id='menu-con-navbar'>
-	<div class='div-timeout' id='menu-tx1-open'>
-		 MENU
-	</div>
-	<a href="/">
 	<div id='menu-ico-logo'>
 	</div>
-	</a>
 	<div id='menu-btn-open' type="button">
 	</div>
 	<a href="https://www.patreon.com/Nekotekina" target="_blank">
@@ -15,6 +10,9 @@
 </div>
 <div id='menu-con-dim' class='toggle-menu'>
 	<div id='menu-con-anim' class='dropin-load'>
+		<div id="menu-tx1-title" style='-webkit-animation-duration: .4s;'>
+			NAVIGATION
+		</div>
 		<div id='menu-con-canvas'>
 			<div id="menu-con-menu">
 				<a href='/'>
@@ -60,8 +58,8 @@
 				</div>
 				</a>
 				<a href='/faq'>
-				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
-					 FAQs
+				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s; border-bottom: 1px solid rgba(0,0,0,.1);'>
+					 FAQ
 				</div>
 				<div id='menu-ico-button' class="ico-faqs" style="background:url('/img/icons/menu/faq.png') no-repeat center; background-size: 15px;">
 				</div>
@@ -84,7 +82,7 @@
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Discord
 				</div>
-				<div id='menu-ico-button' class="ico-discord" style="background:url('/img/icons/menu/discord.png') no-repeat center; background-size: 15px;">
+				<div id='menu-ico-button' class="ico-discord" style="background:url('/img/icons/menu/discord.png') no-repeat center; background-size: 20px;">
 				</div>
 				</a>
 				<a href='https://www.reddit.com/r/rpcs3/' target="_blank">
@@ -99,13 +97,6 @@
 					 GitHub
 				</div>
 				<div id='menu-ico-button' class="ico-github" style="background:url('/img/icons/menu/github.png') no-repeat center; background-size: 15px;">
-				</div>
-				</a>
-				<a href='http://www.psdevwiki.com/ps3/' target="_blank">
-				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
-					 Dev Wiki
-				</div>
-				<div id='menu-ico-button' class="ico-wiki" style="background:url('/img/icons/menu/wiki.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
 			</div>

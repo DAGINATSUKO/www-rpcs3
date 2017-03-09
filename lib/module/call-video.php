@@ -23,20 +23,18 @@ $(document).ready(function() {
 function loadVideo($id, $pos) {
 echo "<div id='featured-con-grid' class=\"div-video-$pos\">
 	<div id='featured-img-grid' style=\"background:url('/img/featured/$id.jpg') no-repeat center; background-size: cover;\">
+			<div id='featured-tx1-speed'>
+			<p class=\"feature-$id-speed\">
+				 Speed Here
+			</p>
+		</div>
 		<div id='featured-btn-play' class=\"page-video-$id\">
 		</div>
 			<div id='featured-ovr-play'>
 			</div>
-		<div id='featured-ico-host'>
-		</div>
 	</div>
 	<div id='featured-con-author'>
 		<div id='featured-ico-author'>
-		</div>
-		<div id='featured-tx1-speed'>
-			<p class=\"feature-$id-speed\">
-				 Speed Here
-			</p>
 		</div>
 		<div id='featured-tx1-author'>
 			<p class=\"feature-$id-author\">
