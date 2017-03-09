@@ -13,6 +13,7 @@ https://github.com/daginatsuko
 <meta name="keywords" content=" ">
 <meta name="robots" content="noindex, nofollow">
 <meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>

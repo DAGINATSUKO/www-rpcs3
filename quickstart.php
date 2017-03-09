@@ -12,6 +12,7 @@ https://github.com/daginatsuko
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, quickstart">
 <meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
@@ -44,13 +45,18 @@ https://github.com/daginatsuko
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
+			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>System Requirements</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>What are the system requirements?</h1>
+						<h2>What are the system requirements?</h2>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/os.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/os.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-os">
@@ -59,7 +65,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/cpu.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/cpu.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-cpu">
@@ -68,7 +74,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/ins.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/ins.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-ins">
@@ -77,7 +83,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/gpu.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/gpu.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-gpu">
@@ -86,7 +92,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/ram.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/ram.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-ram">
@@ -95,7 +101,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-files">
@@ -104,7 +110,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/lle.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/lle.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-lle">
@@ -113,7 +119,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/disc.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/disc.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-rom">
@@ -122,7 +128,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/hdd.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/hdd.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-hdd">
@@ -131,7 +137,7 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/piracy.png') no-repeat center; background-size: 20px;">
+						<div id='featured-ico-block' style="background:url('/img/icons/list/piracy.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
 							<p class="reqs-piracy">
@@ -142,10 +148,31 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Updating RPCS3</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How can I obtain and install PlayStation 3 firmware files?</h1>
+						<h2>How do I update RPCS3 when a new build is released?</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 To update RPCS3, all you need to do is drag and drop the <b>executable</b> to the root directory of your RPCS3 installation. Moving over additional files and folders is not necessary and may overwrite your user settings.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Firmware Files</h2>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>How can I obtain and install PlayStation 3 firmware files?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -158,12 +185,12 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						</h1>
-						 How do I know which firmware modules to use?</h1>
+						</h2>
+						 How do I know which firmware modules to use?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 We are currently working on making module selection <b>automatic</b>, thus making this step completely non-existent in the future. Until then, users must select and <b>enable</b> their modules manually for use with RPCS3. These are the minimum set of modules that must be enabled at all times for games to boot and function as intended.
+							 Firmware modules are selected <b>automatically</b> based on the PlayStation 3 game or software that is loaded. You can still <b>override</b> automatic module selection and chose which firmware modules you want to use manually, but it is not recommended to do so. These are the minimum set of modules that must be enabled at all times for games to boot and function as intended.
 						</p>
 						<br>
 						<p>
@@ -178,26 +205,18 @@ https://github.com/daginatsuko
 						<p>
 							 • <b>librtc</b>.sprx
 						</p>
-						<br>
-						<p>
-							 In some cases, games will need more than just the minimum set of modules enabled to boot. Looking at the log, you can get an idea of what modules you need to enable to run the game properly. If the log outputs something like:
-						</p>
-						<br>
-						<p>
-							 • cellResc TODO: <b>cellResc</b>SetConvertAndFlip(cntxt=*0x270000, idx=0x0)
-						</p>
-						<br>
-						<p>
-							 Then you need to enable <b>libResc</b>.sprx in the 'Load Libraries' list under 'Settings'. While this is true for most modules, notable exceptions are anything with '<b>sys</b>' in the module name along with <b>libgcm</b>. These modules will most certainly crash the emulator if you try to enable them because the emulation is not yet accurate enough at the moment.
-						</p>
 					</div>
 				</div>
+			</div>
+			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Game Files</h2>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I manage my PlayStation 3 save data?</h1>
+						<h2>Where do I manage my PlayStation 3 save data?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -213,7 +232,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Managing PlayStation 3 games and software</h1>
+						<h2>Managing PlayStation 3 games and software</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -262,7 +281,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I place PlayStation 3 game and software files</h1>
+						<h2>Where do I place PlayStation 3 game and software files</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -284,10 +303,14 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Obtaining Games</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I get PlayStation 3 games and software?</h1>
+						<h2>Where do I get PlayStation 3 games and software?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -308,19 +331,19 @@ https://github.com/daginatsuko
 							 • Lite-ON <b>DH-401S</b>
 						</p>
 						<p>
-							 • LG BD <b>BH14NS40</b>
+							 • LG BD <b>Bh24NS40</b>
 						</p>
 						<p>
-							 • LG BD <b>BH16NS40</b>
+							 • LG BD <b>Bh26NS40</b>
 						</p>
 						<p>
-							 • LG BD <b>UH12NS30</b>
+							 • LG BD <b>Uh22NS30</b>
 						</p>
 						<p>
-							 • LG BD <b>WH14NS40</b>
+							 • LG BD <b>Wh24NS40</b>
 						</p>
 						<p>
-							 • LG BD-RE <b>WH16NS40</b>
+							 • LG BD-RE <b>Wh26NS40</b>
 						</p>
 						<p>
 							 • Sony Optiarc BD <b>5300S</b>
@@ -332,7 +355,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How do I dump PlayStation 3 games and software?</h1>
+						<h2>How do I dump PlayStation 3 games and software?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -375,10 +398,14 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Configuring RPCS3</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>RPCS3 Core settings</h1>
+						<h2>RPCS3 Core settings</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -398,7 +425,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>RPCS3 Graphics settings</h1>
+						<h2>RPCS3 Graphics settings</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -427,7 +454,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>RPCS3 Audio settings</h1>
+						<h2>RPCS3 Audio settings</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -444,7 +471,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Want to give us some feedback? Or just hang out?</h1>
+						<h2>Want to give us some feedback? Or just hang out?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -457,11 +484,11 @@ https://github.com/daginatsuko
 			<a href='https://discord.me/RPCS3' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 166px; margin: 0 -83px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/discord.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/discord.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
-							 Join us on Discord
+							 Join Us on Discord
 						</p>
 					</div>
 				</div>

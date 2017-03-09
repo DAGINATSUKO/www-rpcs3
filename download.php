@@ -12,6 +12,7 @@ https://github.com/daginatsuko
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, download">
 <meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
@@ -44,10 +45,15 @@ https://github.com/daginatsuko
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
+			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Download RPCS3</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="download-title">Download latest AppVeyor build</h1>
+						<h2 class="download-title">Download latest AppVeyor build</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
@@ -73,10 +79,14 @@ https://github.com/daginatsuko
 			</div>
 			</a>
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Build RPCS3</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Compile your own build</h1>
+						<h2>Compile your own build</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -102,10 +112,13 @@ https://github.com/daginatsuko
 			</div>
 			</a>
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Support RPCS3</h2>
+			</div>
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1> Download Press Kit</h1>
+						<h2> Download Press Kit</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>

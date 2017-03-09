@@ -16,6 +16,7 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, compatibility list">
 <meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Data Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
@@ -41,7 +42,7 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 			</div>
 			<div id='header-tx2-body-b'>
 				<p>
-					There are currently <?php echo $games ?>
+					 There are currently <?php echo $games ?>
 					 games listed in our database
 				</p>
 			</div>
@@ -53,23 +54,23 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="compat-title">
-						<h1>RPCS3 Compatibility List</h1>
+						<h2>RPCS3 Compatibility List</h2>
 					</div>
 					<div id='featured-tx2-block' class="compat-desc">
 						<p>
-							These are the current compatible games that have been tested with the emulator. This list is subject to change frequently. Be sure to check this page often to follow the latest progressions and possible regressions.
+							 These are the current compatible games that have been tested with the emulator. This list is subject to change frequently. Be sure to check this page often to follow the latest progressions and possible regressions.
 						</p>
 					</div>
 				</div>
 				<!--End -->
 				<div id="compat-hdr-right">
 					<p>
-						Sort By - <?php echo getSortBy(); ?>
+						 Sort By - <?php echo getSortBy(); ?>
 					</p>
 				</div>
 				<div id="compat-hdr-left">
 					<p>
-						Results per page - <?php echo getResultsPerPage(); ?>
+						 Results per page - <?php echo getResultsPerPage(); ?>
 					</p>
 				</div>
 				<!--End -->
@@ -103,7 +104,7 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 			<tr>
 				<?php echo getTableHeaders(); ?>
 			</tr>
-				<?php echo getTableContent(); ?>
+			<?php echo getTableContent(); ?>
 			</table>
 			<!--End -->
 			<div id="compat-con-pages">
@@ -114,7 +115,7 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 			<div id="compat-con-author">
 				<div id="compat-tx1-author">
 					<p>
-						Compatibility list coded by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>&nbsp; - &nbsp;<?php echo 'Page generated in '.$total_time.' seconds'; ?>
+						 Compatibility list coded by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>&nbsp; - &nbsp;<?php echo 'Page generated in '.$total_time.' seconds'; ?>
 					</p>
 				</div>
 			</div>

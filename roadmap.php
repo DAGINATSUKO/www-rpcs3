@@ -12,6 +12,7 @@ https://github.com/daginatsuko
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, roadmap">
 <meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
@@ -33,10 +34,12 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
-				 <h1>ROADMAP</h1>
+				<h1>ROADMAP</h1>
 			</div>
 			<div id='header-tx2-body-b'>
-				 <p>Structured roadmap for RPCS3 development</p>
+				<p>
+					Structured roadmap for RPCS3 development
+				</p>
 			</div>
 		</div>
 	</div>
@@ -44,17 +47,20 @@ https://github.com/daginatsuko
 		<div id="page-in-container" class="div-roadmap-git">
 			<?php
 			$content = file_get_contents("https://github.com/RPCS3/rpcs3/wiki/Roadmap");
-			$first_step = explode('<div id="wiki-body" class="wiki-body gollum-markdown-content instapaper_body">', $content);
-			$second_step = explode("</div>" , $first_step[1]);
-			echo '<div id="wiki-body" class="wiki-body gollum-markdown-content instapaper_body">';
-			echo $second_step[0];
-			echo "</div></div>";
-			?>
+			$first_step = explode('<div id="wiki-body" class="wiki-body gollum-markdown-content instapaper_body">
+			', $content); $second_step = explode("
+		</div>
+		" , $first_step[1]); echo '
+		<div id="wiki-body" class="wiki-body gollum-markdown-content instapaper_body">
+			'; echo $second_step[0]; echo "
 		</div>
 	</div>
-	<!-- Page Footer -->
-	<?php include 'lib/module/ui-footer.php';?>
-	<!-- Page End -->
+	"; ?>
+</div>
+</div>
+<!-- Page Footer -->
+<?php include 'lib/module/ui-footer.php';?>
+<!-- Page End -->
 </div>
 </body>
 </html>

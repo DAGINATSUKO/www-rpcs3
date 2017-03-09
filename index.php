@@ -34,7 +34,7 @@ https://github.com/daginatsuko
 	'High-Speed'
 	);
 	preloadVideo(
-	'6',
+	'3',
 	'ghEI8khqpSo',
 	'SoulCalibur IV',
 	'SoulCalibur IV is the fifth installment in Bandai Namco\'s SoulCalibur series of fighting games. The game features a healthy list of classic playable fighters with varying weapons and combat abilities. It was released for both PlayStation 3 and Xbox 360.',
@@ -42,37 +42,21 @@ https://github.com/daginatsuko
 	'Low-Speed'
 	);
 	preloadVideo(
-	'7',
-	'j-DpOOChMiw',
-	'Dragon\'s Crown',
-	'Dragon\'s Crown is a 2D fantasy action role-playing  adventure game developed by Vanillaware and published by Atlus. The game features up to four players traversing a multitude of dungeons and labyrinths. It was released for both PlayStation 3 and Xbox 360.',
-	'John GodGames',
+	'4',
+	'Qhmcj8Zo6hE',
+	'Rainbow Moon',
+	'Rainbow Moon is a tactical RPG developed by SideQuest Studios. The game borrows heavily from dungeon crawler genres while incorporating elements from tactical RPGs. It was released exclusively for PlayStation 3, PlayStation 4 and PlayStation Vita.',
+	'thestalker01',
 	'High-Speed'
 	);
 	preloadVideo(
-	'3',
+	'5',
 	'mIHYAAq5NNM',
 	'Dragon Ball Z: Burst Limit',
 	'Dragon Ball Z: Burst Limit is a 3D multi-directional fighting game developed by Dimps and published by Atari in North America. It is heavily based on the popular anime and manga series Dragon Ball Z. It was released for both PlayStation 3 and Xbox 360.',
 	'Rain Kikyou',
 	'High-Speed'
 	);
-	preloadVideo(
-	'4',
-	'_02AvhOfhbs',
-	'G-Force',
-	'G-Force is a third-person action movie game developed by Disney Interactive Studios. The game is heavily based on the original Disney animated action movie, dubbed G-Force that original released in 2009. It was released for both PlayStation 3 and Xbox 360.',
-	'John GodGames',
-	'Full-Speed'
-	);
-	preloadVideo(
-	'5',
-	'Qhmcj8Zo6hE',
-	'Rainbow Moon',
-	'Rainbow Moon is a tactical RPG developed by SideQuest Studios. The game borrows heavily from dungeon crawler genres while incorporating elements from tactical RPGs. It was released exclusively for PlayStation 3, PlayStation 4 and PlayStation Vita.',
-	'thestalker01',
-	'High-Speed'
-	);	
 ?>
 <body>
 <!-- Content -->
@@ -103,24 +87,47 @@ https://github.com/daginatsuko
 		<div id="page-in-container">
 			<div id='featured-con-master'>
 				<!-- End -->
-				<div id='featured-con-sidebar'>
-					<div id='featured-img-sidebar'>
+				<div id='sidebar-con-container'>
+					<div id='sidebar-con-top'>
+						<a href='https://github.com/RPCS3/rpcs3' target="_blank">
+						<div id='sidebar-img-top'>
+						</div>
+						<div id='sidebar-ovr-top'>
+						</div>
+						<div id='sidebar-ico-top'>
+						</div>
+						<div id='sidebar-tx1-top'>
+							<p>
+								 Contribute with GitHub
+							</p>
+						</div>
+						</a>
 					</div>
-					<div id='featured-ovr-sidebar'>
+					<!-- End -->
+					<div id='sidebar-con-bottom'>
+						<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
+						<div id='sidebar-img-bottom'>
+						</div>
+						<div id='sidebar-ovr-bottom'>
+						</div>
+						<div id='sidebar-ico-bottom'>
+						</div>
+						<div id='sidebar-tx1-bottom'>
+							<p>
+								 Get Latest Build
+							</p>
+						</div>
+						</a>
 					</div>
-					<div id='featured-ico-sidebar'>
-					</div>
-					<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
-					<div id='featured-btn-sidebar'>
-						<p>
-							Download Latest Build
-						</p>
-					</div>
-					</a>
 				</div>
 				<!-- End -->
 				<div id='featured-con-main'>
 					<div id='featured-con-content' style="background:#fff url('/img/featured/1.jpg') no-repeat center; background-size: cover;">
+						<div id='featured-tx1-speed'>
+							<p class="feature-2-speed">
+								 Speed Here
+							</p>
+						</div>
 						<div id='featured-ico-content'>
 						</div>
 						<div id='featured-tx1-content'>
@@ -132,18 +139,11 @@ https://github.com/daginatsuko
 						</div>
 						<div id="featured-ovr-play">
 						</div>
-						<div id='featured-ico-host'>
-						</div>
 					</div>
 				</div>
 			</div>
 			<div id='featured-con-author'>
 				<div id='featured-ico-author'>
-				</div>
-				<div id='featured-tx1-speed'>
-					<p class="feature-2-speed">
-						 Speed Here
-					</p>
 				</div>
 				<div id='featured-tx1-author'>
 					<p class="feature-1-author">
@@ -154,7 +154,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="feature-1-title">Title Here</h1>
+						<h2 class="feature-1-title">Title Here</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="feature-1-desc">
@@ -197,7 +197,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="about-title">Title Here</h1>
+						<h2 class="about-title">Title Here</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="about-desc">
@@ -215,12 +215,10 @@ https://github.com/daginatsuko
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<div id="featured-tx1-heading">
-				<h1>Featured Videos</h1>
+				<h2>Featured Videos</h2>
 			</div>
 			<?php 
 				loadVideo('2', 'left');
-				loadVideo('6', 'right');
-				loadVideo('7', 'left');
 				loadVideo('3', 'right');
 				loadVideo('4', 'left');
 				loadVideo('5', 'right');
@@ -252,7 +250,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="reqs-title">Title Here</h1>
+						<h2 class="reqs-title">Title Here</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="reqs-desc">
@@ -265,7 +263,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Minimum Requirements</h1>
+						<h2>Minimum Requirements</h2>
 					</div>
 					<div id='featured-lst-block'>
 						<div id='featured-ico-block' style="background:url('/img/icons/list/os.png') no-repeat center; background-size: 16px;">
@@ -359,42 +357,16 @@ https://github.com/daginatsuko
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h1 class="disclaim-title">
-						Title Here </h1>
-					</div>
-					<div id='featured-tx2-block'>
-						<p class="disclaim-desc">
-							 Description Here
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h1 class="start-title">Title Here</h1>
-					</div>
-					<div id='featured-tx2-block'>
-						<p class="start-desc">
-							 Description Here
-						</p>
-					</div>
-				</div>
-			</div>
 			<!-- End -->
 			<div id="page-in-container">
 				<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
 				<div id='featured-con-button' style="background: #fff;" class="div-button-left">
-					<div id='featured-wrp-button' style="width: 152px; margin: 0 -76px;">
+					<div id='featured-wrp-button' style="width: 168px; margin: 0 -84px;">
 						<div id='featured-ico-button' style="background:url('/img/icons/buttons/forum.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx1-button' style="color:#002556;">
 							<p>
-								 RPCS3 Forum
+								 Community Forum
 							</p>
 						</div>
 					</div>
@@ -428,31 +400,10 @@ https://github.com/daginatsuko
 				</a>
 			</div>
 			<!-- End -->
-			<div id='featured-con-content' class="div-standalone" style="background:#fff url('/img/pages/index/hardware.jpg') no-repeat center; background-size: cover; height:300px !important;">
-				<div id='featured-tx1-source' class="document-src" style="color: #fff !important;">
-					<p>
-						 Source Here
-					</p>
-				</div>
-			</div>
-			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="document-title">Title Here</h1>
-					</div>
-					<div id='featured-tx2-block'>
-						<p class="document-desc">
-							 Description Here
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h1 class="contribute-title">Title Here</h1>
+						<h2 class="contribute-title">Title Here</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="contribute-desc">
@@ -468,7 +419,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
-							 Contribute with GitHub
+							 Contribute on GitHub
 						</p>
 					</div>
 				</div>
@@ -478,7 +429,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1 class="support-title">Title Here</h1>
+						<h2 class="support-title">Title Here</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="support-desc">

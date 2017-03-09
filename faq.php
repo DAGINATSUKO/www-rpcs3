@@ -12,6 +12,7 @@ https://github.com/daginatsuko
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, faq">
 <meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
@@ -33,7 +34,7 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
-				<h1>FAQs</h1>
+				<h1>FAQ</h1>
 			</div>
 			<div id='header-tx2-body-b'>
 				<p>
@@ -48,7 +49,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>What is RPCS3 licensed under? </h1>
+						<h2>What is RPCS3 licensed under? </h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -61,7 +62,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>What is RPCS3 and where can I get it?</h1>
+						<h2>What is RPCS3 and where can I get it?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -74,7 +75,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Who are the creators behind RPCS3?</h1>
+						<h2>Who are the creators behind RPCS3?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -87,7 +88,20 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How can I get started using RPCS3 on my PC?</h1>
+						<h2>Is RPCS3 aiming for complete accuracy or game specific hacks?</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 Our goal is to create the most accurate PlayStation 3 emulator possible. Previous PlayStation emulators tend to rely on game specific hacks and plugins to some extent, which don't guarantee full compatibility with all other PlayStation games and software.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>How can I get started using RPCS3 on my PC?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -100,7 +114,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How stable is RPCS3 in its current state?</h1>
+						<h2>How stable is RPCS3 in its current state?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -113,7 +127,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>What input devices can I use with RPCS3?</h1>
+						<h2>What input devices can I use with RPCS3?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -126,7 +140,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>What PlayStation 3 peripherals can I use with RPCS3?</h1>
+						<h2>What PlayStation 3 peripherals can I use with RPCS3?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -139,7 +153,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Can I just insert a PlayStation 3 game disc and start playing games?</h1>
+						<h2>Can I just insert a PlayStation 3 game disc and start playing games?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -152,7 +166,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where do I get PlayStation 3 games and software?</h1>
+						<h2>Where do I get PlayStation 3 games and software?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -169,7 +183,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>How do I dump PlayStation 3 games and software?</h1>
+						<h2>How do I dump PlayStation 3 games and software?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -182,7 +196,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Can I play multiplayer games online with real consoles or other RPCS3 users?</h1>
+						<h2>Can I play multiplayer games online with real consoles or other RPCS3 users?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -195,7 +209,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Can I play local-multiplayer games with RPCS3?</h1>
+						<h2>Can I play local-multiplayer games with RPCS3?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -208,7 +222,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Can I at least import my save data from my real PlayStation 3? </h1>
+						<h2>Can I at least import my save data from my real PlayStation 3? </h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -221,7 +235,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Will RPCS3 be ported to platform X or include feature Y?</h1>
+						<h2>Will RPCS3 be ported to platform X or include feature Y?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -234,7 +248,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>I'd like to create a patch, contribute, or possibly become a developer. Where do I start?</h1>
+						<h2>I'd like to create a patch, contribute, or possibly become a developer. Where do I start?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -247,7 +261,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h1>Where can I submit issues, feedback and comments that I want to report?</h1>
+						<h2>Where can I submit issues, feedback and comments that I want to report?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
