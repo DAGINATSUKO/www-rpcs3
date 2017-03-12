@@ -27,26 +27,26 @@ https://github.com/daginatsuko
 <?php
 	preloadVideo(
 	'2',
-	'CqkmEKcITqU',
-	'The Legend of Spyro: Dawn of the Dragon',
-	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra. It was proceeded to be the final installment in the Spyro series. It was released for both PlayStation 2 and PlayStation 3.',
-	'Emulator_Team',
-	'High-Speed'
-	);
-	preloadVideo(
-	'3',
-	'ghEI8khqpSo',
-	'SoulCalibur IV',
-	'SoulCalibur IV is the fifth installment in Bandai Namco\'s SoulCalibur series of fighting games. The game features a healthy list of classic playable fighters with varying weapons and combat abilities. It was released for both PlayStation 3 and Xbox 360.',
+	'RKDS42xX8zM',
+	'Persona 5',
+	'Persona 5 is a turn-based 3D action role-playing game developed by Atlus. It is the sixth game in the Persona series. It was released in Japan on September 15th, 2016 for both PlayStation 3 and PlayStation 4 and is planned to release worldwide on April 4th, 2017.',
 	'John GodGames',
 	'Low-Speed'
 	);
 	preloadVideo(
+	'3',
+	'ngF-P2DinD0',
+	'SoulCalibur IV',
+	'SoulCalibur IV is the fifth installment in Bandai Namco\'s SoulCalibur series of fighting games. The game features a healthy list of classic playable fighters with varying weapons and combat abilities. It was released for both PlayStation 3 and Xbox 360.',
+	'John GodGames',
+	'Medium-Speed'
+	);
+	preloadVideo(
 	'4',
-	'Qhmcj8Zo6hE',
-	'Rainbow Moon',
-	'Rainbow Moon is a tactical RPG developed by SideQuest Studios. The game borrows heavily from dungeon crawler genres while incorporating elements from tactical RPGs. It was released exclusively for PlayStation 3, PlayStation 4 and PlayStation Vita.',
-	'thestalker01',
+	'CqkmEKcITqU',
+	'The Legend of Spyro: Dawn of the Dragon',
+	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra. It was proceeded to be the final installment in the Spyro series. It was released for both PlayStation 2 and PlayStation 3.',
+	'Emulator_Team',
 	'High-Speed'
 	);
 	preloadVideo(
@@ -85,6 +85,29 @@ https://github.com/daginatsuko
 <div id="page-con-content">
 	<div id="page-con-container">
 		<div id="page-in-container">
+			<!-- Countdown -->
+			<div id='countdown-con-container'>
+				<div id='countdown-tx1-body'>
+					 MAJOR ANNOUNCEMENT
+				</div>
+				<div id='countdown-div-body'>
+				</div>
+				<div id='countdown-tx2-body'>
+				</div>
+				<div id='countdown-div-body'>
+				</div>
+				<div id='countdown-ovr-body'>
+				</div>
+				<a href='https://discord.me/RPCS3' target="_blank">
+				<div id='countdown-btn-body'>
+				</div>
+				</a>
+				<div class="visual-wavebar-2">
+				</div>
+				<div class="visual-wavebar-2 delayed-fade" style="display:none;">
+				</div>
+			</div>
+			<!-- Countdown -->
 			<div id='featured-con-master'>
 				<!-- End -->
 				<div id='sidebar-con-container'>
@@ -105,7 +128,7 @@ https://github.com/daginatsuko
 					</div>
 					<!-- End -->
 					<div id='sidebar-con-bottom'>
-						<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
+						<a href='https://www.patreon.com/Nekotekina' target="_blank">
 						<div id='sidebar-img-bottom'>
 						</div>
 						<div id='sidebar-ovr-bottom'>
@@ -114,7 +137,7 @@ https://github.com/daginatsuko
 						</div>
 						<div id='sidebar-tx1-bottom'>
 							<p>
-								 Get Latest Build
+								 Support with Patreon
 							</p>
 						</div>
 						</a>
@@ -124,7 +147,7 @@ https://github.com/daginatsuko
 				<div id='featured-con-main'>
 					<div id='featured-con-content' style="background:#fff url('/img/featured/1.jpg') no-repeat center; background-size: cover;">
 						<div id='featured-tx1-speed'>
-							<p class="feature-2-speed">
+							<p class="feature-1-speed">
 								 Speed Here
 							</p>
 						</div>
@@ -163,29 +186,29 @@ https://github.com/daginatsuko
 					</div>
 				</div>
 			</div>
-			<div id='featured-wrp-duo'>
+			<div id='featured-wrp-panel'>
 				<!-- End -->
-				<a href='https://rpcs3.net/blog/2017/02/26/rpcs3-progress-report-february-2017/' target="_blank">
-				<div id='featured-con-duo' class="div-duo-left" style="background:#fff url('/img/featured/report.jpg') no-repeat center; background-size: cover; ">
-					<div id='featured-ovr-duo'>
+				<a href='https://rpcs3.net/blog/2017/03/11/des/' target="_blank">
+				<div id='featured-con-panel' class="div-panel-left" style="background:#fff url('/img/panels/report.jpg') no-repeat center; background-size: cover; ">
+					<div id='featured-ovr-panel'>
 					</div>
-					<div id='featured-ico-duo' style="background: url('/img/icons/menu/logo-h.png') no-repeat center; background-size: 130px;">
+					<div id='featured-ico-panel' style="background: url('/img/icons/panels/report.png') no-repeat center; background-size: 130px;">
 					</div>
-					<div id='featured-tx3-duo'>
+					<div id='featured-tx3-panel'>
 						<p>
-							 February Progress Report
+							 DEMON'S SOULS REPORT
 						</p>
 					</div>
 				</div>
 				</a>
 				<!-- End -->
 				<a href='https://discord.me/RPCS3' target="_blank">
-				<div id='featured-con-duo' class="div-duo-right" style="background:#fff url('/img/featured/discussion.jpg') no-repeat center; background-size: cover;">
-					<div id='featured-ovr-duo'>
+				<div id='featured-con-panel' class="div-panel-right" style="background:#fff url('/img/panels/server.jpg') no-repeat center; background-size: cover;">
+					<div id='featured-ovr-panel'>
 					</div>
-					<div id='featured-ico-duo' style="background: url('/img/icons/menu/discordserver.png') no-repeat center; background-size: 130px;">
+					<div id='featured-ico-panel' style="background: url('/img/icons/panels/server.png') no-repeat center; background-size: 130px;">
 					</div>
-					<div id='featured-tx3-duo'>
+					<div id='featured-tx3-panel'>
 						<p>
 							 Join The Discussion
 						</p>
@@ -214,9 +237,6 @@ https://github.com/daginatsuko
 <div id="page-con-content" style="background: #eaeaea;">
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<div id="featured-tx1-heading">
-				<h2>Featured Videos</h2>
-			</div>
 			<?php 
 				loadVideo('2', 'left');
 				loadVideo('3', 'right');

@@ -45,11 +45,6 @@ https://github.com/daginatsuko
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading">
-				<h2>Download RPCS3</h2>
-			</div>
-			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -78,11 +73,6 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			</a>
-			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading">
-				<h2>Build RPCS3</h2>
-			</div>
-			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -111,10 +101,6 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			</a>
-			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading">
-				<h2>Support RPCS3</h2>
-			</div>
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
