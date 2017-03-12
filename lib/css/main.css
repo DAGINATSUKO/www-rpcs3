@@ -36,7 +36,7 @@
 	position:absolute;
 	width:100%;
 	height:100%;
-	background:url(/img/icons/menu/logo-h.png) no-repeat center;
+	background:url(/img/icons/footer/logo.png) no-repeat center;
 	background-size:140px;
 }
 #footer-tx1-author {
@@ -65,7 +65,7 @@
 	width:100px;
 	height:60px;
 	cursor:pointer;
-	background:url('/img/icons/menu/discordserver.png') no-repeat center;
+	background:url('/img/icons/footer/discordserver.png') no-repeat center;
 	background-size:100px;
 }
 #footer-btn-discord:hover {
@@ -413,7 +413,6 @@
 	margin-left:-550px;
 	-webkit-animation-name:zoomIn;
 	animation-name:zoomIn;
-	-webkit-animation-duration:.5s;
 	-webkit-animation-duration:.4s;
 	-webkit-animation-iteration-count:1;
 	-webkit-box-shadow:0 0 100px 0 rgba(0,0,0,.75);
@@ -451,7 +450,7 @@
 	width:100%;
 	height:100%;
 	background:url(/img/icons/buttons/github.png) no-repeat center;
-	background-size:40px;
+	background-size: 54px;
 }
 #sidebar-ovr-top {
 	position:absolute;
@@ -459,14 +458,14 @@
 	top:0;
 	width:100%;
 	height:100%;
-	background:linear-gradient(to right,rgba(0,114,255,.8),rgba(166,0,217,.8));
+	background: linear-gradient(to right,rgba(0,114,255,.6),rgba(166,0,217,.6));
 }
 #sidebar-img-top {
 	position:absolute;
 	top:0;
 	width:100%;
 	height:100%;
-	background:url(/img/featured/github.jpg) no-repeat center;
+	background:url(/img/sidebars/github.jpg) no-repeat center;
 	background-size:cover;
 }
 #sidebar-tx1-top {
@@ -487,22 +486,22 @@
 	bottom:0;
 	width:100%;
 	height:100%;
-	background:url('/img/icons/buttons/appveyor.png') no-repeat center;
-	background-size:42px;
+	background: url('/img/icons/buttons/patreon.png') no-repeat center;
+	background-size: 54px;
 }
 #sidebar-ovr-bottom {
 	position:absolute;
 	bottom:0;
 	width:100%;
 	height:100%;
-	background:linear-gradient(to right,rgba(0,114,255,.8),rgba(166,0,217,.8));
+	background: linear-gradient(to right,rgba(0,114,255,.6),rgba(166,0,217,.6));
 }
 #sidebar-img-bottom {
 	position:absolute;
 	bottom:0;
 	width:100%;
 	height:100%;
-	background:url(/img/featured/download.jpg) no-repeat center;
+	background: url(/img/sidebars/patreon.jpg) no-repeat center;
 	background-size:cover;
 }
 #sidebar-tx1-bottom {
@@ -601,36 +600,36 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-#featured-wrp-duo {
+#featured-wrp-panel {
 	position:relative;
 	overflow:hidden;
 	height:120px;
 	margin-bottom:20px;
 }
-#featured-con-duo {
+#featured-con-panel {
 	position:relative;
 	overflow:hidden;
 	height:120px;
 	margin-bottom:20px;
 	transition:.1s ease-in-out;
 }
-#featured-con-duo:hover {
+#featured-con-panel:hover {
 	opacity:.9;
 }
-#featured-ovr-duo {
+#featured-ovr-panel {
 	position:absolute;
 	width:100%;
 	height:100%;
 	background:linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
 }
-#featured-ico-duo {
+#featured-ico-panel {
 	position:relative;
 	z-index:1;
 	float:left;
 	width:166px;
 	height:100%;
 }
-#featured-tx3-duo {
+#featured-tx3-panel {
 	font-family:helvetica;
 	font-size:17px;
 	font-weight:bold;
@@ -1131,11 +1130,6 @@
 	margin:-325px -250px;
 	background-size:cover;
 }
-#disclaimer-con-overlay {
-	position:absolute;
-	width:100%;
-	height:100%;
-}
 #disclaimer-ico-content {
 	position:relative;
 	width:100%;
@@ -1168,9 +1162,6 @@
 	color:#fff;
 }
 #disclaimer-btn-continue {
-	font-family:helvetica;
-	font-size:12px;
-	line-height:40px;
 	position:relative;
 	top:16px;
 	left:50%;
@@ -1256,11 +1247,11 @@
 	margin-top: -8px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-.div-duo-left {
+.div-panel-left {
 	float:left;
 	width:49.1%;
 }
-.div-duo-right {
+.div-panel-right {
 	float:right;
 	width: 49.1%;
 }

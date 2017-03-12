@@ -30,8 +30,6 @@ echo "<div id='featured-con-grid' class=\"div-video-$pos\">
 		</div>
 		<div id='featured-btn-play' class=\"page-video-$id\">
 		</div>
-			<div id='featured-ovr-play'>
-			</div>
 	</div>
 	<div id='featured-con-author'>
 		<div id='featured-ico-author'>
