@@ -322,8 +322,6 @@
 	width:100%;
 	height:400px;
 	background-size:cover !important;
-	-webkit-filter:grayscale(100%);
-	filter:grayscale(100%);
 }
 #header-con-overlay-a {
 	position:absolute;
@@ -1126,17 +1124,17 @@
 	top:50%;
 	left:50%;
 	width:500px;
-	height:650px;
-	margin:-325px -250px;
+	height: 550px;
+	margin: -275px -250px;
 	background-size:cover;
 }
 #disclaimer-ico-content {
 	position:relative;
 	width:100%;
 	height:40px;
-	margin-bottom:16px;
+	margin-bottom: 15px;
 	background:url('/img/icons/disclaimer/ps3.png') no-repeat center;
-	background-size:115px;
+	background-size: 92px;
 }
 #disclaimer-tx1-content {
 	font-family:helvetica;
@@ -1145,14 +1143,14 @@
 	position:relative;
 	width:100%;
 	height:auto;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 	text-align:center;
 	color:#fff;
 }
 #disclaimer-tx2-content {
 	font-family:helvetica;
 	font-size:12px;
-	line-height:24px;
+	line-height: 20px;
 	position:relative;
 	width:442px;
 	height:auto;
@@ -1165,19 +1163,20 @@
 	position:relative;
 	top:16px;
 	left:50%;
-	width:40px;
+	width: 76px;
 	height:40px;
-	margin:0 -20px;
+	margin: 0 -38px;
 	cursor:pointer;
 	text-align:center;
-	border:solid 2px #fff;
-	border-radius:100%;
-	background:url(/img/icons/menu/confirm.png) no-repeat center;
-	background-size:16px;
+	border-radius: 6px;
+	font-family: helvetica;
+	font-size: 12px;
+	line-height: 40px;
+	color: #fff;
+	background: rgba(255, 255, 255, .1);
 }
 #disclaimer-btn-continue:hover {
-	background:#fff url(/img/icons/menu/confirm-h.png) no-repeat center;
-	background-size: 16px;
+	background:rgba(255, 255, 255, .2);
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .txt-link {
