@@ -1,6 +1,8 @@
 <div id='menu-con-navbar'>
+	<a href='/'>
 	<div id='menu-ico-logo'>
 	</div>
+	</a>
 	<div id='menu-btn-open' type="button">
 	</div>
 	<a href="https://www.patreon.com/Nekotekina" target="_blank">

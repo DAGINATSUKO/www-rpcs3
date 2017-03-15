@@ -135,6 +135,9 @@
 	background:url('/img/icons/menu/logo.png') no-repeat center;
 	background-size:80px;
 }
+#menu-ico-logo:hover {
+	opacity:0.8;
+}
 #menu-ico-patreon {
 	position:absolute;
 	top:0;
