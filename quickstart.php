@@ -74,15 +74,6 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/ins.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-ins">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
 						<div id='featured-ico-block' style="background:url('/img/icons/list/gpu.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
@@ -104,9 +95,11 @@ https://github.com/daginatsuko
 						<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
-							<p class="reqs-files">
-								 Requirement Here
-							</p>
+							<a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">
+								<p class="reqs-files">
+									 Requirement Here
+								</p>
+							</a>
 						</div>
 					</div>
 					<div id='featured-lst-block'>
@@ -291,13 +284,26 @@ https://github.com/daginatsuko
 							 • .pkg files will be automatically installed to: <b>\dev_hdd0\game\</b>
 						</p>
 						<p>
-							 • Blu-ray Disc game data can be placed <b>anywhere</b> and must be booted with 'Boot Game'.
+							 • Blu-ray Disc game data can be placed anywhere except for <b>\dev_hdd0\game\</b> and must be booted with 'Boot Game'.
 						</p>
 						<p>
 							 • PlayStation Network game data must be placed in: <b>\dev_hdd0\game\</b>
 						</p>
 						<p>
 							 • PlayStation Network .rap files must be placed in: <b>\dev_hdd0\home\00000001\exdata\</b>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>How do I apply PlayStation 3 game and software updates</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built in 'Install PKG' option. The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates <b>must be the same region in order to work</b>. Cross-mixing game or  software regions may create irreversible damage to the game or software.
 						</p>
 					</div>
 				</div>

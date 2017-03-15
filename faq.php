@@ -101,6 +101,19 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
+						<h2>Is RPCS3 designed for single-core performance or multi-threaded performance?</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 RPCS3 is designed to make use of as many threads as possible. This means that processors such as Intel's 8 core, 16 thread 6900K or AMD's 8 core, 16 thread Ryzen R7 1700X will benefit greatly for emulating games at higher speeds. CPUs such as the Intel Core i7-7700K and the AMD FX 8320 will suffice but will not perform equally as well as a processor with more cores and threads.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
 						<h2>How can I get started using RPCS3 on my PC?</h2>
 					</div>
 					<div id='featured-tx2-block'>

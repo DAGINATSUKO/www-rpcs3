@@ -52,9 +52,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
-							 You can always download the latest pre-compiled developer build of RPCS3 from our AppVeyor. Feel free to ask any RPCS3 community members or developers on the RPCS3 GitHub or Discord server if you have questions or concerns. Be sure to refer to the <a href="/quickstart">quickstart</a> guide if you're a newcomer to get RPCS3 up and running on your system. <br>
-							<br>
-							<b>Updated frequently, see AppVeyor build date.</b>
+							 You can always download the latest pre-compiled developer build of RPCS3 from our AppVeyor. Feel free to ask any RPCS3 community members or developers on the RPCS3 GitHub or Discord server if you have questions or concerns. Be sure to refer to the <a href="/quickstart">quickstart</a> guide if you're a newcomer to get RPCS3 up and running on your system.
 						</p>
 					</div>
 				</div>
@@ -73,6 +71,7 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			</a>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -80,9 +79,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Feel free to use RPCS3's source code to compile your very own custom RPCS3 build. You can use your own build to implement and test new features or fixes and then submit a pull request. Once you feel comfortable with your work, test your changes and send a pull request and we'll review it. Feel free to ask any RPCS3 developers on the RPCS3 GitHub or Discord server if you have questions or concerns. <br>
-							<br>
-							<b>Updated frequently, see GitHub changes.</b>
+							 Feel free to use RPCS3's source code to compile your very own custom RPCS3 build. You can use your own build to implement and test new features or fixes and then submit a pull request. Once you feel comfortable with your work, test your changes and send a pull request and we'll review it. Feel free to ask any RPCS3 developers on the RPCS3 GitHub or Discord server if you have questions or concerns.
 						</p>
 					</div>
 				</div>
@@ -101,6 +98,7 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			</a>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -110,7 +108,7 @@ https://github.com/daginatsuko
 						<p>
 							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners. RPCS3 is in no way affiliated with Sony, PlayStation or any mentioned software developers for PlayStation 3. <br>
 							<br>
-							<b>Last updated on March 1st, 2017.</b>
+							<p>Last updated on March 1st, 2017.</p>
 						</p>
 					</div>
 				</div>

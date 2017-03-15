@@ -230,6 +230,20 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
+			<div id='featured-con-button'>
+				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
+					</div>
+					<div id='featured-tx1-button'>
+						<p class="build-number">
+							 Build Number Here
+						</p>
+					</div>
+				</div>
+			</div>
+			</a>
+			<!-- End -->
 		</div>
 	</div>
 </div>
@@ -304,15 +318,6 @@ https://github.com/daginatsuko
 						</div>
 					</div>
 					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/ins.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-ins">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
 						<div id='featured-ico-block' style="background:url('/img/icons/list/gpu.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
@@ -334,9 +339,11 @@ https://github.com/daginatsuko
 						<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 16px;">
 						</div>
 						<div id='featured-tx3-block'>
-							<p class="reqs-files">
-								 Requirement Here
-							</p>
+							<a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">
+								<p class="reqs-files">
+									 Requirement Here
+								</p>
+							</a>
 						</div>
 					</div>
 					<div id='featured-lst-block'>
