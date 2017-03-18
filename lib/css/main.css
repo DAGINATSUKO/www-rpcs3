@@ -44,7 +44,7 @@
 	font-size:10px;
 	line-height:60px;
 	position:absolute;
-	bottom:0;
+	bottom: 40px;
 	width:100%;
 	height:60px;
 	text-align:center;
@@ -57,10 +57,22 @@
 #footer-tx1-author a {
 	color:#fff !important;
 }
+#footer-tx2-meta {
+    background: linear-gradient(to right, #a600d9, #0072ff);
+    position: relative;
+    padding-left: 24px;
+    height: 40px;
+    font-family: helvetica;
+    font-size: 10px;
+    line-height: 40px;
+    color: #fff;
+    text-align: left;
+    border-top: solid 1px rgba(255, 255, 255, .1);
+}
 #footer-btn-discord {
 	position:absolute;
 	z-index:1;
-	bottom:0;
+	bottom: 40px;
 	left:20px;
 	width:100px;
 	height:60px;
@@ -419,6 +431,70 @@
 	-webkit-box-shadow:0 0 100px 0 rgba(0,0,0,.75);
 	-moz-box-shadow:0 0 100px 0 rgba(0,0,0,.75);
 	box-shadow: 0 0 100px 0 rgba(0,0,0,.75);
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#countdown-con-container {
+	position:relative;
+	display:none;
+	width:100%;
+	height:200px;
+	margin-bottom:20px;
+	background:#000 url(/img/countdown/countdown.jpg) no-repeat center;
+	background-size:cover;
+}
+#countdown-ovr-body {
+	position:absolute;
+	z-index:1;
+	width:100%;
+	height:100%;
+	background:linear-gradient(to right,rgba(237,203,116,.8),rgba(149,103,28,.8));
+}
+#countdown-tx1-body {
+	font-family:helvetica;
+	font-size:14px;
+	line-height:70px;
+	position:absolute;
+	z-index:2;
+	width:100%;
+	height:70px;
+	text-align:center;
+	text-indent:8px;
+	letter-spacing:8px;
+	color:#fff;
+}
+#countdown-tx2-body {
+	font-family:helvetica;
+	font-size:16px;
+	line-height:70px;
+	position:absolute;
+	z-index:2;
+	top:70px;
+	width:100%;
+	height:70px;
+	text-align:center;
+	color:#fff;
+}
+#countdown-btn-body {
+	position:absolute;
+	z-index:3;
+	bottom:10px;
+	left:50%;
+	width:180px;
+	height:64px;
+	margin:0 -90px;
+	cursor:pointer;
+	background:url(/img/icons/panels/server.png) no-repeat center;
+	background-size:130px;
+}
+#countdown-div-body {
+	position:absolute;
+	z-index:2;
+	top:70px;
+	left:50%;
+	width:40px;
+	height:1px;
+	margin:0 -20px;
+	background: #fff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #sidebar-con-top {
@@ -1015,7 +1091,6 @@
 	padding-left:10px;
 	text-align:center;
 	color:#fff;
-	border-radius:16px;
 }
 #compat-hdr-right a:hover {
 	opacity:.8;
@@ -1073,8 +1148,7 @@
 	padding-bottom:4px;
 	padding-left:4px;
 	text-align:left;
-	border-radius:16px;
-	background: rgba(0,37,86,.4);
+	border: solid 1px #000;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #error-con-content {
@@ -1121,6 +1195,64 @@
 	height:100%;
 	background:linear-gradient(to right,#a600d9,#0072ff);
 }
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#announce-con-content {
+	position:fixed;
+	z-index:200;
+	width:100%;
+	height:100%;
+}
+#announce-btn-overlay {
+	position:absolute;
+	z-index:10;
+	width:100%;
+	height:100%;
+}
+#announce-con-overlay {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.8);
+}
+#announce-ico-content {
+	position:absolute;
+	top:-124px;
+	width:100%;
+	height:124px;
+	background:url('/img/countdown/logo.png') no-repeat center;
+	background-size:160px;
+}
+#announce-btn-discord {
+	position:absolute;
+	z-index:9999;
+	bottom:0;
+	left:0;
+	width:132px;
+	height:64px;
+	cursor:pointer;
+	background:url(/img/icons/panels/server.png) no-repeat center;
+	background-size:100px;
+}
+#announce-btn-continue {
+	position:relative;
+	top:16px;
+	left:50%;
+	width: 76px;
+	height:40px;
+	margin: 0 -38px;
+	cursor:pointer;
+	text-align:center;
+	border-radius: 6px;
+	font-family: helvetica;
+	font-size: 12px;
+	line-height: 40px;
+	color: #fff;
+	background: rgba(255, 255, 255, .1);
+}
+#announce-btn-continue:hover {
+	background:rgba(255, 255, 255, .2);
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #disclaimer-con-content {
 	position:fixed;
 	z-index:200;
@@ -1201,7 +1333,6 @@
 	padding-left:8px;
 	text-align:center;
 	color:#fff !important;
-	border-radius:20px;
 	background:#20b2aa;
 }
 .txt-compat-nobuild {
@@ -1217,12 +1348,11 @@
 .txt-compat-status {
 	line-height:20px;
 	position:relative;
-	width:auto;
+	width: 70px;
 	height:20px;
 	text-align:center;
 	text-transform:none;
 	color:#fff !important;
-	border-radius:20px;
 }
 .txt-compat-build:hover {
 	opacity:.8;

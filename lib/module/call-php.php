@@ -1,10 +1,11 @@
-<!--
+<!-- Announcment
 <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
    $path .= "/lib/module/ui-announce.php";
    include_once($path);
 ?>
  -->
+ <!-- Common -->
  <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
    $path .= "/lib/module/ui-disclaimer.php";
