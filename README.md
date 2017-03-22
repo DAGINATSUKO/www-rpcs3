@@ -1,4 +1,4 @@
-# RPCS3 Official Website
+# RPCS3 Website
 Official source code for https://rpcs3.net
 
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation®. 
