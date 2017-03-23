@@ -14,6 +14,7 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * PHP 7.0
 * jQuery 3.2.0
 * MySQL
+* Human brain
 
 ## Targets
 * Google Chrome
