@@ -17,9 +17,10 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 
 ## Targets
 * Google Chrome
-* Mozilla Firefox
-* Apple Safari
 * Microsoft Edge
+* Apple Safari
+* Mozilla Firefox
+* Opera Software Opera
 
 ## Milestones
 * 2017.01.22 - RPCS3.net initialized (https://github.com/daginatsuko)
