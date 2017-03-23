@@ -1,11 +1,14 @@
+<?php
+if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missing. Failed to include core.php");
+
+if (isset($_GET['h']) & isset($_GET['rss'])) { echo getHistoryRSS(); } 
+else {
+?>
 <!-- 
 RPCS3.net Compatibility List by AniLeo
 https://github.com/AniLeo
 2017.01.22 
 -->
-<?php
-if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missing. Failed to include core.php");
-?>
 <!--End -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -52,8 +55,8 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 		</div>
 	</div>
 	<?php 
-	if (!isset($_GET['h'])) { include 'lib/module/call-compat.php'; }
-	else { include 'lib/module/call-compathistory.php'; }
+	if (!isset($_GET['h'])) { include 'lib/compat/compatibility.php'; }
+	else { include 'lib/compat/history.php'; }
 	?>
 	<!--End -->
 	<!-- Page Footer -->
@@ -61,3 +64,4 @@ if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missin
 	<!-- Page End -->
 	</body>
 	</html>
+<?php } ?>

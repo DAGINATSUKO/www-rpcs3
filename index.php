@@ -23,7 +23,7 @@ https://github.com/daginatsuko
 <?php include 'lib/module/call-sys.php';?>
 <?php include 'lib/module/call-php.php';?>
 <?php include 'lib/module/call-video.php'?>
-<?php include 'lib/module/ui-video.php';?>
+<?php include 'lib/module/call-video-main.php';?>
 <?php
 	preloadVideo(
 	'2',
@@ -34,12 +34,12 @@ https://github.com/daginatsuko
 	'Low-Speed'
 	);
 	preloadVideo(
-	'3',
-	'ngF-P2DinD0',
-	'SoulCalibur IV',
-	'SoulCalibur IV is the fifth installment in Bandai Namco\'s SoulCalibur series of fighting games. The game features a healthy list of classic playable fighters with varying weapons and combat abilities. It was released for both PlayStation 3 and Xbox 360.',
-	'John GodGames',
-	'Medium-Speed'
+	'5',
+	'fpyfKRQti7A',
+	'The Legend of Heroes: Trails of Cold Steel',
+	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom and published by XSEED Games in North America. It is the first game in the Trails of Cold Steel series. It was released exclusively for both the PlayStation 3 and PlayStation Vita.',
+	'Blast Processing',
+	'High-Speed'
 	);
 	preloadVideo(
 	'4',
@@ -50,11 +50,11 @@ https://github.com/daginatsuko
 	'High-Speed'
 	);
 	preloadVideo(
-	'5',
-	'mIHYAAq5NNM',
-	'Dragon Ball Z: Burst Limit',
-	'Dragon Ball Z: Burst Limit is a 3D multi-directional fighting game developed by Dimps and published by Atari in North America. It is heavily based on the popular anime and manga series Dragon Ball Z. It was released for both PlayStation 3 and Xbox 360.',
-	'Rain Kikyou',
+	'3',
+	'c7Oq5O7uX0E',
+	'Catherine',
+	'Catherine is a puzzle-platformer adventure game developed by Atlus and directed by Katsura Hashino. It is the first original Atlus title that was developed with high-definition consoles in mind. It was released for both PlayStation 3 and Xbox 360.',
+	'Official RPCS3',
 	'High-Speed'
 	);
 ?>
@@ -85,29 +85,9 @@ https://github.com/daginatsuko
 <div id="page-con-content">
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<!-- Countdown -->
-			<div id='countdown-con-container'>
-				<div id='countdown-tx1-body'>
-					 MAJOR ANNOUNCEMENT
-				</div>
-				<div id='countdown-div-body'>
-				</div>
-				<div id='countdown-tx2-body'>
-				</div>
-				<div id='countdown-div-body'>
-				</div>
-				<div id='countdown-ovr-body'>
-				</div>
-				<a href='https://discord.me/RPCS3' target="_blank">
-				<div id='countdown-btn-body'>
-				</div>
-				</a>
-				<div class="visual-wavebar-2">
-				</div>
-				<div class="visual-wavebar-2 delayed-fade" style="display:none;">
-				</div>
-			</div>
-			<!-- Countdown -->
+			<!-- End -->
+			<?php include 'lib/module/el-countdown.php';?>
+			<!-- End -->
 			<div id='featured-con-master'>
 				<!-- End -->
 				<div id='sidebar-con-container'>
@@ -294,96 +274,7 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>Minimum Requirements</h2>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/os.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-os">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/cpu.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-cpu">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/gpu.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-gpu">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/ram.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-ram">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">
-								<p class="reqs-files">
-									 Requirement Here
-								</p>
-							</a>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/lle.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-lle">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/disc.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-rom">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/hdd.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-hdd">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-					<div id='featured-lst-block'>
-						<div id='featured-ico-block' style="background:url('/img/icons/list/piracy.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx3-block'>
-							<p class="reqs-piracy">
-								 Requirement Here
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php include 'lib/module/el-requirements.php';?>
 			<!-- End -->
 			<div id="page-in-container">
 				<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">

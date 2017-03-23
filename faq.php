@@ -131,7 +131,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is stable enough to boot into games and play some of them with ease. Stability is more of a per-game factor that may change with new builds as new features get implemented. As emulators progress in accuracy, there may be some regressions that occur and stability is typically one of them. Rest assured, the developers are always hard at work when it comes to keeping RPCS3 as stable as possible for now and into the future.
+							 RPCS3 is stable enough to boot into games and play many of them with ease. Stability is more of a per-game factor that may change with new builds as new features get implemented. As emulators progress in accuracy, there may be some regressions that occur and stability is typically one of them. Rest assured, the developers are always hard at work when it comes to keeping RPCS3 as stable as possible for now and into the future.
 						</p>
 					</div>
 				</div>
