@@ -8,7 +8,7 @@ The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "
 ## Technologies
 HTML 5.0, CSS 3.0, PHP 7.0, jQuery 3.2.0, MySQL
 
-## Target Platforms
+## Targets
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
@@ -17,7 +17,7 @@ HTML 5.0, CSS 3.0, PHP 7.0, jQuery 3.2.0, MySQL
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3.net and its source code for any purpose, but distributing RPCS3.net requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to https://GNU.org
 
-## Notes
+## Milestones
 * 2017.01.22 - RPCS3.net initialized (https://github.com/daginatsuko)
 * 2017.01.22 - RPCS3.net compatibility list initialized (https://github.com/AniLeo)
 * 2017.02.06 - RPCS3.net blog initialized  (https://github.com/daginatsuko)
