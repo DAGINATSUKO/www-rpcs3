@@ -1,3 +1,19 @@
 .div-notify {
 	display: none;
 }
+#menu-img-overflow {
+	background: url(/img/icons/aesthetic/overflow.png) repeat-x;
+	background-size: contain;
+	width: 270px;
+	height: 25px;
+	position: absolute;
+	top: -26px;
+	pointer-events: none;
+}
+#menu-con-filler {
+	position:relative;
+	float:left;
+	width:222px;
+	height:45px;
+	padding-left:48px;
+}

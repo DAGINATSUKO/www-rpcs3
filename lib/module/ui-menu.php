@@ -101,9 +101,15 @@
 				<div id='menu-ico-button' class="ico-github" style="background:url('/img/icons/menu/github.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
+				<div id="menu-con-filler">
+				</div>
+				<div id="menu-con-filler">
+				</div>
 			</div>
 		</div>
 		<div id='menu-con-footer'>
+		<div id='menu-img-overflow'>
+		</div>
 			<div id='menu-ico-footer'>
 			</div>
 			<a href="https://github.com/DAGINATSUKO/RPCS3-Website" target="_blank">

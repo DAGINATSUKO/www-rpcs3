@@ -112,11 +112,13 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-con-footer {
-	position:absolute;
+	position: fixed;
 	bottom:0;
-	width:100%;
+	width: 270px;
 	height:60px;
 	border-top:1px solid rgba(0,0,0,.1);
+	background: #fff;
+	z-index: 1;
 }
 #menu-ico-footer {
 	width:60px;
@@ -127,7 +129,7 @@
 #menu-tx1-footer {
 	font-family:helvetica;
 	font-size:12px;
-	line-height:60px;
+	line-height: 62px;
 	position:relative;
 	bottom:60px;
 	height:100%;
@@ -178,12 +180,15 @@
 	font-family:helvetica;
 	font-size:12px;
 	line-height:60px;
-	position:relative;
+	position: fixed;
 	height:60px;
+	width: 250px;
 	padding-left:20px;
 	letter-spacing:4px;
 	color:#002556;
+	background: #fff;
 	border-bottom:1px solid rgba(0,0,0,.1);
+	z-index: 2;
 }
 #menu-btn-open {
 	position:absolute;
@@ -227,11 +232,22 @@
 	-webkit-animation-duration:.2s;
 	-webkit-animation-iteration-count:1;
 	background: #fff;
+	overflow-y: scroll;
 }
+
+#menu-con-anim::-webkit-scrollbar {
+	width:5px;
+	display:none;
+}
+
+
+
+
+
+
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-con-menu {
 	position:absolute;
-	z-index:9999;
 	top:60px;
 	left:0;
 	width:100%;
@@ -1129,8 +1145,6 @@
 	padding-bottom:15px;
 	text-align:center;
 	color:#000;
-	border-bottom:1px solid red;
-	border-bottom:2px solid rgba(0,0,0,.1);
 	background: #fff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1343,7 +1357,6 @@
 	cursor:pointer;
 	text-align:center;
 	color:#fff !important;
-	border-radius:20px;
 }
 .txt-compat-status {
 	line-height:20px;
@@ -1489,7 +1502,7 @@
 }
 .markdown-body h2 {
 	font-family:helvetica;
-	font-size:16px;
+	font-size: 14px;
 	font-weight:600;
 	margin-bottom:16px;
 	margin-left:9px;
