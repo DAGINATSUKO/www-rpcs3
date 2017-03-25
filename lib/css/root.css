@@ -118,6 +118,9 @@ td {
 	line-height: 38px;
 	color:#000;
 }
+td a:hover {
+	text-decoration:underline;
+}
 tr {
 	background:#fff;
 }

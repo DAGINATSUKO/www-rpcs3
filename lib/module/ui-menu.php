@@ -3,6 +3,9 @@
 	<div id='menu-ico-logo'>
 	</div>
 	</a>
+	<div id='menu-tx1-open'>
+		MENU
+	</div>
 	<div id='menu-btn-open' type="button">
 	</div>
 	<a href="https://www.patreon.com/Nekotekina" target="_blank">
@@ -13,7 +16,7 @@
 <div id='menu-con-dim' class='toggle-menu'>
 	<div id='menu-con-anim' class='dropin-load'>
 		<div id="menu-tx1-title" style='-webkit-animation-duration: .4s;'>
-			NAVIGATION
+			MAIN MENU
 		</div>
 		<div id='menu-con-canvas'>
 			<div id="menu-con-menu">
@@ -85,6 +88,13 @@
 					 Discord
 				</div>
 				<div id='menu-ico-button' class="ico-discord" style="background:url('/img/icons/menu/discord.png') no-repeat center; background-size: 20px;">
+				</div>
+				</a>
+				<a href='https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ' target="_blank">
+				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
+					 YouTube
+				</div>
+				<div id='menu-ico-button' class="ico-youtube" style="background:url('/img/icons/menu/youtube.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
 				<a href='https://www.reddit.com/r/rpcs3/' target="_blank">

@@ -161,19 +161,10 @@
 	cursor:pointer;
 	transition:all .1s ease-in-out;
 	background:url('/img/icons/menu/patreon.png') no-repeat center;
-	background-size:80px;
+	background-size: 70px;
 }
 #menu-ico-patreon:hover {
 	opacity: .8;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-.min-ico-patreon {
-	width:60px !important;
-	height:100% !important;
-	transition:all .1s ease-in-out;
-	border-bottom:1px solid rgba(0,0,0,0) !important;
-	background:url('/img/icons/menu/patreon-min.png') no-repeat center !important;
-	background-size: 20px !important;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-tx1-title {
@@ -189,6 +180,7 @@
 	background: #fff;
 	border-bottom:1px solid rgba(0,0,0,.1);
 	z-index: 2;
+	pointer-events: none;
 }
 #menu-btn-open {
 	position:absolute;
@@ -329,6 +321,10 @@
 	background:url('/img/icons/menu/discord-h.png') no-repeat center !important;
 	background-size:20px !important;
 }
+#menu-btn-button:hover ~ .ico-youtube {
+	background:url('/img/icons/menu/youtube-h.png') no-repeat center !important;
+	background-size:15px !important;
+}
 #menu-btn-button:hover ~ .ico-reddit {
 	background:url('/img/icons/menu/reddit-h.png') no-repeat center !important;
 	background-size:15px !important;
@@ -343,7 +339,7 @@
 	z-index:2;
 	overflow:hidden;
 	width:100%;
-	height:400px;
+	height: 450px;
 	margin-top:60px;
 	background:#0072ff;
 }
@@ -351,7 +347,7 @@
 	position:absolute;
 	display:none;
 	width:100%;
-	height:400px;
+	height: 100%;
 	background-size:cover !important;
 }
 #header-con-overlay-a {
@@ -410,7 +406,6 @@
 #header-tx1-body-b {
 	font-family:helvetica;
 	font-size:60px;
-	font-weight:bold;
 	line-height:80px;
 	height:80px;
 	text-align:center;
@@ -1063,6 +1058,7 @@
 	position:relative;
 	width:100%;
 	height:auto;
+	min-height: 32px;
 	margin-top:20px;
 	margin-bottom:20px;
 	padding-top:4px;
@@ -1163,6 +1159,7 @@
 	padding-left:4px;
 	text-align:left;
 	border: solid 1px #000;
+	border-radius: 100%;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #error-con-content {

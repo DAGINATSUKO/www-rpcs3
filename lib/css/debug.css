@@ -17,3 +17,18 @@
 	height:45px;
 	padding-left:48px;
 }
+
+#menu-tx1-open {
+	position:absolute;
+	width: 74px;
+	height: 60px;
+	left: 60px;
+	font-family: helvetica;
+	font-size: 12px;
+	line-height: 60px;
+	text-align: center;
+	color: #002556;
+	letter-spacing: 4px;
+	text-indent: 4px;
+	pointer-events: none;
+}
