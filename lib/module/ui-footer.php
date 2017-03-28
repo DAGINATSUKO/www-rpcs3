@@ -4,6 +4,10 @@
 	<div id="footer-btn-discord">
 	</div>
 	</a>
+	<a href='https://github.com/RPCS3/rpcs3' target="_blank" title="RPCS3 Discord Server">
+	<div id="footer-btn-github">
+	</div>
+	</a>
 	<div id="footer-ovr-wrapper">
 	</div>
 	<div class="visual-wavebar-1">

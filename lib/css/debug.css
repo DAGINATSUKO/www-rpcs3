@@ -17,7 +17,6 @@
 	height:45px;
 	padding-left:48px;
 }
-
 #menu-tx1-open {
 	position:absolute;
 	width: 74px;
@@ -31,4 +30,74 @@
 	letter-spacing: 4px;
 	text-indent: 4px;
 	pointer-events: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#featured-ava-block {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	top: 22px;
+	left: 26px;
+}
+#featured-ava-block:hover {
+	opacity:0.8;
+}
+#featured-nat-block {
+	width: 26px;
+	height: 26px;
+	top: -12px;
+	left: -14px;
+	position: absolute;
+	border-radius: 100%;
+	border: solid 4px #fff;
+}
+.div-avatar-block {
+	left: 120px !important;
+	padding-right: 136px !important;
+}
+
+.div-txt-role {
+	position: relative;
+	float: left;
+	background: #20b2aa;
+	padding-left: 6px;
+	padding-right: 6px;
+	margin-left: 8px;
+	top: 2px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 20px;
+	height: 20px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.div-role-cdev {
+	background-color: #e74c3c !important;
+}
+.div-role-gdev {
+	background-color: #e74c3c !important;
+}
+.div-role-cman {
+	background-color: #e67e22 !important;
+}
+
+.div-role-fdev {
+	background-color: #34495e !important;
+}
+.div-role-cldev {
+	background-color: #3498db !important;
+}
+
+.div-role-ddev {
+	background-color: #f1c40f !important;
+}
+.div-role-wdev {
+	background-color: #3498db !important;
+}
+.div-role-ccdev {
+	background-color: #f39c12 !important;
+}
+.div-role-desi {
+	background-color: #3498db !important;
 }
