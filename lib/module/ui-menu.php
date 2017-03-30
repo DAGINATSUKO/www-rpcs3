@@ -34,6 +34,15 @@
 				<div id='menu-ico-button' class="ico-blog" style="background:url('/img/icons/menu/blog.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
+				
+				<a href='/team'>
+				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
+					 Team
+				</div>
+				<div id='menu-ico-button' class="ico-team" style="background:url('/img/icons/menu/team.png') no-repeat center; background-size: 15px;">
+				</div>
+				</a>
+				
 				<a href='/roadmap'>
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Roadmap
