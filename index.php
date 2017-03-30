@@ -168,7 +168,7 @@ https://github.com/daginatsuko
 			</div>
 			<div id='featured-wrp-panel'>
 				<!-- End -->
-				<a href='https://rpcs3.net/blog/2017/03/11/des/' target="_blank">
+				<a href='https://rpcs3.net/blog/2017/03/27/progress-report-march-2017/' target="_blank">
 				<div id='featured-con-panel' class="div-panel-left" style="background:#fff url('/img/panels/report.jpg') no-repeat center; background-size: cover; ">
 					<div id='featured-ovr-panel'>
 					</div>
@@ -176,7 +176,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx3-panel'>
 						<p>
-							 DEMON'S SOULS REPORT
+							 MARCH 2017 PROGRESS REPORT
 						</p>
 					</div>
 				</div>

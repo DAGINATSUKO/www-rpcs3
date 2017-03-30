@@ -90,7 +90,10 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Firmware modules are selected <b>automatically</b> based on the PlayStation 3 game or software that is loaded. You can still <b>override</b> automatic module selection and chose which firmware modules you want to use manually, but it is not recommended to do so. These are the minimum set of modules that must be enabled at all times for games to boot and function as intended.
+							 Firmware modules are selected <b>automatically</b> based on the PlayStation 3 game or software that is loaded. You can still <b>override</b> automatic module selection and chose which firmware modules you want to use manually, but it is not recommended to do so.
+							 <br>
+							 <br>
+							 These are the minimum set of modules that must be enabled if you chose  <b>not</b> to  use the <b>Load Required Libraries</b> setting:
 						</p>
 						<br>
 						<p>
@@ -238,6 +241,9 @@ https://github.com/daginatsuko
 							 • ASUS <b>BC-12B1ST</b>
 						</p>
 						<p>
+							 • ASUS <b>BW-16D1HT</b>
+						</p>
+						<p>
 							 • BENQ <b>BR1000</b>
 						</p>
 						<p>
@@ -250,7 +256,7 @@ https://github.com/daginatsuko
 							 • LG BD <b>Bh26NS40</b>
 						</p>
 						<p>
-							 • LG BD <b>Uh22NS30</b>
+							 • LG BD <b>Uh12NS30</b>
 						</p>
 						<p>
 							 • LG BD <b>Wh24NS40</b>
