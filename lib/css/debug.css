@@ -1,36 +1,6 @@
 .div-notify {
 	display: none;
 }
-#menu-img-overflow {
-	background: url(/img/icons/aesthetic/overflow.png) repeat-x;
-	background-size: contain;
-	width: 270px;
-	height: 25px;
-	position: absolute;
-	top: -26px;
-	pointer-events: none;
-}
-#menu-con-filler {
-	position:relative;
-	float:left;
-	width:222px;
-	height:45px;
-	padding-left:48px;
-}
-#menu-tx1-open {
-	position:absolute;
-	width: 74px;
-	height: 60px;
-	left: 60px;
-	font-family: helvetica;
-	font-size: 12px;
-	line-height: 60px;
-	text-align: center;
-	color: #002556;
-	letter-spacing: 4px;
-	text-indent: 4px;
-	pointer-events: none;
-}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featured-ava-block {
 	position: absolute;
@@ -58,54 +28,4 @@
 	display: none;
 	border: solid 2px #fff;
 	transition:.2s ease-in-out;
-}
-.div-avatar-block {
-	left: 120px !important;
-	padding-right: 136px !important;
-}
-.div-txt-role {
-	position: relative;
-	float: left;
-	background: #20b2aa;
-	padding-left: 6px;
-	padding-right: 6px;
-	margin-left: 8px;
-	top: 2px;
-	color: #fff;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 20px;
-	height: 20px;
-}
-.div-member-block {
-	min-height: 114px !important;
-	overflow: visible !important;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-.div-role-cdev {
-	background-color: #e74c3c !important;
-}
-.div-role-gdev {
-	background-color: #e74c3c !important;
-}
-.div-role-cman {
-	background-color: #e67e22 !important;
-}
-.div-role-fdev {
-	background-color: #34495e !important;
-}
-.div-role-cldev {
-	background-color: #3498db !important;
-}
-.div-role-ddev {
-	background-color: #f1c40f !important;
-}
-.div-role-wdev {
-	background-color: #3498db !important;
-}
-.div-role-ccdev {
-	background-color: #f39c12 !important;
-}
-.div-role-desi {
-	background-color: #3498db !important;
 }
