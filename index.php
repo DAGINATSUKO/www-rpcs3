@@ -190,7 +190,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx3-panel'>
 						<p>
-							 Join The Discussion
+							 JOIN THE DISCUSSION
 						</p>
 					</div>
 				</div>
@@ -210,6 +210,34 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+						<div id='featured-wrp-panel'>
+				<!-- End -->
+				<a href='https://rpcs3.net/compatibility' target="_blank">
+				<div id='featured-con-panel' class="div-con-panel-min div-panel-left">
+					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/buttons/playable.png') no-repeat center; background-size: 130px;">
+					</div>
+					<div id='featured-tx3-panel' class="div-txt-panel-min">
+						<p>
+							 What games are currently playable?
+						</p>
+					</div>
+				</div>
+				</a>
+				<!-- End -->
+				<a href='https://rpcs3.net/faq' target="_blank">
+				<div id='featured-con-panel' class="div-con-panel-min div-panel-right">
+					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/buttons/faq.png') no-repeat center; background-size: 130px;">
+					</div>
+					<div id='featured-tx3-panel' class="div-txt-panel-min">
+						<p>
+							 What should I know before using this emulator?
+						</p>
+					</div>
+				</div>
+				</a>
+			</div>
+			
+			
 			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
@@ -237,7 +265,6 @@ https://github.com/daginatsuko
 				loadVideo('4', 'left');
 				loadVideo('5', 'right');
 			?>
-			<!-- End -->
 		</div>
 	</div>
 </div>
@@ -275,48 +302,6 @@ https://github.com/daginatsuko
 			</div>
 			<!-- End -->
 			<?php include 'lib/module/el-requirements.php';?>
-			<!-- End -->
-			<div id="page-in-container">
-				<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
-				<div id='featured-con-button' style="background: #fff;" class="div-button-left">
-					<div id='featured-wrp-button' style="width: 168px; margin: 0 -84px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/forum.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx1-button' style="color:#002556;">
-							<p>
-								 Community Forum
-							</p>
-						</div>
-					</div>
-				</div>
-				</a>
-				<a href='/quickstart' target="_blank">
-				<div id='featured-con-button' style="background: #fff;" class="div-button-center">
-					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/newcomers.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx1-button' style="color:#002556;">
-							<p>
-								 Quickstart Guide
-							</p>
-						</div>
-					</div>
-				</div>
-				</a>
-				<a href='http://www.emunewz.net/forum/showthread.php?tid=171465' target="_blank">
-				<div id='featured-con-button' style="background: #fff;" class="div-button-right">
-					<div id='featured-wrp-button' style="width: 160px; margin: 0 -80px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/issues.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx1-button' style="color:#002556;">
-							<p>
-								 Issue Reporting
-							</p>
-						</div>
-					</div>
-				</div>
-				</a>
-			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
