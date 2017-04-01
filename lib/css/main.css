@@ -272,17 +272,10 @@
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
-
 #menu-con-anim::-webkit-scrollbar {
 	width:5px;
 	display:none;
 }
-
-
-
-
-
-
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-con-menu {
 	position:absolute;
@@ -395,7 +388,6 @@
 }
 #header-img-head {
 	position:absolute;
-	display:none;
 	width:100%;
 	height: 100%;
 	background-size:cover !important;
@@ -1247,7 +1239,7 @@
 	color: #002556;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-#popup-con-dimming {
+#popup-con-dim {
 	position:fixed;
 	z-index:9999;
 	width:100%;

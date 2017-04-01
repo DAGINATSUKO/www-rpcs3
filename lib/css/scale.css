@@ -47,11 +47,6 @@
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:980px) {
-	#featured-con-users {
-		display:none !important;
-	}
-}
 @media screen and (max-width:1000px) {
 	#compat-hdr-left {
 		font-family:helvetica !important;

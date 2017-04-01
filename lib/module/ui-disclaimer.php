@@ -1,4 +1,4 @@
-<div id='popup-con-dimming' class='cookie_DISCLAIMER visual-disclaimer'>
+<div id='popup-con-dim' class='cookie_DISCLAIMER visual-disclaimer'>
 	<div class="visual-wavebar-2">
 	</div>
 	<div class="visual-wavebar-2 delayed-fade" style="display:none;">

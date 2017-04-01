@@ -1,4 +1,4 @@
-<div id='popup-con-dimming' class='cookie_ANNOUNCE' style="background: #131312 url('/img/countdown/backdrop.jpg') no-repeat center; background-size: cover;">
+<div id='popup-con-dim' class='cookie_ANNOUNCE' style="background: #131312 url('/img/countdown/backdrop.jpg') no-repeat center; background-size: cover;">
 	<a href='https://discord.me/RPCS3' target="_blank">
 	<div id="announce-btn-discord">
 	</div>
