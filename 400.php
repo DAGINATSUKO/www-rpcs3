@@ -1,7 +1,7 @@
 <!-- 
 RPCS3.net website by DAGINATSUKO
 https://github.com/daginatsuko
-2017.01.22 
+01.22.2017
 -->
 <!DOCTYPE html>
 <html lang="en-US">

@@ -1,7 +1,7 @@
 <!-- 
 RPCS3.net website by DAGINATSUKO
 https://github.com/daginatsuko
-2017.01.22 
+01.22.2017
 -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -62,7 +62,7 @@ https://github.com/daginatsuko
 <!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
-		<div id='header-img-head' class="dynamic-banner fade-onload">
+		<div id='header-img-head' class="dynamic-banner">
 		</div>
 		<div id='header-con-overlay-a'>
 		</div>
@@ -236,8 +236,6 @@ https://github.com/daginatsuko
 				</div>
 				</a>
 			</div>
-			
-			
 			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
@@ -291,11 +289,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="reqs-title">Title Here</h2>
+						<h2>System Requirements</h2>
 					</div>
 					<div id='featured-tx2-block'>
-						<p class="reqs-desc">
-							 Description Here
+						<p>
+							 The system requirements for properly running RPCS3 are still not fully known and are subject to change during development. We do however have a set of minimum requirements that must be met for the emulator to function properly.
 						</p>
 					</div>
 				</div>
@@ -306,11 +304,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="contribute-title">Title Here</h2>
+						<h2>Contributing with GitHub</h2>
 					</div>
 					<div id='featured-tx2-block'>
-						<p class="contribute-desc">
-							 Description Here
+						<p>
+							 Contributions are always welcome! Please start by forking the RPCS3 project and proceed onto reading the wiki pages including the notes on 'coding style' and 'developer information'. Find something you want to add, implement or improve on such as broken games, emulation bugs, missing features or the addition of roadmaps. Once you feel comfortable with your work, test your changes and send a pull request and we'll review it. Feel free to ask any RPCS3 developers on the RPCS3 GitHub or Discord server if you have questions or concerns.
 						</p>
 					</div>
 				</div>
@@ -332,11 +330,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="support-title">Title Here</h2>
+						<h2>Supporting with Patreon</h2>
 					</div>
 					<div id='featured-tx2-block'>
-						<p class="support-desc">
-							 Description Here
+						<p>
+							 Big name titles such as Uncharted, Killzone, God of War are currently incompatible with RPCS3. There are lot of implementations to be made and a lot of optimizations to be done. Working on an emulator in general is very exciting, but it's also extremely time-consuming. This is where you come in. The funding received from our patrons will go towards, but is not limited to: Support for core developers to spend full-time working on the emulator, obtaining hardware for development and testing, and maintaining the official RPCS3 website along with a compatibility database.
 						</p>
 					</div>
 				</div>

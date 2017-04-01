@@ -33,7 +33,7 @@ https://github.com/AniLeo
 <!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
-		<div id='header-img-head' class="dynamic-banner fade-onload">
+		<div id='header-img-head' class="dynamic-banner">
 		</div>
 		<div id='header-con-overlay-a'>
 		</div>

@@ -1,7 +1,7 @@
 <!-- 
 RPCS3.net website by DAGINATSUKO
 https://github.com/daginatsuko
-2017.01.22 
+01.22.2017
 -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -9,16 +9,16 @@ https://github.com/daginatsuko
 <!-- Metadata -->
 <title>RPCS3 - Team</title>
 <meta charset="UTF-8">
-<meta content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers." name="description">
-<meta content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, team" name="keywords">
-<meta content="RPCS3" name="author">
-<meta content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8" name="google-site-verification">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
+<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, team">
+<meta name="author" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
-<link href="/img/icons/meta/favicon.png" rel="icon" type="image/png">
-<link href="/img/icons/meta/57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
-<link href="/img/icons/meta/72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-<link href="/img/icons/meta/114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-<link href="/img/icons/meta/144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
+<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
+<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/114.png" sizes="114x114"/>
+<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/144.png" sizes="144x144"/>
 </head>
 <?php include 'lib/module/call-sys.php';?>
 <?php include 'lib/module/call-php.php';?>
@@ -26,7 +26,7 @@ https://github.com/daginatsuko
 <!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
-		<div class="dynamic-banner fade-onload" id='header-img-head'>
+		<div id='header-img-head' class="dynamic-banner">
 		</div>
 		<div id='header-con-overlay-a'>
 		</div>
@@ -48,7 +48,7 @@ https://github.com/daginatsuko
 			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;" title="Is actually a cat in disguise">
+					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -67,14 +67,14 @@ https://github.com/daginatsuko
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Nekotekina joined RPCS3 in late 2013 as a contributor. He is currently the lead core developer and is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer with over 1300 commits and counting.
+								 Nekotekina joined RPCS3 in  <a href="http://www.emunewz.net/forum/showthread.php?tid=61854&pid=196002#pid196002" target="_blank">late 2013</a> as a contributor. He is currently the lead core developer and is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer with over 1300 commits and counting.
 							</p>
 						</div>
 					</div>
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-gdev" id='featured-ava-block' style="background: url('/img/members/kd11.png') no-repeat center; background-size: cover;" title="You signaled for kd? What's a kd?">
+					<div class="div-role-gdev" id='featured-ava-block' style="background: url('/img/members/kd11.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -100,7 +100,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ssshadow.png') no-repeat center; background-size: cover;" title="Shadow The Edgehog">
+					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ssshadow.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -129,7 +129,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;" title="The biggest weeaboo I have ever met">
+					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -158,7 +158,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;" title="Is on RPCS3's Discord server 24/7/365">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -184,7 +184,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;" title="He comes and he goes">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -210,7 +210,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;" title="Wannabe hacker">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -236,7 +236,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;" title="Grandpa">
+					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -265,7 +265,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;" title="She thinks Ani is the biggest weeaboo she has ever met">
+					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -294,7 +294,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;" title="Human God particle">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/poland.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -320,7 +320,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/jarves.png') no-repeat center; background-size: cover;" title="Wasn't built by Iron Man">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/jarves.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -346,7 +346,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/cornytrace.png') no-repeat center; background-size: cover;" title="Isn't corny, but tends to leave a trace">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/cornytrace.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -381,7 +381,7 @@ https://github.com/daginatsuko
 			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/dh.png') no-repeat center; background-size: cover;" title="Dad">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/dh.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/ukraine.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -407,7 +407,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/hykem.png') no-repeat center; background-size: cover;" title="Second dad">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/hykem.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -433,7 +433,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/alexaltea.png') no-repeat center; background-size: cover;" title="Nucleus? What's that?">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/alexaltea.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -459,7 +459,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/tambry.png') no-repeat center; background-size: cover;" title="Wanted man">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/tambry.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/estonia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -485,7 +485,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/bigpet.png') no-repeat center; background-size: cover;" title="The biggest pet">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/bigpet.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -511,7 +511,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/vlj.png') no-repeat center; background-size: cover;" title="Ooh la la">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/vlj.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -537,7 +537,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/gopalsr83.png') no-repeat center; background-size: cover;" title="Rest in Peace?">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/former/gopalsr83.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/india.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -572,7 +572,7 @@ https://github.com/daginatsuko
 			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/members/honorable/zangetsu.png') no-repeat center; background-size: cover;" title="Zangetsuing? What's that :D?">
+					<div id='featured-ava-block' style="background: url('/img/members/honorable/zangetsu.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -589,7 +589,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/members/honorable/rainkikyou.png') no-repeat center; background-size: cover;" title="A Chinese cartoon character">
+					<div id='featured-ava-block' style="background: url('/img/members/honorable/rainkikyou.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/china.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -606,7 +606,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/members/honorable/johngodgames.png') no-repeat center; background-size: cover;" title="Emulator YouTuber king">
+					<div id='featured-ava-block' style="background: url('/img/members/honorable/johngodgames.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -623,7 +623,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/members/honorable/16bitblastprocessing.png') no-repeat center; background-size: cover;" title="5th biggest weeaboo I have ever met">
+					<div id='featured-ava-block' style="background: url('/img/members/honorable/16bitblastprocessing.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -640,7 +640,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/members/honorable/talkashie.png') no-repeat center; background-size: cover;" title="Simple">
+					<div id='featured-ava-block' style="background: url('/img/members/honorable/talkashie.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>

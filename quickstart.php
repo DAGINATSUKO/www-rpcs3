@@ -1,7 +1,7 @@
 <!-- 
 RPCS3.net website by DAGINATSUKO
 https://github.com/daginatsuko
-2017.01.22 
+01.22.2017
 -->
 <!DOCTYPE html>
 <html lang="en-US">
@@ -26,7 +26,7 @@ https://github.com/daginatsuko
 <!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
-		<div id='header-img-head' class="dynamic-banner fade-onload">
+		<div id='header-img-head' class="dynamic-banner">
 		</div>
 		<div id='header-con-overlay-a'>
 		</div>
@@ -209,7 +209,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>How do I apply PlayStation 3 game and software updates</h2>
+						<h2>How do I apply PlayStation 3 game and software updates?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
