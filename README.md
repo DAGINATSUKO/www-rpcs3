@@ -24,6 +24,6 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * Opera Software Opera
 
 ## Milestones
-* 2017.01.22 - RPCS3.net initialized (https://github.com/daginatsuko)
-* 2017.01.22 - RPCS3.net compatibility list initialized (https://github.com/AniLeo)
-* 2017.02.06 - RPCS3.net blog initialized  (https://github.com/daginatsuko)
+* 01.22.2017 - RPCS3.net initialized (https://github.com/daginatsuko)
+* 01.22.2017 - RPCS3.net compatibility list initialized (https://github.com/AniLeo)
+* 01.22.2017 - RPCS3.net blog initialized  (https://github.com/daginatsuko)
