@@ -1,11 +1,4 @@
-<!-- Announcment
-<?php
-   $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/lib/module/ui-announce.php";
-   include_once($path);
-?>
- -->
- <!-- Common -->
+<!-- UI -->
  <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
    $path .= "/lib/module/ui-disclaimer.php";
@@ -18,6 +11,6 @@
 ?>
 <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/lib/module/ui-notify.php";
+   $path .= "/lib/module/ui-notification.php";
    include_once($path);
 ?>

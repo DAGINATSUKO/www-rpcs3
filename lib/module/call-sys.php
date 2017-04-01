@@ -2,7 +2,6 @@
 <script src='/lib/js/api.js'></script>
 <script src='/lib/js/cookies.js'></script>
 <script src='/lib/js/main.js'></script>
-<script src='/lib/js/text.js'></script>
 <script src='/lib/js/timer.js'></script>
 <!-- CSS -->
 <link rel="stylesheet" href="/lib/css/root.css?v=version2"/>
