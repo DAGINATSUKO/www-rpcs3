@@ -46,7 +46,7 @@ https://github.com/daginatsuko
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<!-- End -->
-			<?php include 'lib/module/el-requirements.php';?>
+			<?php include 'lib/module/block-requirements.php';?>
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading">
 				<h2>Updating RPCS3</h2>
@@ -181,10 +181,14 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Updating and Placement</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Where do I place PlayStation 3 game and software files</h2>
+						<h2>Where do I place PlayStation 3 game and software files?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>

@@ -64,8 +64,8 @@ https://github.com/daginatsuko
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button'>
-						<p class="build-number">
-							 Build Number Here
+						<p>
+							 Download Latest Build
 						</p>
 					</div>
 				</div>
@@ -108,7 +108,7 @@ https://github.com/daginatsuko
 						<p>
 							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners. RPCS3 is in no way affiliated with Sony, PlayStation or any mentioned software developers for PlayStation 3. <br>
 							<br>
-							<p>Last updated on April 1st, 2017.</p>
+							<p>Last updated on April 1st, 2017</p>
 						</p>
 					</div>
 				</div>

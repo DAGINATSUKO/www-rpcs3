@@ -23,7 +23,6 @@ https://github.com/daginatsuko
 <?php include 'lib/module/call-sys.php';?>
 <?php include 'lib/module/call-php.php';?>
 <?php include 'lib/module/call-video.php'?>
-<?php include 'lib/module/call-video-main.php';?>
 <?php
 	preloadVideo(
 	'2',
@@ -70,12 +69,13 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
-				<h1 class="title">
-				Welcome Here </h1>
+				<h1>
+					THE WORLD'S FIRST
+				</h1>
 			</div>
 			<div id='header-tx2-body-b'>
-				<p class="description">
-					 Description Here
+				<p>
+					 Open-source Sony PlayStation 3 Emulator for Windows and Linux
 				</p>
 			</div>
 		</div>
@@ -86,7 +86,7 @@ https://github.com/daginatsuko
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<!-- End -->
-			<?php include 'lib/module/el-countdown.php';?>
+			<?php include 'lib/module/block-countdown.php';?>
 			<!-- End -->
 			<div id='featured-con-master'>
 				<!-- End -->
@@ -125,7 +125,7 @@ https://github.com/daginatsuko
 				</div>
 				<!-- End -->
 				<div id='featured-con-main'>
-					<div id='featured-con-content' style="background:#fff url('/img/featured/1.jpg') no-repeat center; background-size: cover;">
+					<div id='featured-con-content' style="background:#fff url('/img/thumbs/1.jpg') no-repeat center; background-size: cover;">
 						<div id='featured-tx1-speed'>
 							<p class="feature-1-speed">
 								 Speed Here
@@ -200,11 +200,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="about-title">Title Here</h2>
+						<h2>An Open-source PlayStation 3 Emulator</h2>
 					</div>
 					<div id='featured-tx2-block'>
-						<p class="about-desc">
-							 Description Here
+						<p>
+							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern Vulkan, DirectX 12 and OpenGL renderers. The emulator is capable of booting and playing a decent amount of commercial games and PlayStation 3 SDK samples. Many more titles are also becoming playable with future development by our contributors. The source code for RPCS3 is hosted publicly on our GitHub. You're welcome to grab the latest compiled revisions from our AppVeyor or compile your own build for personal use.
 						</p>
 					</div>
 				</div>
@@ -242,8 +242,8 @@ https://github.com/daginatsuko
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button'>
-						<p class="build-number">
-							 Build Number Here
+						<p>
+							 Download Latest Build
 						</p>
 					</div>
 				</div>
@@ -299,7 +299,7 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
-			<?php include 'lib/module/el-requirements.php';?>
+			<?php include 'lib/module/block-requirements.php';?>
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
