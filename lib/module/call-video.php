@@ -1,15 +1,15 @@
 <!-- Featured Video -->
 <script type="text/javascript">
 $(document).ready(function() {
-    $('.feature-1-title').text("Demon's Souls");
-    $('.feature-1-desc').text("Demon's Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki, under the supervision of Sony Computer Entertainment's Japan Studio. Set in a dark fantasy world, players take control of a hero who has journeyed to the fictional kingdom of Boletaria, which is being ravaged by a cursed fog that brings forth demons who feast on the souls of mortals. It was released exclusively for the PlayStation 3.");
+    $('.feature-1-title').text("Persona 5");
+    $('.feature-1-desc').text("Persona 5 is a turn-based 3D action role-playing game developed by Atlus. It is the sixth game in the Persona series. Persona 5 takes place in Tokyo, and follows a silent protagonist after their transfer to the fictional Shujin Academy after being put on probation for an assault he was falsely accused of. During the course of a school year, he and other students awaken to their Persona powers, become masked vigilantes dubbed the '\hantom Thieves of Hearts'\, and explore the supernatural Palace realm to steal ill intent from the hearts of adults. It was released in Japan on September 15th, 2016 for both PlayStation 3 and PlayStation 4 and is planned to release worldwide on April 4th, 2017.");
     $('.feature-1-author').text("Official RPCS3");
 	$('.feature-1-speed').text("Medium-Speed");
 });
 </script>
 <div id='video-con-dim' class='stop-video toggle-video-1'>
 	<div id='video-con-viewport' class='video-con-scale'>
-		<iframe id='video-1' src="https://www.youtube.com/embed/PI7nRkq9CEo?enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%">
+		<iframe id='video-1' src="https://www.youtube.com/embed/0yxVASSetmA?enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%">
 		</iframe>
 	</div>
 </div>

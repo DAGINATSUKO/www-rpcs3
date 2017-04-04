@@ -368,6 +368,10 @@
 	background:url('/img/icons/menu/youtube-h.png') no-repeat center !important;
 	background-size:15px !important;
 }
+#menu-btn-button:hover ~ .ico-twitter {
+	background:url('/img/icons/menu/twitter-h.png') no-repeat center !important;
+	background-size:15px !important;
+}
 #menu-btn-button:hover ~ .ico-reddit {
 	background:url('/img/icons/menu/reddit-h.png') no-repeat center !important;
 	background-size:15px !important;
@@ -492,7 +496,7 @@
 	width:100%;
 	height:200px;
 	margin-bottom:20px;
-	background:#000 url(/img/countdown/countdown.jpg) no-repeat center;
+	background:#000 url(/img/countdown/teaser.jpg) no-repeat center;
 	background-size:cover;
 }
 #countdown-ovr-body {
@@ -530,14 +534,14 @@
 #countdown-btn-body {
 	position:absolute;
 	z-index:3;
-	bottom:10px;
+	bottom: 0px;
 	left:50%;
 	width:180px;
-	height:64px;
+	height: 50px;
 	margin:0 -90px;
 	cursor:pointer;
 	background:url(/img/icons/panels/server.png) no-repeat center;
-	background-size:130px;
+	background-size: 100px;
 }
 #countdown-div-body {
 	position:absolute;
@@ -549,6 +553,72 @@
 	margin:0 -20px;
 	background: #fff;
 }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#featurette-con-container {
+	position:relative;
+	display:block;
+	width:100%;
+	height:200px;
+	margin-bottom:20px;
+	background: #000 url(/img/featurette/teaser.jpg) no-repeat center;
+	background-size:cover;
+}
+#featurette-ovr-body {
+	position:absolute;
+	z-index:1;
+	width:100%;
+	height:100%;
+	background: linear-gradient(to right, #ff0000, #670000);
+	opacity: 0.8;
+}
+#featurette-tx1-body {
+	font-family:helvetica;
+	font-size:14px;
+	line-height:70px;
+	position:absolute;
+	z-index:2;
+	width:100%;
+	height:70px;
+	text-align:center;
+	text-indent:8px;
+	letter-spacing:8px;
+	color:#fff;
+}
+#featurette-ico-body {
+	position:absolute;
+	z-index:2;
+	top: 42px;
+	width: 100%;
+	height: 120px;
+	text-align:center;
+	color:#fff;
+	background: url(/img/featurette/logo.png) no-repeat center;
+	background-size: 200px;
+}
+#featurette-btn-body {
+	position:absolute;
+	z-index:3;
+	bottom: 0px;
+	left:50%;
+	width:180px;
+	height: 50px;
+	margin:0 -90px;
+	cursor:pointer;
+	background:url(/img/icons/panels/server.png) no-repeat center;
+	background-size: 100px;
+}
+
+
+
+
+
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #sidebar-con-top {
 	position:relative;

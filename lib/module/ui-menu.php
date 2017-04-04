@@ -34,7 +34,6 @@
 				<div id='menu-ico-button' class="ico-blog" style="background:url('/img/icons/menu/blog.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
-				
 				<a href='/team'>
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Team
@@ -42,7 +41,6 @@
 				<div id='menu-ico-button' class="ico-team" style="background:url('/img/icons/menu/team.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
-				
 				<a href='/roadmap'>
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Roadmap
@@ -106,6 +104,15 @@
 				<div id='menu-ico-button' class="ico-youtube" style="background:url('/img/icons/menu/youtube.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
+				
+				<a href='https://twitter.com/rpcs3_emu' target="_blank">
+				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
+					 Twitter
+				</div>
+				<div id='menu-ico-button' class="ico-twitter" style="background:url('/img/icons/menu/twitter.png') no-repeat center; background-size: 15px;">
+				</div>
+				</a>
+				
 				<a href='https://www.reddit.com/r/rpcs3/' target="_blank">
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Reddit
