@@ -122,7 +122,7 @@ https://github.com/daginatsuko
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 ssshadow is a human RPCS3 Wiki and has been around since 2013. He recently took the role as Community Manager for RPCS3 as well as the writer for RPCS3's month-to-month progress reports. He is also serves as a maintainer for RPCS3's social media accounts.
+								 ssshadow is a human RPCS3 Wiki and has been around since 2013. He recently took the role as Community Manager for RPCS3 as well as the writer for RPCS3's month-to-month progress reports. He also serves as a maintainer for RPCS3's social media accounts.
 							</p>
 						</div>
 					</div>

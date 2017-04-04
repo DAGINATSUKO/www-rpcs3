@@ -46,7 +46,7 @@ https://github.com/AniLeo
 			<div id='header-tx2-body-b'>
 				<p>
 					<?php 
-					if (isset($_GET['h'])) { echo "History of the updates made to the compatibility list since March 1st, 2017"; } 
+					if (isset($_GET['h'])) { echo "History of the updates made to the compatibility list."; } 
 					else                   { echo "There are currently {$games} games listed in our database"; } 
 					?>
 					

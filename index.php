@@ -26,11 +26,11 @@ https://github.com/daginatsuko
 <?php
 	preloadVideo(
 	'2',
-	'RKDS42xX8zM',
-	'Persona 5',
-	'Persona 5 is a turn-based 3D action role-playing game developed by Atlus. It is the sixth game in the Persona series. It was released in Japan on September 15th, 2016 for both PlayStation 3 and PlayStation 4 and is planned to release worldwide on April 4th, 2017.',
-	'John GodGames',
-	'Low-Speed'
+	'PI7nRkq9CEo',
+	'Demon\'s Souls',
+	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki, under the supervision of Sony Computer Entertainment\'s Japan Studio. It was released exclusively for the PlayStation 3.',
+	'Official RPCS3',
+	'Medium-Speed'
 	);
 	preloadVideo(
 	'5',
@@ -87,6 +87,7 @@ https://github.com/daginatsuko
 		<div id="page-in-container">
 			<!-- End -->
 			<?php include 'lib/module/block-countdown.php';?>
+			<?php include 'lib/module/block-featurette.php';?>
 			<!-- End -->
 			<div id='featured-con-master'>
 				<!-- End -->
