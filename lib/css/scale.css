@@ -17,12 +17,12 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1020px) {
 	.visual-wavebar-1 {
-		display:none !important;
+		opacity:0 !important;
 	}
 }
 @media screen and (max-width:1020px) {
 	.visual-wavebar-2 {
-		display:none !important;
+		opacity:0 !important;
 	}
 }
 @media screen and (max-height:800px) {
