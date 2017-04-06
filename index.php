@@ -29,32 +29,42 @@ https://github.com/daginatsuko
 	'PI7nRkq9CEo',
 	'Demon\'s Souls',
 	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki, under the supervision of Sony Computer Entertainment\'s Japan Studio. It was released exclusively for the PlayStation 3.',
-	'Official RPCS3',
-	'Medium-Speed'
+	'Uploaded By RPCS3'
 	);
 	preloadVideo(
 	'5',
 	'fpyfKRQti7A',
 	'The Legend of Heroes: Trails of Cold Steel',
 	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom and published by XSEED Games in North America. It is the first game in the Trails of Cold Steel series. It was released exclusively for both the PlayStation 3 and PlayStation Vita.',
-	'Blast Processing',
-	'High-Speed'
+	'Uploaded By Blast Processing'
 	);
 	preloadVideo(
 	'4',
 	'CqkmEKcITqU',
 	'The Legend of Spyro: Dawn of the Dragon',
 	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra. It was proceeded to be the final installment in the Spyro series. It was released for both PlayStation 2 and PlayStation 3.',
-	'Emulator_Team',
-	'High-Speed'
+	'Uploaded By Emulator_Team'
 	);
 	preloadVideo(
 	'3',
 	'c7Oq5O7uX0E',
 	'Catherine',
 	'Catherine is a puzzle-platformer adventure game developed by Atlus and directed by Katsura Hashino. It is the first original Atlus title that was developed with high-definition consoles in mind. It was released for both PlayStation 3 and Xbox 360.',
-	'Official RPCS3',
-	'High-Speed'
+	'Uploaded By RPCS3'
+	);
+	preloadVideo(
+	'6',
+	'5F_i-ru2ofE',
+	'Tales of Xillia',
+	'Tales of Xillia is a Japanese action role-playing adventure game developed by the Namco Tales Studio, directed by Hideo Baba and published by Bandi Namco. It is the thirteenth core game in the Tales series directed by Naoto Miyadera. It was released exclusively for the PlayStation 3.',
+	'Uploaded By John GodGames'
+	);
+	preloadVideo(
+	'7',
+	'79Cg4X7k_oI',
+	'Tekken 6',
+	'Tekken 6 is a 2.5D fighting game directed by Yuichi Yonemori and developed and published by Bandi Namco. It is the seventh main installment in the Tekken fighter franchise. It was later released in Japanese arcades on November 26th, 2007 as well as on the PlayStation 3 and Xbox 360.',
+	'Uploaded By John GodGames'
 	);
 ?>
 <body>
@@ -70,8 +80,7 @@ https://github.com/daginatsuko
 		<div id='header-con-body-b'>
 			<div id='header-tx1-body-b'>
 				<h1>
-					THE WORLD'S FIRST
-				</h1>
+				THE WORLD'S FIRST </h1>
 			</div>
 			<div id='header-tx2-body-b'>
 				<p>
@@ -127,32 +136,20 @@ https://github.com/daginatsuko
 				<!-- End -->
 				<div id='featured-con-main'>
 					<div id='featured-con-content' style="background:#fff url('/img/thumbs/1.jpg') no-repeat center; background-size: cover;">
-						<div id='featured-tx1-speed'>
-							<p class="feature-1-speed">
-								 Speed Here
-							</p>
-						</div>
-						<div id='featured-ico-content'>
-						</div>
-						<div id='featured-tx1-content'>
-							<p>
-								 Featured Progress
-							</p>
-						</div>
 						<div id='featured-btn-play-b' class="page-video-1">
 						</div>
 						<div id="featured-ovr-play">
 						</div>
+						<div id='featured-con-author'>
+							<div id='featured-ico-author'>
+							</div>
+							<div id='featured-tx1-author'>
+								<p class="feature-1-author">
+									 Author Here
+								</p>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div id='featured-con-author'>
-				<div id='featured-ico-author'>
-				</div>
-				<div id='featured-tx1-author'>
-					<p class="feature-1-author">
-						 Author Here
-					</p>
 				</div>
 			</div>
 			<div id='featured-con-block'>
@@ -205,13 +202,13 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern Vulkan, DirectX 12 and OpenGL renderers. The emulator is capable of booting and playing a decent amount of commercial games and PlayStation 3 SDK samples. Many more titles are also becoming playable with future development by our contributors. The source code for RPCS3 is hosted publicly on our GitHub. You're welcome to grab the latest compiled revisions from our AppVeyor or compile your own build for personal use.
+							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern Vulkan, DirectX 12 and OpenGL renderers. The emulator is capable of booting and playing over 500 commercial games and PlayStation 3 SDK samples. Many more titles are also becoming playable with future developments by our contributors.
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
-						<div id='featured-wrp-panel'>
+			<div id='featured-wrp-panel'>
 				<!-- End -->
 				<a href='https://rpcs3.net/compatibility' target="_blank">
 				<div id='featured-con-panel' class="div-con-panel-min div-panel-left">
@@ -231,7 +228,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx3-panel' class="div-txt-panel-min">
 						<p>
-							 What should I know before using this emulator?
+							 What should I know before using RPCS3?
 						</p>
 					</div>
 				</div>
@@ -258,12 +255,16 @@ https://github.com/daginatsuko
 <div id="page-con-content" style="background: #eaeaea;">
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<?php 
+			<ul id="flex-container" class="flex-container">
+				<?php 
 				loadVideo('2', 'left');
 				loadVideo('3', 'right');
 				loadVideo('4', 'left');
 				loadVideo('5', 'right');
+				loadVideo('6', 'left');
+				loadVideo('7', 'right');
 			?>
+			</ul>
 		</div>
 	</div>
 </div>

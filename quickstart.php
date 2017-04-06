@@ -245,13 +245,16 @@ https://github.com/daginatsuko
 							 • ASUS <b>BC-12B1ST</b>
 						</p>
 						<p>
+							 • ASUS <b>BC-12D2HT</b>
+						</p>
+						<p>
 							 • ASUS <b>BW-16D1HT</b>
 						</p>
 						<p>
 							 • BENQ <b>BR1000</b>
 						</p>
 						<p>
-							 • Lite-ON <b>DH-401S</b>
+							 • Lite-ON <b>DH-4O1S</b>
 						</p>
 						<p>
 							 • LG BD <b>Bh24NS40</b>

@@ -38,17 +38,18 @@ https://github.com/daginatsuko
 			</div>
 			<div id='header-tx2-body-b'>
 				<p>
-					 Download the latest RPCS3 build
+					 Download the latest public build
 				</p>
 			</div>
 		</div>
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="download-title">Download latest AppVeyor build</h2>
+						<h2 class="download-title">Latest Build</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
@@ -75,7 +76,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Compile your own build</h2>
+						<h2>Customize Build</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -106,7 +107,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners. RPCS3 is in no way affiliated with Sony, PlayStation or any mentioned software developers for PlayStation 3. <br>
+							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners.<br>
 							<br>
 							<p>Last updated on April 1st, 2017</p>
 						</p>
