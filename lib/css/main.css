@@ -100,13 +100,13 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #notification-tx1-body {
 	font-family:helvetica;
-	font-size:12px;
-	line-height:30px;
+	font-size: 12px;
+	line-height: 40px;
 	position:fixed;
 	z-index:9990;
 	top:60px;
 	width:100%;
-	height:30px;
+	height: 40px;
 	text-align:center;
 	color:#fff;
 	background: #ff3434;
@@ -197,19 +197,58 @@
 #menu-ico-logo:hover {
 	opacity:0.8;
 }
-#menu-ico-patreon {
-	position:absolute;
-	top:0;
-	right:0;
-	width:120px;
-	height:100%;
-	cursor:pointer;
-	transition:all .1s ease-in-out;
-	background:url('/img/icons/menu/patreon.png') no-repeat center;
-	background-size: 70px;
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#menu-tx1-sub {
+	position: absolute;
+	right: 60px;
+	width: auto;
+	height:60px;
+	font-family: helvetica;
+	font-size: 14px;
+	line-height: 60px;
+	color: #002556;
 }
-#menu-ico-patreon:hover {
-	opacity: .8;
+#menu-con-patreon {
+	position:relative;
+	display: inline-block;
+	right: 0px;
+	float: right;
+	width: 130px;
+	height:60px;
+	cursor:pointer;
+}
+#menu-con-patreon:hover {
+	background:rgba(0, 37, 86, .05);
+}
+#menu-ico-patreon {
+	position: absolute;
+	right: 0px;
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	background: url('/img/icons/menu/patreon.png') no-repeat center;
+	background-size: 20px;
+}
+#menu-con-git {
+	position:relative;
+	display: inline-block;
+	right: 0px;
+	float: right;
+	width: 130px;
+	height:60px;
+	cursor:pointer;
+}
+#menu-con-git:hover {
+	background:rgba(0, 37, 86, .05);
+}
+#menu-ico-git {
+	position: absolute;
+	right: 0px;
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	background: url('/img/icons/menu/github.png') no-repeat center;
+	background-size: 20px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-tx1-title {
@@ -357,7 +396,7 @@
 	background-size:15px !important;
 }
 #menu-btn-button:hover ~ .ico-patreon {
-	background:url('/img/icons/menu/patreon-min-h.png') no-repeat center !important;
+	background:url('/img/icons/menu/patreon-h.png') no-repeat center !important;
 	background-size:15px !important;
 }
 #menu-btn-button:hover ~ .ico-discord {
@@ -553,13 +592,34 @@
 	margin:0 -20px;
 	background: #fff;
 }
-
-
-
-
-
-
-
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#featured-ava-block {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	top: 26px;
+	left: 30px;
+}
+#featured-con-block:hover #featured-nat-block {
+	background-color: yellow;
+	display:block;
+	transition:.2s ease-in-out;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-duration: .2s;
+    -webkit-animation-iteration-count: 1;
+}
+#featured-nat-block {
+	width: 37px;
+	height: 25px;
+	top: 16px;
+	left: -80px;
+	position: absolute;
+	display: none;
+	border: solid 2px #fff;
+	transition:.2s ease-in-out;
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featurette-con-container {
 	position:relative;
@@ -613,12 +673,11 @@
 	cursor:pointer;
 	background:url(/img/icons/panels/server.png) no-repeat center;
 	background-size: 100px;
+	transition: .1s ease-in-out;
 }
-
-
-
-
-
+#featurette-btn-body:hover {
+	opacity:0.8;
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #sidebar-con-top {
 	position:relative;
@@ -726,8 +785,6 @@
 	position:relative;
 	z-index:1;
 	overflow:hidden;
-	width:49%;
-	height:auto;
 	margin-bottom:20px;
 	background:#fff;
 }
@@ -735,56 +792,29 @@
 	position:relative;
 	overflow:hidden;
 	width:100%;
-	height:302px;
-}
-#featured-ico-content {
-	position:relative;
-	z-index:2;
-	float:left;
-	width:50px;
-	height:50px;
-	background:#fff url('/img/icons/buttons/featured.png') no-repeat center;
-	background-size: 20px;
+	height: 200px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featured-con-author {
-	position:relative;
+	position: absolute;
+	bottom: 0px;
 	width:100%;
-	height:40px;
-	border-bottom:1px solid rgba(0,0,0,.05);
-	background:#fff;
+	height: 34px;
+	z-index: 1;
 }
 #featured-tx1-author {
 	font-family:helvetica;
 	font-size:12px;
-	line-height:40px;
-	padding-left:41px;
-	color:#002556;
-}
-#featured-tx1-speed {
-	font-family:helvetica;
-	font-size:12px;
-	line-height:20px;
-	position:absolute;
-	z-index:2;
-	right:12px;
-	bottom:12px;
-	width:auto;
-	height:20px;
-	padding-top:2px;
-	padding-right:6px;
-	padding-bottom:2px;
-	padding-left:6px;
-	text-align:center;
-	color:#fff;
-	border:solid 1px #fff;
+	line-height: 30px;
+	padding-left: 30px;
+	height: 30px;
+	color: #fff;
 }
 #featured-ico-author {
 	position:absolute;
-	width:40px;
-	height:40px;
-	padding-left:14px;
-	background:url(/img/icons/buttons/featured.png) no-repeat center;
+	width: 30px;
+	height: 30px;
+	background:url(/img/icons/buttons/author.png) no-repeat center;
 	background-size: 12px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -850,19 +880,6 @@
 	margin-bottom:20px;
 	color:#002556;
 	border-bottom:1px solid #002556;
-}
-#featured-tx1-content {
-	font-family:helvetica;
-	font-size:14px;
-	line-height:50px;
-	position:absolute;
-	z-index:2;
-	top:0;
-	left:60px;
-	width:auto;
-	height:50px;
-	text-align:center;
-	color:#fff;
 }
 #featured-con-ad {
 	font-family:helvetica;
@@ -983,7 +1000,7 @@
 	background-size:50px;
 }
 #featured-btn-play:hover {
-	background:rgba(0,114,255,.2) url('/img/icons/playback/play-h.png') no-repeat center;
+	background:rgba(0,114,255,.4) url('/img/icons/playback/play-h.png') no-repeat center;
 	background-size: 50px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1577,6 +1594,12 @@
 .div-heading {
 	margin-top: -8px;
 }
+.div-vid-author {
+	background: #5e32eb !important;
+}
+.div-ico-author {
+	left: 0px !important;
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-panel-left {
 	float:left;
@@ -1622,15 +1645,6 @@
 	width:22px;
 	color:#fff;
 	background: rgba(0,37,86,.4);
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-.div-video-left {
-	left:0;
-	float:left;
-}
-.div-video-right {
-	right:0;
-	float: right;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-standalone {

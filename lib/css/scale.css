@@ -41,11 +41,6 @@
 		float:none !important;
 	}
 }
-@media screen and (max-width:1115px) {
-	#featured-con-grid {
-		width: 100% !important;
-	}
-}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1000px) {
 	#compat-hdr-left {

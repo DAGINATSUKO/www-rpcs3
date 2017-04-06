@@ -2,30 +2,21 @@
 	display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-#featured-ava-block {
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	border-radius: 100%;
-	top: 26px;
-	left: 30px;
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 }
-#featured-con-block:hover #featured-nat-block {
-	background-color: yellow;
-	display:block;
-	transition:.2s ease-in-out;
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-    -webkit-animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
-}
-#featured-nat-block {
-	width: 37px;
-	height: 25px;
-	top: 16px;
-	left: -80px;
-	position: absolute;
-	display: none;
-	border: solid 2px #fff;
-	transition:.2s ease-in-out;
+
+.flex-item {
+    width: 32%;
+    height: auto;
+    min-width: 250px;
 }

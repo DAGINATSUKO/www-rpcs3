@@ -4,19 +4,33 @@
 	</div>
 	</a>
 	<div id='menu-tx1-open'>
-		MENU
+		 MENU
 	</div>
 	<div id='menu-btn-open' type="button">
 	</div>
 	<a href="https://www.patreon.com/Nekotekina" target="_blank">
-	<div id='menu-ico-patreon' type="button">
+	<div id='menu-con-patreon' type="button">
+		<div id='menu-tx1-sub' type="button">
+			 Patreon
+		</div>
+		<div id='menu-ico-patreon' type="button">
+		</div>
+	</div>
+	</a>
+	<a href="https://github.com/RPCS3/rpcs3" target="_blank">
+	<div id='menu-con-git' type="button">
+		<div id='menu-tx1-sub' type="button">
+			 GitHub
+		</div>
+		<div id='menu-ico-git' type="button">
+		</div>
 	</div>
 	</a>
 </div>
 <div id='menu-con-dim' class='toggle-menu'>
 	<div id='menu-con-anim' class='dropin-load'>
 		<div id="menu-tx1-title" style='-webkit-animation-duration: .4s;'>
-			MAIN MENU
+			 MAIN MENU
 		</div>
 		<div id='menu-con-canvas'>
 			<div id="menu-con-menu">
@@ -87,7 +101,7 @@
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Patreon
 				</div>
-				<div id='menu-ico-button' class="ico-patreon" style="background:url('/img/icons/menu/patreon-min.png') no-repeat center; background-size: 15px;">
+				<div id='menu-ico-button' class="ico-patreon" style="background:url('/img/icons/menu/patreon.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
 				<a href='https://discord.me/RPCS3' target="_blank">
@@ -104,7 +118,6 @@
 				<div id='menu-ico-button' class="ico-youtube" style="background:url('/img/icons/menu/youtube.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
-				
 				<a href='https://twitter.com/rpcs3_emu' target="_blank">
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Twitter
@@ -112,7 +125,6 @@
 				<div id='menu-ico-button' class="ico-twitter" style="background:url('/img/icons/menu/twitter.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
-				
 				<a href='https://www.reddit.com/r/rpcs3/' target="_blank">
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
 					 Reddit
@@ -134,14 +146,14 @@
 			</div>
 		</div>
 		<div id='menu-con-footer'>
-		<div id='menu-img-overflow'>
-		</div>
+			<div id='menu-img-overflow'>
+			</div>
 			<div id='menu-ico-footer'>
 			</div>
 			<a href="https://github.com/DAGINATSUKO/RPCS3-Website" target="_blank">
 			<div id='menu-tx1-footer'>
 				<div style="color: #002556 !important;" class="txt-link" title="Website designed by DAGINATSUKO">
-					Website source code on GitHub
+					 Website source code on GitHub
 				</div>
 			</div>
 		</div>

@@ -2,9 +2,8 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $('.feature-1-title').text("Persona 5");
-    $('.feature-1-desc').text("Persona 5 is a turn-based 3D action role-playing game developed by Atlus. It is the sixth game in the Persona series. Persona 5 takes place in Tokyo, and follows a silent protagonist after their transfer to the fictional Shujin Academy after being put on probation for an assault he was falsely accused of. During the course of a school year, he and other students awaken to their Persona powers, become masked vigilantes dubbed the '\hantom Thieves of Hearts'\, and explore the supernatural Palace realm to steal ill intent from the hearts of adults. It was released in Japan on September 15th, 2016 for both PlayStation 3 and PlayStation 4 and is planned to release worldwide on April 4th, 2017.");
-    $('.feature-1-author').text("Official RPCS3");
-	$('.feature-1-speed').text("Medium-Speed");
+    $('.feature-1-desc').text("Persona 5 is a turn-based 3D action role-playing game developed by Atlus. It is the sixth game in the Persona series. Persona 5 takes place in Tokyo, and follows a silent protagonist after their transfer to the fictional Shujin Academy after being put on probation for an assault he was falsely accused of. During the course of the school year, he and other students awaken to their Persona powers, become masked vigilantes dubbed the '\Phantom Thieves of Hearts'\. It was released in Japan on September 15th, 2016 for both PlayStation 3 and PlayStation 4 and released worldwide on April 4th, 2017.");
+    $('.feature-1-author').text("Uploaded By RPCS3");
 });
 </script>
 <div id='video-con-dim' class='stop-video toggle-video-1'>
@@ -15,7 +14,7 @@ $(document).ready(function() {
 </div>
 <!-- Other Videos -->
 <?php
-function preloadVideo($id, $vid, $title, $desc, $author, $speed) {	
+function preloadVideo($id, $vid, $title, $desc, $author) {	
 
 echo"
 <script type=\"text/javascript\">
@@ -23,7 +22,6 @@ $(document).ready(function() {
     $('.feature-$id-title').text(\"$title\");
     $('.feature-$id-desc').text(\"$desc\");
     $('.feature-$id-author').text(\"$author\");
-	$('.feature-$id-speed').text(\"$speed\");
 });
 </script>
 <div id=\"video-con-dim\" class=\"toggle-video-$id stop-video\">
@@ -36,38 +34,31 @@ $(document).ready(function() {
 ";
 }
 
-function loadVideo($id, $pos) {
-echo "<div id='featured-con-grid' class=\"div-video-$pos\">
-	<div id='featured-img-grid' style=\"background:url('/img/thumbs/$id.jpg') no-repeat center; background-size: cover;\">
-			<div id='featured-tx1-speed'>
-			<p class=\"feature-$id-speed\">
-				 Speed Here
+function loadVideo($id) {
+echo "<li id='featured-con-grid' class='flex-item'>
+<div id='featured-img-grid' style=\"background:url('/img/thumbs/$id.jpg') no-repeat center; background-size: cover;\">
+	<div id='featured-btn-play' class=\"page-video-$id\">
+	</div>
+</div>
+<div id='featured-tx1-author' class='div-vid-author'>
+		<div id='featured-ico-author' class='div-ico-author'>
+		</div>
+	<p class=\"feature-$id-author\">
+		 Author Here
+	</p>
+</div>
+<div id='featured-con-block'>
+	<div id='featured-wrp-block' style='padding-bottom: 0px !important'>
+		<div id='featured-tx1-block'>
+			<h1 class=\"feature-$id-title\">Title Here</h1>
+		</div>
+		<div id='featured-tx2-block'>
+			<p class=\"feature-$id-desc\">
+				 Description Here
 			</p>
 		</div>
-		<div id='featured-btn-play' class=\"page-video-$id\">
-		</div>
 	</div>
-	<div id='featured-con-author'>
-		<div id='featured-ico-author'>
-		</div>
-		<div id='featured-tx1-author'>
-			<p class=\"feature-$id-author\">
-				 Author Here
-			</p>
-		</div>
-	</div>
-	<div id='featured-con-block'>
-		<div id='featured-wrp-block'>
-			<div id='featured-tx1-block'>
-				<h1 class=\"feature-$id-title\">Title Here</h1>
-			</div>
-			<div id='featured-tx2-block'>
-				<p class=\"feature-$id-desc\">
-					 Description Here
-				</p>
-			</div>
-		</div>
-	</div>
-</div>";
+</div>
+</li>";
 }
 ?>
