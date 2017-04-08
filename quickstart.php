@@ -331,7 +331,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>RPCS3 Core settings</h2>
+						<h2>Core settings</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -351,7 +351,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>RPCS3 Graphics settings</h2>
+						<h2>Graphics settings</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -380,7 +380,7 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>RPCS3 Audio settings</h2>
+						<h2>Audio settings</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -394,32 +394,19 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>Want to give us some feedback? Or just hang out?</h2>
-					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							 That's cool, we're all open ears. Feel free to join our Discord server where you can interact with developers and contributors by asking questions, submitting feedback and even posting screenshots of your findings. Any feedback is greatly appreciated and we hope to see PlayStation 3 emulation hit the mainstream really soon.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<a href='https://discord.me/RPCS3' target="_blank">
 			<div id='featured-con-button'>
-				<div id='featured-wrp-button' style="width: 166px; margin: 0 -83px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/discord.png') no-repeat center; background-size: 16px;">
+				<div id='featured-wrp-button' style="width: 230px; margin: 0 -115px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
 					</div>
+					<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
 					<div id='featured-tx1-button'>
 						<p>
-							 Join Us on Discord
+							 Download Latest Build
 						</p>
 					</div>
+					</a>
 				</div>
 			</div>
-			</a>
 			<!-- End -->
 		</div>
 	</div>

@@ -202,7 +202,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern Vulkan, DirectX 12 and OpenGL renderers. The emulator is capable of booting and playing over 500 commercial games and PlayStation 3 SDK samples. Many more titles are also becoming playable with future developments by our contributors.
+							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently sports modern Vulkan, DirectX 12 and OpenGL graphic APIs. The emulator is capable of booting and playing over 500 commercial games as well as official PlayStation 3 SDK samples. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.
 						</p>
 					</div>
 				</div>
@@ -255,7 +255,7 @@ https://github.com/daginatsuko
 <div id="page-con-content" style="background: #eaeaea;">
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<ul id="flex-container" class="flex-container">
+			<ul class="page-flx-container">
 				<?php 
 				loadVideo('2', 'left');
 				loadVideo('3', 'right');
@@ -295,7 +295,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 The system requirements for properly running RPCS3 are still not fully known and are subject to change during development. We do however have a set of minimum requirements that must be met for the emulator to function properly.
+							 The system requirements for running the emulator have not been finalized and are subject to change during development. We do however have a set of minimum system requirements that must be met for the emulator to function properly on any system. Please note that these are the bare minimum system specifications and the emulator will not function otherwise.
 						</p>
 					</div>
 				</div>
@@ -310,7 +310,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Contributions are always welcome! Please start by forking the RPCS3 project and proceed onto reading the wiki pages including the notes on 'coding style' and 'developer information'. Find something you want to add, implement or improve on such as broken games, emulation bugs, missing features or the addition of roadmaps. Once you feel comfortable with your work, test your changes and send a pull request and we'll review it. Feel free to ask any RPCS3 developers on the RPCS3 GitHub or Discord server if you have questions or concerns.
+							 When developing a complex project, new contributors are always welcome. You can start contributing by forking the project for personal use and then proceed on to reading the wiki, notes, coding style and developer information sections. It's up to you to find something you want to add, improve or implement within the project. Once you feel comfortable with your contribution, test your changes and open a pull request.
 						</p>
 					</div>
 				</div>
@@ -336,7 +336,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Big name titles such as Uncharted, Killzone, God of War are currently incompatible with RPCS3. There are lot of implementations to be made and a lot of optimizations to be done. Working on an emulator in general is very exciting, but it's also extremely time-consuming. This is where you come in. The funding received from our patrons will go towards, but is not limited to: Support for core developers to spend full-time working on the emulator, obtaining hardware for development and testing, and maintaining the official RPCS3 website along with a compatibility database.
+							 Our lead developers and contributors are always working hard to ensure this project can be the best that it can be. There are still plenty of implementations to be made and optimizations to be done. Working on an emulator is very exciting, but it's also very time-consuming. The funding received from our patrons will allow our core developers to spend full-time working on the project, obtain hardware for development and testing and allow this website to exist, along with its compatibility database.
 						</p>
 					</div>
 				</div>

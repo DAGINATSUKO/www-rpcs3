@@ -49,11 +49,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="download-title">Latest Build</h2>
+						<h2 class="download-title">Nightly Builds</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
-							 You can always download the latest pre-compiled developer build of RPCS3 from our AppVeyor. Feel free to ask any RPCS3 community members or developers on the RPCS3 GitHub or Discord server if you have questions or concerns. Be sure to refer to the <a href="/quickstart">quickstart</a> guide if you're a newcomer to get RPCS3 up and running on your system.
+							 Nightly builds are hosted using Appveyor service. AppVeyor is a hosted distribution and continuous integration service used to remotely build and test projects hosted on GitHub. This service allows us to deploy newly developed builds as soon as possible for both our testers and contributors.
 						</p>
 					</div>
 				</div>
@@ -76,11 +76,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Customize Build</h2>
+						<h2>Customized Builds</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Feel free to use RPCS3's source code to compile your very own custom RPCS3 build. You can use your own build to implement and test new features or fixes and then submit a pull request. Once you feel comfortable with your work, test your changes and send a pull request and we'll review it. Feel free to ask any RPCS3 developers on the RPCS3 GitHub or Discord server if you have questions or concerns.
+							 This project is hosted exclusively on GitHub. GitHub allows us to share new any developments and progress we've made with the project. You can use our public GitHub repository to download and create your own build for testing, debugging or implementing new features.
 						</p>
 					</div>
 				</div>
@@ -107,7 +107,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 The RPCS3 Press Kit was designed for users and advertisers to have full access to high quality assets such as documentation, fonts, and high resolution icons designed for UHD displays. Anyone and everyone is free to use these assets provided for video content creation, digital image manipulation or general purposes regarding RPCS3. All possible trademarks and copyright-written content found in this press kit belong to their respective owners.<br>
+							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to UHD-quality assets, fonts, icons and documentation. All trademarks and copyright-written material found in this press kit belong to their respective owners.<br>
 							<br>
 							<p>Last updated on April 1st, 2017</p>
 						</p>
