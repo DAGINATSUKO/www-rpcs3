@@ -73,3 +73,16 @@
 		border-top: 1px solid rgba(0,0,0,.1) !important;
 	}
 }
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1215px) {
+	.page-flx-container  {
+		-webkit-justify-content: space-around !important;
+		justify-content: space-around !important;
+	}
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1050px) {
+	#footer-tx2-credits {
+		display:none !important;
+	}
+}

@@ -6,11 +6,11 @@
 	<div id='menu-tx1-open'>
 		 MENU
 	</div>
-	<div id='menu-btn-open' type="button">
+	<div id='menu-btn-open' type="button" title="Menu">
 	</div>
 	<a href="https://www.patreon.com/Nekotekina" target="_blank">
 	<div id='menu-con-patreon' type="button">
-		<div id='menu-tx1-sub' type="button">
+		<div id='menu-tx1-sub' type="button" title="Support us with Patreon">
 			 Patreon
 		</div>
 		<div id='menu-ico-patreon' type="button">
@@ -19,7 +19,7 @@
 	</a>
 	<a href="https://github.com/RPCS3/rpcs3" target="_blank">
 	<div id='menu-con-git' type="button">
-		<div id='menu-tx1-sub' type="button">
+		<div id='menu-tx1-sub' type="button" title="Contribute with GitHub">
 			 GitHub
 		</div>
 		<div id='menu-ico-git' type="button">
