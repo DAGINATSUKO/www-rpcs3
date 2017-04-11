@@ -300,19 +300,19 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<a href='/download'>
 			<div id='featured-con-button'>
-				<div id='featured-wrp-button' style="width: 230px; margin: 0 -115px;">
+				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
 					</div>
-					<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
 					<div id='featured-tx1-button'>
 						<p>
 							 Download Latest Build
 						</p>
 					</div>
-					</a>
 				</div>
 			</div>
+			</a>
 			<!-- End -->
 		</div>
 	</div>

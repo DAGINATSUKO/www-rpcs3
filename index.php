@@ -19,7 +19,6 @@ https://github.com/daginatsuko
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/114.png" sizes="114x114"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/144.png" sizes="144x144"/>
-</head>
 <?php include 'lib/module/call-sys.php';?>
 <?php include 'lib/module/call-php.php';?>
 <?php include 'lib/module/call-video.php'?>
@@ -234,7 +233,7 @@ https://github.com/daginatsuko
 				</div>
 				</a>
 			</div>
-			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
+			<a href='/download'>
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">

@@ -355,7 +355,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You should always test your games with all the rendering beck-ends (<b>OpenGL</b>, <b>DirectX12</b>, <b>Vulkan</b>) to see in which one gives you the best performance and to see if other back-ends suffer from issues that could be potentially fixed.
+							 You should always test your games with all renderers (<b>OpenGL</b>, <b>DirectX12</b>, <b>Vulkan</b>) to see in which one gives you the best performance and to see if other renderers suffer from issues that could be potentially fixed.
 						</p>
 						<br>
 						<p>
@@ -394,19 +394,19 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			<!-- End -->
+			<a href='/download'>
 			<div id='featured-con-button'>
-				<div id='featured-wrp-button' style="width: 230px; margin: 0 -115px;">
+				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
 					</div>
-					<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
 					<div id='featured-tx1-button'>
 						<p>
 							 Download Latest Build
 						</p>
 					</div>
-					</a>
 				</div>
 			</div>
+			</a>
 			<!-- End -->
 		</div>
 	</div>
