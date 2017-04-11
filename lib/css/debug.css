@@ -2,3 +2,98 @@
 	display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+#bulletin-btn-open {
+	position:fixed;
+	z-index:2;
+	top: 50%;
+	left:0;
+	margin: -60px 0;
+	width:60px;
+	height: 120px;
+	cursor:pointer;
+	background: url(/img/icons/menu/bulletin.png) no-repeat center;
+	background-size:20px;
+	display:none;
+}
+#bulletin-btn-open:hover {
+	background:#002556 url('/img/icons/menu/bulletin-h.png') no-repeat center;
+	background-size: 20px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#bulletin-con-dim {
+	position:fixed;
+	z-index:9998;
+	width:100%;
+	height:100%;
+	background:rgba(0,37,86,.4);
+}
+#bulletin-con-anim {
+	position:fixed;
+	z-index:9999;
+	top:0;
+	width:500px;
+	height:100%;
+	transition:all .2s ease-in-out;
+	-webkit-animation-name:fadeInLeft;
+	animation-name:fadeInLeft;
+	-webkit-animation-duration:.2s;
+	-webkit-animation-iteration-count:1;
+	background:#fff;
+	overflow-y:scroll;
+	-webkit-overflow-scrolling:touch;
+}
+#bulletin-con-anim::-webkit-scrollbar {
+	width:5px;
+	display: none;
+}
+#bulletin-tx1-title {
+	font-family:helvetica;
+	font-size:12px;
+	line-height:60px;
+	position: fixed;
+	height:60px;
+	width: 480px;
+	padding-left:20px;
+	letter-spacing:4px;
+	color:#002556;
+	background: #fff;
+	border-bottom:1px solid rgba(0,0,0,.1);
+	z-index: 2;
+	pointer-events: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#bulletin-img-overflow {
+	background: url(/img/icons/aesthetic/overflow.png) repeat-x;
+	background-size: contain;
+	width: 500px;
+	height: 45px;
+	position: absolute;
+	top: -46px;
+	pointer-events: none;
+}
+#bulletin-con-footer {
+	position: fixed;
+	bottom:0;
+	width: 500px;
+	height:60px;
+	border-top:1px solid rgba(0,0,0,.1);
+	background: #fff;
+	z-index: 1;
+}
+#bulletin-ico-footer {
+	width:60px;
+	height:60px;
+	background:url('/img/icons/menu/github.png') no-repeat center;
+	background-size:15px;
+}
+#bulletin-tx1-footer {
+	font-family:helvetica;
+	font-size:12px;
+	line-height: 62px;
+	position:relative;
+	bottom:60px;
+	height:100%;
+	padding-left:50px;
+	text-align:left;
+	color: #002556;
+}

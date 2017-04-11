@@ -29,6 +29,7 @@ ul,li {
 }
 ul {
 	list-style-type:square;
+	list-style: none;
 }
 b {
 	font-family:inherit;
