@@ -142,7 +142,7 @@ https://github.com/daginatsuko
 						<div id='featured-con-author'>
 							<div id='featured-ico-author'>
 							</div>
-							<div id='featured-tx1-author'>
+							<div id='featured-tx1-author' style="padding-left: 30px !important;">
 								<p class="feature-1-author">
 									 Author Here
 								</p>
@@ -236,7 +236,7 @@ https://github.com/daginatsuko
 			<a href='/download'>
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>

@@ -53,7 +53,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
-							 Windows nightly builds are hosted using Appveyor service while Linux builds are hosted on this website. AppVeyor is a hosted distribution and continuous integration service used to remotely build and test projects hosted on GitHub. This service allows us to deploy newly developed builds as soon as possible for both our testers and contributors.
+							 Windows nightly builds are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site.
 						</p>
 					</div>
 				</div>
@@ -113,15 +113,11 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			</a>
-			
-			
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading">
 				<h2>Documentation and Press</h2>
 			</div>
 			<!-- End -->
-			
-	
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
@@ -131,7 +127,9 @@ https://github.com/daginatsuko
 						<p>
 							 All information found in this archive was obtained by collecting and reviewing data from various sources on the internet. These sources include but are not limited to Sony Computer Entertainment, IBM Corporation and NVIDIA corporation. This documentation covers hardware and some software aspects of the PlayStation 3.<br>
 							<br>
-							<p>Last updated on April 9th, 2017</p>
+							<p>
+								Last updated on April 9th, 2017
+							</p>
 						</p>
 					</div>
 				</div>
@@ -160,7 +158,9 @@ https://github.com/daginatsuko
 						<p>
 							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to UHD-quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.<br>
 							<br>
-							<p>Last updated on April 1st, 2017</p>
+							<p>
+								Last updated on April 1st, 2017
+							</p>
 						</p>
 					</div>
 				</div>
