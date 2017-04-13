@@ -657,7 +657,7 @@
 	z-index:1;
 	width:100%;
 	height:100%;
-	background: linear-gradient(to right, #ff0000, #670000);
+	background: linear-gradient(to right, rgba(166, 0, 217, .8), rgba(0, 114, 255, .8));
 	opacity: 0.8;
 }
 #featurette-tx1-body {
@@ -828,7 +828,7 @@
 	font-family:helvetica;
 	font-size:12px;
 	line-height: 30px;
-	padding-left: 30px;
+	padding-left: 44px;
 	height: 30px;
 	color: #fff;
 }
@@ -1620,7 +1620,7 @@
 	background: #5e32eb !important;
 }
 .div-ico-author {
-	left: 0px !important;
+	left: 14px !important;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-panel-left {
