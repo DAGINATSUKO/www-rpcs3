@@ -43,7 +43,7 @@
 			<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 16px;">
 			</div>
 			<div id='featured-tx3-block'>
-				<a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">
+				<a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145" target="_blank">
 				<p>
 					 Microsoft Visual C++ 2015 redistributable.
 				</p>
@@ -54,7 +54,7 @@
 			<div id='featured-ico-block' style="background:url('/img/icons/list/directx.png') no-repeat center; background-size: 16px;">
 			</div>
 			<div id='featured-tx3-block'>
-				<a href="https://www.microsoft.com/en-us/download/details.aspx?id=35">
+				<a href="https://www.microsoft.com/en-us/download/details.aspx?id=35" target="_blank">
 				<p>
 					 Microsoft DirectX End-User Runtime.
 				</p>

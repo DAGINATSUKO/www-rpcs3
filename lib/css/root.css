@@ -36,24 +36,23 @@ b {
 	font-size:inherit;
 	line-height:inherit;
 	text-align:inherit;
-	color: #06c;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 a:visited {
 	text-decoration:none;
-	color:#000;
+	color:#0066cc;
 }
 a:active {
 	text-decoration:none;
-	color:#06c;
+	color:#0066cc;
 }
 a:link {
 	text-decoration:none;
-	color:#000;
+	color:#0066cc;
 }
 a:hover {
-	text-decoration:none;
-	color:#06c;
+	text-decoration:underline;
+	color:#0066cc;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 ::-webkit-scrollbar {
@@ -69,6 +68,13 @@ a:hover {
 	background: #9c9c9c;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+input {
+	height:100%;
+	padding-left:24px;
+	color:#000;
+	border:none;
+	background: #fff;
+}
 input:focus {
 	outline-color: transparent;
 }
@@ -88,18 +94,27 @@ table {
 	border-collapse:collapse;
 	color:#fff;
 }
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+tr {
+	background:#fff;
+}
 tr:nth-child(2n) {
 	background-color:rgba(0,37,86,.02);
 }
 tr:nth-child(2n+1) {
 	background-color:#fff;
 }
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 th {
 	padding-left:25px;
 	text-align:left;
-	color:#000;
+	color: #000;
 	background-color:#fff;
 }
+th a {
+	color: #000 !important;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 td {
 	height:35px;
 	padding-left:25px;
@@ -110,13 +125,28 @@ td {
 td a:hover {
 	text-decoration:underline;
 }
-tr {
-	background:#fff;
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.anchor {
+	display:none !important;
+	width:16;
+	height:16;
 }
-input {
-	height:100%;
-	padding-left:24px;
-	color:#000;
-	border:none;
-	background: #fff;
+.markdown-body h2 {
+	font-family:helvetica;
+	font-size:14px;
+	font-weight:600;
+	margin-bottom:16px;
+	margin-left:9px;
+	padding-top:21px;
+	padding-bottom:15px;
+	text-align:left;
+	color:#002556;
+	border-bottom:1px solid #eee;
+}
+.markdown-body {
+	font-family:helvetica;
+	font-size:16px;
+}
+.markdown-body ul {
+	padding-left: 25px;
 }

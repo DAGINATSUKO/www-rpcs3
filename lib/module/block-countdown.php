@@ -14,8 +14,8 @@
 	<div id='countdown-btn-body'>
 	</div>
 	</a>
-	<div class="visual-wavebar-2">
+	<div class="visual-wavebar-1">
 	</div>
-	<div class="visual-wavebar-2 delayed-fade" style="display:none;">
+	<div class="visual-wavebar-1 delayed-fade" style="display:none;">
 	</div>
 </div>

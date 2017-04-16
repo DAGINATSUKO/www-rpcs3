@@ -8,18 +8,16 @@
 	</div>
 	<div id='menu-btn-open' type="button" title="Menu">
 	</div>
-	<a href="https://www.patreon.com/Nekotekina" target="_blank">
-	<div id='menu-con-patreon' type="button">
-		<div id='menu-tx1-sub' type="button" title="Support us with Patreon">
-			 Patreon
+	<div id='menu-con-donate' type="button">
+		<div id='menu-tx1-button' type="button" title="Support us with Patreon or Alipay">
+			 Donate
 		</div>
-		<div id='menu-ico-patreon' type="button">
+		<div id='menu-ico-donate' type="button">
 		</div>
 	</div>
-	</a>
 	<a href="https://github.com/RPCS3/rpcs3" target="_blank">
 	<div id='menu-con-git' type="button">
-		<div id='menu-tx1-sub' type="button" title="Contribute with GitHub">
+		<div id='menu-tx1-button' type="button" title="Contribute with GitHub">
 			 GitHub
 		</div>
 		<div id='menu-ico-git' type="button">
@@ -27,12 +25,12 @@
 	</div>
 	</a>
 </div>
+<!-- End -->
 <div id='menu-con-dim' class='toggle-menu'>
 	<div id='menu-con-anim' class='dropin-load'>
 		<div id="menu-tx1-title" style='-webkit-animation-duration: .4s;'>
 			 MAIN MENU
 		</div>
-		<div id='menu-con-canvas'>
 			<div id="menu-con-menu">
 				<a href='/'>
 				<div id="menu-btn-button" type="button" style='-webkit-animation-duration: .4s;'>
@@ -139,24 +137,57 @@
 				<div id='menu-ico-button' class="ico-github" style="background:url('/img/icons/menu/github.png') no-repeat center; background-size: 15px;">
 				</div>
 				</a>
-				<div id="menu-con-filler">
+				<div id="menu-fil-footer">
 				</div>
-				<div id="menu-con-filler">
+				<div id="menu-fil-footer">
 				</div>
 			</div>
-		</div>
 		<div id='menu-con-footer'>
-			<div id='menu-img-overflow'>
+			<div id='menu-ovr-footer'>
 			</div>
 			<div id='menu-ico-footer'>
 			</div>
 			<a href="https://github.com/DAGINATSUKO/RPCS3-Website" target="_blank">
 			<div id='menu-tx1-footer'>
-				<div style="color: #002556 !important;" class="txt-link" title="Website designed by DAGINATSUKO">
+				<div style="color: #002556 !important;" title="Website designed by DAGINATSUKO">
 					 Website source code on GitHub
 				</div>
 			</div>
 		</div>
 		</a>
+	</div>
+</div>
+<!-- End -->
+<div id='menu-con-dim' class='toggle-donate' style="background: linear-gradient(to right, rgba(166, 0, 217, .95), rgba(0, 114, 255, .95))">
+	<div id='donate-con-method'>
+		<div id='donate-con-patreon'>
+			<div id='donate-ico-patreon'>
+			</div>
+			<a href="https://www.patreon.com/Nekotekina" target="_blank">
+			<div id='donate-btn-use' title="Use Patreon">
+				 Support with Patreon
+			</div>
+			</a>
+		</div>
+		<div id='donate-con-alipay'>
+			<div id='donate-ico-alipay'>
+			</div>
+			<div id='donate-btn-use' class="menu-con-alipay" title="Use Alipay">
+				 Support with Alipay
+			</div>
+		</div>
+	</div>
+	<div id='donate-con-footer'>
+		 RPCS3 accepts both Patreon and Alipay funding services.
+	</div>
+</div>
+<!-- End -->
+<div id='menu-con-dim' class='toggle-alipay' style="background: linear-gradient(to right, rgba(166, 0, 217, .95), rgba(0, 114, 255, .95))">
+	<a href='/img/icons/donate/alipay-qr.png' target="_blank">
+	<div id='donate-qrc-alipay'>
+	</div>
+	</a>
+	<div id='donate-con-footer'>
+		 © Copyright 2004-2017 Alipay. All rights reserved,
 	</div>
 </div>

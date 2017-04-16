@@ -7,5 +7,8 @@
 <link rel="stylesheet" href="/lib/css/root.css?v=version2"/>
 <link rel="stylesheet" href="/lib/css/anim.css?v=version2"/>
 <link rel="stylesheet" href="/lib/css/main.css?v=version2"/>
+<link rel="stylesheet" href="/lib/css/menu.css?v=version2"/>
+<link rel="stylesheet" href="/lib/css/compat.css?v=version2"/>
+<link rel="stylesheet" href="/lib/css/blog.css?v=version2"/>
 <link rel="stylesheet" href="/lib/css/scale.css?v=version2"/>
 <link rel="stylesheet" href="/lib/css/debug.css?v=version2"/>
