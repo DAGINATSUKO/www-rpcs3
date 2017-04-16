@@ -32,11 +32,11 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-overlay-b'>
 		</div>
-		<div id='header-con-body-b'>
-			<div id='header-tx1-body-b'>
+		<div id='header-con-body'>
+			<div id='header-tx1-body'>
 				<h1>DOWNLOAD</h1>
 			</div>
-			<div id='header-tx2-body-b'>
+			<div id='header-tx2-body'>
 				<p>
 					 Download latest builds and documentation
 				</p>
@@ -128,7 +128,7 @@ https://github.com/daginatsuko
 							 All information found in this archive was obtained by collecting and reviewing data from various sources on the internet. These sources include but are not limited to Sony Computer Entertainment, IBM Corporation and NVIDIA corporation. This documentation covers hardware and some software aspects of the PlayStation 3.<br>
 							<br>
 							<p>
-								Last updated on April 9th, 2017
+								 Last updated on April 9th, 2017
 							</p>
 						</p>
 					</div>
@@ -159,7 +159,7 @@ https://github.com/daginatsuko
 							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to UHD-quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.<br>
 							<br>
 							<p>
-								Last updated on April 1st, 2017
+								 Last updated on April 1th, 2017
 							</p>
 						</p>
 					</div>

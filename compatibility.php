@@ -39,15 +39,22 @@ https://github.com/AniLeo
 		</div>
 		<div id='header-con-overlay-b'>
 		</div>
-		<div id='header-con-body-b'>
-			<div id='header-tx1-body-b'>
-				<h1><?php if (isset($_GET['h'])) { echo "HISTORY"; } else { echo "COMPATIBILITY"; } ?></h1>
+		<div id='header-con-body'>
+			<div id='header-tx1-body'>
+				<h1>
+				<?php 
+					if (isset($_GET['h'])) { echo "HISTORY"; } 
+					elseif (isset($_GET['b'])) { echo "BUILDS"; } 
+					else { echo "COMPATIBILITY"; }
+				?>
+				</h1>
 			</div>
-			<div id='header-tx2-body-b'>
+			<div id='header-tx2-body'>
 				<p>
 					<?php 
-					if (isset($_GET['h'])) { echo "History of the updates made to the compatibility list."; } 
-					else                   { echo "There are currently {$games} games listed in our database"; } 
+					if (isset($_GET['h']))     { echo "History of the updates made to the compatibility list"; } 
+					elseif (isset($_GET['b'])) { echo "History of RPCS3 Windows builds per merged pull request"; }
+					else                       { echo "There are currently {$games} games listed in our database"; } 
 					?>
 					
 				</p>
@@ -55,8 +62,9 @@ https://github.com/AniLeo
 		</div>
 	</div>
 	<?php 
-	if (!isset($_GET['h'])) { include 'lib/compat/compatibility.php'; }
-	else { include 'lib/compat/history.php'; }
+	if (isset($_GET['h'])) { include 'lib/compat/history.php'; }
+	elseif (isset($_GET['b'])) { include 'lib/compat/builds.php'; }
+	else { include 'lib/compat/compatibility.php'; }
 	?>
 	<!--End -->
 	<!-- Page Footer -->

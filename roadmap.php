@@ -32,11 +32,11 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-overlay-b'>
 		</div>
-		<div id='header-con-body-b'>
-			<div id='header-tx1-body-b'>
+		<div id='header-con-body'>
+			<div id='header-tx1-body'>
 				<h1>ROADMAP</h1>
 			</div>
-			<div id='header-tx2-body-b'>
+			<div id='header-tx2-body'>
 				<p>
 					Structured roadmap for RPCS3 development
 				</p>
@@ -53,7 +53,7 @@ https://github.com/daginatsuko
 			echo "<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">"; 
 			echo $second_step[0]; echo "</div></div>"; 
 			?>
-</div>
+	</div>
 </div>
 <!-- Page Footer -->
 <?php include 'lib/module/ui-footer.php';?>

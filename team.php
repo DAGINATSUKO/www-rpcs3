@@ -32,11 +32,11 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-overlay-b'>
 		</div>
-		<div id='header-con-body-b'>
-			<div id='header-tx1-body-b'>
+		<div id='header-con-body'>
+			<div id='header-tx1-body'>
 				<h1>TEAM</h1>
 			</div>
-			<div id='header-tx2-body-b'>
+			<div id='header-tx2-body'>
 				<p>
 					 A brief overview of Team RPCS3
 				</p>
@@ -67,7 +67,7 @@ https://github.com/daginatsuko
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Nekotekina joined RPCS3 in  <a href="http://www.emunewz.net/forum/showthread.php?tid=61854&pid=196002#pid196002" target="_blank">late 2013</a> as a contributor. He is currently the lead core developer and is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer with over 1300 commits and counting.
+								 Nekotekina joined RPCS3 in <a href="http://www.emunewz.net/forum/showthread.php?tid=61854&pid=196002#pid196002" target="_blank">late 2013</a> as a contributor. He is currently the lead core developer and is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer with over 1300 commits and counting.
 							</p>
 						</div>
 					</div>

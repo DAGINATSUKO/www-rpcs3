@@ -32,11 +32,11 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-overlay-b'>
 		</div>
-		<div id='header-con-body-b'>
-			<div id='header-tx1-body-b'>
+		<div id='header-con-body'>
+			<div id='header-tx1-body'>
 				<h1>FAQ</h1>
 			</div>
-			<div id='header-tx2-body-b'>
+			<div id='header-tx2-body'>
 				<p>
 					 Frequently asked questions for RPCS3
 				</p>
@@ -53,7 +53,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3 and its source code for any purpose, but distributing RPCS3 requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to <a class="txt-link" href="https://www.gnu.org/">GNU.org</a>
+							 RPCS3 uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3 and its source code for any purpose, but distributing RPCS3 requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to <a href="https://www.gnu.org/">GNU.org</a>
 						</p>
 					</div>
 				</div>
@@ -79,7 +79,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 began development in early 2011 by a small team of programmers. Our current core developer, <a class="txt-link" href="https://github.com/Nekotekina">Nekotekina</a>, is hard at work ensuring RPCS3 meets its roadmap goals and that its development is always progressing forward. Since then, RPCS3 has progressed into an open source community-based project. The full list of contributors can be found on our GitHub page.
+							 RPCS3 began development in early 2011 by a small team of programmers. Our current core developer, <a href="https://github.com/Nekotekina">Nekotekina</a>, is hard at work ensuring RPCS3 meets its roadmap goals and that its development is always progressing forward. Since then, RPCS3 has progressed into an open source community-based project. The full list of contributors can be found on our GitHub page.
 						</p>
 					</div>
 				</div>
@@ -118,7 +118,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a> or visit the newcomers section on the forums for more detailed information on how to get started.
+							 Please refer to the <a href="/quickstart">Quickstart Guide</a> or visit the newcomers section on the forums for more detailed information on how to get started.
 						</p>
 					</div>
 				</div>
@@ -170,7 +170,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 In its current state, RPCS3 does not support reading game data directly from PlayStation 3 format discs. PlayStation 3 discs are formatted in a very special way that can only be read with an actual PlayStation 3 system, or a compatible Blu-ray drive from select manufacturers. For more information on what Blu-ray drives are capable of reading games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 In its current state, RPCS3 does not support reading game data directly from PlayStation 3 format discs. PlayStation 3 discs are formatted in a very special way that can only be read with an actual PlayStation 3 system, or a compatible Blu-ray drive from select manufacturers. For more information on what Blu-ray drives are capable of reading games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -187,7 +187,7 @@ https://github.com/daginatsuko
 						</p>
 						<br>
 						<p>
-							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. For more information on what Blu-ray drives are capable of reading games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. For more information on what Blu-ray drives are capable of reading games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -200,7 +200,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You will need two different tools for dumping PlayStation 3 game discs from a Blu-ray drive. For more information on how to get started dumping your own games, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 You will need two different tools for dumping PlayStation 3 game discs from a Blu-ray drive. For more information on how to get started dumping your own games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -239,7 +239,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Yes, saves can be imported from a real PlayStation 3 system using the standard USB flash drive transfer method. Due to how the user account system works on a real PlayStation 3 system, in some cases, you may need to re-sign your save. For more information on how to manage your save data within RPCS3, please refer to the <a class="txt-link" href="/quickstart">Quickstart Guide</a>.
+							 Yes, saves can be imported from a real PlayStation 3 system using the standard USB flash drive transfer method. Due to how the user account system works on a real PlayStation 3 system, in some cases, you may need to re-sign your save. For more information on how to manage your save data within RPCS3, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -303,7 +303,7 @@ https://github.com/daginatsuko
 			<a href='/download'>
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>

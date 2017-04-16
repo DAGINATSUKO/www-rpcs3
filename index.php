@@ -24,25 +24,18 @@ https://github.com/daginatsuko
 <?php include 'lib/module/call-video.php'?>
 <?php
 	preloadVideo(
+	'7',
+	'WqkeGhlSV84',
+	'Heavy Rain',
+	'Heavy Rain is a interactive drama action-adventure game developed by Quantic Dream and published by Sony Computer Entertainment. The game is a film noir thriller, featuring four protagonists involved with the mysterious serial killer It was released exclusively for the PlayStation 3.',
+	'Uploaded By Zangetsu'
+	);
+	preloadVideo(
 	'2',
 	'PI7nRkq9CEo',
 	'Demon\'s Souls',
 	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki, under the supervision of Sony Computer Entertainment\'s Japan Studio. It was released exclusively for the PlayStation 3.',
 	'Uploaded By RPCS3'
-	);
-	preloadVideo(
-	'5',
-	'fpyfKRQti7A',
-	'The Legend of Heroes: Trails of Cold Steel',
-	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom and published by XSEED Games in North America. It is the first game in the Trails of Cold Steel series. It was released exclusively for both the PlayStation 3 and PlayStation Vita.',
-	'Uploaded By Blast Processing'
-	);
-	preloadVideo(
-	'4',
-	'CqkmEKcITqU',
-	'The Legend of Spyro: Dawn of the Dragon',
-	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra. It was proceeded to be the final installment in the Spyro series. It was released for both PlayStation 2 and PlayStation 3.',
-	'Uploaded By Emulator_Team'
 	);
 	preloadVideo(
 	'3',
@@ -52,6 +45,13 @@ https://github.com/daginatsuko
 	'Uploaded By RPCS3'
 	);
 	preloadVideo(
+	'4',
+	'CqkmEKcITqU',
+	'The Legend of Spyro: Dawn of the Dragon',
+	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra. It was proceeded to be the final installment in the Spyro series. It was released for both PlayStation 2 and PlayStation 3.',
+	'Uploaded By Emulator_Team'
+	);
+	preloadVideo(
 	'6',
 	'5F_i-ru2ofE',
 	'Tales of Xillia',
@@ -59,11 +59,11 @@ https://github.com/daginatsuko
 	'Uploaded By John GodGames'
 	);
 	preloadVideo(
-	'7',
-	'79Cg4X7k_oI',
-	'Tekken 6',
-	'Tekken 6 is a 2.5D fighting game directed by Yuichi Yonemori and developed and published by Bandi Namco. It is the seventh main installment in the Tekken fighter franchise. It was later released in Japanese arcades on November 26th, 2007 as well as on the PlayStation 3 and Xbox 360.',
-	'Uploaded By John GodGames'
+	'5',
+	'fpyfKRQti7A',
+	'The Legend of Heroes: Trails of Cold Steel',
+	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom and published by XSEED Games in North America. It is the first game in the Trails of Cold Steel series. It was released exclusively for both the PlayStation 3 and PlayStation Vita.',
+	'Uploaded By Blast Processing'
 	);
 ?>
 <body>
@@ -76,12 +76,12 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-overlay-b'>
 		</div>
-		<div id='header-con-body-b'>
-			<div id='header-tx1-body-b'>
+		<div id='header-con-body'>
+			<div id='header-tx1-body'>
 				<h1>
 				THE WORLD'S FIRST </h1>
 			</div>
-			<div id='header-tx2-body-b'>
+			<div id='header-tx2-body'>
 				<p>
 					 Open-source Sony PlayStation 3 Emulator for Windows and Linux
 				</p>

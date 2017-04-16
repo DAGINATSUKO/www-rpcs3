@@ -32,11 +32,11 @@ https://github.com/daginatsuko
 		</div>
 		<div id='header-con-overlay-b'>
 		</div>
-		<div id='header-con-body-b'>
-			<div id='header-tx1-body-b'>
+		<div id='header-con-body'>
+			<div id='header-tx1-body'>
 				<h1>QUICKSTART</h1>
 			</div>
-			<div id='header-tx2-body-b'>
+			<div id='header-tx2-body'>
 				<p>
 					 Get started using RPCS3 on your PC
 				</p>
@@ -76,7 +76,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a class="txt-link" href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under <b>Tools</b> > <b>Install Firmware</b>. The files will then be installed and then correctly placed in their appropriate directories.
+							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under Tools > Install Firmware. The files will then be installed and then correctly placed in their appropriate directories.
 						</p>
 					</div>
 				</div>
@@ -90,10 +90,9 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Firmware modules are selected <b>automatically</b> based on the PlayStation 3 game or software that is loaded. You can still <b>override</b> automatic module selection and chose which firmware modules you want to use manually, but it is not recommended to do so.
-							 <br>
-							 <br>
-							 These are the minimum set of modules that must be enabled if you chose  <b>not</b> to  use the <b>Load Required Libraries</b> setting:
+							 Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and chose which firmware modules you want to use manually, but it is not recommended to do so. <br>
+							<br>
+							 These are the minimum set of modules that must be enabled if you chose not to use the <b>Load Required Libraries</b> setting:
 						</p>
 						<br>
 						<p>
@@ -139,7 +138,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Again, due to copyright and obvious <b>legal</b> reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console. Once these games are dumped from your console, they can be in either Package format (.pkg), Blu-Ray Disc format or PlayStation Network format.
+							 Again, due to copyright and obvious legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console. Once these games are dumped from your console, they can be in either Package format (.pkg), Blu-Ray Disc format or PlayStation Network format.
 						</p>
 						<br>
 						<p>
@@ -217,7 +216,7 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built in 'Install PKG' option. The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates <b>must be the same region in order to work</b>. Cross-mixing game or  software regions may create irreversible damage to the game or software.
+							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built in 'Install PKG' option. The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
 						</p>
 					</div>
 				</div>
@@ -289,36 +288,36 @@ https://github.com/daginatsuko
 						</p>
 						<br>
 						<p>
-							 • <a class='txt-link' href='/cdn/tools/patcher.zip' download>PS3 ISO Patcher</a> - By BlackDaemon
+							 • <a href='/cdn/tools/patcher.zip' download>PS3 ISO Patcher</a> - By BlackDaemon
 						</p>
 						<p>
-							 • <a class='txt-link' href='/cdn/tools/3k3y.zip' download>3k3y ISO Tools</a> - By the 3k3y team
+							 • <a href='/cdn/tools/3k3y.zip' download>3k3y ISO Tools</a> - By the 3k3y team
 						</p>
 						<br>
 						<p>
-							 1 - Insert a PlayStation 3 <b>Blu-ray disc game</b> of your choice.
+							 1. Insert a PlayStation 3 Blu-ray disc game of your choice.
 						</p>
 						<p>
-							 2 - Dump the <b>.iso</b> image using a program like <b>Alcohol 120%</b>.
+							 2. Dump the .iso image using a program like Alcohol 120%.
 						</p>
 						<p>
-							 3 - Use <a class="txt-link" href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate .ird file that matches your game.
+							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate .ird file that matches your game.
 						</p>
 						<p>
-							 4 - Be sure to check discID in case of different game editions and the game's firmware version in param.sfo
+							 4. Be sure to check discID in case of different game editions and the game's firmware version in param.sfo
 							<p>
-								 5 - Open <b>PS3 ISO Patcher</b> and select your dumped .iso file and its appropriate .ird file.
+								 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
 							</p>
 							<p>
-								 6 - Press <b>Patch</b> to apply the patch to the .iso file.
+								 6. Press Patch to apply the patch to the .iso file.
 							</p>
 							<p>
-								 7 - Open <b>3k3y ISO Tools</b> and decrypt the .iso file.
+								 7. Open 3k3y ISO Tools and decrypt the .iso file.
 							</p>
-							 8 - Your game should now be properly decrypted.
+							 8. Your game should now be properly decrypted.
 						</p>
 						<p>
-							 9 - You must now extract your decrypted .iso file for use with RPCS3.
+							 9. You must now extract your decrypted .iso file for use with RPCS3.
 						</p>
 					</div>
 				</div>
@@ -335,14 +334,28 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 • <b>PPU Interpreter (Precise)</b> and <b>SPU Interpreter (Precise)</b> provide more accurate emulation, but they're slower.
-						</p>
-						<p>
-							 • <b>PPU Interpreter (Fast)</b> and <b>SPU Interpreter (Fast)</b> are faster than their 'Precise' counterparts. They are the most commonly used modes and tend to be a lot faster.
+							<b>PPU Interpreter (Fast)</b><br>
+							 Provides fast real-time PPU emulation but is less accurate.
 						</p>
 						<br>
 						<p>
-							 • Both the <b>PPU</b> and <b>SPU</b> recompilers should only be used if the game already runs decently on the PPU and SPU interpreters to gain a boost in performance.
+							<b>PPU Recompiler (LLVM)</b><br>
+							 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides both the fastest and most accurate PPU emulation.
+						</p>
+						<br>
+						<p>
+							<b>SPU Interpreter (Precise)</b><br>
+							 Provides accurate real-time emulation for SPU cores, but is slower.
+						</p>
+						<br>
+						<p>
+							<b>SPU Interpreter (Fast)</b><br>
+							 Provides fast real-time SPU emulation, but is less accurate.
+						</p>
+						<br>
+						<p>
+							<b>SPU Recompiler (ASMJIT)</b><br>
+							 Provides faster real-time SPU emulation with balanced speed and accuracy.
 						</p>
 					</div>
 				</div>
@@ -355,23 +368,33 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You should always test your games with all renderers (<b>OpenGL</b>, <b>DirectX12</b>, <b>Vulkan</b>) to see in which one gives you the best performance and to see if other renderers suffer from issues that could be potentially fixed.
+							<b>Render</b><br>
+							 Allows you to select OpenGL, Vulkan and DirectX 12 renderers that are compatible with your GPU. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
 						</p>
 						<br>
 						<p>
-							 Optimal resolutions for testing are <b>1920x1080</b> (1080p) and <b>1280x720</b> (720p). Not all games will render at 1080p because the real PlayStation 3 doesn't support this resolution on all games. If you run into any issues, try lowering the resolution of the game.
+							<b>Resolution</b><br>
+							 Allows you to set the native rendering resolution for the emulated console. Optimal resolutions for testing are 1920x1080 and 1280x720. Not all games will render at 1080p because a real PlayStation 3 doesn't support this resolution on all games.
 						</p>
 						<br>
 						<p>
-							<b>Frame-limit</b> should be set to <b>'Auto'</b>, otherwise some games may surpass their 60FPS target causing issues such as sped-up gameplay. Games are only intended to run up to 60FPS on a real PlayStation 3.
+							<b>D3D Adapter</b><br>
+							 Allows you to select your preferred D3D device for use with DirectX 12.
 						</p>
 						<br>
 						<p>
-							<b>D3D Adapter</b> should be set to your current GPU and is only required when using <b>D3D12</b> (DirectX 12).
+							<b>Aspect Ratio</b><br>
+							 Defines the aspect ratio of the the emulated console.
 						</p>
 						<br>
 						<p>
-							<b>Read / Write</b> and <b>Color / Depth</b> buffers should be disabled for now as they're not working properly with any of the rendering back-ends. These buffers are only required for bigger AAA games which don't run yet.
+							<b>Frame Limit</b><br>
+							 In most cases, this setting should be set to Auto. Otherwise, some games may surpass their 60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
+						</p>
+						<br>
+						<p>
+							<b>Read/Write and Color/Depth Buffers</b><br>
+							 These buffers should be disabled for now as they're not working properly with any of the renderers. Thee buffers are only required for bigger AAA games.
 						</p>
 					</div>
 				</div>
@@ -384,11 +407,74 @@ https://github.com/daginatsuko
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Audio implementation isn't really a priority for now, so it only has basic implementations. RPCS3 currently supports <b>OpenAL</b> and <b>XAudio2</b>. XAudio2 should always be used on Windows for proper audio playback.
+							<b>Audio Out</b><br>
+							 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL and XAudio2. XAudio2 should always be used on Windows operating systems for proper audio playback.
 						</p>
 						<br>
 						<p>
-							 If you run into any issues with either audio back-ends, set the output to <b>'Null'</b>. This will disable all audio for the emulator.
+							 If you run into any issues with either audio backends, set the output to Null. This will disable all audio for the emulator.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Input/Output settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Pad Handler</b><br>
+							 Allows you to select which handler you want to drive your controller's inputs.
+						</p>
+						<br>
+						<p>
+							<b>Keyboard Handler</b><br>
+							 Allows you to select which device you want to register emulated console keyboard inputs.
+						</p>
+						<br>
+						<p>
+							<b>Mouse Handler</b><br>
+							 Allows you to select which device you want to register emulated console mouse inputs and movement.
+						</p>
+						<br>
+						<p>
+							<b>Camera</b><br>
+							 Allows you to spoof or disable PlayStation 3 compatible cameras.
+						</p>
+						<br>
+						<p>
+							<b>Camera Type</b><br>
+							 Allows you to select which device you want to input emulated console camera video/audio.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Networking settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Connection status</b><br>
+							 Allows you to spoof an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>System settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Language</b><br>
+							 Allows you to change the internal system language of the emulated console.
 						</p>
 					</div>
 				</div>
@@ -397,7 +483,7 @@ https://github.com/daginatsuko
 			<a href='/download'>
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/appveyor.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
