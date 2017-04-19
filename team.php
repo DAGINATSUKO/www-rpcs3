@@ -67,7 +67,7 @@ https://github.com/daginatsuko
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Nekotekina joined RPCS3 in <a href="http://www.emunewz.net/forum/showthread.php?tid=61854&pid=196002#pid196002" target="_blank">late 2013</a> as a contributor. He is currently the lead core developer and is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer with over 1300 commits and counting.
+								 Nekotekina joined RPCS3 in late 2013</a> as a contributor. He is currently the lead core developer and is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer with over 1300 commits and counting.
 							</p>
 						</div>
 					</div>
