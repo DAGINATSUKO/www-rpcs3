@@ -4,7 +4,7 @@
 <script src='/lib/js/main.js'></script>
 <script src='/lib/js/timer.js'></script>
 <!-- CSS -->
-<link rel="stylesheet" href="/lib/css/root.css?v=version2"/>
+<link rel="stylesheet" href="/lib/css/html.css?v=version2"/>
 <link rel="stylesheet" href="/lib/css/anim.css?v=version2"/>
 <link rel="stylesheet" href="/lib/css/main.css?v=version2"/>
 <link rel="stylesheet" href="/lib/css/menu.css?v=version2"/>

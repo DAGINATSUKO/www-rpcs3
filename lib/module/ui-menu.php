@@ -178,7 +178,7 @@
 		</div>
 	</div>
 	<div id='donate-con-footer'>
-		 RPCS3 accepts both Patreon and Alipay funding services.
+		 All Patreon and Alipay funding goes towards Nekotekina's development efforts as RPCS3's core developer.
 	</div>
 </div>
 <!-- End -->
