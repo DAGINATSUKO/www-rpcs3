@@ -159,7 +159,7 @@ https://github.com/daginatsuko
 							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to UHD-quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.<br>
 							<br>
 							<p>
-								 Last updated on April 1th, 2017
+								 Last updated on April 1st, 2017
 							</p>
 						</p>
 					</div>
