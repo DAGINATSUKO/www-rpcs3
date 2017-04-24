@@ -14,15 +14,15 @@ https://github.com/daginatsuko
 <meta name="author" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
-<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
+<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/114.png" sizes="114x114"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/144.png" sizes="144x144"/>
-</head>
 <?php include 'lib/module/call-sys.php';?>
-<?php include 'lib/module/call-php.php';?>
+</head>
 <body>
+<?php include 'lib/module/call-php.php';?>
 <!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">

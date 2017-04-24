@@ -1,5 +1,5 @@
 <?php
-if(!@include("lib/compat/core.php")) throw new Exception("Compat: core is missing. Failed to include core.php");
+if(!@include_once("lib/compat/inc.history.php")) throw new Exception("Compat: inc.history.php is missing. Failed to include inc.history.php");
 
 if (isset($_GET['h']) & isset($_GET['rss'])) { echo getHistoryRSS(); } 
 else {
@@ -21,15 +21,15 @@ https://github.com/AniLeo
 <meta name="author" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Data Metadata -->
-<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
+<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/114.png" sizes="114x114"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/144.png" sizes="144x144"/>
-</head>
 <?php include 'lib/module/call-sys.php';?>
-<?php include 'lib/module/call-php.php';?>
+</head>
 <body>
+<?php include 'lib/module/call-php.php';?>
 <!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
@@ -43,9 +43,9 @@ https://github.com/AniLeo
 			<div id='header-tx1-body'>
 				<h1>
 				<?php 
-					if (isset($_GET['h'])) { echo "HISTORY"; } 
+					if (isset($_GET['h']))     { echo "HISTORY"; } 
 					elseif (isset($_GET['b'])) { echo "BUILDS"; } 
-					else { echo "COMPATIBILITY"; }
+					else                       { echo "COMPATIBILITY"; }
 				?>
 				</h1>
 			</div>
@@ -54,7 +54,7 @@ https://github.com/AniLeo
 					<?php 
 					if (isset($_GET['h']))     { echo "History of the updates made to the compatibility list"; } 
 					elseif (isset($_GET['b'])) { echo "History of RPCS3 Windows builds per merged pull request"; }
-					else                       { echo "There are currently {$games} games listed in our database"; } 
+					else                       { echo "There are currently ".countGames('all')." games listed in our database"; } 
 					?>
 					
 				</p>
@@ -62,9 +62,9 @@ https://github.com/AniLeo
 		</div>
 	</div>
 	<?php 
-	if (isset($_GET['h'])) { include 'lib/compat/history.php'; }
-	elseif (isset($_GET['b'])) { include 'lib/compat/builds.php'; }
-	else { include 'lib/compat/compatibility.php'; }
+	if (isset($_GET['h']))     { include 'lib/compat/pages/history.php'; }
+	elseif (isset($_GET['b'])) { include 'lib/compat/pages/builds.php'; }
+	else                       { include 'lib/compat/pages/compatibility.php'; }
 	?>
 	<!--End -->
 	<!-- Page Footer -->

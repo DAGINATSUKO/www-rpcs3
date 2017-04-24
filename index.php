@@ -14,12 +14,14 @@ https://github.com/daginatsuko
 <meta name="author" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <!-- Metadata -->
-<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png">
+<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/114.png" sizes="114x114"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/144.png" sizes="144x144"/>
 <?php include 'lib/module/call-sys.php';?>
+</head>
+<body>
 <?php include 'lib/module/call-php.php';?>
 <?php include 'lib/module/call-video.php'?>
 <?php
@@ -27,46 +29,39 @@ https://github.com/daginatsuko
 	'7',
 	'WqkeGhlSV84',
 	'Heavy Rain',
-	'Heavy Rain is a interactive drama action-adventure game developed by Quantic Dream and published by Sony Computer Entertainment. The game is a film noir thriller, featuring four protagonists involved with the mysterious serial killer It was released exclusively for the PlayStation 3.',
-	'Uploaded By Zangetsu'
+	'Heavy Rain is an interactive drama adventure game developed by Quantic Dream and published by Sony Computer Entertainment. It was released exclusively for the PlayStation 3.'
 	);
 	preloadVideo(
 	'2',
 	'PI7nRkq9CEo',
 	'Demon\'s Souls',
-	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki, under the supervision of Sony Computer Entertainment\'s Japan Studio. It was released exclusively for the PlayStation 3.',
-	'Uploaded By RPCS3'
+	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki. It was released exclusively for the PlayStation 3.'
 	);
 	preloadVideo(
 	'3',
 	'c7Oq5O7uX0E',
 	'Catherine',
-	'Catherine is a puzzle-platformer adventure game developed by Atlus and directed by Katsura Hashino. It is the first original Atlus title that was developed with high-definition consoles in mind. It was released for both PlayStation 3 and Xbox 360.',
-	'Uploaded By RPCS3'
+	'Catherine is a puzzle-platformer adventure game developed by Atlus and directed by Katsura Hashino. It was released for both PlayStation 3 and Xbox 360.'
 	);
 	preloadVideo(
 	'4',
 	'CqkmEKcITqU',
 	'The Legend of Spyro: Dawn of the Dragon',
-	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules and published by Activision and Sierra. It was proceeded to be the final installment in the Spyro series. It was released for both PlayStation 2 and PlayStation 3.',
-	'Uploaded By Emulator_Team'
+	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules. It was released for both PlayStation 2 and PlayStation 3.'
 	);
 	preloadVideo(
 	'6',
 	'5F_i-ru2ofE',
 	'Tales of Xillia',
-	'Tales of Xillia is a Japanese action role-playing adventure game developed by the Namco Tales Studio, directed by Hideo Baba and published by Bandi Namco. It is the thirteenth core game in the Tales series directed by Naoto Miyadera. It was released exclusively for the PlayStation 3.',
-	'Uploaded By John GodGames'
+	'Tales of Xillia is a Japanese action role-playing adventure game developed by the Namco Tales Studio and published by Bandi Namco. It was released exclusively for the PlayStation 3.'
 	);
 	preloadVideo(
 	'5',
 	'fpyfKRQti7A',
 	'The Legend of Heroes: Trails of Cold Steel',
-	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom and published by XSEED Games in North America. It is the first game in the Trails of Cold Steel series. It was released exclusively for both the PlayStation 3 and PlayStation Vita.',
-	'Uploaded By Blast Processing'
+	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom. It was released exclusively for both the PlayStation 3 and PlayStation Vita.'
 	);
 ?>
-<body>
 <!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
@@ -236,7 +231,7 @@ https://github.com/daginatsuko
 			<a href='/download'>
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 20px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/menu/download-h.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
@@ -246,14 +241,6 @@ https://github.com/daginatsuko
 				</div>
 			</div>
 			</a>
-			<!-- End -->
-		</div>
-	</div>
-</div>
-<!-- End -->
-<div id="page-con-content" style="background: #eaeaea;">
-	<div id="page-con-container">
-		<div id="page-in-container">
 			<ul class="page-flx-container">
 				<?php 
 				loadVideo('2', 'left');
@@ -264,13 +251,7 @@ https://github.com/daginatsuko
 				loadVideo('7', 'right');
 			?>
 			</ul>
-		</div>
-	</div>
-</div>
-<!-- End -->
-<div id="page-con-content">
-	<div id="page-con-container">
-		<div id="page-in-container">
+
 			<div id='featured-con-block' class="div-content-ad">
 				<div id='featured-con-ad'>
 					<p>
