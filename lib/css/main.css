@@ -650,11 +650,11 @@
 	cursor:pointer;
 	transition:.1s ease-in-out;
 	background:rgba(0,0,0,0) url('/img/icons/playback/play.png') no-repeat center;
-	background-size:50px;
+	background-size: 42px;
 }
 #featured-btn-play:hover {
-	background:rgba(0,114,255,.2) url('/img/icons/playback/play-h.png') no-repeat center;
-	background-size: 50px;
+	background:rgba(0,0,0,.4) url('/img/icons/playback/play-h.png') no-repeat center;
+	background-size: 42px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featured-btn-play-b {

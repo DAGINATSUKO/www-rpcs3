@@ -14,14 +14,13 @@ $(document).ready(function() {
 </div>
 <!-- Other Videos -->
 <?php
-function preloadVideo($id, $vid, $title, $desc, $author) {	
+function preloadVideo($id, $vid, $title, $desc) {	
 
 echo"
 <script type=\"text/javascript\">
 $(document).ready(function() {
     $('.feature-$id-title').text(\"$title\");
     $('.feature-$id-desc').text(\"$desc\");
-    $('.feature-$id-author').text(\"$author\");
 });
 </script>
 <div id=\"video-con-dim\" class=\"toggle-video-$id stop-video\">
@@ -39,13 +38,6 @@ echo "<li id='featured-con-grid' class='page-flx-item'>
 <div id='featured-img-grid' style=\"background:url('/img/thumbs/$id.jpg') no-repeat center; background-size: cover;\">
 	<div id='featured-btn-play' class=\"page-video-$id\">
 	</div>
-</div>
-<div id='featured-tx1-author' class='div-vid-author'>
-		<div id='featured-ico-author' class='div-ico-author'>
-		</div>
-	<p class=\"feature-$id-author\">
-		 Author Here
-	</p>
 </div>
 <div id='featured-con-block'>
 	<div id='featured-wrp-block' style='padding-bottom: 0px !important'>
