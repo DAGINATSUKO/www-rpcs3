@@ -13,14 +13,12 @@ https://github.com/AniLeo
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<!-- Data Metadata -->
 <title>RPCS3 - Compatibility List</title>
 <meta charset=UTF-8>
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, compatibility list">
 <meta name="author" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
-<!-- Data Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
@@ -30,7 +28,6 @@ https://github.com/AniLeo
 </head>
 <body>
 <?php include 'lib/module/call-php.php';?>
-<!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
@@ -66,10 +63,9 @@ https://github.com/AniLeo
 	elseif (isset($_GET['b'])) { include 'lib/compat/pages/builds.php'; }
 	else                       { include 'lib/compat/pages/compatibility.php'; }
 	?>
-	<!--End -->
-	<!-- Page Footer -->
+	<!-- End -->
 	<?php include 'lib/module/ui-footer.php';?>
-	<!-- Page End -->
+	<!-- End -->
 	</body>
 	</html>
 <?php } ?>

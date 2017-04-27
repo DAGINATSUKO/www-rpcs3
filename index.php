@@ -1,19 +1,12 @@
-<!-- 
-RPCS3.net website by DAGINATSUKO
-https://github.com/daginatsuko
-01.22.2017
--->
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<!-- Metadata -->
 <title>RPCS3 - PlayStation 3 Emulator</title>
 <meta charset="UTF-8">
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, home">
 <meta name="author" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
-<!-- Metadata -->
 <link rel="icon" type="image/png" href="/img/icons/meta/favicon.png"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
@@ -62,7 +55,6 @@ https://github.com/daginatsuko
 	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom. It was released exclusively for both the PlayStation 3 and PlayStation Vita.'
 	);
 ?>
-<!-- Content -->
 <div id="page-con-content">
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
@@ -139,7 +131,7 @@ https://github.com/daginatsuko
 							</div>
 							<div id='featured-tx1-author' style="padding-left: 30px !important;">
 								<p class="feature-1-author">
-									 Author Here
+									 Author
 								</p>
 							</div>
 						</div>
@@ -149,11 +141,11 @@ https://github.com/daginatsuko
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="feature-1-title">Title Here</h2>
+						<h2 class="feature-1-title">Title</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="feature-1-desc">
-							 Description Here
+							 Description
 						</p>
 					</div>
 				</div>
@@ -338,9 +330,9 @@ https://github.com/daginatsuko
 		</div>
 	</div>
 </div>
-<!-- Page Footer -->
+<!-- End -->
 <?php include 'lib/module/ui-footer.php';?>
-<!-- Page End -->
+<!-- End -->
 </div>
 </body>
 </html>
