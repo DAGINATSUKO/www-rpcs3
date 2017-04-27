@@ -9,7 +9,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #notification-tx1-body {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:40px;
 	position:fixed;
@@ -38,7 +38,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-tx1-button {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:14px;
 	line-height:60px;
 	position:absolute;
@@ -119,7 +119,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-tx1-title {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:60px;
 	position:fixed;
@@ -134,7 +134,7 @@
 	background:#fff;
 }
 #menu-tx1-open {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:60px;
 	position:absolute;
@@ -196,7 +196,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-btn-button {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:14px;
 	line-height:45px;
 	position:relative;
@@ -285,7 +285,7 @@
 	background:#fff;
 }
 #menu-tx1-footer {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:62px;
 	position:relative;
@@ -331,7 +331,7 @@
 	border-radius:6px;
 }
 #donate-con-footer {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:10px;
 	line-height:40px;
 	position:absolute;
@@ -390,7 +390,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-btn-use {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:38px;
 	position:relative;

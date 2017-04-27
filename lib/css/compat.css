@@ -6,7 +6,7 @@
 	background:linear-gradient(to right,#a600d9,#0072ff);
 }
 #compat-tx1-author {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:10px;
 	line-height:40px;
 	width:100%;
@@ -24,7 +24,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #compat-con-search {
-	font-family:helvetica;
+	font-family:arial;
 	left:0;
 	width:100%;
 	height:40px;
@@ -88,7 +88,7 @@
 	border-radius:100%;
 }
 #compat-tx1-status {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -119,7 +119,7 @@
 	background:#fff;
 }
 #submit {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:14px;
 	line-height:40px;
 	position:relative;
@@ -139,7 +139,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #compat-con-pages {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:14px;
 	line-height:33px;
 	position:relative;
@@ -156,7 +156,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #compat-hdr-left {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:35px;
 	position:relative;
@@ -167,7 +167,7 @@
 	color:#000;
 }
 #compat-hdr-right {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:35px;
 	float:right;
@@ -217,7 +217,7 @@
 	background:#2c3e50;
 }
 .compat-tx1-criteria {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:14px;
 	line-height:24px;
 	position:relative;

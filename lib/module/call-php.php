@@ -1,4 +1,3 @@
-<!-- UI -->
  <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
    $path .= "/lib/module/ui-disclaimer.php";

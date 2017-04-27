@@ -44,7 +44,7 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1000px) {
 	#compat-hdr-left {
-		font-family:helvetica !important;
+		font-family:arial !important;
 		font-size:12px !important;
 		line-height:38px !important;
 		position:relative !important;
@@ -59,7 +59,7 @@
 }
 @media screen and (max-width:1000px) {
 	#compat-hdr-right {
-		font-family:helvetica !important;
+		font-family:arial !important;
 		font-size:12px !important;
 		line-height:44px !important;
 		float:right !important;

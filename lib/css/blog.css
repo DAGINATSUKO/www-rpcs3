@@ -43,7 +43,7 @@
 	display: none;
 }
 #bulletin-tx1-title {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:60px;
 	position: fixed;
@@ -83,7 +83,7 @@
 	background-size:15px;
 }
 #bulletin-tx1-footer {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height: 62px;
 	position:relative;

@@ -1,4 +1,3 @@
-<!-- Featured Video -->
 <script type="text/javascript">
 $(document).ready(function() {
     $('.feature-1-title').text("Persona 5");
@@ -12,7 +11,6 @@ $(document).ready(function() {
 		</iframe>
 	</div>
 </div>
-<!-- Other Videos -->
 <?php
 function preloadVideo($id, $vid, $title, $desc) {	
 
@@ -42,11 +40,11 @@ echo "<li id='featured-con-grid' class='page-flx-item'>
 <div id='featured-con-block'>
 	<div id='featured-wrp-block' style='padding-bottom: 0px !important'>
 		<div id='featured-tx1-block'>
-			<h1 class=\"feature-$id-title\">Title Here</h1>
+			<h1 class=\"feature-$id-title\">Title</h1>
 		</div>
 		<div id='featured-tx2-block'>
 			<p class=\"feature-$id-desc\">
-				 Description Here
+				 Description
 			</p>
 		</div>
 	</div>

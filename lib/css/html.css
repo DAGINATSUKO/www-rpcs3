@@ -8,7 +8,7 @@ body {
 	font-weight:inherit;
 	line-height:inherit;
 	text-align:inherit;
-	background: #EAEDF7;
+	background: #eaedf7;
 }
 h1,h2,h3,h4,h5,p {
 	font-family:inherit;
@@ -86,7 +86,7 @@ iframe {
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 table {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:12px;
 	line-height:35px;
 	width:100%;
@@ -132,7 +132,7 @@ td a:hover {
 	height:16;
 }
 .markdown-body h2 {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:14px;
 	font-weight:600;
 	margin-bottom:16px;
@@ -144,7 +144,7 @@ td a:hover {
 	border-bottom:1px solid #eee;
 }
 .markdown-body {
-	font-family:helvetica;
+	font-family:arial;
 	font-size:16px;
 }
 .markdown-body ul {
