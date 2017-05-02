@@ -97,8 +97,7 @@
 	z-index:2;
 	overflow:hidden;
 	width:100%;
-	height:400px;
-	margin-top:60px;
+	height: 500px;
 	background: #000;
 }
 #header-img-head {
@@ -131,7 +130,7 @@
 	left:50%;
 	width:860px;
 	height:110px;
-	margin:-55px -430px;
+	margin: -35px -430px;
 	speak:spell-out;
 }
 #header-tx1-body {

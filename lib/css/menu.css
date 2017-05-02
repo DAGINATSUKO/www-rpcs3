@@ -1,13 +1,3 @@
-#menu-con-navbar {
-	position:fixed;
-	z-index:9998;
-	top:0;
-	width:100%;
-	height:60px;
-	border-bottom: 1px solid rgba(0,0,0,.1);
-	background: #fff;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #notification-tx1-body {
 	font-family:arial;
 	font-size:12px;
@@ -22,19 +12,66 @@
 	background: #ff3434;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-#menu-ico-logo {
-	position:absolute;
-	z-index:1;
+#menu-con-navbar {
+	position:fixed;
+	z-index:9998;
 	top:0;
-	left:50%;
-	width:200px;
-	height:100%;
-	margin:0 -100px;
-	background:url('/img/icons/menu/logo.png') no-repeat center;
-	background-size:80px;
+	width:100%;
+	height: auto;
+	background: rgba(94, 50, 235, .4);
 }
-#menu-ico-logo:hover {
-	opacity: .8;
+.div-navbar-opacity {
+	background: rgba(94, 50, 235, 1) !important;
+	border-bottom: solid 1px rgba(0,0,0,.1);
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#menu-con-container {
+	position: relative;
+	top:0;
+	height:auto;
+	margin:auto 0;
+	margin-right:60px;
+	margin-left:60px;
+}
+#menu-in-container {
+	overflow:auto;
+	max-width:1100px;
+	min-height:60px;
+	margin:0 auto;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#menu-ico-logo {
+	position: relative;
+	z-index:1;
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 60px;
+	background: url('/img/icons/menu/hero.png') no-repeat center;
+	background-size: 32px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+#menu-btn-select {
+	width: auto;
+	height: 60px;
+	top: 0px;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	font-family: arial;
+	font-size: 14px;
+	line-height: 60px;
+	margin-left: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-bottom: 2px solid rgba(0,0,0,.0);
+	transition: .1s ease-in-out;
+}
+#menu-btn-select:hover {
+	border-bottom: 2px solid #fff;
+	height: 58px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-tx1-button {
@@ -42,53 +79,34 @@
 	font-size:14px;
 	line-height:60px;
 	position:absolute;
-	right:60px;
+	right: 40px;
 	width:auto;
 	height:60px;
-	color:#002556;
+	color: #fff;
 }
 #menu-ico-donate {
 	position:absolute;
 	right:0;
-	width:60px;
+	width: 36px;
 	height:60px;
 	cursor:pointer;
-	background:url('/img/icons/menu/patreon.png') no-repeat center;
-	background-size:20px;
+	background: url('/img/icons/buttons/patreon.png') no-repeat center;
+	background-size: 25px;
 }
 #menu-con-donate {
 	position:relative;
-	right:0;
 	display:inline-block;
-	float:right;
-	width:130px;
+	float: right;
+	width: 120px;
 	height:60px;
 	cursor:pointer;
+	top: 0px;
+	transition: .1s ease-in-out;
+	border-bottom: 2px solid rgba(0,0,0,.0);
 }
 #menu-con-donate:hover {
-	background: rgba(0,37,86,.05);
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#menu-ico-git {
-	position:absolute;
-	right:0;
-	width:60px;
-	height:60px;
-	cursor:pointer;
-	background:url('/img/icons/menu/github.png') no-repeat center;
-	background-size:20px;
-}
-#menu-con-git {
-	position:relative;
-	right:0;
-	display:inline-block;
-	float:right;
-	width:130px;
-	height:60px;
-	cursor:pointer;
-}
-#menu-con-git:hover {
-	background: rgba(0,37,86,.05);
+	height: 58px;
+	border-bottom: 2px solid #fff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-con-dim {
@@ -97,228 +115,6 @@
 	width:100%;
 	height:100%;
 	background:rgba(0,37,86,.4);
-}
-#menu-con-anim {
-	position:fixed;
-	z-index:9999;
-	top:0;
-	overflow-y:scroll;
-	width:270px;
-	height:100%;
-	transition:all .2s ease-in-out;
-	-webkit-animation-name:fadeInLeft;
-	animation-name:fadeInLeft;
-	-webkit-animation-duration:.2s;
-	-webkit-animation-iteration-count:1;
-	background:#fff;
-	-webkit-overflow-scrolling:touch;
-}
-#menu-con-anim::-webkit-scrollbar {
-	display:none;
-	width: 5px;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#menu-tx1-title {
-	font-family:arial;
-	font-size:12px;
-	line-height:60px;
-	position:fixed;
-	z-index:2;
-	width:250px;
-	height:60px;
-	padding-left:20px;
-	letter-spacing:4px;
-	pointer-events:none;
-	color:#002556;
-	border-bottom:1px solid rgba(0,0,0,.1);
-	background:#fff;
-}
-#menu-tx1-open {
-	font-family:arial;
-	font-size:12px;
-	line-height:60px;
-	position:absolute;
-	left:60px;
-	width:74px;
-	height:60px;
-	text-align:center;
-	text-indent:4px;
-	letter-spacing:4px;
-	pointer-events:none;
-	color:#002556;
-}
-#menu-btn-open {
-	position:absolute;
-	z-index:1;
-	top:0;
-	left:0;
-	float:left;
-	width:60px;
-	height:60px;
-	cursor:pointer;
-	-ms-interpolation-mode:nearest-neighbor;
-	background:url('/img/icons/menu/menu.png') no-repeat center;
-	background-size:20px;
-	image-rendering:-moz-crisp-edges;
-	image-rendering:-moz-crisp-edges;
-	image-rendering:-o-crisp-edges;
-	image-rendering:-webkit-optimize-contrast;
-}
-#menu-btn-open:hover {
-	border-bottom:1px solid rgba(0,0,0,.1);
-	background:#002556 url('/img/icons/menu/menu-h.png') no-repeat center;
-	background-size: 20px;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#menu-con-menu {
-	position:absolute;
-	top:60px;
-	left:0;
-	width:100%;
-	height:576px;
-}
-#menu-ico-button {
-	position:relative;
-	z-index:1;
-	left:6px;
-	width:45px;
-	height:45px;
-	pointer-events:none;
-}
-#menu-ico-button-h {
-	position:relative;
-	z-index:1;
-	left:8px;
-	float:left;
-	width:42px;
-	height:42px;
-	pointer-events: none;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#menu-btn-button {
-	font-family:arial;
-	font-size:14px;
-	line-height:45px;
-	position:relative;
-	float:left;
-	width:222px;
-	height:45px;
-	padding-left:48px;
-	-webkit-animation-name:fadeInLeft;
-	animation-name:fadeInLeft;
-	text-align:left;
-	color:#002556;
-}
-#menu-btn-button:hover {
-	color:#fff;
-	background: #002556;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#menu-btn-button:hover ~ .ico-home {
-	background:url('/img/icons/menu/home-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-blog {
-	background:url('/img/icons/menu/blog-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-team {
-	background:url('/img/icons/menu/team-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-roadmap {
-	background:url('/img/icons/menu/roadmap-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-compatibility {
-	background:url('/img/icons/menu/compatibility-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-quickstart {
-	background:url('/img/icons/menu/quickstart-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-download {
-	background:url('/img/icons/menu/download-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-faqs {
-	background:url('/img/icons/menu/faq-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-discussion {
-	background:url('/img/icons/menu/discussion-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-patreon {
-	background:url('/img/icons/menu/patreon-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-discord {
-	background:url('/img/icons/menu/discord-h.png') no-repeat center !important;
-	background-size:20px !important;
-}
-#menu-btn-button:hover ~ .ico-youtube {
-	background:url('/img/icons/menu/youtube-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-twitter {
-	background:url('/img/icons/menu/twitter-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-reddit {
-	background:url('/img/icons/menu/reddit-h.png') no-repeat center !important;
-	background-size:15px !important;
-}
-#menu-btn-button:hover ~ .ico-github {
-	background:url('/img/icons/menu/github-h.png') no-repeat center !important;
-	background-size: 15px !important;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#menu-con-footer {
-	position:fixed;
-	z-index:1;
-	bottom:0;
-	width:270px;
-	height:60px;
-	border-top:1px solid rgba(0,0,0,.1);
-	background:#fff;
-}
-#menu-tx1-footer {
-	font-family:arial;
-	font-size:12px;
-	line-height:62px;
-	position:relative;
-	bottom:60px;
-	height:100%;
-	padding-left:50px;
-	text-align:left;
-	color:#002556;
-}
-#menu-tx1-footer:hover {
-	text-decoration:underline;
-}
-#menu-ico-footer {
-	width:60px;
-	height:60px;
-	background:url('/img/icons/menu/github.png') no-repeat center;
-	background-size:15px;
-}
-#menu-fil-footer {
-	position:relative;
-	float:left;
-	width:222px;
-	height:45px;
-	padding-left:48px;
-}
-#menu-ovr-footer {
-	position:absolute;
-	top:-46px;
-	width:270px;
-	height:45px;
-	pointer-events:none;
-	background:url(/img/icons/aesthetic/overflow.png) repeat-x;
-	background-size: contain;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-con-method {
