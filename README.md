@@ -16,6 +16,10 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * MySQL
 * Human brain
 
+## Resources
+* Flaticon
+* Animate.css
+
 ## Targets
 * Google Chrome
 * Microsoft Edge
