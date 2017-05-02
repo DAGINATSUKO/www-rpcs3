@@ -7,11 +7,7 @@
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, home">
 <meta name="author" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
-<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/114.png" sizes="114x114"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/144.png" sizes="144x144"/>
+<?php include 'lib/module/call-meta.php';?>
 <?php include 'lib/module/call-sys.php';?>
 </head>
 <body>
@@ -152,7 +148,7 @@
 			</div>
 			<div id='featured-wrp-panel'>
 				<!-- End -->
-				<a href='https://rpcs3.net/blog/2017/03/27/progress-report-march-2017/' target="_blank">
+				<a href='https://rpcs3.net/blog/2017/04/29/progress-report-april-2017/' target="_blank">
 				<div id='featured-con-panel' class="div-panel-left" style="background:#fff url('/img/panels/report.jpg') no-repeat center; background-size: cover; ">
 					<div id='featured-ovr-panel'>
 					</div>
@@ -160,7 +156,7 @@
 					</div>
 					<div id='featured-tx3-panel'>
 						<p>
-							 MARCH 2017 PROGRESS REPORT
+							 APRIL 2017 PROGRESS REPORT
 						</p>
 					</div>
 				</div>
