@@ -19,11 +19,7 @@ https://github.com/AniLeo
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, compatibility list">
 <meta name="author" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
-<link rel="icon" type="image/png" href="/img/icons/meta/favicon.png"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/57.png" sizes="57x57"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/72.png" sizes="72x72"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/114.png" sizes="114x114"/>
-<link rel="apple-touch-icon-precomposed" href="/img/icons/meta/144.png" sizes="144x144"/>
+<?php include 'lib/module/call-meta.php';?>
 <?php include 'lib/module/call-sys.php';?>
 </head>
 <body>
@@ -40,8 +36,10 @@ https://github.com/AniLeo
 			<div id='header-tx1-body'>
 				<h1>
 				<?php 
+					$get = obtainGet();
 					if (isset($_GET['h']))     { echo "HISTORY"; } 
 					elseif (isset($_GET['b'])) { echo "BUILDS"; } 
+					elseif (isset($get['a']))  { echo "DEBUG PANEL"; }
 					else                       { echo "COMPATIBILITY"; }
 				?>
 				</h1>
@@ -51,7 +49,8 @@ https://github.com/AniLeo
 					<?php 
 					if (isset($_GET['h']))     { echo "History of the updates made to the compatibility list"; } 
 					elseif (isset($_GET['b'])) { echo "History of RPCS3 Windows builds per merged pull request"; }
-					else                       { echo "There are currently ".countGames('all')." games listed in our database"; } 
+					elseif (isset($get['a']))  { echo "Super cool compatibility list debug control panel"; }
+					else                       { echo "There are currently ".countGames('all', 0)." games listed in our database"; } 
 					?>
 					
 				</p>
@@ -61,6 +60,7 @@ https://github.com/AniLeo
 	<?php 
 	if (isset($_GET['h']))     { include 'lib/compat/pages/history.php'; }
 	elseif (isset($_GET['b'])) { include 'lib/compat/pages/builds.php'; }
+	elseif (isset($get['a']))  { include 'lib/compat/pages/panel.php'; }
 	else                       { include 'lib/compat/pages/compatibility.php'; }
 	?>
 	<!-- End -->
