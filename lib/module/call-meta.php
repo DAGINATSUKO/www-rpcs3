@@ -14,4 +14,4 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:site" content="@rpcs3_emu"/>
 <meta name="twitter:title" content="RPCS3 Sony PlayStation 3 Emulator"/>
-<meta name="twitter:description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12."/>
+<meta name="twitter:description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux."/>
