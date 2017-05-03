@@ -382,7 +382,7 @@
 						<br>
 						<p>
 							<b>Read/Write and Color/Depth Buffers</b><br>
-							 These buffers should be disabled for now as they're not working properly with any of the renderers. Thee buffers are only required for bigger AAA games.
+							 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games.
 						</p>
 					</div>
 				</div>
