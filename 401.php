@@ -3,7 +3,7 @@
 <head>
 <title>RPCS3 - 401</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. It is powered by OpenGL, Vulkan and DirectX 12. All development is made possible with our contributors and core developers.">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
 <meta name="keywords" content=" ">
 <meta name="robots" content="noindex, nofollow">
 <meta name="author" content="RPCS3">
