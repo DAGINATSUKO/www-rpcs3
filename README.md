@@ -6,16 +6,16 @@ All trademarks and copyright-written content found on this website belong to the
 The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "Sony logo" and "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. All rights reserved.
 
 ## Licensing
-RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the website's files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
+RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
 
 ## Copyright
-RPCS3.net is Copyright © 2011 - 2017 DAGINATSUKO. It is distributed under the GNU General Public License Version 2.0. A copy of the license is available in the distributed LICENSE file.
+RPCS3.net is copyright © 2017 DAGINATSUKO. It is distributed under the GNU General Public License Version 2.0. A copy of the license is available in the distributed LICENSE file.
 
 #### Proprietary Technologies
-* DAGINATSUKO MANTA UX Engine
-* DAGINATSUKO MANTA HID Target
+* DAGINATSUKO Manta UX Engine
+* DAGINATSUKO Manta HID Target
 
-#### API Technologies
+#### Web Technologies
 * HTML 5.0
 * CSS 3.0
 * PHP 7.0
@@ -36,7 +36,7 @@ RPCS3.net is Copyright © 2011 - 2017 DAGINATSUKO. It is distributed under the G
 * [Opera Software Opera](http://www.opera.com/)
 
 ## Deployment
-Simply download the repository files and upload them to your web server or open them in a text, peferabbly [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL(Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly,
+Simply download the repository files and upload them to your web server or open them in a text, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL(Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly,
 
 ## History
 * 01-15-2017 - RPCS3.net foundation forked by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
