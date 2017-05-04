@@ -37,4 +37,4 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * 01.25.2017 - RPCS3.net blog initialized  (https://github.com/daginatsuko)
 * 05.01.2017 - RPCS3.net 2.0 Alpha initialized (https://github.com/daginatsuko)
 
-[link text itself]: http://www.reddit.com
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
