@@ -25,11 +25,11 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * [Animate.css](https://daneden.github.io/animate.css/ "Animate.css")
 
 #### Targets
-* Google Chrome
-* Microsoft Edge
-* Apple Safari
-* Mozilla Firefox
-* Opera Software Opera
+* [Google Chrome](https://www.google.com/chrome/browser/desktop/)
+* [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)
+* [Apple Safari](https://www.apple.com/safari/)
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Opera Software Opera](http://www.opera.com/)
 
 ## Milestones
 * 01.22.2017 - RPCS3.net initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
