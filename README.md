@@ -1,5 +1,5 @@
 ## RPCS3 Website
-Official source code for https://rpcs3.net
+Official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation®. 
 
@@ -36,5 +36,3 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * 01.22.2017 - RPCS3.net compatibility list initialized (https://github.com/AniLeo)
 * 01.25.2017 - RPCS3.net blog initialized  (https://github.com/daginatsuko)
 * 05.01.2017 - RPCS3.net 2.0 Alpha initialized (https://github.com/daginatsuko)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
