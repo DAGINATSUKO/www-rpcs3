@@ -20,11 +20,6 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * MySQL
 * Human brain
 
-#### Consumables
-* Mango Cake
-* Deviled Eggs
-* Mac & Cheese
-
 #### Resources
 * Flaticon
 * Animate.css
@@ -41,3 +36,5 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * 01.22.2017 - RPCS3.net compatibility list initialized (https://github.com/AniLeo)
 * 01.25.2017 - RPCS3.net blog initialized  (https://github.com/daginatsuko)
 * 05.01.2017 - RPCS3.net 2.0 Alpha initialized (https://github.com/daginatsuko)
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
