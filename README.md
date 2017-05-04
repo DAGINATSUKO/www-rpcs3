@@ -21,8 +21,8 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * Human brain
 
 #### Resources
-* Flaticon
-* Animate.css
+* [Flaticon](http://www.flaticon.com/ "Flaticon")
+* [Animate.css](https://daneden.github.io/animate.css/ "Animate.css")
 
 #### Targets
 * Google Chrome
