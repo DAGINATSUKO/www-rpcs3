@@ -6,7 +6,10 @@ All trademarks and copyright-written content found on this website belong to the
 The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "Sony logo" and "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. All rights reserved.
 
 ## Licensing
-RPCS3.net uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3.net and its source code for any purpose, but distributing RPCS3.net requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to https://GNU.org
+RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use RPCS3.net and its source code for any purpose, but distributing RPCS3.net requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to https://GNU.org
+
+## Copyright
+RPCS3.net is Copyright © 2011 - 2017 DAGINATSUKO. It is distributed under the GNU General Public License Version 2.0. A copy of the license is available in the distributed LICENSE file.
 
 #### Proprietary Technologies
 * DAGINATSUKO MANTA UX Engine
