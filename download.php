@@ -39,7 +39,7 @@
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="download-title">RPCS3 0.0.2 Nightly Builds</h2>
+						<h2 class="download-title">Latest Nightly Build</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
@@ -80,24 +80,24 @@
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Customized Builds</h2>
+						<h2>All Nightly Builds</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 This project is hosted exclusively on GitHub. GitHub allows us to share new any developments and progress we've made with the project. You can use our public GitHub repository to download and create your own build for testing, debugging or implementing new features.
+							 This is the history of all nightly builds generated per pull request, compiled by AppVeyor. You can also view detailed changes for every build through the GitHub build links. In addition, you can also use our GitHub repository to download and create your own builds for testing, debugging or implementing new features.
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
-			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
+			<a href='https://rpcs3.net/compatibility?b' target="_blank">
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 136px; margin: 0 -68px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/history.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
-							 Compile Build
+							 Build History
 						</p>
 					</div>
 				</div>

@@ -952,20 +952,21 @@
 	font-size:12px;
 }
 .div-pagecounter a {
-	font-size:12px;
+	font-size: 12px;
+	line-height: 42px;
 	position:relative;
-	padding-top:4px;
-	padding-right:4px;
-	padding-bottom:4px;
-	padding-left:4px;
-	color:#002556;
-	background:rgba(0,37,86,.1);
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	color: #0066cc;
 }
 .div-pagecounter a:hover {
 	position:relative;
 	width:22px;
 	color:#fff;
-	background: rgba(0,37,86,.4);
+	background: #0066cc;
+	text-decoration:none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-standalone {
