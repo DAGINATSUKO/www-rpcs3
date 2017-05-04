@@ -16,9 +16,7 @@
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
 		</div>
-		<div id='header-con-overlay-a'>
-		</div>
-		<div id='header-con-overlay-b'>
+		<div id='header-con-overlay'>
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>

@@ -34,7 +34,7 @@
 	border-top:1px solid #eee;
 }
 #compat-con-search a {
-	color:#000;
+	color:#5e5e5e;
 }
 #compat-con-search tr {
 	border:none !important;
@@ -46,7 +46,7 @@
 	height:100%;
 	cursor:pointer;
 	text-align:center;
-	color:#000;
+	color:#5e5e5e;
 }
 #compat-inr-search {
 	position:absolute;
@@ -57,17 +57,14 @@
 }
 #compat-inr-search:hover {
 	color:#fff;
-	background: #002556;
+	background: #5e32eb;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #compat-con-container {
-	margin-top:11px;
 	margin-bottom:14px;
-	padding-top:14px;
-	border-top:1px solid rgba(0,0,0,.05);
 }
 .compat-con-container tr:hover {
-	background:rgba(0,37,86,.1);
+	background: rgba(0, 102, 204, .1);
 }
 .compat-con-container {
 	overflow:hidden;
@@ -96,7 +93,7 @@
 	width:600px;
 	height:24px;
 	text-align:left;
-	color: #000;
+	color: #5e5e5e;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #compat-con-searchbox {
@@ -134,7 +131,7 @@
 }
 #submit:hover {
 	cursor:pointer;
-	background:#003070 url('/img/icons/menu/search-h.png') no-repeat center;
+	background:#5e32eb url('/img/icons/menu/search-h.png') no-repeat center;
 	background-size: 15px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -164,7 +161,7 @@
 	margin-top:-15px;
 	margin-left:23px;
 	text-align:left;
-	color:#000;
+	color: #5e5e5e;
 }
 #compat-hdr-right {
 	font-family:arial;
@@ -174,7 +171,6 @@
 	width:auto;
 	margin-top:-15px;
 	margin-right:20px;
-	margin-bottom:10px;
 	text-align:right;
 	color:#000;
 }
@@ -237,15 +233,14 @@
 	top:7px;
 	left:0;
 	float:left;
-	width:14px;
-	height:14px;
+	width: 18px;
+	height: 18px;
 	margin-right:4px;
 	padding-top:4px;
 	padding-right:4px;
 	padding-bottom:4px;
 	padding-left:4px;
 	text-align:left;
-	border:solid 1px #000;
 	border-radius: 100%;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/

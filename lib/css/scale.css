@@ -54,7 +54,6 @@
 		margin-left:0 !important;
 		text-align:center !important;
 		color:#000 !important;
-		border-top:1px solid rgba(0,0,0,.1) !important;
 	}
 }
 @media screen and (max-width:1000px) {
@@ -67,10 +66,8 @@
 		height:44px !important;
 		margin-top:-3px !important;
 		margin-right:0 !important;
-		margin-bottom:10px !important;
 		text-align:center !important;
 		color:#000 !important;
-		border-top: 1px solid rgba(0,0,0,.1) !important;
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/

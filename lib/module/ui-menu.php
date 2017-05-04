@@ -58,42 +58,48 @@
 				GitHub
 			</div>
 			</a>
-			<div id="menu-con-donate">
+			
+			
+			
+			
+			<div id="menu-con-donate" class="donate-subtrigger">
 				<div id="menu-tx1-button" title="Support us with Patreon or Alipay">
-					Support Us
+					Support Us on Patreon
 				</div>
 				<div id="menu-ico-donate">
 				</div>
+			<!-- Submenu -->	
+				<div id="submenu-con-container" class="donate-submenu">
+				
+				<a href="https://www.patreon.com/Nekotekina" target="_blank">
+				<div id="submenu-con-wrapper">
+				<div id="submenu-ico-patreon"></div>
+				<div id="submenu-btn-button">
+					Support with Patreon
+				</div>
+				</div>
+				</a>
+				
+				<div id="submenu-con-wrapper" class='trigger-alipay' style="border-top: solid 1px rgba(0,0,0,.02);">
+				<div id="submenu-ico-alipay"></div>
+				<div id="submenu-btn-button">
+					Support with Alipay
+				</div>
+				</div>
+				
+				</div>
+			<!-- Submenu -->	
 			</div>
+			
+			
+			
+			
+			
 		</div>
 	</div>
 </div>
 <!-- End -->
-<div id='menu-con-dim' class='toggle-donate' style="background: linear-gradient(to right, rgba(166, 0, 217, .95), rgba(0, 114, 255, .95))">
-	<div id='donate-con-method'>
-		<div id='donate-con-patreon'>
-			<div id='donate-ico-patreon'>
-			</div>
-			<a href="https://www.patreon.com/Nekotekina" target="_blank">
-			<div id='donate-btn-use' title="Use Patreon">
-				 Support with Patreon
-			</div>
-			</a>
-		</div>
-		<div id='donate-con-alipay'>
-			<div id='donate-ico-alipay'>
-			</div>
-			<div id='donate-btn-use' class="menu-con-alipay" title="Use Alipay">
-				 Support with Alipay
-			</div>
-		</div>
-	</div>
-	<div id='donate-con-footer'>
-		 All Patreon and Alipay funding goes towards Nekotekina's development efforts as RPCS3's core developer.
-	</div>
-</div>
-<!-- End -->
-<div id='menu-con-dim' class='toggle-alipay' style="background: linear-gradient(to right, rgba(166, 0, 217, .95), rgba(0, 114, 255, .95))">
+<div id='menu-con-dim' class='toggle-alipay'>
 	<a href='/img/icons/donate/alipay-qr.png' target="_blank">
 	<div id='donate-qrc-alipay'>
 	</div>

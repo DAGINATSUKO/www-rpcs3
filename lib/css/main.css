@@ -46,7 +46,7 @@
 	overflow:hidden;
 	width:100%;
 	height:460px;
-	background:linear-gradient(to right,#a600d9,#0072ff);
+	background: #5e32eb;
 }
 #footer-ovr-wrapper {
 	position:absolute;
@@ -106,16 +106,7 @@
 	height:100%;
 	background-size:cover !important;
 }
-#header-con-overlay-a {
-	position:absolute;
-	z-index:1;
-	width:100%;
-	height:100%;
-	/* background:url('/img/icons/aesthetic/grid.png') repeat; */
-	background-size:2px;
-	image-rendering:pixelated;
-}
-#header-con-overlay-b {
+#header-con-overlay {
 	position:absolute;
 	width:100%;
 	height:100%;
@@ -155,7 +146,7 @@
 	z-index:9999;
 	width:100%;
 	height:100%;
-	background: linear-gradient(to right,#a600d9,#0072ff);
+	background: #5e32eb;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #video-con-dim {
@@ -460,6 +451,7 @@
 	width:60px;
 	height:60px;
 	border-radius:100%;
+	 /* Safari 6.0 - 9.0 */
 }
 #featured-con-block:hover #featured-nat-block {
 	display:block;
@@ -525,12 +517,12 @@
 #featured-tx1-heading {
 	font-family:arial;
 	font-size:14px;
-	line-height:30px;
+	line-height: 40px;
 	width:100%;
 	height:40px;
-	margin-bottom:20px;
-	color:#002556;
-	border-bottom:1px solid #002556;
+	margin-bottom: 12px;
+	color: #5e5e5e;
+	font-weight: bold;
 }
 #featured-con-ad {
 	font-family:arial;
@@ -542,7 +534,7 @@
 	height:35px;
 	text-align:center;
 	color:#fff;
-	background: #002556;
+	background: #5e32eb;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featured-con-button {
@@ -610,7 +602,7 @@
 	height:auto;
 	margin-bottom:5px;
 	text-align:left;
-	color:#002556;
+	color: #5e5e5e;
 }
 #featured-tx2-block {
 	font-family:arial;
@@ -620,7 +612,7 @@
 	width:100%;
 	height:auto;
 	text-align:left;
-	color:#000;
+	color: #5e5e5e;
 }
 #featured-tx3-block {
 	font-family:arial;
@@ -630,7 +622,7 @@
 	width:100%;
 	height:auto;
 	text-align:left;
-	color:#000;
+	color: #5e5e5e;
 }
 #featured-ovr-play {
 	position:absolute;
@@ -800,7 +792,7 @@
 	width:100%;
 	height:40px;
 	margin-bottom:15px;
-	background:url('/img/icons/disclaimer/ps3.png') no-repeat center;
+	background:url('/img/icons/menu/disclaimer.png') no-repeat center;
 	background-size:92px;
 }
 #disclaimer-tx1-content {
@@ -833,13 +825,12 @@
 	position:relative;
 	top:16px;
 	left:50%;
-	width:76px;
+	width: 120px;
 	height:40px;
-	margin:0 -38px;
+	margin: 0 -60px;
 	cursor:pointer;
 	text-align:center;
 	color:#fff;
-	border-radius:6px;
 	background:rgba(255,255,255,.1);
 }
 #disclaimer-btn-continue:hover {
@@ -853,7 +844,7 @@
 }
 .div-con-panel-min:hover {
 	height:60px !important;
-	border:solid 1px #002556;
+	border:solid 1px #5e32eb;
 	background:#fff !important;
 }
 .div-ico-panel-min {
@@ -865,7 +856,7 @@
 	line-height:60px !important;
 	left:60px !important;
 	height:60px !important;
-	color: #002556 !important;
+	color: #5e32eb !important;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-panel-left {

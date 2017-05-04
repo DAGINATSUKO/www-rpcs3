@@ -71,7 +71,7 @@ a:hover {
 input {
 	height:100%;
 	padding-left:24px;
-	color:#000;
+	color:#5e5e5e;
 	border:none;
 	background: #fff;
 }
@@ -99,7 +99,7 @@ tr {
 	background:#fff;
 }
 tr:nth-child(2n) {
-	background-color:rgba(0,37,86,.02);
+	background-color:rgba(0,37,86,.015);
 }
 tr:nth-child(2n+1) {
 	background-color:#fff;
@@ -108,11 +108,11 @@ tr:nth-child(2n+1) {
 th {
 	padding-left:25px;
 	text-align:left;
-	color: #000;
+	color: #5e5e5e;
 	background-color:#fff;
 }
 th a {
-	color: #000 !important;
+	color: #5e5e5e !important;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 td {
@@ -120,7 +120,7 @@ td {
 	padding-left:25px;
 	text-align:left;
 	line-height: 38px;
-	color:#000;
+	color:#5e5e5e;
 }
 td a:hover {
 	text-decoration:underline;
@@ -140,12 +140,13 @@ td a:hover {
 	padding-top:21px;
 	padding-bottom:15px;
 	text-align:left;
-	color:#002556;
+	color:#5e5e5e;
 	border-bottom:1px solid #eee;
 }
 .markdown-body {
 	font-family:arial;
 	font-size:16px;
+	color:#5e5e5e;
 }
 .markdown-body ul {
 	padding-left: 25px;

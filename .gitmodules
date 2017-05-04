@@ -1,3 +1,0 @@
-[submodule "lib/compat"]
-	path = lib/compat
-	url = https://github.com/AniLeo/rpcs3-compatibility

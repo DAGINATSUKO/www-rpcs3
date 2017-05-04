@@ -17,8 +17,8 @@
 			 RPCS3 is not designed to enable illegal activity. Piracy will not be tolerated. Any users conversing about piracy upon joining the Discord server, forums or GitHub community will be re-directed elsewhere. Remember, the best way to play PlayStation®3 games is to play them on the original hardware. For now. <br>
 			<br>
 			 The goal of this project is to experiment, research and spread the knowledge of PlayStation®3 hardware, software and how to accurately emulate it. All information was obtained legally by purchasing PlayStation®3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation.
-			<div id='disclaimer-btn-continue' class='accept_DISCLAIMER' title="Continue">
-				 Continue
+			<div id='disclaimer-btn-continue' class='accept_DISCLAIMER' title="I Understand">
+				 I Understand
 			</div>
 		</div>
 	</div>

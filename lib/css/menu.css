@@ -34,7 +34,6 @@
 	margin-left:60px;
 }
 #menu-in-container {
-	overflow:auto;
 	max-width:1100px;
 	min-height:60px;
 	margin:0 auto;
@@ -47,7 +46,7 @@
 	left: 0px;
 	width: 30px;
 	height: 60px;
-	background: url('/img/icons/menu/hero.png') no-repeat center;
+	background: url('/img/icons/menu/logo.png') no-repeat center;
 	background-size: 32px;
 	display: inline-block;
 	float: left;
@@ -71,7 +70,7 @@
 }
 #menu-btn-select:hover {
 	border-bottom: 2px solid #fff;
-	height: 58px;
+	height: 60px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-tx1-button {
@@ -97,112 +96,46 @@
 	position:relative;
 	display:inline-block;
 	float: right;
-	width: 120px;
+	width: 200px;
 	height:60px;
 	cursor:pointer;
 	top: 0px;
 	transition: .1s ease-in-out;
 	border-bottom: 2px solid rgba(0,0,0,.0);
 }
-#menu-con-donate:hover {
-	height: 58px;
-	border-bottom: 2px solid #fff;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-con-dim {
 	position:fixed;
-	z-index:9998;
+	z-index: 9997;
 	width:100%;
 	height:100%;
-	background:rgba(0,37,86,.4);
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#donate-con-method {
-	position:absolute;
-	top:50%;
-	left:50%;
-	width:530px;
-	height:346px;
-	margin:-173px -265px;
-	border-radius:6px;
-}
-#donate-con-footer {
-	font-family:arial;
-	font-size:10px;
-	line-height:40px;
-	position:absolute;
-	bottom:0;
-	width:100%;
-	height:40px;
-	text-align:center;
-	color:#fff;
-	border-top:solid 1px rgba(255,255,255,.1);
-}
-#donate-con-footer:hover a {
-	text-decoration:underline;
-	color:#fff !important;
-}
-#donate-con-footer a {
-	color: #fff !important;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#donate-con-patreon {
-	position:absolute;
-	left:0;
-	width:50%;
-	height:100%;
-	-webkit-animation-name:fadeInUp;
-	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s;
-	-webkit-animation-iteration-count:1;
-	border-right:solid 1px rgba(255,255,255,.2);
-}
-#donate-con-alipay {
-	position:absolute;
-	right:0;
-	width:50%;
-	height:100%;
-	-webkit-animation-name:fadeInDown;
-	animation-name:fadeInDown;
-	-webkit-animation-duration:.5s;
-	-webkit-animation-iteration-count:1;
-	background-size:cover;
-}
-#donate-ico-patreon {
-	position:relative;
-	width:100%;
-	height:100px;
-	margin-top:72px;
-	background:url('/img/icons/donate/patreon.png') no-repeat center;
-	background-size:114px;
-}
-#donate-ico-alipay {
-	position:relative;
-	width:100%;
-	height:100px;
-	margin-top:72px;
-	background:url('/img/icons/donate/alipay.png') no-repeat center;
-	background-size: 114px;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-#donate-btn-use {
-	font-family:arial;
-	font-size:12px;
-	line-height:38px;
-	position:relative;
-	left:50%;
-	width:156px;
-	height:38px;
-	margin:0 -78px;
-	transition:.1s ease-in-out;
-	text-align:center;
-	color:#fff;
-	border-radius:6px;
-	background:rgba(255,255,255,.1);
-}
-#donate-btn-use:hover {
-	cursor:pointer;
-	background: rgba(255,255,255,.2);
+	background: rgba(0,0,0,.9);
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-qrc-alipay {
@@ -224,4 +157,17 @@
 	image-rendering:-moz-crisp-edges;
 	image-rendering:-o-crisp-edges;
 	image-rendering: -webkit-optimize-contrast;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#donate-con-footer {
+	font-family:arial;
+	font-size:10px;
+	line-height:40px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:40px;
+	text-align:center;
+	color:#fff;
+	border-top:solid 1px rgba(255,255,255,.1);
 }
