@@ -1,4 +1,4 @@
-<div id='menu-con-navbar'>
+<div id='menu-con-menubar'>
 	<div id="menu-con-container">
 		<div id="menu-in-container">
 			<a href='/'>
@@ -7,94 +7,84 @@
 			</a>
 			<a href='/blog'>
 			<div id="menu-btn-select" title="Blog">
-				Blog
+				 Blog
 			</div>
 			</a>
 			<a href='/about'>
 			<div id="menu-btn-select" title="About">
-				About
+				 About
 			</div>
 			</a>
 			<a href='/compatibility'>
 			<div id="menu-btn-select" title="Compatibility">
-				Compatibility
+				 Compatibility
 			</div>
 			</a>
 			<a href='/download'>
 			<div id="menu-btn-select" title="Download">
-				Download
+				 Download
 			</div>
 			</a>
 			<a href='/quickstart'>
 			<div id="menu-btn-select" title="Quickstart">
-				Quickstart
+				 Quickstart
 			</div>
 			</a>
 			<a href='/roadmap'>
 			<div id="menu-btn-select" title="Roadmap">
-				Roadmap
+				 Roadmap
 			</div>
 			</a>
 			<a href='/faq'>
 			<div id="menu-btn-select" title="FAQ">
-				FAQ
+				 FAQ
 			</div>
 			</a>
 			<div id="menu-btn-select">
-				|
+				 |
 			</div>
 			<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
 			<div id="menu-btn-select" title="Forum">
-				Forum
+				 Forum
 			</div>
 			</a>
 			<a href='https://discord.me/RPCS3' target="_blank">
 			<div id="menu-btn-select" title="Discord">
-				Discord
+				 Discord
 			</div>
 			</a>
 			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
 			<div id="menu-btn-select" title="GitHub">
-				GitHub
+				 GitHub
 			</div>
 			</a>
-			
-			
-			
-			
-			<div id="menu-con-donate" class="donate-subtrigger">
-				<div id="menu-tx1-button" title="Support us with Patreon or Alipay">
-					Support Us on Patreon
+			<div id="menu-con-support" class="support-subtrigger">
+				<div id="menu-tx1-support" title="Support us with Patreon or Alipay">
+					 Support Us on Patreon
 				</div>
-				<div id="menu-ico-donate">
+				<div id="menu-ico-support">
 				</div>
-			<!-- Submenu -->	
-				<div id="submenu-con-container" class="donate-submenu">
-				
-				<a href="https://www.patreon.com/Nekotekina" target="_blank">
-				<div id="submenu-con-wrapper">
-				<div id="submenu-ico-patreon"></div>
-				<div id="submenu-btn-button">
-					Support with Patreon
+				<!-- Submenu -->
+				<div id="submenu-con-container" class="support-submenu">
+					<a href="https://www.patreon.com/Nekotekina" target="_blank">
+					<div id="submenu-con-wrapper">
+						<div id="submenu-ico-patreon">
+						</div>
+						<div id="submenu-btn-button">
+							 Support with Patreon
+						</div>
+					</div>
+					</a>
+					<div id="submenu-con-wrapper" class='trigger-alipay' style="border-top: solid 1px rgba(0,0,0,.02);">
+						<div id="submenu-ico-alipay">
+						</div>
+						<div id="submenu-btn-button">
+							 Support with Alipay
+						</div>
+					</div>
 				</div>
-				</div>
-				</a>
-				
-				<div id="submenu-con-wrapper" class='trigger-alipay' style="border-top: solid 1px rgba(0,0,0,.02);">
-				<div id="submenu-ico-alipay"></div>
-				<div id="submenu-btn-button">
-					Support with Alipay
-				</div>
-				</div>
-				
-				</div>
-			<!-- Submenu -->	
+				<!-- Submenu -->
 			</div>
-			
-			
-			
-			
-			
 		</div>
 	</div>
 </div>
