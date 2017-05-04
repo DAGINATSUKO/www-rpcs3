@@ -8,11 +8,11 @@ The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3.net and its source code for any purpose, but distributing RPCS3.net requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to https://GNU.org
 
-#### Proprietaries
+#### Proprietary Technologies
 * DAGINATSUKO MANTA UX Engine
 * DAGINATSUKO MANTA HID Target
 
-#### Technologies
+#### API Technologies
 * HTML 5.0
 * CSS 3.0
 * PHP 7.0
@@ -20,11 +20,11 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * MySQL
 * Human brain
 
-#### Resources
+#### External Resources
 * [Flaticon](http://www.flaticon.com/ "Flaticon")
 * [Animate.css](https://daneden.github.io/animate.css/ "Animate.css")
 
-#### Targets
+#### Target Platforms
 * [Google Chrome](https://www.google.com/chrome/browser/desktop/)
 * [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)
 * [Apple Safari](https://www.apple.com/safari/)
@@ -38,5 +38,3 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * 01-22-2017 - RPCS3.net compatibility list initialized by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
 * 01-25-2017 - RPCS3.net blog initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 05-01-2017 - RPCS3.net 2.0 Alpha initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-
-
