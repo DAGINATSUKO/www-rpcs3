@@ -8,10 +8,10 @@ The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3.net and its source code for any purpose, but distributing RPCS3.net requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to https://GNU.org
 
-## Proprietaries
+#### Proprietaries
 * DAGINATSUKO MANTA UX Engine
 
-## Technologies
+#### Technologies
 * HTML 5.0
 * CSS 3.0
 * PHP 7.0
@@ -19,11 +19,11 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * MySQL
 * Human brain
 
-## Resources
+#### Resources
 * Flaticon
 * Animate.css
 
-## Targets
+#### Targets
 * Google Chrome
 * Microsoft Edge
 * Apple Safari
