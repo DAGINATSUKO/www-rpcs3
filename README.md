@@ -31,7 +31,7 @@ RPCS3.net uses the GNU General Public License Version 2 (June 1991). According t
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Opera Software Opera](http://www.opera.com/)
 
-## Milestones
+## History
 * 01-15-2017 - RPCS3.net foundation forked by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-17-2017 - RPCS3.net initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-20-2017 - RPCS3.net published by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
