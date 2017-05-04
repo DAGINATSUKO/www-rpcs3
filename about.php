@@ -32,6 +32,27 @@
 	<div id="page-con-container">
 		<div id="page-in-container" style="overflow: visible !important; overflow-x: visible !important;">
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>About RPCS3</h2>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2 class="download-title">The History of RPCS3</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p class="download-desc">
+							RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently sports modern Vulkan, DirectX 12 and OpenGL graphic APIs. The emulator is capable of booting and playing over 500 commercial games as well as official PlayStation 3 SDK samples. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Current Developers</h2>
+			</div>
+			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block">
 					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/users/nekotekina.png') no-repeat center; background-size: cover;">

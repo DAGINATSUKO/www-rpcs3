@@ -32,6 +32,10 @@
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Download Binaries</h2>
+			</div>
+			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>

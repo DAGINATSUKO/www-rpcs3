@@ -32,6 +32,10 @@
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>System Requirements</h2>
+			</div>
+			<!-- End -->
 			<?php include 'lib/module/block-requirements.php';?>
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading">

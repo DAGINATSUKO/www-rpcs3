@@ -97,7 +97,7 @@
 	z-index:2;
 	overflow:hidden;
 	width:100%;
-	height: 500px;
+	height: 460px;
 	background: #000;
 }
 #header-img-head {
@@ -451,7 +451,6 @@
 	width:60px;
 	height:60px;
 	border-radius:100%;
-	 /* Safari 6.0 - 9.0 */
 }
 #featured-con-block:hover #featured-nat-block {
 	display:block;
@@ -522,7 +521,6 @@
 	height:40px;
 	margin-bottom: 12px;
 	color: #5e5e5e;
-	font-weight: bold;
 }
 #featured-con-ad {
 	font-family:arial;
@@ -707,7 +705,7 @@
 	text-align:center;
 	text-indent:4px;
 	letter-spacing:4px;
-	color:#002556;
+	color: #fff;
 }
 #error-tx2-content {
 	font-family:arial;
@@ -717,7 +715,7 @@
 	width:100%;
 	height:25px;
 	text-align:center;
-	color: #002556;
+	color: #fff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #announce-con-content {

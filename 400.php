@@ -11,7 +11,7 @@
 <?php include 'lib/module/call-meta.php';?>
 </head>
 <?php include 'lib/module/call-sys.php';?>
-<body style="background:#fff;">
+<body style="background:#5e32eb;">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
 	<div class="visual-wavebar">
