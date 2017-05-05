@@ -43,4 +43,5 @@ Simply download the repository files and upload them to your web server or open 
 * 01-20-2017 - RPCS3.net published by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-22-2017 - RPCS3.net compatibility list initialized by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
 * 01-25-2017 - RPCS3.net blog initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 04-26-2017 - RPCS3.net Manta UX port initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 05-01-2017 - RPCS3.net 2.0 Alpha initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
