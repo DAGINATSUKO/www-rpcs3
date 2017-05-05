@@ -42,7 +42,7 @@ Simply download the repository files and upload them to your web server or open 
 * 01-20-2017 - DAGINATSUKO joins the RPCS3 team on [January 20th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
 * 01-20-2017 - RPCS3.net foundation forked from undisclosed project by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-20-2017 - RPCS3.net initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 01-20-2017 - RPCS3.net published by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 01-21-2017 - RPCS3.net published by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-22-2017 - RPCS3.net compatibility list initialized by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
 * 01-25-2017 - RPCS3.net blog initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 04-26-2017 - RPCS3.net Manta UX port initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
