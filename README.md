@@ -12,8 +12,7 @@ RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According
 RPCS3.net is copyright © 2017 DAGINATSUKO. It is distributed under the GNU General Public License Version 2.0. A copy of the license is available in the distributed LICENSE file.
 
 #### Proprietary Technologies
-* DAGINATSUKO Manta UX Engine
-* DAGINATSUKO Manta HID Target
+* Manta UX Engine by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 
 #### Web Technologies
 * HTML 5.0
