@@ -38,7 +38,7 @@ RPCS3.net is copyright © 2017 DAGINATSUKO. It is distributed under the GNU Gene
 Simply download the repository files and upload them to your web server or open them in a text, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL(Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly,
 
 ## History
-* 01-15-2017 - GitHub user [tkoham](https://github.com/RPCS3/rpcs3/issues/2263) offers a Patreon initiative for RPCS3
+* 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017] (https://github.com/RPCS3/rpcs3/issues/2263)
 * 01-20-2017 - DAGINATSUKO joins the RPCS3 team on [January 20th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
 * 01-20-2017 - RPCS3.net foundation forked from undisclosed project by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-20-2017 - RPCS3.net initialized by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
