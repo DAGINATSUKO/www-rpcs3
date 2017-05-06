@@ -83,6 +83,11 @@
 		display:none !important;
 	}
 }
+@media screen and (max-width:1100px) {
+	#menu-con-support  {
+		display:none !important;
+	}
+}
 @media screen and (max-width:1120px) {
 	#bulletin-btn-open {
 		top: 60px !important;
