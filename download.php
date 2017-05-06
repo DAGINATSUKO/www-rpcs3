@@ -125,7 +125,7 @@
 				</div>
 			</div>
 			<!-- End -->
-			<a href='/cdn/docs/Documentation.zip' download>
+			<a href='/cdn/docs/Docs.zip' download>
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 212px; margin: 0 -106px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/documentation.png') no-repeat center; background-size: 16px;">
@@ -149,7 +149,7 @@
 							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to UHD-quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.<br>
 							<br>
 							<p>
-								 Last updated on April 1st, 2017
+								 Last updated on May 6th, 2017
 							</p>
 						</p>
 					</div>
