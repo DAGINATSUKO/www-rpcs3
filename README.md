@@ -25,8 +25,9 @@ This website displays various trademarks and copy-written content such as videog
 * Human brain
 
 #### External Resources
-* [Flaticon](http://www.flaticon.com/ "Flaticon")
-* [Animate.css](https://daneden.github.io/animate.css/ "Animate.css")
+* [Flaticon](http://www.flaticon.com "Flaticon")
+* [Animate.css](https://daneden.github.io/animate.css "Animate.css")
+* [Animated Waves](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves")
 
 #### Target Platforms
 * [Google Chrome](https://www.google.com/chrome/browser/desktop/)
