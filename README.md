@@ -15,6 +15,7 @@ This website displays various trademarks and copy-written content such as videog
 
 #### Proprietary Technologies
 * Manta UX Engine by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* Manta UX Engine Lite by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 
 #### Web Technologies
 * HTML 5.0
