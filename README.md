@@ -14,7 +14,6 @@ RPCS3.net is copyright © 2017 DAGINATSUKO. It is distributed under the GNU Gene
 This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names, and company names. These different trademarks and copy-written content do not belong to me and are properties of their respective owners. This website is in no way affiliated with said companies or trademarks. This website’s only intention is to spread the word and endorse the content displayed. This website is not paid and never will be paid to display and advertise various trademarks.
 
 #### Proprietary Technologies
-* Manta UX Engine by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * Manta UX Engine Lite by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 
 #### Web Technologies
