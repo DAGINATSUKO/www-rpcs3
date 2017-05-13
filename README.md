@@ -1,6 +1,6 @@
 ## RPCS3.net
 
-<img align="right" width="200" height="200" src="https://github.com/DAGINATSUKO/RPCS3-Web/blob/master/docs/branding.png">
+<img align="right" width="200" height="200" src="https://github.com/DAGINATSUKO/RPCS3-Web/blob/master/docs/logo.png">
 
 Official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
