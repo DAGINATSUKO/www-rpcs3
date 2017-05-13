@@ -1,5 +1,6 @@
 ## RPCS3.net
-<img align="right" width="192" height="192" src="https://rpcs3.net/img/icons/meta/favicon-196.png">
+
+
 Official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation®. 
