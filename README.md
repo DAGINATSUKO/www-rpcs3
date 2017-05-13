@@ -8,6 +8,7 @@ All trademarks and copyright-written content found on this website belong to the
 
 The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "Sony logo" and "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. All rights reserved.
 
+## Reference
 <img align="center" width="auto" height="auto" src="https://github.com/DAGINATSUKO/RPCS3-Web/blob/master/docs/reference.png">
 
 ## Licensing
