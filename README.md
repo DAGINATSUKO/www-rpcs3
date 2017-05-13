@@ -1,5 +1,6 @@
 ## RPCS3.net
 
+<img align="right" width="160" height="160" src="https://rpcs3.net/img/icons/meta/favicon-196.png">
 
 Official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
