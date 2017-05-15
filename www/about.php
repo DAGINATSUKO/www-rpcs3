@@ -69,13 +69,16 @@
 							<p>
 							</p>
 							<p class="div-txt-role div-role-cdev">
+								 Project Lead
+							</p>
+							<p class="div-txt-role div-role-cdev">
 								 Lead Core Developer
 							</p>
 							</h2>
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Nekotekina joined RPCS3 in late 2013</a> as a contributor. He is currently the lead core developer and is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer with over 1300 commits and counting.
+								 Nekotekina joined RPCS3 in late 2013 as a contributor. He is currently the project lead and lead core developer. He is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer.
 							</p>
 						</div>
 					</div>
@@ -130,7 +133,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 ssshadow is a human RPCS3 Wiki and has been around since 2013. He recently took the role as Community Manager for RPCS3 as well as the writer for RPCS3's month-to-month progress reports. He also serves as a maintainer for RPCS3's social media accounts.
+								 ssshadow is a human RPCS3 Wiki and has been around since 2013. He recently took the role as Community Manager for RPCS3 as well as the writer for RPCS3's month-to-month progress reports. He mantains RPCS3's social media accounts alongside Ani.
 							</p>
 						</div>
 					</div>
@@ -153,7 +156,7 @@
 								 Community Manager
 							</p>
 							<p class="div-txt-role div-role-cldev">
-								 Compatibility List Dev / Maintainer
+								 Web Backend Developer
 							</p>
 							</h2>
 						</div>
@@ -347,7 +350,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Jarves has been around since 2014 doing some contributions from time-to-time. Recently, between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated.
+								 Jarves has been around since 2014 doing some contributions from time-to-time. Recently, between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated and implemented DualShock 4 native support.
 							</p>
 						</div>
 					</div>

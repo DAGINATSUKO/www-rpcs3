@@ -131,7 +131,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 We currently support Keyboard and Mouse inputs and native XInput and Multimedia Joystick inputs through software thanks to our core developers and contributors. We plan to add additional input methods in the future, but they're currently low priority for now. If you can convert the inputs of an non-XInput or non-Multimedia Joystick through additional driver software, you are free to use any type of controller you want. This includes the DualShock®3 and DualShock®4 controllers as well.
+							 We currently support Keyboard and Mouse inputs and native XInput and Multimedia Joystick inputs through software thanks to our core developers and contributors. We plan to add additional input methods in the future, but they're currently low priority for now. If you can convert the inputs of an non-XInput or non-Multimedia Joystick through additional driver software, you are free to use any type of controller you want. This excludes the DualShock®3 and DualShock®4 controllers as RPCS3 nativley supports both of these gamepads.
 						</p>
 					</div>
 				</div>
