@@ -42,35 +42,6 @@
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:1000px) {
-	#compat-hdr-left {
-		font-family:arial !important;
-		font-size:12px !important;
-		line-height:38px !important;
-		position:relative !important;
-		width:100% !important;
-		height:45px !important;
-		margin-top:41px !important;
-		margin-left:0 !important;
-		text-align:center !important;
-		color:#000 !important;
-	}
-}
-@media screen and (max-width:1000px) {
-	#compat-hdr-right {
-		font-family:arial !important;
-		font-size:12px !important;
-		line-height:44px !important;
-		float:right !important;
-		width:100% !important;
-		height:44px !important;
-		margin-top:-3px !important;
-		margin-right:0 !important;
-		text-align:center !important;
-		color:#000 !important;
-	}
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1215px) {
 	.page-flx-container  {
 		-webkit-justify-content: space-around !important;

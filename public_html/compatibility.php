@@ -62,9 +62,10 @@ https://github.com/AniLeo
 	elseif (isset($get['a']))  { include 'lib/compat/pages/panel.php'; }
 	else                       { include 'lib/compat/pages/compatibility.php'; }
 	?>
-	<!-- End -->
-	<?php include 'lib/module/ui-footer.php';?>
-	<!-- End -->
-	</body>
-	</html>
+	</div>
+<!-- End -->
+<?php include 'lib/module/ui-footer.php';?>
+<!-- End -->
+</body>
+</html>
 <?php } ?>

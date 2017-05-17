@@ -81,22 +81,14 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and chose which firmware modules you want to use manually, but it is not recommended to do so. <br>
-							<br>
-							 These are the minimum set of modules that must be enabled if you chose not to use the <b>Load Required Libraries</b> setting:
+							Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
 						</p>
 						<br>
 						<p>
-							 • <b>libsre</b>.sprx
+							<b>Automatically load required libraries:</b> Loads all required modules at once from a list. Recommended option that works with most games, but may not work with some that only work on Load liblv2.sprx only.
 						</p>
 						<p>
-							 • <b>libspurs_jq</b>.sprx
-						</p>
-						<p>
-							 • <b>libresc</b>.sprx
-						</p>
-						<p>
-							 • <b>librtc</b>.sprx
+							<b>Load liblv2.sprx only:</b> Loads modules dynamically, more closely to what a PlayStation 3 would do. Some games may not work properly with this option yet.
 						</p>
 					</div>
 				</div>
@@ -116,7 +108,7 @@
 							 • PlayStation 3 save data files can be managed in: <b>\dev_hdd0\home\00000001\savedata\</b>
 						</p>
 						<p>
-							 • Please note that save data is stored in folders that correspond to your game's region ID.
+							 • Please note that save data is stored in folders that correspond to your game's ID.
 						</p>
 					</div>
 				</div>
@@ -129,14 +121,14 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Again, due to copyright and obvious legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console. Once these games are dumped from your console, they can be in either Package format (.pkg), Blu-Ray Disc format or PlayStation Network format.
+							 Again, due to copyright and obvious legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console (Both disc and PSN games) or from your computer using a compatible Blu-Ray drive (Disc games only).
 						</p>
 						<br>
 						<p>
 							 The typical layout of a <b>Blu-ray Disc</b> game's root directory:
 						</p>
 						<p>
-							 • PS3_GAME folder, PS3_DISC.sfb
+							 • PS3_GAME folder (required), PS3_DISC.sfb (required), PS3_UPDATE folder (not required)
 						</p>
 						<br>
 						<p>
@@ -188,7 +180,7 @@
 							 • .pkg files will be automatically installed to: <b>\dev_hdd0\game\</b>
 						</p>
 						<p>
-							 • Blu-ray Disc game data can be placed anywhere except for <b>\dev_hdd0\game\</b> and must be booted with 'Boot Game'.
+							 • Blu-ray Disc game data can be placed anywhere <b>EXCEPT</b> for <b>\dev_hdd0\game\</b> and must be booted with 'Boot Game'.
 						</p>
 						<p>
 							 • PlayStation Network game data must be placed in: <b>\dev_hdd0\game\</b>
@@ -228,7 +220,7 @@
 						</p>
 						<br>
 						<p>
-							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
+							 However, you can also dump games using only a computer (<i>only if an .ird file is available online for the decryption of the disc, details below</i>), using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
 						</p>
 						<br>
 						<p>
@@ -275,7 +267,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You will need two different tools for dumping PlayStation 3 game discs from a Blu-ray drive:
+							 You will need two different tools for dumping PlayStation 3 game discs from a computer, using a Blu-ray drive:
 						</p>
 						<br>
 						<p>
@@ -292,19 +284,20 @@
 							 2. Dump the .iso image using a program like Alcohol 120%.
 						</p>
 						<p>
-							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate .ird file that matches your game.
+							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate .ird file that matches your game ID. If there isn't any .ird file that matches your game ID it means you can't dump that disc using this method.
 						</p>
 						<p>
-							 4. Be sure to check discID in case of different game editions and the game's firmware version in param.sfo
-							<p>
-								 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
-							</p>
-							<p>
-								 6. Press Patch to apply the patch to the .iso file.
-							</p>
-							<p>
-								 7. Open 3k3y ISO Tools and decrypt the .iso file.
-							</p>
+							 4. Be sure to check game ID in case of different game editions. You need to use the file for the exact game ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
+						<p>
+							 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
+						</p>
+						<p>
+							 6. Press Patch to apply the patch to the .iso file.
+						</p>
+						<p>
+							 7. Open 3k3y ISO Tools and decrypt the .iso file.
+						</p>
+						<p>
 							 8. Your game should now be properly decrypted.
 						</p>
 						<p>
@@ -325,6 +318,10 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
+							<b>PPU Interpreter (Precise)</b><br>
+							 Currently not available. Will provides more accurate real-time PPU emulation, but will be slower.
+						</p>
+						<p>
 							<b>PPU Interpreter (Fast)</b><br>
 							 Provides fast real-time PPU emulation but is less accurate.
 						</p>
@@ -336,7 +333,7 @@
 						<br>
 						<p>
 							<b>SPU Interpreter (Precise)</b><br>
-							 Provides accurate real-time emulation for SPU cores, but is slower.
+							 Provides more accurate real-time emulation for SPU cores, but is a lot slower.
 						</p>
 						<br>
 						<p>
@@ -360,7 +357,7 @@
 					<div id='featured-tx2-block'>
 						<p>
 							<b>Render</b><br>
-							 Allows you to select OpenGL, Vulkan and DirectX 12 renderers that are compatible with your GPU. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+							 Allows you to select OpenGL, Vulkan and D3D12 (DirectX 12) renderers that are compatible with your GPU. OpenGL will always be the most accurate renderer followed by Vulkan and then D3D12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
 						</p>
 						<br>
 						<p>
@@ -370,7 +367,7 @@
 						<br>
 						<p>
 							<b>D3D Adapter</b><br>
-							 Allows you to select your preferred D3D device for use with DirectX 12.
+							 Allows you to select your preferred D3D device, required <b>ONLY</b> if you're using D3D12 (DirectX 12) render.
 						</p>
 						<br>
 						<p>
@@ -380,12 +377,12 @@
 						<br>
 						<p>
 							<b>Frame Limit</b><br>
-							 In most cases, this setting should be set to Auto. Otherwise, some games may surpass their 60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
+							 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
 						</p>
 						<br>
 						<p>
 							<b>Read/Write and Color/Depth Buffers</b><br>
-							 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games.
+							 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color Buffers options.
 						</p>
 					</div>
 				</div>
@@ -399,7 +396,7 @@
 					<div id='featured-tx2-block'>
 						<p>
 							<b>Audio Out</b><br>
-							 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL and XAudio2. XAudio2 should always be used on Windows operating systems for proper audio playback.
+							 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows-only) and ALSA (Linux-only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA should always be used on Linux systems.
 						</p>
 						<br>
 						<p>
@@ -465,7 +462,7 @@
 					<div id='featured-tx2-block'>
 						<p>
 							<b>Language</b><br>
-							 Allows you to change the internal system language of the emulated console.
+							 Allows you to change the internal system language of the emulated console. In some rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
 						</p>
 					</div>
 				</div>
