@@ -1,6 +1,6 @@
 Options All -Indexes
 
-# RewriteEngine
+# Enables RewriteEngine
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
