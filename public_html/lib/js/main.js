@@ -179,10 +179,6 @@ $(document).ready(function() {
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 $(document).ready(function() {
     $(function() {
-        $(".page-video-1").on("click", function() {　　
-            videoControl("playVideo");
-        });
-
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
@@ -194,10 +190,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(function() {
-        $(".page-video-2").on("click", function() {　　
-            videoControl("playVideo");
-        });
-
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
@@ -209,10 +201,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(function() {
-        $(".page-video-3").on("click", function() {　　
-            videoControl("playVideo");
-        });
-
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
@@ -224,10 +212,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(function() {
-        $(".page-video-4").on("click", function() {　　
-            videoControl("playVideo");
-        });
-
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
@@ -239,9 +223,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(function() {
-        $(".page-video-5").on("click", function() {　　
-            videoControl("playVideo");
-        });
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
@@ -253,9 +234,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(function() {
-        $(".page-video-6").on("click", function() {　　
-            videoControl("playVideo");
-        });
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
@@ -267,9 +245,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(function() {
-        $(".page-video-7").on("click", function() {　　
-            videoControl("playVideo");
-        });
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });

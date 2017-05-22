@@ -93,7 +93,7 @@
 			</div>
 			<div id='featured-tx3-block'>
 				<p>
-					 We do not support piracy. All system software should be self-dumped.
+					 We do not support piracy. All PlayStation 3 games should be self-dumped.
 				</p>
 			</div>
 		</div>
