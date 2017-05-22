@@ -43,7 +43,7 @@ The RPCS3.net [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility
 ## Website Deployment
 Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly.
 
-## Compatibility List Deployment
+## Compat Deployment
 Simply place files inside the lib/compat directory inside the website's source code.
 
 ## History
