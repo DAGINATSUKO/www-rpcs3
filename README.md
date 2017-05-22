@@ -38,7 +38,7 @@ This website displays various trademarks and copy-written content such as videog
 * [Opera Software Opera](http://www.opera.com/)
 
 ## Deployment
-Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL(Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly,
+Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly,
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
