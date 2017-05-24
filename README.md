@@ -12,7 +12,9 @@ RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According
 This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to me and are properties of their respective owners. This website is in no way affiliated with said companies or trademarks. This website’s only intention is to spread the word and endorse the content displayed.
 
 ## Independencies
-The RPCS3.net [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile") allows users to sort listed games by status, first character, region, last update date or by typing the games ID or title in the searchbox as well as order listed games by ID, Title, commit, status or last update date both asynchronously and desynchronously. Users won't have to search exactly by a game's title to find it in the database. The Levenshtein string comparisons ensures that the closest game is returned when no results are found and abbreviated search allows the user to search for games using abbreviations.
+The RPCS3.net [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile") allows users to sort listed games by status, first character, region, last update date or by typing the games ID or title in the searchbox as well as order listed games by ID, Title, commit, status or last update date both asynchronously and desynchronously. Users won't have to search exactly by a game's title to find it in the database.
+
+The Levenshtein string comparisons ensures that the closest game is returned when no results are found and abbreviated search allows the user to search for games using abbreviations.
 
 #### Proprietary Technologies
 * Manta UX Engine Lite by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
