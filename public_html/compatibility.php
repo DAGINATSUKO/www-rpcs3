@@ -60,7 +60,7 @@ https://github.com/AniLeo
 	if (isset($_GET['h']))     { include 'lib/compat/pages/history.php'; }
 	elseif (isset($_GET['b'])) { include 'lib/compat/pages/builds.php'; }
 	elseif (isset($get['a']))  { include 'lib/compat/pages/panel.php'; }
-	else                       { include 'lib/compat/pages/compatibility.php'; }
+	else                       { include 'lib/compat/pages/compat.php'; }
 	?>
 	</div>
 <!-- End -->

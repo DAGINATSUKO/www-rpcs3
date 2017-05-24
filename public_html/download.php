@@ -25,7 +25,7 @@
 			</div>
 			<div id='header-tx2-body'>
 				<p>
-					 Download latest builds and documentation
+					 Download the latest builds, source code and documentation
 				</p>
 			</div>
 		</div>
@@ -165,6 +165,51 @@
 					<div id='featured-tx1-button'>
 						<p>
 							 Download Press Kit
+						</p>
+					</div>
+				</div>
+			</div>
+			</a>
+			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Website codebase</h2>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Website Source Code</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 This website was developed by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>. The compatibility portion of this website is developed independently by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>. This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to us and are properties of their respective owners. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
+			<div id='featured-con-button' class="div-download-left">
+				<div id='featured-wrp-button' style="width: 150px; margin: 0 -75px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
+					</div>
+					<div id='featured-tx1-button'>
+						<p>
+							 Website Source
+						</p>
+					</div>
+				</div>
+			</div>
+			</a>
+			<!-- End -->
+			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
+			<div id='featured-con-button' class="div-download-right">
+				<div id='featured-wrp-button' style="width: 180px; margin: 0 -90px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
+					</div>
+					<div id='featured-tx1-button'>
+						<p>
+							 Compatibility Source
 						</p>
 					</div>
 				</div>
