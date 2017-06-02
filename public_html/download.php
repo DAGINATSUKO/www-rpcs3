@@ -13,6 +13,7 @@
 </head>
 <body>
 <?php include 'lib/module/call-php.php';?>
+<?php include 'lib/compat/functions.php';?>
 <div id="page-con-content">
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
@@ -40,24 +41,28 @@
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="download-title">Latest Nightly Build</h2>
+						<h2 class="download-title">Latest Build</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
-							 Windows nightly builds are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site.
+							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site.
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
-			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank">
+			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/build/<?php echo getLatestWindowsBuild()[0]; ?>/artifacts' target="_blank">
+			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
 			<div id='featured-con-button' class="div-download-left">
-				<div id='featured-wrp-button' style="width: 194px; margin: 0 -97px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/windows.png') no-repeat center; background-size: 16px;">
+				<div id='featured-wrp-button' style="width: 244px; margin: 0 -122px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/windows.png') no-repeat center; background-size: 20px;">
 					</div>
-					<div id='featured-tx1-button'>
+					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
 						<p>
-							 Download for Windows
+							Download for Windows 
+						</p>
+						<p style="font-size:12px;">
+							v<?php echo getLatestWindowsBuild()[0]; ?> Alpha [<?php echo getLatestWindowsBuild()[1]; ?>]
 						</p>
 					</div>
 				</div>
@@ -66,12 +71,15 @@
 			<!-- End -->
 			<a href='https://github.com/RPCS3/rpcs3/releases' target="_blank">
 			<div id='featured-con-button' class="div-download-right div-button-disabled">
-				<div id='featured-wrp-button' style="width: 172px; margin: 0 -86px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/linux.png') no-repeat center; background-size: 16px;">
+				<div id='featured-wrp-button' style="width: 264px; margin: 0 -122px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/linux.png') no-repeat center; background-size: 20px;">
 					</div>
-					<div id='featured-tx1-button'>
+					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
 						<p>
-							 Download for Linux
+							Download for Linux
+						</p>
+						<p style="font-size:12px;">
+							Automatic builds coming soon <?php // echo getLatestLinuxBuild()[1]; ?>
 						</p>
 					</div>
 				</div>
@@ -81,11 +89,11 @@
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>All Nightly Builds</h2>
+						<h2>All Builds</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 This is the history of all nightly builds generated per pull request, compiled by AppVeyor. You can also view detailed changes for every build through the GitHub build links. In addition, you can also use our GitHub repository to download and create your own builds for testing, debugging or implementing new features.
+							 This is the history of all Windows builds generated per pull request, compiled by AppVeyor. You can also view detailed changes for every build through the GitHub build links. In addition, you can also use our GitHub repository to download and create your own builds for testing, debugging or implementing new features.
 						</p>
 					</div>
 				</div>

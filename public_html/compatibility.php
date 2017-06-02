@@ -39,6 +39,7 @@ https://github.com/AniLeo
 					if (isset($_GET['h']))     { echo "HISTORY"; } 
 					elseif (isset($_GET['b'])) { echo "BUILDS"; } 
 					elseif (isset($get['a']))  { echo "DEBUG PANEL"; }
+					elseif (isset($get['l']))  { echo "PS3 GAME LIBRARY"; }
 					else                       { echo "COMPATIBILITY"; }
 				?>
 				</h1>
@@ -49,6 +50,7 @@ https://github.com/AniLeo
 					if (isset($_GET['h']))     { echo "History of the updates made to the compatibility list"; } 
 					elseif (isset($_GET['b'])) { echo "History of RPCS3 Windows builds per merged pull request"; }
 					elseif (isset($get['a']))  { echo "Super cool compatibility list debug control panel"; }
+					elseif (isset($get['l']))  { echo "List of all existing PS3 games known to mankind"; }
 					else                       { echo "There are currently ".countGames('all', 0)." games listed in our database"; } 
 					?>
 					
@@ -60,6 +62,7 @@ https://github.com/AniLeo
 	if (isset($_GET['h']))     { include 'lib/compat/pages/history.php'; }
 	elseif (isset($_GET['b'])) { include 'lib/compat/pages/builds.php'; }
 	elseif (isset($get['a']))  { include 'lib/compat/pages/panel.php'; }
+	elseif (isset($get['l']))  { include 'lib/compat/pages/tested.php'; }
 	else                       { include 'lib/compat/pages/compat.php'; }
 	?>
 	</div>

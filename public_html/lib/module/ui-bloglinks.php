@@ -1,7 +1,7 @@
-<div id='bulletin-con-dim' class='toggle-bulletin'>
-	<div id='bulletin-con-anim' class='dropin-load'>
-		<div id="bulletin-tx1-title" style='-webkit-animation-duration: .4s;'>
-			 BULLITEN MENU
+<div id='bloglinks-con-dim' class='toggle-bloglinks'>
+	<div id='bloglinks-con-anim' class='dropin-load'>
+		<div id="bloglinks-tx1-title" style='-webkit-animation-duration: .4s;'>
+			 BLOG MENU
 		</div>
 			<div id="menu-con-menu">
 				<div id="sidebar" class="sidebar" style='-webkit-animation-duration: .4s;'>
@@ -25,18 +25,5 @@
 				<?php get_sidebar(); ?>
 			</div>
 		</div>
-		<div id='bulletin-con-footer'>
-			<div id='bulletin-img-overflow'>
-			</div>
-			<div id='bulletin-ico-footer'>
-			</div>
-			<a href="https://github.com/DAGINATSUKO/RPCS3-Website" target="_blank">
-			<div id='bulletin-tx1-footer'>
-				<div style="color: #002556 !important;" class="txt-link" title="Website designed by DAGINATSUKO">
-					 Website source code on GitHub
-				</div>
-			</div>
-		</div>
-		</a>
 	</div>
 </div>

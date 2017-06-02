@@ -108,13 +108,13 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $(".toggle-bulletin").hide();
-    $("#bulletin-btn-open").click(function() {
-        $(".toggle-bulletin").fadeToggle(100);
+    $(".toggle-bloglinks").hide();
+    $("#bloglinks-btn-open").click(function() {
+        $(".toggle-bloglinks").fadeToggle(100);
     });
-    $(".toggle-bulletin").hide();
-    $(".toggle-bulletin").click(function() {
-        $(".toggle-bulletin").fadeOut(100);
+    $(".toggle-bloglinks").hide();
+    $(".toggle-bloglinks").click(function() {
+        $(".toggle-bloglinks").fadeOut(100);
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
