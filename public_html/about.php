@@ -169,6 +169,58 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/jarves.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>
+							<p style="float: left;">
+								 Jarveson
+							</p>
+							<p>
+							</p>
+							<p class="div-txt-role div-role-ccdev">
+								 Core Contributor
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 Jarves has been around since 2014 doing some contributions from time-to-time. Recently, between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated and implemented DualShock 4 native support.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/numan.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/poland.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>
+							<p style="float: left;">
+								 Numan
+							</p>
+							<p>
+							</p>
+							<p class="div-txt-role div-role-ccdev">
+								 Core Contributor
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 Numan joined RPCS3 in early 2017 as a contributor. He has since then moved up, becoming a core contributor due to his valiant efforts in investigating and then fixing various bugs found in the emulator.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
 					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
@@ -299,84 +351,6 @@
 						<div id='featured-tx2-block'>
 							<p>
 								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. They handle all of the web-related efforts and branding aspects that show the personality of the emulator as well as the team as a whole.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/numan.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/poland.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>
-							<p style="float: left;">
-								 Numan
-							</p>
-							<p>
-							</p>
-							<p class="div-txt-role div-role-ccdev">
-								 Core Contributor
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 Numan joined RPCS3 in early 2017 as a contributor. He has since then moved up, becoming a core contributor due to his valiant efforts in investigating and then fixing various bugs found in the emulator.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/jarves.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>
-							<p style="float: left;">
-								 Jarveson
-							</p>
-							<p>
-							</p>
-							<p class="div-txt-role div-role-ccdev">
-								 Core Contributor
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 Jarves has been around since 2014 doing some contributions from time-to-time. Recently, between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated and implemented DualShock 4 native support.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/cornytrace.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>
-							<p style="float: left;">
-								 cornytrace
-							</p>
-							<p>
-							</p>
-							<p class="div-txt-role div-role-ccdev">
-								 Contributor
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 cornytrace is a contributor and team member for RPCS3 and currently does not have a member description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
@@ -661,7 +635,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Talkashie is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+								 Talkashie is a tester widely known for using an obnoxious system font, seen on all of his screenshots and videos. All attempts to make him change such font have failed so far.
 							</p>
 						</div>
 					</div>

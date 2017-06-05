@@ -775,66 +775,6 @@
 	background: rgba(255,255,255,.2);
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-#disclaimer-con-content {
-	position:fixed;
-	z-index:200;
-	top:50%;
-	left:50%;
-	width:500px;
-	height:550px;
-	margin:-275px -250px;
-	background-size:cover;
-}
-#disclaimer-ico-content {
-	position:relative;
-	width:100%;
-	height:40px;
-	margin-bottom:15px;
-	background:url('/img/icons/menu/disclaimer.png') no-repeat center;
-	background-size:92px;
-}
-#disclaimer-tx1-content {
-	font-family:arial;
-	font-size:12px;
-	line-height:16px;
-	position:relative;
-	width:100%;
-	height:auto;
-	margin-bottom:15px;
-	text-align:center;
-	color:#fff;
-}
-#disclaimer-tx2-content {
-	font-family:arial;
-	font-size:12px;
-	line-height:20px;
-	position:relative;
-	width:442px;
-	height:auto;
-	padding-right:34px;
-	padding-left:24px;
-	text-align:left;
-	color:#fff;
-}
-#disclaimer-btn-continue {
-	font-family:arial;
-	font-size:12px;
-	line-height:40px;
-	position:relative;
-	top:16px;
-	left:50%;
-	width: 120px;
-	height:40px;
-	margin: 0 -60px;
-	cursor:pointer;
-	text-align:center;
-	color:#fff;
-	background:rgba(255,255,255,.1);
-}
-#disclaimer-btn-continue:hover {
-	background: rgba(255,255,255,.2);
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-con-panel-min {
 	height:60px !important;
 	border:solid 1px #fff;
@@ -918,7 +858,7 @@
 	background-color: #a64eff !important;
 }
 .div-role-ccdev {
-	background-color: #f39c12 !important;
+	background-color: #E68364 !important;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-heading {
