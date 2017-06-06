@@ -471,7 +471,7 @@
 			<a href='/download'>
 			<div id='featured-con-button'>
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/menu/download-h.png') no-repeat center; background-size: 16px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>

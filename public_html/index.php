@@ -147,7 +147,7 @@
 			</div>
 			<div id='featured-wrp-panel'>
 				<!-- End -->
-				<a href='https://rpcs3.net/blog/2017/04/29/progress-report-april-2017/' target="_blank">
+				<a href='https://rpcs3.net/blog/2017/06/04/progress-report-may-2017/' target="_blank">
 				<div id='featured-con-panel' class="div-panel-left" style="background:#fff url('/img/panels/report.jpg') no-repeat center; background-size: cover; ">
 					<div id='featured-ovr-panel'>
 					</div>
@@ -155,7 +155,7 @@
 					</div>
 					<div id='featured-tx3-panel'>
 						<p>
-							 APRIL 2017 PROGRESS REPORT
+							 MAY 2017 PROGRESS
 						</p>
 					</div>
 				</div>

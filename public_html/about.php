@@ -34,17 +34,36 @@
 		<div id="page-in-container" style="overflow: visible !important; overflow-x: visible !important;">
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading">
-				<h2>About RPCS3</h2>
+				<h2>Project Overview</h2>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2 class="download-title">The History of RPCS3</h2>
+						<h2 class="download-title">About RPCS3</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
 							RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently sports modern Vulkan, DirectX 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.
+							<br>
+							<br>
+							RPCS3 was first developed and maintained by programmers, DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today, RPCS3 is dubbed the most complex videogame console emulator of all time with its endless goal to effectively emulate the Sony PlayStation 3 console and all of its aspects.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2 class="download-title">Controversy</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p class="download-desc">
+							RPCS3 has been seen by many as an <i>impossible</i> feat in the eyes of gamers and programmers. Many fraudulent PlayStation 3 emulators and console emulators in general have clouded the public eye of the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.
+							<br>
+							<br>
+							In March 2014, Cinema Blend's William Usher wrote "A lot of gamers originally thought that the complexity of the PlayStation 3's Cell architecture would have prevented it from being emulated." In the same month, Eurogamer's Elio Cossu also wrote "The emulation, even at such an early stage, was a remarkable achievement, considering the complexity of the hardware of the PlayStation 3."
 						</p>
 					</div>
 				</div>
@@ -350,15 +369,12 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. They handle all of the web-related efforts and branding aspects that show the personality of the emulator as well as the team as a whole.
+								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. As the sole web developer and website maintainer, they are also in charge of RPCS3's visual marketing efforts and branding that not only show, but promote the personality of the emulator and its team.
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- End -->
-			<!-- End -->
-			<!-- End -->
 			<!-- End -->
 			<div class="div-heading" id="featured-tx1-heading">
 				<h2>Former Developers</h2>
@@ -548,12 +564,45 @@
 				</div>
 			</div>
 			<!-- End -->
-			<!-- End -->
-			<!-- End -->
-			<!-- End -->
 			<div class="div-heading" id="featured-tx1-heading">
 				<h2>Honorable Mentions</h2>
 			</div>
+						<!-- End -->
+			<div class="div-member-con">
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/honorable/pirhoman.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>pi_rho_man</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 pi_rho_man is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+			<!-- End -->
+			<div class="div-member-con">
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/honorable/megamouse.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>megamouse</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 megamouse is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
 			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block">
