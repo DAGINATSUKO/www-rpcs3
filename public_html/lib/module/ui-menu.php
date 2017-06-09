@@ -54,13 +54,13 @@
 			</div>
 			</a>
 			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
-			<div id="menu-btn-select" title="GitHub">
-				 GitHub
+			<div id="menu-btn-select" title="Source">
+				 Source
 			</div>
 			</a>
 			<div id="menu-con-support" class="support-subtrigger">
 				<div id="menu-tx1-support" title="Support us with Patreon or Alipay">
-					 Support Us on Patreon
+					 Support Us
 				</div>
 				<div id="menu-ico-support">
 				</div>

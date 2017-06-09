@@ -92,7 +92,59 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is designed to make use of as many threads as possible. This means that processors such as Intel's 8 core, 16 thread 6900K or AMD's 8 core, 16 thread Ryzen 7 1700X will benefit greatly for emulating games at higher speeds. CPUs such as the Intel Core i7-7700K and the AMD FX 8320 will suffice but will not perform equally as well as a processor with more cores and threads.
+							 RPCS3 is designed to make use of as many threads as possible. This means that processors such as Intel's 8 core, 16 thread 7820X or AMD's 8 core, 16 thread Ryzen 7 1700X will benefit greatly for emulating games at higher speeds. Processors such as the Intel Core i7-7700K and the AMD FX 8320 will suffice but will not have any headroom for additional tasks running on your computer when the emulator is running.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Does it matter if I put my games on an SSD, HDD or SSHD?</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 This matters to some extent, games will typically load faster from an SSD than on an HDD, but you will not see an increase in game performance except in a few rare situations. RPCS3 emulates the exact same processing speeds of a PlayStation 3 so games must run in accordance with these speeds to function properly.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>I have a processor with more than 8 threads. Will my performance be better?</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 Your performance will be relatively the same as the emulator can only utilize up to 8 threads. Any more threads/cores are redundant as the emulator will swap the load between all of them at once, lowering the maximum utilization on the 8 in-use threads. On the plus side, this leaves your processor free to perform other tasks than just run RPCS3 at full speed.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>My processor has 4 threads. What does this mean performance wise if the PlayStation 3 has 8 threads?</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 You will still be able to use RPCS3 however, your data throughput will be half the speed of a processor with 8 threads. Your processor will be working twice as hard as 8 threads/8 physical cores are not present, meaning all data must be squeezed through 4 threads. You can make up for this to some extent by having a higher than average clock speed but your mileage may vary.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>My computer's processor is overclocked. Will my games run faster?</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 More processing speed is always better but having more threads is even more important. Having a higher CPU clock speed will allow you to process data more quickly while having more threads will allow you to process more data at one time. Having both a high clock speed and a total of 8 threads would be the best combination.
 						</p>
 					</div>
 				</div>
@@ -200,8 +252,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							Unfortunately, this is not something we're even remotely close to implementing just yet in RPCS3's current stage of development. Online multiplayer is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
-							Playing games online with real PlayStation 3 systems would require the user to connect to PlayStation Network which isn't very feasible due to obvious technical and legal limitations.
+							 Unfortunately, this is not something we're even remotely close to implementing just yet in RPCS3's current stage of development. Online multiplayer is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible. Playing games online with real PlayStation 3 systems would require the user to connect to PlayStation Network which isn't very feasible due to obvious technical and legal limitations.
 						</p>
 					</div>
 				</div>
@@ -214,8 +265,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							We currently do not have support for multiple controllers in RPCS3 just yet, but we plan to in the future once we're farther in development. The foundation for multiple controllers is already there, but it just isn't priority for now.
-							Similarly to how the a PlayStation 3 has support for up to 7 concurrent controllers, we plan to replicate that feature in its entirety.
+							 We currently do not have support for multiple controllers in RPCS3 just yet, but we plan to in the future once we're farther in development. The foundation for multiple controllers is already there, but it just isn't priority for now. Similarly to how the a PlayStation 3 has support for up to 7 concurrent controllers, we plan to replicate that feature in its entirety.
 						</p>
 					</div>
 				</div>
@@ -228,7 +278,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							Yes, saves can be imported from a real PlayStation 3 system using the standard USB flash drive transfer method. Due to how the user account system works on a real PlayStation 3 system, in some cases, you may need to re-sign your save. For more information on how to manage your save data within RPCS3, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							 Yes, saves can be imported from a real PlayStation 3 system using the standard USB flash drive transfer method. Due to how the user account system works on a real PlayStation 3 system, in some cases, you may need to re-sign your save. For more information on how to manage your save data within RPCS3, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -241,9 +291,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							As long as the platform is powerful enough to emulate the PlayStation 3, probably yes.
-							At the moment we only target Windows and Linux. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and doesn't support Vulkan either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement it.
-							For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as GUI translations, higher rendering resolutions, PlayStation Move support, etc.
+							 As long as the platform is powerful enough to emulate the PlayStation 3, probably yes. At the moment we only target Windows and Linux. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and doesn't support Vulkan either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement it. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as GUI translations, higher rendering resolutions, PlayStation Move support, etc.
 						</p>
 					</div>
 				</div>
@@ -256,9 +304,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							That's awesome, contributions are welcome! Check the <a href="https://github.com/RPCS3/rpcs3/wiki/coding-style">Coding Style Guidelines</a>, and <a href="https://github.com/RPCS3/rpcs3/wiki/developer-information">Developer Information</a>.
-							Find something you want to implement or improve (such as broken games, bugs, missing features, Roadmap goals, etc.), work on it, test your changes and send a Pull Request.
-							If you have any questions, hit us up on our <a href="https://discord.me/RPCS3">Discord Server</a> in the #development channel.
+							 That's awesome, contributions are welcome! Check the <a href="https://github.com/RPCS3/rpcs3/wiki/coding-style">Coding Style Guidelines</a>, and <a href="https://github.com/RPCS3/rpcs3/wiki/developer-information">Developer Information</a>. Find something you want to implement or improve (such as broken games, bugs, missing features, Roadmap goals, etc.), work on it, test your changes and send a Pull Request. If you have any questions, hit us up on our <a href="https://discord.me/RPCS3">Discord Server</a> in the #development channel.
 						</p>
 					</div>
 				</div>
@@ -271,24 +317,23 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							Good, you can do it through the <a href="https://github.com/RPCS3/rpcs3/issues">GitHub Issue Tracker</a> (development-related issues) or the Forums (general questions, support and commercial/homebrew games discussion). 
-							Please be sure to follow these guidelines before sending anything:
+							 Good, you can do it through the <a href="https://github.com/RPCS3/rpcs3/issues">GitHub Issue Tracker</a> (development-related issues) or the Forums (general questions, support and commercial/homebrew games discussion). Please be sure to follow these guidelines before sending anything:
 						</p>
 						<br>
 						<p>
-							• Check if your system matches all the system minimum requirements;
+							 • Check if your system matches all the system minimum requirements;
 						</p>
 						<p>
-							• Check if the issue is meaningful for the team (e.g. The Last of Us doesn't work is obvious and therefore useless);
+							 • Check if the issue is meaningful for the team (e.g. The Last of Us doesn't work is obvious and therefore useless);
 						</p>
 						<p>
-							• Search older issues/forum threads to see if your issue was already submitted;
+							 • Search older issues/forum threads to see if your issue was already submitted;
 						</p>
 						<p>
-							• Use understandable English. It doesn't need to be perfect, but clear enough to understand your message;
+							 • Use understandable English. It doesn't need to be perfect, but clear enough to understand your message;
 						</p>
 						<p>
-							• While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the RPCS3.log file.
+							 • While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the RPCS3.log file.
 						</p>
 					</div>
 				</div>
@@ -301,7 +346,7 @@
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
-							Download Latest Build
+							 Download Latest Build
 						</p>
 					</div>
 				</div>
@@ -310,9 +355,9 @@
 			<!-- End -->
 		</div>
 	</div>
-<!-- End -->
+	<!-- End -->
 	<?php include 'lib/module/ui-footer.php';?>
-<!-- End -->
+	<!-- End -->
 </div>
 </body>
 </html>

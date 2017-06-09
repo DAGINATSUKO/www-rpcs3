@@ -67,6 +67,18 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
 	background: #9c9c9c;
 }
+::-moz-scrollbar {
+	width:10px;
+}
+::-moz-scrollbar-track {
+	background:#dcdcdc;
+}
+::-moz-scrollbar-thumb {
+	background:#a9a9a9;
+}
+::-moz-scrollbar-thumb:hover {
+	background: #9c9c9c;
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 input {
 	height:100%;
