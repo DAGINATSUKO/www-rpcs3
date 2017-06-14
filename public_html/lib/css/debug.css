@@ -2,9 +2,37 @@
 	display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-#new1 {
+#list-con-block {
 	display: block;
+	margin-bottom: 20px;
+	height: 188px;
+	position: relative;
 }
-#new2 {
+#list-con-container {
 	display: block;
+	width: 25%;
+	min-height: 100px;
+	position: relative;
+	float: left;
+}
+#list-con-item {
+	font-family: arial;
+	font-size: 12px;
+	text-align: left;
+	line-height: 46px;
+	padding-left: 46px;
+	color: #5e5e5e;
+	height: 46px;
+	background: #fff;
+	margin-bottom: 1px;
+	margin-left: 1px;
+}
+#list-ico-item {
+	display: block;
+	position: absolute;
+	background: url('/img/icons/list/featured.png') no-repeat center;
+	background-size: 8px;
+	height: 46px;
+	width: 46px;
+	left: 0px;
 }

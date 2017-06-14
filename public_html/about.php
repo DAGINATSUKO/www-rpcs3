@@ -413,6 +413,8 @@
 				</div>
 			</div>
 			<!-- End -->
+			<?php include 'lib/module/block-supporters.php';?>
+			<!-- End -->
 			<div class="div-heading" id="featured-tx1-heading">
 				<h2>Former Developers</h2>
 			</div>
