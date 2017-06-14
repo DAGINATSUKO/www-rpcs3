@@ -397,7 +397,7 @@
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
 					<div id='featured-ava-block' style="background: url('/img/users/honorable/megamouse.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>

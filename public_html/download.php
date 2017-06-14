@@ -180,7 +180,7 @@
 			</a>
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading">
-				<h2>Website codebase</h2>
+				<h2>Website Codebase</h2>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>

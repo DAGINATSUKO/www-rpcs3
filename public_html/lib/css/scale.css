@@ -49,11 +49,6 @@
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:1050px) {
-	#footer-tx2-credits {
-		display:none !important;
-	}
-}
 @media screen and (max-width:1100px) {
 	#menu-con-support  {
 		display:none !important;

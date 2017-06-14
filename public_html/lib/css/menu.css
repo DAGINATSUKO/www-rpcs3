@@ -56,7 +56,7 @@
 #submenu-con-container {
 	position:relative;
 	top:62px;
-	left: -56px;
+	left: -102px;
 	display:none;
 	width:218px;
 	height:120px;
@@ -84,6 +84,14 @@
 }
 #submenu-con-wrapper:hover #submenu-ico-alipay {
 	background:url('/img/icons/submenu/alipay-h.png') no-repeat center;
+	background-size: 22px;
+}
+#submenu-con-wrapper:hover #submenu-ico-code {
+	background:url('/img/icons/submenu/code-h.png') no-repeat center;
+	background-size: 22px;
+}
+#submenu-con-wrapper:hover #submenu-ico-testing {
+	background:url('/img/icons/submenu/testing-h.png') no-repeat center;
 	background-size: 22px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -115,6 +123,22 @@
 	width:60px;
 	height:60px;
 	background:url('/img/icons/submenu/alipay.png') no-repeat center;
+	background-size: 22px;
+}
+#submenu-ico-code {
+	display:inline-block;
+	float:left;
+	width:60px;
+	height:60px;
+	background:url('/img/icons/submenu/code.png') no-repeat center;
+	background-size: 22px;
+}
+#submenu-ico-testing {
+	display:inline-block;
+	float:left;
+	width:60px;
+	height:60px;
+	background:url('/img/icons/submenu/testing.png') no-repeat center;
 	background-size: 22px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/

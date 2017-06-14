@@ -1,7 +1,7 @@
 <div id='bloglinks-con-dim' class='toggle-bloglinks'>
 	<div id='bloglinks-con-anim' class='dropin-load'>
 		<div id="bloglinks-tx1-title" style='-webkit-animation-duration: .4s;'>
-			 BLOG MENU
+			 RPCS3 Developers Blog
 		</div>
 			<div id="menu-con-menu">
 				<div id="sidebar" class="sidebar" style='-webkit-animation-duration: .4s;'>

@@ -44,15 +44,16 @@
 }
 #bloglinks-tx1-title {
 	font-family:arial;
-	font-size:12px;
+	font-size: 14px;
 	line-height:60px;
 	position: fixed;
 	height: 62px;
 	width: 350px;
 	padding-left:20px;
-	letter-spacing:4px;
+	/* letter-spacing:4px; */
 	color: #fff;
 	background: #5e32eb;
 	z-index: 2;
 	pointer-events: none;
+	border-bottom: solid 1px rgba(0,0,0,.1);
 }

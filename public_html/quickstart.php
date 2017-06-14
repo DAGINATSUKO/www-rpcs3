@@ -319,7 +319,7 @@
 					<div id='featured-tx2-block'>
 						<p>
 							<b>PPU Interpreter (Precise)</b><br>
-							 Currently not available. Will provides more accurate real-time PPU emulation, but will be slower.
+							 Currently not available. Will provide more accurate real-time PPU emulation, at the cost of speed.
 						</p>
 						<p>
 							<b>PPU Interpreter (Fast)</b><br>
@@ -357,7 +357,7 @@
 					<div id='featured-tx2-block'>
 						<p>
 							<b>Render</b><br>
-							 Allows you to select OpenGL, Vulkan and D3D12 (DirectX 12) renderers that are compatible with your GPU. OpenGL will always be the most accurate renderer followed by Vulkan and then D3D12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+							 Allows you to select OpenGL, Vulkan and DirectX 12 renderers. Please note that DirectX 12 is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
 						</p>
 						<br>
 						<p>
@@ -367,7 +367,7 @@
 						<br>
 						<p>
 							<b>D3D Adapter</b><br>
-							 Allows you to select your preferred D3D device, required <b>ONLY</b> if you're using D3D12 (DirectX 12) render.
+							 Allows you to select your preferred D3D device, required <b>ONLY</b> if you're using D3D12 (DirectX 12) render with Windows 10.
 						</p>
 						<br>
 						<p>

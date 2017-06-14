@@ -40,7 +40,7 @@
 				 FAQ
 			</div>
 			</a>
-			<div id="menu-btn-select">
+			<div id="menu-btn-select" style="pointer-events: none;">
 				 |
 			</div>
 			<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
@@ -82,6 +82,24 @@
 							 Support with Alipay
 						</div>
 					</div>
+					<a href="https://github.com/RPCS3/rpcs3/wiki/Coding-Style" target="_blank">
+					<div id="submenu-con-wrapper">
+						<div id="submenu-ico-code">
+						</div>
+						<div id="submenu-btn-button">
+							 Support with Code
+						</div>
+					</div>
+					</a>
+					<a href="https://github.com/RPCS3/rpcs3/issues" target="_blank">
+					<div id="submenu-con-wrapper">
+						<div id="submenu-ico-testing">
+						</div>
+						<div id="submenu-btn-button">
+							 Support with Testing
+						</div>
+					</div>
+					</a>
 				</div>
 				<!-- Submenu -->
 			</div>
