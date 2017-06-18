@@ -1,11 +1,13 @@
 <div id='featurette-con-container'>
 	<div id='featurette-tx1-body'>
-		 FEATURED PROGRESS
+		 WE SUPPORT
 	</div>
 	<div id='featurette-div-body'>
 	</div>
+	<a href='https://www.fightforthefuture.org/' target="_blank">
 	<div id='featurette-ico-body'>
 	</div>
+	</a>
 	<div id='featurette-ovr-body'>
 	</div>
 	<a href='https://discord.me/RPCS3' target="_blank">

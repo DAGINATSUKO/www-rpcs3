@@ -53,7 +53,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern DirectX 12, Vulkan and OpenGL renderers. The emulator is capable of booting and playing a decent amount of commercial games and many more are becoming playable with future developments. The source code for RPCS3 is hosted publicly on our GitHub. You're welcome to grab the latest compiled revisions from our AppVeyor or compile your own build for personal use.
+							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The emulator has been in development since early 2011 and currently supports modern Vulkan, OpenGL and Direct3D 12 renderers. The emulator is capable of booting and playing a decent amount of commercial games and many more are becoming playable with future developments. The source code for RPCS3 is hosted publicly on our GitHub. You're welcome to grab the latest compiled revisions from our AppVeyor or compile your own build for personal use.
 						</p>
 					</div>
 				</div>
@@ -66,7 +66,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 began development in early 2011 by a small team of programmers. Our current core developer, <a href="https://github.com/Nekotekina">Nekotekina</a>, is hard at work ensuring RPCS3 meets its roadmap goals and that its development is always progressing forward. Since then, RPCS3 has progressed into an open source community-based project. The full list of contributors can be found on our GitHub page.
+							 RPCS3 began development in early 2011 by a small team of programmers lead by DH and Hykem. Our current core developer, <a href="https://github.com/Nekotekina">Nekotekina</a>, is hard at work ensuring RPCS3 meets its roadmap goals and that its development is always progressing forward. Since then, RPCS3 has progressed into an open source community-based project. The full list of contributors can be found on our GitHub page.
 						</p>
 					</div>
 				</div>
@@ -79,26 +79,26 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Our goal is to create the most accurate PlayStation 3 emulator possible. Previous PlayStation emulators tend to rely on game specific hacks and plugins to some extent, which don't guarantee full compatibility with all other PlayStation games and software.
+							 Our goal is to create the most accurate PlayStation 3 emulator possible - we're not including game specific hacks.
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
-			<div id='featured-con-block'>
+			<!-- <div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2>Is RPCS3 designed for single-core performance or multi-threaded performance?</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is designed to make use of as many threads as possible. This means that processors such as Intel's 8 core, 16 thread 7820X or AMD's 8 core, 16 thread Ryzen 7 1700X will benefit greatly for emulating games at higher speeds. Processors such as the Intel Core i7-7700K and the AMD FX 8320 will suffice but will not have any headroom for additional tasks running on your computer when the emulator is running.
+							 RPCS3 is designed to make use of as many threads as possible. This means that processors such as Intel's 8 core, 16 thread 7820X or AMD's 8 core, 16 thread Ryzen 7 1700X will benefit greatly for emulating games at higher speeds. Processors such as the Intel Core i7-7700K will suffice but will not have any headroom for additional tasks running on your computer when the emulator is running.
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- End -->
-			<div id='featured-con-block'>
+			<!-- <div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2>Does it matter if I put my games on an SSD, HDD or SSHD?</h2>
@@ -109,9 +109,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- End -->
-			<div id='featured-con-block'>
+			<!-- <div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2>I have a processor with more than 8 threads. Will my performance be better?</h2>
@@ -122,9 +122,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- End -->
-			<div id='featured-con-block'>
+			<!-- <div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2>My processor has 4 threads. What does this mean performance wise if the PlayStation 3 has 8 threads?</h2>
@@ -135,9 +135,9 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- End -->
-			<div id='featured-con-block'>
+			<!-- <div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2>My computer's processor is overclocked. Will my games run faster?</h2>
@@ -148,7 +148,7 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>

@@ -44,9 +44,9 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
-							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently sports modern Vulkan, DirectX 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability. <br>
+							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently sports modern Vulkan, Direct3D 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability. <br>
 							<br>
-							 RPCS3 was first developed and maintained by programmers, DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today, RPCS3 is dubbed the most complex videogame console emulator of all time with its endless goal to effectively emulate the Sony PlayStation 3 console and all of its aspects.
+							 RPCS3 was founded by programmers DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today, RPCS3 is dubbed the most complex videogame console emulator of all time with its endless goal to effectively emulate the Sony PlayStation 3 console and all of its aspects.
 						</p>
 					</div>
 				</div>
@@ -121,7 +121,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 kd-11 joined RPCS3 in early 2016 as a contributor. He is a veteran in graphics various shenanigans and is currently the lead graphics developer for RPCS3. kd-11 is constantly improving the graphical back-end parts of the emulator and greatly enjoys doings so.
+								 kd-11 joined RPCS3 in early 2016 as a contributor. He is a veteran in graphics various shenanigans and is currently the lead graphics developer for RPCS3. kd-11 is constantly improving the emulator, mainly its graphical back-end parts and greatly enjoys doings so.
 							</p>
 						</div>
 					</div>
@@ -179,12 +179,40 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Ani joined RPCS3 in mid 2016 as a global forum moderator and helper. He is the developer and maintainer of RPCS3's compatibility list. Along with ssshadow, Ani also serves as a maintainer for RPCS3's social media accounts.
+								 Ani joined RPCS3 in mid 2016 as a global forum moderator for EmuNewz and helper. He recently took the role as Community Manager and Web Backend Developer, developing and maintaining the Compatibility portion of the website. Along with ssshadow, Ani also mantains RPCS3's social media accounts.
 							</p>
 						</div>
 					</div>
 				</div>
 				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/users/daginatsuko.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>
+							<p style="float: left;">
+								 DAGINATSUKO
+							</p>
+							<p>
+							</p>
+							<p class="div-txt-role div-role-wdev">
+								 Web Developer
+							</p>
+							<p class="div-txt-role div-role-gddev">
+								 Graphic Designer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. As the main web developer and website maintainer, they are also in charge of RPCS3's visual marketing efforts and branding that not only show, but promote the personality of the emulator and its team.
+							</p>
+						</div>
+					</div>
+				</div>
 				<div id='featured-con-block' class="div-member-block">
 					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/jarves.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
@@ -199,7 +227,7 @@
 							<p>
 							</p>
 							<p class="div-txt-role div-role-ccdev">
-								 Core Contributor
+								 Developer
 							</p>
 							</h2>
 						</div>
@@ -225,13 +253,13 @@
 							<p>
 							</p>
 							<p class="div-txt-role div-role-ccdev">
-								 Core Contributor
+								 Developer
 							</p>
 							</h2>
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Numan joined RPCS3 in early 2017 as a contributor. He has since then moved up, becoming a core contributor due to his valiant efforts in investigating and then fixing various bugs found in the emulator.
+								 Numan joined RPCS3 in early 2017 as a contributor. He has since then moved up, becoming a core contributor due to his valiant efforts in investigating and then fixing various bugs found in the emulator. He was the person responsible for the first efforts that made Demon's Souls boot, which drew a lot of attention to the project.
 							</p>
 						</div>
 					</div>
@@ -257,7 +285,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 BlackDaemon is a contributor and team member for RPCS3 and currently does not have a member description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 BlackDaemon has been around since the beginning as a global forum moderator and avid tester. He was responsible for testing and debugging many games, sharing peculiar issues to other developers so they could be fixed.
 							</p>
 						</div>
 					</div>
@@ -278,6 +306,9 @@
 							</p>
 							<p class="div-txt-role div-role-ddev">
 								 Debugger
+							</p>
+							<p class="div-txt-role div-role-ccdev">
+								 Contributor
 							</p>
 							</h2>
 						</div>
@@ -309,7 +340,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Clienthax is a contributor and team member for RPCS3 and currently does not have a member description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 Clienthax is a debugger and team member for RPCS3 and currently does not have a member description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
@@ -345,47 +376,22 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/users/daginatsuko.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>
-							<p style="float: left;">
-								 DAGINATSUKO
-							</p>
-							<p>
-							</p>
-							<p class="div-txt-role div-role-wdev">
-								 Web Developer
-							</p>
-							<p class="div-txt-role div-role-gddev">
-								 Graphic Designer
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. As the sole web developer and website maintainer, they are also in charge of RPCS3's visual marketing efforts and branding that not only show, but promote the personality of the emulator and its team.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="div-heading" id="featured-tx1-heading">
-				<h2>Major Contributors</h2>
-			</div>
-			<!-- End -->
-			<div class="div-member-con">
-				<div id='featured-con-block' class="div-member-block">
 					<div id='featured-ava-block' style="background: url('/img/users/honorable/pirhoman.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
 						<div id='featured-tx1-block'>
-							<h2>flash-fire</h2>
+								<h2>
+							<p style="float: left;">
+								 flash-fire
+							</p>
+							<p>
+							</p>
+							<p class="div-txt-role div-role-ccdev">
+								 Contributor
+							</p>
+							</h2>
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
@@ -402,18 +408,25 @@
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
 						<div id='featured-tx1-block'>
-							<h2>megamouse</h2>
+								<h2>
+							<p style="float: left;">
+								 Megamouse
+							</p>
+							<p>
+							</p>
+							<p class="div-txt-role div-role-ccdev">
+								 Contributor
+							</p>
+							</h2>
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 megamouse is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+								 Megamouse is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- End -->
-			<?php include 'lib/module/block-supporters.php';?>
 			<!-- End -->
 			<div class="div-heading" id="featured-tx1-heading">
 				<h2>Former Developers</h2>
@@ -602,6 +615,8 @@
 					</div>
 				</div>
 			</div>
+			<!-- End -->
+			<?php include 'lib/module/block-supporters.php';?>
 			<!-- End -->
 			<div class="div-heading" id="featured-tx1-heading">
 				<h2>Honorable Mentions</h2>

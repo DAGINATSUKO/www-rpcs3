@@ -178,6 +178,7 @@
 	margin-bottom:20px;
 	background:#000 url(/img/featurette/teaser.jpg) no-repeat center;
 	background-size:cover;
+	display: none;
 }
 #featurette-ovr-body {
 	position:absolute;
@@ -185,7 +186,7 @@
 	width:100%;
 	height:100%;
 	opacity:.8;
-	background:linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
+	background: linear-gradient(to right,rgba(166,0,217,.8),rgba(244, 67, 51, .8));
 }
 #featurette-tx1-body {
 	font-family:arial;
@@ -208,8 +209,8 @@
 	height:120px;
 	text-align:center;
 	color:#fff;
-	background:url(/img/featurette/logo.png) no-repeat center;
-	background-size:200px;
+	background: url(/img/featurette/logo.png) no-repeat center;
+	background-size: 420px;
 }
 #featurette-btn-body {
 	position:absolute;
@@ -230,19 +231,19 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #countdown-con-container {
 	position:relative;
-	display:none;
 	width:100%;
 	height:200px;
 	margin-bottom:20px;
 	background:#000 url(/img/countdown/teaser.jpg) no-repeat center;
 	background-size:cover;
+	display: none;
 }
 #countdown-ovr-body {
 	position:absolute;
 	z-index:1;
 	width:100%;
 	height:100%;
-	background:linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
+	background: linear-gradient(to right,rgba(166,0,217,.8),rgba(255, 52, 52, .8));
 }
 #countdown-tx1-body {
 	font-family:arial;

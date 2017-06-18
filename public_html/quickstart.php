@@ -67,7 +67,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under Tools > Install Firmware. The files will then be installed and then correctly placed in their appropriate directories.
+							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under Boot > Install Firmware. The files will then be installed and then correctly placed in their appropriate directories.
 						</p>
 					</div>
 				</div>
@@ -321,6 +321,7 @@
 							<b>PPU Interpreter (Precise)</b><br>
 							 Currently not available. Will provide more accurate real-time PPU emulation, at the cost of speed.
 						</p>
+						<br>
 						<p>
 							<b>PPU Interpreter (Fast)</b><br>
 							 Provides fast real-time PPU emulation but is less accurate.
@@ -357,7 +358,7 @@
 					<div id='featured-tx2-block'>
 						<p>
 							<b>Render</b><br>
-							 Allows you to select OpenGL, Vulkan and DirectX 12 renderers. Please note that DirectX 12 is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+							 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (DirectX 12) is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
 						</p>
 						<br>
 						<p>
@@ -366,8 +367,8 @@
 						</p>
 						<br>
 						<p>
-							<b>D3D Adapter</b><br>
-							 Allows you to select your preferred D3D device, required <b>ONLY</b> if you're using D3D12 (DirectX 12) render with Windows 10.
+							<b>Graphics Device</b><br>
+							 Allows you to select your preferred D3D12 or VK device when using either the DirectX 12 or Vulkan graphics APIs.
 						</p>
 						<br>
 						<p>

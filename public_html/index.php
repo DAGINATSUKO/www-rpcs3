@@ -296,8 +296,6 @@
 			</div>
 			</a>
 			<!-- End -->
-			<?php include 'lib/module/block-supporters.php';?>
-			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
