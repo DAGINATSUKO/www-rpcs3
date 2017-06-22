@@ -77,7 +77,7 @@
 		<div id="page-in-container">
 			<!-- End -->
 			<?php include 'lib/module/block-countdown.php';?>
-			<?php include 'lib/module/block-featurette.php';?>
+			<?php include 'lib/module/block-spotlight.php';?>
 			<!-- End -->
 			<div id='featured-con-master'>
 				<!-- End -->

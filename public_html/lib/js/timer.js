@@ -1,3 +1,4 @@
+/* Handles countdown timer */
 /*
 $(document).ready(function() {
     CountDownTimer('3/11/2017 12:00 PM', 'countdown-tx2-body');

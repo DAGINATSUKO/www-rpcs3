@@ -1,17 +1,17 @@
-<div id='featurette-con-container'>
-	<div id='featurette-tx1-body'>
+<div id='spotlight-con-container'>
+	<div id='spotlight-tx1-body'>
 		 WE SUPPORT
 	</div>
-	<div id='featurette-div-body'>
+	<div id='spotlight-div-body'>
 	</div>
 	<a href='https://www.fightforthefuture.org/' target="_blank">
-	<div id='featurette-ico-body'>
+	<div id='spotlight-ico-body'>
 	</div>
 	</a>
-	<div id='featurette-ovr-body'>
+	<div id='spotlight-ovr-body'>
 	</div>
 	<a href='https://discord.me/RPCS3' target="_blank">
-	<div id='featurette-btn-body' title="Talk about it on Discord!">
+	<div id='spotlight-btn-body' title="Talk about it on Discord!">
 	</div>
 	</a>
 	<div class="visual-wavebar-1">
