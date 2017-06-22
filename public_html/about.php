@@ -685,7 +685,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 16-Bit Blast Processing is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+								16-Bit Blast Processing is an avid PlayStation enthusiast and gamer with a passion for emulation. He believes in the idea of being able to run PlayStation format software on different platforms. Furthermore, he produces gameplay videos covering RPCS3's growing compatibility.
 							</p>
 						</div>
 					</div>

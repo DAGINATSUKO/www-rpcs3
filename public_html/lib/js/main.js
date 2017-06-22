@@ -1,3 +1,4 @@
+/* Randomly loads banner image for each page */
 $(document).ready(function() {
     var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg', '21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg', '31.jpg', '32.jpg', '33.jpg', '34.jpg', '35.jpg', '36.jpg', '37.jpg', '38.jpg', '39.jpg', '40.jpg'];
     $('.dynamic-banner').css({
@@ -5,6 +6,7 @@ $(document).ready(function() {
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles standard wavebar animation */
 $(document).ready(function() {
     var $wavebarFX = $(".visual-wavebar-1"),
         wavebarWidth = 25,
@@ -14,6 +16,7 @@ $(document).ready(function() {
         $wavebar.appendTo($wavebarFX);
     }
 });
+/* Handles denser wavebar animation */
 $(document).ready(function() {
     var $wavebarFX = $(".visual-wavebar-2"),
         wavebarWidth = 25,
@@ -24,9 +27,9 @@ $(document).ready(function() {
     }
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles menubar opacity swap on scroll */
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-
     if (scroll >= 440) {
         $("#menu-con-menubar ").addClass("div-menubar-opacity ");
     } else {
@@ -34,6 +37,7 @@ $(window).scroll(function() {
     }
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles all fade on scroll events */
 $(document).ready(function() {
     $('.delayed-fade').delay(500).fadeIn();
 });
@@ -45,6 +49,7 @@ $(window).scroll(function() {
     }
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles all submenu rollovers */
 $(document).ready(function() {
     $(function() {
         $('.support-subtrigger').hover(function() {
@@ -55,6 +60,7 @@ $(document).ready(function() {
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles pre-load and unload of video iframes */
 $(document).ready(function() {
     $(".page-video-1").click(function() {
         var iframe = $("#video-1");
@@ -86,6 +92,7 @@ $(document).ready(function() {
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles menu toggles */
 $(document).ready(function() {
     $(".toggle-menu").hide();
     $("#menu-btn-open").click(function() {
@@ -96,7 +103,7 @@ $(document).ready(function() {
         $(".toggle-menu").fadeOut(100);
     });
 });
-
+/* Handles Alipay toggle */
 $(document).ready(function() {
     $(".toggle-alipay").hide();
     $(".trigger-alipay").click(function() {
@@ -107,6 +114,7 @@ $(document).ready(function() {
         $(".toggle-alipay").fadeOut(100);
     });
 });
+/* Handles blog sidebar toggle */
 $(document).ready(function() {
     $(".toggle-bloglinks").hide();
     $("#bloglinks-btn-open").click(function() {
@@ -118,6 +126,7 @@ $(document).ready(function() {
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles featured video #1 toggle */
 $(document).ready(function() {
     $(".toggle-video-1").hide();
     $(".page-video-1").click(function() {
@@ -127,6 +136,7 @@ $(document).ready(function() {
     $(".toggle-video-1").click(function() {
         $(".toggle-video-1").fadeOut('fast');
     });
+	/* Handles featured video #2 toggle */
     $(".toggle-video-2").hide();
     $(".page-video-2").click(function() {
         $(".toggle-video-2").fadeIn('fast');
@@ -135,6 +145,7 @@ $(document).ready(function() {
     $(".toggle-video-2").click(function() {
         $(".toggle-video-2").fadeOut('fast');
     });
+	/* Handles featured video #3 toggle */
     $(".toggle-video-3").hide();
     $(".page-video-3").click(function() {
         $(".toggle-video-3").fadeIn('fast');
@@ -143,6 +154,7 @@ $(document).ready(function() {
     $(".toggle-video-3").click(function() {
         $(".toggle-video-3").fadeOut('fast');
     });
+	/* Handles featured video #4 toggle */
     $(".toggle-video-4").hide();
     $(".page-video-4").click(function() {
         $(".toggle-video-4").fadeIn('fast');
@@ -151,6 +163,7 @@ $(document).ready(function() {
     $(".toggle-video-4").click(function() {
         $(".toggle-video-4").fadeOut('fast');
     });
+	/* Handles featured video #5 toggle */
     $(".toggle-video-5").hide();
     $(".page-video-5").click(function() {
         $(".toggle-video-5").fadeIn('fast');
@@ -159,6 +172,7 @@ $(document).ready(function() {
     $(".toggle-video-5").click(function() {
         $(".toggle-video-5").fadeOut('fast');
     });
+	/* Handles featured video #6 toggle */
     $(".toggle-video-6").hide();
     $(".page-video-6").click(function() {
         $(".toggle-video-6").fadeIn('fast');
@@ -167,6 +181,7 @@ $(document).ready(function() {
     $(".toggle-video-6").click(function() {
         $(".toggle-video-6").fadeOut('fast');
     });
+	/* Handles featured video #7 toggle */
     $(".toggle-video-7").hide();
     $(".page-video-7").click(function() {
         $(".toggle-video-7").fadeIn('fast');
@@ -177,6 +192,7 @@ $(document).ready(function() {
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles start and stop of featured video #1 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {
@@ -188,6 +204,7 @@ $(document).ready(function() {
         }
     });
 });
+/* Handles start and stop of featured video #2 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {
@@ -199,6 +216,7 @@ $(document).ready(function() {
         }
     });
 });
+/* Handles start and stop of featured video #3 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {
@@ -210,6 +228,7 @@ $(document).ready(function() {
         }
     });
 });
+/* Handles start and stop of featured video #4 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {
@@ -221,6 +240,7 @@ $(document).ready(function() {
         }
     });
 });
+/* Handles start and stop of featured video #5 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {
@@ -232,6 +252,7 @@ $(document).ready(function() {
         }
     });
 });
+/* Handles start and stop of featured video #6 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {
@@ -243,6 +264,7 @@ $(document).ready(function() {
         }
     });
 });
+/* Handles start and stop of featured video #7 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {
@@ -255,12 +277,14 @@ $(document).ready(function() {
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+ /* Handles fullscreen announcement toggles */
  $(document).ready(function() {
    $('#announce-btn-overlay').mouseover(function() {
       $('#announce-btn-overlay').fadeOut('fast', function() {
       });
    });
  });
+ /* Handles start and stop of announcement video */
 $(document).ready(function() {
     $(function() {
 	    $("#announce-btn-overlay").mouseover("click", function() {　　
