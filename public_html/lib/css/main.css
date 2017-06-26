@@ -111,7 +111,6 @@
 	width:100%;
 	height:100%;
 	background:linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
-	image-rendering: pixelated;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #header-con-body {
@@ -174,25 +173,26 @@
 	position:relative;
 	display:block;
 	width:100%;
-	height:200px;
+	height: auto;
+	padding-bottom: 20px;
 	margin-bottom:20px;
-	background:#000 url(/img/spotlight/teaser.jpg) no-repeat center;
+	background: #000;
 	background-size:cover;
-	display: none;
 }
 #spotlight-ovr-body {
 	position:absolute;
+	top: 0px;
 	z-index:1;
 	width:100%;
 	height:100%;
 	opacity:.8;
-	background: linear-gradient(to right,rgba(166,0,217,.8),rgba(244, 67, 51, .8));
+	background: linear-gradient(to right,rgba(255,0,0,.8),rgba(255,114,255,.8));
 }
 #spotlight-tx1-body {
 	font-family:arial;
 	font-size:14px;
 	line-height:70px;
-	position:absolute;
+	position: relative;
 	z-index:2;
 	width:100%;
 	height:70px;
@@ -201,19 +201,40 @@
 	letter-spacing:8px;
 	color:#fff;
 }
-#spotlight-ico-body {
-	position:absolute;
+#spotlight-tx2-body {
+	font-family: arial;
+	font-size: 14px;
+	position: relative;
+	text-align: center;
+	line-height: 24px;
+	z-index: 2;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-bottom: 20px;
+	height: auto;
+	color: #fff;
+}
+#spotlight-div-body {
+	position: relative;
 	z-index:2;
-	top:42px;
+	left:50%;
+	width:40px;
+	height:1px;
+	margin:0 -20px;
+	background: #fff;
+}
+#spotlight-ico-body {
+	position: relative;
+	z-index:2;
 	width:100%;
-	height:120px;
+	height: 70px;
 	text-align:center;
 	color:#fff;
 	background: url(/img/spotlight/logo.png) no-repeat center;
-	background-size: 420px;
+	background-size: 560px;
 }
 #spotlight-btn-body {
-	position:absolute;
+	position: relative;
 	z-index:3;
 	bottom:0;
 	left:50%;
@@ -221,9 +242,10 @@
 	height:50px;
 	margin:0 -90px;
 	cursor:pointer;
+	margin-top: 16px;
 	transition:.1s ease-in-out;
-	background:url(/img/icons/panels/server.png) no-repeat center;
-	background-size:100px;
+	background: url(/img/spotlight/button.png) no-repeat center;
+	background-size: 171px;
 }
 #spotlight-btn-body:hover {
 	opacity: .8;

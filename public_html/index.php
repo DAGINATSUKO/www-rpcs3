@@ -28,28 +28,28 @@
 	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki. It was released exclusively for the PlayStation 3.'
 	);
 	preloadVideo(
-	'3',
+	'5',
 	'c7Oq5O7uX0E',
 	'Catherine',
 	'Catherine is a puzzle-platformer adventure game developed by Atlus and directed by Katsura Hashino. It was released for both PlayStation 3 and Xbox 360.'
 	);
 	preloadVideo(
 	'4',
+	'b_M-8O3vNBM',
+	'Naruto: Ultimate Ninja Storm',
+	'Naruto: Ultimate Ninja Storm is a 3D fighting game developed by CyberConnect2 and published by Namco Bandai. It was first released exclusively for PlayStation 3.'
+	);
+	preloadVideo(
+	'6',
 	'CqkmEKcITqU',
 	'The Legend of Spyro: Dawn of the Dragon',
 	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules. It was released for both PlayStation 2 and PlayStation 3.'
 	);
 	preloadVideo(
-	'6',
-	'5F_i-ru2ofE',
-	'Tales of Xillia',
-	'Tales of Xillia is a Japanese action role-playing adventure game developed by the Namco Tales Studio and published by Bandi Namco. It was released exclusively for the PlayStation 3.'
-	);
-	preloadVideo(
-	'5',
-	'fpyfKRQti7A',
-	'The Legend of Heroes: Trails of Cold Steel',
-	'The Legend of Heroes: Trails of Cold Steel is a 3D action role-playing game developed by Nihon Falcom. It was released exclusively for both the PlayStation 3 and PlayStation Vita.'
+	'3',
+	'0yxVASSetmA',
+	'Persona 5',
+	'Persona 5 is a turn-based 3D action role-playing game developed by Atlus. It is the sixth game in the Persona series. It was released exclusively for both PlayStation 3 and PlayStation 4.'
 	);
 ?>
 <div id="page-con-content">
@@ -183,7 +183,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently sports modern Vulkan, DirectX 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.
+							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently supports modern Vulkan, Direct3D 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.
 						</p>
 					</div>
 				</div>
