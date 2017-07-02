@@ -17,12 +17,12 @@
 <?php
 	preloadVideo(
 	'7',
-	'WqkeGhlSV84',
-	'Heavy Rain',
-	'Heavy Rain is an interactive drama adventure game developed by Quantic Dream and published by Sony Computer Entertainment. It was released exclusively for the PlayStation 3.'
+	'HZf4h0cUnbo',
+	'Ni no Kuni: Wrath of the White Witch',
+	'Ni no Kuni: Wrath of the White Witch is a role-playing video game developed and published by Level-5. It was released exclusively for the Nintendo DS and PlayStation 3.'
 	);
 	preloadVideo(
-	'2',
+	'6',
 	'PI7nRkq9CEo',
 	'Demon\'s Souls',
 	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki. It was released exclusively for the PlayStation 3.'
@@ -40,10 +40,10 @@
 	'Naruto: Ultimate Ninja Storm is a 3D fighting game developed by CyberConnect2 and published by Namco Bandai. It was first released exclusively for PlayStation 3.'
 	);
 	preloadVideo(
-	'6',
-	'CqkmEKcITqU',
-	'The Legend of Spyro: Dawn of the Dragon',
-	'The Legend of Spyro: Dawn of the Dragon is a 3D action adventure game developed by Étranges Libellules. It was released for both PlayStation 2 and PlayStation 3.'
+	'2',
+	'6H4264Uc8Iw',
+	'SoulCalibur IV',
+	'SoulCalibur IV is the fifth installment in the SoulCalibur fighting game series. It was developed by Project Soul and published by Namco. It was released for both PlayStation 3 and Xbox 360.'
 	);
 	preloadVideo(
 	'3',

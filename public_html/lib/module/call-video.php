@@ -1,13 +1,13 @@
 <script type="text/javascript">
 $(document).ready(function() {
-    $('.feature-1-title').text("Ni no Kuni: Wrath of the White Witch");
-    $('.feature-1-desc').text("Ni no Kuni: Wrath of the White Witch is a role-playing video game developed and published by Level-5. Players control Oliver, a young boy who sets out on a journey to save his mother. The game is played from a third-person perspective and its world is navigated on foot, by boat, or on a dragon. While players navigate Oliver throughout the game's world, other characters can be controlled during battles against enemies; during these battles, players use magic abilities and creatures known as familiars, which can be captured and tamed. It was released exclusively for the PlayStation 3.");
-    $('.feature-1-author').text("Uploaded By RPCS3");
+    $('.feature-1-title').text("Welcome to RPCS3 - The PlayStation 3 Emulator");
+    $('.feature-1-desc').text("RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Many fraudulent PlayStation 3 emulators and console emulators in general have clouded the public eye of the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality");
+    $('.feature-1-author').text("Uploaded By Reznoire");
 });
 </script>
 <div id='video-con-dim' class='stop-video toggle-video-1'>
 	<div id='video-con-viewport' class='video-con-scale'>
-		<iframe id='video-1' data-src="https://www.youtube.com/embed/HZf4h0cUnbo?start=15&autoplay=1&cc_load_policy=1&enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%" src="about:blank">
+		<iframe id='video-1' data-src="https://www.youtube.com/embed/BtRfMSYtYsE?start=4&autoplay=1&cc_load_policy=1&enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%" src="about:blank">
 		</iframe>
 	</div>
 </div>

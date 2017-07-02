@@ -67,7 +67,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in Firmware Installer found under Boot > Install Firmware. The files will then be installed and then correctly placed in their appropriate directories.
+							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in firmware installer found under Boot > Install .pup. The files will then be installed and then correctly placed in their appropriate directories.
 						</p>
 					</div>
 				</div>
@@ -174,7 +174,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 • .pkg files must be extracted using RPCS3's built in 'Install PKG' option.
+							 • .pkg files must be extracted using RPCS3's built in 'Install .pkg' option.
 						</p>
 						<p>
 							 • .pkg files will be automatically installed to: <b>\dev_hdd0\game\</b>
@@ -199,7 +199,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built in 'Install PKG' option. The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
+							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built in 'Install .pkg' option. The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
 						</p>
 					</div>
 				</div>
