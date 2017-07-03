@@ -238,7 +238,6 @@
 				loadVideo('7', 'right');
 			?>
 			</ul>
-
 			<div id='featured-con-block' class="div-content-ad">
 				<div id='featured-con-ad'>
 					<p>

@@ -30,7 +30,6 @@ $(document).ready(function() {
 </div>
 ";
 }
-
 function loadVideo($id) {
 echo "<li id='featured-con-grid' class='page-flx-item'>
 <div id='featured-img-grid' style=\"background:url('/img/thumbs/$id.jpg') no-repeat center; background-size: cover;\">
