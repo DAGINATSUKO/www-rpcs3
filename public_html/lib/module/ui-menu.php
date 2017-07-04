@@ -75,6 +75,7 @@
 						</div>
 					</div>
 					</a>
+					<a href="/alipay" target="_blank">
 					<div id="submenu-con-wrapper" class='trigger-alipay' style="border-top: solid 1px rgba(0,0,0,.02);">
 						<div id="submenu-ico-alipay">
 						</div>
@@ -82,6 +83,7 @@
 							 Support with Alipay
 						</div>
 					</div>
+					<a/>
 					<a href="https://github.com/RPCS3/rpcs3/wiki/Coding-Style" target="_blank">
 					<div id="submenu-con-wrapper">
 						<div id="submenu-ico-code">
@@ -104,15 +106,5 @@
 				<!-- Submenu -->
 			</div>
 		</div>
-	</div>
-</div>
-<!-- End -->
-<div id='menu-con-dim' class='toggle-alipay'>
-	<a href='/img/icons/donate/alipay-qr.png' target="_blank">
-	<div id='donate-qrc-alipay'>
-	</div>
-	</a>
-	<div id='donate-con-footer'>
-		 © Copyright 2004-2017 Alipay. All rights reserved,
 	</div>
 </div>

@@ -81,7 +81,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
+							Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
 						</p>
 						<br>
 						<p>
@@ -288,206 +288,206 @@
 						</p>
 						<p>
 							 4. Be sure to check game ID in case of different game editions. You need to use the file for the exact game ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
-							<p>
-								 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
-							</p>
-							<p>
-								 6. Press Patch to apply the patch to the .iso file.
-							</p>
-							<p>
-								 7. Open 3k3y ISO Tools and decrypt the .iso file.
-							</p>
-							<p>
-								 8. Your game should now be properly decrypted.
-							</p>
-							<p>
-								 9. You must now extract your decrypted .iso file for use with RPCS3.
-							</p>
-						</div>
+						<p>
+							 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
+						</p>
+						<p>
+							 6. Press Patch to apply the patch to the .iso file.
+						</p>
+						<p>
+							 7. Open 3k3y ISO Tools and decrypt the .iso file.
+						</p>
+						<p>
+							 8. Your game should now be properly decrypted.
+						</p>
+						<p>
+							 9. You must now extract your decrypted .iso file for use with RPCS3.
+						</p>
 					</div>
 				</div>
-				<!-- End -->
-				<div id="featured-tx1-heading" class="div-heading">
-					<h2>Configuring RPCS3</h2>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block'>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>Core settings</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								<b>PPU Interpreter (Precise)</b><br>
-								 Currently not available. Will provide more accurate real-time PPU emulation, at the cost of speed.
-							</p>
-							<br>
-							<p>
-								<b>PPU Interpreter (Fast)</b><br>
-								 Provides fast real-time PPU emulation but is less accurate.
-							</p>
-							<br>
-							<p>
-								<b>PPU Recompiler (LLVM)</b><br>
-								 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides both the fastest and most accurate PPU emulation.
-							</p>
-							<br>
-							<p>
-								<b>SPU Interpreter (Precise)</b><br>
-								 Provides more accurate real-time emulation for SPU cores, but is a lot slower.
-							</p>
-							<br>
-							<p>
-								<b>SPU Interpreter (Fast)</b><br>
-								 Provides fast real-time SPU emulation, but is less accurate.
-							</p>
-							<br>
-							<p>
-								<b>SPU Recompiler (ASMJIT)</b><br>
-								 Provides faster real-time SPU emulation with balanced speed and accuracy.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block'>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>Graphics settings</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								<b>Render</b><br>
-								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (DirectX 12) is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
-							</p>
-							<br>
-							<p>
-								<b>Resolution</b><br>
-								 Allows you to set the native rendering resolution for the emulated console. Optimal resolutions for testing are 1920x1080 and 1280x720. Not all games will render at 1080p because a real PlayStation 3 doesn't support this resolution on all games.
-							</p>
-							<br>
-							<p>
-								<b>Graphics Device</b><br>
-								 Allows you to select your preferred D3D12 or VK device when using either the DirectX 12 or Vulkan graphics APIs.
-							</p>
-							<br>
-							<p>
-								<b>Aspect Ratio</b><br>
-								 Defines the aspect ratio of the the emulated console.
-							</p>
-							<br>
-							<p>
-								<b>Frame Limit</b><br>
-								 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
-							</p>
-							<br>
-							<p>
-								<b>Read/Write and Color/Depth Buffers</b><br>
-								 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color Buffers options.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block'>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>Audio settings</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								<b>Audio Out</b><br>
-								 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows-only) and ALSA (Linux-only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA should always be used on Linux systems.
-							</p>
-							<br>
-							<p>
-								 If you run into any issues with either audio backends, set the output to Null. This will disable all audio for the emulator.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block'>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>Input/Output settings</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								<b>Pad Handler</b><br>
-								 Allows you to select which handler you want to drive your controller's inputs.
-							</p>
-							<br>
-							<p>
-								<b>Keyboard Handler</b><br>
-								 Allows you to select which device you want to register emulated console keyboard inputs.
-							</p>
-							<br>
-							<p>
-								<b>Mouse Handler</b><br>
-								 Allows you to select which device you want to register emulated console mouse inputs and movement.
-							</p>
-							<br>
-							<p>
-								<b>Camera</b><br>
-								 Allows you to spoof or disable PlayStation 3 compatible cameras.
-							</p>
-							<br>
-							<p>
-								<b>Camera Type</b><br>
-								 Allows you to select which device you want to input emulated console camera video/audio.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block'>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>Networking settings</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								<b>Connection status</b><br>
-								 Allows you to spoof an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block'>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-							<h2>System settings</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								<b>Language</b><br>
-								 Allows you to change the internal system language of the emulated console. In some rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<a href='/download'>
-				<div id='featured-con-button'>
-					<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx1-button'>
-							<p>
-								 Download Latest Build
-							</p>
-						</div>
-					</div>
-				</div>
-				</a>
-				<!-- End -->
 			</div>
+			<!-- End -->
+			<div id="featured-tx1-heading" class="div-heading">
+				<h2>Configuring RPCS3</h2>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Core settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>PPU Interpreter (Precise)</b><br>
+							 Currently not available. Will provide more accurate real-time PPU emulation, at the cost of speed.
+						</p>
+						<br>
+						<p>
+							<b>PPU Interpreter (Fast)</b><br>
+							 Provides fast real-time PPU emulation but is less accurate.
+						</p>
+						<br>
+						<p>
+							<b>PPU Recompiler (LLVM)</b><br>
+							 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides both the fastest and most accurate PPU emulation.
+						</p>
+						<br>
+						<p>
+							<b>SPU Interpreter (Precise)</b><br>
+							 Provides more accurate real-time emulation for SPU cores, but is a lot slower.
+						</p>
+						<br>
+						<p>
+							<b>SPU Interpreter (Fast)</b><br>
+							 Provides fast real-time SPU emulation, but is less accurate.
+						</p>
+						<br>
+						<p>
+							<b>SPU Recompiler (ASMJIT)</b><br>
+							 Provides faster real-time SPU emulation with balanced speed and accuracy.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Graphics settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Render</b><br>
+							 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (DirectX 12) is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+						</p>
+						<br>
+						<p>
+							<b>Resolution</b><br>
+							 Allows you to set the native rendering resolution for the emulated console. Optimal resolutions for testing are 1920x1080 and 1280x720. Not all games will render at 1080p because a real PlayStation 3 doesn't support this resolution on all games.
+						</p>
+						<br>
+						<p>
+							<b>Graphics Device</b><br>
+							 Allows you to select your preferred D3D12 or VK device when using either the DirectX 12 or Vulkan graphics APIs.
+						</p>
+						<br>
+						<p>
+							<b>Aspect Ratio</b><br>
+							 Defines the aspect ratio of the the emulated console.
+						</p>
+						<br>
+						<p>
+							<b>Frame Limit</b><br>
+							 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
+						</p>
+						<br>
+						<p>
+							<b>Read/Write and Color/Depth Buffers</b><br>
+							 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color Buffers options.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Audio settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Audio Out</b><br>
+							 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows-only) and ALSA (Linux-only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA should always be used on Linux systems.
+						</p>
+						<br>
+						<p>
+							 If you run into any issues with either audio backends, set the output to Null. This will disable all audio for the emulator.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Input/Output settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Pad Handler</b><br>
+							 Allows you to select which handler you want to drive your controller's inputs.
+						</p>
+						<br>
+						<p>
+							<b>Keyboard Handler</b><br>
+							 Allows you to select which device you want to register emulated console keyboard inputs.
+						</p>
+						<br>
+						<p>
+							<b>Mouse Handler</b><br>
+							 Allows you to select which device you want to register emulated console mouse inputs and movement.
+						</p>
+						<br>
+						<p>
+							<b>Camera</b><br>
+							 Allows you to spoof or disable PlayStation 3 compatible cameras.
+						</p>
+						<br>
+						<p>
+							<b>Camera Type</b><br>
+							 Allows you to select which device you want to input emulated console camera video/audio.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Networking settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Connection status</b><br>
+							 Allows you to spoof an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>System settings</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							<b>Language</b><br>
+							 Allows you to change the internal system language of the emulated console. In some rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
+			<a href='/download'>
+			<div id='featured-con-button'>
+				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
+					</div>
+					<div id='featured-tx1-button'>
+						<p>
+							 Download Latest Build
+						</p>
+					</div>
+				</div>
+			</div>
+			</a>
+			<!-- End -->
 		</div>
-		<!-- End -->
-		<?php include 'lib/module/ui-footer.php';?>
-		<!-- End -->
 	</div>
-	</body>
-	</html>
+<!-- End -->
+	<?php include 'lib/module/ui-footer.php';?>
+<!-- End -->
+</div>
+</body>
+</html>

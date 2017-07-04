@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>RPCS3 - Alipay</title>
+<meta charset="UTF-8">
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
+<meta name="keywords" content=" ">
+<meta name="robots" content="noindex, nofollow">
+<meta name="author" content="RPCS3">
+<meta name="copyright" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
+<?php include 'lib/module/call-meta.php';?>
+</head>
+<?php include 'lib/module/call-sys.php';?>
+<body style="background-image: url(/img/panels/donate.jpg); background-repeat: no-repeat; background-size: cover; height: 100%; background-attachment: fixed; background-position: center; position: absolute;">
+<?php include 'lib/module/call-php.php';?>
+<div id="page-con-content">
+	<div id='menu-con-dim'>
+		<a href='/img/icons/donate/alipay-qr.png' target="_blank">
+		<div id='donate-qrc-alipay'>
+		</div>
+		</a>
+		<div id='donate-con-footer'>
+			 © Copyright 2004-2017 Alipay. All rights reserved.
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -103,17 +103,6 @@ $(document).ready(function() {
         $(".toggle-menu").fadeOut(100);
     });
 });
-/* Handles Alipay toggle */
-$(document).ready(function() {
-    $(".toggle-alipay").hide();
-    $(".trigger-alipay").click(function() {
-        $(".toggle-alipay").fadeToggle(100);
-    });
-    $(".toggle-alipay").hide();
-    $(".toggle-alipay").click(function() {
-        $(".toggle-alipay").fadeOut(100);
-    });
-});
 /* Handles blog sidebar toggle */
 $(document).ready(function() {
     $(".toggle-bloglinks").hide();

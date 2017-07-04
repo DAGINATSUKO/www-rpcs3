@@ -7,7 +7,7 @@ $(document).ready(function() {
 </script>
 <div id='video-con-dim' class='stop-video toggle-video-1'>
 	<div id='video-con-viewport' class='video-con-scale'>
-		<iframe id='video-1' data-src="https://www.youtube.com/embed/BtRfMSYtYsE?start=4&autoplay=1&cc_load_policy=1&enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%" src="about:blank">
+		<iframe id='video-1' data-src="https://www.youtube.com/embed/BtRfMSYtYsE?start=1&autoplay=1&cc_load_policy=1&enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%" src="about:blank">
 		</iframe>
 	</div>
 </div>
