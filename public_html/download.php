@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<!-- End -->
-			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/build/<?php echo getLatestWindowsBuild()[0]; ?>/artifacts' target="_blank">
+			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/build/<?php echo getlatestwindowsbuild()[0]; ?>/artifacts' target="_blank"> 
 			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
 			<div id='featured-con-button' class="div-download-left">
 				<div id='featured-wrp-button' style="width: 244px; margin: 0 -122px;">
@@ -59,10 +59,12 @@
 					</div>
 					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
 						<p>
-							Download for Windows 
+							 Download for Windows
 						</p>
 						<p style="font-size:12px;">
-							v<?php echo getLatestWindowsBuild()[0]; ?> Alpha [<?php echo getLatestWindowsBuild()[1]; ?>]
+							 v<?php echo getLatestWindowsBuild()[0]; ?>
+							 Alpha [<?php echo getLatestWindowsBuild()[1]; ?>
+							]
 						</p>
 					</div>
 				</div>
@@ -76,10 +78,10 @@
 					</div>
 					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
 						<p>
-							Download for Linux
+							 Download for Linux
 						</p>
 						<p style="font-size:12px;">
-							Automatic builds coming soon <?php // echo getLatestLinuxBuild()[1]; ?>
+							 Automatic builds coming soon <?php // echo getLatestLinuxBuild()[1]; ?>
 						</p>
 					</div>
 				</div>
@@ -114,28 +116,26 @@
 			</a>
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading">
-				<h2>Documentation and Press</h2>
+				<h2>Documentation, Press and Website Source</h2>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Developer Documentation</h2>
+						<h2>Documentation and Press</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 All information found in this archive was obtained by collecting and reviewing data from various sources on the internet. These sources include but are not limited to Sony Computer Entertainment, IBM Corporation and NVIDIA corporation. This documentation covers hardware and some software aspects of the PlayStation 3.<br>
+							 All information found in this archive was obtained by collecting and reviewing data from various sources on the internet. These sources include but are not limited to Sony Computer Entertainment, IBM Corporation and NVIDIA corporation. This documentation covers hardware and some software aspects of the PlayStation 3. <br>
 							<br>
-							<p>
-								 Last updated on June 5th, 2017
-							</p>
+							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to high quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
 			<a href='/cdn/docs/Docs.zip' download>
-			<div id='featured-con-button'>
+			<div id='featured-con-button' class="div-download-left">
 				<div id='featured-wrp-button' style="width: 212px; margin: 0 -106px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/documentation.png') no-repeat center; background-size: 16px;">
 					</div>
@@ -148,25 +148,8 @@
 			</div>
 			</a>
 			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2> Download Press Kit</h2>
-					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to UHD-quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.<br>
-							<br>
-							<p>
-								 Last updated on June 5th, 2017
-							</p>
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
 			<a href='/cdn/press/Press Kit.zip' download>
-			<div id='featured-con-button'>
+			<div id='featured-con-button' class="div-download-right">
 				<div id='featured-wrp-button' style="width: 172px; margin: 0 -86px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/presskit.png') no-repeat center; background-size: 16px;">
 					</div>
@@ -179,18 +162,15 @@
 			</div>
 			</a>
 			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading">
-				<h2>Website Codebase</h2>
-			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Website Source Code</h2>
+						<h2>Website Source</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 This website was developed by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>. The compatibility portion of this website is developed independently by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>. This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to us and are properties of their respective owners. 
+							 This website was developed by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>. The compatibility portion of this website is developed independently by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>. This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to us and are properties of their respective owners.
 						</p>
 					</div>
 				</div>
@@ -226,9 +206,9 @@
 			<!-- End -->
 		</div>
 	</div>
-<!-- End -->
+	<!-- End -->
 	<?php include 'lib/module/ui-footer.php';?>
-<!-- End -->
+	<!-- End -->
 </div>
 </body>
 </html>
