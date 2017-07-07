@@ -22,3 +22,4 @@
 <meta name="twitter:title" content="RPCS3 Sony PlayStation 3 Emulator"/>
 <meta name="twitter:image" content="https://rpcs3.net/img/icons/meta/appicon-152.png"/>
 <meta name="twitter:description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux."/>
+<script src="https://widget.battleforthenet.com/widget.js" async></script>

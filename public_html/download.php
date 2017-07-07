@@ -13,7 +13,7 @@
 </head>
 <body>
 <?php include 'lib/module/call-php.php';?>
-<?php include 'lib/compat/functions.php';?>
+<?php include 'lib/compat/utils.php';?>
 <div id="page-con-content">
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
@@ -127,7 +127,7 @@
 							 All information found in this archive was obtained by collecting and reviewing data from various sources on the internet. These sources include but are not limited to Sony Computer Entertainment, IBM Corporation and NVIDIA corporation. This documentation covers hardware and some software aspects of the PlayStation 3.<br>
 							<br>
 							<p>
-								 Last updated on April 9th, 2017
+								 Last updated on June 5th, 2017
 							</p>
 						</p>
 					</div>
@@ -158,7 +158,7 @@
 							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to UHD-quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.<br>
 							<br>
 							<p>
-								 Last updated on May 6th, 2017
+								 Last updated on June 5th, 2017
 							</p>
 						</p>
 					</div>
