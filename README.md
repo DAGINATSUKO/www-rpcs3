@@ -8,9 +8,6 @@ The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
 
-## Copyright
-This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to me and are properties of their respective owners. This website is in no way affiliated with said companies or trademarks. This website’s only intention is to spread the word and endorse the content displayed.
-
 ## Independencies
 The RPCS3.net [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile") allows users to sort listed games by status, first character, region, last update date or by typing the games ID or title in the searchbox as well as order listed games by ID, Title, commit, status or last update date both asynchronously and desynchronously. Users won't have to search exactly by a game's title to find it in the database.
 
@@ -41,11 +38,8 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Opera Software Opera](http://www.opera.com/)
 
-## Website Deployment
-Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly.
-
-## Compat Deployment
-Simply place files inside the lib/compat directory inside the website's source code.
+## Deployment
+Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly. For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion of the website, simply place files inside the lib/compat directory inside the website's source code.
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
