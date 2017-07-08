@@ -30,11 +30,25 @@
 			</div>
 		</div>
 	</div>
+	<!-- End -->
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading">
 				<h2>System Requirements</h2>
+			</div>
+			<!-- End -->
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>System Requirements</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 The system requirements for running the emulator have not been finalized and are subject to change during development. We do however have a set of minimum system requirements that must be met for the emulator to function properly on any system. Please note that these are the bare minimum system specifications and the emulator will not function otherwise.
+						</p>
+					</div>
+				</div>
 			</div>
 			<!-- End -->
 			<?php include 'lib/module/block-requirements.php';?>

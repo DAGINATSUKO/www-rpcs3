@@ -145,6 +145,7 @@
 #menu-btn-select {
 	font-family:arial;
 	font-size:14px;
+	font-weight: bold;
 	line-height:60px;
 	position:relative;
 	top:0;
@@ -166,6 +167,7 @@
 #menu-tx1-support {
 	font-family:arial;
 	font-size:14px;
+	font-weight: bold;
 	line-height:60px;
 	position:absolute;
 	right:40px;
