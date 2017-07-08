@@ -223,7 +223,8 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-con-footer {
 	font-family:arial;
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: bold;
 	line-height: 62px;
 	position:absolute;
 	bottom:0;
