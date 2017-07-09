@@ -145,7 +145,6 @@
 #menu-btn-select {
 	font-family:arial;
 	font-size:14px;
-	font-weight: bold;
 	line-height:60px;
 	position:relative;
 	top:0;
@@ -167,7 +166,6 @@
 #menu-tx1-support {
 	font-family:arial;
 	font-size:14px;
-	font-weight: bold;
 	line-height:60px;
 	position:absolute;
 	right:40px;
@@ -189,7 +187,7 @@
 	top:0;
 	display:inline-block;
 	float:right;
-	width: 116px;
+	width: 140px;
 	height:60px;
 	cursor:pointer;
 	transition:.1s ease-in-out;
@@ -223,8 +221,7 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-con-footer {
 	font-family:arial;
-	font-size: 14px;
-	font-weight: bold;
+	font-size: 12px;
 	line-height: 62px;
 	position:absolute;
 	bottom:0;

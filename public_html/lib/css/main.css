@@ -64,8 +64,7 @@
 }
 #footer-tx1-credits {
 	font-family:arial;
-	font-size: 14px;
-	font-weight: bold;
+	font-size: 12px;
 	line-height: 62px;
 	position:absolute;
 	left:0;
@@ -76,8 +75,7 @@
 }
 #footer-tx2-credits {
 	font-family:arial;
-	font-size: 14px;
-	font-weight: bold;
+	font-size: 12px;
 	line-height: 62px;
 	position:absolute;
 	right:0;
