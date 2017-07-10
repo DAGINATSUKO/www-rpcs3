@@ -3,7 +3,7 @@ Official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
 
-The "PlayStation logo", "PlayStation 3 logo", "PlayStation 4 logo", "PlayStation Portable logo", "PlayStation Vita logo", "PlayStation Move logo", "PlayStation Network logo", "PlayStation Store logo", "PlayStation Plus logo", "Sony logo" and "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. All rights reserved.
+The "PlayStation logo", "PlayStation 3 logo", "PlayStation 4 logo", "PlayStation Portable logo", "PlayStation Vita logo", "PlayStation Move logo", "PlayStation Network logo", "PlayStation Store logo", "PlayStation Plus logo", "Sony logo" and "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. "Sony Entertainment Network" is a trademark of Sony Corporation. Library programs are copyright Sony Interactive Entertainment Inc.
 
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
