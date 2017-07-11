@@ -13,6 +13,7 @@
 </head>
 <body>
 <?php include 'lib/module/call-php.php';?>
+<?php include 'lib/module/ui-sidebar-quickstart.php';?>
 <div id="page-con-content">
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
@@ -39,6 +40,8 @@
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="requirements">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2>System Requirements</h2>
@@ -58,13 +61,15 @@
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="updating">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>How do I update RPCS3 when a new build is released?</h2>
+						<h2>Updating RPCS3</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 To update RPCS3, all you need to do is drag and drop the <b>executable</b> to the root directory of your RPCS3 installation. Moving over additional files and folders is not necessary and may overwrite your user settings.
+							 To update RPCS3, all you need to do is drag and drop the <b class="txt-highlight">executable file</b> to the root directory of your RPCS3 installation. Moving over additional files and folders is not necessary and may overwrite your user settings.
 						</p>
 					</div>
 				</div>
@@ -75,34 +80,43 @@
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="firmware">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>How can I obtain and install PlayStation 3 firmware files?</h2>
+						<h2>Installing PlayStation 3 firmware files</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in firmware installer found under Boot > Install Firmware. The files will then be installed and then correctly placed in their appropriate directories.
+							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in firmware installer found under <b class="txt-highlight">File > Install Firmware.</b> The files will then be installed and then correctly placed in their appropriate directories.
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="module_selection">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						</h2>
-						 How do I know which firmware modules to use?</h2>
+						<h2>Firmware module selection</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
+							 Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
 						</p>
 						<br>
 						<p>
-							<b>Automatically load required libraries:</b> Loads all required modules at once from a list. Recommended option that works with most games, but may not work with some that only work on Load liblv2.sprx only.
+							<b class="txt-highlight">Automatically load required libraries:</b> Automatically loads all required modules in game executable. This is the recommended option that works in most cases.
 						</p>
 						<p>
-							<b>Load liblv2.sprx only:</b> Loads modules dynamically, more closely to what a PlayStation 3 would do. Some games may not work properly with this option yet.
+							<b class="txt-highlight">Manually load selected libraries:</b> Allows the user to manually load selected firmware modules.
+						</p>
+						<p>
+							<b class="txt-highlight">Load automatic and manual libraries:</b> Automatically loads all required modules and allows the user to manually load selected firmware modules at the same time.
+						</p>
+						<p>
+							<b class="txt-highlight">Load liblv2.sprx only:</b> Loads modules dynamically, more closely to what a PlayStation 3 would do. Some games may not work properly with this option yet.
 						</p>
 					</div>
 				</div>
@@ -113,13 +127,15 @@
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="manage_files">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Where do I manage my PlayStation 3 save data?</h2>
+						<h2>Managing Save Data</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 • PlayStation 3 save data files can be managed in: <b>\dev_hdd0\home\00000001\savedata\</b>
+							 • PlayStation 3 save data files can be managed in: <b class="txt-highlight">\dev_hdd0\home\00000001\savedata\</b>
 						</p>
 						<p>
 							 • Please note that save data is stored in folders that correspond to your game's ID.
@@ -129,24 +145,26 @@
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="manage_games">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Managing PlayStation 3 games and software</h2>
+						<h2>Managing games and software</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Again, due to copyright and obvious legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console (Both disc and PSN games) or from your computer using a compatible Blu-Ray drive (Disc games only).
+							 Again, due to copyright and obvious legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console (Both disc and PSN games) or from your computer using a compatible Blu-ray drive (Disc games only).
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <b>Blu-ray Disc</b> game's root directory:
+							 The typical layout of a <b class="txt-highlight">Blu-ray Disc</b> game's root directory:
 						</p>
 						<p>
 							 • PS3_GAME folder (required), PS3_DISC.sfb (required), PS3_UPDATE folder (not required)
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <b>PlayStation Network </b> game's root directory:
+							 The typical layout of a <b class="txt-highlight">PlayStation Network </b> game's root directory:
 						</p>
 						<p>
 							 • TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc
@@ -157,10 +175,10 @@
 						</p>
 						<br>
 						<p>
-							 • For example: <b>BCUS00000</b> is a USA <b>Blu-ray Disc</b> game
+							 • For example: <b class="txt-highlight">BCUS00000</b> is a USA <b class="txt-highlight">Blu-ray Disc</b> game
 						</p>
 						<p>
-							 • For example: <b>NPUA00000</b> is a USA <b>PlayStation Network</b> game
+							 • For example: <b class="txt-highlight">NPUA00000</b> is a USA <b class="txt-highlight">PlayStation Network</b> game
 						</p>
 						<br>
 						<p>
@@ -168,10 +186,10 @@
 						</p>
 						<br>
 						<p>
-							 • For example: <b>BCUS98233</b> is a USA Blu-ray Disc copy of <b>Uncharted 3</b>
+							 • For example: <b class="txt-highlight">BCUS98233</b> is a USA Blu-ray Disc copy of <b class="txt-highlight">Uncharted 3</b>
 						</p>
 						<p>
-							 • For example: <b>NPUA80472</b> is a USA PlayStation Network copy of <b>LittleBigPlanet</b>
+							 • For example: <b class="txt-highlight">NPUA80472</b> is a USA PlayStation Network copy of <b class="txt-highlight">LittleBigPlanet</b>
 						</p>
 					</div>
 				</div>
@@ -182,51 +200,57 @@
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="install_games">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Where do I place PlayStation 3 game and software files?</h2>
+						<h2>Installing games and software</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 • .pkg files must be extracted using RPCS3's built in 'Install .pkg' option.
+							 • .pkg files must be extracted using RPCS3's built-in package installer found under <b class="txt-highlight">File > Install .pkg</b>
 						</p>
 						<p>
-							 • .pkg files will be automatically installed to: <b>\dev_hdd0\game\</b>
+							 • .pkg files will be automatically installed to: <b class="txt-highlight">\dev_hdd0\game\</b>
 						</p>
 						<p>
-							 • Blu-ray Disc game data can be placed anywhere <b>EXCEPT</b> for <b>\dev_hdd0\game\</b> and must be booted with 'Boot Game'.
+							 • Blu-ray Disc game data can be placed anywhere <b class="txt-highlight">EXCEPT</b> for <b class="txt-highlight">\dev_hdd0\game\</b> and must be booted from <b class="txt-highlight">File > Boot Game</b>.
 						</p>
 						<p>
-							 • PlayStation Network game data must be placed in: <b>\dev_hdd0\game\</b>
+							 • PlayStation Network game data must be placed in: <b class="txt-highlight">\dev_hdd0\game\</b>
 						</p>
 						<p>
-							 • PlayStation Network .rap files must be placed in: <b>\dev_hdd0\home\00000001\exdata\</b>
+							 • PlayStation Network .rap files must be placed in: <b class="txt-highlight">\dev_hdd0\home\00000001\exdata\</b>
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="install_updates">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>How do I apply PlayStation 3 game and software updates?</h2>
+						<h2>Installing games and software updates</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built in 'Install .pkg' option. The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
+							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built-in package installer found under <b class="txt-highlight">File > Install .pkg</b> The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading">
+			<div id="featured-tx1-heading" class="div-heading ">
 				<h2>Obtaining Games</h2>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="obtaining_games">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Where do I get PlayStation 3 games and software?</h2>
+						<h2>Obtaining games and software</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -238,50 +262,52 @@
 						</p>
 						<br>
 						<p>
-							 • ASUS <b>BC-12B1ST</b>
+							 • ASUS <b class="txt-highlight">BC-12B1ST</b>
 						</p>
 						<p>
-							 • ASUS <b>BC-12D2HT</b>
+							 • ASUS <b class="txt-highlight">BC-12D2HT</b>
 						</p>
 						<p>
-							 • ASUS <b>BW-16D1HT</b>
+							 • ASUS <b class="txt-highlight">BW-16D1HT</b>
 						</p>
 						<p>
-							 • BENQ <b>BR1000</b>
+							 • BENQ <b class="txt-highlight">BR1000</b>
 						</p>
 						<p>
-							 • Lite-ON <b>DH-4O1S</b>
+							 • Lite-ON <b class="txt-highlight">DH-4O1S</b>
 						</p>
 						<p>
-							 • LG BD <b>Bh24NS40</b>
+							 • LG BD <b class="txt-highlight">Bh24NS40</b>
 						</p>
 						<p>
-							 • LG BD <b>Bh26NS40</b>
+							 • LG BD <b class="txt-highlight">Bh26NS40</b>
 						</p>
 						<p>
-							 • LG BD <b>Uh12NS30</b>
+							 • LG BD <b class="txt-highlight">Uh12NS30</b>
 						</p>
 						<p>
-							 • LG BD <b>Wh24NS40</b>
+							 • LG BD <b class="txt-highlight">Wh24NS40</b>
 						</p>
 						<p>
-							 • LG BD-RE <b>Wh26NS40</b>
+							 • LG BD-RE <b class="txt-highlight">Wh26NS40</b>
 						</p>
 						<p>
-							 • Sony Optiarc BD <b>5300S</b>
+							 • Sony Optiarc BD <b class="txt-highlight">5300S</b>
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block'>
+				<div class="div-anchor" id="dumping_games">
+				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>How do I dump PlayStation 3 games and software?</h2>
+						<h2>Dumping games and software</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You will need two different tools for dumping PlayStation 3 game discs from a computer, using a Blu-ray drive:
+							 You will need two different tools for dumping PlayStation 3 game discs from a computer using a Blu-ray drive:
 						</p>
 						<br>
 						<p>
@@ -302,206 +328,273 @@
 						</p>
 						<p>
 							 4. Be sure to check game ID in case of different game editions. You need to use the file for the exact game ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
-						<p>
-							 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
-						</p>
-						<p>
-							 6. Press Patch to apply the patch to the .iso file.
-						</p>
-						<p>
-							 7. Open 3k3y ISO Tools and decrypt the .iso file.
-						</p>
-						<p>
-							 8. Your game should now be properly decrypted.
-						</p>
-						<p>
-							 9. You must now extract your decrypted .iso file for use with RPCS3.
-						</p>
+							<p>
+								 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
+							</p>
+							<p>
+								 6. Press Patch to apply the patch to the .iso file.
+							</p>
+							<p>
+								 7. Open 3k3y ISO Tools and decrypt the .iso file.
+							</p>
+							<p>
+								 8. Your game should now be properly decrypted.
+							</p>
+							<p>
+								 9. You must now extract your decrypted .iso file for use with RPCS3.
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading">
-				<h2>Configuring RPCS3</h2>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>Core settings</h2>
+				<!-- End -->
+				<div id="featured-tx1-heading" class="div-heading">
+					<h2>Configuring RPCS3</h2>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block'>
+					<div class="div-anchor" id="cpu_settings">
 					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							<b>PPU Interpreter (Precise)</b><br>
-							 Currently not available. Will provide more accurate real-time PPU emulation, at the cost of speed.
-						</p>
-						<br>
-						<p>
-							<b>PPU Interpreter (Fast)</b><br>
-							 Provides fast real-time PPU emulation but is less accurate.
-						</p>
-						<br>
-						<p>
-							<b>PPU Recompiler (LLVM)</b><br>
-							 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides both the fastest and most accurate PPU emulation.
-						</p>
-						<br>
-						<p>
-							<b>SPU Interpreter (Precise)</b><br>
-							 Provides more accurate real-time emulation for SPU cores, but is a lot slower.
-						</p>
-						<br>
-						<p>
-							<b>SPU Interpreter (Fast)</b><br>
-							 Provides fast real-time SPU emulation, but is less accurate.
-						</p>
-						<br>
-						<p>
-							<b>SPU Recompiler (ASMJIT)</b><br>
-							 Provides faster real-time SPU emulation with balanced speed and accuracy.
-						</p>
+					<div id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>CPU settings</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								<b>PPU Interpreter (Precise)</b><br>
+								 Currently not available. Will provide more accurate real-time PPU emulation, at the cost of speed.
+							</p>
+							<br>
+							<p>
+								<b>PPU Interpreter (Fast)</b><br>
+								 Provides fast real-time PPU emulation but is less accurate.
+							</p>
+							<br>
+							<p>
+								<b>PPU Recompiler (LLVM)</b><br>
+								 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides both the fastest and most accurate PPU emulation.
+							</p>
+							<br>
+							<p>
+								<b>SPU Interpreter (Precise)</b><br>
+								 Provides more accurate real-time emulation for SPU cores, but is a lot slower.
+							</p>
+							<br>
+							<p>
+								<b>SPU Interpreter (Fast)</b><br>
+								 Provides fast real-time SPU emulation, but is less accurate.
+							</p>
+							<br>
+							<p>
+								<b>SPU Recompiler (ASMJIT)</b><br>
+								 Provides faster real-time SPU emulation with balanced speed and accuracy.
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>Graphics settings</h2>
+				<!-- End -->
+				<div id='featured-con-block'>
+					<div class="div-anchor" id="gpu_settings">
 					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							<b>Render</b><br>
-							 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (DirectX 12) is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
-						</p>
-						<br>
-						<p>
-							<b>Resolution</b><br>
-							 Allows you to set the native rendering resolution for the emulated console. Optimal resolutions for testing are 1920x1080 and 1280x720. Not all games will render at 1080p because a real PlayStation 3 doesn't support this resolution on all games.
-						</p>
-						<br>
-						<p>
-							<b>Graphics Device</b><br>
-							 Allows you to select your preferred D3D12 or VK device when using either the DirectX 12 or Vulkan graphics APIs.
-						</p>
-						<br>
-						<p>
-							<b>Aspect Ratio</b><br>
-							 Defines the aspect ratio of the the emulated console.
-						</p>
-						<br>
-						<p>
-							<b>Frame Limit</b><br>
-							 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
-						</p>
-						<br>
-						<p>
-							<b>Read/Write and Color/Depth Buffers</b><br>
-							 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color Buffers options.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>Audio settings</h2>
-					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							<b>Audio Out</b><br>
-							 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows-only) and ALSA (Linux-only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA should always be used on Linux systems.
-						</p>
-						<br>
-						<p>
-							 If you run into any issues with either audio backends, set the output to Null. This will disable all audio for the emulator.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>Input/Output settings</h2>
-					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							<b>Pad Handler</b><br>
-							 Allows you to select which handler you want to drive your controller's inputs.
-						</p>
-						<br>
-						<p>
-							<b>Keyboard Handler</b><br>
-							 Allows you to select which device you want to register emulated console keyboard inputs.
-						</p>
-						<br>
-						<p>
-							<b>Mouse Handler</b><br>
-							 Allows you to select which device you want to register emulated console mouse inputs and movement.
-						</p>
-						<br>
-						<p>
-							<b>Camera</b><br>
-							 Allows you to spoof or disable PlayStation 3 compatible cameras.
-						</p>
-						<br>
-						<p>
-							<b>Camera Type</b><br>
-							 Allows you to select which device you want to input emulated console camera video/audio.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>Networking settings</h2>
-					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							<b>Connection status</b><br>
-							 Allows you to spoof an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
-						</p>
+					<div id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>GPU settings</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								<b>Renderer</b><br>
+								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (DirectX 12) is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+							</p>
+							<br>
+							<p>
+								<b>Resolution</b><br>
+								 Allows you to set the native rendering resolution for the emulated console. Optimal resolutions for testing are 1920x1080 and 1280x720. Not all games will render at 1080p because a real PlayStation 3 doesn't support this resolution on all games.
+							</p>
+							<br>
+							<p>
+								<b>Graphics Device</b><br>
+								 Allows you to select your preferred D3D12 or VK device when using either the DirectX 12 or Vulkan graphics APIs.
+							</p>
+							<br>
+							<p>
+								<b>Aspect Ratio</b><br>
+								 Defines the aspect ratio of the the emulated console.
+							</p>
+							<br>
+							<p>
+								<b>Frame Limit</b><br>
+								 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
+							</p>
+							<br>
+							<p>
+								<b>Read/Write Color buffers</b><br>
+								 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color buffers options.
+							</p>
+							<br>
+							<p>
+								<b>Read/Write Depth buffers</b><br>
+								 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color buffers options.
+							</p>
+							<br>
+							<p>
+								<b>Invalidate cache every frame</b><br>
+								 Helps improve the way shadows are handled by very select few games. Only enable this option unless absolutely necessary.
+							</p>
+							<br>
+							<p>
+								<b>Use GPU texture scaling</b><br>
+								 Improves performance slightly by scaling textures appropriately and works for most games. In rare cases, this option may cause texture corruption.
+							</p>
+							<br>
+							<p>
+								<b>Use vertical sync</b><br>
+								 Improves image quality by keeping framerate consistent. Disabling may cause screen tearing but may also improve performance in some cases.
+							</p>
+							<br>
+							<p>
+								<b>Stretch to display area</b><br>
+								 Overrides aspect ratio and stretches the image to full display area.
+							</p>
+							<br>
+							<p>
+								<b>Debug - Use legacy OpenGL buffers</b><br>
+								 Enables legacy OpenGL buffers to work, allowing classic capture tools to work with RPCS3.
+							</p>
+							<br>
+							<p>
+								<b>Debug - Debug Output</b><br>
+								 Enables the selected API's built-in debugging functionality. This causes serious performance degradation and should only be used by developers.
+							</p>
+							<br>
+							<p>
+								<b>Debug - Overlay</b><br>
+								 Provides a graphical overlay with debugging information and should only be used by developers.
+							</p>
+							<br>
+							<p>
+								<b>Debug - Strict Rendering mode</b><br>
+								 Enforces strict compliance with the selected rendering API. This causes serious performance degradation and should only be used by developers.
+							</p>
+							<br>
+							<p>
+								<b>Debug - Log shader programs</b><br>
+								 Dumps game shaders to a file. This may cause performance degradation and should only be used by developers.
+							</p>
+							<br>
+							<p>
+								<b>Debug - Use high-precision z-buffer</b><br>
+								 Useful for debugging differences in GPU hardware. This may cause performance degradation and should only be used by developers.
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block'>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block'>
-						<h2>System settings</h2>
+				<!-- End -->
+				<div id='featured-con-block'>
+					<div class="div-anchor" id="audio_settings">
 					</div>
-					<div id='featured-tx2-block'>
-						<p>
-							<b>Language</b><br>
-							 Allows you to change the internal system language of the emulated console. In some rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<a href='/download'>
-			<div id='featured-con-button'>
-				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Download Latest Build
-						</p>
+					<div id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>Audio settings</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								<b>Audio Out</b><br>
+								 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows-only) and ALSA (Linux-only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA should always be used on Linux systems.
+							</p>
+							<br>
+							<p>
+								 If you run into any issues with either audio backends, set the output to Null. This will disable all audio for the emulator.
+							</p>
+						</div>
 					</div>
 				</div>
+				<!-- End -->
+				<div id='featured-con-block'>
+					<div class="div-anchor" id="input_settings">
+					</div>
+					<div id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>Input/Output settings</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								<b>Pad Handler</b><br>
+								 Allows you to select which handler you want to drive your controller's inputs.
+							</p>
+							<br>
+							<p>
+								<b>Keyboard Handler</b><br>
+								 Allows you to select which device you want to register emulated console keyboard inputs.
+							</p>
+							<br>
+							<p>
+								<b>Mouse Handler</b><br>
+								 Allows you to select which device you want to register emulated console mouse inputs and movement.
+							</p>
+							<br>
+							<p>
+								<b>Camera</b><br>
+								 Allows you to spoof or disable PlayStation 3 compatible cameras.
+							</p>
+							<br>
+							<p>
+								<b>Camera Type</b><br>
+								 Allows you to select which device you want to input emulated console camera video/audio.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block'>
+					<div class="div-anchor" id="network_settings">
+					</div>
+					<div id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>Networking settings</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								<b>Connection status</b><br>
+								 Allows you to spoof an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block'>
+					<div class="div-anchor" id="system_settings">
+					</div>
+					<div id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>System settings</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								<b>Language</b><br>
+								 Allows you to change the internal system language of the emulated console. In some rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<a href='/download'>
+				<div id='featured-con-button'>
+					<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
+						<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
+						</div>
+						<div id='featured-tx1-button'>
+							<p>
+								 Download Latest Build
+							</p>
+						</div>
+					</div>
+				</div>
+				</a>
+				<!-- End -->
 			</div>
-			</a>
-			<!-- End -->
 		</div>
+		<!-- End -->
+		<?php include 'lib/module/ui-footer.php';?>
+		<!-- End -->
 	</div>
-<!-- End -->
-	<?php include 'lib/module/ui-footer.php';?>
-<!-- End -->
-</div>
-</body>
-</html>
+	</body>
+	</html>

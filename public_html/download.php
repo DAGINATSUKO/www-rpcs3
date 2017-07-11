@@ -53,7 +53,7 @@
 			<!-- End -->
 			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/build/<?php echo getlatestwindowsbuild()[0]; ?>/artifacts' target="_blank"> 
 			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
-			<div id='featured-con-button' class="div-download div-download-left">
+			<div id='featured-con-button' class="div-download-left">
 				<div id='featured-wrp-button' style="width: 244px; margin: 0 -122px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/windows.png') no-repeat center; background-size: 20px;">
 					</div>
@@ -72,7 +72,7 @@
 			</a>
 			<!-- End -->
 			<a href='https://github.com/RPCS3/rpcs3/releases' target="_blank">
-			<div id='featured-con-button' class="div-download div-download-right div-button-disabled">
+			<div id='featured-con-button' class="div-download-right div-button-disabled">
 				<div id='featured-wrp-button' style="width: 264px; margin: 0 -122px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/linux.png') no-repeat center; background-size: 20px;">
 					</div>
@@ -135,7 +135,7 @@
 			</div>
 			<!-- End -->
 			<a href='/cdn/docs/Docs.zip' download>
-			<div id='featured-con-button' class="div-download div-download-left">
+			<div id='featured-con-button' class="div-download-left">
 				<div id='featured-wrp-button' style="width: 212px; margin: 0 -106px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/documentation.png') no-repeat center; background-size: 16px;">
 					</div>
@@ -149,7 +149,7 @@
 			</a>
 			<!-- End -->
 			<a href='/cdn/press/Press Kit.zip' download>
-			<div id='featured-con-button' class="div-download div-download-right">
+			<div id='featured-con-button' class="div-download-right">
 				<div id='featured-wrp-button' style="width: 172px; margin: 0 -86px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/presskit.png') no-repeat center; background-size: 16px;">
 					</div>
@@ -177,7 +177,7 @@
 			</div>
 			<!-- End -->
 			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
-			<div id='featured-con-button' class="div-download div-download-left">
+			<div id='featured-con-button' class="div-download-left">
 				<div id='featured-wrp-button' style="width: 150px; margin: 0 -75px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
 					</div>
@@ -191,7 +191,7 @@
 			</a>
 			<!-- End -->
 			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
-			<div id='featured-con-button' class="div-download div-download-right">
+			<div id='featured-con-button' class="div-download-right">
 				<div id='featured-wrp-button' style="width: 180px; margin: 0 -90px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
 					</div>

@@ -49,6 +49,16 @@ $(window).scroll(function() {
     }
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles anchor links */
+$(document).ready(function() {
+    $('a[rel="anchor"]').click(function() {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+        return false;
+    });
+});
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles all submenu rollovers */
 $(document).ready(function() {
     $(function() {
@@ -106,12 +116,20 @@ $(document).ready(function() {
 /* Handles blog sidebar toggle */
 $(document).ready(function() {
     $(".toggle-bloglinks").hide();
-    $("#bloglinks-btn-open").click(function() {
+    $(".nav-blog").click(function() {
         $(".toggle-bloglinks").fadeToggle(100);
     });
     $(".toggle-bloglinks").hide();
     $(".toggle-bloglinks").click(function() {
         $(".toggle-bloglinks").fadeOut(100);
+    });
+});
+$(document).ready(function() {
+    $(".nav-standard").click(function() {
+        $(".toggle-navsidebar").fadeToggle(100);
+    });
+    $(".toggle-navsidebar").click(function() {
+        $(".toggle-navsidebar").fadeOut(100);
     });
 });
 /*--------------------------------------------------------------------------------------------------------------------------------------*/

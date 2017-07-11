@@ -36,7 +36,7 @@ echo "<li id='featured-con-grid' class='page-flx-item'>
 	<div id='featured-btn-play' class=\"page-video-$id\">
 	</div>
 </div>
-<div id='featured-con-block'>
+<div id='featured-con-block' style='border-bottom: none !important;'>
 	<div id='featured-wrp-block' style='padding-bottom: 0px !important'>
 		<div id='featured-tx1-block'>
 			<h1 class=\"feature-$id-title\">Title</h1>

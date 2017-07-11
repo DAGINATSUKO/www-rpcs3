@@ -433,7 +433,6 @@
 	overflow:hidden;
 	width:100%;
 	height: 200px;
-	margin-top: -24px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featured-con-author {
@@ -608,6 +607,7 @@
 	min-height:35px;
 	margin-bottom:20px;
 	background:#fff;
+	border-bottom: 1px solid #e4e4e4;
 }
 #featured-wrp-block {
 	position:relative;
@@ -779,7 +779,15 @@
 	width:46px;
 	height:46px;
 	background:url('/img/icons/list/featured.png') no-repeat center;
-	background-size: 8px;
+	background-size: 12px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.txt-highlight {
+	background: #f5f5f5;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-con-panel-min {
@@ -801,7 +809,7 @@
 	line-height:60px !important;
 	left:60px !important;
 	height:60px !important;
-	color: #5e32eb !important;
+	color: #5e5e5e !important;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-panel-left {
@@ -817,6 +825,7 @@
 	overflow:visible !important;
 	min-height:114px !important;
 	margin-bottom:1px !important;
+	border-bottom: none !important;
 }
 .div-member-con {
 	margin-bottom:20px !important;
@@ -895,33 +904,6 @@
 	margin-left: 1%;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-.div-pagecounter {
-	font-size:12px;
-}
-.div-pagecounter a {
-	font-size:12px;
-	line-height:42px;
-	position:relative;
-	padding-top:8px;
-	padding-right:8px;
-	padding-bottom:8px;
-	padding-left:8px;
-	color:#06c;
-}
-.div-pagecounter a:hover {
-	position:relative;
-	width:22px;
-	text-decoration:none;
-	color:#fff;
-	background: #06c;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-.div-standalone {
-	margin-bottom:20px !important;
-}
-.div-download {
-	background:#00b300 !important;
-}
 .div-hidden {
 	display:none !important;
 }

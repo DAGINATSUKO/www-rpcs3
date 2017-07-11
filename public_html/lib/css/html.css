@@ -92,6 +92,9 @@ table {
 	border-collapse:collapse;
 	color: #fff;
 }
+tr:last-child {
+    border-bottom: 1px solid #e4e4e4;
+}
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 tr {
 	background:#fff;
