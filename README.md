@@ -1,3 +1,5 @@
+![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
+
 ## RPCS3.net
 Official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
