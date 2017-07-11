@@ -38,36 +38,36 @@
 }
 @media screen and (max-width:1115px) {
 	.div-video-right {
-		float:none !important;
+		float: none !important;
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1215px) {
-	.page-flx-container  {
-		-webkit-justify-content: space-around !important;
+	.page-flx-container {
+		-webkit-justify-content:space-around !important;
 		justify-content: space-around !important;
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1100px) {
-	#menu-con-support  {
+	#menu-con-support {
 		display:none !important;
 	}
 }
 @media screen and (max-width:1120px) {
 	#bulletin-btn-open {
-		top: 60px !important;
-		width: 100% !important;
-		height: 60px !important;
-		margin: 0px !important;
-		background: #fff url(/img/icons/menu/bulletin.png) no-repeat center !important;
-		background-size: 20px !important;
-		display: none;
-		}
+		top:60px !important;
+		display:none;
+		width:100% !important;
+		height:60px !important;
+		margin:0 !important;
+		background:#fff url(/img/icons/menu/bulletin.png) no-repeat center !important;
+		background-size:20px !important;
+	}
 }
 @media screen and (max-width:1120px) {
 	#bulletin-btn-open:hover {
 		background:#002556 url('/img/icons/menu/bulletin-h.png') no-repeat center !important;
 		background-size: 20px !important;
-		}
+	}
 }

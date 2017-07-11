@@ -14,7 +14,10 @@
 		</div>
 		<div id='footer-tx2-credits'>
 			<p>
-				Website developed by <a href='https://github.com/DAGINATSUKO' target="_blank" title="DAGINATSUKO">DAGINATSUKO</a> &nbsp; | &nbsp; <a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank" title="View source code on GitHub">Source Code</a> &nbsp; | &nbsp; <a href='/disclaimer' title="View RPCS3 disclaimer">Disclaimer</a>
+				 <a href='https://github.com/DAGINATSUKO' target="_blank" title="DAGINATSUKO">Website by DAGINATSUKO</a>
+				&nbsp; <a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank" title="View source code on GitHub">Website Source</a>
+				&nbsp; <a href='https://github.com/RPCS3/rpcs3' target="_blank" title="View source code on GitHub">Project Source</a>
+				&nbsp; <a href='/disclaimer' title="View legal disclaimer">Legal Disclaimer</a>
 			</p>
 		</div>
 	</div>

@@ -40,9 +40,9 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation®. <br>
+							 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. <br>
 							<br>
-							 The "PlayStation® logo", "PlayStation®3 logo", "PlayStation® Network logo", "Sony logo" and "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. All rights reserved.
+							 The "PlayStation logo", "PlayStation 3 logo", "PlayStation 4 logo", "PlayStation Portable logo", "PlayStation Vita logo", "PlayStation Move logo", "PlayStation Network logo", "PlayStation Store logo", "PlayStation Plus logo", "Sony logo", "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. "Sony Entertainment Network" is a trademark of Sony Corporation. Library programs are copyright Sony Interactive Entertainment Inc.
 						</p>
 					</div>
 				</div>
@@ -67,6 +67,18 @@
 					<div id='featured-tx2-block'>
 						<p>
 							 This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to me and are properties of their respective owners. This website is in no way affiliated with said companies or trademarks. This website’s only intention is to spread the word and endorse the content displayed.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id='featured-con-block'>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block'>
+						<h2>Technology</h2>
+					</div>
+					<div id='featured-tx2-block'>
+						<p>
+							 Library programs are copyright Sony Interactive Entertainment Inc. Licensed for play on the PlayStation 3 Computer Entertainment System or authorized PlayStation 3 format systems. For full terms and conditions see the official PlayStation 3 user's manual. The PlayStation 3 system is authorized and produced under license form Sony Interactive Entertainment Inc. Use is subject to the copyright laws and the terms and conditions of the user's license.
 						</p>
 					</div>
 				</div>

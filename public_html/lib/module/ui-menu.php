@@ -71,7 +71,7 @@
 						<div id="submenu-ico-patreon">
 						</div>
 						<div id="submenu-btn-button">
-							 Support with Patreon
+							 Patreon
 						</div>
 					</div>
 					</a>
@@ -80,7 +80,7 @@
 						<div id="submenu-ico-alipay">
 						</div>
 						<div id="submenu-btn-button">
-							 Support with Alipay
+							 Alipay
 						</div>
 					</div>
 					<a/>
@@ -89,7 +89,7 @@
 						<div id="submenu-ico-code">
 						</div>
 						<div id="submenu-btn-button">
-							 Support with Code
+							 GitHub
 						</div>
 					</div>
 					</a>
@@ -98,7 +98,7 @@
 						<div id="submenu-ico-testing">
 						</div>
 						<div id="submenu-btn-button">
-							 Support with Testing
+							 Testing
 						</div>
 					</div>
 					</a>

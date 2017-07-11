@@ -8,7 +8,7 @@ body {
 	font-weight:inherit;
 	line-height:inherit;
 	text-align:inherit;
-	background: #f2f2f2;
+	background:#f2f2f2;
 }
 h1,h2,h3,h4,h5,p {
 	font-family:inherit;
@@ -28,34 +28,32 @@ ul,li {
 	text-align:inherit;
 }
 ul {
-	list-style-type:square;
-	list-style: none;
+	list-style:none;
 }
 b {
 	font-family:inherit;
 	font-size:inherit;
 	line-height:inherit;
-	text-align:inherit;
+	text-align: inherit;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 a:visited {
 	text-decoration:none;
-	color:#0066cc;
+	color:#06c;
 }
 a:active {
 	text-decoration:none;
-	color:#0066cc;
+	color:#06c;
 }
 a:link {
 	text-decoration:none;
-	color:#0066cc;
+	color:#06c;
 }
 a:hover {
 	text-decoration:underline;
-	color:#0066cc;
+	color:#06c;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-::-webkit-scrollbar {
+/*--------------------------------------------------------------------------------------------------------------------------------------*/::-webkit-scrollbar {
 	width:10px;
 }
 ::-webkit-scrollbar-track {
@@ -73,7 +71,7 @@ input {
 	padding-left:24px;
 	color:#5e5e5e;
 	border:none;
-	background: #fff;
+	background:#fff;
 }
 input:focus {
 	outline-color: transparent;
@@ -92,7 +90,7 @@ table {
 	width:100%;
 	border-spacing:0;
 	border-collapse:collapse;
-	color:#fff;
+	color: #fff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 tr {
@@ -102,13 +100,13 @@ tr:nth-child(2n) {
 	background-color:rgba(0,37,86,.015);
 }
 tr:nth-child(2n+1) {
-	background-color:#fff;
+	background-color: #fff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 th {
 	padding-left:25px;
 	text-align:left;
-	color: #5e5e5e;
+	color:#5e5e5e;
 	background-color:#fff;
 }
 th a {
@@ -116,14 +114,14 @@ th a {
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 td {
+	line-height:38px;
 	height:35px;
 	padding-left:25px;
 	text-align:left;
-	line-height: 38px;
 	color:#5e5e5e;
 }
 td a:hover {
-	text-decoration:underline;
+	text-decoration: underline;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .anchor {

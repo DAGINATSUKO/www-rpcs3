@@ -30,7 +30,7 @@ $(document).ready(function() {
 /* Handles menubar opacity swap on scroll */
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-    if (scroll >= 440) {
+    if (scroll >= 400) {
         $("#menu-con-menubar ").addClass("div-menubar-opacity ");
     } else {
         $("#menu-con-menubar ").removeClass("div-menubar-opacity ");
