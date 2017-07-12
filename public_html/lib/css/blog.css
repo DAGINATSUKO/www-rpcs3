@@ -1,11 +1,11 @@
-#bloglinks-con-dim {
+#blogsidebar-con-dim {
 	position:fixed;
 	z-index:9998;
 	width:100%;
 	height:100%;
 	background: rgba(0,0,0,.6);
 }
-#bloglinks-con-anim {
+#blogsidebar-con-anim {
 	position:fixed;
 	z-index:9999;
 	top:0;
@@ -18,13 +18,14 @@
 	-webkit-animation-iteration-count:1;
 	background:#fff;
 	overflow-y:scroll;
+	overflow-x: hidden;
 	-webkit-overflow-scrolling:touch;
 }
-#bloglinks-con-anim::-webkit-scrollbar {
+#blogsidebar-con-anim::-webkit-scrollbar {
 	width:5px;
 	display: none;
 }
-#bloglinks-tx1-title {
+#blogsidebar-tx1-title {
 	font-family:arial;
 	font-size: 14px;
 	line-height:60px;

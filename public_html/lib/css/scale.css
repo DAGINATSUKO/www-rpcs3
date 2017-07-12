@@ -1,3 +1,9 @@
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-height:768px) {
 	.video-con-scale {
 		-webkit-transform:scale(.70);

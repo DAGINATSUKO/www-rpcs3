@@ -63,8 +63,7 @@
 						</p>
 						<p style="font-size:12px;">
 							 v<?php echo getLatestWindowsBuild()[0]; ?>
-							 Alpha [<?php echo getLatestWindowsBuild()[1]; ?>
-							]
+							 Alpha [<?php echo getLatestWindowsBuild()[1]; ?>]
 						</p>
 					</div>
 				</div>

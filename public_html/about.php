@@ -100,10 +100,10 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-cdev">
+							<p class="txt-role div-role-cdev">
 								 Project Lead
 							</p>
-							<p class="div-txt-role div-role-cdev">
+							<p class="txt-role div-role-cdev">
 								 Lead Core Developer
 							</p>
 							</h2>
@@ -129,7 +129,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-gdev">
+							<p class="txt-role div-role-gdev">
 								 Lead Graphics Developer
 							</p>
 							</h2>
@@ -155,10 +155,10 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-cman">
+							<p class="txt-role div-role-cman">
 								 Community Manager
 							</p>
-							<p class="div-txt-role div-role-ccdev">
+							<p class="txt-role div-role-ccdev">
 								 Contributor
 							</p>
 							</h2>
@@ -184,10 +184,10 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-cman">
+							<p class="txt-role div-role-cman">
 								 Community Manager
 							</p>
-							<p class="div-txt-role div-role-cldev">
+							<p class="txt-role div-role-cldev">
 								 Web Backend Developer
 							</p>
 							</h2>
@@ -213,10 +213,10 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-wdev">
+							<p class="txt-role div-role-wdev">
 								 Web Developer
 							</p>
-							<p class="div-txt-role div-role-gddev">
+							<p class="txt-role div-role-gddev">
 								 Graphic Designer
 							</p>
 							</h2>
@@ -241,7 +241,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-ccdev">
+							<p class="txt-role div-role-ccdev">
 								 Developer
 							</p>
 							</h2>
@@ -267,7 +267,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-ccdev">
+							<p class="txt-role div-role-ccdev">
 								 Developer
 							</p>
 							</h2>
@@ -293,7 +293,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-ddev">
+							<p class="txt-role div-role-ddev">
 								 Debugger
 							</p>
 							</h2>
@@ -319,10 +319,10 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-ddev">
+							<p class="txt-role div-role-ddev">
 								 Debugger
 							</p>
-							<p class="div-txt-role div-role-ccdev">
+							<p class="txt-role div-role-ccdev">
 								 Contributor
 							</p>
 							</h2>
@@ -348,7 +348,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-ddev">
+							<p class="txt-role div-role-ddev">
 								 Debugger
 							</p>
 							</h2>
@@ -374,10 +374,10 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-wdev">
+							<p class="txt-role div-role-wdev">
 								 Webserver Owner
 							</p>
-							<p class="div-txt-role div-role-ccdev">
+							<p class="txt-role div-role-ccdev">
 								 Contributor
 							</p>
 							</h2>
@@ -403,7 +403,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-ccdev">
+							<p class="txt-role div-role-ccdev">
 								 Contributor
 							</p>
 							</h2>
@@ -429,7 +429,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-ccdev">
+							<p class="txt-role div-role-ccdev">
 								 Contributor
 							</p>
 							</h2>
@@ -461,7 +461,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-fdev">
+							<p class="txt-role div-role-fdev">
 								 Project Founder
 							</p>
 							</h2>
@@ -487,7 +487,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-fdev">
+							<p class="txt-role div-role-fdev">
 								 Project Founder
 							</p>
 							</h2>
@@ -513,7 +513,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-fdev">
+							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
 							</h2>
@@ -539,7 +539,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-fdev">
+							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
 							</h2>
@@ -565,7 +565,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-fdev">
+							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
 							</h2>
@@ -591,7 +591,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-fdev">
+							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
 							</h2>
@@ -617,7 +617,7 @@
 							</p>
 							<p>
 							</p>
-							<p class="div-txt-role div-role-fdev">
+							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
 							</h2>

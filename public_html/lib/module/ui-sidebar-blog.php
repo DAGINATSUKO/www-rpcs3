@@ -1,8 +1,8 @@
 <div id="navsidebar-btn-open" class="nav-blog" title="Show menu">
 </div>
-<div id='bloglinks-con-dim' class='toggle-bloglinks'>
-	<div id='bloglinks-con-anim' class='dropin-load'>
-		<div id="bloglinks-tx1-title" style='-webkit-animation-duration: .4s;'>
+<div id='blogsidebar-con-dim' class='toggle-blogsidebar'>
+	<div id='blogsidebar-con-anim' class='dropin-load'>
+		<div id="blogsidebar-tx1-title" style='-webkit-animation-duration: .4s;'>
 			 RPCS3 Developers Blog
 		</div>
 			<div id="menu-con-menu">

@@ -4,7 +4,7 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #navsidebar-btn-open {
 	position:fixed;
-	z-index: 9997;
+	z-index: 9998;
 	top: 0px;
 	left:0;
 	width: 60px;
@@ -42,6 +42,7 @@
 	-webkit-animation-iteration-count:1;
 	background:#fff;
 	overflow-y:scroll;
+	overflow-x: hidden;
 	-webkit-overflow-scrolling:touch;
 }
 #navsidebar-con-anim::-webkit-scrollbar {

@@ -115,13 +115,13 @@ $(document).ready(function() {
 });
 /* Handles blog sidebar toggle */
 $(document).ready(function() {
-    $(".toggle-bloglinks").hide();
+    $(".toggle-blogsidebar").hide();
     $(".nav-blog").click(function() {
-        $(".toggle-bloglinks").fadeToggle(100);
+        $(".toggle-blogsidebar").fadeToggle(100);
     });
-    $(".toggle-bloglinks").hide();
-    $(".toggle-bloglinks").click(function() {
-        $(".toggle-bloglinks").fadeOut(100);
+    $(".toggle-blogsidebar").hide();
+    $(".toggle-blogsidebar").click(function() {
+        $(".toggle-blogsidebar").fadeOut(100);
     });
 });
 $(document).ready(function() {

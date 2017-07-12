@@ -69,7 +69,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 To update RPCS3, all you need to do is drag and drop the <b class="txt-highlight">executable file</b> to the root directory of your RPCS3 installation. Moving over additional files and folders is not necessary and may overwrite your user settings.
+							 To update RPCS3, all you need to do is drag and drop the <b class="txt-highlight">executable file</b> to the root directory of your RPCS3 installation. Moving over additional files and folders is not necessary and may overwrite your user settings. In some cases, the GUIconfigs folder may need to be recreated as new additions to the user interface may cause this file to load incorrectly.
 						</p>
 					</div>
 				</div>
@@ -88,7 +88,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Due to copyright, these files cannot be distributed by us and must be self-dumped from your own PlayStation 3 system. Alternatively you can download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> if you are legally allowed to do so. Once downloaded, you can install the firmware using RPCS3's built in firmware installer found under <b class="txt-highlight">File > Install Firmware.</b> The files will then be installed and then correctly placed in their appropriate directories.
+							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <b class="txt-highlight">File > Install Firmware.</b>
 						</p>
 					</div>
 				</div>
@@ -103,20 +103,20 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
+							 By default, firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
 						</p>
 						<br>
 						<p>
-							<b class="txt-highlight">Automatically load required libraries:</b> Automatically loads all required modules in game executable. This is the recommended option that works in most cases.
+							<b class="txt-highlight">Automatically load required libraries:</b> Automatically loads all required modules in game executable.
 						</p>
 						<p>
 							<b class="txt-highlight">Manually load selected libraries:</b> Allows the user to manually load selected firmware modules.
 						</p>
 						<p>
-							<b class="txt-highlight">Load automatic and manual libraries:</b> Automatically loads all required modules and allows the user to manually load selected firmware modules at the same time.
+							<b class="txt-highlight">Load automatic and manual libraries:</b> Automatically loads all required modules and manually selected firmware modules at the same time.
 						</p>
 						<p>
-							<b class="txt-highlight">Load liblv2.sprx only:</b> Loads modules dynamically, more closely to what a PlayStation 3 would do. Some games may not work properly with this option yet.
+							<b class="txt-highlight">Load liblv2.sprx only:</b> Loads modules dynamically, more closely to what a real PlayStation 3 would do. Some games may not work properly with this option yet.
 						</p>
 					</div>
 				</div>
@@ -153,7 +153,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Again, due to copyright and obvious legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console (Both disc and PSN games) or from your computer using a compatible Blu-ray drive (Disc games only).
+							 Due to legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console (Both Blu-ray and PSN games) or from your computer using a compatible Blu-ray drive (Disc games only).
 						</p>
 						<br>
 						<p>
@@ -171,7 +171,7 @@
 						</p>
 						<br>
 						<p>
-							 Both Blu-ray and PlayStation Network games must be placed in a single folder with their respective files and the folder name must correspond to the game's ID. If you are not sure what your dumped game's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your game case or your game is a PlayStation Network game, you can do an internet search for your "Your Game Name Here + Region ID". Please note that it is very important you use the correct region ID.
+							 Both Blu-ray and PlayStation Network games must be placed in a single folder with their respective files and the folder name must correspond to the game's ID. If you are not sure what your dumped game's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your game case or your game is a PlayStation Network game, you can do an internet search for <b class="txt-highlight">"Your Game Name Here</b> + <b class="txt-highlight">Region ID"</b>. Please note that it is very important you use the correct region ID.
 						</p>
 						<br>
 						<p>
@@ -189,7 +189,7 @@
 							 • For example: <b class="txt-highlight">BCUS98233</b> is a USA Blu-ray Disc copy of <b class="txt-highlight">Uncharted 3</b>
 						</p>
 						<p>
-							 • For example: <b class="txt-highlight">NPUA80472</b> is a USA PlayStation Network copy of <b class="txt-highlight">LittleBigPlanet</b>
+							 • For example: <b class="txt-highlight">NPUA80662</b> is a USA PlayStation Network copy of <b class="txt-highlight">LittleBigPlanet 2</b>
 						</p>
 					</div>
 				</div>
@@ -214,7 +214,7 @@
 							 • .pkg files will be automatically installed to: <b class="txt-highlight">\dev_hdd0\game\</b>
 						</p>
 						<p>
-							 • Blu-ray Disc game data can be placed anywhere <b class="txt-highlight">EXCEPT</b> for <b class="txt-highlight">\dev_hdd0\game\</b> and must be booted from <b class="txt-highlight">File > Boot Game</b>.
+							 • Blu-ray Disc game data can be placed anywhere <b class="txt-highlight">Except</b> for <b class="txt-highlight">\dev_hdd0\game\</b> and must be booted from <b class="txt-highlight">File > Boot Game</b>
 						</p>
 						<p>
 							 • PlayStation Network game data must be placed in: <b class="txt-highlight">\dev_hdd0\game\</b>
@@ -254,11 +254,11 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 Typically, you want to dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump games from your system's Blu-ray drive or internal storage.
+							<b>Method A:</b> We recommend that you dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC without the hassle of repairing bad game dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump games from your system's Blu-ray drive or internal storage.
 						</p>
 						<br>
 						<p>
-							 However, you can also dump games using only a computer (<i>only if an .ird file is available online for the decryption of the disc, details below</i>), using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
+							<b>Method B:</b> You can dump games using only a computer by using select compatible Blu-ray drives. Please note that you can only use this method if an <b class="txt-highlight">.ird</b> file is available online for the decryption of the disc. See <b class="txt-highlight">Dumping games and software with a Blu-ray drive</b> below. Not every Blu-ray drive will recognize PlayStation 3 games due to how PlayStation 3 format discs are designed. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
 						</p>
 						<br>
 						<p>
@@ -303,7 +303,7 @@
 				</div>
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
-						<h2>Dumping games and software</h2>
+						<h2>Dumping games and software with a Blu-ray drive</h2>
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
@@ -321,27 +321,30 @@
 							 1. Insert a PlayStation 3 Blu-ray disc game of your choice.
 						</p>
 						<p>
-							 2. Dump the .iso image using a program like Alcohol 120%.
+							 2. Dump the <b class="txt-highlight">.iso</b> image using a program like Alcohol 120%.
 						</p>
 						<p>
-							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate .ird file that matches your game ID. If there isn't any .ird file that matches your game ID it means you can't dump that disc using this method.
+							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate <b class="txt-highlight">.ird</b> file that matches your game ID. If there isn't any .ird file that matches your game ID this unfortunately means you can't dump your disc using this method.
 						</p>
 						<p>
 							 4. Be sure to check game ID in case of different game editions. You need to use the file for the exact game ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
 							<p>
-								 5. Open PS3 ISO Patcher and select your dumped .iso file and its appropriate .ird file.
+								 5. Open <b class="txt-highlight">PS3 ISO Patcher</b> and select your dumped <b class="txt-highlight">.iso</b> file and its appropriate <b class="txt-highlight">.ird</b> file.
 							</p>
 							<p>
-								 6. Press Patch to apply the patch to the .iso file.
+								 6. Press <b class="txt-highlight">Patch</b> to apply the patch to the .iso file.
 							</p>
 							<p>
-								 7. Open 3k3y ISO Tools and decrypt the .iso file.
+								 7. Open <b class="txt-highlight">3k3y ISO Tools</b> and decrypt the .iso file.
 							</p>
 							<p>
 								 8. Your game should now be properly decrypted.
 							</p>
 							<p>
-								 9. You must now extract your decrypted .iso file for use with RPCS3.
+								 9. You must now <b class="txt-highlight">extract</b> your decrypted .iso file with an appropriate .iso extraction tool.
+							</p>
+							<p>
+								 10. You are now able to use your successfully dumped disc-based game with RPCS3.
 							</p>
 						</div>
 					</div>
