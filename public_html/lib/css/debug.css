@@ -2,6 +2,12 @@
 	display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+#navsidebar-con-container {
+	position:relative;
+	-webkit-animation-duration: .4s;
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
 #navsidebar-btn-open {
 	position:fixed;
 	z-index: 9998;
@@ -27,7 +33,7 @@
 	z-index:9998;
 	width:100%;
 	height:100%;
-	background: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.2);
 }
 #navsidebar-con-anim {
 	position:fixed;

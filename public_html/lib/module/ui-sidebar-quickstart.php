@@ -5,7 +5,7 @@
 		<div id="navsidebar-tx1-title" style='-webkit-animation-duration: .4s;'>
 			 Quickstart Guide
 		</div>
-		<div id="menu-con-menu">
+		<div id="navsidebar-con-container">
 			<!-- End -->
 			<div id='navsidebar-tx1-topic'>
 				<p>
