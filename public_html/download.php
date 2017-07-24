@@ -22,7 +22,7 @@
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<h1>DOWNLOAD</h1>
+				<span>DOWNLOAD</span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>
@@ -133,7 +133,7 @@
 				</div>
 			</div>
 			<!-- End -->
-			<a href='/cdn/docs/Docs.zip' download>
+			<a href='/cdn/docs/Docs.7z' download>
 			<div id='featured-con-button' class="div-download-left">
 				<div id='featured-wrp-button' style="width: 212px; margin: 0 -106px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/documentation.png') no-repeat center; background-size: 16px;">

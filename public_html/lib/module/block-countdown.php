@@ -1,6 +1,6 @@
 <div id='countdown-con-container'>
 	<div id='countdown-tx1-body'>
-		 MAJOR ANNOUNCEMENT
+		 <span>MAJOR ANNOUNCEMENT<span>
 	</div>
 	<div id='countdown-div-body'>
 	</div>

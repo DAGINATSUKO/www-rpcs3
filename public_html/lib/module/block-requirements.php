@@ -43,7 +43,7 @@
 			<div id='featured-ico-block' style="background:url('/img/icons/list/redist.png') no-repeat center; background-size: 16px;">
 			</div>
 			<div id='featured-tx3-block'>
-				<a href="https://www.microsoft.com/en-us/download/details.aspx?id=52685" target="_blank">
+				<a href="https://www.microsoft.com/en-us/download/details.aspx?id=53840" target="_blank">
 				<p>
 					 Microsoft Visual C++ 2015 redistributable.
 				</p>

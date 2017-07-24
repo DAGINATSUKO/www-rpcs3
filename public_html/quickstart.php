@@ -22,7 +22,7 @@
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<h1>QUICKSTART</h1>
+				<span>QUICKSTART</span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>
@@ -262,6 +262,12 @@
 						</p>
 						<br>
 						<p>
+							 • ASUS <b class="txt-highlight">BC-08B1LT</b>
+						</p>
+						<p>
+							 • ASUS <b class="txt-highlight">BC-16D1HT</b>
+						</p>
+						<p>
 							 • ASUS <b class="txt-highlight">BC-12B1ST</b>
 						</p>
 						<p>
@@ -271,28 +277,55 @@
 							 • ASUS <b class="txt-highlight">BW-16D1HT</b>
 						</p>
 						<p>
+							 • LG <b class="txt-highlight">BH26NS40</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">UH12NS30</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">BH16NS40</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">BH16NS48</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">BH14NS40</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">WH24NS40</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">WH12LS30</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">WH24LS30</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">WH26NS40</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">WH16NS40</b>
+						</p>
+						<p>
+							 • LG <b class="txt-highlight">WH16NS48</b>
+						</p>
+						<p>
+							 • Lite-On <b class="txt-highlight">DH-4O1S</b>
+						</p>
+						<p>
+							 • Lite-On <b class="txt-highlight">iHBS112</b>
+						</p>
+						<p>
 							 • BENQ <b class="txt-highlight">BR1000</b>
 						</p>
 						<p>
-							 • Lite-ON <b class="txt-highlight">DH-4O1S</b>
+							 • Samsung <b class="txt-highlight">DVDWBD SH-B083L</b>
 						</p>
 						<p>
-							 • LG BD <b class="txt-highlight">Bh24NS40</b>
+							 • Sony Optiarc <b class="txt-highlight">5300S</b>
 						</p>
 						<p>
-							 • LG BD <b class="txt-highlight">Bh26NS40</b>
-						</p>
-						<p>
-							 • LG BD <b class="txt-highlight">Uh12NS30</b>
-						</p>
-						<p>
-							 • LG BD <b class="txt-highlight">Wh24NS40</b>
-						</p>
-						<p>
-							 • LG BD-RE <b class="txt-highlight">Wh26NS40</b>
-						</p>
-						<p>
-							 • Sony Optiarc BD <b class="txt-highlight">5300S</b>
+							 • Sony PlayStation stock drive <b class="txt-highlight">with proprietary adapter</b>
 						</p>
 					</div>
 				</div>

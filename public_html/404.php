@@ -21,7 +21,7 @@
 		<div id='error-ico-content' style="background: url('/img/icons/errors/404.png') no-repeat center; background-size:40px;">
 		</div>
 		<div id='error-tx1-content'>
-			<h1>NOT FOUND</h1>
+			<span>NOT FOUND</span>
 		</div>
 		<div id='error-tx2-content'>
 			<p>

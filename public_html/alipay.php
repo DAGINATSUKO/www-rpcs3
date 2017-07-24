@@ -21,7 +21,9 @@
 		</div>
 		</a>
 		<div id='donate-con-footer'>
-			 © Copyright 2004-2017 Alipay. All rights reserved.
+			<p>
+				© Copyright 2004-2017 Alipay. All rights reserved.
+			</p>
 		</div>
 	</div>
 </div>

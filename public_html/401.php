@@ -21,7 +21,7 @@
 		<div id='error-ico-content' style="background: url('/img/icons/errors/401.png') no-repeat center; background-size:40px;">
 		</div>
 		<div id='error-tx1-content'>
-			<h1>UNAUTHORIZED</h1>
+			<span>UNAUTHORIZED</span>
 		</div>
 		<div id='error-tx2-content'>
 			<p>

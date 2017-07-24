@@ -21,7 +21,7 @@
 		<div id='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
 		</div>
 		<div id='error-tx1-content'>
-			<h1>BAD REQUEST</h1>
+			<span>BAD REQUEST</span>
 		</div>
 		<div id='error-tx2-content'>
 			<p>

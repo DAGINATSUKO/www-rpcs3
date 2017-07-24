@@ -23,7 +23,7 @@
 	);
 	preloadVideo(
 	'6',
-	'PI7nRkq9CEo',
+	'v3_WiNow_gE',
 	'Demon\'s Souls',
 	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki. It was released exclusively for the PlayStation 3.'
 	);
@@ -60,8 +60,7 @@
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<h1>
-				THE WORLD'S FIRST </h1>
+				<span>THE WORLD'S FIRST </span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>

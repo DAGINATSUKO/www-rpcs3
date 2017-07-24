@@ -131,6 +131,9 @@
 	height:80px;
 	text-align:center;
 	color:#fff;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	-webkit-animation-duration: .5s;
 }
 #header-tx2-body {
 	font-family:arial;
@@ -139,6 +142,9 @@
 	height:20px;
 	text-align:center;
 	color: #fff;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	-webkit-animation-duration: .5s;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #popup-con-dim {

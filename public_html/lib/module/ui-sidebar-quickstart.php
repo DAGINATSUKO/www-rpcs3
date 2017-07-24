@@ -1,150 +1,102 @@
-<div id="navsidebar-btn-open" class="nav-standard" title="Show menu" style="display: block;">
+<body>
+<div class="nav-standard" id="navsidebar-btn-open" style="display: block;" title="Show menu">
 </div>
-<div id='navsidebar-con-dim' class='toggle-navsidebar' style="display:block">
-	<div id='navsidebar-con-anim' class='dropin-load'>
+<div class='toggle-navsidebar' id='navsidebar-con-dim' style="display:block">
+	<div class='dropin-load' id='navsidebar-con-anim'>
 		<div id="navsidebar-tx1-title" style='-webkit-animation-duration: .4s;'>
-			 Quickstart Guide
+			<span>Quickstart Guide</span>
 		</div>
 		<div id="navsidebar-con-container">
 			<!-- End -->
 			<div id='navsidebar-tx1-topic'>
-				<p>
-					Initial Setup
-				</p>
+				<span>Initial Setup</span>
 			</div>
 			<a href="#requirements" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					System Requirements
-				</p>
+				<span>System Requirements</span>
 			</div>
-			</a>
-			<a href="#updating" rel="anchor">
+			</a><a href="#updating" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Updating RPCS3
-				</p>
+				<span>Updating RPCS3</span>
 			</div>
-			</a>
-			<a href="#firmware" rel="anchor">
+			</a><a href="#firmware" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Installing Firmware
-				</p>
+				<span>Installing Firmware</span>
 			</div>
-			</a>
-			<a href="#module_selection" rel="anchor">
+			</a><a href="#module_selection" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					System Module Selection
-				</p>
+				<span>System Module Selection</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div id='navsidebar-tx1-topic'>
-				<p>
-					Managing Files
-				</p>
+				<span>Managing Files</span>
 			</div>
 			<a href="#manage_files" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Managing Save Data
-				</p>
+				<span>Managing Save Data</span>
 			</div>
-			<a>
-			<a href="#manage_games" rel="anchor">
+			</a><a href="#manage_games" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Managing Games and Software
-				</p>
+				<span>Managing Games and Software</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div id='navsidebar-tx1-topic'>
-				<p>
-					Updating Games and Software
-				</p>
+				<span>Updating Games and Software</span>
 			</div>
 			<a href="#install_games" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Installing Games
-				</p>
+				<span>Installing Games</span>
 			</div>
-			</a>
-			<a href="#install_updates" rel="anchor">
+			</a><a href="#install_updates" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Installing Updates
-				</p>
+				<span>Installing Updates</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div id='navsidebar-tx1-topic'>
-				<p>
-					Games and Software
-				</p>
+				<span>Games and Software</span>
 			</div>
 			<a href="#obtaining_games" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Obtaining Games and Software
-				</p>
+				<span>Obtaining Games and Software</span>
 			</div>
-			</a>
-			<a href="#dumping_games" rel="anchor">
+			</a><a href="#dumping_games" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Dumping with a Blu-ray Drive
-				</p>
+				<span>Dumping with a Blu-ray Drive</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div id='navsidebar-tx1-topic'>
-				<p>
-					Configuring the Emulator
-				</p>
+				<span>Configuring the Emulator</span>
 			</div>
 			<a href="#cpu_settings" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					CPU Settings
-				</p>
+				<span>CPU Settings</span>
 			</div>
-			<a href="#gpu_settings" rel="anchor">
+			</a><a href="#gpu_settings" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					GPU Settings
-				</p>
+				<span>GPU Settings</span>
 			</div>
-			<a href="#audio_settings" rel="anchor">
+			</a><a href="#audio_settings" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Audio Settings
-				</p>
+				<span>Audio Settings</span>
 			</div>
-			<a href="#input_settings" rel="anchor">
+			</a><a href="#input_settings" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Input/Output Settings
-				</p>
+				<span>Input/Output Settings</span>
 			</div>
-			<a href="#network_settings" rel="anchor">
+			</a><a href="#network_settings" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					Network Settings
-				</p>
+				<span>Network Settings</span>
 			</div>
-			<a href="#system_settings" rel="anchor">
+			</a><a href="#system_settings" rel="anchor">
 			<div id='navsidebar-tx2-topic'>
-				<p>
-					System Settings
-				</p>
+				<span>System Settings</span>
 			</div>
 			</a>
 			<!-- End -->
 		</div>
 	</div>
-</div>
 </div>

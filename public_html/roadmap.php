@@ -21,7 +21,7 @@
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<h1>ROADMAP</h1>
+				<span>ROADMAP</span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>
@@ -33,13 +33,18 @@
 	<div id="page-con-container">
 		<div id="page-in-container" class="div-roadmap-git">
 			<?php
-			$content = file_get_contents("https://github.com/RPCS3/rpcs3/wiki/Roadmap");
-			// Check for error fetching the page: if (!$content) { echo "something"; }
-			$first_step = explode("<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">", $content); 
-			$second_step = explode("</div>" , $first_step[1]); 
-			echo "<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">"; 
-			echo $second_step[0]; echo "</div></div>"; 
+				if (file_exists('cache/roadmap_cached.php')) {
+					include 'cache/roadmap_cached.php';
+				} else {
+					$content = file_get_contents("https://github.com/RPCS3/rpcs3/wiki/Roadmap");
+					if ($content) {
+						$start = "<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">";
+						$end = "</div>";
+						echo explode($end, explode($start, $content)[1])[0];
+					}
+				}
 			?>
+		</div>
 	</div>
 </div>
 <!-- End -->

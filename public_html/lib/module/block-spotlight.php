@@ -1,6 +1,6 @@
 <div id='spotlight-con-container'>
 	<div id='spotlight-tx1-body'>
-		 WE SUPPORT
+		<span>WE SUPPORT</span>
 	</div>
 	<div id='spotlight-div-body'>
 	</div>

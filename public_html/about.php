@@ -21,7 +21,7 @@
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<h1>ABOUT</h1>
+				<span>ABOUT</span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>
@@ -391,7 +391,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/pirhoman.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: #e68364 url('/img/users/pirhoman.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -404,20 +404,20 @@
 							<p>
 							</p>
 							<p class="txt-role div-role-ccdev">
-								 Contributor
+								 Developer
 							</p>
 							</h2>
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 flash-fire is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+								 flash-fire is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/megamouse.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/users/megamouse.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -430,17 +430,108 @@
 							<p>
 							</p>
 							<p class="txt-role div-role-ccdev">
-								 Contributor
+								 Developer
 							</p>
 							</h2>
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Megamouse is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+								 Megamouse is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
 				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/galciv.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+								<h2>
+							<p style="float: left;">
+								 GalCiv
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Developer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 GalCiv is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer to decide add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+								<h2>
+							<p style="float: left;">
+								 hcorion
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Developer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 hcorion is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/dangles.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+								<h2>
+							<p style="float: left;">
+								 Dangles
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Developer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 Dangles is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 			</div>
 			<!-- End -->
 			<div class="div-heading" id="featured-tx1-heading">
@@ -638,6 +729,23 @@
 			</div>
 			<!-- End -->
 			<div class="div-member-con">
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/honorable/reznoire.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+							<h2>Reznoire</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 Reznoire is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
 					<div id='featured-ava-block' style="background: url('/img/users/honorable/zangetsu.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
