@@ -13,7 +13,28 @@
 </head>
 <body>
 <?php include 'lib/module/call-php.php';?>
-<?php include 'lib/compat/utils.php';?>
+<?php 
+if (file_exists('lib/compat/utils.php')) {
+	include('lib/compat/utils.php');
+	// 0 - Version; 1 - Date
+	$win = getLatestWindowsBuild();
+	// 0 - Filename; 1 - Date
+	$linux = getLatestLinuxBuild();
+	
+	$win_url = "https://ci.appveyor.com/project/rpcs3/rpcs3/build/{$win[0]}/artifacts";
+	$win_name = "v{$win[0]} Alpha [{$win[1]}]";
+	$linux_button = ''; // Does not disable Linux button
+	$linux_ver = explode("-", substr($linux[0], 6), 2)[0]; // Extract everything after rpcs3- until next - appears for version indicator
+	$linux_name = $linux_ver.substr($linux[0], 23)." [{$linux[1]}]"; // Display formatted filename
+	$linux_url = "https://rpcs3.net/cdn/builds/{$linux[0]}";
+} else {
+	$win_url = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
+	$win_name = 'Latest version';
+	$linux_button = ' div-button-disabled'; // Disables Linux button
+	$linux_name = 'Temporarily unavailable';
+	$linux_url = 'https://github.com/RPCS3/rpcs3/releases';
+}
+?>
 <div id="page-con-content">
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
@@ -45,13 +66,14 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
-							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site.
+							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site. <br>
+							 <br>RPCS3 for Linux uses the AppImage file format. AppImages can be downloaded and ran without an installation or the need for root rights. To run the AppImage file execute, <b class="txt-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
 						</p>
 					</div>
 				</div>
 			</div>
 			<!-- End -->
-			<a href='https://ci.appveyor.com/project/rpcs3/rpcs3/build/<?php echo getlatestwindowsbuild()[0]; ?>/artifacts' target="_blank"> 
+			<a href='<?php echo $win_url; ?>' target="_blank"> 
 			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
 			<div id='featured-con-button' class="div-download-left">
 				<div id='featured-wrp-button' style="width: 244px; margin: 0 -122px;">
@@ -62,25 +84,24 @@
 							 Download for Windows
 						</p>
 						<p style="font-size:12px;">
-							 v<?php echo getLatestWindowsBuild()[0]; ?>
-							 Alpha [<?php echo getLatestWindowsBuild()[1]; ?>]
+							 <?php echo $win_name; ?>
 						</p>
 					</div>
 				</div>
 			</div>
 			</a>
 			<!-- End -->
-			<a href='https://github.com/RPCS3/rpcs3/releases' target="_blank">
-			<div id='featured-con-button' class="div-download-right div-button-disabled">
-				<div id='featured-wrp-button' style="width: 264px; margin: 0 -122px;">
+			<a href='<?php echo $linux_url; ?>' target="_blank">
+			<div id='featured-con-button' class="div-download-right<?php echo $linux_button; ?>">
+				<div id='featured-wrp-button' style="width: 344px; margin: 0 -178px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/linux.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
 						<p>
-							 Download for Linux
+							Download for Linux
 						</p>
 						<p style="font-size:12px;">
-							 Automatic builds coming soon <?php // echo getLatestLinuxBuild()[1]; ?>
+							 <?php echo $linux_name; ?>
 						</p>
 					</div>
 				</div>

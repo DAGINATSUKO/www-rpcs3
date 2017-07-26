@@ -69,7 +69,9 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 To update RPCS3, all you need to do is drag and drop the <b class="txt-highlight">executable file</b> to the root directory of your RPCS3 installation. Moving over additional files and folders is not necessary and may overwrite your user settings. In some cases, the GUIconfigs folder may need to be recreated as new additions to the user interface may cause this file to load incorrectly.
+							 For Windows users, you must drag and drop the updated<b class="txt-highlight">executable</b> to the root directory of your RPCS3 folder. Moving over other files is not necessary and may overwrite user settings. In some cases, the GUIconfigs folder may need to be deleted and regenerated as new features are added to the user interface.<br>
+							 <br>
+							  For Linux users, you must download the updated <b class="txt-highlight">AppImage</b> and make it executable with the command <b class="txt-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
 						</p>
 					</div>
 				</div>
@@ -140,6 +142,9 @@
 						<p>
 							 • Please note that save data is stored in folders that correspond to your game's ID.
 						</p>
+						<p>
+							<i>Note: If you're on linux, RPCS3 folders are located in: <b class="txt-highlight">~/.config/rpcs3/</b></i>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -175,10 +180,10 @@
 						</p>
 						<br>
 						<p>
-							 • For example: <b class="txt-highlight">BCUS00000</b> is a USA <b class="txt-highlight">Blu-ray Disc</b> game
+							 • Game IDs that start with a <b class="txt-highlight">B</b> are <b class="txt-highlight">Blu-Ray Disc</b> games
 						</p>
 						<p>
-							 • For example: <b class="txt-highlight">NPUA00000</b> is a USA <b class="txt-highlight">PlayStation Network</b> game
+							 • Game IDs that start with a <b class="txt-highlight">N</b> are <b class="txt-highlight">PlayStation Network</b> games
 						</p>
 						<br>
 						<p>
@@ -186,10 +191,10 @@
 						</p>
 						<br>
 						<p>
-							 • For example: <b class="txt-highlight">BCUS98233</b> is a USA Blu-ray Disc copy of <b class="txt-highlight">Uncharted 3</b>
+							 • For example: <b class="txt-highlight">BLUS30443</b> is an USA <b class="txt-highlight">Blu-Ray Disc</b> copy of <b class="txt-highlight">Uncharted 3</b>
 						</p>
 						<p>
-							 • For example: <b class="txt-highlight">NPUA80662</b> is a USA PlayStation Network copy of <b class="txt-highlight">LittleBigPlanet 2</b>
+							 • For example: <b class="txt-highlight">NPEB02436</b> is an Europe <b class="txt-highlight">PlayStation Network</b> copy of <b class="txt-highlight">Persona 5</b>
 						</p>
 					</div>
 				</div>
@@ -214,13 +219,16 @@
 							 • .pkg files will be automatically installed to: <b class="txt-highlight">\dev_hdd0\game\</b>
 						</p>
 						<p>
-							 • Blu-ray Disc game data can be placed anywhere <b class="txt-highlight">Except</b> for <b class="txt-highlight">\dev_hdd0\game\</b> and must be booted from <b class="txt-highlight">File > Boot Game</b>
+							 • Blu-ray Disc game data can be placed in <b class="txt-highlight">\dev_hdd0\disc\</b> or anywhere <b class="txt-highlight">except</b> for <b class="txt-highlight">\dev_hdd0\game\</b> and can be booted from <b class="txt-highlight">File > Boot Game</b> if not present on game list
 						</p>
 						<p>
 							 • PlayStation Network game data must be placed in: <b class="txt-highlight">\dev_hdd0\game\</b>
 						</p>
 						<p>
 							 • PlayStation Network .rap files must be placed in: <b class="txt-highlight">\dev_hdd0\home\00000001\exdata\</b>
+						</p>
+						<p>
+							<i>Note: If you're on linux, RPCS3 folders are located in: <b class="txt-highlight">~/.config/rpcs3/</b></i>
 						</p>
 					</div>
 				</div>
@@ -482,43 +490,13 @@
 							</p>
 							<br>
 							<p>
-								<b>Use vertical sync</b><br>
+								<b>VSync</b><br>
 								 Improves image quality by keeping framerate consistent. Disabling may cause screen tearing but may also improve performance in some cases.
 							</p>
 							<br>
 							<p>
 								<b>Stretch to display area</b><br>
 								 Overrides aspect ratio and stretches the image to full display area.
-							</p>
-							<br>
-							<p>
-								<b>Debug - Use legacy OpenGL buffers</b><br>
-								 Enables legacy OpenGL buffers to work, allowing classic capture tools to work with RPCS3.
-							</p>
-							<br>
-							<p>
-								<b>Debug - Debug Output</b><br>
-								 Enables the selected API's built-in debugging functionality. This causes serious performance degradation and should only be used by developers.
-							</p>
-							<br>
-							<p>
-								<b>Debug - Overlay</b><br>
-								 Provides a graphical overlay with debugging information and should only be used by developers.
-							</p>
-							<br>
-							<p>
-								<b>Debug - Strict Rendering mode</b><br>
-								 Enforces strict compliance with the selected rendering API. This causes serious performance degradation and should only be used by developers.
-							</p>
-							<br>
-							<p>
-								<b>Debug - Log shader programs</b><br>
-								 Dumps game shaders to a file. This may cause performance degradation and should only be used by developers.
-							</p>
-							<br>
-							<p>
-								<b>Debug - Use high-precision z-buffer</b><br>
-								 Useful for debugging differences in GPU hardware. This may cause performance degradation and should only be used by developers.
 							</p>
 						</div>
 					</div>
