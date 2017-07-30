@@ -191,7 +191,7 @@
 						</p>
 						<br>
 						<p>
-							 • For example: <b class="txt-highlight">BLUS30443</b> is an USA <b class="txt-highlight">Blu-Ray Disc</b> copy of <b class="txt-highlight">Uncharted 3</b>
+							 • For example: <b class="txt-highlight">BLUS30443</b> is an USA <b class="txt-highlight">Blu-Ray Disc</b> copy of <b class="txt-highlight">Demon's Souls</b>
 						</p>
 						<p>
 							 • For example: <b class="txt-highlight">NPEB02436</b> is an Europe <b class="txt-highlight">PlayStation Network</b> copy of <b class="txt-highlight">Persona 5</b>
@@ -531,8 +531,8 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								<b>Pad Handler</b><br>
-								 Allows you to select which handler you want to drive your controller's inputs.
+								<b>Controller Handler</b><br>
+								 Allows you to select which handler you want to drive your controller's inputs for emulated games and software. For Linux users, you can configure controllers in RPCS3 using the following methods found <a href='https://gist.github.com/kirbyfan64/72f5d7223fcba2e24c4286aea9e4ccc1' target="_blank">here</a>.
 							</p>
 							<br>
 							<p>
@@ -546,12 +546,12 @@
 							</p>
 							<br>
 							<p>
-								<b>Camera</b><br>
+								<b>Camera Input</b><br>
 								 Allows you to spoof or disable PlayStation 3 compatible cameras.
 							</p>
 							<br>
 							<p>
-								<b>Camera Type</b><br>
+								<b>Camera Settings</b><br>
 								 Allows you to select which device you want to input emulated console camera video/audio.
 							</p>
 						</div>

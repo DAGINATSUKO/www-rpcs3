@@ -183,7 +183,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 We currently support keyboard and mouse input devices as well as native DualShock 4, XInput and MMjoy controllers through software thanks to our core developers and contributors. Unfortunately, we currently do not natively support DualShock 3 controllers. You can however use third party tools like SCP Driver Package to allow your DualShock 3 controller to function like an XInput controller. We plan to add additional input methods in the future as we implement more meaningful features to the emulator. 
+							 We currently support keyboard / mouse inputs and native DualShock 4 controllers. We also support XInput and MMjoy based controllers. Unfortunately, we currently do not natively support DualShock 3 controllers. You can however use third-party tools like SCP Driver Package to allow your DualShock 3 controller to function like an XInput controller. We plan to add additional input methods in the future as we implement more meaningful features to the emulator. 
 						</p>
 					</div>
 				</div>

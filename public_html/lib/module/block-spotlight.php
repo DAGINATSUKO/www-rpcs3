@@ -19,8 +19,10 @@
 	<div id='spotlight-btn-body' title="Check out Fight for the Future to get informed.">
 	</div>
 	</a>
-	<div class="visual-wavebar-1">
-	</div>
-	<div class="visual-wavebar-1 delayed-fade" style="display:none;">
+	<div style="display:none">
+		<div class="visual-wavebar-1">
+		</div>
+		<div class="visual-wavebar-1 delayed-fade" style="display:none;">
+		</div>
 	</div>
 </div>
