@@ -626,7 +626,7 @@
 }
 #featured-wrp-block {
 	position:relative;
-	left:24px;
+	left: 24px;
 	width:auto;
 	height:auto;
 	padding-top:18px;
@@ -681,11 +681,11 @@
 	cursor:pointer;
 	transition:.1s ease-in-out;
 	background:rgba(0,0,0,0) url('/img/icons/playback/play.png') no-repeat center;
-	background-size:42px;
+	background-size:50px;
 }
 #featured-btn-play:hover {
 	background:rgba(0,0,0,.4) url('/img/icons/playback/play-h.png') no-repeat center;
-	background-size: 42px;
+	background-size: 50px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featured-btn-play-b {
@@ -696,11 +696,11 @@
 	cursor:pointer;
 	transition:.1s ease-in-out;
 	background:rgba(0,0,0,.1) url('/img/icons/playback/play.png') no-repeat center;
-	background-size:65px;
+	background-size: 60px;
 }
 #featured-btn-play-b:hover {
 	background:rgba(0,0,0,.5) url('/img/icons/playback/play.png') no-repeat center;
-	background-size: 65px;
+	background-size: 60px;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #featured-lst-block {

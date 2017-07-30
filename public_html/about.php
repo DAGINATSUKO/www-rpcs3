@@ -281,6 +281,111 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+								<h2>
+							<p style="float: left;">
+								 hcorion
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Developer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 hcorion is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: #e68364 url('/img/users/pirhoman.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+								<h2>
+							<p style="float: left;">
+								 flash-fire
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Developer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 flash-fire is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/megamouse.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+								<h2>
+							<p style="float: left;">
+								 Megamouse
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Developer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 Megamouse is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
+					<div id='featured-ava-block' style="background: url('/img/users/galciv.png') no-repeat center; background-size: cover;">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block'>
+								<h2>
+							<p style="float: left;">
+								 GalCiv
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Developer
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block'>
+							<p>
+								 GalCiv is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer to decide add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- End -->
+				<div id='featured-con-block' class="div-member-block">
 					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
@@ -384,111 +489,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Shadow, being one of the eldest team members for RPCS3, is the owner of both the RPCS3 and Emunewz web servers. Shadow has also made small, yet meaningful contributions to the emulator over the years and still continues to do so every now and then.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: #e68364 url('/img/users/pirhoman.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-								<h2>
-							<p style="float: left;">
-								 flash-fire
-							</p>
-							<p>
-							</p>
-							<p class="txt-role div-role-ccdev">
-								 Developer
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 flash-fire is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/users/megamouse.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-								<h2>
-							<p style="float: left;">
-								 Megamouse
-							</p>
-							<p>
-							</p>
-							<p class="txt-role div-role-ccdev">
-								 Developer
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 Megamouse is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/users/galciv.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-								<h2>
-							<p style="float: left;">
-								 GalCiv
-							</p>
-							<p>
-							</p>
-							<p class="txt-role div-role-ccdev">
-								 Developer
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 GalCiv is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer to decide add a proper description, this description will be promptly updated upon their request.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block">
-					<div id='featured-ava-block' style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block'>
-								<h2>
-							<p style="float: left;">
-								 hcorion
-							</p>
-							<p>
-							</p>
-							<p class="txt-role div-role-ccdev">
-								 Developer
-							</p>
-							</h2>
-						</div>
-						<div id='featured-tx2-block'>
-							<p>
-								 hcorion is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+								 Shadow, being one of the eldest team members for RPCS3, is the owner of both the RPCS3 and EmuNewz web servers. Shadow has also made small, yet meaningful contributions to the emulator over the years and still continues to do so every now and then.
 							</p>
 						</div>
 					</div>
@@ -508,29 +509,17 @@
 							<p>
 							</p>
 							<p class="txt-role div-role-ccdev">
-								 Developer
+								 Contributor
 							</p>
 							</h2>
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Dangles is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+								 Dangles is a contributor for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
-				</div>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+				</div>	
 				
 			</div>
 			<!-- End -->
@@ -559,7 +548,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. Unfortunately, he left the project in mid 2016 and started doing PlayStation 4 related research according to his GitHub history.
+								 DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4'>PlayStation 4 related research</a>.
 							</p>
 						</div>
 					</div>
@@ -585,7 +574,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735'>He was forced to leave the project in mid 2016.</a>
+								 Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735'>He was forced to leave the emulation scene in mid 2016.</a>
 							</p>
 						</div>
 					</div>

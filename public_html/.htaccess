@@ -1,6 +1,6 @@
 Options All -Indexes
 
-# Enables RewriteEngine
+# RewriteEngine
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
@@ -34,8 +34,14 @@ FileETag None
 Header unset ETag
 Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
 Header set Pragma "no-cache"
-Header set Expires "Wed, 16 Jan 1996 06:20:00 GMT"
+Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </filesMatch>
+
+# Compatibility: Rewrite URLs
+Redirect "/nightly" "/compatibility?b"
+Redirect "/builds" "/compatibility?b"
+Redirect "/compat" "/compatibility"
+Redirect "/library" "/compatibility?l"
 
 # Assigns an error page
 ErrorDocument 404 /404.php

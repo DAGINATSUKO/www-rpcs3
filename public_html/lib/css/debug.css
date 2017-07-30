@@ -97,3 +97,22 @@
     position: absolute;
     top: -82px;
 }
+
+
+
+
+
+
+
+#featured-tx1-grid {
+	font-family:arial;
+	font-size:14px;
+	font-weight: bold;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:auto;
+	text-align:left;
+	color:#5e5e5e;
+	top: -9px;
+}

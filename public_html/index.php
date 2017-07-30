@@ -18,38 +18,51 @@
 	preloadVideo(
 	'7',
 	'HZf4h0cUnbo',
-	'Ni no Kuni: Wrath of the White Witch',
-	'Ni no Kuni: Wrath of the White Witch is a role-playing video game developed and published by Level-5. It was released exclusively for the Nintendo DS and PlayStation 3.'
+	'Ni no Kuni: Wrath of the White Witch'
 	);
 	preloadVideo(
 	'6',
 	'v3_WiNow_gE',
-	'Demon\'s Souls',
-	'Demon\'s Souls is an action role-playing video game developed by FromSoftware and was directed by Hidetaka Miyazaki. It was released exclusively for the PlayStation 3.'
+	'Demon\'s Souls'
 	);
 	preloadVideo(
 	'5',
 	'c7Oq5O7uX0E',
-	'Catherine',
-	'Catherine is a puzzle-platformer adventure game developed by Atlus and directed by Katsura Hashino. It was released for both PlayStation 3 and Xbox 360.'
+	'Catherine'
 	);
+	
+	
 	preloadVideo(
 	'4',
 	'b_M-8O3vNBM',
-	'Naruto: Ultimate Ninja Storm',
-	'Naruto: Ultimate Ninja Storm is a 3D fighting game developed by CyberConnect2 and published by Namco Bandai. It was first released exclusively for PlayStation 3.'
+	'Naruto: Ultimate Ninja Storm'
 	);
 	preloadVideo(
 	'2',
 	'6H4264Uc8Iw',
-	'SoulCalibur IV',
-	'SoulCalibur IV is the fifth installment in the SoulCalibur fighting game series. It was developed by Project Soul and published by Namco. It was released for both PlayStation 3 and Xbox 360.'
+	'SoulCalibur IV'
 	);
 	preloadVideo(
 	'3',
 	'CTi3AEJqNbU',
-	'Persona 5',
-	'Persona 5 is a turn-based 3D action role-playing game developed by Atlus. It is the sixth game in the Persona series. It was released exclusively for both PlayStation 3 and PlayStation 4.'
+	'Persona 5'
+	);
+	
+	
+	preloadVideo(
+	'8',
+	'i44Lcx11z4k',
+	'Skate 3'
+	);
+	preloadVideo(
+	'9',
+	'ltmJYr_h144',
+	'Drakengard 3'
+	);
+	preloadVideo(
+	'10',
+	'V4DSA5I0Jfs',
+	'Tekken Tag Tournament 2'
 	);
 ?>
 <div id="page-con-content">
@@ -237,6 +250,9 @@
 				loadVideo('5', 'right');
 				loadVideo('6', 'left');
 				loadVideo('7', 'right');
+				loadVideo('8', 'left');
+				loadVideo('9', 'right');
+				loadVideo('10', 'left');
 			?>
 			</ul>
 			<div id='featured-con-block' class="div-content-ad">
