@@ -18,7 +18,7 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 
 #### Proprietary Technologies
 * Milk UX Engine Lite by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* RPCS3 Compatibility by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile")
+* Compatibility DB by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile")
 
 #### Web Technologies
 * HTML 5.0
