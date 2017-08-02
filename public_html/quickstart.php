@@ -348,7 +348,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							 You will need two different tools for dumping PlayStation 3 game discs from a computer using a Blu-ray drive:
+							 You will need three different tools for dumping PlayStation 3 game discs from a computer using a Blu-ray drive:
 						</p>
 						<br>
 						<p>
@@ -357,12 +357,15 @@
 						<p>
 							 • <a href='/cdn/tools/3k3y.zip' download>3k3y ISO Tools</a> - By the 3k3y team
 						</p>
+						<p>
+							 • <b class="txt-highlight">ISO Dumping Software</b>, such as <a href="http://www.imgburn.com/">ImgBurn</a>, for example.
+						</p>
 						<br>
 						<p>
 							 1. Insert a PlayStation 3 Blu-ray disc game of your choice.
 						</p>
 						<p>
-							 2. Dump the <b class="txt-highlight">.iso</b> image using a program like Alcohol 120%.
+							 2. Dump the <b class="txt-highlight">.iso</b> image using an ISO Dumping program such as ImgBurn.
 						</p>
 						<p>
 							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate <b class="txt-highlight">.ird</b> file that matches your game ID. If there isn't any .ird file that matches your game ID this unfortunately means you can't dump your disc using this method.
@@ -376,13 +379,13 @@
 								 6. Press <b class="txt-highlight">Patch</b> to apply the patch to the .iso file.
 							</p>
 							<p>
-								 7. Open <b class="txt-highlight">3k3y ISO Tools</b> and decrypt the .iso file.
+								 7. Open <b class="txt-highlight">3k3y ISO Tools</b>. Click the <b class="txt-highlight">ISO Crypto</b> option and select the dumped .iso file to decrypt it. Make sure the .iso file extension is in lower-case letters (.iso not .ISO), or the decryption will not work.
 							</p>
 							<p>
 								 8. Your game should now be properly decrypted.
 							</p>
 							<p>
-								 9. You must now <b class="txt-highlight">extract</b> your decrypted .iso file with an appropriate .iso extraction tool.
+								 9. While in 3k3y ISO Tools, in the Tools drop-down menu, select <b class="txt-highlight">ISO -> Extract ISO</b> and select the decrypted iso file to extract the game files (the decrypted iso file will have a .dec.iso file extension).
 							</p>
 							<p>
 								 10. You are now able to use your successfully dumped disc-based game with RPCS3.

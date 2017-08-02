@@ -108,11 +108,11 @@
 	font-family:arial;
 	font-size:14px;
 	font-weight: bold;
+	text-align: center;
 	position:relative;
 	overflow:hidden;
 	width:100%;
 	height:auto;
-	text-align:left;
 	color:#5e5e5e;
 	top: -9px;
 }

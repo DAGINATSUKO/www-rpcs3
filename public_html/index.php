@@ -145,7 +145,7 @@
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block'>
+			<div id='featured-con-block' style="margin-top: 20px;">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2 class="feature-1-title">Title</h2>

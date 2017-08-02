@@ -175,6 +175,7 @@
 	animation-name:zoomIn;
 	-webkit-animation-duration:.4s;
 	-webkit-animation-iteration-count: 1;
+	background: #000;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #spotlight-con-container {
@@ -332,8 +333,9 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #sidebar-con-top {
 	position:relative;
-	width:100%;
-	height:50%;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	height: 237px;
 	transition:.1s ease-in-out;
 }
 #sidebar-con-top:hover {
@@ -341,8 +343,9 @@
 }
 #sidebar-con-bottom {
 	position:relative;
-	width:100%;
-	height:50%;
+	margin-left: 8px;
+	margin-top: 8px;
+	height: 237px;
 	transition:.1s ease-in-out;
 }
 #sidebar-con-bottom:hover {
@@ -387,7 +390,7 @@
 	line-height:50px;
 	position:absolute;
 	z-index:2;
-	top:190px;
+	bottom: 0px;
 	width:100%;
 	height:50px;
 	text-align:center;
@@ -764,37 +767,30 @@
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #list-con-block {
 	position:relative;
-	display:block;
-	height:188px;
+	display: block;
+	height: 564px;
 	margin-bottom:20px;
 }
 #list-con-container {
 	position:relative;
-	display:block;
+	display: inline-block;
 	float:left;
-	width:25%;
-	min-height:100px;
+	width: 33.3333333333%;
+	height: auto;
 }
 #list-con-item {
 	font-family:arial;
 	font-size:14px;
 	line-height:46px;
 	height:46px;
-	margin-bottom:1px;
 	margin-left:1px;
-	padding-left:46px;
+	padding-left: 16px;
 	text-align:left;
 	color:#5e5e5e;
 	background:#fff;
-}
-#list-ico-item {
-	position:absolute;
-	left:0;
-	display:block;
-	width:46px;
-	height:46px;
-	background:url('/img/icons/list/featured.png') no-repeat center;
-	background-size: 12px;
+	position: relative;
+	/* margin-bottom: 10px; */
+	border-bottom: 1px solid #e4e4e4;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .txt-highlight {

@@ -34,7 +34,7 @@ echo "<li id='featured-con-grid' class='page-flx-item'>
 	</div>
 </div>
 <div id='featured-con-block' style='border-bottom: none !important; margin-bottom: 0px; !important;'>
-	<div id='featured-wrp-block' style='padding-bottom: 0px !important; left: 15px !important;'>
+	<div id='featured-wrp-block' style='padding-bottom: 0px !important;padding-right: 0px; left: 0px;'>
 		<div id='featured-tx1-grid'>
 			<h2 class=\"feature-{$id}-title\">Title</h2>
 		</div>

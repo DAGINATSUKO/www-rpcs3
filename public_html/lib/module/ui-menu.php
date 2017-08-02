@@ -62,7 +62,7 @@
 						<div id="submenu-ico-patreon">
 						</div>
 						<div id="submenu-btn-button">
-							<span>Patreon</span>
+							<span>Support with Patreon</span>
 						</div>
 					</div>
 					</a><a href="/alipay" target="_blank">
@@ -70,7 +70,7 @@
 						<div id="submenu-ico-alipay">
 						</div>
 						<div id="submenu-btn-button">
-							<span>Alipay</span>
+							<span>Support with Alipay</span>
 						</div>
 					</div>
 					</a><a href="https://github.com/RPCS3/rpcs3/wiki/Coding-Style" target="_blank">
@@ -78,7 +78,7 @@
 						<div id="submenu-ico-code">
 						</div>
 						<div id="submenu-btn-button">
-							<span>GitHub</span>
+							<span>Support with Code</span>
 						</div>
 					</div>
 					</a><a href="https://github.com/RPCS3/rpcs3/issues" target="_blank">
@@ -86,7 +86,7 @@
 						<div id="submenu-ico-testing">
 						</div>
 						<div id="submenu-btn-button">
-							<span>Testing</span>
+							<span>Support with Testing</span>
 						</div>
 					</div>
 					</a>

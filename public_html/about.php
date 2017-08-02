@@ -45,7 +45,7 @@
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
 							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently supports modern Vulkan, Direct3D 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.<br>
-							 <br>
+							<br>
 							 RPCS3 was founded by programmers DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today RPCS3 is dubbed one of the most complex video game console emulators of all time with an endless goal to effectively emulate the Sony PlayStation 3 and all of its aspects.
 						</p>
 					</div>
@@ -59,9 +59,9 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
-						The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems. All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation. Most of this information can be found on the <a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">PlayStation 3 Developer Wiki.</a><br>
-						<br>
-						 RPCS3 is not designed to enable illegal activity. Piracy will not be tolerated. Any users conversing about piracy upon joining the Discord server, forums or GitHub community will be re-directed elsewhere. Remember, the best way to play PlayStation 3 games is to play them on the <a href="https://www.playstation.com/en-gb/explore/ps3/" target="_blank">original hardware</a>. For now.
+							 The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems. All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation. Most of this information can be found on the <a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">PlayStation 3 Developer Wiki.</a><br>
+							<br>
+							 RPCS3 is not designed to enable illegal activity. Piracy will not be tolerated. Any users conversing about piracy upon joining the Discord server, forums or GitHub community will be re-directed elsewhere. Remember, the best way to play PlayStation 3 games is to play them on the <a href="https://www.playstation.com/en-gb/explore/ps3/" target="_blank">original hardware</a>. For now.
 						</p>
 					</div>
 				</div>
@@ -287,7 +287,7 @@
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
 						<div id='featured-tx1-block'>
-								<h2>
+							<h2>
 							<p style="float: left;">
 								 hcorion
 							</p>
@@ -314,7 +314,7 @@
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
 						<div id='featured-tx1-block'>
-								<h2>
+							<h2>
 							<p style="float: left;">
 								 flash-fire
 							</p>
@@ -340,7 +340,7 @@
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
 						<div id='featured-tx1-block'>
-								<h2>
+							<h2>
 							<p style="float: left;">
 								 Megamouse
 							</p>
@@ -366,7 +366,7 @@
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
 						<div id='featured-tx1-block'>
-								<h2>
+							<h2>
 							<p style="float: left;">
 								 GalCiv
 							</p>
@@ -502,7 +502,7 @@
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
 						<div id='featured-tx1-block'>
-								<h2>
+							<h2>
 							<p style="float: left;">
 								 Dangles
 							</p>
@@ -519,8 +519,7 @@
 							</p>
 						</div>
 					</div>
-				</div>	
-				
+				</div>
 			</div>
 			<!-- End -->
 			<div class="div-heading" id="featured-tx1-heading">
@@ -797,7 +796,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								16-Bit Blast Processing is an avid PlayStation enthusiast and gamer with a passion for emulation. He believes in the idea of being able to run PlayStation format software on different platforms. Furthermore, he produces gameplay videos covering RPCS3's growing compatibility.
+								 16-Bit Blast Processing is an avid PlayStation enthusiast and gamer with a passion for emulation. He believes in the idea of being able to run PlayStation format software on different platforms. Furthermore, he produces gameplay videos covering RPCS3's growing compatibility.
 							</p>
 						</div>
 					</div>
