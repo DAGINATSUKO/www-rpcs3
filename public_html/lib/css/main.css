@@ -469,6 +469,18 @@
 	padding-left:50px;
 	color:#fff;
 }
+#featured-tx1-grid {
+	font-family:arial;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	height:auto;
+	color:#5e5e5e;
+	top: -9px;
+}
 #featured-ico-author {
 	position:absolute;
 	width:50px;
@@ -817,6 +829,12 @@
 	background: #20b2aa;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+.div-anchor {
+    height: 1px;
+    background: red;
+    position: absolute;
+    top: -82px;
+}
 .div-heading {
 	margin-top:-8px;
 }
