@@ -70,8 +70,8 @@
 					<div id='featured-tx2-block'>
 						<p>
 							 For Windows users, you must drag and drop the updated<b class="txt-highlight">executable</b> to the root directory of your RPCS3 folder. Moving over other files is not necessary and may overwrite user settings. In some cases, the GUIconfigs folder may need to be deleted and regenerated as new features are added to the user interface.<br>
-							 <br>
-							  For Linux users, you must download the updated <b class="txt-highlight">AppImage</b> and make it executable with the command <b class="txt-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
+							<br>
+							 For Linux users, you must download the updated <b class="txt-highlight">AppImage</b> and make it executable with the command <b class="txt-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
 						</p>
 					</div>
 				</div>

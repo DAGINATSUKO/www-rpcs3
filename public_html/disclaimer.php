@@ -102,7 +102,7 @@
 					</div>
 					<div id='featured-tx2-block'>
 						<p>
-							The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems. All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation. Most of this information can be found on the <a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">PlayStation 3 Developer Wiki.</a>
+							 The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems. All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation. Most of this information can be found on the <a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">PlayStation 3 Developer Wiki.</a>
 						</p>
 					</div>
 				</div>

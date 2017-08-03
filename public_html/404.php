@@ -12,9 +12,10 @@
 <?php include 'lib/module/call-meta.php';?>
 </head>
 <?php include 'lib/module/call-sys.php';?>
-<body style="background:#5e32eb;">
+<body class="img-error">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
+<div id='img-overlay'></div>
 	<div class="visual-wavebar">
 	</div>
 	<div id='error-con-content'>

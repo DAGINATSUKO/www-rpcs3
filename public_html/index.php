@@ -30,8 +30,6 @@
 	'c7Oq5O7uX0E',
 	'Catherine'
 	);
-	
-	
 	preloadVideo(
 	'4',
 	'b_M-8O3vNBM',
@@ -39,16 +37,14 @@
 	);
 	preloadVideo(
 	'2',
-	'6H4264Uc8Iw',
-	'SoulCalibur IV'
+	'ft_DCkszprc',
+	'Kingdom Hearts 1.5 and 2.5 HD Remix'
 	);
 	preloadVideo(
 	'3',
 	'CTi3AEJqNbU',
 	'Persona 5'
 	);
-	
-	
 	preloadVideo(
 	'8',
 	'i44Lcx11z4k',
@@ -157,17 +153,17 @@
 					</div>
 				</div>
 			</div>
-			<div id='featured-wrp-panel'>
+			<div id="featured-wrp-panel">
 				<!-- End -->
-				<a href='https://rpcs3.net/blog/2017/07/03/progress-report-june-2017/' target="_blank">
-				<div id='featured-con-panel' class="div-panel-left" style="background:#fff url('/img/panels/report.jpg') no-repeat center; background-size: cover; ">
-					<div id='featured-ovr-panel'>
+				<a href="https://rpcs3.net/blog/2017/08/03/progress-report-july-2017/" target="_blank">
+				<div id="featured-con-panel" class="div-panel-left" style="background:#fff url('/img/panels/report.jpg') no-repeat center; background-size: cover; ">
+					<div id="featured-ovr-panel">
 					</div>
-					<div id='featured-ico-panel' style="background: url('/img/icons/panels/report.png') no-repeat center; background-size: 130px;">
+					<div id="featured-ico-panel" style="background: url('/img/icons/panels/report.png') no-repeat center; background-size: 130px;">
 					</div>
-					<div id='featured-tx3-panel'>
+					<div id="featured-tx3-panel">
 						<p>
-							 JUNE 2017 PROGRESS
+							 JULY 2017 PROGRESS
 						</p>
 					</div>
 				</div>

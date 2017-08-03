@@ -745,8 +745,9 @@
 	top:50%;
 	left:50%;
 	width:500px;
-	height:110px;
-	margin:-55px -250px;
+	height: 146px;
+	margin: -73px -250px;
+	z-index: 9999;
 }
 #error-ico-content {
 	position:relative;
@@ -960,6 +961,30 @@
 }
 .div-role-ccdev {
 	background-color: #e68364 !important;
+}
+#img-overlay {
+	position:fixed;
+	z-index: 1;
+	width:100%;
+	height:100%;
+	background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+.img-error {
+	background-image: url(/img/panels/error.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	position: absolute;
+}
+.img-alipay {
+	background-image: url(/img/panels/alipay.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	position: absolute;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .div-roadmap-git p:first-child {

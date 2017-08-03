@@ -203,7 +203,7 @@
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-qrc-alipay {
-	position:absolute;
+	position: fixed;
 	top:50%;
 	left:50%;
 	width:400px;
@@ -217,19 +217,24 @@
 	image-rendering:-moz-crisp-edges;
 	image-rendering:-o-crisp-edges;
 	image-rendering: -webkit-optimize-contrast;
+	z-index: 1;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	-webkit-animation-duration: .5s;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-con-footer {
 	font-family:arial;
 	font-size:12px;
 	line-height:62px;
-	position:absolute;
+	position: fixed;
 	bottom:0;
 	width:100%;
 	height:62px;
 	text-align:center;
 	color:#fff;
 	border-top: solid 1px rgba(255,255,255,.1);
+	z-index: 1;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #navsidebar-con-container {

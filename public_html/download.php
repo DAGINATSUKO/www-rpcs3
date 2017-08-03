@@ -20,7 +20,6 @@ if (file_exists('lib/compat/utils.php')) {
 	$win = getLatestWindowsBuild();
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
-	
 	$win_url = "https://ci.appveyor.com/project/rpcs3/rpcs3/build/{$win[0]}/artifacts";
 	$win_name = "v{$win[0]} Alpha [{$win[1]}]";
 	$linux_button = ''; // Does not disable Linux button
@@ -67,7 +66,8 @@ if (file_exists('lib/compat/utils.php')) {
 					<div id='featured-tx2-block'>
 						<p class="download-desc">
 							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site. <br>
-							 <br>RPCS3 for Linux uses the AppImage file format. AppImages can be downloaded and ran without an installation or the need for root rights. To run the AppImage file execute, <b class="txt-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
+							<br>
+							 RPCS3 for Linux uses the AppImage file format. AppImages can be downloaded and ran without an installation or the need for root rights. To run the AppImage file execute, <b class="txt-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
 						</p>
 					</div>
 				</div>
@@ -84,7 +84,7 @@ if (file_exists('lib/compat/utils.php')) {
 							 Download for Windows
 						</p>
 						<p style="font-size:12px;">
-							 <?php echo $win_name; ?>
+							<?php echo $win_name; ?>
 						</p>
 					</div>
 				</div>
@@ -92,16 +92,17 @@ if (file_exists('lib/compat/utils.php')) {
 			</a>
 			<!-- End -->
 			<a href='<?php echo $linux_url; ?>' target="_blank">
-			<div id='featured-con-button' class="div-download-right<?php echo $linux_button; ?>">
+			<div id='featured-con-button' class="div-download-right<?php echo $linux_button; ?>
+				 ">
 				<div id='featured-wrp-button' style="width: 344px; margin: 0 -178px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/linux.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
 						<p>
-							Download for Linux
+							 Download for Linux
 						</p>
 						<p style="font-size:12px;">
-							 <?php echo $linux_name; ?>
+							<?php echo $linux_name; ?>
 						</p>
 					</div>
 				</div>

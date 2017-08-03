@@ -12,10 +12,10 @@
 <?php include 'lib/module/call-meta.php';?>
 </head>
 <?php include 'lib/module/call-sys.php';?>
-<body style="background-image: url(/img/panels/donate.jpg); background-repeat: no-repeat; background-size: cover; height: 100%; background-attachment: fixed; background-position: center; position: absolute;">
+<body class="img-alipay">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
-	<div id='menu-con-dim'>
+<div id='img-overlay'></div>
 		<a href='/img/icons/donate/alipay-qr.png' target="_blank">
 		<div id='donate-qrc-alipay'>
 		</div>
@@ -26,6 +26,5 @@
 			</p>
 		</div>
 	</div>
-</div>
 </body>
 </html>
