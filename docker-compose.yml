@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    php:
+        image: rpcs3/web:dev
+        build: .
+        ports:
+            - 8080:80
+        volumes:
+            - /var/www/html
+            - ./public_html:/var/www/html
+            - ./.htaccess.dev:/var/www/html/.htaccess
