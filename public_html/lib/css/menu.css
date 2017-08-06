@@ -12,6 +12,9 @@
 	background: #ff3434;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
+.div-menubar-opacity {
+	background: rgba(94,50,235,.95) !important;
+}
 #menu-con-menubar {
 	position:fixed;
 	z-index: 9997;
@@ -20,9 +23,6 @@
 	height:auto;
 	transition:.4s ease-in-out;
 	background:rgba(94,50,235,.6);
-}
-.div-menubar-opacity {
-	background: rgba(94,50,235,.95) !important;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-con-container {
@@ -269,6 +269,7 @@
 	width:100%;
 	height:100%;
 	background: rgba(0,0,0,.2);
+	display:none;
 }
 #navsidebar-con-anim {
 	position:fixed;

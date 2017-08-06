@@ -18,7 +18,7 @@
 <div id='img-overlay'></div>
 	<div class="visual-wavebar">
 	</div>
-	<div id='error-con-content'>
+	<div id="error-con-content">
 		<div id='error-ico-content' style="background: url('/img/icons/errors/404.png') no-repeat center; background-size:40px;">
 		</div>
 		<div id='error-tx1-content'>

@@ -33,7 +33,7 @@
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<!-- End -->
-			<div id='featured-con-block'>
+			<div id="featured-con-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block'>
 						<h2>What is RPCS3 licensed under? </h2>

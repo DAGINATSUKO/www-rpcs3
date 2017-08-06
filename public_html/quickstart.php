@@ -24,7 +24,7 @@
 			<div id='header-tx1-body'>
 				<span>QUICKSTART</span>
 			</div>
-			<div id='header-tx2-body'>
+			<div id="header-tx2-body">
 				<p>
 					 Get started using RPCS3 on your PC
 				</p>

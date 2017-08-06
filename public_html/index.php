@@ -132,7 +132,7 @@
 						<div id='featured-con-author'>
 							<div id='featured-ico-author'>
 							</div>
-							<div id='featured-tx1-author'>
+							<div id="featured-tx1-author">
 								<p class="feature-1-author">
 									 Author
 								</p>

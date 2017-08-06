@@ -38,7 +38,7 @@ if (file_exists('lib/compat/utils.php')) {
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
 		</div>
-		<div id='header-con-overlay'>
+		<div id="header-con-overlay">
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>

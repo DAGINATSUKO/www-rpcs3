@@ -17,10 +17,10 @@
 <div id="page-con-content">
 <div id='img-overlay'></div>
 		<a href='/img/icons/donate/alipay-qr.png' target="_blank">
-		<div id='donate-qrc-alipay'>
+		<div id="donate-qrc-alipay">
 		</div>
 		</a>
-		<div id='donate-con-footer'>
+		<div id="donate-con-footer">
 			<p>
 				© Copyright 2004-2017 Alipay. All rights reserved.
 			</p>
