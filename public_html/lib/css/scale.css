@@ -60,20 +60,3 @@
 		display:none !important;
 	}
 }
-@media screen and (max-width:1120px) {
-	#bulletin-btn-open {
-		top:60px !important;
-		display:none;
-		width:100% !important;
-		height:60px !important;
-		margin:0 !important;
-		background:#fff url(/img/icons/menu/bulletin.png) no-repeat center !important;
-		background-size:20px !important;
-	}
-}
-@media screen and (max-width:1120px) {
-	#bulletin-btn-open:hover {
-		background:#002556 url('/img/icons/menu/bulletin-h.png') no-repeat center !important;
-		background-size: 20px !important;
-	}
-}
