@@ -434,7 +434,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 O1L is a contributor and team member for RPCS3 and currently does not have a member description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 O1L is a contributor and team member for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
@@ -460,7 +460,7 @@
 						</div>
 						<div id='featured-tx2-block'>
 							<p>
-								 Clienthax is a debugger and team member for RPCS3 and currently does not have a member description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 Clienthax is a debugger and team member for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
 						</div>
 					</div>
