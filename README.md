@@ -41,6 +41,17 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Opera Software Opera](http://www.opera.com/)
 
+## Development
+Your only requirement is [Docker](http://docker.com/getdocker)!
+
+To run the application, just do:
+
+```shell
+docker-compose up
+```
+
+Then browse to [localhost:8080](http://localhost:8080)!
+
 ## Deployment
 Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly.
 
@@ -57,3 +68,4 @@ For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS
 * 04-26-2017 - RPCS3.net Manta UX Lite port started by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 05-01-2017 - RPCS3.net 2.0 Alpha launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 08-02-2017 - RPCS3.net 2.0 Beta launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 08-04-2017 - Development improvements with Docker from [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
