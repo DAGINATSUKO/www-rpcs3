@@ -282,6 +282,9 @@
 							 • ASUS <b class="txt-highlight">BC-12D2HT</b>
 						</p>
 						<p>
+							 • ASUS <b class="txt-highlight">BW-12B1ST</b>
+						</p>
+						<p>
 							 • ASUS <b class="txt-highlight">BW-16D1HT</b>
 						</p>
 						<p>
