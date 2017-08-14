@@ -487,7 +487,7 @@
 							<br>
 							<p>
 								<b>Invalidate cache every frame</b><br>
-								 Helps improve the way shadows are handled by very select few games. Only disable this option if necessary.
+								 Helps improve the way shadows are handled by very select few games. Only enable this option if necessary.
 							</p>
 							<br>
 							<p>
