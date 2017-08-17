@@ -20,8 +20,10 @@ if (file_exists('lib/compat/utils.php')) {
 	$win = getLatestWindowsBuild();
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
-	$win_url = "https://ci.appveyor.com/project/rpcs3/rpcs3/build/{$win[0]}/artifacts";
-	$win_name = "v{$win[0]} Alpha [{$win[1]}]";
+	// $win_url = "https://ci.appveyor.com/project/rpcs3/rpcs3/build/{$win[0]}/artifacts";
+	// TODO: TEMPORARY, WHILE FIXING
+	$win_url = "https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts";
+	$win_name= "v{$win[0]} Alpha [{$win[1]}]";
 	$linux_button = ''; // Does not disable Linux button
 	$linux_ver = explode("-", substr($linux[0], 6), 2)[0]; // Extract everything after rpcs3- until next - appears for version indicator
 	$linux_name = $linux_ver.substr($linux[0], 23)." [{$linux[1]}]"; // Display formatted filename
@@ -38,7 +40,7 @@ if (file_exists('lib/compat/utils.php')) {
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
 		</div>
-		<div id="header-con-overlay">
+		<div id='header-con-overlay'>
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
