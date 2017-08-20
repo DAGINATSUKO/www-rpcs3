@@ -411,7 +411,7 @@
 						<div id='featured-tx2-block'>
 							<p>
 								<b>PPU Interpreter (Precise)</b><br>
-								 Currently not available. Will provide more accurate real-time PPU emulation, at the cost of speed.
+								 Currently not finished. Will provide more accurate real-time PPU emulation, at the cost of speed.
 							</p>
 							<br>
 							<p>
@@ -452,7 +452,7 @@
 						<div id='featured-tx2-block'>
 							<p>
 								<b>Renderer</b><br>
-								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (DirectX 12) is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then DirectX 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (Direct3D 12) is only compatible with Windows 10. OpenGL will always be the most accurate renderer followed by Vulkan and then Direct3D 12. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
 							</p>
 							<br>
 							<p>
@@ -462,7 +462,7 @@
 							<br>
 							<p>
 								<b>Graphics Device</b><br>
-								 Allows you to select your preferred D3D12 or VK device when using either the DirectX 12 or Vulkan graphics APIs.
+								 Allows you to select your preferred D3D12 or VK device when using either the Direct3D 12 or Vulkan graphics APIs.
 							</p>
 							<br>
 							<p>
@@ -476,18 +476,13 @@
 							</p>
 							<br>
 							<p>
-								<b>Read/Write Color buffers</b><br>
-								 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color buffers options.
-							</p>
-							<br>
-							<p>
-								<b>Read/Write Depth buffers</b><br>
-								 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Read Color buffers options.
+								<b>Write Color buffers</b><br>
+								 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Write Color buffers options.
 							</p>
 							<br>
 							<p>
 								<b>Invalidate cache every frame</b><br>
-								 Helps improve the way shadows are handled by very select few games. Only enable this option unless absolutely necessary.
+								 Helps improve the way shadows are handled by very select few games. Only enable this option if necessary.
 							</p>
 							<br>
 							<p>

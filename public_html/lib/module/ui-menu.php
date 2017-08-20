@@ -36,9 +36,9 @@
 			<div id="menu-btn-select" style="pointer-events: none;">
 				<span>|</span>
 			</div>
-			<a href='http://www.emunewz.net/forum/forumdisplay.php?fid=172' target="_blank">
-			<div id="menu-btn-select" title="Forum">
-				<span>Forum</span>
+			<a href='https://forums.rpcs3.net' target="_blank">
+			<div id="menu-btn-select" title="Forums">
+				<span>Forums</span>
 			</div>
 			</a><a href='https://discord.me/RPCS3' target="_blank">
 			<div id="menu-btn-select" title="Discord">
