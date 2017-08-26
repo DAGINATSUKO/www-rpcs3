@@ -1,3 +1,24 @@
+/* Handles Lightmode toggles */
+$(document).ready(function() {
+	$('.toggle-lightmode').on('click', function (e) {
+		$('body').toggleClass("swap-bg");
+		$('.lightmode-header').toggleClass("swap-header");
+		$('.lightmode-menubar').toggleClass("swap-menubar");
+		$('.lightmode-block').toggleClass("swap-block");
+		$('.lightmode-panel').toggleClass("swap-panel");
+		$('.lightmode-panel-2').toggleClass("swap-panel-ovr");
+		$('.lightmode-txt').toggleClass("swap-txt");
+		$('.lightmode-ad').toggleClass("swap-ad");
+		$('.lightmode-wavebar').toggleClass("swap-wavebar");
+		$('.lightmode-highlight').toggleClass("swap-highlight");
+		$('.lightmode-menubar-level1').toggleClass("swap-menubar-level1");
+		$('.lightmode-menubar-level2').toggleClass("swap-menubar-level2");
+		$('.lightmode-navsidebar-title').toggleClass("swap-navsidebar-title");
+		$('.lightmode-navsidebar-anim').toggleClass("swap-navsidebar-anim");
+		$('.lightmode-navsidebar-txt').toggleClass("swap-navsidebar-txt");
+		$('.lightmode-buttons').toggleClass("swap-buttons");
+	});
+});
 /* Randomly loads banner image for each page */
 $(document).ready(function() {
     var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg', '21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg', '31.jpg', '32.jpg', '33.jpg', '34.jpg', '35.jpg', '36.jpg', '37.jpg', '38.jpg', '39.jpg', '40.jpg'];
@@ -5,7 +26,37 @@ $(document).ready(function() {
         'background': 'no-repeat center top url(/img/banners/' + images[Math.floor(Math.random() * images.length)] + ')'
     });
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/* Handles menubar opacity swap on scroll */
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 60) {
+        $("#menu-und-level1").fadeIn(100);
+    } else {
+        $("#menu-und-level1").fadeOut(100);
+    }
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 60) {
+        $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
+    } else {
+        $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
+    }
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 400) {
+        $("#menu-und-level2").fadeIn(100);
+    } else {
+        $("#menu-und-level2").fadeOut(100);
+    }
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 400) {
+        $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
+    }
+});
 /* Handles standard wavebar animation */
 $(document).ready(function() {
     var $wavebarFX = $(".visual-wavebar-1"),
@@ -26,17 +77,6 @@ $(document).ready(function() {
         $wavebar.appendTo($wavebarFX);
     }
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-/* Handles menubar opacity swap on scroll */
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    if (scroll >= 400) {
-        $("#menu-con-menubar ").addClass("div-menubar-opacity ");
-    } else {
-        $("#menu-con-menubar ").removeClass("div-menubar-opacity ");
-    }
-});
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles all fade on scroll events */
 $(document).ready(function() {
     $('.delayed-fade').delay(500).fadeIn();
@@ -48,7 +88,6 @@ $(window).scroll(function() {
         $('.fade-on-scroll').fadeOut(100);
     }
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles anchor links */
 $(document).ready(function() {
     $('a[rel="anchor"]').click(function() {
@@ -58,7 +97,6 @@ $(document).ready(function() {
         return false;
     });
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles all submenu rollovers */
 $(document).ready(function() {
     $(function() {
@@ -69,7 +107,6 @@ $(document).ready(function() {
         });
     });
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles pre-load and unload of video iframes */
 $(document).ready(function() {
     $(".page-video-1").click(function() {
@@ -113,7 +150,6 @@ $(document).ready(function() {
         iframe.attr("src", iframe.data("src"));
     });
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles menu toggles */
 $(document).ready(function() {
     $(".toggle-menu").hide();
@@ -144,7 +180,6 @@ $(document).ready(function() {
         $(".toggle-navsidebar").fadeOut(100);
     });
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles featured video #1 toggle */
 $(document).ready(function() {
     $(".toggle-video-1").hide();
@@ -237,7 +272,6 @@ $(document).ready(function() {
         $(".toggle-video-10").fadeOut('fast');
     });
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 /* Handles start and stop of featured video #1 */
 $(document).ready(function() {
     $(function() {
@@ -358,7 +392,6 @@ $(document).ready(function() {
         }
     });
 });
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
  /* Handles fullscreen announcement toggles */
  $(document).ready(function() {
    $('#announce-btn-overlay').mouseover(function() {

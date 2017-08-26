@@ -17,7 +17,7 @@
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
 		</div>
-		<div id='header-con-overlay'>
+		<div id='header-con-overlay' class="lightmode-header">
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
@@ -31,7 +31,7 @@
 		</div>
 	</div>
 	<div id="page-con-container">
-		<div id="page-in-container" class="div-roadmap-git">
+		<div id="page-in-container" class="div-roadmap-git lightmode-block">
 			<?php
 				if (file_exists('cache/roadmap_cached.php')) {
 					include 'cache/roadmap_cached.php';

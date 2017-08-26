@@ -1,23 +1,21 @@
 <footer>
 <div id="footer-con-wrapper">
-	<div id="footer-ovr-wrapper">
+	<div id="footer-ico-wrapper">
 	</div>
-	<div class="visual-wavebar-1">
+	<div id="footer-con-overlay" class="lightmode-header">
 	</div>
-	<div class="visual-wavebar-1 delayed-fade" style="display:none;">
+	<div class="visual-wavebar-1 lightmode-wavebar">
+	</div>
+	<div class="visual-wavebar-1 delayed-fade lightmode-wavebar" style="display:none;">
 	</div>
 	<div id="footer-con-credits">
-		<div id='footer-tx1-credits' title="Copyright © 2011 - 2017 RPCS3">
+		<div id='footer-tx1-credits'>
 			<p>
-				Copyright © 2011 - 2017 RPCS3
-			</p>
-		</div>
-		<div id='footer-tx2-credits'>
-			<p>
-				 <a href='https://github.com/DAGINATSUKO' target="_blank" title="View DAGINATSUKO's GitHub">Website by DAGINATSUKO</a>
-				&nbsp; <a href='https://github.com/AniLeo' target="_blank" title="View AniLeo's GitHub">Compatibility DB by AniLeo</a>
-				&nbsp; <a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank" title="View source code on GitHub">Website Source</a>
-				&nbsp; <a href='/disclaimer' title="View legal disclaimer">Legal Disclaimer</a>
+				<a href='https://github.com/DAGINATSUKO' target="_blank" title="View DAGINATSUKO's GitHub profile">Website by DAGINATSUKO</a>
+				&nbsp; &nbsp;<a href='https://github.com/AniLeo' target="_blank" title="View AniLeo's GitHub profile">Compatibility List by AniLeo</a>
+				&nbsp; &nbsp;<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank" title="Download this website's source code on GitHub">Website Source</a>
+				&nbsp; &nbsp;<a href='/disclaimer' title="View legal disclaimer">Disclaimer</a>
+				&nbsp; &nbsp; Copyright © 2017
 			</p>
 		</div>
 	</div>

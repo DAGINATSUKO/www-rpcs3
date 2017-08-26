@@ -2,14 +2,6 @@ ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 	margin:0;
 	padding:0;
 }
-body {
-	font-family:inherit;
-	font-size:inherit;
-	font-weight:inherit;
-	line-height:inherit;
-	text-align:inherit;
-	background:#f2f2f2;
-}
 h1,h2,h3,h4,h5,p {
 	font-family:inherit;
 	font-size:inherit;
@@ -17,6 +9,14 @@ h1,h2,h3,h4,h5,p {
 	line-height:inherit;
 	text-align:inherit;
 	color:inherit;
+}
+body {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	line-height:inherit;
+	text-align:inherit;
+	background:#f2f2f2;
 }
 ul,li {
 	font-family:inherit;
@@ -39,19 +39,19 @@ b {
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 a:visited {
 	text-decoration:none;
-	color:#06c;
+	color:#3198ff;
 }
 a:active {
 	text-decoration:none;
-	color:#06c;
+	color:#3198ff;
 }
 a:link {
 	text-decoration:none;
-	color:#06c;
+	color:#3198ff;
 }
 a:hover {
 	text-decoration:underline;
-	color:#06c;
+	color:#3198ff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/::-webkit-scrollbar {
 	width:10px;
@@ -90,10 +90,10 @@ table {
 	width:100%;
 	border-spacing:0;
 	border-collapse:collapse;
-	color: #fff;
+	color:#fff;
 }
 tr:last-child {
-    border-bottom: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 tr {

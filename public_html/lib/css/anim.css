@@ -18,6 +18,10 @@
 	background: #fff;
 	opacity: 0.05;
 	pointer-events: none;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 .wavebar-2 {
 	position:absolute;
@@ -33,6 +37,10 @@
 	background: #fff;
 	opacity: .05;
 	pointer-events: none;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 @-webkit-keyframes tide {
 	0% {

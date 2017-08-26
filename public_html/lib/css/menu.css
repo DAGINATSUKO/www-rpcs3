@@ -9,22 +9,30 @@
 	height:40px;
 	text-align:center;
 	color:#fff;
-	background: #ff3434;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-.div-menubar-opacity {
-	background: rgba(94,50,235,.95) !important;
+	background:#ff3434;
 }
 #menu-con-menubar {
 	position:fixed;
-	z-index: 9997;
+	z-index:9997;
 	top:0;
 	width:100%;
 	height:auto;
-	transition:.4s ease-in-out;
-	background:rgba(94,50,235,.6);
+	border-bottom:solid 1px rgba(255,255,255,.1);
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#menu-und-level1 {
+	position:absolute;
+	display:none;
+	width:100%;
+	height:100%;
+	background:linear-gradient(to right,rgba(166,0,217,.6),rgba(0,196,255,.6));
+}
+#menu-und-level2 {
+	position:absolute;
+	display:none;
+	width:100%;
+	height:100%;
+	background:linear-gradient(to right,rgba(166,0,217,.9),rgba(0,196,255,.9));
+}
 #menu-con-container {
 	position:relative;
 	top:0;
@@ -36,9 +44,8 @@
 #menu-in-container {
 	max-width:1100px;
 	min-height:60px;
-	margin: 0 auto;
+	margin:0 auto;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-ico-logo {
 	position:relative;
 	z-index:1;
@@ -50,15 +57,14 @@
 	height:60px;
 	margin-right:20px;
 	background:url('/img/icons/menu/logo.png') no-repeat center;
-	background-size: 32px;
+	background-size:32px;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #submenu-con-container {
 	position:relative;
 	top:62px;
-	left: -55px;
+	left:-55px;
 	display:none;
-	width: 195px;
+	width:195px;
 	height:120px;
 	-webkit-animation-name:fadeIn;
 	animation-name:fadeIn;
@@ -73,7 +79,7 @@
 	background:#fff;
 }
 #submenu-con-wrapper:hover {
-	background:#5e32eb;
+	background:#4c5bd7;
 }
 #submenu-con-wrapper:hover #submenu-btn-button {
 	color:#fff;
@@ -92,9 +98,8 @@
 }
 #submenu-con-wrapper:hover #submenu-ico-testing {
 	background:url('/img/icons/submenu/testing-h.png') no-repeat center;
-	background-size: 18px;
+	background-size:18px;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #submenu-btn-button {
 	font-family:arial;
 	font-size:14px;
@@ -106,9 +111,8 @@
 	height:46px;
 	text-align:left;
 	pointer-events:none;
-	color: #5e5e5e;
+	color:#5e5e5e;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #submenu-ico-patreon {
 	display:inline-block;
 	float:left;
@@ -139,9 +143,8 @@
 	width:46px;
 	height:46px;
 	background:url('/img/icons/submenu/testing.png') no-repeat center;
-	background-size: 22px;
+	background-size:22px;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-btn-select {
 	font-family:arial;
 	font-size:14px;
@@ -160,9 +163,29 @@
 }
 #menu-btn-select:hover {
 	height:60px;
-	border-bottom: 2px solid #fff;
+	border-bottom:2px solid #fff;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
+#menu-btn-lights {
+	position:fixed;
+	z-index:9998;
+	top:0;
+	right:0;
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	transition:.1s ease-in-out;
+	pointer-events:none;
+	opacity:0;
+	border-bottom:solid 2px rgba(255,255,255,0);
+	background:url(/img/icons/menu/lights.png) no-repeat center;
+	background-size:20px;
+}
+#menu-btn-lights:hover {
+	width:60px;
+	height:60px;
+	transition:.1s ease-in-out;
+	border-bottom:solid 2px #fff;
+}
 #menu-tx1-support {
 	font-family:arial;
 	font-size:14px;
@@ -180,7 +203,7 @@
 	height:60px;
 	cursor:pointer;
 	background:url('/img/icons/buttons/patreon.png') no-repeat center;
-	background-size:25px;
+	background-size:20px;
 }
 #menu-con-support {
 	position:relative;
@@ -191,91 +214,88 @@
 	height:60px;
 	cursor:pointer;
 	transition:.1s ease-in-out;
-	border-bottom: 2px solid rgba(0,0,0,.0);
+	border-bottom:2px solid rgba(0,0,0,.0);
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #menu-con-dim {
 	position:fixed;
-	z-index: 9996;
+	z-index:9996;
 	width:100%;
 	height:100%;
-	background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
+	background:linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-qrc-alipay {
-	position: fixed;
+	position:fixed;
+	z-index:1;
 	top:50%;
 	left:50%;
 	width:400px;
 	height:600px;
 	margin:-300px -200px;
 	cursor:pointer;
+	-webkit-animation-name:fadeInUp;
+	animation-name:fadeInUp;
+	-webkit-animation-duration:.5s;
 	border-radius:6px;
 	background:#fff url('/img/icons/donate/alipay-qr.png') no-repeat center;
 	background-size:388px;
 	image-rendering:-moz-crisp-edges;
 	image-rendering:-moz-crisp-edges;
 	image-rendering:-o-crisp-edges;
-	image-rendering: -webkit-optimize-contrast;
-	z-index: 1;
-	-webkit-animation-name: fadeInUp;
-	animation-name: fadeInUp;
-	-webkit-animation-duration: .5s;
+	image-rendering:-webkit-optimize-contrast;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #donate-con-footer {
 	font-family:arial;
 	font-size:12px;
 	line-height:62px;
-	position: fixed;
+	position:fixed;
+	z-index:1;
 	bottom:0;
 	width:100%;
 	height:62px;
 	text-align:center;
 	color:#fff;
-	border-top: solid 1px rgba(255,255,255,.1);
-	z-index: 1;
+	border-top:solid 1px rgba(255,255,255,.1);
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #navsidebar-con-container {
 	position:relative;
-	-webkit-animation-duration: .4s;
-	-webkit-animation-name: fadeInLeft;
-	animation-name: fadeInLeft;
+	-webkit-animation-name:fadeInLeft;
+	animation-name:fadeInLeft;
+	-webkit-animation-duration:.4s;
 }
 #navsidebar-btn-open {
 	position:fixed;
-	z-index: 9998;
-	top: 0px;
+	z-index:9998;
+	top:0;
 	left:0;
-	width: 60px;
-	height: 60px;
+	width:60px;
+	height:60px;
 	cursor:pointer;
-	transition: .1s ease-in-out;
-	background: url(/img/icons/menu/menu.png) no-repeat center;
+	transition:.1s ease-in-out;
+	border-bottom:solid 2px rgba(255,255,255,0);
+	background:url(/img/icons/menu/menu.png) no-repeat center;
 	background-size:20px;
-	border-bottom: solid 2px rgba(255, 255, 255, 0);
 }
 #navsidebar-btn-open:hover {
-	width: 60px;
-	height: 60px;
-	transition: .1s ease-in-out;
-	border-bottom: solid 2px #fff;
+	width:60px;
+	height:60px;
+	transition:.1s ease-in-out;
+	border-bottom:solid 2px #fff;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #navsidebar-con-dim {
 	position:fixed;
 	z-index:9998;
+	display:none;
 	width:100%;
 	height:100%;
-	background: rgba(0,0,0,.2);
-	display:none;
+	background:rgba(0,0,0,.2);
 }
 #navsidebar-con-anim {
 	position:fixed;
 	z-index:9999;
 	top:0;
-	width: 370px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	width:370px;
 	height:100%;
 	transition:all .2s ease-in-out;
 	-webkit-animation-name:fadeInLeft;
@@ -283,55 +303,55 @@
 	-webkit-animation-duration:.2s;
 	-webkit-animation-iteration-count:1;
 	background:#fff;
-	overflow-y:scroll;
-	overflow-x: hidden;
+	-webkit-box-shadow:0 0 34px 0 rgba(0,0,0,.2);
+	-moz-box-shadow:0 0 34px 0 rgba(0,0,0,.2);
+	box-shadow:0 0 34px 0 rgba(0,0,0,.2);
 	-webkit-overflow-scrolling:touch;
 }
 #navsidebar-con-anim::-webkit-scrollbar {
+	display:none;
 	width:5px;
-	display: none;
 }
 #navsidebar-tx1-title {
 	font-family:arial;
-	font-size: 14px;
+	font-size:14px;
 	line-height:60px;
-	position: relative;
-	height: 62px;
-	width: 350px;
+	position:relative;
+	z-index:2;
+	width:350px;
+	height:62px;
 	padding-left:20px;
-	color: #fff;
-	background: #5e32eb;
-	z-index: 2;
+	color:#fff;
+	background:#4c5bd7;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #navsidebar-tx1-topic {
-	font-family: arial;
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 50px;
-	position: relative;
-	padding-left: 20px;
-	height: 50px;
-	text-align: left;
-	color: #5e5e5e;
-	position: relative;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	line-height:50px;
+	position:relative;
+	position:relative;
+	height:50px;
+	padding-left:20px;
+	text-align:left;
+	color:#5e5e5e;
 }
 #navsidebar-tx2-topic {
-	font-family: arial;
-	font-size: 14px;
-	line-height: 25px;
-	position: relative;
-	padding-left: 35px;
-	height: 25px;
-	text-align: left;
-	color: #06c;
+	font-family:arial;
+	font-size:14px;
+	line-height:25px;
+	position:relative;
+	height:25px;
+	padding-left:35px;
+	text-align:left;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 #blogsidebar-con-anim {
 	position:fixed;
 	z-index:9999;
 	top:0;
-	width: 370px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	width:370px;
 	height:100%;
 	transition:all .2s ease-in-out;
 	-webkit-animation-name:fadeInLeft;
@@ -339,23 +359,21 @@
 	-webkit-animation-duration:.2s;
 	-webkit-animation-iteration-count:1;
 	background:#fff;
-	overflow-y:scroll;
-	overflow-x: hidden;
 	-webkit-overflow-scrolling:touch;
 }
 #blogsidebar-con-anim::-webkit-scrollbar {
+	display:none;
 	width:5px;
-	display: none;
 }
 #blogsidebar-tx1-title {
 	font-family:arial;
-	font-size: 14px;
+	font-size:14px;
 	line-height:60px;
-	position: fixed;
-	height: 62px;
-	width: 350px;
+	position:fixed;
+	z-index:2;
+	width:350px;
+	height:62px;
 	padding-left:20px;
-	color: #fff;
-	background: #5e32eb;
-	z-index: 2;
+	color:#fff;
+	background: #6e68db;
 }
