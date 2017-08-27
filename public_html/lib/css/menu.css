@@ -46,6 +46,9 @@
 	min-height:60px;
 	margin:0 auto;
 }
+#menu-in-container a:hover {
+    text-decoration:none;
+}
 #menu-ico-logo {
 	position:relative;
 	z-index:1;
