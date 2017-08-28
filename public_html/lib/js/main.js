@@ -51,12 +51,6 @@ $(window).scroll(function() {
         $("#menu-und-level2").fadeOut(100);
     }
 });
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    if (scroll >= 400) {
-        $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
-    }
-});
 /* Handles standard wavebar animation */
 $(document).ready(function() {
     var $wavebarFX = $(".visual-wavebar-1"),

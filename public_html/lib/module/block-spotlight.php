@@ -16,7 +16,7 @@
 		</p>
 	</div>
 	<a href='https://discord.me/RPCS3' target="_blank">
-	<div id='spotlight-btn-body' title="Check out Fight for the Future to get informed.">
+	<div id='spotlight-btn-body' title="Join the discussion on Discord">
 	</div>
 	</a>
 	<div style="display:none">
