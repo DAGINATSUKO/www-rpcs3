@@ -1,5 +1,5 @@
 <div id="featured-tx1-heading" class="div-heading lightmode-txt">
-	<h2>Featured Supporters</h2>
+	<h2>Featured Patrons</h2>
 </div>
 <!-- End -->
 <div id='list-con-block' class="lightmode-block lightmode-txt">

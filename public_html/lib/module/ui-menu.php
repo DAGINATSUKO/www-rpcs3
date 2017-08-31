@@ -60,13 +60,15 @@
 			</div>
 			</a>
 			<div class="support-subtrigger" id="menu-con-support">
-				<div id="menu-tx1-support" title="Support us with Patreon or Alipay">
+				<div id="menu-tx1-support" title="Support Us">
 					<span>Support Us</span>
 				</div>
 				<div id="menu-ico-support">
 				</div>
 				<!-- Submenu -->
 				<div class="support-submenu" id="submenu-con-container">
+					<div id="submenu-ico-lip">
+					</div>
 					<a href="https://www.patreon.com/Nekotekina" target="_blank">
 					<div id="submenu-con-wrapper">
 						<div id="submenu-ico-patreon">
@@ -76,7 +78,7 @@
 						</div>
 					</div>
 					</a>
-					<a href="/alipay" target="_blank">
+					<a href="/alipay">
 					<div class='trigger-alipay' id="submenu-con-wrapper" style="border-top: solid 1px rgba(0,0,0,.02);">
 						<div id="submenu-ico-alipay">
 						</div>

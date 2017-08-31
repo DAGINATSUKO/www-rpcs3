@@ -67,15 +67,17 @@ a:hover {
 	background: #9c9c9c;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
-input {
-	height:100%;
-	padding-left:24px;
-	color:#5e5e5e;
-	border:none;
-	background:#fff;
+::-webkit-input-placeholder {
+  color: #3198ff;
 }
-input:focus {
-	outline-color: transparent;
+::-moz-placeholder {
+  color: #3198ff;
+}
+:-ms-input-placeholder {
+  color: #3198ff;
+}
+:-moz-placeholder {
+  color: #3198ff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 iframe {
@@ -101,7 +103,7 @@ tr {
 	background:#fff;
 }
 tr:nth-child(2n) {
-	background-color:rgba(0,37,86,.015);
+	background-color:rgba(122, 179, 255, 0.05);
 }
 tr:nth-child(2n+1) {
 	background-color: #fff;

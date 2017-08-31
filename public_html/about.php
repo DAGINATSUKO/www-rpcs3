@@ -34,49 +34,19 @@
 		<div id="page-in-container" style="overflow: visible !important; overflow-x: visible !important;">
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading lightmode-txt">
-				<h2>RPCS3 PlayStation 3 Emulator</h2>
+				<h2>About Us</h2>
 			</div>
 			<!-- End -->
 			<div id='featured-con-block' class="lightmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="lightmode-txt">
-						<h2 class="download-title">The History of RPCS3</h2>
+						<h2 class="download-title">RPCS3 Open-source Sony PlayStation 3 Emulator</h2>
 					</div>
 					<div id='featured-tx2-block' class="lightmode-txt">
 						<p class="download-desc">
-							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently supports modern Vulkan, Direct3D 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.<br>
-							<br>
-							 RPCS3 was founded by programmers DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today RPCS3 is dubbed one of the most complex video game console emulators of all time with an endless goal to effectively emulate the Sony PlayStation 3 and all of its aspects.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block' class="lightmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="lightmode-txt">
-						<h2 class="download-title">The Never-ending Goal</h2>
-					</div>
-					<div id='featured-tx2-block' class="lightmode-txt">
-						<p class="download-desc">
-							 The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems. All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation. Most of this information can be found on the <a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">PlayStation 3 Developer Wiki.</a><br>
-							<br>
-							 RPCS3 is not designed to enable illegal activity. Piracy will not be tolerated. Any users conversing about piracy upon joining the Discord server, forums or GitHub community will be re-directed elsewhere. Remember, the best way to play PlayStation 3 games is to play them on the <a href="https://www.playstation.com/en-gb/explore/ps3/" target="_blank">original hardware</a>. For now.
-						</p>
-					</div>
-				</div>
-			</div>
-			<!-- End -->
-			<div id='featured-con-block' class="lightmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="lightmode-txt">
-						<h2 class="download-title">The Controversy of RPCS3</h2>
-					</div>
-					<div id='featured-tx2-block' class="lightmode-txt">
-						<p class="download-desc">
-							 RPCS3 has been seen by many as an <i>impossible</i> feat in the eyes of gamers and programmers. Many fraudulent PlayStation 3 emulators and console emulators in general have clouded the public eye of the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality. <br>
-							<br>
-							 In March 2014, Cinema Blend's William Usher wrote "A lot of gamers originally thought that the complexity of the PlayStation 3's Cell architecture would have prevented it from being emulated." In the same month, Eurogamer's Elio Cossu also wrote "The emulation, even at such an early stage, was a remarkable achievement, considering the complexity of the hardware of the PlayStation 3."
+							 RPCS3 was founded by programmers DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today RPCS3 is dubbed one of the most complex video game console emulators of all time with an endless goal to effectively emulate the Sony PlayStation 3 and all of its aspects.<br>
+							 <br>
+							 The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems. All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation. Most of this information can be found on the <a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">PlayStation 3 Developer Wiki.</a>
 						</p>
 					</div>
 				</div>
@@ -88,7 +58,7 @@
 			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/users/nekotekina.png') no-repeat center; background-size: cover;">
+					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -117,7 +87,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-gdev" id='featured-ava-block' style="background: url('/img/users/kd11.png') no-repeat center; background-size: cover;">
+					<div class="div-role-gdev" id='featured-ava-block' style="background: url('/img/members/kd11.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -143,7 +113,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ssshadow.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -172,7 +142,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/users/ani.png') no-repeat center; background-size: cover;">
+					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -201,7 +171,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/users/daginatsuko.png') no-repeat center; background-size: cover;">
+					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -223,13 +193,13 @@
 						</div>
 						<div id='featured-tx2-block' class="lightmode-txt">
 							<p>
-								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. As the main web developer and website maintainer, they are also in charge of RPCS3's visual marketing efforts and branding that not only show, but promote the personality of the emulator and its team.
+								 DAGINATSUKO joined RPCS3 in early 2017 as the core web developer and core graphic designer. In addition, they are also in charge of the project's branding which includes the logos, graphics and press kit assets that greatly contribute to developing the face of the emulator and its team.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/jarves.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/jarves.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -255,7 +225,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/users/numan.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/poland.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -281,7 +251,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/hcorion.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -308,7 +278,7 @@
 				<!-- End -->
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: #e68364 url('/img/users/pirhoman.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -334,7 +304,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/megamouse.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -360,7 +330,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/galciv.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/galciv.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -386,7 +356,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -412,7 +382,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/users/o1l.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -441,7 +411,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/users/clienthax.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -467,7 +437,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
+					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -496,7 +466,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/dangles.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -528,7 +498,7 @@
 			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/users/former/dh.png') no-repeat center; background-size: cover;">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/dh.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/ukraine.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -554,7 +524,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/users/former/hykem.png') no-repeat center; background-size: cover;">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/hykem.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -580,7 +550,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/users/former/alexaltea.png') no-repeat center; background-size: cover;">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/alexaltea.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -606,7 +576,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/users/former/tambry.png') no-repeat center; background-size: cover;">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/tambry.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/estonia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -632,7 +602,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/users/former/bigpet.png') no-repeat center; background-size: cover;">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/bigpet.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -658,7 +628,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/users/former/vlj.png') no-repeat center; background-size: cover;">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/vlj.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -684,7 +654,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/users/former/gopalsr83.png') no-repeat center; background-size: cover;">
+					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/gopalsr83.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/india.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -711,114 +681,6 @@
 			</div>
 			<!-- End -->
 			<?php include 'lib/module/block-supporters.php';?>
-			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading lightmode-txt">
-				<h2>Honorable Mentions</h2>
-			</div>
-			<!-- End -->
-			<div class="div-member-con">
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/reznoire.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
-							<h2>Reznoire</h2>
-						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
-							<p>
-								 Reznoire is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/zangetsu.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
-							<h2>Zangetsu</h2>
-						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
-							<p>
-								 Zangetsu has been a contributor and debugger for RPCS3 since 2012. He's been around since the early days of the project and has seen a lot since then. He is known for his deep testing process and temporary hacks we like to call 'Zangetsuing'.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/rainkikyou.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/china.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
-							<h2>Rain Kikyou</h2>
-						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
-							<p>
-								 Rain Kikyou is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/johngodgames.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
-							<h2>John GodGames</h2>
-						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
-							<p>
-								 John GodGames is an honorable mention and supporter for RPCS3 and currently does not have a proper description at this time. Should this active supporter decide to add a proper description, this description will be promptly updated upon their request.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/16bitblastprocessing.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
-							<h2>16-Bit Blast Processing</h2>
-						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
-							<p>
-								 16-Bit Blast Processing is an avid PlayStation enthusiast and gamer with a passion for emulation. He believes in the idea of being able to run PlayStation format software on different platforms. Furthermore, he produces gameplay videos covering RPCS3's growing compatibility.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/users/honorable/talkashie.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
-							<h2>Talkashie</h2>
-						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
-							<p>
-								 Talkashie is a tester widely known for using an obnoxious system font, seen on all of his screenshots and videos. All attempts to make him change such font have failed so far.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
 			<!-- End -->
 		</div>
 	</div>

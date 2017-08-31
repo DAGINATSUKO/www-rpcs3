@@ -68,7 +68,7 @@
 		<div id='header-con-overlay' class="lightmode-header">
 		</div>
 		<div id='header-con-body'>
-		<div id="header-tx1-body" style="background: url(/img/icons/footer/logo2.png) no-repeat center; background-size: 254px;">
+		<div id="header-tx1-body" style="background: url(/img/icons/headers/header.png) no-repeat center; background-size: 254px;">
 			</div>
 			<div id='header-tx2-body'>
 				<p>
@@ -154,10 +154,10 @@
 			<div id="featured-wrp-panel">
 				<!-- End -->
 				<a href="https://rpcs3.net/blog/2017/08/03/progress-report-july-2017/" target="_blank">
-				<div id="featured-con-panel" class="div-panel-left" style="background:#fff url('/img/panels/report.jpg') no-repeat center; background-size: cover; ">
+				<div id="featured-con-board" class="div-panel-left" style="background:#fff url('/img/boards/progress.jpg') no-repeat center; background-size: cover; ">
 					<div id="featured-ovr-panel" class="lightmode-panel-2">
 					</div>
-					<div id="featured-ico-panel" style="background: url('/img/icons/panels/report.png') no-repeat center; background-size: 130px;">
+					<div id="featured-ico-panel" style="background: url('/img/icons/boards/progress.png') no-repeat center; background-size: 130px;">
 					</div>
 					<div id="featured-tx3-panel">
 						<p>
@@ -168,10 +168,10 @@
 				</a>
 				<!-- End -->
 				<a href='https://discord.me/RPCS3' target="_blank">
-				<div id='featured-con-panel' class="div-panel-right" style="background:#fff url('/img/panels/server.jpg') no-repeat center; background-size: cover;">
+				<div id='featured-con-board' class="div-panel-right" style="background:#fff url('/img/boards/discord.jpg') no-repeat center; background-size: cover;">
 					<div id='featured-ovr-panel' class="lightmode-panel-2">
 					</div>
-					<div id='featured-ico-panel' style="background: url('/img/icons/panels/server.png') no-repeat center; background-size: 130px;">
+					<div id='featured-ico-panel' style="background: url('/img/icons/boards/discord.png') no-repeat center; background-size: 190px;">
 					</div>
 					<div id='featured-tx3-panel'>
 						<p>
@@ -200,8 +200,8 @@
 			<div id='featured-wrp-panel'>
 				<!-- End -->
 				<a href='https://rpcs3.net/compatibility' target="_blank">
-				<div id='featured-con-panel' class="div-con-panel-min div-panel-left lightmode-panel">
-					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/buttons/playable.png') no-repeat center; background-size: 130px;">
+				<div id='featured-con-board' class="div-con-panel-min div-panel-left lightmode-panel">
+					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/boards/playable.png') no-repeat center; background-size: 130px;">
 					</div>
 					<div id='featured-tx3-panel' class="div-txt-panel-min lightmode-txt">
 						<p>
@@ -212,8 +212,8 @@
 				</a>
 				<!-- End -->
 				<a href='https://rpcs3.net/faq' target="_blank">
-				<div id='featured-con-panel' class="div-con-panel-min div-panel-right lightmode-panel">
-					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/buttons/faq.png') no-repeat center; background-size: 130px;">
+				<div id='featured-con-board' class="div-con-panel-min div-panel-right lightmode-panel">
+					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/boards/faq.png') no-repeat center; background-size: 130px;">
 					</div>
 					<div id='featured-tx3-panel' class="div-txt-panel-min lightmode-txt">
 						<p>

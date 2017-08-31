@@ -46,7 +46,7 @@
 	overflow:hidden;
 	width:100%;
 	height:460px;
-	background:#4c5bd7 url(/img/icons/footer/backdrop.jpg) no-repeat center top;
+	background:#4c5bd7 url(/img/icons/headers/footer-bg.jpg) no-repeat center top;
 	background-size:cover;
 }
 #footer-con-overlay {
@@ -56,13 +56,15 @@
 	background:linear-gradient(to right,rgba(166,0,217,.9),rgba(0,196,255,.9));
 }
 #footer-ico-wrapper {
-	position:absolute;
-	z-index:1;
-	width:100%;
-	height:100%;
-	pointer-events:none;
-	background:url(/img/icons/footer/logo.png) no-repeat center;
-	background-size:140px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin: -50px -100px;
+    width: 200px;
+    height: 100px;
+    background: url(/img/icons/headers/footer.png) no-repeat center;
+    background-size: 140px;
 }
 #footer-con-credits {
 	position:absolute;
@@ -184,7 +186,7 @@ font-family: arial;
 	top:0;
 	width:100%;
 	height:100%;
-	background:url(/img/spotlight/backdrop.jpg) no-repeat center;
+	background: url(/img/spotlight/spotlight.jpg) no-repeat center;
 	background-size:cover;
 }
 #spotlight-tx1-body {
@@ -230,7 +232,7 @@ font-family: arial;
 	height:136px;
 	text-align:center;
 	color:#fff;
-	background:url(/img/spotlight/logo.png) no-repeat center bottom;
+	background: url(/img/spotlight/title.png) no-repeat center bottom;
 	background-size:300px;
 }
 #spotlight-btn-body {
@@ -244,8 +246,8 @@ font-family: arial;
 	margin-top:16px;
 	cursor:pointer;
 	transition:.1s ease-in-out;
-	background:url(/img/spotlight/button.png) no-repeat center;
-	background-size:130px;
+	background: url(/img/icons/boards/discord.png) no-repeat center;
+	background-size: 248px;
 }
 #spotlight-btn-body:hover {
 	opacity:.8;
@@ -299,7 +301,7 @@ font-family: arial;
 	top:0;
 	width:100%;
 	height:100%;
-	background:url(/img/sidebars/github.jpg) no-repeat center;
+	background: url(/img/boards/github.jpg) no-repeat center;
 	background-size:cover;
 }
 #sidebar-tx1-top {
@@ -336,7 +338,7 @@ font-family: arial;
 	bottom:0;
 	width:100%;
 	height:100%;
-	background:url(/img/sidebars/patreon.jpg) no-repeat center;
+	background: url(/img/boards/patreon.jpg) no-repeat center;
 	background-size:cover;
 }
 #sidebar-tx1-bottom {
@@ -402,7 +404,7 @@ font-family: arial;
 	position:absolute;
 	width:50px;
 	height:50px;
-	background:url(/img/icons/buttons/author.png) no-repeat center;
+	background: url(/img/icons/menu/publisher.png) no-repeat center;
 	background-size:17px;
 }
 #featured-con-master {
@@ -446,14 +448,14 @@ font-family: arial;
 	overflow:hidden;
 	height:auto;
 }
-#featured-con-panel {
+#featured-con-board {
 	position:relative;
 	overflow:hidden;
 	height:120px;
 	margin-bottom:20px;
 	transition:.1s ease-in-out;
 }
-#featured-con-panel:hover {
+#featured-con-board:hover {
 	opacity:.9;
 }
 #featured-ovr-panel {
@@ -605,11 +607,11 @@ font-family: arial;
 	height:100%;
 	cursor:pointer;
 	transition:.1s ease-in-out;
-	background:rgba(0,0,0,0) url('/img/icons/playback/play.png') no-repeat center;
+	background: rgba(0,0,0,0) url('/img/icons/menu/play.png') no-repeat center;
 	background-size:50px;
 }
 #featured-btn-play:hover {
-	background:rgba(0,0,0,.2) url('/img/icons/playback/play-h.png') no-repeat center;
+	background:rgba(0,0,0,.2) url('/img/icons/menu/play-h.png') no-repeat center;
 	background-size:50px;
 }
 #featured-btn-play-b {
@@ -619,11 +621,11 @@ font-family: arial;
 	height:100%;
 	cursor:pointer;
 	transition:.1s ease-in-out;
-	background:rgba(0,0,0,0) url('/img/icons/playback/play.png') no-repeat center;
+	background: rgba(0,0,0,0) url('/img/icons/menu/play.png') no-repeat center;
 	background-size:60px;
 }
 #featured-btn-play-b:hover {
-	background:rgba(0,0,0,.2) url('/img/icons/playback/play.png') no-repeat center;
+	background: rgba(0,0,0,.2) url('/img/icons/menu/play.png') no-repeat center;
 	background-size:60px;
 }
 #featured-lst-block {
@@ -660,9 +662,6 @@ font-family: arial;
 	position:relative;
 	width:100%;
 	height:60px;
-	-webkit-animation-name:fadeInUp;
-	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s;
 }
 #error-tx1-content {
 	font-family:arial;
@@ -672,9 +671,6 @@ font-family: arial;
 	position:relative;
 	width:100%;
 	height:60px;
-	-webkit-animation-name:fadeInUp;
-	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s;
 	text-align:center;
 	text-indent:4px;
 	letter-spacing:4px;
@@ -687,9 +683,6 @@ font-family: arial;
 	position:relative;
 	width:100%;
 	height:25px;
-	-webkit-animation-name:fadeInUp;
-	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s;
 	text-align:center;
 	color:#fff;
 }
@@ -710,12 +703,13 @@ font-family: arial;
 	font-family:arial;
 	font-size:14px;
 	line-height:46px;
+	font-weight: bold;
 	position:relative;
 	height:46px;
 	margin-left:1px;
 	padding-left:16px;
 	text-align:left;
-	color:#5e5e5e;
+	color: #F96854;
 	border-bottom:1px solid #e4e4e4;
 	background:#fff;
 }
@@ -875,12 +869,12 @@ font-family: arial;
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,rgba(166,0,217,.9),rgba(0,196,255,.9));
+    background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,196,255,.8));
 }
 .img-error {
 	position:absolute;
 	height:100%;
-	background-image:url(/img/panels/error.jpg);
+	background-image: url(/img/icons/errors/error-bg.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center;
@@ -889,7 +883,7 @@ font-family: arial;
 .img-alipay {
 	position:absolute;
 	height:100%;
-	background-image:url(/img/panels/alipay.jpg);
+	background-image: url(/img/icons/alipay/alipay-bg.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center;

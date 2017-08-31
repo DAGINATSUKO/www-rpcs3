@@ -158,7 +158,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<a href='/cdn/docs/Docs.7z' download>
 			<div id='featured-con-button' class="div-download-left lightmode-buttons">
 				<div id='featured-wrp-button' style="width: 212px; margin: 0 -106px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/documentation.png') no-repeat center; background-size: 16px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/docs.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>

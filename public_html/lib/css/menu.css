@@ -67,19 +67,32 @@
 	top:62px;
 	left:-55px;
 	display:none;
-	width:195px;
-	height:120px;
+	width: 210px;
+	height: 217px;
 	-webkit-animation-name:fadeIn;
 	animation-name:fadeIn;
 	-webkit-animation-duration:.2s;
 	-webkit-animation-iteration-count:1;
 	background:#fff;
+	-webkit-box-shadow: 0px 0px 81px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 81px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 81px 0px rgba(0,0,0,0.25);
 }
 #submenu-con-wrapper {
 	position:relative;
 	width:100%;
-	height:46px;
+	height: 54px;
 	background:#fff;
+}
+
+#submenu-ico-lip {
+    background: url(/img/icons/menu/lip.png) no-repeat center;
+    background-size: 22px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -33px;
+    right: 74px;
 }
 #submenu-con-wrapper:hover {
 	background:#4c5bd7;
@@ -88,30 +101,30 @@
 	color:#fff;
 }
 #submenu-con-wrapper:hover #submenu-ico-patreon {
-	background:url('/img/icons/submenu/patreon-h.png') no-repeat center;
+	background:url('/img/icons/menu/patreon-h.png') no-repeat center;
 	background-size:18px;
 }
 #submenu-con-wrapper:hover #submenu-ico-alipay {
-	background:url('/img/icons/submenu/alipay-h.png') no-repeat center;
+	background:url('/img/icons/menu/alipay-h.png') no-repeat center;
 	background-size:18px;
 }
 #submenu-con-wrapper:hover #submenu-ico-code {
-	background:url('/img/icons/submenu/code-h.png') no-repeat center;
+	background:url('/img/icons/menu/code-h.png') no-repeat center;
 	background-size:18px;
 }
 #submenu-con-wrapper:hover #submenu-ico-testing {
-	background:url('/img/icons/submenu/testing-h.png') no-repeat center;
+	background:url('/img/icons/menu/testing-h.png') no-repeat center;
 	background-size:18px;
 }
 #submenu-btn-button {
 	font-family:arial;
-	font-size:14px;
-	line-height:46px;
+	font-size: 14px;
+	line-height: 55px;
 	position:relative;
 	display:inline-block;
 	float:left;
 	width:auto;
-	height:46px;
+	height: 54px;
 	text-align:left;
 	pointer-events:none;
 	color:#5e5e5e;
@@ -119,33 +132,33 @@
 #submenu-ico-patreon {
 	display:inline-block;
 	float:left;
-	width:46px;
-	height:46px;
-	background:url('/img/icons/submenu/patreon.png') no-repeat center;
+	width: 54px;
+	height: 54px;
+	background:url('/img/icons/menu/patreon.png') no-repeat center;
 	background-size:18px;
 }
 #submenu-ico-alipay {
 	display:inline-block;
 	float:left;
-	width:46px;
-	height:46px;
-	background:url('/img/icons/submenu/alipay.png') no-repeat center;
+	width:54px;
+	height:54px;
+	background:url('/img/icons/menu/alipay.png') no-repeat center;
 	background-size:18px;
 }
 #submenu-ico-code {
 	display:inline-block;
 	float:left;
-	width:46px;
-	height:46px;
-	background:url('/img/icons/submenu/code.png') no-repeat center;
+	width:54px;
+	height:54px;
+	background:url('/img/icons/menu/code.png') no-repeat center;
 	background-size:18px;
 }
 #submenu-ico-testing {
 	display:inline-block;
 	float:left;
-	width:46px;
-	height:46px;
-	background:url('/img/icons/submenu/testing.png') no-repeat center;
+	width:54px;
+	height:54px;
+	background:url('/img/icons/menu/testing.png') no-repeat center;
 	background-size:18px;
 }
 #menu-btn-select {
@@ -204,7 +217,7 @@
 	width:36px;
 	height:60px;
 	cursor:pointer;
-	background:url('/img/icons/buttons/patreon.png') no-repeat center;
+	background: url('/img/icons/menu/patreon-h.png') no-repeat center;
 	background-size:20px;
 }
 #menu-con-support {
@@ -238,7 +251,7 @@
 	animation-name:fadeInUp;
 	-webkit-animation-duration:.5s;
 	border-radius:6px;
-	background:#fff url('/img/icons/donate/alipay-qr.png') no-repeat center;
+	background: #fff url('/img/icons/alipay/alipay-qr.png') no-repeat center;
 	background-size:388px;
 	image-rendering:-moz-crisp-edges;
 	image-rendering:-moz-crisp-edges;
@@ -305,9 +318,6 @@
 	-webkit-animation-duration:.2s;
 	-webkit-animation-iteration-count:1;
 	background:#fff;
-	-webkit-box-shadow:0 0 34px 0 rgba(0,0,0,.2);
-	-moz-box-shadow:0 0 34px 0 rgba(0,0,0,.2);
-	box-shadow:0 0 34px 0 rgba(0,0,0,.2);
 	-webkit-overflow-scrolling:touch;
 }
 #navsidebar-con-anim::-webkit-scrollbar {
