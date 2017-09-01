@@ -47,7 +47,7 @@
 	margin:0 auto;
 }
 #menu-in-container a:hover {
-    text-decoration:none;
+	text-decoration:none;
 }
 #menu-ico-logo {
 	position:relative;
@@ -65,34 +65,33 @@
 #submenu-con-container {
 	position:relative;
 	top:62px;
-	left:-55px;
+	left:-26px;
 	display:none;
-	width: 210px;
-	height: 217px;
+	width:210px;
+	height:217px;
 	-webkit-animation-name:fadeIn;
 	animation-name:fadeIn;
 	-webkit-animation-duration:.2s;
 	-webkit-animation-iteration-count:1;
 	background:#fff;
-	-webkit-box-shadow: 0px 0px 81px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: 0px 0px 81px 0px rgba(0,0,0,0.25);
-	box-shadow: 0px 0px 81px 0px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 0px 81px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 0px 81px 0px rgba(0,0,0,0.25);
+	box-shadow:0px 0px 81px 0px rgba(0,0,0,0.25);
 }
 #submenu-con-wrapper {
 	position:relative;
 	width:100%;
-	height: 54px;
+	height:54px;
 	background:#fff;
 }
-
 #submenu-ico-lip {
-    background: url(/img/icons/menu/lip.png) no-repeat center;
-    background-size: 22px;
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: -33px;
-    right: 74px;
+	background:url(/img/icons/menu/lip.png) no-repeat center;
+	background-size:22px;
+	width:60px;
+	height:60px;
+	position:absolute;
+	top:-33px;
+	right:74px;
 }
 #submenu-con-wrapper:hover {
 	background:#4c5bd7;
@@ -118,13 +117,13 @@
 }
 #submenu-btn-button {
 	font-family:arial;
-	font-size: 14px;
-	line-height: 55px;
+	font-size:14px;
+	line-height:55px;
 	position:relative;
 	display:inline-block;
 	float:left;
 	width:auto;
-	height: 54px;
+	height:54px;
 	text-align:left;
 	pointer-events:none;
 	color:#5e5e5e;
@@ -132,8 +131,8 @@
 #submenu-ico-patreon {
 	display:inline-block;
 	float:left;
-	width: 54px;
-	height: 54px;
+	width:54px;
+	height:54px;
 	background:url('/img/icons/menu/patreon.png') no-repeat center;
 	background-size:18px;
 }
@@ -190,10 +189,10 @@
 	height:60px;
 	cursor:pointer;
 	transition:.1s ease-in-out;
-	opacity:0;
 	border-bottom:solid 2px rgba(255,255,255,0);
 	background:url(/img/icons/menu/lights.png) no-repeat center;
 	background-size:20px;
+	opacity:0;
 }
 #menu-btn-lights:hover {
 	width:60px;
@@ -217,7 +216,7 @@
 	width:36px;
 	height:60px;
 	cursor:pointer;
-	background: url('/img/icons/menu/patreon-h.png') no-repeat center;
+	background:url('/img/icons/menu/patreon-h.png') no-repeat center;
 	background-size:20px;
 }
 #menu-con-support {
@@ -251,7 +250,7 @@
 	animation-name:fadeInUp;
 	-webkit-animation-duration:.5s;
 	border-radius:6px;
-	background: #fff url('/img/icons/alipay/alipay-qr.png') no-repeat center;
+	background:#fff url('/img/icons/alipay/alipay-qr.png') no-repeat center;
 	background-size:388px;
 	image-rendering:-moz-crisp-edges;
 	image-rendering:-moz-crisp-edges;

@@ -199,7 +199,7 @@
 			<!-- End -->
 			<div id='featured-wrp-panel'>
 				<!-- End -->
-				<a href='https://rpcs3.net/compatibility' target="_blank">
+				<a href='https://rpcs3.net/compatibility'>
 				<div id='featured-con-board' class="div-con-panel-min div-panel-left lightmode-panel">
 					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/boards/playable.png') no-repeat center; background-size: 130px;">
 					</div>
@@ -211,7 +211,7 @@
 				</div>
 				</a>
 				<!-- End -->
-				<a href='https://rpcs3.net/faq' target="_blank">
+				<a href='https://rpcs3.net/faq'>
 				<div id='featured-con-board' class="div-con-panel-min div-panel-right lightmode-panel">
 					<div id='featured-ico-panel' class="div-ico-panel-min" style="background: url('/img/icons/boards/faq.png') no-repeat center; background-size: 130px;">
 					</div>

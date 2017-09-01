@@ -240,17 +240,19 @@ font-family: arial;
 	z-index:3;
 	bottom:0;
 	left:50%;
-	width:180px;
-	height:50px;
-	margin:0 -90px;
-	margin-top:16px;
+	width: 256px;
+	height: 44px;
+	margin: 0 -128px;
+	margin-top: 16px;
 	cursor:pointer;
 	transition:.1s ease-in-out;
-	background: url(/img/icons/boards/discord.png) no-repeat center;
-	background-size: 248px;
+	background: url(/img/icons/boards/discuss.png) no-repeat center;
+	background-size: 224px;
+	border-radius: 6px;
 }
 #spotlight-btn-body:hover {
-	opacity:.8;
+	background: rgba(255, 255, 255, .1) url(/img/icons/boards/discuss.png) no-repeat center;
+	background-size: 224px;
 }
 #sidebar-con-top {
 	position:relative;

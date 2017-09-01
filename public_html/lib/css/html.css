@@ -103,10 +103,10 @@ tr {
 	background:#fff;
 }
 tr:nth-child(2n) {
-	background-color:rgba(122, 179, 255, 0.05);
+	background:rgba(122, 179, 255, 0.05);
 }
 tr:nth-child(2n+1) {
-	background-color: #fff;
+	background: #fff;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 th {
@@ -145,7 +145,7 @@ td a:hover {
 	padding-bottom:15px;
 	text-align:left;
 	color:#5e5e5e;
-	border-bottom:1px solid #eee;
+	border-bottom: 1px solid rgba(238, 238, 238, 0.4);
 }
 .markdown-body {
 	font-family:arial;
