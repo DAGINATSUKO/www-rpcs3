@@ -153,7 +153,7 @@
 			</div>
 			<div id="featured-wrp-panel">
 				<!-- End -->
-				<a href="https://rpcs3.net/blog/2017/08/03/progress-report-july-2017/" target="_blank">
+				<a href="https://rpcs3.net/blog/2017/09/01/progress-report-august-2017/" target="_blank">
 				<div id="featured-con-board" class="div-panel-left" style="background:#fff url('/img/boards/progress.jpg') no-repeat center; background-size: cover; ">
 					<div id="featured-ovr-panel" class="lightmode-panel-2">
 					</div>
@@ -161,7 +161,7 @@
 					</div>
 					<div id="featured-tx3-panel">
 						<p>
-							 JULY 2017 PROGRESS
+							 AUGUST 2017 PROGRESS
 						</p>
 					</div>
 				</div>
