@@ -1,4 +1,4 @@
-<div id="navsidebar-btn-open" class="nav-blog" title="Show menu">
+<div id="navsidebar-btn-open" class="nav-blog" title="Menu">
 </div>
 <div id='navsidebar-con-dim' class='toggle-blogsidebar'>
 	<div id='blogsidebar-con-anim' class='dropin-load lightmode-navsidebar-anim'>

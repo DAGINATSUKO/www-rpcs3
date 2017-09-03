@@ -318,6 +318,9 @@
 							 • LG <b class="txt-highlight lightmode-highlight">WH16NS40</b>
 						</p>
 						<p>
+							 • LG <b class="txt-highlight lightmode-highlight">WH14NS40</b>
+						</p>
+						<p>
 							 • LG <b class="txt-highlight lightmode-highlight">WH16NS48</b>
 						</p>
 						<p>

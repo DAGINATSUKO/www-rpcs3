@@ -11,8 +11,8 @@
 	<div id="footer-con-credits">
 		<div id='footer-tx1-credits'>
 			<p>
-				<a href='https://github.com/DAGINATSUKO' target="_blank" title="View DAGINATSUKO's GitHub profile">Website by DAGINATSUKO</a>
-				&nbsp; &nbsp;<a href='https://github.com/AniLeo' target="_blank" title="View AniLeo's GitHub profile">Compatibility List by AniLeo</a>
+				<a href='https://github.com/DAGINATSUKO' target="_blank" title="View DAGINATSUKO on GitHub">Website by DAGINATSUKO</a>
+				&nbsp; &nbsp;<a href='https://github.com/AniLeo' target="_blank" title="View AniLeo on GitHub">Compatibility List by AniLeo</a>
 				&nbsp; &nbsp;<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank" title="Download this website's source code on GitHub">Website Source</a>
 				&nbsp; &nbsp;<a href='/disclaimer' title="View legal disclaimer">Disclaimer</a>
 				&nbsp; &nbsp; Copyright © 2017

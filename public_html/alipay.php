@@ -16,7 +16,7 @@
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
 <div id='img-overlay'></div>
-		<a href='/img/icons/donate/alipay-qr.png' target="_blank">
+		<a href='/img/icons/alipay/alipay-qr.png' target="_blank">
 		<div id="donate-qrc-alipay">
 		</div>
 		</a>

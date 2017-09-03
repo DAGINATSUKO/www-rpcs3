@@ -10,19 +10,8 @@
 	</div>
 	<div id='spotlight-img-body'>
 	</div>
-	<div id='spotlight-tx2-body'>
-		<p>
-			Null
-		</p>
-	</div>
 	<a href='https://discord.me/RPCS3' target="_blank">
 	<div id='spotlight-btn-body' title="Join the discussion on Discord">
 	</div>
 	</a>
-	<div style="display:none">
-		<div class="visual-wavebar-1">
-		</div>
-		<div class="visual-wavebar-1 delayed-fade" style="display:none;">
-		</div>
-	</div>
 </div>

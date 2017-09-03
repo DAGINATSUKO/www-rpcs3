@@ -3,7 +3,7 @@
 	</div>
 	<div id="menu-und-level2" class="lightmode-menubar-level2">
 	</div>
-	<div id="menu-btn-lights" title="Home" class="toggle-lightmode">
+	<div id="menu-btn-lights" title="Dark Mode" class="toggle-lightmode">
 	</div>
 	<div id="menu-con-container">
 		<div id="menu-in-container">
