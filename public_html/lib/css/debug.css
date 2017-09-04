@@ -1,6 +1,7 @@
 .div-motd {
 	display:none;
 }
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 .swap-menubar {
 	border-bottom:solid 1px rgba(255,255,255,.08) !important;
 }
@@ -24,8 +25,7 @@
 	border-bottom:1px solid #0d0d0d !important;
 	background:#0d0d0d !important;
 }
-
-
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 .swap-block-search {
 	border-bottom:1px solid #0d0d0d !important;
 	background:#0d0d0d;
@@ -46,7 +46,7 @@
 .swap-blog-sidebar {
 	color:#fff !important;
 }
-
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
 .swap-blog-body {
 	background:#0d0d0d !important;
 }
