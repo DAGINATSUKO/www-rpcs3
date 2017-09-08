@@ -25,8 +25,8 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 * CSS 3.0
 * PHP 5.5
 * jQuery 3.2.0
+* jQuery Cookie 1.4.1
 * MySQL
-* Human brain
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com "Flaticon")
