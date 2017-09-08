@@ -153,31 +153,48 @@
 			</div>
 			<div id="featured-wrp-panel">
 				<!-- End -->
-				<a href="https://rpcs3.net/blog/2017/09/01/progress-report-august-2017/" target="_blank">
+				<a href="https://rpcs3.net/blog/2017/09/01/progress-report-august-2017/">
 				<div id="featured-con-board" class="div-panel-left" style="background:#fff url('/img/boards/progress.jpg') no-repeat center; background-size: cover; ">
-					<div id="featured-ovr-panel" class="lightmode-panel-2">
+					<div id="featured-ovr-showcase-2" class="lightmode-panel-2">
 					</div>
-					<div id="featured-ico-panel" style="background: url('/img/icons/boards/progress.png') no-repeat center; background-size: 130px;">
+					
+					<div id="featured-con-showcase">
+					<div id="featured-ico-showcase-1">
 					</div>
-					<div id="featured-tx3-panel">
+					<div id="featured-tx1-showcase">
 						<p>
-							 AUGUST 2017 PROGRESS
+							 AUGUST PROGRESS REPORT
 						</p>
 					</div>
+					<div id="featured-tx2-showcase">
+						<p>
+							 Each month we aim to put out a technical and visual progress report that showcases our latest developments and features for the project.
+					</div>
+					</div>
+					
 				</div>
 				</a>
 				<!-- End -->
 				<a href='https://discord.me/RPCS3' target="_blank">
 				<div id='featured-con-board' class="div-panel-right" style="background:#fff url('/img/boards/discord.jpg') no-repeat center; background-size: cover;">
-					<div id='featured-ovr-panel' class="lightmode-panel-2">
+					<div id='featured-ovr-showcase-1' class="lightmode-panel-2">
 					</div>
-					<div id='featured-ico-panel' style="background: url('/img/icons/boards/discord.png') no-repeat center; background-size: 190px;">
+					
+					<div id="featured-con-showcase">
+					<div id='featured-ico-showcase-2'>
 					</div>
-					<div id='featured-tx3-panel'>
+					<div id='featured-tx1-showcase'>
 						<p>
 							 JOIN THE DISCUSSION
 						</p>
 					</div>
+					<div id="featured-tx2-showcase">
+						<p>
+								Join our Discord community, featuring over 16,000 members for up-to-the-minute news, discussions and support in PlayStation 3 emulation.
+						</p>
+					</div>
+					</div>
+					
 				</div>
 				</a>
 			</div>

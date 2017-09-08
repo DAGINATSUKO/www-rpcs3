@@ -126,7 +126,7 @@
 	height:54px;
 	text-align:left;
 	pointer-events:none;
-	color:#5e5e5e;
+	color:#455971;
 }
 #submenu-ico-patreon {
 	display:inline-block;
@@ -192,7 +192,6 @@
 	border-bottom:solid 2px rgba(255,255,255,0);
 	background:url(/img/icons/menu/lights.png) no-repeat center;
 	background-size:20px;
-	opacity:0;
 }
 #menu-btn-lights:hover {
 	width:60px;
@@ -345,7 +344,7 @@
 	height:50px;
 	padding-left:20px;
 	text-align:left;
-	color:#5e5e5e;
+	color:#455971;
 }
 #navsidebar-tx2-topic {
 	font-family:arial;

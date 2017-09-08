@@ -9,6 +9,7 @@
 	<div class="visual-wavebar-1 delayed-fade lightmode-wavebar" style="display:none;">
 	</div>
 	<div id="footer-con-credits">
+	<div id='footer-ico-credits'></div>
 		<div id='footer-tx1-credits'>
 			<p>
 				<a href='https://github.com/DAGINATSUKO' target="_blank" title="View DAGINATSUKO on GitHub">Website by DAGINATSUKO</a>

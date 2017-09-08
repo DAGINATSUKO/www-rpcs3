@@ -117,18 +117,18 @@ td a:hover {
 th {
 	padding-left:25px;
 	text-align:left;
-	color:#5e5e5e;
+	color:#455971;
 	background-color:#fff;
 }
 th a {
-	color: #5e5e5e !important;
+	color: #455971 !important;
 }
 td {
 	line-height:38px;
 	height:35px;
 	padding-left:25px;
 	text-align:left;
-	color:#5e5e5e;
+	color:#455971;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .anchor {
@@ -145,13 +145,13 @@ td {
 	padding-top:21px;
 	padding-bottom:15px;
 	text-align:left;
-	color:#5e5e5e;
+	color:#455971;
 	border-bottom: 1px solid rgba(238, 238, 238, 0.4);
 }
 .markdown-body {
 	font-family:arial;
 	font-size:16px;
-	color:#5e5e5e;
+	color:#455971;
 }
 .markdown-body ul {
 	padding-left: 25px;
@@ -159,8 +159,8 @@ td {
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-device-width: 480px){
   body {
-    -webkit-text-size-adjust: none;
-  }
+		-webkit-text-size-adjust: none;
+	}
 }
 @media screen and (max-width:1000px) {
 	#menu-con-support {

@@ -2,7 +2,7 @@
 	<h2>Featured Patrons</h2>
 </div>
 <!-- End -->
-<div id='list-con-block' class="lightmode-block lightmode-txt">
+<div id='list-con-block'>
 	<div id='list-con-container'>
 		<div id='list-con-item' class="lightmode-block lightmode-txt"><p>Howard Garrison</p></div>
 		<div id='list-con-item' class="lightmode-block lightmode-txt"><p>Jake (5315825)</p></div>
