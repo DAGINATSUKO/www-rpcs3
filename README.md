@@ -28,8 +28,8 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 * MySQL
 
 #### External Resources
-* [JS Cookie] (https://github.com/js-cookie/js-cookie "JS Cookie")
 * [Flaticon](http://www.flaticon.com "Flaticon")
+* [JS Cookie](https://github.com/js-cookie/js-cookie "JS Cookie")
 * [Animate.css](https://daneden.github.io/animate.css "Animate.css")
 * [Animated Waves](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves")
 
