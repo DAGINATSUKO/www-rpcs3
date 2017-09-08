@@ -25,10 +25,10 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 * CSS 3.0
 * PHP 5.5
 * jQuery 3.2.0
-* jQuery Cookie 1.4.1
 * MySQL
 
 #### External Resources
+* [JS Cookie] (https://github.com/js-cookie/js-cookie "JS Cookie")
 * [Flaticon](http://www.flaticon.com "Flaticon")
 * [Animate.css](https://daneden.github.io/animate.css "Animate.css")
 * [Animated Waves](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves")
