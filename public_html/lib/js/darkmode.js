@@ -1,4 +1,4 @@
-/* Handles darkmode save states */
+/* Handles darkmode save states (Needs refactoring)*/
 $(document).ready(function() {
     var sel = $.cookie("save-darkmode"); // get the cookie
     sel = sel == "true";
@@ -23,16 +23,27 @@ $(document).ready(function() {
         $(".markdown-body h2").toggleClass("swap-txt");
         $("#featured-con-block h2").toggleClass("swap-txt");
         $("#featured-con-block p").toggleClass("swap-txt");
+		
         $(".compat-con-container").toggleClass("swap-block");
         $(".compat-con-container p").toggleClass("swap-txt");
         $(".compat-con-container a").toggleClass("swap-txt");
         $(".compat-con-container i").toggleClass("swap-txt");
         $(".compat-con-container tr:nth-child(2n+1)").toggleClass("swap-block");
         $(".compat-con-container th").toggleClass("swap-block");
+		$(".compat-hist-container").toggleClass("swap-block");
+        $(".compat-hist-container p").toggleClass("swap-txt");
+        $(".compat-hist-container a").toggleClass("swap-txt");
+        $(".compat-hist-container i").toggleClass("swap-txt");
+        $(".compat-hist-container tr:nth-child(2n+1)").toggleClass("swap-block");
+        $(".compat-hist-container th").toggleClass("swap-block swap-txt");
+		$(".compat-library-table").toggleClass("swap-block");
+		$(".divTableHeading").toggleClass("swap-block");
+		$(".divTableHeading").toggleClass("swap-txt");
         $(".compat-tx1-criteria").toggleClass("swap-block");
         $(".compat-tx1-criteria").toggleClass("swap-txt");
         $(".compat-status-text").toggleClass("swap-txt");
         $(".compat-search-character").toggleClass("swap-block-search");
+		
         $("#compat-con-pages").toggleClass("swap-block");
         $("#compat-con-pages").toggleClass("swap-txt");
         $("#compat-author").toggleClass("swap-button");
@@ -78,19 +89,27 @@ $(document).ready(function() {
         $(".markdown-body h2").addClass("swap-txt");
         $("#featured-con-block h2").addClass("swap-txt");
         $("#featured-con-block p").addClass("swap-txt");
+		
         $(".compat-con-container").addClass("swap-block");
         $(".compat-con-container p").addClass("swap-txt");
         $(".compat-con-container a").addClass("swap-txt");
         $(".compat-con-container i").addClass("swap-txt");
         $(".compat-con-container tr:nth-child(2n+1)").addClass("swap-block");
         $(".compat-con-container th").addClass("swap-block");
+		$(".compat-hist-container").addClass("swap-block");
+        $(".compat-hist-container p").addClass("swap-txt");
+        $(".compat-hist-container a").addClass("swap-txt");
+        $(".compat-hist-container i").addClass("swap-txt");
+        $(".compat-hist-container tr:nth-child(2n+1)").addClass("swap-block");
+        $(".compat-hist-container th").addClass("swap-block swap-txt");
+		$(".compat-library-table").addClass("swap-block");
+		$(".divTableHeading").addClass("swap-block");
+		$(".divTableHeading").addClass("swap-txt");
         $(".compat-tx1-criteria").addClass("swap-block");
         $(".compat-tx1-criteria").addClass("swap-txt");
         $(".compat-status-text").addClass("swap-txt");
         $(".compat-search-character").addClass("swap-block-search");
-        $("#compat-con-pages").addClass("swap-block");
-        $("#compat-con-pages").addClass("swap-txt");
-        $("#compat-author").addClass("swap-button");
+		
         $(".nav-links").addClass("swap-blog-body swap-txt");
         $(".hentry").addClass("swap-blog-body swap-txt");
         $(".entry-header").addClass("swap-blog-header");
@@ -121,19 +140,27 @@ $(document).ready(function() {
         $(".markdown-body h2").removeClass("swap-txt");
         $("#featured-con-block h2").removeClass("swap-txt");
         $("#featured-con-block p").removeClass("swap-txt");
+		
         $(".compat-con-container").removeClass("swap-block");
         $(".compat-con-container p").removeClass("swap-txt");
         $(".compat-con-container a").removeClass("swap-txt");
         $(".compat-con-container i").removeClass("swap-txt");
         $(".compat-con-container tr:nth-child(2n+1)").removeClass("swap-block");
         $(".compat-con-container th").removeClass("swap-block");
+		$(".compat-hist-container").removeClass("swap-block");
+        $(".compat-hist-container p").removeClass("swap-txt");
+        $(".compat-hist-container a").removeClass("swap-txt");
+        $(".compat-hist-container i").removeClass("swap-txt");
+        $(".compat-hist-container tr:nth-child(2n+1)").removeClass("swap-block");
+        $(".compat-hist-container th").removeClass("swap-block swap-txt");
+		$(".compat-library-table").removeClass("swap-block");
+		$(".divTableHeading").removeClass("swap-block");
+		$(".divTableHeading").removeClass("swap-txt");
         $(".compat-tx1-criteria").removeClass("swap-block");
         $(".compat-tx1-criteria").removeClass("swap-txt");
         $(".compat-status-text").removeClass("swap-txt");
         $(".compat-search-character").removeClass("swap-block-search");
-        $("#compat-con-pages").removeClass("swap-block");
-        $("#compat-con-pages").removeClass("swap-txt");
-        $("#compat-author").removeClass("swap-button");
+		
         $(".nav-links").removeClass("swap-blog-body swap-txt");
         $(".hentry").removeClass("swap-blog-body swap-txt");
         $(".entry-header").removeClass("swap-blog-header");
