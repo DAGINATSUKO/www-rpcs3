@@ -50,6 +50,5 @@
 <!-- End -->
 <?php include 'lib/module/ui-footer.php';?>
 <!-- End -->
-</div>
 </body>
 </html>
