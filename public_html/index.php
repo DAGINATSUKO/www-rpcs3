@@ -255,15 +255,15 @@
 			</a>
 			<ul class="page-flx-container">
 				<?php 
-				loadVideo('2', 'left');
-				loadVideo('3', 'right');
-				loadVideo('4', 'left');
-				loadVideo('5', 'right');
-				loadVideo('6', 'left');
-				loadVideo('7', 'right');
-				loadVideo('8', 'left');
-				loadVideo('9', 'right');
-				loadVideo('10', 'left');
+				loadVideo('2');
+				loadVideo('3');
+				loadVideo('4');
+				loadVideo('5');
+				loadVideo('6');
+				loadVideo('7');
+				loadVideo('8');
+				loadVideo('9');
+				loadVideo('10');
 			?>
 			</ul>
 			<div id='featured-con-block' class="lightmode-block div-content-ad">
