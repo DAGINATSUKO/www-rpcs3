@@ -33,8 +33,8 @@ echo "<li id='featured-con-grid' class='page-flx-item lightmode-block'>
 	<div id='featured-btn-play' class=\"page-video-{$id}\">
 	</div>
 </div>
-<div id='featured-con-block' class='lightmode-block' style='border-bottom: none !important; margin-bottom: 0px; !important;'>
-	<div id='featured-wrp-block' class='lightmode-block' style='padding-bottom: 0px !important;padding-right: 0px; left: 0px;'>
+<div id='featured-con-block' class='lightmode-block' style='border-bottom: none !important; margin-bottom: 0; !important;'>
+	<div id='featured-wrp-block' class='lightmode-block' style='padding-bottom: 0px !important;padding-right: 0; left: 0;'>
 		<div id='featured-tx1-grid' class='lightmode-txt'>
 			<h2 class=\"feature-{$id}-title\">Title</h2>
 		</div>

@@ -255,15 +255,15 @@
 			</a>
 			<ul class="page-flx-container">
 				<?php 
-				loadVideo('2', 'left');
-				loadVideo('3', 'right');
-				loadVideo('4', 'left');
-				loadVideo('5', 'right');
-				loadVideo('6', 'left');
-				loadVideo('7', 'right');
-				loadVideo('8', 'left');
-				loadVideo('9', 'right');
-				loadVideo('10', 'left');
+				loadVideo('2');
+				loadVideo('3');
+				loadVideo('4');
+				loadVideo('5');
+				loadVideo('6');
+				loadVideo('7');
+				loadVideo('8');
+				loadVideo('9');
+				loadVideo('10');
 			?>
 			</ul>
 			<div id='featured-con-block' class="lightmode-block div-content-ad">
@@ -272,14 +272,14 @@
 						 Ad
 					</p>
 				</div>
-				<center>
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Ad -->
-				<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
+				<div style="text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Ad -->
+					<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
-				</center>
+				</div>
 			</div>
 			<!-- End -->
 			<?php include 'lib/module/block-requirements.php';?>
@@ -342,6 +342,5 @@
 <!-- End -->
 <?php include 'lib/module/ui-footer.php';?>
 <!-- End -->
-</div>
 </body>
 </html>
