@@ -1,7 +1,7 @@
 ![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
 
 ## RPCS3.net
-This is the official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage") RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently supports modern Vulkan, Direct3D 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.
+This is the official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
 ## Copyright
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
