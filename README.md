@@ -1,7 +1,7 @@
 ![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
 
 ## RPCS3.net
-This is the official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
+Official source code for [RPCS3.net](https://rpcs3.net "RPCS3 Homepage")
 
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
