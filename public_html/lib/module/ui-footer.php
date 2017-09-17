@@ -12,10 +12,12 @@
 	<div id='footer-ico-credits'></div>
 		<div id='footer-tx1-credits'>
 			<p>
-				<a href='https://github.com/DAGINATSUKO' target="_blank" title="View DAGINATSUKO on GitHub">Website by DAGINATSUKO</a>
-				&nbsp; &nbsp;<a href='https://github.com/AniLeo' target="_blank" title="View AniLeo on GitHub">Compatibility List by AniLeo</a>
-				&nbsp; &nbsp;<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank" title="Download this website's source code on GitHub">Website Source</a>
+				<a href='https://github.com/DAGINATSUKO' target="_blank">Website by DAGINATSUKO</a>
+				&nbsp; &nbsp;<a href='https://rpcs3.net/blog/' target="_blank">Blog by ssshadow</a>
+				&nbsp; &nbsp;<a href='https://github.com/AniLeo' target="_blank">Compatibility and Forums by Ani</a>
+				&nbsp; &nbsp; | &nbsp;
 				&nbsp; &nbsp;<a href='/disclaimer' title="View legal disclaimer">Disclaimer</a>
+				&nbsp; &nbsp;<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">Source Code</a>
 				&nbsp; &nbsp; Copyright © 2017
 			</p>
 		</div>

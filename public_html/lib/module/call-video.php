@@ -1,7 +1,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $('.feature-1-title').text("Welcome to RPCS3 - The PlayStation 3 Emulator");
-    $('.feature-1-desc').text("RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Many fraudulent PlayStation 3 emulators and console emulators in general have clouded the public eye of the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality");
+    $('.feature-1-desc').text("RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Many fraudulent PlayStation 3 emulators and console emulators in general have clouded the public eye of the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.");
     $('.feature-1-author').text("Uploaded By Reznoire");
 });
 </script>
