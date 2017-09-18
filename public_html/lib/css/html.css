@@ -2,7 +2,7 @@ ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 	margin:0;
 	padding:0;
 }
-h1,h2,h3,h4,h5,p {
+p,b,h1,h2,h3,h4,h5,h6 {
 	font-family:inherit;
 	font-size:inherit;
 	font-weight:inherit;
@@ -18,7 +18,7 @@ body {
 	text-align:inherit;
 	background:#f2f2f2;
 }
-ul{
+ul,li {
 	font-family:inherit;
 	font-size:14px !important;
 	font-size:inherit;
@@ -26,24 +26,7 @@ ul{
 	line-height:24px !important;
 	line-height:inherit;
 	text-align:inherit;
-}
-li {
-	font-family:inherit;
-	font-size:14px !important;
-	font-size:inherit;
-	font-weight:inherit;
-	line-height:24px !important;
-	line-height:inherit;
-	text-align:inherit;
-}
-ul {
 	list-style:none;
-}
-b {
-	font-family:inherit;
-	font-size:inherit;
-	line-height:inherit;
-	text-align: inherit;
 }
 a:visited {
 	text-decoration:none;
@@ -155,58 +138,4 @@ td {
 }
 .markdown-body ul {
 	padding-left: 25px;
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-device-width: 480px){
-  body {
-		-webkit-text-size-adjust: none;
-	}
-}
-@media screen and (max-width:1000px) {
-	#menu-con-support {
-		display:none !important;
-	}
-}
-@media screen and (max-height:768px) {
-	.video-con-scale {
-		-webkit-transform:scale(.70);
-		-moz-transform:scale(.70);
-		-o-transform:scale(.70);
-		transform:scale(.70);
-	}
-}
-@media screen and (max-width:1290px) {
-	.video-con-scale {
-		-webkit-transform:scale(.70);
-		-moz-transform:scale(.70);
-		-o-transform:scale(.70);
-		transform: scale(.70);
-	}
-}
-@media screen and (max-width:1020px) {
-	.visual-wavebar-1 {
-		opacity:0 !important;
-	}
-}
-@media screen and (max-width:1020px) {
-	.visual-wavebar-2 {
-		opacity:0 !important;
-	}
-}
-
-@media screen and (max-width:1115px) {
-	.div-video-left {
-		float:none !important;
-	}
-}
-@media screen and (max-width:1115px) {
-	.div-video-right {
-		float: none !important;
-	}
-}
-@media screen and (max-width:1215px) {
-	.page-flx-container {
-		-webkit-justify-content:space-around !important;
-		justify-content: space-around !important;
-	}
 }

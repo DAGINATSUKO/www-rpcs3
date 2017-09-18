@@ -7,4 +7,5 @@
 <link rel="stylesheet" href="/lib/css/main.css"/>
 <link rel="stylesheet" href="/lib/css/darkmode.css"/>
 <link rel="stylesheet" href="/lib/css/menu.css"/>
+<link rel="stylesheet" href="/lib/css/scale.css"/>
 <link rel="stylesheet" href="/lib/css/debug.css"/>
