@@ -45,7 +45,7 @@ $(document).ready(function() {
         $(".compat-search-character").toggleClass("swap-block-search");
 
         $("#compat-con-pages").toggleClass("swap-block swap-txt");
-        $("#compat-author").toggleClass("swap-button");
+        $("#compat-author").toggleClass("swap-compat-author");
         $(".nav-links").toggleClass("swap-blog-body swap-txt");
         $(".hentry").toggleClass("swap-blog-body swap-txt");
         $(".entry-header").toggleClass("swap-blog-header");
@@ -55,6 +55,8 @@ $(document).ready(function() {
         $(".widget-title").toggleClass("swap-blog-sidebar");
         $(".page-header").toggleClass("swap-blog-body");
         $(".page-content").toggleClass("swap-blog-body swap-txt");
+		
+		$(".debug-main").toggleClass("swap-block");
     });
     $(".toggle-lightmode").on("click", function() {
         var $this = $(this);
@@ -110,7 +112,7 @@ $(document).ready(function() {
         $(".compat-search-character").addClass("swap-block-search");
 
         $("#compat-con-pages").addClass("swap-block swap-txt");
-        $("#compat-author").addClass("swap-button");
+        $("#compat-author").addClass("swap-compat-author");
         $(".nav-links").addClass("swap-blog-body swap-txt");
         $(".hentry").addClass("swap-blog-body swap-txt");
         $(".entry-header").addClass("swap-blog-header");
@@ -120,6 +122,8 @@ $(document).ready(function() {
         $(".widget-title").addClass("swap-blog-sidebar");
         $(".page-header").addClass("swap-blog-body");
         $(".page-content").addClass("swap-blog-body swap-txt");
+		
+		$(".debug-main ul").addClass("swap-block");
     } else {
         $('body').removeClass("swap-bg");
         $('.lightmode-header').removeClass("swap-header");
@@ -163,7 +167,7 @@ $(document).ready(function() {
         $(".compat-search-character").removeClass("swap-block-search");
 
         $("#compat-con-pages").removeClass("swap-block swap-txt");
-        $("#compat-author").removeClass("swap-button");
+        $("#compat-author").removeClass("swap-compat-author");
         $(".nav-links").removeClass("swap-blog-body swap-txt");
         $(".hentry").removeClass("swap-blog-body swap-txt");
         $(".entry-header").removeClass("swap-blog-header");
@@ -173,5 +177,7 @@ $(document).ready(function() {
         $(".widget-title").removeClass("swap-blog-sidebar");
         $(".page-header").removeClass("swap-blog-body");
         $(".page-content").removeClass("swap-blog-body swap-txt");
+		
+		$(".debug-main").removeClass("swap-block");
     }
 });
