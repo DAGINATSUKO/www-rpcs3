@@ -1,5 +1,4 @@
-<div id="featured-tx1-heading" class="div-heading lightmode-txt">
-	<h2>Featured Patrons</h2>
+<div id="featured-ico-heading" style="background: url('/img/icons/boards/patreon.png') no-repeat center; background-size: 130px;">
 </div>
 <!-- End -->
 <div id='list-con-block'>
