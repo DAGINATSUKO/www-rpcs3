@@ -25,8 +25,8 @@ ul,li {
 	font-weight:inherit;
 	line-height:24px !important;
 	line-height:inherit;
-	text-align:inherit;
 	list-style:none;
+	text-align:inherit;
 }
 a:visited {
 	text-decoration:none;
@@ -54,24 +54,24 @@ a:hover {
 	background:#a9a9a9;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #9c9c9c;
+	background:#9c9c9c;
 }
 ::-webkit-input-placeholder {
-  color: #3198ff;
+	color:#3198ff;
 }
 ::-moz-placeholder {
-  color: #3198ff;
+	color:#3198ff;
 }
 :-ms-input-placeholder {
-  color: #3198ff;
+	color:#3198ff;
 }
 :-moz-placeholder {
-  color: #3198ff;
+	color:#3198ff;
 }
 iframe {
 	width:100%;
 	height:100%;
-	border: none;
+	border:none;
 }
 table {
 	font-family:arial;
@@ -86,16 +86,16 @@ tr {
 	background:#fff;
 }
 tr:last-child {
-	border-bottom: 1px solid #e4e4e4;
+	border-bottom:1px solid #e4e4e4;
 }
 tr:nth-child(2n) {
-	background:rgba(122, 179, 255, 0.05);
+	background:rgba(122,179,255,.05);
 }
 tr:nth-child(2n+1) {
-	background: #fff;
+	background:#fff;
 }
 td a:hover {
-	text-decoration: underline;
+	text-decoration:underline;
 }
 th {
 	padding-left:25px;
@@ -104,14 +104,14 @@ th {
 	background-color:#fff;
 }
 th a {
-	color: #455971 !important;
+	color:#455971 !important;
 }
 td {
 	line-height:38px;
 	height:35px;
 	padding-left:25px;
 	text-align:left;
-	color:#455971;
+	color: #455971;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------------*/
 .anchor {
@@ -129,7 +129,7 @@ td {
 	padding-bottom:15px;
 	text-align:left;
 	color:#455971;
-	border-bottom: 1px solid rgba(238, 238, 238, 0.4);
+	border-bottom:1px solid rgba(238,238,238,.4);
 }
 .markdown-body {
 	font-family:arial;

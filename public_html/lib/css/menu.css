@@ -74,9 +74,9 @@
 	-webkit-animation-duration:.2s;
 	-webkit-animation-iteration-count:1;
 	background:#fff;
-	-webkit-box-shadow:0px 0px 81px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow:0px 0px 81px 0px rgba(0,0,0,0.25);
-	box-shadow:0px 0px 81px 0px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0 0 81px 0 rgba(0,0,0,.25);
+	-moz-box-shadow:0 0 81px 0 rgba(0,0,0,.25);
+	box-shadow:0 0 81px 0 rgba(0,0,0,.25);
 }
 #submenu-con-wrapper {
 	position:relative;
@@ -85,13 +85,13 @@
 	background:#fff;
 }
 #submenu-ico-lip {
-	background:url(/img/icons/menu/lip.png) no-repeat center;
-	background-size:22px;
-	width:60px;
-	height:60px;
 	position:absolute;
 	top:-33px;
 	right:74px;
+	width:60px;
+	height:60px;
+	background:url(/img/icons/menu/lip.png) no-repeat center;
+	background-size:22px;
 }
 #submenu-con-wrapper:hover {
 	background:#4c5bd7;
