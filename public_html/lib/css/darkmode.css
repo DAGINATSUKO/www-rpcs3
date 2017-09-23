@@ -73,7 +73,7 @@
 }
 .swap-highlight {
 	color:#59acff!important;
-	background:#1e1e4c!important;
+	background: rgba(0, 128, 255, 0.09) !important;
 }
 .swap-navsidebar-title {
 	background:#252d68!important;

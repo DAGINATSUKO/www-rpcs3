@@ -69,7 +69,7 @@
 					</div>
 					<div id='featured-tx2-block' class="lightmode-txt">
 						<p>
-							 For Windows users, you must drag and drop the updated <b class="txt-highlight lightmode-highlight">executable</b> to the root directory of your RPCS3 folder. Moving over other files is not necessary and may overwrite user settings. In some cases, the GUIconfigs folder may need to be deleted and regenerated as new features are added to the user interface.<br>
+							 For Windows users, you must drag and drop the updated <b class="txt-highlight lightmode-highlight">executable</b> to the root directory of your RPCS3 folder. Note that from time to time new DLLs may be added or modified, so make sure you copy any new ones to your existing installation. <br>
 							<br>
 							 For Linux users, you must download the updated <b class="txt-highlight lightmode-highlight">AppImage</b> and make it executable with the command <b class="txt-highlight lightmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
 						</p>
@@ -424,7 +424,7 @@
 							<br>
 							<p>
 								<b>PPU Recompiler (LLVM)</b><br>
-								 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides both the fastest PPU emulation.
+								 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides the fastest PPU emulation.
 							</p>
 							<br>
 							<p>
@@ -455,17 +455,19 @@
 						<div id='featured-tx2-block' class="lightmode-txt">
 							<p>
 								<b>Renderer</b><br>
-								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Please note that D3D12 (Direct3D 12) is only compatible with Windows 10. Vulkan will always be the fastest renderer, followed by OpenGL, it being the most accurate renderer and then Direct3D 12 being the most experimental. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Vulkan will always be the fastest renderer, followed by OpenGL, the most accurate renderer. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
+								 <i>Note that D3D12 (Direct3D 12) is only compatible with Windows 10 and its usage is not recommended as it's unmantained.</i>
 							</p>
 							<br>
 							<p>
 								<b>Resolution</b><br>
-								 Allows you to set the native rendering resolution for the emulated console. Optimal resolutions for testing are 1920x1080 and 1280x720. Not all games will render at 1080p because a real PlayStation 3 doesn't support this resolution on all games.
+								 Allows you to set the native rendering resolution for the emulated console. See the supported resolutions for the game you're testing on the Game List and pick any of those. 
+								 <i>Note that not all games render at 1080p because a real PlayStation 3 doesn't support this resolution on all games</i>
 							</p>
 							<br>
 							<p>
 								<b>Graphics Device</b><br>
-								 Allows you to select your preferred D3D12 or VK device when using either the Direct3D 12 or Vulkan graphics APIs.
+								 Allows you to select your preferred GPU for usage in the Vulkan and D3D12 renderers.
 							</p>
 							<br>
 							<p>
@@ -475,22 +477,28 @@
 							<br>
 							<p>
 								<b>Frame Limit</b><br>
-								 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3.
+								 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't and goes above 60fps. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3. 
+								 <i>Using Frame Limit will slow down your game if it doesn't run fast enough, so use it only if needed.</i>
 							</p>
 							<br>
 							<p>
-								<b>Write Color buffers</b><br>
-								 These buffers should be disabled for now as they're not working properly with any of the renderers. The buffers are only required for bigger AAA games. Some advanced games like Demon's Souls require the use of the Write Color buffers options.
+								<b>Write Color Buffers</b><br>
+								 These buffers are only required for some bigger AAA games. Demon's Souls requires the use of the Write Color buffers option.
 							</p>
 							<br>
 							<p>
-								<b>Invalidate cache every frame</b><br>
-								 Helps improve the way shadows are handled by very select few games. Only enable this option unless absolutely necessary.
+								<b>Invalidate Cache Every Frame</b><br>
+								 Improves the way shadows are handled. Use this only if your game displays broken shadows.
 							</p>
 							<br>
 							<p>
 								<b>Use GPU texture scaling</b><br>
-								 Improves performance slightly by scaling textures appropriately and works for most games. In rare cases, this option may cause texture corruption.
+								 Improves performance by offloading some texture scaling over to the GPU. In rare cases, this option may cause texture corruption.
+							</p>
+							<br>
+							<p>
+								<b>Strict Rendering Mode</b><br>
+								 Enforces strict compliance to the graphical API specification. Might result in degraded performance in some games. Can resolve rare cases of missing graphics and flickering. 
 							</p>
 							<br>
 							<p>
@@ -516,7 +524,7 @@
 						<div id='featured-tx2-block' class="lightmode-txt">
 							<p>
 								<b>Audio Out</b><br>
-								 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows-only) and ALSA (Linux-only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA should always be used on Linux systems.
+								 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows only), ALSA (Linux only) and PulseAudio (Linux and BSD only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA/PulseAudio should always be used on Linux systems.
 							</p>
 							<br>
 							<p>
@@ -534,11 +542,6 @@
 							<h2>Input/Output settings</h2>
 						</div>
 						<div id='featured-tx2-block' class="lightmode-txt">
-							<p>
-								<b>Controller Handler</b><br>
-								 Allows you to select which handler you want to drive your controller's inputs for emulated games and software. For Linux users, you can configure controllers in RPCS3 using the following methods found <a href='https://gist.github.com/kirbyfan64/72f5d7223fcba2e24c4286aea9e4ccc1' target="_blank">here</a>.
-							</p>
-							<br>
 							<p>
 								<b>Keyboard Handler</b><br>
 								 Allows you to select which device you want to register emulated console keyboard inputs.
@@ -572,7 +575,7 @@
 						<div id='featured-tx2-block' class="lightmode-txt">
 							<p>
 								<b>Connection status</b><br>
-								 Allows you to spoof an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
+								 Allows you to try spoofing an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
 							</p>
 						</div>
 					</div>
@@ -588,7 +591,7 @@
 						<div id='featured-tx2-block' class="lightmode-txt">
 							<p>
 								<b>Language</b><br>
-								 Allows you to change the internal system language of the emulated console. In some rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
+								 Allows you to change the internal system language of the emulated console. In some very rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
 							</p>
 						</div>
 					</div>

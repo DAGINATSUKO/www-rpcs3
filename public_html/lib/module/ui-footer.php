@@ -2,14 +2,11 @@
 <div id="footer-con-wrapper">
 	<div id="footer-ico-wrapper">
 	</div>
-	<div id="footer-con-overlay" class="lightmode-header">
-	</div>
 	<div class="visual-wavebar-1 lightmode-wavebar">
 	</div>
 	<div class="visual-wavebar-1 delayed-fade lightmode-wavebar" style="display:none;">
 	</div>
 	<div id="footer-con-credits">
-	<div id='footer-ico-credits'></div>
 		<div id='footer-tx1-credits'>
 			<p>
 				<a href='https://github.com/DAGINATSUKO' target="_blank">Website by DAGINATSUKO</a>

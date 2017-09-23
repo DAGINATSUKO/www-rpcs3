@@ -42,8 +42,8 @@
 	);
 	preloadVideo(
 	'3',
-	'CTi3AEJqNbU',
-	'Persona 5'
+	'gl1hIa19MP0',
+	'Rune Factory: Tides of Destiny'
 	);
 	preloadVideo(
 	'8',
