@@ -17,7 +17,7 @@
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
 		</div>
-		<div id='header-con-overlay' class="lightmode-header">
+		<div id='header-con-overlay' class="darkmode-header">
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
@@ -33,16 +33,16 @@
 	<div id="page-con-container">
 		<div id="page-in-container" style="overflow: visible !important; overflow-x: visible !important;">
 			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading lightmode-txt">
+			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>About Us</h2>
 			</div>
 			<!-- End -->
-			<div id='featured-con-block' class="lightmode-block">
+			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="lightmode-txt">
+					<div id='featured-tx1-block' class="darkmode-txt">
 						<h2 class="download-title">RPCS3 Open-source Sony PlayStation 3 Emulator</h2>
 					</div>
-					<div id='featured-tx2-block' class="lightmode-txt">
+					<div id='featured-tx2-block' class="darkmode-txt">
 						<p class="download-desc">
 							 RPCS3 was founded by programmers DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today RPCS3 is dubbed one of the most complex video game console emulators of all time with an endless goal to effectively emulate the Sony PlayStation 3 and all of its aspects.<br>
 							 <br>
@@ -52,18 +52,18 @@
 				</div>
 			</div>
 			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading lightmode-txt">
+			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Current Developers</h2>
 			</div>
 			<!-- End -->
 			<div class="div-member-con">
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Nekotekina
@@ -78,7 +78,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Nekotekina joined RPCS3 in late 2013 as a contributor. He is currently the project lead and lead core developer. He is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer.
 							</p>
@@ -86,13 +86,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-gdev" id='featured-ava-block' style="background: url('/img/members/kd11.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 kd-11
@@ -104,7 +104,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 kd-11 joined RPCS3 in early 2016 as a contributor. He is a veteran in graphics various shenanigans and is currently the lead graphics developer for RPCS3. kd-11 is constantly improving the emulator, mainly its graphical back-end parts and greatly enjoys doings so.
 							</p>
@@ -112,13 +112,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ssshadow.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 ssshadow
@@ -133,7 +133,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 ssshadow is a human RPCS3 Wiki and has been around since 2013. He recently took the role as Community Manager for RPCS3 as well as the writer for RPCS3's month-to-month progress reports. He mantains RPCS3's social media accounts alongside Ani.
 							</p>
@@ -141,13 +141,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Ani
@@ -162,7 +162,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Ani joined RPCS3 in mid 2016 as a global forum moderator for EmuNewz and helper. He recently took the role as Community Manager and Web Backend Developer, developing and maintaining the Compatibility portion of the website. Along with ssshadow, Ani also mantains RPCS3's social media accounts.
 							</p>
@@ -170,13 +170,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 DAGINATSUKO
@@ -191,20 +191,20 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 DAGINATSUKO joined RPCS3 in early 2017 as the core web developer and core graphic designer. In addition, they are also in charge of the project's branding which includes the logos, graphics and press kit assets that greatly contribute to developing the face of the emulator and its team.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/jarves.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Jarveson
@@ -216,7 +216,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Jarves has been around since 2014 doing some contributions from time-to-time. Recently, between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated and implemented DualShock 4 native support.
 							</p>
@@ -224,13 +224,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/poland.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Numan
@@ -242,7 +242,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Numan joined RPCS3 in early 2017 as a contributor. He has since then moved up, becoming a core contributor due to his valiant efforts in investigating and then fixing various bugs found in the emulator. He was the person responsible for the first efforts that made Demon's Souls boot, which drew a lot of attention to the project.
 							</p>
@@ -250,13 +250,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div id='featured-ava-block' style="background: url('/img/members/hcorion.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 hcorion
@@ -268,7 +268,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 hcorion is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
@@ -277,13 +277,13 @@
 				</div>
 				<!-- End -->
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div id='featured-ava-block' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 flash-fire
@@ -295,7 +295,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 flash-fire is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
@@ -303,13 +303,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div id='featured-ava-block' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Megamouse
@@ -321,7 +321,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Megamouse is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
@@ -329,13 +329,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div id='featured-ava-block' style="background: url('/img/members/galciv.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 GalCiv
@@ -347,7 +347,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 GalCiv is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer to decide add a proper description, this description will be promptly updated upon their request.
 							</p>
@@ -355,13 +355,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 BlackDaemon
@@ -373,7 +373,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 BlackDaemon has been around since the beginning as a global forum moderator and avid tester. He was responsible for testing and debugging many games, sharing peculiar issues to other developers so they could be fixed.
 							</p>
@@ -381,13 +381,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 O1L
@@ -402,7 +402,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 O1L is a contributor and team member for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
@@ -410,13 +410,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Clienthax
@@ -428,7 +428,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Clienthax is a debugger and team member for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
@@ -436,13 +436,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Shadow
@@ -457,7 +457,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Shadow, being one of the eldest team members for RPCS3, is the owner of both the RPCS3 and EmuNewz web servers. Shadow has also made small, yet meaningful contributions to the emulator over the years and still continues to do so every now and then.
 							</p>
@@ -465,13 +465,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div id='featured-ava-block' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Dangles
@@ -483,7 +483,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Dangles is a contributor for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
 							</p>
@@ -492,18 +492,18 @@
 				</div>
 			</div>
 			<!-- End -->
-			<div id="featured-tx1-heading" class="div-heading lightmode-txt">
+			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Former Developers</h2>
 			</div>
 			<!-- End -->
 			<div class="div-member-con">
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/dh.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/ukraine.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 DH
@@ -515,7 +515,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4'>PlayStation 4 related research</a>.
 							</p>
@@ -523,13 +523,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/hykem.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Hykem
@@ -541,7 +541,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735'>He was forced to leave the emulation scene in mid 2016.</a>
 							</p>
@@ -549,13 +549,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/alexaltea.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 AlexAltea
@@ -567,7 +567,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 AlexAltea is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
 							</p>
@@ -575,13 +575,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/tambry.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/estonia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Tambry
@@ -593,7 +593,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 Tambry is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
 							</p>
@@ -601,13 +601,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/bigpet.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 Bigpet
@@ -619,7 +619,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 BigPet is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
 							</p>
@@ -627,13 +627,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/vlj.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 vlj
@@ -645,7 +645,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 vlj is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
 							</p>
@@ -653,13 +653,13 @@
 					</div>
 				</div>
 				<!-- End -->
-				<div id='featured-con-block' class="div-member-block lightmode-block lightmode-txt">
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div class="div-role-fdev" id='featured-ava-block' style="background: url('/img/members/gopalsr83.png') no-repeat center; background-size: cover;">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/india.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="lightmode-txt">
+						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
 								 gopalsr83
@@ -671,7 +671,7 @@
 							</p>
 							</h2>
 						</div>
-						<div id='featured-tx2-block' class="lightmode-txt">
+						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								 gopalsr83 is a past developer and team member for RPCS3 and is currently not working on the project anymore from now and into the future. This past developer is thought to be deceased and more information will be gathered on his contributions at a later date.
 							</p>

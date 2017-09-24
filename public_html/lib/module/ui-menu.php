@@ -1,9 +1,9 @@
-<div id='menu-con-menubar' class="lightmode-menubar">
-	<div id="menu-und-level1" class="lightmode-menubar-level1">
+<div id='menu-con-menubar' class="darkmode-menubar">
+	<div id="menu-und-level1" class="darkmode-menubar-level1">
 	</div>
-	<div id="menu-und-level2" class="lightmode-menubar-level2">
+	<div id="menu-und-level2" class="darkmode-menubar-level2">
 	</div>
-	<div id="menu-btn-lights" title="Dark Mode" class="toggle-lightmode">
+	<div id="menu-btn-lights" title="Dark Mode" class="toggle-darkmode">
 	</div>
 	<div id="menu-con-container">
 		<div id="menu-in-container">

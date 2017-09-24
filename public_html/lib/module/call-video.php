@@ -28,14 +28,14 @@ $(document).ready(function() {
 ";
 }
 function loadVideo($id) {
-echo "<li id='featured-con-grid' class='page-flx-item lightmode-block'>
+echo "<li id='featured-con-grid' class='page-flx-item darkmode-block'>
 <div id='featured-img-grid' style=\"background:url('/img/thumbs/{$id}.jpg') no-repeat center; background-size: cover;\">
 	<div id='featured-btn-play' class=\"page-video-{$id}\">
 	</div>
 </div>
-<div id='featured-con-block' class='lightmode-block' style='border-bottom: none !important; margin-bottom: 0; !important;'>
-	<div id='featured-wrp-block' class='lightmode-block' style='padding-bottom: 0px !important;padding-right: 0; left: 0;'>
-		<div id='featured-tx1-grid' class='lightmode-txt'>
+<div id='featured-con-block' class='darkmode-block' style='border-bottom: none !important; margin-bottom: 0; !important;'>
+	<div id='featured-wrp-block' class='darkmode-block' style='padding-bottom: 0px !important;padding-right: 0; left: 0;'>
+		<div id='featured-tx1-grid' class='darkmode-txt'>
 			<h2 class=\"feature-{$id}-title\">Title</h2>
 		</div>
 	</div>

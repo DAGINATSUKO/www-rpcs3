@@ -2,9 +2,9 @@
 <div id="footer-con-wrapper">
 	<div id="footer-ico-wrapper">
 	</div>
-	<div class="visual-wavebar-1 lightmode-wavebar">
+	<div class="visual-wavebar-1 darkmode-wavebar">
 	</div>
-	<div class="visual-wavebar-1 delayed-fade lightmode-wavebar" style="display:none;">
+	<div class="visual-wavebar-1 delayed-fade darkmode-wavebar" style="display:none;">
 	</div>
 	<div id="footer-con-credits">
 		<div id='footer-tx1-credits'>
