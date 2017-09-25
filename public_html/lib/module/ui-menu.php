@@ -46,19 +46,26 @@
 				<span>FAQ</span>
 			</div>
 			</a>
+			<div id="menu-btn-select" style="pointer-events: none;">
+				<span>|</span>
+			</div>
 			<a href='https://forums.rpcs3.net' target="_blank">
 			<div id="menu-btn-select" title="Forum">
 				<span>Forum</span>
 			</div>
 			</a>
-			<div id="menu-btn-select" style="pointer-events: none;">
-				<span>|</span>
-			</div>
 			<a href='https://discord.me/RPCS3' target="_blank">
 			<div id="menu-btn-select" title="Discord">
 				<span>Discord</span>
 			</div>
 			</a>
+			
+			<a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">
+			<div id="menu-btn-select" title="PlayStation 3 Developer Wiki">
+				<span>Developer Wiki</span>
+			</div>
+			</a>
+			
 			<div class="support-subtrigger" id="menu-con-support">
 				<div id="menu-tx1-support" title="Support Us">
 					<span>Support Us</span>

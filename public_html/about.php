@@ -58,7 +58,7 @@
 			<!-- End -->
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;">
+					<div class="div-role-cdev" id='featured-ava-block' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;" title="Keyboard cat">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -87,7 +87,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-gdev" id='featured-ava-block' style="background: url('/img/members/kd11.png') no-repeat center; background-size: cover;">
+					<div class="div-role-gdev" id='featured-ava-block' style="background: url('/img/members/kd11.png') no-repeat center; background-size: cover;" title="Human GPU">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -113,7 +113,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ssshadow.png') no-repeat center; background-size: cover;">
+					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ssshadow.png') no-repeat center; background-size: cover;" title="The hedgehog?">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -142,7 +142,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;">
+					<div class="div-role-cman" id='featured-ava-block' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;" title="Biggest weeb known to mankind.">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -171,7 +171,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;">
+					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;" title="ApertureNOBLE? Nah.">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -199,7 +199,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/jarves.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/jarves.png') no-repeat center; background-size: cover;" title="He's only in it for Kingdom Hearts">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -225,8 +225,8 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;">
-						<div id='featured-nat-block' style="background: url('/img/icons/countries/poland.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ccdev" id='featured-ava-block' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;" title="Bad cop moderator">
+						<div id='featured-nat-block' style="background: url('/img/icons/countries/principality-of-sealand.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="div-avatar-block" id='featured-wrp-block'>
@@ -251,7 +251,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/members/hcorion.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/hcorion.png') no-repeat center; background-size: cover;" title="The boss">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -276,9 +276,8 @@
 					</div>
 				</div>
 				<!-- End -->
-				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='featured-ava-block' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;" title="The second biggest weeb known to mankind">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -304,7 +303,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;" title="When German engineering meets UI design...">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -330,7 +329,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/members/galciv.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/galciv.png') no-repeat center; background-size: cover;" title="He just likes Galactic Civilizations">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -356,7 +355,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;" title="The Russian">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -382,7 +381,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;" title="He comes and goes">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -411,7 +410,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;">
+					<div class="div-role-ddev" id='featured-ava-block' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;" title="Doesn't actually hack anything">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -437,7 +436,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;">
+					<div class="div-role-wdev" id='featured-ava-block' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;" title="Grandpa">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -466,7 +465,7 @@
 				</div>
 				<!-- End -->
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='featured-ava-block' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;">
+					<div id='featured-ava-block' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;" title="No one knows...">
 						<div id='featured-nat-block' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -679,8 +678,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
-			<?php include 'lib/module/block-supporters.php';?>
 			<!-- End -->
 		</div>
 	</div>

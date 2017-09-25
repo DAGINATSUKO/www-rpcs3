@@ -169,7 +169,7 @@
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <b class="txt-highlight darkmode-highlight">PlayStation Network </b> game's root directory:
+							 The typical layout of a <b class="txt-highlight darkmode-highlight">PlayStation Network</b> game's root directory:
 						</p>
 						<p>
 							 • TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc
@@ -252,6 +252,23 @@
 			<div id="featured-tx1-heading" class="div-heading ">
 				<h2>Obtaining Games</h2>
 			</div>
+			<div id='featured-con-block' class="darkmode-block">
+				<div class="div-anchor" id="install_updates">
+				</div>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block' class="darkmode-txt">
+						<h2>Software Distribution laws in your country</h2>
+					</div>
+					<div id='featured-tx2-block' class="darkmode-txt">
+						<p>
+						When dumping video game software for this emulator, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
+						<br>
+						By following these instructions, you will do so at your own discretion. Should you follow these instructions against your local law, we shall not be held responsible for your actions.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- End -->
 			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="obtaining_games">

@@ -11,7 +11,6 @@ $(document).ready(function() {
         $('.darkmode-panel-2').toggleClass("dm-panel-ovr");
         $('.darkmode-txt').toggleClass("dm-txt");
         $('.darkmode-ad').toggleClass("dm-ad");
-        $('.darkmode-wavebar').toggleClass("dm-wavebar");
         $('.darkmode-highlight').toggleClass("dm-highlight");
         $('.darkmode-menubar-level1').toggleClass("dm-menubar-level1");
         $('.darkmode-menubar-level2').toggleClass("dm-menubar-level2");
@@ -79,7 +78,6 @@ $(document).ready(function() {
         $('.darkmode-panel-2').addClass("dm-panel-ovr");
         $('.darkmode-txt').addClass("dm-txt");
         $('.darkmode-ad').addClass("dm-ad");
-        $('.darkmode-wavebar').addClass("dm-wavebar");
         $('.darkmode-highlight').addClass("dm-highlight");
         $('.darkmode-menubar-level1').addClass("dm-menubar-level1");
         $('.darkmode-menubar-level2').addClass("dm-menubar-level2");
@@ -135,7 +133,6 @@ $(document).ready(function() {
         $('.darkmode-panel-2').removeClass("dm-panel-ovr");
         $('.darkmode-txt').removeClass("dm-txt");
         $('.darkmode-ad').removeClass("dm-ad");
-        $('.darkmode-wavebar').removeClass("dm-wavebar");
         $('.darkmode-highlight').removeClass("dm-highlight");
         $('.darkmode-menubar-level1').removeClass("dm-menubar-level1");
         $('.darkmode-menubar-level2').removeClass("dm-menubar-level2");
