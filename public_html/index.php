@@ -190,7 +190,7 @@
 					</div>
 					<div id="featured-tx2-showcase">
 						<p>
-								Join our Discord community, featuring over 16,000 members for up-to-the-minute news, discussions and support in PlayStation 3 emulation.
+								Join our Discord community, featuring over 17,000 members for up-to-the-minute news, discussions and support in PlayStation 3 emulation.
 						</p>
 					</div>
 					</div>
@@ -209,7 +209,7 @@
 							 RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The project began development on May 23rd, 2011 and currently supports modern Vulkan, Direct3D 12 and OpenGL graphic APIs. The emulator is capable of booting and playing hundreds of commercial games. With each and every contribution and donation, more and more games are becoming closer and closer to either booting or full playability.<br>
 							<br>
 							
-							When dumping video game software for this emulator, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Any users conversing about piracy upon joining the Discord server, forums or GitHub community will receive administrative action. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
+							When dumping video game software, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Any users conversing about piracy upon joining the Discord server, forums or GitHub community will receive administrative action. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
 							<br>Remember, the best way to play PlayStation 3 games is to play them on the <a href="https://www.playstation.com/en-gb/explore/ps3/" target="_blank">original hardware</a>, for now.
 						</p>
 					</div>
