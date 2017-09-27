@@ -265,7 +265,7 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 We currently do not have support for multiple controllers in RPCS3 just yet, but we plan to in the future once we're farther in development. The foundation for multiple controllers is already there, but it just isn't priority for now. Similarly to how the a PlayStation 3 has support for up to 7 concurrent controllers, we plan to replicate that feature in its entirety.
+							 Local-multiplayer is completely supported. We support up to 7 concurrent controllers at any given time, just like original PlayStation 3 hardware on both Windows and Linux. The controllers can be assigned with a wide range of configurations. For example, one player can use keyboard while a another can use a compatible gamepad. To  learn more about compatible gamepads, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
