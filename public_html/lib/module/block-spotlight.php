@@ -6,7 +6,7 @@
 	</div>
 	<div id='spotlight-ico-body'>
 	</div>
-	<div id='spotlight-ovr-body'>
+	<div id='spotlight-ovr-body' class="darkmode-header">
 	</div>
 	<div id='spotlight-img-body'>
 	</div>

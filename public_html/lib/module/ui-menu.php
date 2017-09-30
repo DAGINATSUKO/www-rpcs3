@@ -7,10 +7,12 @@
 	</div>
 	<div id="menu-con-container">
 		<div id="menu-in-container">
-			<a href='/'>
-			<div id="menu-ico-logo" title="Home">
+			<div id="menu-con-logo" title="Home">
+				<a href='/'>
+				<div id="menu-ico-logo" title="Home">
+				</div>
+				</a>
 			</div>
-			</a>
 			<a href='/blog'>
 			<div id="menu-btn-select" title="Blog">
 				<span>Blog</span>
@@ -59,13 +61,21 @@
 				<span>Discord</span>
 			</div>
 			</a>
-			
+			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
+			<div id="menu-btn-select" title="Discord">
+				<span>GitHub</span>
+			</div>
+			</a>
+			<a href='https://www.patreon.com/Nekotekina' target="_blank">
+			<div id="menu-btn-select" class="menu-btn-mobile" title="Patreon" style="display:none;">
+				<span>Patreon</span>
+			</div>
+			</a>
 			<a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">
 			<div id="menu-btn-select" title="PlayStation 3 Developer Wiki">
 				<span>Developer Wiki</span>
 			</div>
 			</a>
-			
 			<div class="support-subtrigger" id="menu-con-support">
 				<div id="menu-tx1-support" title="Support Us">
 					<span>Support Us</span>

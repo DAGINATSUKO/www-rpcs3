@@ -3,9 +3,19 @@
 		-webkit-text-size-adjust: none;
 	}
 }
-@media screen and (max-width:1050px) {
+@media screen and (max-width:900px) {
+	#footer-btn-webmaster {
+		display:none !important;
+	}
+}
+@media screen and (max-width:1150px) {
 	#menu-con-support {
 		display:none !important;
+	}
+}
+@media screen and (max-width:1050px) {
+	.menu-btn-mobile {
+		display:inline-block !important;
 	}
 }
 @media screen and (max-height:768px) {

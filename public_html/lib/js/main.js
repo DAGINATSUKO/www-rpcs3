@@ -33,7 +33,7 @@ $(window).scroll(function() {
 /* Handles standard wavebar animation */
 $(document).ready(function() {
     var $wavebarFX = $(".visual-wavebar-1"),
-        wavebarWidth = 15,
+        wavebarWidth = 20,
         wavebarCount = $(window).width() / wavebarWidth;
     for (var i = 0; i < wavebarCount; i++) {
         $wavebar = $("<div>").addClass('wavebar-1').css('width', wavebarWidth + 'px').css('left', i * wavebarWidth + 'px').css('animation-delay', (i / wavebarCount) + 's');
@@ -43,7 +43,7 @@ $(document).ready(function() {
 /* Handles denser wavebar animation */
 $(document).ready(function() {
     var $wavebarFX = $(".visual-wavebar-2"),
-        wavebarWidth = 15,
+        wavebarWidth = 20,
         wavebarCount = $(window).width() / wavebarWidth;
     for (var i = 0; i < wavebarCount; i++) {
         $wavebar = $("<div>").addClass('wavebar-2').css('width', wavebarWidth + 'px').css('left', i * wavebarWidth + 'px').css('animation-delay', (i / wavebarCount) + 's');

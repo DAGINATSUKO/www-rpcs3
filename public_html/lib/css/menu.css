@@ -49,18 +49,24 @@
 #menu-in-container a:hover {
 	text-decoration:none;
 }
-#menu-ico-logo {
+#menu-con-logo {
 	position:relative;
-	z-index:1;
-	top:0;
-	left:0;
+	left: -8px;
 	display:inline-block;
 	float:left;
-	width:30px;
+	width: 50px;
 	height:60px;
-	margin-right:20px;
-	background:url('/img/icons/menu/logo.png') no-repeat center;
+}
+#menu-ico-logo {
+	position: absolute;
+	width: 45px;
+	height:60px;
+	background: url('/img/icons/menu/logo.png') no-repeat center;
 	background-size:32px;
+}
+#menu-ico-logo:hover {
+	height:60px;
+	border-bottom:2px solid #fff;
 }
 #submenu-con-container {
 	position:relative;
@@ -172,9 +178,9 @@
 	margin-left:0;
 	padding-right:8px;
 	padding-left:8px;
-	transition:.1s ease-in-out;
 	color:#fff;
 	border-bottom:2px solid rgba(0,0,0,.0);
+	transition: .1s ease-in-out;
 }
 #menu-btn-select:hover {
 	height:60px;

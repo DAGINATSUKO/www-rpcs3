@@ -135,7 +135,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 ssshadow is a human RPCS3 Wiki and has been around since 2013. He recently took the role as Community Manager for RPCS3 as well as the writer for RPCS3's month-to-month progress reports. He mantains RPCS3's social media accounts alongside Ani.
+								 ssshadow is a human RPCS3 Wiki and has been around since 2013, joining the staff in early 2017. Current Head of Blog and manager for RPCS3's social media accounts, he serves RPCS3 as a Community Manager as well as the writer for RPCS3's month-to-month progress reports. 
 							</p>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 Ani joined RPCS3 in mid 2016 as a global forum moderator for EmuNewz and helper. He recently took the role as Community Manager and Web Backend Developer, developing and maintaining the Compatibility portion of the website. Along with ssshadow, Ani also mantains RPCS3's social media accounts.
+								 Ani has been around since early 2016, joining the staff in mid 2016 as a Global Forum Moderator and Helper. Current Head of Forums and Compatibility List, he serves RPCS3 as a Webmaster, Web Backend Developer and Community Manager, also managing RPCS3's social media accounts.
 							</p>
 						</div>
 					</div>
@@ -296,7 +296,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 flash-fire is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+								 flash-fire has been around since early 2017. He's known for leading the effort into Qt, major UI additions, including a save manager and a WIP trophy notification. Fixing useless games no one cares about. 
 							</p>
 						</div>
 					</div>
