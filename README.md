@@ -65,6 +65,7 @@ For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS
 * 08-02-2017 - RPCS3.net Alpha 2 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 08-04-2017 - Development improvements with Docker from [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
 * 09-01-2017 - RPCS3.net Beta 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 10-01-2017 - RPCS3.net leaves Beta status by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 
 ## Copyright
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
