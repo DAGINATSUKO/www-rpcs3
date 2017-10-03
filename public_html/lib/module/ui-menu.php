@@ -1,7 +1,7 @@
 <div id='menu-con-menubar' class="darkmode-menubar">
-	<div id="menu-und-level1" class="darkmode-menubar-level1">
+	<div id="menu-und-l1" class="darkmode-menubar-l1">
 	</div>
-	<div id="menu-und-level2" class="darkmode-menubar-level2">
+	<div id="menu-und-l2" class="darkmode-menubar-l2">
 	</div>
 	<div id="menu-btn-lights" title="Dark Mode" class="toggle-darkmode">
 	</div>
@@ -66,13 +66,8 @@
 				<span>GitHub</span>
 			</div>
 			</a>
-			<a href='https://www.patreon.com/Nekotekina' target="_blank">
-			<div id="menu-btn-select" class="menu-btn-mobile" title="Patreon" style="display:none;">
-				<span>Patreon</span>
-			</div>
-			</a>
 			<a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">
-			<div id="menu-btn-select" title="PlayStation 3 Developer Wiki">
+			<div id="menu-btn-select" class="menu-btn-remove" title="PlayStation 3 Developer Wiki">
 				<span>Developer Wiki</span>
 			</div>
 			</a>

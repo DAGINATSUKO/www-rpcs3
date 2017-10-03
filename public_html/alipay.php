@@ -12,19 +12,30 @@
 <?php include 'lib/module/call-meta.php';?>
 </head>
 <?php include 'lib/module/call-sys.php';?>
-<body class="img-alipay">
+<body class="bg-backdrop">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
-<div id='img-overlay'></div>
-		<a href='/img/icons/alipay/alipay-qr.png' target="_blank">
-		<div id="donate-qrc-alipay">
+	<div id='img-overlay' class="darkmode-header">
+	</div>
+	<div id='alipay-con-alipay'>
+		<div id="alipay-ico-logo">
+		</div>
+		<a href='/img/icons/alipay/qr.png' target="_blank">
+		<div id="alipay-ico-alipay">
 		</div>
 		</a>
-		<div id="donate-con-footer">
-			<p>
-				© Copyright 2004-2017 Alipay. All rights reserved.
-			</p>
+		<div id="alipay-tx1-prompt">
+			<span>基木</span>
+		</div>
+		<div id="alipay-tx2-prompt">
+			<span>用支付宝扫一扫付钱</span>
 		</div>
 	</div>
+	<div id="alipay-con-footer">
+		<p>
+			 © Copyright 2004-2017 Alipay. All rights reserved.
+		</p>
+	</div>
+</div>
 </body>
 </html>

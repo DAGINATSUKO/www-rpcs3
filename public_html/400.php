@@ -12,12 +12,10 @@
 <?php include 'lib/module/call-meta.php';?>
 </head>
 <?php include 'lib/module/call-sys.php';?>
-<body class="img-error">
+<body class="bg-backdrop">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
-<div id='img-overlay'></div>
-	<div class="visual-wavebar">
-	</div>
+<div id='img-overlay' class="darkmode-header">
 	<div id="error-con-content">
 		<div id='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
 		</div>

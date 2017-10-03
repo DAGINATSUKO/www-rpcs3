@@ -14,8 +14,13 @@
 	}
 }
 @media screen and (max-width:1050px) {
-	.menu-btn-mobile {
+	.menu-btn-add {
 		display:inline-block !important;
+	}
+}
+@media screen and (max-width:1050px) {
+	.menu-btn-remove {
+		display:none !important;
 	}
 }
 @media screen and (max-height:768px) {

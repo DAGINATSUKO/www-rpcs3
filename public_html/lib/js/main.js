@@ -9,14 +9,6 @@ $(document).ready(function() {
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     if (scroll >= 60) {
-        $("#menu-und-level1").fadeIn(100);
-    } else {
-        $("#menu-und-level1").fadeOut(100);
-    }
-});
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    if (scroll >= 60) {
         $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
     } else {
         $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
@@ -24,10 +16,18 @@ $(window).scroll(function() {
 });
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-    if (scroll >= 400) {
-        $("#menu-und-level2").fadeIn(100);
+    if (scroll >= 60) {
+        $("#menu-und-l1").fadeIn(100);
     } else {
-        $("#menu-und-level2").fadeOut(100);
+        $("#menu-und-l1").fadeOut(100);
+    }
+});
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 400) {
+        $("#menu-und-l2").fadeIn(100);
+    } else {
+        $("#menu-und-l2").fadeOut(100);
     }
 });
 /* Handles standard wavebar animation */
