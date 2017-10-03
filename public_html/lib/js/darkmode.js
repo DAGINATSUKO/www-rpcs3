@@ -37,6 +37,7 @@ $(document).ready(function() {
         $(".compat-hist-container i").toggleClass("dm-txt");
         $(".compat-hist-container tr:nth-child(2n+1)").toggleClass("dm-block");
         $(".compat-hist-container th").toggleClass("dm-block dm-txt");
+		$(".compat-hist-container td").toggleClass("dm-txt");
         $(".compat-library-table").toggleClass("dm-block");
         $(".divTableHeading").toggleClass("dm-block");
         $(".divTableHeading").toggleClass("dm-txt");
@@ -104,6 +105,7 @@ $(document).ready(function() {
         $(".compat-hist-container i").addClass("dm-txt");
         $(".compat-hist-container tr:nth-child(2n+1)").addClass("dm-block");
         $(".compat-hist-container th").addClass("dm-block dm-txt");
+		$(".compat-hist-container td").addClass("dm-txt");
         $(".compat-library-table").addClass("dm-block");
         $(".divTableHeading").addClass("dm-block");
         $(".divTableHeading").addClass("dm-txt");
@@ -161,6 +163,7 @@ $(document).ready(function() {
         $(".compat-hist-container i").removeClass("dm-txt");
         $(".compat-hist-container tr:nth-child(2n+1)").removeClass("dm-block");
         $(".compat-hist-container th").removeClass("dm-block dm-txt");
+		$(".compat-hist-container td").removeClass("dm-txt");
         $(".compat-library-table").removeClass("dm-block");
         $(".divTableHeading").removeClass("dm-block");
         $(".divTableHeading").removeClass("dm-txt");
