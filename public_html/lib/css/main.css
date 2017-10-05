@@ -446,6 +446,7 @@
     overflow: hidden;
     margin-bottom: 20px;
     background: #fff;
+    list-style-type: none;
 }
 
 #featured-img-grid {
@@ -477,6 +478,7 @@
     font-family: arial;
     font-size: 14px;
     font-weight: bold;
+    line-height: 24px;
     position: relative;
     top: -9px;
     overflow: hidden;

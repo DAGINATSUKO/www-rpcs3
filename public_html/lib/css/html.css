@@ -18,17 +18,6 @@ body {
     text-align: inherit;
     background: #f2f2f2;
 }
-ul,li {
-    font-family: inherit;
-    font-size: 14px!important;
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: 24px!important;
-    line-height: inherit;
-    text-align: inherit;
-    margin-left: 8px;
-    color:#455971;
-}
 a:visited {
     text-decoration: none;
     color: #3198ff;
@@ -112,6 +101,17 @@ td {
     padding-left: 25px;
     text-align: left;
     color: #455971;
+}
+.entry-content ul li {
+    font-family: inherit;
+    font-size: 14px!important;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 24px!important;
+    line-height: inherit;
+    text-align: inherit;
+    margin-left: 8px;
+    color:#455971;
 }
 .anchor {
     display: none!important;
