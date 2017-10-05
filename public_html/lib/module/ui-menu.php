@@ -57,7 +57,7 @@
 				<span>|</span>
 			</div>
 			<a href='https://forums.rpcs3.net' target="_blank">
-			<div id="menu-btn-select" class="menu-btn-remove" title="Forum">
+			<div id="menu-btn-select" title="Forum">
 				<span>Forum</span>
 			</div>
 			</a>
@@ -67,7 +67,7 @@
 			</div>
 			</a>
 			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
-			<div id="menu-btn-select" title="Discord">
+			<div id="menu-btn-select" class="menu-btn-remove" title="GitHub">
 				<span>GitHub</span>
 			</div>
 			</a>
