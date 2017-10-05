@@ -2,7 +2,6 @@ ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
     margin: 0;
     padding: 0;
 }
-
 p,h1,h2,h3,h4,h5,h6 {
     font-family: inherit;
     font-size: inherit;
@@ -11,7 +10,6 @@ p,h1,h2,h3,h4,h5,h6 {
     text-align: inherit;
     color: inherit;
 }
-
 body {
     font-family: inherit;
     font-size: inherit;
@@ -20,7 +18,6 @@ body {
     text-align: inherit;
     background: #f2f2f2;
 }
-
 ul,li {
     font-family: inherit;
     font-size: 14px!important;
@@ -29,67 +26,54 @@ ul,li {
     line-height: 24px!important;
     line-height: inherit;
     text-align: inherit;
-    margin-left:8px
+    margin-left: 8px;
+    color:#455971;
 }
-
 a:visited {
     text-decoration: none;
     color: #3198ff;
 }
-
 a:active {
     text-decoration: none;
     color: #3198ff;
 }
-
 a:link {
     text-decoration: none;
     color: #3198ff;
 }
-
 a:hover {
     text-decoration: underline;
     color: #3198ff;
 }
-
 ::-webkit-scrollbar {
     width: 10px;
 }
-
 ::-webkit-scrollbar-track {
     background: #dcdcdc;
 }
-
 ::-webkit-scrollbar-thumb {
     background: #a9a9a9;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: #9c9c9c;
 }
-
 ::-webkit-input-placeholder {
     color: #3198ff;
 }
-
 ::-moz-placeholder {
     color: #3198ff;
 }
-
 :-ms-input-placeholder {
     color: #3198ff;
 }
-
 :-moz-placeholder {
     color: #3198ff;
 }
-
 iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
-
 table {
     font-family: arial;
     font-size: 12px;
@@ -98,38 +82,30 @@ table {
     border-spacing: 0;
     color: #fff;
 }
-
 tr {
     background: #fff;
 }
-
 tr:last-child {
     border-bottom: 1px solid #e4e4e4;
 }
-
 tr:nth-child(2n) {
     background: rgba(122,179,255,.05);
 }
-
 tr:nth-child(2n+1) {
     background: #fff;
 }
-
 td a:hover {
     text-decoration: underline;
 }
-
 th {
     padding-left: 25px;
     text-align: left;
     color: #455971;
     background-color: #fff;
 }
-
 th a {
     color: #455971!important;
 }
-
 td {
     line-height: 38px;
     height: 35px;
@@ -137,13 +113,11 @@ td {
     text-align: left;
     color: #455971;
 }
-
 .anchor {
     display: none!important;
     width: 16;
     height: 16;
 }
-
 .markdown-body h2 {
     font-family: arial;
     font-size: 14px;
@@ -156,13 +130,11 @@ td {
     color: #455971;
     border-bottom: 1px solid rgba(238,238,238,.4);
 }
-
 .markdown-body {
     font-family: arial;
     font-size: 16px;
     color: #455971;
 }
-
 .markdown-body ul {
     padding-left: 25px;
 }

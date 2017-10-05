@@ -54,7 +54,7 @@
 				</div>
 			</div>
 			<!-- End -->
-			<?php include 'lib/module/block-requirements.php';?>
+			<?php include 'lib/module/in-requirements.php';?>
 			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Updating RPCS3</h2>

@@ -83,7 +83,7 @@
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<!-- End -->
-			<?php include 'lib/module/block-spotlight.php';?>
+			<?php include 'lib/module/in-spotlight.php';?>
 			<!-- End -->
 			<div id='featured-con-master'>
 				<!-- End -->
@@ -284,7 +284,7 @@
 				</div>
 			</div>
 			<!-- End -->
-			<?php include 'lib/module/block-requirements.php';?>
+			<?php include 'lib/module/in-requirements.php';?>
 			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>

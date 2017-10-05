@@ -11,7 +11,6 @@
     color: #fff;
     background: #ff3434;
 }
-
 #menu-con-menubar {
     position: fixed;
     z-index: 9997;
@@ -20,7 +19,6 @@
     height: auto;
     border-bottom: solid 1px rgba(255,255,255,.1);
 }
-
 #menu-und-l1 {
     position: absolute;
     display: none;
@@ -28,7 +26,6 @@
     height: 100%;
     background: linear-gradient(to right,rgba(166,0,217,.6),rgba(0,196,255,.6));
 }
-
 #menu-und-l2 {
     position: absolute;
     display: none;
@@ -36,7 +33,6 @@
     height: 100%;
     background: linear-gradient(to right,rgba(166,0,217,.9),rgba(0,196,255,.9));
 }
-
 #menu-con-container {
     position: relative;
     top: 0;
@@ -45,17 +41,14 @@
     margin-right: 60px;
     margin-left: 60px;
 }
-
 #menu-in-container {
     max-width: 1100px;
     min-height: 60px;
     margin: 0 auto;
 }
-
 #menu-in-container a:hover {
     text-decoration: none;
 }
-
 #menu-con-logo {
     position: relative;
     left: -8px;
@@ -64,7 +57,6 @@
     width: 50px;
     height: 60px;
 }
-
 #menu-ico-logo {
     position: absolute;
     width: 45px;
@@ -72,12 +64,10 @@
     background: url('/img/icons/menu/logo.png') no-repeat center;
     background-size: 32px;
 }
-
 #menu-ico-logo:hover {
     height: 60px;
     border-bottom: 2px solid #fff;
 }
-
 #submenu-con-container {
     position: relative;
     top: 62px;
@@ -94,14 +84,12 @@
     -moz-box-shadow: 0 0 81px 0 rgba(0,0,0,.25);
     box-shadow: 0 0 81px 0 rgba(0,0,0,.25);
 }
-
 #submenu-con-wrapper {
     position: relative;
     width: 100%;
     height: 54px;
     background: #fff;
 }
-
 #submenu-ico-lip {
     position: absolute;
     top: -33px;
@@ -111,35 +99,28 @@
     background: url(/img/icons/menu/lip.png) no-repeat center;
     background-size: 22px;
 }
-
 #submenu-con-wrapper:hover {
     background: #4c5bd7;
 }
-
 #submenu-con-wrapper:hover #submenu-btn-button {
     color: #fff;
 }
-
 #submenu-con-wrapper:hover #submenu-ico-patreon {
     background: url('/img/icons/menu/patreon-h.png') no-repeat center;
     background-size: 18px;
 }
-
 #submenu-con-wrapper:hover #submenu-ico-alipay {
     background: url('/img/icons/menu/alipay-h.png') no-repeat center;
     background-size: 18px;
 }
-
 #submenu-con-wrapper:hover #submenu-ico-code {
     background: url('/img/icons/menu/code-h.png') no-repeat center;
     background-size: 18px;
 }
-
 #submenu-con-wrapper:hover #submenu-ico-testing {
     background: url('/img/icons/menu/testing-h.png') no-repeat center;
     background-size: 18px;
 }
-
 #submenu-btn-button {
     font-family: arial;
     font-size: 14px;
@@ -153,7 +134,6 @@
     pointer-events: none;
     color: #455971;
 }
-
 #submenu-ico-patreon {
     display: inline-block;
     float: left;
@@ -162,7 +142,6 @@
     background: url('/img/icons/menu/patreon.png') no-repeat center;
     background-size: 18px;
 }
-
 #submenu-ico-alipay {
     display: inline-block;
     float: left;
@@ -171,7 +150,6 @@
     background: url('/img/icons/menu/alipay.png') no-repeat center;
     background-size: 18px;
 }
-
 #submenu-ico-code {
     display: inline-block;
     float: left;
@@ -180,7 +158,6 @@
     background: url('/img/icons/menu/code.png') no-repeat center;
     background-size: 18px;
 }
-
 #submenu-ico-testing {
     display: inline-block;
     float: left;
@@ -189,7 +166,6 @@
     background: url('/img/icons/menu/testing.png') no-repeat center;
     background-size: 18px;
 }
-
 #menu-btn-select {
     font-family: arial;
     font-size: 14px;
@@ -206,12 +182,10 @@
     border-bottom: 2px solid rgba(0,0,0,.0);
     transition: .1s ease-in-out;
 }
-
 #menu-btn-select:hover {
     height: 60px;
     border-bottom: 2px solid #fff;
 }
-
 #menu-btn-lights {
     position: fixed;
     z-index: 9998;
@@ -225,14 +199,12 @@
     background: url(/img/icons/menu/lights.png) no-repeat center;
     background-size: 20px;
 }
-
 #menu-btn-lights:hover {
     width: 60px;
     height: 60px;
     transition: .1s ease-in-out;
     border-bottom: solid 2px #fff;
 }
-
 #menu-tx1-support {
     font-family: arial;
     font-size: 14px;
@@ -243,7 +215,6 @@
     height: 60px;
     color: #fff;
 }
-
 #menu-ico-support {
     position: absolute;
     right: 0;
@@ -253,7 +224,6 @@
     background: url('/img/icons/menu/patreon-h.png') no-repeat center;
     background-size: 20px;
 }
-
 #menu-con-support {
     position: relative;
     top: 0;
@@ -265,7 +235,6 @@
     transition: .1s ease-in-out;
     border-bottom: 2px solid rgba(0,0,0,.0);
 }
-
 #menu-con-dim {
     position: fixed;
     z-index: 9996;
@@ -273,7 +242,6 @@
     height: 100%;
     background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
 }
-
 #alipay-con-alipay {
     position: fixed;
     z-index: 1;
@@ -285,20 +253,17 @@
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-duration: .5s;
-    background: #fff;
     border-radius: 11px;
     overflow: hidden;
     border: solid 4px #fff;
 }
-
 #alipay-ico-logo {
     position: relative;
     height: 90px;
     width: 100%;
-    background: #4c5bd7 url('/img/icons/alipay/logo.png') no-repeat center;
+    background: url('/img/icons/alipay/logo.png') no-repeat center;
     background-size: 130px;
 }
-
 #alipay-ico-alipay {
     position: relative;
     height: 384px;
@@ -307,7 +272,6 @@
     background-size: 304px;
     cursor: pointer;
 }
-
 #alipay-tx1-prompt {
     position: relative;
     height: 60px;
@@ -326,7 +290,6 @@
     z-index: 1;
     border: solid 4px #fff;
 }
-
 #alipay-tx2-prompt {
     position: relative;
     height: 115px;
@@ -336,9 +299,7 @@
     line-height: 125px;
     color: #fff;
     text-align: center;
-    background: #4c5bd7;
 }
-
 #alipay-con-footer {
     font-family: arial;
     font-size: 12px;
@@ -352,14 +313,12 @@
     color: #fff;
     border-top: solid 1px rgba(255,255,255,.1);
 }
-
 #navsidebar-con-container {
     position: relative;
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
     -webkit-animation-duration: .4s;
 }
-
 #navsidebar-btn-open {
     position: fixed;
     z-index: 9998;
@@ -373,14 +332,12 @@
     background: url(/img/icons/menu/menu.png) no-repeat center;
     background-size: 20px;
 }
-
 #navsidebar-btn-open:hover {
     width: 60px;
     height: 60px;
     transition: .1s ease-in-out;
     border-bottom: solid 2px #fff;
 }
-
 #navsidebar-con-dim {
     position: fixed;
     z-index: 9998;
@@ -389,7 +346,6 @@
     height: 100%;
     background: rgba(0,0,0,.2);
 }
-
 #navsidebar-con-anim {
     position: fixed;
     z-index: 9999;
@@ -406,12 +362,10 @@
     background: #fff;
     -webkit-overflow-scrolling: touch;
 }
-
 #navsidebar-con-anim::-webkit-scrollbar {
     display: none;
     width: 5px;
 }
-
 #navsidebar-tx1-title {
     font-family: arial;
     font-size: 14px;
@@ -424,7 +378,6 @@
     color: #fff;
     background: #4c5bd7;
 }
-
 #navsidebar-tx1-topic {
     font-family: arial;
     font-size: 14px;
@@ -437,7 +390,6 @@
     text-align: left;
     color: #455971;
 }
-
 #navsidebar-tx2-topic {
     font-family: arial;
     font-size: 14px;
@@ -447,7 +399,6 @@
     padding-left: 35px;
     text-align: left;
 }
-
 #blogsidebar-con-anim {
     position: fixed;
     z-index: 9999;
@@ -464,12 +415,10 @@
     background: #fff;
     -webkit-overflow-scrolling: touch;
 }
-
 #blogsidebar-con-anim::-webkit-scrollbar {
     display: none;
     width: 5px;
 }
-
 #blogsidebar-tx1-title {
     font-family: arial;
     font-size: 14px;

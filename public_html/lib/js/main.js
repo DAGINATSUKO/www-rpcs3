@@ -30,6 +30,10 @@ $(window).scroll(function() {
         $("#menu-und-l2").fadeOut(100);
     }
 });
+/* Handles globla banner fade in on load */
+$(window).load(function() {
+    $('#header-img-head').fadeIn(300);
+});
 /* Handles standard wavebar animation */
 $(document).ready(function() {
     var $wavebarFX = $(".visual-wavebar-1"),
@@ -60,6 +64,46 @@ $(window).scroll(function() {
     } else {
         $('.fade-on-scroll').fadeOut(100);
     }
+});
+/* Handles page-specfic menubar dimmer */
+$(window).load(function() {
+$(function(){
+  if($('body').is('.gallery-page')){
+		$('.darkmode-menubar').toggleClass("gm-menubar-l0");
+        $('.darkmode-menubar-l1').toggleClass("gm-menubar-l1");
+        $('.darkmode-menubar-l2').toggleClass("gm-menubar-l2");
+  }
+});
+});
+/* Handles gallery grid view on load */
+$(window).load(function() {
+    $(window).resize(function() {
+        $('#gallery-con-viewport').height($(window).height() - 160);
+        $('#gallery-con-viewport').width($(window).width() - 160);
+    });
+    $(window).trigger('resize');
+});
+/* Handles gallery on-click image fetching */
+$(document).ready(function() {
+    $(function() {
+        $(".gallery-img-thumb a").click(function(e) {
+            var href = $(this).attr("href");
+            $("#gallery-img-big img").attr("src", href);
+            e.preventDefault();
+            return false;
+        });
+    });
+});
+/* Handles gallery toggles */
+$(document).ready(function() {
+    $(".popup-gallery").hide();
+    $(".toggle-gallery").click(function() {
+        $(".popup-gallery").fadeIn(288);
+    });
+    $(".popup-gallery").hide();
+    $(".popup-gallery").click(function() {
+        $(".popup-gallery").fadeOut(288);
+    });
 });
 /* Handles anchor links */
 $(document).ready(function() {

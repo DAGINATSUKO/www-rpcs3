@@ -23,7 +23,9 @@ $(document).ready(function() {
         $("#featured-con-block h2").toggleClass("dm-txt");
         $("#featured-con-block p").toggleClass("dm-txt");
 		$("#footer-con-container").toggleClass("dm-footer");
-
+		$(".markdown-body li").toggleClass("dm-txt");
+		$(".feature-ico-flag").toggleClass("dm-flag");
+		/* - */
         $(".compat-con-container").toggleClass("dm-block");
         $(".compat-con-container p").toggleClass("dm-txt");
         $(".compat-con-container a").toggleClass("dm-txt");
@@ -45,7 +47,6 @@ $(document).ready(function() {
         $(".compat-tx1-criteria").toggleClass("dm-txt");
         $(".compat-status-text").toggleClass("dm-txt");
         $(".compat-search-character").toggleClass("dm-block-search");
-
         $("#compat-con-pages").toggleClass("dm-block dm-txt");
         $("#compat-author").toggleClass("dm-compat-author");
         $(".nav-links").toggleClass("dm-blog-body dm-txt");
@@ -57,7 +58,6 @@ $(document).ready(function() {
         $(".widget-title").toggleClass("dm-blog-sidebar");
         $(".page-header").toggleClass("dm-blog-body");
         $(".page-content").toggleClass("dm-blog-body dm-txt");
-		
 		$(".debug-main").toggleClass("dm-block");
     });
     $(".toggle-darkmode").on("click", function() {
@@ -91,7 +91,9 @@ $(document).ready(function() {
         $(".markdown-body h2").addClass("dm-txt");
         $("#featured-con-block h2").addClass("dm-txt");
         $("#featured-con-block p").addClass("dm-txt");
-
+		$(".markdown-body li").addClass("dm-txt");
+		$(".feature-ico-flag").addClass("dm-flag");
+		/* - */
         $(".compat-con-container").addClass("dm-block");
         $(".compat-con-container p").addClass("dm-txt");
         $(".compat-con-container a").addClass("dm-txt");
@@ -114,7 +116,6 @@ $(document).ready(function() {
         $(".compat-status-text").addClass("dm-txt");
         $(".compat-search-character").addClass("dm-block-search");
 		$("#footer-con-container").addClass("dm-footer");
-
         $("#compat-con-pages").addClass("dm-block dm-txt");
         $("#compat-author").addClass("dm-compat-author");
         $(".nav-links").addClass("dm-blog-body dm-txt");
@@ -126,7 +127,6 @@ $(document).ready(function() {
         $(".widget-title").addClass("dm-blog-sidebar");
         $(".page-header").addClass("dm-blog-body");
         $(".page-content").addClass("dm-blog-body dm-txt");
-		
 		$(".debug-main ul").addClass("dm-block");
     } else {
         $('body').removeClass("dm-bg");
@@ -149,7 +149,9 @@ $(document).ready(function() {
         $("#featured-con-block h2").removeClass("dm-txt");
         $("#featured-con-block p").removeClass("dm-txt");
 		$("#footer-con-container").removeClass("dm-footer");
-
+		$(".markdown-body li").removeClass("dm-txt");
+		$(".feature-ico-flag").removeClass("dm-flag");
+		/* - */
         $(".compat-con-container").removeClass("dm-block");
         $(".compat-con-container p").removeClass("dm-txt");
         $(".compat-con-container a").removeClass("dm-txt");
@@ -171,7 +173,6 @@ $(document).ready(function() {
         $(".compat-tx1-criteria").removeClass("dm-txt");
         $(".compat-status-text").removeClass("dm-txt");
         $(".compat-search-character").removeClass("dm-block-search");
-
         $("#compat-con-pages").removeClass("dm-block dm-txt");
         $("#compat-author").removeClass("dm-compat-author");
         $(".nav-links").removeClass("dm-blog-body dm-txt");
@@ -183,7 +184,6 @@ $(document).ready(function() {
         $(".widget-title").removeClass("dm-blog-sidebar");
         $(".page-header").removeClass("dm-blog-body");
         $(".page-content").removeClass("dm-blog-body dm-txt");
-		
 		$(".debug-main").removeClass("dm-block");
     }
 });

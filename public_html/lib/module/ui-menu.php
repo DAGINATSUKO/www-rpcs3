@@ -33,6 +33,11 @@
 				<span>Download</span>
 			</div>
 			</a>
+			<a href='/screenshots'>
+			<div id="menu-btn-select" title="Screenshots">
+				<span>Screenshots</span>
+			</div>
+			</a>
 			<a href='/quickstart'>
 			<div id="menu-btn-select" title="Quickstart">
 				<span>Quickstart</span>
@@ -52,12 +57,12 @@
 				<span>|</span>
 			</div>
 			<a href='https://forums.rpcs3.net' target="_blank">
-			<div id="menu-btn-select" title="Forum">
+			<div id="menu-btn-select" class="menu-btn-remove" title="Forum">
 				<span>Forum</span>
 			</div>
 			</a>
 			<a href='https://discord.me/RPCS3' target="_blank">
-			<div id="menu-btn-select" title="Discord">
+			<div id="menu-btn-select" class="menu-btn-remove" title="Discord">
 				<span>Discord</span>
 			</div>
 			</a>
@@ -66,9 +71,9 @@
 				<span>GitHub</span>
 			</div>
 			</a>
-			<a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">
+			<a href='http://www.psdevwiki.com/ps3' target="_blank">
 			<div id="menu-btn-select" class="menu-btn-remove" title="PlayStation 3 Developer Wiki">
-				<span>Developer Wiki</span>
+				<span>Wiki</span>
 			</div>
 			</a>
 			<div class="support-subtrigger" id="menu-con-support">
