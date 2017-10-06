@@ -16,22 +16,20 @@
 <?php 
 if (file_exists('lib/compat/utils.php')) {
 	include('lib/compat/utils.php');
+	$linux_button = ''; // Does not disable Linux button
+	
 	// 0 - Version; 1 - Date
 	$win = getLatestWindowsBuild();
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
-	$win_url = "https://ci.appveyor.com/project/rpcs3/rpcs3/build/{$win[0]}/artifacts";
-	$win_name = "v{$win[0]} Alpha [{$win[1]}]";
-	$linux_button = ''; // Does not disable Linux button
-	$linux_ver = explode("-", substr($linux[0], 6), 2)[0]; // Extract everything after rpcs3- until next - appears for version indicator
-	$linux_name = $linux_ver.substr($linux[0], 23)." [{$linux[1]}]"; // Display formatted filename
-	$linux_url = "https://rpcs3.net/cdn/builds/{$linux[0]}";
 } else {
-	$win_url = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
-	$win_name = 'Latest version';
 	$linux_button = ' div-button-disabled'; // Disables Linux button
-	$linux_name = 'Temporarily unavailable';
-	$linux_url = 'https://github.com/RPCS3/rpcs3/releases';
+	
+	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
+	$win[1] = 'Latest version';
+	
+	$linux[0] = 'Temporarily unavailable';
+	$linux[1] = 'https://github.com/RPCS3/rpcs3/releases';
 }
 ?>
 <div id="page-con-content">
@@ -73,10 +71,10 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			<!-- End -->
-			<a href='<?php echo $win_url; ?>' target="_blank"> 
+			<a href='<?php echo $win[0]; ?>' target="_blank"> 
 			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
 			<div id='featured-con-button' class="div-download-left darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 244px; margin: 0 -122px;">
+				<div id='featured-wrp-button' style="width: 284px; margin: 0 -142px;">
 					<div id='featured-ico-button' style="background:url('/img/icons/buttons/windows.png') no-repeat center; background-size: 20px;">
 					</div>
 					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
@@ -84,14 +82,14 @@ if (file_exists('lib/compat/utils.php')) {
 							 Download for Windows
 						</p>
 						<p style="font-size:12px;">
-							<?php echo $win_name; ?>
+							<?php echo $win[1]; ?>
 						</p>
 					</div>
 				</div>
 			</div>
 			</a>
 			<!-- End -->
-			<a href='<?php echo $linux_url; ?>' target="_blank">
+			<a href='<?php echo $linux[0]; ?>' target="_blank">
 			<div id='featured-con-button' class="div-download-right darkmode-buttons<?php echo $linux_button; ?>
 				 ">
 				<div id='featured-wrp-button' style="width: 344px; margin: 0 -178px;">
@@ -102,7 +100,7 @@ if (file_exists('lib/compat/utils.php')) {
 							 Download for Linux
 						</p>
 						<p style="font-size:12px;">
-							<?php echo $linux_name; ?>
+							<?php echo $linux[1]; ?>
 						</p>
 					</div>
 				</div>
