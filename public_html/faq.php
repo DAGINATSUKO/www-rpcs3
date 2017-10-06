@@ -32,7 +32,6 @@
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -45,7 +44,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -58,7 +56,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -71,7 +68,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -84,7 +80,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -97,7 +92,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -110,7 +104,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -123,7 +116,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -136,7 +128,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -149,7 +140,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -166,7 +156,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -179,7 +168,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -192,7 +180,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -200,12 +187,11 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 Local-multiplayer is completely supported. We support up to 7 concurrent controllers at any given time, just like original PlayStation 3 hardware on both Windows and Linux. The controllers can be assigned with a wide range of configurations. For example, one player can use keyboard while a another can use a compatible gamepad. To  learn more about compatible gamepads, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							 Local-multiplayer is completely supported. We support up to 7 concurrent controllers at any given time, just like original PlayStation 3 hardware on both Windows and Linux. The controllers can be assigned with a wide range of configurations. For example, one player can use keyboard while a another can use a compatible gamepad. To learn more about compatible gamepads, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -218,7 +204,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -231,7 +216,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -244,7 +228,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -273,7 +256,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<a href='/download'>
 			<div id='featured-con-button' class="darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
@@ -287,12 +269,9 @@
 				</div>
 			</div>
 			</a>
-			<!-- End -->
 		</div>
 	</div>
-	<!-- End -->
 	<?php include 'lib/module/ui-footer.php';?>
-	<!-- End -->
 </div>
 </body>
 </html>

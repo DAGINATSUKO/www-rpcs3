@@ -1,4 +1,4 @@
-/* Handles darkmode save states (Needs refactoring)*/
+/* Handles dark mode save states (Needs refactoring)*/
 $(document).ready(function() {
     var sel = $.cookie("save-darkmode"); // get the cookie
     sel = sel == "true";
@@ -8,7 +8,6 @@ $(document).ready(function() {
         $('.darkmode-menubar').toggleClass("dm-menubar");
         $('.darkmode-block').toggleClass("dm-block");
         $('.darkmode-panel').toggleClass("dm-panel");
-        $('.darkmode-panel-2').toggleClass("dm-panel-ovr");
         $('.darkmode-txt').toggleClass("dm-txt");
         $('.darkmode-ad').toggleClass("dm-ad");
         $('.darkmode-highlight').toggleClass("dm-highlight");
@@ -87,7 +86,6 @@ $(document).ready(function() {
         $('.darkmode-menubar').addClass("dm-menubar");
         $('.darkmode-block').addClass("dm-block");
         $('.darkmode-panel').addClass("dm-panel");
-        $('.darkmode-panel-2').addClass("dm-panel-ovr");
         $('.darkmode-txt').addClass("dm-txt");
         $('.darkmode-ad').addClass("dm-ad");
         $('.darkmode-highlight').addClass("dm-highlight");
@@ -153,7 +151,6 @@ $(document).ready(function() {
         $('.darkmode-menubar').removeClass("dm-menubar");
         $('.darkmode-block').removeClass("dm-block");
         $('.darkmode-panel').removeClass("dm-panel");
-        $('.darkmode-panel-2').removeClass("dm-panel-ovr");
         $('.darkmode-txt').removeClass("dm-txt");
         $('.darkmode-ad').removeClass("dm-ad");
         $('.darkmode-highlight').removeClass("dm-highlight");

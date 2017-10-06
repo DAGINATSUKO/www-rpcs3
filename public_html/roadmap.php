@@ -25,7 +25,7 @@
 			</div>
 			<div id='header-tx2-body'>
 				<p>
-					Structured roadmap for RPCS3 development
+					 Structured roadmap for RPCS3 development
 				</p>
 			</div>
 		</div>
@@ -38,17 +38,13 @@
 				} else {
 					$content = file_get_contents("https://github.com/RPCS3/rpcs3/wiki/Roadmap");
 					if ($content) {
-						$start = "<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">";
-						$end = "</div>";
-						echo explode($end, explode($start, $content)[1])[0];
-					}
-				}
-			?>
+						$start = "<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">
+			"; $end = "
 		</div>
+		"; echo explode($end, explode($start, $content)[1])[0]; } } ?>
 	</div>
 </div>
-<!-- End -->
+</div>
 <?php include 'lib/module/ui-footer.php';?>
-<!-- End -->
 </body>
 </html>

@@ -31,14 +31,11 @@
 			</div>
 		</div>
 	</div>
-	<!-- End -->
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>System Requirements</h2>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="requirements">
 				</div>
@@ -53,13 +50,10 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<?php include 'lib/module/in-requirements.php';?>
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Updating RPCS3</h2>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="updating">
 				</div>
@@ -76,11 +70,9 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Firmware Files</h2>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="firmware">
 				</div>
@@ -95,7 +87,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="module_selection">
 				</div>
@@ -123,11 +114,9 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Game Files</h2>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="manage_files">
 				</div>
@@ -148,7 +137,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="manage_games">
 				</div>
@@ -199,11 +187,9 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Updating and Placement</h2>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="install_games">
 				</div>
@@ -233,7 +219,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="install_updates">
 				</div>
@@ -248,7 +233,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading ">
 				<h2>Obtaining Games</h2>
 			</div>
@@ -261,15 +245,13 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-						When dumping video game software, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
-						<br>
-						By following these instructions, you will do so at your own discretion. Should you follow these instructions against your local law, we shall not be held responsible for your actions.
+							 When dumping video game software, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
+							<br>
+							 By following these instructions, you will do so at your own discretion. Should you follow these instructions against your local law, we shall not be held responsible for your actions.
 						</p>
 					</div>
 				</div>
 			</div>
-			<!-- End -->
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="obtaining_games">
 				</div>
@@ -361,7 +343,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div class="div-anchor" id="dumping_games">
 				</div>
@@ -416,11 +397,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- End -->
 				<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 					<h2>Configuring RPCS3</h2>
 				</div>
-				<!-- End -->
 				<div id='featured-con-block' class="darkmode-block">
 					<div class="div-anchor" id="cpu_settings">
 					</div>
@@ -461,7 +440,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- End -->
 				<div id='featured-con-block' class="darkmode-block">
 					<div class="div-anchor" id="gpu_settings">
 					</div>
@@ -472,14 +450,12 @@
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								<b>Renderer</b><br>
-								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Vulkan will always be the fastest renderer, followed by OpenGL, the most accurate renderer. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers.
-								 <i>Note that D3D12 (Direct3D 12) is only compatible with Windows 10 and its usage is not recommended as it's unmantained.</i>
+								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Vulkan will always be the fastest renderer, followed by OpenGL, the most accurate renderer. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers. <i>Note that D3D12 (Direct3D 12) is only compatible with Windows 10 and its usage is not recommended as it's unmantained.</i>
 							</p>
 							<br>
 							<p>
 								<b>Resolution</b><br>
-								 Allows you to set the native rendering resolution for the emulated console. See the supported resolutions for the game you're testing on the Game List and pick any of those. 
-								 <i>Note that not all games render at 1080p because a real PlayStation 3 doesn't support this resolution on all games</i>
+								 Allows you to set the native rendering resolution for the emulated console. See the supported resolutions for the game you're testing on the Game List and pick any of those. <i>Note that not all games render at 1080p because a real PlayStation 3 doesn't support this resolution on all games</i>
 							</p>
 							<br>
 							<p>
@@ -494,8 +470,7 @@
 							<br>
 							<p>
 								<b>Frame Limit</b><br>
-								 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't and goes above 60fps. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3. 
-								 <i>Using Frame Limit will slow down your game if it doesn't run fast enough, so use it only if needed.</i>
+								 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't and goes above 60fps. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3. <i>Using Frame Limit will slow down your game if it doesn't run fast enough, so use it only if needed.</i>
 							</p>
 							<br>
 							<p>
@@ -515,7 +490,7 @@
 							<br>
 							<p>
 								<b>Strict Rendering Mode</b><br>
-								 Enforces strict compliance to the graphical API specification. Might result in degraded performance in some games. Can resolve rare cases of missing graphics and flickering. 
+								 Enforces strict compliance to the graphical API specification. Might result in degraded performance in some games. Can resolve rare cases of missing graphics and flickering.
 							</p>
 							<br>
 							<p>
@@ -530,7 +505,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- End -->
 				<div id='featured-con-block' class="darkmode-block">
 					<div class="div-anchor" id="audio_settings">
 					</div>
@@ -550,7 +524,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- End -->
 				<div id='featured-con-block' class="darkmode-block">
 					<div class="div-anchor" id="input_settings">
 					</div>
@@ -581,7 +554,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- End -->
 				<div id='featured-con-block' class="darkmode-block">
 					<div class="div-anchor" id="network_settings">
 					</div>
@@ -597,7 +569,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- End -->
 				<div id='featured-con-block' class="darkmode-block">
 					<div class="div-anchor" id="system_settings">
 					</div>
@@ -613,7 +584,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- End -->
 				<a href='/download'>
 				<div id='featured-con-button' class="darkmode-buttons">
 					<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
@@ -627,12 +597,9 @@
 					</div>
 				</div>
 				</a>
-				<!-- End -->
 			</div>
 		</div>
-		<!-- End -->
 		<?php include 'lib/module/ui-footer.php';?>
-		<!-- End -->
 	</div>
 	</body>
 	</html>

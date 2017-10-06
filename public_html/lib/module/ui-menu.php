@@ -28,14 +28,14 @@
 				<span>Compatibility</span>
 			</div>
 			</a>
-			<a href='/download'>
-			<div id="menu-btn-select" title="Download">
-				<span>Download</span>
-			</div>
-			</a>
 			<a href='/screenshots'>
 			<div id="menu-btn-select" title="Screenshots">
 				<span>Screenshots</span>
+			</div>
+			</a>
+			<a href='/download'>
+			<div id="menu-btn-select" title="Download">
+				<span>Download</span>
 			</div>
 			</a>
 			<a href='/quickstart'>
@@ -56,24 +56,14 @@
 			<div id="menu-btn-select" style="pointer-events: none;">
 				<span>|</span>
 			</div>
-			<a href='https://forums.rpcs3.net' target="_blank">
-			<div id="menu-btn-select" title="Forum">
-				<span>Forum</span>
-			</div>
-			</a>
 			<a href='https://discord.me/RPCS3' target="_blank">
 			<div id="menu-btn-select" class="menu-btn-remove" title="Discord">
 				<span>Discord</span>
 			</div>
 			</a>
-			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
-			<div id="menu-btn-select" class="menu-btn-remove" title="GitHub">
-				<span>GitHub</span>
-			</div>
-			</a>
-			<a href='http://www.psdevwiki.com/ps3' target="_blank">
-			<div id="menu-btn-select" class="menu-btn-remove" title="PlayStation 3 Developer Wiki">
-				<span>Wiki</span>
+			<a href='https://forums.rpcs3.net' target="_blank">
+			<div id="menu-btn-select" title="Forum">
+				<span>Forum</span>
 			</div>
 			</a>
 			<div class="support-subtrigger" id="menu-con-support">
@@ -82,7 +72,6 @@
 				</div>
 				<div id="menu-ico-support">
 				</div>
-				<!-- Submenu -->
 				<div class="support-submenu" id="submenu-con-container">
 					<div id="submenu-ico-lip">
 					</div>
@@ -106,10 +95,10 @@
 					</a>
 					<a href="https://github.com/RPCS3/rpcs3/wiki/Coding-Style" target="_blank">
 					<div id="submenu-con-wrapper">
-						<div id="submenu-ico-code">
+						<div id="submenu-ico-github">
 						</div>
 						<div id="submenu-btn-button">
-							<span>Support with Code</span>
+							<span>Support with GitHub</span>
 						</div>
 					</div>
 					</a>
@@ -123,7 +112,6 @@
 					</div>
 					</a>
 				</div>
-				<!-- Submenu -->
 			</div>
 		</div>
 	</div>

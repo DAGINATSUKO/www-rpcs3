@@ -14,7 +14,7 @@
 <body class="gallery-page">
 <?php include 'lib/module/call-php.php';?>
 <div id='popup-con-dim' class='popup-gallery' style="display:none; background:rgba(0,0,0,.9)">
-	<div id='gallery-con-viewport'  style="width:auto; height:auto;">
+	<div id='gallery-con-viewport' style="width:auto; height:auto;">
 		<div id="gallery-img-big">
 			<img src="/img/icons/aesthetic/pixel.png" style="display: block; width: 100%; height: 100%; object-fit: contain; position: absolute; max-width: 100%; ">
 		</div>

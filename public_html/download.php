@@ -51,11 +51,9 @@ if (file_exists('lib/compat/utils.php')) {
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Download Binaries</h2>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -70,7 +68,6 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<a href='<?php echo $win[0]; ?>' target="_blank"> 
 			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
 			<div id='featured-con-button' class="div-download-left darkmode-buttons">
@@ -88,7 +85,6 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!-- End -->
 			<a href='<?php echo $linux[0]; ?>' target="_blank">
 			<div id='featured-con-button' class="div-download-right darkmode-buttons<?php echo $linux_button; ?>
 				 ">
@@ -106,7 +102,6 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -119,7 +114,6 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<a href='https://rpcs3.net/compatibility?b' target="_blank">
 			<div id='featured-con-button' class="darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 136px; margin: 0 -68px;">
@@ -133,11 +127,9 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!-- End -->
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Documentation, Press and Website Source</h2>
 			</div>
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -152,7 +144,6 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<a href='/cdn/docs/Docs.7z' download>
 			<div id='featured-con-button' class="div-download-left darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 212px; margin: 0 -106px;">
@@ -166,7 +157,6 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!-- End -->
 			<a href='/cdn/press/Press Kit.zip' download>
 			<div id='featured-con-button' class="div-download-right darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 172px; margin: 0 -86px;">
@@ -180,8 +170,6 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!-- End -->
-			<!-- End -->
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -194,7 +182,6 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 			</div>
-			<!-- End -->
 			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
 			<div id='featured-con-button' class="div-download-left darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 150px; margin: 0 -75px;">
@@ -208,7 +195,6 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!-- End -->
 			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
 			<div id='featured-con-button' class="div-download-right darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 180px; margin: 0 -90px;">
@@ -222,12 +208,9 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!-- End -->
 		</div>
 	</div>
-	<!-- End -->
 	<?php include 'lib/module/ui-footer.php';?>
-	<!-- End -->
 </div>
 </body>
 </html>

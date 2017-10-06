@@ -83,6 +83,13 @@ tr:nth-child(2n) {
 tr:nth-child(2n+1) {
     background: #fff;
 }
+td {
+    line-height: 38px;
+    height: 35px;
+    padding-left: 25px;
+    text-align: left;
+    color: #455971;
+}
 td a:hover {
     text-decoration: underline;
 }
@@ -95,12 +102,10 @@ th {
 th a {
     color: #455971!important;
 }
-td {
-    line-height: 38px;
-    height: 35px;
-    padding-left: 25px;
-    text-align: left;
-    color: #455971;
+.anchor {
+    display: none!important;
+    width: 16;
+    height: 16;
 }
 .entry-content ul li {
     font-family: inherit;
@@ -111,12 +116,7 @@ td {
     line-height: inherit;
     text-align: inherit;
     margin-left: 8px;
-    color:#455971;
-}
-.anchor {
-    display: none!important;
-    width: 16;
-    height: 16;
+    color: #455971;
 }
 .markdown-body h2 {
     font-family: arial;
@@ -136,5 +136,8 @@ td {
     color: #455971;
 }
 .markdown-body ul {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 24px;
     padding-left: 25px;
 }
