@@ -264,7 +264,7 @@
     text-align: center;
     color: #fff;
     background: url(/img/spotlight/title.png) no-repeat center;
-    background-size: 220px;
+    background-size: 200px;
 }
 #spotlight-btn-body {
     position: relative;
@@ -682,16 +682,6 @@
     text-align: left;
     color: #455971;
 }
-#featured-tx3-block {
-    font-family: arial;
-    font-size: 14px;
-    line-height: 24px;
-    position: relative;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    color: #455971;
-}
 #featured-ovr-play {
     position: absolute;
     width: 100%;
@@ -726,27 +716,6 @@
 #featured-btn-play-b:hover {
     background: rgba(0,0,0,.2) url('/img/icons/menu/play.png') no-repeat center;
     background-size: 60px;
-}
-#featured-lst-block {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 24px;
-    margin-top: 10px;
-    margin-right: 8px;
-    margin-bottom: 10px;
-}
-#featured-ico-block {
-    font-family: 'font-default';
-    font-size: 14px;
-    line-height: 24px;
-    position: relative;
-    float: left;
-    width: 24px;
-    height: 24px;
-    margin-right: 8px;
-    text-align: left;
-    color: #5a5a5a;
 }
 .gm-menubar-l0 {
     background: rgba(0,0,0,.0)!important;
@@ -898,11 +867,24 @@
 .div-heading {
     margin-top: -8px;
 }
+.div-touchless {
+    pointer-events:none;
+}
 .div-hidden {
     display: none!important;
 }
 .div-visible {
     display: block!important;
+}
+.div-panel-link {
+	background: url('/img/icons/requirements/link.png') no-repeat center;
+	background-size: 17px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 1;
+	top: 8px;
+	right: 8px;
 }
 .div-button {
     width: 100%;
@@ -955,26 +937,31 @@
     width: 49.1%;
 }
 .div-ico-panel-min {
-    width: 60px!important;
-    background-size: 70px!important;
+    width: 80px!important;
+    background-size: 28px!important;
 }
 .div-txt-panel-min {
     font-size: 14px!important;
-    line-height: 60px!important;
-    left: 60px!important;
-    height: 60px!important;
+    line-height: 80px!important;
+    left: 80px!important;
+    height: 80px!important;
     color: #455971!important;
 }
 .div-con-panel-min {
-    height: 60px!important;
+    height: 80px!important;
     border: solid 1px #fff;
     border-bottom: 1px solid #e4e4e4;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+    border-left: 2px solid rgba(255, 255, 255, 0);
+    border-right: 2px solid rgba(255, 255, 255, 0);
     background: #fff!important;
+    padding-bottom: 1px;
 }
 .div-con-panel-min:hover {
-    height: 60px!important;
-    border: solid 1px #4c5bd7;
+    height: 80px!important;
+    border: solid 2px #455971;
     background: #fff!important;
+    padding-bottom: 0px;
 }
 .div-member-block {
     overflow: visible!important;

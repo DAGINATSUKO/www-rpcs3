@@ -203,7 +203,7 @@
 			<div id='featured-wrp-panel'>
 				<a href='https://rpcs3.net/compatibility'>
 				<div class="div-con-panel-min div-panel-left darkmode-panel" id='featured-con-board'>
-					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/playable.png') no-repeat center; background-size: 130px;">
+					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/playable.png') no-repeat center;">
 					</div>
 					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
 						<p>
@@ -211,13 +211,62 @@
 						</p>
 					</div>
 				</div>
-				</a><a href='https://rpcs3.net/faq'>
+				</a>
+				<a href='https://rpcs3.net/faq'>
 				<div class="div-con-panel-min div-panel-right darkmode-panel" id='featured-con-board'>
-					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/faq.png') no-repeat center; background-size: 130px;">
+					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/faq.png') no-repeat center;">
 					</div>
 					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
 						<p>
 							 What should I know before using RPCS3?
+						</p>
+					</div>
+				</div>
+				</a>
+			</div>
+			<div id='featured-wrp-panel'>
+				<a href='https://rpcs3.net/quickstart'>
+				<div class="div-con-panel-min div-panel-left darkmode-panel" id='featured-con-board'>
+					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/quickstart.png') no-repeat center;">
+					</div>
+					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
+						<p>
+							 How can I get started using RPCS3?
+						</p>
+					</div>
+				</div>
+				</a>
+				<a href='https://rpcs3.net/about'>
+				<div class="div-con-panel-min div-panel-right darkmode-panel" id='featured-con-board'>
+					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/about.png') no-repeat center;">
+					</div>
+					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
+						<p>
+							 Who is currently working on RPCS3?
+						</p>
+					</div>
+				</div>
+				</a>
+			</div>
+			<div id='featured-wrp-panel'>
+				<a href='https://rpcs3.net/roadmap'>
+				<div class="div-con-panel-min div-panel-left darkmode-panel" id='featured-con-board'>
+					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/roadmap.png') no-repeat center;">
+					</div>
+					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
+						<p>
+							 What features are currently being worked on?
+						</p>
+					</div>
+				</div>
+				</a>
+				<a href='https://github.com/RPCS3/rpcs3/wiki/Developer-Information' target="_blank">
+				<div class="div-con-panel-min div-panel-right darkmode-panel" id='featured-con-board'>
+					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/contribute.png') no-repeat center;">
+					</div>
+					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
+						<p>
+							 How can I contribute to the project?
 						</p>
 					</div>
 				</div>
@@ -263,6 +312,20 @@
 					<script>
 						                  (adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
+				</div>
+			</div>
+			<div id='featured-con-block' class="darkmode-block">
+				<div class="div-anchor" id="requirements">
+				</div>
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block' class="darkmode-txt">
+						<h2>System Requirements</h2>
+					</div>
+					<div id='featured-tx2-block' class="darkmode-txt">
+						<p>
+							 The system requirements for running the emulator have not been finalized and are subject to change during development. We do however have a set of minimum system requirements that must be met for the emulator to function properly on any system. Please note that these are the bare minimum system specifications and the emulator will not function otherwise.
+						</p>
+					</div>
 				</div>
 			</div>
 			<?php include 'lib/module/in-requirements.php';?>
