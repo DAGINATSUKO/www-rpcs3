@@ -450,7 +450,7 @@
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
 								<b>Renderer</b><br>
-								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Vulkan will always be the fastest renderer, followed by OpenGL, the most accurate renderer. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers. <i>Note that D3D12 (Direct3D 12) is only compatible with Windows 10 and its usage is not recommended as it's unmantained.</i>
+								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Vulkan will always be the fastest renderer, followed by OpenGL, the most accurate renderer. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers. <i>Note that D3D12 (Direct3D 12) is only compatible with Windows 10 and its usage is not recommended as it isn't maintained.</i>
 							</p>
 							<br>
 							<p>
@@ -465,7 +465,7 @@
 							<br>
 							<p>
 								<b>Aspect Ratio</b><br>
-								 Defines the aspect ratio of the the emulated console.
+								 Defines the aspect ratio of the emulated console.
 							</p>
 							<br>
 							<p>

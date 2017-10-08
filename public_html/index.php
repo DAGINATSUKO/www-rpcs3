@@ -236,37 +236,13 @@
 					</div>
 				</div>
 				</a>
-				<a href='https://rpcs3.net/about'>
-				<div class="div-con-panel-min div-panel-right darkmode-panel" id='featured-con-board'>
-					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/about.png') no-repeat center;">
-					</div>
-					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
-						<p>
-							 Who is currently working on RPCS3?
-						</p>
-					</div>
-				</div>
-				</a>
-			</div>
-			<div id='featured-wrp-panel'>
 				<a href='https://rpcs3.net/roadmap'>
-				<div class="div-con-panel-min div-panel-left darkmode-panel" id='featured-con-board'>
+				<div class="div-con-panel-min div-panel-right darkmode-panel" id='featured-con-board'>
 					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/roadmap.png') no-repeat center;">
 					</div>
 					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
 						<p>
 							 What features are currently being worked on?
-						</p>
-					</div>
-				</div>
-				</a>
-				<a href='https://github.com/RPCS3/rpcs3/wiki/Developer-Information' target="_blank">
-				<div class="div-con-panel-min div-panel-right darkmode-panel" id='featured-con-board'>
-					<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/boards/contribute.png') no-repeat center;">
-					</div>
-					<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
-						<p>
-							 How can I contribute to the project?
 						</p>
 					</div>
 				</div>

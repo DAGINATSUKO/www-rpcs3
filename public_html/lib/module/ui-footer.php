@@ -2,9 +2,9 @@
 <div id="footer-con-container">
 	<div id="footer-ico-container">
 	</div>
-	<div class="visual-wavebar-1 darkmode-wavebar">
+	<div class="visual-wavebar-1">
 	</div>
-	<div class="visual-wavebar-1 delayed-fade darkmode-wavebar" style="display:none;">
+	<div class="visual-wavebar-1 delayed-fade" style="display:none;">
 	</div>
 	<div id="footer-ot-container">
 		<div id="footer-in-container">
@@ -24,8 +24,6 @@
 						<span id='footer-btn-credits'>GitHub</span></a>
 						<a href='https://www.patreon.com/Nekotekina' title="Patreon" target="_blank">
 						<span id='footer-btn-credits'>Patreon</span></a>
-						<a href='https://www.youtube.com/rpcs3_emu' title="YouTube" target="_blank">
-						<span id='footer-btn-credits'>YouTube</span></a>
 						<a href='https://twitter.com/rpcs3_emu' title="Twitter" target="_blank">
 						<span id='footer-btn-credits'>Twitter</span></a>
 						<a href='https://www.reddit.com/r/rpcs3/' title="Reddit" target="_blank">

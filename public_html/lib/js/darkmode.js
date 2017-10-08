@@ -100,6 +100,7 @@ $(document).ready(function() {
         $("#featured-con-block h2").addClass("dm-txt");
         $("#featured-con-block p").addClass("dm-txt");
 		$(".markdown-body li").addClass("dm-txt");
+		$("#footer-con-container").addClass("dm-footer");
 		$(".feature-ico-flag").addClass("dm-flag");
 		/* - */
         $(".compat-table").toggleClass("dm-block");
@@ -164,8 +165,8 @@ $(document).ready(function() {
         $(".markdown-body h2").removeClass("dm-txt");
         $("#featured-con-block h2").removeClass("dm-txt");
         $("#featured-con-block p").removeClass("dm-txt");
-		$("#footer-con-container").removeClass("dm-footer");
 		$(".markdown-body li").removeClass("dm-txt");
+		$("#footer-con-container").removeClass("dm-footer");
 		$(".feature-ico-flag").removeClass("dm-flag");
 		/* - */
         $(".compat-table").removeClass("dm-block");
