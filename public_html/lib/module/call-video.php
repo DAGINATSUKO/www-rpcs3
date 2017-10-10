@@ -2,12 +2,12 @@
 $(document).ready(function() {
     $('.feature-1-title').text("Welcome to RPCS3 - The PlayStation 3 Emulator");
     $('.feature-1-desc').text("RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Many fraudulent PlayStation 3 emulators and console emulators in general have clouded the public eye of the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.");
-    $('.feature-1-author').text("Uploaded By Team RPCS3");
+    $('.feature-1-author').text("Play PlayStation 3 Games at 4K and Beyond");
 });
 </script>
 <div id='video-con-dim' class='stop-video toggle-video-1'>
 	<div id='video-con-viewport' class='video-con-scale'>
-		<iframe id='video-1' data-src="https://www.youtube.com/embed/pAMA5Rtef90?start=1&autoplay=1&cc_load_policy=1&enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%" src="about:blank">
+		<iframe id='video-1' data-src="https://www.youtube.com/embed/XGXHrmfQrzs?&autoplay=1&cc_load_policy=1&enablejsapi=1&color=white&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen="true" allowscriptaccess="always" type="text/html" width="100%" height="100%" src="about:blank">
 		</iframe>
 	</div>
 </div>

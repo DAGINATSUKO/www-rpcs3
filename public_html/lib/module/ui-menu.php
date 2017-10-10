@@ -98,16 +98,16 @@
 						<div id="submenu-ico-github">
 						</div>
 						<div id="submenu-btn-button">
-							<span>Support with GitHub</span>
+							<span>Contribute with GitHub</span>
 						</div>
 					</div>
 					</a>
-					<a href="https://github.com/RPCS3/rpcs3/issues" target="_blank">
+					<a href="https://forums.rpcs3.net/" target="_blank">
 					<div id="submenu-con-wrapper">
 						<div id="submenu-ico-testing">
 						</div>
 						<div id="submenu-btn-button">
-							<span>Support with Testing</span>
+							<span>Contribute with Reporting</span>
 						</div>
 					</div>
 					</a>

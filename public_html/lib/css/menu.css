@@ -73,7 +73,7 @@
     top: 62px;
     left: -26px;
     display: none;
-    width: 210px;
+    width: 232px;
     height: 217px;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
@@ -93,7 +93,7 @@
 #submenu-ico-lip {
     position: absolute;
     top: -33px;
-    right: 74px;
+    right: 86px;
     width: 60px;
     height: 60px;
     background: url(/img/icons/menu/lip.png) no-repeat center;
