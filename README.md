@@ -25,6 +25,7 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 #### External Resources
 * [Flaticon](http://www.flaticon.com "Flaticon")
 * [JS Cookie](https://github.com/js-cookie/js-cookie "JS Cookie")
+* [Jquery Mousewheel](https://github.com/jquery/jquery-mousewheel "Jquery Mousewheel")
 * [Animate.css](https://daneden.github.io/animate.css "Animate.css")
 * [Animated Waves](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves")
 
@@ -66,7 +67,7 @@ For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS
 * 08-04-2017 - Development improvements with Docker from [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
 * 09-01-2017 - RPCS3.net 2.0 Beta 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 10-01-2017 - RPCS3.net 2.0 leaves Beta status by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 10-15-2017 - RPCS3.net 3.0 begins closed-source development [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 10-15-2017 - RPCS3.net 3.0 begins closed-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 
 ## Copyright
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
