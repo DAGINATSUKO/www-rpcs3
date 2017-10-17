@@ -55,7 +55,7 @@ For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
 * 01-20-2017 - DAGINATSUKO joins the RPCS3 team on [January 20th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
-* 01-20-2017 - RPCS3.net foundation forked from undisclosed project by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 01-20-2017 - RPCS3.net foundation forked from [daginatsuko.com](https://daginatsuko.com/ "DAGINATSUKO's official website") project by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-20-2017 - RPCS3.net 2.0 project started by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-21-2017 - RPCS3.net 2.0 launched and published by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 01-22-2017 - RPCS3.net 2.0 compatibility launched and published by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
