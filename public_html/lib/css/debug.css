@@ -91,6 +91,7 @@
 	opacity:0;
 	transition: all 1s ease-in-out;
 	z-index: 1;
+	pointer-events: none;
 }
 #page-img-feature {
 	position:absolute;
