@@ -19,7 +19,7 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 * HTML 5.0
 * CSS 3.0
 * PHP 5.5
-* jQuery 3.2.0
+* JQuery 3.2.0
 * MySQL
 
 #### External Resources
