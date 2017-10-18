@@ -1,11 +1,11 @@
-<script src='/lib/js/jquery.js'></script>
-<script src='/lib/js/jquery-cookie.js'></script>
-<script src='/lib/js/darkmode.js'></script>
-<script src='/lib/js/main.js'></script>
-<link rel="stylesheet" href="/lib/css/html.css"/>
-<link rel="stylesheet" href="/lib/css/anim.css"/>
-<link rel="stylesheet" href="/lib/css/main.css"/>
-<link rel="stylesheet" href="/lib/css/darkmode.css"/>
-<link rel="stylesheet" href="/lib/css/menu.css"/>
-<link rel="stylesheet" href="/lib/css/scale.css"/>
-<link rel="stylesheet" href="/lib/css/debug.css"/>
+<script data-cfasync="false" src='/lib/js/jquery.js'></script>
+<script data-cfasync="false" src='/lib/js/jquery-cookie.js'></script>
+<script data-cfasync="false" src='/lib/js/darkmode.js'></script>
+<script data-cfasync="false" src='/lib/js/main.js'></script>
+<link rel="stylesheet" href="/lib/css/html.css?v=2"/>
+<link rel="stylesheet" href="/lib/css/anim.css?v=2"/>
+<link rel="stylesheet" href="/lib/css/main.css?v=2"/>
+<link rel="stylesheet" href="/lib/css/darkmode.css?v=2"/>
+<link rel="stylesheet" href="/lib/css/menu.css?v=2"/>
+<link rel="stylesheet" href="/lib/css/scale.css?v=2"/>
+<link rel="stylesheet" href="/lib/css/debug.css?v=2"/>

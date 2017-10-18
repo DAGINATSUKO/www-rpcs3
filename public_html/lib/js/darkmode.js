@@ -5,10 +5,13 @@ $(document).ready(function() {
     $('.toggle-darkmode').toggleClass("activate-darkmode", sel).on('click', function(e) {
         $('body').toggleClass("dm-bg");
         $('.darkmode-header').toggleClass("dm-header");
+		$('.darkmode-feature').toggleClass("dm-feature");
         $('.darkmode-menubar').toggleClass("dm-menubar");
         $('.darkmode-block').toggleClass("dm-block");
+		$('.darkmode-contribute').toggleClass("dm-default");
         $('.darkmode-panel').toggleClass("dm-panel");
         $('.darkmode-txt').toggleClass("dm-txt");
+		$('.darkmode-txt2').toggleClass("feature-txt-wrap-invert");
         $('.darkmode-ad').toggleClass("dm-ad");
         $('.darkmode-highlight').toggleClass("dm-highlight");
         $('.darkmode-menubar-l1').toggleClass("dm-menubar-l1");
@@ -17,6 +20,7 @@ $(document).ready(function() {
         $('.darkmode-navsidebar-anim').toggleClass("dm-navsidebar-anim");
         $('.darkmode-navsidebar-txt').toggleClass("dm-navsidebar-txt");
         $('.darkmode-buttons').toggleClass("dm-buttons");
+		$('.darkmode-buttons-general').toggleClass("dm-buttons-general");
         $(".markdown-body").toggleClass("dm-txt");
         $(".markdown-body h2").toggleClass("dm-txt");
         $("#featured-con-block h2").toggleClass("dm-txt");
@@ -83,10 +87,13 @@ $(document).ready(function() {
     if ($('.toggle-darkmode').hasClass('activate-darkmode')) {
         $('body').addClass("dm-bg");
         $('.darkmode-header').addClass("dm-header");
+		$('.darkmode-feature').addClass("dm-feature");
         $('.darkmode-menubar').addClass("dm-menubar");
         $('.darkmode-block').addClass("dm-block");
+		$('.darkmode-contribute').addClass("dm-default");
         $('.darkmode-panel').addClass("dm-panel");
         $('.darkmode-txt').addClass("dm-txt");
+		$('.darkmode-txt2').toggleClass("feature-txt-wrap-invert");
         $('.darkmode-ad').addClass("dm-ad");
         $('.darkmode-highlight').addClass("dm-highlight");
         $('.darkmode-menubar-l1').addClass("dm-menubar-l1");
@@ -95,6 +102,7 @@ $(document).ready(function() {
         $('.darkmode-navsidebar-anim').addClass("dm-navsidebar-anim");
         $('.darkmode-navsidebar-txt').addClass("dm-navsidebar-txt");
         $('.darkmode-buttons').addClass("dm-buttons");
+		$('.darkmode-buttons-general').addClass("dm-buttons-general");
         $(".markdown-body").addClass("dm-txt");
         $(".markdown-body h2").addClass("dm-txt");
         $("#featured-con-block h2").addClass("dm-txt");
@@ -149,10 +157,13 @@ $(document).ready(function() {
     } else {
         $('body').removeClass("dm-bg");
         $('.darkmode-header').removeClass("dm-header");
+		$('.darkmode-feature').removeClass("dm-feature");
         $('.darkmode-menubar').removeClass("dm-menubar");
         $('.darkmode-block').removeClass("dm-block");
+		$('.darkmode-contribute').removeClass("dm-default");
         $('.darkmode-panel').removeClass("dm-panel");
         $('.darkmode-txt').removeClass("dm-txt");
+		$('.darkmode-txt2').addClass("feature-txt-wrap-invert");
         $('.darkmode-ad').removeClass("dm-ad");
         $('.darkmode-highlight').removeClass("dm-highlight");
         $('.darkmode-menubar-l1').removeClass("dm-menubar-l1");
@@ -161,6 +172,7 @@ $(document).ready(function() {
         $('.darkmode-navsidebar-anim').removeClass("dm-navsidebar-anim");
         $('.darkmode-navsidebar-txt').removeClass("dm-navsidebar-txt");
         $('.darkmode-buttons').removeClass("dm-buttons");
+		$('.darkmode-buttons-general').removeClass("dm-buttons-general");
         $(".markdown-body").removeClass("dm-txt");
         $(".markdown-body h2").removeClass("dm-txt");
         $("#featured-con-block h2").removeClass("dm-txt");
@@ -184,13 +196,13 @@ $(document).ready(function() {
         $(".history-table th").removeClass("dm-block dm-txt");
 		$(".history-table td").removeClass("dm-txt");
         $(".library-table").removeClass("dm-block");
-		$(".builds-table").toggleClass("dm-block");
+		$(".builds-table").removeClass("dm-block");
 		$(".builds-table p").removeClass("dm-txt");
         $(".builds-table a").removeClass("dm-txt");
         $(".builds-table i").removeClass("dm-txt");
-		$(".builds-table tr:nth-child(2n+1)").toggleClass("dm-block");
-        $(".builds-table th").toggleClass("dm-block");
-		$(".builds-table tr").toggleClass("dm-compat-highlight");
+		$(".builds-table tr:nth-child(2n+1)").removeClass("dm-block");
+        $(".builds-table th").removeClass("dm-block");
+		$(".builds-table tr").removeClass("dm-compat-highlight");
 		$(".builds-table td").removeClass("dm-txt");
         $(".divTableHeading").removeClass("dm-block");
         $(".divTableHeading").removeClass("dm-txt");

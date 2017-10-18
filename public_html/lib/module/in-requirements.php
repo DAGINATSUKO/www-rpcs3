@@ -28,7 +28,6 @@
 			</p>
 		</div>
 	</div>
-	<a href='https://rpcs3.net/about'>
 	<div class="div-con-panel-min div-panel-right darkmode-panel div-touchless" id='featured-con-board'>
 		<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/requirements/ram.png') no-repeat center;">
 		</div>

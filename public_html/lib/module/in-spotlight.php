@@ -2,8 +2,6 @@
 	<div id='spotlight-tx1-body'>
 		<span>FEATURED PROGRESS</span>
 	</div>
-	<div id='spotlight-div-body'>
-	</div>
 	<div id='spotlight-ico-body'>
 	</div>
 	<div id='spotlight-ovr-body'>

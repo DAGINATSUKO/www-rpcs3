@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
 });
 /* Handles menubar opacity swap on scroll */
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 60) {
         $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
@@ -14,7 +14,7 @@ $(window).scroll(function() {
         $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
     }
 });
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 60) {
         $("#menu-und-l1").fadeIn(100);
@@ -22,7 +22,7 @@ $(window).scroll(function() {
         $("#menu-und-l1").fadeOut(100);
     }
 });
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 400) {
         $("#menu-und-l2").fadeIn(100);
@@ -34,8 +34,16 @@ $(window).scroll(function() {
 $(window).load(function() {
     $('#header-img-head').fadeIn(300);
 });
+$(window).load(function() {
+    $('.dynamic-wavebar')
+        .delay(1000)
+        .queue(function(next) {
+            $(this).css('opacity', '1');
+            next();
+        });
+});
 /* Handles standard wavebar animation */
-$(document).ready(function() {
+$(window).load(function() {
     var $wavebarFX = $(".visual-wavebar-1"),
         wavebarWidth = 20,
         wavebarCount = $(window).width() / wavebarWidth;
@@ -45,7 +53,7 @@ $(document).ready(function() {
     }
 });
 /* Handles denser wavebar animation */
-$(document).ready(function() {
+$(window).load(function() {
     var $wavebarFX = $(".visual-wavebar-2"),
         wavebarWidth = 20,
         wavebarCount = $(window).width() / wavebarWidth;
@@ -54,26 +62,34 @@ $(document).ready(function() {
         $wavebar.appendTo($wavebarFX);
     }
 });
-/* Handles all fade on scroll events */
-$(document).ready(function() {
-    $('.delayed-fade').delay(500).fadeIn();
+/* Handles all delayed fade events */
+$(window).load(function() {
+    $('.delayed-fade').delay(900).fadeIn();
 });
+/* Handles all fade on scroll events */
 $(window).scroll(function() {
     if ($(this).scrollTop() > 40) {
-         $('.fade-on-scroll').fadeIn(100);
+        $('.fade-on-scroll').fadeIn(100);
     } else {
         $('.fade-on-scroll').fadeOut(100);
     }
 });
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+        $('.fade-in-sc').fadeOut();
+    } else {
+        $('.fade-in-sc').fadeIn();
+    }
+});
 /* Handles page-specfic menubar dimmer */
 $(window).load(function() {
-$(function(){
-  if($('body').is('.gallery-page')){
-		$('.darkmode-menubar').toggleClass("gm-menubar-l0");
-        $('.darkmode-menubar-l1').toggleClass("gm-menubar-l1");
-        $('.darkmode-menubar-l2').toggleClass("gm-menubar-l2");
-  }
-});
+    $(function() {
+        if ($('body').is('.gallery-page')) {
+            $('.darkmode-menubar').toggleClass("gm-menubar-l0");
+            $('.darkmode-menubar-l1').toggleClass("gm-menubar-l1");
+            $('.darkmode-menubar-l2').toggleClass("gm-menubar-l2");
+        }
+    });
 });
 /* Handles gallery grid view on load */
 $(window).load(function() {
@@ -154,15 +170,15 @@ $(document).ready(function() {
         var iframe = $("#video-7");
         iframe.attr("src", iframe.data("src"));
     });
-	$(".page-video-8").click(function() {
+    $(".page-video-8").click(function() {
         var iframe = $("#video-8");
         iframe.attr("src", iframe.data("src"));
     });
-	$(".page-video-9").click(function() {
+    $(".page-video-9").click(function() {
         var iframe = $("#video-9");
         iframe.attr("src", iframe.data("src"));
     });
-	$(".page-video-10").click(function() {
+    $(".page-video-10").click(function() {
         var iframe = $("#video-10");
         iframe.attr("src", iframe.data("src"));
     });
@@ -210,7 +226,7 @@ $(document).ready(function() {
     $(".toggle-video-1").click(function() {
         $(".toggle-video-1").fadeOut('fast');
     });
-	/* Handles featured video #2 toggle */
+    /* Handles featured video #2 toggle */
     $(".toggle-video-2").hide();
     $(".page-video-2").click(function() {
         $(".toggle-video-2").fadeIn('fast');
@@ -219,7 +235,7 @@ $(document).ready(function() {
     $(".toggle-video-2").click(function() {
         $(".toggle-video-2").fadeOut('fast');
     });
-	/* Handles featured video #3 toggle */
+    /* Handles featured video #3 toggle */
     $(".toggle-video-3").hide();
     $(".page-video-3").click(function() {
         $(".toggle-video-3").fadeIn('fast');
@@ -228,7 +244,7 @@ $(document).ready(function() {
     $(".toggle-video-3").click(function() {
         $(".toggle-video-3").fadeOut('fast');
     });
-	/* Handles featured video #4 toggle */
+    /* Handles featured video #4 toggle */
     $(".toggle-video-4").hide();
     $(".page-video-4").click(function() {
         $(".toggle-video-4").fadeIn('fast');
@@ -237,7 +253,7 @@ $(document).ready(function() {
     $(".toggle-video-4").click(function() {
         $(".toggle-video-4").fadeOut('fast');
     });
-	/* Handles featured video #5 toggle */
+    /* Handles featured video #5 toggle */
     $(".toggle-video-5").hide();
     $(".page-video-5").click(function() {
         $(".toggle-video-5").fadeIn('fast');
@@ -246,7 +262,7 @@ $(document).ready(function() {
     $(".toggle-video-5").click(function() {
         $(".toggle-video-5").fadeOut('fast');
     });
-	/* Handles featured video #6 toggle */
+    /* Handles featured video #6 toggle */
     $(".toggle-video-6").hide();
     $(".page-video-6").click(function() {
         $(".toggle-video-6").fadeIn('fast');
@@ -255,7 +271,7 @@ $(document).ready(function() {
     $(".toggle-video-6").click(function() {
         $(".toggle-video-6").fadeOut('fast');
     });
-	/* Handles featured video #7 toggle */
+    /* Handles featured video #7 toggle */
     $(".toggle-video-7").hide();
     $(".page-video-7").click(function() {
         $(".toggle-video-7").fadeIn('fast');
@@ -264,7 +280,7 @@ $(document).ready(function() {
     $(".toggle-video-7").click(function() {
         $(".toggle-video-7").fadeOut('fast');
     });
-	/* Handles featured video #8 toggle */
+    /* Handles featured video #8 toggle */
     $(".toggle-video-8").hide();
     $(".page-video-8").click(function() {
         $(".toggle-video-8").fadeIn('fast');
@@ -273,7 +289,7 @@ $(document).ready(function() {
     $(".toggle-video-8").click(function() {
         $(".toggle-video-8").fadeOut('fast');
     });
-	/* Handles featured video #9 toggle */
+    /* Handles featured video #9 toggle */
     $(".toggle-video-9").hide();
     $(".page-video-9").click(function() {
         $(".toggle-video-9").fadeIn('fast');
@@ -282,7 +298,7 @@ $(document).ready(function() {
     $(".toggle-video-9").click(function() {
         $(".toggle-video-9").fadeOut('fast');
     });
-	/* Handles featured video #10 toggle */
+    /* Handles featured video #10 toggle */
     $(".toggle-video-10").hide();
     $(".page-video-10").click(function() {
         $(".toggle-video-10").fadeIn('fast');
@@ -298,6 +314,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-1')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -310,6 +327,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-2')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -322,6 +340,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-3')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -334,6 +353,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-4')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -346,6 +366,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-5')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -358,6 +379,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-6')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -370,6 +392,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-7')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -382,6 +405,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-8')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -394,6 +418,7 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-9')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -406,28 +431,29 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-10')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
         }
     });
 });
- /* Handles fullscreen announcement toggles */
- $(document).ready(function() {
-   $('#announce-btn-overlay').mouseover(function() {
-      $('#announce-btn-overlay').fadeOut('fast', function() {
-      });
-   });
- });
- /* Handles start and stop of announcement video */
+/* Handles fullscreen announcement toggles */
+$(document).ready(function() {
+    $('#announce-btn-overlay').mouseover(function() {
+        $('#announce-btn-overlay').fadeOut('fast', function() {});
+    });
+});
+/* Handles start and stop of announcement video */
 $(document).ready(function() {
     $(function() {
-	    $("#announce-btn-overlay").mouseover("click", function() {　　
+        $("#announce-btn-overlay").mouseover("click", function() {　　
             videoControl("playVideo");
         });
         $(".stop-video-a").on("click", function() {
             videoControl("stopVideo");
         });
+
         function videoControl(action) {
             var $playerWindow = $('#video-announce')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');

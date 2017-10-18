@@ -56,6 +56,10 @@
 			<div id="menu-btn-select" style="pointer-events: none;">
 				<span>|</span>
 			</div>
+			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
+			<div id="menu-btn-select" title="GitHub">
+				<span>GitHub</span>
+			</div>
 			<a href='https://discord.me/RPCS3' target="_blank">
 			<div id="menu-btn-select" class="menu-btn-remove" title="Discord">
 				<span>Discord</span>

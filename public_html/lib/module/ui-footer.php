@@ -2,18 +2,20 @@
 <div id="footer-con-container">
 	<div id="footer-ico-container">
 	</div>
-	<div class="visual-wavebar-1">
-	</div>
-	<div class="visual-wavebar-1 delayed-fade" style="display:none;">
+	<div id="page-con-wavebar" class="dynamic-wavebar" style="height:100%;">
+		<div class="visual-wavebar-1">
+		</div>
+		<div class="visual-wavebar-1 delayed-fade" style="display:none;">
+		</div>
 	</div>
 	<div id="footer-ot-container">
 		<div id="footer-in-container">
 			<div id="footer-con-credits">
 				<div id='footer-tx1-credits'>
 					<p>
-						<a href='https://github.com/DAGINATSUKO' title="Website by DAGINATSUKO" target="_blank">
+						<a href='https://daginatsuko.com' title="Website by DAGINATSUKO" target="_blank">
 						<div id='footer-btn-webmaster'>
-							Website by DAGINATSUKO
+							 Website by DAGINATSUKO
 						</div>
 						</a>
 						<a href='https://github.com/DAGINATSUKO/www-rpcs3' title="Website Source" target="_blank">
