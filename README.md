@@ -67,6 +67,7 @@ For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS
 * 09-01-2017 - RPCS3.net 2.0 Beta 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 10-01-2017 - RPCS3.net 2.0 leaves Beta status by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 10-15-2017 - RPCS3.net 3.0 begins closed-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 10-18-2017 - RPCS3.net 3.0 begins open-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 
 ## Copyright
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
