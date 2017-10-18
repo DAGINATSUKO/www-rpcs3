@@ -25,7 +25,6 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 #### External Resources
 * [Flaticon](http://www.flaticon.com "Flaticon")
 * [JS Cookie](https://github.com/js-cookie/js-cookie "JS Cookie")
-* [Jquery Mouse Wheel](https://github.com/jquery/jquery-mousewheel "Jquery Mouse Wheel")
 * [Animate.css](https://daneden.github.io/animate.css "Animate.css")
 * [Animated Waves](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves")
 
