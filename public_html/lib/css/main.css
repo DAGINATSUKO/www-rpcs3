@@ -411,7 +411,7 @@
 	cursor:pointer;
 	transition:.2s ease-in-out;
 	transform:scale(1.0);
-	background:rgba(76,91,215,0) url('/img/icons/menu/play.png') no-repeat center;
+	background: rgba(0,0,0,0.1) url('/img/icons/menu/play.png') no-repeat center;
 	background-size:60px;
 }
 #featured-btn-play-b:hover {

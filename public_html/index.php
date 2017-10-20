@@ -22,7 +22,7 @@
 	);
 	preloadVideo(
 	'6',
-	'v3_WiNow_gE',
+	'tG98QH0RBJQ',
 	'Demon\'s Souls'
 	);
 	preloadVideo(
@@ -80,6 +80,7 @@
 		</div>
 		<div class="darkmode-header" id='header-con-overlay'>
 		</div>
+		<div class="scale-offset-center">
 		<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
 			<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a feature-con-greeting-scaler'>
 				<div id='feature-txt-wrap'>
@@ -101,15 +102,16 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
-			<span>CURRENT EVENTS</span>
+			<span>NEWS</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/events.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
-			<div id='content-con-block' class="contribute-alg-block darkmode-block content-con-scroller">
+			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-promote">
 				<div id='content-img-overlay' class="content-img-overlay-a">
 					<div id='content-ico-block' style="background: url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 260px !important;">
 					</div>
@@ -126,7 +128,7 @@
 				<div id='content-img-block' style="background: url('/img/events/progress.jpg') no-repeat center center !important; background-size: cover !important;">
 				</div>
 			</div>
-			<div id='content-con-block' class="contribute-alg-block darkmode-block content-con-scroller">
+			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-hide">
 				<div id='content-img-overlay' class="content-img-overlay-b">
 					<div id='content-ico-block' style="background: url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 260px !important;">
 					</div>
@@ -143,7 +145,7 @@
 				<div id='content-img-block' style="background: url('/img/events/discord.jpg') no-repeat center center !important; background-size: cover !important;">
 				</div>
 			</div>
-			<div id='content-con-block' class="content-con-scroller">
+			<div id='content-con-block-a' class="scale-override-hide">
 				<div id='content-img-overlay' class="content-img-overlay-c">
 					<div id='content-ico-block' style="background: url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 260px !important;">
 					</div>
@@ -163,10 +165,11 @@
 	</div>
 	<div id="page-con-feature-a" class="darkmode-feature">
 		<div id='feature-tx1-heading' style="color:#fff" class="feature-txt-wrap-invert darkmode-txt2">
-			<span>FEATURED PROGRESS</span>
+			<span>FEATURED</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/1.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
+		<div class='scale-offset-center'>
 		<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
 			<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
 			</div>
@@ -189,6 +192,7 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</div>
 	<div id="page-con-feature-c" class="darkmode-feature">
 		<div class="darkmode-block div-content-ad" id='featured-con-ad'>
@@ -210,12 +214,12 @@
 	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
-			<span>HOW CAN I CONTRIBUTE?</span>
+			<span>CONTRIBUTING</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/support.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
-			<div id='contribute-con-block' class="contribute-alg-block darkmode-block content-con-scroller">
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/patreon.png') no-repeat center center !important; background-size: 64px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
@@ -230,7 +234,7 @@
 				</div>
 				</a>
 			</div>
-			<div id='contribute-con-block' class="contribute-alg-block darkmode-block content-con-scroller">
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/code.png') no-repeat center center !important; background-size: 64px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
@@ -245,7 +249,7 @@
 				</div>
 				</a>
 			</div>
-			<div id='contribute-con-block' class="darkmode-block content-con-scroller">
+			<div id='content-con-block-b' class="darkmode-block scale-override-hide">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/testing.png') no-repeat center center !important; background-size: 64px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
@@ -254,7 +258,7 @@
 				<div id='contribute-tx2-block' class="darkmode-txt">
 					<span>We all want to be able to play our favorite games far into the future. Whether it's for preservation, or for the sake of nostalgia, emulation accuracy ensures that titles will run the same as they do on original hardware. To ensure this, we need to do a lot of testing and a lot of reporting. This is where you come in.</span>
 				</div>
-				<a href="https://forums.rpcs3.net/" target="_blank">
+				<a href="https://forums.rpcs3.net" target="_blank">
 				<div id='contribute-btn-block' class="darkmode-txt">
 					<span>REPORTING</span>
 				</div>
@@ -268,15 +272,16 @@
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/6.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
+		<div class='scale-offset-center'>
 		<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
-			<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
-				<div id='feature-txt-wrap'>
+			<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a scale-offset-txt-a'>
+				<div id='feature-txt-wrap' class="scale-offset-txt-b">
 					<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 						<span>SHOWCASING TRUE PROGRESS</span>
 					</div>
 					<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 						<span>Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
-						<div id='feature-btn-general' class="darkmode-buttons-general">
+						<div id='feature-btn-general' class="darkmode-buttons-general scale-override-hide">
 							<span>COMING SOON</span>
 						</div>
 					</div>
@@ -313,6 +318,7 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
@@ -320,14 +326,12 @@
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/patreon.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
+		<div class='scale-offset-center'>
 		<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
 			<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
 				<div id='feature-con-funding'>
 					<div id='feature-tx1-funding'>
-						<span>This month we've currently achieved...</span>
-					</div>
-					<div id='feature-tx2-funding'>
-						<span>$3,430+</span>
+						<span>$3,400+</span>
 					</div>
 				</div>
 			</div>
@@ -341,6 +345,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 	<div id="page-con-feature-a" class="darkmode-feature">
@@ -376,7 +381,7 @@
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/support.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
-			<div id='contribute-con-block' class="contribute-alg-block darkmode-block content-con-scroller">
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 64px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
@@ -391,7 +396,7 @@
 				</div>
 				</a>
 			</div>
-			<div id='contribute-con-block' class="contribute-alg-block darkmode-block content-con-scroller">
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/faqs.png') no-repeat center center !important; background-size: 64px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
@@ -406,7 +411,7 @@
 				</div>
 				</a>
 			</div>
-			<div id='contribute-con-block' class="darkmode-block content-con-scroller">
+			<div id='content-con-block-b' class="darkmode-block scale-override-hide">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 64px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">

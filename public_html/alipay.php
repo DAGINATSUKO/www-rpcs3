@@ -15,7 +15,7 @@
 <body class="bg-backdrop">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
-	<div id='img-overlay' class="darkmode-header">
+	<div id='header-con-overlay' class="darkmode-header" style="position:fixed;">
 	</div>
 	<div id='alipay-con-alipay'>
 		<div id="alipay-ico-logo">
