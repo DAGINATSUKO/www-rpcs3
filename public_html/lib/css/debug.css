@@ -7,7 +7,7 @@
     width: 40px;
     height: 40px;
     margin-left: 0;
-    background: url('/img/icons/menu/testing-h.png') no-repeat center;
+    background: url('/img/icons/menu/alert.png') no-repeat center;
     background-size: 18px;
 }
 #page-txt-build {
@@ -148,13 +148,13 @@
 }
 #feature-tx1-heading {
     font-family: 'whitney';
-    font-size: 26px;
-    line-height: 140px;
+    font-size: 20px;
+    line-height: 120px;
+    letter-spacing: 8px;
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 140px;
-    margin-top: 20px;
+    height: 120px;
     text-align: center;
     color: #455971;
 }
@@ -277,7 +277,7 @@
 }
 #contribute-tx1-block {
     font-family: 'whitney';
-    font-size: 26px;
+    font-size: 24px;
     line-height: 50px;
     position: relative;
     width: 100%;
@@ -350,7 +350,7 @@
     height: 100%;
 }
 .content-img-overlay-a {
-    background: linear-gradient(to top,#b35300,rgba(255,177,0,.8))!important;
+    background: linear-gradient(to top,#ff9941,rgba(255,52,221,0.8))!important;
 }
 .content-img-overlay-b {
     background: linear-gradient(to top,#2181b9,rgba(114,137,218,.8))!important;
@@ -403,17 +403,34 @@
 #feature-con-funding {
     position: absolute;
     top: 50%;
-    width: auto;
+    width: 100%;
     height: 220px;
     margin: -120px -0;
-    padding-right: 54px;
-    border-right: solid 1px rgba(255, 255, 255, 0.1);
+}
+#feature-ico-divider-1 {
+    background: url('/img/icons/aesthetic/divider-1.png') no-repeat center center;
+    background-size: 1px;
+    top: 50%;
+    width: 100%;
+    height: 100px;
+    margin: -50px -0;
+    position: absolute;
+}
+#feature-ico-divider-2 {
+    background: url('/img/icons/aesthetic/divider-2.png') no-repeat center center;
+    background-size: 100px;
+    top: 50%;
+    width: 100%;
+    height: 100px;
+    margin: -50px -0;
+    position: absolute;
+    display: none;
 }
 #feature-tx1-funding {
     font-family: 'whitney';
-    font-size: 146px;
-    font-weight: bold;
-    line-height: 220px;
+    font-size: 90px;
+    line-height: 244px;
+    text-align: right;
     position: relative;
     width: auto;
     height: 100%;

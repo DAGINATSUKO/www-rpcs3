@@ -13,7 +13,7 @@
 </head>
 <body>
 <?php include 'lib/module/call-php.php';?>
-<div id="page-con-content">
+<div id="page-con-content" style="overflow-x: hidden;">
 	<div id="header-con-head">
 		<div id='header-img-head' class="dynamic-banner">
 		</div>
