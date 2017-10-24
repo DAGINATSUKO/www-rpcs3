@@ -113,7 +113,7 @@
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
 			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-promote">
 				<div id='content-img-overlay' class="content-img-overlay-a">
-					<div id='content-ico-block' style="background: url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 260px !important;">
+					<div id='content-ico-block' style="background: url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
 					<div id='content-tx1-block'>
 						<span>
@@ -130,7 +130,7 @@
 			</div>
 			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-hide">
 				<div id='content-img-overlay' class="content-img-overlay-b">
-					<div id='content-ico-block' style="background: url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 260px !important;">
+					<div id='content-ico-block' style="background: url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
 					<div id='content-tx1-block'>
 						<span>
@@ -147,7 +147,7 @@
 			</div>
 			<div id='content-con-block-a' class="scale-override-hide">
 				<div id='content-img-overlay' class="content-img-overlay-c">
-					<div id='content-ico-block' style="background: url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 260px !important;">
+					<div id='content-ico-block' style="background: url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
 					<div id='content-tx1-block'>
 						<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU GPL Version 2.0 License.</span>
@@ -197,6 +197,10 @@
 						</div>
 						<div id="featured-ovr-play">
 						</div>
+						<div id="featured-ico-uploader"></div>
+						<div id="featured-txt-uploader">
+							<span>By Reznoire</span>
+						</div>
 						<div id='feature-con-vid-thumb' style="background: url('/img/thumbs/1.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
@@ -215,13 +219,10 @@
 		</div>
 	</div>
 	<div id="page-con-feature-c" class="darkmode-feature">
+			<div id='featured-ico-ad'>
+		</div>
 		<div class="darkmode-block div-content-ad" id='featured-con-ad'>
-			<div class="darkmode-txt darkmode-ad" id='featured-tx1-ad'>
-				<p>
-					 Ad
-				</p>
-			</div>
-			<div style="text-align: center; top: 20px; position: relative;">
+			<div style="text-align: center; top: 20px; position: relative; z-index:2;">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
 						</script>
 				<!-- Ad -->
@@ -240,7 +241,7 @@
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/patreon.png') no-repeat center center !important; background-size: 64px !important;">
+				<div id='contribute-ico-block' style="background: url('/img/icons/menu/patreon.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>PATREON</span>
@@ -255,7 +256,7 @@
 				</a>
 			</div>
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/code.png') no-repeat center center !important; background-size: 64px !important;">
+				<div id='contribute-ico-block' style="background: url('/img/icons/menu/code.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>GITHUB</span>
@@ -270,7 +271,7 @@
 				</a>
 			</div>
 			<div id='content-con-block-b' class="darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/testing.png') no-repeat center center !important; background-size: 64px !important;">
+				<div id='contribute-ico-block' style="background: url('/img/icons/menu/testing.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>TESTING</span>
@@ -332,6 +333,10 @@
 						<div class="page-video-6" id='featured-btn-play-b'>
 						</div>
 						<div id="featured-ovr-play">
+						</div>
+						<div id="featured-ico-uploader"></div>
+						<div id="featured-txt-uploader">
+							<span>By JollyRogers</span>
 						</div>
 						<div id='feature-con-vid-thumb' style="background: url('/img/thumbs/6.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
@@ -404,7 +409,7 @@
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 64px !important;">
+				<div id='contribute-ico-block' style="background: url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>QUICKSTART</span>
@@ -419,7 +424,7 @@
 				</a>
 			</div>
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/faqs.png') no-repeat center center !important; background-size: 64px !important;">
+				<div id='contribute-ico-block' style="background: url('/img/icons/menu/faqs.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>FAQs</span>
@@ -434,7 +439,7 @@
 				</a>
 			</div>
 			<div id='content-con-block-b' class="darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 64px !important;">
+				<div id='contribute-ico-block' style="background: url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>ROADMAP</span>

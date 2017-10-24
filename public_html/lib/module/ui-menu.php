@@ -111,7 +111,7 @@
 						<div id="submenu-ico-testing">
 						</div>
 						<div id="submenu-btn-button">
-							<span>Contribute with Reporting</span>
+							<span>Contribute with Testing</span>
 						</div>
 					</div>
 					</a>

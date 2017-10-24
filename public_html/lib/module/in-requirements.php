@@ -8,7 +8,10 @@
 			</p>
 		</div>
 	</div>
-	<div class="div-con-panel-min div-panel-right darkmode-panel div-touchless" id='featured-con-board'>
+	<a href='https://en.wikipedia.org/wiki/SSSE3' target="_blank">
+	<div class="div-con-panel-min div-panel-right darkmode-panel" id='featured-con-board'>
+		<div class='div-panel-link'>
+		</div>
 		<div class="div-ico-panel-min" id='featured-ico-panel' style="background: url('/img/icons/requirements/cpu.png') no-repeat center;">
 		</div>
 		<div class="div-txt-panel-min darkmode-txt" id='featured-tx3-panel'>
@@ -17,6 +20,7 @@
 			</p>
 		</div>
 	</div>
+	</a>
 </div>
 <div id='featured-wrp-panel'>
 	<div class="div-con-panel-min div-panel-left darkmode-panel div-touchless" id='featured-con-board'>
