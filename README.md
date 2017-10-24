@@ -12,7 +12,7 @@ The RPCS3.net [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility
 The Levenshtein string comparisons ensures that the closest game is returned when no results are found and abbreviated search allows the user to search for games using abbreviations.
 
 #### Proprietary Technologies
-* Milk UX Engine Lite by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* Milk UX by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * Compatibility DB by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile")
 
 #### Web Technologies
