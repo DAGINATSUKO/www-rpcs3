@@ -128,27 +128,7 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			</a>
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-<<<<<<< HEAD
 				<h2>Website Source, Documentation and Press Kit</h2>
-=======
-				<h2>Download Source Code</h2>
-			</div>
-			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
-			<div id='featured-con-button' class="darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 136px; margin: 0 -68px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Source Code
-						</p>
-					</div>
-				</div>
-			</div>
-			</a>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-				<h2>Documentation, Press and Website Source</h2>
->>>>>>> 274898b438795b82f5b3975173f35461a05babfd
 			</div>
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>

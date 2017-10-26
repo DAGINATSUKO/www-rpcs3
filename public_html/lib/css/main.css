@@ -73,7 +73,7 @@
 	height: 100px;
 	margin: -50px -100px;
 	background: url(/img/icons/headings/footer.png) no-repeat center;
-	background-size: 160px;
+	background-size: 136px;
 }
 #footer-btn-webmaster {
 	line-height: 14px;
@@ -289,8 +289,8 @@
 	background: repeating-linear-gradient( 45deg, #fff, #fff 10px, #fafafa 10px, #fafafa 20px);
 }
 #featured-ico-ad {
-	background: url('/img/icons/menu/blocked.png') no-repeat center center;
-	background-size: 44px;
+	background: #f1f1f1 url(/img/icons/menu/ad.png) no-repeat center center;
+	background-size: 30px;
 	width: 50px;
 	height: 50px;
 	margin: -25px -25px;
@@ -298,6 +298,7 @@
 	left: 50%;
 	position: absolute;
 	z-index: 1;
+	border-radius: 100%;
 }
 #featured-con-button {
 	position: relative;
@@ -558,9 +559,9 @@
 	float: left;
 	height: 20px;
 	margin-left: 8px;
-	padding: 2px 8px;
+	padding: 2px 10px;
 	color: #fff;
-	border-radius: 4px;
+	border-radius: 19px;
 	background: #20b2aa;
 }
 .div-anchor {
