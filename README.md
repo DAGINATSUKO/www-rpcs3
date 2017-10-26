@@ -1,6 +1,6 @@
 ![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
 
-## RPCS3.net
+## RPCS3.net (Work in Progress)
 Official source code for [rpcs3.net](https://rpcs3.net "RPCS3 Homepage"), orginally forked from my own website, [daginatsuko.com](https://daginatsuko.com "DAGINATSUKO Homepage"). This website is designed to house and promote the progress of RPCS3, an open-source PlayStation 3 emulator and debugger built for Windows and Linux. At its core, this website aims to deliver a lightweight user experience that purely focuses on the content and technical aspects of the project and ensures the viewer can easily access its content on demand.
 
 ## Licensing
