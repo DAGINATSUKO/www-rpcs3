@@ -1,3 +1,7 @@
+.dm-icon {
+    background:url(/img/icons/menu/darkmode-on.png) no-repeat center !important;
+	background-size: 20px !important;
+}
 .dm-bg {
     background: #191d21!important;
 }

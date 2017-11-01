@@ -3,6 +3,7 @@ $(document).ready(function() {
     var sel = $.cookie("save-darkmode"); // get the cookie
     sel = sel == "true";
     $('.toggle-darkmode').toggleClass("activate-darkmode", sel).on('click', function(e) {
+		$('.darkmode-icon').toggleClass("dm-icon");
         $('body').toggleClass("dm-bg");
         $('.darkmode-header').toggleClass("dm-header");
 		$('.darkmode-feature').toggleClass("dm-feature");
@@ -85,6 +86,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     if ($('.toggle-darkmode').hasClass('activate-darkmode')) {
+		$('.darkmode-icon').toggleClass("dm-icon");
         $('body').addClass("dm-bg");
         $('.darkmode-header').addClass("dm-header");
 		$('.darkmode-feature').addClass("dm-feature");
@@ -155,6 +157,7 @@ $(document).ready(function() {
         $(".page-content").toggleClass("dm-blog-body dm-txt");
 		$(".debug-main").toggleClass("dm-block");
     } else {
+		$('.darkmode-icon').removeClass("dm-icon");
         $('body').removeClass("dm-bg");
         $('.darkmode-header').removeClass("dm-header");
 		$('.darkmode-feature').removeClass("dm-feature");

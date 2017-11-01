@@ -3,7 +3,7 @@
 	</div>
 	<div id="menu-und-l2" class="darkmode-menubar-l2">
 	</div>
-	<div id="menu-btn-lights" title="Dark Mode" class="toggle-darkmode">
+	<div id="menu-btn-darkmode" title="Dark Mode" class="toggle-darkmode darkmode-icon">
 	</div>
 	<div id="menu-con-container">
 		<div id="menu-in-container">
@@ -68,6 +68,11 @@
 			<a href='https://forums.rpcs3.net' target="_blank">
 			<div id="menu-btn-select" title="Forum">
 				<span>Forum</span>
+			</div>
+			</a>
+			<a href='https://wiki.rpcs3.net' target="_blank">
+			<div id="menu-btn-select" title="Wiki" style="display:none;">
+				<span>Wiki</span>
 			</div>
 			</a>
 			<div class="support-subtrigger" id="menu-con-support">

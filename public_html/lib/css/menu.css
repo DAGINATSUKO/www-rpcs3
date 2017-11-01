@@ -179,8 +179,8 @@
     width: auto;
     height: 60px;
     margin-left: 0;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding-right: 7px;
+    padding-left: 7px;
     color: #fff;
     border-bottom: 2px solid rgba(0,0,0,.0);
     transition: .1s ease-in-out;
@@ -189,7 +189,7 @@
     height: 60px;
     border-bottom: 2px solid #fff;
 }
-#menu-btn-lights {
+#menu-btn-darkmode {
     position: fixed;
     z-index: 9998;
     top: 0;
@@ -199,10 +199,10 @@
     cursor: pointer;
     transition: .1s ease-in-out;
     border-bottom: solid 2px rgba(255,255,255,0);
-    background: url(/img/icons/menu/lights.png) no-repeat center;
+    background: url(/img/icons/menu/darkmode-off.png) no-repeat center;
     background-size: 20px;
 }
-#menu-btn-lights:hover {
+#menu-btn-darkmode:hover {
     width: 60px;
     height: 60px;
     transition: .1s ease-in-out;
