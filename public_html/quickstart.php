@@ -332,7 +332,10 @@
 							 • BENQ <b class="txt-highlight darkmode-highlight">BR1000</b>
 						</p>
 						<p>
-							 • Samsung <b class="txt-highlight darkmode-highlight">DVDWBD SH-B083L</b>
+							 • Samsung <b class="txt-highlight darkmode-highlight">SH-B083L</b>
+						</p>
+						<p>
+							 • Samsung <b class="txt-highlight darkmode-highlight">SH-B123L</b>
 						</p>
 						<p>
 							 • Sony Optiarc <b class="txt-highlight darkmode-highlight">5300S</b>

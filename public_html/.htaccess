@@ -2,6 +2,7 @@ RewriteEngine on
 Options All -Indexes
 
 # Unless directory, remove trailing slash
+RewriteCond %{HTTP_HOST} !^wiki\.rpcs3\.net$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
@@ -10,7 +11,7 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ 
 RewriteRule ^([^/]+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
 
 # Redirect external .php requests to extension less url
-RewriteCond %{REQUEST_URI} !^/wiki/ [NC]
+RewriteCond %{HTTP_HOST} !^wiki\.rpcs3\.net$ [NC]
 RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
@@ -19,7 +20,6 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ 
 RewriteRule ^(.+)\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
 
 # Resolve .php file for extension-less php urls
-RewriteCond %{REQUEST_URI} !^/wiki/ [NC]
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$

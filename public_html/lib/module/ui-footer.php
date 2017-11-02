@@ -2,7 +2,7 @@
 <div id="footer-con-container">
 	<div id="footer-ico-container">
 	</div>
-	<div id="page-con-wavebar" class="dynamic-wavebar" style="height:100%;">
+	<div id="wavebar-con-wrapper" class="dynamic-wavebar" style="height:100%;">
 		<div class="visual-wavebar-1">
 		</div>
 		<div class="visual-wavebar-1 delayed-fade" style="display:none;">

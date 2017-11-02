@@ -21,6 +21,8 @@
 	</div>
 </div>
 <div id="page-con-content" class="page-con-gallery">
+	<div id='page-ico-scroll' class='fade-in-sc' title="Scroll for more content">
+	</div>
 	<table id="gallery-con-table">
 	<tr>
 		<td>

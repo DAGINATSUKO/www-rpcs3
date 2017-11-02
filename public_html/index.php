@@ -70,7 +70,7 @@
 		<span style="height: 40px; position: relative; top: -15px;">This page is a work in progress!</span>
 	</div>
 	<div id="page-con-feature-a" style="background:#000;">
-		<div id="page-con-wavebar" class="dynamic-wavebar">
+		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
 			<div class="visual-wavebar-1">
 			</div>
 			<div class="visual-wavebar-1 delayed-fade" style="display:none;">
@@ -192,17 +192,17 @@
 						<div id='feature-con-tease' style=" transform: scale(.65); background: url('/img/thumbs/games/5.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
-					<div id='feature-con-vid'>
-						<div class="page-video-1" id='featured-btn-play-b'>
+					<div id='video-con-container'>
+						<div class="page-video-1" id='video-btn-player-b'>
 						</div>
-						<div id="featured-ovr-play">
+						<div id="video-ovr-player">
 						</div>
-						<div id="featured-ico-uploader">
+						<div id="video-ico-uploader">
 						</div>
-						<div id="featured-txt-uploader">
+						<div id="video-txt-uploader">
 							<span>By Reznoire</span>
 						</div>
-						<div id='feature-con-vid-thumb' style="background: url('/img/thumbs/1.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='video-con-container-thumb' style="background: url('/img/thumbs/1.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
 				</div>
@@ -312,45 +312,45 @@
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
 					<div class="feature-wrp-tease" style='left: 213px; top: -115px'>
 						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/2.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='featured-btn-play-b' class="div-touchless">
+							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='right: 202px; top: -98px;'>
 						<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/3.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='featured-btn-play-b' class="div-touchless">
+							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='left: 200px; bottom: -185px;'>
 						<div id='feature-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/4.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='featured-btn-play-b' class="div-touchless">
+							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='right: 216px; top: 330px;'>
 						<div id='feature-con-tease' style="transform: scale(.55); background: url('/img/thumbs/5.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='featured-btn-play-b' class="div-touchless">
+							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='left: 466px; top: 89px;'>
 						<div id='feature-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/7.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='featured-btn-play-b' class="div-touchless">
+							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
-					<div id='feature-con-vid'>
-						<div class="page-video-6" id='featured-btn-play-b'>
+					<div id='video-con-container'>
+						<div class="page-video-6" id='video-btn-player-b'>
 						</div>
-						<div id="featured-ovr-play">
+						<div id="video-ovr-player">
 						</div>
-						<div id="featured-ico-uploader">
+						<div id="video-ico-uploader">
 						</div>
-						<div id="featured-txt-uploader">
+						<div id="video-txt-uploader">
 							<span>By JollyRogers</span>
 						</div>
-						<div id='feature-con-vid-thumb' style="background: url('/img/thumbs/6.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='video-con-container-thumb' style="background: url('/img/thumbs/6.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
 				</div>

@@ -1,3 +1,13 @@
+.gm-menubar-l0 {
+	border-bottom: solid 1px rgba(255, 255, 255, .0)!important;
+	background: rgba(0, 0, 0, .0)!important;
+}
+.gm-menubar-l1 {
+	background: rgba(0, 0, 0, .6)!important;
+}
+.gm-menubar-l2 {
+	background: rgba(0, 0, 0, .0)!important;
+}
 #motd-tx1-body {
     font-family: arial;
     font-size: 12px;
