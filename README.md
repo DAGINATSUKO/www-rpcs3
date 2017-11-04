@@ -17,36 +17,36 @@ docker-compose up
 
 Then open a web browser of choice and enter [localhost:8080](http://localhost:8080)
 
-#### Design Language
+#### Proprietary Code
 
-| Engine | Version |
-| --- | --- |
-| `Milk UX` | Version 1.0 |
+| Engine | Developer | Source | Version |
+| --- | --- |--- | --- |
+| `Milk UX` | DAGINATSUKO | Closed | Version 1.00 |
 
 #### Web Standards
 
-| Langauge | Version |
+| Standards | Version |
 | --- | --- |
-| `HTML` | Version 5.0 |
-| `CSS` | Version 3.0 |
-| `PHP` | Version 5.5 |
+| `HTML` | Version 5.00 |
+| `CSS` | Version 3.00 |
+| `PHP` | Version 5.50 |
 | `jQuery` | Version 3.2.0 |
 
 #### External Resources
 
-| Library | Developer | Download |
+| Resources | Developer | Download |
 | --- | --- | --- |
 | `Flaticon` | Freepik | [Source](http://www.flaticon.com "Flaticon") |
 | `JS Cookie` | Klaus Hartl | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") |
 | `Animate.css` | Daniel Eden | [Source](https://daneden.github.io/animate.css "Animate.css") |
 | `Animated Waves` | loktar | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") |
 
-#### Target Platforms
+#### Supported Platforms
 
-| Platform | Developer | Download |
+| Platforms | Developer | Download |
 | --- | --- | --- |
 | `Chrome` | Google | [Download](https://www.google.com/chrome/browser/desktop/) |
-| `Chromium` | Chromium Project | [Download](https://www.chromium.org/Home) |
+| `Chromium` | Chromium | [Download](https://www.chromium.org/Home) |
 | `Microsoft Edge` | Microsoft | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) |
 | `Safari` | Apple| [Download](https://www.apple.com/safari/) |
 | `Firefox` | Mozilla | [Download](https://www.mozilla.org/en-US/firefox/new/) |
