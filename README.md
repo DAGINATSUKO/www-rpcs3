@@ -3,7 +3,7 @@
 ## RPCS3.net
 Official source code for [rpcs3.net](https://rpcs3.net "RPCS3 Homepage"), originally forked from [daginatsuko.com](https://daginatsuko.com "DAGINATSUKO Homepage"). This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the open-source LLVM Compiler Infrastructure project for Windows and Linux.
 
-The [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion, of this website is developed independently by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile").
+The [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion, of this website is developed independently by [Ani](https://github.com/AniLeo "AniLeo's GitHub Profile").
 
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
