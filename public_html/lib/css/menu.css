@@ -8,7 +8,7 @@
 .gm-menubar-l2 {
 	background: rgba(0, 0, 0, .0)!important;
 }
-#motd-tx1-body {
+#alert-tx1-message {
     font-family: arial;
     font-size: 12px;
     line-height: 30px;
@@ -20,6 +20,13 @@
     text-align: center;
     color: #fff;
     background: rgba(255,52,52,.9);
+}
+#alert-con-message {
+    position: fixed;
+	top: 62px;
+    width: 100%;
+    height: 30px;
+	z-index: 9990;
 }
 #menu-con-menubar {
     position: fixed;

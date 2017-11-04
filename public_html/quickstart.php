@@ -63,9 +63,9 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 For Windows users, you must drag and drop the updated <b class="txt-highlight darkmode-highlight">executable</b> to the root directory of your RPCS3 folder. Note that from time to time new DLLs may be added or modified, so make sure you copy any new ones to your existing installation. <br>
+							 For Windows users, you must drag and drop the updated <span class="txt-highlight darkmode-highlight">executable</span> to the root directory of your RPCS3 folder. Note that from time to time new DLLs may be added or modified, so make sure you copy any new ones to your existing installation. <br>
 							<br>
-							 For Linux users, you must download the updated <b class="txt-highlight darkmode-highlight">AppImage</b> and make it executable with the command <b class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
+							 For Linux users, you must download the updated <span class="txt-highlight darkmode-highlight">AppImage</span> and make it executable with the command <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
 						</p>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <b class="txt-highlight darkmode-highlight">File > Install Firmware.</b>
+							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <span class="txt-highlight darkmode-highlight">File > Install Firmware.</span>
 						</p>
 					</div>
 				</div>
@@ -100,16 +100,16 @@
 						</p>
 						<br>
 						<p>
-							<b class="txt-highlight darkmode-highlight">Automatically load required libraries:</b> Automatically loads all required modules in game executable.
+							<span class="txt-highlight darkmode-highlight">Automatically load required libraries:</span> Automatically loads all required modules in game executable.
 						</p>
 						<p>
-							<b class="txt-highlight darkmode-highlight">Manually load selected libraries:</b> Allows the user to manually load selected firmware modules.
+							<span class="txt-highlight darkmode-highlight">Manually load selected libraries:</span> Allows the user to manually load selected firmware modules.
 						</p>
 						<p>
-							<b class="txt-highlight darkmode-highlight">Load automatic and manual libraries:</b> Automatically loads all required modules and manually selected firmware modules at the same time.
+							<span class="txt-highlight darkmode-highlight">Load automatic and manual libraries:</span> Automatically loads all required modules and manually selected firmware modules at the same time.
 						</p>
 						<p>
-							<b class="txt-highlight darkmode-highlight">Load liblv2.sprx only:</b> Loads modules dynamically, more closely to what a real PlayStation 3 would do. Some games may not work properly with this option yet.
+							<span class="txt-highlight darkmode-highlight">Load liblv2.sprx only:</span> Loads modules dynamically, more closely to what a real PlayStation 3 would do. Some games may not work properly with this option yet.
 						</p>
 					</div>
 				</div>
@@ -126,13 +126,13 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 • PlayStation 3 save data files can be managed in: <b class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</b>
+							 • PlayStation 3 save data files can be managed in: <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</span>
 						</p>
 						<p>
 							 • Please note that save data is stored in folders that correspond to your game's ID.
 						</p>
 						<p>
-							<i>Note: If you're on linux, RPCS3 folders are located in: <b class="txt-highlight darkmode-highlight">~/.config/rpcs3/</b></i>
+							<i>Note: If you're on linux, RPCS3 folders are located in: <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span></i>
 						</p>
 					</div>
 				</div>
@@ -150,28 +150,28 @@
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <b class="txt-highlight darkmode-highlight">Blu-ray Disc</b> game's root directory:
+							 The typical layout of a <span class="txt-highlight darkmode-highlight">Blu-ray Disc</span> game's root directory:
 						</p>
 						<p>
 							 • PS3_GAME folder (required), PS3_DISC.sfb (required), PS3_UPDATE folder (not required)
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <b class="txt-highlight darkmode-highlight">PlayStation Network</b> game's root directory:
+							 The typical layout of a <span class="txt-highlight darkmode-highlight">PlayStation Network</span> game's root directory:
 						</p>
 						<p>
 							 • TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc
 						</p>
 						<br>
 						<p>
-							 Both Blu-ray and PlayStation Network games must be placed in a single folder with their respective files and the folder name must correspond to the game's ID. If you are not sure what your dumped game's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your game case or your game is a PlayStation Network game, you can do an internet search for <b class="txt-highlight darkmode-highlight">"Your Game Name Here</b> + <b class="txt-highlight darkmode-highlight">Region ID"</b>. Please note that it is very important you use the correct region ID.
+							 Both Blu-ray and PlayStation Network games must be placed in a single folder with their respective files and the folder name must correspond to the game's ID. If you are not sure what your dumped game's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your game case or your game is a PlayStation Network game, you can do an internet search for <span class="txt-highlight darkmode-highlight">"Your Game Name Here</span> + <span class="txt-highlight darkmode-highlight">Region ID"</span>. Please note that it is very important you use the correct region ID.
 						</p>
 						<br>
 						<p>
-							 • Game IDs that start with a <b class="txt-highlight darkmode-highlight">B</b> are <b class="txt-highlight darkmode-highlight">Blu-Ray Disc</b> games
+							 • Game IDs that start with a <span class="txt-highlight darkmode-highlight">B</span> are <span class="txt-highlight darkmode-highlight">Blu-Ray Disc</span> games
 						</p>
 						<p>
-							 • Game IDs that start with a <b class="txt-highlight darkmode-highlight">N</b> are <b class="txt-highlight darkmode-highlight">PlayStation Network</b> games
+							 • Game IDs that start with a <span class="txt-highlight darkmode-highlight">N</span> are <span class="txt-highlight darkmode-highlight">PlayStation Network</span> games
 						</p>
 						<br>
 						<p>
@@ -179,10 +179,10 @@
 						</p>
 						<br>
 						<p>
-							 • For example: <b class="txt-highlight darkmode-highlight">BLUS30443</b> is an USA <b class="txt-highlight darkmode-highlight">Blu-Ray Disc</b> copy of <b class="txt-highlight darkmode-highlight">Demon's Souls</b>
+							 • For example: <span class="txt-highlight darkmode-highlight">BLUS30443</span> is an USA <span class="txt-highlight darkmode-highlight">Blu-Ray Disc</span> copy of <span class="txt-highlight darkmode-highlight">Demon's Souls</span>
 						</p>
 						<p>
-							 • For example: <b class="txt-highlight darkmode-highlight">NPEB01393</b> is an Europe <b class="txt-highlight darkmode-highlight">PlayStation Network</b> copy of <b class="txt-highlight darkmode-highlight">Hatsune Miku: Project DIVA F</b>
+							 • For example: <span class="txt-highlight darkmode-highlight">NPEB01393</span> is an Europe <span class="txt-highlight darkmode-highlight">PlayStation Network</span> copy of <span class="txt-highlight darkmode-highlight">Hatsune Miku: Project DIVA F</span>
 						</p>
 					</div>
 				</div>
@@ -199,22 +199,22 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 • .pkg files must be extracted using RPCS3's built-in package installer found under <b class="txt-highlight darkmode-highlight">File > Install .pkg</b>
+							 • .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File > Install .pkg</span>
 						</p>
 						<p>
-							 • .pkg files will be automatically installed to: <b class="txt-highlight darkmode-highlight">\dev_hdd0\game\</b>
+							 • .pkg files will be automatically installed to: <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
 						</p>
 						<p>
-							 • Blu-ray Disc game data can be placed in <b class="txt-highlight darkmode-highlight">\dev_hdd0\disc\</b> or anywhere <b class="txt-highlight darkmode-highlight">except</b> for <b class="txt-highlight darkmode-highlight">\dev_hdd0\game\</b> and can be booted from <b class="txt-highlight darkmode-highlight">File > Boot Game</b> if not present on game list
+							 • Blu-ray Disc game data can be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\disc\</span> or anywhere <span class="txt-highlight darkmode-highlight">except</span> for <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="txt-highlight darkmode-highlight">File > Boot Game</span> if not present on game list
 						</p>
 						<p>
-							 • PlayStation Network game data must be placed in: <b class="txt-highlight darkmode-highlight">\dev_hdd0\game\</b>
+							 • PlayStation Network game data must be placed in: <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
 						</p>
 						<p>
-							 • PlayStation Network .rap files must be placed in: <b class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</b>
+							 • PlayStation Network .rap files must be placed in: <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</span>
 						</p>
 						<p>
-							<i>Note: If you're on linux, RPCS3 folders are located in: <b class="txt-highlight darkmode-highlight">~/.config/rpcs3/</b></i>
+							<i>Note: If you're on linux, RPCS3 folders are located in: <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span></i>
 						</p>
 					</div>
 				</div>
@@ -228,7 +228,7 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built-in package installer found under <b class="txt-highlight darkmode-highlight">File > Install .pkg</b> The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
+							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File > Install .pkg</span> The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
 						</p>
 					</div>
 				</div>
@@ -261,87 +261,87 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							<b>Method A:</b> We recommend that you dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC without the hassle of repairing bad game dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump games from your system's Blu-ray drive or internal storage.
+							<span>Method A:</span> We recommend that you dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC without the hassle of repairing bad game dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump games from your system's Blu-ray drive or internal storage.
 						</p>
 						<br>
 						<p>
-							<b>Method B:</b> You can dump games using only a computer by using select compatible Blu-ray drives. Please note that you can only use this method if an <b class="txt-highlight darkmode-highlight">.ird</b> file is available online for the decryption of the disc. See <b class="txt-highlight darkmode-highlight">Dumping games and software with a Blu-ray drive</b> below. Not every Blu-ray drive will recognize PlayStation 3 games due to how PlayStation 3 format discs are designed. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
+							<span>Method B:</span> You can dump games using only a computer by using select compatible Blu-ray drives. Please note that you can only use this method if an <span class="txt-highlight darkmode-highlight">.ird</span> file is available online for the decryption of the disc. See <span class="txt-highlight darkmode-highlight">Dumping games and software with a Blu-ray drive</span> below. Not every Blu-ray drive will recognize PlayStation 3 games due to how PlayStation 3 format discs are designed. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
 						</p>
 						<br>
 						<p>
-							 • ASUS <b class="txt-highlight darkmode-highlight">BC-08B1LT</b>
+							 • ASUS <span class="txt-highlight darkmode-highlight">BC-08B1LT</span>
 						</p>
 						<p>
-							 • ASUS <b class="txt-highlight darkmode-highlight">BC-16D1HT</b>
+							 • ASUS <span class="txt-highlight darkmode-highlight">BC-16D1HT</span>
 						</p>
 						<p>
-							 • ASUS <b class="txt-highlight darkmode-highlight">BC-12B1ST</b>
+							 • ASUS <span class="txt-highlight darkmode-highlight">BC-12B1ST</span>
 						</p>
 						<p>
-							 • ASUS <b class="txt-highlight darkmode-highlight">BC-12D2HT</b>
+							 • ASUS <span class="txt-highlight darkmode-highlight">BC-12D2HT</span>
 						</p>
 						<p>
-							 • ASUS <b class="txt-highlight darkmode-highlight">BW-12B1ST</b>
+							 • ASUS <span class="txt-highlight darkmode-highlight">BW-12B1ST</span>
 						</p>
 						<p>
-							 • ASUS <b class="txt-highlight darkmode-highlight">BW-16D1HT</b>
+							 • ASUS <span class="txt-highlight darkmode-highlight">BW-16D1HT</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">BH26NS40</b>
+							 • LG <span class="txt-highlight darkmode-highlight">BH26NS40</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">UH12NS30</b>
+							 • LG <span class="txt-highlight darkmode-highlight">UH12NS30</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">BH16NS40</b>
+							 • LG <span class="txt-highlight darkmode-highlight">BH16NS40</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">BH16NS48</b>
+							 • LG <span class="txt-highlight darkmode-highlight">BH16NS48</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">BH14NS40</b>
+							 • LG <span class="txt-highlight darkmode-highlight">BH14NS40</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">WH24NS40</b>
+							 • LG <span class="txt-highlight darkmode-highlight">WH24NS40</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">WH12LS30</b>
+							 • LG <span class="txt-highlight darkmode-highlight">WH12LS30</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">WH24LS30</b>
+							 • LG <span class="txt-highlight darkmode-highlight">WH24LS30</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">WH26NS40</b>
+							 • LG <span class="txt-highlight darkmode-highlight">WH26NS40</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">WH16NS40</b>
+							 • LG <span class="txt-highlight darkmode-highlight">WH16NS40</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">WH14NS40</b>
+							 • LG <span class="txt-highlight darkmode-highlight">WH14NS40</span>
 						</p>
 						<p>
-							 • LG <b class="txt-highlight darkmode-highlight">WH16NS48</b>
+							 • LG <span class="txt-highlight darkmode-highlight">WH16NS48</span>
 						</p>
 						<p>
-							 • Lite-On <b class="txt-highlight darkmode-highlight">DH-4O1S</b>
+							 • Lite-On <span class="txt-highlight darkmode-highlight">DH-4O1S</span>
 						</p>
 						<p>
-							 • Lite-On <b class="txt-highlight darkmode-highlight">iHBS112</b>
+							 • Lite-On <span class="txt-highlight darkmode-highlight">iHBS112</span>
 						</p>
 						<p>
-							 • BENQ <b class="txt-highlight darkmode-highlight">BR1000</b>
+							 • BENQ <span class="txt-highlight darkmode-highlight">BR1000</span>
 						</p>
 						<p>
-							 • Samsung <b class="txt-highlight darkmode-highlight">SH-B083L</b>
+							 • Samsung <span class="txt-highlight darkmode-highlight">SH-B083L</span>
 						</p>
 						<p>
-							 • Samsung <b class="txt-highlight darkmode-highlight">SH-B123L</b>
+							 • Samsung <span class="txt-highlight darkmode-highlight">SH-B123L</span>
 						</p>
 						<p>
-							 • Sony Optiarc <b class="txt-highlight darkmode-highlight">5300S</b>
+							 • Sony Optiarc <span class="txt-highlight darkmode-highlight">5300S</span>
 						</p>
 						<p>
-							 • Sony PlayStation stock drive <b class="txt-highlight darkmode-highlight">with proprietary adapter</b>
+							 • Sony PlayStation stock drive <span class="txt-highlight darkmode-highlight">with proprietary adapter</span>
 						</p>
 					</div>
 				</div>
@@ -365,34 +365,34 @@
 							 • <a href='/cdn/tools/3k3y.zip' download>3k3y ISO Tools</a> - By the 3k3y team
 						</p>
 						<p>
-							 • <b class="txt-highlight darkmode-highlight">ISO Dumping Software</b>, such as <a href="http://www.imgburn.com/">ImgBurn</a>, for example.
+							 • <span class="txt-highlight darkmode-highlight">ISO Dumping Software</span>, such as <a href="http://www.imgburn.com/">ImgBurn</a>, for example.
 						</p>
 						<br>
 						<p>
 							 1. Insert a PlayStation 3 Blu-ray disc game of your choice.
 						</p>
 						<p>
-							 2. Dump the <b class="txt-highlight darkmode-highlight">.iso</b> image using an ISO Dumping program such as ImgBurn.
+							 2. Dump the <span class="txt-highlight darkmode-highlight">.iso</span> image using an ISO Dumping program such as ImgBurn.
 						</p>
 						<p>
-							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate <b class="txt-highlight darkmode-highlight">.ird</b> file that matches your game ID. If there isn't any .ird file that matches your game ID this unfortunately means you can't dump your disc using this method.
+							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your game ID. If there isn't any .ird file that matches your game ID this unfortunately means you can't dump your disc using this method.
 						</p>
 						<p>
 							 4. Be sure to check game ID in case of different game editions. You need to use the file for the exact game ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
 							<p>
-								 5. Open <b class="txt-highlight darkmode-highlight">PS3 ISO Patcher</b> and select your dumped <b class="txt-highlight darkmode-highlight">.iso</b> file and its appropriate <b class="txt-highlight darkmode-highlight">.ird</b> file.
+								 5. Open <span class="txt-highlight darkmode-highlight">PS3 ISO Patcher</span> and select your dumped <span class="txt-highlight darkmode-highlight">.iso</span> file and its appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file.
 							</p>
 							<p>
-								 6. Press <b class="txt-highlight darkmode-highlight">Patch</b> to apply the patch to the .iso file.
+								 6. Press <span class="txt-highlight darkmode-highlight">Patch</span> to apply the patch to the .iso file.
 							</p>
 							<p>
-								 7. Open <b class="txt-highlight darkmode-highlight">3k3y ISO Tools</b>. Click the <b class="txt-highlight darkmode-highlight">ISO Crypto</b> option and select the dumped .iso file to decrypt it. Make sure the .iso file extension is in lower-case letters (.iso not .ISO), or the decryption will not work.
+								 7. Open <span class="txt-highlight darkmode-highlight">3k3y ISO Tools</span>. Click the <span class="txt-highlight darkmode-highlight">ISO Crypto</span> option and select the dumped .iso file to decrypt it. Make sure the .iso file extension is in lower-case letters (.iso not .ISO), or the decryption will not work.
 							</p>
 							<p>
 								 8. Your game should now be properly decrypted.
 							</p>
 							<p>
-								 9. While in 3k3y ISO Tools, in the Tools drop-down menu, select <b class="txt-highlight darkmode-highlight">ISO -> Extract ISO</b> and select the decrypted iso file to extract the game files (the decrypted iso file will have a .dec.iso file extension).
+								 9. While in 3k3y ISO Tools, in the Tools drop-down menu, select <span class="txt-highlight darkmode-highlight">ISO -> Extract ISO</span> and select the decrypted iso file to extract the game files (the decrypted iso file will have a .dec.iso file extension).
 							</p>
 							<p>
 								 10. You are now able to use your successfully dumped disc-based game with RPCS3.

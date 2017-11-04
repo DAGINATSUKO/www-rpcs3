@@ -145,7 +145,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
 			<div id='featured-con-button' class="div-download-left darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 150px; margin: 0 -75px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/website.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>
@@ -158,7 +158,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
 			<div id='featured-con-button' class="div-download-right darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 180px; margin: 0 -90px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/github.png') no-repeat center; background-size: 16px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/compat.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>

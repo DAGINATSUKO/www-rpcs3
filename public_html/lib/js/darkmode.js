@@ -68,6 +68,7 @@ $(document).ready(function() {
         $(".entry-header").toggleClass("dm-blog-header");
         $(".entry-footer").toggleClass("dm-blog-footer");
         $(".entry-content h2").toggleClass("dm-blog-h2");
+		$(".entry-content ul li").toggleClass("dm-txt");
         $(".site-description").toggleClass("dm-blog-sidebar");
         $(".widget-title").toggleClass("dm-blog-sidebar");
         $(".page-header").toggleClass("dm-blog-body");
@@ -146,16 +147,17 @@ $(document).ready(function() {
         $(".compat-search-character").toggleClass("dm-block-search");
         $("#compat-con-pages").toggleClass("dm-block dm-txt");
         $("#compat-author").toggleClass("dm-compat-author");
-        $(".nav-links").toggleClass("dm-blog-body dm-txt");
-        $(".hentry").toggleClass("dm-blog-body dm-txt");
-        $(".entry-header").toggleClass("dm-blog-header");
-        $(".entry-footer").toggleClass("dm-blog-footer");
-        $(".entry-content h2").toggleClass("dm-blog-h2");
-        $(".site-description").toggleClass("dm-blog-sidebar");
-        $(".widget-title").toggleClass("dm-blog-sidebar");
-        $(".page-header").toggleClass("dm-blog-body");
-        $(".page-content").toggleClass("dm-blog-body dm-txt");
-		$(".debug-main").toggleClass("dm-block");
+        $(".nav-links").addClass("dm-blog-body dm-txt");
+        $(".hentry").addClass("dm-blog-body dm-txt");
+        $(".entry-header").addClass("dm-blog-header");
+        $(".entry-footer").addClass("dm-blog-footer");
+        $(".entry-content h2").addClass("dm-blog-h2");
+		$(".entry-content ul li").addClass("dm-txt");
+        $(".site-description").addClass("dm-blog-sidebar");
+        $(".widget-title").addClass("dm-blog-sidebar");
+        $(".page-header").addClass("dm-blog-body");
+        $(".page-content").addClass("dm-blog-body dm-txt");
+		$(".debug-main").addClass("dm-block");
     } else {
 		$('.darkmode-icon').removeClass("dm-icon");
         $('body').removeClass("dm-bg");
@@ -222,6 +224,7 @@ $(document).ready(function() {
         $(".entry-header").removeClass("dm-blog-header");
         $(".entry-footer").removeClass("dm-blog-footer");
         $(".entry-content h2").removeClass("dm-blog-h2");
+		$(".entry-content ul li").removeClass("dm-txt");
         $(".site-description").removeClass("dm-blog-sidebar");
         $(".widget-title").removeClass("dm-blog-sidebar");
         $(".page-header").removeClass("dm-blog-body");

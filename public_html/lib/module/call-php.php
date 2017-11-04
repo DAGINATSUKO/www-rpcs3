@@ -5,6 +5,6 @@
 ?>
 <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/lib/module/ui-motd.php";
+   $path .= "/lib/module/ui-alerts.php";
    include_once($path);
 ?>

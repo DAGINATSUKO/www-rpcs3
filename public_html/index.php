@@ -120,7 +120,7 @@
 						Each month we aim to put out a technical and visual progress report that showcases our latest developments and features for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
 					</div>
 				</div>
-				<a href="https://rpcs3.net/blog/2017/10/03/progress-report-september-2017/">
+				<a href="https://rpcs3.net/blog/2017/11/03/progress-report-october-2017/">
 				<div id='content-btn-block' title="Read Report">
 					<span>READ REPORT</span>
 				</div>
@@ -372,7 +372,7 @@
 				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
 					<div id='feature-con-funding'>
 						<div id='feature-tx1-funding'>
-							<span>$3,260 <span style="color:#39ff14" class='scale-offset-txt-center'>US</span></span>
+							<span>$3,392 <span style="color:#39ff14" class='scale-offset-txt-center'>US</span></span>
 						</div>
 						<div id='feature-tx2-funding' class='scale-offset-txt-center'>
 							<span>Earned per-month in funding with 699+ Patrons since January 2017</span>

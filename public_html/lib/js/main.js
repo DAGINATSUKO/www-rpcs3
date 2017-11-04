@@ -64,14 +64,18 @@ $(window).load(function() {
 });
 /* Handles all delayed fade events */
 $(window).load(function() {
-    $('.delayed-fade').delay(900).fadeIn();
+    $('.delayed-fade').delay(900).fadeIn(288);
+});
+/* Handles all delayed fade events */
+$(window).load(function() {
+    $('.delay-fadeout').delay(8000).fadeOut(288);
 });
 /* Handles all fade on scroll events */
 $(window).scroll(function() {
     if ($(this).scrollTop() > 40) {
-        $('.fade-on-scroll').fadeIn(100);
+        $('.fade-on-scroll').fadeIn(288);
     } else {
-        $('.fade-on-scroll').fadeOut(100);
+        $('.fade-on-scroll').fadeOut(288);
     }
 });
 $(window).scroll(function() {
