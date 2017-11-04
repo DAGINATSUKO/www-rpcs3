@@ -3,7 +3,7 @@
 ## RPCS3.net
 Official source code for [rpcs3.net](https://rpcs3.net "RPCS3 Homepage"), orginally forked from my own website, [daginatsuko.com](https://daginatsuko.com "DAGINATSUKO Homepage"). This website is designed to house and promote the progress of RPCS3, an open-source PlayStation 3 emulator and debugger built for Windows and Linux. At its core, this website aims to deliver a lightweight user experience that purely focuses on the content and technical aspects of the project and ensures the viewer can easily access its content on demand.
 
-The RPCS3 [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile") allows users to sort listed games by status, first character, region, last update date or by typing the games ID or title in the searchbox as well as order listed games by ID, Title, commit, status or last update date both asynchronously and desynchronously. Users won't have to search exactly by a game's title to find it in the database.
+The RPCS3 [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion, created by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile") allows users to sort listed games by status, first character, region, last update date or by typing the games ID or title in the searchbox as well as order listed games by ID, Title, commit, status or last update date both asynchronously and desynchronously. Users won't have to search exactly by a game's title to find it in the database.
 
 The Levenshtein string comparisons ensures that the closest game is returned when no results are found and abbreviated search allows the user to search for games using abbreviations.
 
@@ -11,8 +11,7 @@ The Levenshtein string comparisons ensures that the closest game is returned whe
 RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
 
 #### Proprietary Code
-* Milk UX by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* Compatibility DB by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile")
+* Milk UX by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")f
 
 #### Web Technologies
 * HTML 5.0
@@ -35,19 +34,18 @@ RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Opera Software Opera](http://www.opera.com/)
 
-## Development
-Your only requirement is [Docker](http://docker.com/getdocker)!
+## Deployment
+Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly.
 
-To run the application, just do:
+For local deployment, the only requirement is [Docker](http://docker.com/getdocker).
+
+To run the application, use:
 
 ```shell
 docker-compose up
 ```
 
-Then browse to [localhost:8080](http://localhost:8080)!
-
-## Deployment
-Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly.
+Then open your web browser of choice and enter [localhost:8080](http://localhost:8080)
 
 For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion of the website, simply place files inside the lib/compat directory within the website's source code.
 
