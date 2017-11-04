@@ -1,6 +1,6 @@
 ![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
 
-## RPCS3.net
+## Introduction
 Official source code for [rpcs3.net](https://rpcs3.net "RPCS3 Homepage"), originally forked from [daginatsuko.com](https://daginatsuko.com "DAGINATSUKO Homepage"). This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the open-source LLVM Compiler Infrastructure project for Windows and Linux.
 
 The [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion, of this website is developed independently by [Ani](https://github.com/AniLeo "AniLeo's GitHub Profile").
