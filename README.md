@@ -1,56 +1,56 @@
 ![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
 
-## RPCS3.net (Work in Progress)
-Official source code for [rpcs3.net](https://rpcs3.net "RPCS3 Homepage"), orginally forked from my own website, [daginatsuko.com](https://daginatsuko.com "DAGINATSUKO Homepage"). This website is designed to house and promote the progress of RPCS3, an open-source PlayStation 3 emulator and debugger built for Windows and Linux. At its core, this website aims to deliver a lightweight user experience that purely focuses on the content and technical aspects of the project and ensures the viewer can easily access its content on demand.
+## Introduction
+Official source code for [rpcs3.net](https://rpcs3.net "RPCS3 Homepage"), originally forked from [daginatsuko.com](https://daginatsuko.com "DAGINATSUKO Homepage"). This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the open-source LLVM Compiler Infrastructure project for Windows and Linux.
+
+The [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion, of this website is developed independently by [Ani](https://github.com/AniLeo "AniLeo's GitHub Profile").
 
 ## Licensing
 RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
 
-## Independencies
-The RPCS3.net [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile") allows users to sort listed games by status, first character, region, last update date or by typing the games ID or title in the searchbox as well as order listed games by ID, Title, commit, status or last update date both asynchronously and desynchronously. Users won't have to search exactly by a game's title to find it in the database.
-
-The Levenshtein string comparisons ensures that the closest game is returned when no results are found and abbreviated search allows the user to search for games using abbreviations.
-
-#### Proprietary Technologies
-* Milk UX by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* Compatibility DB by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub Profile")
-
-#### Web Technologies
-* HTML 5.0
-* CSS 3.0
-* PHP 5.5
-* jQuery 3.2.0
-* MySQL
-
-#### External Resources
-* [Flaticon](http://www.flaticon.com "Flaticon")
-* [JS Cookie](https://github.com/js-cookie/js-cookie "JS Cookie")
-* [Animate.css](https://daneden.github.io/animate.css "Animate.css")
-* [Animated Waves](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves")
-
-#### Target Platforms
-* [Google Chrome](https://www.google.com/chrome/browser/desktop/)
-* [Google Chromium](https://www.chromium.org/Home)
-* [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)
-* [Apple Safari](https://www.apple.com/safari/)
-* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* [Opera Software Opera](http://www.opera.com/)
-
-## Development
-Your only requirement is [Docker](http://docker.com/getdocker)!
-
-To run the application, just do:
+## Deployment
+Simply download the repository files directly or through a fork. From there, you can upload them to your web server or open them locally in a text editor, e.g. [Notepad++](https://notepad-plus-plus.org/). For local deployment, the only requirement is [Docker](http://docker.com/getdocker). To run the application, use:
 
 ```shell
 docker-compose up
 ```
 
-Then browse to [localhost:8080](http://localhost:8080)!
+Then open a web browser of choice and enter [localhost:8080](http://localhost:8080)
 
-## Deployment
-Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly.
+#### Proprietary Code
 
-For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Compatibility List repository") portion of the website, simply place files inside the lib/compat directory within the website's source code.
+| UI/UX Engine | Developer | Source | Version |
+| --- | --- | --- | --- |
+| `Milk UX` | DAGINATSUKO | Closed | Version 1.00 |
+
+#### Web Standards
+
+| Standards | Supported | Documentation | Version |
+| --- | --- | --- | --- |
+| `HTML` | Yes | w3schools.com | Version 5.00 |
+| `CSS` | Yes | w3schools.com | Version 3.00 |
+| `PHP` | Yes | w3schools.com | Version 5.50 |
+| `jQuery` | Yes | w3schools.com | Version 3.2.0 |
+
+#### External Resources
+
+| Resources | Developer | Download | Version |
+| --- | --- | --- | --- |
+| `Flaticon` | Freepik | [Source](http://www.flaticon.com "Flaticon") | Unknown |
+| `JS Cookie` | Klaus Hartl | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
+| `Animate.css` | Daniel Eden | [Source](https://daneden.github.io/animate.css "Animate.css") | Unknown |
+| `Animated Waves` | loktar | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
+
+#### Supported Platforms
+
+| Platforms | Developer | Download | Version |
+| --- | --- | --- | --- |
+| `Chrome` | Google | [Download](https://www.google.com/chrome/browser/desktop/) | Latest |
+| `Chromium` | Chromium | [Download](https://www.chromium.org/Home) | Latest |
+| `Microsoft Edge` | Microsoft | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest |
+| `Safari` | Apple| [Download](https://www.apple.com/safari/) | Latest |
+| `Firefox` | Mozilla | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest |
+| `Opera` | Opera Software | [ Download](http://www.opera.com/) | Latest |
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
@@ -63,7 +63,7 @@ For the [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS
 * 04-26-2017 - RPCS3.net 2.0 Milk UX Lite port started by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 05-01-2017 - RPCS3.net 2.0 Alpha 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 08-02-2017 - RPCS3.net 2.0 Alpha 2 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 08-04-2017 - Development improvements with Docker from [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
+* 08-04-2017 - Development improvements with Docker by [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
 * 09-01-2017 - RPCS3.net 2.0 Beta 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 10-01-2017 - RPCS3.net 2.0 leaves Beta status by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 10-15-2017 - RPCS3.net 3.0 begins closed-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
