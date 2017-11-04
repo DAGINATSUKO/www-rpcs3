@@ -25,32 +25,32 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 #### Web Standards
 
-| Standards | Supported | Version |
-| --- | --- | --- |
-| `HTML` | Yes | Version 5.00 |
-| `CSS` | Yes | Version 3.00 |
-| `PHP` | Yes | Version 5.50 |
-| `jQuery` | Yes | Version 3.2.0 |
+| Standards | Supported | Documentation | Version |
+| --- | --- | --- | --- |
+| `HTML` | Yes | w3schools.com | Version 5.00 |
+| `CSS` | Yes | w3schools.com | Version 3.00 |
+| `PHP` | Yes | w3schools.com | Version 5.50 |
+| `jQuery` | Yes | w3schools.com | Version 3.2.0 |
 
 #### External Resources
 
-| Resources | Developer | Download |
-| --- | --- | --- |
-| `Flaticon` | Freepik | [Source](http://www.flaticon.com "Flaticon") |
-| `JS Cookie` | Klaus Hartl | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") |
-| `Animate.css` | Daniel Eden | [Source](https://daneden.github.io/animate.css "Animate.css") |
-| `Animated Waves` | loktar | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") |
+| Resources | Developer | Download | Version |
+| --- | --- | --- | --- |
+| `Flaticon` | Freepik | [Source](http://www.flaticon.com "Flaticon") | Unknown |
+| `JS Cookie` | Klaus Hartl | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
+| `Animate.css` | Daniel Eden | [Source](https://daneden.github.io/animate.css "Animate.css") | Unknown |
+| `Animated Waves` | loktar | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
 
 #### Supported Platforms
 
-| Platforms | Developer | Download |
-| --- | --- | --- |
-| `Chrome` | Google | [Download](https://www.google.com/chrome/browser/desktop/) |
-| `Chromium` | Chromium | [Download](https://www.chromium.org/Home) |
-| `Microsoft Edge` | Microsoft | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) |
-| `Safari` | Apple| [Download](https://www.apple.com/safari/) |
-| `Firefox` | Mozilla | [Download](https://www.mozilla.org/en-US/firefox/new/) |
-| `Opera` | Opera Software | [ Download](http://www.opera.com/) |
+| Platforms | Developer | Download | Version |
+| --- | --- | --- | --- |
+| `Chrome` | Google | [Download](https://www.google.com/chrome/browser/desktop/) | Latest |
+| `Chromium` | Chromium | [Download](https://www.chromium.org/Home) | Latest |
+| `Microsoft Edge` | Microsoft | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest |
+| `Safari` | Apple| [Download](https://www.apple.com/safari/) | Latest |
+| `Firefox` | Mozilla | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest |
+| `Opera` | Opera Software | [ Download](http://www.opera.com/) | Latest |
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
