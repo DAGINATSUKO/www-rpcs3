@@ -33,9 +33,7 @@ RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According
 * [Opera Software Opera](http://www.opera.com/)
 
 ## Deployment
-Simply download the repository files and upload them to your web server or open them in a text editor, preferably [Notepad++](https://notepad-plus-plus.org/). Based on the web server, RPCS3.net comes pre-defined as a SSL (Secure Sockets Layer) website. This may cause issues with web servers or web server emulators that do not have SSL capabilities. To fix this issue, .htaccess must be modified accordingly.
-
-For local deployment, the only requirement is [Docker](http://docker.com/getdocker). To run the application, use:
+Simply download the repository files and upload them to your web server or open them in a text editor, e.g. [Notepad++](https://notepad-plus-plus.org/). For local deployment, the only requirement is [Docker](http://docker.com/getdocker). To run the application, use:
 
 ```shell
 docker-compose up
