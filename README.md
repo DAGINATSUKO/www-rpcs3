@@ -20,17 +20,17 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 #### Proprietary Code
 
 | Engine | Developer | Source | Version |
-| --- | --- |--- | --- |
+| --- | --- | --- | --- |
 | `Milk UX` | DAGINATSUKO | Closed | Version 1.00 |
 
 #### Web Standards
 
-| Standards | Version |
-| --- | --- |
-| `HTML` | Version 5.00 |
-| `CSS` | Version 3.00 |
-| `PHP` | Version 5.50 |
-| `jQuery` | Version 3.2.0 |
+| Standards | Supported | Version |
+| --- | --- | --- |
+| `HTML` | Yes | Version 5.00 |
+| `CSS` | Yes | Version 3.00 |
+| `PHP` | Yes | Version 5.50 |
+| `jQuery` | Yes | Version 3.2.0 |
 
 #### External Resources
 
