@@ -9,7 +9,7 @@ The [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility "RPCS3 Co
 RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
 
 ## Deployment
-Simply download the repository files and upload them to your web server or open them in a text editor, e.g. [Notepad++](https://notepad-plus-plus.org/). For local deployment, the only requirement is [Docker](http://docker.com/getdocker). To run the application, use:
+Simply download the repository files directly or through a fork. From there, you can upload them to your web server or open them locally in a text editor, e.g. [Notepad++](https://notepad-plus-plus.org/). For local deployment, the only requirement is [Docker](http://docker.com/getdocker). To run the application, use:
 
 ```shell
 docker-compose up
@@ -17,8 +17,8 @@ docker-compose up
 
 Then open a web browser of choice and enter [localhost:8080](http://localhost:8080)
 
-#### Proprietary Code
-* Milk UX by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+#### Design Language
+* Milk UX
 
 #### Web Standards
 * HTML 5.0
