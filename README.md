@@ -19,7 +19,7 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 #### Proprietary Code
 
-| Engine | Developer | Source | Version |
+| UI/UX Engine | Developer | Source | Version |
 | --- | --- | --- | --- |
 | `Milk UX` | DAGINATSUKO | Closed | Version 1.00 |
 
