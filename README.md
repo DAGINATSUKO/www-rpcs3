@@ -18,28 +18,39 @@ docker-compose up
 Then open a web browser of choice and enter [localhost:8080](http://localhost:8080)
 
 #### Design Language
-* Milk UX
+
+| Engine | Version |
+| --- | --- |
+| `Milk UX` | Version 1.0 |
 
 #### Web Standards
-* HTML 5.0
-* CSS 3.0
-* PHP 5.5
-* jQuery 3.2.0
-* MySQL
+
+| Langauge | Version |
+| --- | --- |
+| `HTML` | Version 5.0 |
+| `CSS` | Version 3.0 |
+| `PHP` | Version 5.5 |
+| `jQuery` | Version 3.2.0 |
 
 #### External Resources
-* [Flaticon](http://www.flaticon.com "Flaticon")
-* [JS Cookie](https://github.com/js-cookie/js-cookie "JS Cookie")
-* [Animate.css](https://daneden.github.io/animate.css "Animate.css")
-* [Animated Waves](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves")
+
+| Library | Developer | Download |
+| --- | --- | --- |
+| `Flaticon` | Freepik | [Source](http://www.flaticon.com "Flaticon") |
+| `JS Cookie` | Klaus Hartl | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") |
+| `Animate.css` | Daniel Eden | [Source](https://daneden.github.io/animate.css "Animate.css") |
+| `Animated Waves` | loktar | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") |
 
 #### Target Platforms
-* [Google Chrome](https://www.google.com/chrome/browser/desktop/)
-* [Google Chromium](https://www.chromium.org/Home)
-* [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)
-* [Apple Safari](https://www.apple.com/safari/)
-* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* [Opera Software Opera](http://www.opera.com/)
+
+| Platform | Developer | Download |
+| --- | --- | --- |
+| `Chrome` | Google | [Download](https://www.google.com/chrome/browser/desktop/) |
+| `Chromium` | Chromium Project | [Download](https://www.chromium.org/Home) |
+| `Microsoft Edge` | Microsoft | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) |
+| `Safari` | Apple| [Download](https://www.apple.com/safari/) |
+| `Firefox` | Mozilla | [Download](https://www.mozilla.org/en-US/firefox/new/) |
+| `Opera` | Opera Software | [ Download](http://www.opera.com/) |
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
