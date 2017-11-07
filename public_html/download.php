@@ -63,7 +63,7 @@ if (file_exists('lib/compat/utils.php')) {
 						<p class="download-desc">
 							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site. <br>
 							<br>
-							 RPCS3 for Linux uses the AppImage file format. AppImages can be downloaded and ran without an installation or the need for root rights. To run the AppImage file execute, <b class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</b>
+							 RPCS3 for Linux uses the AppImage file format. AppImages can be downloaded and ran without an installation or the need for root rights. To run the AppImage file execute, <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
 						</p>
 					</div>
 				</div>
@@ -127,6 +127,10 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
+			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
+				<h2>System Requirements</h2>
+			</div>
+			<?php include 'lib/module/in-requirements.php';?>
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Website Source, Documentation and Press Kit</h2>
 			</div>

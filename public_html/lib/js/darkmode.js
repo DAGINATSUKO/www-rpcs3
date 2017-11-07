@@ -30,30 +30,8 @@ $(document).ready(function() {
 		$(".markdown-body li").toggleClass("dm-txt");
 		$(".feature-ico-flag").toggleClass("dm-flag");
 		/* - */
-        $(".compat-table").toggleClass("dm-block");
-        $(".compat-table p").toggleClass("dm-txt");
-        $(".compat-table a").toggleClass("dm-txt");
-        $(".compat-table i").toggleClass("dm-txt");
-        $(".compat-table tr:nth-child(2n+1)").toggleClass("dm-block");
-        $(".compat-table th").toggleClass("dm-block");
-		$(".compat-table tr").toggleClass("dm-compat-highlight");
-        $(".history-table").toggleClass("dm-block");
-        $(".history-table p").toggleClass("dm-txt");
-        $(".history-table a").toggleClass("dm-txt");
-        $(".history-table i").toggleClass("dm-txt");
-        $(".history-table tr:nth-child(2n+1)").toggleClass("dm-block");
-        $(".history-table th").toggleClass("dm-block dm-txt");
-		$(".history-table td").toggleClass("dm-txt");
-		$(".builds-table").toggleClass("dm-block");
-		$(".builds-table p").toggleClass("dm-txt");
-        $(".builds-table a").toggleClass("dm-txt");
-        $(".builds-table i").toggleClass("dm-txt");
-		$(".builds-table tr:nth-child(2n+1)").toggleClass("dm-block");
-        $(".builds-table th").toggleClass("dm-block");
-		$(".builds-table tr").toggleClass("dm-compat-highlight");
-		$(".builds-table td").toggleClass("dm-txt");
-        $(".library-table").toggleClass("dm-block");
-        $(".divTableHeading").toggleClass("dm-block");
+        $(".divTable").toggleClass("dm-block");
+		$(".divTableHeading").toggleClass("dm-block");
         $(".divTableHeading").toggleClass("dm-txt");
 		$(".divTableBody").toggleClass("dm-block");
         $(".divTableBody").toggleClass("dm-txt");
@@ -74,6 +52,7 @@ $(document).ready(function() {
         $(".page-header").toggleClass("dm-blog-body");
         $(".page-content").toggleClass("dm-blog-body dm-txt");
 		$(".debug-main").toggleClass("dm-block");
+		$(".debug-left").toggleClass("dm-block");
     });
     $(".toggle-darkmode").on("click", function() {
         var $this = $(this);
@@ -114,30 +93,8 @@ $(document).ready(function() {
 		$("#footer-con-container").addClass("dm-footer");
 		$(".feature-ico-flag").addClass("dm-flag");
 		/* - */
-        $(".compat-table").toggleClass("dm-block");
-        $(".compat-table p").toggleClass("dm-txt");
-        $(".compat-table a").toggleClass("dm-txt");
-        $(".compat-table i").toggleClass("dm-txt");
-        $(".compat-table tr:nth-child(2n+1)").toggleClass("dm-block");
-        $(".compat-table th").toggleClass("dm-block");
-		$(".compat-table tr").toggleClass("dm-compat-highlight");
-        $(".history-table").toggleClass("dm-block");
-        $(".history-table p").toggleClass("dm-txt");
-        $(".history-table a").toggleClass("dm-txt");
-        $(".history-table i").toggleClass("dm-txt");
-        $(".history-table tr:nth-child(2n+1)").toggleClass("dm-block");
-        $(".history-table th").toggleClass("dm-block dm-txt");
-		$(".history-table td").toggleClass("dm-txt");
-		$(".builds-table").toggleClass("dm-block");
-		$(".builds-table p").toggleClass("dm-txt");
-        $(".builds-table a").toggleClass("dm-txt");
-        $(".builds-table i").toggleClass("dm-txt");
-		$(".builds-table tr:nth-child(2n+1)").toggleClass("dm-block");
-        $(".builds-table th").toggleClass("dm-block");
-		$(".builds-table tr").toggleClass("dm-compat-highlight");
-		$(".builds-table td").toggleClass("dm-txt");
-        $(".library-table").toggleClass("dm-block");
-        $(".divTableHeading").toggleClass("dm-block");
+        $(".divTable").toggleClass("dm-block");
+		$(".divTableHeading").toggleClass("dm-block");
         $(".divTableHeading").toggleClass("dm-txt");
 		$(".divTableBody").toggleClass("dm-block");
         $(".divTableBody").toggleClass("dm-txt");
@@ -158,6 +115,7 @@ $(document).ready(function() {
         $(".page-header").addClass("dm-blog-body");
         $(".page-content").addClass("dm-blog-body dm-txt");
 		$(".debug-main").addClass("dm-block");
+		$(".debug-left").addClass("dm-block");
     } else {
 		$('.darkmode-icon').removeClass("dm-icon");
         $('body').removeClass("dm-bg");
@@ -186,30 +144,8 @@ $(document).ready(function() {
 		$("#footer-con-container").removeClass("dm-footer");
 		$(".feature-ico-flag").removeClass("dm-flag");
 		/* - */
-        $(".compat-table").removeClass("dm-block");
-        $(".compat-table p").removeClass("dm-txt");
-        $(".compat-table a").removeClass("dm-txt");
-        $(".compat-table i").removeClass("dm-txt");
-        $(".compat-table tr:nth-child(2n+1)").removeClass("dm-block");
-        $(".compat-table th").removeClass("dm-block");
-		$(".compat-table tr").removeClass("dm-compat-highlight");
-        $(".history-table").removeClass("dm-block");
-        $(".history-table p").removeClass("dm-txt");
-        $(".history-table a").removeClass("dm-txt");
-        $(".history-table i").removeClass("dm-txt");
-        $(".history-table tr:nth-child(2n+1)").removeClass("dm-block");
-        $(".history-table th").removeClass("dm-block dm-txt");
-		$(".history-table td").removeClass("dm-txt");
-        $(".library-table").removeClass("dm-block");
-		$(".builds-table").removeClass("dm-block");
-		$(".builds-table p").removeClass("dm-txt");
-        $(".builds-table a").removeClass("dm-txt");
-        $(".builds-table i").removeClass("dm-txt");
-		$(".builds-table tr:nth-child(2n+1)").removeClass("dm-block");
-        $(".builds-table th").removeClass("dm-block");
-		$(".builds-table tr").removeClass("dm-compat-highlight");
-		$(".builds-table td").removeClass("dm-txt");
-        $(".divTableHeading").removeClass("dm-block");
+		$(".divTable").removeClass("dm-block");
+		$(".divTableHeading").removeClass("dm-block");
         $(".divTableHeading").removeClass("dm-txt");
 		$(".divTableBody").removeClass("dm-block");
         $(".divTableBody").removeClass("dm-txt");
@@ -230,5 +166,6 @@ $(document).ready(function() {
         $(".page-header").removeClass("dm-blog-body");
         $(".page-content").removeClass("dm-blog-body dm-txt");
 		$(".debug-main").removeClass("dm-block");
+		$(".debug-left").removeClass("dm-block");
     }
 });

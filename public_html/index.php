@@ -372,10 +372,10 @@
 				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
 					<div id='feature-con-funding'>
 						<div id='feature-tx1-funding'>
-							<span>$3,392 <span style="color:#39ff14" class='scale-offset-txt-center'>US</span></span>
+							<span>$3,300 <span style="color:#39ff14" class='scale-offset-txt-center'>USD</span></span>
 						</div>
 						<div id='feature-tx2-funding' class='scale-offset-txt-center'>
-							<span>Earned per-month in funding with 699+ Patrons since January 2017</span>
+							<span>Currently earned per-month in funding with 700+ Patrons</span>
 						</div>
 					</div>
 				</div>

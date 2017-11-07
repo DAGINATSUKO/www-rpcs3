@@ -23,27 +23,29 @@
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
 				<span>Installing Firmware</span>
 			</div>
-			</a><a href="#module_selection" rel="anchor">
-			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>System Module Selection</span>
-			</div>
 			</a>
 			<!-- Next Category -->
 			<div id='navsidebar-tx1-topic' class="darkmode-navsidebar-txt">
-				<span>Managing Files</span>
+				<span>File System</span>
 			</div>
+			<a href="#manage_saves" rel="anchor">
+			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
+				<span>Managing Saves</span>
+			</div>
+			</a>
 			<a href="#manage_files" rel="anchor">
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>Managing Save Data</span>
+				<span>Managing Files</span>
 			</div>
-			</a><a href="#manage_games" rel="anchor">
+			</a>
+			<a href="#manage_formats" rel="anchor">
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>Managing Games and Software</span>
+				<span>Understanding Formats</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div id='navsidebar-tx1-topic' class="darkmode-navsidebar-txt">
-				<span>Updating Games and Software</span>
+				<span>Installing and Updating</span>
 			</div>
 			<a href="#install_games" rel="anchor">
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
@@ -56,44 +58,26 @@
 			</a>
 			<!-- Next Category -->
 			<div id='navsidebar-tx1-topic' class="darkmode-navsidebar-txt">
-				<span>Games and Software</span>
+				<span>Dumping Methods</span>
 			</div>
-			<a href="#obtaining_games" rel="anchor">
+			<a href="#software_distribution" rel="anchor">
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>Obtaining Games and Software</span>
-			</div>
-			</a><a href="#dumping_games" rel="anchor">
-			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>Dumping with a Blu-ray Drive</span>
+				<span>Software Distribution</span>
 			</div>
 			</a>
-			<!-- Next Category -->
-			<div id='navsidebar-tx1-topic' class="darkmode-navsidebar-txt">
-				<span>Configuring the Emulator</span>
-			</div>
-			<a href="#cpu_settings" rel="anchor">
+			<a href="#dumping_methods" rel="anchor">
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>CPU Settings</span>
+				<span>Dumping Methods</span>
 			</div>
-			</a><a href="#gpu_settings" rel="anchor">
+			</a>
+			</a><a href="#compatible_drives" rel="anchor">
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>GPU Settings</span>
+				<span>Compatible Disc Drives</span>
 			</div>
-			</a><a href="#audio_settings" rel="anchor">
+			</a>
+			</a><a href="#dumping_procedure" rel="anchor">
 			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>Audio Settings</span>
-			</div>
-			</a><a href="#input_settings" rel="anchor">
-			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>Input/Output Settings</span>
-			</div>
-			</a><a href="#network_settings" rel="anchor">
-			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>Network Settings</span>
-			</div>
-			</a><a href="#system_settings" rel="anchor">
-			<div id='navsidebar-tx2-topic' class="darkmode-navsidebar-txt">
-				<span>System Settings</span>
+				<span>Dumping via Blu-ray Drive</span>
 			</div>
 			</a>
 			<!-- End -->

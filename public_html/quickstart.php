@@ -3,11 +3,11 @@
 <head>
 <title>RPCS3 - Quickstart</title>
 <meta charset="UTF-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, quickstart">
-<meta name="author" content="RPCS3">
-<meta name="copyright" content="RPCS3">
-<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
+<meta content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux." name="description">
+<meta content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, quickstart" name="keywords">
+<meta content="RPCS3" name="author">
+<meta content="RPCS3" name="copyright">
+<meta content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8" name="google-site-verification">
 <?php include 'lib/module/call-meta.php';?>
 <?php include 'lib/module/call-sys.php';?>
 </head>
@@ -16,9 +16,9 @@
 <?php include 'lib/module/ui-sidebar-quickstart.php';?>
 <div id="page-con-content">
 	<div id="header-con-head">
-		<div id='header-img-head' class="dynamic-banner">
+		<div class="dynamic-banner" id='header-img-head'>
 		</div>
-		<div id='header-con-overlay' class="darkmode-header">
+		<div class="darkmode-header" id='header-con-overlay'>
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
@@ -33,17 +33,17 @@
 	</div>
 	<div id="page-con-container">
 		<div id="page-in-container">
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
 				<h2>System Requirements</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
+			<div class="darkmode-block" id='featured-con-block'>
 				<div class="div-anchor" id="requirements">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx1-block'>
 						<h2>System Requirements</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
 							 The system requirements for running the emulator have not been finalized and are subject to change during development. We do however have a set of minimum system requirements that must be met for the emulator to function properly on any system. Please note that these are the bare minimum system specifications and the emulator will not function otherwise.
 						</p>
@@ -51,199 +51,198 @@
 				</div>
 			</div>
 			<?php include 'lib/module/in-requirements.php';?>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
 				<h2>Updating RPCS3</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
+			<div class="darkmode-panel" id='guide-con-container'>
 				<div class="div-anchor" id="updating">
 				</div>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Updating RPCS3</h2>
-					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
-						<p>
-							 For Windows users, you must drag and drop the updated <span class="txt-highlight darkmode-highlight">executable</span> to the root directory of your RPCS3 folder. Note that from time to time new DLLs may be added or modified, so make sure you copy any new ones to your existing installation. <br>
-							<br>
-							 For Linux users, you must download the updated <span class="txt-highlight darkmode-highlight">AppImage</span> and make it executable with the command <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
-						</p>
-					</div>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/windows.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 For Windows users, download the latest executable and drag-and-drop it into your RPCS3 root directory.
+					</p>
 				</div>
 			</div>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/linux.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 For Linux users, download the latest AppImage and make it executable with the command <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
+					</p>
+				</div>
+			</div>
+			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
 				<h2>Firmware Files</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
+			<div class="darkmode-block" id='featured-con-block'>
 				<div class="div-anchor" id="firmware">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx1-block'>
 						<h2>Installing PlayStation 3 firmware files</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
-							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <span class="txt-highlight darkmode-highlight">File > Install Firmware.</span>
+							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install Firmware.</span><br>
+							<br>
+							 By default, firmware modules are loaded automatically based on the PlayStation 3 title that is loaded. You can still override automatic module loading and choose which firmware modules you want to use manually. This is not recommended.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div class="div-anchor" id="module_selection">
+			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
+				<h2>Game Saves</h2>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div class="div-anchor" id="manage_saves">
 				</div>
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Firmware module selection</h2>
-					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
-						<p>
-							 By default, firmware modules are selected automatically based on the PlayStation 3 game or software that is loaded. You can still override automatic module selection and choose which firmware modules you want to use manually, but it is not recommended to do so unless you know what you're doing.
-						</p>
-						<br>
-						<p>
-							<span class="txt-highlight darkmode-highlight">Automatically load required libraries:</span> Automatically loads all required modules in game executable.
-						</p>
-						<p>
-							<span class="txt-highlight darkmode-highlight">Manually load selected libraries:</span> Allows the user to manually load selected firmware modules.
-						</p>
-						<p>
-							<span class="txt-highlight darkmode-highlight">Load automatic and manual libraries:</span> Automatically loads all required modules and manually selected firmware modules at the same time.
-						</p>
-						<p>
-							<span class="txt-highlight darkmode-highlight">Load liblv2.sprx only:</span> Loads modules dynamically, more closely to what a real PlayStation 3 would do. Some games may not work properly with this option yet.
-						</p>
-					</div>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/windows.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 For Windows users, save data files can be managed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</span>
+					</p>
 				</div>
 			</div>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-				<h2>Game Files</h2>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/linux.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 For Linux users, save data files can be managed in <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span>
+					</p>
+				</div>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
+			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
+				<h2>File Management</h2>
+			</div>
+			<div class="darkmode-block" id='featured-con-block'>
 				<div class="div-anchor" id="manage_files">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Managing Save Data</h2>
+					<div class="darkmode-txt" id='featured-tx1-block'>
+						<h2>Managing PlayStation 3 titles</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
-							 • PlayStation 3 save data files can be managed in: <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</span>
+							 Due to legal reasons, PlayStation 3 titles cannot be distributed online and must be self-dumped from your own PlayStation 3 console or from your computer using a compatible Blu-ray drive.
 						</p>
+						<br>
 						<p>
-							 • Please note that save data is stored in folders that correspond to your game's ID.
-						</p>
-						<p>
-							<i>Note: If you're on linux, RPCS3 folders are located in: <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span></i>
+							 Both Blu-ray and PlayStation Network titles (PSN) must be placed into a single folder with their respective files and the folder name must correspond to the title's ID. If you are not sure what your dumped title's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your title's game case or your title is only accessible though PSN, you can do an internet search for <span class="txt-highlight darkmode-highlight">"Your game name here</span> + <span class="txt-highlight darkmode-highlight">region ID"</span>. Please note that it is very important that you use the correct region ID.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div class="div-anchor" id="manage_games">
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/disc.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Typical layout of a Blu-ray disc title's directory: <span class="txt-highlight darkmode-highlight">PS3_GAME folder (required), PS3_DISC.sfb (required), PS3_UPDATE folder (not required)</span>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/psn.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Typical layout of a PSN title's directory: <span class="txt-highlight darkmode-highlight">TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc</span>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-block" id='featured-con-block'>
+				<div class="div-anchor" id="manage_formats">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Managing games and software</h2>
+					<div class="darkmode-txt" id='featured-tx1-block'>
+						<h2>PlayStation 3 title formats</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
-							 Due to legal reasons, PlayStation 3 games and software cannot be distributed online and must be self-dumped from your own PlayStation 3 console (Both Blu-ray and PSN games) or from your computer using a compatible Blu-ray drive (Disc games only).
+							 Title IDs that start with a <span class="txt-highlight darkmode-highlight">B</span> are <span class="txt-highlight darkmode-highlight">Blu-Ray disc</span> titles.
+						</p>
+						<p>
+							 Title IDs that start with a <span class="txt-highlight darkmode-highlight">N</span> are <span class="txt-highlight darkmode-highlight">PSN</span> titles.
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <span class="txt-highlight darkmode-highlight">Blu-ray Disc</span> game's root directory:
-						</p>
-						<p>
-							 • PS3_GAME folder (required), PS3_DISC.sfb (required), PS3_UPDATE folder (not required)
+							 When working with actual title region IDs, the title's region ID will look something similar to this:
 						</p>
 						<br>
 						<p>
-							 The typical layout of a <span class="txt-highlight darkmode-highlight">PlayStation Network</span> game's root directory:
+							 Example: <span class="txt-highlight darkmode-highlight">BLUS30443</span> is a <span class="txt-highlight darkmode-highlight">US</span> Blu-Ray disc copy of Demon's Souls.
 						</p>
 						<p>
-							 • TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc
-						</p>
-						<br>
-						<p>
-							 Both Blu-ray and PlayStation Network games must be placed in a single folder with their respective files and the folder name must correspond to the game's ID. If you are not sure what your dumped game's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your game case or your game is a PlayStation Network game, you can do an internet search for <span class="txt-highlight darkmode-highlight">"Your Game Name Here</span> + <span class="txt-highlight darkmode-highlight">Region ID"</span>. Please note that it is very important you use the correct region ID.
-						</p>
-						<br>
-						<p>
-							 • Game IDs that start with a <span class="txt-highlight darkmode-highlight">B</span> are <span class="txt-highlight darkmode-highlight">Blu-Ray Disc</span> games
-						</p>
-						<p>
-							 • Game IDs that start with a <span class="txt-highlight darkmode-highlight">N</span> are <span class="txt-highlight darkmode-highlight">PlayStation Network</span> games
-						</p>
-						<br>
-						<p>
-							 When working with actual game region IDs, the game's region ID will look something similar to this:
-						</p>
-						<br>
-						<p>
-							 • For example: <span class="txt-highlight darkmode-highlight">BLUS30443</span> is an USA <span class="txt-highlight darkmode-highlight">Blu-Ray Disc</span> copy of <span class="txt-highlight darkmode-highlight">Demon's Souls</span>
-						</p>
-						<p>
-							 • For example: <span class="txt-highlight darkmode-highlight">NPEB01393</span> is an Europe <span class="txt-highlight darkmode-highlight">PlayStation Network</span> copy of <span class="txt-highlight darkmode-highlight">Hatsune Miku: Project DIVA F</span>
+							 Example: <span class="txt-highlight darkmode-highlight">NPEB01393</span> is a <span class="txt-highlight darkmode-highlight">EU</span> PSN copy of Hatsune Miku: Project DIVA F.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-				<h2>Updating and Placement</h2>
+			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
+				<h2>Installing and Updating</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
+			<div class="darkmode-block" id='featured-con-block'>
 				<div class="div-anchor" id="install_games">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Installing games and software</h2>
+					<div class="darkmode-txt" id='featured-tx1-block'>
+						<h2>Installing PlayStation 3 titles</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
-							 • .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File > Install .pkg</span>
+							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span>
 						</p>
 						<p>
-							 • .pkg files will be automatically installed to: <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
+							 .pkg files will be automatically installed to <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
+						</p>
+						<br>
+						<p>
+							 Blu-ray disc title data can be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\disc\</span> or anywhere elses except for <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="txt-highlight darkmode-highlight">File &gt; Boot Game</span> if not present on the game list.
+						</p>
+						<br>
+						<p>
+							 PSN title data must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
 						</p>
 						<p>
-							 • Blu-ray Disc game data can be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\disc\</span> or anywhere <span class="txt-highlight darkmode-highlight">except</span> for <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="txt-highlight darkmode-highlight">File > Boot Game</span> if not present on game list
+							 PSN .rap files must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</span>
 						</p>
+						<br>
 						<p>
-							 • PlayStation Network game data must be placed in: <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
-						</p>
-						<p>
-							 • PlayStation Network .rap files must be placed in: <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</span>
-						</p>
-						<p>
-							<i>Note: If you're on linux, RPCS3 folders are located in: <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span></i>
+							<i>Note: If you're on linux, RPCS3 folders are located in <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span></i>
 						</p>
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
+			<div class="darkmode-block" id='featured-con-block'>
 				<div class="div-anchor" id="install_updates">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Installing games and software updates</h2>
+					<div class="darkmode-txt" id='featured-tx1-block'>
+						<h2>Installing PlayStation 3 title updates</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
-							 Game and software updates are handled the exact same way that PlayStation Network .pkg files are. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File > Install .pkg</span> The update will be placed in the game or software folder that corresponds to the correct region ID. Please note that game and software updates must be the same region in order to work. Cross-mixing game or software regions may create irreversible damage to the game or software.
+							 Title updates are handled the same as PSN .pkg files. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span> The update will be placed in the title folder that corresponds to the correct region ID. Please note that title updates must be the same region in order to work. Cross-mixing title regions may create irreversible damage to the title.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div id="featured-tx1-heading" class="div-heading ">
-				<h2>Obtaining Games</h2>
+			<div class="div-heading" id="featured-tx1-heading">
+				<h2>Obtaining PlayStation 3 Format Software</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div class="div-anchor" id="install_updates">
+			<div class="darkmode-block" id='featured-con-block' style="background: #ff4d4d !important;">
+				<div class="div-anchor" id="software_distribution">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Software Distribution laws in your country</h2>
+					<div class="darkmode-txt" id='featured-tx1-block'>
+						<h2 style="color: #fff;">Software Distribution laws in your country</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block' style="color: #fff;">
 						<p>
 							 When dumping video game software, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
 							<br>
@@ -252,357 +251,297 @@
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div class="div-anchor" id="obtaining_games">
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div class="div-anchor" id="dumping_methods">
+				</div>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/ps3.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console. We believe that this is the cleanest and ethical way to migrate your disc-based titles and digital titles from your console to your PC without the hassle of repairing bad title dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump titles from your system's Blu-ray drive or internal storage. Unfortuently we cannot provide a detailed guide on this method.
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/pc.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						<b>Method B:</b> You can dump titles using your computer by using select compatible Blu-ray drives. Please note that you can only use this method if an <span class="txt-highlight darkmode-highlight">.ird</span> file is available online for the decryption of the disc. Not every Blu-ray drive will recognize PlayStation 3 titles due to how PlayStation 3 format discs are designed.
+					</p>
+				</div>
+			</div>
+			<div class="div-heading" id="featured-tx1-heading">
+				<h2>Compatible Disc Drives</h2>
+			</div>
+			<div class="darkmode-block" id='featured-con-block'>
+				<div class="div-anchor" id="compatible_drives">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Obtaining games and software</h2>
+					<div class="darkmode-txt" id='featured-tx1-block'>
+						<h2>Compatible Blu-ray disc drives</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
-							<span>Method A:</span> We recommend that you dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC without the hassle of repairing bad game dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump games from your system's Blu-ray drive or internal storage.
-						</p>
-						<br>
-						<p>
-							<span>Method B:</span> You can dump games using only a computer by using select compatible Blu-ray drives. Please note that you can only use this method if an <span class="txt-highlight darkmode-highlight">.ird</span> file is available online for the decryption of the disc. See <span class="txt-highlight darkmode-highlight">Dumping games and software with a Blu-ray drive</span> below. Not every Blu-ray drive will recognize PlayStation 3 games due to how PlayStation 3 format discs are designed. Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation game discs:
-						</p>
-						<br>
-						<p>
-							 • ASUS <span class="txt-highlight darkmode-highlight">BC-08B1LT</span>
-						</p>
-						<p>
-							 • ASUS <span class="txt-highlight darkmode-highlight">BC-16D1HT</span>
-						</p>
-						<p>
-							 • ASUS <span class="txt-highlight darkmode-highlight">BC-12B1ST</span>
-						</p>
-						<p>
-							 • ASUS <span class="txt-highlight darkmode-highlight">BC-12D2HT</span>
-						</p>
-						<p>
-							 • ASUS <span class="txt-highlight darkmode-highlight">BW-12B1ST</span>
-						</p>
-						<p>
-							 • ASUS <span class="txt-highlight darkmode-highlight">BW-16D1HT</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">BH26NS40</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">UH12NS30</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">BH16NS40</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">BH16NS48</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">BH14NS40</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">WH24NS40</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">WH12LS30</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">WH24LS30</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">WH26NS40</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">WH16NS40</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">WH14NS40</span>
-						</p>
-						<p>
-							 • LG <span class="txt-highlight darkmode-highlight">WH16NS48</span>
-						</p>
-						<p>
-							 • Lite-On <span class="txt-highlight darkmode-highlight">DH-4O1S</span>
-						</p>
-						<p>
-							 • Lite-On <span class="txt-highlight darkmode-highlight">iHBS112</span>
-						</p>
-						<p>
-							 • BENQ <span class="txt-highlight darkmode-highlight">BR1000</span>
-						</p>
-						<p>
-							 • Samsung <span class="txt-highlight darkmode-highlight">SH-B083L</span>
-						</p>
-						<p>
-							 • Samsung <span class="txt-highlight darkmode-highlight">SH-B123L</span>
-						</p>
-						<p>
-							 • Sony Optiarc <span class="txt-highlight darkmode-highlight">5300S</span>
-						</p>
-						<p>
-							 • Sony PlayStation stock drive <span class="txt-highlight darkmode-highlight">with proprietary adapter</span>
+							 Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation format discs for use with your computer.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div class="div-anchor" id="dumping_games">
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">BH26NS40</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">UH12NS30</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">BH16NS40</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">BH16NS48</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">BH14NS40</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">WH24NS40</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">WH12LS30</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">WH24LS30</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">WH26NS40</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">WH16NS40</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">WH14NS40</span>
+					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">WH16NS48</span>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 ASUS <span class="txt-highlight darkmode-highlight">BC-08B1LT</span>
+					</p>
+					<p>
+						 ASUS <span class="txt-highlight darkmode-highlight">BC-16D1HT</span>
+					</p>
+					<p>
+						 ASUS <span class="txt-highlight darkmode-highlight">BC-12B1ST</span>
+					</p>
+					<p>
+						 ASUS <span class="txt-highlight darkmode-highlight">BC-12D2HT</span>
+					</p>
+					<p>
+						 ASUS <span class="txt-highlight darkmode-highlight">BW-12B1ST</span>
+					</p>
+					<p>
+						 ASUS <span class="txt-highlight darkmode-highlight">BW-16D1HT</span>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 LITE-ON <span class="txt-highlight darkmode-highlight">DH-4O1S</span>
+					</p>
+					<p>
+						 LITE-ON <span class="txt-highlight darkmode-highlight">IHBS112</span>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Samsung <span class="txt-highlight darkmode-highlight">SH-B083L</span>
+					</p>
+					<p>
+						 Samsung <span class="txt-highlight darkmode-highlight">SH-B123L</span>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Sony Optiarc <span class="txt-highlight darkmode-highlight">5300S</span>
+					</p>
+					<p>
+						 Sony PlayStation stock drive <span class="txt-highlight darkmode-highlight">with proprietary adapter</span>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 BENQ <span class="txt-highlight darkmode-highlight">BR1000</span>
+					</p>
+				</div>
+			</div>
+			<div class="div-heading" id="featured-tx1-heading">
+				<h2>Disc Dumping Setup</h2>
+			</div>
+			<div class="darkmode-block" id='featured-con-block'>
+				<div class="div-anchor" id="dumping_procedure">
 				</div>
 				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Dumping games and software with a Blu-ray drive</h2>
+					<div class="darkmode-txt" id='featured-tx1-block'>
+						<h2>Step-by-step disc dumping procedure</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class="darkmode-txt" id='featured-tx2-block'>
 						<p>
-							 You will need three different tools for dumping PlayStation 3 game discs from a computer using a Blu-ray drive:
+							 Here's a compiled list of the step-by-step instructions we use for dumping disc-based PlayStation 3 format titles. You must possess one of the aforementioned compatible disc drives to complete the disc dumping procedure. Again, this method will not work with standard Blu-ray drives.
 						</p>
-						<br>
-						<p>
-							 • <a href='/cdn/tools/patcher.zip' download>PS3 ISO Patcher</a> - By BlackDaemon
-						</p>
-						<p>
-							 • <a href='/cdn/tools/3k3y.zip' download>3k3y ISO Tools</a> - By the 3k3y team
-						</p>
-						<p>
-							 • <span class="txt-highlight darkmode-highlight">ISO Dumping Software</span>, such as <a href="http://www.imgburn.com/">ImgBurn</a>, for example.
-						</p>
-						<br>
-						<p>
-							 1. Insert a PlayStation 3 Blu-ray disc game of your choice.
-						</p>
-						<p>
-							 2. Dump the <span class="txt-highlight darkmode-highlight">.iso</span> image using an ISO Dumping program such as ImgBurn.
-						</p>
-						<p>
-							 3. Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your game ID. If there isn't any .ird file that matches your game ID this unfortunately means you can't dump your disc using this method.
-						</p>
-						<p>
-							 4. Be sure to check game ID in case of different game editions. You need to use the file for the exact game ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
-							<p>
-								 5. Open <span class="txt-highlight darkmode-highlight">PS3 ISO Patcher</span> and select your dumped <span class="txt-highlight darkmode-highlight">.iso</span> file and its appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file.
-							</p>
-							<p>
-								 6. Press <span class="txt-highlight darkmode-highlight">Patch</span> to apply the patch to the .iso file.
-							</p>
-							<p>
-								 7. Open <span class="txt-highlight darkmode-highlight">3k3y ISO Tools</span>. Click the <span class="txt-highlight darkmode-highlight">ISO Crypto</span> option and select the dumped .iso file to decrypt it. Make sure the .iso file extension is in lower-case letters (.iso not .ISO), or the decryption will not work.
-							</p>
-							<p>
-								 8. Your game should now be properly decrypted.
-							</p>
-							<p>
-								 9. While in 3k3y ISO Tools, in the Tools drop-down menu, select <span class="txt-highlight darkmode-highlight">ISO -> Extract ISO</span> and select the decrypted iso file to extract the game files (the decrypted iso file will have a .dec.iso file extension).
-							</p>
-							<p>
-								 10. You are now able to use your successfully dumped disc-based game with RPCS3.
-							</p>
-						</div>
 					</div>
 				</div>
-				<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-					<h2>Configuring RPCS3</h2>
-				</div>
-				<div id='featured-con-block' class="darkmode-block">
-					<div class="div-anchor" id="cpu_settings">
-					</div>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="darkmode-txt">
-							<h2>CPU settings</h2>
-						</div>
-						<div id='featured-tx2-block' class="darkmode-txt">
-							<p>
-								<b>PPU Interpreter (Precise)</b><br>
-								 Currently not finished. Will provide more accurate real-time PPU emulation, at the cost of speed.
-							</p>
-							<br>
-							<p>
-								<b>PPU Interpreter (Fast)</b><br>
-								 Provides fast real-time PPU emulation but is less accurate.
-							</p>
-							<br>
-							<p>
-								<b>PPU Recompiler (LLVM)</b><br>
-								 LLVM is an AOT recompiler. It pre-caches the ELF/SELF executable and provides the fastest PPU emulation.
-							</p>
-							<br>
-							<p>
-								<b>SPU Interpreter (Precise)</b><br>
-								 Provides more accurate real-time emulation for SPU cores, but is a lot slower.
-							</p>
-							<br>
-							<p>
-								<b>SPU Interpreter (Fast)</b><br>
-								 Provides fast real-time SPU emulation, but is less accurate.
-							</p>
-							<br>
-							<p>
-								<b>SPU Recompiler (ASMJIT)</b><br>
-								 Provides faster real-time SPU emulation with balanced speed and accuracy.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div id='featured-con-block' class="darkmode-block">
-					<div class="div-anchor" id="gpu_settings">
-					</div>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="darkmode-txt">
-							<h2>GPU settings</h2>
-						</div>
-						<div id='featured-tx2-block' class="darkmode-txt">
-							<p>
-								<b>Renderer</b><br>
-								 Allows you to select OpenGL, Vulkan and D3D12 renderers. Vulkan will always be the fastest renderer, followed by OpenGL, the most accurate renderer. This is due to OpenGL receiving bug fixes and implementations ahead of the other renderers. <i>Note that D3D12 (Direct3D 12) is only compatible with Windows 10 and its usage is not recommended as it isn't maintained.</i>
-							</p>
-							<br>
-							<p>
-								<b>Resolution</b><br>
-								 Allows you to set the native rendering resolution for the emulated console. See the supported resolutions for the game you're testing on the Game List and pick any of those. <i>Note that not all games render at 1080p because a real PlayStation 3 doesn't support this resolution on all games</i>
-							</p>
-							<br>
-							<p>
-								<b>Graphics Device</b><br>
-								 Allows you to select your preferred GPU for usage in the Vulkan and D3D12 renderers.
-							</p>
-							<br>
-							<p>
-								<b>Aspect Ratio</b><br>
-								 Defines the aspect ratio of the emulated console.
-							</p>
-							<br>
-							<p>
-								<b>Frame Limit</b><br>
-								 In most cases, this setting should be set to either Off if the game has internal framelocking or Auto if the game doesn't and goes above 60fps. Otherwise, some games may surpass their 30/60FPS target causing issues such as sped-up gameplay or physics glitches. Games are only intended to run up to 60FPS on a real PlayStation 3. <i>Using Frame Limit will slow down your game if it doesn't run fast enough, so use it only if needed.</i>
-							</p>
-							<br>
-							<p>
-								<b>Write Color Buffers</b><br>
-								 These buffers are only required for some bigger AAA games. Demon's Souls requires the use of the Write Color buffers option.
-							</p>
-							<br>
-							<p>
-								<b>Invalidate Cache Every Frame</b><br>
-								 Improves the way shadows are handled. Use this only if your game displays broken shadows.
-							</p>
-							<br>
-							<p>
-								<b>Use GPU texture scaling</b><br>
-								 Improves performance by offloading some texture scaling over to the GPU. In rare cases, this option may cause texture corruption.
-							</p>
-							<br>
-							<p>
-								<b>Strict Rendering Mode</b><br>
-								 Enforces strict compliance to the graphical API specification. Might result in degraded performance in some games. Can resolve rare cases of missing graphics and flickering.
-							</p>
-							<br>
-							<p>
-								<b>VSync</b><br>
-								 Improves image quality by keeping framerate consistent. Disabling may cause screen tearing but may also improve performance in some cases.
-							</p>
-							<br>
-							<p>
-								<b>Stretch to display area</b><br>
-								 Overrides aspect ratio and stretches the image to full display area.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div id='featured-con-block' class="darkmode-block">
-					<div class="div-anchor" id="audio_settings">
-					</div>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="darkmode-txt">
-							<h2>Audio settings</h2>
-						</div>
-						<div id='featured-tx2-block' class="darkmode-txt">
-							<p>
-								<b>Audio Out</b><br>
-								 Allows you to select your preferred audio driver for the emulated console. The emulator currently supports OpenAL, XAudio2 (Windows only), ALSA (Linux only) and PulseAudio (Linux and BSD only). XAudio2 should always be used on Windows operating systems for proper audio playback, and ALSA/PulseAudio should always be used on Linux systems.
-							</p>
-							<br>
-							<p>
-								 If you run into any issues with either audio backends, set the output to Null. This will disable all audio for the emulator.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div id='featured-con-block' class="darkmode-block">
-					<div class="div-anchor" id="input_settings">
-					</div>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="darkmode-txt">
-							<h2>Input/Output settings</h2>
-						</div>
-						<div id='featured-tx2-block' class="darkmode-txt">
-							<p>
-								<b>Keyboard Handler</b><br>
-								 Allows you to select which device you want to register emulated console keyboard inputs.
-							</p>
-							<br>
-							<p>
-								<b>Mouse Handler</b><br>
-								 Allows you to select which device you want to register emulated console mouse inputs and movement.
-							</p>
-							<br>
-							<p>
-								<b>Camera Input</b><br>
-								 Allows you to spoof or disable PlayStation 3 compatible cameras.
-							</p>
-							<br>
-							<p>
-								<b>Camera Settings</b><br>
-								 Allows you to select which device you want to input emulated console camera video/audio.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div id='featured-con-block' class="darkmode-block">
-					<div class="div-anchor" id="network_settings">
-					</div>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="darkmode-txt">
-							<h2>Networking settings</h2>
-						</div>
-						<div id='featured-tx2-block' class="darkmode-txt">
-							<p>
-								<b>Connection status</b><br>
-								 Allows you to try spoofing an internet connection. Online connectivity is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div id='featured-con-block' class="darkmode-block">
-					<div class="div-anchor" id="system_settings">
-					</div>
-					<div id='featured-wrp-block'>
-						<div id='featured-tx1-block' class="darkmode-txt">
-							<h2>System settings</h2>
-						</div>
-						<div id='featured-tx2-block' class="darkmode-txt">
-							<p>
-								<b>Language</b><br>
-								 Allows you to change the internal system language of the emulated console. In some very rare cases games may fail to go ingame if the system language being used is from a different region than the one of the game.
-							</p>
-						</div>
-					</div>
-				</div>
-				<a href='/download'>
-				<div id='featured-con-button' class="darkmode-buttons">
-					<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-						<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
-						</div>
-						<div id='featured-tx1-button'>
-							<p>
-								 Download Latest Build
-							</p>
-						</div>
-					</div>
-				</div>
-				</a>
 			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/download.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Download PS3 ISO Patcher by BlackDaemon <a href='/cdn/tools/patcher.zip'>here.</a>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/download.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Download 3k3y ISO Tools by the 3k3y team <a href='/cdn/tools/3k3y.zip'>here.</a>
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/download.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Download ISO dumping software such as ImgBurn or similar <a href="http://www.imgburn.com" target="_blank">here.</a>
+					</p>
+				</div>
+			</div>
+			<div class="div-heading" id="featured-tx1-heading">
+				<h2>Disc Dumping Procedure</h2>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>1</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Insert a PlayStation 3 Blu-ray disc title of your choice.
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>2</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Dump the <span class="txt-highlight darkmode-highlight">.iso</span> image using an ISO Dumping program such as ImgBurn.
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>3</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your title ID. If there isn't any .ird file that matches your title ID this unfortunately means you can't dump your disc using this method.
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>4</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Be sure to check title ID in case of different title editions. You need to use the file for the exact title ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>5</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Press <span class="txt-highlight darkmode-highlight">Patch</span> to apply the patch to the .iso file.
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>6</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 Your title should now be fully decrypted.
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>7</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 In 3k3y ISO Tools, use the Tools drop-down menu to select <span class="txt-highlight darkmode-highlight">ISO -&gt; Extract ISO</span> and select the decrypted iso file to extract the title files (the decrypted iso file will have a .dec.iso file extension).
+					</p>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-tx1-container'>
+					<span>8</span>
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 You are now able to use your dumped disc-based title with RPCS3.
+					</p>
+				</div>
+			</div>
+			<a href='/download'>
+			<div class="darkmode-buttons" id='featured-con-button'>
+				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
+					</div>
+					<div id='featured-tx1-button'>
+						<p>
+							 Download Latest Build
+						</p>
+					</div>
+				</div>
+			</div>
+			</a>
 		</div>
-		<?php include 'lib/module/ui-footer.php';?>
 	</div>
-	</body>
-	</html>
+	<?php include 'lib/module/ui-footer.php';?>
+</div>
+</body>
+</html>

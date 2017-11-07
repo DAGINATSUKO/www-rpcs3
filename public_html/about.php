@@ -496,7 +496,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4'>PlayStation 4 related research</a>.
+								 DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4' target="_blank">PlayStation 4 related research</a>.
 							</p>
 						</div>
 					</div>
@@ -521,7 +521,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735'>He was forced to leave the emulation scene in mid 2016.</a>
+								 Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735' target="_blank">He was forced to leave the emulation scene in mid 2016.</a>
 							</p>
 						</div>
 					</div>
