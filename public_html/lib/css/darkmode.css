@@ -59,9 +59,12 @@
     background: linear-gradient(to right,rgba(77,0,101,.9),rgba(23,79,97,.5))!important;
 }
 .dm-ad {
-    border-right: 5px solid #191d21!important;
-    border-bottom: 5px solid #191d21!important;
-    background: #242a30 !important;
+    background: repeating-linear-gradient(45deg,#242a30,#242a30 10px,#1c2025 10px,#1c2025 20px) !important;
+}
+.dm-ad-ico {
+    background: #2f373f url(/img/icons/menu/ad-h.png) no-repeat center center !important;
+    background-size: 30px !important;
+    border-color: #5b6b7a!important;
 }
 .dm-highlight {
     color: #bebebe!important;

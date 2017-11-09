@@ -104,6 +104,23 @@
 			</div>
 		</div>
 	</div>
+	<div id="page-con-feature-c" class="darkmode-feature" style="background: #000;">
+		<div id="titlesearch-ovr-container" class="darkmode-header">
+		</div>
+		<div id='titlesearch-con-container'>
+			<div id="titlesearch-con-outer">
+				<div id="titlesearch-con-inner">
+					<div id="titlesearch-inp-search">
+						<div id="titlesearch-ico-search">
+						</div>
+						<form action='/compatibility' method='get'>
+							<input name="g" placeholder="Game Title / Game ID">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
 			<span>ANNOUNCEMENTS</span>
@@ -219,10 +236,10 @@
 			</div>
 		</div>
 	</div>
-	<div id="page-con-feature-c" class="darkmode-feature">
-		<div id='featured-ico-ad'>
+	<div id="page-con-feature-c">
+		<div id='featured-ico-ad' class="darkmode-ad-ico">
 		</div>
-		<div class="darkmode-block div-content-ad" id='featured-con-ad'>
+		<div class="darkmode-ad div-content-ad" id='featured-con-ad'>
 			<div style="text-align: center; top: 20px; position: relative; z-index:2;">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
 						</script>
