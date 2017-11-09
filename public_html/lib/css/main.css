@@ -345,7 +345,6 @@
     transition: all .2s ease-in-out;
     transform: scale(1);
     white-space: normal;
-    border-radius: 6px;
     background: #fff;
 }
 #content-con-block-b:hover {
@@ -425,7 +424,6 @@
     transition: all .2s ease-in-out;
     transform: scale(1);
     white-space: normal;
-    border-radius: 6px;
 }
 #content-con-block-a:hover {
     transition: all .2s ease-in-out;
@@ -662,7 +660,6 @@
 	width:100%;
 	margin:0 auto;
 	height:50px;
-	border-radius:4px;
 	overflow:hidden;
 	z-index:1;
 }
@@ -675,6 +672,7 @@
 	font-size: 14px;
 	padding-left:50px;
 	color:#fff;
+	transition: .1s ease-in-out;
 }
 #titlesearch-inp-search:hover input {
 	background:rgba(255,255,255,.12);
@@ -874,7 +872,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    border-radius: 6px;
     -webkit-box-shadow: 0 0 100px 0 rgba(0,0,0,.3);
     -moz-box-shadow: 0 0 100px 0 rgba(0,0,0,.3);
     box-shadow: 0 0 100px 0 rgba(0,0,0,.3);
@@ -909,7 +906,6 @@
     margin: -159px 0;
     transition: all .2s ease-in-out;
     transform: scale(1);
-    border-radius: 6px;
 }
 #video-con-container:hover {
     transition: all .2s ease-in-out;

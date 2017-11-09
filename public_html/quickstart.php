@@ -142,7 +142,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 Typical layout of a Blu-ray disc title's directory: <span class="txt-highlight darkmode-highlight">PS3_GAME folder (required), PS3_DISC.sfb (required), PS3_UPDATE folder (not required)</span>
+						 Typical layout of a Blu-ray disc title's directory: <span class="txt-highlight darkmode-highlight">PS3_GAME folder, PS3_DISC.sfb, PS3_UPDATE folder (not required)</span>
 					</p>
 				</div>
 			</div>
@@ -439,7 +439,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 Download ISO dumping software such as ImgBurn or similar <a href="http://www.imgburn.com" target="_blank">here.</a>
+						 Download any form of .iso dumping software such as ImgBurn or similar <a href="http://www.imgburn.com" target="_blank">here.</a>
 					</p>
 				</div>
 			</div>
@@ -452,7 +452,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 Insert a PlayStation 3 Blu-ray disc title of your choice.
+						 Insert a PlayStation 3 format disc title of your choice into your compatible BD Drive.
 					</p>
 				</div>
 			</div>
@@ -462,7 +462,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 Dump the <span class="txt-highlight darkmode-highlight">.iso</span> image using an ISO Dumping program such as ImgBurn.
+						 Dump the <span class="txt-highlight darkmode-highlight">.iso</span> image using an .iso dumping program of your choosing. e.g. ImgBurn.
 					</p>
 				</div>
 			</div>
@@ -472,7 +472,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 Use <a href="http://jonnysp.bplaced.net">jonnysp.bplaced.net</a> to locate the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your title ID. If there isn't any .ird file that matches your title ID this unfortunately means you can't dump your disc using this method.
+						 Use <a href="http://jonnysp.bplaced.net" target="_blank">jonnysp.bplaced.net</a> to download the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your title ID. If there isn't an .ird file that matches your title ID, you cannot use this method to dump your selected PlayStation 3 disc at this time.
 					</p>
 				</div>
 			</div>
@@ -482,7 +482,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 Be sure to check title ID in case of different title editions. You need to use the file for the exact title ID, otherwise it won't work (<i>for example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
+						 Be sure to check the title ID in case there is a different edition of that title. e.g. Uncharted 2 Game of the Year Edition. You must use the correct .ird with the same title ID, otherwise it won't work. (<i>Example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
 					</p>
 				</div>
 			</div>
@@ -502,7 +502,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 Your title should now be fully decrypted.
+						 Your title is now decrypted.
 					</p>
 				</div>
 			</div>
@@ -512,7 +512,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 In 3k3y ISO Tools, use the Tools drop-down menu to select <span class="txt-highlight darkmode-highlight">ISO -&gt; Extract ISO</span> and select the decrypted iso file to extract the title files (the decrypted iso file will have a .dec.iso file extension).
+						 In 3k3y ISO Tools, use the Tools drop-down menu to select <span class="txt-highlight darkmode-highlight">ISO > Extract ISO</span> and then select the decrypted .iso file to extract its files. The decrypted .iso file will have a .dec.iso file extension.
 					</p>
 				</div>
 			</div>
@@ -522,7 +522,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 You are now able to use your dumped disc-based title with RPCS3.
+						 You are now able to use the extracted .iso files with RPCS3. <span class="txt-highlight darkmode-highlight">File &gt; Boot Game</span>
 					</p>
 				</div>
 			</div>
