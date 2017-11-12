@@ -19,9 +19,9 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 #### Proprietary Code
 
-| UI/UX Engine | Developer | Source | Version |
+| UI/UX Engine | Developer | Documentation | Version |
 | --- | --- | --- | --- |
-| `Milk UX` | DAGINATSUKO | Closed | Version 1.00 |
+| `Milk UX` | DAGINATSUKO | No Documentation | Closed-source | Version 1.00 |
 
 #### Web Standards
 
@@ -34,23 +34,23 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 #### External Resources
 
-| Resources | Developer | Download | Version |
-| --- | --- | --- | --- |
-| `Flaticon` | Freepik | [Source](http://www.flaticon.com "Flaticon") | Unknown |
-| `JS Cookie` | Klaus Hartl | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
-| `Animate.css` | Daniel Eden | [Source](https://daneden.github.io/animate.css "Animate.css") | Unknown |
-| `Animated Waves` | loktar | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
+| Resources | Developer | Documentation | Download | Version |
+| --- | --- | --- | --- | --- |
+| `Flaticon` | Freepik | No documentation | [Source](http://www.flaticon.com "Flaticon") | Unknown |
+| `JS Cookie` | Klaus Hartl | No documentation | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
+| `Animate.css` | Daniel Eden | No documentation | [Source](https://daneden.github.io/animate.css "Animate.css") | Unknown |
+| `Animated Waves` | loktar | No aocumentation | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
 
 #### Supported Platforms
 
-| Platforms | Developer | Download | Version |
-| --- | --- | --- | --- |
-| `Chrome` | Google | [Download](https://www.google.com/chrome/browser/desktop/) | Latest |
-| `Chromium` | Chromium | [Download](https://www.chromium.org/Home) | Latest |
-| `Microsoft Edge` | Microsoft | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest |
-| `Safari` | Apple| [Download](https://www.apple.com/safari/) | Latest |
-| `Firefox` | Mozilla | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest |
-| `Opera` | Opera Software | [ Download](http://www.opera.com/) | Latest |
+| Platforms | Developer | Documentation | Download | Version |
+| --- | --- | --- | --- | --- |
+| `Chrome` | Google | Documentation | [Download](https://www.google.com/chrome/browser/desktop/) | Latest |
+| `Chromium` | Chromium | Documentation | [Download](https://www.chromium.org/Home) | Latest |
+| `Microsoft Edge` | Microsoft | Documentation | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest |
+| `Safari` | Apple| Documentation | [Download](https://www.apple.com/safari/) | Latest |
+| `Firefox` | Mozilla | Documentation | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest |
+| `Opera` | Opera Software | Documentation | [ Download](http://www.opera.com/) | Latest |
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
