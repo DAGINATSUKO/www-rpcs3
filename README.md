@@ -20,7 +20,7 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 #### Proprietary Code
 
 | UI/UX Engine | Developer | Documentation | Version | Version |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | `Milk UX` | DAGINATSUKO | No Documentation | Not available | Not available | Version 1.00 |
 
 #### Web Standards
