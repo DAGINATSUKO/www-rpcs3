@@ -36,10 +36,10 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 | Resources | Developer | Documentation | Download | Version |
 | --- | --- | --- | --- | --- |
-| `Flaticon` | Freepik | No documentation | [Developer source](http://www.flaticon.com "Flaticon") | Unknown |
-| `JS Cookie` | Klaus Hartl | No documentation | [Developer source](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
-| `Animate.css` | Daniel Eden | No documentation | [Developer source](https://daneden.github.io/animate.css "Animate.css") | Unknown |
-| `Animated Waves` | loktar | No aocumentation | [Developer source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
+| `Flaticon` | Freepik | No documentation | [Download](http://www.flaticon.com "Flaticon") | Unknown |
+| `JS Cookie` | Klaus Hartl | No documentation | [Download](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
+| `Animate.css` | Daniel Eden | No documentation | [Download](https://daneden.github.io/animate.css "Animate.css") | Unknown |
+| `Animated Waves` | loktar | No documentation | [Download](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
 
 #### Supported Platforms
 
