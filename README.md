@@ -30,7 +30,7 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 | Engine | Developer | Documentation | Source | Version |
 | --- | --- | --- | --- | --- |
-| `Milk UX` | DAGINATSUKO | No Documentation | Closed-source | Not available | Version 1.00 |
+| `Milk UX` | DAGINATSUKO | No Documentation | Closed | Not available | Version 1.00 |
 
 #### External Resources
 
