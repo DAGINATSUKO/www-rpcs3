@@ -17,20 +17,20 @@ docker-compose up
 
 Then open a web browser of choice and enter [localhost:8080](http://localhost:8080)
 
+#### Web Standards
+
+| Standards | Supported | Documentation | Download | Version |
+| --- | --- | --- | --- | --- |
+| `HTML` | Yes | Documentation | Built in | Version 5.00 |
+| `CSS` | Yes | Documentation | Built in | Version 3.00 |
+| `PHP` | Yes | Documentation | [Download](http://php.net/downloads.php "Download") | Version 5.50 |
+| `jQuery` | Yes | Documentation | [Download](https://jquery.com/download "Download") | Version 3.2.0 |
+
 #### Proprietary Code
 
 | UI/UX Engine | Developer | Documentation | Download | Version |
 | --- | --- | --- | --- | --- |
 | `Milk UX` | DAGINATSUKO | No Documentation | Not available | Not available | Version 1.00 |
-
-#### Web Standards
-
-| Standards | Supported | Documentation | Version |
-| --- | --- | --- | --- |
-| `HTML` | Yes | w3schools.com | Version 5.00 |
-| `CSS` | Yes | w3schools.com | Version 3.00 |
-| `PHP` | Yes | w3schools.com | Version 5.50 |
-| `jQuery` | Yes | w3schools.com | Version 3.2.0 |
 
 #### External Resources
 
