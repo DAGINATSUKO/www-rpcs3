@@ -28,9 +28,9 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 #### Proprietary Code
 
-| Engine | Developer | Documentation | Download | Version |
+| Engine | Developer | Documentation | Source | Version |
 | --- | --- | --- | --- | --- |
-| `Milk UX` | DAGINATSUKO | No Documentation | Not available | Not available | Version 1.00 |
+| `Milk UX` | DAGINATSUKO | No Documentation | Closed-source | Not available | Version 1.00 |
 
 #### External Resources
 
