@@ -21,10 +21,10 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 | Standards | Supported | Documentation | Download | Version |
 | --- | --- | --- | --- | --- |
-| `HTML` | Yes | Documentation | Built in | Version 5.00 |
-| `CSS` | Yes | Documentation | Built in | Version 3.00 |
-| `PHP` | Yes | Documentation | [Download](http://php.net/downloads.php "Download") | Version 5.50 |
-| `jQuery` | Yes | Documentation | [Download](https://jquery.com/download "Download") | Version 3.2.0 |
+| `HTML` | Yes | [Documentation](https://www.w3schools.com/html "View") | Built in | Version 5.00 |
+| `CSS` | Yes | [Documentation](https://www.w3schools.com/css "View") | Built in | Version 3.00 |
+| `PHP` | Yes | [Documentation](https://www.w3schools.com/php "View") | [Download](http://php.net/downloads.php "Download") | Version 5.50 |
+| `jQuery` | Yes | [Documentation](https://www.w3schools.com/jquery "View") | [Download](https://jquery.com/download "Download") | Version 3.2.0 |
 
 #### Proprietary Code
 
@@ -45,12 +45,12 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 
 | Platforms | Developer | Documentation | Download | Version |
 | --- | --- | --- | --- | --- |
-| `Chrome` | Google | Documentation | [Download](https://www.google.com/chrome/browser/desktop/) | Latest |
-| `Chromium` | Chromium | Documentation | [Download](https://www.chromium.org/Home) | Latest |
-| `Microsoft Edge` | Microsoft | Documentation | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest |
-| `Safari` | Apple| Documentation | [Download](https://www.apple.com/safari/) | Latest |
-| `Firefox` | Mozilla | Documentation | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest |
-| `Opera` | Opera Software | Documentation | [ Download](http://www.opera.com/) | Latest |
+| `Chrome` | Google | [Documentation](https://www.chromium.org/developers/design-documents "View") | [Download](https://www.google.com/chrome/browser/desktop/) | Latest |
+| `Chromium` | Chromium | [Documentation](https://www.chromium.org/developers/design-documents "View") | [Download](https://www.chromium.org/Home) | Latest |
+| `Microsoft Edge` | Microsoft | [Documentation](https://docs.microsoft.com/en-us/microsoft-edge "View") | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest |
+| `Safari` | Apple| [Documentation](https://developer.apple.com/safari/resources "View") | [Download](https://www.apple.com/safari/) | Latest |
+| `Firefox` | Mozilla | [Documentation](https://developer.mozilla.org/en-US "View") | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest |
+| `Opera` | Opera Software | [Documentation](http://www.opera.com/docs "View") | [ Download](http://www.opera.com/) | Latest |
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
