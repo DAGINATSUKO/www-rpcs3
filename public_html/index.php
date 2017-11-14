@@ -167,7 +167,7 @@
 					<div id='content-ico-block' style="background: url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
 					<div id='content-tx1-block'>
-						<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU GPL Version 2.0 License.</span>
+						<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU GPL Version 2.0 License.</span>
 					</div>
 				</div>
 				<a href="https://github.com/RPCS3/rpcs3/pulls" target="_blank">
@@ -449,7 +449,7 @@
 					<span>QUICKSTART</span>
 				</div>
 				<div id='contribute-tx2-block' class="darkmode-txt">
-					<span>Ready to give RPCS3 a shot? Great! before you get started, we highly recommend that you read over our quickstart guide. Please take in account that the requirements for running RPCS3 are still not fully known and are subject to change during its current development stage. We aim to optimize our software as much as possible.</span>
+					<span>Ready to give RPCS3 a shot? Great! Before you get started, we highly recommend that you read over our quickstart guide. Please take in account that the requirements for running RPCS3 are still not fully known and are subject to change during its current development stage. We aim to optimize our software as much as possible.</span>
 				</div>
 				<a href="/quickstart">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Start">
@@ -464,7 +464,7 @@
 					<span>FAQs</span>
 				</div>
 				<div id='contribute-tx2-block' class="darkmode-txt">
-					<span>Are you a little hesitant? Have some questions about RPCS3? Look no further, our frequently asked questions page is designed to answer any RPCS3 related questions you may have. The FAQs page covers everything from a little of the project's history, to our licensing plan, to what controllers and input devices are currently compatible with the emulator.</span>
+					<span>Are you a little hesitant? Have some questions about RPCS3? Look no further; our frequently asked questions page is designed to answer any RPCS3 related questions you may have. The FAQs page covers everything from a little of the project's history, to our licensing plan, to what controllers and input devices are currently compatible with the emulator.</span>
 				</div>
 				<a href="/faq">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Get Answers">
