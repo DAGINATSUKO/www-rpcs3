@@ -132,7 +132,7 @@
 						</p>
 						<br>
 						<p>
-							 Both Blu-ray and PlayStation Network titles (PSN) must be placed into a single folder with their respective files and the folder name must correspond to the title's ID. If you are not sure what your dumped title's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your title's game case or your title is only accessible though PSN, you can do an internet search for <span class="txt-highlight darkmode-highlight">"Your game name here</span> + <span class="txt-highlight darkmode-highlight">region ID"</span>. Please note that it is very important that you use the correct region ID.
+							 Both Blu-ray and PlayStation Network titles (PSN) must be placed into a single folder with their respective files and the folder name must correspond to the title's ID. If you are not sure what your dumped title's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your title's game case or your title is only accessible through PSN, you can do an internet search for <span class="txt-highlight darkmode-highlight">"Your game name here</span> + <span class="txt-highlight darkmode-highlight">region ID"</span>. Please note that it is very important that you use the correct region ID.
 						</p>
 					</div>
 				</div>
@@ -202,7 +202,7 @@
 						</p>
 						<br>
 						<p>
-							 Blu-ray disc title data can be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\disc\</span> or anywhere elses except for <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="txt-highlight darkmode-highlight">File &gt; Boot Game</span> if not present on the game list.
+							 Blu-ray disc title data can be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\disc\</span> or anywhere else except for <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="txt-highlight darkmode-highlight">File &gt; Boot Game</span> if not present on the game list.
 						</p>
 						<br>
 						<p>
@@ -213,7 +213,7 @@
 						</p>
 						<br>
 						<p>
-							<i>Note: If you're on linux, RPCS3 folders are located in <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span></i>
+							<i>Note: If you're on Linux, RPCS3 folders are located in <span class="txt-highlight darkmode-highlight">~/.config/rpcs3/</span></i>
 						</p>
 					</div>
 				</div>
@@ -258,7 +258,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console. We believe that this is the cleanest and ethical way to migrate your disc-based titles and digital titles from your console to your PC without the hassle of repairing bad title dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump titles from your system's Blu-ray drive or internal storage. Unfortuently we cannot provide a detailed guide on this method.
+						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console. We believe that this is the cleanest and ethical way to migrate your disc-based titles and digital titles from your console to your PC without the hassle of repairing bad title dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump titles from your system's Blu-ray drive or internal storage. Unfortunately we cannot provide a detailed guide on this method.
 					</p>
 				</div>
 			</div>
