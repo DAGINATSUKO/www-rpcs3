@@ -187,7 +187,7 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 Local-multiplayer is completely supported. We support up to 7 concurrent controllers at any given time, just like original PlayStation 3 hardware on both Windows and Linux. The controllers can be assigned with a wide range of configurations. For example, one player can use keyboard while a another can use a compatible gamepad. To learn more about compatible gamepads, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							 Local-multiplayer is completely supported. We support up to 7 concurrent controllers at any given time, just like original PlayStation 3 hardware on both Windows and Linux. The controllers can be assigned with a wide range of configurations. For example, one player can use a keyboard while another can use a compatible gamepad. To learn more about compatible gamepads, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
