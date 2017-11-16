@@ -104,7 +104,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="page-con-feature-c" class="darkmode-feature" style="background: #000;">
+	<div id="page-con-feature-c" class="darkmode-feature" style="background: #000; height:120px;">
 		<div id="titlesearch-ovr-container" class="darkmode-header">
 		</div>
 		<div id='titlesearch-con-container'>
@@ -112,6 +112,9 @@
 				<div id="titlesearch-con-inner">
 					<div id="titlesearch-inp-search">
 						<div id="titlesearch-ico-search">
+						</div>
+						<div id="titlesearch-txt-search">
+						<span><span style="opacity:0.4;">Compatibility database developed and maintained by</span> <span style="background: url(/img/icons/menu/code-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span> <span> <a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
 						</div>
 						<form action='/compatibility' method='get'>
 							<input name="g" placeholder="Game Title / Game ID">
@@ -237,7 +240,8 @@
 		</div>
 	</div>
 	<div id="page-con-feature-c">
-		<div id='featured-ico-ad' class="darkmode-ad-ico">
+		<div id='featured-txt-ad' class="darkmode-txt-txt">
+		<span>AD</span>
 		</div>
 		<div class="darkmode-ad div-content-ad" id='featured-con-ad'>
 			<div style="text-align: center; top: 20px; position: relative; z-index:2;">

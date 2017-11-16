@@ -16,7 +16,7 @@
 	animation-iteration-count:infinite;
 	animation-direction:alternate;
 	background: #fff;
-	opacity: 0.05;
+	opacity: .035;
 	pointer-events: none;
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
@@ -35,7 +35,7 @@
 	animation-iteration-count:infinite;
 	animation-direction:alternate;
 	background: #fff;
-	opacity: .05;
+	opacity: .035;
 	pointer-events: none;
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
