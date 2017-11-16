@@ -17,40 +17,40 @@ docker-compose up
 
 Then open a web browser of choice and enter [localhost:8080](http://localhost:8080)
 
-#### Proprietary Code
-
-| UI/UX Engine | Developer | Source | Version |
-| --- | --- | --- | --- |
-| `Milk UX` | DAGINATSUKO | Closed | Version 1.00 |
-
 #### Web Standards
 
-| Standards | Supported | Documentation | Version |
-| --- | --- | --- | --- |
-| `HTML` | Yes | w3schools.com | Version 5.00 |
-| `CSS` | Yes | w3schools.com | Version 3.00 |
-| `PHP` | Yes | w3schools.com | Version 5.50 |
-| `jQuery` | Yes | w3schools.com | Version 3.2.0 |
+| Standards | Supported | Documentation | Download | Version |
+| --- | --- | --- | --- | --- |
+| `HTML` | Yes | [Documentation](https://www.w3schools.com/html "View") | Built in | Version 5.00 |
+| `CSS` | Yes | [Documentation](https://www.w3schools.com/css "View") | Built in | Version 3.00 |
+| `PHP` | Yes | [Documentation](https://www.w3schools.com/php "View") | [Download](http://php.net/downloads.php "Download") | Version 5.50 |
+| `jQuery` | Yes | [Documentation](https://www.w3schools.com/jquery "View") | [Download](https://jquery.com/download "Download") | Version 3.2.0 |
+
+#### Proprietary Code
+
+| UX Engine | Developer | Documentation | Source | Version |
+| --- | --- | --- | --- | --- |
+| `Milk UX` | DAGINATSUKO | No Documentation | Closed | Not available | Version 1.00 |
 
 #### External Resources
 
-| Resources | Developer | Download | Version |
-| --- | --- | --- | --- |
-| `Flaticon` | Freepik | [Source](http://www.flaticon.com "Flaticon") | Unknown |
-| `JS Cookie` | Klaus Hartl | [Source](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
-| `Animate.css` | Daniel Eden | [Source](https://daneden.github.io/animate.css "Animate.css") | Unknown |
-| `Animated Waves` | loktar | [Source](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
+| Resources | Developer | Documentation | Download | Version |
+| --- | --- | --- | --- | --- |
+| `Flaticon` | Freepik | No documentation | [Download](http://www.flaticon.com "Flaticon") | Unknown |
+| `JS Cookie` | Klaus Hartl | No documentation | [Download](https://github.com/js-cookie/js-cookie "JS Cookie") | Unknown |
+| `Animate.css` | Daniel Eden | No documentation | [Download](https://daneden.github.io/animate.css "Animate.css") | Unknown |
+| `Animated Waves` | loktar | No documentation | [Download](https://jsfiddle.net/loktar/M9Brh/ "Animated Waves") | Unknown |
 
 #### Supported Platforms
 
-| Platforms | Developer | Download | Version |
-| --- | --- | --- | --- |
-| `Chrome` | Google | [Download](https://www.google.com/chrome/browser/desktop/) | Latest |
-| `Chromium` | Chromium | [Download](https://www.chromium.org/Home) | Latest |
-| `Microsoft Edge` | Microsoft | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest |
-| `Safari` | Apple| [Download](https://www.apple.com/safari/) | Latest |
-| `Firefox` | Mozilla | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest |
-| `Opera` | Opera Software | [ Download](http://www.opera.com/) | Latest |
+| Platforms | Developer | Documentation | Download | Version |
+| --- | --- | --- | --- | --- |
+| `Chrome` | Google | [Documentation](https://www.chromium.org/developers/design-documents "View") | [Download](https://www.google.com/chrome/browser/desktop/) | Latest build |
+| `Chromium` | Chromium | [Documentation](https://www.chromium.org/developers/design-documents "View") | [Download](https://www.chromium.org/Home) | Latest build |
+| `Microsoft Edge` | Microsoft | [Documentation](https://docs.microsoft.com/en-us/microsoft-edge "View") | [Download](https://www.microsoft.com/en-us/windows/microsoft-edge) | Latest build |
+| `Safari` | Apple| [Documentation](https://developer.apple.com/safari/resources "View") | [Download](https://www.apple.com/safari/) | Latest build |
+| `Firefox` | Mozilla | [Documentation](https://developer.mozilla.org/en-US "View") | [Download](https://www.mozilla.org/en-US/firefox/new/) | Latest build |
+| `Opera` | Opera Software | [Documentation](http://www.opera.com/docs "View") | [ Download](http://www.opera.com/) | Latest build |
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
