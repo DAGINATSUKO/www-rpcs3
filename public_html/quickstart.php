@@ -57,7 +57,7 @@
 			<div class="darkmode-panel" id='guide-con-container'>
 				<div class="div-anchor" id="updating">
 				</div>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/windows.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/os.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -66,7 +66,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/linux.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/linux.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -99,7 +99,7 @@
 			<div class="darkmode-panel" id='guide-con-container'>
 				<div class="div-anchor" id="manage_saves">
 				</div>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/windows.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/os.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -108,7 +108,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/linux.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/linux.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -138,7 +138,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/disc.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/disc.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -147,7 +147,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/psn.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/ps.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -254,7 +254,7 @@
 			<div class="darkmode-panel" id='guide-con-container'>
 				<div class="div-anchor" id="dumping_methods">
 				</div>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/ps3.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -263,7 +263,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/pc.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/pc.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -289,7 +289,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/drive.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -331,7 +331,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/drive.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -355,7 +355,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/drive.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -367,7 +367,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/drive.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -379,7 +379,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/drive.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -391,7 +391,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/drive.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/drive.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -417,7 +417,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/download.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/download.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -426,7 +426,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/download.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/download.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -435,7 +435,7 @@
 				</div>
 			</div>
 			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/quickstart/download.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/download.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>

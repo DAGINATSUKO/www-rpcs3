@@ -1,6 +1,6 @@
 <div id='panel-con-wrapper'>
 	<div class="div-panel-left darkmode-panel div-touchless" id='panel-con-container'>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/os.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/os.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -12,7 +12,7 @@
 	<div class="div-panel-right darkmode-panel" id='panel-con-container'>
 		<div class='div-panel-link'>
 		</div>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/cpu.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -24,7 +24,7 @@
 </div>
 <div id='panel-con-wrapper'>
 	<div class="div-panel-left darkmode-panel div-touchless" id='panel-con-container'>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/gpu.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -33,7 +33,7 @@
 		</div>
 	</div>
 	<div class="div-panel-right darkmode-panel div-touchless" id='panel-con-container'>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/ram.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -47,7 +47,7 @@
 	<div class="div-panel-left darkmode-panel" id='panel-con-container'>
 		<div class='div-panel-link'>
 		</div>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/redist.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/redist.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -60,7 +60,7 @@
 	<div class="div-panel-right darkmode-panel" id='panel-con-container'>
 		<div class='div-panel-link'>
 		</div>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/directx.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/directx.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -75,7 +75,7 @@
 	<div class="div-panel-left darkmode-panel" id='panel-con-container'>
 		<div class='div-panel-link'>
 		</div>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/pup.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/pup.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -85,7 +85,7 @@
 	</div>
 	</a>
 	<div class="div-panel-right darkmode-panel div-touchless" id='panel-con-container'>
-		<div  id='panel-ico-container' style="background: url('/img/icons/requirements/disc.png') no-repeat center;">
+		<div  id='panel-ico-container' style="background: url('/img/icons/list/disc.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>

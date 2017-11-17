@@ -55,7 +55,7 @@ $(window).load(function() {
 /* Handles denser wavebar animation */
 $(window).load(function() {
     var $wavebarFX = $(".visual-wavebar-2"),
-        wavebarWidth = 25.
+        wavebarWidth = 25,
         wavebarCount = $(window).width() / wavebarWidth;
     for (var i = 0; i < wavebarCount; i++) {
         $wavebar = $("<div>").addClass('wavebar-2').css('width', wavebarWidth + 'px').css('left', i * wavebarWidth + 'px').css('animation-delay', (i / wavebarCount) + 's');
@@ -138,9 +138,9 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(function() {
         $('.support-subtrigger').hover(function() {
-            $('.support-submenu').fadeIn(100);
+            $('.support-submenu').stop().fadeIn(100);
         }, function() {
-            $('.support-submenu').fadeOut(100);
+            $('.support-submenu').stop().fadeOut(100);
         });
     });
 });
@@ -185,17 +185,6 @@ $(document).ready(function() {
     $(".page-video-10").click(function() {
         var iframe = $("#video-10");
         iframe.attr("src", iframe.data("src"));
-    });
-});
-/* Handles menu toggles */
-$(document).ready(function() {
-    $(".toggle-menu").hide();
-    $("#menu-btn-open").click(function() {
-        $(".toggle-menu").fadeToggle(100);
-    });
-    $(".toggle-menu").hide();
-    $(".toggle-menu").click(function() {
-        $(".toggle-menu").fadeOut(100);
     });
 });
 /* Handles blog sidebar toggle */
@@ -438,28 +427,6 @@ $(document).ready(function() {
 
         function videoControl(action) {
             var $playerWindow = $('#video-10')[0].contentWindow;
-            $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
-        }
-    });
-});
-/* Handles fullscreen announcement toggles */
-$(document).ready(function() {
-    $('#announce-btn-overlay').mouseover(function() {
-        $('#announce-btn-overlay').fadeOut('fast', function() {});
-    });
-});
-/* Handles start and stop of announcement video */
-$(document).ready(function() {
-    $(function() {
-        $("#announce-btn-overlay").mouseover("click", function() {　　
-            videoControl("playVideo");
-        });
-        $(".stop-video-a").on("click", function() {
-            videoControl("stopVideo");
-        });
-
-        function videoControl(action) {
-            var $playerWindow = $('#video-announce')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
         }
     });

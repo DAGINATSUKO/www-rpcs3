@@ -61,11 +61,18 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p class="download-desc">
-							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted directly on this site. <br>
-							<br>
-							 RPCS3 for Linux uses the AppImage file format. AppImages can be downloaded and ran without an installation or the need for root rights. To run the AppImage file execute, <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
+							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted on our web server. <br>
 						</p>
 					</div>
+				</div>
+			</div>
+			<div class="darkmode-panel" id='guide-con-container'>
+				<div id='guide-ico-container' style="background: url('/img/icons/list/linux.png') no-repeat center;">
+				</div>
+				<div class="darkmode-txt" id='guide-tx1-heading'>
+					<p>
+						 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
+					</p>
 				</div>
 			</div>
 			<a href='<?php echo $win[0]; ?>' target="_blank"> 
@@ -127,10 +134,6 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
-				<h2>System Requirements</h2>
-			</div>
-			<?php include 'lib/module/in-requirements.php';?>
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
 				<h2>Website Source, Documentation and Press Kit</h2>
 			</div>
