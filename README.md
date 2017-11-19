@@ -15,10 +15,7 @@ Simply download the repository files and upload them to your web server or open 
 docker-compose up
 ```
 
-Then open a web browser of choice and enter [localhost:8080](http://localhost:8080)
-
-#### Proprietary Code
-* Milk UX by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+Then open a web browser of your choosing and browse to [localhost:8080](http://localhost:8080)
 
 #### Web Standards
 * HTML 5.0
@@ -26,6 +23,10 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 * PHP 5.5
 * jQuery 3.2.0
 * MySQL
+
+#### Internal Resources
+* RPCS3 Milk UX Engine - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* RPCS3 Compatibility List - [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com "Flaticon")
@@ -44,19 +45,19 @@ Then open a web browser of choice and enter [localhost:8080](http://localhost:80
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
 * 01-20-2017 - DAGINATSUKO joins the RPCS3 team on [January 20th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
-* 01-20-2017 - RPCS3.net foundation forked from [daginatsuko.com](https://daginatsuko.com/ "DAGINATSUKO's official website") project by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 01-20-2017 - RPCS3.net 2.0 project started by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 01-21-2017 - RPCS3.net 2.0 launched and published by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 01-22-2017 - RPCS3.net 2.0 compatibility launched and published by [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
-* 01-25-2017 - RPCS3.net 2.0 blog launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 04-26-2017 - RPCS3.net 2.0 Milk UX Lite port started by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 05-01-2017 - RPCS3.net 2.0 Alpha 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 08-02-2017 - RPCS3.net 2.0 Alpha 2 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 01-20-2017 - RPCS3.net foundation forked from [daginatsuko.com](https://daginatsuko.com/ "DAGINATSUKO's official website") project - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 01-20-2017 - RPCS3.net 2.0 project started - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 01-21-2017 - RPCS3.net 2.0 launched and published - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 01-22-2017 - RPCS3.net 2.0 compatibility launched and published - [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
+* 01-25-2017 - RPCS3.net 2.0 blog launched - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 04-26-2017 - RPCS3.net 2.0 Milk UX Lite port started - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 05-01-2017 - RPCS3.net 2.0 Alpha 1 launched - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 08-02-2017 - RPCS3.net 2.0 Alpha 2 launched - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 08-04-2017 - Development improvements with Docker from [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
-* 09-01-2017 - RPCS3.net 2.0 Beta 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 10-01-2017 - RPCS3.net 2.0 leaves Beta status by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 10-15-2017 - RPCS3.net 3.0 begins closed-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 10-18-2017 - RPCS3.net 3.0 begins open-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 09-01-2017 - RPCS3.net 2.0 Beta 1 launched - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 10-01-2017 - RPCS3.net 2.0 leaves Beta status - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 10-15-2017 - RPCS3.net 3.0 begins closed-source development - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
+* 10-18-2017 - RPCS3.net 3.0 begins open-source development - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 
 ## Copyright
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
