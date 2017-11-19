@@ -53,7 +53,7 @@ Then open a web browser of your choosing and browse to [localhost:8080](http://l
 * 04-26-2017 - RPCS3.net 2.0 Milk UX Lite port started - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 05-01-2017 - RPCS3.net 2.0 Alpha 1 launched - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 08-02-2017 - RPCS3.net 2.0 Alpha 2 launched - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
-* 08-04-2017 - Development improvements with Docker from [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
+* 08-04-2017 - Developer environment improvements with Docker - [Jake Hamilton](https://github.com/jakehamilton "Jake Hamilton's GitHub profile")
 * 09-01-2017 - RPCS3.net 2.0 Beta 1 launched - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 10-01-2017 - RPCS3.net 2.0 leaves Beta status - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * 10-15-2017 - RPCS3.net 3.0 begins closed-source development - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
