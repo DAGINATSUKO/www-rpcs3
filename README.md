@@ -17,13 +17,6 @@ docker-compose up
 
 Then open a web browser of your choosing and browse to [localhost:8080](http://localhost:8080)
 
-#### Web Standards
-* HTML 5.0
-* CSS 3.0
-* PHP 5.5
-* jQuery 3.2.0
-* MySQL
-
 #### Internal Resources
 * RPCS3 Milk UX Engine - [DAGINATSUKO](https://github.com/DAGINATSUKO "DAGINATSUKO's GitHub profile")
 * RPCS3 Compatibility List - [AniLeo](https://github.com/AniLeo "AniLeo's GitHub profile")
@@ -41,6 +34,13 @@ Then open a web browser of your choosing and browse to [localhost:8080](http://l
 * [Apple Safari](https://www.apple.com/safari/)
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Opera Software Opera](http://www.opera.com/)
+
+#### Target Standards
+* HTML 5.0
+* CSS 3.0
+* PHP 5.5
+* jQuery 3.2.0
+* MySQL
 
 ## History
 * 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
