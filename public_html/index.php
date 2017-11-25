@@ -9,6 +9,7 @@
 <meta content="RPCS3" name="copyright">
 <meta content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8" name="google-site-verification">
 <?php include 'lib/module/call-meta.php';?>
+<script data-cfasync="false" src='/lib/js/external/timer.js'></script>
 <?php include 'lib/module/call-sys.php';?>
 </head>
 <body>
@@ -85,7 +86,7 @@
 				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a feature-con-greeting-scaler'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap'>
-							<span>The World's First PlayStation 3 Emulator</span>
+							<span>WE'LL BE MAKING AN ANNOUNCEMENT SOON™</span>
 						</div>
 						<div id='feature-tx2-wrap'>
 							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the open-source LLVM Compiler Infrastructure project for Windows and Linux. Starting development in May of 2011, RPCS3 is capable of running over 1,300 commercial titles on top of its low-level Vulkan, OpenGL and DirectX 12 renderers.</span>
@@ -98,7 +99,20 @@
 					</div>
 				</div>
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
-					<div id='feature-img-wrap' style="background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: 550px;">
+					<div id='feature-img-wrap' style="opacity:.05; background: url(/img/icons/menu/timer.png) no-repeat center; background-size: contain;">
+					</div>
+					<div id='timer-con-container'>
+						<div id='timer-tx1-body'>
+							 Synchronizing...
+						</div>
+						<div id='timer-tx2-body'>
+							<span>
+							Join the discussion on </span>
+						</div>
+						<a href="https://discord.me/RPCS3" target="_blank">
+						<div id='timer-ico-body'>
+						</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -114,7 +128,7 @@
 						<div id="titlesearch-ico-search">
 						</div>
 						<div id="titlesearch-txt-search">
-						<span><span style="opacity:0.4;">Compatibility database developed and maintained by</span> <span style="background: url(/img/icons/menu/code-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span> <span> <a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
+							<span><span style="opacity:0.4;">Compatibility database developed and maintained by</span><span style="background: url(/img/icons/menu/code-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
 						</div>
 						<form action='/compatibility' method='get'>
 							<input name="g" placeholder="Game Title / Game ID">
@@ -241,7 +255,7 @@
 	</div>
 	<div id="page-con-feature-c">
 		<div id='featured-txt-ad' class="darkmode-txt-txt">
-		<span>AD</span>
+			<span>AD</span>
 		</div>
 		<div class="darkmode-ad div-content-ad" id='featured-con-ad'>
 			<div style="text-align: center; top: 20px; position: relative; z-index:2;">
@@ -303,7 +317,7 @@
 				</div>
 				<a href="https://forums.rpcs3.net" target="_blank">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Reporting">
-					<span>REPORTING</span>
+					<span>FORUMS</span>
 				</div>
 				</a>
 			</div>

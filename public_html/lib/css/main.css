@@ -1005,6 +1005,48 @@
     background: url('/img/icons/menu/youtube.png') no-repeat center center;
     background-size: 24px;
 }
+#timer-con-container {
+	position: absolute;
+	width:100%;
+	height:200px;
+	top: 50%;
+	margin: -100px 0px;
+}
+#timer-tx1-body {
+	font-family: 'whitney';
+	font-size: 66px;
+	line-height: 100px;
+	position:absolute;
+	z-index:2;
+	top: 30px;
+	width:100%;
+	height: 100px;
+	text-align: right;
+	color:#fff;
+	pointer-events: none;
+}
+#timer-tx2-body {
+	font-family: 'whitney';
+	position: absolute;
+	bottom: 20px;
+	width: auto;
+	color: #fff;
+	font-size: 20px;
+	line-height: 48px;
+	height: 56px;
+	font-weight: bold;
+	right: 190px;
+	pointer-events: none;
+}
+#timer-ico-body {
+    background: url('/img/icons/panels/discord.png') no-repeat center center;
+    background-size: 280px;
+    width: 190px;
+    height: 56px;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
 .gallery-page {
     overflow-x: hidden;
     background: #191d21!important;
