@@ -447,6 +447,56 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
+					<div id='member-img-avatar' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;" title="The second coming of Jarveson">
+						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block' class="darkmode-txt">
+							<h2>
+							<p style="float: left;">
+								 Farseer
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Contributor
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block' class="darkmode-txt">
+							<p>
+								 Farseer is a contributor for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
+					<div id='member-img-avatar' style="background: #7bd57b url('/img/members/scribam.png') no-repeat center; background-size: cover;" title="Known to create random, yet useful pull requests for your GitHub repos">
+						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="div-avatar-block" id='featured-wrp-block'>
+						<div id='featured-tx1-block' class="darkmode-txt">
+							<h2>
+							<p style="float: left;">
+								 scribam
+							</p>
+							<p>
+							</p>
+							<p class="txt-role div-role-ccdev">
+								 Contributor
+							</p>
+							</h2>
+						</div>
+						<div id='featured-tx2-block' class="darkmode-txt">
+							<p>
+								 scribam is a contributor for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
 					<div id='member-img-avatar' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;" title="No one knows...">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>

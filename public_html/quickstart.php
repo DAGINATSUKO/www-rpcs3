@@ -258,7 +258,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console. We believe that this is the cleanest and ethical way to migrate your disc-based titles and digital titles from your console to your PC without the hassle of repairing bad title dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and various software tools that are used to rip/dump titles from your system's Blu-ray drive or internal storage. Unfortunately we cannot provide a detailed guide on this method.
+						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console . We believe that this is the cleanest and ethical way to migrate your disc-based titles and digital titles from your console to your PC without the hassle of repairing bad title dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and multiMAN. Due to legal reasons, we provide a detailed guide on this method.
 					</p>
 				</div>
 			</div>
@@ -267,7 +267,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						<b>Method B:</b> You can dump titles using your computer by using select compatible Blu-ray drives. Please note that you can only use this method if an <span class="txt-highlight darkmode-highlight">.ird</span> file is available online for the decryption of the disc. Not every Blu-ray drive will recognize PlayStation 3 titles due to how PlayStation 3 format discs are designed.
+						<b>Method B:</b> You can dump titles using your computer by using select compatible Blu-ray drives. Please note that you can only use this method if an <span class="txt-highlight darkmode-highlight">.ird</span> file is available online for the decryption of the disc. Not every Blu-ray drive will recognize PlayStation 3 titles due to how PlayStation 3 format discs are designed. Requirements for a Blu-Ray drive to be able to fully read PlayStation 3 discs are: Mediatek chipset and a +6 read offset.
 					</p>
 				</div>
 			</div>

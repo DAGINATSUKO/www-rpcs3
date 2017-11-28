@@ -105,14 +105,18 @@
 						<div id='timer-tx1-body'>
 							 Synchronizing...
 						</div>
-						<div id='timer-tx2-body'>
-							<span>
-							Join the discussion on </span>
+						<div id='timer-con-separator'>
 						</div>
-						<a href="https://discord.me/RPCS3" target="_blank">
-						<div id='timer-ico-body'>
+						<div id='timer-con-wrapper'>
+							<a href="https://discord.me/RPCS3" target="_blank">
+							<div id='timer-ico-body'>
+							</div>
+							</a>
+							<div id='timer-tx2-body'>
+								<span>
+								Join the discussion on </span>
+							</div>
 						</div>
-						</a>
 					</div>
 				</div>
 			</div>
@@ -128,7 +132,7 @@
 						<div id="titlesearch-ico-search">
 						</div>
 						<div id="titlesearch-txt-search">
-							<span><span style="opacity:0.4;">Compatibility database developed and maintained by</span><span style="background: url(/img/icons/menu/code-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
+							<span><span style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/menu/code-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
 						</div>
 						<form action='/compatibility' method='get'>
 							<input name="g" placeholder="Game Title / Game ID">
