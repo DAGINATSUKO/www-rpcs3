@@ -1,27 +1,28 @@
 ![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
 
-# Introduction
-Official source code for RPCS3.net, based off code from my personal website. This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.
+## Introduction
+
+Official source code for RPCS3.net. This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The compatibility list portion of this website is developed independently and maintained by [AniLeo](https://github.com/AniLeo).
 
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation.
 
-The [Compatibility List](https://github.com/AniLeo/rpcs3-compatibility) portion of this website is developed independently and maintained by [AniLeo](https://github.com/AniLeo).
-
 ## Licensing
-RPCS3.net uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
+This website uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
 
 ## Deployment
-Simply download the repository files and upload them to your web server or open them in a text editor, e.g. [Notepad++](https://notepad-plus-plus.org/). For local deployment, the only requirement is [Docker](http://docker.com/getdocker). To run the application, use:
+This website ships as is and doesn't require any compilation using any Integrated Development Environment tools. Simply download the repository archive, unpack and mount them locally or upload straight to your personal web server. For editing, we recommend using an advanced multi-language text editor, e.g. [Notepad++](https://notepad-plus-plus.org/).
+
+For local deployment, our only requirement is [Docker](http://docker.com/getdocker). Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud. To run the application, use:
 
 ```shell
 docker-compose up
 ```
 
-Then open a web browser of your choosing and browse to [localhost:8080](http://localhost:8080)
+From there, open a web browser of your choosing and navigate to [localhost:8080](http://localhost:8080)
 
 #### Internal Resources
-* RPCS3 Milk UX Engine - [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* RPCS3 Compatibility List - [AniLeo](https://github.com/AniLeo)
+* Milk UX - [DAGINATSUKO](https://github.com/DAGINATSUKO)
+* Compatibility - [AniLeo](https://github.com/AniLeo)
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com)
