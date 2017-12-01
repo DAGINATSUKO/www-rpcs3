@@ -21,8 +21,8 @@ docker-compose up
 From there, open a web browser of your choosing and navigate to [localhost:8080](http://localhost:8080)
 
 #### Internal Resources
-* RPCS3 Milk UX Engine - [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* RPCS3 Compatibility List - [AniLeo](https://github.com/AniLeo)
+* Milk UX - [DAGINATSUKO](https://github.com/DAGINATSUKO)
+* Compatibility - [AniLeo](https://github.com/AniLeo)
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com)
