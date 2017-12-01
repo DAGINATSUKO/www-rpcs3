@@ -26,7 +26,7 @@
 						<span id='footer-btn-credits'>GitHub</span></a>
 						<a href='https://www.patreon.com/Nekotekina' title="Patreon" target="_blank">
 						<span id='footer-btn-credits'>Patreon</span></a>
-						<a href='https://twitter.com/rpcs3_emu' title="Twitter" target="_blank">
+						<a href='https://twitter.com/rpcs3' title="Twitter" target="_blank">
 						<span id='footer-btn-credits'>Twitter</span></a>
 						<a href='https://www.reddit.com/r/rpcs3/' title="Reddit" target="_blank">
 						<span id='footer-btn-credits'>Reddit</span></a>

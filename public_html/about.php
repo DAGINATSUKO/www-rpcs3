@@ -472,7 +472,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: #7bd57b url('/img/members/scribam.png') no-repeat center; background-size: cover;" title="Known to create random, yet useful pull requests for your GitHub repos">
+					<div id='member-img-avatar' style="background: #e68364 url('/img/members/scribam.png') no-repeat center; background-size: cover;" title="Known to create random, yet useful pull requests for your GitHub repos">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>

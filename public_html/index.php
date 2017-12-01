@@ -17,49 +17,16 @@
 <?php include 'lib/module/call-video.php'?>
 <?php
 	preloadVideo(
-	'7',
-	'HZf4h0cUnbo',
-	'Ni no Kuni: Wrath of the White Witch'
-	);
-	preloadVideo(
-	'6',
-	'tG98QH0RBJQ',
-	'Demon\'s Souls'
-	);
-	preloadVideo(
-	'5',
-	'6H4264Uc8Iw',
-	'SoulCalibur IV'
-	);
-	preloadVideo(
-	'4',
-	'b_M-8O3vNBM',
-	'Naruto: Ultimate Ninja Storm'
+	'1',
+	'q-ApI7L-Slk'
 	);
 	preloadVideo(
 	'2',
-	'ft_DCkszprc',
-	'Kingdom Hearts 1.5 and 2.5 HD Remix'
+	'-4D8532vxGI'
 	);
 	preloadVideo(
 	'3',
-	'gl1hIa19MP0',
-	'Rune Factory: Tides of Destiny'
-	);
-	preloadVideo(
-	'8',
-	'5VKQ5R_ZiAI',
-	'Skate 3'
-	);
-	preloadVideo(
-	'9',
-	'ltmJYr_h144',
-	'Drakengard 3'
-	);
-	preloadVideo(
-	'10',
-	'V4DSA5I0Jfs',
-	'Tekken Tag Tournament 2'
+	'Y1MaFHQVH3I'
 	);
 ?>
 <div id="page-con-content" class="page-content-override">
@@ -86,22 +53,73 @@
 				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a feature-con-greeting-scaler'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap'>
-							<span>WE'LL BE MAKING AN ANNOUNCEMENT SOON™</span>
+							<span>UNVEILING A SLEW OF EXCLUSIVE INGAME TITLES</span>
 						</div>
 						<div id='feature-tx2-wrap'>
-							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the open-source LLVM Compiler Infrastructure project for Windows and Linux. Starting development in May of 2011, RPCS3 is capable of running over 1,300 commercial titles on top of its low-level Vulkan, OpenGL and DirectX 12 renderers.</span>
-							<a href="/download">
-							<div id='feature-btn-download' title="Download">
-								<span>DOWNLOAD </span>
+							<span>In nearly a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable. Here's what we've accomplished:</span>
+							<a href="https://rpcs3.net/blog/2017/12/01/rpcs3-begins-to-emulate-several-awaited-aaa-exclusives">
+							<div id='feature-btn-download' class="menu-btn-remove" title="Read More" style="display:block;">
+								<span>Read Blog Post</span>
 							</div>
 							</a>
 						</div>
 					</div>
 				</div>
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
-					<div id='feature-img-wrap' style="opacity:.05; background: url(/img/icons/menu/timer.png) no-repeat center; background-size: contain;">
+					<div id='feature-img-wrap' style="display:none; opacity:.05; background: url(/img/icons/menu/timer.png) no-repeat center; background-size: contain;">
 					</div>
-					<div id='timer-con-container'>
+					<!-- Featured Video -->
+					<div id='video-con-container' style="display:block;">
+						<div class="page-video-1" id='video-btn-player-b'>
+						</div>
+						<div id="video-ovr-player">
+						</div>
+						<div id="slideshow">
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/1.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/2.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/3.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/4.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/5.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/6.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/7.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/8.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/9.jpg" style="object-fit: cover;">
+							</div>
+							<div>
+								<img id='video-con-container-thumb' src="/img/thumbs/featured/10.jpg" style="object-fit: cover;">
+							</div>
+						</div>
+					</div>
+					<script>
+					$("#slideshow > div:gt(0)").hide();
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(768)
+    .next()
+    .fadeIn(768)
+    .end()
+    .appendTo('#slideshow');
+}, 5000);
+					</script>
+					<!-- Timer -->
+					<div id='timer-con-container' style="display:none;">
 						<div id='timer-tx1-body'>
 							 Synchronizing...
 						</div>
@@ -144,9 +162,9 @@
 	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
-			<span>ANNOUNCEMENTS</span>
+			<span>DIRECTORY</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/events.jpg') no-repeat center center !important; background-size: cover !important;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
 			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-promote">
@@ -163,7 +181,7 @@
 					<span>READ REPORT</span>
 				</div>
 				</a>
-				<div id='content-img-block' style="background: url('/img/events/progress.jpg') no-repeat center center !important; background-size: cover !important;">
+				<div id='content-img-block' style="background: url('/img/directory/progress.jpg') no-repeat center center !important; background-size: cover !important;">
 				</div>
 			</div>
 			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-hide">
@@ -180,7 +198,7 @@
 					<span>JOIN DISCUSSION</span>
 				</div>
 				</a>
-				<div id='content-img-block' style="background: url('/img/events/discord.jpg') no-repeat center center !important; background-size: cover !important;">
+				<div id='content-img-block' style="background: url('/img/directory/discord.jpg') no-repeat center center !important; background-size: cover !important;">
 				</div>
 			</div>
 			<div id='content-con-block-a' class="scale-override-hide">
@@ -196,7 +214,7 @@
 					<span>PULL REQUESTS</span>
 				</div>
 				</a>
-				<div id='content-img-block' style="background: url('/img/events/github.jpg') no-repeat center center !important; background-size: cover !important;">
+				<div id='content-img-block' style="background: url('/img/directory/github.jpg') no-repeat center center !important; background-size: cover !important;">
 				</div>
 			</div>
 		</div>
@@ -205,7 +223,7 @@
 		<div id='feature-tx1-heading' style="color:#fff" class="feature-txt-wrap-invert darkmode-txt2">
 			<span>FEATURED</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/1.jpg') no-repeat center center !important; background-size: cover !important;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div class='scale-offset-center'>
 			<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
@@ -231,7 +249,7 @@
 						</div>
 					</div>
 					<div id='video-con-container'>
-						<div class="page-video-1" id='video-btn-player-b'>
+						<div class="page-video-2" id='video-btn-player-b'>
 						</div>
 						<div id="video-ovr-player">
 						</div>
@@ -240,14 +258,14 @@
 						<div id="video-txt-uploader">
 							<span>By Reznoire</span>
 						</div>
-						<div id='video-con-container-thumb' style="background: url('/img/thumbs/1.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='video-con-container-thumb' style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
 				</div>
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
-							<span>PLAY ORIGINAL TITLES AT 4K AND BEYOND</span>
+							<span>PLAY PLAYSTATION 3 TITLES AT 4K AND BEYOND</span>
 						</div>
 						<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>RPCS3 not only allows you to play your favorite PlayStation 3 titles on a PC, but it also allows you to play them in 1080p, 4K and beyond. Never before you could re-imagine your favorite PlayStation 3 titles at higher resolutions, enhanced aliasing, better performance, and in some cases, higher framerates that greatly exceed original hardware.</span>
@@ -277,11 +295,11 @@
 		<div id='feature-tx1-heading' style="color:#fff">
 			<span>CONTRIBUTION</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/support.jpg') no-repeat center center !important; background-size: cover !important;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/patreon.png') no-repeat center center !important; background-size: 56px !important;">
+				<div id='contribute-ico-block' style="background: url(/img/icons/menu/patreon.png) no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>PATREON</span>
@@ -331,7 +349,7 @@
 		<div id='feature-tx1-heading' style="color:#fff" class="feature-txt-wrap-invert darkmode-txt2">
 			<span>COMMUNITY</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/6.jpg') no-repeat center center !important; background-size: cover !important;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div class='scale-offset-center'>
 			<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
@@ -350,46 +368,46 @@
 				</div>
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
 					<div class="feature-wrp-tease" style='left: 213px; top: -115px'>
-						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/2.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='right: 202px; top: -98px;'>
-						<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/3.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='left: 200px; bottom: -185px;'>
-						<div id='feature-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/4.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='feature-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/videos/6.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='right: 216px; top: 330px;'>
-						<div id='feature-con-tease' style="transform: scale(.55); background: url('/img/thumbs/5.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='feature-con-tease' style="transform: scale(.55); background: url('/img/thumbs/videos/7.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div class="feature-wrp-tease" style='left: 466px; top: 89px;'>
-						<div id='feature-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/7.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='feature-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/videos/8.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
 					<div id='video-con-container'>
-						<div class="page-video-6" id='video-btn-player-b'>
+						<div class="page-video-3" id='video-btn-player-b'>
 						</div>
 						<div id="video-ovr-player">
 						</div>
 						<div id="video-ico-uploader">
 						</div>
 						<div id="video-txt-uploader">
-							<span>By JollyRogers</span>
+							<span>By RPCS3</span>
 						</div>
-						<div id='video-con-container-thumb' style="background: url('/img/thumbs/6.jpg') no-repeat center center !important; background-size: cover !important;">
+						<div id='video-con-container-thumb' style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
 				</div>
@@ -400,7 +418,7 @@
 		<div id='feature-tx1-heading' style="color:#fff">
 			<span>PATREON</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/patreon.jpg') no-repeat center center !important; background-size: cover !important;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
 		</div>
 		<div id='feature-ico-divider-1' class="scale-override-hide">
 		</div>
@@ -411,7 +429,7 @@
 				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
 					<div id='feature-con-funding'>
 						<div id='feature-tx1-funding'>
-							<span>$3,300 <span style="color:#39ff14" class='scale-offset-txt-center'>USD</span></span>
+							<span>$3,390 <span style="color:#39ff14" class='scale-offset-txt-center'>USD</span></span>
 						</div>
 						<div id='feature-tx2-funding' class='scale-offset-txt-center'>
 							<span>Currently earned per-month in funding with 700+ Patrons</span>
@@ -461,7 +479,7 @@
 		<div id='feature-tx1-heading' style="color:#fff">
 			<span>GET STARTED</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/support.jpg') no-repeat center center !important; background-size: cover !important;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
 		</div>
 		<div id='feature-con-wrapper' class="feature-con-scrollable feature-con-scroller">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">

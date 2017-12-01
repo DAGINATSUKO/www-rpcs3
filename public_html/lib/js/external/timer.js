@@ -9,7 +9,8 @@ function CountDownTimer(dt, id) {
 	var timer;
 	function showRemaining() {
 		var now = new Date();
-		var distance = end - now;
+		var offset = now.getTimezoneOffset();
+		var distance = end - now - offset;
 		if (distance < 0) {
 			clearInterval(timer);
 			document.getElementById(id).innerHTML = 'Kaboom!';
