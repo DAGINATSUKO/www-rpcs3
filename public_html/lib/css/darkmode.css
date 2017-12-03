@@ -8,6 +8,9 @@
 .dm-header {
     background: linear-gradient(to right,rgba(100,0,132,.8),rgba(0,100,130,.8))!important;
 }
+.dm-header-patreon {
+    background: linear-gradient(to right,#5f261f,#251614) !important;
+}
 .dm-feature {
    background:#191d21!important;
 }

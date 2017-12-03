@@ -1,5 +1,5 @@
 <?php
-function preloadVideo($id, $vid, $title) {	
+function preloadVideo($id, $vid) {	
 echo "<script type=\"text/javascript\">
 $(document).ready(function() {
     $('.feature-{$id}-title').text(\"{$title}\");
