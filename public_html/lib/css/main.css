@@ -9,7 +9,9 @@
     position: relative;
     top: 0;
     height: auto;
-    margin: auto 60px;
+    margin: auto 0;
+    margin-right: 60px;
+    margin-left: 60px;
     padding-top: 20px;
 }
 #page-in-container {
@@ -654,7 +656,9 @@
     position: relative;
     top: 0;
     height: auto;
-    margin: auto 60px;
+    margin: auto 0;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 #titlesearch-con-inner {
     max-width: 1200px;
@@ -714,14 +718,14 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    left: 0;
+    left: 0px;
     z-index: 1;
 }
 #titlesearch-txt-search {
     width: auto;
     height: 50px;
     position: absolute;
-    right: 0;
+    right: 0px;
     z-index: 1;
     font-family: arial;
     font-size: 12px;
@@ -775,8 +779,11 @@
     min-height: 72px;
     margin-bottom: 20px;
     padding-bottom: 1px;
-    border: 2px solid rgba(255, 255, 255, 0);
+    border: solid 1px #fff;
+    border-top: 2px solid rgba(255,255,255,0);
+    border-right: 2px solid rgba(255,255,255,0);
     border-bottom: 1px solid #e4e4e4;
+    border-left: 2px solid rgba(255,255,255,0);
     background: #fff;
 }
 #panel-con-container:hover {
@@ -816,8 +823,11 @@
     min-height: 72px;
     margin-bottom: 20px;
     padding-bottom: 1px;
-    border: 2px solid rgba(255,255,255,0);
+    border: solid 1px #fff;
+    border-top: 2px solid rgba(255,255,255,0);
+    border-right: 2px solid rgba(255,255,255,0);
     border-bottom: 1px solid #e4e4e4;
+    border-left: 2px solid rgba(255,255,255,0);
     background: #fff;
 }
 #guide-con-wrapper {
@@ -847,7 +857,10 @@
 }
 #guide-tx1-container span {
     background: rgba(69,89,113,.1);
-    padding: 10px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 100%;
 }
 #guide-tx1-heading {
@@ -1017,7 +1030,7 @@
     width: 100%;
     height: auto;
     top: 50%;
-    margin: -89px 0;
+    margin: -89px 0px;
 }
 #timer-con-separator {
     width: 100%;
@@ -1221,7 +1234,10 @@
     position: absolute;
     top: 16px;
     height: 14px;
-    padding: 8px 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
     transition: .1s ease-in-out;
     border-radius: 6px;
     background: rgba(255,255,255,0);
@@ -1231,7 +1247,10 @@
     background: rgba(255,255,255,.1);
 }
 #footer-btn-credits {
-    padding: 8px 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
     transition: .1s ease-in-out;
     border-radius: 6px;
     background: rgba(255,255,255,0);
@@ -1261,7 +1280,10 @@
     color: #fff!important;
 }
 .txt-highlight {
-    padding: 3px 6px;
+    padding-top: 3px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    padding-left: 6px;
     color: #455971;
     background: rgba(69,89,113,.1);
     margin-left: 4px;
@@ -1278,7 +1300,10 @@
     top: 2px;
     color: #fff;
     background: #20b2aa;
-    padding: 1px 6px;
+    padding-top: 1px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    padding-left: 6px;
 }
 .div-anchor {
     position: absolute;
