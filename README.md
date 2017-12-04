@@ -22,7 +22,7 @@ From there, open a web browser of your choosing and navigate to [localhost:8080]
 
 #### Internal Resources
 * Milk UX - [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* Compatibility - [AniLeo](https://github.com/AniLeo)
+* Compatibility List - [AniLeo](https://github.com/AniLeo)
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com)
