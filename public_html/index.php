@@ -32,11 +32,6 @@
 <div id="page-con-content" class="page-content-override">
 	<div id='page-ico-scroll' class='fade-in-sc' title="Scroll for more content">
 	</div>
-	<div id='page-txt-build'>
-		<div id='page-ico-build'>
-		</div>
-		<span style="height: 40px; position: relative; top: -15px;">This page is a work in progress!</span>
-	</div>
 	<div id="page-con-feature-a" style="background:#000;">
 		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
 			<div class="visual-wavebar-1">

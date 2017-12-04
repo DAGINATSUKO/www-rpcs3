@@ -296,15 +296,13 @@
     position: relative;
     height: 60px;
     width: 60px;
-    margin: -30px;
+    margin: -30px -30px -38px -30px;
     left: 50%;
     font-family: arial;
     font-size: 15px;
     line-height: 60px;
     color: #fff;
     text-align: center;
-    top: 0px;
-    margin-bottom: -38px;
     background: #4c5bd7;
     border-radius: 100%;
     z-index: 1;
@@ -403,7 +401,6 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 50px;
-    position: relative;
     position: relative;
     height: 50px;
     padding-left: 20px;
