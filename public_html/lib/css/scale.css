@@ -115,12 +115,18 @@
 	}
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:1440px) {
+	#menu-btn-debug {
+		display: none !important;
+	}
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:900px) {
 	#footer-btn-webmaster {
 		display: none !important;
 	}
 }
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1110px) {
 	#menu-con-support {
 		display: none !important;
 	}

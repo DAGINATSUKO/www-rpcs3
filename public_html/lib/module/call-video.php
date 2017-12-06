@@ -1,9 +1,6 @@
 <?php
 function preloadVideo($id, $vid) {	
 echo "<script type=\"text/javascript\">
-$(document).ready(function() {
-    $('.feature-{$id}-title').text(\"{$title}\");
-});
 </script>
 <div id=\"video-con-dim\" class=\"toggle-video-{$id} stop-video\">
 	<div id=\"video-con-viewport\" class=\"video-con-scale\">

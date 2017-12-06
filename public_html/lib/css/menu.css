@@ -50,6 +50,13 @@
     height: 100%;
     background: linear-gradient(to right,rgba(166,0,217,.9),rgba(0,196,255,.9));
 }
+#menu-und-l3 {
+    position: absolute;
+    width: 100%;
+    height: 63px;
+    background: linear-gradient(to right,rgba(100,0,132,.8),rgba(0,100,130,.8))!important;
+    z-index: 1;
+}
 #menu-con-container {
     position: relative;
     top: 0;
@@ -362,7 +369,7 @@
     display: none;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.2);
+    background: rgba(0,0,0,.5);
 }
 #navsidebar-con-anim {
     position: fixed;
@@ -370,14 +377,14 @@
     top: 0;
     overflow-x: hidden;
     overflow-y: scroll;
-    width: 370px;
+    width: 400px;
     height: 100%;
     transition: all .2s ease-in-out;
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
     -webkit-animation-duration: .2s;
     -webkit-animation-iteration-count: 1;
-    background: #fff;
+    background: linear-gradient(to bottom,rgba(100, 0, 132, 0.96),rgba(0, 100, 130, 0.96))!important;
     -webkit-overflow-scrolling: touch;
 }
 #navsidebar-con-anim::-webkit-scrollbar {
@@ -390,11 +397,11 @@
     line-height: 60px;
     position: relative;
     z-index: 2;
-    width: 350px;
+    width: 100%;
     height: 62px;
     padding-left: 20px;
     color: #fff;
-    background: #4c5bd7;
+    background: rgba(255, 255, 255, 0.1);
 }
 #navsidebar-tx1-topic {
     font-family: arial;
@@ -405,7 +412,7 @@
     height: 50px;
     padding-left: 20px;
     text-align: left;
-    color: #455971;
+    color: #fff;
 }
 #navsidebar-tx2-topic {
     font-family: arial;
@@ -415,6 +422,7 @@
     height: 25px;
     padding-left: 35px;
     text-align: left;
+    color: #fff;
 }
 #blogsidebar-con-anim {
     position: fixed;

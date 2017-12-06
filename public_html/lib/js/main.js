@@ -1,3 +1,39 @@
+/* Handles debugger toggles */
+$(document).ready(function() {
+    $(".popup-debug").hide();
+    $(".toggle-debug").click(function() {
+        $(".popup-debug").fadeToggle(100);
+    });
+    $(".popup-debug").hide();
+    $(".popup-debug").click(function() {
+        $(".popup-debug").fadeOut(100);
+    });
+});
+/* Handles pre-fetch for display size */
+$(document).ready(function() {
+    var resolution = $(".debug-resolution");
+    var canvas = $(".debug-canvas");
+    window.addEventListener("resize", displayViewportSize, false);
+    displayViewportSize(null);
+
+    function displayViewportSize(e) {
+        resolution.text("");
+        canvas.text("");
+        resolution.append(window.screen.width + " x " + window.screen.height);
+        canvas.append(document.documentElement.clientWidth + " x " + document.documentElement.clientHeight);
+    }
+});
+/* Handles pre-fetch for Navigator API */
+$(document).ready(function() {
+    $('.debug-mobile').text(navigator.mobile)
+    $('.debug-browser').text(navigator.browser)
+    $('.debug-version').text(navigator.version)
+    $('.debug-webkit').text(navigator.webkit)
+    $('.debug-platform').text(navigator.platform)
+    $('.debug-cookies').text(navigator.cookieEnabled)
+    $('.debug-language').text(navigator.language)
+    $('.debug-online').text(navigator.onLine)
+});
 /* Randomly loads header banner image for each page */
 $(document).ready(function() {
     var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg', '21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg', '31.jpg', '32.jpg', '33.jpg', '34.jpg', '35.jpg', '36.jpg', '37.jpg', '38.jpg', '39.jpg', '40.jpg', '41.jpg', '42.jpg', '43.jpg', '44.jpg', '45.jpg', '46.jpg', '47.jpg', '48.jpg', '49.jpg', '50.jpg', '51.jpg', '52.jpg', '53.jpg', '54.jpg', '55.jpg', '56.jpg', '57.jpg', '58.jpg', '59.jpg', '60.jpg', '61.jpg', '62.jpg', '63.jpg', '64.jpg'];
@@ -140,7 +176,7 @@ $(document).ready(function() {
         $('.support-subtrigger').hover(function() {
             $('.support-submenu').stop().fadeIn(100);
         }, function() {
-            $('.support-submenu').stop().fadeOut(100);
+            $('.support-submenu').fadeOut(100);
         });
     });
 });
@@ -213,92 +249,92 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(".toggle-video-1").hide();
     $(".page-video-1").click(function() {
-        $(".toggle-video-1").fadeIn('fast');
+        $(".toggle-video-1").fadeIn('100');
     });
     $(".toggle-video-1").hide();
     $(".toggle-video-1").click(function() {
-        $(".toggle-video-1").fadeOut('fast');
+        $(".toggle-video-1").fadeOut('100');
     });
     /* Handles featured video #2 toggle */
     $(".toggle-video-2").hide();
     $(".page-video-2").click(function() {
-        $(".toggle-video-2").fadeIn('fast');
+        $(".toggle-video-2").fadeIn('100');
     });
     $(".toggle-video-2").hide();
     $(".toggle-video-2").click(function() {
-        $(".toggle-video-2").fadeOut('fast');
+        $(".toggle-video-2").fadeOut('100');
     });
     /* Handles featured video #3 toggle */
     $(".toggle-video-3").hide();
     $(".page-video-3").click(function() {
-        $(".toggle-video-3").fadeIn('fast');
+        $(".toggle-video-3").fadeIn('100');
     });
     $(".toggle-video-3").hide();
     $(".toggle-video-3").click(function() {
-        $(".toggle-video-3").fadeOut('fast');
+        $(".toggle-video-3").fadeOut('100');
     });
     /* Handles featured video #4 toggle */
     $(".toggle-video-4").hide();
     $(".page-video-4").click(function() {
-        $(".toggle-video-4").fadeIn('fast');
+        $(".toggle-video-4").fadeIn('100');
     });
     $(".toggle-video-4").hide();
     $(".toggle-video-4").click(function() {
-        $(".toggle-video-4").fadeOut('fast');
+        $(".toggle-video-4").fadeOut('100');
     });
     /* Handles featured video #5 toggle */
     $(".toggle-video-5").hide();
     $(".page-video-5").click(function() {
-        $(".toggle-video-5").fadeIn('fast');
+        $(".toggle-video-5").fadeIn('100');
     });
     $(".toggle-video-5").hide();
     $(".toggle-video-5").click(function() {
-        $(".toggle-video-5").fadeOut('fast');
+        $(".toggle-video-5").fadeOut('100');
     });
     /* Handles featured video #6 toggle */
     $(".toggle-video-6").hide();
     $(".page-video-6").click(function() {
-        $(".toggle-video-6").fadeIn('fast');
+        $(".toggle-video-6").fadeIn('100');
     });
     $(".toggle-video-6").hide();
     $(".toggle-video-6").click(function() {
-        $(".toggle-video-6").fadeOut('fast');
+        $(".toggle-video-6").fadeOut('100');
     });
     /* Handles featured video #7 toggle */
     $(".toggle-video-7").hide();
     $(".page-video-7").click(function() {
-        $(".toggle-video-7").fadeIn('fast');
+        $(".toggle-video-7").fadeIn('100');
     });
     $(".toggle-video-7").hide();
     $(".toggle-video-7").click(function() {
-        $(".toggle-video-7").fadeOut('fast');
+        $(".toggle-video-7").fadeOut('100');
     });
     /* Handles featured video #8 toggle */
     $(".toggle-video-8").hide();
     $(".page-video-8").click(function() {
-        $(".toggle-video-8").fadeIn('fast');
+        $(".toggle-video-8").fadeIn('100');
     });
     $(".toggle-video-8").hide();
     $(".toggle-video-8").click(function() {
-        $(".toggle-video-8").fadeOut('fast');
+        $(".toggle-video-8").fadeOut('100');
     });
     /* Handles featured video #9 toggle */
     $(".toggle-video-9").hide();
     $(".page-video-9").click(function() {
-        $(".toggle-video-9").fadeIn('fast');
+        $(".toggle-video-9").fadeIn('100');
     });
     $(".toggle-video-9").hide();
     $(".toggle-video-9").click(function() {
-        $(".toggle-video-9").fadeOut('fast');
+        $(".toggle-video-9").fadeOut('100');
     });
     /* Handles featured video #10 toggle */
     $(".toggle-video-10").hide();
     $(".page-video-10").click(function() {
-        $(".toggle-video-10").fadeIn('fast');
+        $(".toggle-video-10").fadeIn('100');
     });
     $(".toggle-video-10").hide();
     $(".toggle-video-10").click(function() {
-        $(".toggle-video-10").fadeOut('fast');
+        $(".toggle-video-10").fadeOut('100');
     });
 });
 /* Handles start and stop of featured video #1 */

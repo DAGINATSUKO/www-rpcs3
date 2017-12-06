@@ -185,7 +185,7 @@ setInterval(function() {
 					</div>
 					<div id='content-tx1-block'>
 						<span>
-						Join our Discord community, featuring over 19,000 members and growing for up-to-the-minute news, announcements and support in PlayStation 3 emulation. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a quick-response compatibility bot that allows users to request the status for over 2888 tested original PlayStation 3 titles. These titles include both disc-based titles and PlayStation Network titles. </span>
+						Join our Discord community, featuring over 22,000 members and growing for up-to-the-minute news, announcements and support in PlayStation 3 emulation. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a quick-response compatibility bot that allows users to request the status for over 2888 tested original PlayStation 3 titles. These titles include both disc-based titles and PlayStation Network titles. </span>
 					</div>
 				</div>
 				<a href="https://discord.me/RPCS3" target="_blank">
