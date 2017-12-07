@@ -52,7 +52,7 @@
 						</div>
 						<div id='feature-tx2-wrap'>
 							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the LLVM Compiler Infrastructure project for Windows and Linux. Starting development in May of 2011, RPCS3 is capable of running over 1,300 commercial titles on top of its low-level Vulkan, OpenGL and DirectX 12 renderers.</span>
-							<a href="http://localhost:8888/download">
+							<a href="/download">
 							<div id='feature-btn-download' class="scale-override-hide" title="Download">
 								<span>DOWNLOAD</span>
 							</div>
