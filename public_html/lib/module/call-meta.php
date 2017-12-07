@@ -11,6 +11,7 @@
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/appicon-120.png" sizes="120x120"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/appicon-144.png" sizes="144x144"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/appicon-152.png" sizes="152x152"/>
+<meta name="viewport" content="width=650, user-scalable=no">
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="https://rpcs3.net"/>
 <meta property="og:type" content="website"/>

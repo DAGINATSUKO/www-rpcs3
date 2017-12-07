@@ -1,5 +1,5 @@
 <body>
-<div class="nav-standard" id="navsidebar-btn-open" title="Menu">
+<div id="navsidebar-btn-open" class="nav-standard scale-menu-btn-remove" title="Menu">
 </div>
 <div class='toggle-navsidebar' id='navsidebar-con-dim' style="display:block">
 	<div class='dropin-load darkmode-navsidebar-anim' id='navsidebar-con-anim'>

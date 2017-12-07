@@ -1,3 +1,21 @@
+$(document).ready(function() {
+document.documentElement.addEventListener('touchstart', function (event) {
+            if (event.touches.length > 1) {
+                event.preventDefault();
+            }
+        }, false);
+});
+/* Handles mobile menu toggles */
+$(document).ready(function() {
+    $(".popup-mobilemenu").hide();
+    $(".toggle-mobilemenu").click(function() {
+        $(".popup-mobilemenu").fadeToggle(100);
+    });
+    $(".popup-mobilemenu").hide();
+    $(".popup-mobilemenu").click(function() {
+        $(".popup-mobilemenu").fadeOut(100);
+    });
+});
 /* Handles debugger toggles */
 $(document).ready(function() {
     $(".popup-debug").hide();
@@ -80,7 +98,7 @@ $(window).load(function() {
 });
 /* Handles standard wavebar animation */
 $(window).load(function() {
-    var $wavebarFX = $(".visual-wavebar-1"),
+    var $wavebarFX = $(".visual-wavebar"),
         wavebarWidth = 25,
         wavebarCount = $(window).width() / wavebarWidth;
     for (var i = 0; i < wavebarCount; i++) {
@@ -249,83 +267,83 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(".toggle-video-1").hide();
     $(".page-video-1").click(function() {
-        $(".toggle-video-1").fadeIn('100');
+        $(".toggle-video-1").fadeIn('fast');
     });
     $(".toggle-video-1").hide();
     $(".toggle-video-1").click(function() {
-        $(".toggle-video-1").fadeOut('100');
+        $(".toggle-video-1").fadeOut('fast');
     });
     /* Handles featured video #2 toggle */
     $(".toggle-video-2").hide();
     $(".page-video-2").click(function() {
-        $(".toggle-video-2").fadeIn('100');
+        $(".toggle-video-2").fadeIn('fast');
     });
     $(".toggle-video-2").hide();
     $(".toggle-video-2").click(function() {
-        $(".toggle-video-2").fadeOut('100');
+        $(".toggle-video-2").fadeOut('fast');
     });
     /* Handles featured video #3 toggle */
     $(".toggle-video-3").hide();
     $(".page-video-3").click(function() {
-        $(".toggle-video-3").fadeIn('100');
+        $(".toggle-video-3").fadeIn('fast');
     });
     $(".toggle-video-3").hide();
     $(".toggle-video-3").click(function() {
-        $(".toggle-video-3").fadeOut('100');
+        $(".toggle-video-3").fadeOut('fast');
     });
     /* Handles featured video #4 toggle */
     $(".toggle-video-4").hide();
     $(".page-video-4").click(function() {
-        $(".toggle-video-4").fadeIn('100');
+        $(".toggle-video-4").fadeIn('fast');
     });
     $(".toggle-video-4").hide();
     $(".toggle-video-4").click(function() {
-        $(".toggle-video-4").fadeOut('100');
+        $(".toggle-video-4").fadeOut('fast');
     });
     /* Handles featured video #5 toggle */
     $(".toggle-video-5").hide();
     $(".page-video-5").click(function() {
-        $(".toggle-video-5").fadeIn('100');
+        $(".toggle-video-5").fadeIn('fast');
     });
     $(".toggle-video-5").hide();
     $(".toggle-video-5").click(function() {
-        $(".toggle-video-5").fadeOut('100');
+        $(".toggle-video-5").fadeOut('fast');
     });
     /* Handles featured video #6 toggle */
     $(".toggle-video-6").hide();
     $(".page-video-6").click(function() {
-        $(".toggle-video-6").fadeIn('100');
+        $(".toggle-video-6").fadeIn('fast');
     });
     $(".toggle-video-6").hide();
     $(".toggle-video-6").click(function() {
-        $(".toggle-video-6").fadeOut('100');
+        $(".toggle-video-6").fadeOut('fast');
     });
     /* Handles featured video #7 toggle */
     $(".toggle-video-7").hide();
     $(".page-video-7").click(function() {
-        $(".toggle-video-7").fadeIn('100');
+        $(".toggle-video-7").fadeIn('fast');
     });
     $(".toggle-video-7").hide();
     $(".toggle-video-7").click(function() {
-        $(".toggle-video-7").fadeOut('100');
+        $(".toggle-video-7").fadeOut('fast');
     });
     /* Handles featured video #8 toggle */
     $(".toggle-video-8").hide();
     $(".page-video-8").click(function() {
-        $(".toggle-video-8").fadeIn('100');
+        $(".toggle-video-8").fadeIn('fast');
     });
     $(".toggle-video-8").hide();
     $(".toggle-video-8").click(function() {
-        $(".toggle-video-8").fadeOut('100');
+        $(".toggle-video-8").fadeOut('fast');
     });
     /* Handles featured video #9 toggle */
     $(".toggle-video-9").hide();
     $(".page-video-9").click(function() {
-        $(".toggle-video-9").fadeIn('100');
+        $(".toggle-video-9").fadeIn('fast');
     });
     $(".toggle-video-9").hide();
     $(".toggle-video-9").click(function() {
-        $(".toggle-video-9").fadeOut('100');
+        $(".toggle-video-9").fadeOut('fast');
     });
     /* Handles featured video #10 toggle */
     $(".toggle-video-10").hide();

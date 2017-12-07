@@ -3,9 +3,9 @@
 	<div id="footer-ico-container">
 	</div>
 	<div id="wavebar-con-wrapper" class="dynamic-wavebar" style="height:100%;">
-		<div class="visual-wavebar-1">
+		<div class="scale-wavebar-hide visual-wavebar">
 		</div>
-		<div class="visual-wavebar-1 delayed-fade" style="display:none;">
+		<div class="scale-wavebar-hide visual-wavebar delayed-fade" style="display:none;">
 		</div>
 	</div>
 	<div id="footer-ot-container">

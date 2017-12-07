@@ -22,7 +22,7 @@
 	);
 	preloadVideo(
 	'2',
-	'-4D8532vxGI'
+	'q-ApI7L-Slk'
 	);
 	preloadVideo(
 	'3',
@@ -34,9 +34,9 @@
 	</div>
 	<div id="page-con-feature-a" style="background:#000;">
 		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
-			<div class="visual-wavebar-1">
+			<div class="scale-wavebar-hide visual-wavebar">
 			</div>
-			<div class="visual-wavebar-1 delayed-fade" style="display:none;">
+			<div class="scale-wavebar-hide visual-wavebar delayed-fade" style="display:none;">
 			</div>
 		</div>
 		<div id='header-img-head' class="dynamic-banner">
@@ -45,60 +45,60 @@
 		</div>
 		<div class="scale-offset-center">
 			<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
-				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a feature-con-greeting-scaler'>
+				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap'>
-							<span>UNVEILING A SLEW OF EXCLUSIVE INGAME TITLES</span>
+							<span>THE WORLD'S FIRST PLAYSTATION 3 EMULATOR</span>
 						</div>
 						<div id='feature-tx2-wrap'>
-							<span>In nearly a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable. Here's what we've accomplished:</span>
-							<a href="https://rpcs3.net/blog/2017/12/01/rpcs3-begins-to-emulate-several-awaited-aaa-exclusives">
-							<div id='feature-btn-download' class="menu-btn-remove" title="Read More" style="display:block;">
-								<span>Read More</span>
+							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the LLVM Compiler Infrastructure project for Windows and Linux. Starting development in May of 2011, RPCS3 is capable of running over 1,300 commercial titles on top of its low-level Vulkan, OpenGL and DirectX 12 renderers.</span>
+							<a href="http://localhost:8888/download">
+							<div id='feature-btn-download' class="scale-override-hide" title="Download">
+								<span>DOWNLOAD</span>
 							</div>
 							</a>
 						</div>
 					</div>
 				</div>
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
-					<div id='feature-img-wrap' style="display:none; opacity:.05; background: url(/img/icons/menu/timer.png) no-repeat center; background-size: contain;">
+					<div id='feature-img-wrap' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
 					</div>
 					<!-- Featured Video -->
-					<div id='video-con-container' style="display:block;">
+					<div id='video-con-container' style="display:none;">
 						<div class="page-video-1" id='video-btn-player-b'>
 						</div>
 						<div id="video-ovr-player">
 						</div>
 						<div id="video-con-slideshow">
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/1.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/2.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/3.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/4.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/5.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/6.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/7.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/8.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/9.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img id='video-con-container-thumb' src="/img/thumbs/featured/10.jpg" style="object-fit: cover;">
+								<img id='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -162,7 +162,7 @@ setInterval(function() {
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
 		</div>
 		<div id='feature-con-wrapper' class="">
-			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-promote">
+			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-content-block-promote">
 				<div id='content-img-overlay' class="content-img-overlay-a">
 					<div id='content-ico-block' style="background: url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
@@ -223,23 +223,23 @@ setInterval(function() {
 		<div class='scale-offset-center'>
 			<div id='feature-con-wrapper' class='feature-con-wrapper-scaler-a'>
 				<div id='feature-con-wrap-left' class='feature-con-wrap-left-scaler-a'>
-					<div class="feature-wrp-tease" style='left: 213px; top: -115px'>
+					<div class="feature-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
 						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/games/1.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='right: 202px; top: -178px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='right: 202px; top: -178px;'>
 						<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/games/2.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='right: 200px; bottom: -168px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='right: 200px; bottom: -168px;'>
 						<div id='feature-con-tease' style=" transform: scale(.5); background: url('/img/thumbs/games/3.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='left: 225px; top: 340px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='left: 225px; top: 340px;'>
 						<div id='feature-con-tease' style="transform: scale(.7); background: url('/img/thumbs/games/4.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='right: 390px; top: 104px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='right: 390px; top: 104px;'>
 						<div id='feature-con-tease' style=" transform: scale(.65); background: url('/img/thumbs/games/5.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
 					</div>
@@ -251,7 +251,7 @@ setInterval(function() {
 						<div id="video-ico-uploader">
 						</div>
 						<div id="video-txt-uploader">
-							<span>By Reznoire</span>
+							<span>By RPCS3</span>
 						</div>
 						<div id='video-con-container-thumb' style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
@@ -260,10 +260,10 @@ setInterval(function() {
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
-							<span>PLAY PLAYSTATION 3 TITLES AT 4K AND BEYOND</span>
+							<span>UNVEILING A SLEW OF EXCLUSIVE INGAME TITLES<span>
 						</div>
 						<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
-							<span>RPCS3 not only allows you to play your favorite PlayStation 3 titles on a PC, but it also allows you to play them in 1080p, 4K and beyond. Never before you could re-imagine your favorite PlayStation 3 titles at higher resolutions, enhanced aliasing, better performance, and in some cases, higher framerates that greatly exceed original hardware.</span>
+							<span>In nearly a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable. Here's what we've accomplished:</span>
 						</div>
 					</div>
 				</div>
@@ -327,7 +327,7 @@ setInterval(function() {
 					</div>
 				</div>
 			</div>
-			<div id='patreon-con-block-a' class="scale-override-promote darkmode-block">
+			<div id='patreon-con-block-a' class="scale-content-block-promote darkmode-block">
 				<div id='patreon-img-overlay' class="patreon-img-overlay-c">
 					<div id='patreon-tx1-title' class="darkmode-txt">
 						<span>$4,000</span>
@@ -369,31 +369,31 @@ setInterval(function() {
 					</div>
 				</div>
 				<div id='feature-con-wrap-right' class='feature-con-wrap-right-scaler-a'>
-					<div class="feature-wrp-tease" style='left: 213px; top: -115px'>
+					<div class="feature-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
 						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='right: 202px; top: -98px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='right: 202px; top: -98px;'>
 						<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='left: 200px; bottom: -185px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='left: 200px; bottom: -185px;'>
 						<div id='feature-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/videos/6.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='right: 216px; top: 330px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='right: 216px; top: 330px;'>
 						<div id='feature-con-tease' style="transform: scale(.55); background: url('/img/thumbs/videos/7.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
 						</div>
 					</div>
-					<div class="feature-wrp-tease" style='left: 466px; top: 89px;'>
+					<div class="feature-wrp-tease scale-override-hide" style='left: 466px; top: 89px;'>
 						<div id='feature-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/videos/8.jpg') no-repeat center center !important; background-size: cover !important;">
 							<div id='video-btn-player-b' class="div-touchless">
 							</div>
@@ -438,7 +438,7 @@ setInterval(function() {
 				</div>
 				</a>
 			</div>
-			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-content-block-promote">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/code.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
@@ -503,7 +503,7 @@ setInterval(function() {
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
 		</div>
 		<div id='feature-con-wrapper' class="">
-			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-promote">
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-content-block-promote">
 				<div id='contribute-ico-block' style="background: url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
