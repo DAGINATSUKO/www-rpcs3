@@ -3,10 +3,7 @@
     background: rgba(0,0,0,.0)!important;
 }
 .gm-menubar-l1 {
-    background: rgba(0,0,0,.6)!important;
-}
-.gm-menubar-l2 {
-    background: rgba(0,0,0,.0)!important;
+    background: rgba(0,0,0,.8)!important;
 }
 #alert-tx1-message {
     font-family: arial;
@@ -88,7 +85,7 @@
     line-height: 60px;
     color: #fff;
     letter-spacing: 6px;
-    border-bottom: solid 2px rgba(255, 255, 255, 0);
+    border-bottom: solid 2px rgba(255,255,255,0);
     transition: .1s ease-in-out;
 }
 #menu-tx1-mobile:hover {
@@ -455,7 +452,7 @@
     position: relative;
     left: 0;
     float: left;
-    width: 300px;
+    width: auto;
     height: 100%;
     padding-left: 25px;
     color: #fff;

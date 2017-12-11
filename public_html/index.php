@@ -159,7 +159,7 @@ setInterval(function() {
 		<div id='feature-tx1-heading' style="color:#fff">
 			<span>DIRECTORY</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/directory.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div id='feature-con-wrapper' class="">
 			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-content-block-promote">
@@ -424,7 +424,7 @@ setInterval(function() {
 		</div>
 		<div id='feature-con-wrapper' class="">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url(/img/icons/menu/patreon.png) no-repeat center center !important; background-size: 56px !important;">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url(/img/icons/menu/patreon.png) no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>PATREON</span>
@@ -439,7 +439,7 @@ setInterval(function() {
 				</a>
 			</div>
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-content-block-promote">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/code.png') no-repeat center center !important; background-size: 56px !important;">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/code.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>GITHUB</span>
@@ -454,7 +454,7 @@ setInterval(function() {
 				</a>
 			</div>
 			<div id='content-con-block-b' class="darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/testing.png') no-repeat center center !important; background-size: 56px !important;">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/testing.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>TESTING</span>
@@ -500,11 +500,11 @@ setInterval(function() {
 		<div id='feature-tx1-heading' style="color:#fff">
 			<span>GET STARTED</span>
 		</div>
-		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000;">
+		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/getstarted.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div id='feature-con-wrapper' class="">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-content-block-promote">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>QUICKSTART</span>
@@ -519,7 +519,7 @@ setInterval(function() {
 				</a>
 			</div>
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/faqs.png') no-repeat center center !important; background-size: 56px !important;">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/faqs.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>FAQs</span>
@@ -534,7 +534,7 @@ setInterval(function() {
 				</a>
 			</div>
 			<div id='content-con-block-b' class="darkmode-block scale-override-hide">
-				<div id='contribute-ico-block' style="background: url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 56px !important;">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
 					<span>ROADMAP</span>

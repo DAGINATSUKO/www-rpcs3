@@ -45,12 +45,16 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.debug-mobile').text(navigator.mobile)
     $('.debug-browser').text(navigator.browser)
+	$('.debug-codename').text(navigator.product)
     $('.debug-version').text(navigator.version)
     $('.debug-webkit').text(navigator.webkit)
     $('.debug-platform').text(navigator.platform)
     $('.debug-cookies').text(navigator.cookieEnabled)
     $('.debug-language').text(navigator.language)
     $('.debug-online').text(navigator.onLine)
+	$('.debug-agent').text(navigator.userAgent)
+	$('.debug-java').text(navigator.javaEnabled())
+	$('.debug-agent').text(navigator.userAgent)
 });
 /* Randomly loads header banner image for each page */
 $(document).ready(function() {
@@ -147,36 +151,6 @@ $(window).load(function() {
             $('.darkmode-menubar-l1').toggleClass("gm-menubar-l1");
             $('.darkmode-menubar-l2').toggleClass("gm-menubar-l2");
         }
-    });
-});
-/* Handles gallery grid view on load */
-$(window).load(function() {
-    $(window).resize(function() {
-        $('#gallery-con-viewport').height($(window).height() - 160);
-        $('#gallery-con-viewport').width($(window).width() - 160);
-    });
-    $(window).trigger('resize');
-});
-/* Handles gallery on-click image fetching */
-$(document).ready(function() {
-    $(function() {
-        $(".gallery-img-thumb a").click(function(e) {
-            var href = $(this).attr("href");
-            $("#gallery-img-big img").attr("src", href);
-            e.preventDefault();
-            return false;
-        });
-    });
-});
-/* Handles gallery toggles */
-$(document).ready(function() {
-    $(".popup-gallery").hide();
-    $(".toggle-gallery").click(function() {
-        $(".popup-gallery").fadeIn(288);
-    });
-    $(".popup-gallery").hide();
-    $(".popup-gallery").click(function() {
-        $(".popup-gallery").fadeOut(288);
     });
 });
 /* Handles anchor links */

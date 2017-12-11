@@ -16,7 +16,7 @@
 				</a>
 			</div>
 			<div id="menu-tx1-mobile" class="toggle-mobilemenu scale-mobile-menu" title="Menu">
-			<span>MENU</span>
+				<span>MENU</span>
 			</div>
 			<a href='/blog'>
 			<div id="menu-btn-select" class="scale-menu-btn-remove" title="Blog">
@@ -33,11 +33,6 @@
 				<span>Compatibility</span>
 			</div>
 			</a>
-			<a href='/screenshots'>
-			<div id="menu-btn-select" class="scale-menu-btn-remove" title="Screenshots">
-				<span>Screenshots</span>
-			</div>
-			</a>
 			<a href='/download'>
 			<div id="menu-btn-select" class="scale-menu-btn-remove" title="Download">
 				<span>Download</span>
@@ -51,6 +46,11 @@
 			<a href='/roadmap'>
 			<div id="menu-btn-select" class="scale-menu-btn-remove" title="Roadmap">
 				<span>Roadmap</span>
+			</div>
+			</a>
+			<a href='/disclaimer'>
+			<div id="menu-btn-select" class="scale-menu-btn-remove" title="Disclaimer">
+				<span>Disclaimer</span>
 			</div>
 			</a>
 			<a href='/faq'>
@@ -137,7 +137,7 @@
 		<div id="page-con-container">
 			<div id="page-in-container" style="overflow: hidden !important;">
 				<div id='mobilemenu-con-title'>
-					<span>DEBUGGER</span>
+					<span>DEBUGGER (WIP)</span>
 				</div>
 				<div id='mobilemenu-con-category'>
 					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .1s;'>
@@ -184,13 +184,33 @@
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
+							<span>User Agent</span>
+						</div>
+						<div id='mobilemenu-tgl-button' class='debug-agent'>
+							<span>N/A</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .6s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
 							<span>Browser</span>
 						</div>
 						<div class='debug-browser' id='mobilemenu-tgl-button'>
 							<span>N/A</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .6s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .7s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>Codename</span>
+						</div>
+						<div class='debug-codename' id='mobilemenu-tgl-button'>
+							<span>N/A</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .8s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -200,7 +220,7 @@
 							<span>N/A</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .7s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .9s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -210,7 +230,7 @@
 							<span>N/A</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .8s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.0s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -220,7 +240,7 @@
 							<span>N/A</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .9s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.1s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -230,7 +250,7 @@
 							<span>N/A</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.0s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.2s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -240,7 +260,17 @@
 							<span>N/A</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.1s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.3s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>Java</span>
+						</div>
+						<div class='debug-java' id='mobilemenu-tgl-button'>
+							<span>N/A</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.4s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -248,36 +278,6 @@
 						</div>
 						<div class='debug-online' id='mobilemenu-tgl-button'>
 							<span>N/A</span>
-						</div>
-					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.2s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>Server</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Linux</span>
-						</div>
-					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.3s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>Security</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>SSL</span>
-						</div>
-					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.4s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>Milk UX</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Version 1.00</span>
 						</div>
 					</div>
 					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.5s;'>
@@ -320,14 +320,64 @@
 							<span>Version 3.2.1</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.9s; margin-bottom: 200px;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.9s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
 							<span>HDR</span>
 						</div>
 						<div id='mobilemenu-tgl-button'>
-							<span>Version 10</span>
+							<span>Compliant</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.0s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>Milk UX</span>
+						</div>
+						<div id='mobilemenu-tgl-button'>
+							<span>Version 1.00</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.1s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>Max Res</span>
+						</div>
+						<div id='mobilemenu-tgl-button'>
+							<span>7680 x 4320</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.2s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>Min Res</span>
+						</div>
+						<div id='mobilemenu-tgl-button'>
+							<span>648 x 480</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.3s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>MID</span>
+						</div>
+						<div id='mobilemenu-tgl-button'>
+							<span>61R9KZJG</span>
+						</div>
+					</div>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.4s; margin-bottom:200px;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>Signature</span>
+						</div>
+						<div id='mobilemenu-tgl-button'>
+							<span>R7IVZH7W9BBKQ3RHH5BR</span>
 						</div>
 					</div>
 				</div>
