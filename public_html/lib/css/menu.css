@@ -117,7 +117,7 @@
 #submenu-con-container {
     position: relative;
     top: 62px;
-    left: -26px;
+    left: -73px;
     display: none;
     width: 232px;
     height: 217px;
@@ -251,33 +251,21 @@
     transition: .1s ease-in-out;
     border-bottom: solid 2px #fff;
 }
-#menu-tx1-support {
-    font-family: arial;
-    font-size: 14px;
-    line-height: 60px;
-    position: absolute;
-    right: 40px;
-    width: auto;
-    height: 60px;
-    color: #fff;
-}
 #menu-ico-support {
     position: absolute;
     right: 0;
-    width: 36px;
+    width: 92px;
     height: 60px;
-    cursor: pointer;
-    background: url('/img/icons/menu/patreon-h.png') no-repeat center;
-    background-size: 20px;
+    background: url('/img/icons/menu/support.png') no-repeat center;
+    background-size: 92px;
 }
 #menu-con-support {
     position: relative;
     top: 0;
     display: inline-block;
     float: right;
-    width: 140px;
+    width: 92px;
     height: 60px;
-    cursor: pointer;
     transition: .1s ease-in-out;
     border-bottom: 2px solid rgba(0,0,0,.0);
 }

@@ -258,7 +258,7 @@
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console . We believe that this is the cleanest and ethical way to migrate your disc-based titles and digital titles from your console to your PC without the hassle of repairing bad title dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and multiMAN. Due to legal reasons, we provide a detailed guide on this method.
+						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console . We believe that this is the cleanest and ethical way to migrate your disc-based titles and digital titles from your console to your PC without the hassle of repairing bad title dumps found on the internet or possible legal repercussions. To do this, you will need a PlayStation 3 system with a custom firmware and multiMAN. Due to legal reasons, we cannot provide a detailed guide on this method.
 					</p>
 				</div>
 			</div>

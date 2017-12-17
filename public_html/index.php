@@ -18,7 +18,7 @@
 <?php
 	preloadVideo(
 	'1',
-	'q-ApI7L-Slk'
+	'null'
 	);
 	preloadVideo(
 	'2',
@@ -66,8 +66,6 @@
 					<!-- Featured Video -->
 					<div id='video-con-container' style="display:none;">
 						<div class="page-video-1" id='video-btn-player-b'>
-						</div>
-						<div id="video-ovr-player">
 						</div>
 						<div id="video-con-slideshow">
 							<div>
@@ -246,8 +244,6 @@ setInterval(function() {
 					<div id='video-con-container'>
 						<div class="page-video-2" id='video-btn-player-b'>
 						</div>
-						<div id="video-ovr-player">
-						</div>
 						<div id="video-ico-uploader">
 						</div>
 						<div id="video-txt-uploader">
@@ -401,8 +397,6 @@ setInterval(function() {
 					</div>
 					<div id='video-con-container'>
 						<div class="page-video-3" id='video-btn-player-b'>
-						</div>
-						<div id="video-ovr-player">
 						</div>
 						<div id="video-ico-uploader">
 						</div>

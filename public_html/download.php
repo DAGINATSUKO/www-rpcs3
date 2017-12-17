@@ -92,7 +92,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<a href='<?php echo $linux[0]; ?>' target="_blank">
+			<a href='<?php echo $linux[0]; ?>' download target="_blank">
 			<div id='featured-con-button' class="div-download-right darkmode-buttons<?php echo $linux_button; ?>
 				 ">
 				<div id='featured-wrp-button' style="width: 344px; margin: 0 -178px;">

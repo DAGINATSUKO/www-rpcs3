@@ -80,10 +80,7 @@
 				<span>Wiki</span>
 			</div>
 			</a>
-			<div class="support-subtrigger scale-menu-btn-remove" id="menu-con-support">
-				<div id="menu-tx1-support" title="Support Us">
-					<span>Support Us</span>
-				</div>
+			<div class="support-subtrigger" id="menu-con-support">
 				<div id="menu-ico-support">
 				</div>
 				<div class="support-submenu" id="submenu-con-container">
@@ -174,7 +171,7 @@
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
-							<span>Hardware</span>
+							<span>CPU Render</span>
 						</div>
 						<div id='mobilemenu-tgl-button'>
 							<span>GPU Accelerated</span>
@@ -184,10 +181,10 @@
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
-							<span>User Agent</span>
+							<span>GPU Render</span>
 						</div>
-						<div id='mobilemenu-tgl-button' class='debug-agent'>
-							<span>N/A</span>
+						<div id='mobilemenu-tgl-button'>
+							<span>GPU Accelerated</span>
 						</div>
 					</div>
 					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .6s;'>
@@ -284,63 +281,23 @@
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
-							<span>HTML</span>
+							<span>HDR</span>
 						</div>
 						<div id='mobilemenu-tgl-button'>
-							<span>Version 5.00</span>
+							<span>False</span>
 						</div>
 					</div>
 					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.6s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
-							<span>CSS</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Version 3.00</span>
-						</div>
-					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.7s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>PHP</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Version 5.50</span>
-						</div>
-					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.8s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>JQuery</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Version 3.2.1</span>
-						</div>
-					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.9s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>HDR</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Compliant</span>
-						</div>
-					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.0s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
 							<span>Milk UX</span>
 						</div>
 						<div id='mobilemenu-tgl-button'>
-							<span>Version 1.00</span>
+							<span>1.00</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.1s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.7s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -350,7 +307,7 @@
 							<span>7680 x 4320</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.2s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.8s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -360,7 +317,7 @@
 							<span>648 x 480</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.3s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.9s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -370,7 +327,7 @@
 							<span>61R9KZJG</span>
 						</div>
 					</div>
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.4s; margin-bottom:200px;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 2.0s; margin-bottom:200px;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/settings.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -443,18 +400,6 @@
 						</div>
 					</div>
 					</a>
-					<a href="/screenshots">
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .5s;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>Screenshots</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Browse community taken screenshots</span>
-						</div>
-					</div>
-					</a>
 					<a href="/download">
 					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .6s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
@@ -491,8 +436,20 @@
 						</div>
 					</div>
 					</a>
-					<a href="/faq">
+					<a href="/disclaimer" target="_blank">
 					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .9s;'>
+						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
+						</div>
+						<div id='mobilemenu-tx1-button'>
+							<span>Disclaimer</span>
+						</div>
+						<div id='mobilemenu-tgl-button'>
+							<span>Browse legal disclaimer information</span>
+						</div>
+					</div>
+					</a>
+					<a href="/faq">
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.0s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -504,7 +461,7 @@
 					</div>
 					</a>
 					<a href="/alipay">
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.0s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.1s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -518,7 +475,7 @@
 					<div id='mobilemenu-con-button' style='pointer-events:none;'>
 					</div>
 					<a href="https://github.com/RPCS3/rpcs3" target="_blank">
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.1s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.2s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -530,7 +487,7 @@
 					</div>
 					</a>
 					<a href="https://discord.me/RPCS3" target="_blank">
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.2s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.3s;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -542,7 +499,7 @@
 					</div>
 					</a>
 					<a href="https://forums.rpcs3.net" target="_blank">
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.3s;'>
+					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.4s; margin-bottom: 200px;'>
 						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
 						</div>
 						<div id='mobilemenu-tx1-button'>
@@ -555,18 +512,6 @@
 					</a>
 					<div id='mobilemenu-con-button' style='pointer-events:none;'>
 					</div>
-					<a href="/disclaimer" target="_blank">
-					<div id='mobilemenu-con-button' style='-webkit-animation-duration: 1.4s; margin-bottom: 200px;'>
-						<div id='mobilemenu-ico-button' style="background:url('/img/icons/menu/item.png') center no-repeat !important; background-size: 20px !important;">
-						</div>
-						<div id='mobilemenu-tx1-button'>
-							<span>Disclaimer</span>
-						</div>
-						<div id='mobilemenu-tgl-button'>
-							<span>Browse legal disclaimer information</span>
-						</div>
-					</div>
-					</a>
 				</div>
 			</div>
 		</div>

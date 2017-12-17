@@ -54,7 +54,6 @@ $(document).ready(function() {
     $('.debug-online').text(navigator.onLine)
 	$('.debug-agent').text(navigator.userAgent)
 	$('.debug-java').text(navigator.javaEnabled())
-	$('.debug-agent').text(navigator.userAgent)
 });
 /* Randomly loads header banner image for each page */
 $(document).ready(function() {
@@ -166,7 +165,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(function() {
         $('.support-subtrigger').hover(function() {
-            $('.support-submenu').stop().fadeIn(100);
+            $('.support-submenu').fadeIn(100);
         }, function() {
             $('.support-submenu').fadeOut(100);
         });
