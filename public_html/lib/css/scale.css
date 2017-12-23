@@ -11,12 +11,22 @@
 }
 @media screen and (max-width: 1110px) {
     .scale-mobile-logo {
-        pointer-events:none;
+        pointer-events:none !important;
     }
 }
 @media screen and (max-width: 1110px) {
     .scale-mobile-menu {
         display:block!important;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .scale-mobile-logo {
+        text-align:center !important;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .scale-mobile-titlesearch {
+        display:none!important;
     }
 }
 /* ---------------------------------------------------------------------------------------------------------------- */

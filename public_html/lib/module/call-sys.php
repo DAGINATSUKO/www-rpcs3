@@ -3,10 +3,10 @@
 <script data-cfasync="false" src='/lib/js/darkmode.js'></script>
 <script data-cfasync="false" src='/lib/js/main.js'></script>
 <script data-cfasync="false" src='/lib/js/navigator.js'></script>
-<link rel="stylesheet" href="/lib/css/html.css?v=7"/>
-<link rel="stylesheet" href="/lib/css/anim.css?v=7"/>
-<link rel="stylesheet" href="/lib/css/main.css?v=7"/>
-<link rel="stylesheet" href="/lib/css/darkmode.css?v=7"/>
-<link rel="stylesheet" href="/lib/css/menu.css?v=7"/>
-<link rel="stylesheet" href="/lib/css/scale.css?v=7"/>
-<link rel="stylesheet" href="/lib/css/debug.css?v=7"/>
+<link rel="stylesheet" href="/lib/css/html.css?v=8"/>
+<link rel="stylesheet" href="/lib/css/anim.css?v=8"/>
+<link rel="stylesheet" href="/lib/css/main.css?v=8"/>
+<link rel="stylesheet" href="/lib/css/darkmode.css?v=8"/>
+<link rel="stylesheet" href="/lib/css/menu.css?v=8"/>
+<link rel="stylesheet" href="/lib/css/scale.css?v=8"/>
+<link rel="stylesheet" href="/lib/css/debug.css?v=8"/>

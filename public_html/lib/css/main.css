@@ -349,6 +349,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 14px;
+    margin-top: 14px;
     cursor: default;
     text-align: center;
     color: #4c5bd7;
@@ -586,7 +587,7 @@
     min-height: 26px;
     margin-bottom: 5px;
     text-align: left;
-    color: #4c5bd7;
+    color: #455971;
 }
 #featured-tx2-block {
     font-family: arial;
@@ -1155,7 +1156,7 @@
     height: 100px;
     margin: -50px -100px;
     background: url(/img/icons/footer/logo.png) no-repeat center;
-    background-size: 136px;
+    background-size: 160px;
 }
 #footer-btn-webmaster {
     line-height: 14px;
@@ -1250,7 +1251,7 @@
     width: 30px;
     height: 30px;
     background: url('/img/icons/list/link.png') no-repeat center;
-    background-size: 17px;
+    background-size: 12px;
 }
 .div-button {
     width: 100%;

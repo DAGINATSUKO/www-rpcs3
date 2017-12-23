@@ -51,7 +51,7 @@
 							<span>THE WORLD'S FIRST PLAYSTATION 3 EMULATOR</span>
 						</div>
 						<div id='feature-tx2-wrap'>
-							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the LLVM Compiler Infrastructure project for Windows and Linux. Starting development in May of 2011, RPCS3 is capable of running over 1,300 commercial titles on top of its low-level Vulkan, OpenGL and DirectX 12 renderers.</span>
+							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is capable of running over 1,600** commercial titles powered by Vulkan, OpenGL and DirectX 12 renderers.</span>
 							<a href="/download">
 							<div id='feature-btn-download' class="scale-override-hide" title="Download">
 								<span>DOWNLOAD</span>
@@ -143,7 +143,7 @@ setInterval(function() {
 						<div id="titlesearch-ico-search">
 						</div>
 						<div id="titlesearch-txt-search">
-							<span><span style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/menu/code-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
+							<span><span class="scale-mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/menu/code-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
 						</div>
 						<form action='/compatibility' method='get'>
 							<input name="g" placeholder="Game Title / Game ID">

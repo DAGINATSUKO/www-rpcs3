@@ -36,16 +36,16 @@
 			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
 				<h2>System Requirements</h2>
 			</div>
-			<div class="darkmode-block" id='featured-con-block'>
+			<div class="darkmode-block" id="featured-con-block">
 				<div class="div-anchor" id="requirements">
 				</div>
-				<div id='featured-wrp-block'>
-					<div class="darkmode-txt" id='featured-tx1-block'>
+				<div id="featured-wrp-block">
+					<div class="darkmode-txt" id="featured-tx1-block">
 						<h2>System Requirements</h2>
 					</div>
-					<div class="darkmode-txt" id='featured-tx2-block'>
+					<div class="darkmode-txt" id="featured-tx2-block">
 						<p>
-							 The system requirements for running the emulator have not been finalized and are subject to change during development. We do however have a set of minimum system requirements that must be met for the emulator to function properly on any system. Please note that these are the bare minimum system specifications and the emulator will not function otherwise.
+							 The system requirements for running the emulator vary depending on your hardware configuration. We have listed the minimum and recommend system requirements below. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements but you're always welcome to experiment.
 						</p>
 					</div>
 				</div>
