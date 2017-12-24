@@ -107,7 +107,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-cman" id='member-img-avatar' style="background: url('/img/members/ssshadow.png') no-repeat center; background-size: cover;" title="The hedgehog?">
+					<div class="div-role-cman" id='member-img-avatar' style="background: #727393 url('/img/members/ssshadow.png') no-repeat center; background-size: cover;" title="The hedgehog?">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
