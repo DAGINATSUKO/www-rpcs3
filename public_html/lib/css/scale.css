@@ -9,6 +9,11 @@
         display:none!important;
     }
 }
+@media screen and (max-width: 1440px) {
+    .scale-debug-btn-remove {
+        display:none!important;
+    }
+}
 @media screen and (max-width: 1110px) {
     .scale-mobile-logo {
         pointer-events:none !important;
@@ -73,7 +78,7 @@
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 1260px) {
-    .feature-con-wrapper-scaler-a {
+    .scale-feature-con-wrap-a {
         height:320px!important;
         width: 566px!important;
         left: 50%!important;
@@ -82,20 +87,20 @@
     }
 }
 @media screen and (max-width: 1260px) {
-    .feature-con-wrap-left-scaler-a {
+    .scale-feature-wrap-left-a {
         position:relative!important;
         width: 100%!important;
     }
 }
 @media screen and (max-width: 1260px) {
-    .feature-con-wrap-right-scaler-a {
+    .scale-feature-wrap-right-a {
         position:relative!important;
         width: 100%!important;
     }
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 1260px) {
-    .feature-con-wrapper-scaler-c {
+    .scale-feature-con-wrap-c {
         height:248px!important;
         width: 566px!important;
         left: 50%!important;
@@ -104,14 +109,14 @@
     }
 }
 @media screen and (max-width: 1260px) {
-    .feature-con-wrap-left-scaler-c {
+    .scale-feature-wrap-left-c {
         position:relative!important;
         width: 100%!important;
         height: 100%;
     }
 }
 @media screen and (max-width: 1260px) {
-    .feature-con-wrap-right-scaler-c {
+    .scale-feature-wrap-right-c {
         display:none!important;
     }
 }
@@ -141,13 +146,8 @@
     }
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 1440px) {
-    #menu-btn-debug {
-        display:none!important;
-    }
-}
 @media screen and (max-width: 900px) {
-    #footer-btn-webmaster {
+    .scale-webmaster-remove {
         display:none!important;
     }
 }

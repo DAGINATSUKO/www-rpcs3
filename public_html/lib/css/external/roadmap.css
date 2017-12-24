@@ -1,0 +1,53 @@
+.markdown-body h2 {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-left: 9px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+    text-align: left;
+    color: #455971;
+    border-bottom: 1px solid rgba(238,238,238,.4);
+}
+.markdown-body {
+    font-family: arial;
+    font-size: 16px;
+    color: #455971;
+}
+.markdown-body ul {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 25px;
+}
+.div-roadmap-git p:first-child {
+    font-family: arial;
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.div-roadmap-git a {
+    color: #3198ff;
+}
+.div-roadmap-git a:hover {
+    text-decoration: underline;
+}
+.div-roadmap-goal {
+    margin-top: 20px;
+    border-left: 2px solid #0080ff;
+}
+.div-roadmap-goal:first-child {
+    margin-top: 0;
+    border-left: 2px solid #0080ff;
+}
+.div-roadmap-git {
+    box-sizing: border-box!important;
+    margin-bottom: 20px!important;
+    padding-top: 0!important;
+    padding-right: 15px!important;
+    padding-bottom: 15px;
+    padding-left: 15px!important;
+    background: #fff!important;
+}

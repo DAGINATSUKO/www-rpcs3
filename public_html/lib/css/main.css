@@ -19,11 +19,6 @@
     min-height: 60px;
     margin: 0 auto;
 }
-.page-con-gallery {
-    position: absolute!important;
-    overflow: unset;
-    margin-top: 63px;
-}
 #wavebar-con-container {
     position: fixed;
     z-index: 1;
@@ -1340,45 +1335,4 @@
 }
 .div-role-ccdev {
     background-color: #e68364!important;
-}
-.bg-wavebar {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-}
-.bg-backdrop {
-    position: absolute;
-    height: 100%;
-    background: #000;
-}
-.div-roadmap-git p:first-child {
-    font-family: arial;
-    font-size: 14px;
-    display: block;
-    margin-top: 20px;
-    padding-left: 10px;
-}
-.div-roadmap-git a {
-    color: #3198ff;
-}
-.div-roadmap-git a:hover {
-    text-decoration: underline;
-}
-.div-roadmap-goal {
-    margin-top: 20px;
-    border-left: 2px solid #0080ff;
-}
-.div-roadmap-goal:first-child {
-    margin-top: 0;
-    border-left: 2px solid #0080ff;
-}
-.div-roadmap-git {
-    box-sizing: border-box!important;
-    margin-bottom: 20px!important;
-    padding-top: 0!important;
-    padding-right: 15px!important;
-    padding-bottom: 15px;
-    padding-left: 15px!important;
-    background: #fff!important;
 }

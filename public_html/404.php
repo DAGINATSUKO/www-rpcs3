@@ -12,7 +12,7 @@
 <?php include 'lib/module/call-meta.php';?>
 </head>
 <?php include 'lib/module/call-sys.php';?>
-<body class="bg-backdrop">
+<body style="background: #000;">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
 <div id='header-con-overlay' class="darkmode-header" style="position:fixed;">

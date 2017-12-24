@@ -123,26 +123,3 @@ th a {
     color: #455971;
     margin-left: 36px;
 }
-.markdown-body h2 {
-    font-family: arial;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 16px;
-    margin-left: 9px;
-    padding-top: 21px;
-    padding-bottom: 15px;
-    text-align: left;
-    color: #455971;
-    border-bottom: 1px solid rgba(238,238,238,.4);
-}
-.markdown-body {
-    font-family: arial;
-    font-size: 16px;
-    color: #455971;
-}
-.markdown-body ul {
-    font-family: arial;
-    font-size: 14px;
-    line-height: 24px;
-    padding-left: 25px;
-}

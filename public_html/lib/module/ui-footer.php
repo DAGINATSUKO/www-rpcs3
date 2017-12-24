@@ -14,7 +14,7 @@
 				<div id='footer-tx1-credits'>
 					<p>
 						<a href='https://daginatsuko.com' title="Website by DAGINATSUKO" target="_blank">
-						<div id='footer-btn-webmaster'>
+						<div id='footer-btn-webmaster' class="scale-webmaster-remove">
 							 Website by DAGINATSUKO
 						</div>
 						</a>

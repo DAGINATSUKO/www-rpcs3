@@ -5,7 +5,7 @@
 	</div>
 	<div id="menu-btn-darkmode" class="toggle-darkmode darkmode-icon" title="Dark Mode">
 	</div>
-	<div id='menu-btn-debug' class='toggle-debug' title="Debug">
+	<div id='menu-btn-debug' class='toggle-debug scale-debug-btn-remove' title="Debug">
 	</div>
 	<div id="menu-con-container">
 		<div id="menu-in-container">
