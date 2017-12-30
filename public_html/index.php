@@ -44,7 +44,7 @@
 		<div class="darkmode-header" id='header-con-overlay'>
 		</div>
 		<div class="scale-offset-center">
-			<div id='feature-con-wrapper' class='scale-feature-con-wrap-a'>
+			<div class='feature-con-wrapper scale-feature-con-wrap-a'>
 				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap'>
@@ -159,7 +159,7 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/directory.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class="">
+		<div class="feature-con-wrapper">
 			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-content-block-promote">
 				<div id='content-img-overlay' class="content-img-overlay-a">
 					<div id='content-ico-block' style="background: url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 240px !important;">
@@ -219,7 +219,7 @@ setInterval(function() {
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div class='scale-offset-center'>
-			<div id='feature-con-wrapper' class='scale-feature-con-wrap-a'>
+			<div class='feature-con-wrapper scale-feature-con-wrap-a'>
 				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a'>
 					<div class="feature-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
 						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/games/1.jpg') no-repeat center center !important; background-size: cover !important;">
@@ -288,7 +288,7 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/patreon.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class="">
+		<div class="feature-con-wrapper">
 			<div id='patreon-con-block-a' class="contribute-alg-block darkmode-block scale-override-hide">
 				<div id='patreon-img-overlay' class="patreon-img-overlay-a">
 					<div id='patreon-tx1-title' class="darkmode-txt">
@@ -350,7 +350,7 @@ setInterval(function() {
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div class='scale-offset-center'>
-			<div id='feature-con-wrapper' class='scale-feature-con-wrap-a'>
+			<div class='feature-con-wrapper scale-feature-con-wrap-a'>
 				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a scale-offset-txt-a'>
 					<div id='feature-txt-wrap' class="scale-offset-txt-b">
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
@@ -416,7 +416,7 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/contribute.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class="">
+		<div class="feature-con-wrapper">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
 				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url(/img/icons/menu/patreon.png) no-repeat center center !important; background-size: 56px !important;">
 				</div>
@@ -470,7 +470,7 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/disclaimer.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class='scale-feature-con-wrap-c'>
+		<div class='feature-con-wrapper scale-feature-con-wrap-c'>
 			<div id='feature-con-wrap-right' class='scale-feature-wrap-right-c'>
 			</div>
 			<div id='feature-con-wrap-left' class='scale-feature-wrap-left-c'>
@@ -496,7 +496,7 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/getstarted.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class="">
+		<div class="feature-con-wrapper">
 			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-content-block-promote">
 				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>

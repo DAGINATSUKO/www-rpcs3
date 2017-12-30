@@ -173,15 +173,16 @@
 .feature-con-wrap-invert {
     opacity: .1!important;
 }
-#feature-con-wrapper {
+.feature-con-wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 1200px;
     height: 500px;
     margin: -250px -600px;
+    font-size: 0;
 }
-#feature-con-wrapper::-webkit-scrollbar {
+.feature-con-wrapper::-webkit-scrollbar {
     display: none;
 }
 #feature-con-scaler {
@@ -310,7 +311,7 @@
     height: 100%;
 }
 .contribute-alg-block {
-    margin-right: 3.15%;
+    margin-right: 3.5%;
 }
 #content-con-block-b {
     position: relative;
