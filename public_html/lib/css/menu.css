@@ -144,6 +144,7 @@
     height: 60px;
     background: url(/img/icons/menu/lip.png) no-repeat center;
     background-size: 22px;
+    pointer-events: none;
 }
 #submenu-con-wrapper:hover {
     background: #4c5bd7;
@@ -258,6 +259,7 @@
     height: 60px;
     background: url('/img/icons/menu/support.png') no-repeat center;
     background-size: 92px;
+    cursor: pointer;
 }
 #menu-con-support {
     position: relative;

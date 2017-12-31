@@ -48,7 +48,7 @@
 				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap'>
-							<span>THE WORLD'S FIRST PLAYSTATION 3 EMULATOR</span>
+							<span>AN OPEN-SOURCE PLAYSTATION 3 EMULATOR</span>
 						</div>
 						<div id='feature-tx2-wrap'>
 							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is capable of running over 1,600** commercial titles powered by Vulkan, OpenGL and DirectX 12 renderers.</span>
@@ -133,7 +133,7 @@ setInterval(function() {
 			</div>
 		</div>
 	</div>
-	<div id="page-con-feature-c" class="darkmode-feature" style="background: #000; height:120px;">
+	<div id="page-con-feature-c" class="darkmode-feature" style="background: #000; height:100px;">
 		<div id="titlesearch-ovr-container" class="darkmode-header">
 		</div>
 		<div id='titlesearch-con-container'>
@@ -245,9 +245,6 @@ setInterval(function() {
 						<div class="page-video-2" id='video-btn-player-b'>
 						</div>
 						<div id="video-ico-uploader">
-						</div>
-						<div id="video-txt-uploader">
-							<span>By RPCS3</span>
 						</div>
 						<div id='video-con-container-thumb' style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>
@@ -399,9 +396,6 @@ setInterval(function() {
 						<div class="page-video-3" id='video-btn-player-b'>
 						</div>
 						<div id="video-ico-uploader">
-						</div>
-						<div id="video-txt-uploader">
-							<span>By RPCS3</span>
 						</div>
 						<div id='video-con-container-thumb' style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
 						</div>

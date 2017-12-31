@@ -80,9 +80,11 @@
 				<span>Wiki</span>
 			</div>
 			</a>
+			<a href="https://www.patreon.com/Nekotekina" target="_blank">
 			<div class="support-subtrigger" id="menu-con-support">
 				<div id="menu-ico-support">
 				</div>
+			</a>
 				<div class="support-submenu" id="submenu-con-container">
 					<div id="submenu-ico-lip">
 					</div>
