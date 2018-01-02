@@ -31,7 +31,12 @@ $(document).ready(function() {
 		$("#footer-con-container").toggleClass("dm-footer");
 		$(".markdown-body li").toggleClass("dm-txt");
 		$(".feature-ico-flag").toggleClass("dm-flag");
-		/* - */
+		$('.darkmode-footer-logo').toggleClass("dm-footer-logo");
+		$('.darkmode-bound-tx1').toggleClass("dm-bound-tx1");
+		$('.darkmode-bound-tx2').toggleClass("dm-bound-tx2");
+		$('.darkmode-webmaster-tx1').toggleClass("dm-webmaster-tx1");
+		$('.darkmode-webmaster-tx2').toggleClass("dm-webmaster-tx2");
+		$('.darkmode-webmaster-ico').toggleClass("dm-webmaster-ico");
         $(".divTable").toggleClass("dm-block");
 		$(".divTableHeading").toggleClass("dm-block");
         $(".divTableHeading").toggleClass("dm-txt");
@@ -96,7 +101,12 @@ $(document).ready(function() {
 		$(".markdown-body li").addClass("dm-txt");
 		$("#footer-con-container").addClass("dm-footer");
 		$(".feature-ico-flag").addClass("dm-flag");
-		/* - */
+		$('.darkmode-footer-logo').addClass("dm-footer-logo");
+		$('.darkmode-bound-tx1').addClass("dm-bound-tx1");
+		$('.darkmode-bound-tx2').addClass("dm-bound-tx2");
+		$('.darkmode-webmaster-tx1').addClass("dm-webmaster-tx1");
+		$('.darkmode-webmaster-tx2').addClass("dm-webmaster-tx2");
+		$('.darkmode-webmaster-ico').addClass("dm-webmaster-ico");
         $(".divTable").toggleClass("dm-block");
 		$(".divTableHeading").toggleClass("dm-block");
         $(".divTableHeading").toggleClass("dm-txt");
@@ -149,7 +159,12 @@ $(document).ready(function() {
 		$(".markdown-body li").removeClass("dm-txt");
 		$("#footer-con-container").removeClass("dm-footer");
 		$(".feature-ico-flag").removeClass("dm-flag");
-		/* - */
+		$('.darkmode-footer-logo').removeClass("dm-footer-logo");
+		$('.darkmode-bound-tx1').removeClass("dm-bound-tx1");
+		$('.darkmode-bound-tx2').removeClass("dm-bound-tx2");
+		$('.darkmode-webmaster-tx1').removeClass("dm-webmaster-tx1");
+		$('.darkmode-webmaster-tx2').removeClass("dm-webmaster-tx2");
+		$('.darkmode-webmaster-ico').removeClass("dm-webmaster-ico");
 		$(".divTable").removeClass("dm-block");
 		$(".divTableHeading").removeClass("dm-block");
         $(".divTableHeading").removeClass("dm-txt");

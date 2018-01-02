@@ -502,7 +502,7 @@ setInterval(function() {
 				</div>
 				<a href="/quickstart">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Start">
-					<span>START</span>
+					<span>READ MORE</span>
 				</div>
 				</a>
 			</div>
@@ -517,7 +517,7 @@ setInterval(function() {
 				</div>
 				<a href="/faq">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Get Answers">
-					<span>GET ANSWERS</span>
+					<span>READ MORE</span>
 				</div>
 				</a>
 			</div>
@@ -532,7 +532,7 @@ setInterval(function() {
 				</div>
 				<a href="/roadmap">
 				<div id='contribute-btn-block' class="darkmode-txt" title="See Roadmap">
-					<span>SEE ROADMAP</span>
+					<span>READ MORE</span>
 				</div>
 				</a>
 			</div>

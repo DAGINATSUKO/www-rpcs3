@@ -1108,130 +1108,137 @@
     color: #fff;
 }
 #footer-con-container {
-	position:relative;
-	z-index:1;
-	overflow:hidden;
-	width:100%;
-	height:340px;
-	padding-top:140px;
-	background:rgba(76,91,215,1);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 290px;
+    padding-top: 90px;
+    background: #fff;
 }
 #footer-con-outer {
-	position:relative;
-	max-width:1320px;
-	height:100%;
-	margin:0 auto;
+    position: relative;
+    max-width: 1320px;
+    height: 100%;
+    margin: 0 auto;
 }
 #footer-con-inner {
-	position:relative;
-	bottom:0;
-	height:100%;
-	margin-right:60px;
-	margin-left:60px;
+    position: relative;
+    bottom: 0;
+    height: 100%;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 #footer-con-foot {
-	position:absolute;
-	bottom:0;
-	width:100%;
-	height:62px;
-	border-top:solid 1px rgba(255,255,255,.1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    border-top: solid 1px rgba(69, 89, 113, .1);
 }
 #footer-ico-logo {
-	position:absolute;
-	top:0;
-	left:0;
-	width:32px;
-	height:32px;
-	background:url('/img/icons/menu/logo.png') no-repeat center;
-	background-size:32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background: url('/img/icons/menu/logo-h.png') no-repeat center;
+    background-size: 32px;
 }
 #footer-con-bound {
-	position:absolute;
-	top:0;
-	right:0;
-	width:100px;
-	height:auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
 }
 #footer-tx1-bound {
-	font-family:arial;
-	font-size:14px;
-	font-weight:bold;
-	line-height:20px;
-	position:relative;
-	height:20px;
-	margin-bottom:10px;
-	text-align:left;
-	color:#fff;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    position: relative;
+    height: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #4c5bd7;
 }
 #footer-tx2-bound {
-	font-family:arial;
-	font-size:12px;
-	line-height:24px;
-	position:relative;
-	color:#fff;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 24px;
+    position: relative;
+    color: #455971;
 }
 #footer-tx2-bound a {
-	color:#fff;
+    color: #455971;
 }
 #footer-tx1-webmaster {
-	font-family:arial;
-	font-size:12px;
-	line-height:62px;
-	position:absolute;
-	z-index:1;
-	left:0;
-	width:auto;
-	height:62px;
-	padding-right:20px;
-	color:#fff;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 62px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: auto;
+    height: 62px;
+    padding-right: 20px;
+    color: #455971;
 }
 #footer-tx1-webmaster a {
-	color:#fff;
+    color: #455971;
 }
 #footer-tx2-webmaster {
-	font-family:arial;
-	font-size:12px;
-	line-height:62px;
-	position:absolute;
-	z-index:1;
-	right:0;
-	width:auto;
-	height:62px;
-	padding-right:20px;
-	color:#fff;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 62px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: auto;
+    height: 62px;
+    padding-right: 20px;
+    color: #455971;
 }
-#footer-tx2-webmaster a {
-	color:#fff;
+#footer-ico-webmaster {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 100%;
+    top: 24px;
+    margin-left: 2px;
+    border: solid 2px #455971;
 }
 #footer-table-out {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	margin-top:0;
-	padding:0;
-	border-collapse:collapse;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    border-collapse: collapse;
 }
 #footer-table-out tr:nth-child(2n+1) {
-	background:rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0)!important;
 }
 #footer-table-out tr:last-child {
-	border-bottom:1px solid rgba(0,0,0,0) !important;
+    border-bottom: 1px solid rgba(0,0,0,0)!important;
 }
 #footer-table-out tr {
-	background:rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0)!important;
 }
 #footer-table-out tr td {
-	position:relative;
-	height:100%;
+    position: relative;
+    height: 100%;
 }
 #footer-table-in {
-	position:absolute;
-	top:0;
-	right:0;
-	width:100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 .txt-highlight {
     margin-right: 4px;
