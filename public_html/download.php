@@ -40,7 +40,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<span>DOWNLOAD</span>
+				<span>Download</span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>

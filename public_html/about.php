@@ -21,7 +21,7 @@
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<span>ABOUT</span>
+				<span>About</span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>

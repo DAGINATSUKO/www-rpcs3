@@ -48,13 +48,13 @@
 				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap'>
-							<span>AN OPEN-SOURCE PLAYSTATION 3 EMULATOR</span>
+							<span>An Open-source PlayStation 3 Emulator</span>
 						</div>
 						<div id='feature-tx2-wrap'>
 							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is capable of running over 1,600** commercial titles powered by Vulkan, OpenGL and DirectX 12 renderers.</span>
 							<a href="/download">
 							<div id='feature-btn-download' class="scale-override-hide" title="Download">
-								<span>DOWNLOAD</span>
+								<span>Download</span>
 							</div>
 							</a>
 						</div>
@@ -155,7 +155,7 @@ setInterval(function() {
 	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
-			<span>DIRECTORY</span>
+			<span>Directory</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/directory.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
@@ -169,9 +169,9 @@ setInterval(function() {
 						Each month we aim to put out a technical and visual progress report that showcases our latest developments and features for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
 					</div>
 				</div>
-				<a href="https://rpcs3.net/blog/2017/11/03/progress-report-october-2017/">
+				<a href="https://rpcs3.net/blog/2018/01/03/progress-report-december-2017/">
 				<div id='content-btn-block' title="Read Report">
-					<span>READ REPORT</span>
+					<span>Read Report</span>
 				</div>
 				</a>
 				<div id='content-img-block'>
@@ -188,7 +188,7 @@ setInterval(function() {
 				</div>
 				<a href="https://discord.me/RPCS3" target="_blank">
 				<div id='content-btn-block' title="Join Discussion">
-					<span>JOIN DISCUSSION</span>
+					<span>Join Discussion</span>
 				</div>
 				</a>
 				<div id='content-img-block'>
@@ -204,7 +204,7 @@ setInterval(function() {
 				</div>
 				<a href="https://github.com/RPCS3/rpcs3/pulls" target="_blank">
 				<div id='content-btn-block' title="Pull Requests">
-					<span>PULL REQUESTS</span>
+					<span>Pull Requests</span>
 				</div>
 				</a>
 				<div id='content-img-block'>
@@ -214,7 +214,7 @@ setInterval(function() {
 	</div>
 	<div id="page-con-feature-a" class="darkmode-feature">
 		<div id='feature-tx1-heading' style="color:#fff" class="feature-txt-wrap-invert darkmode-txt2">
-			<span>FEATURED</span>
+			<span>Featured</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
@@ -253,7 +253,7 @@ setInterval(function() {
 				<div id='feature-con-wrap-right' class='scale-feature-wrap-right-a'>
 					<div id='feature-txt-wrap'>
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
-							<span>UNVEILING A SLEW OF EXCLUSIVE INGAME TITLES<span>
+							<span>Unveiling a Slew of Exclusive Ingame Titles<span>
 						</div>
 						<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>In nearly a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable. Here's what we've accomplished:</span>
@@ -281,7 +281,7 @@ setInterval(function() {
 	</div>
 	<div id="page-con-feature-d" class="darkmode-header-patreon">
 		<div id='feature-tx1-heading' style="color:#fff">
-			<span>PATREON</span>
+			<span>Patreon</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/patreon.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
@@ -292,7 +292,7 @@ setInterval(function() {
 						<span>$2,000</span>
 					</div>
 					<div id='patreon-tx1-block' class="darkmode-txt">
-						<span>GOAL REACHED</span>
+						<span>Goal Reached</span>
 					</div>
 					<div id='patreon-tx2-block' class="darkmode-txt">
 						<span>We thank you for your continued support! With this goal reached, our lead developer, Nekotekina will be able to purchase better computer hardware for development and testing. This ensures even faster development and testing times by allowing his workflow to become more efficient and faster than ever before thanks to modern hardware.</span>
@@ -309,7 +309,7 @@ setInterval(function() {
 						<span>$3,000</span>
 					</div>
 					<div id='patreon-tx1-block' class="darkmode-txt">
-						<span>GOAL REACHED</span>
+						<span>Goal Reached</span>
 					</div>
 					<div id='patreon-tx2-block' class="darkmode-txt">
 						<span>We thank you for your continued support! With this goal reached, our core graphics programmer, kd-11 will be able to join our core developer, Nekotekina in working full-time on the emulator. This ensures even faster development and testing for all RSX orientated features for the emulator.</span>
@@ -326,7 +326,7 @@ setInterval(function() {
 						<span>$4,000</span>
 					</div>
 					<div id='patreon-tx1-block' class="darkmode-txt">
-						<span>CURRENT GOAL</span>
+						<span>Current Goal</span>
 					</div>
 					<div id='patreon-tx2-block' class="darkmode-txt">
 						<span>Let's shoot for a new high score! With your continued support, our core graphics developer, kd-11 will be able to purchase substantially better computer hardware dedicated to debugging and developing for the GPU related portions of the emulator. This ensures swift development and detailed testing of the features we plan to implement listed on our roadmap.</span>
@@ -334,7 +334,7 @@ setInterval(function() {
 				</div>
 				<a href="https://www.patreon.com/Nekotekina" target="_blank">
 				<div id='patreon-btn-block' title="Become a Patron">
-					<span>BECOME A PATRON</span>
+					<span>Become a Patron</span>
 				</div>
 				</a>
 			</div>
@@ -342,7 +342,7 @@ setInterval(function() {
 	</div>
 	<div id="page-con-feature-a" class="darkmode-feature">
 		<div id='feature-tx1-heading' style="color:#fff" class="feature-txt-wrap-invert darkmode-txt2">
-			<span>COMMUNITY</span>
+			<span>Community</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
@@ -351,12 +351,12 @@ setInterval(function() {
 				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a scale-offset-txt-a'>
 					<div id='feature-txt-wrap' class="scale-offset-txt-b">
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
-							<span>SHOWCASING TRUE PROGRESS</span>
+							<span>Showcasing True Progress</span>
 						</div>
 						<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
 							<div id='feature-btn-general' class="darkmode-buttons-general scale-override-hide" title="Coming Soon">
-								<span>COMING SOON</span>
+								<span>Coming Soon</span>
 							</div>
 						</div>
 					</div>
@@ -406,7 +406,7 @@ setInterval(function() {
 	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
-			<span>CONTRIBUTION</span>
+			<span>Contribution</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/contribute.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
@@ -415,14 +415,14 @@ setInterval(function() {
 				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url(/img/icons/menu/patreon.png) no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
-					<span>PATREON</span>
+					<span>Patreon</span>
 				</div>
 				<div id='contribute-tx2-block' class="darkmode-txt">
 					<span>Our core developers and contributors are always working hard to ensure this project can be the best that it can be. The funding received from our patrons will allow our core developers to spend full-time working on the project, obtain hardware for development and testing and allow this website to exist, along with its compatibility database.</span>
 				</div>
 				<a href="https://www.patreon.com/Nekotekina" target="_blank">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Donate">
-					<span>DONATE</span>
+					<span>Donate</span>
 				</div>
 				</a>
 			</div>
@@ -430,14 +430,14 @@ setInterval(function() {
 				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/code.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
-					<span>GITHUB</span>
+					<span>GitHub</span>
 				</div>
 				<div id='contribute-tx2-block' class="darkmode-txt">
 					<span>When developing a complex project, new contributors are always welcome. You can start contributing by forking the project for personal use and then proceed on to reading the wiki, notes, coding style and developer information sections. It's up to you to find something you want to add, improve or implement within the project.</span>
 				</div>
 				<a href="https://github.com/RPCS3/rpcs3" target="_blank">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Code">
-					<span>CODE</span>
+					<span>Code</span>
 				</div>
 				</a>
 			</div>
@@ -445,14 +445,14 @@ setInterval(function() {
 				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/testing.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
-					<span>TESTING</span>
+					<span>Testing</span>
 				</div>
 				<div id='contribute-tx2-block' class="darkmode-txt">
 					<span>We all want to be able to play our favorite games far into the future. Whether it's for preservation, or for the sake of nostalgia, emulation accuracy ensures that titles will run the same as they do on original hardware. To ensure this, we need to do a lot of testing and a lot of reporting. This is where you come in.</span>
 				</div>
 				<a href="https://forums.rpcs3.net" target="_blank">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Reporting">
-					<span>FORUMS</span>
+					<span>Forums</span>
 				</div>
 				</a>
 			</div>
@@ -460,7 +460,7 @@ setInterval(function() {
 	</div>
 	<div id="page-con-feature-a" class="darkmode-feature">
 		<div id='feature-tx1-heading' style="color:#fff" class="feature-txt-wrap-invert darkmode-txt2">
-			<span>DISCLAIMER</span>
+			<span>Disclaimer</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/disclaimer.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
@@ -470,13 +470,13 @@ setInterval(function() {
 			<div id='feature-con-wrap-left' class='scale-feature-wrap-left-c'>
 				<div id='feature-txt-wrap'>
 					<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
-						<span>THIS IS FOR THE PLAYERS, NOT THE PIRATES</span>
+						<span>This Is for the Players, Not the Pirates</span>
 					</div>
 					<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 						<span>RPCS3 is not designed to enable illegal activity. When dumping video game software, users are subject to country-specific software distribution laws. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding. Remember, the best way to play PlayStation 3 games is to play them on original hardware, for now.</span>
 						<a href="/disclaimer">
 						<div id='feature-btn-general' class="darkmode-buttons-general" title="Disclaimer">
-							<span>DISCLAIMER</span>
+							<span>Disclaimer</span>
 						</div>
 						</a>
 					</div>
@@ -486,7 +486,7 @@ setInterval(function() {
 	</div>
 	<div id="page-con-feature-b" class="darkmode-header">
 		<div id='feature-tx1-heading' style="color:#fff">
-			<span>GET STARTED</span>
+			<span>Get Started</span>
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/getstarted.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
@@ -495,14 +495,14 @@ setInterval(function() {
 				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
-					<span>QUICKSTART</span>
+					<span>Quickstart</span>
 				</div>
 				<div id='contribute-tx2-block' class="darkmode-txt">
 					<span>Ready to give RPCS3 a shot? Great! Before you get started, we highly recommend that you read over our quickstart guide. Please take in account that the requirements for running RPCS3 are still not fully known and are subject to change during its current development stage. We aim to optimize our software as much as possible.</span>
 				</div>
 				<a href="/quickstart">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Start">
-					<span>READ MORE</span>
+					<span>Read More</span>
 				</div>
 				</a>
 			</div>
@@ -517,7 +517,7 @@ setInterval(function() {
 				</div>
 				<a href="/faq">
 				<div id='contribute-btn-block' class="darkmode-txt" title="Get Answers">
-					<span>READ MORE</span>
+					<span>Read More</span>
 				</div>
 				</a>
 			</div>
@@ -525,14 +525,14 @@ setInterval(function() {
 				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 56px !important;">
 				</div>
 				<div id='contribute-tx1-block' class="darkmode-txt">
-					<span>ROADMAP</span>
+					<span>Roadmap</span>
 				</div>
 				<div id='contribute-tx2-block' class="darkmode-txt">
 					<span>This project is never-ending. RPCS3's development will inevitably go on forever. In the meantime, we've set out a month-to-month roadmap that showcases the goals we wish to reach for that specific month. Keep in mind, anyone and everyone is open to developing an implementation for any listed roadmap feature. See our <a href='https://github.com/RPCS3/rpcs3/wiki' target="_blank">GitHub</a> wiki.</span>
 				</div>
 				<a href="/roadmap">
 				<div id='contribute-btn-block' class="darkmode-txt" title="See Roadmap">
-					<span>READ MORE</span>
+					<span>Read More</span>
 				</div>
 				</a>
 			</div>

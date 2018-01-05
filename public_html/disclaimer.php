@@ -21,7 +21,7 @@
 		</div>
 		<div id='header-con-body'>
 			<div id='header-tx1-body'>
-				<span>DISCLAIMER</span>
+				<span>Disclaimer</span>
 			</div>
 			<div id='header-tx2-body'>
 				<p>
