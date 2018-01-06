@@ -239,6 +239,7 @@
     border: solid 1px #fff;
     border-radius: 6px;
     background: rgba(255,255,255,.0);
+    text-transform: uppercase;
 }
 #feature-btn-download:hover {
     transition: all .1s ease-in-out;
