@@ -244,7 +244,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -290,7 +290,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -313,7 +313,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -362,7 +362,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -385,7 +385,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -437,7 +437,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -460,7 +460,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -483,7 +483,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -507,7 +507,7 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+							 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 						</p>
 					</div>
 				</div>
@@ -530,7 +530,7 @@
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+							 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 						</p>
 					</div>
 				</div>
@@ -603,7 +603,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -626,7 +626,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -649,7 +649,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -672,7 +672,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
