@@ -562,7 +562,6 @@
     height: auto;
     min-height: 35px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #e4e4e4;
     background: #fff;
 }
 #featured-wrp-block {
@@ -750,12 +749,14 @@
 }
 #member-img-avatar {
     position: absolute;
-    top: 26px;
-    left: 30px;
-    width: 60px;
-    height: 60px;
+    top: 24px;
+    left: 24px;
+    width: 70px;
+    height: 70px;
     transition: all .2s ease-in-out;
     border-radius: 100%;
+    border-width: 3px;
+    border-style: none;
 }
 #member-img-country {
     position: absolute;
@@ -766,10 +767,6 @@
     height: 25px;
     transition: .2s ease-in-out;
     border: solid 2px #fff;
-}
-#featured-con-block:hover #member-img-avatar {
-    transition: all .2s ease-in-out;
-    transform: scale(1.06);
 }
 #featured-con-block:hover #member-img-country {
     display: block;
@@ -784,11 +781,10 @@
     height: auto;
     min-height: 72px;
     margin-bottom: 20px;
-    padding-bottom: 1px;
     border: solid 1px #fff;
     border-top: 2px solid rgba(255,255,255,0);
     border-right: 2px solid rgba(255,255,255,0);
-    border-bottom: 1px solid #e4e4e4;
+    border-bottom: 2px solid rgba(255,255,255,0);
     border-left: 2px solid rgba(255,255,255,0);
     background: #fff;
 }
@@ -830,10 +826,6 @@
     margin-bottom: 20px;
     padding-bottom: 1px;
     border: solid 1px #fff;
-    border-top: 2px solid rgba(255,255,255,0);
-    border-right: 2px solid rgba(255,255,255,0);
-    border-bottom: 1px solid #e4e4e4;
-    border-left: 2px solid rgba(255,255,255,0);
     background: #fff;
 }
 #guide-con-wrapper {
@@ -1354,29 +1346,38 @@
     padding-right: 136px!important;
 }
 .div-role-cdev {
-    background-color: #e74c3c!important;
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
 }
 .div-role-gdev {
-    background-color: #e74c3c!important;
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
 }
 .div-role-cman {
-    background-color: #e67e22!important;
+    background-color: #e67e22 !important;
+    border-color: #e67e22 !important;
 }
 .div-role-fdev {
-    background-color: #34495e!important;
+    background-color: #4c5bd7 !important;
+    border-color: #4c5bd7 !important;
 }
 .div-role-cldev {
-    background-color: #3498db!important;
+    background-color: #3498db !important;
+    border-color:#3498db !important;
 }
 .div-role-ddev {
-    background-color: #f1c40f!important;
+    background-color: #f1c40f !important;
+    border-color:#f1c40f !important;
 }
 .div-role-wdev {
-    background-color: #3498db!important;
+    background-color: #3498db !important;
+    border-color:#3498db !important;
 }
 .div-role-gddev {
-    background-color: #a64eff!important;
+    background-color: #a64eff !important;
+    border-color:#a64eff !important;
 }
 .div-role-ccdev {
-    background-color: #e68364!important;
+    background-color: #e68364 !important;
+    border-color: #e68364 !important;
 }

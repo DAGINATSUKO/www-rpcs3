@@ -52,7 +52,6 @@
 }
 .dm-panel {
     border: solid 1px #191d21!important;
-    border-bottom: 1px solid #191d21!important;
     background: #242a30!important;
 }
 .dm-panel:hover {

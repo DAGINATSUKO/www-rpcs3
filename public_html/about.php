@@ -50,11 +50,11 @@
 				</div>
 			</div>
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-				<h2>Current Developers</h2>
+				<h2>Developers</h2>
 			</div>
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-cdev" id='member-img-avatar' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;" title="Keyboard cat">
+					<div id='member-img-avatar' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;" title="Keyboard cat">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -63,8 +63,6 @@
 							<h2>
 							<p style="float: left;">
 								 Nekotekina
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-cdev">
 								 Project Lead
@@ -82,7 +80,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-gdev" id='member-img-avatar' style="background: url('/img/members/kd11.png') no-repeat center; background-size: cover;" title="Human GPU">
+					<div id='member-img-avatar' style="background: #646E77 url('/img/members/kd11.png') no-repeat center; background-size: cover;" title="Human GPU">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -91,8 +89,6 @@
 							<h2>
 							<p style="float: left;">
 								 kd-11
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-gdev">
 								 Lead Graphics Developer
@@ -107,7 +103,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-cman" id='member-img-avatar' style="background: #727393 url('/img/members/ssshadow.png') no-repeat center; background-size: cover;" title="The hedgehog?">
+					<div id='member-img-avatar' style="background: #727393 url('/img/members/ssshadow.png') no-repeat center; background-size: cover;" title="The hedgehog?">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -116,8 +112,6 @@
 							<h2>
 							<p style="float: left;">
 								 ssshadow
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-cman">
 								 Community Manager
@@ -135,7 +129,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-cman" id='member-img-avatar' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;" title="Biggest weeb known to mankind.">
+					<div id='member-img-avatar' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;" title="Biggest weeb known to mankind.">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -144,8 +138,6 @@
 							<h2>
 							<p style="float: left;">
 								 Ani
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-cman">
 								 Community Manager
@@ -163,7 +155,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-wdev" id='member-img-avatar' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;" title="ApertureNOBLE? Nah.">
+					<div id='member-img-avatar' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;" title="ApertureNOBLE? Not likely. LittleBigPlanet fan? Most definitely.">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -172,8 +164,6 @@
 							<h2>
 							<p style="float: left;">
 								 DAGINATSUKO
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-wdev">
 								 Web Developer
@@ -185,13 +175,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 DAGINATSUKO joined RPCS3 in early 2017 as the core web developer and core graphic designer. In addition, they are also in charge of the project's branding which includes the logos, graphics and press kit assets that greatly contribute to developing the face of the emulator and its team.
+								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. In addition, they are also in charge of the project's branding which includes logos, iconography and press kit assets that aim to develop the face of the project and its team members.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ccdev" id='member-img-avatar' style="background: url('/img/members/jarves.png') no-repeat center; background-size: cover;" title="He's only in it for Kingdom Hearts">
+					<div id='member-img-avatar' style="background: #e68364 url('/img/members/jarves.png') no-repeat center; background-size: cover;" title="He's only in it for Kingdom Hearts">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -199,9 +189,7 @@
 						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
-								 Jarveson
-							</p>
-							<p>
+								 Jarves
 							</p>
 							<p class="txt-role div-role-ccdev">
 								 Developer
@@ -216,7 +204,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ccdev" id='member-img-avatar' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;" title="Bad cop moderator">
+					<div id='member-img-avatar' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;" title="The 'Bad cop' moderator and developer.">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/principality-of-sealand.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -225,8 +213,6 @@
 							<h2>
 							<p style="float: left;">
 								 Numan
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-ccdev">
 								 Developer
@@ -251,8 +237,6 @@
 							<p style="float: left;">
 								 hcorion
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-ccdev">
 								 Developer
 							</p>
@@ -260,7 +244,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 hcorion is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -275,8 +259,6 @@
 							<h2>
 							<p style="float: left;">
 								 flash-fire
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-ccdev">
 								 Developer
@@ -301,8 +283,6 @@
 							<p style="float: left;">
 								 Megamouse
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-ccdev">
 								 Developer
 							</p>
@@ -310,7 +290,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 Megamouse is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer decide to add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -326,8 +306,6 @@
 							<p style="float: left;">
 								 GalCiv
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-ccdev">
 								 Developer
 							</p>
@@ -335,13 +313,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 GalCiv is a developer for RPCS3 and currently does not have a proper description at this time. Should this active developer to decide add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ddev" id='member-img-avatar' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;" title="The Russian">
+					<div id='member-img-avatar' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;" title="The Russian">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -350,8 +328,6 @@
 							<h2>
 							<p style="float: left;">
 								 BlackDaemon
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-ddev">
 								 Debugger
@@ -366,7 +342,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ddev" id='member-img-avatar' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;" title="He comes and goes">
+					<div id='member-img-avatar' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;" title="He comes and goes">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -376,8 +352,6 @@
 							<p style="float: left;">
 								 O1L
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-ddev">
 								 Debugger
 							</p>
@@ -388,13 +362,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 O1L is a contributor and team member for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-ddev" id='member-img-avatar' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;" title="Doesn't actually hack anything">
+					<div id='member-img-avatar' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;" title="Doesn't actually hack anything">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -404,8 +378,6 @@
 							<p style="float: left;">
 								 Clienthax
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-ddev">
 								 Debugger
 							</p>
@@ -413,13 +385,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 Clienthax is a debugger and team member for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-wdev" id='member-img-avatar' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;" title="Grandpa">
+					<div id='member-img-avatar' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;" title="Grandpa">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -429,13 +401,11 @@
 							<p style="float: left;">
 								 Shadow
 							</p>
-							<p>
+							<p class="txt-role div-role-ccdev">
+								 Contributor
 							</p>
 							<p class="txt-role div-role-wdev">
 								 Webserver Owner
-							</p>
-							<p class="txt-role div-role-ccdev">
-								 Contributor
 							</p>
 							</h2>
 						</div>
@@ -446,8 +416,11 @@
 						</div>
 					</div>
 				</div>
+				<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+					<h2>Contributors</h2>
+				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;" title="The second coming of Jarveson">
+					<div id='member-img-avatar' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;" title="The second coming of Jarves. Why is he holding back? No one knows.">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -457,8 +430,6 @@
 							<p style="float: left;">
 								 Farseer
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-ccdev">
 								 Contributor
 							</p>
@@ -466,13 +437,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 Farseer is a contributor for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: #e68364 url('/img/members/scribam.png') no-repeat center; background-size: cover;" title="Known to create random, yet useful pull requests for your GitHub repos">
+					<div id='member-img-avatar' style="background: #e68364 url('/img/members/velocity.png') no-repeat center; background-size: cover;" title="Refuses to develop at a nominal velocity">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -480,9 +451,7 @@
 						<div id='featured-tx1-block' class="darkmode-txt">
 							<h2>
 							<p style="float: left;">
-								 scribam
-							</p>
-							<p>
+								 velocity
 							</p>
 							<p class="txt-role div-role-ccdev">
 								 Contributor
@@ -491,7 +460,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 scribam is a contributor for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -507,8 +476,6 @@
 							<p style="float: left;">
 								 Dangles
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-ccdev">
 								 Contributor
 							</p>
@@ -516,9 +483,55 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 Dangles is a contributor for RPCS3 and currently does not have a proper description at this time. Should this active contributor decide to add a proper description, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/scribam.png') no-repeat center; background-size: cover;" title="Known to create random, yet useful pull requests for your GitHub repos">
+					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div class="div-avatar-block" id='featured-wrp-block'>
+					<div id='featured-tx1-block' class="darkmode-txt">
+						<h2>
+						<p style="float: left;">
+							 scribam
+						</p>
+						<p class="txt-role div-role-ccdev">
+							 Contributor
+						</p>
+						</h2>
+					</div>
+					<div id='featured-tx2-block' class="darkmode-txt">
+						<p>
+							 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/raven02.png') no-repeat center; background-size: cover;" title="He's in for the long haul">
+					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div class="div-avatar-block" id='featured-wrp-block'>
+					<div id='featured-tx1-block' class="darkmode-txt">
+						<h2>
+						<p style="float: left;">
+							 raven02
+						</p>
+						<p class="txt-role div-role-ccdev">
+							 Contributor
+						</p>
+						</h2>
+					</div>
+					<div id='featured-tx2-block' class="darkmode-txt">
+						<p>
+							 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -527,7 +540,7 @@
 			</div>
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-fdev" id='member-img-avatar' style="background: url('/img/members/dh.png') no-repeat center; background-size: cover;">
+					<div id='member-img-avatar' style="background: url('/img/members/dh.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/ukraine.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -536,8 +549,6 @@
 							<h2>
 							<p style="float: left;">
 								 DH
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-fdev">
 								 Project Founder
@@ -552,7 +563,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-fdev" id='member-img-avatar' style="background: url('/img/members/hykem.png') no-repeat center; background-size: cover;">
+					<div id='member-img-avatar' style="background: url('/img/members/hykem.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -561,8 +572,6 @@
 							<h2>
 							<p style="float: left;">
 								 Hykem
-							</p>
-							<p>
 							</p>
 							<p class="txt-role div-role-fdev">
 								 Project Founder
@@ -577,7 +586,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-fdev" id='member-img-avatar' style="background: url('/img/members/alexaltea.png') no-repeat center; background-size: cover;">
+					<div id='member-img-avatar' style="background: url('/img/members/alexaltea.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -587,8 +596,6 @@
 							<p style="float: left;">
 								 AlexAltea
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
@@ -596,7 +603,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 AlexAltea is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
@@ -612,8 +619,6 @@
 							<p style="float: left;">
 								 Tambry
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
@@ -621,13 +626,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 Tambry is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-fdev" id='member-img-avatar' style="background: url('/img/members/bigpet.png') no-repeat center; background-size: cover;">
+					<div id='member-img-avatar' style="background: url('/img/members/bigpet.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -637,8 +642,6 @@
 							<p style="float: left;">
 								 Bigpet
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
@@ -646,13 +649,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 BigPet is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-fdev" id='member-img-avatar' style="background: url('/img/members/vlj.png') no-repeat center; background-size: cover;">
+					<div id='member-img-avatar' style="background: url('/img/members/vlj.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -662,8 +665,6 @@
 							<p style="float: left;">
 								 vlj
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
@@ -671,13 +672,13 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 vlj is a past developer and team member for RPCS3 and is currently not working on the project at this time. Should this past developer decide to return to the project at any time, this description will be promptly updated upon their request.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository.</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
 							</p>
 						</div>
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div class="div-role-fdev" id='member-img-avatar' style="background: url('/img/members/gopalsr83.png') no-repeat center; background-size: cover;">
+					<div id='member-img-avatar' style="background: url('/img/members/gopalsr83.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/india.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -687,8 +688,6 @@
 							<p style="float: left;">
 								 gopalsr83
 							</p>
-							<p>
-							</p>
 							<p class="txt-role div-role-fdev">
 								 Past Developer
 							</p>
@@ -696,7 +695,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 gopalsr83 is a past developer and team member for RPCS3 and is currently not working on the project anymore from now and into the future. This past developer is thought to be deceased and more information will be gathered on his contributions at a later date.
+								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. This developer is thought to be deceased and more information will be gathered on his contributions at a later date.
 							</p>
 						</div>
 					</div>
