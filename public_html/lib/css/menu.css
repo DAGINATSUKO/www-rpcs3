@@ -289,7 +289,6 @@
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-duration: .5s;
-    border-radius: 11px;
     overflow: hidden;
     border: solid 4px #fff;
 }

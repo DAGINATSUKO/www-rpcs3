@@ -30,6 +30,9 @@
 .dm-txt {
     color: #bebebe!important;
 }
+.dm-udl {
+	border-bottom:1px solid #191d21!important;
+}
 .dm-default {
     background: #242a30!important;
 }

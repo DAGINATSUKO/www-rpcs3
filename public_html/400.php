@@ -15,19 +15,25 @@
 <body style="background: #000;">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
-<div id='header-con-overlay' class="darkmode-header" style="position:fixed;">
-	<div id="error-con-content">
-		<div id='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
+	<div id='header-con-overlay' class="darkmode-header" style="position:fixed;">
+		<div id="error-con-content">
+			<div id='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
+			</div>
+			<div id='error-tx1-content'>
+				<span>Bad Request</span>
+			</div>
+			<div id='error-tx2-content'>
+				<p>
+					 Your request was invalid or unsupported
+				</p>
+			</div>
 		</div>
-		<div id='error-tx1-content'>
-			<span>BAD REQUEST</span>
-		</div>
-		<div id='error-tx2-content'>
-			<p>
-				 Your request was invalid or unsupported
-			</p>
+		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
+			<div class="scale-wavebar-hide visual-wavebar">
+			</div>
+			<div class="scale-wavebar-hide visual-wavebar delayed-fade" style="display:none;">
+			</div>
 		</div>
 	</div>
-</div>
-</body>
-</html>
+	</body>
+	</html>

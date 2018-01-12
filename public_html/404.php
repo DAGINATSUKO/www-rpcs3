@@ -15,19 +15,25 @@
 <body style="background: #000;">
 <?php include 'lib/module/call-php.php';?>
 <div id="page-con-content">
-<div id='header-con-overlay' class="darkmode-header" style="position:fixed;">
-	<div id="error-con-content">
-		<div id='error-ico-content' style="background: url('/img/icons/errors/404.png') no-repeat center; background-size:40px;">
+	<div id='header-con-overlay' class="darkmode-header" style="position:fixed;">
+		<div id="error-con-content">
+			<div id='error-ico-content' style="background: url('/img/icons/errors/404.png') no-repeat center; background-size:40px;">
+			</div>
+			<div id='error-tx1-content'>
+				<span>Not Found</span>
+			</div>
+			<div id='error-tx2-content'>
+				<p>
+					 This page cannot be found on the host server
+				</p>
+			</div>
 		</div>
-		<div id='error-tx1-content'>
-			<span>NOT FOUND</span>
-		</div>
-		<div id='error-tx2-content'>
-			<p>
-				 This page cannot be found on the host server
-			</p>
+		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
+			<div class="scale-wavebar-hide visual-wavebar">
+			</div>
+			<div class="scale-wavebar-hide visual-wavebar delayed-fade" style="display:none;">
+			</div>
 		</div>
 	</div>
-</div>
-</body>
-</html>
+	</body>
+	</html>

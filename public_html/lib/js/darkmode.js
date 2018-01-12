@@ -26,6 +26,7 @@ $(document).ready(function() {
 		$('.darkmode-buttons-general').toggleClass("dm-buttons-general");
         $(".markdown-body").toggleClass("dm-txt");
         $(".markdown-body h2").toggleClass("dm-txt");
+		$(".markdown-body h2").toggleClass("dm-udl");
         $("#featured-con-block h2").toggleClass("dm-txt");
         $("#featured-con-block p").toggleClass("dm-txt");
 		$("#footer-con-container").toggleClass("dm-footer");
@@ -96,6 +97,7 @@ $(document).ready(function() {
 		$('.darkmode-buttons-general').addClass("dm-buttons-general");
         $(".markdown-body").addClass("dm-txt");
         $(".markdown-body h2").addClass("dm-txt");
+		$(".markdown-body h2").addClass("dm-udl");
         $("#featured-con-block h2").addClass("dm-txt");
         $("#featured-con-block p").addClass("dm-txt");
 		$(".markdown-body li").addClass("dm-txt");
@@ -154,6 +156,7 @@ $(document).ready(function() {
 		$('.darkmode-buttons-general').removeClass("dm-buttons-general");
         $(".markdown-body").removeClass("dm-txt");
         $(".markdown-body h2").removeClass("dm-txt");
+		$(".markdown-body h2").removeClass("dm-udl");
         $("#featured-con-block h2").removeClass("dm-txt");
         $("#featured-con-block p").removeClass("dm-txt");
 		$(".markdown-body li").removeClass("dm-txt");

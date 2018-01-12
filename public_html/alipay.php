@@ -37,5 +37,11 @@
 		</p>
 	</div>
 </div>
+		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
+			<div class="scale-wavebar-hide visual-wavebar">
+			</div>
+			<div class="scale-wavebar-hide visual-wavebar delayed-fade" style="display:none;">
+			</div>
+		</div>
 </body>
 </html>

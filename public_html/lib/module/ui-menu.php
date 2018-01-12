@@ -136,7 +136,7 @@
 		<div id="page-con-container">
 			<div id="page-in-container" style="overflow: hidden !important;">
 				<div id='mobilemenu-con-title'>
-					<span>DEBUGGER (WIP)</span>
+					<span>DEBUGGER</span>
 				</div>
 				<div id='mobilemenu-con-category'>
 					<div id='mobilemenu-con-button' style='-webkit-animation-duration: .1s;'>

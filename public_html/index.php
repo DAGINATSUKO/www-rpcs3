@@ -53,7 +53,7 @@
 						<div id='feature-tx2-wrap'>
 							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is capable of running over 1,600** commercial titles powered by Vulkan, OpenGL and DirectX 12 renderers.</span>
 							<a href="/download">
-							<div id='feature-btn-download' class="scale-override-hide" title="Download">
+							<div id='feature-btn-download' class="scale-override-hide">
 								<span>Download</span>
 							</div>
 							</a>
@@ -124,8 +124,7 @@ setInterval(function() {
 							</div>
 							</a>
 							<div id='timer-tx2-body'>
-								<span>
-								Join the discussion on </span>
+								<span>Join the discussion on </span>
 							</div>
 						</div>
 					</div>
@@ -160,55 +159,43 @@ setInterval(function() {
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/directory.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div id='feature-con-wrapper' class="">
-			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-content-block-promote">
-				<div id='content-img-overlay' class="content-img-overlay-a">
-					<div id='content-ico-block' style="background: url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 240px !important;">
-					</div>
-					<div id='content-tx1-block'>
-						<span>
-						Each month we aim to put out a technical and visual progress report that showcases our latest developments and features for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
-					</div>
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-content-block-promote">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 242px !important;">
+				</div>
+				<div id='contribute-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
+					<span>
+					Each month we aim to put out a technical and visual progress report that showcases our latest developments for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation without the need of a supercomputer. As development moves forward, system requirements become lower and more games become playable.</span>
 				</div>
 				<a href="https://rpcs3.net/blog/2018/01/03/progress-report-december-2017/">
-				<div id='content-btn-block' title="Read Report">
-					<span>Read Report</span>
+				<div id='contribute-btn-block'>
+					<span>Reports</span>
 				</div>
 				</a>
-				<div id='content-img-block'>
-				</div>
 			</div>
-			<div id='content-con-block-a' class="contribute-alg-block darkmode-block scale-override-hide">
-				<div id='content-img-overlay' class="content-img-overlay-b">
-					<div id='content-ico-block' style="background: url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 240px !important;">
-					</div>
-					<div id='content-tx1-block'>
-						<span>
-						Join our Discord community, featuring over 22,000 members and growing for up-to-the-minute news, announcements and support in PlayStation 3 emulation. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a quick-response compatibility bot that allows users to request the status for over 2888 tested original PlayStation 3 titles. These titles include both disc-based titles and PlayStation Network titles. </span>
-					</div>
+			<div id='content-con-block-b' class="contribute-alg-block darkmode-block scale-override-hide">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 242px !important;">
+				</div>
+				<div id='contribute-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
+					<span>
+					Join our Discord community, featuring over 22,000 members for up-to-the-minute news, announcements and support in PlayStation 3 emulation. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a quick-response compatibility bot that allows users to request the status for over 2600 tested PlayStation 3 titles. This includes both disc titles and PlayStation Network titles.</span>
 				</div>
 				<a href="https://discord.me/RPCS3" target="_blank">
-				<div id='content-btn-block' title="Join Discussion">
-					<span>Join Discussion</span>
+				<div id='contribute-btn-block'>
+					<span>Discuss</span>
 				</div>
 				</a>
-				<div id='content-img-block'>
-				</div>
 			</div>
-			<div id='content-con-block-a' class="scale-override-hide">
-				<div id='content-img-overlay' class="content-img-overlay-c">
-					<div id='content-ico-block' style="background: url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 240px !important;">
-					</div>
-					<div id='content-tx1-block'>
-						<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU GPL Version 2.0 License.</span>
-					</div>
+			<div id='content-con-block-b' class="darkmode-block scale-override-hide">
+				<div id='contribute-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 242px !important;">
+				</div>
+				<div id='contribute-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
+					<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU GPL Version 2.0 License.</span>
 				</div>
 				<a href="https://github.com/RPCS3/rpcs3/pulls" target="_blank">
-				<div id='content-btn-block' title="Pull Requests">
-					<span>Pull Requests</span>
+				<div id='contribute-btn-block'>
+					<span>Pulls</span>
 				</div>
 				</a>
-				<div id='content-img-block'>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -333,7 +320,7 @@ setInterval(function() {
 					</div>
 				</div>
 				<a href="https://www.patreon.com/Nekotekina" target="_blank">
-				<div id='patreon-btn-block' title="Become a Patron">
+				<div id='patreon-btn-block'>
 					<span>Become a Patron</span>
 				</div>
 				</a>
@@ -355,7 +342,7 @@ setInterval(function() {
 						</div>
 						<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
-							<div id='feature-btn-general' class="darkmode-buttons-general scale-override-hide" title="Coming Soon">
+							<div id='feature-btn-general' class="darkmode-buttons-general scale-override-hide">
 								<span>Coming Soon</span>
 							</div>
 						</div>
@@ -421,7 +408,7 @@ setInterval(function() {
 					<span>Our core developers and contributors are always working hard to ensure this project can be the best that it can be. The funding received from our patrons will allow our core developers to spend full-time working on the project, obtain hardware for development and testing and allow this website to exist, along with its compatibility database.</span>
 				</div>
 				<a href="https://www.patreon.com/Nekotekina" target="_blank">
-				<div id='contribute-btn-block' class="darkmode-txt" title="Donate">
+				<div id='contribute-btn-block' class="darkmode-txt">
 					<span>Donate</span>
 				</div>
 				</a>
@@ -436,7 +423,7 @@ setInterval(function() {
 					<span>When developing a complex project, new contributors are always welcome. You can start contributing by forking the project for personal use and then proceed on to reading the wiki, notes, coding style and developer information sections. It's up to you to find something you want to add, improve or implement within the project.</span>
 				</div>
 				<a href="https://github.com/RPCS3/rpcs3" target="_blank">
-				<div id='contribute-btn-block' class="darkmode-txt" title="Code">
+				<div id='contribute-btn-block' class="darkmode-txt">
 					<span>Code</span>
 				</div>
 				</a>
@@ -451,7 +438,7 @@ setInterval(function() {
 					<span>We all want to be able to play our favorite games far into the future. Whether it's for preservation, or for the sake of nostalgia, emulation accuracy ensures that titles will run the same as they do on original hardware. To ensure this, we need to do a lot of testing and a lot of reporting. This is where you come in.</span>
 				</div>
 				<a href="https://forums.rpcs3.net" target="_blank">
-				<div id='contribute-btn-block' class="darkmode-txt" title="Reporting">
+				<div id='contribute-btn-block' class="darkmode-txt">
 					<span>Forums</span>
 				</div>
 				</a>
@@ -475,7 +462,7 @@ setInterval(function() {
 					<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 						<span>RPCS3 is not designed to enable illegal activity. When dumping video game software, users are subject to country-specific software distribution laws. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding. Remember, the best way to play PlayStation 3 games is to play them on original hardware, for now.</span>
 						<a href="/disclaimer">
-						<div id='feature-btn-general' class="darkmode-buttons-general" title="Disclaimer">
+						<div id='feature-btn-general' class="darkmode-buttons-general">
 							<span>Disclaimer</span>
 						</div>
 						</a>
@@ -501,7 +488,7 @@ setInterval(function() {
 					<span>Ready to give RPCS3 a shot? Great! Before you get started, we highly recommend that you read over our quickstart guide. Please take in account that the requirements for running RPCS3 are still not fully known and are subject to change during its current development stage. We aim to optimize our software as much as possible.</span>
 				</div>
 				<a href="/quickstart">
-				<div id='contribute-btn-block' class="darkmode-txt" title="Start">
+				<div id='contribute-btn-block' class="darkmode-txt">
 					<span>Read More</span>
 				</div>
 				</a>
@@ -516,7 +503,7 @@ setInterval(function() {
 					<span>Are you a little hesitant? Have some questions about RPCS3? Look no further; our frequently asked questions page is designed to answer any RPCS3 related questions you may have. The FAQs page covers everything from a little of the project's history, to our licensing plan, to what controllers and input devices are currently compatible with the emulator.</span>
 				</div>
 				<a href="/faq">
-				<div id='contribute-btn-block' class="darkmode-txt" title="Get Answers">
+				<div id='contribute-btn-block' class="darkmode-txt">
 					<span>Read More</span>
 				</div>
 				</a>
@@ -531,7 +518,7 @@ setInterval(function() {
 					<span>This project is never-ending. RPCS3's development will inevitably go on forever. In the meantime, we've set out a month-to-month roadmap that showcases the goals we wish to reach for that specific month. Keep in mind, anyone and everyone is open to developing an implementation for any listed roadmap feature. See our <a href='https://github.com/RPCS3/rpcs3/wiki' target="_blank">GitHub</a> wiki.</span>
 				</div>
 				<a href="/roadmap">
-				<div id='contribute-btn-block' class="darkmode-txt" title="See Roadmap">
+				<div id='contribute-btn-block' class="darkmode-txt">
 					<span>Read More</span>
 				</div>
 				</a>
