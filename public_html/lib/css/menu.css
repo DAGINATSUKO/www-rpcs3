@@ -39,13 +39,15 @@
     width: 100%;
     height: 100%;
     background: rgba(76,91,215,.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 #menu-und-l2 {
     position: absolute;
     display: none;
     width: 100%;
     height: 100%;
-    background: rgba(76,91,215,.9);
+    background: rgba(76,91,215,.8);
 }
 #menu-und-l3 {
     position: absolute;
@@ -154,19 +156,19 @@
 }
 #submenu-con-wrapper:hover #submenu-ico-patreon {
     background: url('/img/icons/menu/patreon-h.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #submenu-con-wrapper:hover #submenu-ico-alipay {
     background: url('/img/icons/menu/alipay-h.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #submenu-con-wrapper:hover #submenu-ico-github {
     background: url('/img/icons/menu/code-h.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #submenu-con-wrapper:hover #submenu-ico-testing {
     background: url('/img/icons/menu/testing-h.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #submenu-btn-button {
     font-family: arial;
@@ -187,7 +189,7 @@
     width: 54px;
     height: 54px;
     background: url('/img/icons/menu/patreon.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #submenu-ico-alipay {
     display: inline-block;
@@ -195,7 +197,7 @@
     width: 54px;
     height: 54px;
     background: url('/img/icons/menu/alipay.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #submenu-ico-github {
     display: inline-block;
@@ -203,7 +205,7 @@
     width: 54px;
     height: 54px;
     background: url('/img/icons/menu/code.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #submenu-ico-testing {
     display: inline-block;
@@ -211,7 +213,7 @@
     width: 54px;
     height: 54px;
     background: url('/img/icons/menu/testing.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
 }
 #menu-btn-select {
     font-family: arial;
@@ -223,8 +225,8 @@
     width: auto;
     height: 60px;
     margin-left: 0;
-    padding-right: 7px;
-    padding-left: 7px;
+    padding-right: 9px;
+    padding-left: 9px;
     color: #fff;
     border-bottom: 2px solid rgba(0,0,0,.0);
     transition: .1s ease-in-out;
@@ -244,13 +246,15 @@
     transition: .1s ease-in-out;
     border-bottom: solid 2px rgba(255,255,255,0);
     background: url(/img/icons/menu/darkmode-off.png) no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
+    opacity: 0.3;
 }
 #menu-btn-darkmode:hover {
     width: 60px;
     height: 60px;
     transition: .1s ease-in-out;
     border-bottom: solid 2px #fff;
+    opacity: 1;
 }
 #menu-ico-support {
     position: absolute;
@@ -258,7 +262,7 @@
     width: 92px;
     height: 60px;
     background: url('/img/icons/menu/support.png') no-repeat center;
-    background-size: 92px;
+    background-size: 84px;
     cursor: pointer;
 }
 #menu-con-support {
@@ -364,6 +368,8 @@
     -webkit-overflow-scrolling: touch;
     padding-right: 17px;
     padding-bottom: 17px;
+	backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 #menu-btn-debug {
     position: fixed;
@@ -375,12 +381,14 @@
     cursor: pointer;
     transition: all .1s ease-in-out;
     background: url('/img/icons/menu/debug.png') no-repeat center;
-    background-size: 18px;
+    background-size: 16px;
     border-bottom: 2px solid rgba(0,0,0,.0);
+    opacity: .3;
 }
 #menu-btn-debug:hover {
     transition: all .1s ease-in-out;
     border-bottom: solid 2px #fff;
+    opacity: 1;
 }
 #mobilemenu-con-title {
     font-family: arial;
