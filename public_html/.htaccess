@@ -1,6 +1,16 @@
 RewriteEngine on
 Options All -Indexes
 
+# Security flags for HTML headers
+<IfModule mod_headers.c>
+	# Protect against XSS attacks
+	Header set X-XSS-Protection "1; mode=block"
+	# Protect against page-framing and click-jacking
+	Header always append X-Frame-Options SAMEORIGIN
+	# Protect against content-sniffing (MIME)
+	Header set X-Content-Type-Options nosniff
+</IfModule>
+
 # Unless directory, remove trailing slash
 RewriteCond %{HTTP_HOST} !^wiki\.rpcs3\.net$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-d
