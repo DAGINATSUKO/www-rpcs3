@@ -18,7 +18,7 @@
 <?php
 	preloadVideo(
 	'1',
-	'null'
+	'Unused'
 	);
 	preloadVideo(
 	'2',
@@ -26,7 +26,7 @@
 	);
 	preloadVideo(
 	'3',
-	'Y1MaFHQVH3I'
+	'WXncRC_-JhA'
 	);
 ?>
 <div id="page-con-content" class="page-content-override">
@@ -337,7 +337,7 @@ setInterval(function() {
 				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a scale-offset-txt-a'>
 					<div id='feature-txt-wrap' class="scale-offset-txt-b">
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
-							<span>Showcasing True Progress</span>
+							<span>Community Videos Showcase</span>
 						</div>
 						<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
