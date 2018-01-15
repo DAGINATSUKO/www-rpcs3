@@ -1,7 +1,7 @@
 .dm-icon {
     background: url(/img/icons/menu/darkmode-on.png) no-repeat center!important;
     background-size: 16px!important;
-    opacity: 1 !important;
+    opacity: 1!important;
 }
 .dm-bg {
     background: #191d21!important;
@@ -26,13 +26,13 @@
     background: rgba(40,48,117,0.6)!important;
 }
 .dm-menubar-l2 {
-    background: rgba(40,48,117,0.9)!important;
+    background: rgba(40,48,117,0.8)!important;
 }
 .dm-txt {
     color: #bebebe!important;
 }
 .dm-udl {
-	border-bottom:1px solid #191d21!important;
+    border-bottom: 1px solid #191d21!important;
 }
 .dm-default {
     background: #242a30!important;
@@ -75,26 +75,23 @@
     background: rgba(69,89,113,0.2);
 }
 .dm-footer-logo {
-    background: url(/img/icons/menu/logo.png) no-repeat center !important;
-    background-size: 32px !important;
+    background: url(/img/icons/menu/logo.png) no-repeat center!important;
+    background-size: 32px!important;
 }
 .dm-bound-tx1 {
-    color: #fff !important;
+    color: #fff!important;
 }
 .dm-bound-tx2 {
-    color: #bebebe !important;
+    color: #bebebe!important;
 }
 .dm-bound-tx2 a {
-    color: #bebebe !important;
+    color: #bebebe!important;
 }
 .dm-webmaster-tx1 {
-    color: #bebebe !important;
+    color: #bebebe!important;
 }
 .dm-webmaster-tx2 {
-    color: #bebebe !important;
-}
-.dm-webmaster-ico {
-    border: solid 2px #bebebe !important;
+    color: #bebebe!important;
 }
 .dm-navsidebar-title {
     background: #252d68!important;
