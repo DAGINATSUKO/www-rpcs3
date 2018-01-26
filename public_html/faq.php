@@ -47,30 +47,6 @@
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>What is RPCS3 and where can I get it?</h2>
-					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
-						<p>
-							 RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++, developed with the open-source LLVM Compiler Infrastructure project for Windows and Linux. Starting development in May of 2011, RPCS3 is capable of running over 1,300 commercial titles on top of its low-level Vulkan, OpenGL and DirectX 12 renderers. The source code for RPCS3 is hosted publicly on our GitHub. You're welcome to grab the latest compiled revisions from our AppVeyor or compile your own build for personal use.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Who are the creators behind RPCS3?</h2>
-					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
-						<p>
-							 RPCS3 began development in early 2011 by a small team of programmers lead by DH and Hykem. Our current core developer, <a href="https://github.com/Nekotekina">Nekotekina</a>, is hard at work ensuring RPCS3 meets its roadmap goals and that its development is always progressing forward. Since then, RPCS3 has progressed into an open source community-based project. The full list of contributors can be found on our GitHub page.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
 						<h2>Is RPCS3 aiming for complete accuracy or game specific hacks?</h2>
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">

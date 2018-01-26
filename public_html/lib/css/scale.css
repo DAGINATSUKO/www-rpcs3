@@ -57,7 +57,9 @@
     .scale-content-block-promote {
         display:block!important;
         left: 50%!important;
-        margin: 0 -186px!important;
+        width: 372px !important;
+        margin-left: -186px!important;
+        transform: scale(1.1) !important;
     }
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -79,71 +81,12 @@
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 1260px) {
-    .scale-feature-con-wrap-a {
-        height:320px!important;
-        width: 566px!important;
-        left: 50%!important;
-        margin: 0 -280px!important;
-        top: 0px!important;
-    }
-}
-@media screen and (max-width: 1260px) {
-    .scale-feature-wrap-left-a {
-        position:relative!important;
-        width: 100%!important;
-    }
-}
-@media screen and (max-width: 1260px) {
-    .scale-feature-wrap-right-a {
-        position:relative!important;
-        width: 100%!important;
-    }
-}
-/* ---------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 1260px) {
-    .scale-feature-con-wrap-c {
-        height:248px!important;
-        width: 566px!important;
-        left: 50%!important;
-        margin: -134px -280px!important;
-        top: 50%!important;
-    }
-}
-@media screen and (max-width: 1260px) {
-    .scale-feature-wrap-left-c {
-        position:relative!important;
-        width: 100%!important;
-        height: 100%;
-    }
-}
-@media screen and (max-width: 1260px) {
-    .scale-feature-wrap-right-c {
-        display:none!important;
-    }
-}
-/* ---------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 1260px) {
-    .scale-offset-txt-center {
-        text-align:center!important;
-    }
-}
-@media screen and (max-width: 1260px) {
     .scale-offset-center {
         height:620px!important;
         width: 100%!important;
         position: absolute!important;
         top: 50%!important;
         margin: -310px 0!important;
-    }
-}
-@media screen and (max-width: 1260px) {
-    .scale-offset-txt-a {
-        height:266px!important;
-    }
-}
-@media screen and (max-width: 1260px) {
-    .scale-offset-txt-b {
-        margin-top:-140px!important;
     }
 }
 /* ---------------------------------------------------------------------------------------------------------------- */

@@ -1,9 +1,55 @@
+/* Handles mobile friendly touch gesture compatibility */
 $(document).ready(function() {
-document.documentElement.addEventListener('touchstart', function (event) {
-            if (event.touches.length > 1) {
-                event.preventDefault();
-            }
-        }, false);
+    document.documentElement.addEventListener('touchstart', function(event) {
+        if (event.touches.length > 1) {
+            event.preventDefault();
+        }
+    }, false);
+});
+/* Handles scalable home feature text module 2 */
+$(window).resize(function() {
+    $('.scale-feature-txt-1').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-1').height() / 2
+    });
+});
+$(window).load(function() {
+    $('.scale-feature-txt-1').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-1').height() / 2
+    });
+});
+/* Handles scalable home feature text module 2 */
+$(window).resize(function() {
+    $('.scale-feature-txt-2').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-2').height() / 2
+    });
+});
+$(window).load(function() {
+    $('.scale-feature-txt-2').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-2').height() / 2
+    });
+});
+/* Handles scalable home feature text module 3 */
+$(window).resize(function() {
+    $('.scale-feature-txt-3').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-3').height() / 2
+    });
+});
+$(window).load(function() {
+    $('.scale-feature-txt-3').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-3').height() / 2
+    });
 });
 /* Handles mobile menu toggles */
 $(document).ready(function() {
@@ -45,15 +91,15 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.debug-mobile').text(navigator.mobile)
     $('.debug-browser').text(navigator.browser)
-	$('.debug-codename').text(navigator.product)
+    $('.debug-codename').text(navigator.product)
     $('.debug-version').text(navigator.version)
     $('.debug-webkit').text(navigator.webkit)
     $('.debug-platform').text(navigator.platform)
     $('.debug-cookies').text(navigator.cookieEnabled)
     $('.debug-language').text(navigator.language)
     $('.debug-online').text(navigator.onLine)
-	$('.debug-agent').text(navigator.userAgent)
-	$('.debug-java').text(navigator.javaEnabled())
+    $('.debug-agent').text(navigator.userAgent)
+    $('.debug-java').text(navigator.javaEnabled())
 });
 /* Randomly loads header banner image for each page */
 $(document).ready(function() {

@@ -49,10 +49,10 @@
 }
 .dm-buttons-general {
     color: #fff!important;
-    border: solid 1px #fff!important;
+    background: rgba(255,255,255,.1) !important;
 }
 .dm-buttons-general:hover {
-    background: rgba(255,255,255,.1)!important;
+    background: rgba(255,255,255,.2)!important;
 }
 .dm-panel {
     border: solid 1px #191d21!important;

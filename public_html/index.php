@@ -43,24 +43,24 @@
 		</div>
 		<div class="darkmode-header" id='header-con-overlay'>
 		</div>
-		<div class="scale-offset-center">
-			<div id='feature-con-wrapper' class='scale-feature-con-wrap-a'>
-				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a'>
-					<div id='feature-txt-wrap'>
+		<div id="feature-con-outer">
+			<div id="feature-con-inner">
+				<div id='feature-con-wrap-left'>
+					<div id='feature-txt-wrap' class="scale-feature-txt-1">
 						<div id='feature-tx1-wrap'>
 							<span>An Open-source PlayStation 3 Emulator</span>
 						</div>
 						<div id='feature-tx2-wrap'>
 							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is capable of running over 1,600** commercial titles powered by Vulkan, OpenGL and DirectX 12 renderers.</span>
 							<a href="/download">
-							<div id='feature-btn-download' class="scale-override-hide">
+							<div id='feature-btn-download'>
 								<span>Download</span>
 							</div>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div id='feature-con-wrap-right' class='scale-feature-wrap-right-a'>
+				<div id='feature-con-wrap-right'>
 					<div id='feature-img-wrap' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
 					</div>
 					<!-- Featured Video -->
@@ -102,14 +102,14 @@
 					</div>
 					<script>
 					$("#video-con-slideshow > div:gt(0)").hide();
-setInterval(function() {
-  $('#video-con-slideshow > div:first')
-    .fadeOut(768)
-    .next()
-    .fadeIn(768)
-    .end()
-    .appendTo('#video-con-slideshow');
-}, 5000);
+					setInterval(function() {
+					  $('#video-con-slideshow > div:first')
+						.fadeOut(768)
+						.next()
+						.fadeIn(768)
+						.end()
+						.appendTo('#video-con-slideshow');
+					}, 5000);
 					</script>
 					<!-- Timer -->
 					<div id='timer-con-container' style="display:none;">
@@ -158,44 +158,46 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/directory.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class="">
-			<div id='content-con-block' class="content-alg-block darkmode-block scale-content-block-promote">
-				<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 242px !important;">
+		<div id="feature-con-outer">
+			<div id="feature-con-inner">
+				<div id='content-con-block' class="content-alg-block darkmode-block scale-content-block-promote">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 242px !important;">
+					</div>
+					<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
+						<span>
+						Each month we aim to put out a technical and visual progress report that showcases our latest developments for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation without the need of a supercomputer. As development moves forward, system requirements become lower and more games become playable.</span>
+					</div>
+					<a href="https://rpcs3.net/blog/2018/01/03/progress-report-december-2017/">
+					<div id='content-btn-block'>
+						<span>Reports</span>
+					</div>
+					</a>
 				</div>
-				<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
-					<span>
-					Each month we aim to put out a technical and visual progress report that showcases our latest developments for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation without the need of a supercomputer. As development moves forward, system requirements become lower and more games become playable.</span>
+				<div id='content-con-block' class="content-alg-block darkmode-block scale-override-hide">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 242px !important;">
+					</div>
+					<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
+						<span>
+						Join our Discord community, featuring over 22,000 members for up-to-the-minute news, announcements and support in PlayStation 3 emulation. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a quick-response compatibility bot that allows users to request the status for over 2600 tested PlayStation 3 titles. This includes both disc titles and PlayStation Network titles.</span>
+					</div>
+					<a href="https://discord.me/RPCS3" target="_blank">
+					<div id='content-btn-block'>
+						<span>Discuss</span>
+					</div>
+					</a>
 				</div>
-				<a href="https://rpcs3.net/blog/2018/01/03/progress-report-december-2017/">
-				<div id='content-btn-block'>
-					<span>Reports</span>
+				<div id='content-con-block' class="darkmode-block scale-override-hide">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 242px !important;">
+					</div>
+					<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
+						<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU General Public License.</span>
+					</div>
+					<a href="https://github.com/RPCS3/rpcs3/pulls" target="_blank">
+					<div id='content-btn-block'>
+						<span>Pulls</span>
+					</div>
+					</a>
 				</div>
-				</a>
-			</div>
-			<div id='content-con-block' class="content-alg-block darkmode-block scale-override-hide">
-				<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 242px !important;">
-				</div>
-				<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
-					<span>
-					Join our Discord community, featuring over 22,000 members for up-to-the-minute news, announcements and support in PlayStation 3 emulation. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a quick-response compatibility bot that allows users to request the status for over 2600 tested PlayStation 3 titles. This includes both disc titles and PlayStation Network titles.</span>
-				</div>
-				<a href="https://discord.me/RPCS3" target="_blank">
-				<div id='content-btn-block'>
-					<span>Discuss</span>
-				</div>
-				</a>
-			</div>
-			<div id='content-con-block' class="darkmode-block scale-override-hide">
-				<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 242px !important;">
-				</div>
-				<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
-					<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU GPL Version 2.0 License.</span>
-				</div>
-				<a href="https://github.com/RPCS3/rpcs3/pulls" target="_blank">
-				<div id='content-btn-block'>
-					<span>Pulls</span>
-				</div>
-				</a>
 			</div>
 		</div>
 	</div>
@@ -205,29 +207,33 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div class='scale-offset-center'>
-			<div id='feature-con-wrapper' class='scale-feature-con-wrap-a'>
-				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a'>
-					<div class="feature-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
-						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/featured/1.jpg') no-repeat center center !important; background-size: cover !important;">
+		<div id="feature-con-outer">
+			<div id="feature-con-inner">
+				<div id="feature-con-wrapper">
+					<div id='feature-con-wrap-left'>
+						<div class="feature-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
+							<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/featured/1.jpg') no-repeat center center !important; background-size: cover !important;">
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='right: 202px; top: -178px;'>
+							<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/featured/2.jpg') no-repeat center center !important; background-size: cover !important;">
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='right: 200px; bottom: -168px;'>
+							<div id='feature-con-tease' style=" transform: scale(.5); background: url('/img/thumbs/featured/3.jpg') no-repeat center center !important; background-size: cover !important;">
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='left: 225px; top: 340px;'>
+							<div id='feature-con-tease' style="transform: scale(.7); background: url('/img/thumbs/featured/4.jpg') no-repeat center center !important; background-size: cover !important;">
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='right: 390px; top: 104px;'>
+							<div id='feature-con-tease' style=" transform: scale(.65); background: url('/img/thumbs/featured/5.jpg') no-repeat center center !important; background-size: cover !important;">
+							</div>
 						</div>
 					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='right: 202px; top: -178px;'>
-						<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/featured/2.jpg') no-repeat center center !important; background-size: cover !important;">
-						</div>
-					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='right: 200px; bottom: -168px;'>
-						<div id='feature-con-tease' style=" transform: scale(.5); background: url('/img/thumbs/featured/3.jpg') no-repeat center center !important; background-size: cover !important;">
-						</div>
-					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='left: 225px; top: 340px;'>
-						<div id='feature-con-tease' style="transform: scale(.7); background: url('/img/thumbs/featured/4.jpg') no-repeat center center !important; background-size: cover !important;">
-						</div>
-					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='right: 390px; top: 104px;'>
-						<div id='feature-con-tease' style=" transform: scale(.65); background: url('/img/thumbs/featured/5.jpg') no-repeat center center !important; background-size: cover !important;">
-						</div>
-					</div>
+				</div>
+				<div id='feature-con-wrap-left'>
 					<div id='video-con-container'>
 						<div class="page-video-2" id='video-btn-player-b'>
 						</div>
@@ -237,8 +243,8 @@ setInterval(function() {
 						</div>
 					</div>
 				</div>
-				<div id='feature-con-wrap-right' class='scale-feature-wrap-right-a'>
-					<div id='feature-txt-wrap'>
+				<div id='feature-con-wrap-right'>
+					<div id='feature-txt-wrap' class="scale-feature-txt-2">
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>Unveiling a Slew of Exclusive Ingame Titles<span>
 						</div>
@@ -271,9 +277,9 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/patreon.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class="">
-			<div id='patreon-con-block-a' class="content-alg-block darkmode-block scale-override-hide">
-				<div id='patreon-img-overlay' class="patreon-img-overlay-a">
+		<div id="feature-con-outer">
+			<div id="feature-con-inner">
+				<div id='patreon-con-block-a' class="content-alg-block darkmode-block scale-override-hide">
 					<div id='patreon-tx1-title' class="darkmode-txt">
 						<span>$2,000</span>
 					</div>
@@ -283,14 +289,12 @@ setInterval(function() {
 					<div id='patreon-tx2-block' class="darkmode-txt">
 						<span>We thank you for your continued support! With this goal reached, our lead developer, Nekotekina will be able to purchase better computer hardware for development and testing. This ensures even faster development and testing times by allowing his workflow to become more efficient and faster than ever before thanks to modern hardware.</span>
 					</div>
-				</div>
-				<div id='patreon-btn-block' class="div-touchless">
-					<div id="patreon-btn-arrow">
+					<div id='patreon-btn-block' class="div-touchless">
+						<div id="patreon-btn-arrow">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div id='patreon-con-block-a' class="content-alg-block darkmode-block scale-override-hide">
-				<div id='patreon-img-overlay' class="patreon-img-overlay-b">
+				<div id='patreon-con-block-a' class="content-alg-block darkmode-block scale-override-hide">
 					<div id='patreon-tx1-title' class="darkmode-txt">
 						<span>$3,000</span>
 					</div>
@@ -300,14 +304,12 @@ setInterval(function() {
 					<div id='patreon-tx2-block' class="darkmode-txt">
 						<span>We thank you for your continued support! With this goal reached, our core graphics programmer, kd-11 will be able to join our core developer, Nekotekina in working full-time on the emulator. This ensures even faster development and testing for all RSX orientated features for the emulator.</span>
 					</div>
-				</div>
-				<div id='patreon-btn-block' class="div-touchless">
-					<div id="patreon-btn-arrow">
+					<div id='patreon-btn-block' class="div-touchless">
+						<div id="patreon-btn-arrow">
+						</div>
 					</div>
 				</div>
-			</div>
-			<div id='patreon-con-block-a' class="scale-content-block-promote darkmode-block">
-				<div id='patreon-img-overlay' class="patreon-img-overlay-c">
+				<div id='patreon-con-block-a' class="darkmode-block scale-content-block-promote">
 					<div id='patreon-tx1-title' class="darkmode-txt">
 						<span>$4,000</span>
 					</div>
@@ -317,12 +319,12 @@ setInterval(function() {
 					<div id='patreon-tx2-block' class="darkmode-txt">
 						<span>Let's shoot for a new high score! With your continued support, our core graphics developer, kd-11 will be able to purchase substantially better computer hardware dedicated to debugging and developing for the GPU related portions of the emulator. This ensures swift development and detailed testing of the features we plan to implement listed on our roadmap.</span>
 					</div>
+					<a href="https://www.patreon.com/Nekotekina" target="_blank">
+					<div id='patreon-btn-block'>
+						<span>Become a Patron</span>
+					</div>
+					</a>
 				</div>
-				<a href="https://www.patreon.com/Nekotekina" target="_blank">
-				<div id='patreon-btn-block'>
-					<span>Become a Patron</span>
-				</div>
-				</a>
 			</div>
 		</div>
 	</div>
@@ -332,52 +334,56 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div class='scale-offset-center'>
-			<div id='feature-con-wrapper' class='scale-feature-con-wrap-a'>
-				<div id='feature-con-wrap-left' class='scale-feature-wrap-left-a scale-offset-txt-a'>
-					<div id='feature-txt-wrap' class="scale-offset-txt-b">
+		<div id="feature-con-outer">
+			<div id="feature-con-inner">
+				<div id='feature-con-wrap-left'>
+					<div id='feature-txt-wrap' class="scale-feature-txt-3">
 						<div id='feature-tx1-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>Community Videos Showcase</span>
 						</div>
 						<div id='feature-tx2-wrap' class="feature-txt-wrap-invert darkmode-txt2">
 							<span>Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
-							<div id='feature-btn-general' class="darkmode-buttons-general scale-override-hide">
+							<div id='feature-btn-general' class="darkmode-buttons-general">
 								<span>Coming Soon</span>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div id='feature-con-wrap-right' class='scale-feature-wrap-right-a'>
-					<div class="feature-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
-						<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='video-btn-player-b' class="div-touchless">
+				<div id="feature-con-wrapper">
+					<div id='feature-con-wrap-right'>
+						<div class="feature-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
+							<div id='feature-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
+								<div id='video-btn-player-b' class="div-touchless">
+								</div>
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='right: 202px; top: -98px;'>
+							<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
+								<div id='video-btn-player-b' class="div-touchless">
+								</div>
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='left: 200px; bottom: -185px;'>
+							<div id='feature-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/videos/6.jpg') no-repeat center center !important; background-size: cover !important;">
+								<div id='video-btn-player-b' class="div-touchless">
+								</div>
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='right: 216px; top: 330px;'>
+							<div id='feature-con-tease' style="transform: scale(.55); background: url('/img/thumbs/videos/7.jpg') no-repeat center center !important; background-size: cover !important;">
+								<div id='video-btn-player-b' class="div-touchless">
+								</div>
+							</div>
+						</div>
+						<div class="feature-wrp-tease scale-override-hide" style='left: 466px; top: 89px;'>
+							<div id='feature-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/videos/8.jpg') no-repeat center center !important; background-size: cover !important;">
+								<div id='video-btn-player-b' class="div-touchless">
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='right: 202px; top: -98px;'>
-						<div id='feature-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='video-btn-player-b' class="div-touchless">
-							</div>
-						</div>
-					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='left: 200px; bottom: -185px;'>
-						<div id='feature-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/videos/6.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='video-btn-player-b' class="div-touchless">
-							</div>
-						</div>
-					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='right: 216px; top: 330px;'>
-						<div id='feature-con-tease' style="transform: scale(.55); background: url('/img/thumbs/videos/7.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='video-btn-player-b' class="div-touchless">
-							</div>
-						</div>
-					</div>
-					<div class="feature-wrp-tease scale-override-hide" style='left: 466px; top: 89px;'>
-						<div id='feature-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/videos/8.jpg') no-repeat center center !important; background-size: cover !important;">
-							<div id='video-btn-player-b' class="div-touchless">
-							</div>
-						</div>
-					</div>
+				</div>
+				<div id='feature-con-wrap-right'>
 					<div id='video-con-container'>
 						<div class="page-video-3" id='video-btn-player-b'>
 						</div>
@@ -396,51 +402,53 @@ setInterval(function() {
 		</div>
 		<div id='page-img-feature' class="feature-con-wrap-invert" style="background: #000 url('/img/showcases/getstarted.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
-		<div id='feature-con-wrapper' class="">
-			<div id='content-con-block' class="content-alg-block darkmode-block scale-content-block-promote">
-				<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
+		<div id="feature-con-outer">
+			<div id="feature-con-inner">
+				<div id='content-con-block' class="content-alg-block darkmode-block scale-content-block-promote">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/quickstart.png') no-repeat center center !important; background-size: 56px !important;">
+					</div>
+					<div id='content-tx1-block' class="darkmode-txt">
+						<span>Quickstart</span>
+					</div>
+					<div id='content-tx2-block' class="darkmode-txt">
+						<span>Ready to give RPCS3 a shot? Great! Before you get started, we highly recommend that you read over our quickstart guide. Please take in account that the requirements for running RPCS3 are still not fully known and are subject to change during its current development stage. We aim to optimize our software as much as possible.</span>
+					</div>
+					<a href="/quickstart">
+					<div id='content-btn-block' class="darkmode-txt">
+						<span>Read More</span>
+					</div>
+					</a>
 				</div>
-				<div id='content-tx1-block' class="darkmode-txt">
-					<span>Quickstart</span>
+				<div id='content-con-block' class="content-alg-block darkmode-block scale-override-hide">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/faqs.png') no-repeat center center !important; background-size: 56px !important;">
+					</div>
+					<div id='content-tx1-block' class="darkmode-txt">
+						<span>FAQs</span>
+					</div>
+					<div id='content-tx2-block' class="darkmode-txt">
+						<span>Are you a little hesitant? Have some questions about RPCS3? Look no further; our frequently asked questions page is designed to answer any RPCS3 related questions you may have. The FAQs page covers everything from a little of the project's history, to our licensing plan, to what controllers and input devices are currently compatible with the emulator.</span>
+					</div>
+					<a href="/faq">
+					<div id='content-btn-block' class="darkmode-txt">
+						<span>Read More</span>
+					</div>
+					</a>
 				</div>
-				<div id='content-tx2-block' class="darkmode-txt">
-					<span>Ready to give RPCS3 a shot? Great! Before you get started, we highly recommend that you read over our quickstart guide. Please take in account that the requirements for running RPCS3 are still not fully known and are subject to change during its current development stage. We aim to optimize our software as much as possible.</span>
+				<div id='content-con-block' class="darkmode-block scale-override-hide">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 56px !important;">
+					</div>
+					<div id='content-tx1-block' class="darkmode-txt">
+						<span>Roadmap</span>
+					</div>
+					<div id='content-tx2-block' class="darkmode-txt">
+						<span>This project is never-ending. RPCS3's development will inevitably go on forever. In the meantime, we've set out a month-to-month roadmap that showcases the goals we wish to reach for that specific month. Keep in mind, anyone and everyone is open to developing an implementation for any listed roadmap feature. See our <a href='https://github.com/RPCS3/rpcs3/wiki' target="_blank">GitHub</a> wiki.</span>
+					</div>
+					<a href="/roadmap">
+					<div id='content-btn-block' class="darkmode-txt">
+						<span>Read More</span>
+					</div>
+					</a>
 				</div>
-				<a href="/quickstart">
-				<div id='content-btn-block' class="darkmode-txt">
-					<span>Read More</span>
-				</div>
-				</a>
-			</div>
-			<div id='content-con-block' class="content-alg-block darkmode-block scale-override-hide">
-				<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/faqs.png') no-repeat center center !important; background-size: 56px !important;">
-				</div>
-				<div id='content-tx1-block' class="darkmode-txt">
-					<span>FAQs</span>
-				</div>
-				<div id='content-tx2-block' class="darkmode-txt">
-					<span>Are you a little hesitant? Have some questions about RPCS3? Look no further; our frequently asked questions page is designed to answer any RPCS3 related questions you may have. The FAQs page covers everything from a little of the project's history, to our licensing plan, to what controllers and input devices are currently compatible with the emulator.</span>
-				</div>
-				<a href="/faq">
-				<div id='content-btn-block' class="darkmode-txt">
-					<span>Read More</span>
-				</div>
-				</a>
-			</div>
-			<div id='content-con-block' class="darkmode-block scale-override-hide">
-				<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/menu/roadmap.png') no-repeat center center !important; background-size: 56px !important;">
-				</div>
-				<div id='content-tx1-block' class="darkmode-txt">
-					<span>Roadmap</span>
-				</div>
-				<div id='content-tx2-block' class="darkmode-txt">
-					<span>This project is never-ending. RPCS3's development will inevitably go on forever. In the meantime, we've set out a month-to-month roadmap that showcases the goals we wish to reach for that specific month. Keep in mind, anyone and everyone is open to developing an implementation for any listed roadmap feature. See our <a href='https://github.com/RPCS3/rpcs3/wiki' target="_blank">GitHub</a> wiki.</span>
-				</div>
-				<a href="/roadmap">
-				<div id='content-btn-block' class="darkmode-txt">
-					<span>Read More</span>
-				</div>
-				</a>
 			</div>
 		</div>
 	</div>

@@ -490,7 +490,7 @@
 				</div>
 			</div>
 			<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-				<div id='member-img-avatar' style="background: #e68364 url('/img/members/rawtgethread.png') no-repeat center; background-size: cover;" title="">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/tge.png') no-repeat center; background-size: cover;" title="">
 					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
@@ -498,7 +498,30 @@
 					<div id='featured-tx1-block' class="darkmode-txt">
 						<h2>
 						<p style="float: left;">
-							 RawTGEThread
+							 TGE
+						</p>
+						<p class="txt-role div-role-ccdev">
+							 Contributor
+						</p>
+						</h2>
+					</div>
+					<div id='featured-tx2-block' class="darkmode-txt">
+						<p>
+							 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+						</p>
+					</div>
+				</div>
+			</div>
+						<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/eladash.png') no-repeat center; background-size: cover;" title="">
+					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div class="div-avatar-block" id='featured-wrp-block'>
+					<div id='featured-tx1-block' class="darkmode-txt">
+						<h2>
+						<p style="float: left;">
+							 eladash
 						</p>
 						<p class="txt-role div-role-ccdev">
 							 Contributor
