@@ -14,7 +14,7 @@ $(window).resize(function() {
         'margin-top': -$('.scale-feature-txt-1').height() / 2
     });
 });
-$(window).load(function() {
+$(document).ready(function() {
     $('.scale-feature-txt-1').css({
         'position': 'absolute',
         'top': '50%',
@@ -29,7 +29,7 @@ $(window).resize(function() {
         'margin-top': -$('.scale-feature-txt-2').height() / 2
     });
 });
-$(window).load(function() {
+$(document).ready(function() {
     $('.scale-feature-txt-2').css({
         'position': 'absolute',
         'top': '50%',
@@ -44,7 +44,7 @@ $(window).resize(function() {
         'margin-top': -$('.scale-feature-txt-3').height() / 2
     });
 });
-$(window).load(function() {
+$(document).ready(function() {
     $('.scale-feature-txt-3').css({
         'position': 'absolute',
         'top': '50%',

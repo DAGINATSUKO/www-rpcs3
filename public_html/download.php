@@ -18,6 +18,7 @@ if (file_exists('lib/compat/utils.php')) {
 	include('lib/compat/utils.php');
 	$linux_button = ''; // Does not disable Linux button
 	
+	
 	// 0 - Version; 1 - Date
 	$win = getLatestWindowsBuild();
 	// 0 - Filename; 1 - Date
@@ -75,6 +76,8 @@ if (file_exists('lib/compat/utils.php')) {
 					</p>
 				</div>
 			</div>
+			
+			<div id="feature-con-downloads">
 			<a href='<?php echo $win[0]; ?>' target="_blank"> 
 			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
 			<div id='featured-con-button' class="div-download-left darkmode-buttons">
@@ -109,6 +112,33 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
+			</div>
+			<div id="sha-con-container">
+				<div id="sha-con-wrapper">
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">SHA-256 </b>Not available </span></div>
+					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">SHA-256 </b>Not available </span></div>
+				</div>
+				
+				<div id="sha-con-wrapper">
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">File Size </b>Not available </span></div>
+					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">File Size </b>Not available </span></div>
+				</div>
+				
+				<div id="sha-con-wrapper">
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Pull Request </b>Not available </span></div>
+					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Pull Request  </b>Not available </span></div>
+				</div>
+				
+				<div id="sha-con-wrapper">
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Author </b>Not available </span></div>
+					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Author </b>Not available </span></div>
+				</div>
+				
+				<div id="sha-con-wrapper">
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Lines Added / Deleted </b>Not available </span></div>
+					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Lines Added / Deleted </b>Not available </span></div>
+				</div>
+			</div>
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">

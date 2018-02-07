@@ -1,3 +1,49 @@
 .toggle-message {
-	display: none;
+	display:none;
+}
+#feature-con-downloads {
+	width:100%;
+	position:relative;
+	height:80px;
+}
+#sha-con-container {
+	width:100%;
+	position:relative;
+	min-height:25px;
+	height:auto;
+	margin-bottom:15px;
+	overflow:auto;
+}
+#sha-con-wrapper {
+	width:100%;
+	position:relative;
+	min-height:25px;
+	height:auto;
+	margin-bottom:5px;
+	overflow:auto;
+}
+#sha-con-details {
+	position:relative;
+	height:auto;
+	float:left;
+	display:inline-block;
+	font-family:arial;
+	font-size:12px;
+	line-height:18px;
+	color:#455971;
+	overflow:hidden;
+	overflow-wrap: break-word;
+}
+.sha-spec {
+	background:rgba(69,89,113,.1);
+	padding:4px 4px;
+	margin-right:4px;
+	line-height:24px;
+}
+.sha-right  {
+	width:49%;
+	left:1%;
+}
+.sha-left  {
+	width:50%;
 }
