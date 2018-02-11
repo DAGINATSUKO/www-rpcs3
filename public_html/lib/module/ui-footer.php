@@ -137,6 +137,12 @@
 				</td>
 			</tr>
 			</table>
+		</div>
+	</div>
+</div>
+<div id='footer-con-credits'>
+	<div id="footer-con-outer">
+		<div id="footer-con-inner">
 			<div id="footer-con-foot">
 				<div id="footer-tx1-webmaster" class="darkmode-webmaster-tx1 scale-webmaster-txt-remove">
 					<span><span>Website designed and developed by </span><span id="footer-ico-webmaster" class="darkmode-webmaster-ico"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://daginatsuko.com" target="_blank" class="darkmode-webmaster-tx2">DAGINATSUKO</a></span></span>

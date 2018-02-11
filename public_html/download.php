@@ -18,8 +18,7 @@ if (file_exists('lib/compat/utils.php')) {
 	include('lib/compat/utils.php');
 	$linux_button = ''; // Does not disable Linux button
 	
-	
-	// 0 - Version; 1 - Date
+	// 0 - URL, 1 - Version Name, 2 - Author, 3 - PR, 4 - Checksum, 5 - File Size (MB)
 	$win = getLatestWindowsBuild();
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
@@ -115,30 +114,27 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			<div id="sha-con-container">
 				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">SHA-256 </b>Not available </span></div>
-					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">SHA-256 </b>Not available </span></div>
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">SHA-256:</b><?php echo $win[4];?> </span></div>
+					<!--<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">SHA-256 </b>Not available </span></div>-->
 				</div>
 				
 				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">File Size </b>Not available </span></div>
-					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">File Size </b>Not available </span></div>
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">File Size:</b><?php echo $win[5];?> MB </span></div>
+					<!--<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">File Size </b>Not available </span></div>-->
 				</div>
 				
 				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Pull Request </b>Not available </span></div>
-					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Pull Request  </b>Not available </span></div>
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Pull Request:</b>#<?php echo $win[3];?> by <?php echo $win[2];?></span></div>
+					<!--<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Pull Request  </b>Not available </span></div>-->
 				</div>
-				
+				<!--
 				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Author </b>Not available </span></div>
-					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Author </b>Not available </span></div>
-				</div>
-				
-				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Lines Added / Deleted </b>Not available </span></div>
+					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Lines of Code </b>Not available </span></div>
 					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Lines Added / Deleted </b>Not available </span></div>
 				</div>
+				-->
 			</div>
+			
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
@@ -154,7 +150,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<a href='https://rpcs3.net/compatibility?b' target="_blank">
 			<div id='featured-con-button' class="darkmode-buttons">
 				<div id='featured-wrp-button' style="width: 136px; margin: 0 -68px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/history.png') no-repeat center; background-size: 16px;">
+					<div id='featured-ico-button' style="background:url('/img/icons/buttons/builds.png') no-repeat center; background-size: 16px;">
 					</div>
 					<div id='featured-tx1-button'>
 						<p>

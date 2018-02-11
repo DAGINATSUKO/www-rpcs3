@@ -155,7 +155,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;" title="ApertureNOBLE? Not likely. LittleBigPlanet fan? Most definitely.">
+					<div id='member-img-avatar' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;" title="Megamouse, Jarves and kd-11 are her heroes">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -175,7 +175,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. In addition, they are also in charge of the project's branding which includes logos, iconography and press kit assets that aim to develop the face of the project and its team members.
+								 DAGINATSUKO joined RPCS3 in early 2017 as a web developer and graphic designer. In addition, they are also in charge of the project's branding which includes logos, iconography and press kit assets that aim to develop the face of the project and the team. They continuously maintain the website with no compensation out pure passion for the project.
 							</p>
 						</div>
 					</div>
@@ -649,7 +649,7 @@
 						</div>
 						<div id='featured-tx2-block' class="darkmode-txt">
 							<p>
-								 There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request.
+								AlexAltea joined developers DH and Hykem in the late summer of 2013. He focused mainly on high-level LV2 emulation as well as CPU and GPU emulation in addition to debugging and automated testing via console samples. He also maintained the project up until early 2015. He then left the project to do R&D on other <a href="https://github.com/AlexAltea?tab=repositories" target="_blank">emulation-related</a> projects.
 							</p>
 						</div>
 					</div>

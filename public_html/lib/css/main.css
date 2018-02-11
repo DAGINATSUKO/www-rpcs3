@@ -248,7 +248,7 @@
     transition: all .1s ease-in-out;
     text-align: center;
     color: #fff;
-    border-radius: 6px;
+    border-radius: 4px;
     background: rgba(255,255,255,.1);
     text-transform: uppercase;
 }
@@ -269,7 +269,7 @@
     transition: all .2s ease-in-out;
     text-align: center;
     color: #455971;
-    border-radius: 6px;
+    border-radius: 4px;
     background: rgba(69,89,113,.1);
     text-transform: uppercase;
 }
@@ -390,7 +390,7 @@
     transition: all .2s ease-in-out;
     text-align: center;
     color: #4c5bd7;
-    border-radius: 6px;
+    border-radius: 4px;
     background: rgba(76,91,215,.1);
 }
 #content-btn-block:hover {
@@ -551,7 +551,7 @@
     height: 60px;
     margin-bottom: 20px;
     transition: .1s ease-in-out;
-    border-radius: 6px;
+    border-radius: 4px;
     background: #4c5bd7;
 }
 #featured-con-button:hover {
@@ -681,9 +681,9 @@
 #member-img-avatar {
     position: absolute;
     top: 24px;
-    left: 24px;
-    width: 70px;
-    height: 70px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
     transition: all .2s ease-in-out;
     border-radius: 100%;
     border-width: 3px;
@@ -1037,9 +1037,9 @@
     z-index: 1;
     overflow: hidden;
     width: 100%;
-    height: 290px;
+    height: 230px;
     padding-top: 90px;
-    background: #fff;
+    background: #4c5bd7;
     transition: all .1s ease-in-out;
 }
 #footer-con-outer {
@@ -1059,8 +1059,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 62px;
-    border-top: solid 1px rgba(69,89,113,.1);
+    height: 100px;
 }
 #footer-ico-logo {
     position: absolute;
@@ -1068,7 +1067,7 @@
     left: 0;
     width: 32px;
     height: 32px;
-    background: url('/img/icons/menu/logo-h.png') no-repeat center;
+    background: url('/img/icons/menu/logo.png') no-repeat center;
     background-size: 32px;
 }
 #footer-con-bound {
@@ -1087,44 +1086,50 @@
     height: 20px;
     margin-bottom: 10px;
     text-align: left;
-    color: #4c5bd7;
+    color: #fff;
 }
 #footer-tx2-bound {
     font-family: arial;
     font-size: 12px;
     line-height: 24px;
     position: relative;
-    color: #455971;
+    color: #fff;
 }
 #footer-tx2-bound a {
-    color: #455971;
+    color: #fff;
+}
+#footer-con-credits {
+	display:block;
+	width: 100%;
+	height: 100px;
+	background: #4E61DB;
 }
 #footer-tx1-webmaster {
     font-family: arial;
     font-size: 12px;
-    line-height: 62px;
+    line-height: 100px;
     position: absolute;
     z-index: 1;
     left: 0;
     width: auto;
-    height: 62px;
+    height: 100px;
     padding-right: 20px;
-    color: #455971;
+    color: #fff;
 }
 #footer-tx1-webmaster a {
-    color: #455971;
+    color: #fff;
 }
 #footer-tx2-webmaster {
     font-family: arial;
     font-size: 12px;
-    line-height: 62px;
+    line-height: 100px;
     position: absolute;
     z-index: 1;
     right: 0;
     width: auto;
-    height: 62px;
+    height: 100px;
     padding-right: 20px;
-    color: #455971;
+    color: #fff;
 }
 #footer-ico-webmaster {
     width: 20px;

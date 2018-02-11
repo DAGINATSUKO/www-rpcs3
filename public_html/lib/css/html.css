@@ -67,45 +67,6 @@ iframe {
     height: 100%;
     border: none;
 }
-table {
-    font-family: arial;
-    font-size: 12px;
-    line-height: 35px;
-    width: 100%;
-    border-spacing: 0;
-    color: #fff;
-}
-tr {
-    background: #fff;
-}
-tr:last-child {
-    border-bottom: 1px solid #e4e4e4;
-}
-tr:nth-child(2n) {
-    background: rgba(122,179,255,.05);
-}
-tr:nth-child(2n+1) {
-    background: #fff;
-}
-td {
-    line-height: 38px;
-    height: 35px;
-    padding-left: 25px;
-    text-align: left;
-    color: #455971;
-}
-td a:hover {
-    text-decoration: underline;
-}
-th {
-    padding-left: 25px;
-    text-align: left;
-    color: #455971;
-    background-color: #fff;
-}
-th a {
-    color: #455971!important;
-}
 .anchor {
     display: none!important;
     width: 16px;
