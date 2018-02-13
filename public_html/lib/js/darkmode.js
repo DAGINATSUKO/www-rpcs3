@@ -30,6 +30,7 @@ $(document).ready(function() {
         $("#featured-con-block h2").toggleClass("dm-txt");
         $("#featured-con-block p").toggleClass("dm-txt");
 		$("#footer-con-container").toggleClass("dm-footer");
+		$("#footer-con-credits").toggleClass("dm-credits");
 		$(".markdown-body li").toggleClass("dm-txt");
 		$(".feature-ico-flag").toggleClass("dm-flag");
 		$('.darkmode-footer-logo').toggleClass("dm-footer-logo");
@@ -102,6 +103,7 @@ $(document).ready(function() {
         $("#featured-con-block p").addClass("dm-txt");
 		$(".markdown-body li").addClass("dm-txt");
 		$("#footer-con-container").addClass("dm-footer");
+		$("#footer-con-credits").addClass("dm-credits");
 		$(".feature-ico-flag").addClass("dm-flag");
 		$('.darkmode-footer-logo').addClass("dm-footer-logo");
 		$('.darkmode-bound-tx1').addClass("dm-bound-tx1");
@@ -161,6 +163,7 @@ $(document).ready(function() {
         $("#featured-con-block p").removeClass("dm-txt");
 		$(".markdown-body li").removeClass("dm-txt");
 		$("#footer-con-container").removeClass("dm-footer");
+		$("#footer-con-credits").removeClass("dm-credits");
 		$(".feature-ico-flag").removeClass("dm-flag");
 		$('.darkmode-footer-logo').removeClass("dm-footer-logo");
 		$('.darkmode-bound-tx1').removeClass("dm-bound-tx1");

@@ -1099,10 +1099,11 @@
     color: #fff;
 }
 #footer-con-credits {
-	display:block;
-	width: 100%;
-	height: 100px;
-	background: #4E61DB;
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #4E61DB;
+    transition: all .1s ease-in-out;
 }
 #footer-tx1-webmaster {
     font-family: arial;
