@@ -71,7 +71,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
-						 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
+						 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage && ./rpcs3-*_linux64.AppImage</span>
 					</p>
 				</div>
 			</div>
