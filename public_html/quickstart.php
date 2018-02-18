@@ -526,19 +526,6 @@
 					</p>
 				</div>
 			</div>
-			<a href='/download'>
-			<div class="darkmode-buttons" id='featured-con-button'>
-				<div id='featured-wrp-button' style="width: 190px; margin: 0 -95px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/download.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Download Latest Build
-						</p>
-					</div>
-				</div>
-			</div>
-			</a>
 		</div>
 	</div>
 	<?php include 'lib/module/ui-footer.php';?>

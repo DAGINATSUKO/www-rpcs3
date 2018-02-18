@@ -54,7 +54,7 @@
 			</div>
 			<div class="div-member-con">
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;" title="Keyboard cat">
+					<div id='member-img-avatar' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -80,7 +80,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: #646E77 url('/img/members/kd11.png') no-repeat center; background-size: cover;" title="Human GPU">
+					<div id='member-img-avatar' style="background: #646E77 url('/img/members/kd11.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -103,7 +103,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: #727393 url('/img/members/ssshadow.png') no-repeat center; background-size: cover;" title="The hedgehog?">
+					<div id='member-img-avatar' style="background: #727393 url('/img/members/ssshadow.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -129,7 +129,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;" title="Biggest weeb known to mankind.">
+					<div id='member-img-avatar' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -155,7 +155,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;" title="Megamouse, Jarves and kd-11 are her heroes">
+					<div id='member-img-avatar' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -181,7 +181,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: #e68364 url('/img/members/jarves.png') no-repeat center; background-size: cover;" title="He's only in it for Kingdom Hearts">
+					<div id='member-img-avatar' style="background: #e68364 url('/img/members/jarves.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -204,7 +204,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;" title="The 'Bad cop' moderator and developer.">
+					<div id='member-img-avatar' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/principality-of-sealand.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -227,7 +227,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/hcorion.png') no-repeat center; background-size: cover;" title="The boss">
+					<div id='member-img-avatar' style="background: url('/img/members/hcorion.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -250,7 +250,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;" title="The second biggest weeb known to mankind">
+					<div id='member-img-avatar' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -273,7 +273,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;" title="When German engineering meets UI design...">
+					<div id='member-img-avatar' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -296,7 +296,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/galciv.png') no-repeat center; background-size: cover;" title="He just likes Galactic Civilizations">
+					<div id='member-img-avatar' style="background: url('/img/members/galciv.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -319,7 +319,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;" title="The Russian">
+					<div id='member-img-avatar' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -342,7 +342,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;" title="He comes and goes">
+					<div id='member-img-avatar' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -368,7 +368,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;" title="Doesn't actually hack anything">
+					<div id='member-img-avatar' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -391,7 +391,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;" title="Grandpa">
+					<div id='member-img-avatar' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -420,7 +420,7 @@
 					<h2>Contributors</h2>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;" title="The second coming of Jarves. Why is he holding back? No one knows.">
+					<div id='member-img-avatar' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -443,7 +443,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: #e68364 url('/img/members/velocity.png') no-repeat center; background-size: cover;" title="Refuses to develop at a nominal velocity">
+					<div id='member-img-avatar' style="background: #e68364 url('/img/members/velocity.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -466,7 +466,7 @@
 					</div>
 				</div>
 				<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-					<div id='member-img-avatar' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;" title="No one knows...">
+					<div id='member-img-avatar' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;">
 						<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -490,7 +490,7 @@
 				</div>
 			</div>
 			<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-				<div id='member-img-avatar' style="background: #e68364 url('/img/members/tge.png') no-repeat center; background-size: cover;" title="">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/tge.png') no-repeat center; background-size: cover;">
 					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
@@ -513,7 +513,7 @@
 				</div>
 			</div>
 						<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-				<div id='member-img-avatar' style="background: #e68364 url('/img/members/eladash.png') no-repeat center; background-size: cover;" title="">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/eladash.png') no-repeat center; background-size: cover;">
 					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
@@ -536,7 +536,7 @@
 				</div>
 			</div>
 			<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-				<div id='member-img-avatar' style="background: #e68364 url('/img/members/scribam.png') no-repeat center; background-size: cover;" title="Known to create random, yet useful pull requests for your GitHub repos">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/scribam.png') no-repeat center; background-size: cover;">
 					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
@@ -559,7 +559,7 @@
 				</div>
 			</div>
 			<div id='featured-con-block' class="div-member-block darkmode-block darkmode-txt">
-				<div id='member-img-avatar' style="background: #e68364 url('/img/members/raven02.png') no-repeat center; background-size: cover;" title="He's in for the long haul">
+				<div id='member-img-avatar' style="background: #e68364 url('/img/members/raven02.png') no-repeat center; background-size: cover;">
 					<div id='member-img-country' class="feature-ico-flag" style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>

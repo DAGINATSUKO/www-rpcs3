@@ -145,7 +145,7 @@
 		<div id="footer-con-inner">
 			<div id="footer-con-foot">
 				<div id="footer-tx1-webmaster" class="darkmode-webmaster-tx1 scale-webmaster-txt-remove">
-					<span><span>Website designed and developed by </span><span id="footer-ico-webmaster" class="darkmode-webmaster-ico"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://daginatsuko.com" target="_blank" class="darkmode-webmaster-tx2">DAGINATSUKO</a></span></span>
+					<span><span>Website designed and maintained by </span><span id="footer-ico-webmaster" class="darkmode-webmaster-ico"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://daginatsuko.com" target="_blank" class="darkmode-webmaster-tx2">DAGINATSUKO</a></span></span>
 				</div>
 				<div id="footer-tx2-webmaster" class="darkmode-webmaster-tx2">
 					<span>Founded by DH and Hykem © 2011 - 2018 RPCS3</span>

@@ -17,17 +17,14 @@
 if (file_exists('lib/compat/utils.php')) {
 	include('lib/compat/utils.php');
 	$linux_button = ''; // Does not disable Linux button
-	
 	// 0 - URL, 1 - Version Name, 2 - Author, 3 - PR, 4 - Checksum, 5 - File Size (MB)
 	$win = getLatestWindowsBuild();
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
 } else {
 	$linux_button = ' div-button-disabled'; // Disables Linux button
-	
 	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
 	$win[1] = 'Latest version';
-	
 	$linux[0] = 'Temporarily unavailable';
 	$linux[1] = 'https://github.com/RPCS3/rpcs3/releases';
 }
@@ -52,7 +49,7 @@ if (file_exists('lib/compat/utils.php')) {
 	<div id="page-con-container">
 		<div id="page-in-container">
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-				<h2>Download Binaries</h2>
+				<h2>Download Information</h2>
 			</div>
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
@@ -62,106 +59,110 @@ if (file_exists('lib/compat/utils.php')) {
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p class="download-desc">
 							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted on our web server. <br>
+							<br>
+							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage && ./rpcs3-*_linux64.AppImage</span>
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="darkmode-panel" id='guide-con-container'>
-				<div id='guide-ico-container' style="background: url('/img/icons/list/linux.png') no-repeat center;">
-				</div>
-				<div class="darkmode-txt" id='guide-tx1-heading'>
-					<p>
-						 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
-					</p>
-				</div>
+			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+				<h2>Download Binaries</h2>
 			</div>
-			
-			<div id="feature-con-downloads">
-			<a href='<?php echo $win[0]; ?>' target="_blank"> 
-			<!-- <a href='https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts' target="_blank"> -->
-			<div id='featured-con-button' class="div-download-left darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 284px; margin: 0 -142px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/windows.png') no-repeat center; background-size: 20px;">
-					</div>
-					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
-						<p>
-							 Download for Windows
-						</p>
-						<p style="font-size:12px;">
-							<?php echo $win[1]; ?>
-						</p>
-					</div>
+			<a href='<?php echo $win[0]; ?>' target="_blank">
+			<div id='download-con-container' class="download-con-imp darkmode-panel">
+				<div id='download-ico-container' style="background: url('/img/icons/buttons/windows.png') no-repeat center;">
+				</div>
+				<div id='download-tx1-heading'>
+					<span>
+					<span style="color: #008000 !important">
+					Download for Windows x64 — </span>
+					<span class="download-define-build">
+					<?php echo $win[1]; ?>
+					</span>
+					</span>
 				</div>
 			</div>
 			</a>
-			<a href='<?php echo $linux[0]; ?>' download target="_blank">
-			<div id='featured-con-button' class="div-download-right darkmode-buttons<?php echo $linux_button; ?>
-				 ">
-				<div id='featured-wrp-button' style="width: 344px; margin: 0 -178px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/linux.png') no-repeat center; background-size: 20px;">
-					</div>
-					<div id='featured-tx1-button' style="line-height:20px; margin-top:10px;">
-						<p>
-							 Download for Linux
-						</p>
-						<p style="font-size:12px;">
-							<?php echo $linux[1]; ?>
-						</p>
-					</div>
-				</div>
-			</div>
-			</a>
-			</div>
 			<div id="sha-con-container">
 				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">SHA-256:</b><?php echo $win[4];?> </span></div>
-					<!--<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">SHA-256 </b>Not available </span></div>-->
-				</div>
-				
-				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">File Size:</b><?php echo $win[5];?> MB </span></div>
-					<!--<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">File Size </b>Not available </span></div>-->
-				</div>
-				
-				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Pull Request:</b>#<?php echo $win[3];?> by <?php echo $win[2];?></span></div>
-					<!--<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Pull Request  </b>Not available </span></div>-->
-				</div>
-				<!--
-				<div id="sha-con-wrapper">
-					<div class="sha-left" id="sha-con-details"><span><b class="sha-spec">Lines of Code </b>Not available </span></div>
-					<div class="sha-right" id="sha-con-details"><span><b class="sha-spec">Lines Added / Deleted </b>Not available </span></div>
-				</div>
-				-->
-			</div>
-			
-			<div id='featured-con-block' class="darkmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>All Builds</h2>
+					<div id="sha-con-details">
+						<span><span class="sha-spec">SHA</span><?php echo $win[4];?>
+						</span>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
-						<p>
-							 This is the history of all Windows builds generated per pull request, compiled by AppVeyor. You can also view detailed changes for every build through the GitHub build links. In addition, you can also use our GitHub repository to download and create your own builds for testing, debugging or implementing new features.
-						</p>
+				</div>
+				<div id="sha-con-wrapper">
+					<div id="sha-con-details">
+						<span><span class="sha-spec">File Size</span><?php echo $win[5];?>
+						 MB </span>
+					</div>
+				</div>
+				<div id="sha-con-wrapper">
+					<div id="sha-con-details">
+						<span><span class="sha-spec">Pull Request</span>#<?php echo $win[3];?>
+						 by <?php echo $win[2];?>
+						</span>
+					</div>
+				</div>
+				<div id="sha-con-wrapper">
+					<div id="sha-con-details">
+						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
 					</div>
 				</div>
 			</div>
-			<a href='https://rpcs3.net/compatibility?b' target="_blank">
-			<div id='featured-con-button' class="darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 136px; margin: 0 -68px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/builds.png') no-repeat center; background-size: 16px;">
+			<a href='<?php echo $linux[0]; ?>' download target="_blank">
+			<div id='download-con-container' class="download-con-imp darkmode-panel <?php echo $linux_button; ?>
+				 ">
+				<div id='download-ico-container' style="background: url('/img/icons/buttons/linux.png') no-repeat center;">
+				</div>
+				<div id='download-tx1-heading'>
+					<span>
+					<span style="color: #008000 !important">
+					Download for Linux x64 — </span>
+					<span class="download-define-build">
+					<?php echo $linux[1]; ?>
+					</span>
+					</span>
+				</div>
+			</div>
+			</a>
+			<div id="sha-con-container">
+				<div id="sha-con-wrapper">
+					<div id="sha-con-details">
+						<span><span class="sha-spec">SHA</span> SHA-256 metadata not available, WIP</span>
 					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Build History
-						</p>
+				</div>
+				<div id="sha-con-wrapper">
+					<div id="sha-con-details">
+						<span><span class="sha-spec">File Size</span> File size metadata not available, WIP</span>
 					</div>
+				</div>
+				<div id="sha-con-wrapper">
+					<div id="sha-con-details">
+						<span><span class="sha-spec">Pull Request</span> Pull Request metadata not available, WIP</span>
+					</div>
+				</div>
+				<div id="sha-con-wrapper">
+					<div id="sha-con-details">
+						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
+					</div>
+				</div>
+			</div>
+			<a href='https://rpcs3.net/compatibility?b'>
+			<div id='download-con-container' class="darkmode-panel">
+				<div id='download-ico-container' style="background: url('/img/icons/buttons/history.png') no-repeat center;">
+				</div>
+				<div id='download-tx1-heading'>
+					<span>
+					<span class="darkmode-txt">
+					Build History </span>
+					<span class="download-define-author">
+					2015 — Present</span>
+					</span>
 				</div>
 			</div>
 			</a>
 			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
-				<h2>Website Source, Documentation and Press Kit</h2>
+				<h2>Website Source</h2>
 			</div>
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
@@ -176,68 +177,71 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
-			<div id='featured-con-button' class="div-download-left darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 150px; margin: 0 -75px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/website.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Website Source
-						</p>
-					</div>
+			<div id='download-con-container' class="darkmode-panel">
+				<div id='download-ico-container' style="background: url('/img/icons/buttons/website.png') no-repeat center;">
+				</div>
+				<div id='download-tx1-heading'>
+					<span>
+					<span class="darkmode-txt">
+					Download website source code — </span>
+					<span class="download-define-author">
+					github.com/daginatsuko</span>
+					</span>
 				</div>
 			</div>
 			</a>
 			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
-			<div id='featured-con-button' class="div-download-right darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 180px; margin: 0 -90px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/compat.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Compatibility Source
-						</p>
-					</div>
+			<div id='download-con-container' class="darkmode-panel">
+				<div id='download-ico-container' style="background: url('/img/icons/buttons/compat.png') no-repeat center;">
+				</div>
+				<div id='download-tx1-heading'>
+					<span>
+					<span class="darkmode-txt">
+					Download compatibility list source code — </span>
+					<span class="download-define-author">
+					github.com/anileo</span>
+					</span>
 				</div>
 			</div>
 			</a>
+			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+				<h2>Press Kit</h2>
+			</div>
 			<div id='featured-con-block' class="darkmode-block">
 				<div id='featured-wrp-block'>
 					<div id='featured-tx1-block' class="darkmode-txt">
-						<h2>Documentation and Press</h2>
+						<h2>Press Kit and Documentation</h2>
 					</div>
 					<div id='featured-tx2-block' class="darkmode-txt">
 						<p>
-							 All information found in this archive was obtained by collecting and reviewing data from various sources on the internet. These sources include but are not limited to Sony Computer Entertainment, IBM Corporation and NVIDIA corporation. This documentation covers hardware and some software aspects of the PlayStation 3. <br>
+							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to high quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners. <br>
 							<br>
-							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to high quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners.
+							 All information found in this archive was obtained by collecting and reviewing data from various sources on the internet. These sources include but are not limited to Sony Computer Entertainment, IBM Corporation and NVIDIA corporation. This documentation covers hardware and some software aspects of the PlayStation 3.
 						</p>
 					</div>
 				</div>
 			</div>
-			<a href='/cdn/docs/Docs.zip' download>
-			<div id='featured-con-button' class="div-download-left darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 212px; margin: 0 -106px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/docs.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Download Documentation
-						</p>
-					</div>
+			<a href='/cdn/press/Press Kit.zip' download>
+			<div id='download-con-container' class="darkmode-panel">
+				<div id='download-ico-container' style="background: url('/img/icons/buttons/presskit.png') no-repeat center;">
+				</div>
+				<div id='download-tx1-heading'>
+					<span>
+					<span class="darkmode-txt">
+					Download Press Kit — 132 Files</span>
+					</span>
 				</div>
 			</div>
 			</a>
-			<a href='/cdn/press/Press Kit.zip' download>
-			<div id='featured-con-button' class="div-download-right darkmode-buttons">
-				<div id='featured-wrp-button' style="width: 172px; margin: 0 -86px;">
-					<div id='featured-ico-button' style="background:url('/img/icons/buttons/presskit.png') no-repeat center; background-size: 16px;">
-					</div>
-					<div id='featured-tx1-button'>
-						<p>
-							 Download Press Kit
-						</p>
-					</div>
+			<a href='/cdn/docs/Docs.zip' download>
+			<div id='download-con-container' class="darkmode-panel">
+				<div id='download-ico-container' style="background: url('/img/icons/buttons/docs.png') no-repeat center;">
+				</div>
+				<div id='download-tx1-heading'>
+					<span>
+					<span class="darkmode-txt">
+					Download Documentation — 19 Docs</span>
+					</span>
 				</div>
 			</div>
 			</a>
