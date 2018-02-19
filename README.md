@@ -18,7 +18,7 @@ For local deployment, our only requirement is [Docker](http://docker.com/getdock
 docker-compose up
 ```
 
-From there, open a web browser of your choosing and navigate to [localhost:8080](http://localhost:8080)
+From there, open a web browser of your choosing and navigate to [localhost:8080](http://localhost:8080) or [localhost:8888](http://localhost:8888) or your prefered localhost address
 
 #### Internal Resources
 * Milk UX - [DAGINATSUKO](https://github.com/DAGINATSUKO)
