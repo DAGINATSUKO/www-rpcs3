@@ -74,9 +74,9 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div id='download-tx1-heading'>
 					<span>
-					<span style="color: #008000 !important">
-					Download for Windows x64 — </span>
-					<span class="download-define-build">
+					<span class="darkmode-txt">
+					Download for Windows x64 </span>
+					<span class="download-define-build darkmode-txt">
 					<?php echo $win[1]; ?>
 					</span>
 					</span>
@@ -116,9 +116,9 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div id='download-tx1-heading'>
 					<span>
-					<span style="color: #008000 !important">
-					Download for Linux x64 — </span>
-					<span class="download-define-build">
+					<span class="darkmode-txt">
+					Download for Linux x64 </span>
+					<span class="download-define-build darkmode-txt">
 					<?php echo $linux[1]; ?>
 					</span>
 					</span>
@@ -154,10 +154,7 @@ if (file_exists('lib/compat/utils.php')) {
 				<div id='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Build History </span>
-					<span class="download-define-author">
-					2015 — Present</span>
-					</span>
+					Complete Build History</span>
 				</div>
 			</div>
 			</a>
@@ -183,10 +180,7 @@ if (file_exists('lib/compat/utils.php')) {
 				<div id='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Download website source code — </span>
-					<span class="download-define-author">
-					github.com/daginatsuko</span>
-					</span>
+					Download RPCS3.net source</span>
 				</div>
 			</div>
 			</a>
@@ -197,10 +191,7 @@ if (file_exists('lib/compat/utils.php')) {
 				<div id='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Download compatibility list source code — </span>
-					<span class="download-define-author">
-					github.com/anileo</span>
-					</span>
+					Download RPCS3.net Compatibility List source</span>
 				</div>
 			</div>
 			</a>
@@ -228,7 +219,7 @@ if (file_exists('lib/compat/utils.php')) {
 				<div id='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Download Press Kit — 132 Files</span>
+					Download Press Kit (132 Files)</span>
 					</span>
 				</div>
 			</div>
@@ -240,7 +231,7 @@ if (file_exists('lib/compat/utils.php')) {
 				<div id='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Download Documentation — 19 Docs</span>
+					Download Documentation (19 Docs)</span>
 					</span>
 				</div>
 			</div>
