@@ -183,9 +183,9 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(function() {
         $('.support-subtrigger').hover(function() {
-            $('.support-submenu').fadeIn(100);
+            $('.support-submenu').show();
         }, function() {
-            $('.support-submenu').fadeOut(100);
+            $('.support-submenu').hide();
         });
     });
 });

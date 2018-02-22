@@ -57,7 +57,7 @@
 			<div class="darkmode-panel" id='guide-con-container'>
 				<div class="div-anchor" id="updating">
 				</div>
-				<div id='guide-ico-container' style="background: url('/img/icons/list/os.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>
@@ -99,7 +99,7 @@
 			<div class="darkmode-panel" id='guide-con-container'>
 				<div class="div-anchor" id="manage_saves">
 				</div>
-				<div id='guide-ico-container' style="background: url('/img/icons/list/os.png') no-repeat center;">
+				<div id='guide-ico-container' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 				</div>
 				<div class="darkmode-txt" id='guide-tx1-heading'>
 					<p>

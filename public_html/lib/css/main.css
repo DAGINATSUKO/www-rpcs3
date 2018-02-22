@@ -177,7 +177,7 @@
     color: #455971!important;
 }
 .feature-con-wrap-invert {
-    opacity: .2!important;
+    opacity: .1!important;
 }
 #feature-con-scaler {
     position: absolute;
@@ -245,14 +245,12 @@
     width: 140px;
     height: 44px;
     cursor: pointer;
-    transition: all .1s ease-in-out;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
     background: rgba(255,255,255,.1);
 }
 #feature-btn-download:hover {
-    transition: all .1s ease-in-out;
     background: rgba(255,255,255,.2);
 }
 #feature-btn-general {
@@ -331,12 +329,10 @@
     width: 30.98%;
     height: 500px;
     margin-top: -250px;
-    transition: all .1s ease-in-out;
     transform: scale(1);
     background: #fff;
 }
 #content-con-block:hover {
-    transition: all .1s ease-in-out;
     transform: scale(1.01);
     -webkit-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
     -moz-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
@@ -385,14 +381,12 @@
     height: 44px;
     margin-bottom: 36px;
     margin-left: -70px;
-    transition: all .2s ease-in-out;
     text-align: center;
     color: #4c5bd7;
     background: rgba(76,91,215,.1);
 }
 #content-btn-block:hover {
     cursor: pointer;
-    transition: all .2s ease-in-out;
     background: rgba(76,91,215,.2);
 }
 #patreon-con-block-a {
@@ -403,13 +397,11 @@
     width: 31.1%;
     height: 500px;
     margin-top: -250px;
-    transition: all .1s ease-in-out;
     transform: scale(1);
     white-space: normal;
     background: #fff;
 }
 #patreon-con-block-a:hover {
-    transition: all .1s ease-in-out;
     transform: scale(1.01);
     -webkit-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
     -moz-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
@@ -465,14 +457,12 @@
     height: 44px;
     margin-bottom: 36px;
     margin-left: -88px;
-    transition: all .2s ease-in-out;
     text-align: center;
     color: #fff;
     background: #f96854;
 }
 #patreon-btn-block:hover {
     cursor: pointer;
-    transition: all .2s ease-in-out;
     background: #ff9485;
 }
 #patreon-btn-arrow {
@@ -580,15 +570,15 @@
     height: auto;
     min-height: 72px;
     margin-bottom: 20px;
-    border: solid 2px #fff;
+    border: solid 1px #fff;
     background: #fff;
 }
 #download-con-container:hover {
-    border: solid 2px #455971;
+    border: solid 1px #455971;
     background: #fff;
 }
 .download-con-imp:hover {
-    border: solid 2px #455971!important;
+    border: solid 1px #455971!important;
 }
 #download-ico-container {
     position: relative;
@@ -681,7 +671,6 @@
     width: 100%;
     height: 100%;
     padding-left: 50px;
-    transition: .1s ease-in-out;
     color: #fff;
     border: none;
     background: rgba(255,255,255,.1);
@@ -771,16 +760,12 @@
     height: auto;
     min-height: 72px;
     margin-bottom: 20px;
-    border: solid 1px #fff;
-    border-top: 2px solid rgba(255,255,255,0);
-    border-right: 2px solid rgba(255,255,255,0);
-    border-bottom: 2px solid rgba(255,255,255,0);
-    border-left: 2px solid rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,0);
     background: #fff;
 }
 #panel-con-container:hover {
     padding-bottom: 0;
-    border: solid 2px #455971;
+    border: solid 1px #455971;
     background: #fff;
 }
 #panel-con-wrapper {
@@ -896,9 +881,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-box-shadow: 0 0 120px 0 rgba(0,0,0,.4);
-    -moz-box-shadow: 0 0 120px 0 rgba(0,0,0,.4);
-    box-shadow: 0 0 120px 0 rgba(0,0,0,.4);
 }
 #video-con-slideshow {
     position: relative;

@@ -161,7 +161,7 @@
 		<div id="feature-con-outer">
 			<div id="feature-con-inner">
 				<div id='content-con-block' class="content-alg-block darkmode-block scale-content-block-promote">
-					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 242px !important;">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/progress.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
 						<span>
@@ -174,7 +174,7 @@
 					</a>
 				</div>
 				<div id='content-con-block' class="content-alg-block darkmode-block scale-override-hide">
-					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 242px !important;">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/discord.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
 						<span>
@@ -187,7 +187,7 @@
 					</a>
 				</div>
 				<div id='content-con-block' class="darkmode-block scale-override-hide">
-					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 242px !important;">
+					<div id='content-ico-block' style="background: rgba(76, 91, 215, .1) url('/img/icons/panels/pulls.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div id='content-tx2-block' class="darkmode-txt" style="margin-top: 18px;">
 						<span>RPCS3's GitHub community is always working on developing new features, functions and ideas for the project. GitHub allows us to keep our project open, free and most importantly, accessible to developers. The GitHub platforms enables us the ability to review a contributor's changes and implement them on-the-fly after approval. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute it while obeying the GNU General Public License.</span>

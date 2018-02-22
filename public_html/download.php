@@ -86,7 +86,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<div id="sha-con-container">
 				<div id="sha-con-wrapper">
 					<div id="sha-con-details">
-						<span><span class="sha-spec">SHA</span><?php echo $win[4];?>
+						<span><span class="sha-spec">SHA-256</span><?php echo $win[4];?>
 						</span>
 					</div>
 				</div>
@@ -128,7 +128,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<div id="sha-con-container">
 				<div id="sha-con-wrapper">
 					<div id="sha-con-details">
-						<span><span class="sha-spec">SHA</span> SHA-256 metadata not available, WIP</span>
+						<span><span class="sha-spec">SHA-256</span> SHA-256 metadata not available, WIP</span>
 					</div>
 				</div>
 				<div id="sha-con-wrapper">

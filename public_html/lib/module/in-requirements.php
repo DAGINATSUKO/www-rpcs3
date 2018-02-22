@@ -81,7 +81,7 @@
 </div>
 <div id='panel-con-wrapper'>
 	<div class="div-panel-left darkmode-panel div-touchless" id='panel-con-container'>
-		<div id='panel-ico-container' style="background: url('/img/icons/list/os.png') no-repeat center;">
+		<div id='panel-ico-container' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -90,7 +90,7 @@
 		</div>
 	</div>
 	<div class="div-panel-right darkmode-panel div-touchless" id='panel-con-container'>
-		<div id='panel-ico-container' style="background: url('/img/icons/list/os.png') no-repeat center;">
+		<div id='panel-ico-container' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 		</div>
 		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
@@ -113,6 +113,8 @@
 		</div>
 	</div>
 	</a>
+	<div class="div-panel-right darkmode-panel div-touchless" id='panel-con-container'>
+	</div>
 </div>
 <div class="div-heading darkmode-txt" id="featured-tx1-heading">
 	<h2>Windows Requirements</h2>
