@@ -167,7 +167,7 @@
 						<span>
 						Each month we aim to put out a technical and visual progress report that showcases our latest developments for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation without the need of a supercomputer. As development moves forward, system requirements become lower and more games become playable.</span>
 					</div>
-					<a href="https://rpcs3.net/blog/2018/01/03/progress-report-december-2017/">
+					<a href="https://rpcs3.net/blog/2018/02/07/progress-report-january-2018/">
 					<div id='content-btn-block'>
 						<span>Reports</span>
 					</div>

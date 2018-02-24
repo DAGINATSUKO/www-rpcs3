@@ -103,11 +103,13 @@ if (file_exists('lib/compat/utils.php')) {
 						</span>
 					</div>
 				</div>
+				<!--
 				<div id="sha-con-wrapper">
 					<div id="sha-con-details">
 						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
 					</div>
 				</div>
+				-->
 			</div>
 			<a href='<?php echo $linux[0]; ?>' download target="_blank">
 			<div id='download-con-container' class="download-con-imp darkmode-panel <?php echo $linux_button; ?>
@@ -125,6 +127,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
+			<!--
 			<div id="sha-con-container">
 				<div id="sha-con-wrapper">
 					<div id="sha-con-details">
@@ -144,6 +147,22 @@ if (file_exists('lib/compat/utils.php')) {
 				<div id="sha-con-wrapper">
 					<div id="sha-con-details">
 						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
+					</div>
+				</div>
+			</div>
+			-->
+			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+				<h2>Build History</h2>
+			</div>
+			<div id='featured-con-block' class="darkmode-block">
+				<div id='featured-wrp-block'>
+					<div id='featured-tx1-block' class="darkmode-txt">
+						<h2>Previous Builds</h2>
+					</div>
+					<div id='featured-tx2-block' class="darkmode-txt">
+						<p>
+							 When a newer build a released it is replaced and the previous build is archived in our build history database. This database records all previous builds which can be individually downloaded or compiled locally with their respective pull request ID links. We also archive useful metrics for previous builds such as the pull request ID, pull request author, lines of code added and deleted and SHA-256 signatures.
+						</p>
 					</div>
 				</div>
 			</div>
