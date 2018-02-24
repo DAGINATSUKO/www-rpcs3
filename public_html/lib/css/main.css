@@ -564,7 +564,11 @@
     margin-right: 5px;
     padding: 4px 8px;
     border: solid 1px #455971;
+<<<<<<< HEAD
 	user-select: none;
+=======
+    user-select: none;
+>>>>>>> 72378d000d787939aa19aa21e9fee2e26ae5e540
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
