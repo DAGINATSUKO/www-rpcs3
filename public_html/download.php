@@ -250,7 +250,7 @@ if (file_exists('lib/compat/utils.php')) {
 				<div id='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Download Documentation (19 Docs)</span>
+					Download Documentation (22 Docs)</span>
 					</span>
 				</div>
 			</div>

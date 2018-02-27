@@ -1,17 +1,17 @@
 <div id='panel-con-wrapper'>
-	<div class="div-panel-left darkmode-panel div-touchless" id='panel-con-container' style=" background: #4c5bd7; ">
-		<div id='panel-ico-container' style="background: url('/img/icons/menu/desktop.png') no-repeat center;">
+	<div class="div-panel-left darkmode-panel div-touchless" id='panel-con-container'>
+		<div id='panel-ico-container' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
 		</div>
-		<div class="darkmode-txt" id='panel-tx1-heading' style=" color: #fff; ">
+		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
 				<b>Recommended System Requirements</b>
 			</p>
 		</div>
 	</div>
-	<div class="div-panel-right darkmode-panel div-touchless" id='panel-con-container' style=" background: #4c5bd7; ">
-		<div id='panel-ico-container' style="background: url('/img/icons/menu/laptop.png') no-repeat center;">
+	<div class="div-panel-right darkmode-panel div-touchless" id='panel-con-container'>
+		<div id='panel-ico-container' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
 		</div>
-		<div class="darkmode-txt" id='panel-tx1-heading' style=" color: #fff; ">
+		<div class="darkmode-txt" id='panel-tx1-heading'>
 			<p>
 				<b>Minimum System Requirements</b>
 			</p>

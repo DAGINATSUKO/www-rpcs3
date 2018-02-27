@@ -74,7 +74,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    transition: all .1s ease-in-out;
     background: rgba(76,91,215,.8);
 }
 #header-con-body {
@@ -127,7 +126,6 @@
     height: 100%;
     min-height: 820px;
     margin: 0 auto;
-    transition: all .1s ease-in-out;
     background: #fff;
 }
 #page-con-feature-b {
@@ -138,7 +136,6 @@
     height: 100%;
     min-height: 820px;
     margin: 0 auto;
-    transition: all .1s ease-in-out;
     background: rgba(76,91,215,.9);
 }
 #page-con-feature-c {
@@ -165,7 +162,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    transition: all .1s ease-in-out;
     -webkit-transform: translateZ(0);
     transform: scale(1.05);
     -webkit-perspective: 1000;
@@ -263,7 +259,6 @@
     width: 140px;
     height: 44px;
     cursor: pointer;
-    transition: all .2s ease-in-out;
     text-align: center;
     text-transform: uppercase;
     color: #455971;
@@ -564,11 +559,7 @@
     margin-right: 5px;
     padding: 4px 8px;
     border: solid 1px #455971;
-<<<<<<< HEAD
-	user-select: none;
-=======
     user-select: none;
->>>>>>> 72378d000d787939aa19aa21e9fee2e26ae5e540
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
@@ -632,7 +623,6 @@
     padding: 3px 6px;
     color: #455971;
     background: rgba(69,89,113,.1);
-    font-style: italic;
 }
 .download-define-author {
     margin-right: 4px;
@@ -663,7 +653,6 @@
     z-index: 1;
     width: 100%;
     height: 100%;
-    transition: all .1s ease-in-out;
     background: rgba(76,91,215,.8);
 }
 #titlesearch-inp-search {
@@ -1089,7 +1078,6 @@
     width: 100%;
     height: 230px;
     padding-top: 90px;
-    transition: all .1s ease-in-out;
     background: #4c5bd7;
 }
 #footer-con-outer {
@@ -1152,8 +1140,8 @@
     display: block;
     width: 100%;
     height: 100px;
-    transition: all .1s ease-in-out;
-    background: #4e61db;
+    background: #4c5bd7;
+    border-top: 1px solid rgba(255, 255, 255, .1);
 }
 #footer-tx1-webmaster {
     font-family: arial;
@@ -1242,7 +1230,6 @@
     margin-left: 8px;
     padding: 1px 6px;
     color: #fff;
-    background: #20b2aa;
 }
 .div-anchor {
     position: absolute;
@@ -1330,38 +1317,29 @@
     padding-right: 136px!important;
 }
 .div-role-cdev {
-    border-color: #e74c3c!important;
-    background-color: #e74c3c!important;
+    background-color: #e74c3c;
 }
 .div-role-gdev {
-    border-color: #e74c3c!important;
-    background-color: #e74c3c!important;
+    background-color: #e74c3c;
 }
 .div-role-cman {
-    border-color: #e67e22!important;
-    background-color: #e67e22!important;
+    background-color: #e67e22;
 }
 .div-role-fdev {
-    border-color: #4c5bd7!important;
-    background-color: #4c5bd7!important;
+    background-color: #324051;
 }
 .div-role-cldev {
-    border-color: #3498db!important;
-    background-color: #3498db!important;
+    background-color: #3498db;
 }
 .div-role-ddev {
-    border-color: #f1c40f!important;
-    background-color: #f1c40f!important;
+    background-color: #f1c40f;
 }
 .div-role-wdev {
-    border-color: #3498db!important;
-    background-color: #3498db!important;
+    background-color: #3498db;
 }
 .div-role-gddev {
-    border-color: #a64eff!important;
-    background-color: #a64eff!important;
+    background-color: #a64eff;
 }
 .div-role-ccdev {
-    border-color: #e68364!important;
-    background-color: #e68364!important;
+    background-color: #e68364;
 }
