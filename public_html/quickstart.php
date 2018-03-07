@@ -50,7 +50,7 @@
 					</div>
 				</div>
 			</div>
-			<?php include 'lib/module/in-requirements.php';?>
+			<?php include 'lib/module/in-specs.php';?>
 			<div class="div-heading darkmode-txt" id="featured-tx1-heading">
 				<h2>Updating RPCS3</h2>
 			</div>

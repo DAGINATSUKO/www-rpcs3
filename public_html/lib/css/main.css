@@ -173,7 +173,7 @@
     color: #455971!important;
 }
 .feature-con-wrap-invert {
-    opacity: .1!important;
+    opacity: .2!important;
 }
 #feature-con-scaler {
     position: absolute;
@@ -324,14 +324,11 @@
     width: 30.98%;
     height: 500px;
     margin-top: -250px;
-    transform: scale(1);
+    transition: .1s;
     background: #fff;
 }
 #content-con-block:hover {
-    transform: scale(1.01);
-    -webkit-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
-    -moz-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
-    box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
+    transform: translateY(-6px);
 }
 #content-ico-block {
     position: relative;
@@ -392,15 +389,12 @@
     width: 31.1%;
     height: 500px;
     margin-top: -250px;
-    transform: scale(1);
     white-space: normal;
     background: #fff;
+    transition: .1s;
 }
 #patreon-con-block-a:hover {
-    transform: scale(1.01);
-    -webkit-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
-    -moz-box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
-    box-shadow: 0 0 120px 0 rgba(0,0,0,.2);
+    transform: translateY(-6px);
 }
 #patreon-tx1-title {
     font-family: 'whitney';
@@ -920,9 +914,9 @@
     margin: -169px 0;
     transition: all .1s ease-in-out;
     transform: scale(1);
-    -webkit-box-shadow: 0 0 120px 0 rgba(0,0,0,.6);
-    -moz-box-shadow: 0 0 120px 0 rgba(0,0,0,.6);
-    box-shadow: 0 0 120px 0 rgba(0,0,0,.6);
+    -webkit-box-shadow: 0 0 80px 0 rgba(0,0,0,.8);
+    -moz-box-shadow: 0 0 80px 0 rgba(0,0,0,.8);
+    box-shadow: 0 0 80px 0 rgba(0,0,0,.8);
 }
 #video-con-container:hover {
     transition: all .1s ease-in-out;
@@ -1076,9 +1070,15 @@
     z-index: 1;
     overflow: hidden;
     width: 100%;
+    height: auto;
+    background: #4c5bd7;
+}
+#footer-con-header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
     height: 230px;
     padding-top: 90px;
-    background: #4c5bd7;
 }
 #footer-con-outer {
     position: relative;
@@ -1140,7 +1140,6 @@
     display: block;
     width: 100%;
     height: 100px;
-    background: #4c5bd7;
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
 #footer-tx1-webmaster {

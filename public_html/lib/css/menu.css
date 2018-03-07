@@ -82,14 +82,11 @@
     height: 60px;
     padding-left: 46px;
     cursor: pointer;
-    transition: .1s ease-in-out;
-    transition: .1s ease-in-out;
     letter-spacing: 2px;
     color: #fff;
     border-bottom: solid 2px rgba(255,255,255,0);
 }
 #menu-tx1-mobile:hover {
-    transition: .1s ease-in-out;
     border-bottom: solid 2px #fff;
 }
 #menu-con-logo {
@@ -120,9 +117,9 @@
     width: 232px;
     height: 217px;
     background: #fff;
-    -webkit-box-shadow: 0 0 81px 0 rgba(0,0,0,.25);
-    -moz-box-shadow: 0 0 81px 0 rgba(0,0,0,.25);
-    box-shadow: 0 0 81px 0 rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
 }
 #submenu-con-wrapper {
     position: relative;
