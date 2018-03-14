@@ -24,19 +24,19 @@ body {
 }
 a:visited {
 	text-decoration:none;
-	color:#3198ff;
+	color:#0080ff;
 }
 a:active {
 	text-decoration:none;
-	color:#3198ff;
+	color:#0080ff;
 }
 a:link {
 	text-decoration:none;
-	color:#3198ff;
+	color:#0080ff;
 }
 a:hover {
 	text-decoration:none;
-	color:#3198ff;
+	color:inherit;
 }
 ::-webkit-scrollbar {
 	width:10px;
@@ -51,16 +51,16 @@ a:hover {
 	background:#b7b7b7;
 }
 ::-webkit-input-placeholder {
-	color:#3198ff;
+	color:#0080ff;
 }
 ::-moz-placeholder {
-	color:#3198ff;
+	color:#0080ff;
 }
 :-ms-input-placeholder {
-	color:#3198ff;
+	color:#0080ff;
 }
 :-moz-placeholder {
-	color:#3198ff;
+	color:#0080ff;
 }
 iframe {
 	width:100%;

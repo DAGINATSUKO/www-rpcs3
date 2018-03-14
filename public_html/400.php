@@ -14,26 +14,23 @@
 <?php include 'lib/module/call-sys.php';?>
 <body style="background: #000;">
 <?php include 'lib/module/call-php.php';?>
-<div id="page-con-content">
-	<div id='header-con-overlay' class="darkmode-header" style="position:fixed;">
-		<div id="error-con-content">
-			<div id='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
+<div class="page-con-content">
+	<div class="header-con-overlay darkmode-header" style="position:fixed;">
+		<div id="particles-js">
+		</div>
+		<div class="error-con-content">
+			<div class='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
 			</div>
-			<div id='error-tx1-content'>
+			<div class='error-tx1-content'>
 				<span>Bad Request</span>
 			</div>
-			<div id='error-tx2-content'>
+			<div class='error-tx2-content'>
 				<p>
 					 Your request was invalid or unsupported
 				</p>
 			</div>
 		</div>
-		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
-			<div class="scale-wavebar-hide visual-wavebar">
-			</div>
-			<div class="scale-wavebar-hide visual-wavebar delayed-fade" style="display:none;">
-			</div>
-		</div>
 	</div>
-	</body>
-	</html>
+</div>
+</body>
+</html>

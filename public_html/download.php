@@ -29,34 +29,34 @@ if (file_exists('lib/compat/utils.php')) {
 	$linux[1] = 'https://github.com/RPCS3/rpcs3/releases';
 }
 ?>
-<div id="page-con-content">
-	<div id="header-con-head">
-		<div id='header-img-head' class="dynamic-banner">
+<div class="page-con-content">
+	<div class="header-con-head">
+		<div class="header-img-head">
 		</div>
-		<div id='header-con-overlay' class="darkmode-header">
+		<div class="header-con-overlay darkmode-header">
 		</div>
-		<div id='header-con-body'>
-			<div id='header-tx1-body'>
+		<div class='header-con-body'>
+			<div class='header-tx1-body'>
 				<span>Download</span>
 			</div>
-			<div id='header-tx2-body'>
+			<div class='header-tx2-body'>
 				<p>
 					 Download the latest builds, source code and documentation
 				</p>
 			</div>
 		</div>
 	</div>
-	<div id="page-con-container">
-		<div id="page-in-container">
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+	<div class="page-con-container">
+		<div class="page-in-container">
+			<div class="featured-tx1-heading div-heading darkmode-txt">
 				<h2>Download Information</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
+			<div class='featured-con-block darkmode-block'>
+				<div class='featured-wrp-block'>
+					<div class='featured-tx1-block darkmode-txt'>
 						<h2 class="download-title">Latest Build</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class='featured-tx2-block darkmode-txt'>
 						<p class="download-desc">
 							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted on our web server. <br>
 							<br>
@@ -65,14 +65,14 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 			</div>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+			<div class="featured-tx1-heading div-heading darkmode-txt">
 				<h2>Download Binaries</h2>
 			</div>
 			<a href='<?php echo $win[0]; ?>' target="_blank">
-			<div id='download-con-container' class="download-con-imp darkmode-panel">
-				<div id='download-ico-container' style="background: url('/img/icons/buttons/windows.png') no-repeat center;">
+			<div class="download-con-container download-con-imp darkmode-panel">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/windows.png') no-repeat center;">
 				</div>
-				<div id='download-tx1-heading'>
+				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
 					Download for Windows x64 </span>
@@ -83,40 +83,40 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div id="sha-con-container">
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+			<div class="sha-con-container">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">SHA-256</span><?php echo $win[4];?>
 						</span>
 					</div>
 				</div>
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">File Size</span><?php echo $win[5];?>
 						 MB </span>
 					</div>
 				</div>
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">Pull Request</span>#<?php echo $win[3];?>
 						 by <?php echo $win[2];?>
 						</span>
 					</div>
 				</div>
 				<!--
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
 					</div>
 				</div>
 				-->
 			</div>
 			<a href='<?php echo $linux[0]; ?>' download target="_blank">
-			<div id='download-con-container' class="download-con-imp darkmode-panel <?php echo $linux_button; ?>
+			<div class="download-con-container download-con-imp darkmode-panel <?php echo $linux_button; ?>
 				 ">
-				<div id='download-ico-container' style="background: url('/img/icons/buttons/linux.png') no-repeat center;">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/linux.png') no-repeat center;">
 				</div>
-				<div id='download-tx1-heading'>
+				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
 					Download for Linux x64 </span>
@@ -128,38 +128,38 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			</a>
 			<!--
-			<div id="sha-con-container">
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+			<div class="sha-con-container">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">SHA-256</span> SHA-256 metadata not available, WIP</span>
 					</div>
 				</div>
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">File Size</span> File size metadata not available, WIP</span>
 					</div>
 				</div>
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">Pull Request</span> Pull Request metadata not available, WIP</span>
 					</div>
 				</div>
-				<div id="sha-con-wrapper">
-					<div id="sha-con-details">
+				<div class="sha-con-wrapper">
+					<div class="sha-con-details">
 						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
 					</div>
 				</div>
 			</div>
 			-->
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+			<div class="featured-tx1-heading div-heading darkmode-txt">
 				<h2>Build History</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
+			<div class='featured-con-block darkmode-block'>
+				<div class='featured-wrp-block'>
+					<div class='featured-tx1-block darkmode-txt'>
 						<h2>Previous Builds</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class='featured-tx2-block darkmode-txt'>
 						<p>
 							 When a newer build a released it is replaced and the previous build is archived in our build history database. This database records all previous builds which can be individually downloaded or compiled locally with their respective pull request ID links. We also archive useful metrics for previous builds such as the pull request ID, pull request author, lines of code added and deleted and SHA-256 signatures.
 						</p>
@@ -167,25 +167,25 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			<a href='https://rpcs3.net/compatibility?b'>
-			<div id='download-con-container' class="darkmode-panel">
-				<div id='download-ico-container' style="background: url('/img/icons/buttons/history.png') no-repeat center;">
+			<div class='download-con-container darkmode-panel'>
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/history.png') no-repeat center;">
 				</div>
-				<div id='download-tx1-heading'>
+				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
 					Complete Build History</span>
 				</div>
 			</div>
 			</a>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+			<div class="featured-tx1-heading div-heading darkmode-txt">
 				<h2>Website Source</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
+			<div class='featured-con-block darkmode-block'>
+				<div class='featured-wrp-block'>
+					<div class='featured-tx1-block darkmode-txt'>
 						<h2>Website Source</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class='featured-tx2-block darkmode-txt'>
 						<p>
 							 This website was developed by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>. The compatibility list portion of this website is developed independently by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>. This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to us and are properties of their respective owners.
 						</p>
@@ -193,10 +193,10 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
-			<div id='download-con-container' class="darkmode-panel">
-				<div id='download-ico-container' style="background: url('/img/icons/buttons/website.png') no-repeat center;">
+			<div class='download-con-container darkmode-panel'>
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/website.png') no-repeat center;">
 				</div>
-				<div id='download-tx1-heading'>
+				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
 					Download RPCS3.net source</span>
@@ -204,25 +204,25 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			</a>
 			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
-			<div id='download-con-container' class="darkmode-panel">
-				<div id='download-ico-container' style="background: url('/img/icons/buttons/compat.png') no-repeat center;">
+			<div class='download-con-container darkmode-panel'>
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/compat.png') no-repeat center;">
 				</div>
-				<div id='download-tx1-heading'>
+				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
 					Download RPCS3.net Compatibility List source</span>
 				</div>
 			</div>
 			</a>
-			<div id="featured-tx1-heading" class="div-heading darkmode-txt">
+			<div class="featured-tx1-heading div-heading darkmode-txt">
 				<h2>Press Kit</h2>
 			</div>
-			<div id='featured-con-block' class="darkmode-block">
-				<div id='featured-wrp-block'>
-					<div id='featured-tx1-block' class="darkmode-txt">
+			<div class='featured-con-block darkmode-block'>
+				<div class='featured-wrp-block'>
+					<div class='featured-tx1-block darkmode-txt'>
 						<h2>Press Kit and Documentation</h2>
 					</div>
-					<div id='featured-tx2-block' class="darkmode-txt">
+					<div class='featured-tx2-block darkmode-txt'>
 						<p>
 							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to high quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners. <br>
 							<br>
@@ -232,10 +232,10 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			<a href='/cdn/press/Press Kit.zip' download>
-			<div id='download-con-container' class="darkmode-panel">
-				<div id='download-ico-container' style="background: url('/img/icons/buttons/presskit.png') no-repeat center;">
+			<div class='download-con-container darkmode-panel'>
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/presskit.png') no-repeat center;">
 				</div>
-				<div id='download-tx1-heading'>
+				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
 					Download Press Kit (132 Files)</span>
@@ -244,10 +244,10 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			</a>
 			<a href='/cdn/docs/Docs.zip' download>
-			<div id='download-con-container' class="darkmode-panel">
-				<div id='download-ico-container' style="background: url('/img/icons/buttons/docs.png') no-repeat center;">
+			<div class='download-con-container darkmode-panel'>
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/docs.png') no-repeat center;">
 				</div>
-				<div id='download-tx1-heading'>
+				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
 					Download Documentation (22 Docs)</span>

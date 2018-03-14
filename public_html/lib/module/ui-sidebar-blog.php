@@ -1,8 +1,8 @@
-<div id="navsidebar-btn-open" class="nav-blog scale-menu-btn-remove" title="Menu">
+<div class="navsidebar-btn-open nav-blog scale-menu-btn-remove" title="Menu">
 </div>
-<div id='navsidebar-con-dim' class='toggle-blogsidebar'>
-	<div id='blogsidebar-con-anim' class='dropin-load darkmode-navsidebar-anim'>
-		<div id="blogsidebar-tx1-title" class="darkmode-navsidebar-title" style='-webkit-animation-duration: .4s;'>
+<div class='navsidebar-con-dim toggle-blogsidebar'>
+	<div class='blogsidebar-con-anim dropin-load darkmode-navsidebar-anim'>
+		<div class="blogsidebar-tx1-title darkmode-navsidebar-title" style='-webkit-animation-duration: .4s;'>
 			  <span>RPCS3 Developers Blog </span>
 		</div>
 				<div id="sidebar" class="sidebar" style='-webkit-animation-duration: .4s;'>

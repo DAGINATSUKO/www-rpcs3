@@ -5,7 +5,7 @@
 .gm-menubar-l1 {
     background: rgba(0,0,0,.8)!important;
 }
-#alert-tx1-message {
+.alert-tx1-message {
     font-family: arial;
     font-size: 12px;
     line-height: 30px;
@@ -18,14 +18,14 @@
     color: #fff;
     background: rgba(255,52,52,.9);
 }
-#alert-con-message {
+.alert-con-message {
     position: fixed;
     z-index: 9990;
     top: 62px;
     width: 100%;
     height: 30px;
 }
-#menu-con-menubar {
+.menu-con-menubar {
     position: fixed;
     z-index: 9997;
     top: 0;
@@ -33,28 +33,28 @@
     height: auto;
     border-bottom: solid 1px rgba(255,255,255,.1);
 }
-#menu-und-l1 {
+.menu-und-l1 {
     position: absolute;
     display: none;
     width: 100%;
     height: 100%;
     background: rgba(76,91,215,.6);
 }
-#menu-und-l2 {
+.menu-und-l2 {
     position: absolute;
     display: none;
     width: 100%;
     height: 100%;
     background: rgba(76,91,215,.8);
 }
-#menu-und-l3 {
+.menu-und-l3 {
     position: absolute;
     z-index: 1;
     width: 100%;
     height: 63px;
     background: rgba(40,48,117,.9)!important;
 }
-#menu-con-container {
+.menu-con-container {
     position: relative;
     top: 0;
     height: auto;
@@ -62,15 +62,15 @@
     margin-right: 60px;
     margin-left: 60px;
 }
-#menu-in-container {
+.menu-in-container {
     max-width: 1200px;
     min-height: 60px;
     margin: 0 auto;
 }
-#menu-in-container a:hover {
+.menu-in-container a:hover {
     text-decoration: none;
 }
-#menu-tx1-mobile {
+.menu-tx1-mobile {
     font-family: arial;
     font-size: 14px;
     line-height: 60px;
@@ -86,10 +86,10 @@
     color: #fff;
     border-bottom: solid 2px rgba(255,255,255,0);
 }
-#menu-tx1-mobile:hover {
+.menu-tx1-mobile:hover {
     border-bottom: solid 2px #fff;
 }
-#menu-con-logo {
+.menu-con-logo {
     position: relative;
     left: -8px;
     display: inline-block;
@@ -97,7 +97,7 @@
     width: 50px;
     height: 60px;
 }
-#menu-ico-logo {
+.menu-ico-logo {
     position: absolute;
     width: 45px;
     height: 60px;
@@ -105,11 +105,11 @@
     background: url('/img/icons/menu/logo.png') no-repeat center;
     background-size: 32px;
 }
-#menu-ico-logo:hover {
+.menu-ico-logo:hover {
     height: 60px;
     border-bottom: 2px solid #fff;
 }
-#submenu-con-container {
+.submenu-con-container {
     position: relative;
     top: 62px;
     left: -73px;
@@ -121,13 +121,13 @@
     -moz-box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
 }
-#submenu-con-wrapper {
+.submenu-con-wrapper {
     position: relative;
     width: 100%;
     height: 54px;
     background: #fff;
 }
-#submenu-ico-lip {
+.submenu-ico-lip {
     position: absolute;
     top: -33px;
     right: 86px;
@@ -137,29 +137,29 @@
     background: url(/img/icons/menu/lip.png) no-repeat center;
     background-size: 22px;
 }
-#submenu-con-wrapper:hover {
+.submenu-con-wrapper:hover {
     background: #4c5bd7;
 }
-#submenu-con-wrapper:hover #submenu-btn-button {
+.submenu-con-wrapper:hover .submenu-btn-button {
     color: #fff;
 }
-#submenu-con-wrapper:hover #submenu-ico-patreon {
+.submenu-con-wrapper:hover .submenu-ico-patreon {
     background: url('/img/icons/menu/patreon-h.png') no-repeat center;
     background-size: 16px;
 }
-#submenu-con-wrapper:hover #submenu-ico-alipay {
+.submenu-con-wrapper:hover .submenu-ico-alipay {
     background: url('/img/icons/menu/alipay-h.png') no-repeat center;
     background-size: 16px;
 }
-#submenu-con-wrapper:hover #submenu-ico-github {
+.submenu-con-wrapper:hover .submenu-ico-github {
     background: url('/img/icons/menu/code-h.png') no-repeat center;
     background-size: 16px;
 }
-#submenu-con-wrapper:hover #submenu-ico-testing {
+.submenu-con-wrapper:hover .submenu-ico-testing {
     background: url('/img/icons/menu/testing-h.png') no-repeat center;
     background-size: 16px;
 }
-#submenu-btn-button {
+.submenu-btn-button {
     font-family: arial;
     font-size: 14px;
     line-height: 55px;
@@ -172,7 +172,7 @@
     pointer-events: none;
     color: #455971;
 }
-#submenu-ico-patreon {
+.submenu-ico-patreon {
     display: inline-block;
     float: left;
     width: 54px;
@@ -180,7 +180,7 @@
     background: url('/img/icons/menu/patreon.png') no-repeat center;
     background-size: 16px;
 }
-#submenu-ico-alipay {
+.submenu-ico-alipay {
     display: inline-block;
     float: left;
     width: 54px;
@@ -188,7 +188,7 @@
     background: url('/img/icons/menu/alipay.png') no-repeat center;
     background-size: 16px;
 }
-#submenu-ico-github {
+.submenu-ico-github {
     display: inline-block;
     float: left;
     width: 54px;
@@ -196,7 +196,7 @@
     background: url('/img/icons/menu/code.png') no-repeat center;
     background-size: 16px;
 }
-#submenu-ico-testing {
+.submenu-ico-testing {
     display: inline-block;
     float: left;
     width: 54px;
@@ -204,7 +204,7 @@
     background: url('/img/icons/menu/testing.png') no-repeat center;
     background-size: 16px;
 }
-#menu-btn-select {
+.menu-btn-select {
     font-family: arial;
     font-size: 14px;
     line-height: 60px;
@@ -219,11 +219,11 @@
     color: #fff;
     border-bottom: 2px solid rgba(0,0,0,.0);
 }
-#menu-btn-select:hover {
+.menu-btn-select:hover {
     height: 60px;
     border-bottom: 2px solid #fff;
 }
-#menu-btn-darkmode {
+.menu-btn-darkmode {
     position: fixed;
     z-index: 9998;
     top: 0;
@@ -236,22 +236,21 @@
     background: url(/img/icons/menu/darkmode-off.png) no-repeat center;
     background-size: 16px;
 }
-#menu-btn-darkmode:hover {
+.menu-btn-darkmode:hover {
     width: 60px;
     height: 60px;
     opacity: 1;
     border-bottom: solid 2px #fff;
 }
-#menu-ico-support {
+.menu-ico-support {
     position: absolute;
     right: 0;
     width: 92px;
     height: 60px;
-    cursor: pointer;
     background: url('/img/icons/menu/support.png') no-repeat center;
     background-size: 88px;
 }
-#menu-con-support {
+.menu-con-support {
     position: relative;
     top: 0;
     display: inline-block;
@@ -260,14 +259,7 @@
     height: 60px;
     border-bottom: 2px solid rgba(0,0,0,.0);
 }
-#menu-con-dim {
-    position: fixed;
-    z-index: 9996;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,114,255,.8));
-}
-#alipay-con-alipay {
+.alipay-con-alipay {
     position: fixed;
     z-index: 1;
     top: 50%;
@@ -281,14 +273,14 @@
     -webkit-animation-duration: .5s;
     border: solid 4px #fff;
 }
-#alipay-ico-logo {
+.alipay-ico-logo {
     position: relative;
     width: 100%;
     height: 90px;
     background: url('/img/icons/alipay/logo.png') no-repeat center;
     background-size: 130px;
 }
-#alipay-ico-alipay {
+.alipay-ico-alipay {
     position: relative;
     width: 100%;
     height: 384px;
@@ -296,7 +288,7 @@
     background: #fff url('/img/icons/alipay/qr.png') no-repeat center;
     background-size: 304px;
 }
-#alipay-tx1-prompt {
+.alipay-tx1-prompt {
     font-family: arial;
     font-size: 15px;
     line-height: 60px;
@@ -312,7 +304,7 @@
     border-radius: 100%;
     background: #4c5bd7;
 }
-#alipay-tx2-prompt {
+.alipay-tx2-prompt {
     font-family: arial;
     font-size: 20px;
     line-height: 125px;
@@ -322,7 +314,7 @@
     text-align: center;
     color: #fff;
 }
-#alipay-con-footer {
+.alipay-con-footer {
     font-family: arial;
     font-size: 12px;
     line-height: 62px;
@@ -335,17 +327,18 @@
     color: #fff;
     border-top: solid 1px rgba(255,255,255,.1);
 }
-#popup-con-dim {
+
+.popup-con-dim {
     position: fixed;
     z-index: 8990;
     width: 100%;
     height: 100%;
     background: rgba(40,48,117,.9)!important;
 }
-#page-con-scroller::-webkit-scrollbar {
+.page-con-scroller::-webkit-scrollbar {
     display: none;
 }
-#page-con-scroller {
+.page-con-scroller {
     position: fixed;
     overflow: scroll;
     width: 100%;
@@ -354,98 +347,46 @@
     padding-bottom: 17px;
     -webkit-overflow-scrolling: touch;
 }
-#menu-btn-debug {
-    position: fixed;
-    z-index: 9998;
-    top: 0;
-    right: 60px;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-    opacity: .3;
-    border-bottom: 2px solid rgba(0,0,0,.0);
-    background: url('/img/icons/menu/debug.png') no-repeat center;
-    background-size: 16px;
-}
-#menu-btn-debug:hover {
-    opacity: 1;
-    border-bottom: solid 2px #fff;
-}
-#mobilemenu-con-title {
-    font-family: arial;
-    font-size: 18px;
-    line-height: 80px;
+.mobilemenu-con-category {
     position: relative;
-    top: 80px;
-    width: auto;
-    height: 80px;
-    padding-right: 20px;
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    -webkit-animation-iteration-count: 1;
-    text-align: left;
-    letter-spacing: 6px;
-    color: #fff;
-}
-#mobilemenu-con-category {
-    position: relative;
-    top: 70px;
+    top: 68px;
     float: left;
     width: 100%;
     margin-right: 40px;
 }
-#mobilemenu-con-button {
+.mobilemenu-con-button {
     position: relative;
     width: 100%;
-    height: 40px;
-    padding-left: 15px;
+    height: 60px;
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
 }
-#mobilemenu-con-button:hover {
-    background: rgba(255,255,255,.1);
-}
-#mobilemenu-ico-button {
-    position: relative;
-    float: left;
-    width: 20px;
-    height: 100%;
-}
-#mobilemenu-tx1-button {
+.mobilemenu-tx1-button {
     font-family: arial;
-    font-size: 14px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 60px;
     position: relative;
-    left: 0;
     float: left;
-    width: 100px;
     height: 100%;
-    padding-left: 20px;
     color: #fff;
-}
-#mobilemenu-tgl-button {
-    font-family: arial;
-    font-size: 14px;
-    line-height: 40px;
-    position: relative;
-    left: 0;
-    float: left;
-    width: auto;
-    height: 100%;
-    padding-left: 25px;
-    color: #fff;
-    border-left: 1px solid rgba(255,255,255,.1);
-}
-#mobilemenu-tgl-button:first-letter {
+    width: 250px;
+    left: 50%;
+    margin: 0 0 0 -122px;
+    text-indent: 4px;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    padding-left: 18px;
 }
-#navsidebar-con-container {
+.mobilemenu-tx1-button:hover {
+    background: rgba(255, 255, 255, .1);
+}
+.navsidebar-con-container {
     position: relative;
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
     -webkit-animation-duration: .4s;
 }
-#navsidebar-btn-open {
+.navsidebar-btn-open {
     position: fixed;
     z-index: 9998;
     top: 0;
@@ -458,13 +399,13 @@
     background: url(/img/icons/menu/menu.png) no-repeat center;
     background-size: 16px;
 }
-#navsidebar-btn-open:hover {
+.navsidebar-btn-open:hover {
     width: 60px;
     height: 60px;
     transition: .1s ease-in-out;
     border-bottom: solid 2px #fff;
 }
-#navsidebar-con-dim {
+.navsidebar-con-dim {
     position: fixed;
     z-index: 9998;
     display: none;
@@ -472,7 +413,7 @@
     height: 100%;
     background: rgba(0,0,0,.5);
 }
-#navsidebar-con-anim {
+.navsidebar-con-anim {
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -488,11 +429,11 @@
     background: rgba(40,48,117,.9);
     -webkit-overflow-scrolling: touch;
 }
-#navsidebar-con-anim::-webkit-scrollbar {
+.navsidebar-con-anim::-webkit-scrollbar {
     display: none;
     width: 5px;
 }
-#navsidebar-tx1-title {
+.navsidebar-tx1-title {
     font-family: arial;
     font-size: 14px;
     line-height: 60px;
@@ -504,7 +445,7 @@
     color: #fff;
     background: rgba(255,255,255,.1);
 }
-#navsidebar-tx1-topic {
+.navsidebar-tx1-topic {
     font-family: arial;
     font-size: 14px;
     font-weight: bold;
@@ -515,7 +456,7 @@
     text-align: left;
     color: #fff;
 }
-#navsidebar-tx2-topic {
+.navsidebar-tx2-topic {
     font-family: arial;
     font-size: 14px;
     line-height: 25px;
@@ -525,7 +466,7 @@
     text-align: left;
     color: #fff;
 }
-#blogsidebar-con-anim {
+.blogsidebar-con-anim {
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -541,11 +482,11 @@
     background: rgba(40,48,117,.9);
     -webkit-overflow-scrolling: touch;
 }
-#blogsidebar-con-anim::-webkit-scrollbar {
+.blogsidebar-con-anim::-webkit-scrollbar {
     display: none;
     width: 5px;
 }
-#blogsidebar-tx1-title {
+.blogsidebar-tx1-title {
     font-family: arial;
     font-size: 14px;
     line-height: 60px;

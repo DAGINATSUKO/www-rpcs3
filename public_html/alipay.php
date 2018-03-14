@@ -14,34 +14,29 @@
 <?php include 'lib/module/call-sys.php';?>
 <body style="background: #000;">
 <?php include 'lib/module/call-php.php';?>
-<div id="page-con-content">
-	<div id='header-con-overlay' class="darkmode-header" style="position:fixed;">
+<div class="page-con-content">
+	<div class="header-con-overlay darkmode-header" style="position:fixed;">
+	<div id="particles-js"></div>
 	</div>
-	<div id='alipay-con-alipay'>
-		<div id="alipay-ico-logo">
+	<div class='alipay-con-alipay'>
+		<div class="alipay-ico-logo">
 		</div>
 		<a href='/img/icons/alipay/qr.png' target="_blank">
-		<div id="alipay-ico-alipay">
+		<div class="alipay-ico-alipay">
 		</div>
 		</a>
-		<div id="alipay-tx1-prompt">
+		<div class="alipay-tx1-prompt">
 			<span>基木</span>
 		</div>
-		<div id="alipay-tx2-prompt">
+		<div class="alipay-tx2-prompt">
 			<span>用支付宝扫一扫付钱</span>
 		</div>
 	</div>
-	<div id="alipay-con-footer">
+	<div class="alipay-con-footer">
 		<p>
 			 © Copyright 2004-2017 Alipay. All rights reserved.
 		</p>
 	</div>
 </div>
-		<div id="wavebar-con-wrapper" class="dynamic-wavebar">
-			<div class="scale-wavebar-hide visual-wavebar">
-			</div>
-			<div class="scale-wavebar-hide visual-wavebar delayed-fade" style="display:none;">
-			</div>
-		</div>
 </body>
 </html>

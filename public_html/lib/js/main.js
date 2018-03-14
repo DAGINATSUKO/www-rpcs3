@@ -1,3 +1,39 @@
+/* Randomly loads header banner image for each page */
+$(document).ready(function() {
+    var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg', '21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg', '31.jpg', '32.jpg', '33.jpg', '34.jpg', '35.jpg', '36.jpg', '37.jpg', '38.jpg', '39.jpg', '40.jpg', '41.jpg', '42.jpg', '43.jpg', '44.jpg', '45.jpg', '46.jpg', '47.jpg', '48.jpg', '49.jpg', '50.jpg', '51.jpg', '52.jpg', '53.jpg', '54.jpg', '55.jpg', '56.jpg', '57.jpg', '58.jpg', '59.jpg', '60.jpg', '61.jpg', '62.jpg', '63.jpg', '64.jpg'];
+    $('.header-img-head').css({
+        'background': 'no-repeat center top url(/img/banners/' + images[Math.floor(Math.random() * images.length)] + ')'
+    });
+});
+/* Handles menubar opacity swap on scroll */
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 60) {
+        $(".menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
+    } else {
+        $(".menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 60) {
+        $(".menu-und-l1").fadeIn(100);
+    } else {
+        $(".menu-und-l1").fadeOut(100);
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 400) {
+        $(".menu-und-l2").fadeIn(100);
+    } else {
+        $(".menu-und-l2").fadeOut(100);
+    }
+});
+/* Handles globla banner fade in on load */
+$(window).load(function() {
+    $('.header-img-head').fadeIn(300);
+});
 /* Handles mobile friendly touch gesture compatibility */
 $(document).ready(function() {
     document.documentElement.addEventListener('touchstart', function(event) {
@@ -61,85 +97,6 @@ $(document).ready(function() {
     $(".popup-mobilemenu").click(function() {
         $(".popup-mobilemenu").fadeOut(100);
     });
-});
-/* Handles debugger toggles */
-$(document).ready(function() {
-    $(".popup-debug").hide();
-    $(".toggle-debug").click(function() {
-        $(".popup-debug").fadeToggle(100);
-    });
-    $(".popup-debug").hide();
-    $(".popup-debug").click(function() {
-        $(".popup-debug").fadeOut(100);
-    });
-});
-/* Randomly loads header banner image for each page */
-$(document).ready(function() {
-    var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg', '21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg', '31.jpg', '32.jpg', '33.jpg', '34.jpg', '35.jpg', '36.jpg', '37.jpg', '38.jpg', '39.jpg', '40.jpg', '41.jpg', '42.jpg', '43.jpg', '44.jpg', '45.jpg', '46.jpg', '47.jpg', '48.jpg', '49.jpg', '50.jpg', '51.jpg', '52.jpg', '53.jpg', '54.jpg', '55.jpg', '56.jpg', '57.jpg', '58.jpg', '59.jpg', '60.jpg', '61.jpg', '62.jpg', '63.jpg', '64.jpg'];
-    $('.dynamic-banner').css({
-        'background': 'no-repeat center top url(/img/banners/' + images[Math.floor(Math.random() * images.length)] + ')'
-    });
-});
-/* Handles menubar opacity swap on scroll */
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll >= 60) {
-        $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
-    } else {
-        $("#menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
-    }
-});
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll >= 60) {
-        $("#menu-und-l1").fadeIn(100);
-    } else {
-        $("#menu-und-l1").fadeOut(100);
-    }
-});
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll >= 400) {
-        $("#menu-und-l2").fadeIn(100);
-    } else {
-        $("#menu-und-l2").fadeOut(100);
-    }
-});
-/* Handles globla banner fade in on load */
-$(window).load(function() {
-    $('#header-img-head').fadeIn(300);
-});
-$(window).load(function() {
-    $('.dynamic-wavebar')
-        .delay(1000)
-        .queue(function(next) {
-            $(this).css('opacity', '1');
-            next();
-        });
-});
-/* Handles standard wavebar animation */
-$(window).load(function() {
-    var $wavebarFX = $(".visual-wavebar"),
-        wavebarWidth = 20,
-        wavebarCount = $(window).width() / wavebarWidth;
-    for (var i = 0; i < wavebarCount; i++) {
-        $wavebar = $("<div>").addClass('wavebar-1').css('width', wavebarWidth + 'px').css('left', i * wavebarWidth + 'px').css('animation-delay', (i / wavebarCount) + 's');
-        $wavebar.appendTo($wavebarFX);
-    }
-});
-/* Handles denser wavebar animation */
-$(window).load(function() {
-    var $wavebarFX = $(".visual-wavebar-2"),
-        wavebarWidth = 20,
-        wavebarCount = $(window).width() / wavebarWidth;
-    for (var i = 0; i < wavebarCount; i++) {
-        $wavebar = $("<div>").addClass('wavebar-2').css('width', wavebarWidth + 'px').css('left', i * wavebarWidth + 'px').css('animation-delay', (i / wavebarCount) + 's');
-        $wavebar.appendTo($wavebarFX);
-    }
-});
-/* Handles all delayed fade events */
-$(window).load(function() {
-    $('.delayed-fade').delay(900).fadeIn(288);
 });
 /* Handles all delayed fade events */
 $(window).load(function() {
@@ -476,31 +433,124 @@ $(document).ready(function() {
         }
     });
 });
-/* Handles pre-fetch for display size */
+/* Handles Particles.js simulation*/
 $(document).ready(function() {
-    var resolution = $(".debug-resolution");
-    var canvas = $(".debug-canvas");
-    window.addEventListener("resize", displayViewportSize, false);
-    displayViewportSize(null);
-
-    function displayViewportSize(e) {
-        resolution.text("");
-        canvas.text("");
-        resolution.append(window.screen.width + " x " + window.screen.height);
-        canvas.append(document.documentElement.clientWidth + " x " + document.documentElement.clientHeight);
-    }
-});
-/* Handles pre-fetch for Navigator API */
-$(document).ready(function() {
-    $('.debug-mobile').text(navigator.mobile)
-    $('.debug-browser').text(navigator.browser)
-    $('.debug-codename').text(navigator.product)
-    $('.debug-version').text(navigator.version)
-    $('.debug-webkit').text(navigator.webkit)
-    $('.debug-platform').text(navigator.platform)
-    $('.debug-cookies').text(navigator.cookieEnabled)
-    $('.debug-language').text(navigator.language)
-    $('.debug-online').text(navigator.onLine)
-    $('.debug-agent').text(navigator.userAgent)
-    $('.debug-java').text(navigator.javaEnabled())
+    $(function() {
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 64,
+                    "density": {
+                        "enable": true,
+                        "value_area": 1024
+                    }
+                },
+                "color": {
+                    "value": "#fff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#fff"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": " ",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 200,
+                    "color": "#fff",
+                    "opacity": .5,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 1200,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "grab": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 4,
+                        "speed": 3
+                    },
+                    "grab": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+        var update;
+        update = function() {
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {}
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    });
 });

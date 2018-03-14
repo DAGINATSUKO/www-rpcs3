@@ -2,7 +2,7 @@
 <script data-cfasync="false" src='/lib/js/jquery-cookie.js'></script>
 <script data-cfasync="false" src='/lib/js/darkmode.js'></script>
 <script data-cfasync="false" src='/lib/js/main.js'></script>
-<script data-cfasync="false" src='/lib/js/navigator.js'></script>
+<script data-cfasync="false" src='/lib/js/particles.js'></script>
 <link rel="stylesheet" href="/lib/css/html.css?v=3"/>
 <link rel="stylesheet" href="/lib/css/anim.css?v=3"/>
 <link rel="stylesheet" href="/lib/css/main.css?v=3"/>

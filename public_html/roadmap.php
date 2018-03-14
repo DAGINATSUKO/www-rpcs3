@@ -14,25 +14,25 @@
 </head>
 <body>
 <?php include 'lib/module/call-php.php';?>
-<div id="page-con-content">
-	<div id="header-con-head">
-		<div id='header-img-head' class="dynamic-banner">
+<div class="page-con-content">
+	<div class="header-con-head">
+		<div class="header-img-head">
 		</div>
-		<div id='header-con-overlay' class="darkmode-header">
+		<div class="header-con-overlay darkmode-header">
 		</div>
-		<div id='header-con-body'>
-			<div id='header-tx1-body'>
+		<div class='header-con-body'>
+			<div class='header-tx1-body'>
 				<span>Roadmap</span>
 			</div>
-			<div id='header-tx2-body'>
+			<div class='header-tx2-body'>
 				<p>
 					 Structured roadmap for RPCS3 development
 				</p>
 			</div>
 		</div>
 	</div>
-	<div id="page-con-container">
-		<div id="page-in-container" class="div-roadmap-git darkmode-block">
+	<div class="page-con-container">
+		<div class="page-in-container div-roadmap-git darkmode-block">
 			<?php
 				if (file_exists('cache/roadmap_cached.php')) {
 					include 'cache/roadmap_cached.php';
