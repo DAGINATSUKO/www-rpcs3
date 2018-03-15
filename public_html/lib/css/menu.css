@@ -349,7 +349,7 @@
 }
 .mobilemenu-con-category {
     position: relative;
-    top: 68px;
+    top: 100px;
     float: left;
     width: 100%;
     margin-right: 40px;
@@ -371,7 +371,7 @@
     color: #fff;
     width: 250px;
     left: 50%;
-    margin: 0 0 0 -122px;
+    margin: 0px 0 0 -136px;
     text-indent: 4px;
     letter-spacing: 4px;
     text-transform: uppercase;

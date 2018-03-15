@@ -206,9 +206,16 @@
 					<div class='mobilemenu-con-button' style='pointer-events: none; height: 14px; margin-top: 14px; border-top: solid 1px rgba(255, 255, 255, .1);'>
 					</div>
 					<div class='mobilemenu-con-button'>
-						<a href="https://github.com/RPCS3/rpcs3" target="_blank">
+						<a href="https://www.patreon.com/Nekotekina" target="_blank">
 						<div class='mobilemenu-tx1-button'>
-							<span>GitHub</span>
+							<span>Patreon</span>
+						</div>
+						</a>
+					</div>
+					<div class='mobilemenu-con-button'>
+						<a href="/alipay" target="_blank">
+						<div class='mobilemenu-tx1-button'>
+							<span>Alipay</span>
 						</div>
 						</a>
 					</div>
@@ -219,14 +226,40 @@
 						</div>
 						</a>
 					</div>
-					<div class='mobilemenu-con-button' style='margin-bottom: 200px;'>
+					<div class='mobilemenu-con-button'>
+						<a href="https://github.com/RPCS3/rpcs3" target="_blank">
+						<div class='mobilemenu-tx1-button'>
+							<span>GitHub</span>
+						</div>
+						</a>
+					</div>
+					<div class='mobilemenu-con-button'>
 						<a href="https://forums.rpcs3.net" target="_blank">
 						<div class='mobilemenu-tx1-button'>
 							<span>Forum</span>
 						</div>
 						</a>
 					</div>
-					<div class='mobilemenu-con-button' style='pointer-events:none;'>
+					<div class='mobilemenu-con-button'>
+						<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ" target="_blank">
+						<div class='mobilemenu-tx1-button'>
+							<span>YouTube</span>
+						</div>
+						</a>
+					</div>
+					<div class='mobilemenu-con-button'>
+						<a href="https://twitter.com/rpcs3" target="_blank">
+						<div class='mobilemenu-tx1-button'>
+							<span>Twitter</span>
+						</div>
+						</a>
+					</div>
+					<div class='mobilemenu-con-button' style='margin-bottom: 200px;'>
+						<a href="https://www.reddit.com/r/rpcs3" target="_blank">
+						<div class='mobilemenu-tx1-button'>
+							<span>Reddit</span>
+						</div>
+						</a>
 					</div>
 				</div>
 			</div>

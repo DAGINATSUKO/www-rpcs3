@@ -35,7 +35,7 @@
 	<div class="page-con-feature-a" style="background:#000;">
 		<div id="particles-js">
 		</div>
-		<div class="darkmode-header" id='header-con-overlay'>
+		<div class="header-con-overlay darkmode-header">
 		</div>
 		<div class="feature-con-outer">
 			<div class="feature-con-inner">
@@ -152,7 +152,7 @@
 		</div>
 		<div class='page-img-feature' style="background: #000">
 		</div>
-		<div class="darkmode-header" id='header-con-overlay' style=" opacity: 0.9;">
+		<div class="header-con-overlay darkmode-header" style=" opacity: 0.9;">
 		</div>
 		<div class="feature-con-outer">
 			<div class="feature-con-inner">
@@ -398,7 +398,7 @@
 		</div>
 		<div class='page-img-feature' style="background: #000">
 		</div>
-		<div class="darkmode-header" id='header-con-overlay' style=" opacity: 0.9;">
+		<div class="header-con-overlay darkmode-header" style=" opacity: 0.9;">
 		</div>
 		<div class="feature-con-outer">
 			<div class="feature-con-inner">
