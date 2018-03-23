@@ -25,8 +25,8 @@ $(document).ready(function() {
         $(".markdown-body").toggleClass("dm-txt");
         $(".markdown-body h2").toggleClass("dm-txt");
 		$(".markdown-body h2").toggleClass("dm-udl");
-        $("#featured-con-block h2").toggleClass("dm-txt");
-        $("#featured-con-block p").toggleClass("dm-txt");
+        $(".featured-con-block h2").toggleClass("dm-txt");
+        $(".featured-con-block p").toggleClass("dm-txt");
 		$(".markdown-body li").toggleClass("dm-txt");
 		$(".feature-ico-flag").toggleClass("dm-flag");
 		$('.darkmode-footer-logo').toggleClass("dm-footer-logo");
@@ -88,8 +88,8 @@ $(document).ready(function() {
         $(".markdown-body").addClass("dm-txt");
         $(".markdown-body h2").addClass("dm-txt");
 		$(".markdown-body h2").addClass("dm-udl");
-        $("#featured-con-block h2").addClass("dm-txt");
-        $("#featured-con-block p").addClass("dm-txt");
+        $(".featured-con-block h2").addClass("dm-txt");
+        $(".featured-con-block p").addClass("dm-txt");
 		$(".markdown-body li").addClass("dm-txt");
 		$(".feature-ico-flag").addClass("dm-flag");
 		$('.darkmode-footer-logo').addClass("dm-footer-logo");
@@ -139,8 +139,8 @@ $(document).ready(function() {
         $(".markdown-body").removeClass("dm-txt");
         $(".markdown-body h2").removeClass("dm-txt");
 		$(".markdown-body h2").removeClass("dm-udl");
-        $("#featured-con-block h2").removeClass("dm-txt");
-        $("#featured-con-block p").removeClass("dm-txt");
+        $(".featured-con-block h2").removeClass("dm-txt");
+        $(".featured-con-block p").removeClass("dm-txt");
 		$(".markdown-body li").removeClass("dm-txt");
 		$(".feature-ico-flag").removeClass("dm-flag");
 		$('.darkmode-footer-logo').removeClass("dm-footer-logo");

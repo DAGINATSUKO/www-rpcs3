@@ -258,7 +258,9 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console. This is the most compatible way to migrate your disc-based titles and the only way to dump digital titles to your PC. To do this, you will need a PlayStation 3 system with custom firmware. For dumping disc-based games, you need to use multiMAN homebrew software in order to dump your disc files. You can transfer those files over to a computer through an external drive or using a FTP connection between your PlayStation 3 and your computer.<br>
+						<b>Method A:</b> We recommend that you dump your own PlayStation 3 titles from your own console. This is the most compatible way to migrate your disc-based titles and the only way to dump digital titles to your PC. To do this, you will need a PlayStation 3 system with custom firmware.<br>
+						<br>
+						For dumping disc-based games, you need to use multiMAN homebrew software in order to dump your disc files. You can transfer those files over to a computer through an external drive or using a FTP connection between your PlayStation 3 and your computer.<br>
 						<br>
 						<i>Note: The PlayStation 3 has a maximum file size of 4GB. When dumping disc-based games which contain files bigger than 4GB, multiMAN will split those files. When you have your dump over on your computer, you must rejoin the split files back together, otherwise the dump won't work.</i><br>
 						<br>

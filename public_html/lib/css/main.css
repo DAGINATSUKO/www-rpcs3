@@ -323,7 +323,6 @@
     height: auto;
     margin-top: 14px;
     margin-bottom: 14px;
-    cursor: default;
     text-align: center;
     text-transform: uppercase;
     color: #4c5bd7;
@@ -336,7 +335,6 @@
     height: auto;
     padding-right: 27px;
     padding-left: 27px;
-    cursor: default;
     color: #455971;
 }
 .content-btn-block {
@@ -395,7 +393,6 @@
     height: auto;
     margin-top: 14px;
     margin-bottom: 14px;
-    cursor: default;
     text-align: center;
     text-transform: uppercase;
     color: #052d49;
@@ -408,7 +405,6 @@
     height: auto;
     padding-right: 27px;
     padding-left: 27px;
-    cursor: default;
     color: #052d49;
 }
 .patreon-btn-block {
