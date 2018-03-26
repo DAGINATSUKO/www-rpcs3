@@ -70,12 +70,12 @@
 				<span>Dumping Methods</span>
 			</div>
 			</a>
-			</a><a href="#compatible_drives" rel="anchor">
+			<a href="#compatible_drives" rel="anchor">
 			<div class="navsidebar-tx2-topic darkmode-navsidebar-txt">
 				<span>Compatible Disc Drives</span>
 			</div>
 			</a>
-			</a><a href="#dumping_procedure" rel="anchor">
+			<a href="#dumping_procedure" rel="anchor">
 			<div class="navsidebar-tx2-topic darkmode-navsidebar-txt">
 				<span>Dumping via Blu-ray Drive</span>
 			</div>

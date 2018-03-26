@@ -10,13 +10,13 @@
 <meta name="copyright" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <?php include 'lib/module/call-meta.php';?>
-</head>
 <?php include 'lib/module/call-sys.php';?>
+</head>
 <body style="background: #000;">
 <?php include 'lib/module/call-php.php';?>
 <div class="page-con-content">
 	<div class="header-con-overlay darkmode-header" style="position:fixed;">
-	<div id="particles-js"></div>
+	<div id="particles-js-1"></div>
 	</div>
 	<div class='alipay-con-alipay'>
 		<div class="alipay-ico-logo">

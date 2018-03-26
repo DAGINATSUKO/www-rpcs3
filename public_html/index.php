@@ -33,7 +33,7 @@
 	<div class='page-ico-scroll fade-in-sc'>
 	</div>
 	<div class="page-con-feature-a" style="background:#000;">
-		<div id="particles-js">
+		<div id="particles-js-1">
 		</div>
 		<div class="header-con-overlay darkmode-header">
 		</div>
@@ -63,34 +63,34 @@
 						</div>
 						<div class="video-con-slideshow">
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 							<div>
-								<img class='video-con-container-thumb' src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
+								<img class='video-con-container-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
 							</div>
 						</div>
 					</div>
@@ -242,7 +242,7 @@
 				<div class='feature-con-wrap-right'>
 					<div class="feature-txt-wrap scale-feature-txt-2">
 						<div class="feature-tx1-wrap feature-txt-wrap-invert darkmode-txt2">
-							<span>Unveiling a Slew of Exclusive Ingame Titles<span>
+							<span>Unveiling a Slew of Exclusive Ingame Titles</span>
 						</div>
 						<div class="feature-tx2-wrap feature-txt-wrap-invert darkmode-txt2">
 							<span>In nearly a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable. Here's what we've accomplished:</span>

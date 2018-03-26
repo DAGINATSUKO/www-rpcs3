@@ -171,7 +171,6 @@ if (file_exists('lib/compat/utils.php')) {
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/history.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
-					<span>
 					<span class="darkmode-txt">
 					Complete Build History</span>
 				</div>
@@ -197,7 +196,6 @@ if (file_exists('lib/compat/utils.php')) {
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/website.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
-					<span>
 					<span class="darkmode-txt">
 					Download RPCS3.net source</span>
 				</div>
@@ -208,7 +206,6 @@ if (file_exists('lib/compat/utils.php')) {
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/compat.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
-					<span>
 					<span class="darkmode-txt">
 					Download RPCS3.net Compatibility List source</span>
 				</div>
@@ -231,14 +228,13 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 			</div>
-			<a href='/cdn/press/Press Kit.zip' download>
+			<a href='/cdn/press/Press%20Kit.zip' download>
 			<div class='download-con-container darkmode-panel'>
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/presskit.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
-					<span>
 					<span class="darkmode-txt">
-					Download Press Kit (132 Files)</span>
+					Download Press Kit (132 Files)
 					</span>
 				</div>
 			</div>
@@ -248,9 +244,8 @@ if (file_exists('lib/compat/utils.php')) {
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/docs.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
-					<span>
 					<span class="darkmode-txt">
-					Download Documentation (22 Docs)</span>
+					Download Documentation (22 Docs)
 					</span>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 <footer>
 <div class="footer-con-container">
 	<div class="footer-con-overlay darkmode-header">
-	<div id="particles-js"></div>
+	<div id="particles-js-1"></div>
 		<div class="footer-con-header">
 			<div class="footer-con-outer">
 				<div class="footer-con-inner">
