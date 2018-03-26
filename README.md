@@ -28,7 +28,7 @@ From there, open a web browser of your choosing and navigate to your prefered [l
 * [Flaticon](http://www.flaticon.com)
 * [JS Cookie](https://github.com/js-cookie/js-cookie)
 * [Animate.css](https://daneden.github.io/animate.css)
-* [Animated Waves](https://jsfiddle.net/loktar/M9Brh/)
+* [Particles.js](https://github.com/VincentGarreau/particles.js/)
 
 #### Target Platforms
 * [Google Chrome](https://www.google.com/chrome/browser/desktop/)
