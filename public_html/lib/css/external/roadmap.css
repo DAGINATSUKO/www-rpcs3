@@ -9,7 +9,7 @@
     text-align: left;
     color: #324051;
     text-transform: capitalize;
-    border-bottom: 1px solid rgba(238,238,238,.4);
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 .markdown-body {
     font-family: arial;

@@ -48,6 +48,17 @@ $(window).scroll(function() {
         $(".menu-und-l2").fadeOut(100);
     }
 });
+$(document).ready(function() {
+    $(function() {
+        $('.support-subtrigger').hover(function() {
+            $('.support-submenu').fadeIn(100);
+            $('.support-submenu').show();
+        }, function() {
+            $('.support-submenu').fadeOut(100);
+            $('.support-submenu').hide();
+        });
+    });
+});
 /* Handles globla banner fade in on load */
 $(window).load(function() {
     $('.header-img-head').fadeIn(300);
@@ -206,7 +217,6 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
-
         function videoControl(action) {
             var $playerWindow = $('#video-1')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -216,7 +226,6 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
-
         function videoControl(action) {
             var $playerWindow = $('#video-2')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');
@@ -226,7 +235,6 @@ $(document).ready(function() {
         $(".stop-video").on("click", function() {
             videoControl("stopVideo");
         });
-
         function videoControl(action) {
             var $playerWindow = $('#video-3')[0].contentWindow;
             $playerWindow.postMessage('{"event":"command","func":"' + action + '","args":""}', '*');

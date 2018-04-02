@@ -11,6 +11,7 @@
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/appicon-120.png" sizes="120x120"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/appicon-144.png" sizes="144x144"/>
 <link rel="apple-touch-icon-precomposed" href="/img/icons/meta/appicon-152.png" sizes="152x152"/>
+<link rel="manifest" href="/lib/js/manifest.json">
 <meta name="theme-color" content="#4c5bd7">
 <meta name=viewport content="width=device-width, initial-scale=.6"/>
 <meta property="og:locale" content="en_US"/>
