@@ -1,3 +1,8 @@
 .toggle-message {
     display: none;
 }
+.new {
+    display: block;
+    height: 60px;
+    background: #121835;
+}

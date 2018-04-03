@@ -35,8 +35,8 @@ a:link {
 	color:#0080ff;
 }
 a:hover {
-	text-decoration:none;
-	color:inherit;
+	text-decoration:underline;
+	color:#0080ff;
 }
 ::-webkit-scrollbar {
 	width:10px;

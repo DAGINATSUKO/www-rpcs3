@@ -159,4 +159,25 @@
 		</div>
 	</div>
 </div>
+<div class='new'>
+
+
+
+		<div class='footer-con-credits' style="height:60px; border-top: none;">
+			<div class="footer-con-outer">
+				<div class="footer-con-inner">
+					<div class="footer-con-foot">
+						<div class="footer-tx1-webmaster" style="line-height:60px; font-size: 10px; opacity:0.4;">
+							<span><span>RPCS3.net is an open-source website licensed under GNU GPL Version 2.0 </span><span class="footer-ico-github"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/DAGINATSUKO/www-rpcs3" target="_blank">Download Source</a></span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+</div>
 </footer>

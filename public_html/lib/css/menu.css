@@ -466,6 +466,9 @@
     text-align: left;
     color: #fff;
 }
+.navsidebar-tx2-topic a {
+	color:#fff;
+}
 .blogsidebar-con-anim {
     position: fixed;
     z-index: 9999;
