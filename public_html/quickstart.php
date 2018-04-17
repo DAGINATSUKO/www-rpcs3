@@ -61,7 +61,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For Windows users, download the latest executable and drag-and-drop it into your RPCS3 root directory.
+						 For Windows users, download the latest build and drag-and-drop all files into your RPCS3 root directory, replacing all files when prompted.
 					</p>
 				</div>
 			</div>

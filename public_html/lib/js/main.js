@@ -1,3 +1,48 @@
+/* Handles scalable home feature text module 2 */
+$(window).resize(function() {
+    $('.scale-feature-txt-1').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-1').height() / 2
+    });
+});
+$(document).ready(function() {
+    $('.scale-feature-txt-1').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-1').height() / 2
+    });
+});
+/* Handles scalable home feature text module 2 */
+$(window).resize(function() {
+    $('.scale-feature-txt-2').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-2').height() / 2
+    });
+});
+$(document).ready(function() {
+    $('.scale-feature-txt-2').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-2').height() / 2
+    });
+});
+/* Handles scalable home feature text module 3 */
+$(window).resize(function() {
+    $('.scale-feature-txt-3').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-3').height() / 2
+    });
+});
+$(document).ready(function() {
+    $('.scale-feature-txt-3').css({
+        'position': 'absolute',
+        'top': '50%',
+        'margin-top': -$('.scale-feature-txt-3').height() / 2
+    });
+});
 /* Handles mobile friendly touch gesture compatibility */
 $(document).ready(function() {
     document.documentElement.addEventListener('touchstart', function(event) {
@@ -59,54 +104,9 @@ $(document).ready(function() {
         });
     });
 });
-/* Handles globla banner fade in on load */
+/* Handles global banner fade in on load */
 $(window).load(function() {
     $('.header-img-head').fadeIn(300);
-});
-/* Handles scalable home feature text module 2 */
-$(window).resize(function() {
-    $('.scale-feature-txt-1').css({
-        'position': 'absolute',
-        'top': '50%',
-        'margin-top': -$('.scale-feature-txt-1').height() / 2
-    });
-});
-$(document).ready(function() {
-    $('.scale-feature-txt-1').css({
-        'position': 'absolute',
-        'top': '50%',
-        'margin-top': -$('.scale-feature-txt-1').height() / 2
-    });
-});
-/* Handles scalable home feature text module 2 */
-$(window).resize(function() {
-    $('.scale-feature-txt-2').css({
-        'position': 'absolute',
-        'top': '50%',
-        'margin-top': -$('.scale-feature-txt-2').height() / 2
-    });
-});
-$(document).ready(function() {
-    $('.scale-feature-txt-2').css({
-        'position': 'absolute',
-        'top': '50%',
-        'margin-top': -$('.scale-feature-txt-2').height() / 2
-    });
-});
-/* Handles scalable home feature text module 3 */
-$(window).resize(function() {
-    $('.scale-feature-txt-3').css({
-        'position': 'absolute',
-        'top': '50%',
-        'margin-top': -$('.scale-feature-txt-3').height() / 2
-    });
-});
-$(document).ready(function() {
-    $('.scale-feature-txt-3').css({
-        'position': 'absolute',
-        'top': '50%',
-        'margin-top': -$('.scale-feature-txt-3').height() / 2
-    });
 });
 /* Handles all delayed fade events */
 $(window).load(function() {

@@ -22,11 +22,11 @@
 	);
 	preloadVideo(
 	'2',
-	'q-ApI7L-Slk'
+	'byFrrDgDcYc'
 	);
 	preloadVideo(
 	'3',
-	'q0YBnsTc5Wg'
+	'He2VAVXrFS8'
 	);
 ?>
 <div class="page-con-content page-content-override">
@@ -163,7 +163,7 @@
 						<span>
 						Each month we aim to put out a technical and visual progress report that showcases our latest developments for the project. RPCS3 has been seen by many as an impossible feat in the eyes of gamers and programmers. Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation without the need of a supercomputer. As development moves forward, system requirements become lower and more games become playable.</span>
 					</div>
-					<a href="https://rpcs3.net/blog/2018/02/07/progress-report-january-2018/">
+					<a href="https://rpcs3.net/blog/2018/04/09/progress-report-march-2018/">
 					<div class='content-btn-block'>
 						<span>Reports</span>
 					</div>
@@ -242,10 +242,10 @@
 				<div class='feature-con-wrap-right'>
 					<div class="feature-txt-wrap scale-feature-txt-2">
 						<div class="feature-tx1-wrap feature-txt-wrap-invert darkmode-txt2">
-							<span>Unveiling a Slew of Exclusive Ingame Titles</span>
+							<span>A Video Showcasing What We've Been Up To</span>
 						</div>
 						<div class="feature-tx2-wrap feature-txt-wrap-invert darkmode-txt2">
-							<span>In nearly a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable. Here's what we've accomplished:</span>
+							<span>In a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable.</span>
 						</div>
 					</div>
 				</div>

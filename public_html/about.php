@@ -391,7 +391,7 @@
 				</div>
 				<div class="featured-con-block div-member-block darkmode-block darkmode-txt">
 					<div class='member-img-avatar' style="background: #e68364 url('/img/members/velocity.png') no-repeat center; background-size: cover;">
-						<div class='member-img-country feature-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						<div class='member-img-country feature-ico-flag' style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="featured-wrp-block div-avatar-block">
@@ -557,7 +557,7 @@
 				</div>
 				<div class="featured-con-block div-member-block darkmode-block darkmode-txt">
 					<div class='member-img-avatar' style="background: url('/img/members/alexaltea.png') no-repeat center; background-size: cover;">
-						<div class='member-img-country feature-ico-flag' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
+						<div class='member-img-country feature-ico-flag' style="background: url('/img/icons/countries/spain.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="featured-wrp-block div-avatar-block">

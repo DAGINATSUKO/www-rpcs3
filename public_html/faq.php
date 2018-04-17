@@ -47,11 +47,12 @@
 			<div class='featured-con-block darkmode-block'>
 				<div class='featured-wrp-block'>
 					<div class='featured-tx1-block darkmode-txt'>
-						<h2>Is RPCS3 aiming for complete accuracy or game specific hacks?</h2>
+						<h2>Why do you work in game X instead of game Y?</h2>
 					</div>
 					<div class='featured-tx2-block darkmode-txt'>
 						<p>
-							 Our goal is to create the most accurate PlayStation 3 emulator possible - we're not including game specific hacks.
+							 We don't work on developing a game X or Y emulator, we work on developing a PlayStation 3 emulator.<br>
+							 Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks. 
 						</p>
 					</div>
 				</div>

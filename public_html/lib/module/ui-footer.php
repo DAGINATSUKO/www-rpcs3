@@ -1,7 +1,8 @@
 <footer>
 <div class="footer-con-container">
 	<div class="footer-con-overlay darkmode-header">
-	<div id="particles-js-1"></div>
+		<div id="particles-js-1">
+		</div>
 		<div class="footer-con-header">
 			<div class="footer-con-outer">
 				<div class="footer-con-inner">
@@ -115,25 +116,27 @@
 							<div class="footer-table-in">
 								<div class="footer-con-bound">
 									<div class="footer-tx1-bound">
-										<span>Webmasters</span>
+										<span>Source Code</span>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://github.com/DAGINATSUKO" target="_blank">
-										<span>daginatsuko</span>
+										<a href="https://github.com/RPCS3/rpcs3" target="_blank">
+										<span>RPCS3</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://github.com/AniLeo" target="_blank">
-										<span>anileo</span>
+										<a href="https://github.com/DAGINATSUKO/www-rpcs3" target="_blank">
+										<span>RPCS3.net</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://github.com/al0xf" target="_blank">
-										<span>ssshadow</span>
+										<a href="https://github.com/AniLeo/rpcs3-compatibility" target="_blank">
+										<span>Compatibility</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<span>shadow*</span>
+										<a href="https://github.com/DAGINATSUKO/press-rpcs3" target="_blank">
+										<span>Press Kit</span>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -158,26 +161,5 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div class='new'>
-
-
-
-		<div class='footer-con-credits' style="height:60px; border-top: none;">
-			<div class="footer-con-outer">
-				<div class="footer-con-inner">
-					<div class="footer-con-foot">
-						<div class="footer-tx1-webmaster" style="line-height:60px; font-size: 10px; opacity:0.4;">
-							<span><span>RPCS3.net is an open-source website licensed under GNU GPL Version 2.0 </span><span class="footer-ico-github"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/DAGINATSUKO/www-rpcs3" target="_blank">Download Source</a></span></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-
-
 </div>
 </footer>
