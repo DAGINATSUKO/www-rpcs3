@@ -21,8 +21,8 @@ docker-compose up
 From there, open a web browser of your choosing and navigate to your prefered [localhost](http://localhost) address.
 
 #### Internal Resources
-* Milk UX - [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* Compatibility List - [AniLeo](https://github.com/AniLeo)
+* Core website by [DAGINATSUKO](https://github.com/DAGINATSUKO)
+* Compatibility List by [AniLeo](https://github.com/AniLeo)
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com)
