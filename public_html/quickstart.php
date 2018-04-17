@@ -334,6 +334,9 @@
 					<p>
 						 LG <span class="txt-highlight darkmode-highlight">WH16NS48</span>
 					</p>
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">BP50NB40</span>
+					</p>
 				</div>
 			</div>
 			<div class="guide-con-container darkmode-panel">
