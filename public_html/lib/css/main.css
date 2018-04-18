@@ -13,8 +13,8 @@
     padding-top: 20px;
 }
 .page-in-container {
-    overflow: auto;
-    overflow-x: hidden;
+    /* overflow: auto; */
+    /* overflow-x: hidden; */
     max-width: 1200px;
     min-height: 60px;
     margin: 0 auto;
@@ -40,7 +40,7 @@
     z-index: 2;
     overflow: hidden;
     width: 100%;
-    height: 460px;
+    height: 420px;
     background: #000;
 }
 .header-img-head {
@@ -207,7 +207,7 @@
     text-align: center;
     letter-spacing: 12px;
     text-transform: uppercase;
-    color: #455971;
+    color: #000;
 }
 .feature-btn-download {
     font-family: arial;
@@ -223,6 +223,7 @@
     text-transform: uppercase;
     color: #fff;
     background: rgba(255,255,255,.1);
+    border-radius: 4px;
 }
 .feature-btn-download:hover {
     background: rgba(255,255,255,.2);
@@ -241,6 +242,7 @@
     text-transform: uppercase;
     color: #455971;
     background: rgba(69,89,113,.1);
+    border-radius: 4px;
 }
 .feature-btn-general:hover {
     transition: all .2s ease-in-out;
@@ -335,7 +337,7 @@
     height: auto;
     padding-right: 27px;
     padding-left: 27px;
-    color: #455971;
+    color: #000;
 }
 .content-btn-block {
     font-family: arial;
@@ -352,6 +354,7 @@
     text-align: center;
     color: #4c5bd7;
     background: rgba(76,91,215,.1);
+    border-radius: 4px;
 }
 .content-btn-block:hover {
     cursor: pointer;
@@ -423,6 +426,7 @@
     text-align: center;
     color: #fff;
     background: #f96854;
+    border-radius: 4px;
 }
 .patreon-btn-block:hover {
     cursor: pointer;
@@ -464,7 +468,7 @@
     min-height: 26px;
     margin-bottom: 5px;
     text-align: left;
-    color: #324051;
+    color: #000;
 }
 .featured-tx2-block {
     font-family: arial;
@@ -474,7 +478,7 @@
     width: 100%;
     height: auto;
     text-align: left;
-    color: #455971;
+    color: #000;
 }
 .featured-tx1-heading {
     font-family: arial;
@@ -484,7 +488,7 @@
     width: 100%;
     height: 60px;
     margin-bottom: 12px;
-    color: #324051;
+    color: #000;
 }
 .sha-con-container {
     position: relative;
@@ -511,13 +515,13 @@
     float: left;
     overflow: hidden;
     height: auto;
-    color: #455971;
+    color: #000;
 }
 .sha-spec {
     line-height: 24px;
     margin-right: 5px;
     padding: 4px 8px;
-    border: solid 1px #455971;
+    border: solid 1px #000;
     user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -527,49 +531,49 @@
 .download-con-container {
     position: relative;
     height: auto;
-    min-height: 72px;
+    height: 60px;
     margin-bottom: 20px;
-    border: solid 1px #fff;
+    border: solid 1px #28a745;
     background: #fff;
+    border-radius: 4px;
+    background-color: #28a745;
 }
 .download-con-container:hover {
-    border: solid 1px #455971;
-    background: #fff;
+    border: solid 1px #30bb50!important;
+    background: #30bb50;
 }
-.download-con-imp:hover {
-    border: solid 1px #455971!important;
-}
+
 .download-ico-container {
     position: relative;
     z-index: 1;
     float: left;
-    width: 72px;
-    height: 72px;
+    width: 60px;
+    height: 60px;
     background-size: 20px!important;
 }
 .download-tx1-heading {
     font-family: arial;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 12px;
     position: relative;
     height: auto;
     margin-top: 24px;
     margin-bottom: 24px;
     padding-right: 24px;
-    padding-left: 72px;
+    padding-left: 60px;
     text-align: left;
-    color: #455971;
+    color: #fff;
 }
 .download-define-build {
-    margin-right: 4px;
-    padding: 3px 6px;
-    color: #455971;
-    background: rgba(69,89,113,.1);
+    margin-left: 6px;
+    padding: 4px 8px;
+    color: #fff;
+    border: solid 1px #fff;
 }
 .download-define-author {
     margin-right: 4px;
     padding: 3px 6px;
-    color: #455971;
+    color: #000;
 }
 .titlesearch-con-container {
     position: absolute;
@@ -705,7 +709,7 @@
 }
 .panel-con-container:hover {
     padding-bottom: 0;
-    border: solid 1px #455971;
+    border: solid 1px #000;
     background: #fff;
 }
 .panel-con-wrapper {
@@ -732,7 +736,7 @@
     padding-right: 24px;
     padding-left: 72px;
     text-align: left;
-    color: #455971;
+    color: #000;
 }
 .guide-con-container {
     position: relative;
@@ -761,12 +765,12 @@
     width: 72px;
     height: 72px;
     text-align: center;
-    color: #455971;
+    color: #000;
 }
 .guide-tx1-container span {
     padding: 10px 15px;
     border-radius: 100%;
-    background: rgba(69,89,113,.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 .guide-tx1-heading {
     font-family: arial;
@@ -779,7 +783,7 @@
     padding-right: 24px;
     padding-left: 72px;
     text-align: left;
-    color: #455971;
+    color: #000;
 }
 .featured-con-ad {
     position: relative;
@@ -803,7 +807,7 @@
     text-align: center;
     pointer-events: none;
     opacity: .2;
-    color: #455971;
+    color: #000;
     background-size: 30px;
 }
 .feature-wrp-tease {
@@ -1178,8 +1182,8 @@
     margin-right: 4px;
     margin-left: 4px;
     padding: 3px 6px;
-    color: #455971;
-    background: rgba(69,89,113,.1);
+    color: #000;
+    background: rgba(0, 0, 0, 0.1);
 }
 .txt-role {
     font-size: 12px;
@@ -1288,7 +1292,7 @@
     background-color: #e67e22;
 }
 .div-role-founder {
-    background-color: #324051;
+    background-color: #000;
 }
 .div-role-server {
     background-color: #3498db;

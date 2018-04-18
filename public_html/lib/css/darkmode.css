@@ -3,6 +3,10 @@
     background: url(/img/icons/menu/darkmode-on.png) no-repeat center!important;
     background-size: 16px!important;
 }
+.dm-invert {
+    -webkit-filter: invert(100%) !important;
+    filter: invert(100%) !important;
+}
 .dm-bg {
     background: #191d21!important;
 }
@@ -26,7 +30,7 @@
     background: rgba(40,48,117,.8)!important;
 }
 .dm-txt {
-    color: #bebebe!important;
+    color: #CECECE!important;
 }
 .dm-udl {
     border-bottom: 1px solid #191d21!important;

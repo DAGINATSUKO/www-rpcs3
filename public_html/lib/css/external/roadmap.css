@@ -7,14 +7,14 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
-    color: #324051;
+    color: #000;
     text-transform: capitalize;
     border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 .markdown-body {
     font-family: arial;
     font-size: 16px;
-    color: #455971;
+    color: #000;
 }
 .markdown-body ul {
     font-family: arial;
@@ -37,11 +37,11 @@
 }
 .div-roadmap-goal {
     margin-top: 20px;
-    border-left: 2px solid #0080ff;
+    border-left: 2px solid #000;
 }
 .div-roadmap-goal:first-child {
     margin-top: 0;
-    border-left: 2px solid #0080ff;
+    border-left: 2px solid #000;
 }
 .div-roadmap-git {
     box-sizing: border-box!important;

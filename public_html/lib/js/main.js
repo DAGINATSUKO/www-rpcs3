@@ -68,7 +68,7 @@ $(window).scroll(function() {
     }
 });
 /* Handles page-specific menubar dimmer */
-$(window).load(function() {
+$(window).on('load', function() {
     $(function() {
         if ($('body').is('.gallery-page')) {
             $('.darkmode-menubar').toggleClass("gm-menubar-l0");
@@ -105,11 +105,11 @@ $(document).ready(function() {
     });
 });
 /* Handles global banner fade in on load */
-$(window).load(function() {
+$(window).on('load', function() {
     $('.header-img-head').fadeIn(300);
 });
 /* Handles all delayed fade events */
-$(window).load(function() {
+$(window).on('load', function() {
     $('.delay-fadeout').delay(8000).fadeOut(288);
 });
 /* Handles all fade on scroll events */

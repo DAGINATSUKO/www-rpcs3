@@ -4,10 +4,10 @@
 <script data-cfasync="false" src='/lib/js/main.js'></script>
 <script data-cfasync="false" src='/lib/js/particles.js'></script>
 <script data-cfasync="false" src='/lib/js/particles-sel.js'></script>
-<link rel="stylesheet" href="/lib/css/html.css?v=5"/>
-<link rel="stylesheet" href="/lib/css/anim.css?v=5"/>
-<link rel="stylesheet" href="/lib/css/main.css?v=5"/>
-<link rel="stylesheet" href="/lib/css/darkmode.css?v=5"/>
-<link rel="stylesheet" href="/lib/css/menu.css?v=5"/>
-<link rel="stylesheet" href="/lib/css/scale.css?v=5"/>
-<link rel="stylesheet" href="/lib/css/debug.css?v=5"/>
+<link rel="stylesheet" href="/lib/css/html.css?v=4"/>
+<link rel="stylesheet" href="/lib/css/anim.css?v=4"/>
+<link rel="stylesheet" href="/lib/css/main.css?v=4"/>
+<link rel="stylesheet" href="/lib/css/darkmode.css?v=4"/>
+<link rel="stylesheet" href="/lib/css/menu.css?v=4"/>
+<link rel="stylesheet" href="/lib/css/scale.css?v=4"/>
+<link rel="stylesheet" href="/lib/css/debug.css?v=4"/>

@@ -69,13 +69,13 @@ if (file_exists('lib/compat/utils.php')) {
 				<h2>Download Binaries</h2>
 			</div>
 			<a href='<?php echo $win[0]; ?>' target="_blank">
-			<div class="download-con-container download-con-imp darkmode-panel">
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/windows.png') no-repeat center;">
+			<div class="download-con-container darkmode-panel">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/windows-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Download for Windows x64 </span>
+					Download for Windows </span>
 					<span class="download-define-build darkmode-txt">
 					<?php echo $win[1]; ?>
 					</span>
@@ -83,7 +83,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div class="sha-con-container">
+			<div class="sha-con-container darkmode-invert">
 				<div class="sha-con-wrapper">
 					<div class="sha-con-details">
 						<span><span class="sha-spec">SHA-256</span><?php echo $win[4];?>
@@ -104,7 +104,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 				<!--
-				<div class="sha-con-wrapper">
+				<div class="sha-con-wrapper darkmode-invert">
 					<div class="sha-con-details">
 						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
 					</div>
@@ -114,12 +114,12 @@ if (file_exists('lib/compat/utils.php')) {
 			<a href='<?php echo $linux[0]; ?>' download target="_blank">
 			<div class="download-con-container download-con-imp darkmode-panel <?php echo $linux_button; ?>
 				 ">
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/linux.png') no-repeat center;">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/linux-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span>
 					<span class="darkmode-txt">
-					Download for Linux x64 </span>
+					Download for Linux </span>
 					<span class="download-define-build darkmode-txt">
 					<?php echo $linux[1]; ?>
 					</span>
@@ -168,11 +168,11 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			<a href='https://rpcs3.net/compatibility?b'>
 			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/history.png') no-repeat center;">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/history-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Complete Build History</span>
+					Previous Builds</span>
 				</div>
 			</div>
 			</a>
@@ -193,21 +193,21 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
 			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/website.png') no-repeat center;">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/website-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Download RPCS3.net source</span>
+					Download Core</span>
 				</div>
 			</div>
 			</a>
 			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
 			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/compat.png') no-repeat center;">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/compat-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Download RPCS3.net Compatibility List source</span>
+					Download Compatibility List</span>
 				</div>
 			</div>
 			</a>
@@ -230,22 +230,22 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			<a href='/cdn/press/Press%20Kit.zip' download>
 			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/presskit.png') no-repeat center;">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/presskit-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Download Press Kit (132 Files)
+					Download Press Kit
 					</span>
 				</div>
 			</div>
 			</a>
 			<a href='/cdn/docs/Docs.zip' download>
 			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/docs.png') no-repeat center;">
+				<div class='download-ico-container' style="background: url('/img/icons/buttons/docs-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Download Documentation (22 Docs)
+					Download Documentation
 					</span>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <div class='panel-con-wrapper'>
 	<div class="panel-con-container div-panel-left darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -9,7 +9,7 @@
 		</div>
 	</div>
 	<div class="panel-con-container div-panel-right darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -20,7 +20,7 @@
 </div>
 <div class='panel-con-wrapper'>
 	<div class="panel-con-container div-panel-left darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 		</div>
 		<div style='margin-top:12px; margin-bottom:12px' class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<div class="panel-con-container div-panel-right darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -41,7 +41,7 @@
 </div>
 <div class='panel-con-wrapper'>
 	<div class="panel-con-container div-panel-left darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -50,7 +50,7 @@
 		</div>
 	</div>
 	<div class="panel-con-container div-panel-right darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -61,7 +61,7 @@
 </div>
 <div class='panel-con-wrapper'>
 	<div class="panel-con-container div-panel-left darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -70,7 +70,7 @@
 		</div>
 	</div>
 	<div class="panel-con-container div-panel-right darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -81,7 +81,7 @@
 </div>
 <div class='panel-con-wrapper'>
 	<div class="panel-con-container div-panel-left darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/windows.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -90,7 +90,7 @@
 		</div>
 	</div>
 	<div class="panel-con-container div-panel-right darkmode-panel div-touchless">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/windows.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -102,9 +102,9 @@
 <div class='panel-con-wrapper'>
 	<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
 	<div class="panel-con-container div-panel-left darkmode-panel">
-		<div class='div-panel-link'>
+		<div class='div-panel-link darkmode-invert'>
 		</div>
-		<div class='panel-ico-container' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -122,9 +122,9 @@
 <div class='panel-con-wrapper'>
 	<a href='https://www.microsoft.com/en-us/download/details.aspx?id=53840' target="_blank">
 	<div class="panel-con-container div-panel-left darkmode-panel">
-		<div class='div-panel-link'>
+		<div class='div-panel-link darkmode-invert'>
 		</div>
-		<div class='panel-ico-container' style="background: url('/img/icons/list/redist.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/redist.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -135,9 +135,9 @@
 	</a>
 	<a href='https://www.microsoft.com/en-us/download/details.aspx?id=35' target="_blank">
 	<div class="panel-con-container div-panel-right darkmode-panel">
-		<div class='div-panel-link'>
+		<div class='div-panel-link darkmode-invert'>
 		</div>
-		<div class='panel-ico-container' style="background: url('/img/icons/list/directx.png') no-repeat center;">
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/directx.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>

@@ -5,6 +5,7 @@ $(document).ready(function() {
     $('.toggle-darkmode').toggleClass("activate-darkmode", sel).on('click', function(e) {
 		$('.darkmode-icon').toggleClass("dm-icon");
         $('body').toggleClass("dm-bg");
+		$('.darkmode-invert').toggleClass("dm-invert");
         $('.darkmode-header').toggleClass("dm-header");
 		$('.darkmode-header-patreon').toggleClass("dm-header-patreon");
 		$('.darkmode-feature').toggleClass("dm-feature");
@@ -68,6 +69,7 @@ $(document).ready(function() {
     if ($('.toggle-darkmode').hasClass('activate-darkmode')) {
 		$('.darkmode-icon').toggleClass("dm-icon");
         $('body').addClass("dm-bg");
+		$('.darkmode-invert').addClass("dm-invert");
         $('.darkmode-header').addClass("dm-header");
 		$('.darkmode-header-patreon').addClass("dm-header-patreon");
 		$('.darkmode-feature').addClass("dm-feature");
@@ -119,6 +121,7 @@ $(document).ready(function() {
     } else {
 		$('.darkmode-icon').removeClass("dm-icon");
         $('body').removeClass("dm-bg");
+		$('.darkmode-invert').removeClass("dm-invert");
         $('.darkmode-header').removeClass("dm-header");
 		$('.darkmode-header-patreon').removeClass("dm-header-patreon");
 		$('.darkmode-feature').removeClass("dm-feature");
