@@ -195,7 +195,7 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span>
+							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span> (or simply drag&amp;drop .pkg to the main emulator window)
 						</p>
 						<p>
 							 .pkg files will be automatically installed to <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
@@ -209,7 +209,7 @@
 							 PSN title data must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
 						</p>
 						<p>
-							 PSN .rap files must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</span>
+							 PSN .rap files must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</span> (or simply drag&amp;drop them to the main emulator window)
 						</p>
 						<br>
 						<p>
@@ -227,7 +227,8 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 Title updates are handled the same as PSN .pkg files. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span> The update will be placed in the title folder that corresponds to the correct region ID. Please note that title updates must be the same region in order to work. Cross-mixing title regions may create irreversible damage to the title.
+							Title updates are handled the same as PSN .pkg files. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span><br>
+							The update will be placed in the title folder that corresponds to the correct region ID. Please note that title updates must be the same region in order to work. Cross-mixing title regions may create irreversible damage to the title.
 						</p>
 					</div>
 				</div>
@@ -264,7 +265,8 @@
 						<br>
 						<i>Note: The PlayStation 3 has a maximum file size of 4GB. When dumping disc-based games which contain files bigger than 4GB, multiMAN will split those files. When you have your dump over on your computer, you must rejoin the split files back together, otherwise the dump won't work.</i><br>
 						<br>
-						 For dumping digital games, you must copy the game folder from dev_hdd0/game/GameID on your console over to the same path on your RPCS3 folder. You also need to get your console's IDPS, the game's ACT.DAT and RIF, in order to generate a .RAP license file to be used in the emulator.
+						 For dumping digital games, you must copy the game folder from dev_hdd0/game/GameID on your console over to the same path on your RPCS3 folder. You also need to get your console's IDPS, the game's ACT.DAT and RIF, in order to generate a .RAP license file to be used in the emulator.<br>
+						 It is also possible to dump digital content and licenses on <i>any</i> PS3 even without custom firmware, by the way of using ps3xploit website, creating a system backup, and then extracting it with ps3xtract software.
 					</p>
 				</div>
 			</div>
@@ -461,7 +463,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Insert a PlayStation 3 format disc title of your choice into your compatible BD Drive.
+						Insert a PlayStation 3 format disc title of your choice into your compatible BD Drive.
 					</p>
 				</div>
 			</div>
@@ -471,7 +473,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Dump the <span class="txt-highlight darkmode-highlight">.iso</span> image using an .iso dumping program of your choosing. e.g. ImgBurn.
+						Create the <span class="txt-highlight darkmode-highlight">.iso</span> image using an .iso dumping program of your choosing. e.g. ImgBurn or IsoBuster.
 					</p>
 				</div>
 			</div>
@@ -481,7 +483,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Use <a href="http://jonnysp.bplaced.net" target="_blank">jonnysp.bplaced.net</a> to download the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your title ID. If there isn't an .ird file that matches your title ID, you cannot use this method to dump your selected PlayStation 3 disc at this time.
+						Use <a href="http://jonnysp.bplaced.net" target="_blank">jonnysp.bplaced.net</a> to download the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your title ID. If there isn't an .ird file that matches your title ID, you cannot use this method to dump your selected PlayStation 3 disc at this time.
 					</p>
 				</div>
 			</div>
@@ -491,7 +493,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Be sure to check the title ID in case there is a different edition of that title. e.g. Uncharted 2 Game of the Year Edition. You must use the correct .ird with the same title ID, otherwise it won't work. (<i>Example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
+						Be sure to check the title ID in case there is a different edition of that title. e.g. Uncharted 2 Game of the Year Edition. You must use the correct .ird with the same title ID, otherwise it won't work. (<i>Example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
 					</p>
 				</div>
 			</div>
@@ -501,7 +503,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Press <span class="txt-highlight darkmode-highlight">Patch</span> to apply the patch to the .iso file.
+						Using PS3 ISO Patcher, select matching .iso and .ird files, then press <span class="txt-highlight darkmode-highlight">Patch</span> to apply decryption keys to the .iso file.
 					</p>
 				</div>
 			</div>
@@ -511,7 +513,8 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Your title is now decrypted.
+						Using 3k3y IsoTools press <span class="txt-highlight darkmode-highlight">Decrypt</span> button and select the .iso with patched-in decryption keys. This will produce decrypted .dec.iso file.<br>
+						If IsoTools complains about "Not valid PS3 ISO file" or missing decryption keys, please repeat from step 2 using another tool to dump original .iso image.
 					</p>
 				</div>
 			</div>
@@ -521,7 +524,9 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 In 3k3y ISO Tools, use the Tools drop-down menu to select <span class="txt-highlight darkmode-highlight">ISO > Extract ISO</span> and then select the decrypted .iso file to extract its files. The decrypted .iso file will have a .dec.iso file extension.
+						Optionally, validate that you have sucessfully obtained correct copy of your game.<br>
+						You will need to install PS3 ISO Rebuilder tool from <a href="http://jonnysp.bplaced.net" target="_blank">jonnysp.bplaced.net</a><br>
+						Load your .dec.iso file and your .ird file in the program and let it verify the dump. All of your files must be either Valid or Not required.
 					</p>
 				</div>
 			</div>
@@ -531,7 +536,18 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 You are now able to use the extracted .iso files with RPCS3. <span class="txt-highlight darkmode-highlight">File &gt; Boot Game</span>
+						In 3k3y ISO Tools, use the Tools drop-down menu to select <span class="txt-highlight darkmode-highlight">ISO > Extract ISO</span> and then select the decrypted .iso file to extract its files.<br>
+						Another option is to use 7-zip or any other software that is capable of extracting .iso images.
+					</p>
+				</div>
+			</div>
+			<div class="guide-con-container darkmode-panel">
+				<div class='guide-tx1-container darkmode-invert'>
+					<span>9</span>
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						You are now able to use the extracted .iso files with RPCS3. <span class="txt-highlight darkmode-highlight">File &gt; Boot Game</span>
 					</p>
 				</div>
 			</div>
