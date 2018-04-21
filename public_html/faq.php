@@ -47,7 +47,7 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>Why do you work in game X instead of game Y?</h2>
+						<h2>Why do you work on game X instead of game Y?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>

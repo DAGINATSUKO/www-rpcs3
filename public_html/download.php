@@ -88,8 +88,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='build-tx1-spec darkmode-contribute'>
 						<div class='build-img-spec' style="background: url('/img/icons/buttons/sha-h.png') no-repeat center; background-size:16px;">
 						</div>
-						<span>
-						SHA-256</span>
+						<span>SHA256</span>
 					</div>
 					<div class="build-tx2-spec darkmode-contribute">
 						<span>
@@ -151,7 +150,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 When a newer build a released it is replaced and the previous build is archived in our build history database. This database records all previous builds which can be individually downloaded or compiled locally with their respective pull request ID links. We also archive useful metrics for previous builds such as the pull request ID, pull request author, lines of code added and deleted and sha256-256 signatures.
+							 When a newer build a released it is replaced and the previous build is archived in our build history database. This database records all previous builds which can be individually downloaded or compiled locally with their respective pull request ID links. We also archive useful metrics for previous builds such as the pull request ID, pull request author, lines of code added and deleted and sha256 signatures.
 						</p>
 					</div>
 				</div>
