@@ -61,7 +61,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For Windows users, download the latest build and drag-and-drop all files into your RPCS3 root directory, replacing all files when prompted.
+						 For Windows users, download the latest build and drag and drop all files into your RPCS3 root directory, replacing all files when prompted.
 					</p>
 				</div>
 			</div>
@@ -195,7 +195,7 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span> (or simply drag&amp;drop .pkg to the main emulator window)
+							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span> (or simply drag and drop .pkg to the main emulator window)
 						</p>
 						<p>
 							 .pkg files will be automatically installed to <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
@@ -209,7 +209,7 @@
 							 PSN title data must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\game\</span>
 						</p>
 						<p>
-							 PSN .rap files must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</span> (or simply drag&amp;drop them to the main emulator window)
+							 PSN .rap files must be placed in <span class="txt-highlight darkmode-highlight">\dev_hdd0\home\00000001\exdata\</span> (or simply drag and drop them to the main emulator window)
 						</p>
 						<br>
 						<p>
@@ -265,8 +265,8 @@
 						<br>
 						<i>Note: The PlayStation 3 has a maximum file size of 4GB. When dumping disc-based games which contain files bigger than 4GB, multiMAN will split those files. When you have your dump over on your computer, you must rejoin the split files back together, otherwise the dump won't work.</i><br>
 						<br>
-						 For dumping digital games, you must copy the game folder from dev_hdd0/game/GameID on your console over to the same path on your RPCS3 folder. You also need to get your console's IDPS, the game's ACT.DAT and RIF, in order to generate a .RAP license file to be used in the emulator.<br>
-						 It is also possible to dump digital content and licenses on <i>any</i> PS3 even without custom firmware, by the way of using ps3xploit website, creating a system backup, and then extracting it with ps3xtract software.
+						 For dumping digital games, you must copy the game folder from <span class="txt-highlight darkmode-highlight">dev_hdd0/game/GameID</span> on your console over to the same path on your RPCS3 folder. You also need to get your console's IDPS, the game's ACT.DAT and RIF, in order to generate a .RAP license file to be used in the emulator.<br>
+						 It is also possible to dump digital content and licenses on <i>any</i> PS3 even without custom firmware, by the way of creating a system backup, and then extracting it with ps3xtract software.
 					</p>
 				</div>
 			</div>
@@ -450,7 +450,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download any form of .iso dumping software such as ImgBurn or similar <a href="http://www.imgburn.com" target="_blank">here.</a>
+						 Download any form of .iso dumping software such as <a href="http://www.imgburn.com" target="_blank">ImgBurn</a> or similar.
 					</p>
 				</div>
 			</div>
@@ -473,7 +473,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						Create the <span class="txt-highlight darkmode-highlight">.iso</span> image using an .iso dumping program of your choosing. e.g. ImgBurn or IsoBuster.
+						Create the <span class="txt-highlight darkmode-highlight">.iso</span> image using an .iso dumping program of your choosing, e.g. ImgBurn or IsoBuster.
 					</p>
 				</div>
 			</div>
@@ -503,7 +503,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						Using PS3 ISO Patcher, select matching .iso and .ird files, then press <span class="txt-highlight darkmode-highlight">Patch</span> to apply decryption keys to the .iso file.
+						Using PS3 ISO Patcher, select the matching .iso and .ird files, then press <span class="txt-highlight darkmode-highlight">Patch</span> to apply the decryption keys to the .iso file.
 					</p>
 				</div>
 			</div>
@@ -513,7 +513,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						Using 3k3y IsoTools press <span class="txt-highlight darkmode-highlight">Decrypt</span> button and select the .iso with patched-in decryption keys. This will produce decrypted .dec.iso file.<br>
+						Using 3k3y IsoTools press <span class="txt-highlight darkmode-highlight">Decrypt</span> button and select the .iso with patched-in decryption keys. This will produce decrypted <span class="txt-highlight darkmode-highlight">.dec.iso</span> file.<br>
 						If IsoTools complains about "Not valid PS3 ISO file" or missing decryption keys, please repeat from step 2 using another tool to dump original .iso image.
 					</p>
 				</div>
@@ -524,7 +524,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						Optionally, validate that you have sucessfully obtained correct copy of your game.<br>
+						Optionally, validate that you have successfully obtained the correct copy of your game.<br>
 						You will need to install PS3 ISO Rebuilder tool from <a href="http://jonnysp.bplaced.net" target="_blank">jonnysp.bplaced.net</a><br>
 						Load your .dec.iso file and your .ird file in the program and let it verify the dump. All of your files must be either Valid or Not required.
 					</p>
