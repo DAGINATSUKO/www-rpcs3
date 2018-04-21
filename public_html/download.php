@@ -83,24 +83,45 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div class="sha256-con-container darkmode-invert">
-				<div class="sha256-con-wrapper">
-					<div class="sha256-con-details">
-						<span><span class="sha256-spec">sha256-256</span><?php echo $win[4];?>
+			<div class="build-con-info">
+				<div class="build-con-wrapper">
+					<div class='build-tx1-spec darkmode-contribute'>
+						<div class='build-img-spec' style="background: url('/img/icons/buttons/sha-h.png') no-repeat center; background-size:16px;">
+						</div>
+						<span>
+						SHA-256</span>
+					</div>
+					<div class="build-tx2-spec darkmode-contribute">
+						<span>
+						<?php echo $win[4];?>
 						</span>
 					</div>
 				</div>
-				<div class="sha256-con-wrapper">
-					<div class="sha256-con-details">
-						<span><span class="sha256-spec">File Size</span><?php echo $win[5];?>
-						 MB </span>
+				<div class="build-con-wrapper">
+					<div class='build-tx1-spec darkmode-contribute'>
+						<div class='build-img-spec' style="background: url('/img/icons/buttons/github-h.png') no-repeat center; background-size:16px;">
+						</div>
+						<span>
+						Pull Request</span>
 					</div>
-				</div>
-				<div class="sha256-con-wrapper">
-					<div class="sha256-con-details">
-						<span><span class="sha256-spec">Pull Request</span>#<?php echo $win[3];?>
+					<div class="build-tx2-spec darkmode-contribute">
+						<span>
+						#<?php echo $win[3];?>
 						 by <?php echo $win[2];?>
 						</span>
+					</div>
+				</div>
+				<div class="build-con-wrapper">
+					<div class='build-tx1-spec darkmode-contribute'>
+						<div class='build-img-spec' style="background: url('/img/icons/buttons/size-h.png') no-repeat center; background-size:16px;">
+						</div>
+						<span>
+						File Size</span>
+					</div>
+					<div class="build-tx2-spec darkmode-contribute">
+						<span>
+						<?php echo $win[5];?>
+						 MB </span>
 					</div>
 				</div>
 			</div>
@@ -203,8 +224,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Download Press Kit
-					</span>
+					Download Press Kit </span>
 				</div>
 			</div>
 			</a>
@@ -214,8 +234,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Download Documentation
-					</span>
+					Download Documentation </span>
 				</div>
 			</div>
 			</a>

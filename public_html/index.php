@@ -155,7 +155,7 @@ if (file_exists('lib/compat/utils.php')) {
 						<div class="search-ico-search">
 						</div>
 						<div class="search-txt-search">
-							<span><span class="scale-mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/buttons/github.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
+							<span><span class="scale-mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/buttons/github-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
 						</div>
 						<form action='/compatibility' method='get'>
 							<input name="g" placeholder="Game Title / Game ID">

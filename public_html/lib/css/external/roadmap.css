@@ -1,7 +1,6 @@
 .markdown-body h2 {
     font-family: arial;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 18px;
     margin-bottom: 20px;
     margin-left: 10px;
     padding-top: 20px;
@@ -15,6 +14,7 @@
     font-family: arial;
     font-size: 16px;
     color: #000;
+    padding-top: 10px;
 }
 .markdown-body ul {
     font-family: arial;
