@@ -678,7 +678,7 @@
     width: 100%;
     height: auto;
     min-height: 25px;
-    margin-bottom: 15px
+    margin-bottom: 20px;
 }
 .build-con-wrapper {
     position: relative;
@@ -686,7 +686,7 @@
     width: 100%;
     height: auto;
     min-height: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     -webkit-border-top-left-radius: 4px;
     -webkit-border-bottom-left-radius: 4px;
     -moz-border-radius-topleft: 4px;
@@ -702,7 +702,7 @@
 	 line-height: 32px;
 	 padding-left: 16px;
 	 padding-right: 16px;
-	 margin-right: 10px;
+	 margin-right: 2px;
 	 font-family: arial;
 	 font-size: 14px;
 	 color: #fff;

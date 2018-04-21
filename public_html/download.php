@@ -54,7 +54,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2 class="download-title">Latest Build</h2>
+						<h2>Latest Build</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
