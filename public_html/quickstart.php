@@ -33,17 +33,17 @@
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>System Requirements</h2>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="requirements">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="requirements">
 				</div>
-				<div class="featured-wrp-block">
-					<div class="featured-tx1-block darkmode-txt">
+				<div class="container-con-wrapper">
+					<div class="container-tx1-block darkmode-txt">
 						<h2>System Requirements</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 The system requirements for running the emulator vary depending on your hardware configuration. We have listed the minimum and recommend system requirements below. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements but you're always welcome to experiment.
 						</p>
@@ -51,11 +51,11 @@
 				</div>
 			</div>
 			<?php include 'lib/module/in-specs.php';?>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Updating RPCS3</h2>
 			</div>
 			<div class="guide-con-container darkmode-panel">
-				<div class="div-anchor" id="updating">
+				<div class="div-css-anchor" id="updating">
 				</div>
 				<div class='guide-ico-container darkmode-invert' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 				</div>
@@ -74,17 +74,17 @@
 					</p>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Firmware Files</h2>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="firmware">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="firmware">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2>Installing PlayStation 3 firmware files</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install Firmware.</span><br>
 							<br>
@@ -93,11 +93,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Game Saves</h2>
 			</div>
 			<div class="guide-con-container darkmode-panel">
-				<div class="div-anchor" id="manage_saves">
+				<div class="div-css-anchor" id="manage_saves">
 				</div>
 				<div class='guide-ico-container darkmode-invert' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 				</div>
@@ -116,17 +116,17 @@
 					</p>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>File Management</h2>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="manage_files">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="manage_files">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2>Managing PlayStation 3 titles</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 Due to legal reasons, PlayStation 3 titles cannot be distributed online and must be self-dumped from your own PlayStation 3 console or from your computer using a compatible Blu-ray drive.
 						</p>
@@ -155,14 +155,14 @@
 					</p>
 				</div>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="manage_formats">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="manage_formats">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2>PlayStation 3 title formats</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 Title IDs that start with a <span class="txt-highlight darkmode-highlight">B</span> are <span class="txt-highlight darkmode-highlight">Blu-Ray disc</span> titles.
 						</p>
@@ -183,17 +183,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Installing and Updating</h2>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="install_games">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="install_games">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2>Installing PlayStation 3 titles</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span>
 						</p>
@@ -218,31 +218,31 @@
 					</div>
 				</div>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="install_updates">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="install_updates">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2>Installing PlayStation 3 title updates</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 Title updates are handled the same as PSN .pkg files. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="txt-highlight darkmode-highlight">File &gt; Install .pkg</span> The update will be placed in the title folder that corresponds to the correct region ID. Please note that title updates must be the same region in order to work. Cross-mixing title regions may create irreversible damage to the title.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Obtaining PlayStation 3 Format Software</h2>
 			</div>
-			<div class="featured-con-block darkmode-block" style="background: #ff4d4d !important;">
-				<div class="div-anchor" id="software_distribution">
+			<div class="container-con-block darkmode-block" style="background: #ff4d4d !important;">
+				<div class="div-css-anchor" id="software_distribution">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2 style="color: #fff;">Software Distribution laws in your country</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt" style="color: #fff;">
+					<div class="container-tx2-block darkmode-txt" style="color: #fff;">
 						<p>
 							 When dumping video game software, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
 							<br>
@@ -252,7 +252,7 @@
 				</div>
 			</div>
 			<div class="guide-con-container darkmode-panel">
-				<div class="div-anchor" id="dumping_methods">
+				<div class="div-css-anchor" id="dumping_methods">
 				</div>
 				<div class='guide-ico-container darkmode-invert' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
 				</div>
@@ -277,17 +277,17 @@
 					</p>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Compatible Disc Drives</h2>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="compatible_drives">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="compatible_drives">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2>Compatible Blu-ray disc drives</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 Here's a compiled list of the known compatible Blu-ray drives that are capable of reading PlayStation format discs for use with your computer.
 						</p>
@@ -408,17 +408,17 @@
 					</p>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Disc Dumping Setup</h2>
 			</div>
-			<div class="featured-con-block darkmode-block">
-				<div class="div-anchor" id="dumping_procedure">
+			<div class="container-con-block darkmode-block">
+				<div class="div-css-anchor" id="dumping_procedure">
 				</div>
-				<div class='featured-wrp-block'>
-					<div class="featured-tx1-block darkmode-txt">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
 						<h2>Step-by-step disc dumping procedure</h2>
 					</div>
-					<div class="featured-tx2-block darkmode-txt">
+					<div class="container-tx2-block darkmode-txt">
 						<p>
 							 Here's a compiled list of the step-by-step instructions we use for dumping disc-based PlayStation 3 format titles. You must possess one of the aforementioned compatible disc drives to complete the disc dumping procedure. Again, this method will not work with standard Blu-ray drives.
 						</p>
@@ -452,7 +452,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Disc Dumping Procedure</h2>
 			</div>
 			<div class="guide-con-container darkmode-panel">

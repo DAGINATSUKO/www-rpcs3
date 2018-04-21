@@ -22,7 +22,7 @@ if (file_exists('lib/compat/utils.php')) {
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
 } else {
-	$linux_button = ' div-button-disabled'; // Disables Linux button
+	$linux_button = ' div-css-button-disabled'; // Disables Linux button
 	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
 	$win[1] = 'Latest version';
 	$linux[0] = 'Temporarily unavailable';
@@ -48,15 +48,15 @@ if (file_exists('lib/compat/utils.php')) {
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Download Information</h2>
 			</div>
-			<div class='featured-con-block darkmode-block'>
-				<div class='featured-wrp-block'>
-					<div class='featured-tx1-block darkmode-txt'>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
 						<h2 class="download-title">Latest Build</h2>
 					</div>
-					<div class='featured-tx2-block darkmode-txt'>
+					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
 							 Because RPCS3 is still in a very early stage, we only provide nightly builds. Those are compiled using AppVeyor CI while Linux builds are compiled using Travis CI. These CI services allow us to deploy pre-compiled builds as soon as possible to the public. Due to the way these continuous integration services work, only Windows builds can be downloaded from AppVeyor while Linux builds are hosted on our web server. <br>
 							<br>
@@ -65,7 +65,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 			</div>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Download Binaries</h2>
 			</div>
 			<a href='<?php echo $win[0]; ?>' target="_blank">
@@ -83,33 +83,26 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div class="sha-con-container darkmode-invert">
-				<div class="sha-con-wrapper">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">SHA-256</span><?php echo $win[4];?>
+			<div class="sha256-con-container darkmode-invert">
+				<div class="sha256-con-wrapper">
+					<div class="sha256-con-details">
+						<span><span class="sha256-spec">sha256-256</span><?php echo $win[4];?>
 						</span>
 					</div>
 				</div>
-				<div class="sha-con-wrapper">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">File Size</span><?php echo $win[5];?>
+				<div class="sha256-con-wrapper">
+					<div class="sha256-con-details">
+						<span><span class="sha256-spec">File Size</span><?php echo $win[5];?>
 						 MB </span>
 					</div>
 				</div>
-				<div class="sha-con-wrapper">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">Pull Request</span>#<?php echo $win[3];?>
+				<div class="sha256-con-wrapper">
+					<div class="sha256-con-details">
+						<span><span class="sha256-spec">Pull Request</span>#<?php echo $win[3];?>
 						 by <?php echo $win[2];?>
 						</span>
 					</div>
 				</div>
-				<!--
-				<div class="sha-con-wrapper darkmode-invert">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
-					</div>
-				</div>
-				-->
 			</div>
 			<a href='<?php echo $linux[0]; ?>' download target="_blank">
 			<div class="download-con-container download-con-imp darkmode-panel <?php echo $linux_button; ?>
@@ -127,41 +120,17 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<!--
-			<div class="sha-con-container">
-				<div class="sha-con-wrapper">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">SHA-256</span> SHA-256 metadata not available, WIP</span>
-					</div>
-				</div>
-				<div class="sha-con-wrapper">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">File Size</span> File size metadata not available, WIP</span>
-					</div>
-				</div>
-				<div class="sha-con-wrapper">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">Pull Request</span> Pull Request metadata not available, WIP</span>
-					</div>
-				</div>
-				<div class="sha-con-wrapper">
-					<div class="sha-con-details">
-						<span><span class="sha-spec">Download Mirror</span> Download mirror not available, WIP</span>
-					</div>
-				</div>
-			</div>
-			-->
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Build History</h2>
 			</div>
-			<div class='featured-con-block darkmode-block'>
-				<div class='featured-wrp-block'>
-					<div class='featured-tx1-block darkmode-txt'>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
 						<h2>Previous Builds</h2>
 					</div>
-					<div class='featured-tx2-block darkmode-txt'>
+					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 When a newer build a released it is replaced and the previous build is archived in our build history database. This database records all previous builds which can be individually downloaded or compiled locally with their respective pull request ID links. We also archive useful metrics for previous builds such as the pull request ID, pull request author, lines of code added and deleted and SHA-256 signatures.
+							 When a newer build a released it is replaced and the previous build is archived in our build history database. This database records all previous builds which can be individually downloaded or compiled locally with their respective pull request ID links. We also archive useful metrics for previous builds such as the pull request ID, pull request author, lines of code added and deleted and sha256-256 signatures.
 						</p>
 					</div>
 				</div>
@@ -176,15 +145,15 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Website Source</h2>
 			</div>
-			<div class='featured-con-block darkmode-block'>
-				<div class='featured-wrp-block'>
-					<div class='featured-tx1-block darkmode-txt'>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
 						<h2>Website Source</h2>
 					</div>
-					<div class='featured-tx2-block darkmode-txt'>
+					<div class='container-tx2-block darkmode-txt'>
 						<p>
 							 This website was developed by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>. The compatibility list portion of this website is developed independently by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>. This website displays various trademarks and copy-written content such as videogame logos, company logos, videogame names and company names. These different trademarks and copy-written content do not belong to us and are properties of their respective owners.
 						</p>
@@ -211,15 +180,15 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div class="featured-tx1-heading div-heading darkmode-txt">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Press Kit</h2>
 			</div>
-			<div class='featured-con-block darkmode-block'>
-				<div class='featured-wrp-block'>
-					<div class='featured-tx1-block darkmode-txt'>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
 						<h2>Press Kit and Documentation</h2>
 					</div>
-					<div class='featured-tx2-block darkmode-txt'>
+					<div class='container-tx2-block darkmode-txt'>
 						<p>
 							 This Press Kit is regularly updated and is designed for advertisers and enthusiasts to have full access to high quality assets, icons, fonts and tools. All trademarks and copyright-written material found in this press kit belong to their respective owners. <br>
 							<br>

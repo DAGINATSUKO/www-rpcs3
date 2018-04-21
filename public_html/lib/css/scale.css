@@ -49,7 +49,7 @@
 }
 /* ---------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:1260px) {
-	.scale-content-block-promote {
+	.scale-context-block-promote {
 		left:50%!important;
 		display:block!important;
 		width:372px !important;
@@ -88,5 +88,10 @@
 @media screen and (max-width:900px) {
 	.scale-webmaster-remove {
 		display: none!important;
+	}
+}
+@media screen and (max-width:750px) {
+	.download-define-build {
+		display:none;
 	}
 }

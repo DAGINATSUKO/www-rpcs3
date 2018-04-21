@@ -22,28 +22,28 @@
     line-height: 24px;
     padding-left: 25px;
 }
-.div-roadmap-git p:first-child {
+.div-css-roadmap-git p:first-child {
     font-family: arial;
     font-size: 14px;
     display: block;
     margin-top: 20px;
     padding-left: 10px;
 }
-.div-roadmap-git a {
+.div-css-roadmap-git a {
     color: #3198ff;
 }
-.div-roadmap-git a:hover {
+.div-css-roadmap-git a:hover {
     text-decoration: underline;
 }
-.div-roadmap-goal {
+.div-css-roadmap-goal {
     margin-top: 20px;
     border-left: 2px solid #000;
 }
-.div-roadmap-goal:first-child {
+.div-css-roadmap-goal:first-child {
     margin-top: 0;
     border-left: 2px solid #000;
 }
-.div-roadmap-git {
+.div-css-roadmap-git {
     box-sizing: border-box!important;
     margin-bottom: 20px!important;
     padding-top: 0!important;

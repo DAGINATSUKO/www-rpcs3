@@ -1,17 +1,17 @@
-<div class='alert-con-message delay-fadeout'>
-	<div class='alert-tx1-message toggle-message delay-fadeout'>
+<div class='motd-con-message delay-fadeout'>
+	<div class='motd-tx1-message toggle-message delay-fadeout'>
 		<span>We are currently experiencing a higher server volume than usual. We sincerely apologize for any inconveniences.</span>
 	</div>
 </div>
-<div class='menu-con-menubar darkmode-menubar'>
-	<div class="menu-und-l1 darkmode-menubar-l1">
+<div class='menu-con-bar darkmode-menubar'>
+	<div class="menu-ovr-dimmer-1 darkmode-menubar-l1">
 	</div>
-	<div class="menu-und-l2 darkmode-menubar-l2">
+	<div class="menu-ovr-dimmer-2 darkmode-menubar-l2">
 	</div>
 	<div class="menu-btn-darkmode toggle-darkmode darkmode-icon" title="Dark Mode">
 	</div>
-	<div class="menu-con-container">
-		<div class="menu-in-container">
+	<div class="menu-con-outer">
+		<div class="menu-con-inner">
 			<div class="menu-con-logo scale-mobile-logo" title="Home">
 				<a href='/'>
 				<div class="menu-ico-logo" title="Home">
@@ -89,7 +89,7 @@
 				<div class="menu-ico-support">
 				</div>
 				</a>
-				<div class="submenu-con-container support-submenu">
+				<div class="submenu-con-outer support-submenu">
 					<div class="submenu-ico-lip">
 					</div>
 					<a href="https://www.patreon.com/Nekotekina" target="_blank">
@@ -97,7 +97,7 @@
 						<div class="submenu-ico-patreon">
 						</div>
 						<div class="submenu-btn-button">
-							<span>Support with Patreon</span>
+							<span>Support us with Patreon</span>
 						</div>
 					</div>
 					</a>
@@ -106,7 +106,7 @@
 						<div class="submenu-ico-alipay">
 						</div>
 						<div class="submenu-btn-button">
-							<span>Support with Alipay</span>
+							<span>Support us with Alipay</span>
 						</div>
 					</div>
 					</a>
@@ -124,7 +124,7 @@
 						<div class="submenu-ico-testing">
 						</div>
 						<div class="submenu-btn-button">
-							<span>Contribute with Testing</span>
+							<span>Contribute testing</span>
 						</div>
 					</div>
 					</a>
@@ -133,8 +133,8 @@
 		</div>
 	</div>
 </div>
-<div class='popup-con-dim popup-mobilemenu' style="display:none;">
-	<div class="menu-und-l3">
+<div class='window-con-dimmer popup-mobilemenu' style="display:none;">
+	<div class="menu-ovr-dimmer-3">
 	</div>
 	<div class='page-con-scroller'>
 		<div id="page-con-container">

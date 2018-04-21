@@ -1,3 +1,56 @@
 .toggle-message {
     display: none;
 }
+
+.featured-con-block {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    min-height: 35px;
+    margin-bottom: 20px;
+    background: #fff
+}
+.featured-wrp-block {
+    position: relative;
+    left: 24px;
+    width: auto;
+    height: auto;
+    padding-top: 18px;
+    padding-right: 50px;
+    padding-bottom: 18px
+}
+.featured-tx1-block {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    min-height: 26px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #000
+}
+.featured-tx2-block {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: #616161;
+}
+.featured-tx1-heading {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 12px;
+    color: #000
+}

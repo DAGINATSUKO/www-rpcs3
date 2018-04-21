@@ -1,46 +1,46 @@
 /* Handles scalable home feature text module 2 */
 $(window).resize(function() {
-    $('.scale-feature-txt-1').css({
+    $('.scale-content-txt-1').css({
         'position': 'absolute',
         'top': '50%',
-        'margin-top': -$('.scale-feature-txt-1').height() / 2
+        'margin-top': -$('.scale-content-txt-1').height() / 2
     });
 });
 $(document).ready(function() {
-    $('.scale-feature-txt-1').css({
+    $('.scale-content-txt-1').css({
         'position': 'absolute',
         'top': '50%',
-        'margin-top': -$('.scale-feature-txt-1').height() / 2
+        'margin-top': -$('.scale-content-txt-1').height() / 2
     });
 });
 /* Handles scalable home feature text module 2 */
 $(window).resize(function() {
-    $('.scale-feature-txt-2').css({
+    $('.scale-content-txt-2').css({
         'position': 'absolute',
         'top': '50%',
-        'margin-top': -$('.scale-feature-txt-2').height() / 2
+        'margin-top': -$('.scale-content-txt-2').height() / 2
     });
 });
 $(document).ready(function() {
-    $('.scale-feature-txt-2').css({
+    $('.scale-content-txt-2').css({
         'position': 'absolute',
         'top': '50%',
-        'margin-top': -$('.scale-feature-txt-2').height() / 2
+        'margin-top': -$('.scale-content-txt-2').height() / 2
     });
 });
 /* Handles scalable home feature text module 3 */
 $(window).resize(function() {
-    $('.scale-feature-txt-3').css({
+    $('.scale-content-txt-3').css({
         'position': 'absolute',
         'top': '50%',
-        'margin-top': -$('.scale-feature-txt-3').height() / 2
+        'margin-top': -$('.scale-content-txt-3').height() / 2
     });
 });
 $(document).ready(function() {
-    $('.scale-feature-txt-3').css({
+    $('.scale-content-txt-3').css({
         'position': 'absolute',
         'top': '50%',
-        'margin-top': -$('.scale-feature-txt-3').height() / 2
+        'margin-top': -$('.scale-content-txt-3').height() / 2
     });
 });
 /* Handles mobile friendly touch gesture compatibility */
@@ -62,9 +62,9 @@ $(document).ready(function() {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 60) {
-        $(".menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
+        $(".menu-con-bar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
     } else {
-        $(".menu-con-menubar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
+        $(".menu-con-bar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
     }
 });
 /* Handles page-specific menubar dimmer */
@@ -80,27 +80,27 @@ $(window).on('load', function() {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 60) {
-        $(".menu-und-l1").fadeIn(100);
+        $(".menu-ovr-dimmer-1").fadeIn(100);
     } else {
-        $(".menu-und-l1").fadeOut(100);
+        $(".menu-ovr-dimmer-1").fadeOut(100);
     }
 });
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 400) {
-        $(".menu-und-l2").fadeIn(100);
+        $(".menu-ovr-dimmer-2").fadeIn(100);
     } else {
-        $(".menu-und-l2").fadeOut(100);
+        $(".menu-ovr-dimmer-2").fadeOut(100);
     }
 });
 $(document).ready(function() {
     $(function() {
         $('.support-subtrigger').hover(function() {
-            $('.support-submenu').fadeIn(100);
-            $('.support-submenu').show();
+            $('.support-submenu').fadeIn(0);
+            $('.support-submenu').show(0);
         }, function() {
-            $('.support-submenu').fadeOut(100);
-            $('.support-submenu').hide();
+            $('.support-submenu').fadeOut(0);
+            $('.support-submenu').hide(0);
         });
     });
 });

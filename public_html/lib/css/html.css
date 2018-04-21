@@ -39,16 +39,16 @@ a:hover {
 	color:#0080ff;
 }
 ::-webkit-scrollbar {
-	width:10px;
+	width:8px;
 }
 ::-webkit-scrollbar-track {
 	background:#dcdcdc;
 }
 ::-webkit-scrollbar-thumb {
-	background:#b7b7b7;
+	background:#a9a9a9;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background:#b7b7b7;
+	background:#a9a9a9;
 }
 ::-webkit-input-placeholder {
 	color:#0080ff;
