@@ -432,7 +432,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download PS3 ISO Patcher by BlackDaemon <a href='/cdn/tools/patcher.zip'>here.</a>
+						 Download <a href='/cdn/tools/patcher.zip'>PS3 ISO Patcher</a> by BlackDaemon.
 					</p>
 				</div>
 			</div>
@@ -441,7 +441,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download 3k3y ISO Tools by the 3k3y team <a href='/cdn/tools/3k3y.zip'>here.</a>
+						 Download <a href='/cdn/tools/3k3y.zip'>3k3y IsoTools</a> by the 3k3y team.
 					</p>
 				</div>
 			</div>
@@ -450,7 +450,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download any form of .iso dumping software such as <a href="http://www.imgburn.com" target="_blank">ImgBurn</a> or similar.
+						 Download any form of .iso dumping software such as <a href="http://www.imgburn.com" target="_blank" rel="noopener noreferrer">ImgBurn</a> or similar.
 					</p>
 				</div>
 			</div>
@@ -483,7 +483,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						Use <a href="http://jonnysp.bplaced.net" target="_blank">jonnysp.bplaced.net</a> to download the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your title ID. If there isn't an .ird file that matches your title ID, you cannot use this method to dump your selected PlayStation 3 disc at this time.
+						Use <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a> to download the appropriate <span class="txt-highlight darkmode-highlight">.ird</span> file that matches your title ID. If there isn't an .ird file that matches your title ID, you cannot use this method to dump your selected PlayStation 3 disc at this time.
 					</p>
 				</div>
 			</div>
@@ -525,7 +525,7 @@
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
 						Optionally, validate that you have successfully obtained the correct copy of your game.<br>
-						You will need to install PS3 ISO Rebuilder tool from <a href="http://jonnysp.bplaced.net" target="_blank">jonnysp.bplaced.net</a><br>
+						You will need to install PS3 ISO Rebuilder tool from <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a><br>
 						Load your .dec.iso file and your .ird file in the program and let it verify the dump. All of your files must be either Valid or Not required.
 					</p>
 				</div>
