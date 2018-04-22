@@ -118,7 +118,6 @@
     transition: all .2s ease-in-out;
     border-style: none;
     border-radius: 100%;
-    border: solid 3px #e5e5e5;
 }
 .container-img-national {
     position: absolute;
@@ -672,7 +671,7 @@
     background: url(/img/icons/menu/arrow-right.png) no-repeat center;
     background-size: 22px
 }
-.build-con-info {
+.build-con-container {
     position: relative;
     overflow: auto;
     width: 100%;
@@ -744,14 +743,14 @@
     height: auto;
     height: 60px;
     margin-bottom: 20px;
-    border: solid 1px #28a745;
+    border: solid 2px #2dbc4e;
     background: #fff;
     border-radius: 4px;
-    background-color: #28a745
+    background-color: #28a745;
 }
 .download-con-container:hover {
-    border: solid 1px #30bb50!important;
-    background: #30bb50
+    border: solid 2px #30bb50!important;
+    background: #30bb50;
 }
 .download-ico-container {
     position: relative;
@@ -790,8 +789,8 @@
     height: auto;
     min-height: 72px;
     margin-bottom: 20px;
-    border: 1px solid transparent;
-    background: #fff
+    border: 2px solid transparent;
+    background: #fff;
 }
 .panel-con-container:hover {
     padding-bottom: 0;
@@ -1233,7 +1232,7 @@
     margin-left: 4px;
     padding: 3px 6px;
     color: #000;
-    background: rgba(0,0,0,.1)
+    background: rgba(40, 167, 69, .2);
 }
 .txt-memberrole {
     font-size: 11px;
@@ -1315,6 +1314,12 @@
     pointer-events: none;
     opacity: .5
 }
+.div-css-button-enabled {
+	border-radius:6px;
+}
+.div-css-button-enabled:hover {
+    border: solid 2px #28a745;
+}
 .div-css-panel-left {
     float: left;
     width: 49.1%
@@ -1322,6 +1327,9 @@
 .div-css-panel-right {
     float: right;
     width: 49.1%
+}
+.div-css-panel-center {
+    width: unset;
 }
 .div-css-member-block {
     overflow: visible!important;

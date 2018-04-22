@@ -95,3 +95,9 @@
 		display:none;
 	}
 }
+/* ---------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:900px) {
+	.build-con-container {
+		display: none!important;
+	}
+}

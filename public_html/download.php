@@ -83,7 +83,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			</a>
-			<div class="build-con-info">
+			<div class="build-con-container">
 				<div class="build-con-wrapper">
 					<div class='build-tx1-spec darkmode-contribute'>
 						<div class='build-img-spec' style="background: url('/img/icons/buttons/sha-h.png') no-repeat center; background-size:16px;">

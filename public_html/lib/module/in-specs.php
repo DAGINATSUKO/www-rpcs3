@@ -101,27 +101,14 @@
 </div>
 <div class='panel-con-wrapper'>
 	<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
-	<div class="panel-con-container div-css-panel-left darkmode-panel">
+	<div class="panel-con-container div-css-panel-center div-css-button-enabled darkmode-panel">
 		<div class='div-css-panellink darkmode-invert'>
 		</div>
 		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>+</b> PlayStation 3 .PUP system update file
-			</p>
-		</div>
-	</div>
-	</a>
-	<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
-	<div class="panel-con-container div-css-panel-right darkmode-panel">
-		<div class='div-css-panellink darkmode-invert'>
-		</div>
-		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
-		</div>
-		<div class="panel-tx1-heading darkmode-txt">
-			<p>
-				<b>+</b> PlayStation 3 .PUP system update file
+				<b>+</b> PlayStation 3 UPDATE.PUP system update file
 			</p>
 		</div>
 	</div>
@@ -132,7 +119,7 @@
 </div>
 <div class='panel-con-wrapper'>
 	<a href='https://www.microsoft.com/en-us/download/details.aspx?id=53840' target="_blank">
-	<div class="panel-con-container div-css-panel-left darkmode-panel">
+	<div class="panel-con-container div-css-panel-left div-css-button-enabled darkmode-panel">
 		<div class='div-css-panellink darkmode-invert'>
 		</div>
 		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/redist.png') no-repeat center;">
@@ -145,7 +132,7 @@
 	</div>
 	</a>
 	<a href='https://www.microsoft.com/en-us/download/details.aspx?id=35' target="_blank">
-	<div class="panel-con-container div-css-panel-right darkmode-panel">
+	<div class="panel-con-container div-css-panel-right div-css-button-enabled darkmode-panel">
 		<div class='div-css-panellink darkmode-invert'>
 		</div>
 		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/directx.png') no-repeat center;">

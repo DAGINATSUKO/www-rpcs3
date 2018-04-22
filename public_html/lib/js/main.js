@@ -211,7 +211,7 @@ $(document).ready(function() {
         iframe.attr("src", iframe.data("src"));
     });
 });
-/* Handles start and stop of featured video #1 */
+/* Handles start and stop of featured video #1-3 */
 $(document).ready(function() {
     $(function() {
         $(".stop-video").on("click", function() {

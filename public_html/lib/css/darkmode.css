@@ -56,7 +56,7 @@
     background: rgba(255,255,255,.2)!important;
 }
 .dm-panel {
-    border: solid 1px #191d21!important;
+    border: solid 2px #2f373f;
     background: #242a30!important;
 }
 .dm-panel:hover {
@@ -73,7 +73,7 @@
 }
 .dm-highlight {
     color: #bebebe!important;
-    background: rgba(69,89,113,.2);
+    background: rgba(40, 167, 69, .2);
 }
 .dm-navsidebar-title {
     background: #252d68!important;

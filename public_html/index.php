@@ -368,7 +368,7 @@ if (file_exists('lib/compat/utils.php')) {
 						<div class="content-tx2-wrap content-txt-wrap-invert darkmode-txt2">
 							<span>Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
 							<div class='content-btn-general darkmode-buttons-general'>
-								<span>Soon</span>
+								<span>Coming Soon</span>
 							</div>
 						</div>
 					</div>
