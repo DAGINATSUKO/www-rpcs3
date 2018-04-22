@@ -113,8 +113,19 @@
 		</div>
 	</div>
 	</a>
-	<div class="panel-con-container div-css-panel-right darkmode-panel div-css-noevent">
+	<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
+	<div class="panel-con-container div-css-panel-right darkmode-panel">
+		<div class='div-css-panellink darkmode-invert'>
+		</div>
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
+		</div>
+		<div class="panel-tx1-heading darkmode-txt">
+			<p>
+				<b>+</b> PlayStation 3 .PUP system update file
+			</p>
+		</div>
 	</div>
+	</a>
 </div>
 <div class="container-tx1-heading div-css-heading darkmode-txt">
 	<h2>Windows Requirements</h2>
