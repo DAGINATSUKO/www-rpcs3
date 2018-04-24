@@ -88,7 +88,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='build-tx1-spec darkmode-contribute'>
 						<div class='build-img-spec' style="background: url('/img/icons/buttons/sha-h.png') no-repeat center; background-size:16px;">
 						</div>
-						<span>SHA256</span>
+						<span>SHA-256</span>
 					</div>
 					<div class="build-tx2-spec darkmode-contribute">
 						<span>
@@ -161,7 +161,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div class='download-tx1-heading'>
 					<span class="darkmode-txt">
-					Previous Builds</span>
+					All Builds</span>
 				</div>
 			</div>
 			</a>

@@ -240,11 +240,11 @@
 				<div class="div-css-anchor" id="software_distribution">
 				</div>
 				<div class='container-con-wrapper'>
-					<div class="container-tx1-block darkmode-txt">
-						<h2 style="color: #fff;">Software Distribution laws in your country</h2>
+					<div class="container-tx1-block">
+						<h2 style="color: #fff !important;">Software Distribution laws in your country</h2>
 					</div>
-					<div class="container-tx2-block darkmode-txt" style="color: #fff;">
-						<p>
+					<div class="container-tx2-block">
+						<p style="color: #fff !important;">
 							 When dumping video game software, users are subject to country-specific software distribution laws. RPCS3 is not designed to enable illegal activity. We do not promote piracy nor do we allow it under any circumstances. Please take the time to review copyright and video game software dumping laws and/or policies for your country before proceeding.<br>
 							<br>
 							 By following these instructions, you will do so at your own discretion. Should you follow these instructions against your local law, we shall not be held responsible for your actions.

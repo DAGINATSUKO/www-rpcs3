@@ -11,6 +11,7 @@ $(document).ready(function() {
 		$('.darkmode-feature').toggleClass("dm-feature");
         $('.darkmode-menubar').toggleClass("dm-menubar");
         $('.darkmode-block').toggleClass("dm-block");
+		$('.darkmode-context').toggleClass("dm-context");
 		$('.darkmode-contribute').toggleClass("dm-default");
         $('.darkmode-panel').toggleClass("dm-panel");
         $('.darkmode-txt').toggleClass("dm-txt");
@@ -75,6 +76,7 @@ $(document).ready(function() {
 		$('.darkmode-feature').addClass("dm-feature");
         $('.darkmode-menubar').addClass("dm-menubar");
         $('.darkmode-block').addClass("dm-block");
+		$('.darkmode-context').addClass("dm-context");
 		$('.darkmode-contribute').addClass("dm-default");
         $('.darkmode-panel').addClass("dm-panel");
         $('.darkmode-txt').addClass("dm-txt");
@@ -127,6 +129,7 @@ $(document).ready(function() {
 		$('.darkmode-feature').removeClass("dm-feature");
         $('.darkmode-menubar').removeClass("dm-menubar");
         $('.darkmode-block').removeClass("dm-block");
+		$('.darkmode-context').removeClass("dm-context");
 		$('.darkmode-contribute').removeClass("dm-default");
         $('.darkmode-panel').removeClass("dm-panel");
         $('.darkmode-txt').removeClass("dm-txt");

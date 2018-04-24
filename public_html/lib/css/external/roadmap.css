@@ -1,3 +1,9 @@
+.markdown-body {
+    font-family: arial;
+    font-size: 16px;
+    color: #616161;
+    padding-top: 10px;
+}
 .markdown-body h2 {
     font-family: arial;
     font-size: 18px;
@@ -9,12 +15,6 @@
     color: #000;
     text-transform: capitalize;
     border-bottom: 1px solid rgba(238, 238, 238, 1);
-}
-.markdown-body {
-    font-family: arial;
-    font-size: 16px;
-    color: #000;
-    padding-top: 10px;
 }
 .markdown-body ul {
     font-family: arial;

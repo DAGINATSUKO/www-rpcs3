@@ -175,7 +175,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div id='context-con-block' class="context-alg-block darkmode-block scale-context-block-promote">
+				<div id='context-con-block' class="context-alg-block darkmode-context scale-context-block-promote">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/progress-h.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -191,7 +191,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="context-alg-block darkmode-block scale-override-hide">
+				<div id='context-con-block' class="context-alg-block darkmode-context scale-override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/discord-h.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -207,7 +207,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="darkmode-block scale-override-hide">
+				<div id='context-con-block' class="darkmode-context scale-override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/git-h.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -299,11 +299,11 @@ if (file_exists('lib/compat/utils.php')) {
 		<div class='content-tx1-heading' style="color:#fff">
 			<span>Patreon</span>
 		</div>
-		<div class="content-img-feature content-con-wrap-invert" style="background: #000 url('/img/content/patreon.jpg') no-repeat center center !important">
+		<div class="content-img-feature content-con-wrap-invert" style="background: #000 url('/img/content/patreon.jpg') no-repeat center center !important; background-size: cover !important;">
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div id='patreon-con-block-a' class="context-alg-block darkmode-block scale-override-hide">
+				<div id='patreon-con-block-a' class="context-alg-block darkmode-context scale-override-hide">
 					<div class="patreon-tx1-title">
 						<span>&#36;2,000</span>
 					</div>
@@ -318,7 +318,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 					</div>
 				</div>
-				<div id='patreon-con-block-a' class="context-alg-block darkmode-block scale-override-hide">
+				<div id='patreon-con-block-a' class="context-alg-block darkmode-context scale-override-hide">
 					<div class="patreon-tx1-title">
 						<span>&#36;3,000</span>
 					</div>
@@ -333,7 +333,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 					</div>
 				</div>
-				<div id='patreon-con-block-a' class="darkmode-block scale-context-block-promote">
+				<div id='patreon-con-block-a' class="darkmode-context scale-context-block-promote">
 					<div class="patreon-tx1-title">
 						<span>&#36;4,000</span>
 					</div>
@@ -430,7 +430,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div id='context-con-block' class="context-alg-block darkmode-block scale-context-block-promote">
+				<div id='context-con-block' class="context-alg-block darkmode-context scale-context-block-promote">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/quickstart-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -445,7 +445,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="context-alg-block darkmode-block scale-override-hide">
+				<div id='context-con-block' class="context-alg-block darkmode-context scale-override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/faqs-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -460,7 +460,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="darkmode-block scale-override-hide">
+				<div id='context-con-block' class="darkmode-context scale-override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/roadmap-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>

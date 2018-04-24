@@ -374,7 +374,9 @@
     text-indent: 4px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    padding-left: 18px;
+    /* padding-left: 18px; */
+    border-radius: 6px;
+    text-align: center;
 }
 .mobilemenu-tx1-button:hover {
     background: rgba(255, 255, 255, .1);

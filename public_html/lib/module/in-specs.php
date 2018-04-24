@@ -108,7 +108,7 @@
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>+</b> PlayStation 3 UPDATE.PUP system update file
+				<b>+</b> PlayStation 3 <span class="txt-highlight darkmode-highlight">PS3UPDAT.PUP</span> system update file
 			</p>
 		</div>
 	</div>
