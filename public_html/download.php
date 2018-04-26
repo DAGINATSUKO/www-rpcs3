@@ -35,6 +35,8 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class="header-con-overlay darkmode-header">
 		</div>
+		<div class="header-con-diffuse">
+		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart'>
 				<span>Download</span>

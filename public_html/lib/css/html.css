@@ -22,6 +22,14 @@ body {
 	font-family:'whitney';
 	src:url('/lib/font/whitney.woff') format('woff');
 }
+@font-face {
+	font-family:'whitney-medium';
+	src:url('/lib/font/whitney-medium.woff') format('woff');
+}
+@font-face {
+	font-family:'whitney-bold';
+	src:url('/lib/font/whitney-bold.woff') format('woff');
+}
 a:visited {
 	text-decoration:none;
 	color:#0080ff;
@@ -71,16 +79,4 @@ iframe {
 	display:none!important;
 	width:16px;
 	height:16px;
-}
-.entry-content ul li {
-	font-family:inherit;
-	font-size:14px!important;
-	font-size:inherit;
-	font-weight:inherit;
-	line-height:24px!important;
-	line-height:inherit;
-	margin-left:8px;
-	margin-left:36px;
-	text-align:inherit;
-	color: #455971;
 }

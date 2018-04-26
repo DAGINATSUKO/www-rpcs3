@@ -46,22 +46,23 @@
     width: 100%;
     height: 100%;
     background-size: cover!important;
-    -webkit-transform: translateZ(0);
-    -ms-transform: scale(1.05);
-        transform: scale(1.05);
-    -webkit-perspective: 1e3;
-    -webkit-backface-visibility: hidden;
-    -webkit-filter: blur(10px);
-    filter: blur(10px)
 }
 .header-con-overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear,left top, right top,from(rgba(166,0,217,.6)),to(rgba(0,196,255,.6)));
-    background: -webkit-linear-gradient(left,rgba(166,0,217,.6),rgba(0,196,255,.6));
-    background: -o-linear-gradient(left,rgba(166,0,217,.6),rgba(0,196,255,.6));
-    background: linear-gradient(to right,rgba(166,0,217,.6),rgba(0,196,255,.6));
+    background: -webkit-gradient(linear,left top, right top,from(rgba(166,0,217,.7)),to(rgba(0,196,255,.7)));
+    background: -webkit-linear-gradient(left,rgba(166,0,217,.7),rgba(0,196,255,.7));
+    background: -o-linear-gradient(left,rgba(166,0,217,.7),rgba(0,196,255,.7));
+    background: linear-gradient(to right,rgba(166,0,217,.7),rgba(0,196,255,.7));
+}
+.header-con-diffuse {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('/img/icons/menu/diffuse.png') repeat center;
+    background-size: 2px;
+    opacity: 0.5;
 }
 .header-con-body {
     position: absolute;
@@ -82,11 +83,12 @@
     color: #fff
 }
 .header-tx1-body span {
-    font-family: whitney;
+    font-family: whitney-medium;
     font-size: inherit;
     line-height: inherit;
     text-align: inherit;
-    color: inherit
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0,0,0,.2);
 }
 .header-tx2-body {
     font-family: arial;
@@ -94,7 +96,8 @@
     line-height: 20px;
     height: 20px;
     text-align: center;
-    color: #fff
+    color: #fff;
+    text-shadow: 0 0 20px rgba(0,0,0,.2);
 }
 .container-con-block {
     position: relative;
@@ -654,9 +657,8 @@
             transform: translateY(-6px)
 }
 .patreon-tx1-title {
-    font-family: whitney;
+    font-family: whitney-medium;
     font-size: 36px;
-    font-weight: 700;
     line-height: 100px;
     position: relative;
     width: 100%;
@@ -750,7 +752,7 @@
 	 padding-right: 16px;
 	 margin-right: 2px;
 	 font-family: arial;
-	 font-size: 14px;
+	 font-size: 12px;
 	 color: #fff;
 	 min-width: 126px;
 	 text-align: left;
@@ -1321,6 +1323,18 @@
     color: #fff;
     border: solid 2px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
+}
+.entry-content ul li {
+	font-family:inherit;
+	font-size:14px!important;
+	font-size:inherit;
+	font-weight:inherit;
+	line-height:24px!important;
+	line-height:inherit;
+	margin-left:8px;
+	margin-left:36px;
+	text-align:inherit;
+	color: #455971;
 }
 .div-css-anchor {
     position: absolute;

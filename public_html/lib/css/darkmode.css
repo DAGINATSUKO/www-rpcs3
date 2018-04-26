@@ -1,23 +1,16 @@
-.dm-icon {
-    opacity: 1!important;
-    background: url(/img/icons/menu/darkmode-on.png) no-repeat center!important;
-    background-size: 16px!important
+.dm-bg {
+    background: #191d21!important
 }
 .dm-invert {
     -webkit-filter: invert(100%)!important;
     filter: invert(100%)!important
 }
-.dm-bg {
-    background: #191d21!important
+.dm-default {
+    background: #242a30!important
 }
-.dm-header {
-    background: linear-gradient(to right,rgba(79,0,103,.6),rgba(0,81,105,.6))!important;
-}
-.dm-header-patreon {
-    background: #88382d!important
-}
-.dm-feature {
-    background: #191d21!important
+.dm-block {
+    background: #242a30!important;
+    border: solid 2px rgba(255,255,255,.06) !important;
 }
 .dm-menubar {
     border-bottom: solid 1px rgba(255,255,255,.08)!important
@@ -29,33 +22,44 @@
 .dm-menubar-l2 {
     background: rgba(40,48,117,.8)!important
 }
+.dm-header {
+    background: -webkit-gradient(linear,left top, right top,from(rgba(79,0,103,.7)),to(rgba(0,81,105,.7)))!important;
+    background: -webkit-linear-gradient(left,rgba(79,0,103,.7),rgba(0,81,105,.7))!important;
+    background: -o-linear-gradient(left,rgba(79,0,103,.7),rgba(0,81,105,.7))!important;
+    background: linear-gradient(to right,rgba(79,0,103,.7),rgba(0,81,105,.7))!important;
+}
+.dm-header-patreon {
+    background: #88382d!important
+}
+.dm-highlight {
+    color: #2dbc4e!important;
+    background: rgba(40,167,69,.2)
+}
 .dm-txt {
     color: #cecece!important
 }
 .dm-udl {
     border-bottom: 1px solid #191d21!important
 }
-.dm-default {
-    background: #242a30!important
-}
-.dm-context {
-    background: #242a30!important
-}
-.dm-block {
-    background: #242a30!important;
-    border: solid 2px rgba(255,255,255,.06) !important;
+.dm-icon {
+    opacity: 1!important;
+    background: url(/img/icons/menu/darkmode-on.png) no-repeat center!important;
+    background-size: 16px!important
 }
 .dm-flag {
     border: solid 2px #242a30!important
 }
-.dm-buttons {
+.dm-buttons-a {
     background: #252d68!important
 }
-.dm-buttons-general {
+.dm-buttons-a:hover {
+    background: #2c357b!important
+}
+.dm-buttons-b {
     color: #fff!important;
     background: rgba(255,255,255,.1)!important
 }
-.dm-buttons-general:hover {
+.dm-buttons-b:hover {
     background: rgba(255,255,255,.2)!important
 }
 .dm-panel {
@@ -65,24 +69,8 @@
 .dm-panel:hover {
     background: #2f373f!important
 }
-.dm-panel-ovr {
-    background: linear-gradient(to right,rgba(77,0,101,.9),rgba(23,79,97,.5))!important
-}
-.dm-ad {
-    background: #242a30
-}
-.dm-ad-txt {
-    color: #bebebe!important
-}
-.dm-highlight {
-    color: #2dbc4e!important;
-    background: rgba(40,167,69,.2)
-}
 .dm-navsidebar-title {
     background: #252d68!important
-}
-.dm-navsidebar-anim {
-    background: #242a30!important
 }
 .dm-navsidebar-txt {
     color: #fff!important
@@ -106,9 +94,6 @@
 }
 .dm-blog-sidebar {
     color: #fff!important
-}
-.dm-blog-body {
-    background: #242a30!important
 }
 .dm-compat-highlight:hover {
     background: rgba(0,102,204,.2)!important
