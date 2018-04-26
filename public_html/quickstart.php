@@ -20,11 +20,11 @@
 		</div>
 		<div class="header-con-overlay darkmode-header">
 		</div>
-		<div class='header-con-body'>
-			<div class='header-tx1-body'>
+		<div class='header-con-body fade-up-onstart'>
+			<div class='header-tx1-body fade-up-onstart'>
 				<span>Quickstart</span>
 			</div>
-			<div class="header-tx2-body">
+			<div class="header-tx2-body fade-up-onstart">
 				<p>
 					 Get started using the emulator on your PC
 				</p>
@@ -70,7 +70,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For Linux users, download the latest AppImage and make it executable with the command <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage</span>
+						 For Linux users, download the latest AppImage and make it executable with the command <span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage && ./rpcs3-*_linux64.AppImage</span>
 					</p>
 				</div>
 			</div>

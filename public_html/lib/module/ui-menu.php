@@ -1,5 +1,5 @@
-<div class='motd-con-message delay-fadeout'>
-	<div class='motd-tx1-message toggle-message delay-fadeout'>
+<div class='motd-con-message fade-out-delayed'>
+	<div class='motd-tx1-message toggle-message fade-out-delayed'>
 		<span>We are currently experiencing a higher server volume than usual. We sincerely apologize for any inconveniences.</span>
 	</div>
 </div>

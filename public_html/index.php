@@ -46,17 +46,17 @@ if (file_exists('lib/compat/utils.php')) {
 }
 ?>
 <div class="page-con-content context-css-override">
-	<div class='arrow-ico-scroll fade-in-sc'>
+	<div class='arrow-ico-scroll'>
 	</div>
 	<div class="content-con-feature-a" style="background:#000;">
 		<div id="particles-js-1">
 		</div>
-		<div class="header-con-overlay darkmode-header">
+		<div class="content-con-overlay darkmode-header">
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
 				<div class='content-con-wrap-left'>
-					<div class="content-txt-wrap scale-content-txt-1">
+					<div class="content-txt-wrap scale-content-txt-1 fade-in-onload">
 						<div class='content-tx1-wrap'>
 							<span>An Open-source PlayStation 3 Emulator</span>
 						</div>
@@ -74,7 +74,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 				<div class='content-con-wrap-right'>
-					<div class='content-img-wrap' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
+					<div class='content-img-wrap fade-left-onload' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
 					</div>
 					<!-- Featured Video -->
 					<div class='video-con-container' style="display:none;">
@@ -171,7 +171,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class='content-img-feature' style="background: #000">
 		</div>
-		<div class="header-con-overlay darkmode-header" style=" opacity: 0.9;">
+		<div class="content-con-overlay darkmode-header" style=" opacity: 0.9;">
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
@@ -426,7 +426,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class='content-img-feature' style="background: #000">
 		</div>
-		<div class="header-con-overlay darkmode-header" style=" opacity: 0.9;">
+		<div class="content-con-overlay darkmode-header" style=" opacity: 0.9;">
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">

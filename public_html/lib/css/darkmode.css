@@ -11,7 +11,7 @@
     background: #191d21!important
 }
 .dm-header {
-    background: linear-gradient(to right,rgba(79,0,103,.9),rgba(0,81,105,.9))!important
+    background: linear-gradient(to right,rgba(79,0,103,.6),rgba(0,81,105,.6))!important;
 }
 .dm-header-patreon {
     background: #88382d!important

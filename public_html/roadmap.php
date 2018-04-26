@@ -20,11 +20,11 @@
 		</div>
 		<div class="header-con-overlay darkmode-header">
 		</div>
-		<div class='header-con-body'>
-			<div class='header-tx1-body'>
+		<div class='header-con-body fade-up-onstart'>
+			<div class='header-tx1-body fade-up-onstart'>
 				<span>Roadmap</span>
 			</div>
-			<div class='header-tx2-body'>
+			<div class='header-tx2-body fade-up-onstart'>
 				<p>
 					 Structured roadmap for RPCS3 development
 				</p>

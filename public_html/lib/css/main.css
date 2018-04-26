@@ -47,7 +47,8 @@
     height: 100%;
     background-size: cover!important;
     -webkit-transform: translateZ(0);
-    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-perspective: 1e3;
     -webkit-backface-visibility: hidden;
     -webkit-filter: blur(10px);
@@ -57,7 +58,10 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,196,255,.8))
+    background: -webkit-gradient(linear,left top, right top,from(rgba(166,0,217,.6)),to(rgba(0,196,255,.6)));
+    background: -webkit-linear-gradient(left,rgba(166,0,217,.6),rgba(0,196,255,.6));
+    background: -o-linear-gradient(left,rgba(166,0,217,.6),rgba(0,196,255,.6));
+    background: linear-gradient(to right,rgba(166,0,217,.6),rgba(0,196,255,.6));
 }
 .header-con-body {
     position: absolute;
@@ -100,10 +104,12 @@
     margin-bottom: 20px;
     background: #fff;
     border: solid 2px rgba(0, 0, 0, .08);
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .container-con-block:hover .container-img-national {
     display: block;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
@@ -116,6 +122,8 @@
     left: 30px;
     width: 64px;
     height: 64px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     border-style: none;
     border-radius: 100%;
@@ -127,6 +135,8 @@
     display: none;
     width: 56px;
     height: 36px;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
     border: solid 2px #fff;
 }
@@ -196,6 +206,9 @@
     z-index: 1;
     width: 100%;
     height: 100%;
+    background: -webkit-gradient(linear,left top, right top,from(rgba(166,0,217,.8)),to(rgba(0,196,255,.8)));
+    background: -webkit-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
+    background: -o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
     background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,196,255,.8))
 }
 .search-inp-search {
@@ -205,7 +218,7 @@
     width: 100%;
     height: 50px;
     margin: 0 auto;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .search-inp-search input {
     font-size: 14px;
@@ -268,6 +281,15 @@
     text-decoration: underline;
     opacity: 1
 }
+.content-con-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear,left top, right top,from(rgba(166,0,217,.8)),to(rgba(0,196,255,.8)));
+    background: -webkit-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
+    background: -o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
+    background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,196,255,.8));
+}
 .content-con-feature-a {
     position: relative;
     z-index: 1001;
@@ -286,6 +308,9 @@
     height: 100%;
     min-height: 820px;
     margin: 0 auto;
+    background: -webkit-gradient(linear,left top, right top,from(rgba(166,0,217,.8)),to(rgba(0,196,255,.8)));
+    background: -webkit-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
+    background: -o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
     background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,196,255,.8))
 }
 .content-con-feature-c {
@@ -295,6 +320,8 @@
     width: 100%;
     height: 130px;
     margin: 0 auto;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
     background: #fff
 }
@@ -313,7 +340,8 @@
     width: 100%;
     height: 100%;
     -webkit-transform: translateZ(0);
-    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-perspective: 1e3;
     -webkit-backface-visibility: hidden;
     -webkit-filter: blur(4px);
@@ -433,6 +461,8 @@
     border-radius: 4px;
 }
 .content-btn-general:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     background: rgba(69,89,113,.2)
 }
@@ -447,14 +477,18 @@
     width: 140px;
     height: 44px;
     cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     text-align: center;
     color: #fff;
     border: solid 1px #fff;
-    border-radius: 6px;
+    border-radius: 4px;
     background: transparent
 }
 .content-btn-general-b:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     background: rgba(255,255,255,.2)
 }
@@ -513,6 +547,8 @@
     height: 100%!important;
     min-height: 100%!important;
     margin: 0!important;
+    -webkit-transition: all .2s ease-in-out!important;
+    -o-transition: all .2s ease-in-out!important;
     transition: all .2s ease-in-out!important
 }
 .context-alg-block {
@@ -526,15 +562,20 @@
     width: 30.98%;
     height: 500px;
     margin-top: -250px;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
     transition: .1s;
     background: #fff;
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
     -webkit-box-shadow: 0 0 64px 0 rgba(0,0,0,.1);
-    -moz-box-shadow:0 0 64px 0 rgba(0,0,0,.1);
     box-shadow:0 0 64px 0 rgba(0,0,0,.1);
 }
 #context-con-block:hover {
-    transform: translateY(-6px)
+    -webkit-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+            transform: translateY(-6px)
 }
 .context-ico-block {
     position: relative;
@@ -598,14 +639,19 @@
     margin-top: -250px;
     white-space: normal;
     background: #fff;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
     transition: .1s;
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
     -webkit-box-shadow: 0 0 64px 0 rgba(0,0,0,.1);
-    -moz-box-shadow:0 0 64px 0 rgba(0,0,0,.1);
     box-shadow:0 0 64px 0 rgba(0,0,0,.1);
 }
 #patreon-con-block-a:hover {
-    transform: translateY(-6px)
+    -webkit-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+            transform: translateY(-6px)
 }
 .patreon-tx1-title {
     font-family: whitney;
@@ -795,7 +841,7 @@
     border: 2px solid transparent;
     background: #fff;
     border: solid 2px rgba(0, 0, 0, .08);
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .panel-con-container:hover {
     padding-bottom: 0;
@@ -836,7 +882,7 @@
     padding-bottom: 1px;
     border: solid 2px rgba(0, 0, 0, .08);
     background: #fff;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .guide-ico-container {
     position: relative;
@@ -914,15 +960,22 @@
     width: 100%;
     height: 338px;
     margin: -169px 0;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
     -webkit-box-shadow: 0 0 80px 0 rgba(0,0,0,.8);
-    -moz-box-shadow: 0 0 80px 0 rgba(0,0,0,.8);
     box-shadow: 0 0 80px 0 rgba(0,0,0,.8);
 }
 .video-con-container:hover {
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
-    transform: scale(1.01)
+    -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+            transform: scale(1.01)
 }
 .video-img-thumb {
     position: relative;
@@ -935,6 +988,8 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
+    -webkit-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
     transition: .1s ease-in-out;
     background: transparent url(/img/icons/menu/play.png) no-repeat center;
     background-size: 50px
@@ -949,14 +1004,22 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
     background: rgba(0,0,0,.1) url(/img/icons/menu/play.png) no-repeat center;
     background-size: 60px
 }
 .video-btn-player-b:hover {
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
-    transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+        -ms-transform: scale(1.12);
+            transform: scale(1.12);
     background: rgba(0,0,0,.4) url(/img/icons/menu/play.png) no-repeat center;
     background-size: 60px
 }
@@ -1022,6 +1085,8 @@
     float: right;
     width: 190px;
     height: 56px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     background: url(/img/icons/panels/discord.png) no-repeat center center;
     background-size: 280px
@@ -1081,6 +1146,9 @@
     overflow: hidden;
     width: 100%;
     height: auto;
+    background: -webkit-gradient(linear,left top, right top,from(rgba(166,0,217,.8)),to(rgba(0,196,255,.8)));
+    background: -webkit-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
+    background: -o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
     background: linear-gradient(to right,rgba(166,0,217,.8),rgba(0,196,255,.8))
 }
 .footer-con-header {

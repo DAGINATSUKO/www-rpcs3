@@ -6,7 +6,7 @@ $(window).resize(function() {
         'margin-top': -$('.scale-content-txt-1').height() / 2
     });
 });
-$(document).ready(function() {
+$(window).on('load', function() {
     $('.scale-content-txt-1').css({
         'position': 'absolute',
         'top': '50%',
@@ -21,7 +21,7 @@ $(window).resize(function() {
         'margin-top': -$('.scale-content-txt-2').height() / 2
     });
 });
-$(document).ready(function() {
+$(window).on('load', function() {
     $('.scale-content-txt-2').css({
         'position': 'absolute',
         'top': '50%',
@@ -36,7 +36,7 @@ $(window).resize(function() {
         'margin-top': -$('.scale-content-txt-3').height() / 2
     });
 });
-$(document).ready(function() {
+$(window).on('load', function() {
     $('.scale-content-txt-3').css({
         'position': 'absolute',
         'top': '50%',
@@ -108,23 +108,27 @@ $(document).ready(function() {
 $(window).on('load', function() {
     $('.header-img-head').fadeIn(300);
 });
-/* Handles all delayed fade events */
+/* Handles fade in onload events */
 $(window).on('load', function() {
-    $('.delay-fadeout').delay(8000).fadeOut(288);
+    $('.fade-in-onload').delay(100).fadeIn(300);
+	$('.fade-up-onload').delay(100).fadeIn(300);
+	$('.fade-down-onload').delay(100).fadeIn(300);
+	$('.fade-left-onload').delay(100).fadeIn(300);
+	$('.fade-right-onload').delay(100).fadeIn(300);
 });
-/* Handles all fade on scroll events */
+/* Handles delayed fade out events */
+$(window).on('load', function() {
+    $('.fade-out-delayed').delay(8000).fadeOut(288);
+});
+$(document).ready(function() {
+	$('.fade-up-onstart').delay(100).fadeIn(300);
+});
+/* Handles all fade in on scroll events */
 $(window).scroll(function() {
     if ($(this).scrollTop() > 40) {
-        $('.fade-on-scroll').fadeIn(288);
+        $('.arrow-ico-scroll').fadeOut(288);
     } else {
-        $('.fade-on-scroll').fadeOut(288);
-    }
-});
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 0) {
-        $('.fade-in-sc').fadeOut();
-    } else {
-        $('.fade-in-sc').fadeIn();
+        $('.arrow-ico-scroll').fadeIn(288);
     }
 });
 /* Handles anchor links */

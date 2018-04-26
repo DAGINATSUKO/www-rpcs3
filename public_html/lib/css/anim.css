@@ -11,50 +11,51 @@
 	pointer-events:none;
 	opacity:0.3;
 }
-.fade-up-ld-alt {
-	display:none;
-	-webkit-animation-name:fadeInUp;
-	animation-name:fadeInUp;
-	-webkit-animation-duration:.8s;
-	-webkit-animation-iteration-count:1;
-}
-.fade-up-ld {
-	display:none;
-	-webkit-animation-name:fadeInUp;
-	animation-name:fadeInUp;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count:1;
-}
-.fade-dn-ld {
-	display:none;
-	-webkit-animation-name:fadeInDown;
-	animation-name:fadeInDown;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count:1;
-}
-.fade-in-ld {
+.fade-in-onload {
 	display:none;
 	-webkit-animation-name:fadeIn;
 	animation-name:fadeIn;
-	-webkit-animation-duration:1s;
+	-webkit-animation-duration:.5s;
 	-webkit-animation-iteration-count: 1;
 }
-/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-.fade-in-lt {
+.fade-up-onload {
+	display:none;
+	-webkit-animation-name:fadeInUp;
+	animation-name:fadeInUp;
+	-webkit-animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+}
+.fade-down-onload {
+	display:none;
+	-webkit-animation-name:fadeInDown;
+	animation-name:fadeInDown;
+	-webkit-animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+}
+.fade-left-onload {
 	display:none;
 	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-	-webkit-animation-duration:1s;
+	-webkit-animation-duration:.5s;
 	-webkit-animation-iteration-count:1;
 }
-.fade-in-rt {
+.fade-right-onload {
 	display:none;
 	-webkit-animation-name:fadeInRight;
 	animation-name:fadeInRight;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count: 1;
+	-webkit-animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
 }
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.fade-up-onstart {
+	display:none;
+	-webkit-animation-name:fadeInUp;
+	animation-name:fadeInUp;
+	-webkit-animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+}
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 .animated {
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
