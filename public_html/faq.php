@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>RPCS3 - FAQ</title>
+<title>RPCS3 - FAQs</title>
 <meta charset="UTF-8">
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
 <meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, faq">
@@ -23,17 +23,22 @@
 		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart'>
-				<span>FAQ</span>
+				<span>FAQs</span>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
 				<p>
-					 Frequently asked questions for newcomers
+					 Frequently asked questions for the curious
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+		
+					<div class="container-tx1-heading div-css-heading darkmode-txt">
+				<h2>Frequently Asked Questions<h2>
+			</div>
+		
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>

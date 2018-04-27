@@ -27,13 +27,18 @@
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
 				<p>
-					 Legal disclaimer for RPCS3, open-source PlayStation 3 emulator
+					 A legal disclaimer for RPCS3 and its developments
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+		
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
+				<h2>Legal Disclaimer <h2>
+			</div>
+		
 			<div class="container-con-block darkmode-block">
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>

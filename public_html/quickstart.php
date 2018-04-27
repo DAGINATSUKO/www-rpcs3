@@ -28,7 +28,7 @@
 			</div>
 			<div class="header-tx2-body fade-up-onstart">
 				<p>
-					 Get started using the emulator on your PC
+					 Get RPCS3 up and running on Windows or Linux
 				</p>
 			</div>
 		</div>
@@ -36,7 +36,7 @@
 	<div class="page-con-container">
 		<div class="page-in-container">
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>System Requirements</h2>
+				<h2>Quickstart Guide</h2>
 			</div>
 			<div class="container-con-block darkmode-block">
 				<div class="div-css-anchor" id="requirements">

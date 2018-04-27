@@ -190,7 +190,7 @@
 						</a>
 					</div>
 					<div class='mobilemenu-con-button'>
-						<a href="/disclaimer" target="_blank">
+						<a href="/disclaimer">
 						<div class='mobilemenu-tx1-button'>
 							<span>Disclaimer</span>
 						</div>
@@ -213,7 +213,7 @@
 						</a>
 					</div>
 					<div class='mobilemenu-con-button'>
-						<a href="/alipay" target="_blank">
+						<a href="/alipay">
 						<div class='mobilemenu-tx1-button'>
 							<span>Alipay</span>
 						</div>

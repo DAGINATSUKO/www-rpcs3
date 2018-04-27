@@ -23,11 +23,11 @@
 		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart'>
-				<span>About</span>
+				<span>About Us</span>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
 				<p>
-					 An overview of our team members and history
+					 A little about the project and our team members
 				</p>
 			</div>
 		</div>

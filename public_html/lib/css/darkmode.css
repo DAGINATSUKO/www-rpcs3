@@ -22,6 +22,21 @@
 .dm-menubar-l2 {
     background: rgba(40,48,117,.8)!important
 }
+
+
+
+.dm-submenu-outer {
+	background: #242a30!important;
+}	
+.dm-submenu-btn {
+    color: #cecece!important;
+}
+.dm-submenu-lip {
+    background: url(/img/icons/submenu/lip-dm.png) no-repeat center!important;
+    background-size: 22px !important;
+}
+
+
 .dm-header {
     background: -webkit-gradient(linear,left top, right top,from(rgba(79,0,103,.7)),to(rgba(0,81,105,.7)))!important;
     background: -webkit-linear-gradient(left,rgba(79,0,103,.7),rgba(0,81,105,.7))!important;
