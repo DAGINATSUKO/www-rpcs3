@@ -51,14 +51,14 @@
 				<span>Roadmap</span>
 			</div>
 			</a>
-			<a href='/disclaimer'>
-			<div class="menu-btn-select scale-menu-btn-remove" title="Disclaimer">
-				<span>Disclaimer</span>
-			</div>
-			</a>
 			<a href='/faq'>
 			<div class="menu-btn-select scale-menu-btn-remove" title="FAQ">
 				<span>FAQ</span>
+			</div>
+			</a>
+			<a href='/disclaimer'>
+			<div class="menu-btn-select scale-menu-btn-remove" title="Disclaimer">
+				<span>Disclaimer</span>
 			</div>
 			</a>
 			<div class="menu-btn-select scale-menu-btn-remove" style="pointer-events: none;">
@@ -77,11 +77,6 @@
 			<a href='https://forums.rpcs3.net' target="_blank">
 			<div class="menu-btn-select scale-menu-btn-remove" title="Forum">
 				<span>Forum</span>
-			</div>
-			</a>
-			<a href='https://wiki.rpcs3.net' target="_blank">
-			<div class="menu-btn-select scale-menu-btn-remove" title="Wiki" style="display:none;">
-				<span>Wiki</span>
 			</div>
 			</a>
 			<div class="menu-con-support support-subtrigger">

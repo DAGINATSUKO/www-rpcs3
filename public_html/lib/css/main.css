@@ -741,14 +741,13 @@
 	 padding-right: 1%;
 	 margin: 0;
 	 font-family: arial;
-	 font-size: 14px;
+	 font-size: 12px;
 	 width: 12%;
 	 color: #000;
 	 text-align: left;
 	 white-space: nowrap;
 	 overflow: hidden;
 	 text-overflow: ellipsis;
-	 font-weight: bold;
 	 -webkit-border-top-left-radius: 4px;
 	 -webkit-border-bottom-left-radius: 4px;
 	 -moz-border-radius-topleft: 4px;
@@ -758,7 +757,7 @@
 }
 .build-tx2-spec {
     font-family: arial;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 32px;
     position: relative;
     display: inline-block;

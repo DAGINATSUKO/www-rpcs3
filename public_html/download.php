@@ -68,7 +68,7 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 			</div>
 			<div class='panel-con-wrapper'>
-				<a href='/quickstart' target="_blank">
+				<a href='/quickstart'>
 				<div class="panel-con-container div-css-panel-center div-css-button-enabled darkmode-panel">
 					<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/faq.png') no-repeat center;">
 					</div>
@@ -103,7 +103,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='build-tx1-spec'>
 						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center; background-size:16px;">
 						</div>
-						<span class="darkmode-txt">SHA</span>
+						<span class="darkmode-txt">SHA-256</span>
 					</div>
 					<div class="build-tx2-spec">
 						<span class="darkmode-txt">
@@ -116,7 +116,7 @@ if (file_exists('lib/compat/utils.php')) {
 						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/github.png') no-repeat center; background-size:16px;">
 						</div>
 						<span class="darkmode-txt">
-						Commit</span>
+						Pull Request</span>
 					</div>
 					<div class="build-tx2-spec">
 						<span class="darkmode-txt">
