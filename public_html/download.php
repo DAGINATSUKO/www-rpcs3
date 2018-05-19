@@ -4,15 +4,15 @@
 <title>RPCS3 - Download</title>
 <meta charset="UTF-8">
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, download">
+<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, download">
 <meta name="author" content="RPCS3">
 <meta name="copyright" content="RPCS3">
-<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
-<?php include 'lib/module/call-meta.php';?>
-<?php include 'lib/module/call-sys.php';?>
+<?php include 'lib/module/sys-meta.php';?>
+<?php include 'lib/module/sys-css.php';?>
+<?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
-<?php include 'lib/module/call-php.php';?>
+<?php include 'lib/module/sys-php.php';?>
 <?php 
 if (file_exists('lib/compat/utils.php')) {
 	include('lib/compat/utils.php');
@@ -252,7 +252,7 @@ if (file_exists('lib/compat/utils.php')) {
 			</a>
 		</div>
 	</div>
-	<?php include 'lib/module/ui-footer.php';?>
+	<?php include 'lib/module/ui-main-footer.php';?>
 </div>
 </body>
 </html>

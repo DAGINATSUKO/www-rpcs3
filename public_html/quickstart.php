@@ -3,16 +3,16 @@
 <head>
 <title>RPCS3 - Quickstart</title>
 <meta charset="UTF-8">
-<meta content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux." name="description">
-<meta content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, quickstart" name="keywords">
-<meta content="RPCS3" name="author">
-<meta content="RPCS3" name="copyright">
-<meta content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8" name="google-site-verification">
-<?php include 'lib/module/call-meta.php';?>
-<?php include 'lib/module/call-sys.php';?>
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
+<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, quickstart">
+<meta name="author" content="RPCS3">
+<meta name="copyright" content="RPCS3">
+<?php include 'lib/module/sys-meta.php';?>
+<?php include 'lib/module/sys-css.php';?>
+<?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
-<?php include 'lib/module/call-php.php';?>
+<?php include 'lib/module/sys-php.php';?>
 <?php include 'lib/module/ui-sidebar-quickstart.php';?>
 <div class="page-con-content">
 	<div class="header-con-head">
@@ -52,7 +52,7 @@
 					</div>
 				</div>
 			</div>
-			<?php include 'lib/module/in-specs.php';?>
+			<?php include 'lib/module/ui-main-specs.php';?>
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Updating RPCS3</h2>
 			</div>
@@ -302,6 +302,9 @@
 				<div class='guide-ico-container darkmode-invert' style="background: url('/img/icons/list/drive.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						 LG <span class="txt-highlight darkmode-highlight">BU20N</span>
+					</p>
 					<p>
 						 LG <span class="txt-highlight darkmode-highlight">BH26NS40</span>
 					</p>
@@ -555,7 +558,7 @@
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/ui-footer.php';?>
+	<?php include 'lib/module/ui-main-footer.php';?>
 </div>
 </body>
 </html>

@@ -1,3 +1,3 @@
-<?php include 'lib/module/ui-footer.php';?>
+<?php include 'lib/module/ui-main-footer.php';?>
 </body>
 </html>

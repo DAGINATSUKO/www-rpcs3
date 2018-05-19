@@ -4,16 +4,15 @@
 <title>RPCS3 - Roadmap</title>
 <meta charset="UTF-8">
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, roadmap">
+<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, roadmap">
 <meta name="author" content="RPCS3">
 <meta name="copyright" content="RPCS3">
-<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
-<?php include 'lib/module/call-meta.php';?>
-<?php include 'lib/module/call-sys.php';?>
-<link rel="stylesheet" href="/lib/css/external/roadmap.css"/>
+<?php include 'lib/module/sys-meta.php';?>
+<?php include 'lib/module/sys-css.php';?>
+<?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
-<?php include 'lib/module/call-php.php';?>
+<?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
 	<div class="header-con-head">
 		<div class="header-img-head">
@@ -48,6 +47,6 @@
 	</div>
 </div>
 </div>
-<?php include 'lib/module/ui-footer.php';?>
+<?php include 'lib/module/ui-main-footer.php';?>
 </body>
 </html>

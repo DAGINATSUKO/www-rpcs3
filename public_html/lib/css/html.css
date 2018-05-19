@@ -1,22 +1,27 @@
 ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
-	margin:0;
-	padding:0;
-}
-p,h1,h2,h3,h4,h5,h6 {
-	font-family:inherit;
 	font-size:inherit;
 	font-weight:inherit;
-	line-height:inherit;
-	text-align:inherit;
+	font-style:inherit;
+	overflow-x:hidden;
+	margin:0;
+	padding:0;
 	color:inherit;
 }
 body {
-	font-family:inherit;
-	font-size:inherit;
-	font-weight:inherit;
-	line-height:inherit;
-	text-align:inherit;
+	width:100%;
+	height:100%;
+	border:none;
 	background:#f2f2f2;
+}
+iframe {
+	width:100%;
+	height:100%;
+	border:none;
+}
+.anchor {
+	display:none!important;
+	width:16px;
+	height:16px;
 }
 @font-face {
 	font-family:'whitney';
@@ -30,20 +35,19 @@ body {
 	font-family:'whitney-bold';
 	src:url('/lib/font/whitney-bold.woff') format('woff');
 }
-a:visited {
+a:visited,a:active,a:link,a:hover {
 	text-decoration:none;
+}
+a:visited {
 	color:#0080ff;
 }
 a:active {
-	text-decoration:none;
 	color:#0080ff;
 }
 a:link {
-	text-decoration:none;
 	color:#0080ff;
 }
 a:hover {
-	text-decoration:none;
 	color:#0080ff;
 }
 ::-webkit-scrollbar {
@@ -69,14 +73,4 @@ a:hover {
 }
 :-moz-placeholder {
 	color:#0080ff;
-}
-iframe {
-	width:100%;
-	height:100%;
-	border:none;
-}
-.anchor {
-	display:none!important;
-	width:16px;
-	height:16px;
 }

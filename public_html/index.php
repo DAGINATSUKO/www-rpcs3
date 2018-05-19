@@ -3,18 +3,19 @@
 <head>
 <title>RPCS3 - PlayStation 3 Emulator</title>
 <meta charset="UTF-8">
-<meta content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux." name="description">
-<meta content="rpcs3, ps3, PlayStation 3, emulator, nekotekina, home" name="keywords">
-<meta content="RPCS3" name="author">
-<meta content="RPCS3" name="copyright">
-<meta content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8" name="google-site-verification">
-<?php include 'lib/module/call-meta.php';?>
+<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
+<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, home">
+<meta name="author" content="RPCS3">
+<meta name="copyright" content="RPCS3">
+<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
+<?php include 'lib/module/sys-meta.php';?>
+<?php include 'lib/module/sys-css.php';?>
 <script data-cfasync="false" src='/lib/js/external/timer.js'></script>
-<?php include 'lib/module/call-sys.php';?>
+<?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
-<?php include 'lib/module/call-php.php';?>
-<?php include 'lib/module/call-video.php'?>
+<?php include 'lib/module/sys-php.php';?>
+<?php include 'lib/module/ui-main-video.php'?>
 <?php
 	preloadVideo(
 	'1',
@@ -74,7 +75,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 				</div>
 				<div class='content-con-wrap-right'>
-					<div class='content-img-wrap fade-left-onload' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
+					<div class='content-img-wrap fade-in-onload' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
 					</div>
 					<!-- Featured Video -->
 					<div class='video-con-container' style="display:none;">
@@ -155,7 +156,7 @@ if (file_exists('lib/compat/utils.php')) {
 						<div class="search-ico-search">
 						</div>
 						<div class="search-txt-search">
-							<span><span class="scale-mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/buttons/github-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
+							<span><span class="mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/buttons/github-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
 						</div>
 						<form action='/compatibility' method='get'>
 							<input name="g" placeholder="Game Title / Game ID">
@@ -175,7 +176,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div id='context-con-block' class="context-alg-block darkmode-context scale-context-block-promote">
+				<div id='context-con-block' class="context-alg-block darkmode-context override-promote">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/progress-h.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -191,7 +192,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="context-alg-block darkmode-context scale-override-hide">
+				<div id='context-con-block' class="context-alg-block darkmode-context override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/discord-h.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -207,7 +208,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="darkmode-context scale-override-hide">
+				<div id='context-con-block' class="darkmode-context override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/git-h.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -235,23 +236,23 @@ if (file_exists('lib/compat/utils.php')) {
 			<div class="content-con-inner">
 				<div class="content-con-wrapper">
 					<div class='content-con-wrap-left'>
-						<div class="content-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
+						<div class="content-wrp-tease override-hide" style='left: 213px; top: -115px'>
 							<div class='content-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/featured/1.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='right: 202px; top: -178px;'>
+						<div class="content-wrp-tease override-hide" style='right: 202px; top: -178px;'>
 							<div class='content-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/featured/2.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='right: 200px; bottom: -168px;'>
+						<div class="content-wrp-tease override-hide" style='right: 200px; bottom: -168px;'>
 							<div class='content-con-tease' style=" transform: scale(.5); background: url('/img/thumbs/featured/3.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='left: 225px; top: 340px;'>
+						<div class="content-wrp-tease override-hide" style='left: 225px; top: 340px;'>
 							<div class='content-con-tease' style="transform: scale(.7); background: url('/img/thumbs/featured/4.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='right: 390px; top: 104px;'>
+						<div class="content-wrp-tease override-hide" style='right: 390px; top: 104px;'>
 							<div class='content-con-tease' style=" transform: scale(.65); background: url('/img/thumbs/featured/5.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
@@ -303,7 +304,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div id='patreon-con-block-a' class="context-alg-block darkmode-context scale-override-hide">
+				<div id='patreon-con-block-a' class="context-alg-block darkmode-context override-hide">
 					<div class="patreon-tx1-title">
 						<span>&#36;2,000</span>
 					</div>
@@ -318,7 +319,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 					</div>
 				</div>
-				<div id='patreon-con-block-a' class="context-alg-block darkmode-context scale-override-hide">
+				<div id='patreon-con-block-a' class="context-alg-block darkmode-context override-hide">
 					<div class="patreon-tx1-title">
 						<span>&#36;3,000</span>
 					</div>
@@ -333,7 +334,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 					</div>
 				</div>
-				<div id='patreon-con-block-a' class="darkmode-context scale-context-block-promote">
+				<div id='patreon-con-block-a' class="darkmode-context override-promote">
 					<div class="patreon-tx1-title">
 						<span>&#36;4,000</span>
 					</div>
@@ -375,31 +376,31 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div class="content-con-wrapper">
 					<div class='content-con-wrap-right'>
-						<div class="content-wrp-tease scale-override-hide" style='left: 213px; top: -115px'>
+						<div class="content-wrp-tease override-hide" style='left: 213px; top: -115px'>
 							<div class='content-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
 								<div class='video-btn-player-b div-css-noevent'>
 								</div>
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='right: 202px; top: -98px;'>
+						<div class="content-wrp-tease override-hide" style='right: 202px; top: -98px;'>
 							<div class='content-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
 								<div class='video-btn-player-b div-css-noevent'>
 								</div>
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='left: 200px; bottom: -185px;'>
+						<div class="content-wrp-tease override-hide" style='left: 200px; bottom: -185px;'>
 							<div class='content-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/videos/6.jpg') no-repeat center center !important; background-size: cover !important;">
 								<div class='video-btn-player-b div-css-noevent'>
 								</div>
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='right: 216px; top: 330px;'>
+						<div class="content-wrp-tease override-hide" style='right: 216px; top: 330px;'>
 							<div class='content-con-tease' style="transform: scale(.55); background: url('/img/thumbs/videos/7.jpg') no-repeat center center !important; background-size: cover !important;">
 								<div class='video-btn-player-b div-css-noevent'>
 								</div>
 							</div>
 						</div>
-						<div class="content-wrp-tease scale-override-hide" style='left: 466px; top: 89px;'>
+						<div class="content-wrp-tease override-hide" style='left: 466px; top: 89px;'>
 							<div class='content-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/videos/8.jpg') no-repeat center center !important; background-size: cover !important;">
 								<div class='video-btn-player-b div-css-noevent'>
 								</div>
@@ -430,7 +431,7 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div id='context-con-block' class="context-alg-block darkmode-context scale-context-block-promote">
+				<div id='context-con-block' class="context-alg-block darkmode-context override-promote">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/quickstart-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -445,7 +446,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="context-alg-block darkmode-context scale-override-hide">
+				<div id='context-con-block' class="context-alg-block darkmode-context override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/faqs-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -460,7 +461,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					</a>
 				</div>
-				<div id='context-con-block' class="darkmode-context scale-override-hide">
+				<div id='context-con-block' class="darkmode-context override-hide">
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/roadmap-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
@@ -478,7 +479,7 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/ui-footer.php';?>
+	<?php include 'lib/module/ui-main-footer.php';?>
 </div>
 </body>
 </html>
