@@ -4,7 +4,7 @@ $(document).ready(function() {
         particlesJS("particles-js-1", {
             "particles": {
                 "number": {
-                    "value": 64,
+                    "value": 32,
                     "density": {
                         "enable": true,
                         "value_area": 1024
@@ -39,7 +39,7 @@ $(document).ready(function() {
                     }
                 },
                 "size": {
-                    "value": 3,
+                    "value": 4,
                     "random": true,
                     "anim": {
                         "enable": false,
@@ -49,7 +49,7 @@ $(document).ready(function() {
                     }
                 },
                 "line_linked": {
-                    "enable": true,
+                    "enable": false,
                     "distance": 200,
                     "color": "#fff",
                     "opacity": .5,
@@ -74,14 +74,14 @@ $(document).ready(function() {
                 "detect_on": "canvas",
                 "events": {
                     "onhover": {
-                        "enable": true,
+                        "enable": false,
                         "mode": "grab"
                     },
                     "onclick": {
-                        "enable": true,
+                        "enable": false,
                         "mode": "push"
                     },
-                    "resize": true
+                    "resize": false
                 },
                 "modes": {
                     "grab": {

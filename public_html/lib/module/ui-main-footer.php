@@ -41,6 +41,11 @@
 										<span>Roadmap</span>
 										</a>
 									</div>
+									<div class="footer-tx2-bound">
+										<a href="/disclaimer">
+										<span>Disclaimer</span>
+										</a>
+									</div>
 								</div>
 							</div>
 						</td>
@@ -58,6 +63,11 @@
 									<div class="footer-tx2-bound">
 										<a href="https://github.com/RPCS3/rpcs3/pulls" target="_blank">
 										<span>Pull Requests</span>
+										</a>
+									</div>
+									<div class="footer-tx2-bound">
+										<a href="https://github.com/RPCS3/rpcs3/graphs/contributors" target="_blank">
+										<span>Contributors</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
@@ -131,11 +141,6 @@
 									<div class="footer-tx2-bound">
 										<a href="https://github.com/AniLeo/rpcs3-compatibility" target="_blank">
 										<span>Compatibility</span>
-										</a>
-									</div>
-									<div class="footer-tx2-bound">
-										<a href="https://github.com/DAGINATSUKO/press-rpcs3" target="_blank">
-										<span>Press Kit</span>
 										</a>
 									</div>
 								</div>

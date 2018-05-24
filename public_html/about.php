@@ -23,7 +23,7 @@
 		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart'>
-				<span>About Us</span>
+				<span>About</span>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
 				<p>

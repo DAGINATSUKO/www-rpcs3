@@ -56,9 +56,9 @@
 				<span>FAQ</span>
 			</div>
 			</a>
-			<a href='/disclaimer'>
-			<div class="menu-btn-select" title="Disclaimer">
-				<span>Disclaimer</span>
+			<a href='https://wiki.rpcs3.net'>
+			<div class="menu-btn-select" title="Wiki">
+				<span>Wiki</span>
 			</div>
 			</a>
 			<div class="menu-btn-select" style="pointer-events: none;">
@@ -132,8 +132,8 @@
 	<div class="menu-ovr-dimmer-3">
 	</div>
 	<div class='page-con-scroller'>
-		<div id="page-con-container">
-			<div id="page-in-container" style="overflow: hidden !important;">
+		<div class="page-con-container">
+			<div class="page-in-container" style="overflow: hidden !important;">
 				<div class='mobilemenu-con-category'>
 					<div class='mobilemenu-con-button'>
 						<a href="/">
@@ -188,6 +188,13 @@
 						<a href="/disclaimer">
 						<div class='mobilemenu-tx1-button'>
 							<span>Disclaimer</span>
+						</div>
+						</a>
+					</div>
+					<div class='mobilemenu-con-button'>
+						<a href='https://wiki.rpcs3.net'>
+						<div class='mobilemenu-tx1-button'>
+							<span>Wiki</span>
 						</div>
 						</a>
 					</div>

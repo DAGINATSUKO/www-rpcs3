@@ -49,20 +49,21 @@ if (file_exists('lib/compat/utils.php')) {
 <div class="page-con-content context-css-override">
 	<div class='arrow-ico-scroll'>
 	</div>
-	<div class="content-con-feature-a" style="background:#000;">
+	<div class="content-con-feature-a" style="background: #000; height: 100%; max-height: unset;">
 		<div id="particles-js-1">
 		</div>
 		<div class="content-con-overlay darkmode-header">
 		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div class='content-con-wrap-left'>
+				<div class='content-con-wrap-left content-expand '>
 					<div class="content-txt-wrap scale-content-txt-1 fade-in-onload">
 						<div class='content-tx1-wrap'>
-							<span>An Open-source PlayStation 3 Emulator</span>
+							<span>Open-source<br>PlayStation 3 Emulator</span>
 						</div>
 						<div class='content-tx2-wrap'>
-							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is currently capable of running over 1800 commercial titles powered by Vulkan and OpenGL.</span>
+							<span>RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 began development in May of 2011 by its founders, DH and Hykem.</span>
+							<div class='content-btn-container'>
 							<a href="/download">
 							<div class='content-btn-download'>
 								<span>Download</span>
@@ -71,11 +72,12 @@ if (file_exists('lib/compat/utils.php')) {
 								</span>
 							</div>
 							</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class='content-con-wrap-right'>
-					<div class='content-img-wrap fade-in-onload' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
+				<div class='content-con-wrap-right content-remove '>
+					<div class='content-img-wrap' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
 					</div>
 					<!-- Featured Video -->
 					<div class='video-con-container' style="display:none;">
@@ -167,11 +169,6 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 	</div>
 	<div class="content-con-feature-b darkmode-feature">
-		<div class='content-tx1-heading' style="color:#fff">
-			<span>Directory</span>
-		</div>
-		<div class='content-img-feature' style="background: #000">
-		</div>
 		<div class="content-con-overlay darkmode-header" style=" opacity: 0.9;">
 		</div>
 		<div class="content-con-outer">
@@ -186,7 +183,7 @@ if (file_exists('lib/compat/utils.php')) {
 						<span>
 						Each month we aim to publish a technical and visual progress report that showcases our latest progress completed by our developers and talented contributors. Similarly to most emulator projects we want to be as open as possible with our progress. Showcasing performance, graphical and quality-of-life improvements in great detail is our goal. We believe this is the best way to keep our fans and followers interested in the project.</span>
 					</div>
-					<a href="https://rpcs3.net/blog/2018/04/09/progress-report-march-2018/">
+					<a href="https://rpcs3.net/blog/2018/05/20/progress-report-april-2018/">
 					<div class='context-btn-block'>
 						<span>Read Latest</span>
 					</div>
@@ -200,7 +197,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<span>
-						Join our Discord community featuring over 26,000 members for project announcements, developer interaction and emulator configuration support. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a custom designed compatibility bot that allows users to request, then fetch the status for over 2800 tested PlayStation 3 titles.</span>
+						Join our Discord community featuring over 28,000 members for project announcements, developer interaction and emulator configuration support. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a custom designed compatibility bot that allows users to request, then fetch the status for over 2800 tested PlayStation 3 titles.</span>
 					</div>
 					<a href="https://discord.me/RPCS3" target="_blank">
 					<div class='context-btn-block'>
@@ -227,20 +224,15 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 	</div>
 	<div class="content-con-feature-a darkmode-feature">
-		<div class='content-tx1-heading content-txt-wrap-invert darkmode-txt2' style="color:#fff">
-			<span>Featured</span>
-		</div>
-		<div class="content-img-feature content-con-wrap-invert" style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
-		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
 				<div class="content-con-wrapper">
 					<div class='content-con-wrap-left'>
-						<div class="content-wrp-tease override-hide" style='left: 213px; top: -115px'>
+						<div class="content-wrp-tease override-hide" style='left: 180px; top: -115px'>
 							<div class='content-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/featured/1.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
-						<div class="content-wrp-tease override-hide" style='right: 202px; top: -178px;'>
+						<div class="content-wrp-tease override-hide" style='right: 240px; top: -200px;'>
 							<div class='content-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/featured/2.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
@@ -248,7 +240,7 @@ if (file_exists('lib/compat/utils.php')) {
 							<div class='content-con-tease' style=" transform: scale(.5); background: url('/img/thumbs/featured/3.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
-						<div class="content-wrp-tease override-hide" style='left: 225px; top: 340px;'>
+						<div class="content-wrp-tease override-hide" style='left: 172px; top: 400px;'>
 							<div class='content-con-tease' style="transform: scale(.7); background: url('/img/thumbs/featured/4.jpg') no-repeat center center !important; background-size: cover !important;">
 							</div>
 						</div>
@@ -258,7 +250,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 					</div>
 				</div>
-				<div class='content-con-wrap-left'>
+				<div class='content-con-wrap-left content-expand'>
 					<div class='video-con-container'>
 						<div class="video-btn-player-b page-video-2">
 						</div>
@@ -268,13 +260,22 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 					</div>
 				</div>
-				<div class='content-con-wrap-right'>
+				<div class='content-con-wrap-right content-remove'>
 					<div class="content-txt-wrap scale-content-txt-2">
 						<div class="content-tx1-wrap content-txt-wrap-invert darkmode-txt2">
-							<span>A Video Showcasing What We've Been Up To</span>
+							<span>Here's What We've Been Working On</span>
 						</div>
 						<div class="content-tx2-wrap content-txt-wrap-invert darkmode-txt2">
-							<span>In a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable.</span>
+							<span>In just a year we've made great strides, thanks to our supporters and contributors. Our core developers have been hard at work bringing some of the biggest and baddest PlayStation 3 titles closer to becoming playable.</span>
+							
+							<div class='content-btn-container'>
+							<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/videos" target="_blank">
+							<div class='content-btn-general'>
+								<div class='content-btn-icon' style="background: url('/img/icons/context/youtube.png') no-repeat center;"></div>
+								<span>Our Channel</span>
+							</div>
+							</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -297,11 +298,6 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 	</div>
 	<div class="content-con-feature-d darkmode-header-patreon">
-		<div class='content-tx1-heading' style="color:#fff">
-			<span>Patreon</span>
-		</div>
-		<div class="content-img-feature content-con-wrap-invert" style="background: #000 url('/img/content/patreon.jpg') no-repeat center center !important; background-size: cover !important;">
-		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
 				<div id='patreon-con-block-a' class="context-alg-block darkmode-context override-hide">
@@ -354,35 +350,35 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 	</div>
 	<div class="content-con-feature-a darkmode-feature">
-		<div class='content-tx1-heading content-txt-wrap-invert darkmode-txt2' style="color:#fff">
-			<span>Community</span>
-		</div>
-		<div class="content-img-feature content-con-wrap-invert" style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
-		</div>
 		<div class="content-con-outer">
 			<div class="content-con-inner">
-				<div class='content-con-wrap-left'>
+				<div class='content-con-wrap-left content-remove'>
 					<div class="content-txt-wrap scale-content-txt-3">
 						<div class="content-tx1-wrap content-txt-wrap-invert darkmode-txt2">
-							<span>Community Videos Showcase</span>
+							<span>Featured Community Gameplay Videos</span>
 						</div>
 						<div class="content-tx2-wrap content-txt-wrap-invert darkmode-txt2">
 							<span>Fraudulent console emulators have clouded the public eye in the impossibility of PlayStation 3 emulation and the ability to emulate the console without a high-end computer. RPCS3 stands true as development progresses, system requirements become lower and more games become a playable reality.</span>
-							<div class='content-btn-general darkmode-buttons-general'>
-								<span>Coming Soon</span>
+							<div class='content-btn-container'>
+							<a href="https://discord.gg/Nr6TBes" target="_blank">
+							<div class='content-btn-general'>
+							<div class='content-btn-icon' style="background: url('/img/icons/context/discord.png') no-repeat center;"></div>
+								<span>Submit Yours</span>
+							</div>
+							</a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="content-con-wrapper">
 					<div class='content-con-wrap-right'>
-						<div class="content-wrp-tease override-hide" style='left: 213px; top: -115px'>
+						<div class="content-wrp-tease override-hide" style='left: 270px; top: -115px'>
 							<div class='content-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
 								<div class='video-btn-player-b div-css-noevent'>
 								</div>
 							</div>
 						</div>
-						<div class="content-wrp-tease override-hide" style='right: 202px; top: -98px;'>
+						<div class="content-wrp-tease override-hide" style='right: 140px; top: -98px;'>
 							<div class='content-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
 								<div class='video-btn-player-b div-css-noevent'>
 								</div>
@@ -408,7 +404,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 					</div>
 				</div>
-				<div class='content-con-wrap-right'>
+				<div class='content-con-wrap-right content-expand'>
 					<div class='video-con-container'>
 						<div class="video-btn-player-b page-video-3">
 						</div>
@@ -422,11 +418,6 @@ if (file_exists('lib/compat/utils.php')) {
 		</div>
 	</div>
 	<div class="content-con-feature-b darkmode-feature">
-		<div class='content-tx1-heading' style="color:#fff">
-			<span>Quickstart</span>
-		</div>
-		<div class='content-img-feature' style="background: #000">
-		</div>
 		<div class="content-con-overlay darkmode-header" style=" opacity: 0.9;">
 		</div>
 		<div class="content-con-outer">

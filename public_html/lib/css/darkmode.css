@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .dm-bg {
     background: #191d21!important
 }
@@ -10,7 +11,7 @@
 }
 .dm-block {
     background: #242a30!important;
-    border: solid 2px rgba(255,255,255,.06) !important;
+    border: solid 1px rgba(255,255,255,.06) !important;
 }
 .dm-menubar {
     border-bottom: solid 1px rgba(255,255,255,.08)!important
@@ -57,7 +58,7 @@
     background-size: 16px!important
 }
 .dm-flag {
-    border: solid 2px #242a30!important
+    border: solid 1px #242a30!important
 }
 .dm-buttons-a {
     background: #252d68!important
@@ -73,8 +74,8 @@
     background: rgba(255,255,255,.2)!important
 }
 .dm-panel {
-    border: solid 2px rgba(255,255,255,.08);
-    background: #242a30!important
+    border: solid 1px rgba(255,255,255,.08);
+    background: #242a30!important;
 }
 .dm-panel:hover {
     background: #2f373f!important
@@ -90,17 +91,20 @@
     background: #242a30
 }
 .dm-blog-header {
-    border-bottom: 1px solid #191d21!important;
-    background: #242a30!important
+    border: solid 1px rgba(255,255,255,.06) !important;
+    background: #242a30!important;
+}
+.dm-blog-body {
+    border: solid 1px rgba(255,255,255,.06) !important;
+    background: #242a30!important;
 }
 .dm-blog-h2 {
     color: #bebebe!important;
-    border-bottom: 1px solid #191d21!important
+    border-bottom: solid 1px rgba(255,255,255,.06) !important;
 }
 .dm-blog-footer {
-    border-top: 1px solid #191d21!important;
-    border-bottom: 1px solid transparent!important;
-    background: #242a30!important
+    border: solid 1px rgba(255,255,255,.06) !important;
+    background: #242a30!important;
 }
 .dm-blog-sidebar {
     color: #fff!important

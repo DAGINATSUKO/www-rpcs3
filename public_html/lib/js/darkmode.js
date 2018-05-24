@@ -26,7 +26,6 @@ $(document).ready(function() {
         $('.darkmode-navsidebar-title').toggleClass("dm-navsidebar-title");
         $('.darkmode-navsidebar-anim').toggleClass("dm-default");
         $('.darkmode-navsidebar-txt').toggleClass("dm-navsidebar-txt");
-        $('.darkmode-buttons-general').toggleClass("dm-buttons-general");
         $(".markdown-body").toggleClass("dm-txt");
         $(".markdown-body h2").toggleClass("dm-txt");
         $(".markdown-body h2").toggleClass("dm-udl");
@@ -47,8 +46,10 @@ $(document).ready(function() {
         $("#compat-con-pages").toggleClass("dm-default dm-txt");
         $("#compat-author").toggleClass("dm-compat-author");
         $(".nav-links").toggleClass("dm-default dm-txt");
-        $(".hentry").toggleClass("dm-default dm-txt");
+        $(".entry-content").toggleClass("dm-blog-body dm-txt");
         $(".entry-header").toggleClass("dm-blog-header");
+		$(".entry-title a").toggleClass("dm-txt");
+		$(".entry-title").toggleClass("dm-txt");
         $(".entry-footer").toggleClass("dm-blog-footer");
         $(".entry-content h2").toggleClass("dm-blog-h2");
         $(".entry-content ul li").toggleClass("dm-txt");
@@ -94,7 +95,6 @@ $(document).ready(function() {
         $('.darkmode-navsidebar-title').addClass("dm-navsidebar-title");
         $('.darkmode-navsidebar-anim').addClass("dm-default");
         $('.darkmode-navsidebar-txt').addClass("dm-navsidebar-txt");
-        $('.darkmode-buttons-general').addClass("dm-buttons-general");
         $(".markdown-body").addClass("dm-txt");
         $(".markdown-body h2").addClass("dm-txt");
         $(".markdown-body h2").addClass("dm-udl");
@@ -115,8 +115,10 @@ $(document).ready(function() {
         $("#compat-con-pages").toggleClass("dm-default dm-txt");
         $("#compat-author").toggleClass("dm-compat-author");
         $(".nav-links").addClass("dm-default dm-txt");
-        $(".hentry").addClass("dm-default dm-txt");
+        $(".entry-content").addClass("dm-blog-body dm-txt");
         $(".entry-header").addClass("dm-blog-header");
+		$(".entry-title a").addClass("dm-txt");
+		$(".entry-title").addClass("dm-txt");
         $(".entry-footer").addClass("dm-blog-footer");
         $(".entry-content h2").addClass("dm-blog-h2");
         $(".entry-content ul li").addClass("dm-txt");
@@ -150,7 +152,6 @@ $(document).ready(function() {
         $('.darkmode-navsidebar-title').removeClass("dm-navsidebar-title");
         $('.darkmode-navsidebar-anim').removeClass("dm-default");
         $('.darkmode-navsidebar-txt').removeClass("dm-navsidebar-txt");
-        $('.darkmode-buttons-general').removeClass("dm-buttons-general");
         $(".markdown-body").removeClass("dm-txt");
         $(".markdown-body h2").removeClass("dm-txt");
         $(".markdown-body h2").removeClass("dm-udl");
@@ -171,8 +172,10 @@ $(document).ready(function() {
         $("#compat-con-pages").removeClass("dm-default dm-txt");
         $("#compat-author").removeClass("dm-compat-author");
         $(".nav-links").removeClass("dm-default dm-txt");
-        $(".hentry").removeClass("dm-default dm-txt");
+        $(".entry-content").removeClass("dm-blog-body dm-txt");
         $(".entry-header").removeClass("dm-blog-header");
+		$(".entry-title a").removeClass("dm-txt");
+		$(".entry-title").removeClass("dm-txt");
         $(".entry-footer").removeClass("dm-blog-footer");
         $(".entry-content h2").removeClass("dm-blog-h2");
         $(".entry-content ul li").removeClass("dm-txt");

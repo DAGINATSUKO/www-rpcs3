@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .gm-menubar-l0 {
     border-bottom: solid 1px transparent!important;
     background: transparent!important
@@ -330,9 +331,7 @@
     z-index: 8990;
     width: 100%;
     height: 100%;
-    background: rgba(40,48,117,.9)!important;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px)
+    background: rgba(40,48,117,.99)!important;
 }
 .page-con-scroller::-webkit-scrollbar {
     display: none
@@ -348,35 +347,26 @@
 }
 .mobilemenu-con-category {
     position: relative;
-    top: 100px;
-    float: left;
+    top: 56px;
     width: 100%;
-    margin-right: 40px
 }
 .mobilemenu-con-button {
     position: relative;
     width: 100%;
     height: 60px;
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp
 }
 .mobilemenu-tx1-button {
     font-family: arial;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 60px;
     position: relative;
     float: left;
     height: 100%;
     color: #fff;
-    width: 250px;
-    left: 50%;
-    margin: 0 0 0 -136px;
-    text-indent: 4px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    padding-left: 18px;
-    border-radius: 4px;
-    text-align: left
+    width: 100%;
+    letter-spacing: 2px;
+    padding-left: 46px;
+    text-align: left;
 }
 .mobilemenu-tx1-button:hover {
     background: rgba(255,255,255,.1)
@@ -475,6 +465,9 @@
 }
 .navsidebar-tx2-topic a {
     color: #fff
+}
+.navsidebar-tx2-topic span:hover {
+    text-decoration:underline;
 }
 .blogsidebar-con-anim {
     position: fixed;
