@@ -33,17 +33,22 @@
 		</div>
 	</div>
 	<div class="page-con-container">
-		<div class="page-in-container div-css-roadmap-git darkmode-block">
-			<?php
+		<div class="page-in-container">
+			<div class="container-tx1-heading div-css-heading darkmode-txt">
+				<h2>Development Roadmap</h2>
+			</div>
+			<div class="markdown darkmode-block">
+				<?php
 				if (file_exists('cache/roadmap_cached.php')) {
 					include 'cache/roadmap_cached.php';
 				} else {
 					$content = file_get_contents("https://github.com/RPCS3/rpcs3/wiki/Roadmap");
 					if ($content) {
 						$start = "<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">
-			"; $end = "
+				 "; $end = "
+			</div>
+			 "; echo explode($end, explode($start, $content)[1])[0]; } } ?>
 		</div>
-		"; echo explode($end, explode($start, $content)[1])[0]; } } ?>
 	</div>
 </div>
 </div>

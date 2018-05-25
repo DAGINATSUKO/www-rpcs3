@@ -39,7 +39,7 @@ $(document).ready(function() {
                     }
                 },
                 "size": {
-                    "value": 4,
+                    "value": 3,
                     "random": true,
                     "anim": {
                         "enable": false,
@@ -57,7 +57,7 @@ $(document).ready(function() {
                 },
                 "move": {
                     "enable": true,
-                    "speed": 1,
+                    "speed": 10,
                     "direction": "none",
                     "random": false,
                     "straight": false,

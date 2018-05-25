@@ -185,9 +185,9 @@
 						</a>
 					</div>
 					<div class='mobilemenu-con-button'>
-						<a href="/disclaimer">
+						<a href="/faq">
 						<div class='mobilemenu-tx1-button'>
-							<span>Disclaimer</span>
+							<span>FAQ</span>
 						</div>
 						</a>
 					</div>
@@ -195,13 +195,6 @@
 						<a href='https://wiki.rpcs3.net'>
 						<div class='mobilemenu-tx1-button'>
 							<span>Wiki</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/faq">
-						<div class='mobilemenu-tx1-button'>
-							<span>FAQ</span>
 						</div>
 						</a>
 					</div>

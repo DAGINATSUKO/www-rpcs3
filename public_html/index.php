@@ -10,7 +10,7 @@
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
-<script data-cfasync="false" src='/lib/js/external/timer.js'></script>
+<script data-cfasync="false" src='/lib/js/timer.js'></script>
 <?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
@@ -39,7 +39,7 @@ if (file_exists('lib/compat/utils.php')) {
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
 } else {
-	$linux_button = ' div-css-button-disabled'; // Disables Linux button
+	$linux_button = ' button-disabled'; // Disables Linux button
 	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
 	$win[1] = 'Latest version';
 	$linux[0] = 'Temporarily unavailable';
@@ -310,7 +310,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class="patreon-tx2-block darkmode-txt">
 						<span>We thank you for your continued support! With this goal reached, our lead developer, Nekotekina will be able to purchase better computer hardware for development and testing. This ensures even faster development and testing times by allowing his workflow to become more efficient and faster than ever before thanks to modern hardware.</span>
 					</div>
-					<div class="patreon-btn-block div-css-noevent">
+					<div class="patreon-btn-block noevent">
 						<div class="patreon-btn-arrow">
 						</div>
 					</div>
@@ -325,7 +325,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class="patreon-tx2-block darkmode-txt">
 						<span>We thank you for your continued support! With this goal reached, our core graphics programmer, kd-11 will be able to join our core developer, Nekotekina in working full-time on the emulator. This ensures even faster development and testing for all RSX orientated features for the emulator.</span>
 					</div>
-					<div class="patreon-btn-block div-css-noevent">
+					<div class="patreon-btn-block noevent">
 						<div class="patreon-btn-arrow">
 						</div>
 					</div>
@@ -374,31 +374,31 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='content-con-wrap-right'>
 						<div class="content-wrp-tease override-hide" style='left: 270px; top: -115px'>
 							<div class='content-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b div-css-noevent'>
+								<div class='video-btn-player-b noevent'>
 								</div>
 							</div>
 						</div>
 						<div class="content-wrp-tease override-hide" style='right: 140px; top: -98px;'>
 							<div class='content-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b div-css-noevent'>
+								<div class='video-btn-player-b noevent'>
 								</div>
 							</div>
 						</div>
 						<div class="content-wrp-tease override-hide" style='left: 200px; bottom: -185px;'>
 							<div class='content-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/videos/6.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b div-css-noevent'>
+								<div class='video-btn-player-b noevent'>
 								</div>
 							</div>
 						</div>
 						<div class="content-wrp-tease override-hide" style='right: 216px; top: 330px;'>
 							<div class='content-con-tease' style="transform: scale(.55); background: url('/img/thumbs/videos/7.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b div-css-noevent'>
+								<div class='video-btn-player-b noevent'>
 								</div>
 							</div>
 						</div>
 						<div class="content-wrp-tease override-hide" style='left: 466px; top: 89px;'>
 							<div class='content-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/videos/8.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b div-css-noevent'>
+								<div class='video-btn-player-b noevent'>
 								</div>
 							</div>
 						</div>

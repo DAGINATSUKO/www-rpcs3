@@ -22,7 +22,7 @@ if (file_exists('lib/compat/utils.php')) {
 	// 0 - Filename; 1 - Date
 	$linux = getLatestLinuxBuild();
 } else {
-	$linux_button = ' div-css-button-disabled'; // Disables Linux button
+	$linux_button = ' button-disabled'; // Disables Linux button
 	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
 	$win[1] = 'Latest version';
 	$linux[0] = 'Temporarily unavailable';
@@ -51,7 +51,7 @@ if (file_exists('lib/compat/utils.php')) {
 	<div class="page-con-container">
 		<div class="page-in-container">
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Important Information</h2>
+				<h2>Download Information</h2>
 			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
@@ -62,12 +62,12 @@ if (file_exists('lib/compat/utils.php')) {
 						<p class="download-desc">
 							 RPCS3 is still in its early stages of development and the binaries we produce are highly experimental. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase. If you come across any regressions upon a new release, please be sure to report your findings on our forum. <br>
 							<br>
-							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute<span class="txt-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
+							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute<span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
 							<br>
 								<br>
-							<b>Download using wget:</b><span class="txt-highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
+							<b>Download using wget:</b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
 							<br>
-							<b>Download using curl:</b><span class="txt-highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
+							<b>Download using curl:</b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
 						</p>
 						</p>
 					</div>
@@ -75,7 +75,7 @@ if (file_exists('lib/compat/utils.php')) {
 			</div>
 			<div class='panel-con-wrapper'>
 				<a href='/quickstart'>
-				<div class="panel-con-container div-css-panel-center div-css-button-enabled darkmode-panel">
+				<div class="panel-con-container panel-center button-enabled darkmode-panel">
 					<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/faq.png') no-repeat center;">
 					</div>
 					<div class="panel-tx1-heading darkmode-txt">

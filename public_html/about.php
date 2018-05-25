@@ -54,20 +54,20 @@
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Developers</h2>
 			</div>
-			<div class="div-css-member-con">
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+			<div class="about-wrp-member">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/nekotekina.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Nekotekina </span>
-							<span class="txt-memberrole div-css-role-lead">
+							<span class="about-con-role about-wrp-lead">
 							Project Lead </span>
-							<span class="txt-memberrole div-css-role-lead">
+							<span class="about-con-role about-wrp-lead">
 							Lead Core Developer </span>
 							</h2>
 						</div>
@@ -78,17 +78,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: #646E77 url('/img/members/kd11.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							kd-11 </span>
-							<span class="txt-memberrole div-css-role-graphics">
+							<span class="about-con-role about-wrp-graphics">
 							Lead Graphics Developer </span>
 							</h2>
 						</div>
@@ -98,19 +98,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: #727393 url('/img/members/ssshadow.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							ssshadow </span>
-							<span class="txt-memberrole div-css-role-manager">
+							<span class="about-con-role about-wrp-manager">
 							Community Manager </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Contributor </span>
 							</h2>
 						</div>
@@ -120,19 +120,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/ani.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Ani </span>
-							<span class="txt-memberrole div-css-role-manager">
+							<span class="about-con-role about-wrp-manager">
 							Community Manager </span>
-							<span class="txt-memberrole div-css-role-server">
+							<span class="about-con-role about-wrp-server">
 							Web Backend Developer </span>
 							</h2>
 						</div>
@@ -142,19 +142,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/daginatsuko.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							DAGINATSUKO </span>
-							<span class="txt-memberrole div-css-role-web">
+							<span class="about-con-role about-wrp-web">
 							Web Developer </span>
-							<span class="txt-memberrole div-css-role-designer">
+							<span class="about-con-role about-wrp-designer">
 							Graphic Designer </span>
 							</h2>
 						</div>
@@ -164,17 +164,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: #e68364 url('/img/members/jarves.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Jarves </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Developer </span>
 							</h2>
 						</div>
@@ -184,17 +184,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/numan.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/principality-of-sealand.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Numan </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Developer </span>
 							</h2>
 						</div>
@@ -204,17 +204,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/hcorion.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							hcorion </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Developer </span>
 							</h2>
 						</div>
@@ -224,17 +224,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							flash-fire </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Developer </span>
 							</h2>
 						</div>
@@ -244,17 +244,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Megamouse </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Developer </span>
 							</h2>
 						</div>
@@ -264,17 +264,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/galciv.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							GalCiv </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Developer </span>
 							</h2>
 						</div>
@@ -284,17 +284,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/blackdaemon.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							BlackDaemon </span>
-							<span class="txt-memberrole div-css-role-debugger">
+							<span class="about-con-role about-wrp-debugger">
 							Debugger </span>
 							</h2>
 						</div>
@@ -304,19 +304,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							O1L </span>
-							<span class="txt-memberrole div-css-role-debugger">
+							<span class="about-con-role about-wrp-debugger">
 							Debugger </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Contributor </span>
 							</h2>
 						</div>
@@ -326,17 +326,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Clienthax </span>
-							<span class="txt-memberrole div-css-role-debugger">
+							<span class="about-con-role about-wrp-debugger">
 							Debugger </span>
 							</h2>
 						</div>
@@ -346,19 +346,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/shadow.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Shadow </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Contributor </span>
-							<span class="txt-memberrole div-css-role-web">
+							<span class="about-con-role about-wrp-web">
 							Webserver Owner </span>
 							</h2>
 						</div>
@@ -371,17 +371,17 @@
 				<div class="container-tx1-heading div-css-heading darkmode-txt">
 					<h2>Contributors</h2>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Farseer </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Contributor </span>
 							</h2>
 						</div>
@@ -391,17 +391,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: #e68364 url('/img/members/velocity.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							velocity </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Contributor </span>
 							</h2>
 						</div>
@@ -411,17 +411,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Dangles </span>
-							<span class="txt-memberrole div-css-role-contributor">
+							<span class="about-con-role about-wrp-contributor">
 							Contributor </span>
 							</h2>
 						</div>
@@ -432,17 +432,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: #e68364 url('/img/members/tge.png') no-repeat center; background-size: cover;">
 					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
-				<div class="container-con-wrapper div-css-avatar-block">
+				<div class="container-con-wrapper about-con-avatar">
 					<div class='container-tx1-block darkmode-txt'>
 						<h2>
 						<span style="float: left;">
 						TGE </span>
-						<span class="txt-memberrole div-css-role-contributor">
+						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>
 					</div>
@@ -452,17 +452,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: #e68364 url('/img/members/eladash.png') no-repeat center; background-size: cover;">
 					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
-				<div class="container-con-wrapper div-css-avatar-block">
+				<div class="container-con-wrapper about-con-avatar">
 					<div class='container-tx1-block darkmode-txt'>
 						<h2>
 						<span style="float: left;">
 						eladash </span>
-						<span class="txt-memberrole div-css-role-contributor">
+						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>
 					</div>
@@ -472,17 +472,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: #e68364 url('/img/members/scribam.png') no-repeat center; background-size: cover;">
 					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
-				<div class="container-con-wrapper div-css-avatar-block">
+				<div class="container-con-wrapper about-con-avatar">
 					<div class='container-tx1-block darkmode-txt'>
 						<h2>
 						<span style="float: left;">
 						scribam </span>
-						<span class="txt-memberrole div-css-role-contributor">
+						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>
 					</div>
@@ -492,17 +492,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: #e68364 url('/img/members/raven02.png') no-repeat center; background-size: cover;">
 					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
-				<div class="container-con-wrapper div-css-avatar-block">
+				<div class="container-con-wrapper about-con-avatar">
 					<div class='container-tx1-block darkmode-txt'>
 						<h2>
 						<span style="float: left;">
 						raven02 </span>
-						<span class="txt-memberrole div-css-role-contributor">
+						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>
 					</div>
@@ -515,18 +515,18 @@
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Former Developers</h2>
 			</div>
-			<div class="div-css-member-con">
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+			<div class="about-wrp-member">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/dh.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/ukraine.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							DH </span>
-							<span class="txt-memberrole div-css-role-founder">
+							<span class="about-con-role about-wrp-founder">
 							Project Founder </span>
 							</h2>
 						</div>
@@ -536,17 +536,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/hykem.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Hykem </span>
-							<span class="txt-memberrole div-css-role-founder">
+							<span class="about-con-role about-wrp-founder">
 							Project Founder </span>
 							</h2>
 						</div>
@@ -557,17 +557,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/alexaltea.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/spain.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							AlexAltea </span>
-							<span class="txt-memberrole div-css-role-founder">
+							<span class="about-con-role about-wrp-founder">
 							Past Developer </span>
 							</h2>
 						</div>
@@ -577,17 +577,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/tambry.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/estonia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Tambry </span>
-							<span class="txt-memberrole div-css-role-founder">
+							<span class="about-con-role about-wrp-founder">
 							Past Developer </span>
 							</h2>
 						</div>
@@ -597,17 +597,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/bigpet.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							Bigpet </span>
-							<span class="txt-memberrole div-css-role-founder">
+							<span class="about-con-role about-wrp-founder">
 							Past Developer </span>
 							</h2>
 						</div>
@@ -617,17 +617,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/vlj.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							vlj </span>
-							<span class="txt-memberrole div-css-role-founder">
+							<span class="about-con-role about-wrp-founder">
 							Past Developer </span>
 							</h2>
 						</div>
@@ -637,17 +637,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-con-block div-css-member-block darkmode-block darkmode-txt">
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/gopalsr83.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/india.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
-					<div class="container-con-wrapper div-css-avatar-block">
+					<div class="container-con-wrapper about-con-avatar">
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
 							gopalsr83 </span>
-							<span class="txt-memberrole div-css-role-founder">
+							<span class="about-con-role about-wrp-founder">
 							Past Developer </span>
 							</h2>
 						</div>

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "utf-8";
 .gm-menubar-l0 {
     border-bottom: solid 1px transparent!important;
     background: transparent!important
@@ -331,7 +331,7 @@
     z-index: 8990;
     width: 100%;
     height: 100%;
-    background: rgba(40,48,117,.99)!important;
+    background: #283076!important;
 }
 .page-con-scroller::-webkit-scrollbar {
     display: none
@@ -347,7 +347,7 @@
 }
 .mobilemenu-con-category {
     position: relative;
-    top: 56px;
+    top: 80px;
     width: 100%;
 }
 .mobilemenu-con-button {
@@ -357,19 +357,20 @@
 }
 .mobilemenu-tx1-button {
     font-family: arial;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 60px;
     position: relative;
     float: left;
     height: 100%;
     color: #fff;
     width: 100%;
-    letter-spacing: 2px;
-    padding-left: 46px;
-    text-align: left;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .mobilemenu-tx1-button:hover {
-    background: rgba(255,255,255,.1)
+    background: rgba(255,255,255,.1);
+    border-radius:4px;
 }
 .navsidebar-con-container {
     position: relative;
