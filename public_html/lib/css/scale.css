@@ -55,12 +55,6 @@
 		.content-con-feature-a {
 		    height: 600px;
 	}
-		.content-con-feature-b {
-		    height: 600px;
-	}
-		.content-con-feature-d {
-		    height: 600px;
-	}
 }
 @media screen and (max-height:780px) {
 	.video-con-viewport {
