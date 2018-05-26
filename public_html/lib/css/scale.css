@@ -110,6 +110,9 @@
 	}
 }
 @media screen and (max-width:800px) {
+	.content-ico-wrap {
+		display: block !important;
+	}
 	.content-tx1-wrap {
 		text-align:center;
 		font-size: 34px;

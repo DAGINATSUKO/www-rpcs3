@@ -58,6 +58,8 @@ if (file_exists('lib/compat/utils.php')) {
 			<div class="content-con-inner">
 				<div class='content-con-wrap-left content-expand '>
 					<div class="content-txt-wrap scale-content-txt-1 fade-in-onload">
+					<div class='content-ico-wrap'>
+					</div>
 						<div class='content-tx1-wrap'>
 							<span>Open-source<br>PlayStation 3 Emulator</span>
 						</div>
