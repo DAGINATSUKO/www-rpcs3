@@ -130,7 +130,7 @@
 		    display:none;
 	}
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1395px) {
 	.container-img-national {
 		display: none!important;
 	}

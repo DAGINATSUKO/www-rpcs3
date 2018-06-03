@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
 <head>
 <title>RPCS3 - About</title>
@@ -225,7 +225,7 @@
 					</div>
 				</div>
 				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
-					<div class='container-img-member' style="background: #e68364 url('/img/members/pirhoman.png') no-repeat center; background-size: cover;">
+					<div class='container-img-member' style="background: #e68364 url('/img/members/flashofsloth.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -233,14 +233,14 @@
 						<div class='container-tx1-block darkmode-txt'>
 							<h2>
 							<span style="float: left;">
-							flash-fire </span>
+							FlashOfSloth </span>
 							<span class="about-con-role about-wrp-contributor">
 							Developer </span>
 							</h2>
 						</div>
 						<div class='container-tx2-block darkmode-txt'>
 							<span>
-							flash-fire has been around since early 2017. He's known for leading the effort into Qt, major UI additions, including a save manager and a WIP trophy notification. Fixing useless games no one cares about. </span>
+							FlashOfSloth has been around since early 2017. He's known for leading the effort into Qt, major UI additions, including a save manager and a WIP trophy notification. Fixing useless games no one cares about. </span>
 						</div>
 					</div>
 				</div>
@@ -373,7 +373,7 @@
 				</div>
 				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;">
-						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/israel.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="container-con-wrapper about-con-avatar">
@@ -413,7 +413,7 @@
 				</div>
 				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/dangles.png') no-repeat center; background-size: cover;">
-						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/australia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="container-con-wrapper about-con-avatar">
@@ -434,7 +434,7 @@
 			</div>
 			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: #e68364 url('/img/members/tge.png') no-repeat center; background-size: cover;">
-					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/netherlands.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 				<div class="container-con-wrapper about-con-avatar">
@@ -454,7 +454,7 @@
 			</div>
 			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: #e68364 url('/img/members/eladash.png') no-repeat center; background-size: cover;">
-					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/israel.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 				<div class="container-con-wrapper about-con-avatar">
@@ -462,6 +462,26 @@
 						<h2>
 						<span style="float: left;">
 						eladash </span>
+						<span class="about-con-role about-wrp-contributor">
+						Contributor </span>
+						</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+					</div>
+				</div>
+			</div>
+			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
+				<div class='container-img-member' style="background: url('/img/members/juhn.png') no-repeat center; background-size: cover;">
+					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div class="container-con-wrapper about-con-avatar">
+					<div class='container-tx1-block darkmode-txt'>
+						<h2>
+						<span style="float: left;">
+						Juhn </span>
 						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>
@@ -502,6 +522,26 @@
 						<h2>
 						<span style="float: left;">
 						raven02 </span>
+						<span class="about-con-role about-wrp-contributor">
+						Contributor </span>
+						</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+					</div>
+				</div>
+			</div>
+			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
+				<div class='container-img-member' style="background: url('/img/members/pauls-gh.png') no-repeat center; background-size: cover;">
+					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div class="container-con-wrapper about-con-avatar">
+					<div class='container-tx1-block darkmode-txt'>
+						<h2>
+						<span style="float: left;">
+						pauls-gh </span>
 						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>

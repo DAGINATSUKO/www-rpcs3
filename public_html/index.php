@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
 <head>
 <title>RPCS3 - PlayStation 3 Emulator</title>
