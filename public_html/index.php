@@ -62,11 +62,11 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 						<div class='content-tx1-wrap'>
 							<h1>Open-source<br>
-							PlayStation 3 Emulator</h1>
+							 PlayStation 3 Emulator</h1>
 						</div>
 						<div class='content-tx2-wrap'>
 							<p>
-								RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 began development in May of 2011 by its founders, DH and Hykem.
+								 RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 began development in May of 2011 by its founders, DH and Hykem.
 							</p>
 							<div class='content-btn-container'>
 								<a href="/download">
@@ -183,7 +183,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/progress-h.png') no-repeat center center !important; background-size: 240px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
-						<h2>Progress</h2>
+						<h3>Progress</h3>
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<p>
@@ -200,7 +200,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/discord-h.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
-						<span>Community</span>
+						<h3>Community</h3>
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<p>
@@ -217,11 +217,11 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/git-h.png') no-repeat center center !important; background-size: 200px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
-						<span>Code</span>
+						<h3>Code</h3>
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<p>
-							RPCS3's GitHub community is always hard at work developing, implementing and deploying new features and ideas for the project. GitHub allows us to keep our project accessible, free and most importantly, open-source. GitHub enables us to review contributions, approve of them and implement seamlessly. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute under the GNU GPL 2.0
+							 RPCS3's GitHub community is always hard at work developing, implementing and deploying new features and ideas for the project. GitHub allows us to keep our project accessible, free and most importantly, open-source. GitHub enables us to review contributions, approve of them and implement seamlessly. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute under the GNU GPL 2.0
 						</p>
 					</div>
 					<a href="https://github.com/RPCS3/rpcs3" target="_blank">
@@ -277,7 +277,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 						<div class="content-tx2-wrap content-txt-wrap-invert darkmode-txt2">
 							<p>
-								While our core developers are hard at work perfecting the emulator, we've had many great developers from all over the world contribute to the codebase, which has lead to astonishing progress in performance, accuracy and quality of life. We thank each and everyone of you.
+								 While our core developers are hard at work perfecting the emulator, we've had many great developers from all over the world contribute to the codebase, which has lead to astonishing progress in performance, accuracy and quality of life. We thank each and everyone of you.
 							</p>
 							<div class='content-btn-container'>
 								<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/videos" target="_blank">
@@ -314,14 +314,14 @@ if (file_exists('lib/compat/utils.php')) {
 			<div class="content-con-inner">
 				<div id='patreon-con-block-a' class="context-alg-block darkmode-context override-hide">
 					<div class="patreon-tx1-title">
-						<h2>&#36;2,000</h2>
+						<span>&#36;2,000</span>
 					</div>
 					<div class="patreon-tx1-block darkmode-txt">
 						<h3>Goal Reached</h3>
 					</div>
 					<div class="patreon-tx2-block darkmode-txt">
 						<p>
-							We thank you for your continued support! With this goal reached, our lead developer, Nekotekina will be able to purchase better computer hardware for development and testing. This ensures even faster development and testing times by allowing his workflow to become more efficient and faster than ever before thanks to modern hardware.
+							 We thank you for your continued support! With this goal reached, our lead developer, Nekotekina will be able to purchase better computer hardware for development and testing. This ensures even faster development and testing times by allowing his workflow to become more efficient and faster than ever before thanks to modern hardware.
 						</p>
 					</div>
 					<div class="patreon-btn-block noevent">
@@ -331,14 +331,14 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div id='patreon-con-block-a' class="context-alg-block darkmode-context override-hide">
 					<div class="patreon-tx1-title">
-						<h2>&#36;3,000</h2>
+						<span>&#36;3,000</span>
 					</div>
 					<div class="patreon-tx1-block darkmode-txt">
 						<h3>Goal Reached</h3>
 					</div>
 					<div class="patreon-tx2-block darkmode-txt">
 						<p>
-							We thank you for your continued support! With this goal reached, our core graphics programmer, kd-11 will be able to join our core developer, Nekotekina in working full-time on the emulator. This ensures even faster development and testing for all RSX orientated features for the emulator.
+							 We thank you for your continued support! With this goal reached, our core graphics programmer, kd-11 will be able to join our core developer, Nekotekina in working full-time on the emulator. This ensures even faster development and testing for all RSX orientated features for the emulator.
 						</p>
 					</div>
 					<div class="patreon-btn-block noevent">
@@ -348,14 +348,14 @@ if (file_exists('lib/compat/utils.php')) {
 				</div>
 				<div id='patreon-con-block-a' class="darkmode-context override-promote">
 					<div class="patreon-tx1-title">
-						<h2>&#36;4,000</h2>
+						<span>&#36;4,000</span>
 					</div>
 					<div class="patreon-tx1-block darkmode-txt">
 						<h3>Current Goal</h3>
 					</div>
 					<div class="patreon-tx2-block darkmode-txt">
 						<p>
-							Let's shoot for a new high score! With your continued support, our core graphics developer, kd-11 will be able to purchase substantially better computer hardware dedicated to debugging and developing for the GPU related portions of the emulator. This ensures swift development and detailed testing of the features we plan to implement listed on our roadmap.
+							 Let's shoot for a new high score! With your continued support, our core graphics developer, kd-11 will be able to purchase substantially better computer hardware dedicated to debugging and developing for the GPU related portions of the emulator. This ensures swift development and detailed testing of the features we plan to implement listed on our roadmap.
 						</p>
 					</div>
 					<a href="https://www.patreon.com/Nekotekina" target="_blank">
@@ -377,7 +377,7 @@ if (file_exists('lib/compat/utils.php')) {
 						</div>
 						<div class="content-tx2-wrap content-txt-wrap-invert darkmode-txt2">
 							<p>
-								Sometimes things can be too good to be true. We understand. Especially when it comes to emulating a machine as technically complex as the PlayStation 3. If you're not sold on the legitimacy of the project, just check out some of the hundreds of videos captured by our community.
+								 Sometimes things can be too good to be true. We understand. Especially when it comes to emulating a machine as technically complex as the PlayStation 3. If you're not sold on the legitimacy of the project, just check out some of the hundreds of videos captured by our community.
 							</p>
 							<div class='content-btn-container'>
 								<a href="https://discord.gg/Nr6TBes" target="_blank">
@@ -447,11 +447,11 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/quickstart-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
-						<h2>Quickstart</h2>
+						<h3>Quickstart</h3>
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<p>
-							Before getting started, we highly recommend that you review our Quickstart guide to get a brief understanding of how the software works and what you need to get it performing optimally on your system. Basic system requirements must be met and performance may vary depending on your systems specifications. Our Quickstart guide also lends users instructions on dumping their own titles from their own consoles.
+							 Before getting started, we highly recommend that you review our Quickstart guide to get a brief understanding of how the software works and what you need to get it performing optimally on your system. Basic system requirements must be met and performance may vary depending on your systems specifications. Our Quickstart guide also lends users instructions on dumping their own titles from their own consoles.
 						</p>
 					</div>
 					<a href="/quickstart">
@@ -464,11 +464,11 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/faqs-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
-						<h2>FAQs</h2>
+						<h3>FAQs</h3>
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<p>
-							If you have any questions about the project, you can visit our frequently asked questions page. This page is designed to answer any common questions relating to the project that you may have. The page covers everything from the emulator's long-term history to what controllers and input devices are currently compatible with the emulator. If you still have any further questions, don't hesitate to reach out to us through <a href="https://discord.me/RPCS3">Discord</a>.
+							 If you have any questions about the project, you can visit our frequently asked questions page. This page is designed to answer any common questions relating to the project that you may have. The page covers everything from the emulator's long-term history to what controllers and input devices are currently compatible with the emulator. If you still have any further questions, don't hesitate to reach out to us through <a href="https://discord.me/RPCS3">Discord</a>.
 						</p>
 					</div>
 					<a href="/faq">
@@ -481,11 +481,11 @@ if (file_exists('lib/compat/utils.php')) {
 					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/roadmap-h.png') no-repeat center center !important; background-size: 42px !important;">
 					</div>
 					<div class='context-tx1-block darkmode-txt'>
-						<h2>Roadmap</h2>
+						<h3>Roadmap</h3>
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<p>
-							RPCS3 is a continuous project that will remain in development for many years to come. In the meantime, our current core developers have devised a structured roadmap that showcases the various goals we wish to complete throughout its development. These goals are categorized into 4 structured groups based on developer priority. These groups are short-term, medium-term, long-term and for developers.
+							 RPCS3 is a continuous project that will remain in development for many years to come. In the meantime, our current core developers have devised a structured roadmap that showcases the various goals we wish to complete throughout its development. These goals are categorized into 4 structured groups based on developer priority. These groups are short-term, medium-term, long-term and for developers.
 						</p>
 					</div>
 					<a href="/roadmap">
