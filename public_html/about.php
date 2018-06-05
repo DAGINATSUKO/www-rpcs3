@@ -494,7 +494,7 @@
 			</div>
 			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: #e68364 url('/img/members/scribam.png') no-repeat center; background-size: cover;">
-					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/european-union.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 				<div class="container-con-wrapper about-con-avatar">
