@@ -27,25 +27,17 @@
 	);
 	preloadVideo(
 	'3',
-	'jpP-Pqr5Gsk'
+	'1yirXWLszqU'
 	);
+	if (file_exists('lib/compat/utils.php')) {
+		include('lib/compat/utils.php');
+		$win = WindowsBuild::getLast();
+		$ver = "v{$win->version} Alpha [{$win->fulldate}]";
+	} else {
+		$ver = "";
+	}
 ?>
-<?php 
-if (file_exists('lib/compat/utils.php')) {
-	include('lib/compat/utils.php');
-	$linux_button = ''; // Does not disable Linux button
-	// 0 - URL, 1 - Version Name, 2 - Author, 3 - PR, 4 - Checksum, 5 - File Size (MB)
-	$win = getLatestWindowsBuild();
-	// 0 - Filename; 1 - Date
-	$linux = getLatestLinuxBuild();
-} else {
-	$linux_button = ' button-disabled'; // Disables Linux button
-	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
-	$win[1] = 'Latest version';
-	$linux[0] = 'Temporarily unavailable';
-	$linux[1] = 'https://github.com/RPCS3/rpcs3/releases';
-}
-?>
+
 <div class="page-con-content context-css-override">
 	<div class='arrow-ico-scroll'>
 	</div>
@@ -73,7 +65,7 @@ if (file_exists('lib/compat/utils.php')) {
 								<div class='content-btn-download'>
 									<span>Download</span>
 									<span class="content-tx1-download">
-									<?php echo $win[1]; ?>
+									<?php echo $ver; ?>
 									</span>
 								</div>
 								</a>

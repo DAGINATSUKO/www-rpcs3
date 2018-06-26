@@ -13,14 +13,12 @@
 </head>
 <body>
 <?php include 'lib/module/sys-php.php';?>
-<?php 
+<?php
 if (file_exists('lib/compat/utils.php')) {
 	include('lib/compat/utils.php');
 	$linux_button = ''; // Does not disable Linux button
-	// 0 - URL, 1 - Version Name, 2 - Author, 3 - PR, 4 - Checksum, 5 - File Size (MB)
-	$win = getLatestWindowsBuild();
-	// 0 - Filename; 1 - Date
-	$linux = getLatestLinuxBuild();
+	$win = WindowsBuild::getLast();
+	$linux = getLatestLinuxBuild(); // 0 - Filename; 1 - Date
 } else {
 	$linux_button = ' button-disabled'; // Disables Linux button
 	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
@@ -89,7 +87,7 @@ if (file_exists('lib/compat/utils.php')) {
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Download Binaries</h2>
 			</div>
-			<a href='<?php echo $win[0]; ?>' target="_blank">
+			<a href='<?php echo $win->url; ?>' target="_blank">
 			<div class="download-con-container darkmode-panel">
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/windows-h.png') no-repeat center;">
 				</div>
@@ -98,7 +96,7 @@ if (file_exists('lib/compat/utils.php')) {
 					<span class="darkmode-txt">
 					Download for Windows </span>
 					<span class="download-define-build darkmode-txt">
-					<?php echo $win[1]; ?>
+					<?php echo "v{$win->version} Alpha [{$win->fulldate}]"; ?>
 					</span>
 					</span>
 				</div>
@@ -113,7 +111,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					<div class="build-tx2-spec">
 						<span class="darkmode-txt">
-						<?php echo $win[4];?>
+						<?php echo $win->checksum; ?>
 						</span>
 					</div>
 				</div>
@@ -126,8 +124,9 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					<div class="build-tx2-spec">
 						<span class="darkmode-txt">
-						#<?php echo $win[3];?>
-						 by <?php echo $win[2];?>
+						 <a href="https://github.com/RPCS3/rpcs3/pull/<?php echo $win->pr; ?>">#<?php echo $win->pr; ?></a>
+						 (<a href="https://github.com/RPCS3/rpcs3/commit/<?php echo $win->commit; ?>"><?php echo substr($win->commit, 0, 8); ?></a>)
+						 by <a href="https://github.com/<?php echo $win->author; ?>"><?php echo $win->author; ?></a>
 						</span>
 					</div>
 				</div>
@@ -140,7 +139,7 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					<div class="build-tx2-spec">
 						<span class="darkmode-txt">
-						<?php echo $win[5];?>
+						<?php echo $win->sizeMB; ?>
 						 MB </span>
 					</div>
 				</div>
