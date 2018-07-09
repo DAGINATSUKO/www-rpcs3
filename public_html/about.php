@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 <title>RPCS3 - About</title>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
 <meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, about">
 <meta name="author" content="RPCS3">
