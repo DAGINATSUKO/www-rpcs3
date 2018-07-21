@@ -268,7 +268,7 @@
 						<i>Note: The PlayStation 3 has a maximum file size of 4GB. When dumping disc-based games which contain files bigger than 4GB, multiMAN will split those files. When you have your dump over on your computer, you must rejoin the split files back together, otherwise the dump won't work.</i><br>
 						<br>
 						 For dumping digital games, you must copy the game folder from <span class="highlight darkmode-highlight">dev_hdd0/game/GameID</span> on your console over to the same path on your RPCS3 folder. You also need to get your console's IDPS, the game's RIF and ACT.DAT, in order to generate a .RAP license file to be used in the emulator.<br>
-						 It is also possible to dump digital content and licenses on <i>any</i> PS3 even without custom firmware, by the way of creating a system backup, and then extracting it with ps3xtract software.
+						 It is also possible to dump digital content and licenses on <i>any</i> PS3 even without custom firmware, by the way of creating a system backup, and then extracting it with ps3xport software.
 					</p>
 				</div>
 			</div>
