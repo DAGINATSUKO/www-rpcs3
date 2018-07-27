@@ -68,27 +68,21 @@ $(document).ready(function() {
 /* Menu opacity and scroll indicator on scroll distance */
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 60) {
+    if (scroll >= 10) {
         $(".menu-con-bar").css('border-bottom', 'solid 1px rgba(255,255,255,.0)');
     } else {
         $(".menu-con-bar").css('border-bottom', 'solid 1px rgba(255,255,255,.1)');
     }
     var scroll = $(window).scrollTop();
-    if (scroll >= 60) {
-        $(".menu-ovr-dimmer-1").fadeIn(100);
+    if (scroll >= 10) {
+        $(".menu-ovr-fill").fadeIn(400);
     } else {
-        $(".menu-ovr-dimmer-1").fadeOut(100);
+        $(".menu-ovr-fill").fadeOut(400);
     }
-    var scroll = $(window).scrollTop();
-    if (scroll >= 400) {
-        $(".menu-ovr-dimmer-2").fadeIn(100);
+    if ($(this).scrollTop() > 10) {
+        $('.arrow-ico-scroll').fadeOut(400);
     } else {
-        $(".menu-ovr-dimmer-2").fadeOut(100);
-    }
-    if ($(this).scrollTop() > 40) {
-        $('.arrow-ico-scroll').fadeOut(288);
-    } else {
-        $('.arrow-ico-scroll').fadeIn(288);
+        $('.arrow-ico-scroll').fadeIn(400);
     }
 });
 /* Submenu mouse events */
@@ -133,13 +127,13 @@ $(document).ready(function() {
     $(".toggle-navsidebar").click(function() {
         $(".toggle-navsidebar").fadeOut(100);
     });
-    $(".toggle-blogsidebar").hide();
+    $(".toggle-blogbar").hide();
     $(".nav-blog").click(function() {
-        $(".toggle-blogsidebar").fadeToggle(100);
+        $(".toggle-blogbar").fadeToggle(100);
     });
-    $(".toggle-blogsidebar").hide();
-    $(".toggle-blogsidebar").click(function() {
-        $(".toggle-blogsidebar").fadeOut(100);
+    $(".toggle-blogbar").hide();
+    $(".toggle-blogbar").click(function() {
+        $(".toggle-blogbar").fadeOut(100);
     });
 });
 /* Handles featured video toggles */

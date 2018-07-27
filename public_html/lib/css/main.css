@@ -32,15 +32,15 @@ iframe {
 }
 a:visited {
 	text-decoration:none;
-	color:#0080ff;
+	color:#0074e7;
 }
 a:active {
 	text-decoration:none;
-	color:#0080ff;
+	color:#0074e7;
 }
 a:link {
 	text-decoration:none;
-	color:#0080ff;
+	color:#0074e7;
 }
 a:hover {
 	text-decoration:none;
@@ -59,16 +59,16 @@ a:hover {
 	background:#a9a9a9;
 }
 ::-webkit-input-placeholder {
-	color:#0080ff;
+	color:#0074e7;
 }
 ::-moz-placeholder {
-	color:#0080ff;
+	color:#0074e7;
 }
 ::-ms-input-placeholder {
-	color:#0080ff;
+	color:#0074e7;
 }
 ::-moz-placeholder {
-	color:#0080ff;
+	color:#0074e7;
 }
 .anchorpoint {
 	position:absolute;
@@ -84,7 +84,7 @@ a:hover {
 	margin-right:4px;
 	margin-left:4px;
 	padding:2px 4px;
-	color: #0080ff;
+	color: #0074e7;
 	background: rgba(0, 128, 255, .1);
 }
 .noevent {
@@ -972,7 +972,6 @@ a:hover {
 }
 .panel-con-container:hover {
 	padding-bottom:0;
-	border:solid 1px #000;
 	background:#fff;
 }
 .panel-con-wrapper {
@@ -1396,7 +1395,7 @@ a:hover {
 	margin-right:-12px;
 	margin-left:5px;
 	border-radius:100%;
-	background: url(https://daginatsuko.com/img/avatars/32.jpg) no-repeat center;
+	background: url(/img/icons/menu/webmaster.png) no-repeat center;
 	background-size:cover;
 }
 .footer-ico-github {

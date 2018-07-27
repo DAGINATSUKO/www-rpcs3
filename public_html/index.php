@@ -156,7 +156,7 @@
 						<div class="search-ico-search">
 						</div>
 						<div class="search-txt-search">
-							<span><span class="mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/buttons/github-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank" title="View AniLeo on GitHub">AniLeo</a></span></span>
+							<span><span class="mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/buttons/github-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank">AniLeo</a></span></span>
 						</div>
 						<form action='/compatibility' method='get'>
 							<input name="g" placeholder="Game Title / Game ID">
@@ -182,7 +182,7 @@
 							 Each month we aim to publish a technical and visual progress report that showcases our latest progress completed by our developers and talented contributors. Similarly to most emulator projects we want to be as open as possible with our progress. Showcasing performance, graphical and quality-of-life improvements in great detail is our goal. We believe this is the best way to keep our fans and followers interested in the project.
 						</p>
 					</div>
-					<a href="https://rpcs3.net/blog/2018/05/20/progress-report-april-2018/">
+					<a href="https://rpcs3.net/blog">
 					<div class='context-btn-block'>
 						<span>Read Latest</span>
 					</div>

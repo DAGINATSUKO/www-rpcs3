@@ -18,7 +18,7 @@
 }
 .dm-menubar-l1 {
     border-bottom: solid 1px transparent!important;
-    background: rgba(40,48,117,.6)!important
+    background: #283075!important;
 }
 .dm-menubar-l2 {
     background: rgba(40,48,117,.8)!important
@@ -84,7 +84,7 @@
     background: #252d68!important
 }
 .dm-navsidebar-txt {
-    color: #fff!important
+    color: #cecece!important;
 }
 .dm-block-search {
     border-bottom: 1px solid #242a30!important;
@@ -107,7 +107,7 @@
     background: #242a30!important;
 }
 .dm-blog-sidebar {
-    color: #fff!important
+    color: #cecece!important;
 }
 .dm-compat-highlight:hover {
     background: rgba(0,102,204,.2)!important

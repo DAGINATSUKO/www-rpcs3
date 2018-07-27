@@ -156,7 +156,7 @@
 				<div class="footer-con-inner">
 					<div class="footer-con-foot">
 						<div class="footer-tx1-webmaster">
-							<span><span>Website designed and maintained by </span><span class="footer-ico-webmaster"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://daginatsuko.com" target="_blank">DAGINATSUKO</a></span></span>
+							<span><span>Website developed by </span><span class="footer-ico-webmaster"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://daginatsuko.com" target="_blank">DAGINATSUKO</a></span></span>
 						</div>
 						<div class="footer-tx2-webmaster">
 							<span>Founded by DH and Hykem © 2011 - 2018 RPCS3</span>

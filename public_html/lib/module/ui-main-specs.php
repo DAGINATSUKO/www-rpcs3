@@ -19,12 +19,12 @@
 	</div>
 </div>
 <div class='panel-con-wrapper'>
-	<div class="panel-con-container panel-left darkmode-panel noevent">
+	<div class="panel-con-container panel-left darkmode-panel">
 		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 		</div>
 		<div style='margin-top:12px; margin-bottom:12px' class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>CPU: </b>Intel Quad-core and above (Haswell and above) <br>
+				<b>CPU: </b>Intel Quad-core and above with <a href="https://en.wikipedia.org/wiki/Transactional_Synchronization_Extensions">TSX-NI</a> (Haswell and above) <br>
 				<b>CPU: </b>AMD Hexa-core and above (Ryzen)
 			</p>
 		</div>

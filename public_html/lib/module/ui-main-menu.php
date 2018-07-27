@@ -4,60 +4,57 @@
 	</div>
 </div>
 <div class='menu-con-bar darkmode-menubar'>
-	<div class="menu-ovr-dimmer-1 darkmode-menubar-l1">
+	<div class="menu-ovr-fill darkmode-menubar-l1">
 	</div>
-	<div class="menu-ovr-dimmer-2 darkmode-menubar-l2">
-	</div>
-	<div class="menu-btn-darkmode toggle-darkmode darkmode-icon" title="Dark Mode">
+	<div class="menu-btn-darkmode toggle-darkmode darkmode-icon">
 	</div>
 	<div class="menu-con-outer">
 		<div class="menu-con-inner">
-			<div class="menu-con-logo" title="Home">
+			<div class="menu-con-logo">
 				<a href='/'>
-				<div class="menu-ico-logo" title="Home">
+				<div class="menu-ico-logo">
 				</div>
 				</a>
 			</div>
-			<div class="menu-tx1-mobile toggle-mobilemenu" title="Menu">
-				<span>MENU</span>
+			<div class="menu-btn-mobile toggle-mobilemenu">
 			</div>
 			<a href='/blog'>
-			<div class="menu-btn-select" title="Blog">
+			<div class="menu-btn-select">
 				<span>Blog</span>
 			</div>
 			</a>
 			<a href='/about'>
-			<div class="menu-btn-select" title="About">
+			<div class="menu-btn-select">
 				<span>About</span>
 			</div>
 			</a>
 			<a href='/compatibility'>
-			<div class="menu-btn-select" title="Compatibility">
+			<div class="menu-btn-select">
 				<span>Compatibility</span>
 			</div>
 			</a>
 			<a href='/download'>
-			<div class="menu-btn-select" title="Download">
+			<div class="menu-btn-select">
 				<span>Download</span>
 			</div>
 			</a>
 			<a href='/quickstart'>
-			<div class="menu-btn-select" title="Quickstart">
+			<div class="menu-btn-select">
 				<span>Quickstart</span>
 			</div>
 			</a>
 			<a href='/roadmap'>
-			<div class="menu-btn-select" title="Roadmap">
+			<div class="menu-btn-select">
 				<span>Roadmap</span>
 			</div>
 			</a>
 			<a href='/faq'>
-			<div class="menu-btn-select" title="FAQ">
+			<div class="menu-btn-select">
 				<span>FAQ</span>
 			</div>
 			</a>
 			<a href='https://wiki.rpcs3.net'>
-			<div class="menu-btn-select" title="Wiki">
+			<div class="menu-btn-select">
 				<span>Wiki</span>
 			</div>
 			</a>
@@ -65,17 +62,17 @@
 				<span>|</span>
 			</div>
 			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
-			<div class="menu-btn-select" title="GitHub">
+			<div class="menu-btn-select">
 				<span>GitHub</span>
 			</div>
 			</a>
 			<a href='https://discord.me/RPCS3' target="_blank">
-			<div class="menu-btn-select" title="Discord">
+			<div class="menu-btn-select">
 				<span>Discord</span>
 			</div>
 			</a>
 			<a href='https://forums.rpcs3.net' target="_blank">
-			<div class="menu-btn-select" title="Forum">
+			<div class="menu-btn-select">
 				<span>Forum</span>
 			</div>
 			</a>
@@ -129,134 +126,71 @@
 	</div>
 </div>
 <div class='window-con-dimmer popup-mobilemenu' style="display:none;">
-	<div class="menu-ovr-dimmer-3">
+	<div class="menu-ovr-fill-2">
 	</div>
-	<div class='page-con-scroller'>
-		<div class="page-con-container">
-			<div class="page-in-container" style="overflow: hidden !important;">
-				<div class='mobilemenu-con-category'>
-					<div class='mobilemenu-con-button'>
-						<a href="/">
-						<div class='mobilemenu-tx1-button'>
-							<span>Home</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/blog">
-						<div class='mobilemenu-tx1-button'>
-							<span>Blog</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/about">
-						<div class='mobilemenu-tx1-button'>
-							<span>About</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/compatibility">
-						<div class='mobilemenu-tx1-button'>
-							<span>Compatibility</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/download">
-						<div class='mobilemenu-tx1-button'>
-							<span>Download</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/quickstart">
-						<div class='mobilemenu-tx1-button'>
-							<span>Quickstart</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/roadmap">
-						<div class='mobilemenu-tx1-button'>
-							<span>Roadmap</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/faq">
-						<div class='mobilemenu-tx1-button'>
-							<span>FAQ</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href='https://wiki.rpcs3.net'>
-						<div class='mobilemenu-tx1-button'>
-							<span>Wiki</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button' style='pointer-events: none; height: 14px; margin-top: 14px; border-top: solid 1px rgba(255, 255, 255, .1);'>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="https://www.patreon.com/Nekotekina" target="_blank">
-						<div class='mobilemenu-tx1-button'>
-							<span>Patreon</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="/alipay">
-						<div class='mobilemenu-tx1-button'>
-							<span>Alipay</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="https://discord.me/RPCS3" target="_blank">
-						<div class='mobilemenu-tx1-button'>
-							<span>Discord</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="https://github.com/RPCS3/rpcs3" target="_blank">
-						<div class='mobilemenu-tx1-button'>
-							<span>GitHub</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="https://forums.rpcs3.net" target="_blank">
-						<div class='mobilemenu-tx1-button'>
-							<span>Forum</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ" target="_blank">
-						<div class='mobilemenu-tx1-button'>
-							<span>YouTube</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button'>
-						<a href="https://twitter.com/rpcs3" target="_blank">
-						<div class='mobilemenu-tx1-button'>
-							<span>Twitter</span>
-						</div>
-						</a>
-					</div>
-					<div class='mobilemenu-con-button' style='margin-bottom: 200px;'>
-						<a href="https://www.reddit.com/r/rpcs3" target="_blank">
-						<div class='mobilemenu-tx1-button'>
-							<span>Reddit</span>
-						</div>
-						</a>
-					</div>
+	<div class='menu-con-scrollable'>
+		<div class="menu-con-mobile">
+			<div class="menu-in-mobile" style="overflow: hidden !important;">
+				<a href="/">
+				<div class='menu-btn-subbutton'>
+					<span>Home</span>
 				</div>
+				</a>
+				<a href="/blog">
+				<div class='menu-btn-subbutton'>
+					<span>Blog</span>
+				</div>
+				</a>
+				<a href="/about">
+				<div class='menu-btn-subbutton'>
+					<span>About</span>
+				</div>
+				</a>
+				<a href="/compatibility">
+				<div class='menu-btn-subbutton'>
+					<span>Compatibility</span>
+				</div>
+				</a>
+				<a href="/download">
+				<div class='menu-btn-subbutton'>
+					<span>Download</span>
+				</div>
+				</a>
+				<a href="/quickstart">
+				<div class='menu-btn-subbutton'>
+					<span>Quickstart</span>
+				</div>
+				</a>
+				<a href="/roadmap">
+				<div class='menu-btn-subbutton'>
+					<span>Roadmap</span>
+				</div>
+				</a>
+				<a href="/faq">
+				<div class='menu-btn-subbutton'>
+					<span>FAQ</span>
+				</div>
+				</a>
+				<a href='https://wiki.rpcs3.net'>
+				<div class='menu-btn-subbutton'>
+					<span>Wiki</span>
+				</div>
+				</a>
+				<a href="https://github.com/RPCS3/rpcs3" target="_blank">
+				<div class='menu-btn-subbutton'>
+					<span>GitHub</span>
+				</div>
+				</a>
+				<a href="https://discord.me/RPCS3" target="_blank">
+				<div class='menu-btn-subbutton'>
+					<span>Discord</span>
+				</div>
+				</a>
+				<a href="https://forums.rpcs3.net" target="_blank">
+				<div class='menu-btn-subbutton'>
+					<span>Forum</span>
+				</div>
+				</a>
 			</div>
 		</div>
 	</div>
