@@ -44,10 +44,12 @@
 				} else {
 					$content = file_get_contents("https://github.com/RPCS3/rpcs3/wiki/Roadmap");
 					if ($content) {
-						$start = "<div id=\"wiki-body\" class=\"wiki-body gollum-markdown-content instapaper_body\">
-				 "; $end = "
-			</div>
-			 "; echo explode($end, explode($start, $content)[1])[0]; } } ?>
+						$start = "<div id=\"wiki-body\" class=\"mt-4 flex-auto min-width-0 gollum-markdown-content instapaper_body\">";
+						$end = "</div>";
+						echo explode($end, explode($start, $content)[1])[0];
+					}
+				}
+				?>
 		</div>
 	</div>
 </div>
