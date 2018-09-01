@@ -473,6 +473,26 @@
 				</div>
 			</div>
 			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
+				<div class='container-img-member' style="background: url('/img/members/ruipin.png') no-repeat center; background-size: cover;">
+					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div class="container-con-wrapper about-con-avatar">
+					<div class='container-tx1-block darkmode-txt'>
+						<h2>
+						<span style="float: left;">
+						ruipin </span>
+						<span class="about-con-role about-wrp-contributor">
+						Contributor </span>
+						</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+					</div>
+				</div>
+			</div>
+			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 				<div class='container-img-member' style="background: url('/img/members/juhn.png') no-repeat center; background-size: cover;">
 					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/sweden.png') no-repeat center; background-size: cover;">
 					</div>
@@ -481,7 +501,7 @@
 					<div class='container-tx1-block darkmode-txt'>
 						<h2>
 						<span style="float: left;">
-						Juhn </span>
+						Juhn 0xCA7F00D</span>
 						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>

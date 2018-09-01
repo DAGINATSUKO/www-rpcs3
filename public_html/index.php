@@ -27,7 +27,7 @@
 	);
 	preloadVideo(
 	'3',
-	'1yirXWLszqU'
+	'siRL9gBpNMM'
 	);
 	if (file_exists('lib/compat/utils.php')) {
 		include('lib/compat/utils.php');
