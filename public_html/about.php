@@ -165,6 +165,26 @@
 					</div>
 				</div>
 				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
+					<div class='container-img-member' style="background: url('/img/members/elad.png') no-repeat center; background-size: cover;">
+						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/israel.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="container-con-wrapper about-con-avatar">
+						<div class='container-tx1-block darkmode-txt'>
+							<h2>
+							<span style="float: left;">
+							elad </span>
+							<span class="about-con-role about-wrp-contributor">
+							Developer </span>
+							</h2>
+						</div>
+						<div class='container-tx2-block darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: #e68364 url('/img/members/jarves.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
 						</div>
@@ -225,26 +245,6 @@
 					</div>
 				</div>
 				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
-					<div class='container-img-member' style="background: #e68364 url('/img/members/flashofsloth.png') no-repeat center; background-size: cover;">
-						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="container-con-wrapper about-con-avatar">
-						<div class='container-tx1-block darkmode-txt'>
-							<h2>
-							<span style="float: left;">
-							FlashOfSloth </span>
-							<span class="about-con-role about-wrp-contributor">
-							Developer </span>
-							</h2>
-						</div>
-						<div class='container-tx2-block darkmode-txt'>
-							<span>
-							FlashOfSloth has been around since early 2017. He's known for leading the effort into Qt, major UI additions, including a save manager and a WIP trophy notification. Fixing useless games no one cares about. </span>
-						</div>
-					</div>
-				</div>
-				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/megamouse.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/germany.png') no-repeat center; background-size: cover;">
 						</div>
@@ -281,6 +281,46 @@
 						<div class='container-tx2-block darkmode-txt'>
 							<span>
 							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
+					<div class='container-img-member' style="background: url('/img/members/yahfz.png') no-repeat center; background-size: cover;">
+						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/brazil.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="container-con-wrapper about-con-avatar">
+						<div class='container-tx1-block darkmode-txt'>
+							<h2>
+							<span style="float: left;">
+							Yahfz </span>
+							<span class="about-con-role about-wrp-contributor">
+							Contributor </span>
+							</h2>
+						</div>
+						<div class='container-tx2-block darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
+					<div class='container-img-member' style="background: #e68364 url('/img/members/flashofsloth.png') no-repeat center; background-size: cover;">
+						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/united-states.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="container-con-wrapper about-con-avatar">
+						<div class='container-tx1-block darkmode-txt'>
+							<h2>
+							<span style="float: left;">
+							FlashOfSloth </span>
+							<span class="about-con-role about-wrp-contributor">
+							Developer </span>
+							</h2>
+						</div>
+						<div class='container-tx2-block darkmode-txt'>
+							<span>
+							FlashOfSloth has been around since early 2017. He's known for leading the effort into Qt, major UI additions, including a save manager and a WIP trophy notification. Fixing useless games no one cares about. </span>
 						</div>
 					</div>
 				</div>
@@ -372,6 +412,26 @@
 					<h2>Contributors</h2>
 				</div>
 				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
+					<div class='container-img-member' style="background: url('/img/members/asinine.png') no-repeat center; background-size: cover;">
+						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/australia.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="container-con-wrapper about-con-avatar">
+						<div class='container-tx1-block darkmode-txt'>
+							<h2>
+							<span style="float: left;">
+							Asinine </span>
+							<span class="about-con-role about-wrp-contributor">
+							Contributor </span>
+							</h2>
+						</div>
+						<div class='container-tx2-block darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="container-con-block about-con-member darkmode-block darkmode-txt">
 					<div class='container-img-member' style="background: url('/img/members/farseer.png') no-repeat center; background-size: cover;">
 						<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/israel.png') no-repeat center; background-size: cover;">
 						</div>
@@ -442,26 +502,6 @@
 						<h2>
 						<span style="float: left;">
 						TGE </span>
-						<span class="about-con-role about-wrp-contributor">
-						Contributor </span>
-						</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<span>
-						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-					</div>
-				</div>
-			</div>
-			<div class="container-con-block about-con-member darkmode-block darkmode-txt">
-				<div class='container-img-member' style="background: #e68364 url('/img/members/eladash.png') no-repeat center; background-size: cover;">
-					<div class='container-img-national content-ico-flag' style="background: url('/img/icons/countries/israel.png') no-repeat center; background-size: cover;">
-					</div>
-				</div>
-				<div class="container-con-wrapper about-con-avatar">
-					<div class='container-tx1-block darkmode-txt'>
-						<h2>
-						<span style="float: left;">
-						eladash </span>
 						<span class="about-con-role about-wrp-contributor">
 						Contributor </span>
 						</h2>

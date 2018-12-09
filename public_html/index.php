@@ -23,11 +23,11 @@
 	);
 	preloadVideo(
 	'2',
-	'_Uyl_QEF60U'
+	'DNVKh_hp7_o'
 	);
 	preloadVideo(
 	'3',
-	'siRL9gBpNMM'
+	'vlKfaiFyjM4'
 	);
 	if (file_exists('lib/compat/utils.php')) {
 		include('lib/compat/utils.php');
