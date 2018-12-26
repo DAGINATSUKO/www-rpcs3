@@ -303,49 +303,52 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 LG <span class="highlight darkmode-highlight">BU20N</span>
+						LG <span class="highlight darkmode-highlight">BE16NU50</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">BH26NS40</span>
+						LG <span class="highlight darkmode-highlight">BH14NS40</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">UH12NS30</span>
+						LG <span class="highlight darkmode-highlight">BH16NS40</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">BH16NS40</span>
+						LG <span class="highlight darkmode-highlight">BH16NS48</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">BH16NS48</span>
+						LG <span class="highlight darkmode-highlight">BH26NS40</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">BH14NS40</span>
+						LG <span class="highlight darkmode-highlight">BP50NB40</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">WH24NS40</span>
+						LG <span class="highlight darkmode-highlight">BU20N</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">WH12LS30</span>
+						LG <span class="highlight darkmode-highlight">BU40N</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">WH24LS30</span>
+						LG <span class="highlight darkmode-highlight">UH12NS30</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">WH26NS40</span>
+						LG <span class="highlight darkmode-highlight">WH12LS30</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">WH16NS40</span>
+						LG <span class="highlight darkmode-highlight">WH14NS40</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">WH14NS40</span>
+						LG <span class="highlight darkmode-highlight">WH16NS40</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">WH16NS48</span>
+						LG <span class="highlight darkmode-highlight">WH16NS48</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">BP50NB40</span>
+						LG <span class="highlight darkmode-highlight">WH24LS30</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">BE16NU50</span>
+						LG <span class="highlight darkmode-highlight">WH24NS40</span>
+					</p>
+					<p>
+						LG <span class="highlight darkmode-highlight">WH26NS40</span>
 					</p>
 				</div>
 			</div>
@@ -354,22 +357,22 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 ASUS <span class="highlight darkmode-highlight">BC-08B1LT</span>
+						ASUS <span class="highlight darkmode-highlight">BC-08B1LT</span>
 					</p>
 					<p>
-						 ASUS <span class="highlight darkmode-highlight">BC-16D1HT</span>
+						ASUS <span class="highlight darkmode-highlight">BC-12B1ST</span> (some revisions)
 					</p>
 					<p>
-						 ASUS <span class="highlight darkmode-highlight">BC-12B1ST</span>
+						ASUS <span class="highlight darkmode-highlight">BC-12D2HT</span>
 					</p>
 					<p>
-						 ASUS <span class="highlight darkmode-highlight">BC-12D2HT</span>
+						ASUS <span class="highlight darkmode-highlight">BC-16D1HT</span>
 					</p>
 					<p>
-						 ASUS <span class="highlight darkmode-highlight">BW-12B1ST</span>
+						ASUS <span class="highlight darkmode-highlight">BW-12B1ST</span>
 					</p>
 					<p>
-						 ASUS <span class="highlight darkmode-highlight">BW-16D1HT</span>
+						ASUS <span class="highlight darkmode-highlight">BW-16D1HT</span>
 					</p>
 				</div>
 			</div>
