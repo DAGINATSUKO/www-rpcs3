@@ -18,7 +18,8 @@ For local deployment, our only requirement is [Docker](http://docker.com/getdock
 docker-compose up
 ```
 
-From there, open a web browser of your choosing and navigate to your prefered [localhost](http://localhost) address.
+From there, open a web browser of your choosing and navigate to your prefered [localhost](http://localhost:8080) address.
+However, you will need to access it from your browser by adding the `:8080` to your localhost address.
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com)
