@@ -159,7 +159,7 @@
 							<span><span>Website developed by </span><span class="footer-ico-webmaster"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://daginatsuko.com" target="_blank">DAGINATSUKO</a></span></span>
 						</div>
 						<div class="footer-tx2-webmaster">
-							<span>Founded by DH and Hykem © 2011 - 2018 RPCS3</span>
+							<span>Founded by DH and Hykem © 2011 - 2019 RPCS3</span>
 						</div>
 					</div>
 				</div>

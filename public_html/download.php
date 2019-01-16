@@ -14,18 +14,10 @@
 <body>
 <?php include 'lib/module/sys-php.php';?>
 <?php
-if (file_exists('lib/compat/utils.php')) {
-	include('lib/compat/utils.php');
-	$linux_button = ''; // Does not disable Linux button
-	$win = WindowsBuild::getLast();
-	$linux = getLatestLinuxBuild(); // 0 - Filename; 1 - Date
-} else {
-	$linux_button = ' button-disabled'; // Disables Linux button
-	$win[0] = 'https://ci.appveyor.com/project/rpcs3/rpcs3/branch/master/artifacts';
-	$win[1] = 'Latest version';
-	$linux[0] = 'Temporarily unavailable';
-	$linux[1] = 'https://github.com/RPCS3/rpcs3/releases';
-}
+// Compatibility utils must exist for this page to work at the moment
+// TODO: Handle behavior when compatibility plugin is not present?
+include 'lib/compat/utils.php';
+$build = Build::getLast();
 ?>
 <div class="page-con-content">
 	<div class="header-con-head">
@@ -87,17 +79,59 @@ if (file_exists('lib/compat/utils.php')) {
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Download Binaries</h2>
 			</div>
-			<a href='<?php echo $win->url; ?>' target="_blank">
+			<div class="build-con-container">
+				<div class="build-con-wrapper">
+					<div class='build-tx1-spec'>
+						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:16px;">
+						</div>
+						<span class="darkmode-txt">
+						Version
+						</span>
+					</div>
+					<div class="build-tx2-spec">
+						<span class="darkmode-txt">
+							<?php echo "v{$build->version} Alpha [{$build->fulldate}]"; ?>
+					 </span>
+					</div>
+				</div>
+				<div class="build-con-wrapper">
+					<div class='build-tx1-spec'>
+						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/github.png') no-repeat center; background-size:16px;">
+						</div>
+						<span class="darkmode-txt">
+						Pull Request</span>
+					</div>
+					<div class="build-tx2-spec">
+						<span class="darkmode-txt">
+						 <a href="https://github.com/RPCS3/rpcs3/pull/<?php echo $build->pr; ?>">#<?php echo $build->pr; ?></a>
+						 (<a href="https://github.com/RPCS3/rpcs3/commit/<?php echo $build->commit; ?>"><?php echo substr($build->commit, 0, 8); ?></a>)
+						 by <a href="https://github.com/<?php echo $build->author; ?>"><?php echo $build->author; ?></a>
+						</span>
+					</div>
+				</div>
+				<div class="build-con-wrapper">
+					<div class='build-tx1-spec'>
+						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:16px;">
+						</div>
+						<span class="darkmode-txt">
+						File Size</span>
+					</div>
+					<div class="build-tx2-spec">
+						<span class="darkmode-txt">
+						Windows: <?php echo $build->sizeMB_win; ?> MB, Linux: <?php echo $build->sizeMB_linux; ?> MB
+					 </span>
+					</div>
+				</div>
+			</div>
+			<a href='<?php echo $build->url_win; ?>' target="_blank">
 			<div class="download-con-container darkmode-panel">
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/windows-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span>
-					<span class="darkmode-txt">
-					Download for Windows </span>
-					<span class="download-define-build darkmode-txt">
-					<?php echo "v{$win->version} Alpha [{$win->fulldate}]"; ?>
-					</span>
+						<span class="darkmode-txt">
+						Download for Windows
+						</span>
 					</span>
 				</div>
 			</div>
@@ -111,55 +145,38 @@ if (file_exists('lib/compat/utils.php')) {
 					</div>
 					<div class="build-tx2-spec">
 						<span class="darkmode-txt">
-						<?php echo $win->checksum; ?>
+						<?php echo $build->checksum_win; ?>
 						</span>
-					</div>
-				</div>
-				<div class="build-con-wrapper">
-					<div class='build-tx1-spec'>
-						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/github.png') no-repeat center; background-size:16px;">
-						</div>
-						<span class="darkmode-txt">
-						Pull Request</span>
-					</div>
-					<div class="build-tx2-spec">
-						<span class="darkmode-txt">
-						 <a href="https://github.com/RPCS3/rpcs3/pull/<?php echo $win->pr; ?>">#<?php echo $win->pr; ?></a>
-						 (<a href="https://github.com/RPCS3/rpcs3/commit/<?php echo $win->commit; ?>"><?php echo substr($win->commit, 0, 8); ?></a>)
-						 by <a href="https://github.com/<?php echo $win->author; ?>"><?php echo $win->author; ?></a>
-						</span>
-					</div>
-				</div>
-				<div class="build-con-wrapper">
-					<div class='build-tx1-spec'>
-						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:16px;">
-						</div>
-						<span class="darkmode-txt">
-						File Size</span>
-					</div>
-					<div class="build-tx2-spec">
-						<span class="darkmode-txt">
-						<?php echo $win->sizeMB; ?>
-						 MB </span>
 					</div>
 				</div>
 			</div>
-			<a href='<?php echo $linux[0]; ?>' download target="_blank">
-			<div class="download-con-container download-con-imp darkmode-panel <?php echo $linux_button; ?>
-				 ">
+			<a href='<?php echo $build->url_linux; ?>' download target="_blank">
+			<div class="download-con-container download-con-imp darkmode-panel">
 				<div class='download-ico-container' style="background: url('/img/icons/buttons/linux-h.png') no-repeat center;">
 				</div>
 				<div class='download-tx1-heading'>
 					<span>
-					<span class="darkmode-txt">
-					Download for Linux </span>
-					<span class="download-define-build darkmode-txt">
-					<?php echo $linux[1]; ?>
-					</span>
+						<span class="darkmode-txt">
+						Download for Linux
+						</span>
 					</span>
 				</div>
 			</div>
 			</a>
+			<div class="build-con-container">
+				<div class="build-con-wrapper">
+					<div class='build-tx1-spec'>
+						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center; background-size:16px;">
+						</div>
+						<span class="darkmode-txt">SHA-256</span>
+					</div>
+					<div class="build-tx2-spec">
+						<span class="darkmode-txt">
+						<?php echo $build->checksum_linux; ?>
+						</span>
+					</div>
+				</div>
+			</div>
 			<div class="container-tx1-heading div-css-heading darkmode-txt">
 				<h2>Build Catalog</h2>
 			</div>

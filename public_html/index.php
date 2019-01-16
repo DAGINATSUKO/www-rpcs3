@@ -31,7 +31,7 @@
 	);
 	if (file_exists('lib/compat/utils.php')) {
 		include('lib/compat/utils.php');
-		$win = WindowsBuild::getLast();
+		$win = Build::getLast();
 		$ver = "v{$win->version} Alpha [{$win->fulldate}]";
 	} else {
 		$ver = "";
