@@ -66,6 +66,11 @@
 				<span>GitHub</span>
 			</div>
 			</a>
+			<a href='https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/featured' target="_blank">
+			<div class="menu-btn-select">
+				<span>YouTube</span>
+			</div>
+			</a>
 			<a href='https://discord.me/RPCS3' target="_blank">
 			<div class="menu-btn-select">
 				<span>Discord</span>
