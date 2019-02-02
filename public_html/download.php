@@ -16,7 +16,7 @@
 <?php
 // Compatibility utils must exist for this page to work at the moment
 // TODO: Handle behavior when compatibility plugin is not present?
-include 'lib/compat/utils.php';
+include 'lib/compat/objects/Build.php';
 $build = Build::getLast();
 ?>
 <div class="page-con-content">

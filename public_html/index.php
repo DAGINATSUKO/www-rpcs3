@@ -29,8 +29,8 @@
 	'3',
 	'vlKfaiFyjM4'
 	);
-	if (file_exists('lib/compat/utils.php')) {
-		include('lib/compat/utils.php');
+	if (file_exists('lib/compat/objects/Build.php')) {
+		include('lib/compat/objects/Build.php');
 		$win = Build::getLast();
 		$ver = "v{$win->version} Alpha [{$win->fulldate}]";
 	} else {
