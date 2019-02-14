@@ -22,7 +22,7 @@
 		<div class="header-con-diffuse">
 		</div>
 		<div class='header-con-body fade-up-onstart'>
-			<div class='header-tx1-body fade-up-onstart'>
+			<div class='header-tx1-body fade-up-onstart pulsate'>
 				<span>Roadmap</span>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
@@ -34,9 +34,6 @@
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Development Roadmap</h2>
-			</div>
 			<div class="markdown darkmode-block">
 				<?php
 				if (file_exists('cache/roadmap_cached.php')) {
@@ -44,12 +41,10 @@
 				} else {
 					$content = file_get_contents("https://github.com/RPCS3/rpcs3/wiki/Roadmap");
 					if ($content) {
-						$start = "<div id=\"wiki-body\" class=\"mt-4 flex-auto min-width-0 gollum-markdown-content instapaper_body\">";
-						$end = "</div>";
-						echo explode($end, explode($start, $content)[1])[0];
-					}
-				}
-				?>
+						$start = "<div id=\"wiki-body\" class=\"mt-4 flex-auto min-width-0 gollum-markdown-content instapaper_body\">
+				"; $end = "
+			</div>
+			"; echo explode($end, explode($start, $content)[1])[0]; } } ?>
 		</div>
 	</div>
 </div>

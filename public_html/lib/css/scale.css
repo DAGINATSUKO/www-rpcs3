@@ -1,7 +1,7 @@
-@charset "utf-8";
+@charset 'utf-8';
 @media screen and (max-device-width:480px) {
 	body {
-		-webkit-text-size-adjust: none;
+		-webkit-text-size-adjust:none;
 	}
 }
 @media screen and (max-width:1040px) {
@@ -21,7 +21,7 @@
 	}
 }
 @media screen and (max-width:1040px) {
-	.menu-btn-mobile{
+	.menu-btn-mobile {
 		display:block;
 	}
 }
@@ -32,7 +32,7 @@
 }
 @media screen and (max-width:750px) {
 	.footer-tx1-webmaster {
-		display: none;
+		display:none;
 	}
 }
 @media screen and (max-width:1260px) {
@@ -42,7 +42,7 @@
 }
 @media screen and (max-width:1260px) {
 	.override-hide {
-		display: none;
+		display:none;
 	}
 }
 @media screen and (max-width:1260px) {
@@ -52,50 +52,50 @@
 		width:372px !important;
 		margin-left:-186px!important;
 	}
-		.content-con-feature-a {
-		    height: 600px;
+	.content-con-feature-a {
+		height:600px;
 	}
 }
 @media screen and (max-height:780px) {
 	.video-con-viewport {
 		-webkit-transform:scale(.70);
 		-ms-transform:scale(.70);
-		    transform:scale(.70);
+		transform:scale(.70);
 	}
 }
 @media screen and (max-height:600px) {
 	.video-con-viewport {
 		-webkit-transform:scale(.60);
 		-ms-transform:scale(.60);
-		    transform:scale(.60);
+		transform:scale(.60);
 	}
 }
 @media screen and (max-height:400px) {
 	.video-con-viewport {
 		-webkit-transform:scale(.50);
 		-ms-transform:scale(.50);
-		    transform:scale(.50);
+		transform:scale(.50);
 	}
 }
 @media screen and (max-width:1240px) {
 	.video-con-viewport {
 		-webkit-transform:scale(.80);
-		-ms-transform: scale(.80);
-		    transform: scale(.80);
+		-ms-transform:scale(.80);
+		transform:scale(.80);
 	}
 }
 @media screen and (max-width:1010px) {
 	.video-con-viewport {
 		-webkit-transform:scale(.60);
-		-ms-transform: scale(.60);
-		    transform: scale(.60);
+		-ms-transform:scale(.60);
+		transform:scale(.60);
 	}
 }
 @media screen and (max-width:760px) {
 	.video-con-viewport {
-		-webkit-transform: scale(.45);
-		-ms-transform: scale(.45);
-		transform: scale(.45);
+		-webkit-transform:scale(.45);
+		-ms-transform:scale(.45);
+		transform:scale(.45);
 	}
 }
 @media screen and (max-width:750px) {
@@ -105,33 +105,33 @@
 }
 @media screen and (max-width:800px) {
 	.content-ico-wrap {
-		display: block !important;
+		display:block !important;
 	}
 	.content-tx1-wrap {
+		font-size:34px;
 		text-align:center;
-		font-size: 34px;
 	}
 	.content-btn-download {
-		display: block;
-		left: 50%;
-		margin-left: -70px;
+		left:50%;
+		display:block;
+		margin-left:-70px;
 	}
-	.content-tx1-download 	 {
-		display: none;
+	.content-tx1-download {
+		display:none;
 	}
 }
 @media screen and (max-width:800px) {
 	.content-expand {
-		    width: 100%;
+		width:100%;
 	}
 }
 @media screen and (max-width:800px) {
-	.content-remove{
-		    display:none;
+	.content-remove {
+		display:none;
 	}
 }
 @media screen and (max-width:1395px) {
-	.container-img-national {
+	.member-img-flag {
 		display: none!important;
 	}
 }

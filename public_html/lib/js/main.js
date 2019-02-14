@@ -65,6 +65,13 @@ $(document).ready(function() {
         'background': 'no-repeat center top url(/img/banners/' + images[Math.floor(Math.random() * images.length)] + ')'
     });
 });
+/* Handles text pulsation*/
+$(document).ready(function() {
+	var glow = $('.pulsate');
+	setInterval(function() {
+	  glow.hasClass('glow') ? glow.removeClass('glow') : glow.addClass('glow');
+	}, 1000);
+});
 /* Menu opacity and scroll indicator on scroll distance */
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();

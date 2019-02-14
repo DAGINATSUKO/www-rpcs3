@@ -1,8 +1,6 @@
 <footer>
 <div class="footer-con-container">
 	<div class="footer-con-overlay darkmode-header">
-		<div id="particles-js-1">
-		</div>
 		<div class="footer-con-header">
 			<div class="footer-con-outer">
 				<div class="footer-con-inner">
@@ -126,7 +124,7 @@
 							<div class="footer-table-in">
 								<div class="footer-con-bound">
 									<div class="footer-tx1-bound">
-										<span>Source Code</span>
+										<span>Source</span>
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://github.com/RPCS3/rpcs3" target="_blank">

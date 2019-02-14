@@ -3,7 +3,7 @@
 <div class='sidebar-con-dimmer toggle-blogbar'>
 	<div class='blogbar-con-anim dropin-load darkmode-navsidebar-anim'>
 		<div class="blogbar-tx1-title darkmode-navsidebar-title" style='-webkit-animation-duration: .4s;'>
-			  <span>RPCS3 Developers Blog </span>
+			  <span>Developers Blog </span>
 		</div>
 				<div id="sidebar" class="sidebar" style='-webkit-animation-duration: .4s;'>
 				<header id="masthead" class="site-header" role="banner">

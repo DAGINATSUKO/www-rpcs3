@@ -1,4 +1,12 @@
-@charset "utf-8";
+@charset 'utf-8';
 .toggle-message {
-    display: none;
+	display:none;
+}
+.pulsate {
+	-webkit-transition:text-shadow 1s linear;
+	-o-transition:text-shadow 1s linear;
+	transition:text-shadow 1s linear;
+}
+.pulsate.glow {
+	text-shadow: 0 0 20px #fff;
 }

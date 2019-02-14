@@ -10,8 +10,10 @@
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
-<script data-cfasync="false" src='/lib/js/timer.js'></script>
 <?php include 'lib/module/sys-js.php';?>
+<script data-cfasync="false" src='/lib/js/timer.js'></script>
+<script data-cfasync="false" src='/lib/js/particles.js'></script>
+<script data-cfasync="false" src='/lib/js/particles-sel.js'></script>
 </head>
 <body>
 <?php include 'lib/module/sys-php.php';?>
@@ -37,7 +39,6 @@
 		$ver = "";
 	}
 ?>
-
 <div class="page-con-content context-css-override">
 	<div class='arrow-ico-scroll'>
 	</div>
@@ -52,7 +53,7 @@
 					<div class="content-txt-wrap scale-content-txt-1 fade-in-onload">
 						<div class='content-ico-wrap'>
 						</div>
-						<div class='content-tx1-wrap'>
+						<div class='content-tx1-wrap pulsate'>
 							<h1>Open-source<br>
 							 PlayStation 3 Emulator</h1>
 						</div>
@@ -288,7 +289,7 @@
 	</div>
 	<div class="content-con-feature-c">
 		<div class='content-txt-ad darkmode-txt'>
-			<span>ADVERTISEMENT</span>
+			<span>Advertisement</span>
 		</div>
 		<div class="content-con-ad darkmode-ad div-css-context-ad">
 			<div style="text-align: center; top: 20px; position: relative; z-index:2;">

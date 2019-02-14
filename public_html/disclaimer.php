@@ -22,7 +22,7 @@
 		<div class="header-con-diffuse">
 		</div>
 		<div class='header-con-body fade-up-onstart'>
-			<div class='header-tx1-body fade-up-onstart'>
+			<div class='header-tx1-body fade-up-onstart pulsate'>
 				<span>Disclaimer</span>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
@@ -34,11 +34,6 @@
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-		
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Legal Disclaimer <h2>
-			</div>
-		
 			<div class="container-con-block darkmode-block">
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>

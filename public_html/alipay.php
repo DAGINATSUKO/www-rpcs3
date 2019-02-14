@@ -16,27 +16,25 @@
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
 	<div class="header-con-overlay darkmode-header" style="position:fixed;">
-	<div id="particles-js-1"></div>
+		<div class='alipay-con-alipay'>
+			<div class="alipay-ico-logo">
+			</div>
+			<a href='/img/icons/alipay/qr.png' target="_blank">
+			<div class="alipay-ico-alipay">
+			</div>
+			</a>
+			<div class="alipay-tx1-prompt">
+				<span>基木</span>
+			</div>
+			<div class="alipay-tx2-prompt">
+				<span>用支付宝扫一扫付钱</span>
+			</div>
+		</div>
+		<div class="alipay-con-footer">
+			<p>
+				 © Copyright 2004-2017 Alipay. All rights reserved.
+			</p>
+		</div>
 	</div>
-	<div class='alipay-con-alipay'>
-		<div class="alipay-ico-logo">
-		</div>
-		<a href='/img/icons/alipay/qr.png' target="_blank">
-		<div class="alipay-ico-alipay">
-		</div>
-		</a>
-		<div class="alipay-tx1-prompt">
-			<span>基木</span>
-		</div>
-		<div class="alipay-tx2-prompt">
-			<span>用支付宝扫一扫付钱</span>
-		</div>
-	</div>
-	<div class="alipay-con-footer">
-		<p>
-			 © Copyright 2004-2017 Alipay. All rights reserved.
-		</p>
-	</div>
-</div>
-</body>
-</html>
+	</body>
+	</html>

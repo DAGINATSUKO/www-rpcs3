@@ -22,7 +22,7 @@
 		<div class="header-con-diffuse">
 		</div>
 		<div class='header-con-body fade-up-onstart'>
-			<div class='header-tx1-body fade-up-onstart'>
+			<div class='header-tx1-body fade-up-onstart pulsate'>
 				<span>FAQs</span>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
@@ -34,11 +34,6 @@
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-		
-					<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Frequently Asked Questions<h2>
-			</div>
-		
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -59,7 +54,7 @@
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
 							 We don't work on developing a game X or Y emulator, we work on developing a PlayStation 3 emulator.<br>
-							 Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks. 
+							 Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks.
 						</p>
 					</div>
 				</div>

@@ -28,7 +28,7 @@ $build = Build::getLast();
 		<div class="header-con-diffuse">
 		</div>
 		<div class='header-con-body fade-up-onstart'>
-			<div class='header-tx1-body fade-up-onstart'>
+			<div class='header-tx1-body fade-up-onstart pulsate'>
 				<span>Download</span>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
@@ -40,150 +40,118 @@ $build = Build::getLast();
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Download Information</h2>
-			</div>
 			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
+				<div class='container-con-wrapper' style="padding-bottom: 0px;">
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>Experimental Binaries</h2>
+						<h2>Latest Builds</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 RPCS3 is still in its early stages of development and the binaries we produce are highly experimental. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase. If you come across any regressions upon a new release, please be sure to report your findings on our forum. <br>
+							 RPCS3 is still in its early stages of development and the binaries we produce are highly experimental. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase. If you come across any regressions upon a new release, please be sure to report your findings on our forum.<br>
 							<br>
-							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute<span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
-							<br>
-								<br>
-							<b>Download using wget:</b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
-							<br>
-							<b>Download using curl:</b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
-						</p>
+							 The system requirements for running the emulator vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements but you're always welcome to experiment. See the <a href="/quickstart">Quickstart</a> guide for more information. <br>
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class='panel-con-wrapper'>
-				<a href='/quickstart'>
-				<div class="panel-con-container panel-center button-enabled darkmode-panel">
-					<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/faq.png') no-repeat center;">
+			<div class='button-con-container'>
+				<a href='<?php echo $build->url_win; ?>' download>
+				<div class="button-con-wrapper button-left darkmode-panel">
+					<div class='button-ico-container' style="background: url('/img/icons/buttons/windows-h.png') no-repeat center;">
 					</div>
-					<div class="panel-tx1-heading darkmode-txt">
-						<p>
-							 See the Quickstart guide for system requirements
-						</p>
+					<div class="button-tx1-text pulsate darkmode-txt">
+						<span>
+						Download for Windows </span>
+					</div>
+				</div>
+				</a>
+				<a href='<?php echo $build->url_linux; ?>' download>
+				<div class="button-con-wrapper button-right darkmode-panel">
+					<div class='button-ico-container' style="background: url('/img/icons/buttons/linux-h.png') no-repeat center;">
+					</div>
+					<div class="button-tx1-text pulsate darkmode-txt">
+						<span>
+						Download for Linux </span>
 					</div>
 				</div>
 				</a>
 			</div>
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Download Binaries</h2>
-			</div>
-			<div class="build-con-container">
-				<div class="build-con-wrapper">
-					<div class='build-tx1-spec'>
-						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:16px;">
-						</div>
-						<span class="darkmode-txt">
-						Version
-						</span>
+			<div class='label-con-container'>
+				<div class="label-con-wrapper label-left darkmode-panel">
+					<div class="label-tx1-title darkmode-txt">
+						<span>SHA-256</span>
 					</div>
-					<div class="build-tx2-spec">
-						<span class="darkmode-txt">
-							<?php echo "v{$build->version} Alpha [{$build->fulldate}]"; ?>
-					 </span>
+					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
+					</div>
+					<div class="label-tx1-text darkmode-txt">
+						<span>
+						<?php echo $build->
+						 checksum_win; ?> </span>
 					</div>
 				</div>
-				<div class="build-con-wrapper">
-					<div class='build-tx1-spec'>
-						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/github.png') no-repeat center; background-size:16px;">
+				<div class="label-con-wrapper label-right darkmode-panel">
+					<div class="label-tx1-title darkmode-txt">
+						<span>SHA-256</span>
+					</div>
+					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
+					</div>
+					<div class="label-tx1-text darkmode-txt">
+						<span>
+						<?php echo $build->
+						 checksum_linux; ?> </span>
+					</div>
+				</div>
+			</div>
+			<div class="binary-con-container">
+				<div class="binary-con-wrapper">
+					<div class='binary-tx1-content'>
+						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/history.png') no-repeat center; background-size:20px;">
+						</div>
+						<span class="darkmode-txt">
+						Version </span>
+					</div>
+					<div class="binary-tx2-content">
+						<span class="darkmode-txt">
+						<?php echo "v{$build->
+						 version} Alpha [{$build->fulldate}]"; ?> </span>
+					</div>
+				</div>
+				<div class="binary-con-wrapper">
+					<div class='binary-tx1-content'>
+						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/pull.png') no-repeat center; background-size:20px;">
 						</div>
 						<span class="darkmode-txt">
 						Pull Request</span>
 					</div>
-					<div class="build-tx2-spec">
+					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
-						 <a href="https://github.com/RPCS3/rpcs3/pull/<?php echo $build->pr; ?>">#<?php echo $build->pr; ?></a>
-						 (<a href="https://github.com/RPCS3/rpcs3/commit/<?php echo $build->commit; ?>"><?php echo substr($build->commit, 0, 8); ?></a>)
-						 by <a href="https://github.com/<?php echo $build->author; ?>"><?php echo $build->author; ?></a>
+						<a href="https://github.com/RPCS3/rpcs3/pull/<?php echo $build->pr; ?>">#<?php echo $build->
+						 pr; ?></a>
+						(<a href="https://github.com/RPCS3/rpcs3/commit/<?php echo $build->commit; ?>"><?php echo substr($build->
+						 commit, 0, 8); ?></a>) by <a href="https://github.com/<?php echo $build->author; ?>"><?php echo $build->
+						 author; ?></a>
 						</span>
 					</div>
 				</div>
-				<div class="build-con-wrapper">
-					<div class='build-tx1-spec'>
-						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:16px;">
+				<div class="binary-con-wrapper">
+					<div class='binary-tx1-content'>
+						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:20px;">
 						</div>
 						<span class="darkmode-txt">
 						File Size</span>
 					</div>
-					<div class="build-tx2-spec">
+					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
-						Windows: <?php echo $build->sizeMB_win; ?> MB, Linux: <?php echo $build->sizeMB_linux; ?> MB
-					 </span>
+						Windows: <?php echo $build->
+						 sizeMB_win; ?> MB, Linux: <?php echo $build->
+						 sizeMB_linux; ?> MB </span>
 					</div>
 				</div>
-			</div>
-			<a href='<?php echo $build->url_win; ?>' target="_blank">
-			<div class="download-con-container darkmode-panel">
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/windows-h.png') no-repeat center;">
-				</div>
-				<div class='download-tx1-heading'>
-					<span>
-						<span class="darkmode-txt">
-						Download for Windows
-						</span>
-					</span>
-				</div>
-			</div>
-			</a>
-			<div class="build-con-container">
-				<div class="build-con-wrapper">
-					<div class='build-tx1-spec'>
-						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center; background-size:16px;">
-						</div>
-						<span class="darkmode-txt">SHA-256</span>
-					</div>
-					<div class="build-tx2-spec">
-						<span class="darkmode-txt">
-						<?php echo $build->checksum_win; ?>
-						</span>
-					</div>
-				</div>
-			</div>
-			<a href='<?php echo $build->url_linux; ?>' download target="_blank">
-			<div class="download-con-container download-con-imp darkmode-panel">
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/linux-h.png') no-repeat center;">
-				</div>
-				<div class='download-tx1-heading'>
-					<span>
-						<span class="darkmode-txt">
-						Download for Linux
-						</span>
-					</span>
-				</div>
-			</div>
-			</a>
-			<div class="build-con-container">
-				<div class="build-con-wrapper">
-					<div class='build-tx1-spec'>
-						<div class='build-img-spec darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center; background-size:16px;">
-						</div>
-						<span class="darkmode-txt">SHA-256</span>
-					</div>
-					<div class="build-tx2-spec">
-						<span class="darkmode-txt">
-						<?php echo $build->checksum_linux; ?>
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Build Catalog</h2>
 			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>Complete Build Catalog</h2>
+						<h2>Previous Builds</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
@@ -192,18 +160,44 @@ $build = Build::getLast();
 					</div>
 				</div>
 			</div>
-			<a href='https://rpcs3.net/compatibility?b'>
-			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/history-h.png') no-repeat center;">
+			<div class='button-con-container'>
+				<a href='https://rpcs3.net/compatibility?b'>
+				<div class="button-con-wrapper button-left darkmode-panel">
+					<div class='button-ico-container' style="background: url('/img/icons/buttons/history-h.png') no-repeat center;">
+					</div>
+					<div class="button-tx1-text darkmode-txt">
+						<span>
+						Download Previous Builds </span>
+					</div>
 				</div>
-				<div class='download-tx1-heading'>
-					<span class="darkmode-txt">
-					Browse Build Catalog</span>
+				</a>
+				<div class="label-con-wrapper label-right darkmode-panel">
+					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/commit.png') no-repeat center;">
+					</div>
+					<div class="label-tx1-text darkmode-txt">
+						<span>
+						For detailed changes, see <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> via GitHub. </span>
+					</div>
 				</div>
 			</div>
-			</a>
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Download Website</h2>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper' style="padding-bottom: 0px;">
+					<div class='container-tx1-block darkmode-txt'>
+						<h2>For Linux Users</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<p class="download-desc">
+							 RPCS3 is still in its early stages of development and the binaries we produce are highly experimental. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase. If you come across any regressions upon a new release, please be sure to report your findings on our forum. <br>
+							<br>
+							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute<span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
+							<br>
+							<br>
+							<b>Download using wget</b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
+							<br>
+							<b>Download using curl</b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
@@ -217,28 +211,27 @@ $build = Build::getLast();
 					</div>
 				</div>
 			</div>
-			<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
-			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/website-h.png') no-repeat center;">
+			<div class='button-con-container'>
+				<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
+				<div class="button-con-wrapper button-left darkmode-panel">
+					<div class='button-ico-container' style="background: url('/img/icons/buttons/website-h.png') no-repeat center;">
+					</div>
+					<div class="button-tx1-text darkmode-txt">
+						<span>
+						Website Repository </span>
+					</div>
 				</div>
-				<div class='download-tx1-heading'>
-					<span class="darkmode-txt">
-					View Core Repository</span>
+				</a>
+				<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
+				<div class="button-con-wrapper button-right darkmode-panel">
+					<div class='button-ico-container' style="background: url('/img/icons/buttons/compat-h.png') no-repeat center;">
+					</div>
+					<div class="button-tx1-text darkmode-txt">
+						<span>
+						Compatibility Repository </span>
+					</div>
 				</div>
-			</div>
-			</a>
-			<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
-			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/compat-h.png') no-repeat center;">
-				</div>
-				<div class='download-tx1-heading'>
-					<span class="darkmode-txt">
-					View Compatibility List Repository</span>
-				</div>
-			</div>
-			</a>
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				<h2>Download Press Kit</h2>
+				</a>
 			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
@@ -252,26 +245,28 @@ $build = Build::getLast();
 					</div>
 				</div>
 			</div>
-			<a href='/cdn/press/Press%20Kit.zip' download>
-			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/presskit-h.png') no-repeat center;">
+			<div class='button-con-container'>
+				<a href='/cdn/press/Press%20Kit.zip' download>
+				<div class="button-con-wrapper button-left darkmode-panel">
+					<div class='button-ico-container' style="background: url('/img/icons/buttons/presskit-h.png') no-repeat center;">
+					</div>
+					<div class="button-tx1-text darkmode-txt">
+						<span>
+						Download Press Kit </span>
+					</div>
 				</div>
-				<div class='download-tx1-heading'>
-					<span class="darkmode-txt">
-					Download Press Kit </span>
+				</a>
+				<a href='/cdn/docs/Docs.zip' download>
+				<div class="button-con-wrapper button-right darkmode-panel">
+					<div class='button-ico-container' style="background: url('/img/icons/buttons/docs-h.png') no-repeat center;">
+					</div>
+					<div class="button-tx1-text darkmode-txt">
+						<span>
+						Download Docs </span>
+					</div>
 				</div>
+				</a>
 			</div>
-			</a>
-			<a href='/cdn/docs/Docs.zip' download>
-			<div class='download-con-container darkmode-panel'>
-				<div class='download-ico-container' style="background: url('/img/icons/buttons/docs-h.png') no-repeat center;">
-				</div>
-				<div class='download-tx1-heading'>
-					<span class="darkmode-txt">
-					Download Documentation </span>
-				</div>
-			</div>
-			</a>
 		</div>
 	</div>
 	<?php include 'lib/module/ui-main-footer.php';?>
