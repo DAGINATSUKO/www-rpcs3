@@ -291,6 +291,9 @@
 						 LG <span class="highlight darkmode-highlight">BH16NS48</span>
 					</p>
 					<p>
+						 LG <span class="highlight darkmode-highlight">BH16NS55</span>
+					</p>
+					<p>
 						 LG <span class="highlight darkmode-highlight">BH26NS40</span>
 					</p>
 					<p>
