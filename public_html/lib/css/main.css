@@ -1554,16 +1554,16 @@ a:hover {
 .social-icons {
   text-align: center;
   }  
-.social-icons li {
+.social-icons {
   display:inline-block;
   list-style-type:none;
   -webkit-user-select:none;
   -moz-user-select:none;
   }
-.social-icons li a {
+.social-icons a {
   border-bottom: none;
   }
-.social-icons li img {
+.social-icons img {
   width:70px;
   height:70px;
   margin-right: 20px;
