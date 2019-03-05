@@ -91,34 +91,37 @@
 						<td>
 							<div class="footer-table-in">
 								<div class="footer-con-bound">
+									<div class="social-icons">
 									<div class="footer-tx1-bound">
 										<span>Social</span>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://discord.me/RPCS3" target="_blank">
+										<a href="https://discord.me/RPCS3" target="_blank"><img src='img/icons/buttons/discord.png' />
 										<span>Discord</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://forums.rpcs3.net" target="_blank">
+										<a href="https://forums.rpcs3.net" target="_blank"><img src='img/icons/buttons/forums.png' />
 										<span>Forums</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ" target="_blank">
+										<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ" target="_blank"><img src='img/icons/buttons/youtube.png' />
 										<span>YouTube</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://twitter.com/rpcs3" target="_blank">
+										<a href="https://twitter.com/rpcs3" target="_blank"><img src='img/icons/buttons/twitter.png' />
 										<span>Twitter</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://www.reddit.com/r/rpcs3" target="_blank">
+										<a href="https://www.reddit.com/r/rpcs3" target="_blank"><img src='img/icons/buttons/reddit.png' />
 										<span>Reddit</span>
 										</a>
 									</div>
+										
+						                     </div>
 								</div>
 							</div>
 						</td>
