@@ -50,6 +50,7 @@
 				</div>
 			</div>
 			<?php include 'lib/module/ui-main-specs.php';?>
+			
 			<div class="guide-con-content darkmode-panel">
 				<div class="anchorpoint" id="updating">
 				</div>
@@ -70,6 +71,7 @@
 					</p>
 				</div>
 			</div>
+			
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="firmware">
 				</div>
@@ -86,6 +88,7 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="guide-con-content darkmode-panel">
 				<div class="anchorpoint" id="manage_saves">
 				</div>
@@ -106,6 +109,7 @@
 					</p>
 				</div>
 			</div>
+			
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="manage_files">
 				</div>
@@ -142,6 +146,7 @@
 					</p>
 				</div>
 			</div>
+			
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="manage_formats">
 				</div>
@@ -170,6 +175,7 @@
 					</div>
 				</div>
 			</div>
+			
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="install_games">
 				</div>
@@ -202,6 +208,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="install_updates">
 				</div>
@@ -217,6 +224,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="software_distribution">
 				</div>
@@ -233,6 +241,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="guide-con-content darkmode-panel">
 				<div class="anchorpoint" id="dumping_methods">
 				</div>
@@ -260,6 +269,7 @@
 					</p>
 				</div>
 			</div>
+
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="compatible_drives">
 				</div>
@@ -400,8 +410,54 @@
 					</p>
 				</div>
 			</div>
+			
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="dumping_procedure">
+				<div class="anchorpoint" id="dumping_procedure"></div>
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
+						<h2>One-click easy solution</h2>
+					</div>
+					<div class="container-tx2-block darkmode-txt">
+						<p>
+							 This is an automated &amp; user-friendly way of getting a decrypted copy of your PlayStation 3 discs.
+							 You must possess one of the aforementioned compatible disc drives to complete the disc dumping procedure.
+							 Again, this method will not work with standard Blu-ray drives.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="guide-con-content darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/download.png') no-repeat center;">
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						 Download <a href='https://github.com/13xforever/ps3-disc-dumper/releases/latest'>PS3 Disc Dumper</a> by 13xforever.
+					</p>
+				</div>
+			</div>
+			<div class="guide-con-content darkmode-panel">
+				<div class='guide-tx1-content darkmode-invert'>
+					<span>1</span>
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						Insert a PlayStation 3 format disc title of your choice into your compatible Blu-ray drive.
+					</p>
+				</div>
+			</div>
+			<div class="guide-con-content darkmode-panel">
+				<div class='guide-tx1-content darkmode-invert'>
+					<span>2</span>
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						Run the PS3 Disc Dumper.
+					</p>
+				</div>
+			</div>
+
+			<div class="container-con-block darkmode-block">
+				<div class="anchorpoint" id="dumping_procddure_manual">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -409,7 +465,7 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 Here's a compiled list of the step-by-step instructions we use for dumping disc-based PlayStation 3 format titles. You must possess one of the aforementioned compatible disc drives to complete the disc dumping procedure. Again, this method will not work with standard Blu-ray drives.
+							In case the easy way didn't work for you, here's a compiled list of the step-by-step instructions we used for dumping disc-based PlayStation 3 format titles before.
 						</p>
 					</div>
 				</div>
@@ -447,7 +503,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Insert a PlayStation 3 format disc title of your choice into your compatible BD Drive.
+						 Insert a PlayStation 3 format disc title of your choice into your compatible Blu-ray drive.
 					</p>
 				</div>
 			</div>
