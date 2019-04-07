@@ -197,7 +197,7 @@
 					</div>
 					<div class='context-tx2-block darkmode-txt'>
 						<p>
-							 Join our Discord community featuring over 28,000 members for project announcements, developer interaction and emulator configuration support. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a custom designed compatibility bot that allows users to request, then fetch the status for over 2800 tested PlayStation 3 titles.
+							 Join our Discord community featuring over 37,000 members for project announcements, developer interaction and emulator configuration support. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a custom designed compatibility bot that allows users to request, then fetch the status for over 2800 tested PlayStation 3 titles.
 						</p>
 					</div>
 					<a href="https://discord.me/RPCS3" target="_blank">

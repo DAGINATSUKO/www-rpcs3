@@ -83,7 +83,7 @@ $build = Build::getLast();
 					</div>
 					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
 					</div>
-					<div class="label-tx1-text darkmode-txt">
+					<div class="label-tx1-text darkmode-txt" style="top: 8px;">
 						<span>
 						<?php echo $build->
 						 checksum_win; ?> </span>
@@ -95,7 +95,7 @@ $build = Build::getLast();
 					</div>
 					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
 					</div>
-					<div class="label-tx1-text darkmode-txt">
+					<div class="label-tx1-text darkmode-txt" style="top: 8px;">
 						<span>
 						<?php echo $build->
 						 checksum_linux; ?> </span>
