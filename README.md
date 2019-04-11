@@ -18,7 +18,7 @@ For local deployment, our only requirement is [Docker](http://docker.com/getdock
 docker-compose up
 ```
 
-From there, open a web browser of your choosing and navigate to your prefered [localhost](http://localhost:8080) address.
+From there, open a web browser of your choosing and navigate to your preferred [localhost](http://localhost:8080) address.
 However, you will need to access it from your browser by adding the `:8080` to your localhost address.
 
 This website uses a CronJob to fetch the Roadmap. Your CronJob should be similar to `php public_html/lib/cronjobs/cron.roadmap.php` (using the appropriate paths to the php executable and the public_html directory) with a recommended timing of once an hour (`0 * * * *`).
