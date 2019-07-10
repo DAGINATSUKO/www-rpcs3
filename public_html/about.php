@@ -161,7 +161,7 @@
 						</div>
 						<div class='member-tx3-content darkmode-txt'>
 							<span>
-							Ever since elad started contributing in November 2017, he's been constantly pushing improvements to every part of the emulator, as well as improving his own skills exponentially. Thanks to him, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved, and his lv2 & MFC related contributions largely increased game stability. He is also responsible for fixing countless RSX mishaps, and getting significant amount of games from loadable/menu to ingame/playable, with the most notable cases being getting several Naughty Dog titles ingame, and figuring out the very last issue that kept MGS4 from properly booting.</span>
+							Ever since elad started contributing in November 2017, he's been constantly pushing improvements to every part of the emulator, as well as improving his own skills exponentially. Thanks to him, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved, and his lv2 &amp; MFC related contributions largely increased game stability. He is also responsible for fixing countless RSX mishaps, and getting significant amount of games from loadable/menu to ingame/playable, with the most notable cases being getting several Naughty Dog titles ingame, and figuring out the very last issue that kept MGS4 from properly booting.</span>
 						</div>
 					</div>
 				</div>
