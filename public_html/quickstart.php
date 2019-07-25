@@ -426,6 +426,25 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="container-con-block darkmode-block">
+				<div class="anchorpoint" id="dumping_linux"></div>
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
+						<h2>A command-line option for Linux users</h2>
+					</div>
+					<div class="container-tx2-block darkmode-txt">
+						<p>
+							If you're comfortable with the Linux command-line and you have a compatible BluRay drive, you can try ripping PlayStation 3 discs using a Python program called <a href="https://notabug.org/necklace/libray" target="_blank" rel="noopener noreferrer">LibRay</a>.
+						</p>
+
+						<p>
+							Do note that this method requires an <span class="highlight darkmode-highlight">.ird</span> file that matches your title ID to be available on <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a>. (libray will automatically attempt to download the correct <span class="highlight darkmode-highlight">.ird</span> file, if it exists, so you do not need to do so manually.) If a matching <span class="highlight darkmode-highlight">.ird</span> file is not present, please try the PS3 Disc Dumper mentioned below.
+						</p>
+					</div>
+				</div>
+			</div>
+
 			<div class="guide-con-content darkmode-panel">
 				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/download.png') no-repeat center;">
 				</div>
