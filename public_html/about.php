@@ -161,7 +161,7 @@
 						</div>
 						<div class='member-tx3-content darkmode-txt'>
 							<span>
-							Ever since elad started contributing in November 2017, he's been constantly pushing improvements to every part of the emulator, as well as improving his own skills exponentially. Thanks to him, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved, and his lv2 &amp; MFC related contributions largely increased game stability. He is also responsible for fixing countless RSX mishaps, and getting significant amount of games from loadable/menu to ingame/playable, with the most notable cases being getting several Naughty Dog titles ingame, and figuring out the very last issue that kept MGS4 from properly booting.</span>
+							Ever since elad started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability. He is also responsible for fixing countless RSX mishaps and getting significant amount of games from loadable/menu to ingame/playable with the most notable cases being getting several Naughty Dog titles ingame and figuring out the very last issue that kept MGS4 from properly booting.</span>
 						</div>
 					</div>
 				</div>
@@ -248,6 +248,24 @@
 							GalCiv </span>
 							<span class="member-con-role role-contributor">
 							Developer </span>
+						</div>
+						<div class='member-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+					<div class="member-con-content darkmode-txt">
+					<div class='member-img-avatar' style="background: url('/img/members/whatcookie.png') no-repeat center; background-size: cover;">
+						<div class='member-img-flag' style="background: url('/img/icons/countries/canada.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="member-con-wrapper">
+						<div class='member-tx1-content darkmode-txt'>
+							<span class="member-tx2-member ">
+							Whatcookie </span>
+							<span class="member-con-role role-contributor">
+							Contributor </span>
 						</div>
 						<div class='member-tx3-content darkmode-txt'>
 							<span>
@@ -463,7 +481,7 @@
 			</div>
 			<div class="member-con-content darkmode-txt">
 				<div class='member-img-avatar' style="background: url('/img/members/ruipin.png') no-repeat center; background-size: cover;">
-					<div class='member-img-flag' style="background: url('/img/icons/countries/unknown.png') no-repeat center; background-size: cover;">
+					<div class='member-img-flag' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 				<div class="member-con-wrapper">

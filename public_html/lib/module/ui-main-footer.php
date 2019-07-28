@@ -128,12 +128,12 @@
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://github.com/RPCS3/rpcs3" target="_blank">
-										<span>RPCS3</span>
+										<span>Project</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://github.com/DAGINATSUKO/www-rpcs3" target="_blank">
-										<span>RPCS3.net</span>
+										<span>Website</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
