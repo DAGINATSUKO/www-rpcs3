@@ -169,7 +169,7 @@ a:hover {
 	color:inherit
 }
 .header-tx2-body {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:16px;
 	line-height:20px;
 	height:20px;
@@ -204,7 +204,7 @@ a:hover {
 	color:#000
 }
 .container-tx2-block {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:30px;
 	position:relative;
@@ -270,13 +270,13 @@ a:hover {
 	color:#000
 }
 .member-tx2-member {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:18px;
 	font-weight:400;
 	float:left
 }
 .member-tx3-content {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:30px;
 	position:relative;
@@ -318,7 +318,7 @@ a:hover {
 	box-shadow:10px 10px 32px 0 rgba(0,0,0,.2)
 }
 .member-con-role {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	font-weight:100;
 	line-height:20px;
@@ -509,7 +509,7 @@ a:hover {
 	height:56px
 }
 #timer-tx1-body {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:66px;
 	line-height:70px;
 	position:relative;
@@ -522,7 +522,7 @@ a:hover {
 	color:#fff
 }
 .timer-tx2-body {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:20px;
 	font-weight:700;
 	line-height:48px;
@@ -624,7 +624,7 @@ a:hover {
 	color:#fff
 }
 .footer-tx2-bound {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:30px;
 	position:relative;
@@ -643,7 +643,7 @@ a:hover {
 	border-top:1px solid rgba(255,255,255,.1)
 }
 .footer-tx1-webmaster {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	line-height:100px;
 	position:absolute;
@@ -658,7 +658,7 @@ a:hover {
 	color:#fff
 }
 .footer-tx2-webmaster {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	line-height:100px;
 	position:absolute;
@@ -804,7 +804,7 @@ a:hover {
 	background-size:16px
 }
 .search-txt-search {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	line-height:50px;
 	position:absolute;
@@ -940,7 +940,7 @@ a:hover {
 	margin-top:30px
 }
 .content-btn-download {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	line-height:44px;
@@ -959,7 +959,7 @@ a:hover {
 	background:rgba(255,255,255,.9)
 }
 .content-btn-general {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	line-height:44px;
@@ -987,7 +987,7 @@ a:hover {
 	background-size:170px!important
 }
 .content-tx1-download {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	font-weight:400;
 	position:absolute;
@@ -1001,7 +1001,7 @@ a:hover {
 	color:#fff
 }
 .content-btn-general-b {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:44px;
 	position:absolute;
@@ -1044,7 +1044,7 @@ a:hover {
 	color:#fff
 }
 .content-tx2-wrap {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:16px;
 	line-height:30px;
 	position:relative;
@@ -1139,7 +1139,7 @@ a:hover {
 	color:#4c5bd7
 }
 .context-tx2-block {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -1149,7 +1149,7 @@ a:hover {
 	color:#000
 }
 .context-btn-block {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	line-height:40px;
@@ -1221,7 +1221,7 @@ a:hover {
 	color:#052d49
 }
 .patreon-tx2-block {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:25px;
 	position:relative;
@@ -1231,7 +1231,7 @@ a:hover {
 	color:#052d49
 }
 .patreon-btn-block {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	font-weight:700;
 	line-height:44px;
@@ -1291,7 +1291,7 @@ a:hover {
 	background-size:20px!important
 }
 .button-tx1-text {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -1319,7 +1319,7 @@ a:hover {
 	width:49.1%
 }
 .label-tx1-title {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	font-weight:700;
 	line-height:24px;
@@ -1352,7 +1352,7 @@ a:hover {
 	background-size:20px!important
 }
 .label-tx1-text {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	line-height:24px;
 	position:relative;
@@ -1378,7 +1378,7 @@ a:hover {
 	height:52px
 }
 .binary-tx1-content {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:32px;
 	display:inline-block;
@@ -1394,7 +1394,7 @@ a:hover {
 	color:#000
 }
 .binary-tx2-content {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:32px;
 	position:relative;
@@ -1446,7 +1446,7 @@ a:hover {
 	background-size:20px!important
 }
 .panel-tx1-heading {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -1494,7 +1494,7 @@ a:hover {
 	background-size:20px!important
 }
 .guide-tx1-content {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:18px;
 	line-height:72px;
 	position:relative;
@@ -1511,7 +1511,7 @@ a:hover {
 	background:rgba(0,0,0,.1)
 }
 .guide-tx1-heading {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:30px;
 	position:relative;
@@ -1555,7 +1555,7 @@ a:hover {
 	color:#fff
 }
 .error-tx2-content {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -1616,7 +1616,7 @@ a:hover {
 	text-decoration:underline
 }
 .markdown-body {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:16px;
 	padding-top:10px
 }
@@ -1635,14 +1635,14 @@ a:hover {
 	border-bottom:1px solid #eaeaea
 }
 .markdown p:first-child {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	display:block;
 	margin-top:20px;
 	padding-left:10px
 }
 .markdown-body ul {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:35px;
 	padding-left:25px

@@ -7,7 +7,7 @@
 	background:rgba(0,0,0,.8)!important;
 }
 .motd-tx1-message {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	line-height:30px;
 	position:fixed;
@@ -146,7 +146,7 @@
 	background-size:16px;
 }
 .submenu-btn-button {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:55px;
 	position:relative;
@@ -191,7 +191,7 @@
 	background-size:16px;
 }
 .menu-btn-select {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:60px;
 	position:relative;
@@ -299,7 +299,7 @@
 	color:#fff;
 }
 .alipay-con-footer {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:12px;
 	line-height:62px;
 	position:fixed;
@@ -345,7 +345,7 @@
 	-webkit-overflow-scrolling:touch;
 }
 .menu-btn-subbutton {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:20px;
 	line-height:60px;
 	position:relative;
@@ -432,7 +432,7 @@
 	background:#4c5bd7;
 }
 .sidebar-tx1-subtitle {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:50px;
 	position:relative;
@@ -442,7 +442,7 @@
 	color:#000;
 }
 .sidebar-tx2-subtitle {
-	font-family:arial;
+	font-family:arial, sans-serif;
 	font-size:14px;
 	line-height:36px;
 	position:relative;
