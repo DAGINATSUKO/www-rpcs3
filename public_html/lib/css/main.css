@@ -1580,6 +1580,7 @@ a:hover {
 .highlight {
 	padding:4px 6px;
 	color:#0074e7;
+	white-space:nowrap;
 	border:solid 1px #0074e7;
 	border-radius:4px;
 	background:rgba(0,128,255,.1)
