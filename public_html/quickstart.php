@@ -476,7 +476,7 @@
 			</div>
 
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="dumping_procddure_manual">
+				<div class="anchorpoint" id="dumping_procedure_manual">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
