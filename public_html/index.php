@@ -25,11 +25,11 @@
 	);
 	preloadVideo(
 	'2',
-	'DNVKh_hp7_o'
+	'kOBKXcn-yQg'
 	);
 	preloadVideo(
 	'3',
-	'vlKfaiFyjM4'
+	'BZq3Z3oJHTc'
 	);
 	if (file_exists('lib/compat/objects/Build.php')) {
 		include('lib/compat/objects/Build.php');

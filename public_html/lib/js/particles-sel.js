@@ -7,7 +7,7 @@ $(document).ready(function() {
                     "value": 32,
                     "density": {
                         "enable": true,
-                        "value_area": 1024
+                        "value_area": 768
                     }
                 },
                 "color": {
@@ -32,18 +32,18 @@ $(document).ready(function() {
                     "value": 1,
                     "random": false,
                     "anim": {
-                        "enable": false,
+                        "enable": true,
                         "speed": 1,
                         "opacity_min": 0.1,
                         "sync": false
                     }
                 },
                 "size": {
-                    "value": 3,
+                    "value": 4,
                     "random": true,
                     "anim": {
-                        "enable": false,
-                        "speed": 40,
+                        "enable": true,
+                        "speed": 4,
                         "size_min": 0.1,
                         "sync": false
                     }
@@ -57,7 +57,7 @@ $(document).ready(function() {
                 },
                 "move": {
                     "enable": true,
-                    "speed": 10,
+                    "speed": 1,
                     "direction": "none",
                     "random": false,
                     "straight": false,
