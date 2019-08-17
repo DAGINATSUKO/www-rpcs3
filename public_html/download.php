@@ -189,12 +189,12 @@ $build = Build::getLast();
 						<p class="download-desc">
 							 RPCS3 is still in its early stages of development and the binaries we produce are highly experimental. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase. If you come across any regressions upon a new release, please be sure to report your findings on our forum. <br>
 							<br>
-							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute<span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
+							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
 							<br>
 							<br>
-							<b>Download using wget</b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
+							<b>Download using wget</b> <span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
 							<br>
-							<b>Download using curl</b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
+							<b>Download using curl</b> <span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
 						</p>
 					</div>
 				</div>

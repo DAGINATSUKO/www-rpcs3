@@ -53,11 +53,6 @@
 				<span>FAQ</span>
 			</div>
 			</a>
-			<a href='https://wiki.rpcs3.net'>
-			<div class="menu-btn-select">
-				<span>Wiki</span>
-			</div>
-			</a>
 			<div class="menu-btn-select" style="pointer-events: none;">
 				<span>|</span>
 			</div>
@@ -66,9 +61,14 @@
 				<span>GitHub</span>
 			</div>
 			</a>
-			<a href='https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/featured' target="_blank">
+			<a href='https://forums.rpcs3.net' target="_blank">
 			<div class="menu-btn-select">
-				<span>YouTube</span>
+				<span>Forum</span>
+			</div>
+			</a>
+			<a href='https://wiki.rpcs3.net'>
+			<div class="menu-btn-select">
+				<span>Wiki</span>
 			</div>
 			</a>
 			<a href='https://discord.me/RPCS3' target="_blank">
@@ -76,9 +76,9 @@
 				<span>Discord</span>
 			</div>
 			</a>
-			<a href='https://forums.rpcs3.net' target="_blank">
+			<a href='https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/featured' target="_blank">
 			<div class="menu-btn-select">
-				<span>Forum</span>
+				<span>YouTube</span>
 			</div>
 			</a>
 			<div class="menu-con-support support-subtrigger">
