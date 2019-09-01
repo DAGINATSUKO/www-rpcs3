@@ -118,7 +118,7 @@
 	<h2>Windows Requirements</h2>
 </div>
 <div class='panel-con-wrapper'>
-	<a href='https://aka.ms/vs/15/release/VC_redist.x64.exe' target="_blank">
+	<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
 	<div class="panel-con-container panel-left button-enabled darkmode-panel">
 		<div class='panel-link darkmode-invert'>
 		</div>
@@ -126,7 +126,7 @@
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>Microsoft</b> Visual C++ 2017 Redistributable
+				<b>Microsoft</b> Visual C++ 2019 Redistributable
 			</p>
 		</div>
 	</div>
