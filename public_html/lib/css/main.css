@@ -1656,47 +1656,38 @@ a:hover {
 	margin-left:8px;
 	margin-left:36px;
 	text-align:inherit;
-	color: #455971
+	color:#455971
 }
-
 .image-container {
-  text-align: center;
-  margin-bottom: 20px;
+	text-align:center;
+	margin-bottom:20px
 }
-
 .flex-row-wrap {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap
 }
-
 .flex-col-wrap {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap
 }
-
 .flexchild-img {
-  flex-grow: 1;
-  margin: 10px;
+	flex-grow:1;
+	margin:10px
 }
-
 .img-col-2 {
-  flex-basis: 50%;
+	flex-basis:50%
 }
-
 .img-col-3 {
-  flex-basis: 33.33%;
+	flex-basis:33.33%
 }
-
 .img-row-2 {
-  flex-basis: 450px;
+	flex-basis:450px
 }
-
 .img-row-3 {
-  flex-basis: 250px;
+	flex-basis:250px
 }
-
 .img-row-4 {
-  flex-basis: 200px;
+	flex-basis:200px
 }
