@@ -1691,3 +1691,7 @@ a:hover {
 .img-row-4 {
 	flex-basis:200px
 }
+.horizontal-center {
+	margin-left:auto;
+	margin-right:auto
+}
