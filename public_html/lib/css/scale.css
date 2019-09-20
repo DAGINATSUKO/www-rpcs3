@@ -125,18 +125,18 @@
 	.content-remove {
 		display:none;
 	}
-  .img-row-3 {
-    flex-basis: 450px;
-  }
-  .img-row-4 {
-    flex-basis: 250px;
-  }
-  .img-col-2, .img-col-3 {
-    flex-basis: 100%;
-  }
+	.img-row-3 {
+		flex-basis:450px;
+	}
+	.img-row-4 {
+		flex-basis:250px;
+	}
+	.img-col-2, .img-col-3 {
+		flex-basis:100%;
+	}
 }
 @media screen and (max-width:1395px) {
 	.member-img-flag {
-		display: none!important;
+		display:none!important;
 	}
 }
