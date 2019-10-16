@@ -38,23 +38,6 @@ This website uses a CronJob to fetch the Roadmap. Your CronJob should be similar
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Opera Software Opera](http://www.opera.com/)
 
-## History
-* 01-15-2017 - tkoham offers a Patreon initiative for RPCS3 on [January 15th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
-* 01-20-2017 - DAGINATSUKO joins the RPCS3 team on [January 20th, 2017](https://github.com/RPCS3/rpcs3/issues/2263)
-* 01-20-2017 - RPCS3.net foundation forked from [daginatsuko.com](https://daginatsuko.com/) project by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 01-20-2017 - RPCS3.net 2.0 project started by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 01-21-2017 - RPCS3.net 2.0 launched and published by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 01-22-2017 - RPCS3.net 2.0 compatibility launched and published by [AniLeo](https://github.com/AniLeo)
-* 01-25-2017 - RPCS3.net 2.0 blog launched by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 04-26-2017 - RPCS3.net 2.0 Milk UX Lite port started by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 05-01-2017 - RPCS3.net 2.0 Alpha 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 08-02-2017 - RPCS3.net 2.0 Alpha 2 launched by[DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 08-04-2017 - Developer environment improvements with Docker by [Jake Hamilton](https://github.com/jakehamilton)
-* 09-01-2017 - RPCS3.net 2.0 Beta 1 launched by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 10-01-2017 - RPCS3.net 2.0 leaves Beta status by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 10-15-2017 - RPCS3.net 3.0 begins closed-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-* 10-18-2017 - RPCS3.net 3.0 begins open-source development by [DAGINATSUKO](https://github.com/DAGINATSUKO)
-
 ## Copyright
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
 
