@@ -49,24 +49,11 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>Why do you work on game X instead of game Y?</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 We don't work on developing a game X or Y emulator, we work on developing a PlayStation 3 emulator.<br>
-							 Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
 						<h2>How can I get started using RPCS3 on my PC?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Please refer to the <a href="/quickstart">Quickstart Guide</a> or visit the newcomers section on the forums for more detailed information on how to get started.
+							 Please refer to the <a href="/quickstart">Quickstart Guide</a> for detailed information on how to get started.
 						</p>
 					</div>
 				</div>
@@ -90,7 +77,7 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 We currently support keyboard / mouse inputs and native DualShock 4 controllers. We also support XInput and MMjoy based controllers. Unfortunately, we currently do not natively support DualShock 3 controllers. You can however use third-party tools like SCP Driver Package to allow your DualShock 3 controller to function like an XInput controller. We plan to add additional input methods in the future as we implement more meaningful features to the emulator.
+							 We currently support keyboard / mouse inputs and native DualShock 3/4 controllers. We plan to add additional input methods in the future as we implement more meaningful features to the emulator.
 						</p>
 					</div>
 				</div>
@@ -154,7 +141,7 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Unfortunately, this is not something we're even remotely close to implementing just yet in RPCS3's current stage of development. Online multiplayer is something we're thinking about, but we may not focus on it until RPCS3 is as stable and as accurate as possible. Playing games online with real PlayStation 3 systems would require the user to connect to PlayStation Network which isn't very feasible due to obvious technical and legal limitations.
+							 Online multiplayer is something we're thinking about and that already works on a very small amount of games with simple network code. We may not focus on it until RPCS3 is as stable and as accurate as possible. Playing games online with real PlayStation 3 systems will require the user to connect to a PlayStation Network server in many cases, thus requiring private PSN servers to be made first.
 						</p>
 					</div>
 				</div>
@@ -174,7 +161,7 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>Can I at least import my save data from my real PlayStation 3? </h2>
+						<h2>Can I import my save data from my real PlayStation 3? </h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
@@ -186,11 +173,24 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<h2>Why do you work on game X instead of game Y?</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<p>
+							 We don't work on developing a game X or Y emulator, we work on developing a PlayStation 3 emulator.<br>
+							 Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
 						<h2>Will RPCS3 be ported to platform X or include feature Y?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 As long as the platform is powerful enough to emulate the PlayStation 3, probably yes. At the moment we only target Windows and Linux. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and doesn't support Vulkan either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement it. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as GUI translations, higher rendering resolutions, PlayStation Move support, etc.
+							 As long as the platform is powerful enough to emulate the PlayStation 3, probably yes. At the moment we only target Windows, Linux and BSD. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and doesn't support Vulkan either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement it. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as GUI translations, PlayStation Move support, etc.
 						</p>
 					</div>
 				</div>
@@ -214,23 +214,20 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Good, you can do it through the <a href="https://github.com/RPCS3/rpcs3/issues">GitHub Issue Tracker</a> (development-related issues) or the Forums (general questions, support and commercial/homebrew games discussion). Please be sure to follow these guidelines before sending anything:
+							 Good, you can do it through the <a href="https://github.com/RPCS3/rpcs3/issues">GitHub Issue Tracker</a> (development-related issues) or the Forums (general questions, support and commercial/homebrew games discussion). Please be sure to follow these guidelines and the ones on the issue template before sending anything:
 						</p>
 						<br>
 						<p>
 							 • Check if your system matches all the system minimum requirements;
 						</p>
 						<p>
-							 • Check if the issue is meaningful for the team (e.g. The Last of Us doesn't work is obvious and therefore useless);
-						</p>
-						<p>
 							 • Search older issues/forum threads to see if your issue was already submitted;
 						</p>
 						<p>
-							 • Use understandable English. It doesn't need to be perfect, but clear enough to understand your message;
+							 • While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the RPCS3.log file.
 						</p>
 						<p>
-							 • While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the RPCS3.log file.
+							 • Use understandable English. It doesn't need to be perfect, but clear enough to understand your message;
 						</p>
 					</div>
 				</div>
