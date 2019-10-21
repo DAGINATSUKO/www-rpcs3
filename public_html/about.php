@@ -292,24 +292,6 @@
 					</div>
 				</div>
 				<div class="member-con-content darkmode-txt">
-					<div class='member-img-avatar' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
-						<div class='member-img-flag' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="member-con-wrapper">
-						<div class='member-tx1-content darkmode-txt'>
-							<span class="member-tx2-member ">
-							O1L </span>
-							<span class="member-con-role role-contributor">
-							Contributor </span>
-						</div>
-						<div class='member-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="member-con-content darkmode-txt">
 					<div class='member-img-avatar' style="background: url('/img/members/clienthax.png') no-repeat center; background-size: cover;">
 						<div class='member-img-flag' style="background: url('/img/icons/countries/england.png') no-repeat center; background-size: cover;">
 						</div>
@@ -390,24 +372,6 @@
 					<div class='member-tx1-content darkmode-txt'>
 						<span class="member-tx2-member ">
 						TGE </span>
-						<span class="member-con-role role-contributor">
-						Contributor </span>
-					</div>
-					<div class='member-tx3-content darkmode-txt'>
-						<span>
-						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-					</div>
-				</div>
-			</div>
-			<div class="member-con-content darkmode-txt">
-				<div class='member-img-avatar' style="background: url('/img/members/ruipin.png') no-repeat center; background-size: cover;">
-					<div class='member-img-flag' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
-					</div>
-				</div>
-				<div class="member-con-wrapper">
-					<div class='member-tx1-content darkmode-txt'>
-						<span class="member-tx2-member ">
-						ruipin </span>
 						<span class="member-con-role role-contributor">
 						Contributor </span>
 					</div>
@@ -683,6 +647,42 @@
 						<div class='member-tx1-content darkmode-txt'>
 							<span class="member-tx2-member ">
 							pauls-gh </span>
+							<span class="member-con-role role-founder">
+							Former Contributor </span>
+						</div>
+						<div class='member-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="member-con-content darkmode-txt">
+					<div class='member-img-avatar' style="background: url('/img/members/o1l.png') no-repeat center; background-size: cover;">
+						<div class='member-img-flag' style="background: url('/img/icons/countries/russia.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="member-con-wrapper">
+						<div class='member-tx1-content darkmode-txt'>
+							<span class="member-tx2-member ">
+							O1L </span>
+							<span class="member-con-role role-founder">
+							Former Contributor </span>
+						</div>
+						<div class='member-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="member-con-content darkmode-txt">
+					<div class='member-img-avatar' style="background: url('/img/members/ruipin.png') no-repeat center; background-size: cover;">
+						<div class='member-img-flag' style="background: url('/img/icons/countries/portugal.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="member-con-wrapper">
+						<div class='member-tx1-content darkmode-txt'>
+							<span class="member-tx2-member ">
+							ruipin </span>
 							<span class="member-con-role role-founder">
 							Former Contributor </span>
 						</div>
