@@ -12,7 +12,7 @@ curl -JLO https://rpcs3.net/latest-appimage
 */
 
 require "lib/compat/objects/Build.php";
-$build = Build::getLast();
+$build = Build::getLatest();
 header("Content-Disposition: attachment; filename={$filename_linux}");
 header("Location: {$build->url_linux}");
 ?>

@@ -12,7 +12,7 @@ curl -JLO https://rpcs3.net/latest-windows
 */
 
 require "lib/compat/objects/Build.php";
-$build = Build::getLast();
+$build = Build::getLatest();
 header("Content-Disposition: attachment; filename={$filename_windows}");
 header("Location: {$build->url_windows}");
 ?>
