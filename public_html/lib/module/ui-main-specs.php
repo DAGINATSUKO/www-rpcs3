@@ -145,3 +145,18 @@
 	</div>
 	</a>
 </div>
+<div class='panel-con-wrapper'>
+	<a href='https://rpcs3.net/blog/wp-content/uploads/2019/common/openssl_win64.7z' target="_blank">
+	<div class="panel-con-container panel-center button-enabled darkmode-panel">
+		<div class='panel-link darkmode-invert'>
+		</div>
+		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ssl.png') no-repeat center;">
+		</div>
+		<div class="panel-tx1-heading darkmode-txt">
+			<p>
+				<b>OpenSSL</b> Runtime 1.1.1
+			</p>
+		</div>
+	</div>
+	</a>
+</div>
