@@ -33,7 +33,7 @@
 	);
 	if (file_exists('lib/compat/objects/Build.php')) {
 		include('lib/compat/objects/Build.php');
-		$win = Build::getLast();
+		$win = Build::getLatest();
 		$ver = "v{$win->version} Alpha [{$win->fulldate}]";
 	} else {
 		$ver = "";
