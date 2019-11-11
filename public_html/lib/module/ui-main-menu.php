@@ -116,7 +116,7 @@
 						</div>
 					</div>
 					</a>
-					<a href="https://forums.rpcs3.net/" target="_blank">
+					<a href="https://forums.rpcs3.net/thread-196671.html" target="_blank">
 					<div class="submenu-con-wrapper">
 						<div class="submenu-ico-testing">
 						</div>
