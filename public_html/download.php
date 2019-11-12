@@ -29,7 +29,7 @@ $build = Build::getLatest();
 		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart pulsate'>
-				<span>Download</span>
+				<h1>Download</h1>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
 				<p>

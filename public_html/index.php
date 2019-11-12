@@ -11,484 +11,238 @@
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
-<script data-cfasync="false" src='/lib/js/timer.js'></script>
-<script data-cfasync="false" src='/lib/js/particles.js'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js'></script>
+<script data-cfasync="false" src='/lib/js/carousel.js?v=1'></script>
+<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
+<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
 </head>
 <body>
+<img src="/img/graphics/landing/dualshock3.png" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/primary.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/primary-blur.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/secondary.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/secondary-blur.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/tertiary.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/tertiary-blur.jpg" width="1" height="1" alt="Preload"/>
 <?php include 'lib/module/sys-php.php';?>
 <?php include 'lib/module/ui-main-video.php'?>
 <?php
 	preloadVideo(
 	'1',
-	'Unused'
+	'wGLxIO1IauA',
+	'primary'
 	);
 	preloadVideo(
 	'2',
-	'kOBKXcn-yQg'
+	'CYbCULhmUBA',
+	'secondary'
 	);
 	preloadVideo(
 	'3',
-	'BZq3Z3oJHTc'
+	'ul6YYfh4cAo',
+	'tertiary'
 	);
-	if (file_exists('lib/compat/objects/Build.php')) {
-		include('lib/compat/objects/Build.php');
-		$win = Build::getLatest();
-		$ver = "v{$win->version} Alpha [{$win->fulldate}]";
-	} else {
-		$ver = "";
-	}
 ?>
-<div class="page-con-content context-css-override">
-	<div class='arrow-ico-scroll'>
+<div class="page-con-content board-css-override">
+	<div class='landing-ico-scrolldown'>
 	</div>
-	<div class="content-con-feature-a" style="background: #000; height: 100%; max-height: unset;">
+	<div class="landing-con-main">
+		<div class="revision-tx1-container">
+			<span>
+				Work in progress
+			</span>
+		</div>
 		<div id="particles-js-1">
 		</div>
-		<div class="content-con-overlay darkmode-header">
+		<div class="content-con-backdrop darkmode-header">
 		</div>
-		<div class="content-con-outer">
-			<div class="content-con-inner">
-				<div class='content-con-wrap-left content-expand '>
-					<div class="content-txt-wrap scale-content-txt-1 fade-in-onload">
-						<div class='content-ico-wrap'>
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class='landing-con-left content-expand '>
+					<div class="landing-con-container scale-content-txt-1 fade-in-onload">
+						<div class='landing-ico-logo'>
 						</div>
-						<div class='content-tx1-wrap pulsate'>
+						<div class='landing-tx1-heading pulsate'>
 							<h1>Open-source<br>
 							 PlayStation 3 Emulator</h1>
 						</div>
-						<div class='content-tx2-wrap'>
+						<div class='landing-tx2-heading'>
 							<p>
-								 RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 began development in May of 2011 by its founders, DH and Hykem.
+								 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD.
 							</p>
-							<div class='content-btn-container'>
+							<div class='landing-btn-container'>
 								<a href="/download">
-								<div class='content-btn-download'>
+								<div class='landing-btn-download'>
 									<span>Download</span>
-									<span class="content-tx1-download">
-									<?php echo $ver; ?>
-									</span>
 								</div>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class='content-con-wrap-right content-remove '>
-					<div class='content-img-wrap' style="display:block; background: url(/img/icons/menu/greeting.png) no-repeat center; background-size: contain;">
-					</div>
-					<!-- Featured Video -->
-					<div class='video-con-container' style="display:none;">
-						<div class="video-btn-player-b page-video-1">
-						</div>
-						<div class="video-con-slideshow">
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-							<div>
-								<img class='video-img-thumb' alt="" src="/img/thumbs/slideshow/null.jpg" style="object-fit: cover;">
-							</div>
-						</div>
-					</div>
-					<script>
-					$(".video-con-slideshow > div:gt(0)").hide();
-					setInterval(function() {
-					  $('.video-con-slideshow > div:first')
-						.fadeOut(768)
-						.next()
-						.fadeIn(768)
-						.end()
-						.appendTo('.video-con-slideshow');
-					}, 5000);
-					</script>
-					<!-- Timer -->
-					<div class='timer-con-container' style="display:none;">
-						<div id='timer-tx1-body'>
-							<span>
-							Synchronizing... </span>
-						</div>
-						<div class='timer-con-separator'>
-						</div>
-						<div class='timer-con-wrapper'>
-							<a class="https://discord.me/RPCS3" target="_blank">
-							<div class='timer-ico-body'>
-							</div>
-							</a>
-							<div class='timer-tx2-body'>
-								<span>Join the discussion on </span>
-							</div>
-						</div>
+				<div class='landing-con-right content-remove '>
+					<div class='landing-img-hero' style="background: url(/img/graphics/landing/dualshock3.png) no-repeat center; background-size: contain;">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="content-con-feature-c darkmode-feature" style="background: #212121; height:100px;">
-		<div class="search-ovr-container darkmode-header">
+	<div class="landing-con-search darkmode-slimbar">
+		<div class="search-ovr-container">
 		</div>
 		<div class='search-con-container'>
 			<div class="search-con-outer">
 				<div class="search-con-inner">
-					<div class="search-inp-search">
-						<div class="search-ico-search">
+					<div class="search-inp-search darkmode-search-border">
+						<div class="search-ico-search darkmode-invert">
 						</div>
-						<div class="search-txt-search">
-							<span><span class="mobile-titlesearch" style="opacity:0.4;">Compatibility database developed and maintained by </span><span style="background: url(/img/icons/buttons/github-h.png) no-repeat center; background-size: 14px; width: 18px; height: 50px; position: absolute; display: inline-block; opacity:0.4;"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://github.com/AniLeo" target="_blank">AniLeo</a></span></span>
+						<div class="search-con-author darkmode-txt">
+							<a href="https://github.com/AniLeo" target="_blank">
+							<span>Compatibility DB maintained by <span class="search-img-author"></span>
+							<span class="search-tx1-author">
+							Ani </span>
+							</span>
+							</a>
 						</div>
 						<form action='/compatibility' method='get'>
-							<input name="g" placeholder="Game Title / Game ID">
+							<input class="database-search darkmode-txt darkmode-search-bg" name="g" placeholder="Game Title / Game ID">
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="content-con-feature-b darkmode-feature">
-		<div class="content-con-overlay darkmode-header" style=" opacity: 0.9;">
-		</div>
-		<div class="content-con-outer">
-			<div class="content-con-inner">
-				<div id='context-con-block' class="context-alg-block darkmode-context override-promote">
-					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/progress-h.png') no-repeat center center !important; background-size: 240px !important;">
+	<div class="landing-con-video darkmode-feature">
+		<div class="content-con-outside">
+			<div class="content-btn-left darkmode-arrow-left left" href="#myCarousel" data-slide="prev">
+			</div>
+			<div class="content-btn-right darkmode-arrow-right right" href="#myCarousel" data-slide="next">
+			</div>
+			<div class="content-con-inside">
+				<div class="video-tx1-heading darkmode-txt">
+					<h2>What's New?</h2>
+					<div class="video-ico-heading">
 					</div>
-					<div class='context-tx1-block darkmode-txt'>
-						<h3>Progress</h3>
-					</div>
-					<div class='context-tx2-block darkmode-txt'>
-						<p>
-							 Each month we aim to publish a technical and visual progress report that showcases our latest progress completed by our developers and talented contributors. Similarly to most emulator projects we want to be as open as possible with our progress. Showcasing performance, graphical and quality-of-life improvements in great detail is our goal. We believe this is the best way to keep our fans and followers interested in the project.
-						</p>
-					</div>
-					<a href="https://rpcs3.net/blog">
-					<div class='context-btn-block'>
-						<span>Read Latest</span>
-					</div>
-					</a>
 				</div>
-				<div id='context-con-block' class="context-alg-block darkmode-context override-hide">
-					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/discord-h.png') no-repeat center center !important; background-size: 200px !important;">
-					</div>
-					<div class='context-tx1-block darkmode-txt'>
-						<h3>Community</h3>
-					</div>
-					<div class='context-tx2-block darkmode-txt'>
-						<p>
-							 Join our Discord community featuring over 37,000 members for project announcements, developer interaction and emulator configuration support. With regular interaction from our team, we aim to create a tight-knit community of emulation hobbyists and PlayStation 3 fans alike. Our server features a custom designed compatibility bot that allows users to request, then fetch the status for over 2800 tested PlayStation 3 titles.
-						</p>
-					</div>
-					<a href="https://discord.me/RPCS3" target="_blank">
-					<div class='context-btn-block'>
-						<span>Join</span>
-					</div>
-					</a>
-				</div>
-				<div id='context-con-block' class="darkmode-context override-hide">
-					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/git-h.png') no-repeat center center !important; background-size: 200px !important;">
-					</div>
-					<div class='context-tx1-block darkmode-txt'>
-						<h3>Code</h3>
-					</div>
-					<div class='context-tx2-block darkmode-txt'>
-						<p>
-							 RPCS3's GitHub community is always hard at work developing, implementing and deploying new features and ideas for the project. GitHub allows us to keep our project accessible, free and most importantly, open-source. GitHub enables us to review contributions, approve of them and implement seamlessly. Anyone and everyone is able to view the project's source, modify it, compile it locally and distribute under the GNU GPL 2.0
-						</p>
-					</div>
-					<a href="https://github.com/RPCS3/rpcs3" target="_blank">
-					<div class='context-btn-block'>
-						<span>Git</span>
-					</div>
-					</a>
-				</div>
+				<?php include 'lib/module/ui-main-carousel.php';?>
 			</div>
 		</div>
 	</div>
-	<div class="content-con-feature-a darkmode-feature">
-		<div class="content-con-outer">
-			<div class="content-con-inner">
-				<div class="content-con-wrapper">
-					<div class='content-con-wrap-left'>
-						<div class="content-wrp-tease override-hide" style='left: 180px; top: -115px'>
-							<div class='content-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/featured/1.jpg') no-repeat center center !important; background-size: cover !important;">
-							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='right: 240px; top: -200px;'>
-							<div class='content-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/featured/2.jpg') no-repeat center center !important; background-size: cover !important;">
-							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='right: 200px; bottom: -168px;'>
-							<div class='content-con-tease' style=" transform: scale(.5); background: url('/img/thumbs/featured/3.jpg') no-repeat center center !important; background-size: cover !important;">
-							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='left: 172px; top: 400px;'>
-							<div class='content-con-tease' style="transform: scale(.7); background: url('/img/thumbs/featured/4.jpg') no-repeat center center !important; background-size: cover !important;">
-							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='right: 390px; top: 104px;'>
-							<div class='content-con-tease' style=" transform: scale(.65); background: url('/img/thumbs/featured/5.jpg') no-repeat center center !important; background-size: cover !important;">
-							</div>
+	<div class="landing-con-contribute darkmode-feature">
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class="github-con-container">
+					<div class="github-con-logo">
+						<div class="github-img-logo">
 						</div>
 					</div>
-				</div>
-				<div class='content-con-wrap-left content-expand'>
-					<div class='video-con-container'>
-						<div class="video-btn-player-b page-video-2">
-						</div>
-						<div class="video-ico-platform">
-						</div>
-						<div class='video-img-thumb' style="background: url('/img/thumbs/videos/2.jpg') no-repeat center center !important; background-size: cover !important;">
-						</div>
-					</div>
-				</div>
-				<div class='content-con-wrap-right content-remove'>
-					<div class="content-txt-wrap scale-content-txt-2">
-						<div class="content-tx1-wrap content-txt-wrap-invert darkmode-txt2">
-							<h2>Here's What We've Been Working On</h2>
-						</div>
-						<div class="content-tx2-wrap content-txt-wrap-invert darkmode-txt2">
-							<p>
-								 While our core developers are hard at work perfecting the emulator, we've had many great developers from all over the world contribute to the codebase, which has lead to astonishing progress in performance, accuracy and quality of life. We thank each and everyone of you.
-							</p>
-							<div class='content-btn-container'>
-								<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/videos" target="_blank">
-								<div class='content-btn-general'>
-									<div class='content-btn-icon' style="background: url('/img/icons/context/youtube.png') no-repeat center;">
-									</div>
-									<span>Our Channel</span>
+					<div class="github-con-mantra">
+						<div class="github-wrp-mantra scale-content-txt-1 ">
+							<div class="github-tx1-mantra darkmode-txt">
+								<h2>Contribute Today!</h2>
+							</div>
+							<div class="github-tx2-mantra darkmode-txt">
+								<p>
+									 We're always open to welcoming new and talented developers to help contribute to the project. RPCS3 is a very complex piece of software and as such, has many different components that require a special attention to detail and organization. With your help, you can contribute in taking RPCS3 to the next level.
+								</p>
+							</div>
+							<a href="https://github.com/rpcs3" target="_blank">
+							<div class="github-btn-button">
+								<div class="github-ico-button">
 								</div>
-								</a>
+								<div class="github-tx1-button">
+									<span>Join the Project</span>
+								</div>
 							</div>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="content-con-feature-c">
-		<div class='content-txt-ad darkmode-txt'>
+	<div class="landing-con-adsense">
+		<div class='adsense-tx1-description darkmode-txt'>
 			<span>Advertisement</span>
 		</div>
-		<div class="content-con-ad darkmode-ad div-css-context-ad">
-			<div style="text-align: center; top: 20px; position: relative; z-index:2;">
+		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
+			<div class="adsense-con-frame">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
 						</script>
-				<ins class="adsbygoogle" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222" style="display:inline-block;width:728px;height:90px"></ins>
+				<ins class="adsense-con-insert adsbygoogle" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
 				<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
 		</div>
 	</div>
-	<div class="content-con-feature-d darkmode-header-patreon">
-		<div class="content-con-outer">
-			<div class="content-con-inner">
-				<div id='patreon-con-block-a' class="context-alg-block darkmode-context override-hide">
-					<div class="patreon-tx1-title">
-						<span>&#36;2,000</span>
-					</div>
-					<div class="patreon-tx1-block darkmode-txt">
-						<h3>Goal Reached</h3>
-					</div>
-					<div class="patreon-tx2-block darkmode-txt">
-						<p>
-							 We thank you for your continued support! With this goal reached, our lead developer, Nekotekina will be able to purchase better computer hardware for development and testing. This ensures even faster development and testing times by allowing his workflow to become more efficient and faster than ever before thanks to modern hardware.
-						</p>
-					</div>
-					<div class="patreon-btn-block noevent">
-						<div class="patreon-btn-arrow">
+	<div class="landing-con-patreon darkmode-feature">
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class="patreon-con-container">
+					<div class="patreon-con-logo">
+						<div class="patreon-img-logo">
 						</div>
 					</div>
-				</div>
-				<div id='patreon-con-block-a' class="context-alg-block darkmode-context override-hide">
-					<div class="patreon-tx1-title">
-						<span>&#36;3,000</span>
-					</div>
-					<div class="patreon-tx1-block darkmode-txt">
-						<h3>Goal Reached</h3>
-					</div>
-					<div class="patreon-tx2-block darkmode-txt">
-						<p>
-							 We thank you for your continued support! With this goal reached, our core graphics programmer, kd-11 will be able to join our core developer, Nekotekina in working full-time on the emulator. This ensures even faster development and testing for all RSX orientated features for the emulator.
-						</p>
-					</div>
-					<div class="patreon-btn-block noevent">
-						<div class="patreon-btn-arrow">
-						</div>
-					</div>
-				</div>
-				<div id='patreon-con-block-a' class="darkmode-context override-promote">
-					<div class="patreon-tx1-title">
-						<span>&#36;4,000</span>
-					</div>
-					<div class="patreon-tx1-block darkmode-txt">
-						<h3>Current Goal</h3>
-					</div>
-					<div class="patreon-tx2-block darkmode-txt">
-						<p>
-							 Let's shoot for a new high score! With your continued support, our core graphics developer, kd-11 will be able to purchase substantially better computer hardware dedicated to debugging and developing for the GPU related portions of the emulator. This ensures swift development and detailed testing of the features we plan to implement listed on our roadmap.
-						</p>
-					</div>
-					<a href="https://www.patreon.com/Nekotekina" target="_blank">
-					<div class='patreon-btn-block'>
-						<span>Become a Patron</span>
-					</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="content-con-feature-a darkmode-feature">
-		<div class="content-con-outer">
-			<div class="content-con-inner">
-				<div class='content-con-wrap-left content-remove'>
-					<div class="content-txt-wrap scale-content-txt-3">
-						<div class="content-tx1-wrap content-txt-wrap-invert darkmode-txt2">
-							<h2>Featured Community Gameplay Videos</h2>
-						</div>
-						<div class="content-tx2-wrap content-txt-wrap-invert darkmode-txt2">
-							<p>
-								 Sometimes things can be too good to be true. We understand. Especially when it comes to emulating a machine as technically complex as the PlayStation 3. If you're not sold on the legitimacy of the project, just check out some of the hundreds of videos captured by our community.
-							</p>
-							<div class='content-btn-container'>
-								<a href="https://discord.gg/Nr6TBes" target="_blank">
-								<div class='content-btn-general'>
-									<div class='content-btn-icon' style="background: url('/img/icons/context/discord.png') no-repeat center;">
-									</div>
-									<span>Submit Yours</span>
-								</div>
-								</a>
+					<div class="patreon-con-mantra">
+						<div class="patreon-wrp-mantra scale-content-txt-1 ">
+							<div class="patreon-tx1-mantra darkmode-txt">
+								<h2>Our Developers</h2>
 							</div>
-						</div>
-					</div>
-				</div>
-				<div class="content-con-wrapper">
-					<div class='content-con-wrap-right'>
-						<div class="content-wrp-tease override-hide" style='left: 270px; top: -115px'>
-							<div class='content-con-tease' style="; transform: scale(.5); background: url('/img/thumbs/videos/4.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b noevent'>
+							<div class="patreon-tx2-mantra darkmode-txt">
+								<p>
+									 Our developers are pushing the very boundaries of what an emulator can do and how it can preform. Our rapid progression would not be possible without our Patrons. Our patrons not only keep us motivated, but keep our lead developers working on the project full time.
+								</p>
+							</div>
+							<a href="https://www.patreon.com/Nekotekina" target="_blank">
+							<div class="patreon-btn-button">
+								<div class="patreon-ico-button">
+								</div>
+								<div class="patreon-tx1-button">
+									<span>Become a patron</span>
 								</div>
 							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='right: 140px; top: -98px;'>
-							<div class='content-con-tease' style=" transform: scale(.85); background: url('/img/thumbs/videos/5.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b noevent'>
-								</div>
-							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='left: 200px; bottom: -185px;'>
-							<div class='content-con-tease' style=" transform: scale(.8); background: url('/img/thumbs/videos/6.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b noevent'>
-								</div>
-							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='right: 216px; top: 330px;'>
-							<div class='content-con-tease' style="transform: scale(.55); background: url('/img/thumbs/videos/7.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b noevent'>
-								</div>
-							</div>
-						</div>
-						<div class="content-wrp-tease override-hide" style='left: 466px; top: 89px;'>
-							<div class='content-con-tease' style=" transform: scale(.55); background: url('/img/thumbs/videos/8.jpg') no-repeat center center !important; background-size: cover !important;">
-								<div class='video-btn-player-b noevent'>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class='content-con-wrap-right content-expand'>
-					<div class='video-con-container'>
-						<div class="video-btn-player-b page-video-3">
-						</div>
-						<div class="video-ico-platform">
-						</div>
-						<div class='video-img-thumb' style="background: url('/img/thumbs/videos/3.jpg') no-repeat center center !important; background-size: cover !important;">
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="content-con-feature-b darkmode-feature">
-		<div class="content-con-overlay darkmode-header" style=" opacity: 0.9;">
-		</div>
-		<div class="content-con-outer">
-			<div class="content-con-inner">
-				<div id='context-con-block' class="context-alg-block darkmode-context override-promote">
-					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/quickstart-h.png') no-repeat center center !important; background-size: 42px !important;">
+	<div class="landing-con-discord darkmode-discord">
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class="discord-con-container">
+					<div class="discord-con-logo">
+						<div class="discord-img-logo">
+						</div>
 					</div>
-					<div class='context-tx1-block darkmode-txt'>
-						<h3>Quickstart</h3>
+					<div class="discord-con-mantra">
+						<div class="discord-wrp-mantra scale-content-txt-1">
+							<div class="discord-tx1-mantra darkmode-txt">
+								<h2>The Community</h2>
+							</div>
+							<div class="discord-tx2-mantra darkmode-txt">
+								<p>
+									 We use Discord to house our community. Discord allows us to keep our conversations open and accessible for newcomers seeking various information about the project, how it works and how to get the emulator up and running on your machine.
+								</p>
+							</div>
+							<a href="https://discord.me/rpcs3" target="_blank">
+							<div class="discord-btn-button">
+								<div class="discord-ico-button">
+								</div>
+								<div class="discord-tx1-button">
+									<span>Join The Discussion</span>
+								</div>
+							</div>
+							</a>
+						</div>
 					</div>
-					<div class='context-tx2-block darkmode-txt'>
-						<p>
-							 Before getting started, we highly recommend that you review our Quickstart guide to get a brief understanding of how the software works and what you need to get it performing optimally on your system. Basic system requirements must be met and performance may vary depending on your systems specifications. Our Quickstart guide also lends users instructions on dumping their own titles from their own consoles.
-						</p>
-					</div>
-					<a href="/quickstart">
-					<div class="context-btn-block darkmode-txt">
-						<span>Read More</span>
-					</div>
-					</a>
-				</div>
-				<div id='context-con-block' class="context-alg-block darkmode-context override-hide">
-					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/faqs-h.png') no-repeat center center !important; background-size: 42px !important;">
-					</div>
-					<div class='context-tx1-block darkmode-txt'>
-						<h3>FAQs</h3>
-					</div>
-					<div class='context-tx2-block darkmode-txt'>
-						<p>
-							 If you have any questions about the project, you can visit our frequently asked questions page. This page is designed to answer any common questions relating to the project that you may have. The page covers everything from the emulator's long-term history to what controllers and input devices are currently compatible with the emulator. If you still have any further questions, don't hesitate to reach out to us through <a href="https://discord.me/RPCS3">Discord</a>.
-						</p>
-					</div>
-					<a href="/faq">
-					<div class="context-btn-block darkmode-txt">
-						<span>Read More</span>
-					</div>
-					</a>
-				</div>
-				<div id='context-con-block' class="darkmode-context override-hide">
-					<div class='context-ico-block' style="background: #4c5bd7 url('/img/icons/context/roadmap-h.png') no-repeat center center !important; background-size: 42px !important;">
-					</div>
-					<div class='context-tx1-block darkmode-txt'>
-						<h3>Roadmap</h3>
-					</div>
-					<div class='context-tx2-block darkmode-txt'>
-						<p>
-							 RPCS3 is a continuous project that will remain in development for many years to come. In the meantime, our current core developers have devised a structured roadmap that showcases the various goals we wish to complete throughout its development. These goals are categorized into 4 structured groups based on developer priority. These groups are short-term, medium-term, long-term and for developers.
-						</p>
-					</div>
-					<a href="/roadmap">
-					<div class="context-btn-block darkmode-txt">
-						<span>Read More</span>
-					</div>
-					</a>
 				</div>
 			</div>
 		</div>
+		<svg class="discord-con-animate" preserveaspectratio="none" width="1920" height="100%" viewbox="0 0 1920 330">
+		<path class="discord-svg-animate" fill="#fff" fill-opacity="0.1" d="M140.881198,194.260295 C257.600568,129.32862 342.939626,119.84993 418.009939,203.154617 C493.080251,286.459305 545.728689,70.9046172 636.439626,63.9593047 C727.150564,57.0139922 768.99822,139.670242 858.802907,119.431961 C948.607595,99.1936797 1071.91228,-32.9977266 1243.91228,7.75227342 C1415.91228,48.5022734 1404.10369,208.584305 1508.27166,178.709305 C1612.43963,148.834305 1633.73291,79.913472 1711.63588,98.8569055 C1776.28676,114.577866 1819.96778,221.391836 1889.37253,185.808108 C2017.32661,120.206212 2004.01952,336.769569 2004.01952,336.769569 L271.635881,337 L-149.063338,337 C-149.063338,337 -245.850307,175.637635 -58.0633382,228.867188 C33.8652851,254.92501 64.1722713,236.933925 140.881198,194.260295 Z"></path>
+		</svg>
 	</div>
 	<?php include 'lib/module/ui-main-footer.php';?>
 </div>

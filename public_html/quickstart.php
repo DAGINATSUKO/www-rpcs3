@@ -24,7 +24,7 @@
 		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart pulsate'>
-				<span>Quickstart</span>
+				<h1>Quickstart</h1>
 			</div>
 			<div class="header-tx2-body fade-up-onstart">
 				<p>
@@ -51,7 +51,7 @@
 			</div>
 			<?php include 'lib/module/ui-main-specs.php';?>
 			
-			<div class="guide-con-content darkmode-panel">
+			<div class="guide-con-content context-windows darkmode-panel">
 				<div class="anchorpoint" id="updating">
 				</div>
 				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/windows.png') no-repeat center;">
@@ -62,7 +62,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="guide-con-content darkmode-panel">
+			<div class="guide-con-content context-linux darkmode-panel">
 				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/linux.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
@@ -89,7 +89,7 @@
 				</div>
 			</div>
 			
-			<div class="guide-con-content darkmode-panel">
+			<div class="guide-con-content context-windows darkmode-panel">
 				<div class="anchorpoint" id="manage_saves">
 				</div>
 				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/windows.png') no-repeat center;">
@@ -100,7 +100,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="guide-con-content darkmode-panel">
+			<div class="guide-con-content context-linux darkmode-panel">
 				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/linux.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
@@ -146,7 +146,6 @@
 					</p>
 				</div>
 			</div>
-			
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="manage_formats">
 				</div>
@@ -261,7 +260,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/pc.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/bdd.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -285,7 +284,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/drive.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/bd.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -342,7 +341,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/drive.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/bd.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -366,7 +365,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/drive.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/bd.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -378,7 +377,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/drive.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/bd.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -390,7 +389,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/drive.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/bd.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -402,7 +401,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/drive.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/bd.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -443,15 +442,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/download.png') no-repeat center;">
+			<a href='https://github.com/13xforever/ps3-disc-dumper/releases/latest'>
+			<div class="guide-con-content button-enabled darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download <a href='https://github.com/13xforever/ps3-disc-dumper/releases/latest'>PS3 Disc Dumper</a> by 13xforever.
+						 Download PS3 Disc Dumper by 13xforever.
 					</p>
 				</div>
 			</div>
+			</a>
 			<div class="guide-con-content darkmode-panel">
 				<div class='guide-tx1-content darkmode-invert'>
 					<span>1</span>
@@ -472,7 +473,6 @@
 					</p>
 				</div>
 			</div>
-
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="dumping_procedure_manual">
 				</div>
@@ -482,38 +482,44 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							In case the easy way didn't work for you, here's a compiled list of the step-by-step instructions we used for dumping disc-based PlayStation 3 format titles before.
+							In case the easy way didn't work for you, here's a compiled list of the step-by-step instructions we used for dumping disc-based PlayStation 3 titles.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/download.png') no-repeat center;">
+			<a href='/cdn/tools/patcher.zip'>
+			<div class="guide-con-content button-enabled darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download <a href='/cdn/tools/patcher.zip'>PS3 ISO Patcher</a> by BlackDaemon.
+						 Download PS3 ISO Patcher by BlackDaemon.
 					</p>
 				</div>
 			</div>
-			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/download.png') no-repeat center;">
+			</a>
+			<a href='/cdn/tools/3k3y.zip'>
+			<div class="guide-con-content button-enabled darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download <a href='/cdn/tools/3k3y.zip'>3k3y IsoTools</a> by the 3k3y team.
+						 Download 3k3y IsoTools by the 3k3y team.
 					</p>
 				</div>
 			</div>
-			<div class="guide-con-content darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/download.png') no-repeat center;">
+			</a> 
+			<a href="http://www.imgburn.com" target="_blank" rel="noopener noreferrer">
+			<div class="guide-con-content button-enabled darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 Download any form of .iso dumping software such as <a href="http://www.imgburn.com" target="_blank" rel="noopener noreferrer">ImgBurn</a> or similar.
+						 Download any form of .iso dumping software such as ImgBurn or similar.
 					</p>
 				</div>
 			</div>
+			</a> 
 			<div class="guide-con-content darkmode-panel">
 				<div class='guide-tx1-content darkmode-invert'>
 					<span>1</span>

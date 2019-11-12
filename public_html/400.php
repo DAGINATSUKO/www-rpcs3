@@ -16,7 +16,7 @@
 			<div class='error-ico-content' style="background: url('/img/icons/errors/400.png') no-repeat center; background-size:40px;">
 			</div>
 			<div class='error-tx1-content pulsate'>
-				<span>Bad Request</span>
+				<h1>Bad Request</h1>
 			</div>
 			<div class='error-tx2-content'>
 				<p>

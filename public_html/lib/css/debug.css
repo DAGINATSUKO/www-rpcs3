@@ -2,11 +2,3 @@
 .toggle-message {
 	display:none;
 }
-.pulsate {
-	-webkit-transition:text-shadow 1s linear;
-	-o-transition:text-shadow 1s linear;
-	transition:text-shadow 1s linear;
-}
-.pulsate.glow {
-	text-shadow: 0 0 20px #fff;
-}

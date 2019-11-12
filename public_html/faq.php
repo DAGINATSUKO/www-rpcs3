@@ -23,7 +23,7 @@
 		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart pulsate'>
-				<span>FAQs</span>
+				<h1>FAQs</h1>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
 				<p>
@@ -161,7 +161,7 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>Can I import my save data from my real PlayStation 3? </h2>
+						<h2>Can I import my save data from my real PlayStation 3?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
@@ -219,6 +219,9 @@
 						<br>
 						<p>
 							 • Check if your system matches all the system minimum requirements;
+						</p>
+						<p>
+							 • Check if the issue is meaningful for the team (e.g. The Last of Us doesn't work is obvious and therefore useless);
 						</p>
 						<p>
 							 • Search older issues/forum threads to see if your issue was already submitted;

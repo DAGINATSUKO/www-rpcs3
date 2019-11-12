@@ -20,7 +20,7 @@ $(document).ready(function() {
                         "color": "#fff"
                     },
                     "polygon": {
-                        "nb_sides": 5
+                        "nb_sides": 3
                     },
                     "image": {
                         "src": " ",
@@ -30,16 +30,16 @@ $(document).ready(function() {
                 },
                 "opacity": {
                     "value": 1,
-                    "random": false,
+                    "random": true,
                     "anim": {
                         "enable": true,
                         "speed": 1,
-                        "opacity_min": 0.1,
+                        "opacity_min": 0,
                         "sync": false
                     }
                 },
                 "size": {
-                    "value": 4,
+                    "value": 8,
                     "random": true,
                     "anim": {
                         "enable": true,

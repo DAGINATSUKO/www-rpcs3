@@ -53,10 +53,7 @@
 				<span>FAQ</span>
 			</div>
 			</a>
-			<div class="menu-btn-select" style="pointer-events: none;">
-				<span>|</span>
-			</div>
-			<a href='https://github.com/RPCS3/rpcs3' target="_blank">
+			<a href='https://github.com/rpcs3' target="_blank">
 			<div class="menu-btn-select">
 				<span>GitHub</span>
 			</div>
@@ -76,7 +73,7 @@
 				<span>Discord</span>
 			</div>
 			</a>
-			<a href='https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/featured' target="_blank">
+			<a href='https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/videos' target="_blank">
 			<div class="menu-btn-select">
 				<span>YouTube</span>
 			</div>
@@ -94,7 +91,7 @@
 						<div class="submenu-ico-patreon">
 						</div>
 						<div class="submenu-btn-button">
-							<span>Support us with Patreon</span>
+							<span>Support us on Patreon</span>
 						</div>
 					</div>
 					</a>
@@ -103,11 +100,11 @@
 						<div class="submenu-ico-alipay">
 						</div>
 						<div class="submenu-btn-button">
-							<span>Support us with Alipay</span>
+							<span>Support us on Alipay</span>
 						</div>
 					</div>
 					</a>
-					<a href="https://github.com/RPCS3/rpcs3/wiki/Coding-Style" target="_blank">
+					<a href="https://github.com/rpcs3/rpcs3/wiki/coding-style" target="_blank">
 					<div class="submenu-con-wrapper">
 						<div class="submenu-ico-github">
 						</div>
@@ -116,7 +113,7 @@
 						</div>
 					</div>
 					</a>
-					<a href="https://forums.rpcs3.net/" target="_blank">
+					<a href="https://forums.rpcs3.net/thread-196671.html" target="_blank">
 					<div class="submenu-con-wrapper">
 						<div class="submenu-ico-testing">
 						</div>
@@ -171,9 +168,24 @@
 					<span>Roadmap</span>
 				</div>
 				</a>
+				<a href="/disclaimer">
+				<div class='menu-btn-subbutton'>
+					<span>Disclaimer</span>
+				</div>
+				</a>
 				<a href="/faq">
 				<div class='menu-btn-subbutton'>
 					<span>FAQ</span>
+				</div>
+				</a>
+				<a href="https://github.com/rpcs3" target="_blank">
+				<div class='menu-btn-subbutton'>
+					<span>GitHub</span>
+				</div>
+				</a>
+				<a href="https://forums.rpcs3.net" target="_blank">
+				<div class='menu-btn-subbutton'>
+					<span>Forum</span>
 				</div>
 				</a>
 				<a href='https://wiki.rpcs3.net'>
@@ -181,19 +193,14 @@
 					<span>Wiki</span>
 				</div>
 				</a>
-				<a href="https://github.com/RPCS3/rpcs3" target="_blank">
-				<div class='menu-btn-subbutton'>
-					<span>GitHub</span>
-				</div>
-				</a>
 				<a href="https://discord.me/RPCS3" target="_blank">
 				<div class='menu-btn-subbutton'>
 					<span>Discord</span>
 				</div>
 				</a>
-				<a href="https://forums.rpcs3.net" target="_blank">
+				<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/videos" target="_blank">
 				<div class='menu-btn-subbutton'>
-					<span>Forum</span>
+					<span>YouTube</span>
 				</div>
 				</a>
 			</div>

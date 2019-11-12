@@ -16,7 +16,7 @@
 			<div class='error-ico-content' style="background: url('/img/icons/errors/401.png') no-repeat center; background-size:40px;">
 			</div>
 			<div class='error-tx1-content pulsate'>
-				<span>Unauthorized</span>
+				<h1>Unauthorized</h1>
 			</div>
 			<div class='error-tx2-content'>
 				<p>

@@ -124,7 +124,7 @@
 							<div class="footer-table-in">
 								<div class="footer-con-bound">
 									<div class="footer-tx1-bound">
-										<span>Source</span>
+										<span>Repos</span>
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://github.com/RPCS3/rpcs3" target="_blank">
@@ -153,11 +153,16 @@
 			<div class="footer-con-outer">
 				<div class="footer-con-inner">
 					<div class="footer-con-foot">
-						<div class="footer-tx1-webmaster">
-							<span><span>Website developed by </span><span class="footer-ico-webmaster"></span><span><a style="pointer-events: all; padding-left: 22px;" href="https://daginatsuko.com" target="_blank">DAGINATSUKO</a></span></span>
+						<div class="footer-tx1-developer">
+							<span>Website designed by </span>
+							<a href="https://daginatsuko.com" target="_blank">
+							<span class="footer-ico-developer">
+							</span>
+							<span>DAGINATSUKO</span>
+							</a>
 						</div>
-						<div class="footer-tx2-webmaster">
-							<span>Founded by DH and Hykem © 2011 - 2019 RPCS3</span>
+						<div class="footer-tx2-developer">
+							<span>Founded by DH and Hykem © 2019</span>
 						</div>
 					</div>
 				</div>
