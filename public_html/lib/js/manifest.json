@@ -3,8 +3,8 @@
   "short_name": "RPCS3",
   "start_url": "/",
   "display": "standalone",
-  "background_color" : "#4c5bd7" ,
-  "theme_color" : "#4c5bd7" ,
+  "background_color" : "#4e34c9" ,
+  "theme_color" : "#4e34c9" ,
   "description": "Open-source PlayStation 3 Emulator",
   "icons": [
     {

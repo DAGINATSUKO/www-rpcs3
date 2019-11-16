@@ -10,7 +10,7 @@
 				<div class="cookie-ico-button">
 				</div>
 				<div class="cookie-tx1-button">
-					<span>Accept</span>
+					<span>I Understand</span>
 				</div>
 			</div>
 		</div>

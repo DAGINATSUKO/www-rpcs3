@@ -1,7 +1,7 @@
 @charset "utf-8";
 .dm-gradient {
-	background: url(/img/graphics/landing/gradient-dark.png) no-repeat center bottom;
-	background-size: cover;
+	background: url(/img/graphics/landing/gradient-dark.png) no-repeat center top;
+	background-size: contain;
 }
 .dm-bg {
 	background:#111525!important
@@ -23,7 +23,7 @@
     background:#111525 !important;
 }
 .dm-menubar-l1 {
-	background: -webkit-linear-gradient(-135deg,rgba(0, 18, 59, .8) 25%,rgba(66, 0, 152, 0.8) 100%) !important;
+	background: rgba(46, 31, 120, .8);
 }
 .dm-menubar-l2 {
 	background:rgba(40,48,117,.8)!important
@@ -98,7 +98,8 @@
 	border-color: rgba(255, 255, 255, .08);
 }
 .dm-navsidebar-title {
-	background:#252d68!important
+	background:#252d68!important;
+	color: #fff;
 }
 .dm-navsidebar-txt {
 	color:#fff!important

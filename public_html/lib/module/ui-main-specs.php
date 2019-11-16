@@ -102,23 +102,29 @@
 <div class='panel-con-wrapper'>
 	<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
 	<div class="panel-con-container panel-center button-enabled darkmode-panel">
-		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
+		<div class='panel-ico-container' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>PS3 </b>PlayStation 3 <span class="txt-highlight darkmode-highlight">PS3UPDAT.PUP</span> system update file
+				<b>PlayStation 3 </b><span class="txt-highlight darkmode-highlight">PS3UPDAT.PUP</span> system update file
 			</p>
 		</div>
 	</div>
 	</a>
 </div>
+</div>
+</div>
+</div>
+<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+<div class="page-con-container">
+<div class="page-in-container">
 <div class="container-tx1-heading div-css-heading darkmode-txt">
 	<h2>Windows Requirements</h2>
 </div>
 <div class='panel-con-wrapper'>
 	<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
 	<div class="panel-con-container panel-left button-enabled darkmode-panel">
-		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
+		<div class='panel-ico-container' style="background: url('/img/icons/list/package.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
@@ -129,7 +135,7 @@
 	</a>
 	<a href='/cdn/tools/openssl_win64.zip' download>
 	<div class="panel-con-container panel-right button-enabled darkmode-panel">
-		<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ssl.png') no-repeat center;">
+		<div class='panel-ico-container' style="background: url('/img/icons/list/ssl.png') no-repeat center;">
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>

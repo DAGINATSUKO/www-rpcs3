@@ -50,7 +50,6 @@
 				</div>
 			</div>
 			<?php include 'lib/module/ui-main-specs.php';?>
-			
 			<div class="guide-con-content context-windows darkmode-panel">
 				<div class="anchorpoint" id="updating">
 				</div>
@@ -71,7 +70,12 @@
 					</p>
 				</div>
 			</div>
-			
+		</div>
+	</div>
+</div>
+<div class="page-con-content">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="firmware">
 				</div>
@@ -88,7 +92,6 @@
 					</div>
 				</div>
 			</div>
-			
 			<div class="guide-con-content context-windows darkmode-panel">
 				<div class="anchorpoint" id="manage_saves">
 				</div>
@@ -109,7 +112,12 @@
 					</p>
 				</div>
 			</div>
-			
+		</div>
+	</div>
+</div>
+<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="manage_files">
 				</div>
@@ -146,6 +154,12 @@
 					</p>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="page-con-content">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="manage_formats">
 				</div>
@@ -174,7 +188,12 @@
 					</div>
 				</div>
 			</div>
-			
+		</div>
+	</div>
+</div>
+<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="install_games">
 				</div>
@@ -207,7 +226,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="install_updates">
 				</div>
@@ -223,7 +241,12 @@
 					</div>
 				</div>
 			</div>
-
+		</div>
+	</div>
+</div>
+<div class="page-con-content">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="software_distribution">
 				</div>
@@ -240,11 +263,10 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="guide-con-content darkmode-panel">
 				<div class="anchorpoint" id="dumping_methods">
 				</div>
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
+				<div class='guide-ico-content' style="background: url('/img/icons/list/ps3-h.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -268,7 +290,12 @@
 					</p>
 				</div>
 			</div>
-
+		</div>
+	</div>
+</div>
+<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="compatible_drives">
 				</div>
@@ -409,42 +436,46 @@
 					</p>
 				</div>
 			</div>
-			
+		</div>
+	</div>
+</div>
+<div class="page-con-content">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="dumping_linux"></div>
+				<div class="anchorpoint" id="dumping_linux">
+				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
 						<h2>A command-line option for Linux users</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							If you're comfortable with the Linux command-line and you have a compatible BluRay drive, you can try ripping PlayStation 3 discs using a Python program called <a href="https://notabug.org/necklace/libray" target="_blank" rel="noopener noreferrer">LibRay</a>.
+							 If you're comfortable with the Linux command-line and you have a compatible BluRay drive, you can try ripping PlayStation 3 discs using a Python program called <a href="https://notabug.org/necklace/libray" target="_blank" rel="noopener noreferrer">LibRay</a>.
 						</p>
 						<p>
-							Do note that this method requires an <span class="highlight darkmode-highlight">.ird</span> file that matches your title ID to be available on <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a>. (libray will automatically attempt to download the correct <span class="highlight darkmode-highlight">.ird</span> file, if it exists, so you do not need to do so manually.) If a matching <span class="highlight darkmode-highlight">.ird</span> file is not present, please try the PS3 Disc Dumper mentioned below.
+							 Do note that this method requires an <span class="highlight darkmode-highlight">.ird</span> file that matches your title ID to be available on <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a>. (libray will automatically attempt to download the correct <span class="highlight darkmode-highlight">.ird</span> file, if it exists, so you do not need to do so manually.) If a matching <span class="highlight darkmode-highlight">.ird</span> file is not present, please try the PS3 Disc Dumper mentioned below.
 						</p>
 					</div>
 				</div>
 			</div>
-
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="dumping_procedure"></div>
+				<div class="anchorpoint" id="dumping_procedure">
+				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
 						<h2>One-click easy solution</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 This is an automated &amp; user-friendly way of getting a decrypted copy of your PlayStation 3 discs.
-							 You must possess one of the aforementioned compatible disc drives to complete the disc dumping procedure.
-							 Again, this method will not work with standard Blu-ray drives.
+							 This is an automated &amp; user-friendly way of getting a decrypted copy of your PlayStation 3 discs. You must possess one of the aforementioned compatible disc drives to complete the disc dumping procedure. Again, this method will not work with standard Blu-ray drives.
 						</p>
 					</div>
 				</div>
 			</div>
 			<a href='https://github.com/13xforever/ps3-disc-dumper/releases/latest'>
 			<div class="guide-con-content button-enabled darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
+				<div class='guide-ico-content' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -459,7 +490,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						Insert a PlayStation 3 format disc title of your choice into your compatible Blu-ray drive.
+						 Insert a PlayStation 3 format disc title of your choice into your compatible Blu-ray drive.
 					</p>
 				</div>
 			</div>
@@ -469,10 +500,16 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						Run the PS3 Disc Dumper.
+						 Run the PS3 Disc Dumper.
 					</p>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="dumping_procedure_manual">
 				</div>
@@ -482,14 +519,14 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							In case the easy way didn't work for you, here's a compiled list of the step-by-step instructions we used for dumping disc-based PlayStation 3 titles.
+							 In case the easy way didn't work for you, here's a compiled list of the step-by-step instructions we used for dumping disc-based PlayStation 3 titles.
 						</p>
 					</div>
 				</div>
 			</div>
 			<a href='/cdn/tools/patcher.zip'>
 			<div class="guide-con-content button-enabled darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
+				<div class='guide-ico-content' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -500,7 +537,7 @@
 			</a>
 			<a href='/cdn/tools/3k3y.zip'>
 			<div class="guide-con-content button-enabled darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
+				<div class='guide-ico-content' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -508,10 +545,10 @@
 					</p>
 				</div>
 			</div>
-			</a> 
+			</a>
 			<a href="http://www.imgburn.com" target="_blank" rel="noopener noreferrer">
 			<div class="guide-con-content button-enabled darkmode-panel">
-				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/package.png') no-repeat center;">
+				<div class='guide-ico-content' style="background: url('/img/icons/list/package.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -519,7 +556,7 @@
 					</p>
 				</div>
 			</div>
-			</a> 
+			</a>
 			<div class="guide-con-content darkmode-panel">
 				<div class='guide-tx1-content darkmode-invert'>
 					<span>1</span>

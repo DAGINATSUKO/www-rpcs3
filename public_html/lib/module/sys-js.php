@@ -1,7 +1,7 @@
-<script data-cfasync="false" src='/lib/js/jquery.js?v=2'></script>
-<script data-cfasync="false" src='/lib/js/main.js?v=2'></script>
-<script data-cfasync="false" src='/lib/js/jscookie.js?v=2'></script>
-<script data-cfasync="false" src='/lib/js/dark.js?v=2'></script>
+<script data-cfasync="false" src='/lib/js/jquery.js?v=4'></script>
+<script data-cfasync="false" src='/lib/js/main.js?v=4'></script>
+<script data-cfasync="false" src='/lib/js/jscookie.js?v=4'></script>
+<script data-cfasync="false" src='/lib/js/dark.js?v=4'></script>
 <noscript>
 <style>
 .video-con-dimmer {

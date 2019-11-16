@@ -41,14 +41,12 @@ $build = Build::getLatest();
 	<div class="page-con-container">
 		<div class="page-in-container">
 			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper' style="padding-bottom: 0px;">
+				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
 						<h2>Latest Builds</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 RPCS3 is still in its early stages of development and the binaries we produce are highly experimental. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase. If you come across any regressions upon a new release, please be sure to report your findings on our forum.<br>
-							<br>
 							 The system requirements for running the emulator vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements but you're always welcome to experiment. See the <a href="/quickstart">Quickstart</a> guide for more information. <br>
 						</p>
 					</div>
@@ -148,6 +146,12 @@ $build = Build::getLatest();
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -181,9 +185,9 @@ $build = Build::getLatest();
 				</div>
 			</div>
 			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper' style="padding-bottom: 0px;">
+				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>For Linux Users</h2>
+						<h2>For Linux Users*</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
@@ -192,13 +196,19 @@ $build = Build::getLatest();
 							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
 							<br>
 							<br>
-							<b>Download using wget</b> <span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
+							<b>Download using wget</b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
 							<br>
-							<b>Download using curl</b> <span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
+							<b>Download using curl</b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
 						</p>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="page-con-content">
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -206,7 +216,7 @@ $build = Build::getLatest();
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Downloading the website source allows you to clone, fork or contribute any enhancements via GitHub. RPCS3.net is licensed under the GNU General Public License v2.0. Its core developed and maintained by <a href='https://github.com/DAGINATSUKO'>DAGINATSUKO</a>, while the compatibility database is developed and maintained by <a href='https://github.com/AniLeo'>AniLeo</a>.
+							 Downloading the website source allows you to clone, fork or contribute any enhancements via GitHub. RPCS3.net is licensed under the GNU General Public License v2.0. Its core developed and maintained by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>, while the compatibility database is developed and maintained by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>.
 						</p>
 					</div>
 				</div>

@@ -37,13 +37,11 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>About Us</h2>
+						<h2>About</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 RPCS3 was founded by programmers DH and Hykem. The developers initially hosted the project on Google Code and eventually moved it to GitHub later in its development. The emulator was first able to successfully boot and run simple homebrew projects and was then later publicly released in June of 2012. Today RPCS3 is dubbed one of the most complex video game console emulators of all time with an endless goal to effectively emulate the Sony PlayStation 3 and all of its aspects.<br>
-							<br>
-							 The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems. All information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation. Most of this information can be found on the <a href='http://www.psdevwiki.com/ps3/Main_Page' target="_blank">PlayStation 3 Developer Wiki.</a>
+							 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. It was founded by programmers DH and Hykem. Initially hosted on Google Code, the project was eventually migrated to GitHub later on in its development. RPCS3's first successful boots were primarily composed of small homebrew projects and hardware tests. The emulator was later publicly released in June of 2012 and gained substantial attention from both the open-source community and PlayStation enthusiasts alike. Today, RPCS3 is primarily developed by its two lead developers; Nekotekina, kd-11 and backed by  flourishing team of GitHub contributors.
 						</p>
 					</div>
 				</div>

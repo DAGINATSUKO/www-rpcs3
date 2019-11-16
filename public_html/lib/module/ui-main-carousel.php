@@ -13,8 +13,9 @@
 						</div>
 						<div class='video-img-thumbnail' style="background: url('/img/videos/primary.jpg') no-repeat center; background-size: cover;">
 						</div>
-						<div class="video-tx2-heading pulsate">
+						<div class="video-tx2-heading">
 							<h3>Drakengard 3</h3>
+							<h2>Drakengard 3 is now playable at 4K 60FPS</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -39,8 +40,9 @@
 						</div>
 						<div class='video-img-thumbnail' style="background: url('/img/videos/secondary.jpg') no-repeat center; background-size: cover;">
 						</div>
-						<div class="video-tx2-heading pulsate">
+						<div class="video-tx2-heading">
 							<h3>Metal Gear Solid 4</h3>
+							<h2>Metal Gear Solid 4 graphical issues fixed within a week</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -65,8 +67,9 @@
 						</div>
 						<div class='video-img-thumbnail' style="background: url('/img/videos/tertiary.jpg') no-repeat center; background-size: cover;">
 						</div>
-						<div class="video-tx2-heading pulsate">
-							<h3>The Last of Us, Ratchet and Clank and More</h3>
+						<div class="video-tx2-heading">
+							<h3>The Last of Us and More</h3>
+							<h2>Improvements in The Last of Us, Ratchet and Clank and Resistance 3</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>

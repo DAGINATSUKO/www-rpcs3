@@ -113,9 +113,11 @@ $(document).ready(function() {
     /* Add focus effect to search bar */
     $('.database-search').on('focus', function() {
         $('.search-inp-search').addClass('focused');
+		$('#compat-con-searchbox').addClass('focused');
     });
     $('.database-search').on('blur', function() {
         $('.search-inp-search').removeClass('focused');
+		$('#compat-con-searchbox').removeClass('focused');
     });
 });
 /* Mobile menu toggles */

@@ -220,6 +220,9 @@
 		-webkit-transform: scale(1.002);
 		-ms-transform: scale(1.002);
 		transform: scale(1.002);
+		background: url(/img/graphics/landing/gradient-light.png) no-repeat center bottom;
+		background-size: contain;
+		height: 50%;
 	}
 	.video-img-backdrop {
 		background-size: contain !Important;
@@ -236,10 +239,10 @@
 		width: 100px;
 		margin: -50px;
 	}
-	.video-tx2-heading {
-		font-size:30px;
+	.dm-gradient {
+   	 	background: url(/img/graphics/landing/gradient-dark.png) no-repeat center bottom;
+    	background-size: contain;
 	}
-	
 	.landing-con-search {
 		display:none;
 	}
@@ -337,4 +340,10 @@
 		display:none;
 	}
 
+	.sidebar-btn-open {
+		height: 100px;
+	}
+	.sidebar-btn-open:hover {
+		height: 100px;
+	}
 }
