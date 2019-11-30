@@ -342,6 +342,9 @@
 						 LG <span class="highlight darkmode-highlight">BU40N</span>
 					</p>
 					<p>
+						 LG <span class="highlight darkmode-highlight">CH12NS30</span>
+					</p>
+					<p>
 						 LG <span class="highlight darkmode-highlight">UH12NS30</span>
 					</p>
 					<p>
