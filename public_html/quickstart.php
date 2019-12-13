@@ -315,7 +315,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 LG <span class="highlight darkmode-highlight">BE16NU50</span>
+						 LG <span class="highlight darkmode-highlight">BE16NU50</span> (external)
 					</p>
 					<p>
 						 LG <span class="highlight darkmode-highlight">BH14NS40</span>
@@ -333,7 +333,7 @@
 						 LG <span class="highlight darkmode-highlight">BH26NS40</span>
 					</p>
 					<p>
-						 LG <span class="highlight darkmode-highlight">BP50NB40</span>
+						 LG <span class="highlight darkmode-highlight">BP50NB40</span> (external)
 					</p>
 					<p>
 						 LG <span class="highlight darkmode-highlight">BU20N</span>
