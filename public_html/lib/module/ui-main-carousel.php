@@ -11,18 +11,18 @@
 						</div>
 						<div class='video-con-animate page-video-1'>
 						</div>
-						<div class='video-img-thumbnail' style="background: url('/img/videos/primary.jpg') no-repeat center; background-size: cover;">
+						<div class='video-img-thumbnail' style="background: url('/img/videos/1.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>Drakengard 3</h3>
-							<h2>Drakengard 3 is now playable at 4K 60FPS</h2>
+							<h3>Naughty Dog Titles</h3>
+							<h2>Graphical improvements in Uncharted and The Last of Us</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
 						<div class='video-wrp-backdrop'>
 						<div class="video-img-overlay darkmode-gradient">
 						</div>
-							<div class='video-img-backdrop' style="background: url('/img/videos/primary-blur.jpg') no-repeat center bottom; background-size: cover;">
+							<div class='video-img-backdrop' style="background: url('/img/videos/1b.jpg') no-repeat center bottom; background-size: cover;">
 							</div>
 						</div>
 					</div>
@@ -38,18 +38,18 @@
 						</div>
 						<div class='video-con-animate page-video-2'>
 						</div>
-						<div class='video-img-thumbnail' style="background: url('/img/videos/secondary.jpg') no-repeat center; background-size: cover;">
+						<div class='video-img-thumbnail' style="background: url('/img/videos/2.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>Metal Gear Solid 4</h3>
-							<h2>Metal Gear Solid 4 graphical issues fixed within a week</h2>
+							<h3>Drakengard 3</h3>
+							<h2>Drakengard 3 is now playable at 4K 60FPS</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
 						<div class='video-wrp-backdrop'>
-							<div class="video-img-overlay darkmode-gradient">
-							</div>
-							<div class='video-img-backdrop' style="background: url('/img/videos/secondary-blur.jpg') no-repeat center bottom; background-size: cover;">
+						<div class="video-img-overlay darkmode-gradient">
+						</div>
+							<div class='video-img-backdrop' style="background: url('/img/videos/2b.jpg') no-repeat center bottom; background-size: cover;">
 							</div>
 						</div>
 					</div>
@@ -65,18 +65,18 @@
 						</div>
 						<div class='video-con-animate page-video-3'>
 						</div>
-						<div class='video-img-thumbnail' style="background: url('/img/videos/tertiary.jpg') no-repeat center; background-size: cover;">
+						<div class='video-img-thumbnail' style="background: url('/img/videos/3.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>The Last of Us and More</h3>
-							<h2>Improvements in The Last of Us, Ratchet and Clank and Resistance 3</h2>
+							<h3>Metal Gear Solid 4</h3>
+							<h2>Metal Gear Solid 4 graphical issues fixed within a week</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
 						<div class='video-wrp-backdrop'>
 							<div class="video-img-overlay darkmode-gradient">
 							</div>
-							<div class='video-img-backdrop' style="background: url('/img/videos/tertiary-blur.jpg') no-repeat center bottom; background-size: cover;">
+							<div class='video-img-backdrop' style="background: url('/img/videos/3b.jpg') no-repeat center bottom; background-size: cover;">
 							</div>
 						</div>
 					</div>

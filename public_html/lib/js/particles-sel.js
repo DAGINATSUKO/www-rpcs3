@@ -39,7 +39,7 @@ $(document).ready(function() {
                     }
                 },
                 "size": {
-                    "value": 8,
+                    "value": 6,
                     "random": true,
                     "anim": {
                         "enable": true,

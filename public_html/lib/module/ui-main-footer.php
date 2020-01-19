@@ -162,7 +162,7 @@
 							</a>
 						</div>
 						<div class="footer-tx2-developer">
-							<span>Founded by DH and Hykem © 2019</span>
+							<span>Founded by DH and Hykem © 2020</span>
 						</div>
 					</div>
 				</div>

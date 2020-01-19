@@ -17,29 +17,29 @@
 </head>
 <body>
 <img src="/img/graphics/landing/dualshock3.png" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/primary.jpg" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/primary-blur.jpg" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/secondary.jpg" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/secondary-blur.jpg" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/tertiary.jpg" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/tertiary-blur.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/1.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/1b.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/2.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/2b.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/3.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/videos/3b.jpg" width="1" height="1" alt="Preload"/>
 <?php include 'lib/module/sys-php.php';?>
 <?php include 'lib/module/ui-main-video.php'?>
 <?php
 	preloadVideo(
 	'1',
-	'wGLxIO1IauA',
-	'primary'
+	'8tk3W4YO10o',
+	'1'
 	);
 	preloadVideo(
 	'2',
-	'CYbCULhmUBA',
-	'secondary'
+	'wGLxIO1IauA',
+	'2'
 	);
 	preloadVideo(
 	'3',
-	'ul6YYfh4cAo',
-	'tertiary'
+	'CYbCULhmUBA',
+	'3'
 	);
 ?>
 <div class="page-con-content board-css-override">

@@ -4,7 +4,8 @@
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>Recommended Requirements</b>
+				<b>Recommended Requirements</b><br>
+				For running playable games with proper performance
 			</p>
 		</div>
 	</div>
@@ -13,8 +14,8 @@
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>Minimum Requirements</b>
-			</p>
+				<b>Minimum Requirements</b><br>
+				For being able to run any games or applications at all</p>
 		</div>
 	</div>
 </div>
@@ -24,8 +25,8 @@
 		</div>
 		<div style='margin-top:12px; margin-bottom:12px' class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>CPU </b>Intel Quad-core and above with <a href="https://en.wikipedia.org/wiki/Transactional_Synchronization_Extensions" target="_blank">TSX-NI</a> (Haswell and above) <br>
-				<b>CPU </b>AMD Hexa-core and above (Ryzen)
+				<b>CPU </b>Intel Quad-core w/ HT or Hexa-core and up (Haswell and above) <br>
+				<b>CPU </b>AMD Hexa-core and up (Ryzen)
 			</p>
 		</div>
 	</div>
@@ -74,7 +75,7 @@
 		</div>
 		<div class="panel-tx1-heading darkmode-txt">
 			<p>
-				<b>RAM</b> 2GB minimum
+				<b>RAM</b> 4GB minimum
 			</p>
 		</div>
 	</div>
@@ -102,9 +103,9 @@
 <div class='panel-con-wrapper'>
 	<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
 	<div class="panel-con-container panel-center button-enabled darkmode-panel">
-		<div class='panel-ico-container' style="background: url('/img/icons/list/ps3.png') no-repeat center;">
+		<div class='panel-ico-container' style="background: url('/img/icons/list/ps3-h.png') no-repeat center;">
 		</div>
-		<div class="panel-tx1-heading darkmode-txt">
+		<div class="panel-tx1-heading darkmode-txt pulsate">
 			<p>
 				<b>PlayStation 3 </b><span class="txt-highlight darkmode-highlight">PS3UPDAT.PUP</span> system update file
 			</p>
@@ -126,7 +127,7 @@
 	<div class="panel-con-container panel-left button-enabled darkmode-panel">
 		<div class='panel-ico-container' style="background: url('/img/icons/list/package.png') no-repeat center;">
 		</div>
-		<div class="panel-tx1-heading darkmode-txt">
+		<div class="panel-tx1-heading darkmode-txt pulsate">
 			<p>
 				<b>Microsoft</b> Visual C++ 2019 Redistributable
 			</p>
@@ -137,7 +138,7 @@
 	<div class="panel-con-container panel-right button-enabled darkmode-panel">
 		<div class='panel-ico-container' style="background: url('/img/icons/list/ssl.png') no-repeat center;">
 		</div>
-		<div class="panel-tx1-heading darkmode-txt">
+		<div class="panel-tx1-heading darkmode-txt pulsate">
 			<p>
 				<b>OpenSSL</b> Runtime 1.1.1
 			</p>

@@ -236,14 +236,32 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/farseer.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/israel.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/avatars/silent.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/poland.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
 						<div class='user-tx1-content darkmode-txt'>
 							<span class="user-tx2-member ">
-							Farseer </span>
+							Silent </span>
+							<span class="user-con-role user-role-contributor">
+							Contributor </span>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: #36393f url('/img/users/avatars/rajkosto.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/serbia.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							rajkosto</span>
 							<span class="user-con-role user-role-contributor">
 							Contributor </span>
 						</div>
@@ -286,6 +304,24 @@
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
 							BlackDaemon has been around since the beginning as a global forum moderator and avid tester. He was responsible for testing and debugging many games, sharing peculiar issues to other developers so they could be fixed. </span>
+						</div>
+					</div>
+				</div>
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: url('/img/users/avatars/farseer.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/israel.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							Farseer </span>
+							<span class="user-con-role user-role-contributor">
+							Contributor </span>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
