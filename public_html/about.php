@@ -189,7 +189,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -207,7 +207,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -225,7 +225,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -243,7 +243,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -261,7 +261,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -279,7 +279,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -297,7 +297,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -333,7 +333,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -351,7 +351,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -387,7 +387,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -405,7 +405,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -423,7 +423,7 @@
 					</div>
 					<div class='user-tx3-content darkmode-txt'>
 						<span>
-						There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 					</div>
 				</div>
 			</div>
@@ -441,7 +441,7 @@
 					</div>
 					<div class='user-tx3-content darkmode-txt'>
 						<span>
-						There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 					</div>
 				</div>
 			</div>
@@ -459,7 +459,7 @@
 					</div>
 					<div class='user-tx3-content darkmode-txt'>
 						<span>
-						There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 					</div>
 				</div>
 			</div>
@@ -477,7 +477,7 @@
 					</div>
 					<div class='user-tx3-content darkmode-txt'>
 						<span>
-						There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 					</div>
 				</div>
 			</div>
@@ -499,7 +499,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4' target="_blank">PlayStation 4 related rewavebar-con-containerrch</a>. </span>
+							DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4' target="_blank">PlayStation 4 related research</a>. </span>
 						</div>
 					</div>
 				</div>
@@ -554,7 +554,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -572,7 +572,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -590,7 +590,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -608,7 +608,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. This developer is thought to be deceased and more information will be gathered on his contributions at a later date. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. This developer is thought to be deceased and more information will be gathered on his contributions at a later date. </span>
 						</div>
 					</div>
 				</div>
@@ -632,7 +632,7 @@
 				</div>
 				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/avatars/numan.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/principality-of-wavebar-con-containerland.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/principality-of-sealand.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -680,7 +680,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -698,7 +698,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>
@@ -716,7 +716,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
 				</div>	
@@ -734,7 +734,7 @@
 					</div>
 					<div class='user-tx3-content darkmode-txt'>
 						<span>
-						There is currently no description available for this team member. Please check back later or wavebar-con-containerrch the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 					</div>
 				</div>
 			</div>
