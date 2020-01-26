@@ -1,6 +1,14 @@
 <footer>
 <div class="footer-con-container">
 	<div class="footer-con-overlay darkmode-header">
+		<div id="particles-js-1">
+		</div>
+		<div class="wavebar-con-container">
+			<div class="wavebar-con-wrap">
+			  <div class="wavebar-svg-object"></div>
+			  <div class="wavebar-svg-object"></div>
+			</div>
+		</div>
 		<div class="footer-con-header">
 			<div class="footer-con-outer">
 				<div class="footer-con-inner">
@@ -127,7 +135,7 @@
 										<span>Repos</span>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://github.com/RPCS3/rpcs3" target="_blank">
+										<a href="https://github.com/RPCS3" target="_blank">
 										<span>Project</span>
 										</a>
 									</div>

@@ -12,6 +12,14 @@
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
 	<div class="header-con-overlay darkmode-header" style="position:fixed;">
+		<div id="particles-js-1">
+		</div>
+		<div class="wavebar-con-container">
+			<div class="wavebar-con-wrap">
+			  <div class="wavebar-svg-object"></div>
+			  <div class="wavebar-svg-object"></div>
+			</div>
+		</div>
 		<div class="error-con-content">
 			<div class='error-ico-content' style="background: url('/img/icons/errors/404.png') no-repeat center; background-size:40px;">
 			</div>

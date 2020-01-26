@@ -29,7 +29,7 @@
 	background:rgba(40,48,117,.8)!important
 }
 .dm-submenu-outer {
-	background:#111525!important
+	background:#111525;
 }
 .dm-submenu-btn {
 	color:#fff!important
@@ -93,9 +93,6 @@
 }
 .dm-panel {
 	background:#111525;
-	border-width:2px;
-	border-style:solid;
-	border-color:rgba(255,255,255,.08)
 }
 .dm-navsidebar-title {
 	background:#252d68!important;

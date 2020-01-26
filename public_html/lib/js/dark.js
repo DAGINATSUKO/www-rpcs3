@@ -23,7 +23,7 @@ $(document).ready(function() {
         $('.darkmode-txt').toggleClass("dm-txt");
         $('.darkmode-txt2').toggleClass("landing-con-container-invert");
         $('.darkmode-menubar-l1').toggleClass("dm-menubar-l1");
-        $('.submenu-con-outer').toggleClass("dm-submenu-outer");
+        $('.submenu-con-wrapper').toggleClass("dm-submenu-outer");
         $('.submenu-btn-button').toggleClass("dm-submenu-btn");
         $('.submenu-ico-lip').toggleClass("dm-submenu-lip");
         $('.darkmode-navsidebar-title').toggleClass("dm-navsidebar-title");
@@ -94,7 +94,7 @@ $(document).ready(function() {
         $('.darkmode-txt').addClass("dm-txt");
         $('.darkmode-txt2').addClass("landing-con-container-invert");
         $('.darkmode-menubar-l1').addClass("dm-menubar-l1");
-        $('.submenu-con-outer').addClass("dm-submenu-outer");
+        $('.submenu-con-wrapper').addClass("dm-submenu-outer");
         $('.submenu-btn-button').addClass("dm-submenu-btn");
         $('.submenu-ico-lip').addClass("dm-submenu-lip");
         $('.darkmode-navsidebar-title').addClass("dm-navsidebar-title");
@@ -153,7 +153,7 @@ $(document).ready(function() {
         $('.darkmode-txt').removeClass("dm-txt");
         $('.darkmode-txt2').addClass("landing-con-container-invert");
         $('.darkmode-menubar-l1').removeClass("dm-menubar-l1");
-        $('.submenu-con-outer').removeClass("dm-submenu-outer");
+        $('.submenu-con-wrapper').removeClass("dm-submenu-outer");
         $('.submenu-btn-button').removeClass("dm-submenu-btn");
         $('.submenu-ico-lip').removeClass("dm-submenu-lip");
         $('.darkmode-navsidebar-title').removeClass("dm-navsidebar-title");

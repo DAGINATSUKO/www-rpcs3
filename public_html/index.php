@@ -28,29 +28,30 @@
 <?php
 	preloadVideo(
 	'1',
-	'8tk3W4YO10o',
+	'O8pNP3UelBI',
 	'1'
 	);
 	preloadVideo(
 	'2',
-	'wGLxIO1IauA',
+	'8tk3W4YO10o',
 	'2'
 	);
 	preloadVideo(
 	'3',
-	'CYbCULhmUBA',
+	'wGLxIO1IauA',
 	'3'
 	);
 ?>
 <div class="page-con-content board-css-override">
+		<div class="wavebar-con-container">
+			<div class="wavebar-con-wrap">
+			  <div class="wavebar-svg-object"></div>
+			  <div class="wavebar-svg-object"></div>
+			</div>
+		</div>
 	<div class='landing-ico-scrolldown'>
 	</div>
 	<div class="landing-con-main">
-		<div class="revision-tx1-container">
-			<span>
-				Work in progress
-			</span>
-		</div>
 		<div id="particles-js-1">
 		</div>
 		<div class="content-con-backdrop darkmode-header">

@@ -87,7 +87,7 @@
 					<div class="submenu-ico-lip">
 					</div>
 					<a href="https://www.patreon.com/Nekotekina" target="_blank">
-					<div class="submenu-con-wrapper">
+					<div class="submenu-con-wrapper submenu-upper">
 						<div class="submenu-ico-patreon">
 						</div>
 						<div class="submenu-btn-button">
@@ -106,7 +106,7 @@
 					</a>
 					<a href="https://github.com/rpcs3/rpcs3/wiki/coding-style" target="_blank">
 					<div class="submenu-con-wrapper">
-						<div class="submenu-ico-github">
+						<div class="submenu-ico-github darkmode-invert">
 						</div>
 						<div class="submenu-btn-button">
 							<span>Contribute with GitHub</span>
@@ -114,8 +114,8 @@
 					</div>
 					</a>
 					<a href="https://forums.rpcs3.net/thread-196671.html" target="_blank">
-					<div class="submenu-con-wrapper">
-						<div class="submenu-ico-testing">
+					<div class="submenu-con-wrapper submenu-lower">
+						<div class="submenu-ico-testing darkmode-invert">
 						</div>
 						<div class="submenu-btn-button">
 							<span>Contribute with testing</span>

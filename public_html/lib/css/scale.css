@@ -115,6 +115,9 @@
 	.landing-tx1-download {
 		display:none;
 	}
+	.wavebar-con-container {
+		height: 80%;
+	}
 	.content-expand {
 		width:100%;
 	}

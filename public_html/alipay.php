@@ -11,11 +11,21 @@
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
+<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
+<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
 </head>
 <body style="background: #000;">
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
 	<div class="header-con-overlay darkmode-header" style="position:fixed;">
+		<div id="particles-js-1">
+		</div>
+		<div class="wavebar-con-container">
+			<div class="wavebar-con-wrap">
+			  <div class="wavebar-svg-object"></div>
+			  <div class="wavebar-svg-object"></div>
+			</div>
+		</div>
 		<div class='alipay-con-alipay'>
 			<div class="alipay-ico-logo">
 			</div>

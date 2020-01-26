@@ -73,13 +73,8 @@ $(window).on("load resize", function(e) {
         'margin-top': -$('.scale-content-txt-3').height() / 2
     });
 });
-/* Random banner image selection */
+ /* Handles text pulsation*/
 $(document).ready(function() {
-    var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg', '21.jpg', '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg', '29.jpg', '30.jpg', '31.jpg', '32.jpg'];
-    $('.header-img-head').css({
-        'background': 'no-repeat center top url(/img/graphics/banners/' + images[Math.floor(Math.random() * images.length)] + ')'
-    });
-    /* Handles text pulsation*/
     var glow = $('.pulsate');
     setInterval(function() {
         glow.hasClass('glow') ? glow.removeClass('glow') : glow.addClass('glow');
@@ -157,7 +152,7 @@ $(document).ready(function() {
 /* Handles featured video toggles */
 $(document).ready(function() {
     $(".page-video-1").click(function() {
-        $('.video-img-viewport').show().delay(500).fadeOut();
+        $('.video-img-viewport').show().delay(500).fadeOut();		
     });
 	$(".page-video-2").click(function() {
         $('.video-img-viewport').show().delay(500).fadeOut();
@@ -165,7 +160,6 @@ $(document).ready(function() {
 	$(".page-video-3").click(function() {
         $('.video-img-viewport').show().delay(500).fadeOut();
     });
-	
     $(".toggle-video-1").hide();
     $(".page-video-1").click(function() {
         $(".toggle-video-1").fadeIn('fast');
@@ -174,7 +168,6 @@ $(document).ready(function() {
     $(".close-video").click(function() {
         $(".toggle-video-1").fadeOut('fast');
     });
-	
     $(".toggle-video-2").hide();
     $(".page-video-2").click(function() {
         $(".toggle-video-2").fadeIn('fast');
@@ -183,7 +176,6 @@ $(document).ready(function() {
     $(".close-video").click(function() {
         $(".toggle-video-2").fadeOut('fast');
     });
-	
     $(".toggle-video-3").hide();
     $(".page-video-3").click(function() {
         $(".toggle-video-3").fadeIn('fast');
@@ -192,7 +184,6 @@ $(document).ready(function() {
     $(".close-video").click(function() {
         $(".toggle-video-3").fadeOut('fast');
     });
-	
     /* Pre-load and unload of video iframes */
     $(".page-video-1").click(function() {
         var iframe = $("#video-1");
