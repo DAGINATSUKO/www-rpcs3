@@ -34,7 +34,7 @@
 			</div>
 			<div class="header-tx2-body fade-up-onstart">
 				<p>
-					 Get RPCS3 up and running on Windows or Linux
+					 Get up and running on Windows, Linux or BSD
 				</p>
 			</div>
 		</div>
@@ -370,7 +370,7 @@
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block">
-						<h2>Dumping with Blu-ray drive</h2>
+						<h2>Dumping with a Blu-ray drive</h2>
 					</div>
 					<div class="container-tx2-block">
 						<p>
