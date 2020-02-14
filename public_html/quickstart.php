@@ -429,6 +429,11 @@
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
+						 BH16NS60
+					</div>
+					<div class="drives-con-inner darkmode-txt">
+						<div class="drives-ico-bluray darkmode-invert">
+						</div>
 						 BH26NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
@@ -436,13 +441,13 @@
 						</div>
 						 BP50NB40 <span class="drives-txt-revisions">(External)</span>
 					</div>
+				</div>
+				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 BU20N
 					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
@@ -458,13 +463,13 @@
 						</div>
 						 UH12NS30
 					</div>
+				</div>
+				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 WH12LS30
 					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
@@ -480,13 +485,13 @@
 						</div>
 						 WH16NS48
 					</div>
+				</div>
+				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 WH24LS30
 					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
@@ -496,9 +501,6 @@
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 WH26NS40
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
 					</div>
 					<div class="drives-con-inner drives-txt-hidden">
 						 XX-XXXXXX
