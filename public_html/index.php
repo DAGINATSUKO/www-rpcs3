@@ -12,8 +12,6 @@
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 <script data-cfasync="false" src='/lib/js/carousel.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
 </head>
 <body>
 <img src="/img/graphics/landing/dualshock3.png" width="1" height="1" alt="Preload"/>
@@ -28,22 +26,22 @@
 <?php
 	preloadVideo(
 	'1',
-	'O8pNP3UelBI',
+	'LGF36El_ajA',
 	'1'
 	);
 	preloadVideo(
 	'2',
-	'8tk3W4YO10o',
+	'WkZXOYDvKcU',
 	'2'
 	);
 	preloadVideo(
 	'3',
-	'wGLxIO1IauA',
+	'O8pNP3UelBI',
 	'3'
 	);
 ?>
-<div class="page-con-content board-css-override">
-		<div class="wavebar-con-container">
+<div class="page-con-content landing-con-override">
+		<div class="wavebar-con-container-master">
 			<div class="wavebar-con-wrap">
 			  <div class="wavebar-svg-object"></div>
 			  <div class="wavebar-svg-object"></div>
@@ -191,7 +189,7 @@
 							</div>
 							<div class="patreon-tx2-mantra darkmode-txt">
 								<p>
-									 Our developers are pushing the very boundaries of what an emulator can do and how it can preform. Our rapid progression would not be possible without our Patrons. Our patrons not only keep us motivated, but keep our lead developers working on the project full time.
+									 Our developers are pushing the very boundaries of what an emulator can do and how it can perform. Our rapid progression would not be possible without our Patrons. Our patrons not only keep us motivated, but keep our lead developers working on the project full time.
 								</p>
 							</div>
 							<a href="https://www.patreon.com/Nekotekina" target="_blank">

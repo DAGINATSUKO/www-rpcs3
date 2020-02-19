@@ -10,8 +10,6 @@
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
-<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
 </head>
 <body>
 <?php include 'lib/module/sys-php.php';?>

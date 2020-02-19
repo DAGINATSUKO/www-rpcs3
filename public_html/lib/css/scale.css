@@ -115,7 +115,7 @@
 	.landing-tx1-download {
 		display:none;
 	}
-	.wavebar-con-container {
+	.wavebar-con-container-master {
 		height: 80%;
 	}
 	.content-expand {
@@ -160,7 +160,6 @@
 		height: 100px;
 	}
 	
-	
 	.menu-ico-logo {
 		height: 100px;
 	}
@@ -176,10 +175,6 @@
 		display: none;
 		top: 100px;
 		left: -128px;
-	}
-	
-	.submenu-ico-lip {
-		left: 130px;
 	}
 	
 	.content-btn-left {
@@ -348,5 +343,33 @@
 	}
 	.sidebar-btn-open:hover {
 		height: 100px;
+	}
+}
+@media screen and (max-width:1492px) {
+	.menu-tx1-settings span {
+		display: none;
+	}
+}
+@media screen and (max-width:1492px) {
+	.menu-con-support {
+		display: none;
+	}
+}
+@media screen and (max-width:1163px) {
+	.settings-menu-con-outer {
+		display: none;
+		top: 134px;
+	}
+}
+@media screen and (max-width:800px) {
+	.settings-menu-con-outer {
+		display: none;
+		top: 110px;
+	}
+}
+@media screen and (max-width:800px) {
+	.menu-tx1-settings {
+		display: block;
+		line-height: 100px !important;
 	}
 }

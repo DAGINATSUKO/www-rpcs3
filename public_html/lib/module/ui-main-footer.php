@@ -1,8 +1,6 @@
 <footer>
 <div class="footer-con-container">
 	<div class="footer-con-overlay darkmode-header">
-		<div id="particles-js-1">
-		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">
 			  <div class="wavebar-svg-object"></div>

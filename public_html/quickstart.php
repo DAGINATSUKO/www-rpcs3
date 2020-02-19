@@ -10,8 +10,6 @@
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
-<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
 </head>
 <body>
 <?php include 'lib/module/sys-php.php';?>
@@ -122,33 +120,24 @@
 						</div>
 					</div>
 				</div>
-				<div class='panel-con-wrapper'>
-					<div class="panel-con-container panel-left">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/os.png') no-repeat center;">
-						</div>
-						<div class="panel-tx1-heading darkmode-txt">
-							<p>
-								<b>Operating System -</b> 64-bit Windows 7/8/10 or Linux / BSD
-							</p>
-						</div>
-					</div>
-					<div class="panel-con-container panel-right">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/os.png') no-repeat center;">
-						</div>
-						<div class="panel-tx1-heading darkmode-txt">
-							<b>Operating System -</b> 64-bit Windows 7/8/10 or Linux / BSD
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="container-con-wrapper">
 				<div class="container-tx1-block darkmode-txt">
 					<h2>Software Requirements</h2>
 				</div>
 				<div class="container-tx2-block darkmode-txt">
-					 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and BSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.
+					 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and BSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.<br><br>
+					<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8 and 10 are supported as well as Linux and BSD.
+					<br><br>
 				</div>
 			</div>
+			
+
+
+
+
+
+			
 			<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
 			<div class="guide-con-content button-enabled darkmode-panel">
 				<div class='guide-ico-content' style="background: url('/img/icons/list/ps-h.png') no-repeat center;">
@@ -429,11 +418,6 @@
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
-						 BH16NS60
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
-						</div>
 						 BH26NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
@@ -441,13 +425,13 @@
 						</div>
 						 BP50NB40 <span class="drives-txt-revisions">(External)</span>
 					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 BU20N
 					</div>
+				</div>
+				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
@@ -463,13 +447,13 @@
 						</div>
 						 UH12NS30
 					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 WH12LS30
 					</div>
+				</div>
+				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
@@ -485,13 +469,13 @@
 						</div>
 						 WH16NS48
 					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 WH24LS30
 					</div>
+				</div>
+				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
@@ -501,6 +485,11 @@
 						<div class="drives-ico-bluray darkmode-invert">
 						</div>
 						 WH26NS40
+					</div>
+					<div class="drives-con-inner darkmode-txt">
+						<div class="drives-ico-bluray darkmode-invert">
+						</div>
+						 BH16NS60
 					</div>
 					<div class="drives-con-inner drives-txt-hidden">
 						 XX-XXXXXX

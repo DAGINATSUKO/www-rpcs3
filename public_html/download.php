@@ -10,8 +10,6 @@
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
-<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
 </head>
 <body>
 <?php include 'lib/module/sys-php.php';?>
@@ -200,9 +198,9 @@ $build = Build::getLatest();
 							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
 							<br>
 							<br>
-							<b>Download using wget</b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
+							<b>Download using wget </b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span>
 							<br>
-							<b>Download using curl</b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
+							<b>Download using curl </b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
 						</p>
 					</div>
 				</div>
@@ -220,7 +218,7 @@ $build = Build::getLatest();
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Downloading the website source allows you to clone, fork or contribute any enhancements via GitHub. RPCS3.net is licensed under the GNU General Public License v2.0. Its core developed and maintained by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>, while the compatibility database is developed and maintained by <a href='https://github.com/AniLeo' target="_blank">AniLeo</a>.
+							 Downloading the website source allows you to clone, fork or contribute any enhancements via GitHub. RPCS3.net is licensed under the GNU General Public License v2.0. Its core developed and maintained by <a href='https://github.com/DAGINATSUKO' target="_blank">DAGINATSUKO</a>, while the compatibility database is developed and maintained by <a href='https://github.com/AniLeo' target="_blank">Ani</a>.
 						</p>
 					</div>
 				</div>

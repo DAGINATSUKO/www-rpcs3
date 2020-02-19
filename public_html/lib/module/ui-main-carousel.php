@@ -14,8 +14,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/1.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>Various Games</h3>		
-							<h2>Performance improvements in RDR, GoW 3 and More</h2>
+							<h3>January Improvements</h3>		
+							<h2>Ratchet and Clank Future, Sly 4, GoW 3 and more</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -41,8 +41,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/2.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>Naughty Dog Games</h3>
-							<h2>Graphical improvements in Uncharted and The Last of Us</h2>
+							<h3>Performance Gains</h3>
+							<h2>LittleBigPlanet 2-3, The Last of Us, GoW Ascension and more</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -68,8 +68,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/3.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>Drakengard 3</h3>
-							<h2>Drakengard 3 is now playable at 4K 60FPS</h2>
+							<h3>Performance Gains</h3>		
+							<h2>God of War 3, Red Dead, Metal Gear Solid 4 and more</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>

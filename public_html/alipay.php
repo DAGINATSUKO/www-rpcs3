@@ -11,10 +11,8 @@
 <?php include 'lib/module/sys-meta.php';?>
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
-<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
 </head>
-<body style="background: #000;">
+<body>
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
 	<div class="header-con-overlay darkmode-header" style="position:fixed;">
@@ -42,7 +40,7 @@
 		</div>
 		<div class="alipay-con-footer">
 			<p>
-				 © 2019 Alipay. All rights reserved.
+				 © 2020 Alipay. All rights reserved.
 			</p>
 		</div>
 	</div>

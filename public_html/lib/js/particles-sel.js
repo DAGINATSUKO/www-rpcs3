@@ -1,4 +1,4 @@
-/* Handles Particles.js simulation*/
+// Handles Particles.js simulation*/
 $(document).ready(function() {
     $(function() {
         particlesJS("particles-js-1", {
