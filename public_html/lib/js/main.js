@@ -315,7 +315,7 @@ $(document).ready(function() {
         $(".toggle-video-1").fadeIn('fast');
     });
     $(".toggle-video-1").fadeOut(); // Close video #1
-    $(".theme-btn-close-video").click(function() {
+    $(".close-video").click(function() {
         $(".toggle-video-1").fadeOut('fast');
     });
     $(".toggle-video-2").fadeOut();
@@ -323,7 +323,7 @@ $(document).ready(function() {
         $(".toggle-video-2").fadeIn('fast');
     });
     $(".toggle-video-2").fadeOut(); // Close video #2
-    $(".theme-btn-close-video").click(function() {
+    $(".close-video").click(function() {
         $(".toggle-video-2").fadeOut('fast');
     });
     $(".toggle-video-3").fadeOut(); // Open video #3
@@ -331,7 +331,7 @@ $(document).ready(function() {
         $(".toggle-video-3").fadeIn('fast');
     });
     $(".toggle-video-3").fadeOut(); // Close video #3
-    $(".theme-btn-close-video").click(function() {
+    $(".close-video").click(function() {
         $(".toggle-video-3").fadeOut('fast');
     });
     $(".page-video-1").click(function() {
