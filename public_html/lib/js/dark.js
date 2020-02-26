@@ -86,7 +86,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     if ($('.toggle-darkmode').hasClass('activate-darkmode')) {
-		$('.btn-darkmode').text("Disable Dark Mode");
         $('.darkmode-icon').addClass("dm-icon");
         $('body').addClass("dm-bg");
 		$('.darkmode-gradient').addClass("dm-gradient");

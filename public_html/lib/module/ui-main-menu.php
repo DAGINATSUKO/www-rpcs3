@@ -57,7 +57,7 @@
 		<div class="settings-menu-ico-theme darkmode-invert">
 		</div>
 		<div class="settings-menu-btn-button btn-theme">
-			<span>Choose Theme</span>
+			<span>Change Theme</span>
 		</div>
 	</div>
 </div>

@@ -803,6 +803,9 @@ a:hover {
 	height:60px;
 	border-bottom:2px solid transparent;
 }
+.menu-con-support:hover {
+	border-bottom:2px solid #fff;
+}
 .alipay-con-alipay {
 	position:fixed;
 	z-index:1;
@@ -943,9 +946,6 @@ a:hover {
 	width:60px;
 	height:60px;
 	cursor:pointer;
-	-webkit-transition:.1s ease-in-out;
-	-o-transition:.1s ease-in-out;
-	transition:.1s ease-in-out;
 	border-bottom:solid 2px transparent;
 	background:url(/img/icons/menu/sidemenu.png) no-repeat center;
 	background-size:16px;
@@ -953,9 +953,6 @@ a:hover {
 .sidebar-btn-open:hover {
 	width:60px;
 	height:60px;
-	-webkit-transition:.1s ease-in-out;
-	-o-transition:.1s ease-in-out;
-	transition:.1s ease-in-out;
 	border-bottom:solid 2px #fff;
 }
 .sidebar-con-dimmer {
