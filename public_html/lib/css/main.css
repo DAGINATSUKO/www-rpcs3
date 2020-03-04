@@ -2888,16 +2888,15 @@ a:hover {
 .markdown a:hover {
 	text-decoration:underline
 }
-.markdown-body {
+.markdown {
 	font-family:arial,sans-serif;
 	font-size:16px;
-	padding-top:10px
 }
-.markdown-body h2 {
+.markdown h2 {
 	font-family:HelveticaNeueRegular;
 	font-size:24px;
 	line-height:26px;
-	margin-top:40px;
+	margin-top: 22px;
 	margin-bottom:26px;
 	padding-bottom:30px;
 	text-align:left;
@@ -2909,9 +2908,9 @@ a:hover {
 	font-family:arial,sans-serif;
 	font-size:14px;
 	display:block;
-	margin-top:20px;
+	margin-top: 30px;
 }
-.markdown-body ul {
+.markdown ul {
 	font-family:arial,sans-serif;
 	font-size:14px;
 	line-height:35px;

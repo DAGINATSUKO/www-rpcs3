@@ -97,7 +97,7 @@
 }
 @media screen and (max-width:800px) {
 	.landing-con-main {
-		height: 80%;
+		height: 90%;
 	}
 	.landing-ico-logo {
 		display:block !important;
@@ -116,7 +116,7 @@
 		display:none;
 	}
 	.wavebar-con-container-master {
-		height: 80%;
+		height: 90%;
 	}
 	.content-expand {
 		width:100%;
