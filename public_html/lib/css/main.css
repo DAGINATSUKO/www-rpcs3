@@ -544,24 +544,34 @@ a:hover {
 	color:#fff;
 }
 .settings-menu-con-wrapper:hover .settings-menu-ico-darkmode {
-	background:url(/img/icons/submenu/darkmode-h.png) no-repeat center;
+	background:url(/img/icons/submenu/darkmode.png) no-repeat center;
 	background-size:20px;
+	-webkit-filter: invert(1);
+    filter: invert(1);
 }
 .settings-menu-con-wrapper:hover .settings-menu-ico-particles {
-	background:url(/img/icons/submenu/particles-h.png) no-repeat center;
+	background:url(/img/icons/submenu/particles.png) no-repeat center;
 	background-size:20px;
+	-webkit-filter: invert(1);
+    filter: invert(1);
 }
 .settings-menu-con-wrapper:hover .settings-menu-ico-waves {
-	background:url(/img/icons/submenu/waves-h.png) no-repeat center;
+	background:url(/img/icons/submenu/waves.png) no-repeat center;
 	background-size:20px;
+	-webkit-filter: invert(1);
+    filter: invert(1);
 }
 .settings-menu-con-wrapper:hover .settings-menu-ico-transparency {
-	background:url(/img/icons/submenu/transparency-h.png) no-repeat center;
+	background:url(/img/icons/submenu/transparency.png) no-repeat center;
 	background-size:20px;
+	-webkit-filter: invert(1);
+    filter: invert(1);
 }
 .settings-menu-con-wrapper:hover .settings-menu-ico-theme {
-	background:url(/img/icons/submenu/theme-h.png) no-repeat center;
+	background:url(/img/icons/submenu/theme.png) no-repeat center;
 	background-size:20px;
+	-webkit-filter: invert(1);
+    filter: invert(1);
 }
 .settings-menu-btn-button {
 	font-family:arial,sans-serif;
