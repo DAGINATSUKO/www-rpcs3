@@ -70,7 +70,7 @@
 	background-size:64px!important
 }
 .dm-avatar {
-	border:solid 4px #1d233f
+	border:solid 4px #1d233f !important;
 }
 .dm-flag {
 	border:solid 4px #1d233f!important
@@ -113,34 +113,49 @@
 .dm-blog-sidebar {
 	color:#fff!important
 }
-.dm-compat-highlight:hover {
-	background:rgba(0,102,204,.2)!important
+
+
+
+
+.dm-compat-menu {
+	background:#191f36;
+	color:#fff !Important;
 }
-.dm-compat-author {
-	background: -webkit-linear-gradient(-135deg,rgba(0,18,59,.7) 25%,rgba(105,0,243,.7) 100%)!important
-}
-.dm-searchbox {
-	background:#111525!important;
-}
-.dm-hdr-left {
+.dm-compat-header-left {
 	background:#191f36!important;
 	border-color: transparent !important;
 	color: #596282 !important;
 }
-.dm-status {
+.dm-compat-criteria {
+	background:#111525!important;
+	color: #fff !important;
+}
+.dm-compat-status-text {
+	color:#fff!important
+}
+.dm-compat-searchbox {
+	background:#111525!important;
+}
+.dm-compat-status {
 	border-color: rgba(25, 31, 54, .4)!important;
 }
-.dm-media {
-	background:#191f36!important;
+.dm-compat-media {
+	background: #191f36 !important;
 }
-.dm-titles {
+.dm-compat-con-pages {
 	background:#191f36!important;
 	color: #fff !important;
 }
-.dm-pages {
-    border-color: rgba(25, 31, 54, .4)!important;
-    background: #191f36!important;
-    color:#596282 !important;
+.dm-compat-con-pages-a {
+    border-color: #111525 !important;
+    background: #111525 !important;
+    color: #fff !important;
+}
+.dm-compat-footer {
+	background:#191f36!important
+}
+.dm-compat-author {
+	background: #191f36 !important
 }
 .dm-highlightedText {
 	color: #fff !important;

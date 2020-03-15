@@ -1483,7 +1483,7 @@ a:hover {
 .github-btn-button {
 	width:186px;
 	height:40px;
-	border-radius:40px;
+	border-radius: 6px;
 	margin-left:100px;
 	margin-top:35px;
 	background:-webkit-linear-gradient(-135deg,#8241f9 25%,#5d9bff 100%);
@@ -1572,7 +1572,7 @@ a:hover {
 .discord-btn-button {
 	width:210px;
 	height:40px;
-	border-radius:40px;
+	border-radius: 6px;
 	margin-left:100px;
 	margin-top:35px;
 	background:-webkit-linear-gradient(-135deg,#6587ff 25%,#90a9fd 100%);
@@ -1651,7 +1651,7 @@ a:hover {
 	width:188px;
 	height:40px;
 	background:-webkit-linear-gradient(-135deg,#f96854 25%,#f99b54 100%);
-	border-radius:40px;
+	border-radius: 6px;
 	margin-left:100px;
 	margin-top:35px;
 	-webkit-box-shadow:0 10px 32px 0 rgba(249,104,84,.5);
