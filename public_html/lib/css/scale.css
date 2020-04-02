@@ -373,3 +373,25 @@
 		line-height: 100px !important;
 	}
 }
+
+/* Compatibility page scaling */ 
+
+
+@media screen and (max-width:800px) {
+	.divTableCell, .divTableHead {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+

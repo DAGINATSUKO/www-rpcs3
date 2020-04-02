@@ -49,7 +49,10 @@ $build = Build::getLatest();
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 The system requirements for running the emulator vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements but you're always welcome to experiment. See the <a href="/quickstart">Quickstart</a> guide for more information. <br>
+							 RPCS3 is under steady development and the binaries we produce are highly experimental. System requirements may vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements, but you're always welcome to experiment. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase.<br>
+							 <br>
+							 If you come across any regressions upon a new release, please be sure to report your findings on our forum. See <a href="/quickstart">Quickstart</a> for more information.
+
 						</p>
 					</div>
 				</div>
@@ -189,12 +192,10 @@ $build = Build::getLatest();
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>For Linux Users*</h2>
+						<h2>For Linux Users</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 RPCS3 is still in its early stages of development and the binaries we produce are highly experimental. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase. If you come across any regressions upon a new release, please be sure to report your findings on our forum. <br>
-							<br>
 							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
 							<br>
 							<br>
@@ -203,6 +204,25 @@ $build = Build::getLatest();
 							<b>Download using curl </b><span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
 						</p>
 					</div>
+					</div>
+					</div>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
+						<h2>For BSD Users</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<p class="download-desc">
+							 For BSD users, RPCS3 supports active FreeBSD 12.1 and FreeBSD 11.3 production versions.
+							 <br>
+							 <br>
+							 <b>Install as a package </b><span class="highlight darkmode-highlight">pkg install rpcs3</span>
+							 <br>
+							 <b>Install as a port </b><span class="highlight darkmode-highlight">cd /usr/ports/emulators/rpcs3/ && make install clean</span>
+						 </p>
+						</p>
+					</div>
+
 				</div>
 			</div>
 		</div>

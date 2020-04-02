@@ -131,41 +131,23 @@
 					<br><br>
 				</div>
 			</div>
-			
-
-
-
-
-
-			
-			<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
-			<div class="guide-con-content button-enabled darkmode-panel">
-				<div class='guide-ico-content' style="background: url('/img/icons/list/ps-h.png') no-repeat center;">
-				</div>
-				<div class="guide-tx1-heading darkmode-txt pulsate">
-					<p>
-						 PlayStation 3 System Software
-					</p>
-				</div>
-			</div>
-			</a>
 			<div class="button-con-container">
 				<div class='panel-con-wrapper'>
-					<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
+					<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
 					<div class="panel-con-container panel-left button-enabled darkmode-panel">
+						<div class='button-ico-container' style="background: url('/img/icons/list/ps-h.png') no-repeat center;">
+						</div>
+						<div class="button-tx1-text darkmode-txt pulsate">
+							 PlayStation 3 System Software
+						</div>
+					</div>
+					</a>
+					<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
+					<div class="panel-con-container panel-right button-enabled darkmode-panel">
 						<div class='button-ico-container' style="background: url('/img/icons/list/redist.png') no-repeat center;">
 						</div>
 						<div class="button-tx1-text darkmode-txt pulsate">
 							 Visual C++ 2019 Redistributable (Windows Only)
-						</div>
-					</div>
-					</a>
-					<a href='/cdn/tools/openssl_win64.zip' download>
-					<div class="panel-con-container panel-right button-enabled darkmode-panel">
-						<div class='button-ico-container' style="background: url('/img/icons/list/ssl.png') no-repeat center;">
-						</div>
-						<div class="button-tx1-text darkmode-txt pulsate">
-							 OpenSSL Runtime
 						</div>
 					</div>
 					</a>

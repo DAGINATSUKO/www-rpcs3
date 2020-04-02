@@ -14,8 +14,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/1.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>Performance Increases</h3>		
-							<h2>10FPS+ Increases in RDR, inFamous, Yakuza and  more</h2>
+							<h3>60FPS and Beyond</h3>		
+							<h2>Unlocked Framerates from 30FPS to 60FPS and Beyond</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -41,8 +41,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/2.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>Now Playable</h3>		
-							<h2>Dante's Inferno Is Now Fully Playable at 4K 60FPS</h2>
+							<h3>Performance Increases</h3>		
+							<h2>10FPS+ Increases in RDR, inFamous, Yakuza and  more</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -68,8 +68,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/3.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h3>January Improvements</h3>		
-							<h2>Ratchet and Clank Future, Sly 4, GoW 3 and more</h2>
+							<h3>Now Playable</h3>		
+							<h2>Dante's Inferno Is Now Fully Playable at 4K 60FPS</h2>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>

@@ -17,6 +17,9 @@ iframe {
 	height:100%;
 	border:none
 }
+input:focus {
+	outline:none;
+}
 @font-face {
 	font-family:HelveticaNeueThin;
 	src:url(/lib/font/HelveticaNeueThin.woff) format('woff')
