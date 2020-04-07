@@ -2255,6 +2255,11 @@ a:hover {
 	-webkit-box-shadow:0 5px 16px 0 rgba(166,78,255,.4);
 	box-shadow:0 5px 16px 0 rgba(166,78,255,.4);
 }
+.user-role-wiki {
+	background:#59bcff;
+	-webkit-box-shadow:0 5px 16px 0 rgba(52,152,219,.4);
+	box-shadow:0 5px 16px 0 rgba(52,152,219,.4);
+}
 .user-role-contributor {
 	background:#ff8c67;
 	-webkit-box-shadow:0 5px 16px 0 rgba(230,131,100,.4);
