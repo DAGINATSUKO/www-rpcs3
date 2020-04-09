@@ -51,72 +51,220 @@
 					</div>
 				</div>
 			</div>
-			<div class='panel-con-requirements'>
-				<div class='panel-con-wrapper'>
-					<div class="panel-con-container panel-left" style="color:#27ae60;">
-						<div class='panel-ico-container' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
+			<div class='reqs-con-container'>
+				<div class='reqs-con-group'>
+					<div class="reqs-con-item reqs-left reqs-head" style="color:#27ae60;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
 						</div>
-						<div class="panel-tx1-heading">
+						<div class="reqs-tx1-item">
 							<b>Recommended Requirements</b><br>
 							 For running playable games with proper performance
 						</div>
 					</div>
-					<div class="panel-con-container panel-right" style="color:#f39c12;">
-						<div class='panel-ico-container' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
+					<div class="reqs-con-item reqs-right reqs-head" style="color:#f39c12;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
 						</div>
-						<div class="panel-tx1-heading">
+						<div class="reqs-tx1-item">
 							<b>Minimum Requirements</b><br>
 							 For being able to run any games or applications at all
 						</div>
 					</div>
 				</div>
-				<div class='panel-con-wrapper'>
-					<div class="panel-con-container panel-left">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+				<div class='reqs-con-group'>
+					<div class="reqs-con-item reqs-left">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 						</div>
-						<div class="panel-tx1-heading darkmode-txt">
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Processor -</b> Intel 4-core with HT or 6-cores and up (Haswell and above)<br>
+							<b>Processor -</b> AMD 6-core with SMT or 8-cores and up (Ryzen only)
+						</div>
+					</div>
+					<div class="reqs-con-item reqs-right">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Processor -</b> Any modern 64-bit capable processor<br>
+							<b>Processor -</b> 32-bit processors are not supported
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group'>
+					<div class="reqs-con-item reqs-left">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Graphics Card -</b> Any Vulkan compatible AMD or NVIDIA graphics card
+						</div>
+					</div>
+					<div class="reqs-con-item reqs-right">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Graphics Card -</b> Any OpenGL 4.3 compatible graphics card or greater
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group'>
+					<div class="reqs-con-item reqs-left">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Memory -</b> 8GB of system memory or greater
+						</div>
+					</div>
+					<div class="reqs-con-item reqs-right">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Memory -</b> 4GB of system memory at minimum
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group'>
+					<div class="reqs-con-item reqs-left">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Storage -</b> Capacity depends per-game size requirements
+						</div>
+					</div>
+					<div class="reqs-con-item reqs-right">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Storage -</b> Capacity depends per-game size requirements
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group'>
+					<div class="reqs-con-item reqs-left">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Gamepad -</b> Any XInput, MMJoystick, DS3 or DS4 controller
+						</div>
+					</div>
+					<div class="reqs-con-item reqs-right">
+						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item darkmode-txt">
+							<b>Gamepad -</b> Any keyboard and mouse
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='reqs-con-container-mobile'>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile" style="background: #27ae60; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5); box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5);">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/recommended-h.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile">
+							<b>Recommended Requirements</b><br>
+							 For running playable games with proper performance
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>CPU -</b> Intel 4-core with HT or 6-cores and up (Haswell and above)<br>
 							<b>CPU -</b> AMD 6-core with SMT or 8-cores and up (Ryzen only)
 						</div>
 					</div>
-					<div class="panel-con-container panel-right">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
-						<div class="panel-tx1-heading darkmode-txt">
-							<b>CPU -</b> A modern 64-bit capable processor<br>
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>GPU -</b> Any Vulkan compatible AMD or NVIDIA graphics card
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>RAM -</b> 8GB of system memory or greater
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>Storage -</b> Capacity depends per-game size requirements
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>Gamepad -</b> Any XInput, MMJoystick, DS3 or DS4 controller
+						</div>
+					</div>
+				</div>
+				<div class="reqs-con-divider">
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile" style="background: #f39c12; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(243, 156, 18, .5); box-shadow: 0px 10px 32px 0 rgba(243, 156, 18, .5)">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/minimum-h.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile">
+							<b>Minimum Requirements</b><br>
+							 For being able to run any games or applications at all
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>CPU -</b> Any modern 64-bit capable processor<br>
 							<b>CPU -</b> 32-bit processors are not supported
 						</div>
 					</div>
 				</div>
-				<div class='panel-con-wrapper'>
-					<div class="panel-con-container panel-left">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
-						<div class="panel-tx1-heading darkmode-txt">
-							<b>GPU -</b> Vulkan compatible AMD or NVIDIA graphics card
-						</div>
-					</div>
-					<div class="panel-con-container panel-right">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-						</div>
-						<div class="panel-tx1-heading darkmode-txt">
-							<b>GPU -</b> OpenGL 4.3 compatible or greater
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>GPU -</b> Any OpenGL 4.3 compatible graphics card or greater
 						</div>
 					</div>
 				</div>
-				<div class='panel-con-wrapper'>
-					<div class="panel-con-container panel-left">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 						</div>
-						<div class="panel-tx1-heading darkmode-txt">
-							<b>RAM -</b> 8GB of memory or greater
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>RAM -</b> 4GB of system memory at minimum
 						</div>
 					</div>
-					<div class="panel-con-container panel-right">
-						<div class='panel-ico-container darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
 						</div>
-						<div class="panel-tx1-heading darkmode-txt">
-							<b>RAM -</b> 4GB of memory at minimum
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>Storage -</b> Capacity depends per-game size requirements
+						</div>
+					</div>
+				</div>
+				<div class='reqs-con-group-mobile'>
+					<div class="reqs-con-container-mobile">
+						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
+						</div>
+						<div class="reqs-tx1-item-mobile darkmode-txt">
+							<b>Gamepad -</b> Any keyboard and mouse
 						</div>
 					</div>
 				</div>
@@ -126,15 +274,16 @@
 					<h2>Software Requirements</h2>
 				</div>
 				<div class="container-tx2-block darkmode-txt">
-					 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and BSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.<br><br>
-					<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8 and 10 are supported as well as Linux and BSD.
-					<br><br>
+					 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and BSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.<br>
+					<br>
+					<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8 and 10 are supported as well as Linux and BSD. <br>
+					<br>
 				</div>
 			</div>
 			<div class="button-con-container">
-				<div class='panel-con-wrapper'>
+				<div class='reqs-con-group'>
 					<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
-					<div class="panel-con-container panel-left button-enabled darkmode-panel">
+					<div class="reqs-con-container button-left button-enabled darkmode-panel">
 						<div class='button-ico-container' style="background: url('/img/icons/list/ps-h.png') no-repeat center;">
 						</div>
 						<div class="button-tx1-text darkmode-txt pulsate">
@@ -143,7 +292,7 @@
 					</div>
 					</a>
 					<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
-					<div class="panel-con-container panel-right button-enabled darkmode-panel">
+					<div class="reqs-con-container button-right button-enabled darkmode-panel">
 						<div class='button-ico-container' style="background: url('/img/icons/list/redist.png') no-repeat center;">
 						</div>
 						<div class="button-tx1-text darkmode-txt pulsate">
@@ -306,7 +455,7 @@
 						</p>
 					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="container-con-block darkmode-block">
 				<div class="anchorpoint" id="software_distribution">
 				</div>
@@ -673,14 +822,14 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt pulsate">
 					<p>
-						 PS3 Disc Dumper by 13xforever.
+						 PS3 Disc Dumper by 13xforever
 					</p>
 				</div>
 			</div>
 			</a>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					1
+					 1
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -690,7 +839,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					2
+					 2
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -713,9 +862,9 @@
 				</div>
 			</div>
 			<div class="button-con-container">
-				<div class='panel-con-wrapper'>
+				<div class='reqs-con-group'>
 					<a href='/cdn/tools/patcher.zip' download>
-					<div class="panel-con-container panel-left button-enabled darkmode-panel">
+					<div class="reqs-con-container button-left button-enabled darkmode-panel">
 						<div class='button-ico-container' style="background: url('/img/icons/list/patcher.png') no-repeat center;">
 						</div>
 						<div class="button-tx1-text darkmode-txt pulsate">
@@ -724,7 +873,7 @@
 					</div>
 					</a>
 					<a href='/cdn/tools/3k3y.zip' download>
-					<div class="panel-con-container panel-right button-enabled darkmode-panel">
+					<div class="reqs-con-container button-right button-enabled darkmode-panel">
 						<div class='button-ico-container' style="background: url('/img/icons/list/3k3y.png') no-repeat center;">
 						</div>
 						<div class="button-tx1-text darkmode-txt pulsate">
@@ -747,7 +896,7 @@
 			</a>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					1
+					 1
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -757,7 +906,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					2
+					 2
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -767,7 +916,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					3
+					 3
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -777,7 +926,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					4
+					 4
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -787,7 +936,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					5
+					 5
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -797,7 +946,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					6
+					 6
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -807,7 +956,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					7
+					 7
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -820,7 +969,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					8
+					 8
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
@@ -831,7 +980,7 @@
 			</div>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
-					9
+					 9
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>

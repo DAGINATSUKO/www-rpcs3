@@ -374,8 +374,19 @@
 	}
 }
 
-/* Compatibility page scaling */ 
+@media screen and (max-width:1140px) {
+		.reqs-con-container {
+			display: none;
+	}
+}
 
+@media screen and (min-width:1140px) {
+		.reqs-con-container-mobile {
+			display: none;
+	}
+}
+
+/* Compatibility page scaling */ 
 
 @media screen and (max-width:800px) {
 	.divTableCell, .divTableHead {

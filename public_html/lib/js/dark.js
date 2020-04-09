@@ -21,6 +21,9 @@ $(document).ready(function() {
         $('.darkmode-context').toggleClass("dm-default");
         $('.darkmode-contribute').toggleClass("dm-default");
         $('.darkmode-panel').toggleClass("dm-panel");
+		$('.reqs-head').toggleClass("dm-reqs-head");
+		$('.reqs-left').toggleClass("dm-reqs-left");
+		$('.reqs-right').toggleClass("dm-reqs-right");
         $('.darkmode-txt').toggleClass("dm-txt");
         $('.darkmode-txt2').toggleClass("landing-con-container-invert");
         $('.darkmode-menubar-l1').toggleClass("dm-menubar-l1");
@@ -105,6 +108,9 @@ $(document).ready(function() {
         $('.darkmode-context').addClass("dm-default");
         $('.darkmode-contribute').addClass("dm-default");
         $('.darkmode-panel').addClass("dm-panel");
+		$('.reqs-head').addClass("dm-reqs-head");
+		$('.reqs-left').addClass("dm-reqs-left");
+		$('.reqs-right').addClass("dm-reqs-right");
         $('.darkmode-txt').addClass("dm-txt");
         $('.darkmode-txt2').addClass("landing-con-container-invert");
         $('.darkmode-menubar-l1').addClass("dm-menubar-l1");
@@ -176,6 +182,9 @@ $(document).ready(function() {
         $('.darkmode-context').removeClass("dm-default");
         $('.darkmode-contribute').removeClass("dm-default");
         $('.darkmode-panel').removeClass("dm-panel");
+		$('.reqs-head').removeClass("dm-reqs-head");
+		$('.reqs-left').removeClass("dm-reqs-left");
+		$('.reqs-right').removeClass("dm-reqs-right");
         $('.darkmode-txt').removeClass("dm-txt");
         $('.darkmode-txt2').addClass("landing-con-container-invert");
         $('.darkmode-menubar-l1').removeClass("dm-menubar-l1");

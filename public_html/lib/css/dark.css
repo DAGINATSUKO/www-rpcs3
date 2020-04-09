@@ -91,6 +91,15 @@
 .dm-panel {
 	background: #111525 !important;
 }
+.dm-reqs-head{
+	background: #191f36!important;
+}
+.dm-reqs-left:hover {
+	background: rgba(25, 31, 54, .4)!important;
+}
+.dm-reqs-right:hover {
+	background: rgba(25, 31, 54, .4)!important;
+}
 .dm-navsidebar-title {
 	background:#252d68!important;
 	color:#fff

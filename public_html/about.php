@@ -19,8 +19,10 @@
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">
-			  <div class="wavebar-svg-object"></div>
-			  <div class="wavebar-svg-object"></div>
+				<div class="wavebar-svg-object">
+				</div>
+				<div class="wavebar-svg-object">
+				</div>
 			</div>
 		</div>
 		<div class='header-con-body fade-up-onstart'>
@@ -43,11 +45,11 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. It was founded by programmers DH and Hykem. Initially hosted on Google Code, the project was eventually migrated to GitHub later on in its development. RPCS3's first successful boots were primarily composed of small homebrew projects and hardware tests. The emulator was later publicly released in June of 2012 and gained substantial attention from both the open-source community and PlayStation enthusiasts alike. Today, RPCS3 is primarily developed by its two lead developers; Nekotekina, kd-11 and backed by  flourishing team of GitHub contributors.
+							 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. It was founded by programmers DH and Hykem. Initially hosted on Google Code, the project was eventually migrated to GitHub later on in its development. RPCS3's first successful boots were primarily composed of small homebrew projects and hardware tests. The emulator was later publicly released in June of 2012 and gained substantial attention from both the open-source community and PlayStation enthusiasts alike. Today, RPCS3 is primarily developed by its two lead developers; Nekotekina, kd-11 and backed by flourishing team of GitHub contributors.
 						</p>
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="user-con-grouped">
 				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/avatars/nekotekina.png') no-repeat center; background-size: cover;">
@@ -74,7 +76,7 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #646E77 url('/img/users/avatars/kd11.png') no-repeat center; background-size: cover;">	
+					<div class='user-img-avatar' style="background: #646E77 url('/img/users/avatars/kd11.png') no-repeat center; background-size: cover;">
 						<div class="user-con-spinner">
 							<div class="user-ico-spinner">
 							</div>
@@ -367,7 +369,26 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							Shadow, being one of the eldest team members for RPCS3, is the owner of both the RPCS3 and EmuNewz web servers. Shadow has also made small, yet meaningful contributions to the emulator over the years. </span>
+							Shadow, being one of the eldest team members for RPCS3, is the owner of both the RPCS3 and EmuNewz web servers. Shadow has also made small, yet meaningful contributions to the emulator over the years.</span>
+						</div>
+					</div>
+				</div>
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: url('/img/users/avatars/yahfz.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/brazil.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							Yahfz </span>
+							<span class="user-con-role user-role-contributor">
+							Contributor </span>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+								Yahfz joined RPCS3 in early 2017 with the drive to aid in recording several videos for the project's official YouTube channel as well as assisting Nekotekina in setting up the project's Patreon. He currently supports the project as a debugger focused on resolving bottlenecks with an endless goal of making the emulator better for everyone on every platform.
+							</span>
 						</div>
 					</div>
 				</div>
@@ -390,325 +411,34 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/yahfz.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/brazil.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Yahfz </span>
-							<span class="user-con-role user-role-contributor">
-							Contributor </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-			<div class="user-con-content darkmode-txt">
-				<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/tge.png') no-repeat center; background-size: cover;">
-					<div class='user-img-flag' style="background: url('/img/users/flags/netherlands.png') no-repeat center; background-size: cover;">
-					</div>
-				</div>
-				<div class="user-con-wrapper">
-					<div class='user-tx1-content darkmode-txt'>
-						<span class="user-tx2-member ">
-						TGE </span>
-						<span class="user-con-role user-role-contributor">
-						Contributor </span>
-					</div>
-					<div class='user-tx3-content darkmode-txt'>
-						<span>
-						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-					</div>
-				</div>
-			</div>
-			<div class="user-con-content darkmode-txt">
-				<div class='user-img-avatar' style="background: url('/img/users/avatars/juhn.png') no-repeat center; background-size: cover;">
-					<div class='user-img-flag' style="background: url('/img/users/flags/sweden.png') no-repeat center; background-size: cover;">
-					</div>
-				</div>
-				<div class="user-con-wrapper">
-					<div class='user-tx1-content darkmode-txt'>
-						<span class="user-tx2-member ">
-						Juhn 0xCA7F00D</span>
-						<span class="user-con-role user-role-contributor">
-						Contributor </span>
-					</div>
-					<div class='user-tx3-content darkmode-txt'>
-						<span>
-						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-					</div>
-				</div>
-			</div>
-			<div class="user-con-content darkmode-txt">
-				<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/scribam.png') no-repeat center; background-size: cover;">
-					<div class='user-img-flag' style="background: url('/img/users/flags/european-union.png') no-repeat center; background-size: cover;">
-					</div>
-				</div>
-				<div class="user-con-wrapper">
-					<div class='user-tx1-content darkmode-txt'>
-						<span class="user-tx2-member ">
-						scribam </span>
-						<span class="user-con-role user-role-contributor">
-						Contributor </span>
-					</div>
-					<div class='user-tx3-content darkmode-txt'>
-						<span>
-						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-					</div>
-				</div>
-			</div>
-			<div class="user-con-content darkmode-txt">
-				<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/raven02.png') no-repeat center; background-size: cover;">
-					<div class='user-img-flag' style="background: url('/img/users/flags/unknown.png') no-repeat center; background-size: cover;">
-					</div>
-				</div>
-				<div class="user-con-wrapper">
-					<div class='user-tx1-content darkmode-txt'>
-						<span class="user-tx2-member ">
-						raven02 </span>
-						<span class="user-con-role user-role-contributor">
-						Contributor </span>
-					</div>
-					<div class='user-tx3-content darkmode-txt'>
-						<span>
-						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-					</div>
-				</div>
-			</div>
-			<div class="container-tx1-heading div-css-heading darkmode-txt">
-				 Former Developers
-			</div>
-			<div class="user-con-grouped">
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/dh.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/ukraine.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							DH </span>
-							<span class="user-con-role user-role-founder">
-							Project Founder </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4' target="_blank">PlayStation 4 related research</a>. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/hykem.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Hykem </span>
-							<span class="user-con-role user-role-founder">
-							Project Founder </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735' target="_blank">He was forced to leave the emulation scene in mid 2016.</a>
-							</span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/alexaltea.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/spain.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							AlexAltea </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							AlexAltea joined developers DH and Hykem in the late summer of 2013. He focused mainly on high-level LV2 emulation as well as CPU and GPU emulation in addition to debugging and automated testing via console samples. He also maintained the project up until early 2015. He then left the project to do R&D on other <a href="https://github.com/AlexAltea?tab=repositories" target="_blank">emulation-related</a> projects. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/tambry.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/estonia.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Tambry </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/bigpet.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/germany.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Bigpet </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/vlj.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/france.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							vlj </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/gopalsr83.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #4f5972 url('/img/users/avatars/herrhulahoop.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/users/flags/india.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
 						<div class='user-tx1-content darkmode-txt'>
 							<span class="user-tx2-member ">
-							gopalsr83 </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
+							HerrHulaHoop </span>
+							<span class="user-con-role user-role-contributor">
+							Contributor </span>
+							<span class="user-con-role user-role-wiki">
+							Wiki Maintainer </span>
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. This developer is thought to be deceased and more information will be gathered on his contributions at a later date. </span>
+							HerrHulaHoop joined RPCS3 in early 2018 and took up the task to design and set-up RPCS3's Wiki. He is currently the Wiki Maintainer, tasked with developing templates that suit RPCS3's specific needs and also moderating contributions made by the community. Following the Wiki's launch, Hula also began writing the monthly progress reports on the Blog and still maintains an active role in publishing them. </span>
 						</div>
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/jarves.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/tge.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/netherlands.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
 						<div class='user-tx1-content darkmode-txt'>
 							<span class="user-tx2-member ">
-							Jarves </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							Jarves has been around since 2014 doing some contributions from time-to-time. Between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated and implemented DualShock 4 native support. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/numan.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/principality-of-sealand.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Numan </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							Numan joined RPCS3 in early 2017 as a contributor. Due to his valiant efforts in investigating and fixing various bugs found in the emulator, he was the person responsible for the first efforts that made Demon's Souls boot, which drew a lot of attention to the project, as well as having implemented sys_overlay, a firmware API necessary for Metal Gear Solid 4 to run. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/flashofsloth.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							FlashOfSloth </span>
-							<span class="user-con-role user-role-founder">
-							Former Developer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							FlashOfSloth joined RPCS3 in early 2017. He's known for leading the effort into Qt, major UI additions, including a save manager and a trophy notification. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/dangles.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/australia.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Dangles </span>
-							<span class="user-con-role user-role-founder">
-							Former Contributor </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/pauls-gh.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							pauls-gh </span>
-							<span class="user-con-role user-role-founder">
-							Former Contributor </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/o1l.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/russia.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							O1L </span>
+							TGE </span>
 							<span class="user-con-role user-role-contributor">
 							Contributor </span>
 						</div>
@@ -717,26 +447,319 @@
 							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
 						</div>
 					</div>
-				</div>	
-			<div class="user-con-content darkmode-txt">
-				<div class='user-img-avatar' style="background: url('/img/users/avatars/ruipin.png') no-repeat center; background-size: cover;">
-					<div class='user-img-flag' style="background: url('/img/users/flags/portugal.png') no-repeat center; background-size: cover;">
+				</div>
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: url('/img/users/avatars/juhn.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/sweden.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							Juhn 0xCA7F00D</span>
+							<span class="user-con-role user-role-contributor">
+							Contributor </span>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
 					</div>
 				</div>
-				<div class="user-con-wrapper">
-					<div class='user-tx1-content darkmode-txt'>
-						<span class="user-tx2-member ">
-						ruipin </span>
-						<span class="user-con-role user-role-contributor">
-						Contributor </span>
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/scribam.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/european-union.png') no-repeat center; background-size: cover;">
+						</div>
 					</div>
-					<div class='user-tx3-content darkmode-txt'>
-						<span>
-						There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							scribam </span>
+							<span class="user-con-role user-role-contributor">
+							Contributor </span>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
 					</div>
 				</div>
-			</div>
-			</div>
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/raven02.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/unknown.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							raven02 </span>
+							<span class="user-con-role user-role-contributor">
+							Contributor </span>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="container-tx1-heading div-css-heading darkmode-txt">
+					 Former Developers
+				</div>
+				<div class="user-con-grouped">
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/dh.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/ukraine.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								DH </span>
+								<span class="user-con-role user-role-founder">
+								Project Founder </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4' target="_blank">PlayStation 4 related research</a>. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/hykem.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								Hykem </span>
+								<span class="user-con-role user-role-founder">
+								Project Founder </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735' target="_blank">He was forced to leave the emulation scene in mid 2016.</a>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/alexaltea.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/spain.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								AlexAltea </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								AlexAltea joined developers DH and Hykem in the late summer of 2013. He focused mainly on high-level LV2 emulation as well as CPU and GPU emulation in addition to debugging and automated testing via console samples. He also maintained the project up until early 2015. He then left the project to do R&D on other <a href="https://github.com/AlexAltea?tab=repositories" target="_blank">emulation-related</a> projects. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/tambry.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/estonia.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								Tambry </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/bigpet.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/germany.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								Bigpet </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/vlj.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/france.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								vlj </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/gopalsr83.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/india.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								gopalsr83 </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. This developer is thought to be deceased and more information will be gathered on his contributions at a later date. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/jarves.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								Jarves </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								Jarves has been around since 2014 doing some contributions from time-to-time. Between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated and implemented DualShock 4 native support. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/numan.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/principality-of-sealand.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								Numan </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								Numan joined RPCS3 in early 2017 as a contributor. Due to his valiant efforts in investigating and fixing various bugs found in the emulator, he was the person responsible for the first efforts that made Demon's Souls boot, which drew a lot of attention to the project, as well as having implemented sys_overlay, a firmware API necessary for Metal Gear Solid 4 to run. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/flashofsloth.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								FlashOfSloth </span>
+								<span class="user-con-role user-role-founder">
+								Former Developer </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								FlashOfSloth joined RPCS3 in early 2017. He's known for leading the effort into Qt, major UI additions, including a save manager and a trophy notification. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/dangles.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/australia.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								Dangles </span>
+								<span class="user-con-role user-role-founder">
+								Former Contributor </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/pauls-gh.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								pauls-gh </span>
+								<span class="user-con-role user-role-founder">
+								Former Contributor </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/o1l.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/russia.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								O1L </span>
+								<span class="user-con-role user-role-contributor">
+								Contributor </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/avatars/ruipin.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/users/flags/portugal.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								ruipin </span>
+								<span class="user-con-role user-role-contributor">
+								Contributor </span>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
