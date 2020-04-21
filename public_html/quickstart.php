@@ -93,14 +93,14 @@
 						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
-							<b>Graphics Card -</b> Any Vulkan compatible AMD or NVIDIA graphics card
+							<b>Graphics Card -</b> A Modern AMD or NVIDIA Vulkan compatible GPU
 						</div>
 					</div>
 					<div class="reqs-con-item reqs-right">
 						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
-							<b>Graphics Card -</b> Any OpenGL 4.3 compatible graphics card or greater
+							<b>Graphics Card -</b> Any OpenGL 4.3 compatible GPU or greater
 						</div>
 					</div>
 				</div>
@@ -136,22 +136,6 @@
 						</div>
 					</div>
 				</div>
-				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Gamepad -</b> Any XInput, MMJoystick, DS3 or DS4 controller
-						</div>
-					</div>
-					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Gamepad -</b> Any keyboard and mouse
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class='reqs-con-container-mobile'>
 				<div class='reqs-con-group-mobile'>
@@ -179,7 +163,7 @@
 						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>GPU -</b> Any Vulkan compatible AMD or NVIDIA graphics card
+							<b>Graphics Card -</b> A Modern AMD or NVIDIA Vulkan compatible GPU
 						</div>
 					</div>
 				</div>
@@ -198,15 +182,6 @@
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>Storage -</b> Capacity depends per-game size requirements
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>Gamepad -</b> Any XInput, MMJoystick, DS3 or DS4 controller
 						</div>
 					</div>
 				</div>
@@ -237,7 +212,7 @@
 						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>GPU -</b> Any OpenGL 4.3 compatible graphics card or greater
+							<b>Graphics Card -</b> Any OpenGL 4.3 compatible GPU or greater
 						</div>
 					</div>
 				</div>
@@ -256,15 +231,6 @@
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>Storage -</b> Capacity depends per-game size requirements
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gamepad.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>Gamepad -</b> Any keyboard and mouse
 						</div>
 					</div>
 				</div>

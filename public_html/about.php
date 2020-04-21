@@ -374,26 +374,6 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/herrhulahoop.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/india.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							HerrHulaHoop </span>
-							<span class="user-con-role user-role-contributor">
-							Contributor </span>
-							<span class="user-con-role user-role-wiki">
-							Wiki Maintainer </span>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							HerrHulaHoop joined RPCS3 in early 2018 and took up the task to design and set-up RPCS3's Wiki. He is currently the Wiki Maintainer, tasked with developing templates that suit RPCS3's specific needs and also moderating contributions made by the community. Following the Wiki's launch, Hula also began writing the monthly progress reports on the Blog and still maintains an active role in publishing them. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/avatars/yahfz.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/users/flags/brazil.png') no-repeat center; background-size: cover;">
 						</div>
