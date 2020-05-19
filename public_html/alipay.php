@@ -3,8 +3,8 @@
 <head>
 <title>RPCS3 - Alipay</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, alipay">
+<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD.">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, bsd, open source, nekotekina, kd11, alipay">
 <meta name="author" content="RPCS3">
 <meta name="copyright" content="RPCS3">
 <meta name="robots" content="noindex, nofollow">
@@ -15,8 +15,8 @@
 <body>
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
-	<div class="header-con-overlay darkmode-header" style="position:fixed;">
-		<div id="particles-js-1">
+	<div class="banner-con-backdrop darkmode-header" style="position:fixed;">
+		<div id="object-particles">
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">

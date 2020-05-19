@@ -41,9 +41,9 @@ $(window).on("load resize", function(e) {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 10) { // Scroll down 10px to init fill
-        $(".menu-ovr-fill").fadeIn(400);
+        $(".menu-con-backdrop").fadeIn(400);
     } else {
-        $(".menu-ovr-fill").fadeOut(400);
+        $(".menu-con-backdrop").fadeOut(400);
     }
     if ($(this).scrollTop() > 10) { // Scroll up 10px to init fill
         $('.landing-ico-scrolldown').fadeOut(400);
@@ -62,10 +62,10 @@ $(document).ready(function() {
 $(document).ready(function() {
     var sel = $.cookie("save-accept"); // Retrieve cookie
     sel = sel == "true"; // Load setting if cookie is available
-    $('.cookie-btn-button').toggleClass("activate-accept", sel).on('click', function(e) {
-        $(".content-con-cookie").toggleClass("hidden");
+    $('.menu-btn-cookies').toggleClass("activate-accept", sel).on('click', function(e) {
+        $(".menu-con-cookies").toggleClass("object-hidden");
     });
-    $(".cookie-btn-button").on("click", function() {
+    $(".menu-btn-cookies").on("click", function() {
         var $this = $(this);
         sel = !sel;
         $this.toggleClass("activate-accept", sel); // If this class is available, apply setting
@@ -74,10 +74,10 @@ $(document).ready(function() {
             path: '/'
         });
     });
-    if ($('.cookie-btn-button').hasClass('activate-accept')) {
-        $(".content-con-cookie").addClass("hidden");
+    if ($('.menu-btn-cookies').hasClass('activate-accept')) {
+        $(".menu-con-cookies").addClass("object-hidden");
     } else {
-        $(".content-con-cookie").removeClass("hidden");
+        $(".menu-con-cookies").removeClass("object-hidden");
     }
 });
 // GPU transparency setting states
@@ -85,11 +85,11 @@ $(document).ready(function() {
     var sel = $.cookie("save-transparency"); // Retrieve cookie
     sel = sel == "true";  // Load setting if cookie is available
     $('.toggle-transparency').toggleClass("activate-transparency", sel).on('click', function(e) {
-		$('.menu-con-bar').toggleClass("disable-transparency");
+		$('.menu-con-container').toggleClass("disable-transparency");
 		$('.video-btn-play').toggleClass("disable-transparency");
-		$('.content-con-cookie').toggleClass("disable-transparency");
-		$('.motd-tx1-message').toggleClass("disable-transparency");
-		$('.window-con-dimmer').toggleClass("disable-transparency");
+		$('.menu-con-cookies').toggleClass("disable-transparency");
+		$('.menu-tx1-message').toggleClass("disable-transparency");
+		$('.mobile-menu-con-container').toggleClass("disable-transparency");
 			location.reload(); // Reload on apply
     });
     $(".toggle-transparency").on("click", function() {
@@ -102,18 +102,18 @@ $(document).ready(function() {
         });
     });
     if ($('.toggle-transparency').hasClass('activate-transparency')) {
-		$('.menu-con-bar').addClass("disable-transparency");
+		$('.menu-con-container').addClass("disable-transparency");
 		$('.video-btn-play').addClass("disable-transparency");
-		$('.content-con-cookie').addClass("disable-transparency");
-		$('.motd-tx1-message').addClass("disable-transparency");
-		$('.window-con-dimmer').addClass("disable-transparency");
+		$('.menu-con-cookies').addClass("disable-transparency");
+		$('.menu-tx1-message').addClass("disable-transparency");
+		$('.mobile-menu-con-container').addClass("disable-transparency");
 		$('.btn-transparency').text("Enable Transparency");
     } else {
-		$('.menu-con-bar').removeClass("disable-transparency");
+		$('.menu-con-container').removeClass("disable-transparency");
 		$('.video-btn-play').removeClass("disable-transparency");
-		$('.content-con-cookie').removeClass("disable-transparency");
-		$('.motd-tx1-message').removeClass("disable-transparency");
-		$('.window-con-dimmer').removeClass("disable-transparency");
+		$('.menu-con-cookies').removeClass("disable-transparency");
+		$('.menu-tx1-message').removeClass("disable-transparency");
+		$('.mobile-menu-con-container').removeClass("disable-transparency");
     }
 });
 // GPU particles setting states
@@ -121,7 +121,7 @@ $(document).ready(function() {
     var sel = $.cookie("save-particles"); // Retrieve cookie
     sel = sel == "true";  // Load setting if cookie is available
     $('.toggle-particles').toggleClass("activate-particles", sel).on('click', function(e) {
-		$('#particles-js-1').toggleClass("disable-effect");
+		$('#object-particles').toggleClass("object-hidden");
 		    location.reload(); // Reload on apply
     });
     $(".toggle-particles").on("click", function() {
@@ -134,10 +134,10 @@ $(document).ready(function() {
         });
     });
     if ($('.toggle-particles').hasClass('activate-particles')) {
-		$('#particles-js-1').addClass("disable-effect");
+		$('#object-particles').addClass("object-hidden");
 		$('.btn-particles').text("Enable Particles");
     } else {
-		$('#particles-js-1').removeClass("disable-effect");
+		$('#object-particles').removeClass("object-hidden");
     }
 });
 // GPU waves save state
@@ -145,7 +145,7 @@ $(document).ready(function() {
     var sel = $.cookie("save-waves"); // Retrieve cookie
     sel = sel == "true";  // Load setting if cookie is available
     $('.toggle-waves').toggleClass("activate-waves", sel).on('click', function(e) {
-		$('.wavebar-con-wrap').toggleClass("disable-effect");
+		$('.wavebar-con-wrap').toggleClass("object-hidden");
 			location.reload(); // Reload on apply
     });
     $(".toggle-waves").on("click", function() {
@@ -158,10 +158,10 @@ $(document).ready(function() {
         });
     });
     if ($('.toggle-waves').hasClass('activate-waves')) {
-		$('.wavebar-con-wrap').addClass("disable-effect");
+		$('.wavebar-con-wrap').addClass("object-hidden");
 		$('.btn-waves').text("Enable Waves");
     } else {
-		$('.wavebar-con-wrap').removeClass("disable-effect");
+		$('.wavebar-con-wrap').removeClass("object-hidden");
     }
 });
 // Theme menu fade-out and fade-in animation
@@ -173,11 +173,11 @@ $(document).ready(function() {
 		$(".window-bg-theme").delay(1000).fadeIn(2000);
 		$(".wavebar-con-container-theme").delay(200).fadeIn(2000);
 		$(".theme-tx1-description").delay(2000).fadeIn(200);
-		$(".menu-con-bar").fadeOut(200);
+		$(".menu-con-container").fadeOut(200);
 		$(".landing-con-left").fadeOut(200);
 		$(".landing-con-right").fadeOut(200);
 		$(".landing-ico-scrolldown").fadeOut(200);
-		$(".header-con-body").fadeOut(200);
+		$(".banner-con-title").fadeOut(200);
 		$(".alipay-con-alipay").fadeOut(200);
 		$(".alipay-con-footer").fadeOut(200);
 		$(".error-con-content").fadeOut(200);
@@ -192,11 +192,11 @@ $(document).ready(function() {
 		$(".window-bg-theme").fadeOut(200);
 		$(".wavebar-con-container-theme").fadeOut(10);
 		$(".theme-tx1-description").fadeOut(10);
-		$(".menu-con-bar").delay(500).fadeIn(200);
+		$(".menu-con-container").delay(500).fadeIn(200);
 		$(".landing-con-left").delay(500).fadeIn(200);
 		$(".landing-con-right").delay(500).fadeIn(200);
 		$(".landing-ico-scrolldown").delay(500).fadeIn(200);
-		$(".header-con-body").delay(500).fadeIn(200);
+		$(".banner-con-title").delay(500).fadeIn(200);
 		$(".alipay-con-alipay").delay(500).fadeIn(200);
 		$(".alipay-con-footer").delay(500).fadeIn(200);
 		$(".error-con-content").delay(500).fadeIn(200);
@@ -262,12 +262,12 @@ $(document).ready(function() {
 // Compatibility database search box focusing
 $(document).ready(function() {
     $('.database-search').on('focus', function() { // Adds focus effect to search bar
-        $('.search-inp-search').addClass('focused');
-		$('#compat-con-searchbox').addClass('focused');
+        $('.search-inp-search').addClass('object-focused');
+		$('#compat-con-searchbox').addClass('object-focused');
     });
     $('.database-search').on('blur', function() { // Removes focus effect to search bar
-        $('.search-inp-search').removeClass('focused');
-		$('#compat-con-searchbox').removeClass('focused');
+        $('.search-inp-search').removeClass('object-focused');
+		$('#compat-con-searchbox').removeClass('object-focused');
     });
 });
 // Shine effect for video carousel
@@ -376,7 +376,7 @@ $(document).ready(function() {
 });
 // Responsive anchor functions
 $(document).ready(function() {
-    $('a[rel="anchor"]').click(function() {
+    $('a[rel="anchor-select"]').click(function() {
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 500); //Scroll within 500ms

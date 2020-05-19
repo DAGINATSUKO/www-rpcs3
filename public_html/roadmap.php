@@ -3,8 +3,8 @@
 <head>
 <title>RPCS3 - Roadmap</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, roadmap">
+<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD.">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, bsd, open source, nekotekina, kd11, roadmap">
 <meta name="author" content="RPCS3">
 <meta name="copyright" content="RPCS3">
 <?php include 'lib/module/sys-meta.php';?>
@@ -14,8 +14,8 @@
 <body>
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
-	<div class="header-con-head darkmode-header">
-		<div id="particles-js-1">
+	<div class="banner-con-container darkmode-header">
+		<div id="object-particles">
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">
@@ -23,13 +23,13 @@
 			  <div class="wavebar-svg-object"></div>
 			</div>
 		</div>
-		<div class="header-con-overlay darkmode-header">
+		<div class="banner-con-backdrop darkmode-header">
 		</div>
-		<div class='header-con-body fade-up-onstart'>
-			<div class='header-tx1-body fade-up-onstart pulsate'>
+		<div class='banner-con-title fade-up-onstart'>
+			<div class='banner-tx1-title fade-up-onstart pulsate'>
 				<h1>Roadmap</h1>
 			</div>
-			<div class='header-tx2-body fade-up-onstart'>
+			<div class='banner-tx2-title fade-up-onstart'>
 				<p>
 					 A structured roadmap for continuous development
 				</p>

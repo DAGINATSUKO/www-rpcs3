@@ -2,9 +2,14 @@
 .toggle-message {
 	display:none;
 }
-.new {
-	display:block;
+.disable-transparency {
+	backdrop-filter:unset;
+	-webkit-backdrop-filter:unset;
 }
+
+
+
+
 .compat-con-menu::-webkit-scrollbar {
       height: 4px;
 }

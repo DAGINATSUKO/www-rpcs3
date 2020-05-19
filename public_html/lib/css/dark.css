@@ -22,17 +22,11 @@
 .dm-search-bg {
 	background:#111525!important
 }
-.dm-menubar-l1 {
-	background:rgba(46,31,120,.8)
-}
-.dm-menubar-l2 {
-	background:rgba(40,48,117,.8)!important
-}
-.dm-submenu-outer {
+.dm-support-outer {
 	border: 4px solid #293358!important;
 	background: #191f36 !important;
 }
-.dm-submenu-btn {
+.dm-support-btn {
 	color:#fff!important
 }
 .dm-header {

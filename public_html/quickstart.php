@@ -3,8 +3,8 @@
 <head>
 <title>RPCS3 - Quickstart</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, quickstart">
+<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD.">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, bsd, open source, nekotekina, kd11, quickstart">
 <meta name="author" content="RPCS3">
 <meta name="copyright" content="RPCS3">
 <?php include 'lib/module/sys-meta.php';?>
@@ -15,8 +15,8 @@
 <?php include 'lib/module/sys-php.php';?>
 <?php include 'lib/module/ui-sidebar-quickstart.php';?>
 <div class="page-con-content">
-	<div class="header-con-head darkmode-header">
-		<div id="particles-js-1">
+	<div class="banner-con-container darkmode-header">
+		<div id="object-particles">
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">
@@ -26,11 +26,11 @@
 				</div>
 			</div>
 		</div>
-		<div class='header-con-body fade-up-onstart'>
-			<div class='header-tx1-body fade-up-onstart pulsate'>
+		<div class='banner-con-title fade-up-onstart'>
+			<div class='banner-tx1-title fade-up-onstart pulsate'>
 				<h1>Quickstart</h1>
 			</div>
-			<div class="header-tx2-body fade-up-onstart">
+			<div class="banner-tx2-title fade-up-onstart">
 				<p>
 					 Get up and running on Windows, Linux or BSD
 				</p>
@@ -40,20 +40,20 @@
 	<div class="page-con-container">
 		<div class="page-in-container">
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="requirements">
+				<div class="anchor-point" id="requirements">
 				</div>
 				<div class="container-con-wrapper">
 					<div class="container-tx1-block darkmode-txt">
 						<h2>Hardware Requirements</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
-						 The hardware requirements for running the emulator vary depending on your current configuration. We have listed the minimum and recommend hardware requirements below. For the best experience, users should be running within the recommended requirements. We cannot guarantee the performance of system specifications below the minimum requirements but you're always welcome to experiment.
+						 The hardware requirements for running the emulator vary depending on your current configuration. We have listed the minimum and recommend hardware requirements below. For the best experience, users should be running within the recommended requirements. We cannot guarantee the performance of system specifications below the recommended requirements but you're always welcome to experiment.
 					</div>
 				</div>
 			</div>
 			<div class='reqs-con-container'>
 				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left reqs-head" style="color:#27ae60;">
+					<div class="reqs-con-item reqs-left reqs-head" style="color:#2ed57a;">
 						<div class='reqs-ico-item' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item">
@@ -66,7 +66,7 @@
 						</div>
 						<div class="reqs-tx1-item">
 							<b>Minimum Requirements</b><br>
-							 For being able to run any games or applications at all
+							 For being able to run any games at all, unplayable performance
 						</div>
 					</div>
 				</div>
@@ -83,8 +83,8 @@
 						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
-							<b>Processor -</b> Any modern 64-bit capable processor<br>
-							<b>Processor -</b> 32-bit processors are not supported
+							<b>Processor -</b> Any 64-bit capable processor<br>
+							<b>Processor -</b> 32-bit processors are <b>not</b> supported
 						</div>
 					</div>
 				</div>
@@ -109,14 +109,14 @@
 						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
-							<b>Memory -</b> 8GB of system memory or greater
+							<b>Memory -</b> 8GB of RAM or more
 						</div>
 					</div>
 					<div class="reqs-con-item reqs-right">
 						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
-							<b>Memory -</b> 4GB of system memory at minimum
+							<b>Memory -</b> 4GB of RAM at minimum
 						</div>
 					</div>
 				</div>
@@ -139,7 +139,7 @@
 			</div>
 			<div class='reqs-con-container-mobile'>
 				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile" style="background: #27ae60; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5); box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5);">
+					<div class="reqs-con-container-mobile" style="background: #2ed57a; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5); box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5);">
 						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/recommended-h.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile">
@@ -203,7 +203,7 @@
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>CPU -</b> Any modern 64-bit capable processor<br>
-							<b>CPU -</b> 32-bit processors are not supported
+							<b>CPU -</b> 32-bit processors are <b>not</b> supported
 						</div>
 					</div>
 				</div>
@@ -269,7 +269,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content context-windows darkmode-panel">
-				<div class="anchorpoint" id="updating">
+				<div class="anchor-point" id="updating">
 				</div>
 				<div class='guide-ico-content' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 				</div>
@@ -289,7 +289,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="firmware">
+				<div class="anchor-point" id="firmware">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -305,7 +305,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content context-windows darkmode-panel">
-				<div class="anchorpoint" id="manage_saves">
+				<div class="anchor-point" id="manage_saves">
 				</div>
 				<div class='guide-ico-content' style="background: url('/img/icons/list/windows.png') no-repeat center;">
 				</div>
@@ -325,7 +325,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="manage_files">
+				<div class="anchor-point" id="manage_files">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -350,7 +350,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="manage_formats">
+				<div class="anchor-point" id="manage_formats">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -378,7 +378,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="install_games">
+				<div class="anchor-point" id="install_games">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -408,7 +408,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="install_updates">
+				<div class="anchor-point" id="install_updates">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -423,7 +423,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="software_distribution">
+				<div class="anchor-point" id="software_distribution">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block">
@@ -466,7 +466,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="compatible_drives">
+				<div class="anchor-point" id="compatible_drives">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -752,7 +752,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="dumping_linux">
+				<div class="anchor-point" id="dumping_linux">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -769,7 +769,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="dumping_procedure">
+				<div class="anchor-point" id="dumping_procedure">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
@@ -814,7 +814,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchorpoint" id="dumping_procedure_manual">
+				<div class="anchor-point" id="dumping_procedure_manual">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">

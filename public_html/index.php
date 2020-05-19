@@ -3,8 +3,8 @@
 <head>
 <title>RPCS3 - PlayStation 3 Emulator</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux.">
-<meta name="keywords" content="rpcs3, ps3, playstation 3, emulator, nekotekina, home">
+<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD.">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, bsd, open source, nekotekina, kd11, home">
 <meta name="author" content="RPCS3">
 <meta name="copyright" content="RPCS3">
 <meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
@@ -50,7 +50,7 @@
 	<div class='landing-ico-scrolldown'>
 	</div>
 	<div class="landing-con-main">
-		<div id="particles-js-1">
+		<div id="object-particles">
 		</div>
 		<div class="content-con-backdrop darkmode-header">
 		</div>
@@ -96,7 +96,7 @@
 						</div>
 						<div class="search-con-author darkmode-txt">
 							<a href="https://github.com/AniLeo" target="_blank">
-							<span>Compatibility DB maintained by <span class="search-img-author"></span>
+							<span class="darkmode-txt">Compatibility DB maintained by <span class="search-img-author"></span>
 							<span class="search-tx1-author">
 							Ani </span>
 							</span>
@@ -118,9 +118,7 @@
 			</div>
 			<div class="content-con-inside">
 				<div class="video-tx1-heading darkmode-txt">
-					<h2>What's New?</h2>
-					<div class="video-ico-heading">
-					</div>
+					<h2>Featured</h2>
 				</div>
 				<?php include 'lib/module/ui-main-carousel.php';?>
 			</div>

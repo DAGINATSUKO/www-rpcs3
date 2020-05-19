@@ -1,7 +1,7 @@
 // Handles Particles.js simulation*/
 $(document).ready(function() {
     $(function() {
-        particlesJS("particles-js-1", {
+        particlesJS("object-particles", {
             "particles": {
                 "number": {
                     "value": 32,

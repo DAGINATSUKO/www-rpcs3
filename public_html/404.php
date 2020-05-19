@@ -11,8 +11,8 @@
 <body style="background: #000;">
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
-	<div class="header-con-overlay darkmode-header" style="position:fixed;">
-		<div id="particles-js-1">
+	<div class="banner-con-backdrop darkmode-header" style="position:fixed;">
+		<div id="object-particles">
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">

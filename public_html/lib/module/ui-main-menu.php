@@ -1,21 +1,21 @@
-<div class='motd-con-message fade-out-onload'>
-	<div class='motd-tx1-message toggle-message fade-out-onload'>
+<div class='menu-con-message fade-out-onload'>
+	<div class='menu-tx1-message toggle-message fade-out-onload'>
 		<span>We are currently experiencing a higher server volume than usual. We sincerely apologize for any inconveniences.</span>
 	</div>
 </div>
-<div class='content-con-cookie'>
+<div class='menu-con-cookies'>
 	<div class="content-con-outside">
 		<div class="content-con-inside">
-			<div class="cookie-tx1-container">
+			<div class="menu-tx1-cookies">
 				<p>
 					 This website uses cookies to ensure you get the best experience. Some data may be used for analytics. <a href="/disclaimer">See full disclaimer</a>
 				</p>
 			</div>
-			<div class="cookie-btn-button">
-				<div class="cookie-ico-button">
+			<div class="menu-btn-cookies">
+				<div class="menu-ico-cookies">
 				</div>
-				<div class="cookie-tx1-button">
-					<span>Accept</span>
+				<div class="menu-tx2-cookies">
+					<span>Accept and Continue</span>
 				</div>
 			</div>
 		</div>
@@ -79,8 +79,8 @@
 		</div>
 	</div>
 </div>
-<div class='menu-con-bar darkmode-menubar'>
-	<div class="menu-ovr-fill darkmode-menubar-l1">
+<div class='menu-con-container'>
+	<div class="menu-con-backdrop">
 	</div>
 	<div class="menu-btn-settings toggle-settings">
 		<div class="menu-tx1-settings">
@@ -95,7 +95,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="menu-btn-mobile toggle-mobilemenu">
+			<div class="mobile-menu-btn-open toggle-mobilemenu">
 			</div>
 			<a href='/blog'>
 			<div class="menu-btn-select">
@@ -157,42 +157,42 @@
 				<span>YouTube</span>
 			</div>
 			</a>
-			<div class="menu-con-support toggle-support">
-				<div class="menu-ico-support">
+			<div class="support-con-menu toggle-support">
+				<div class="support-ico-menu">
 				</div>
-				<div class="submenu-con-outer patreon-submenu">
+				<div class="support-con-outer patreon-submenu">
 					<a href="https://www.patreon.com/Nekotekina" target="_blank">
-					<div class="submenu-con-wrapper submenu-upper">
-						<div class="submenu-ico-patreon">
+					<div class="support-con-wrapper support-upper">
+						<div class="support-ico-patreon">
 						</div>
-						<div class="submenu-btn-button">
+						<div class="support-btn-button">
 							<span>Support us on Patreon</span>
 						</div>
 					</div>
 					</a>
 					<a href="/alipay">
-					<div class="submenu-con-wrapper" style="border-top: solid 1px rgba(0,0,0,.02);">
-						<div class="submenu-ico-alipay">
+					<div class="support-con-wrapper" style="border-top: solid 1px rgba(0,0,0,.02);">
+						<div class="support-ico-alipay">
 						</div>
-						<div class="submenu-btn-button">
+						<div class="support-btn-button">
 							<span>Support us with Alipay</span>
 						</div>
 					</div>
 					</a>
 					<a href="https://github.com/rpcs3/rpcs3/wiki/coding-style" target="_blank">
-					<div class="submenu-con-wrapper">
-						<div class="submenu-ico-github darkmode-invert">
+					<div class="support-con-wrapper">
+						<div class="support-ico-github darkmode-invert">
 						</div>
-						<div class="submenu-btn-button">
+						<div class="support-btn-button">
 							<span>Contribute with GitHub</span>
 						</div>
 					</div>
 					</a>
 					<a href="https://forums.rpcs3.net/thread-196671.html" target="_blank">
-					<div class="submenu-con-wrapper submenu-lower">
-						<div class="submenu-ico-testing darkmode-invert">
+					<div class="support-con-wrapper support-lower">
+						<div class="support-ico-testing darkmode-invert">
 						</div>
-						<div class="submenu-btn-button">
+						<div class="support-btn-button">
 							<span>Contribute with testing</span>
 						</div>
 					</div>
@@ -202,79 +202,79 @@
 		</div>
 	</div>
 </div>
-<div class='window-con-dimmer popup-mobilemenu' style="display:none;">
-	<div class="menu-ovr-fill-2">
+<div class='mobile-menu-con-container popup-mobilemenu' style="display:none;">
+	<div class="menu-con-backdrop-2">
 	</div>
-	<div class='menu-con-scrollable'>
-		<div class="menu-con-mobile">
-			<div class="menu-in-mobile" style="overflow: hidden !important;">
+	<div class='mobile-menu-con-scroll'>
+		<div class="mobile-menu-con-outter">
+			<div class="mobile-menu-con-inner" style="overflow: hidden !important;">
 				<a href="/">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Home</span>
 				</div>
 				</a>
 				<a href="/blog">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Blog</span>
 				</div>
 				</a>
 				<a href="/about">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>About</span>
 				</div>
 				</a>
 				<a href="/compatibility">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Compatibility</span>
 				</div>
 				</a>
 				<a href="/download">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Download</span>
 				</div>
 				</a>
 				<a href="/quickstart">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Quickstart</span>
 				</div>
 				</a>
 				<a href="/roadmap">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Roadmap</span>
 				</div>
 				</a>
 				<a href="/disclaimer">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Disclaimer</span>
 				</div>
 				</a>
 				<a href="/faq">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>FAQs</span>
 				</div>
 				</a>
 				<a href="https://github.com/rpcs3" target="_blank">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>GitHub</span>
 				</div>
 				</a>
 				<a href="https://forums.rpcs3.net" target="_blank">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Forum</span>
 				</div>
 				</a>
 				<a href='https://wiki.rpcs3.net'>
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Wiki</span>
 				</div>
 				</a>
 				<a href="https://discord.me/RPCS3" target="_blank">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>Discord</span>
 				</div>
 				</a>
 				<a href="https://www.youtube.com/channel/UCz3-0QxNr4S4gK0xaWy7exQ/videos" target="_blank">
-				<div class='menu-btn-subbutton'>
+				<div class='mobile-menu-btn-select'>
 					<span>YouTube</span>
 				</div>
 				</a>

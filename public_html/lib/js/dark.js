@@ -15,7 +15,6 @@ $(document).ready(function() {
 		$('.darkmode-slimbar').toggleClass("dm-bg-2");
 		$('.darkmode-search-border').toggleClass("dm-search-border");
 		$('.darkmode-search-bg').toggleClass("dm-search-bg");
-        $('.darkmode-menubar').toggleClass("dm-menubar");
 		$('.darkmode-arrow-left').toggleClass("dm-arrow-left");
 		$('.darkmode-arrow-right').toggleClass("dm-arrow-right");
         $('.darkmode-context').toggleClass("dm-default");
@@ -26,11 +25,10 @@ $(document).ready(function() {
 		$('.reqs-right').toggleClass("dm-reqs-right");
         $('.darkmode-txt').toggleClass("dm-txt");
         $('.darkmode-txt2').toggleClass("landing-con-container-invert");
-        $('.darkmode-menubar-l1').toggleClass("dm-menubar-l1");
-        $('.submenu-con-outer').toggleClass("dm-submenu-outer");
-        $('.submenu-btn-button').toggleClass("dm-submenu-btn");
-		$('.settings-menu-con-outer').toggleClass("dm-submenu-outer");
-        $('.settings-menu-btn-button').toggleClass("dm-submenu-btn");
+        $('.support-con-outer').toggleClass("dm-support-outer");
+        $('.support-btn-button').toggleClass("dm-support-btn");
+		$('.settings-menu-con-outer').toggleClass("dm-support-outer");
+        $('.settings-menu-btn-button').toggleClass("dm-support-btn");
 		
         $('.darkmode-navsidebar-title').toggleClass("dm-navsidebar-title");
         $('.darkmode-navsidebar-anim').toggleClass("dm-default");
@@ -102,7 +100,6 @@ $(document).ready(function() {
 		$('.darkmode-slimbar').addClass("dm-bg-2");
 		$('.darkmode-search-border').addClass("dm-search-border");
 		$('.darkmode-search-bg').addClass("dm-search-bg");
-        $('.darkmode-menubar').addClass("dm-menubar");
 		$('.darkmode-arrow-left').addClass("dm-arrow-left");
 		$('.darkmode-arrow-right').addClass("dm-arrow-right");
         $('.darkmode-context').addClass("dm-default");
@@ -113,11 +110,10 @@ $(document).ready(function() {
 		$('.reqs-right').addClass("dm-reqs-right");
         $('.darkmode-txt').addClass("dm-txt");
         $('.darkmode-txt2').addClass("landing-con-container-invert");
-        $('.darkmode-menubar-l1').addClass("dm-menubar-l1");
-        $('.submenu-con-outer').addClass("dm-submenu-outer");
-        $('.submenu-btn-button').addClass("dm-submenu-btn");
-		$('.settings-menu-con-outer').addClass("dm-submenu-outer");
-        $('.settings-menu-btn-button').addClass("dm-submenu-btn");
+        $('.support-con-outer').addClass("dm-support-outer");
+        $('.support-btn-button').addClass("dm-support-btn");
+		$('.settings-menu-con-outer').addClass("dm-support-outer");
+        $('.settings-menu-btn-button').addClass("dm-support-btn");
         $('.darkmode-navsidebar-title').addClass("dm-navsidebar-title");
         $('.darkmode-navsidebar-anim').addClass("dm-default");
         $('.darkmode-navsidebar-txt').addClass("dm-navsidebar-txt");
@@ -176,7 +172,6 @@ $(document).ready(function() {
 		$('.darkmode-slimbar').removeClass("dm-bg-2");
 		$('.darkmode-search-border').removeClass("dm-search-border");
 		$('.darkmode-search-bg').removeClass("dm-search-bg");
-        $('.darkmode-menubar').removeClass("dm-menubar");
 		$('.darkmode-arrow-left').removeClass("dm-arrow-left");
 		$('.darkmode-arrow-right').removeClass("dm-arrow-right");
         $('.darkmode-context').removeClass("dm-default");
@@ -187,11 +182,10 @@ $(document).ready(function() {
 		$('.reqs-right').removeClass("dm-reqs-right");
         $('.darkmode-txt').removeClass("dm-txt");
         $('.darkmode-txt2').addClass("landing-con-container-invert");
-        $('.darkmode-menubar-l1').removeClass("dm-menubar-l1");
-        $('.submenu-con-outer').removeClass("dm-submenu-outer");
-        $('.submenu-btn-button').removeClass("dm-submenu-btn");
-		$('.settings-menu-con-outer').removeClass("dm-submenu-outer");
-        $('.settings-menu-btn-button').removeClass("dm-submenu-btn");
+        $('.support-con-outer').removeClass("dm-support-outer");
+        $('.support-btn-button').removeClass("dm-support-btn");
+		$('.settings-menu-con-outer').removeClass("dm-support-outer");
+        $('.settings-menu-btn-button').removeClass("dm-support-btn");
         $('.darkmode-navsidebar-title').removeClass("dm-navsidebar-title");
         $('.darkmode-navsidebar-anim').removeClass("dm-default");
         $('.darkmode-navsidebar-txt').removeClass("dm-navsidebar-txt");
