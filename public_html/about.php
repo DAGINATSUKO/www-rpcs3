@@ -333,14 +333,14 @@
 					<div class="user-con-wrapper">
 						<div class='user-tx1-content darkmode-txt'>
 							<span class="user-tx2-member ">
-							Admiral Thrawn </span>
+							JohnHolmesII </span>
 							<span class="user-con-role user-role-contributor">
 							Project Contributor </span>
 						</div>
 						<div class='user-con-divider role-contributor darkmode-divider'></div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							JohnHolmesII began contributing with edits to the README, and these efforts slowly evolved into various DevOps roles including maintaining build steps, cleaning build output, and helping to maintain CI/CD functions. In the Discord community, he is known as "hurb".</span>
 						</div>
 					</div>
 				</div>
