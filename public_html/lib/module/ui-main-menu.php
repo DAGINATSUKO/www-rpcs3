@@ -54,21 +54,28 @@
 		<div class="settings-menu-ico-transparency darkmode-invert">
 		</div>
 		<div class="settings-menu-btn-button btn-transparency">
-			<span>Disable Transparency</span>
+			<span>Transparency - On</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-wrapper toggle-particles">
 		<div class="settings-menu-ico-particles darkmode-invert">
 		</div>
 		<div class="settings-menu-btn-button btn-particles">
-			<span>Disable Particles</span>
+			<span>Particles - On</span>
+		</div>
+	</div>
+	<div class="settings-menu-con-wrapper toggle-pulsate">
+		<div class="settings-menu-ico-pulsate darkmode-invert">
+		</div>
+		<div class="settings-menu-btn-button btn-pulsate">
+			<span>Pulsate - On</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-wrapper toggle-waves">
 		<div class="settings-menu-ico-waves darkmode-invert">
 		</div>
 		<div class="settings-menu-btn-button btn-waves">
-			<span>Disable Waves</span>
+			<span>Waves - On</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-wrapper toggle-theme settings-menu-lower" style="border-top: solid 1px rgba(0,0,0,.02);">

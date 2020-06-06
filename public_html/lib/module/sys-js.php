@@ -1,9 +1,9 @@
-<script data-cfasync="false" src='/lib/js/jquery.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/dark.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/main.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/jscookie.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles.js?v=1'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v=1'></script>
+<script data-cfasync="false" src='/lib/js/jquery.js?v=2'></script>
+<script data-cfasync="false" src='/lib/js/dark.js?v=2'></script>
+<script data-cfasync="false" src='/lib/js/main.js?v=2'></script>
+<script data-cfasync="false" src='/lib/js/jscookie.js?v=2'></script>
+<script data-cfasync="false" src='/lib/js/particles.js?v=2'></script>
+<script data-cfasync="false" src='/lib/js/particles-sel.js?v=2'></script>
 <noscript>
 <style>
 .video-con-dimmer {

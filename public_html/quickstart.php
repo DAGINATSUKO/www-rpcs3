@@ -58,7 +58,7 @@
 						</div>
 						<div class="reqs-tx1-item">
 							<b>Recommended Requirements</b><br>
-							 For running playable games with proper performance
+							 For running playable games, playable performance
 						</div>
 					</div>
 					<div class="reqs-con-item reqs-right reqs-head" style="color:#f39c12;">
@@ -72,7 +72,7 @@
 				</div>
 				<div class='reqs-con-group'>
 					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Processor -</b> Intel 4-core with HT or 6-cores and up (Haswell and above)<br>
@@ -80,7 +80,7 @@
 						</div>
 					</div>
 					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Processor -</b> Any 64-bit capable processor<br>
@@ -90,14 +90,14 @@
 				</div>
 				<div class='reqs-con-group'>
 					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Graphics Card -</b> A Modern AMD or NVIDIA Vulkan compatible GPU
 						</div>
 					</div>
 					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Graphics Card -</b> Any OpenGL 4.3 compatible GPU or greater
@@ -106,14 +106,14 @@
 				</div>
 				<div class='reqs-con-group'>
 					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Memory -</b> 8GB of RAM or more
 						</div>
 					</div>
 					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Memory -</b> 4GB of RAM at minimum
@@ -122,14 +122,14 @@
 				</div>
 				<div class='reqs-con-group'>
 					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/storage.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Storage -</b> Capacity depends per-game size requirements
 						</div>
 					</div>
 					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
+						<div class='reqs-ico-item' style="background: url('/img/icons/list/storage.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item darkmode-txt">
 							<b>Storage -</b> Capacity depends per-game size requirements
@@ -144,13 +144,13 @@
 						</div>
 						<div class="reqs-tx1-item-mobile">
 							<b>Recommended Requirements</b><br>
-							 For running playable games with proper performance
+							 For running playable games, playable performance
 						</div>
 					</div>
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>CPU -</b> Intel 4-core with HT or 6-cores and up (Haswell and above)<br>
@@ -160,7 +160,7 @@
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>Graphics Card -</b> A Modern AMD or NVIDIA Vulkan compatible GPU
@@ -169,7 +169,7 @@
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>RAM -</b> 8GB of system memory or greater
@@ -178,7 +178,7 @@
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/storage.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>Storage -</b> Capacity depends per-game size requirements
@@ -193,13 +193,13 @@
 						</div>
 						<div class="reqs-tx1-item-mobile">
 							<b>Minimum Requirements</b><br>
-							 For being able to run any games or applications at all
+							 For being able to run any games at all, unplayable performance
 						</div>
 					</div>
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>CPU -</b> Any modern 64-bit capable processor<br>
@@ -209,7 +209,7 @@
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>Graphics Card -</b> Any OpenGL 4.3 compatible GPU or greater
@@ -218,7 +218,7 @@
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/ram.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>RAM -</b> 4GB of system memory at minimum
@@ -227,7 +227,7 @@
 				</div>
 				<div class='reqs-con-group-mobile'>
 					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item-mobile darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
+						<div class='reqs-ico-item-mobile' style="background: url('/img/icons/list/storage.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile darkmode-txt">
 							<b>Storage -</b> Capacity depends per-game size requirements
@@ -486,105 +486,105 @@
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BE16NU50 <span class="drives-txt-revisions">(External)</span>
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BH14NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BH16NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BH16NS48
 					</div>
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BH16NS55
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BH26NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BP50NB40 <span class="drives-txt-revisions">(External)</span>
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BU20N
 					</div>
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BU40N
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 CH12NS30
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 UH12NS30
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 WH12LS30
 					</div>
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 WH14NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 WH16NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 WH16NS48
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 WH24LS30
 					</div>
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 WH24NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 WH26NS40
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BH16NS60
 					</div>
@@ -600,34 +600,34 @@
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BC-08B1LT
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BC-12B1ST <span class="drives-txt-revisions">(Some revisions)</span>
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BC-12D2HT
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BC-16D1HT
 					</div>
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BW-12B1ST
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BW-16D1HT
 					</div>
@@ -660,22 +660,22 @@
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 SH-B083L
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 SH-B123L
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 SE-506
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 SE-406
 					</div>
@@ -688,12 +688,12 @@
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 DH-4O1S
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 IHBS112
 					</div>
@@ -712,12 +712,12 @@
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 Optiarc 5300S
 					</div>
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 PS3 BDD with proprietary adapter
 					</div>
@@ -736,7 +736,7 @@
 				</div>
 				<div class="drives-con-outer darkmode-txt">
 					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray darkmode-invert">
+						<div class="drives-ico-bluray">
 						</div>
 						 BR1000
 					</div>

@@ -9,20 +9,20 @@ ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 }
 /* Load custom fonts */
 @font-face {
-	font-family:SFProDisplay-Thin;
-	src:url(/lib/font/SFProDisplay-Thin.woff) format('woff')
+	font-family:Roboto-Thin;
+	src:url(/lib/font/Roboto-Thin.woff) format('woff')
 }
 @font-face {
-	font-family:SFProDisplay-Light;
-	src:url(/lib/font/SFProDisplay-Light.woff) format('woff')
+	font-family:Roboto-Light;
+	src:url(/lib/font/Roboto-Light.woff) format('woff')
 }
 @font-face {
-	font-family:SFProDisplay-Regular;
-	src:url(/lib/font/SFProDisplay-Regular.woff) format('woff')
+	font-family:Roboto-Regular;
+	src:url(/lib/font/Roboto-Regular.woff) format('woff')
 }
 @font-face {
-	font-family:SFProDisplay-Bold;
-	src:url(/lib/font/SFProDisplay-Bold.woff) format('woff')
+	font-family:Roboto-Bold;
+	src:url(/lib/font/Roboto-Bold.woff) format('woff')
 }
 @font-face {
 	font-family:SunlightGothic;
@@ -274,7 +274,7 @@ a:hover {
 .menu-tx1-tooltip {
 	width:auto;
 	height:30px;
-	font-family:SFProDisplay-Regular;
+	font-family:Roboto-Regular;
 	font-size:18px;
 	line-height:16px;
 	color: #fff;
@@ -513,7 +513,7 @@ a:hover {
 	right: 8px;
 	display:none;
 	width: 222px;
-	height: 326px;
+	height: 391px;
 	-webkit-box-shadow:0 0 80px 0 rgba(0,0,0,.2);
 	box-shadow:0 0 80px 0 rgba(0,0,0,.2);
 	border-radius: 10px;
@@ -579,6 +579,12 @@ a:hover {
 	-webkit-filter: invert(1);
     filter: invert(1);
 }
+.settings-menu-con-wrapper:hover .settings-menu-ico-pulsate {
+	background:url(/img/icons/submenu/pulsate.png) no-repeat center;
+	background-size:20px;
+	-webkit-filter: invert(1);
+    filter: invert(1);
+}
 .settings-menu-con-wrapper:hover .settings-menu-ico-waves {
 	background:url(/img/icons/submenu/waves.png) no-repeat center;
 	background-size:20px;
@@ -598,7 +604,7 @@ a:hover {
     filter: invert(1);
 }
 .settings-menu-btn-button {
-	font-family: SFProDisplay-Regular;
+	font-family: Roboto-Regular;
 	font-size:14px;
 	line-height:64px;
 	position:relative;
@@ -624,6 +630,14 @@ a:hover {
 	width:64px;
 	height:64px;
 	background:url(/img/icons/submenu/particles.png) no-repeat center;
+	background-size:20px;
+}
+.settings-menu-ico-pulsate {
+	display:inline-block;
+	float:left;
+	width:64px;
+	height:64px;
+	background:url(/img/icons/submenu/pulsate.png) no-repeat center;
 	background-size:20px;
 }
 .settings-menu-ico-waves {
@@ -992,7 +1006,7 @@ a:hover {
 	width:5px;
 }
 .sidebar-tx1-title {
-	font-family:SFProDisplay-Regular;
+	font-family:Roboto-Regular;
 	font-size: 18px;
 	line-height:62px;
 	position:relative;
@@ -1056,7 +1070,7 @@ a:hover {
 	width:5px;
 }
 .blogbar-tx1-title {
-	font-family:SFProDisplay-Regular;
+	font-family:Roboto-Regular;
 	font-size:24px;
 	line-height:62px;
 	position:relative;
@@ -1094,7 +1108,7 @@ a:hover {
 	margin:-40px -430px
 }
 .banner-tx1-title {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:50px;
 	line-height:80px;
 	height:80px;
@@ -1102,14 +1116,14 @@ a:hover {
 	color:#fff;
 }
 .banner-tx1-title span {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:inherit;
 	line-height:inherit;
 	text-align:inherit;
 	color:inherit
 }
 .banner-tx2-title {
-	font-family: SFProDisplay-Regular;
+	font-family: Roboto-Regular;
 	font-size:16px;
 	line-height:20px;
 	height:20px;
@@ -1130,7 +1144,7 @@ a:hover {
 	padding-bottom:15px;
 }
 .container-tx1-block {
-	font-family: SFProDisplay-Regular;
+	font-family: Roboto-Regular;
 	font-size: 24px;
 	line-height:26px;
 	position:relative;
@@ -1153,7 +1167,7 @@ a:hover {
 	color:#000;
 }
 .container-tx3-block {
-	font-family: SFProDisplay-Bold;
+	font-family: Roboto-Bold;
 	font-size: 20px;
 	line-height:26px;
 	position:relative;
@@ -1170,7 +1184,7 @@ a:hover {
 	text-decoration:underline
 }
 .container-tx1-heading {
-	font-family: SFProDisplay-Regular;
+	font-family: Roboto-Regular;
 	font-size:24px;
 	line-height:26px;
 	position:relative;
@@ -1415,7 +1429,7 @@ a:hover {
 	opacity:.8;
 }
 .landing-tx1-heading {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:50px;
 	line-height:64px;
 	position:relative;
@@ -1469,7 +1483,7 @@ a:hover {
 	background-size:contain;
 }
 .github-tx1-mantra {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:50px;
 	line-height:64px;
 	height:auto;
@@ -1559,7 +1573,7 @@ a:hover {
 	background-size:contain;
 }
 .discord-tx1-mantra {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:50px;
 	line-height:64px;
 	height:auto;
@@ -1638,7 +1652,7 @@ a:hover {
 	background-size:contain;
 }
 .patreon-tx1-mantra {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:50px;
 	line-height:64px;
 	height:auto;
@@ -1707,7 +1721,7 @@ a:hover {
 	height:90px
 }
 .adsense-tx1-description {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:24px;
 	font-weight:bold;
 	line-height:86px;
@@ -1917,7 +1931,7 @@ a:hover {
 	z-index:1;
 }
 .video-tx1-heading {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:50px;
 	line-height:64px;
 	height:64px;
@@ -1931,7 +1945,7 @@ a:hover {
 	z-index: 1;
 }
 .video-tx2-heading {
-	font-family: SFProDisplay-Bold;
+	font-family: Roboto-Bold;
 	font-size:24px;
 	line-height:38px;
 	height:80px;
@@ -2148,7 +2162,7 @@ a:hover {
 	padding-left:116px
 }
 .user-tx1-content {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:24px;
 	line-height:26px;
 	position:relative;
@@ -2161,7 +2175,7 @@ a:hover {
 	color:#000;
 }
 .user-tx2-member {
-	font-family: SFProDisplay-Regular;
+	font-family: Roboto-Regular;
 	font-size:20px;
 	font-weight:400;
 	float:left;
@@ -2221,7 +2235,7 @@ a:hover {
 	border-radius:6px;
 }
 .user-con-role {
-	font-family: SFProDisplay-Regular;
+	font-family: Roboto-Regular;
 	font-size: 16px;
 	font-weight:100;
 	line-height:20px;
@@ -2275,19 +2289,24 @@ a:hover {
     background: linear-gradient(to left,rgba(255,255,255,.0),rgb(108, 92, 231));
 }
 .user-role-designer {
-	background: #feca57;
-	-webkit-box-shadow: 0 5px 16px 0 rgb(254, 202, 87,.4);
-	box-shadow: 0 5px 16px 0 rgb(254, 202, 87,.4);
+	background: #0fbcf9;
+	-webkit-box-shadow: 0 5px 16px 0 rgba(15, 188, 249, .4);
+	box-shadow: .4;
 }
-.user-role-qt {
+.user-role-ui {
 	background: #cf6a87;
 	-webkit-box-shadow: 0 8px 16px 0 rgb(207, 106, 135,.4);
 	box-shadow: 0 8px 16px 0 rgb(207, 106, 135,.4);
 }
-.role-qt {
+.role-ui {
     background: linear-gradient(to left,rgba(255,255,255,.0),rgb(207, 106, 135));
     background: linear-gradient(to left,rgba(255,255,255,.0),rgb(207, 106, 135));
     background: linear-gradient(to left,rgba(255,255,255,.0),rgb(207, 106, 135));
+}
+.user-role-firmware {
+	background: #9b59b6;
+	-webkit-box-shadow: 0 8px 16px 0 rgba(155, 89, 182, .4);
+	box-shadow: 0 8px 16px 0 rgba(155, 89, 182, .4);
 }
 .user-role-developer {
 	background: #00b894;
@@ -2878,7 +2897,7 @@ a:hover {
 	height:auto
 }
 .footer-tx1-bound {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:24px;
 	line-height:20px;
 	position:relative;
@@ -3006,7 +3025,7 @@ a:hover {
 	-webkit-animation-duration:.5s
 }
 .error-tx1-content {
-	font-family:SFProDisplay-Light;
+	font-family:Roboto-Light;
 	font-size:24px;
 	font-weight:700;
 	line-height:60px;
@@ -3070,7 +3089,7 @@ a:hover {
 	font-size:16px;
 }
 .markdown h2 {
-	font-family: SFProDisplay-Regular;
+	font-family: Roboto-Regular;
 	font-size:24px;
 	line-height:26px;
 	margin-top: 22px;

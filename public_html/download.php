@@ -84,7 +84,7 @@ $build = Build::getLatest();
 					<div class="label-tx1-title darkmode-txt">
 						<span>SHA-256</span>
 					</div>
-					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
+					<div class='label-ico-container' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
 					</div>
 					<div class="label-tx1-text darkmode-txt" style="top: 8px;">
 						<span>
@@ -96,7 +96,7 @@ $build = Build::getLatest();
 					<div class="label-tx1-title darkmode-txt">
 						<span>SHA-256</span>
 					</div>
-					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
+					<div class='label-ico-container' style="background: url('/img/icons/buttons/sha.png') no-repeat center;">
 					</div>
 					<div class="label-tx1-text darkmode-txt" style="top: 8px;">
 						<span>
@@ -108,7 +108,7 @@ $build = Build::getLatest();
 			<div class="binary-con-container">
 				<div class="binary-con-wrapper">
 					<div class='binary-tx1-content'>
-						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/history.png') no-repeat center; background-size:20px;">
+						<div class='binary-img-content' style="background: url('/img/icons/buttons/history.png') no-repeat center; background-size:20px;">
 						</div>
 						<span class="darkmode-txt">
 						Version </span>
@@ -121,7 +121,7 @@ $build = Build::getLatest();
 				</div>
 				<div class="binary-con-wrapper">
 					<div class='binary-tx1-content'>
-						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/pull.png') no-repeat center; background-size:20px;">
+						<div class='binary-img-content' style="background: url('/img/icons/buttons/pull.png') no-repeat center; background-size:20px;">
 						</div>
 						<span class="darkmode-txt">
 						Pull Request</span>
@@ -138,7 +138,7 @@ $build = Build::getLatest();
 				</div>
 				<div class="binary-con-wrapper">
 					<div class='binary-tx1-content'>
-						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:20px;">
+						<div class='binary-img-content' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:20px;">
 						</div>
 						<span class="darkmode-txt">
 						File Size</span>
@@ -181,7 +181,7 @@ $build = Build::getLatest();
 				</div>
 				</a>
 				<div class="label-con-wrapper label-right darkmode-panel">
-					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/commit.png') no-repeat center;">
+					<div class='label-ico-container' style="background: url('/img/icons/buttons/commit.png') no-repeat center;">
 					</div>
 					<div class="label-tx1-text darkmode-txt">
 						<span>

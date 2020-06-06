@@ -161,10 +161,12 @@
 						<div class='user-tx1-content darkmode-txt'>
 							<span class="user-tx2-member ">
 							Megamouse </span>
-							<span class="user-con-role user-role-qt">
-								UI/Qt Developer </span>
+							<span class="user-con-role user-role-developer">
+								Project Developer </span>
+							<span class="user-con-role user-role-ui">
+								UI Developer </span>
 						</div>
-						<div class='user-con-divider role-qt darkmode-divider'></div>
+						<div class='user-con-divider role-developer darkmode-divider'></div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
 							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
@@ -326,7 +328,7 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/admiralthrawn.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/avatars/johnholmesii.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
@@ -740,8 +742,8 @@
 								FlashOfSloth </span>
 								<span class="user-con-role user-role-former">
 								Former Developer </span>
-								<span class="user-con-role user-role-qt">
-								UI/Qt Developer </span>
+								<span class="user-con-role user-role-ui">
+								UI Developer </span>
 							</div>
 							<div class='user-con-divider role-former darkmode-divider'></div>
 							<div class='user-tx3-content darkmode-txt'>

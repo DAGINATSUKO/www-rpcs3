@@ -7,7 +7,9 @@
 	-webkit-backdrop-filter:unset;
 }
 
-
+.disable-pulsate {
+    text-shadow: none !important;
+}
 
 
 .compat-con-menu::-webkit-scrollbar {

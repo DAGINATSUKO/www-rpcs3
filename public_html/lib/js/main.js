@@ -80,6 +80,29 @@ $(document).ready(function() {
         $(".menu-con-cookies").removeClass("object-hidden");
     }
 });
+// Text pulsate setting states
+$(document).ready(function() {
+    var sel = $.cookie("save-pulsate"); // Retrieve cookie
+    sel = sel == "true";  // Load setting if cookie is available
+    $('.toggle-pulsate').toggleClass("activate-pulsate", sel).on('click', function(e) {
+		location.reload(); // Reload on apply
+    });
+    $(".toggle-pulsate").on("click", function() {
+        var $this = $(this);
+        sel = !sel;
+        $this.toggleClass("activate-pulsate", sel); // If this class is available, apply setting
+        $.cookie("save-pulsate", sel, { // Save cookie
+            expires: 365,
+            path: '/'
+        });
+    });
+    if ($('.toggle-pulsate').hasClass('activate-pulsate')) {
+		$('.pulsate').addClass("disable-pulsate");
+		$('.btn-pulsate').text("Pulsate - Off");
+    } else {
+		$('.pulsate').removeClass("disable-pulsate");
+	}
+});
 // GPU transparency setting states
 $(document).ready(function() {
     var sel = $.cookie("save-transparency"); // Retrieve cookie
@@ -107,7 +130,7 @@ $(document).ready(function() {
 		$('.menu-con-cookies').addClass("disable-transparency");
 		$('.menu-tx1-message').addClass("disable-transparency");
 		$('.mobile-menu-con-container').addClass("disable-transparency");
-		$('.btn-transparency').text("Enable Transparency");
+		$('.btn-transparency').text("Transparency - Off");
     } else {
 		$('.menu-con-container').removeClass("disable-transparency");
 		$('.video-btn-play').removeClass("disable-transparency");
@@ -135,7 +158,7 @@ $(document).ready(function() {
     });
     if ($('.toggle-particles').hasClass('activate-particles')) {
 		$('#object-particles').addClass("object-hidden");
-		$('.btn-particles').text("Enable Particles");
+		$('.btn-particles').text("Particles - Off");
     } else {
 		$('#object-particles').removeClass("object-hidden");
     }
@@ -159,7 +182,7 @@ $(document).ready(function() {
     });
     if ($('.toggle-waves').hasClass('activate-waves')) {
 		$('.wavebar-con-wrap').addClass("object-hidden");
-		$('.btn-waves').text("Enable Waves");
+		$('.btn-waves').text("Waves - Off");
     } else {
 		$('.wavebar-con-wrap').removeClass("object-hidden");
     }
