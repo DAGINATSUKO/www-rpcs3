@@ -212,6 +212,25 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: url('/img/users/avatars/whatcookie.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/users/flags/canada.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							Whatcookie </span>
+							<span class="user-con-role user-role-developer">
+							Project Developer </span>
+						</div>
+						<div class='user-con-divider role-developer darkmode-divider'></div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+						</div>
+					</div>
+				</div>
+				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/avatars/hcorion.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/users/flags/canada.png') no-repeat center; background-size: cover;">
 						</div>
@@ -298,25 +317,6 @@
 						<div class='user-tx1-content darkmode-txt'>
 							<span class="user-tx2-member ">
 							rajkosto</span>
-							<span class="user-con-role user-role-contributor">
-							Project Contributor </span>
-						</div>
-						<div class='user-con-divider role-contributor darkmode-divider'></div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/whatcookie.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/canada.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Whatcookie </span>
 							<span class="user-con-role user-role-contributor">
 							Project Contributor </span>
 						</div>
