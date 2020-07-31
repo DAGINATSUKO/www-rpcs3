@@ -14,8 +14,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/1.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h2>Graphical Improvements</h2>		
-							<h3>Ninja Gaiden 3, Metal Gear Solid 4, inFamous and more</h3>
+							<h2>PlayStation Network Emulation</h2>		
+							<h3>Introducing online-play via PlayStation Network emulation</h3>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -41,8 +41,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/2.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h2>Naughty Dog Games</h2>		
-							<h3>Major performance and graphical improvements</h3>
+							<h2>Graphical Improvements</h2>		
+							<h3>Ninja Gaiden 3, Metal Gear Solid 4, inFamous and more</h3>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -68,8 +68,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/3.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h2>LittleBigPlanet</h2>		
-							<h3>Now playable from start to finish, with friends</h3>
+							<h2>Naughty Dog Games</h2>
+							<h3>Major performance and graphical improvements</h3>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
