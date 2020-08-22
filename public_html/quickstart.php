@@ -697,8 +697,10 @@
 						</div>
 						 IHBS112
 					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
+					<div class="drives-con-inner darkmode-txt">
+						<div class="drives-ico-bluray">
+						</div>
+						 IHBS312
 					</div>
 					<div class="drives-con-inner drives-txt-hidden">
 						 XX-XXXXXX
