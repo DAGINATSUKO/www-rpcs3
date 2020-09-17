@@ -41,7 +41,7 @@
 	margin-right: 6px;
 	padding: 6px 10px;
 	border-radius: 30px;
-	font-family: arial;
+	font-family: Roboto-Regular;
 	font-size: 14px;
 	border: solid 2px #fff;
 	height: 16px;
@@ -90,7 +90,7 @@
 	margin-right: 6px;
 	padding: 6px 10px;
 	border-radius: 30px;
-	font-family: arial;
+	font-family: Roboto-Regular;
 	font-size: 14px;
 	border: solid 2px #fff;
 	height: 16px;
@@ -103,7 +103,7 @@
 }
 .compat-txt-results {
 	font-size: 14px;
-	font-family: arial;
+	font-family: Roboto-Regular;
 	color: #000 !important;
 	font-weight: bold;
 	line-height: 32px;
@@ -143,7 +143,7 @@
 	margin-left: 6px;
 	padding: 6px 10px;
 	border-radius: 30px;
-	font-family: arial;
+	font-family: Roboto-Regular;
 	font-size: 14px;
 	border: solid 2px #e4e4e4;
 	height: 16px;
@@ -156,7 +156,7 @@
 }
 .compat-txt-category {
 	font-size: 14px;
-	font-family: arial;
+	font-family: Roboto-Regular;
 	color: #000 !important;
 	font-weight: bold;
 	line-height: 32px;
@@ -220,7 +220,7 @@ margin-bottom: 30px;
 	position: relative;
 }
 .compat-tx1-status {
-	font-family: arial;
+	font-family: Roboto-Regular;
 	font-size: 14px;
 	float: left;
 	line-height: 34px;
@@ -229,7 +229,7 @@ margin-bottom: 30px;
 	padding-right: 8px;
 }
 .compat-tx2-status {
-	font-family: arial;
+	font-family: Roboto-Regular;
 	font-size: 14px;
 	line-height: 34px;
 }
@@ -242,7 +242,7 @@ margin-bottom: 30px;
 
 
 .search-btn-input input {
-	font-family: arial;
+	font-family: Roboto-Regular;
 	font-size: 16px;
 	line-height:30px;
 	width: 100%;
@@ -278,13 +278,13 @@ margin-bottom: 30px;
 	color:#fff;
 }
 .search-btn-input::-webkit-input-placeholder {
-	font-family:arial;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	text-align:center;
 	color:inherit;
 }
 .search-btn-input::-moz-placeholder {
-	font-family:arial;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	margin-top:10px;
 	text-align:center;
@@ -292,7 +292,7 @@ margin-bottom: 30px;
 	color:inherit;
 }
 .search-btn-input:-ms-input-placeholder {
-	font-family:arial;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	text-align:center;
 	color:inherit;

@@ -161,7 +161,7 @@ a:hover {
 	height:30px;
 }
 .menu-tx1-message {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:40px;
 	position:fixed;
@@ -188,7 +188,7 @@ a:hover {
 }
 .menu-tx1-cookies {
 	color:#fff;
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height: 42px;
 	position:relative;
@@ -209,7 +209,7 @@ a:hover {
 }
 .menu-tx2-cookies {
 	float:left;
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size: 16px;
 	line-height:40px;
 	height:100%;
@@ -357,7 +357,7 @@ a:hover {
 }
 /* Menu button properties */
 .menu-btn-select {
-	font-family: arial,sans-serif;
+	font-family: Roboto-Regular;
 	font-size:16px;
 	line-height:60px;
 	position:relative;
@@ -420,7 +420,7 @@ a:hover {
 	margin-top:122px;
 }
 .mobile-menu-btn-select {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:28px;
 	line-height:82px;
 	position:relative;
@@ -456,7 +456,7 @@ a:hover {
 }
 /* Menu settings properties */
 .menu-tx1-settings {
-	font-family: arial,sans-serif;
+	font-family: Roboto-Regular;
 	font-size:16px;
 	line-height:60px;
 	color:#fff;
@@ -767,7 +767,7 @@ a:hover {
 	filter:invert(1);
 }
 .support-btn-button {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:64px;
 	position:relative;
@@ -851,7 +851,7 @@ a:hover {
 	top:50%;
 	margin-top:-30px;
 	z-index:4;
-	font-family: arial,sans-serif;
+	font-family: Roboto-Regular;
 	font-size: 16px;
 	line-height:60px;
 	color:#fff;
@@ -938,7 +938,7 @@ a:hover {
 	color:#fff;
 }
 .alipay-con-footer {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:100px;
 	position:fixed;
@@ -1019,7 +1019,7 @@ a:hover {
 	border-bottom:1px solid rgba(0,0,0,.05);
 }
 .sidebar-tx1-subtitle {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:18px;
 	line-height:60px;
 	position:relative;
@@ -1029,7 +1029,7 @@ a:hover {
 	color:#000;
 }
 .sidebar-tx2-subtitle {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:36px;
 	position:relative;
@@ -1157,7 +1157,7 @@ a:hover {
 	color: #686de0;
 }
 .container-tx2-block {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:28px;
 	position:relative;
@@ -1394,7 +1394,7 @@ a:hover {
 	-webkit-animation-iteration-count:1;
 }
 .landing-btn-download {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:18px;
 	line-height:44px;
 	position:absolute;
@@ -1443,7 +1443,7 @@ a:hover {
 	text-rendering:optimizeLegibility;
 }
 .landing-tx2-heading {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:30px;
 	position:relative;
@@ -1493,7 +1493,7 @@ a:hover {
 	text-rendering:optimizeLegibility;
 }
 .github-tx2-mantra {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:30px;
 	padding-left:100px;
@@ -1524,7 +1524,7 @@ a:hover {
 }
 .github-tx1-button {
 	float:left;
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:40px;
 	height:100%;
@@ -1583,7 +1583,7 @@ a:hover {
 	text-rendering:optimizeLegibility;
 }
 .discord-tx2-mantra {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:30px;
 	padding-left:100px;
@@ -1614,7 +1614,7 @@ a:hover {
 }
 .discord-tx1-button {
 	float:left;
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:40px;
 	height:100%;
@@ -1662,7 +1662,7 @@ a:hover {
 	text-rendering:optimizeLegibility;
 }
 .patreon-tx2-mantra {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:30px;
 	padding-left:100px;
@@ -1693,7 +1693,7 @@ a:hover {
 }
 .patreon-tx1-button {
 	float:left;
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:40px;
 	height:100%;
@@ -1846,7 +1846,7 @@ a:hover {
 	background-size:16px
 }
 .search-con-author {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:12px;
 	line-height:50px;
 	position:absolute;
@@ -1964,7 +1964,7 @@ a:hover {
 	text-shadow:0px 0px 32px rgba(0,0,0,.2);
 }
 .video-tx2-heading h3 {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:38px;
 	height:38px;
@@ -2181,7 +2181,7 @@ a:hover {
 	float:left;
 }
 .user-tx3-content {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:28px;
 	position:relative;
@@ -2409,7 +2409,7 @@ a:hover {
 	background-size: 30px!important;
 }
 .button-tx1-text {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -2439,7 +2439,7 @@ a:hover {
 	width:48%
 }
 .label-tx1-title {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	font-weight:700;
 	line-height:24px;
@@ -2473,7 +2473,7 @@ a:hover {
 	background-size:26px!important;
 }
 .label-tx1-text {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:12px;
 	line-height:24px;
 	position:relative;
@@ -2500,7 +2500,7 @@ a:hover {
 	height:52px
 }
 .binary-tx1-content {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:32px;
 	display:inline-block;
@@ -2516,7 +2516,7 @@ a:hover {
 	color:#000
 }
 .binary-tx2-content {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:32px;
 	position:relative;
@@ -2565,7 +2565,7 @@ a:hover {
 	background-size: 30px!important;
 }
 .reqs-tx1-item {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height: 34px;
 	position:relative;
@@ -2621,7 +2621,7 @@ a:hover {
 	background-size:26px!important;
 }
 .reqs-tx1-item-mobile {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -2654,7 +2654,7 @@ a:hover {
 .drives-con-inner {
 	float:left;
 	width:99%;
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:50px;
 	text-align:left;
@@ -2725,7 +2725,7 @@ a:hover {
 	background-size: 30px!important;
 }
 .guide-tx1-content {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:20px;
 	line-height:80px;
 	position:relative;
@@ -2744,7 +2744,7 @@ a:hover {
 	color:#fff;
 }
 .guide-tx1-heading {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:24px;
 	position:relative;
@@ -2809,7 +2809,7 @@ a:hover {
 	margin-bottom:40px
 }
 .list-tx1-item {
-	font-family: arial,sans-serif;
+	font-family: Roboto-Regular;
 	font-size: 26px;
 	line-height: 46px;
 	width: 46px;
@@ -2825,7 +2825,7 @@ a:hover {
 	box-shadow: 0px 16px 32px 0 rgba(0,0,0,.1);
 }
 .list-tx2-description {
-	font-family: arial,sans-serif;
+	font-family: Roboto-Regular;
 	font-size: 14px;
 	line-height: 28px;
 	position: relative;
@@ -2908,7 +2908,7 @@ a:hover {
 	text-rendering:optimizeLegibility;
 }
 .footer-tx2-bound {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:30px;
 	position:relative;
@@ -2926,7 +2926,7 @@ a:hover {
 	height:100px;
 }
 .footer-tx1-developer {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:100px;
 	position:absolute;
@@ -2942,7 +2942,7 @@ a:hover {
 	text-decoration:underline;
 }
 .footer-tx2-developer {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:42px;
 	position:absolute;
@@ -3039,7 +3039,7 @@ a:hover {
 	color:#fff
 }
 .error-tx2-content {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:24px;
 	position:relative;
@@ -3085,7 +3085,7 @@ a:hover {
 	text-decoration:underline
 }
 .markdown {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:16px;
 }
 .markdown h2 {
@@ -3101,13 +3101,13 @@ a:hover {
 	border-bottom:1px solid #eaeaea;
 }
 .markdown p:first-child {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	display:block;
 	margin-top: 30px;
 }
 .markdown ul {
-	font-family:arial,sans-serif;
+	font-family:Roboto-Regular;
 	font-size:14px;
 	line-height:35px;
 	padding-left:45px

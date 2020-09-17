@@ -14,8 +14,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/1.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h2>PlayStation Network Emulation</h2>		
-							<h3>Introducing online-play via PlayStation Network emulation</h3>
+							<h2>Performance Improvements</h2>		
+							<h3>Improvements in Killzone 3, God of War and more</h3>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -41,8 +41,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/2.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h2>Graphical Improvements</h2>		
-							<h3>Ninja Gaiden 3, Metal Gear Solid 4, inFamous and more</h3>
+							<h2>Scott Pilgrim vs. The World</h2>		
+							<h3>Now Playable online PlayStation Network emulation</h3>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
@@ -68,8 +68,8 @@
 						<div class='video-img-thumbnail' style="background: url('/img/videos/3.jpg') no-repeat center; background-size: cover;">
 						</div>
 						<div class="video-tx2-heading">
-							<h2>Naughty Dog Games</h2>
-							<h3>Major performance and graphical improvements</h3>
+							<h2>Heavenly Sword</h2>		
+							<h3>Now Playable from Start to Finish at 4K 60FPS</h3>
 						</div>
 					</div>
 					<div class='video-con-backdrop'>
