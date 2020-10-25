@@ -21,7 +21,7 @@ docker-compose up
 From there, open a web browser of your choosing and navigate to your preferred [localhost](http://localhost:8080) address.
 However, you will need to access it from your browser by adding the `:8080` to your localhost address.
 
-This website uses a CronJob to fetch the Roadmap. Your CronJob should be similar to `php public_html/lib/cronjobs/cron.roadmap.php` (using the appropriate paths to the php executable and the public_html directory) with a recommended timing of once an hour (`0 * * * *`).
+This website uses a cron job to fetch the Roadmap. Your cron job should be similar to `php public_html/lib/cronjob/cron.roadmap.php` (using the appropriate paths to the php executable and the public_html directory) with a recommended timing of once every hour (`0 * * * *`).
 
 
 #### External Resources
@@ -39,6 +39,6 @@ This website uses a CronJob to fetch the Roadmap. Your CronJob should be similar
 * [Opera Software Opera](http://www.opera.com/)
 
 ## Copyright
-All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation. 
+All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation.
 
 The "PlayStation logo", "PlayStation 3 logo", "PlayStation 4 logo", "PlayStation Portable logo", "PlayStation Vita logo", "PlayStation Move logo", "PlayStation Network logo", "PlayStation Store logo", "PlayStation Plus logo", "Sony logo", "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. "Sony Entertainment Network" is a trademark of Sony Corporation. Library programs are copyright Sony Interactive Entertainment Inc.
