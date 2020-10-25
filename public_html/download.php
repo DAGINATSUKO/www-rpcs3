@@ -17,7 +17,7 @@
 // Compatibility utils must exist for this page to work at the moment
 // TODO: Handle behavior when compatibility plugin is not present?
 include 'lib/compat/objects/Build.php';
-$build = Build::getLatest();
+$build = Build::get_latest();
 ?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
@@ -58,7 +58,7 @@ $build = Build::getLatest();
 				</div>
 			</div>
 			<div class='button-con-container'>
-				<a href='<?php echo $build->url_win; ?>' download>
+				<a href='<?php echo $build->get_url_windows(); ?>' download>
 				<div class="button-con-wrapper button-left darkmode-panel">
 					<div class='button-ico-container' style="background: url('/img/icons/buttons/windows-h.png') no-repeat center;">
 					</div>
@@ -68,7 +68,7 @@ $build = Build::getLatest();
 					</div>
 				</div>
 				</a>
-				<a href='<?php echo $build->url_linux; ?>' download>
+				<a href='<?php echo $build->get_url_linux(); ?>' download>
 				<div class="button-con-wrapper button-right darkmode-panel">
 					<div class='button-ico-container' style="background: url('/img/icons/buttons/linux-h.png') no-repeat center;">
 					</div>
@@ -88,8 +88,7 @@ $build = Build::getLatest();
 					</div>
 					<div class="label-tx1-text darkmode-txt" style="top: 8px;">
 						<span>
-						<?php echo $build->
-						 checksum_win; ?> </span>
+						<?php echo $build->checksum_win; ?> </span>
 					</div>
 				</div>
 				<div class="label-con-wrapper label-right darkmode-panel">
@@ -100,8 +99,7 @@ $build = Build::getLatest();
 					</div>
 					<div class="label-tx1-text darkmode-txt" style="top: 8px;">
 						<span>
-						<?php echo $build->
-						 checksum_linux; ?> </span>
+						<?php echo $build->checksum_linux; ?> </span>
 					</div>
 				</div>
 			</div>
@@ -115,8 +113,7 @@ $build = Build::getLatest();
 					</div>
 					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
-						<?php echo "v{$build->
-						 version} Alpha [{$build->fulldate}]"; ?> </span>
+						<?php echo "v{$build->version} Alpha [{$build->fulldate}]"; ?> </span>
 					</div>
 				</div>
 				<div class="binary-con-wrapper">
@@ -128,11 +125,9 @@ $build = Build::getLatest();
 					</div>
 					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
-						<a href="https://github.com/RPCS3/rpcs3/pull/<?php echo $build->pr; ?>">#<?php echo $build->
-						 pr; ?></a>
-						(<a href="https://github.com/RPCS3/rpcs3/commit/<?php echo $build->commit; ?>"><?php echo substr($build->
-						 commit, 0, 8); ?></a>) by <a href="https://github.com/<?php echo $build->author; ?>"><?php echo $build->
-						 author; ?></a>
+						<a href="<?php echo $build->get_url_pr(); ?>">#<?php echo $build->pr; ?></a>
+						(<a href="<?php echo $build->get_url_commit(); ?>"><?php echo $build->get_commit_short(); ?></a>)
+						by <a href="<?php echo $build->get_url_author(); ?>"><?php echo $build->author; ?></a>
 						</span>
 					</div>
 				</div>
@@ -145,9 +140,7 @@ $build = Build::getLatest();
 					</div>
 					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
-						Windows: <?php echo $build->
-						 sizeMB_win; ?> MB, Linux: <?php echo $build->
-						 sizeMB_linux; ?> MB </span>
+						Windows: <?php echo $build->get_size_mb_windows(); ?> MB, Linux: <?php echo $build->get_size_mb_linux(); ?> MB </span>
 					</div>
 				</div>
 			</div>
