@@ -6,17 +6,36 @@
 <script data-cfasync="false" src='/lib/js/particles-sel.js?v=2'></script>
 <noscript>
 <style>
-.video-con-dimmer {
-	display:none;
-}
+/*
+General:
+- Elements that fade in are not visible by default
+*/
 .fade-up-onstart {
 	display:inherit;
 }
-.content-txt-wrap {
-	position: absolute;
-	top: 50%;
-	margin-top: -154px;
-	display:block; 
+.fade-in-onload {
+	display:inherit;
+}
+/*
+Index:
+- Center index contents
+*/
+.landing-con-container {
+	top:50%;
+	margin-top:-139px;
+}
+/*
+Quickstart:
+- Remove dimming
+- Do not block interaction outside the sidebar
+- Slightly reduce the width of the sidebar
+*/
+.toggle-navsidebar {
+	background:none;
+	width:auto;
+}
+.sidebar-con-anim {
+	width:300px;
 }
 </style>
 </noscript>
