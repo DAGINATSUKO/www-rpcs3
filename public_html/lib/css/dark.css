@@ -35,9 +35,6 @@
 .dm-discord {
 	background:#303d6b!important
 }
-.dm-header-patreon {
-	background:-webkit-linear-gradient(-135deg,#c9311e 25%,#c96d1e 100%)!important
-}
 .dm-highlight {
 	color:#2dbc4e!important;
 	background:rgba(40,167,69,.2)
@@ -117,9 +114,6 @@
 	color:#fff!important
 }
 
-
-
-
 .dm-compat-menu {
 	background:#191f36;
 	color:#fff !Important;
@@ -150,9 +144,9 @@
 	color: #fff !important;
 }
 .dm-compat-con-pages-a {
-    border-color: #111525 !important;
-    background: #111525 !important;
-    color: #fff !important;
+	border-color: #111525 !important;
+	background: #111525 !important;
+	color: #fff !important;
 }
 .dm-compat-footer {
 	background:#191f36!important
