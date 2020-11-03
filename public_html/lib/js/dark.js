@@ -29,7 +29,7 @@ $(document).ready(function() {
         $('.support-btn-button').toggleClass("dm-support-btn");
 		$('.settings-menu-con-outer').toggleClass("dm-support-outer");
         $('.settings-menu-btn-button').toggleClass("dm-support-btn");
-		
+
         $('.darkmode-navsidebar-title').toggleClass("dm-navsidebar-title");
         $('.darkmode-navsidebar-anim').toggleClass("dm-default");
         $('.darkmode-navsidebar-txt').toggleClass("dm-navsidebar-txt");
@@ -47,6 +47,7 @@ $(document).ready(function() {
 		$(".compat-menu a").toggleClass("dm-compat-menu");
         $(".compat-tx1-criteria").toggleClass("dm-compat-criteria");
 		$("#compat-hdr-left").toggleClass("dm-compat-header-left");
+    $(".compat-types").toggleClass("dm-compat-header-left");
 		$("#compat-hdr-left a").toggleClass("dm-compat-header-left");
         $(".compat-status-text").toggleClass("dm-compat-status-text");
 		$("#compat-con-searchbox").toggleClass("dm-compat-searchbox");
@@ -58,9 +59,9 @@ $(document).ready(function() {
         $("#compat-author").toggleClass("dm-compat-author");
 		$(".compat-icon-media").toggleClass("dm-compat-media");
 		$(".highlightedText").toggleClass("dm-highlightedText");
-		$(".divTableHeading").toggleClass("dm-txt");
-        $(".divTableBody").toggleClass("dm-default");
-        $(".divTableBody").toggleClass("dm-txt");
+        $(".compat-table-inside").toggleClass("dm-default");
+        $(".compat-table-header").toggleClass("dm-txt");
+		$(".compat-table-row").toggleClass("dm-txt");
 		// Begin Wordpress Blog pages dark mode class swaps
         $(".nav-links").toggleClass("dm-default dm-txt");
         $(".entry-content").toggleClass("dm-txt");
@@ -131,6 +132,7 @@ $(document).ready(function() {
 		$(".compat-menu a").addClass("dm-compat-menu");
         $(".compat-tx1-criteria").addClass("dm-compat-criteria");
 		$("#compat-hdr-left").addClass("dm-compat-header-left");
+    $(".compat-types").addClass("dm-compat-header-left");
 		$("#compat-hdr-left a").addClass("dm-compat-header-left");
         $(".compat-status-text").addClass("dm-compat-status-text");
 		$("#compat-con-searchbox").addClass("dm-compat-searchbox");
@@ -142,9 +144,9 @@ $(document).ready(function() {
         $("#compat-author").addClass("dm-compat-author");
 		$(".compat-icon-media").addClass("dm-compat-media");
 		$(".highlightedText").addClass("dm-highlightedText");
-		$(".divTableHeading").addClass("dm-txt");
-        $(".divTableBody").addClass("dm-default");
-        $(".divTableBody").addClass("dm-txt");
+        $(".compat-table-inside").addClass("dm-default");
+        $(".compat-table-header").addClass("dm-txt");
+		$(".compat-table-row").addClass("dm-txt");
 		// Begin Wordpress Blog pages dark mode class swaps
         $(".nav-links").addClass("dm-default dm-txt");
         $(".entry-content").addClass("dm-txt");
@@ -203,6 +205,7 @@ $(document).ready(function() {
 		$(".compat-menu a").removeClass("dm-compat-menu");
         $(".compat-tx1-criteria").removeClass("dm-compat-criteria");
 		$("#compat-hdr-left").removeClass("dm-compat-header-left");
+    $(".compat-types").removeClass("dm-compat-header-left");
 		$("#compat-hdr-left a").removeClass("dm-compat-header-left");
         $(".compat-status-text").removeClass("dm-compat-status-text");
 		$("#compat-con-searchbox").removeClass("dm-compat-searchbox");
@@ -214,9 +217,9 @@ $(document).ready(function() {
         $("#compat-author").removeClass("dm-compat-author");
 		$(".compat-icon-media").removeClass("dm-compat-media");
 		$(".highlightedText").removeClass("dm-highlightedText");
-		$(".divTableHeading").removeClass("dm-txt");
-        $(".divTableBody").removeClass("dm-default");
-        $(".divTableBody").removeClass("dm-txt");
+        $(".compat-table-inside").removeClass("dm-default");
+		$(".compat-table-header").removeClass("dm-txt");
+        $(".compat-table-row").removeClass("dm-txt");
 		// Begin Wordpress Blog pages dark mode class swaps
         $(".nav-links").removeClass("dm-default dm-txt");
         $(".entry-content").removeClass("dm-txt");
