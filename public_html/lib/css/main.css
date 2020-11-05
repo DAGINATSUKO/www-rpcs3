@@ -139,14 +139,12 @@ a:hover {
 	top:-198px;
 	width:6144px;
 	height:198px;
-	-webkit-animation:wavebar-svg-object 11s cubic-bezier( 0.36,0.45,0.63,0.53) infinite;
 	animation:wavebar-svg-object 11s cubic-bezier( 0.36,0.45,0.63,0.53) infinite;
 	-webkit-transform:translate3d(0,0,0);
 	transform:translate3d(0,0,0);
 }
 .wavebar-svg-object:nth-of-type(2) {
 	top:-174px;
-	-webkit-animation:wavebar-svg-object 11s cubic-bezier( 0.4,0.2,0.2,0.2) -.124s infinite,swell 11s ease -1.24s infinite;
 	animation:wavebar-svg-object 11s cubic-bezier( 0.4,0.2,0.2,0.2) -.124s infinite,swell 11s ease -1.24s infinite;
 	opacity:1;
 }
@@ -248,10 +246,9 @@ a:hover {
 	height: 40px;
 	cursor:pointer;
 	transition:.1s ease-in-out;
-	-webkit-animation-name: zoomIn;
 	animation-name: zoomIn;
-	-webkit-animation-duration:.5s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:.5s;
+	animation-iteration-count:1;
 	border-radius:100%;
 	background:#4e34c9 url(/img/icons/menu/close.png) no-repeat center;
 	background-size:cover !important;
@@ -275,10 +272,9 @@ a:hover {
 	position:absolute;
 	top: 12px;
 	padding-left:60px;
-	-webkit-animation-name:fadeIn;
 	animation-name:fadeIn;
-	-webkit-animation-duration:.5s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:.5s;
+	animation-iteration-count:1;
 	display:none;
 }
 .menu-btn-close:hover>.menu-tx1-tooltip {
@@ -417,10 +413,9 @@ a:hover {
 	height:82px;
 	padding-left:33px;
 	color:#fff;
-	-webkit-animation-name:fadeInDown;
 	animation-name:fadeInDown;
-	-webkit-animation-duration:.5s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:.5s;
+	animation-iteration-count:1;
 	border-radius:6px;
 }
 .mobile-menu-btn-select:hover {
@@ -466,10 +461,9 @@ a:hover {
 	border-bottom:solid 2px transparent;
 	background:url(/img/icons/menu/settings.png) no-repeat center;
 	background-size:20px;
-	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
-	-webkit-animation-duration: .5s;
-	-webkit-animation-iteration-count: 1;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
 	transition: .1s ease-in-out;
 }
 .menu-btn-settings:hover {
@@ -505,10 +499,9 @@ a:hover {
 	border-radius: 10px;
 	border: solid 4px rgb(255, 255, 255);
 	background: #fff;
-	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
-	-webkit-animation-duration: .1s;
-	-webkit-animation-iteration-count: 1;
+	animation-duration: .1s;
+	animation-iteration-count: 1;
 }
 .settings-menu-con-wrapper {
 	position:relative;
@@ -682,10 +675,9 @@ a:hover {
 	border-radius: 10px;
 	border: solid 4px rgb(255, 255, 255);
 	background: #fff;
-	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
-	-webkit-animation-duration: .1s;
-	-webkit-animation-iteration-count: 1;
+	animation-duration: .1s;
+	animation-iteration-count: 1;
 }
 .support-con-wrapper {
 	position:relative;
@@ -858,9 +850,6 @@ a:hover {
 	width: 100px;
 	height: 100px;
 	position:absolute;
-	-webkit-animation: spinnerRotate infinite 1s linear;
-	-moz-animation: spinnerRotate infinite 1s linear;
-	-o-animation: spinnerRotate infinite 1s linear;
 	animation: spinnerRotate infinite 1s linear;
 }
 /* Alipay properties */
@@ -873,9 +862,8 @@ a:hover {
 	width:380px;
 	height:auto;
 	margin:-299px -194px;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s;
+	animation-duration:.5s;
 	border:solid 4px #fff;
 	border-radius:12px;
 }
@@ -935,9 +923,8 @@ a:hover {
 /* Sidebar properties */
 .sidebar-con-container {
 	position:relative;
-	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-	-webkit-animation-duration:.4s;
+	animation-duration:.4s;
 }
 .sidebar-btn-open {
 	position:fixed;
@@ -973,10 +960,9 @@ a:hover {
 	width:350px;
 	height:100%;
 	transition:all .2s ease-in-out;
-	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-	-webkit-animation-duration:.2s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:.2s;
+	animation-iteration-count:1;
 	background:#fff;
 	-webkit-overflow-scrolling:touch;
 	box-shadow: 10px 0px 64px 1px rgba(0,0,0,.1);
@@ -1036,10 +1022,9 @@ a:hover {
 	width:400px;
 	height:100%;
 	transition:all .2s ease-in-out;
-	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-	-webkit-animation-duration:.2s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:.2s;
+	animation-iteration-count:1;
 	background:#fff;
 	-webkit-overflow-scrolling:touch;
 }
@@ -1202,10 +1187,9 @@ a:hover {
 	background:url('/img/icons/arrows/left.png') no-repeat center;
 	background-size:64px;
 	transition:.1s ease-in-out;
-	-webkit-animation-name:drifting-left;
 	animation-name:drifting-left;
-	-webkit-animation-duration:2s;
-	-webkit-animation-iteration-count:infinite;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
 	z-index:4;
 }
 .content-btn-right {
@@ -1218,10 +1202,9 @@ a:hover {
 	background:url('/img/icons/arrows/right.png') no-repeat center;
 	background-size:64px;
 	transition:.1s ease-in-out;
-	-webkit-animation-name:drifting-right;
 	animation-name:drifting-right;
-	-webkit-animation-duration:2s;
-	-webkit-animation-iteration-count:infinite;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
 	z-index:4;
 }
 .content-btn-left:hover {
@@ -1245,10 +1228,9 @@ a:hover {
 	width:80px;
 	height:80px;
 	margin:0 0 0 -40px;
-	-webkit-animation-name:bobbing;
 	animation-name:bobbing;
-	-webkit-animation-duration:2s;
-	-webkit-animation-iteration-count:infinite;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
 	background: url(/img/icons/arrows/down.png) no-repeat center;
 	background-size: 38px;
 }
@@ -1345,10 +1327,9 @@ a:hover {
 	right:0;
 	width:47%;
 	height:100%;
-	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:1s;
+	animation-iteration-count:1;
 }
 .landing-con-container {
 	position:absolute;
@@ -1359,10 +1340,9 @@ a:hover {
 	width:100%;
 	height:44px;
 	margin-top:30px;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:1.4s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:1.4s;
+	animation-iteration-count:1;
 }
 .landing-btn-download {
 	font-family:Roboto-Regular;
@@ -1406,10 +1386,9 @@ a:hover {
 	height:auto;
 	margin-bottom:16px;
 	color:#fff;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:1s;
+	animation-iteration-count:1;
 	text-rendering:optimizeLegibility;
 }
 .landing-tx2-heading {
@@ -1418,10 +1397,9 @@ a:hover {
 	line-height:30px;
 	position:relative;
 	color:#fff;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:1.2s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:1.2s;
+	animation-iteration-count:1;
 }
 /* Github (Homepage) properties */
 .github-con-container {
@@ -1510,7 +1488,6 @@ a:hover {
 	width:100%;
 }
 .discord-svg-animate {
-	-webkit-animation:blobby 30s linear infinite alternate;
 	animation:blobby 30s linear infinite alternate;
 }
 .discord-con-container {
@@ -1710,10 +1687,9 @@ a:hover {
 	width:100%;
 	height:auto;
 	margin:-25px 0;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:1s;
+	animation-iteration-count:1;
 }
 .search-con-outer {
 	position:relative;
@@ -1865,10 +1841,9 @@ a:hover {
 	height:675px;
 	margin-top:-338px;
 	margin-left:-600px;
-	-webkit-animation-name:zoomIn;
 	animation-name:zoomIn;
-	-webkit-animation-duration:.4s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:.4s;
+	animation-iteration-count:1;
 	background:#000;
 	border-radius:12px;
 	overflow:hidden;
@@ -1913,10 +1888,9 @@ a:hover {
 	text-align:center;
 	position:absolute;
 	bottom:-125px;
-	-webkit-animation-name:fadeInUp !important;
 	animation-name:fadeInUp !important;
-	-webkit-animation-duration:2s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:2s;
+	animation-iteration-count:1;
 	border-radius:38px;
 	text-shadow:0px 0px 32px rgba(0,0,0,.2);
 }
@@ -1931,10 +1905,9 @@ a:hover {
 	color:#fff;
 	text-align:center;
 	position:absolute;
-	-webkit-animation-name:fadeInUp !important;
 	animation-name:fadeInUp !important;
-	-webkit-animation-duration:2s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:2s;
+	animation-iteration-count:1;
 	border-radius:38px;
 	text-shadow:0px 0px 32px rgba(0,0,0,.2);
 }
@@ -1984,10 +1957,9 @@ a:hover {
 	top:50%;
 	width:100%;
 	height:100%;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:1s;
+	animation-iteration-count:1;
 }
 .video-wrp-backdrop {
 	width:100%;
@@ -2008,8 +1980,8 @@ a:hover {
 	-webkit-backdrop-filter:blur(6px);
 	border-radius:100%;
 	pointer-events:none;
-	-webkit-animation-duration:1s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:1s;
+	animation-iteration-count:1;
 }
 .video-ico-service {
 	position:absolute;
@@ -2081,10 +2053,9 @@ a:hover {
 .user-con-content:hover .user-img-flag {
 	display:block;
 	transition:.2s ease-in-out;
-	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-	-webkit-animation-duration:.2s;
-	-webkit-animation-iteration-count:1
+	animation-duration:.2s;
+	animation-iteration-count:1
 }
 .user-con-content:hover .user-img-avatar {
 	-webkit-transform:scale(1.05);
@@ -2901,9 +2872,8 @@ a:hover {
 	position:relative;
 	width:100%;
 	height:60px;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s
+	animation-duration:.5s
 }
 .error-tx1-content {
 	font-family:Roboto-Light;
@@ -2913,9 +2883,8 @@ a:hover {
 	position:relative;
 	width:100%;
 	height:60px;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s;
+	animation-duration:.5s;
 	text-align:center;
 	color:#fff
 }
@@ -2926,9 +2895,8 @@ a:hover {
 	position:relative;
 	width:100%;
 	height:25px;
-	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
-	-webkit-animation-duration:.5s;
+	animation-duration:.5s;
 	text-align:center;
 	color:#fff;
 }
@@ -3101,8 +3069,8 @@ a:hover {
 }
 .carousel-inner>.active {
 	left:0;
-	-webkit-animation-duration:.6s;
-	-webkit-animation-iteration-count:1;
+	animation-duration:.6s;
+	animation-iteration-count:1;
 }
 .carousel-inner>.next,.carousel-inner>.prev {
 	position:absolute;
@@ -3194,11 +3162,9 @@ a:hover {
 	margin-bottom:0;
 }
 .carousel-left {
-	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
 }
 .carousel-right {
-	-webkit-animation-name:fadeInRight;
 	animation-name:fadeInRight;
 }
 /* Misc properties */
