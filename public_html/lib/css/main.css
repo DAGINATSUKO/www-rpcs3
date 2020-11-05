@@ -1081,7 +1081,6 @@ a:hover {
 	overflow:hidden;
 	width:100%;
 	height:420px;
-	background:-o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
 	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .banner-con-backdrop {
@@ -1205,7 +1204,6 @@ a:hover {
 	position:absolute;
 	width:100%;
 	height:100%;
-	background:-o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
 	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .content-btn-left {
@@ -1322,7 +1320,6 @@ a:hover {
 	height:700px;
 	min-height:600px;
 	max-height:1080px;
-	background:-o-linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .landing-con-patreon {
@@ -2079,7 +2076,6 @@ a:hover {
 	-ms-transform:rotate(30deg);
 	transform:rotate(30deg);
 	background:rgba(255,255,255,0);
-	background:-o-linear-gradient(left,rgba(255,255,255,0.001) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%);
 	background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0.001)),color-stop(77%,rgba(255,255,255,0.14)),color-stop(92%,rgba(255,255,255,0.5)),to(rgba(255,255,255,0.0)));
 	background:linear-gradient(to right,rgba(255,255,255,0.001) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%);
 	-webkit-transition:all .7s ease-in-out;
@@ -2494,7 +2490,6 @@ a:hover {
 	padding-left:1%;
 	color:#0074e7;
 	border-radius:32px;
-	background:-o-linear-gradient(right,rgba(255,255,255,.0),rgba(0,116,231,.1));
 	background:-webkit-gradient(linear,right top,left top,from(rgba(255,255,255,.0)),to(rgba(0,116,231,.1)));
 	background:linear-gradient(to left,rgba(255,255,255,.0),rgba(0,116,231,.1));
 }
@@ -2812,7 +2807,6 @@ a:hover {
 	overflow:hidden;
 	width:100%;
 	height:auto;
-	background:-o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
 	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .footer-con-header {
