@@ -131,7 +131,6 @@ a:hover {
 	width:100%;
 	position:absolute;
 	bottom:0px;
-	-o-transition:.1s ease-in-out;
 	transition: 1s ease-in-out;
 }
 .wavebar-svg-object {
@@ -248,7 +247,6 @@ a:hover {
 	width: 40px;
 	height: 40px;
 	cursor:pointer;
-	-o-transition:.1s ease-in-out;
 	transition:.1s ease-in-out;
 	-webkit-animation-name: zoomIn;
 	animation-name: zoomIn;
@@ -305,7 +303,6 @@ a:hover {
 	border-bottom:2px solid transparent;
 	background:url(/img/icons/menu/logo.png) no-repeat center;
 	background-size:36px;
-	-o-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
 }
 .menu-ico-logo:hover {
@@ -364,7 +361,6 @@ a:hover {
 	padding-left:12px;
 	color:#fff;
 	border-bottom:2px solid transparent;
-	-o-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
 }
 .menu-btn-select:hover {
@@ -474,7 +470,6 @@ a:hover {
 	animation-name: fadeIn;
 	-webkit-animation-duration: .5s;
 	-webkit-animation-iteration-count: 1;
-	-o-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
 }
 .menu-btn-settings:hover {
@@ -977,7 +972,6 @@ a:hover {
 	overflow-y:scroll;
 	width:350px;
 	height:100%;
-	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
@@ -1041,7 +1035,6 @@ a:hover {
 	overflow-y:scroll;
 	width:400px;
 	height:100%;
-	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
@@ -1208,7 +1201,6 @@ a:hover {
 	margin-top:-50px;
 	background:url('/img/icons/arrows/left.png') no-repeat center;
 	background-size:64px;
-	-o-transition:.1s ease-in-out;
 	transition:.1s ease-in-out;
 	-webkit-animation-name:drifting-left;
 	animation-name:drifting-left;
@@ -1225,7 +1217,6 @@ a:hover {
 	margin-top:-50px;
 	background:url('/img/icons/arrows/right.png') no-repeat center;
 	background-size:64px;
-	-o-transition:.1s ease-in-out;
 	transition:.1s ease-in-out;
 	-webkit-animation-name:drifting-right;
 	animation-name:drifting-right;
@@ -1750,7 +1741,6 @@ a:hover {
 	border-radius:50px;
 	box-shadow:0 16px 32px 0 rgba(0,0,0,.1);
 	border:solid 2px #d9d9d9;
-	-o-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
 }
 .search-inp-search:hover {
@@ -1779,7 +1769,6 @@ a:hover {
 	color:#0074e7;
 }
 .search-inp-search input::-webkit-input-placeholder {
-	-o-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
 	color:inherit;
 }
@@ -1849,7 +1838,6 @@ a:hover {
 	border:solid 2px #fff;
 	background:url(/img/users/avatars/ani.png) no-repeat center;
 	background-size:cover;
-	-o-transition:.2s ease-in-out;
 	transition:.2s ease-in-out;
 }
 .search-con-author a {
@@ -1959,7 +1947,6 @@ a:hover {
 	margin:-304px -540px;
 	box-shadow:0 0 64px 0 rgba(0,0,0,.4);
 	border-radius:12px;
-	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	z-index:2;
 }
@@ -1973,7 +1960,6 @@ a:hover {
 	width:100%;
 	height:100%;
 	border-radius:12px;
-	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	overflow:hidden;
 }
@@ -2015,7 +2001,6 @@ a:hover {
 	margin:-35px -35px;
 	width:70px;
 	height:70px;
-	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	background:rgba(255,255,255,0.1) url(/img/icons/menu/play.png) no-repeat center;
 	background-size:cover;
@@ -2062,18 +2047,14 @@ a:hover {
 	transform:rotate(30deg);
 	background:rgba(255,255,255,0);
 	background:linear-gradient(to right,rgba(255,255,255,0.001) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%);
-	-o-transition:all .7s ease-in-out;
 	transition:all .7s ease-in-out;
 }
 .video-con-animate:hover:after {
 	opacity:1;
 	top:-30%;
 	left:-30%;
-	-o-transition-property:left,top,opacity;
 	transition-property:left,top,opacity;
-	-o-transition-duration:0.7s,0.7s,0.15s;
 	transition-duration:0.7s,0.7s,0.15s;
-	-o-transition-timing-function:ease;
 	transition-timing-function:ease;
 }
 .video-con-animate:active:after {
@@ -2099,7 +2080,6 @@ a:hover {
 }
 .user-con-content:hover .user-img-flag {
 	display:block;
-	-o-transition:.2s ease-in-out;
 	transition:.2s ease-in-out;
 	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
@@ -2167,7 +2147,6 @@ a:hover {
 	width:80px;
 	height:80px;
 	margin-top:-54px;
-	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	border-style:none;
 	border-radius:100%;
@@ -2182,7 +2161,6 @@ a:hover {
 	width:56px;
 	height:36px;
 	margin-top:-24px;
-	-o-transition:.2s ease-in-out;
 	transition:.2s ease-in-out;
 	border:solid 4px #fff;
 	box-shadow:10px 10px 32px 0 rgba(0,0,0,.2);
@@ -2898,7 +2876,6 @@ a:hover {
 	background-size:cover;
 	border:solid 2px #fff;
 	box-shadow:0 0 10px 0 rgba(0,0,0,.2);
-	-o-transition:.2s ease-in-out;
 	transition:.2s ease-in-out;
 }
 .footer-tx1-developer a:hover .footer-ico-developer {
@@ -3139,7 +3116,6 @@ a:hover {
 .carousel-inner>.item {
 	position:relative;
 	display:none;
-	-o-transition:.6s ease-in-out left;
 	transition:.6s ease-in-out left;
 }
 .carousel-inner>.item>img,.carousel-inner>.item>a>img {
@@ -3267,7 +3243,6 @@ a:hover {
 .object-focused {
 	border:solid 2px #0074e7 !important;
 	box-shadow:0px 16px 32px 0 rgba(0, 116, 231, .2) !important;
-	-o-transition: .1s ease-in-out;
 	transition: .1s ease-in-out;
 }
 .object-hidden {
@@ -3284,7 +3259,6 @@ a:hover {
 	height:16px
 }
 .pulsate {
-	-o-transition:text-shadow 1s linear;
 	transition:text-shadow 1s linear;
 }
 .pulsate.glow {
