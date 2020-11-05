@@ -2132,14 +2132,12 @@ a:hover {
 	text-decoration:underline
 }
 .user-con-divider {
-    width: 100%;
-    height: 2px;
-    position: relative;
-    border-radius: 4px;
-    margin-bottom: 12px;
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgba(0, 0, 0, 0.05));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgba(0, 0, 0, 0.05));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgba(0, 0, 0, 0.05));
+	width: 100%;
+	height: 2px;
+	position: relative;
+	border-radius: 4px;
+	margin-bottom: 12px;
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgba(0, 0, 0, 0.05));
 }
 .user-img-avatar {
 	position:absolute;
@@ -2185,36 +2183,28 @@ a:hover {
 	box-shadow: 0 8px 16px 0 rgb(9, 132, 227,.4);
 }
 .role-lead {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(9, 132, 227));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(9, 132, 227));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(9, 132, 227));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(9, 132, 227));
 }
 .user-role-graphics {
 	background: #fd79a8;
 	box-shadow: 0 8px 16px 0 rgb(253, 121, 168,.4);
 }
 .role-graphics {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(253, 121, 168));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(253, 121, 168));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(253, 121, 168));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(253, 121, 168));
 }
 .user-role-manager {
 	background: #FEA47F;
 	box-shadow: 0 8px 16px 0 rgba(253, 163, 127, .4);
 }
 .role-manager {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(254, 164, 127));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(254, 164, 127));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(254, 164, 127));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(254, 164, 127));
 }
 .user-role-web {
 	background: #6c5ce7;
 	box-shadow: 0 5px 16px 0 rgb(108, 92, 231,.4);
 }
 .role-web {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(108, 92, 231));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(108, 92, 231));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(108, 92, 231));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(108, 92, 231));
 }
 .user-role-designer {
 	background: #0fbcf9;
@@ -2225,9 +2215,7 @@ a:hover {
 	box-shadow: 0 8px 16px 0 rgb(207, 106, 135,.4);
 }
 .role-ui {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(207, 106, 135));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(207, 106, 135));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(207, 106, 135));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(207, 106, 135));
 }
 .user-role-firmware {
 	background: #9b59b6;
@@ -2238,36 +2226,28 @@ a:hover {
 	box-shadow: 0 8px 16px 0 rgb(0, 184, 148,.4);
 }
 .role-developer {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 184, 148));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 184, 148));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 184, 148));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 184, 148));
 }
 .user-role-contributor {
 	background:#ff8c67;
 	box-shadow: 0 8px 16px 0 rgba(230,131,100,.4);
 }
 .role-contributor {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(255, 140, 103));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(255, 140, 103));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(255, 140, 103));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(255, 140, 103));
 }
 .user-role-editor {
 	background: #4a69bd;
 	box-shadow: 0 8px 16px 0 rgb(74, 105, 189,.4);
 }
 .role-editor {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(74, 105, 189));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(74, 105, 189));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(74, 105, 189));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(74, 105, 189));
 }
 .user-role-wiki {
 	background: #78e08f;
 	box-shadow: 0 5px 16px 0 rgb(120, 224, 143,.4);
 }
 .role-wiki {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(120, 224, 143));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(120, 224, 143));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(120, 224, 143));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(120, 224, 143));
 }
 .user-role-server {
 	background: #38ada9;
@@ -2282,18 +2262,14 @@ a:hover {
 	box-shadow: 0 8px 16px 0 rgba(76,91,215,.4);
 }
 .role-founder {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(144, 121, 255));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(144, 121, 255));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(144, 121, 255));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(144, 121, 255));
 }
 .user-role-former {
 	background: #00cec9;
 	box-shadow: 0 8px 16px 0 rgb(0, 206, 201,.4);
 }
 .role-former {
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 206, 201));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 206, 201));
-    background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 206, 201));
+	background: linear-gradient(to left,rgba(255,255,255,.0),rgb(0, 206, 201));
 }
 /* Downloads button properties */
 .button-con-container {
