@@ -140,7 +140,6 @@ a:hover {
 	width:6144px;
 	height:198px;
 	animation:wavebar-svg-object 11s cubic-bezier( 0.36,0.45,0.63,0.53) infinite;
-	-webkit-transform:translate3d(0,0,0);
 	transform:translate3d(0,0,0);
 }
 .wavebar-svg-object:nth-of-type(2) {
@@ -255,8 +254,6 @@ a:hover {
 	box-shadow:0 10px 16px 0 rgba(0,0,0,.05);
 }
 .menu-btn-close:hover {
-	-webkit-transform:scale(.9);
-	-ms-transform:scale(.9);
 	transform:scale(.9);
 	background:#f00 url(/img/icons/menu/close.png) no-repeat center !important;
 	background-size:cover !important;
@@ -279,8 +276,6 @@ a:hover {
 }
 .menu-btn-close:hover>.menu-tx1-tooltip {
 	display:block !important;
-	-webkit-transform:scale(1.1);
-	-ms-transform:scale(1.1);
 	transform:scale(1.1);
 }
 /* Menu bar properties */
@@ -1797,8 +1792,6 @@ a:hover {
 	cursor:default;
 }
 .search-con-author a:hover .search-img-author {
-	-webkit-transform:scale(1.05);
-	-ms-transform:scale(1.05);
 	transform:scale(1.05);
 }
 .search-img-author {
@@ -1924,8 +1917,6 @@ a:hover {
 	z-index:2;
 }
 .video-con-container:hover>.video-btn-play {
-	-webkit-transform:scale(1.2);
-	-ms-transform:scale(1.2);
 	transform:scale(1.2);
 }
 .video-img-thumbnail {
@@ -2001,8 +1992,6 @@ a:hover {
 	overflow:hidden;
 	z-index:1;
 	cursor:pointer;
-	-webkit-transform:scale(1.01);
-	-ms-transform:scale(1.01);
 	transform:scale(1.01);
 	border-radius:12px;
 }
@@ -2014,8 +2003,6 @@ a:hover {
 	width:200%;
 	height:200%;
 	opacity:0;
-	-webkit-transform:rotate(30deg);
-	-ms-transform:rotate(30deg);
 	transform:rotate(30deg);
 	background:rgba(255,255,255,0);
 	background:linear-gradient(to right,rgba(255,255,255,0.001) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%);
@@ -2033,8 +2020,6 @@ a:hover {
 	opacity:0;
 }
 .video-con-animate:hover+.video-img-thumbnail {
-	-webkit-transform:scale(1.01);
-	-ms-transform:scale(1.01);
 	transform:scale(1.01);
 }
 /* User properties */
@@ -2058,8 +2043,6 @@ a:hover {
 	animation-iteration-count:1
 }
 .user-con-content:hover .user-img-avatar {
-	-webkit-transform:scale(1.05);
-	-ms-transform:scale(1.05);
 	transform:scale(1.05);
 }
 .user-con-wrapper {
@@ -2824,8 +2807,6 @@ a:hover {
 	transition:.2s ease-in-out;
 }
 .footer-tx1-developer a:hover .footer-ico-developer {
-	-webkit-transform:scale(1.05);
-	-ms-transform:scale(1.05);
 	transform:scale(1.05);
 }
 .footer-table-out {
