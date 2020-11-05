@@ -2267,7 +2267,7 @@ a:hover {
 }
 .user-role-designer {
 	background: #0fbcf9;
-	box-shadow: .4;
+	box-shadow: 0 5px 16px 0 rgba(15, 188, 249, .4);
 }
 .user-role-ui {
 	background: #cf6a87;
