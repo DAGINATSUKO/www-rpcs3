@@ -2076,7 +2076,6 @@ a:hover {
 	-ms-transform:rotate(30deg);
 	transform:rotate(30deg);
 	background:rgba(255,255,255,0);
-	background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0.001)),color-stop(77%,rgba(255,255,255,0.14)),color-stop(92%,rgba(255,255,255,0.5)),to(rgba(255,255,255,0.0)));
 	background:linear-gradient(to right,rgba(255,255,255,0.001) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%);
 	-webkit-transition:all .7s ease-in-out;
 	-o-transition:all .7s ease-in-out;
@@ -2490,7 +2489,6 @@ a:hover {
 	padding-left:1%;
 	color:#0074e7;
 	border-radius:32px;
-	background:-webkit-gradient(linear,right top,left top,from(rgba(255,255,255,.0)),to(rgba(0,116,231,.1)));
 	background:linear-gradient(to left,rgba(255,255,255,.0),rgba(0,116,231,.1));
 }
 .binary-img-content {
