@@ -47,7 +47,6 @@
 	height: 16px;
 	line-height: 16px;
 	flex-shrink: 0;
-	-webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.08);
 	box-shadow: 0 2px 8px 0 rgba(0,0,0,.08);
 	font-weight: bold;
 	cursor: pointer;
@@ -96,7 +95,6 @@
 	height: 16px;
 	line-height: 16px;
 	flex-shrink: 0;
-	-webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.08);
 	box-shadow: 0 2px 8px 0 rgba(0,0,0,.08);
 	font-weight: bold;
 	cursor: pointer;
@@ -252,7 +250,6 @@ margin-bottom: 30px;
 	text-align: left;
 	color: #fff;
 	background: #fff;
-	-webkit-box-shadow: 0 10px 16px 0 rgba(0,116,231,.2);
 	box-shadow: 0 10px 16px 0 rgba(0,116,231,.2);
 	background: linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
 	border: solid 2px #0080ff;
@@ -266,7 +263,6 @@ margin-bottom: 30px;
 	border-color:#80bfff;
 	color:#fff;
 	background: linear-gradient(-135deg,#68b4ff 25%,#2090ff 100%);
-	-webkit-box-shadow: 0 10px 16px 0 rgba(0,116,231,.3);
 	box-shadow: 0 10px 16px 0 rgba(0,116,231,.3);
 }
 .search-btn-input input:focus {

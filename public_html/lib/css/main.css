@@ -233,7 +233,6 @@ a:hover {
 	top: 32px;
 	margin-top: -20px;
 	background: #fff;
-	-webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.1);
 	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.1);
 }
 .menu-btn-cookies:hover {
@@ -260,7 +259,6 @@ a:hover {
 	border-radius:100%;
 	background:#4e34c9 url(/img/icons/menu/close.png) no-repeat center;
 	background-size:cover !important;
-	-webkit-box-shadow:0 10px 16px 0 rgba(0,0,0,.05);
 	box-shadow:0 10px 16px 0 rgba(0,0,0,.05);
 }
 .menu-btn-close:hover {
@@ -436,7 +434,6 @@ a:hover {
 .mobile-menu-btn-select:hover {
 	color:#4e34c9;
 	background:#fff !important;
-	-webkit-box-shadow:10px 10px 32px 0 rgba(0,0,0,.1);
 	box-shadow:10px 10px 32px 0 rgba(0,0,0,.1);
 }
 .mobile-menu-con-scroll::-webkit-scrollbar {
@@ -514,7 +511,6 @@ a:hover {
 	display:none;
 	width: 222px;
 	height: 391px;
-	-webkit-box-shadow:0 0 80px 0 rgba(0,0,0,.2);
 	box-shadow:0 0 80px 0 rgba(0,0,0,.2);
 	border-radius: 10px;
 	border: solid 4px rgb(255, 255, 255);
@@ -561,7 +557,6 @@ a:hover {
 }
 .settings-menu-con-wrapper:hover {
 	background:#4e34c9;
-	-webkit-box-shadow:0 0 32px 0 rgba(76,91,215,.5);
 	box-shadow:0 0 32px 0 rgba(76,91,215,.5);
 }
 .settings-menu-con-wrapper:hover .settings-menu-btn-button {
@@ -693,7 +688,6 @@ a:hover {
 	display:none;
 	width: 228px;
 	height:261px;
-	-webkit-box-shadow:0 0 80px 0 rgba(0,0,0,.2);
 	box-shadow:0 0 80px 0 rgba(0,0,0,.2);
 	border-radius: 10px;
 	border: solid 4px rgb(255, 255, 255);
@@ -740,7 +734,6 @@ a:hover {
 }
 .support-con-wrapper:hover {
 	background:#4e34c9;
-	-webkit-box-shadow:0 0 32px 0 rgba(76,91,215,.5);
 	box-shadow:0 0 32px 0 rgba(76,91,215,.5);
 }
 .support-con-wrapper:hover .support-btn-button {
@@ -998,7 +991,6 @@ a:hover {
 	-webkit-animation-iteration-count:1;
 	background:#fff;
 	-webkit-overflow-scrolling:touch;
-	-webkit-box-shadow: 10px 0px 64px 1px rgba(0,0,0,.1);
 	box-shadow: 10px 0px 64px 1px rgba(0,0,0,.1);
 }
 .sidebar-con-anim::-webkit-scrollbar {
@@ -1406,7 +1398,6 @@ a:hover {
 	color:#fff;
 	border-radius:44px;
 	background:linear-gradient(-135deg,rgba(255,255,255,.1) 25%,rgba(255,255,255,0.4) 100%);
-	-webkit-box-shadow:0 10px 32px 0 rgba(0,0,0,0.05);
 	box-shadow:0 10px 32px 0 rgba(0,0,0,0.05);
 }
 .landing-btn-download:hover {
@@ -1506,7 +1497,6 @@ a:hover {
 	margin-left:100px;
 	margin-top:35px;
 	background: linear-gradient(-135deg,#6dbaa6 25%,#97ba6d 100%);
-	-webkit-box-shadow: 0 10px 32px 0 rgba(109, 186, 166, .4);
 	box-shadow: 0 10px 32px 0 rgba(109, 186, 166, .4);
 	cursor:pointer;
 	padding-left:10px;
@@ -1596,7 +1586,6 @@ a:hover {
 	margin-left:100px;
 	margin-top:35px;
 	background:linear-gradient(-135deg,#6587ff 25%,#90a9fd 100%);
-	-webkit-box-shadow:0 10px 32px 0 rgba(101,135,255,.6);
 	box-shadow:0 10px 32px 0 rgba(101,135,255,.6);
 	cursor:pointer;
 	padding-left:10px;
@@ -1675,7 +1664,6 @@ a:hover {
 	border-radius: 12px;
 	margin-left:100px;
 	margin-top:35px;
-	-webkit-box-shadow:0 10px 32px 0 rgba(249,104,84,.5);
 	box-shadow:0 10px 32px 0 rgba(249,104,84,.5);
 	cursor:pointer;
 	padding-left:10px;
@@ -1772,7 +1760,6 @@ a:hover {
 	height:50px;
 	margin:0 auto;
 	border-radius:50px;
-	-webkit-box-shadow:0 16px 32px 0 rgba(0,0,0,.1);
 	box-shadow:0 16px 32px 0 rgba(0,0,0,.1);
 	border:solid 2px #d9d9d9;
 	-webkit-transition: .1s ease-in-out;
@@ -1785,7 +1772,6 @@ a:hover {
 	border-style:solid;
 	border-color:#5ab9ff;
 	color:#5ab9ff;
-	-webkit-box-shadow:0 16px 32px 0 rgba(0,0,0,.1);
 	box-shadow:0 16px 32px 0 rgba(0,0,0,.1);
 }
 .search-inp-search input {
@@ -1873,7 +1859,6 @@ a:hover {
 	top:11px;
 	margin-left:4px;
 	margin-right:4px;
-	-webkit-box-shadow:10px 10px 32px 0 rgba(0,0,0,.2);
 	box-shadow:0 0 10px 0 rgba(0,0,0,.2);
 	border:solid 2px #fff;
 	background:url(/img/users/avatars/ani.png) no-repeat center;
@@ -1914,7 +1899,6 @@ a:hover {
 	background:#000;
 	border-radius:12px;
 	overflow:hidden;
-	-webkit-box-shadow:0 0 32px 0 rgba(0,0,0,.4);
 	box-shadow:0 0 64px 0 rgba(0,0,0,.4);
 }
 .video-img-viewport {
@@ -1988,7 +1972,6 @@ a:hover {
 	left:50%;
 	top:50%;
 	margin:-304px -540px;
-	-webkit-box-shadow:0 0 64px 0 rgba(0,0,0,.4);
 	box-shadow:0 0 64px 0 rgba(0,0,0,.4);
 	border-radius:12px;
 	-webkit-transition:all .2s ease-in-out;
@@ -2214,7 +2197,6 @@ a:hover {
 	transition:all .2s ease-in-out;
 	border-style:none;
 	border-radius:100%;
-	-webkit-box-shadow: 0 16px 16px 0 rgba(0,0,0,.15);
 	box-shadow: 0 16px 16px 0 rgba(0,0,0,.15);
 	border:solid 4px #fff;
 }
@@ -2230,7 +2212,6 @@ a:hover {
 	-o-transition:.2s ease-in-out;
 	transition:.2s ease-in-out;
 	border:solid 4px #fff;
-	-webkit-box-shadow:10px 10px 32px 0 rgba(0,0,0,.2);
 	box-shadow:10px 10px 32px 0 rgba(0,0,0,.2);
 	border-radius:6px;
 }
@@ -2250,7 +2231,6 @@ a:hover {
 }
 .user-role-lead {
 	background: #0984e3;
-	-webkit-box-shadow: 0 8px 16px 0 rgb(9, 132, 227,.4);
 	box-shadow: 0 8px 16px 0 rgb(9, 132, 227,.4);
 }
 .role-lead {
@@ -2260,7 +2240,6 @@ a:hover {
 }
 .user-role-graphics {
 	background: #fd79a8;
-	-webkit-box-shadow: 0 8px 16px 0 rgb(253, 121, 168,.4);
 	box-shadow: 0 8px 16px 0 rgb(253, 121, 168,.4);
 }
 .role-graphics {
@@ -2270,7 +2249,6 @@ a:hover {
 }
 .user-role-manager {
 	background: #FEA47F;
-	-webkit-box-shadow: 0 8px 16px 0 rgba(253, 163, 127, .4);
 	box-shadow: 0 8px 16px 0 rgba(253, 163, 127, .4);
 }
 .role-manager {
@@ -2280,7 +2258,6 @@ a:hover {
 }
 .user-role-web {
 	background: #6c5ce7;
-	-webkit-box-shadow: 0 5px 16px 0 rgb(108, 92, 231,.4);
 	box-shadow: 0 5px 16px 0 rgb(108, 92, 231,.4);
 }
 .role-web {
@@ -2290,12 +2267,10 @@ a:hover {
 }
 .user-role-designer {
 	background: #0fbcf9;
-	-webkit-box-shadow: 0 5px 16px 0 rgba(15, 188, 249, .4);
 	box-shadow: .4;
 }
 .user-role-ui {
 	background: #cf6a87;
-	-webkit-box-shadow: 0 8px 16px 0 rgb(207, 106, 135,.4);
 	box-shadow: 0 8px 16px 0 rgb(207, 106, 135,.4);
 }
 .role-ui {
@@ -2305,12 +2280,10 @@ a:hover {
 }
 .user-role-firmware {
 	background: #9b59b6;
-	-webkit-box-shadow: 0 8px 16px 0 rgba(155, 89, 182, .4);
 	box-shadow: 0 8px 16px 0 rgba(155, 89, 182, .4);
 }
 .user-role-developer {
 	background: #00b894;
-	-webkit-box-shadow: 0 8px 16px 0 rgb(0, 184, 148,.4);
 	box-shadow: 0 8px 16px 0 rgb(0, 184, 148,.4);
 }
 .role-developer {
@@ -2320,7 +2293,6 @@ a:hover {
 }
 .user-role-contributor {
 	background:#ff8c67;
-	-webkit-box-shadow: 0 8px 16px 0 rgba(230,131,100,.4);
 	box-shadow: 0 8px 16px 0 rgba(230,131,100,.4);
 }
 .role-contributor {
@@ -2330,7 +2302,6 @@ a:hover {
 }
 .user-role-editor {
 	background: #4a69bd;
-	-webkit-box-shadow: 0 8px 16px 0 rgb(74, 105, 189,.4);
 	box-shadow: 0 8px 16px 0 rgb(74, 105, 189,.4);
 }
 .role-editor {
@@ -2340,7 +2311,6 @@ a:hover {
 }
 .user-role-wiki {
 	background: #78e08f;
-	-webkit-box-shadow: 0 5px 16px 0 rgb(120, 224, 143,.4);
 	box-shadow: 0 5px 16px 0 rgb(120, 224, 143,.4);
 }
 .role-wiki {
@@ -2350,17 +2320,14 @@ a:hover {
 }
 .user-role-server {
 	background: #38ada9;
-	-webkit-box-shadow: 0 8px 16px 0 rgb(56, 173, 169,.4);
 	box-shadow: 0 8px 16px 0 rgb(56, 173, 169,.4);
 }
 .user-role-debugger {
 	background-color:#f1c40f;
-	-webkit-box-shadow:0 5px 16px 0 rgba(241,196,15,.4);
 	box-shadow:0 5px 16px 0 rgba(241,196,15,.4)
 }
 .user-role-founder {
 	background:#9079ff;
-	-webkit-box-shadow: 0 8px 16px 0 rgba(76,91,215,.4);
 	box-shadow: 0 8px 16px 0 rgba(76,91,215,.4);
 }
 .role-founder {
@@ -2370,7 +2337,6 @@ a:hover {
 }
 .user-role-former {
 	background: #00cec9;
-	-webkit-box-shadow: 0 8px 16px 0 rgb(0, 206, 201,.4);
 	box-shadow: 0 8px 16px 0 rgb(0, 206, 201,.4);
 }
 .role-former {
@@ -2392,7 +2358,6 @@ a:hover {
 	border:solid 2px #0080ff!important;
 	border-radius: 12px;
 	background:linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
-	-webkit-box-shadow:10px 10px 32px 0 rgba(0,116,231,.2);
 	box-shadow:10px 10px 32px 0 rgba(0,116,231,.2);
 }
 .button-con-wrapper:hover {
@@ -2461,7 +2426,6 @@ a:hover {
 	height:auto;
 	min-height:72px;
 	border-radius: 12px;
-	-webkit-box-shadow:10px 10px 32px 0 rgba(0,0,0,.1);
 	box-shadow:10px 10px 32px 0 rgba(0,0,0,.1);
 }
 .label-ico-container {
@@ -2578,7 +2542,6 @@ a:hover {
 	color:inherit;
 }
 .reqs-head {
-	-webkit-box-shadow: 0px 16px 32px 0 rgba(0,0,0,.05);
 	box-shadow: 0px 16px 32px 0 rgba(0,0,0,.05);
 	margin-bottom:20px;
 }
@@ -2821,7 +2784,6 @@ a:hover {
 	top: 50%;
 	margin-top: -23px;
 	position: absolute;
-	-webkit-box-shadow: 0px 16px 32px 0 rgba(0,0,0,.1);
 	box-shadow: 0px 16px 32px 0 rgba(0,0,0,.1);
 }
 .list-tx2-description {
@@ -2965,7 +2927,6 @@ a:hover {
 	background:url(/img/users/avatars/daginatsuko.png) no-repeat center;
 	background-size:cover;
 	border:solid 2px #fff;
-	-webkit-box-shadow:10px 10px 32px 0 rgba(0,0,0,.2);
 	box-shadow:0 0 10px 0 rgba(0,0,0,.2);
 	-webkit-transition:.2s ease-in-out;
 	-o-transition:.2s ease-in-out;
@@ -3062,7 +3023,6 @@ a:hover {
 	background:linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
 	cursor:pointer;
 	color:#fff;
-	-webkit-box-shadow:10px 10px 32px 0 rgba(0,116,231,.2);
 	box-shadow:10px 10px 32px 0 rgba(0,116,231,.2);
 }
 .button-enabled:hover {
@@ -3338,7 +3298,6 @@ a:hover {
 }
 .object-focused {
 	border:solid 2px #0074e7 !important;
-	-webkit-box-shadow:0px 16px 32px 0 rgba(0, 116, 231, .2) !important;
 	box-shadow:0px 16px 32px 0 rgba(0, 116, 231, .2) !important;
 	-webkit-transition: .1s ease-in-out;
     -o-transition: .1s ease-in-out;
