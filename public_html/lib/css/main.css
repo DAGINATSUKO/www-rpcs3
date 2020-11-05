@@ -825,7 +825,7 @@ a:hover {
 	width:100%;
 	height:100%;
 	position: absolute;
-	background: -webkit-linear-gradient(-135deg,#87005d 25%,#ff4040 100%);
+	background: linear-gradient(-135deg,#87005d 25%,#ff4040 100%);
 	display: none;
 }
 .theme-btn-close {
@@ -1090,13 +1090,13 @@ a:hover {
 	width:100%;
 	height:420px;
 	background:-o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
-	background:-webkit-linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
+	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .banner-con-backdrop {
 	position:absolute;
 	width:100%;
 	height:100%;
-	background:-webkit-linear-gradient(-135deg,rgba(0,42,135,1) 25%,rgba(147,64,255,1) 100%);
+	background:linear-gradient(-135deg,rgba(0,42,135,1) 25%,rgba(147,64,255,1) 100%);
 }
 .banner-con-title {
 	position:absolute;
@@ -1214,7 +1214,7 @@ a:hover {
 	width:100%;
 	height:100%;
 	background:-o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
-	background:-webkit-linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
+	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .content-btn-left {
 	position:absolute;
@@ -1331,7 +1331,7 @@ a:hover {
 	min-height:600px;
 	max-height:1080px;
 	background:-o-linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
-	background:-webkit-linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
+	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .landing-con-patreon {
 	overflow:hidden;
@@ -1405,12 +1405,12 @@ a:hover {
 	text-align:center;
 	color:#fff;
 	border-radius:44px;
-	background:-webkit-linear-gradient(-135deg,rgba(255,255,255,.1) 25%,rgba(255,255,255,0.4) 100%);
+	background:linear-gradient(-135deg,rgba(255,255,255,.1) 25%,rgba(255,255,255,0.4) 100%);
 	-webkit-box-shadow:0 10px 32px 0 rgba(0,0,0,0.05);
 	box-shadow:0 10px 32px 0 rgba(0,0,0,0.05);
 }
 .landing-btn-download:hover {
-	background:-webkit-linear-gradient(-135deg,rgba(255,255,255,.2) 25%,rgba(255,255,255,0.5) 100%);
+	background:linear-gradient(-135deg,rgba(255,255,255,.2) 25%,rgba(255,255,255,0.5) 100%);
 }
 .landing-ico-logo {
 	display:none;
@@ -1505,7 +1505,7 @@ a:hover {
 	border-radius: 12px;
 	margin-left:100px;
 	margin-top:35px;
-	background: -webkit-linear-gradient(-135deg,#6dbaa6 25%,#97ba6d 100%);
+	background: linear-gradient(-135deg,#6dbaa6 25%,#97ba6d 100%);
 	-webkit-box-shadow: 0 10px 32px 0 rgba(109, 186, 166, .4);
 	box-shadow: 0 10px 32px 0 rgba(109, 186, 166, .4);
 	cursor:pointer;
@@ -1513,7 +1513,7 @@ a:hover {
 	padding-right:10px;
 }
 .github-btn-button:hover {
-	background:-webkit-linear-gradient(-135deg,#83dac4 25%,#b4dc84 100%);
+	background:linear-gradient(-135deg,#83dac4 25%,#b4dc84 100%);
 }
 .github-ico-button {
 	background:url('/img/icons/buttons/github-h.png') no-repeat center;
@@ -1595,7 +1595,7 @@ a:hover {
 	border-radius: 12px;
 	margin-left:100px;
 	margin-top:35px;
-	background:-webkit-linear-gradient(-135deg,#6587ff 25%,#90a9fd 100%);
+	background:linear-gradient(-135deg,#6587ff 25%,#90a9fd 100%);
 	-webkit-box-shadow:0 10px 32px 0 rgba(101,135,255,.6);
 	box-shadow:0 10px 32px 0 rgba(101,135,255,.6);
 	cursor:pointer;
@@ -1603,7 +1603,7 @@ a:hover {
 	padding-right:10px;
 }
 .discord-btn-button:hover {
-	background:-webkit-linear-gradient(-135deg,#7694ff 25%,#a2b7ff 100%);
+	background:linear-gradient(-135deg,#7694ff 25%,#a2b7ff 100%);
 }
 .discord-ico-button {
 	background:url('/img/icons/buttons/discord-h.png') no-repeat center;
@@ -1671,7 +1671,7 @@ a:hover {
 .patreon-btn-button {
 	width:188px;
 	height:40px;
-	background:-webkit-linear-gradient(-135deg,#f96854 25%,#f99b54 100%);
+	background:linear-gradient(-135deg,#f96854 25%,#f99b54 100%);
 	border-radius: 12px;
 	margin-left:100px;
 	margin-top:35px;
@@ -1682,7 +1682,7 @@ a:hover {
 	padding-right:10px;
 }
 .patreon-btn-button:hover {
-	background:-webkit-linear-gradient(-135deg,#ff9182 25%,#ffb175 100%);
+	background:linear-gradient(-135deg,#ff9182 25%,#ffb175 100%);
 }
 .patreon-ico-button {
 	background:url('/img/icons/buttons/patreon.png') no-repeat center;
@@ -2391,14 +2391,14 @@ a:hover {
 	min-height:72px;
 	border:solid 2px #0080ff!important;
 	border-radius: 12px;
-	background:-webkit-linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
+	background:linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
 	-webkit-box-shadow:10px 10px 32px 0 rgba(0,116,231,.2);
 	box-shadow:10px 10px 32px 0 rgba(0,116,231,.2);
 }
 .button-con-wrapper:hover {
 	padding-bottom:0;
 	border:solid 2px #80bfff!important;
-	background:-webkit-linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%) !important;
+	background:linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%) !important;
 }
 .button-ico-container {
 	position:relative;
@@ -2851,7 +2851,7 @@ a:hover {
 	width:100%;
 	height:auto;
 	background:-o-linear-gradient(left,rgba(166,0,217,.8),rgba(0,196,255,.8));
-	background:-webkit-linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
+	background:linear-gradient(-135deg,#002a87 25%,#9340ff 100%);
 }
 .footer-con-header {
 	position:relative;
@@ -3059,7 +3059,7 @@ a:hover {
 .button-enabled {
 	border:solid 2px #0080ff!important;
 	border-radius: 12px;
-	background:-webkit-linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
+	background:linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
 	cursor:pointer;
 	color:#fff;
 	-webkit-box-shadow:10px 10px 32px 0 rgba(0,116,231,.2);

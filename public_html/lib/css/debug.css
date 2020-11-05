@@ -254,7 +254,7 @@ margin-bottom: 30px;
 	background: #fff;
 	-webkit-box-shadow: 0 10px 16px 0 rgba(0,116,231,.2);
 	box-shadow: 0 10px 16px 0 rgba(0,116,231,.2);
-	background: -webkit-linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
+	background: linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
 	border: solid 2px #0080ff;
 	border-radius: 6px;
 	padding-left: 20px;
@@ -265,16 +265,16 @@ margin-bottom: 30px;
 	border-style:solid;
 	border-color:#80bfff;
 	color:#fff;
-	background: -webkit-linear-gradient(-135deg,#68b4ff 25%,#2090ff 100%);
+	background: linear-gradient(-135deg,#68b4ff 25%,#2090ff 100%);
 	-webkit-box-shadow: 0 10px 16px 0 rgba(0,116,231,.3);
-    box-shadow: 0 10px 16px 0 rgba(0,116,231,.3);
+	box-shadow: 0 10px 16px 0 rgba(0,116,231,.3);
 }
 .search-btn-input input:focus {
 	cursor:text;
 	border-width:2px;
 	border-style:solid;
 	border-color:#80bfff;
-	background: -webkit-linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
+	background: linear-gradient(-135deg,#49a4ff 25%,#0074e7 100%);
 	color:#fff;
 }
 .search-btn-input::-webkit-input-placeholder {
@@ -306,12 +306,3 @@ margin-bottom: 30px;
 .search-btn-input input:-ms-input-placeholder {
 	color:inherit;
 }
-
-
-
-
-
-
-
-
-

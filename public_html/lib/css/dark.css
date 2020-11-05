@@ -30,7 +30,7 @@
 	color:#fff!important
 }
 .dm-header {
-	background:-webkit-linear-gradient(-135deg,rgba(0,18,59,.7) 25%,rgba(105,0,243,.7) 100%)!important
+	background:linear-gradient(-135deg,rgba(0,18,59,.7) 25%,rgba(105,0,243,.7) 100%)!important
 }
 .dm-discord {
 	background:#303d6b!important
