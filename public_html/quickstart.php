@@ -248,7 +248,7 @@
 			</div>
 			<div class="button-con-container">
 				<div class='reqs-con-group'>
-					<a href='https://www.playstation.com/en-us/support/system-updates/ps3' target="_blank">
+					<a href='https://www.playstation.com/en-us/support/hardware/ps3/system-software/' target="_blank">
 					<div class="reqs-con-container button-left button-enabled darkmode-panel">
 						<div class='button-ico-container' style="background: url('/img/icons/list/ps-h.png') no-repeat center;">
 						</div>
@@ -297,7 +297,7 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/system-updates/ps3/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <span class="highlight darkmode-highlight">File &gt; Install Firmware.</span><br>
+							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/hardware/ps3/system-software/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <span class="highlight darkmode-highlight">File &gt; Install Firmware.</span><br>
 							<br>
 							 By default, firmware modules are loaded automatically based on the PlayStation 3 title that is loaded. You can still override automatic module loading and choose which firmware modules you want to use manually. This is not recommended.
 						</p>
