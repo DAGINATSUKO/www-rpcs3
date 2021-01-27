@@ -1,98 +1,98 @@
 @charset 'utf-8';
 @media screen and (max-device-width:480px) {
 	body {
-		-webkit-text-size-adjust:none;
+		-webkit-text-size-adjust: none;
 	}
 }
 @media screen and (max-width:800px) {
 	.menu-btn-select {
-		display:none;
+		display: none;
 	}
 }
 @media screen and (max-width:800px) {
 	.footer-con-sources {
-		display:none;
+		display: none;
 	}
 }
 @media screen and (max-width:800px) {
 	.menu-con-logo {
-		text-align:center;
-		pointer-events:none;
+		text-align: center;
+		pointer-events: none;
 	}
 }
 @media screen and (max-width:800px) {
 	.mobile-menu-btn-open {
-		display:block;
+		display: block;
 	}
 }
 @media screen and (max-width:800px) {
 	.footer-tx1-developer {
-		display:none;
+		display: none;
 	}
 }
 @media screen and (max-width:1260px) {
 	.override-show {
-		display:block;
+		display: block;
 	}
 }
 @media screen and (max-width:1260px) {
 	.override-hide {
-		display:none;
+		display: none;
 	}
 }
 @media screen and (max-width:1260px) {
 	.override-promote {
-		left:50%!important;
-		display:block!important;
-		width:372px !important;
-		margin-left:-186px!important;
+		left: 50%!important;
+		display: block!important;
+		width: 372px !important;
+		margin-left: -186px!important;
 	}
 }
 @media screen and (max-height:780px) {
 	.video-con-viewport {
-		-webkit-transform:scale(.70);
-		-ms-transform:scale(.70);
-		transform:scale(.70);
+		-webkit-transform: scale(.70);
+		-ms-transform: scale(.70);
+		transform: scale(.70);
 	}
 }
 @media screen and (max-height:600px) {
 	.video-con-viewport {
-		-webkit-transform:scale(.60);
-		-ms-transform:scale(.60);
-		transform:scale(.60);
+		-webkit-transform: scale(.60);
+		-ms-transform: scale(.60);
+		transform: scale(.60);
 	}
 }
 @media screen and (max-height:400px) {
 	.video-con-viewport {
-		-webkit-transform:scale(.50);
-		-ms-transform:scale(.50);
-		transform:scale(.50);
+		-webkit-transform: scale(.50);
+		-ms-transform: scale(.50);
+		transform: scale(.50);
 	}
 }
 @media screen and (max-width:1240px) {
 	.video-con-viewport {
-		-webkit-transform:scale(.80);
-		-ms-transform:scale(.80);
-		transform:scale(.80);
+		-webkit-transform: scale(.80);
+		-ms-transform: scale(.80);
+		transform: scale(.80);
 	}
 }
 @media screen and (max-width:1010px) {
 	.video-con-viewport {
-		-webkit-transform:scale(.60);
-		-ms-transform:scale(.60);
-		transform:scale(.60);
+		-webkit-transform: scale(.60);
+		-ms-transform: scale(.60);
+		transform: scale(.60);
 	}
 }
 @media screen and (max-width:760px) {
 	.video-con-viewport {
-		-webkit-transform:scale(.45);
-		-ms-transform:scale(.45);
-		transform:scale(.45);
+		-webkit-transform: scale(.45);
+		-ms-transform: scale(.45);
+		transform: scale(.45);
 	}
 }
 @media screen and (max-width:750px) {
 	.download-define-build {
-		display:none;
+		display: none;
 	}
 }
 @media screen and (max-width:800px) {
@@ -100,10 +100,10 @@
 		height: 90%;
 	}
 	.landing-ico-logo {
-		display:block !important;
+		display: block !important;
 	}
 	.landing-tx1-heading {
-		font-size:50px;
+		font-size: 50px;
 	}
 	.landing-btn-download {
 		margin-left: 26px;
@@ -113,106 +113,96 @@
 		transform: scale(1.4);
 	}
 	.landing-tx1-download {
-		display:none;
+		display: none;
 	}
 	.wavebar-con-container-master {
 		height: 90%;
 	}
 	.content-expand {
-		width:100%;
+		width: 100%;
 	}
 	.content-remove {
-		display:none;
+		display: none;
 	}
 	.img-row-3 {
-		flex-basis:450px;
+		flex-basis: 450px;
 	}
 	.img-row-4 {
-		flex-basis:250px;
+		flex-basis: 250px;
 	}
 	.img-col-2, .img-col-3 {
-		flex-basis:100%;
+		flex-basis: 100%;
 	}
 }
 @media screen and (max-width:1395px) {
 	.user-img-flag {
-		display:none!important;
+		display: none!important;
 	}
 }
 @media screen and (max-width:1090px) {
 	.video-ico-service {
-		display:none!important;
+		display: none!important;
 	}
 }
 @media screen and (max-width:800px) {
-	
 	#object-particles {
-		display:none;
+		display: none;
 	}
 	.revision-tx1-container {
-		display:none;
+		display: none;
 	}
 	.menu-con-container {
 		height: 100px;
-	}	
-	
+	}
 	.menu-btn-darkmode {
 		height: 100px;
 	}
-	
 	.menu-ico-logo {
 		height: 100px;
 	}
-	
 	.mobile-menu-btn-open {
 		height: 100px;
-	}	
+	}
 	.support-ico-menu {
 		height: 100px;
 	}
-	
 	.support-con-outer {
 		display: none;
 		top: 100px;
 		left: -128px;
 	}
-	
 	.content-btn-left {
 		left: 30px;
 		background: rgba(255, 255, 255, .8) url(/img/icons/arrows/left.png) no-repeat center !important;
 		background-size: 50px !important;
 		border-radius: 12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px);
+		backdrop-filter: blur(6px);
+		-webkit-backdrop-filter: blur(6px);
 	}
-
 	.content-btn-right {
 		right: 30px;
 		background: rgba(255, 255, 255, .8) url(/img/icons/arrows/right.png) no-repeat center !important;
 		background-size: 50px !important;
 		border-radius: 12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px);
+		backdrop-filter: blur(6px);
+		-webkit-backdrop-filter: blur(6px);
 	}
-
 	.content-btn-left:hover {
 		left: 30px;
 		background: rgba(255, 255, 255, .8) url(/img/icons/arrows/left-a.png) no-repeat center !important;
 		background-size: 50px !important;
 		border-radius: 12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px);
+		backdrop-filter: blur(6px);
+		-webkit-backdrop-filter: blur(6px);
 	}
-
 	.content-btn-right:hover {
 		right: 30px;
 		background: rgba(255, 255, 255, .8) url(/img/icons/arrows/right-a.png) no-repeat center !important;
 		background-size: 50px !important;
 		border-radius: 12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px);
+		backdrop-filter: blur(6px);
+		-webkit-backdrop-filter: blur(6px);
 	}
-	
 	.video-img-overlay {
 		background-size: contain !Important;
 		-webkit-transform: scale(1.002);
@@ -231,37 +221,35 @@
 		margin-top: -304px;
 		margin-left: unset;
 	}
-	
 	.video-btn-play {
 		height: 100px;
 		width: 100px;
 		margin: -50px;
 	}
 	.dm-gradient {
-   	 	background: url(/img/graphics/landing/gradient-dark.png) no-repeat center bottom;
-    	background-size: contain;
+		background: url(/img/graphics/landing/gradient-dark.png) no-repeat center bottom;
+		background-size: contain;
 	}
 	.landing-con-search {
-		display:none;
+		display: none;
 	}
-	.video-tx1-heading {
-	}
+	.video-tx1-heading {}
 	.landing-tx2-heading {
 		font-size: 22px;
 		line-height: 50px;
 	}
 	.github-con-logo {
-		display:none !important;
+		display: none !important;
 	}
 	.github-con-mantra {
-		width:100% !important;
+		width: 100% !important;
 	}
 	.github-tx1-mantra {
-		padding-left:0px !important;
+		padding-left: 0px !important;
 		text-align: center !important;
 	}
 	.github-tx2-mantra {
-		padding-left:0px !important;
+		padding-left: 0px !important;
 		font-size: 22px;
 		line-height: 50px;
 	}
@@ -274,17 +262,17 @@
 		transform: scale(1.4);
 	}
 	.patreon-con-logo {
-		display:none !important;
+		display: none !important;
 	}
 	.patreon-con-mantra {
-		width:100% !important;
+		width: 100% !important;
 	}
 	.patreon-tx1-mantra {
-		padding-left:0px !important;
+		padding-left: 0px !important;
 		text-align: center !important;
 	}
 	.patreon-tx2-mantra {
-		padding-left:0px !important;
+		padding-left: 0px !important;
 		font-size: 22px;
 		line-height: 50px;
 	}
@@ -297,17 +285,17 @@
 		transform: scale(1.4);
 	}
 	.discord-con-logo {
-		display:none !important;
+		display: none !important;
 	}
 	.discord-con-mantra {
-		width:100% !important;
+		width: 100% !important;
 	}
 	.discord-tx1-mantra {
-		padding-left:0px !important;
+		padding-left: 0px !important;
 		text-align: center !important;
 	}
 	.discord-tx2-mantra {
-		padding-left:0px !important;
+		padding-left: 0px !important;
 		font-size: 22px;
 		line-height: 50px;
 	}
@@ -323,7 +311,7 @@
 		width: 100%;
 		text-align: center;
 		font-size: 20px;
-	}	
+	}
 	.user-img-avatar {
 		background: url(/img/users/avatars/nekotekina.png) no-repeat center;
 		background-size: cover;
@@ -335,9 +323,8 @@
 		padding-bottom: unset;
 	}
 	.user-con-role {
-		display:none;
+		display: none;
 	}
-
 	.sidebar-btn-open {
 		height: 100px;
 	}
@@ -373,36 +360,22 @@
 		line-height: 100px !important;
 	}
 }
-
 @media screen and (max-width:1140px) {
-		.reqs-con-container {
-			display: none;
+	.reqs-con-container {
+		display: none;
 	}
 }
-
 @media screen and (min-width:1140px) {
-		.reqs-con-container-mobile {
-			display: none;
+	.reqs-con-container-mobile {
+		display: none;
 	}
 }
-
-/* Compatibility page scaling */ 
+/* Compatibility page scaling */
 
 @media screen and (max-width:800px) {
 	.divTableCell, .divTableHead {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
- }
+	}
 }
-
-
-
-
-
-
-
-
-
-
-

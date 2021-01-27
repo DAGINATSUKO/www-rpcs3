@@ -1,88 +1,88 @@
 @charset "utf-8";
 .dm-gradient {
-	background:url(/img/graphics/landing/gradient-dark.png) no-repeat center top !important;
-	background-size:contain !important;
+	background: url(/img/graphics/landing/gradient-dark.png) no-repeat center top !important;
+	background-size: contain !important;
 }
 .dm-bg {
-	background:#111525!important
+	background: #111525!important
 }
 .dm-bg-2 {
-	background:#191f36!important
+	background: #191f36!important
 }
 .dm-invert {
-	-webkit-filter:invert(100%)!important;
-	filter:invert(100%)!important
+	-webkit-filter: invert(100%)!important;
+	filter: invert(100%)!important
 }
 .dm-default {
-	background:#111525!important
+	background: #111525!important
 }
 .dm-search-border {
-	border:solid 2px #293358!important
+	border: solid 2px #293358!important
 }
 .dm-search-bg {
-	background:#111525!important
+	background: #111525!important
 }
 .dm-support-outer {
 	border: 4px solid #293358!important;
 	background: #191f36 !important;
 }
 .dm-support-btn {
-	color:#fff!important
+	color: #fff!important
 }
 .dm-header {
-	background:linear-gradient(-135deg,rgba(0,18,59,.7) 25%,rgba(105,0,243,.7) 100%)!important
+	background: linear-gradient(-135deg, rgba(0, 18, 59, .7) 25%, rgba(105, 0, 243, .7) 100%)!important
 }
 .dm-discord {
-	background:#303d6b!important
+	background: #303d6b!important
 }
 .dm-highlight {
-	color:#2dbc4e!important;
-	background:rgba(40,167,69,.2)
+	color: #2dbc4e!important;
+	background: rgba(40, 167, 69, .2)
 }
 .dm-txt {
-	color:#fff!important
+	color: #fff!important
 }
 .dm-udl {
-	border-bottom:1px solid #191f36!important
+	border-bottom: 1px solid #191f36!important
 }
 .dm-icon {
-	opacity:1!important;
-	background:url(/img/icons/menu/darkmode-on.png) no-repeat center!important;
-	background-size:20px!important
+	opacity: 1!important;
+	background: url(/img/icons/menu/darkmode-on.png) no-repeat center!important;
+	background-size: 20px!important
 }
 .dm-arrow-left {
-	opacity:1!important;
-	background:url(/img/icons/arrows/left-h.png) no-repeat center!important;
-	background-size:64px!important
+	opacity: 1!important;
+	background: url(/img/icons/arrows/left-h.png) no-repeat center!important;
+	background-size: 64px!important
 }
 .dm-arrow-right {
-	opacity:1!important;
-	background:url(/img/icons/arrows/right-h.png) no-repeat center!important;
-	background-size:64px!important
+	opacity: 1!important;
+	background: url(/img/icons/arrows/right-h.png) no-repeat center!important;
+	background-size: 64px!important
 }
 .dm-avatar {
-	border:solid 4px #1d233f !important;
+	border: solid 4px #1d233f !important;
 }
 .dm-flag {
-	border:solid 4px #1d233f!important
+	border: solid 4px #1d233f!important
 }
 .dm-buttons-a {
-	background:#252d68!important
+	background: #252d68!important
 }
 .dm-buttons-a:hover {
-	background:#2c357b!important
+	background: #2c357b!important
 }
 .dm-buttons-b {
-	color:#fff!important;
-	background:rgba(255,255,255,.1)!important
+	color: #fff!important;
+	background: rgba(255, 255, 255, .1)!important
 }
 .dm-buttons-b:hover {
-	background:rgba(255,255,255,.2)!important
+	background: rgba(255, 255, 255, .2)!important
 }
 .dm-panel {
 	background: #111525 !important;
 }
-.dm-reqs-head{
+.dm-reqs-head {
 	background: #191f36!important;
 }
 .dm-reqs-left:hover {
@@ -92,46 +92,45 @@
 	background: rgba(25, 31, 54, .4)!important;
 }
 .dm-navsidebar-title {
-	background:#252d68!important;
-	color:#fff
+	background: #252d68!important;
+	color: #fff
 }
 .dm-navsidebar-txt {
-	color:#fff!important
+	color: #fff!important
 }
 .dm-block-search {
-	border-bottom:1px solid #111525!important;
-	background:#111525
+	border-bottom: 1px solid #111525!important;
+	background: #111525
 }
 .dm-blog-h2 {
-	color:#fff!important;
-	border-bottom:solid 1px rgba(255,255,255,.06)!important
+	color: #fff!important;
+	border-bottom: solid 1px rgba(255, 255, 255, .06)!important
 }
 .dm-blog-footer {
-	border:solid 1px rgba(255,255,255,.06)!important;
-	background:#111525!important
+	border: solid 1px rgba(255, 255, 255, .06)!important;
+	background: #111525!important
 }
 .dm-blog-sidebar {
-	color:#fff!important
+	color: #fff!important
 }
-
 .dm-compat-menu {
-	background:#191f36;
-	color:#fff !Important;
+	background: #191f36;
+	color: #fff !Important;
 }
 .dm-compat-header-left {
-	background:#191f36!important;
+	background: #191f36 !important;
 	border-color: transparent !important;
 	color: #596282 !important;
 }
 .dm-compat-criteria {
-	background:#111525!important;
+	background: #111525!important;
 	color: #fff !important;
 }
 .dm-compat-status-text {
-	color:#fff!important
+	color: #fff!important
 }
 .dm-compat-searchbox {
-	background:#111525!important;
+	background: #111525!important;
 }
 .dm-compat-status {
 	border-color: rgba(25, 31, 54, .4)!important;
@@ -140,7 +139,7 @@
 	background: #191f36 !important;
 }
 .dm-compat-con-pages {
-	background:#191f36!important;
+	background: #191f36!important;
 	color: #fff !important;
 }
 .dm-compat-con-pages-a {
@@ -149,7 +148,7 @@
 	color: #fff !important;
 }
 .dm-compat-footer {
-	background:#191f36!important
+	background: #191f36!important
 }
 .dm-compat-author {
 	background: #191f36 !important

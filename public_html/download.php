@@ -206,7 +206,7 @@ $build = Build::get_latest();
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 For BSD users, RPCS3 supports active FreeBSD 12.1 and FreeBSD 11.3 production versions.
+							 For BSD users, RPCS3 supports active FreeBSD 13 and FreeBSD 12 versions.
 							 <br>
 							 <br>
 							 <b>Install as a package </b><span class="highlight darkmode-highlight">pkg install rpcs3</span>

@@ -26,17 +26,17 @@
 <?php
 	preloadVideo(
 	'1',
-	'p_gvO2jBWwI',
+	'8FTQgFT6Znw',
 	'1'
 	);
 	preloadVideo(
 	'2',
-	'40AwTgEPpjc',
+	'MhLteF_xVi0',
 	'2'
 	);
 	preloadVideo(
 	'3',
-	'4eCdVQaC1Js',
+	'p_gvO2jBWwI',
 	'3'
 	);
 ?>
