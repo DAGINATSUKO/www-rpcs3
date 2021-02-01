@@ -592,7 +592,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>AND R9 3950X (3.8GHz)</span>
+										 <span>AMD R9 3950X (3.8GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -1531,45 +1531,6 @@
 								<span>
 								Jarves has been around since 2014 doing some contributions from time-to-time. Between various contributions, he has deployed proper .mself and .sdat decryption on the fly which has allowed many games to be further emulated and implemented DualShock 4 native support. </span>
 							</div>
-							<div class="user-con-specsheet">
-								<div class="user-con-specbox">
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>Desktop</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>AMD R7 1700X</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>Radeon Vega 56</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>32GB DDR4 (3200MHz)</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>Windows</span>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
@@ -1701,45 +1662,6 @@
 							<div class='user-tx3-content darkmode-txt'>
 								<span>
 								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-							</div>
-							<div class="user-con-specsheet">
-								<div class="user-con-specbox">
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>Desktop</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>Intel i7-9900K (5.1GHz)</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>NVIDIA RTX 2080Ti</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>32GB DDR4 (3600MHz)</span>
-										</div>
-									</div>
-									<div class="specbox-con-part darkmode-invert">
-										<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
-										</div>
-										<div class="specbox-tx1-part">
-											<span>Windows</span>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
