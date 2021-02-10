@@ -53,7 +53,7 @@
 			</div>
 			<div class='reqs-con-container'>
 				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left reqs-head" style="background:#2ed57a; color:#fff;">
+					<div class="reqs-con-item reqs-left reqs-head" style="background:#27ae60 !important; color:#fff;">
 						<div class='reqs-ico-item' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item">
@@ -61,7 +61,7 @@
 							 For running playable games, playable performance
 						</div>
 					</div>
-					<div class="reqs-con-item reqs-right reqs-head" style="background:#f39c12; color:#fff">
+					<div class="reqs-con-item reqs-right reqs-head" style="background:#f39c12 !important; color:#fff">
 						<div class='reqs-ico-item' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item">
@@ -139,7 +139,7 @@
 			</div>
 			<div class='reqs-con-container-mobile'>
 				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile" style="background: #2ed57a; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5); box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5);">
+					<div class="reqs-con-container-mobile" style="background: #27ae60 !Important; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5); box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5);">
 						<div class='reqs-ico-item' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
 						</div>
 						<div class="reqs-tx1-item-mobile">
@@ -498,7 +498,7 @@
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
 						</div>
-						 BE16NU50 <span class="drives-txt-revisions">(External)</span>
+						 BE16NU50 <span class="drives-txt-revisions">*External Drive</span>
 					</div>
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
@@ -530,7 +530,7 @@
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
 						</div>
-						 BP50NB40 <span class="drives-txt-revisions">(External)</span>
+						 BP50NB40 <span class="drives-txt-revisions">*External Drive</span>
 					</div>
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
@@ -557,7 +557,7 @@
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
 						</div>
-						 WH12LS30
+						 WH12LS30 <span class="drives-txt-revisions">*Some revisions</span>
 					</div>
 				</div>
 				<div class="drives-con-outer darkmode-txt">
@@ -617,7 +617,7 @@
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
 						</div>
-						 BC-12B1ST <span class="drives-txt-revisions">(Some revisions)</span>
+						 BC-12B1ST <span class="drives-txt-revisions">*Some revisions</span>
 					</div>
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
