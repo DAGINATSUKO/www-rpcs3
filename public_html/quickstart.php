@@ -240,7 +240,7 @@
 					<h2>Laptop Requirements</h2>
 				</div>
 				<div class="container-tx2-block darkmode-txt">
-					 We recommend using a laptop equipped with an <span class="highlight darkmode-highlight">8-core/16-thread H-series CPU</span> or 45-watt non U-Series CPU such as an Intel Core i7-10750H, as well as having a compatible <span class="highlight darkmode-highlight">dedicated GPU (dGPU)</span> with Vulkan and/or OpenGL 4.3 compatibility. While being a tall order, this is the ideal spec and we cannot guarantee even remotely good performance with laptops equipped with as little as 4-cores.<br>
+					 We recommend using a laptop equipped with an <span class="highlight darkmode-highlight">8-core/16-thread</span> 35W+ H-series CPU such as an Intel Core i7-10870H or an AMD Ryzen 7 5800H, as well as having a compatible <span class="highlight darkmode-highlight">dedicated GPU (dGPU)</span> with Vulkan compatibility. While being a tall order, this is the ideal spec and we cannot guarantee even remotely good performance with laptops equipped with as little as 4-cores.<br>
 					 <br>
 					 We strongly recommend using RPCS3 with a desktop PC over a laptop. Should you want to use a laptop, these are the hardware requirements for an optimal experience.
 				</div>
