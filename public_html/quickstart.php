@@ -598,8 +598,10 @@
 						</div>
 						 BH16NS60
 					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
+					<div class="drives-con-inner darkmode-txt">
+						<div class="drives-ico-bluray">
+						</div>
+						 BE14NU40 
 					</div>
 				</div>
 			</div>
@@ -712,8 +714,10 @@
 						</div>
 						 IHBS312
 					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
+					<div class="drives-con-inner darkmode-txt">
+						<div class="drives-ico-bluray">
+						</div>
+						 DS-6E2SH <span class="drives-txt-revisions">*19C revision</span>
 					</div>
 				</div>
 			</div>
