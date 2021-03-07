@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Official source code for RPCS3.net. This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The compatibility list portion of this website is developed independently and maintained by [AniLeo](https://github.com/AniLeo).
+Official source code for [RPCS3.net](https://rpcs3.net). This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The compatibility list portion of this website is developed independently and maintained by [AniLeo](https://github.com/AniLeo).
 
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation.
 
