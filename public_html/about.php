@@ -386,7 +386,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>32GB DDR4 (3600MHz)</span>
+										 <span>32GB DDR4 (3733MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">

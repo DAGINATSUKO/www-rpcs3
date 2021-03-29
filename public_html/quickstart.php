@@ -330,7 +330,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For Linux users, save data files can be managed in <span class="linux-highlight darkmode-highlight">~/.config/rpcs3/</span>
+						 For Linux users, save data files can be managed in <span class="linux-highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span>
 					</p>
 				</div>
 			</div>
@@ -412,7 +412,7 @@
 						</p>
 						<br>
 						<p>
-							<i>Note: If you're on Linux, RPCS3 folders are located in <span class="highlight darkmode-highlight">~/.config/rpcs3/</span></i>
+							<i>Note: If you're on Linux, RPCS3 folders are located in <span class="highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span></i>
 						</p>
 					</div>
 				</div>
@@ -601,7 +601,7 @@
 					<div class="drives-con-inner darkmode-txt">
 						<div class="drives-ico-bluray">
 						</div>
-						 BE14NU40 
+						 BE14NU40
 					</div>
 				</div>
 			</div>
@@ -865,7 +865,7 @@
 					</a>
 				</div>
 			</div>
-			<a href="http://www.imgburn.com" target="_blank" rel="noopener noreferrer">
+			<a href="https://www.imgburn.com" target="_blank" rel="noopener noreferrer">
 			<div class="guide-con-content button-enabled darkmode-panel">
 				<div class='guide-ico-content' style="background: url('/img/icons/list/imgburn.png') no-repeat center;">
 				</div>

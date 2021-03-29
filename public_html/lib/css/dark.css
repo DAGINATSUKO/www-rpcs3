@@ -93,10 +93,10 @@
 }
 .dm-navsidebar-title {
 	background: #252d68!important;
-	color: #fff
+	color: #fff!important;
 }
 .dm-navsidebar-txt {
-	color: #fff!important
+	color: #fff!important;
 }
 .dm-block-search {
 	border-bottom: 1px solid #111525!important;
