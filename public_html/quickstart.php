@@ -321,7 +321,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For Windows users, save data files can be managed in <span class="highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</span>
+						 For Windows users, save data files can be managed in <span class="highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span>
 					</p>
 				</div>
 			</div>
@@ -330,7 +330,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For Linux users, save data files can be managed in <span class="linux-highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span>
+						 For Linux users, save data files can be managed in <span class="linux-highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</span>
 					</p>
 				</div>
 			</div>
