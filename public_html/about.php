@@ -89,7 +89,14 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>Radeon RX 550</span>
+										 <span>Radeon RX 5500 XT</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-invert">
+									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part">
+										 <span>NVIDIA GTX 1650</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -103,7 +110,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>Linux (Ubuntu)</span>
+										 <span>Linux</span>
 									</div>
 								</div>
 							</div>
@@ -148,7 +155,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1050Ti</span>
+										 <span>NVIDIA GTX 1050 Ti</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -209,7 +216,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										<span>i7-7820HQ (2.9GHz)</span>
+										<span>Intel i7-7820HQ (2.9GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -277,7 +284,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										<span>Radeon RX 6800XT</span>
+										<span>Radeon RX 6800 XT</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -318,7 +325,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 960M</span>
+										 <span>Intel HD 530</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -372,7 +379,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>AMD R9-5950X (4.6GHz)</span>
+										 <span>AMD R9 5950X (4.6GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -540,7 +547,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										<span>NVIDIA GTX 980Ti</span>
+										<span>NVIDIA GTX 980 Ti</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -771,7 +778,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										<span>Intel 8700K (5GHz)</span>
+										<span>Intel i7-8700K (5.0GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -909,14 +916,14 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>Intel i9-9900KS (5GHz)</span>
+										 <span>Intel i9-9900KS (5.0GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1080Ti</span>
+										 <span>NVIDIA GTX 1080 Ti</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -975,7 +982,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										<span>Radeon RX 5700XT</span>
+										<span>Radeon RX 5700 XT</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -1013,6 +1020,45 @@
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
 							BlackDaemon has been around since the beginning as a global forum moderator and avid tester. He was responsible for testing and debugging many games, sharing peculiar issues to other developers so they could be fixed. </span>
+						</div>
+						<div class="user-con-specsheet">
+							<div class="user-con-specbox">
+								<div class="specbox-con-part darkmode-invert">
+									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part">
+										<span>Desktop</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-invert">
+									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part">
+										<span>Intel i7-5820K (3.5GHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-invert">
+									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part">
+										<span>NVIDIA GTX 970</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-invert">
+									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part">
+										<span>32GB DDR4 (2133MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-invert">
+									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part">
+										<span>Windows 7 SP1</span>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1074,7 +1120,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										<span>NVIDIA GTX 2080Ti</span>
+										<span>NVIDIA GTX 2080 Ti</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -1146,7 +1192,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>Intel i9-9900KS (5.1GHz)</span>
+										 <span>Intel i9-11900K (5.4GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -1232,7 +1278,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										<span>NVIDIA GTX 1080Ti</span>
+										<span>NVIDIA GTX 1080 Ti</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
@@ -1331,7 +1377,7 @@
 									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1080Ti</span>
+										 <span>NVIDIA GTX 1080 Ti</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-invert">
