@@ -26,6 +26,7 @@ This website uses a cron job to fetch the Roadmap. Your cron job should be simil
 
 #### External Resources
 * [Flaticon](http://www.flaticon.com)
+* [Freepik](http://www.freepik.com)
 * [JS Cookie](https://github.com/js-cookie/js-cookie)
 * [Animate.css](https://daneden.github.io/animate.css)
 * [Particles.js](https://github.com/VincentGarreau/particles.js/)
