@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Official source code for [RPCS3.net](https://rpcs3.net). This website is designed to house and promote the progress of RPCS3, an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. The compatibility list portion of this website is developed independently and maintained by [AniLeo](https://github.com/AniLeo).
+Official source code for [RPCS3.net](https://rpcs3.net). This website is designed to house and promote the progress of RPCS3, an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. The compatibility list portion of this website is developed independently and maintained by [AniLeo](https://github.com/AniLeo).
 
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation.
 
@@ -38,6 +38,41 @@ This website uses a cron job to fetch the Roadmap. Your cron job should be simil
 * [Apple Safari](https://www.apple.com/safari/)
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Opera Software Opera](http://www.opera.com/)
+
+## Flaticon Licensing
+This website uses free icon sets found on Flaticon.com provided by Freepik.com. The Flaticon and Freepik licensing allows us to use for free, any of Flaticon contents for our projects as long as we attribute to the author in the definitive project.
+
+#### How to attribute contents?
+* For web usage, by placing a link with the text "designed by {Author's Name} from Flaticon" in a visible spot, so the author's authorship is noticeable.
+* Uses different to web: If possible, the text "designed by {Author's Name} from Flaticon" must be written next to Flaticon Contents, if it's not possible, the attribution must be placed in the credits or acknowledgements section.
+
+#### Where you can use Flaticon contents:
+* Website, software, applications, mobile and multimedia
+* Printed and digital media (magazines, newspapers, books, cards, labels, CD, television, video, e-mail).
+* Advertisement and promotional items.
+* Presentation of products and public events.
+
+#### What you can do:
+* You have the non-exclusive, non-transferable, non-sublicensable right to use the licensed material an unlimited number of times in any and all media for the commercial or personal purposes listed above.
+* You may alter and create derivative works.
+* You can use Flaticon Contents during the rights period world widely.
+
+#### What you can not do:
+* Sublicense, sell or rent any contents (or a modified version of them).
+* Distribute Flaticon Contents unless it has been expressly authorized by Flaticon.
+* Include Flaticon Contents in an online or offline database or file.
+* Offering Flaticon Contents designs (or modified Flaticon Contents versions) for download.
+
+#### We attribute each icon set that we use on the website for the following creators:
+* The 3D Printing pack by [Freepik](https://www.flaticon.com/authors/freepik).
+* The Basic Application pack by [Freepik](https://www.flaticon.com/authors/freepik).
+* The Material Design pack by [Creative Commons 3.0 BY](https://www.flaticon.com/packs/material-design).
+* The Essential Compilation pack by [Smashicons](https://www.flaticon.com/authors/Smashicons).
+* The Font Awesome pack by [Dave Gandy](https://www.flaticon.com/authors/dave-gandy).
+* The Internet of Things pack by [Bqlqn](https://www.flaticon.com/authors/bqlqn).
+* The BigMug Line pack by [Catalin Fertu](https://www.flaticon.com/authors/catalin-fertu).
+* The Computer Hardware pack by [Vitaly Gorbachev](https://www.flaticon.com/authors/vitaly-gorbachev).
+
 
 ## Copyright
 All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation.
