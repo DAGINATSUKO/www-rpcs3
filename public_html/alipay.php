@@ -20,8 +20,10 @@
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">
-			  <div class="wavebar-svg-object"></div>
-			  <div class="wavebar-svg-object"></div>
+				<div class="wavebar-svg-object">
+				</div>
+				<div class="wavebar-svg-object">
+				</div>
 			</div>
 		</div>
 		<div class='alipay-con-alipay'>
@@ -44,5 +46,6 @@
 			</p>
 		</div>
 	</div>
-	</body>
-	</html>
+</div>
+</body>
+</html>

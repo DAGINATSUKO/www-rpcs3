@@ -29,31 +29,174 @@
 			<div class='banner-tx1-title fade-up-onstart pulsate'>
 				<h1>About</h1>
 			</div>
+			<div class='banner-con-divider'>
+			</div>
 			<div class='banner-tx2-title fade-up-onstart'>
 				<p>
-					 A little about the project and its team members
+					 Learn about us and meet the developers
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+			<div class="landing-con-panel" style="background: url('/img/graphics/panels/about.jpg') no-repeat center;">
+				<div class='landing-ovr-panel'>
+					<div class='landing-tx1-panel'>
+						<h2>We are RPCS3</h2>
+					</div>
+				</div>
+			</div>
+			<div class='splitter-con-container'>
+				<div class='splitter-txt-wrapper'>
+					<div class='container-con-block darkmode-block'>
+						<div class='container-con-wrapper'>
+							<div class='container-tx1-block darkmode-txt'>
+								<div class='container-emp-block'>
+								</div>
+								<h2>The Project</h2>
+							</div>
+							<div class='container-tx2-block darkmode-txt'>
+								<p>
+									 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. The purpose of the project is to completely and accurately emulate the Sony PlayStation 3 Computer Entertainment System in its entirety with the power of open-source community and reverse engineering. <br>
+									<br>
+									 Our goal is to preserve the legacy of the PlayStation 3 hardware and its vast library by bringing it and its exclusives to the PC platform. We want to achieve this by targeting and supporting multiple operating systems as well as being compatible with a wide range of computer hardware with realistic requirements.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='splitter-img-container splitter-con-right'>
+					<div class='splitter-img-wrapper' style="background: url('/img/graphics/about/project.jpg') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+			</div>
+			<div class='splitter-con-container'>
+				<div class='splitter-img-container splitter-con-left'>
+					<div class='splitter-img-wrapper' style="background: url('/img/graphics/about/history.jpg') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+				<div class='splitter-txt-wrapper'>
+					<div class='container-con-block darkmode-block'>
+						<div class='container-con-wrapper'>
+							<div class='container-tx1-block darkmode-txt'>
+								<div class='container-emp-block'>
+								</div>
+								<h2>The History (2011 — Present)</h2>
+							</div>
+							<div class='container-tx2-block darkmode-txt'>
+								<p>
+									 The project was founded by programmers DH and Hykem in May of 2011. RPCS3 was first hosted on Google Code and was eventually migrated to GitHub later on in its development. The emulator's first successful game boot were primarily composed of smaller homebrew projects and focused hardware tests. <br>
+									<br>
+									 The emulator was later publicly released in June of 2012 and gained substantial attention from both the open-source community and PlayStation enthusiasts alike. Today, RPCS3 is co-developed by two new developers, Nekotekina and kd-11 in tandem with an amazing team of GitHub contributors.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='splitter-con-container'>
+				<div class='splitter-txt-wrapper'>
+					<div class='container-con-block darkmode-block'>
+						<div class='container-con-wrapper'>
+							<div class='container-tx1-block darkmode-txt'>
+								<div class='container-emp-block'>
+								</div>
+								<h2>The People</h2>
+							</div>
+							<div class='container-tx2-block darkmode-txt'>
+								<p>
+									 The project is currently maintained and organized by a unique cast of characters, all with meaningful roles to contribute to different aspects of the project. Whether it's working on the emulator directly, coordinating community efforts or even keeping this very website current, everyone plays a role that adds to the bigger picture. <br>
+									<br>
+									 Internal team members aren't the only contributors. A lot of the progress made in making PlayStation 3 emulation possible on PC is thanks to the many developers we've received contributions from in our GitHub community. While many developers do come and go, we do welcome anyone and everyone who is interested in improving the codebase.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='splitter-img-container splitter-con-right'>
+					<div class='splitter-img-wrapper' style="background: url('/img/graphics/about/team.jpg') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>About Us</h2>
+						<div class='container-emp-block'>
+						</div>
+						<h2>Founders</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. It was founded by programmers DH and Hykem. Initially hosted on Google Code, the project was eventually migrated to GitHub later on in its development. RPCS3's first successful boots were primarily composed of small homebrew projects and hardware tests. The emulator was later publicly released in June of 2012 and gained substantial attention from both the open-source community and PlayStation enthusiasts alike. Today, RPCS3 is primarily developed by its two lead developers; Nekotekina, kd-11 and backed by flourishing team of GitHub contributors.
+							 A list of the project founders who are also considered former, non-active developers.
 						</p>
 					</div>
 				</div>
 			</div>
 			<div class="user-con-grouped">
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/nekotekina.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/russia.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/dh.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/ukraine.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							DH </span>
+							<span class="user-con-role user-role-founder">
+							Project Founder </span>
+							<span class="user-con-role user-role-lead">
+							Lead Core Developer </span>
+						</div>
+						<div class='user-con-divider role-founder darkmode-divider'>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing PlayStation 4 related <a href='https://github.com/RPCS4' target="_blank">research</a>. </span>
+						</div>
+					</div>
+				</div>
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: url('/img/users/hykem.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+						</div>
+					</div>
+					<div class="user-con-wrapper">
+						<div class='user-tx1-content darkmode-txt'>
+							<span class="user-tx2-member ">
+							Hykem </span>
+							<span class="user-con-role user-role-founder">
+							Project Founder </span>
+							<span class="user-con-role user-role-lead">
+							Lead Core Developer </span>
+						</div>
+						<div class='user-con-divider role-founder darkmode-divider'>
+						</div>
+						<div class='user-tx3-content darkmode-txt'>
+							<span>
+							Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. He was forced to leave the <a href='http://www.emunewz.net/forum/showthread.php?tid=174735' target="_blank">emulation</a> scene in mid 2016. </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
+						<h2>Current Developers</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<p>
+							 A list of our developers who are working full-time and part-time on the project.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="user-con-grouped">
+				<div class="user-con-content darkmode-txt">
+					<div class='user-img-avatar' style="background: url('/img/users/nekotekina.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -71,46 +214,46 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel i7-10920X (3.9GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Radeon RX 5500 XT</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1650</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i7-10920X (3.9GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>64GB DDR4 (3000MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Radeon RX 5500 XT</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Linux</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA GTX 1650</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>64GB DDR4 (3000MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Linux</span>
 									</div>
 								</div>
 							</div>
@@ -118,8 +261,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #646E77 url('/img/users/avatars/kd11.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/european-union.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #646E77 url('/img/users/kd11.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -137,46 +280,46 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>AMD R7 1700X (3.8GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1050 Ti</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD R7 1700X (3.8GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA GTX 1050 Ti</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Radeon RX 480</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>40GB DDR4 (3200MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>40GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Linux (Arch)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Linux (Arch)</span>
 									</div>
 								</div>
 							</div>
@@ -184,8 +327,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #727393 url('/img/users/avatars/ssshadow.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/sweden.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #727393 url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -205,39 +348,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Laptop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Intel i7-7820HQ (2.9GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA Quadro M2200 </span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>16GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -245,8 +388,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/ani.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/portugal.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/ani.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/portugal.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -266,80 +409,78 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>AMD R7 2700X (3.8GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Radeon RX 6800 XT</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>16GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Linux (Manjaro)</span>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="specbox-con-divider">
-						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Laptop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel i7-6700HQ (3.5GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Laptop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel HD 530</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>16GB DDR4 (2666MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i7-6700HQ (3.5GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Linux (Manjaro)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel HD 530</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>16GB DDR4 (2133MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Linux (Manjaro)</span>
 									</div>
 								</div>
 							</div>
@@ -347,8 +488,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/daginatsuko.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/daginatsuko.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -368,80 +509,117 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>AMD R9 5950X (4.6GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA RTX 3090</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>32GB DDR4 (3733MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD R9 5950X (4.7GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA RTX 3090 FE</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (3733MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 11</span>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="specbox-con-divider">
+						<div class="user-con-specsheet">
+							<div class="user-con-specbox">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i9-10900K (5.0GHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA RTX 3080 FE</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>16GB DDR4 (4200MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 11</span>
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>MacBook</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel i7-9880H (4.8GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>MacBook</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Radeon Pro 5500M</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>16GB DDR4 (2666MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i7-9880H (4.8GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Windows / macOS</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Radeon Pro 5500M</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (2666MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 11 / macOS</span>
 									</div>
 								</div>
 							</div>
@@ -449,8 +627,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/megamouse.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/germany.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/megamouse.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/germany.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -470,39 +648,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>Intel i7-7700K (4.5GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i7-10700K (4.8GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA RTX 2070</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>32GB DDR4 (3000MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (3600MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -510,8 +688,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/elad.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/israel.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/elad.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -529,39 +707,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Intel i7-6700K (4.2GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA GTX 980 Ti</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>16GB DDR4 (2133MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -569,8 +747,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/galciv.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/france.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/galciv.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/france.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -588,39 +766,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>AMD R9 3950X (3.8GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1660 Super</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>32GB DDR4 (3200MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD R9 3950X (3.8GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Linux (Gentoo)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA GTX 1660 Super</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (3200MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Linux (Gentoo)</span>
 									</div>
 								</div>
 							</div>
@@ -628,8 +806,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/whatcookie.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/canada.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/whatcookie.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/canada.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -647,39 +825,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel i7-7700K (4.5GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Radeon RX 570</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>16GB DDR4 (3733MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i7-7700K (4.5GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Radeon RX 570</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>16GB DDR4 (3733MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -687,8 +865,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/hcorion.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/canada.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/canada.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -706,48 +884,64 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>AMD R7 5900X (3.8GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1070</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>32GB DDR4 (3200MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD R7 5900X (3.8GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Linux</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA GTX 1070</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (3200MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Linux</span>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
+						<h2>Contributors</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<p>
+							 A list of the project contributors who dedicate their time and talents to push us forward.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="user-con-grouped">
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #4f5972 url('/img/users/avatars/herrhulahoop.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/india.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #4f5972 url('/img/users/herrhulahoop.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/india.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -767,39 +961,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Intel i7-8700K (5.0GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA GTX 970</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>16GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -807,8 +1001,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/velocity.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/greece.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #e68364 url('/img/users/velocity.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -827,8 +1021,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/silent.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/poland.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/silent.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/poland.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -846,39 +1040,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel i7-6700K (4.4GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1070</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>32GB DDR4 (2400MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i7-6700K (4.4GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA GTX 1070</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (2400MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -886,8 +1080,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #36393f url('/img/users/avatars/rajkosto.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/serbia.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #36393f url('/img/users/rajkosto.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/serbia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -905,39 +1099,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel i9-9900KS (5.0GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1080 Ti</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>16GB DDR4 (3200MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i9-9900KS (5.0GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA GTX 1080 Ti</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>16GB DDR4 (3200MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -945,8 +1139,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/johnholmesii.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -964,38 +1158,38 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>AMD R7 3800X (3.9GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Radeon RX 5700 XT</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>32GB DDR4 (3600MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Linux</span>
 									</div>
 								</div>
@@ -1004,8 +1198,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/blackdaemon.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/russia.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1023,38 +1217,38 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Intel i7-5820K (3.5GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA GTX 970</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>32GB DDR4 (2133MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Windows 7 SP1</span>
 									</div>
 								</div>
@@ -1063,8 +1257,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/farseer.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/israel.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/farseer.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1083,8 +1277,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/clienthax.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/england.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/clienthax.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/england.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1102,39 +1296,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>AMD R7 1800X (3.8GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA GTX 2080 Ti</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>32GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -1142,8 +1336,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/shadow.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/greece.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1162,8 +1356,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/yahfz.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/brazil.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/yahfz.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/brazil.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1181,39 +1375,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>Intel i9-11900K (5.4GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA RTX 3090</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>16GB DDR4 (4000MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Intel i9-11900K (5.4GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA RTX 3090</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>16GB DDR4 (4000MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -1221,8 +1415,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/tge.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/netherlands.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #e68364 url('/img/users/tge.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/netherlands.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1241,8 +1435,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/juhn.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/sweden.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/juhn.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1260,39 +1454,39 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>AMD R7 3800X (3.9GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA GTX 1080 Ti</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
+									<div class="specbox-tx1-part darkmode-txt">
 										<span>32GB DDR4 (3733MHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										<span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
@@ -1300,8 +1494,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/scribam.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/european-union.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #e68364 url('/img/users/scribam.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/european-union.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1320,8 +1514,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/raven02.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/unknown.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: #e68364 url('/img/users/raven02.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1340,8 +1534,8 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/avatars/asinine.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/users/flags/australia.png') no-repeat center; background-size: cover;">
+					<div class='user-img-avatar' style="background: url('/img/users/asinine.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/australia.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -1359,97 +1553,63 @@
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>AMD R9 5950X (4.5GHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>NVIDIA GTX 1080 Ti</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part">
-										 <span>32GB DDR4 (3600MHz)</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD R9 5950X (4.7GHz)</span>
 									</div>
 								</div>
-								<div class="specbox-con-part darkmode-invert">
-									<div class="specbox-ico-part" style="background: url('/img/icons/list/os.png') no-repeat center;">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
-									<div class="specbox-tx1-part">
-										 <span>Windows</span>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA GTX 1080 Ti</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (3600MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="container-tx1-heading div-css-heading darkmode-txt">
-					 Former Developers
+				<div class='container-con-block darkmode-block'>
+					<div class='container-con-wrapper'>
+						<div class='container-tx1-block darkmode-txt'>
+							<div class='container-emp-block'>
+							</div>
+							<h2>Former Developers</h2>
+						</div>
+						<div class='container-tx2-block darkmode-txt'>
+							<p>
+								 A list of developers who have previously contributed to the project.
+							</p>
+						</div>
+					</div>
 				</div>
 				<div class="user-con-grouped">
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/dh.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/ukraine.png') no-repeat center; background-size: cover;">
-							</div>
-						</div>
-						<div class="user-con-wrapper">
-							<div class='user-tx1-content darkmode-txt'>
-								<span class="user-tx2-member ">
-								DH </span>
-								<span class="user-con-role user-role-founder">
-								Project Founder </span>
-								<span class="user-con-role user-role-lead">
-								Lead Core Developer </span>
-							</div>
-							<div class='user-con-divider role-founder darkmode-divider'>
-							</div>
-							<div class='user-tx3-content darkmode-txt'>
-								<span>
-								DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing <a href='https://github.com/RPCS4' target="_blank">PlayStation 4 related research</a>. </span>
-							</div>
-						</div>
-					</div>
-					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/hykem.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
-							</div>
-						</div>
-						<div class="user-con-wrapper">
-							<div class='user-tx1-content darkmode-txt'>
-								<span class="user-tx2-member ">
-								Hykem </span>
-								<span class="user-con-role user-role-founder">
-								Project Founder </span>
-								<span class="user-con-role user-role-lead">
-								Lead Core Developer </span>
-							</div>
-							<div class='user-con-divider role-founder darkmode-divider'>
-							</div>
-							<div class='user-tx3-content darkmode-txt'>
-								<span>
-								Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. <a href='http://www.emunewz.net/forum/showthread.php?tid=174735' target="_blank">He was forced to leave the emulation scene in mid 2016.</a>
-								</span>
-							</div>
-						</div>
-					</div>
-					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/alexaltea.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/spain.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/alexaltea.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/spain.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1470,8 +1630,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/tambry.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/estonia.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/tambry.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/estonia.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1492,8 +1652,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/bigpet.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/germany.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/bigpet.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/germany.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1514,8 +1674,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/vlj.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/france.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/vlj.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/france.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1536,8 +1696,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/gopalsr83.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/india.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/gopalsr83.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/india.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1558,8 +1718,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/jarves.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: #e68364 url('/img/users/jarves.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1580,8 +1740,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/numan.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/principality-of-sealand.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/numan.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/principality-of-sealand.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1602,8 +1762,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: #e68364 url('/img/users/avatars/flashofsloth.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: #e68364 url('/img/users/flashofsloth.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1624,8 +1784,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/dangles.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/australia.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/dangles.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/australia.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1646,8 +1806,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/pauls-gh.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/united-states.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/pauls-gh.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1668,8 +1828,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/o1l.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/russia.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/o1l.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1690,8 +1850,8 @@
 						</div>
 					</div>
 					<div class="user-con-content darkmode-txt">
-						<div class='user-img-avatar' style="background: url('/img/users/avatars/ruipin.png') no-repeat center; background-size: cover;">
-							<div class='user-img-flag' style="background: url('/img/users/flags/portugal.png') no-repeat center; background-size: cover;">
+						<div class='user-img-avatar' style="background: url('/img/users/ruipin.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/portugal.png') no-repeat center; background-size: cover;">
 							</div>
 						</div>
 						<div class="user-con-wrapper">
@@ -1715,7 +1875,7 @@
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/ui-main-footer.php';?>
+	<?php include 'lib/module/inc-footer.php';?>
 </div>
 </body>
 </html>

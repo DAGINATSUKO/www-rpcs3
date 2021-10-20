@@ -6,6 +6,7 @@ var dark_classes = [
 	{"base": ".darkmode-invert", "toggle": "dm-invert"},
 	{"base": ".darkmode-header", "toggle": "dm-header"},
 	{"base": ".darkmode-discord", "toggle": "dm-discord"},
+	{"base": ".darkmode-github", "toggle": "dm-github"},
 	{"base": ".darkmode-feature", "toggle": "dm-bg"},
 	{"base": ".darkmode-slimbar", "toggle": "dm-bg-2"},
 	{"base": ".darkmode-search-border", "toggle": "dm-search-border"},
@@ -36,6 +37,10 @@ var dark_classes = [
 	{"base": ".user-img-avatar", "toggle": "dm-avatar"},
 	{"base": ".user-img-flag", "toggle": "dm-flag"},
 	{"base": ".darkmode-footer-logo", "toggle": "dm-footer-logo"},
+	{"base": ".spec-con-divider", "toggle": "dm-divider"},
+	{"base": ".darkmode-specbox", "toggle": "dm-specbox"},
+	{"base": ".darkmode-menu", "toggle": "dm-menu"},
+	{"base": ".menu-ico-logo", "toggle": "dm-menu-ico-logo"},
 	// Compatibility
 	{"base": ".compat-text", "toggle": "dm-txt"},
 	{"base": ".compat-menu a", "toggle": "dm-compat-menu"},

@@ -1,0 +1,315 @@
+.compat-con-menu::-webkit-scrollbar {
+    height: 4px;
+}
+
+.compat-con-menu::-webkit-scrollbar-thumb {
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+
+.compat-con-menu::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.compat-con-menu {
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    background: rgba(0, 0, 0, .02);
+    height: 32px;
+    margin-bottom: 4px;
+    padding: 10px 10px;
+    border-radius: 52px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    width: 402px;
+}
+
+.compat-btn-menu {
+    background: #fff;
+    margin-right: 6px;
+    padding: 6px 10px;
+    border-radius: 30px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    border: solid 2px #fff;
+    height: 16px;
+    line-height: 16px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .08);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.compat-con-navigation {
+    height: 53px;
+    margin-bottom: 20px;
+}
+
+.compat-con-results::-webkit-scrollbar {
+    height: 4px;
+}
+
+.compat-con-results::-webkit-scrollbar-thumb {
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+
+.compat-con-results::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.compat-con-results {
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    width: 340px;
+    float: left;
+    overflow: hidden;
+}
+
+.compat-btn-results {
+    background: #fff;
+    margin-right: 6px;
+    padding: 6px 10px;
+    border-radius: 30px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    border: solid 2px #fff;
+    height: 16px;
+    line-height: 16px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .08);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.compat-txt-results {
+    font-size: 14px;
+    font-family: Roboto-Regular;
+    color: #000 !important;
+    font-weight: bold;
+    line-height: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.compat-con-category::-webkit-scrollbar {
+    height: 4px;
+}
+
+.compat-con-category::-webkit-scrollbar-thumb {
+    background: #e0e0e0;
+    border-radius: 4px;
+    ; }
+
+.compat-con-category::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.compat-con-category {
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    width: 100%;
+    float: left;
+    justify-content: space-between;
+    border-radius: 52px;
+}
+
+.compat-btn-category {
+    background: #fff;
+    margin-left: 6px;
+    padding: 6px 10px;
+    border-radius: 30px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    border: solid 2px #e4e4e4;
+    height: 16px;
+    line-height: 16px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .08);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.compat-txt-category {
+    font-size: 14px;
+    font-family: Roboto-Regular;
+    color: #000 !important;
+    font-weight: bold;
+    line-height: 32px;
+    height: 32px;
+}
+
+.category-all {
+    border-color: #3198ff;
+    color: #3198ff;
+}
+
+.category-playable {
+    border-color: #1ebc61;
+    color: #1ebc61;
+}
+
+.category-ingame {
+    border-color: #f9b32f;
+    color: #f9b32f;
+}
+
+.category-intro {
+    border-color: #e08a1e;
+    color: #e08a1e;
+}
+
+.category-loadable {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+
+.category-nothing {
+    border-color: #000;
+    color: #000;
+}
+
+.compat-con-divider {
+    height: 4px;
+    width: 100%;
+    background: rgba(242, 242, 242, .5);
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.right {
+    overflow: hidden;
+    min-height: 52px;
+}
+
+.left {
+    float: left;
+    min-height: 52px;
+}
+
+.compat-con-status {
+    margin-bottom: 30px;
+}
+
+.compat-ico-status {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 100%;
+    float: left;
+    top: 12px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.compat-tx1-status {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    float: left;
+    line-height: 34px;
+    padding-left: 8px;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.compat-tx2-status {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.compat-con-status-line {
+    height: 34px;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.search-btn-input input {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    line-height: 30px;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: left;
+    color: #fff;
+    background: #fff;
+    box-shadow: 0 10px 16px 0 rgba(0, 116, 231, .2);
+    background: linear-gradient(-135deg, #49a4ff 25%, #0074e7 100%);
+    border: solid 2px #0080ff;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+
+.search-btn-input input:hover {
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #80bfff;
+    color: #fff;
+    background: linear-gradient(-135deg, #68b4ff 25%, #2090ff 100%);
+    box-shadow: 0 10px 16px 0 rgba(0, 116, 231, .3);
+}
+
+.search-btn-input input:focus {
+    cursor: text;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #80bfff;
+    background: linear-gradient(-135deg, #49a4ff 25%, #0074e7 100%);
+    color: #fff;
+}
+
+.search-btn-input::-webkit-input-placeholder {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    text-align: center;
+    color: inherit;
+}
+
+.search-btn-input::-moz-placeholder {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 1;
+    color: inherit;
+}
+
+.search-btn-input:-ms-input-placeholder {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    text-align: center;
+    color: inherit;
+}
+
+.search-btn-input input::-webkit-input-placeholder {
+    color: inherit;
+}
+
+.search-btn-input input::-moz-input-placeholder {
+    color: inherit;
+}
+
+.search-btn-input input:-ms-input-placeholder {
+    color: inherit;
+}

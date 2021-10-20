@@ -19,23 +19,34 @@
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">
-			  <div class="wavebar-svg-object"></div>
-			  <div class="wavebar-svg-object"></div>
+				<div class="wavebar-svg-object">
+				</div>
+				<div class="wavebar-svg-object">
+				</div>
 			</div>
 		</div>
 		<div class='banner-con-title fade-up-onstart'>
 			<div class='banner-tx1-title fade-up-onstart pulsate'>
 				<h1>Disclaimer</h1>
 			</div>
+			<div class='banner-con-divider'>
+			</div>
 			<div class='banner-tx2-title fade-up-onstart'>
 				<p>
-					 A legal disclaimer for RPCS3 and its developments
+					 Legal disclaimer and copyright information
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+			<div class="landing-con-panel" style="background: url('/img/graphics/panels/disclaimer.jpg') no-repeat center;">
+				<div class='landing-ovr-panel'>
+					<div class='landing-tx1-panel'>
+						<h2>Legal Jargon</h2>
+					</div>
+				</div>
+			</div>
 			<div class="container-con-block darkmode-block">
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -74,6 +85,7 @@
 					</div>
 				</div>
 			</div>
+			<?php include 'lib/module/inc-flaticon.php';?>
 			<div class="container-con-block darkmode-block">
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -128,7 +140,7 @@
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/ui-main-footer.php';?>
 </div>
+<?php include 'lib/module/inc-footer.php';?>
 </body>
 </html>

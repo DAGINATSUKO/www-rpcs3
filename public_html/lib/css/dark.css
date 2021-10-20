@@ -1,10 +1,21 @@
 @charset "utf-8";
+@media screen and (max-width:800px) {
+	.dm-menu-ico-logo {
+		background: url(/img/icons/menu/logo-wide-dark.png) center center / 36px no-repeat !important;
+		background-size: contain !important;
+	}
+}
 .dm-gradient {
 	background: url(/img/graphics/landing/gradient-dark.png) no-repeat center top !important;
 	background-size: contain !important;
 }
 .dm-bg {
-	background: #111525!important
+	background: #111525!important;
+}
+.dm-divider {
+	background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(rgb(255 255 255 / 10%))) !important;
+	background: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgb(255 255 255 / 10%)) !important;
+	background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255 255 255 / 10%)) !important;
 }
 .dm-bg-2 {
 	background: #191f36!important
@@ -23,17 +34,21 @@
 	background: #111525!important
 }
 .dm-support-outer {
-	border: 4px solid #293358!important;
-	background: #191f36 !important;
+	border: 2px solid #293358!important;
+	background: rgb(25 31 54 / 90%) !important;
 }
 .dm-support-btn {
 	color: #fff!important
 }
 .dm-header {
+	background: -o-linear-gradient(225deg, rgba(0, 18, 59, .7) 25%, rgba(105, 0, 243, .7) 100%)!important;
 	background: linear-gradient(-135deg, rgba(0, 18, 59, .7) 25%, rgba(105, 0, 243, .7) 100%)!important
 }
 .dm-discord {
-	background: #303d6b!important
+	background: #2331b5!important;
+}
+.dm-github {
+	background: #291c39!important;
 }
 .dm-highlight {
 	color: #2dbc4e!important;
@@ -43,7 +58,7 @@
 	color: #fff!important
 }
 .dm-udl {
-	border-bottom: 1px solid #191f36!important
+	border-bottom: 2px solid #191f36!important;
 }
 .dm-icon {
 	opacity: 1!important;
@@ -61,10 +76,10 @@
 	background-size: 64px!important
 }
 .dm-avatar {
-	border: solid 4px #1d233f !important;
+	border: solid 2px #1d233f !important;
 }
 .dm-flag {
-	border: solid 4px #1d233f!important
+	border: solid 2px #1d233f!important;
 }
 .dm-buttons-a {
 	background: #252d68!important
@@ -90,13 +105,6 @@
 }
 .dm-reqs-right:hover {
 	background: rgba(25, 31, 54, .4)!important;
-}
-.dm-navsidebar-title {
-	background: #252d68!important;
-	color: #fff!important;
-}
-.dm-navsidebar-txt {
-	color: #fff!important;
 }
 .dm-block-search {
 	border-bottom: 1px solid #111525!important;
@@ -155,4 +163,11 @@
 }
 .dm-highlightedText {
 	color: #fff !important;
+}
+
+.dm-specbox {
+	background: #1d233f !important;
+}
+.dm-menu {
+	    background: rgba(16, 24, 56, 0.8) !important;
 }

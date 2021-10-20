@@ -19,26 +19,39 @@
 		</div>
 		<div class="wavebar-con-container">
 			<div class="wavebar-con-wrap">
-			  <div class="wavebar-svg-object"></div>
-			  <div class="wavebar-svg-object"></div>
+				<div class="wavebar-svg-object">
+				</div>
+				<div class="wavebar-svg-object">
+				</div>
 			</div>
 		</div>
 		<div class='banner-con-title fade-up-onstart'>
 			<div class='banner-tx1-title fade-up-onstart pulsate'>
 				<h1>FAQs</h1>
 			</div>
+			<div class='banner-con-divider'>
+			</div>
 			<div class='banner-tx2-title fade-up-onstart'>
 				<p>
-					 Frequently asked questions for the curious
+					 Frequently asked questions
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+			<div class="landing-con-panel panel-fadeUp" style="background: url('/img/graphics/panels/faq.jpg') no-repeat center;">
+				<div class='landing-ovr-panel'>
+					<div class='landing-tx1-panel'>
+						<h2>One Step Ahead</h2>
+					</div>
+				</div>
+			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>What is RPCS3 licensed under? </h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -51,6 +64,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>How can I get started using RPCS3 on my PC?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -63,6 +78,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>How stable is RPCS3 in its current state?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -75,6 +92,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>What input devices can I use with RPCS3?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -87,6 +106,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>What PlayStation 3 peripherals can I use with RPCS3?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -99,6 +120,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Can I just insert a PlayStation 3 game disc and start playing games?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -111,6 +134,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Where do I get PlayStation 3 games and software?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -127,6 +152,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>How do I dump PlayStation 3 games and software?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -139,6 +166,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Can I play multiplayer games online with real consoles or other RPCS3 users?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -151,6 +180,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Can I play local-multiplayer games with RPCS3?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -163,6 +194,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Can I import my save data from my real PlayStation 3?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -175,6 +208,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Why do you work on game X instead of game Y?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -188,6 +223,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Will RPCS3 be ported to platform X or include feature Y?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -200,6 +237,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>I'd like to create a patch, contribute, or possibly become a developer. Where do I start?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -212,6 +251,8 @@
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
 						<h2>Where can I submit issues, feedback and comments that I want to report?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -239,7 +280,7 @@
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/ui-main-footer.php';?>
 </div>
+<?php include 'lib/module/inc-footer.php';?>
 </body>
 </html>

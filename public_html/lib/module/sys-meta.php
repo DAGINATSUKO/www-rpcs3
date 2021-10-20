@@ -12,8 +12,8 @@
 <link rel="apple-touch-icon" href="/img/meta/mobile/144.png" sizes="144x144"/>
 <link rel="apple-touch-icon" href="/img/meta/mobile/152.png" sizes="152x152"/>
 <link rel="manifest" href="/lib/js/manifest.json">
-<meta name="theme-color" content="#4e34c9">
-<meta name=viewport content="width=device-width, initial-scale=.6"/>
+<meta name="theme-color" content="#686de0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="https://rpcs3.net"/>
 <meta property="og:type" content="website"/>

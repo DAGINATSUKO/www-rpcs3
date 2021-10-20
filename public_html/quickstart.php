@@ -13,7 +13,7 @@
 </head>
 <body>
 <?php include 'lib/module/sys-php.php';?>
-<?php include 'lib/module/ui-sidebar-quickstart.php';?>
+<?php include 'lib/module/inc-sidebar-quickstart.php';?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
 		<div id="object-particles">
@@ -30,258 +30,105 @@
 			<div class='banner-tx1-title fade-up-onstart pulsate'>
 				<h1>Quickstart</h1>
 			</div>
+			<div class='banner-con-divider'>
+			</div>
 			<div class="banner-tx2-title fade-up-onstart">
 				<p>
-					 Get up and running on Windows, Linux or BSD
+					 Get RPCS3 up and running on your PC
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+			<div class="landing-con-panel" style="background: url('/img/graphics/panels/quickstart.jpg') no-repeat center;">
+				<div class='landing-ovr-panel'>
+					<div class='landing-tx1-panel'>
+						<h2>Hardware Check</h2>
+					</div>
+				</div>
+			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="requirements">
+				<div class="anchor-point" id="requirements_desktop">
 				</div>
 				<div class="container-con-wrapper">
 					<div class="container-tx1-block darkmode-txt">
-						<h2>Hardware Requirements</h2>
+						<div class='container-emp-block'>
+						</div>
+						<h2>Desktop PC Requirements</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
-						 The hardware requirements for running the emulator vary depending on your current configuration. We have listed the minimum and recommend hardware requirements below. For the best experience, users should be running within the recommended requirements. We cannot guarantee the performance of system specifications below the recommended requirements but you're always welcome to experiment.
+						<p>
+							 The hardware requirements for running the emulator vary depending on your current configuration. We have listed the minimum and recommend hardware requirements below. For the best experience, users should be running within the recommended requirements. We cannot guarantee the performance of system specifications below the recommended requirements but you're always welcome to experiment.
+						</p>
 					</div>
 				</div>
 			</div>
-			<div class='reqs-con-container'>
-				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left reqs-head" style="background:#27ae60 !important; color:#fff;">
-						<div class='reqs-ico-item' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item">
-							<b>Recommended Requirements</b><br>
-							 For running playable games, playable performance
-						</div>
-					</div>
-					<div class="reqs-con-item reqs-right reqs-head" style="background:#f39c12 !important; color:#fff">
-						<div class='reqs-ico-item' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item">
-							<b>Minimum Requirements</b><br>
-							 For being able to run any games at all, unplayable performance
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Processor -</b> Intel 4-core with HT or 6-cores and up (Haswell and above)<br>
-							<b>Processor -</b> AMD 6-core with SMT or 8-cores and up (Ryzen only)
-						</div>
-					</div>
-					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Processor -</b> Any 64-bit capable processor<br>
-							<b>Processor -</b> 32-bit processors are <b>not</b> supported
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Graphics Card -</b> A Modern AMD or NVIDIA Vulkan compatible GPU
-						</div>
-					</div>
-					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Graphics Card -</b> Any OpenGL 4.3 compatible GPU or greater
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Memory -</b> 8GB of RAM or more
-						</div>
-					</div>
-					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Memory -</b> 4GB of RAM at minimum
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group'>
-					<div class="reqs-con-item reqs-left">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Storage -</b> Capacity depends per-game size requirements
-						</div>
-					</div>
-					<div class="reqs-con-item reqs-right">
-						<div class='reqs-ico-item darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item darkmode-txt">
-							<b>Storage -</b> Capacity depends per-game size requirements
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class='reqs-con-container-mobile'>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile" style="background: #27ae60 !Important; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5); box-shadow: 0px 10px 32px 0 rgba(39, 174, 96, .5);">
-						<div class='reqs-ico-item' style="background: url('/img/icons/list/recommended.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile">
-							<b>Recommended Requirements</b><br>
-							 For running playable games, playable performance
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>CPU -</b> Intel 4-core with HT or 6-cores and up (Haswell and above)<br>
-							<b>CPU -</b> AMD 6-core with SMT or 8-cores and up (Ryzen only)
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>Graphics Card -</b> A Modern AMD or NVIDIA Vulkan compatible GPU
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>RAM -</b> 8GB of system memory or greater
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>Storage -</b> Capacity depends per-game size requirements
-						</div>
-					</div>
-				</div>
-				<div class="reqs-con-divider">
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile" style="background: #f39c12; color: #fff; webkit-box-shadow: 0px 10px 32px 0 rgba(243, 156, 18, .5); box-shadow: 0px 10px 32px 0 rgba(243, 156, 18, .5)">
-						<div class='reqs-ico-item' style="background: url('/img/icons/list/minimum.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile">
-							<b>Minimum Requirements</b><br>
-							 For being able to run any games at all, unplayable performance
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>CPU -</b> Any modern 64-bit capable processor<br>
-							<b>CPU -</b> 32-bit processors are <b>not</b> supported
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>Graphics Card -</b> Any OpenGL 4.3 compatible GPU or greater
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/ram.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>RAM -</b> 4GB of system memory at minimum
-						</div>
-					</div>
-				</div>
-				<div class='reqs-con-group-mobile'>
-					<div class="reqs-con-container-mobile">
-						<div class='reqs-ico-item darkmode-invert-mobile darkmode-invert' style="background: url('/img/icons/list/storage.png') no-repeat center;">
-						</div>
-						<div class="reqs-tx1-item-mobile darkmode-txt">
-							<b>Storage -</b> Capacity depends per-game size requirements
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php include 'lib/module/inc-specs.php';?>
 			<div class="container-con-wrapper">
+				<div class="anchor-point" id="requirements_laptop">
+				</div>
 				<div class="container-tx1-block darkmode-txt">
-					<h2>Laptop Requirements</h2>
+					<h2>Laptop PC Requirements</h2>
 				</div>
 				<div class="container-tx2-block darkmode-txt">
-					 We recommend using a laptop equipped with an <span class="highlight darkmode-highlight">8-core/16-thread</span> 35W+ H-series CPU such as an Intel Core i7-10870H or an AMD Ryzen 7 5800H, as well as having a compatible <span class="highlight darkmode-highlight">dedicated GPU (dGPU)</span> with Vulkan compatibility. While being a tall order, this is the ideal spec and we cannot guarantee even remotely good performance with laptops equipped with as little as 4-cores.<br>
-					 <br>
-					 We strongly recommend using RPCS3 with a desktop PC over a laptop. Should you want to use a laptop, these are the hardware requirements for an optimal experience.
+					<p>
+						 We recommend using a laptop equipped with an <span class="highlight darkmode-highlight">8-core/16-thread</span> 35W+ H-series CPU such as an Intel Core i7-10870H or an AMD Ryzen 7 5800H, as well as having a compatible <span class="highlight darkmode-highlight">dedicated GPU (dGPU)</span> with Vulkan compatibility. While being a tall order, this is the ideal spec and we cannot guarantee even remotely good performance with laptops equipped with as little as 4-cores.<br>
+						<br>
+						 We strongly recommend using RPCS3 with a desktop PC over a laptop. Should you want to use a laptop, these are the hardware requirements for an optimal experience.
+					</p>
 				</div>
 			</div>
 			<div class="container-con-wrapper">
+				<div class="anchor-point" id="requirements_software">
+				</div>
 				<div class="container-tx1-block darkmode-txt">
 					<h2>Software Requirements</h2>
 				</div>
 				<div class="container-tx2-block darkmode-txt">
-					 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and BSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.<br>
-					<br>
-					<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8 and 10 are supported as well as Linux and BSD. <br>
-					<br>
+					<p>
+						 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and BSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.<br>
+						<br>
+						<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8, 10 and 11 are supported as well as Linux and BSD. <br>
+					</p>
 				</div>
 			</div>
-			<div class="button-con-container">
-				<div class='reqs-con-group'>
-					<a href='https://www.playstation.com/en-us/support/hardware/ps3/system-software/' target="_blank">
-					<div class="reqs-con-container button-left button-enabled darkmode-panel">
-						<div class='button-ico-container' style="background: url('/img/icons/list/ps-h.png') no-repeat center;">
-						</div>
-						<div class="button-tx1-text darkmode-txt">
-							 PlayStation 3 System Software
-						</div>
+			<div class="generic-con-button ">
+				<a href='https://www.playstation.com/en-us/support/hardware/ps3/system-software/' target="_blank">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/playstation-h.png') no-repeat center">
 					</div>
-					</a>
-					<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
-					<div class="reqs-con-container button-right button-enabled darkmode-panel">
-						<div class='button-ico-container' style="background: url('/img/icons/list/redist.png') no-repeat center;">
-						</div>
-						<div class="button-tx1-text darkmode-txt">
-							 Visual C++ 2019 Redistributable (Windows Only)
-						</div>
+					<div class="generic-tx1-button">
+						<span>PlayStation 3 System Software <span class="generic-tx2-label">Required*</span></span>
 					</div>
-					</a>
+				</div>
+				</a>
+				<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/redist-h.png') no-repeat center">
+					</div>
+					<div class="generic-tx1-button">
+						<span>Visual C++ 2019 Redistributable <span class="generic-tx2-label">Windows*</span></span>
+					</div>
+				</div>
+				</a>
+			</div>
+			<div class="container-con-block darkmode-block">
+				<div class="anchor-point" id="update_rpcs3">
+				</div>
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
+						<h2>Installing RPCS3 Updates</h2>
+					</div>
+					<div class="container-tx2-block darkmode-txt">
+						<p>
+							 RPCS3 features an auto-updater which will prompt you if you want to update after loading the emulator. You can either accept, deny or disable updates all together if you wish, though it is not recommended due to the volume of fixes that roll out each day. In the instance that you need to update RPCS3 manually, you can follow the following instructions:
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="guide-con-content context-windows darkmode-panel">
-				<div class="anchor-point" id="updating">
-				</div>
-				<div class='guide-ico-content' style="background: url('/img/icons/list/windows.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/buttons/windows.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -290,7 +137,7 @@
 				</div>
 			</div>
 			<div class="guide-con-content context-linux darkmode-panel">
-				<div class='guide-ico-content' style="background: url('/img/icons/list/linux.png') no-repeat center;">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/buttons/linux.png') no-repeat center;">
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
@@ -298,12 +145,21 @@
 					</p>
 				</div>
 			</div>
+			<div class="guide-con-content context-bsd darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/buttons/bsd.png') no-repeat center;">
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						 For BSD users, download the latest AppImage and make it executable with the command <span class="bsd-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage && ./rpcs3-*_linux64.AppImage</span>
+					</p>
+				</div>
+			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="firmware">
+				<div class="anchor-point" id="install_rpcs3_firmware">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>Installing PlayStation 3 firmware files</h2>
+						<h2>Installing RPCS3 PlayStation 3 Firmware</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -314,32 +170,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="guide-con-content context-windows darkmode-panel">
-				<div class="anchor-point" id="manage_saves">
-				</div>
-				<div class='guide-ico-content' style="background: url('/img/icons/list/windows.png') no-repeat center;">
-				</div>
-				<div class="guide-tx1-heading darkmode-txt">
-					<p>
-						 For Windows users, save data files can be managed in <span class="highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</span>
-					</p>
-				</div>
-			</div>
-			<div class="guide-con-content context-linux darkmode-panel">
-				<div class='guide-ico-content' style="background: url('/img/icons/list/linux.png') no-repeat center;">
-				</div>
-				<div class="guide-tx1-heading darkmode-txt">
-					<p>
-						 For Linux users, save data files can be managed in <span class="linux-highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span>
-					</p>
-				</div>
-			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="manage_files">
+				<div class="anchor-point" id="manage_playstation_3_game_data">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>Managing PlayStation 3 titles</h2>
+						<h2>Managing PlayStation 3 Game Data</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -360,11 +196,54 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="manage_formats">
+				<div class="anchor-point" id="manage_playstation_3_save_data">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>PlayStation 3 title formats</h2>
+						<h2>Managing PlayStation 3 Save Data</h2>
+					</div>
+					<div class="container-tx2-block darkmode-txt">
+						<p>
+							 PlayStation 3 save data is specific to each game and saves the progress for your installed games. Should you want to modify, back up or import your own save data from a real PlayStation 3, here are the following locations where save data is stored per operating system:
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="guide-con-content context-windows darkmode-panel">
+				<div class="anchor-point" id="manage_playstation_3_saves">
+				</div>
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/buttons/windows.png') no-repeat center;">
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						 For Windows users, save data files can be managed in <span class="highlight darkmode-highlight">\dev_hdd0\home\00000001\savedata\</span>
+					</p>
+				</div>
+			</div>
+			<div class="guide-con-content context-linux darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/buttons/linux.png') no-repeat center;">
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						 For Linux users, save data files can be managed in <span class="linux-highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span>
+					</p>
+				</div>
+			</div>
+			<div class="guide-con-content context-bsd darkmode-panel">
+				<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/buttons/bsd.png') no-repeat center;">
+				</div>
+				<div class="guide-tx1-heading darkmode-txt">
+					<p>
+						 For BSD users, save data files can be managed in <span class="bsd-highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span>
+					</p>
+				</div>
+			</div>
+			<div class="container-con-block darkmode-block">
+				<div class="anchor-point" id="manage_playstation_3_formats">
+				</div>
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
+						<h2>Managing PlayStation 3 Game Formats</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -388,11 +267,11 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="install_games">
+				<div class="anchor-point" id="install_playstation_3_games">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>Installing PlayStation 3 titles</h2>
+						<h2>Installing PlayStation 3 Games</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -418,11 +297,11 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="install_updates">
+				<div class="anchor-point" id="install_playstation_3_updates">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>Installing PlayStation 3 title updates</h2>
+						<h2>Installing PlayStation 3 Game Updates</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -437,7 +316,9 @@
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block">
-						<h2 style="color: #ff4d4d !important;">Software Distribution laws in your country</h2>
+						<div class='container-emp-block' style="background: #FF3434;">
+						</div>
+						<h2>Software Distribution laws in your country</h2>
 					</div>
 					<div class="container-tx2-block">
 						<p>
@@ -448,6 +329,8 @@
 					</div>
 				</div>
 				<div class='container-con-wrapper'>
+					<div class="anchor-point" id="dumping_with_playstation_3">
+					</div>
 					<div class="container-tx1-block">
 						<h2>Dumping with a PlayStation 3</h2>
 					</div>
@@ -465,8 +348,10 @@
 					</div>
 				</div>
 				<div class='container-con-wrapper'>
+					<div class="anchor-point" id="dumping_with_pc">
+					</div>
 					<div class="container-tx1-block">
-						<h2>Dumping with a Blu-ray drive</h2>
+						<h2>Dumping with a Desktop PC</h2>
 					</div>
 					<div class="container-tx2-block">
 						<p>
@@ -476,11 +361,11 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="compatible_drives">
+				<div class="anchor-point" id="compatible_bd_drives">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>Compatible Blu-ray disc drives</h2>
+						<h2>Compatible Desktop PC Blu-ray Drives</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -489,294 +374,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="drives-con-container">
-				<div class="container-tx3-block darkmode-txt">
-					<span>
-					LG Drives </span>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BE16NU50 <span class="drives-txt-revisions">*External Drive</span>
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BH14NS40
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BH16NS40
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BH16NS48
-					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BH16NS55
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BH26NS40
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BP50NB40 <span class="drives-txt-revisions">*External Drive</span>
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BU20N
-					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BU40N
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 CH12NS30
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 UH12NS30
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 WH12LS30 <span class="drives-txt-revisions">*Some revisions</span>
-					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 WH14NS40
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 WH16NS40
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 WH16NS48
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 WH24LS30
-					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 WH24NS40
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 WH26NS40
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BH16NS60
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BE14NU40
-					</div>
-				</div>
-			</div>
-			<div class="drives-con-container">
-				<div class="container-tx3-block darkmode-txt">
-					<span>
-					ASUS Drives </span>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BC-08B1LT
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BC-12B1ST <span class="drives-txt-revisions">*Some revisions</span>
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BC-12D2HT
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BC-16D1HT
-					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BW-12B1ST
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BW-16D1HT
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-				</div>
-				<div class="drives-con-outer darkmode-txt" style="display:none">
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-				</div>
-			</div>
-			<div class="drives-con-container">
-				<div class="container-tx3-block darkmode-txt">
-					<span>
-					Samsung Drives </span>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 SH-B083L
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 SH-B123L
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 SE-506
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 SE-406
-					</div>
-				</div>
-			</div>
-			<div class="drives-con-container">
-				<div class="container-tx3-block darkmode-txt">
-					<span>
-					LITE-ON Drives </span>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 DH-4O1S
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 IHBS112
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 IHBS312
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 DS-6E2SH <span class="drives-txt-revisions">*19C revision</span>
-					</div>
-				</div>
-			</div>
-			<div class="drives-con-container">
-				<div class="container-tx3-block darkmode-txt">
-					<span>
-					Sony Drives </span>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 Optiarc 5300S
-					</div>
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 PS3 BDD with proprietary adapter
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-				</div>
-			</div>
-			<div class="drives-con-container">
-				<div class="container-tx3-block darkmode-txt">
-					<span>
-					BenQ Drives </span>
-				</div>
-				<div class="drives-con-outer darkmode-txt">
-					<div class="drives-con-inner darkmode-txt">
-						<div class="drives-ico-bluray">
-						</div>
-						 BR1000
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-					<div class="drives-con-inner drives-txt-hidden">
-						 XX-XXXXXX
-					</div>
-				</div>
-			</div>
+			<?php include 'lib/module/inc-bdds.php';?>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="dumping_linux">
+				<div class="anchor-point" id="dumping_with_linux">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>A command-line option for Linux users</h2>
+						<h2>Dumping with Linux Command Line</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 If you're comfortable with the Linux command-line and you have a compatible BluRay drive, you can try ripping PlayStation 3 discs using a Python program called <a href="https://notabug.org/necklace/libray" target="_blank" rel="noopener noreferrer">LibRay</a>.
+							 If you're comfortable with the Linux command-line and you have a compatible Blu-ray drive, you can try ripping PlayStation 3 discs using a Python program called <a href="https://notabug.org/necklace/libray" target="_blank" rel="noopener noreferrer">LibRay</a>.
 						</p>
 						<p>
 							 Do note that this method requires an .ird file that matches your title ID to be available on <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a>. (libray will automatically attempt to download the correct .ird file, if it exists, so you do not need to do so manually.) If a matching .ird file is not present, please try the PS3 Disc Dumper mentioned below.
@@ -784,12 +392,23 @@
 					</div>
 				</div>
 			</div>
+			<div class="generic-con-button ">
+				<a href='https://notabug.org/necklace/libray' target="_blank">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/github-h.png') no-repeat center">
+					</div>
+					<div class="generic-tx1-button">
+						<span>LibRay <span class="generic-tx2-label">30KB - Necklace</span></span>
+					</div>
+				</div>
+				</a>
+			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="dumping_procedure">
+				<div class="anchor-point" id="dumping_with_disc_dumper">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>One-click easy solution</h2>
+						<h2>Dumping with Disc Dumper</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -798,17 +417,17 @@
 					</div>
 				</div>
 			</div>
-			<a href='https://github.com/13xforever/ps3-disc-dumper/releases/latest' target="_blank">
-			<div class="guide-con-content button-enabled darkmode-panel">
-				<div class='guide-ico-content' style="background: url('/img/icons/list/dumper.png') no-repeat center;">
+			<div class="generic-con-button ">
+				<a href='https://github.com/13xforever/ps3-disc-dumper/releases/latest' target="_blank">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/discdumper-h.png') no-repeat center">
+					</div>
+					<div class="generic-tx1-button">
+						<span>Disc Dumper <span class="generic-tx2-label">36 MB - 13xforever</span></span>
+					</div>
 				</div>
-				<div class="guide-tx1-heading darkmode-txt pulsate">
-					<p>
-						 PS3 Disc Dumper by 13xforever
-					</p>
-				</div>
+				</a>
 			</div>
-			</a>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
 					 1
@@ -830,11 +449,11 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<div class="anchor-point" id="dumping_procedure_manual">
+				<div class="anchor-point" id="dumping_step_by_step">
 				</div>
 				<div class='container-con-wrapper'>
 					<div class="container-tx1-block darkmode-txt">
-						<h2>Step-by-step disc dumping</h2>
+						<h2>Dumping Step-by-step</h2>
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
@@ -843,39 +462,35 @@
 					</div>
 				</div>
 			</div>
-			<div class="button-con-container">
-				<div class='reqs-con-group'>
-					<a href='/cdn/tools/patcher.zip' download>
-					<div class="reqs-con-container button-left button-enabled darkmode-panel">
-						<div class='button-ico-container' style="background: url('/img/icons/list/patcher.png') no-repeat center;">
-						</div>
-						<div class="button-tx1-text darkmode-txt pulsate">
-							 PS3 ISO Patcher by BlackDaemon
-						</div>
+			<div class="generic-con-button ">
+				<a href='/cdn/tools/patcher.zip' download>
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/patcher-h.png') no-repeat center">
 					</div>
-					</a>
-					<a href='/cdn/tools/3k3y.zip' download>
-					<div class="reqs-con-container button-right button-enabled darkmode-panel">
-						<div class='button-ico-container' style="background: url('/img/icons/list/3k3y.png') no-repeat center;">
-						</div>
-						<div class="button-tx1-text darkmode-txt pulsate">
-							 3K3Y ISO Tools by 3K3Y
-						</div>
+					<div class="generic-tx1-button">
+						<span>.iso Patcher <span class="generic-tx2-label">78 KB - BlackDaemon</span></span>
 					</div>
-					</a>
 				</div>
+				</a>
+				<a href='/cdn/tools/3k3y.zip' download>
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/3k3y-h.png') no-repeat center">
+					</div>
+					<div class="generic-tx1-button">
+						<span>.iso Tools <span class="generic-tx2-label">3.3 MB - 3K3Y</span></span>
+					</div>
+				</div>
+				</a>
+				<a href="https://www.imgburn.com" target="_blank" rel="noopener noreferrer">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/imgburn-h.png') no-repeat center">
+					</div>
+					<div class="generic-tx1-button">
+						<span>ImgBurn <span class="generic-tx2-label">3.8 MB - Lightning UK!</span></span>
+					</div>
+				</div>
+				</a>
 			</div>
-			<a href="https://www.imgburn.com" target="_blank" rel="noopener noreferrer">
-			<div class="guide-con-content button-enabled darkmode-panel">
-				<div class='guide-ico-content' style="background: url('/img/icons/list/imgburn.png') no-repeat center;">
-				</div>
-				<div class="guide-tx1-heading darkmode-txt pulsate">
-					<p>
-						 ImgBurn
-					</p>
-				</div>
-			</div>
-			</a>
 			<div class='list-con-container'>
 				<div class='list-tx1-item darkmode-txt'>
 					 1
@@ -973,7 +588,6 @@
 		</div>
 	</div>
 </div>
-<?php include 'lib/module/ui-main-footer.php';?>
-</div>
+<?php include 'lib/module/inc-footer.php';?>
 </body>
 </html>

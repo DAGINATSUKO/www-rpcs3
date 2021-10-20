@@ -33,18 +33,25 @@ $build = Build::get_latest();
 			<div class='banner-tx1-title fade-up-onstart pulsate'>
 				<h1>Download</h1>
 			</div>
+			<div class='banner-con-divider'></div>
 			<div class='banner-tx2-title fade-up-onstart'>
 				<p>
-					 Download the latest binaries, source code and public docs
+					 Download our latest releases
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+		<div class="landing-con-panel" style="background: url('/img/graphics/panels/download.jpg') no-repeat center;">
+			<div class='landing-ovr-panel'>
+				<div class='landing-tx1-panel'><h2>Immortalize Your Library</h2></div>
+			</div>
+		</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'></div>
 						<h2>Latest Builds</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -52,7 +59,6 @@ $build = Build::get_latest();
 							 RPCS3 is under steady development and the binaries we produce are highly experimental. System requirements may vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements, but you're always welcome to experiment. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase.<br>
 							 <br>
 							 If you come across any regressions upon a new release, please be sure to report your findings on our forum. See <a href="/quickstart">Quickstart</a> for more information.
-
 						</p>
 					</div>
 				</div>
@@ -62,7 +68,7 @@ $build = Build::get_latest();
 				<div class="button-con-wrapper button-left darkmode-panel">
 					<div class='button-ico-container' style="background: url('/img/icons/buttons/windows-h.png') no-repeat center;">
 					</div>
-					<div class="button-tx1-text pulsate darkmode-txt">
+					<div class="button-tx1-text darkmode-txt">
 						<span>
 						Download for Windows </span>
 					</div>
@@ -72,7 +78,7 @@ $build = Build::get_latest();
 				<div class="button-con-wrapper button-right darkmode-panel">
 					<div class='button-ico-container' style="background: url('/img/icons/buttons/linux-h.png') no-repeat center;">
 					</div>
-					<div class="button-tx1-text pulsate darkmode-txt">
+					<div class="button-tx1-text darkmode-txt">
 						<span>
 						Download for Linux </span>
 					</div>
@@ -106,10 +112,10 @@ $build = Build::get_latest();
 			<div class="binary-con-container">
 				<div class="binary-con-wrapper">
 					<div class='binary-tx1-content'>
-						<div class='binary-img-content' style="background: url('/img/icons/buttons/history.png') no-repeat center; background-size:20px;">
+						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/version.png') no-repeat center; background-size:26px;">
 						</div>
 						<span class="darkmode-txt">
-						Version </span>
+						Current Build </span>
 					</div>
 					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
@@ -118,10 +124,10 @@ $build = Build::get_latest();
 				</div>
 				<div class="binary-con-wrapper">
 					<div class='binary-tx1-content'>
-						<div class='binary-img-content' style="background: url('/img/icons/buttons/pull.png') no-repeat center; background-size:20px;">
+						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/github.png') no-repeat center; background-size:26px;">
 						</div>
 						<span class="darkmode-txt">
-						Pull Request</span>
+						Current Merge</span>
 					</div>
 					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
@@ -133,10 +139,10 @@ $build = Build::get_latest();
 				</div>
 				<div class="binary-con-wrapper">
 					<div class='binary-tx1-content'>
-						<div class='binary-img-content' style="background: url('/img/icons/buttons/size.png') no-repeat center; background-size:20px;">
+						<div class='binary-img-content darkmode-invert' style="background: url('/img/icons/buttons/filesize.png') no-repeat center; background-size:26px;">
 						</div>
 						<span class="darkmode-txt">
-						File Size</span>
+						Current Size</span>
 					</div>
 					<div class="binary-tx2-content">
 						<span class="darkmode-txt">
@@ -174,11 +180,11 @@ $build = Build::get_latest();
 				</div>
 				</a>
 				<div class="label-con-wrapper label-right darkmode-panel">
-					<div class='label-ico-container' style="background: url('/img/icons/buttons/commit.png') no-repeat center;">
+					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/commit.png') no-repeat center;">
 					</div>
 					<div class="label-tx1-text darkmode-txt">
 						<span>
-						For detailed changes, see <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> via GitHub. </span>
+						For details, see <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> via GitHub. </span>
 					</div>
 				</div>
 			</div>
@@ -197,8 +203,8 @@ $build = Build::get_latest();
 							<b>Compile on arch using AUR </b><span class="highlight darkmode-highlight">git clone https://aur.archlinux.org/rpcs3-git.git && cd rpcs3-git && makepkg -sri</span>
 						</p>
 					</div>
-					</div>
-					</div>
+				</div>
+			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -215,7 +221,6 @@ $build = Build::get_latest();
 						 </p>
 						</p>
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -236,24 +241,22 @@ $build = Build::get_latest();
 					</div>
 				</div>
 			</div>
-			<div class='button-con-container'>
+			<div class="generic-con-button ">
 				<a href='https://github.com/DAGINATSUKO/www-rpcs3' target="_blank">
-				<div class="button-con-wrapper button-left darkmode-panel">
-					<div class='button-ico-container' style="background: url('/img/icons/buttons/website-h.png') no-repeat center;">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/github-h.png') no-repeat center">
 					</div>
-					<div class="button-tx1-text darkmode-txt">
-						<span>
-						Website Repository </span>
+					<div class="generic-tx1-button">
+						<span>Website Repository <span class="generic-tx2-label">/daginatsuko</span></span>
 					</div>
 				</div>
 				</a>
 				<a href='https://github.com/AniLeo/rpcs3-compatibility' target="_blank">
-				<div class="button-con-wrapper button-right darkmode-panel">
-					<div class='button-ico-container' style="background: url('/img/icons/buttons/compat-h.png') no-repeat center;">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/github-h.png') no-repeat center">
 					</div>
-					<div class="button-tx1-text darkmode-txt">
-						<span>
-						Compatibility Repository </span>
+					<div class="generic-tx1-button">
+						<span>Compatibility Repository <span class="generic-tx2-label">/anileo</span></span>
 					</div>
 				</div>
 				</a>
@@ -265,36 +268,36 @@ $build = Build::get_latest();
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Our press kit enables those who wish to promote the project and its development through digital media. We provide high resolution assets that include objects such as our official logo, major PC platforms and public hardware documentation. All information found in the press kit was obtained by collecting and reviewing data from various sources around the web.
+							Our press kit is an amalgamation of all of the assets previewed on the <a href='/branding'>branding</a> page and more in a single package. It enables those who wish to promote the project and its development through high-quality digital media. We provide high-resolution assets such as our logo in 3 iterations, our supported operating systems, supported CPU and GPU hardware, rendering backends and much more.
+							<br><br>
+							All information found in the documentation section was obtained by collecting and reviewing data from various sources around the web.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class='button-con-container'>
+			<div class="generic-con-button ">
 				<a href='/cdn/press/Press%20Kit.zip' download>
-				<div class="button-con-wrapper button-left darkmode-panel">
-					<div class='button-ico-container' style="background: url('/img/icons/buttons/presskit-h.png') no-repeat center;">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/presskit-h.png') no-repeat center">
 					</div>
-					<div class="button-tx1-text darkmode-txt">
-						<span>
-						Download Press Kit </span>
+					<div class="generic-tx1-button">
+						<span>Download Press Kit <span class="generic-tx2-label">268 MB</span></span>
 					</div>
 				</div>
 				</a>
 				<a href='/cdn/docs/Docs.zip' download>
-				<div class="button-con-wrapper button-right darkmode-panel">
-					<div class='button-ico-container' style="background: url('/img/icons/buttons/docs-h.png') no-repeat center;">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/docs-h.png') no-repeat center">
 					</div>
-					<div class="button-tx1-text darkmode-txt">
-						<span>
-						Download Docs </span>
+					<div class="generic-tx1-button">
+						<span>Download Documentation <span class="generic-tx2-label">36 MB</span></span>
 					</div>
 				</div>
 				</a>
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/ui-main-footer.php';?>
+	<?php include 'lib/module/inc-footer.php';?>
 </div>
 </body>
 </html>
