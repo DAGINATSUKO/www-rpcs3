@@ -62,6 +62,11 @@
 										<span>Disclaimer</span>
 										</a>
 									</div>
+									<div class="footer-tx2-bound">
+										<a href="/alipay">
+										<span>Alipay</span>
+										</a>
+									</div>
 								</div>
 							</div>
 						</td>
@@ -92,6 +97,11 @@
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
+										<a href="https://github.com/RPCS3/rpcs3/pulse" target="_blank">
+										<span>Insights</span>
+										</a>
+									</div>
+									<div class="footer-tx2-bound">
 										<a href="https://github.com/RPCS3/rpcs3/issues" target="_blank">
 										<span>Issues</span>
 										</a>
@@ -117,11 +127,11 @@
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://forums.rpcs3.net" target="_blank">
-										<span>Forums</span>
+										<span>Forum</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://www.youtube.com/c/RPCS3_emu/videos" target="_blank">
+										<a href="https://www.youtube.com/c/RPCS3_emu/featured" target="_blank">
 										<span>YouTube</span>
 										</a>
 									</div>
@@ -146,7 +156,7 @@
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://github.com/RPCS3" target="_blank">
-										<span>Project</span>
+										<span>RPCS3</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">

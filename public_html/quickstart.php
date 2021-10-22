@@ -150,7 +150,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For BSD users, download the latest AppImage and make it executable with the command <span class="bsd-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage && ./rpcs3-*_linux64.AppImage</span>
+						 For BSD users, check your system package manager</span>
 					</p>
 				</div>
 			</div>

@@ -1645,7 +1645,6 @@ a:hover {
     padding: 4px 8px;
     border-radius: 30px;
     margin-left: 4px;
-    margin-right: -6px
 }
 
 .spec-con-container {
@@ -2094,7 +2093,6 @@ a:hover {
     padding: 4px 8px;
     border-radius: 30px;
     margin-left: 4px;
-    margin-right: -6px;
     color: #fff
 }
 
@@ -3952,9 +3950,9 @@ a:hover {
     position: relative;
     z-index: 1;
     width: 100%;
-    height: 250px;
+    height: 290px;
     padding-top: 56px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 
 .footer-con-outer {

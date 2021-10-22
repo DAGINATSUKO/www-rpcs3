@@ -291,7 +291,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R7 1700X (3.8GHz)</span>
+										<span>AMD R7 1700X (4.0GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -420,7 +420,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R7 2700X (3.8GHz)</span>
+										<span>AMD R7 2700X (4.0GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -473,7 +473,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (2133MHz)</span>
+										<span>16GB DDR4 (2666MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -923,22 +923,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
-						<div class='container-emp-block'>
-						</div>
-						<h2>Contributors</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 A list of the project contributors who dedicate their time and talents to push us forward.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="user-con-grouped">
 				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: #4f5972 url('/img/users/herrhulahoop.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/graphics/flags/india.png') no-repeat center; background-size: cover;">

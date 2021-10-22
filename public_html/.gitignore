@@ -12,8 +12,8 @@ favicon.ico
 googlefd778325c5a53aa8.html
 latest-appimage.php
 latest-windows.php
-lib/compat/
-lib/cronjob/
+/lib/compat/
+/lib/cronjob/
 robots.txt
 rpcs4.php
 update/
