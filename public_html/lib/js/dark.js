@@ -79,7 +79,7 @@ var dark_classes = [
 ];
 // Website dark mode setting states
 $(document).ready(function() {
-	var sel = $.cookie("save-darkmode") == "true";
+	var sel = Cookies.get("save-darkmode") == "true";
 
 	$('.toggle-darkmode').toggleClass("activate-darkmode", sel).on('click', function() {
 		dark_classes.forEach(function(item) {
@@ -89,7 +89,7 @@ $(document).ready(function() {
 		var $this = $(this);
 		sel = !sel;
 		$this.toggleClass("activate-darkmode", sel);
-		$.cookie("save-darkmode", sel, {
+		Cookies.set("save-darkmode", sel, {
 			expires: 365,
 			path: '/'
 		});

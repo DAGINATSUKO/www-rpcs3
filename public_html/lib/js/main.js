@@ -12,28 +12,28 @@ $(document).ready(function() {
 });
 // Piracy notice popup
 $(document).ready(function() {
-    var sel = $.cookie("save-piracy-policy");
-    sel = sel == "true";
-    $('.mini-menu-btn-agree').toggleClass("activate-accept", sel).on('click', function(e) {
-        $(".mini-menu-con-dimmer").toggleClass("object-hidden");
-		$(".mini-menu-con-dimmer").removeClass("object-show");
-    });
-    $(".mini-menu-btn-agree").on("click", function() {
-        var $this = $(this);
-        sel = !sel;
-        $this.toggleClass("activate-accept", sel);
-        $.cookie("save-piracy-policy", sel, {
-            expires: 365,
-            path: '/'
-        });
-    });
-    if ($('.mini-menu-btn-agree').hasClass('activate-accept')) {
-        $(".mini-menu-con-dimmer").addClass("object-hidden");
-		$(".mini-menu-con-dimmer").removeClass("object-show");
-    } else {
-        $(".mini-menu-con-dimmer").removeClass("object-hidden");
-		$(".mini-menu-con-dimmer").addClass("object-show");
-    }
+		var sel = Cookies.get("save-piracy-policy");
+		sel = sel == "true";
+		$('.mini-menu-btn-agree').toggleClass("activate-accept", sel).on('click', function(e) {
+				$(".mini-menu-con-dimmer").toggleClass("object-hidden");
+				$(".mini-menu-con-dimmer").removeClass("object-show");
+		});
+		$(".mini-menu-btn-agree").on("click", function() {
+				var $this = $(this);
+				sel = !sel;
+				$this.toggleClass("activate-accept", sel);
+				Cookies.set("save-piracy-policy", sel, {
+						expires: 365,
+						path: '/'
+				});
+		});
+		if ($('.mini-menu-btn-agree').hasClass('activate-accept')) {
+				$(".mini-menu-con-dimmer").addClass("object-hidden");
+				$(".mini-menu-con-dimmer").removeClass("object-show");
+		} else {
+				$(".mini-menu-con-dimmer").removeClass("object-hidden");
+				$(".mini-menu-con-dimmer").addClass("object-show");
+		}
 });
 
 // Landing fade-in
@@ -64,8 +64,8 @@ $(window).on("load resize", function(e) {
 	});
 });
 
-setInterval(function(){ 
-    //this code runs every second 
+setInterval(function(){
+		//this code runs every second
 
 // Dynamic scaling for landing hero
 $(document).ready(function() {
@@ -119,7 +119,7 @@ $(document).ready(function() {
 });
 // Text pulsate setting states
 $(document).ready(function() {
-	var sel = $.cookie("save-pulsate"); // Retrieve cookie
+	var sel = Cookies.get("save-pulsate"); // Retrieve cookie
 	sel = sel == "true"; // Load setting if cookie is available
 	$('.toggle-pulsate').toggleClass("activate-pulsate", sel).on('click', function(e) {
 		location.reload(); // Reload on apply
@@ -128,7 +128,7 @@ $(document).ready(function() {
 		var $this = $(this);
 		sel = !sel;
 		$this.toggleClass("activate-pulsate", sel); // If this class is available, apply setting
-		$.cookie("save-pulsate", sel, { // Save cookie
+		Cookies.set("save-pulsate", sel, { // Save cookie
 			expires: 365,
 			path: '/'
 		});
@@ -142,7 +142,7 @@ $(document).ready(function() {
 });
 // GPU transparency setting states
 $(document).ready(function() {
-	var sel = $.cookie("save-transparency"); // Retrieve cookie
+	var sel = Cookies.get("save-transparency"); // Retrieve cookie
 	sel = sel == "true"; // Load setting if cookie is available
 	$('.toggle-transparency').toggleClass("activate-transparency", sel).on('click', function(e) {
 		$('.menu-con-container').toggleClass("disable-transparency");
@@ -155,7 +155,7 @@ $(document).ready(function() {
 		var $this = $(this);
 		sel = !sel;
 		$this.toggleClass("activate-transparency", sel); // If this class is available, apply setting
-		$.cookie("save-transparency", sel, { // Save cookie
+		Cookies.set("save-transparency", sel, { // Save cookie
 			expires: 365,
 			path: '/'
 		});
@@ -175,7 +175,7 @@ $(document).ready(function() {
 });
 // GPU particles setting states
 $(document).ready(function() {
-	var sel = $.cookie("save-particles"); // Retrieve cookie
+	var sel = Cookies.get("save-particles"); // Retrieve cookie
 	sel = sel == "true"; // Load setting if cookie is available
 	$('.toggle-particles').toggleClass("activate-particles", sel).on('click', function(e) {
 		$('#object-particles').toggleClass("object-hidden");
@@ -185,7 +185,7 @@ $(document).ready(function() {
 		var $this = $(this);
 		sel = !sel;
 		$this.toggleClass("activate-particles", sel); // If this class is available, apply setting
-		$.cookie("save-particles", sel, { // Save cookie
+		Cookies.set("save-particles", sel, { // Save cookie
 			expires: 365,
 			path: '/'
 		});
@@ -199,7 +199,7 @@ $(document).ready(function() {
 });
 // GPU waves save state
 $(document).ready(function() {
-	var sel = $.cookie("save-waves"); // Retrieve cookie
+	var sel = Cookies.get("save-waves"); // Retrieve cookie
 	sel = sel == "true"; // Load setting if cookie is available
 	$('.toggle-waves').toggleClass("activate-waves", sel).on('click', function(e) {
 		$('.wavebar-con-wrap').toggleClass("object-hidden");
@@ -209,7 +209,7 @@ $(document).ready(function() {
 		var $this = $(this);
 		sel = !sel;
 		$this.toggleClass("activate-waves", sel); // If this class is available, apply setting
-		$.cookie("save-waves", sel, { // Save cookie
+		Cookies.set("save-waves", sel, { // Save cookie
 			expires: 365,
 			path: '/'
 		});
@@ -379,7 +379,7 @@ $(document).ready(function() {
 		$(".toggle-video-3").fadeOut('fast');
 	});
 	$(".page-video-1").click(function() {
-		var iframe = $("#video-1"); // Load video #1's iframe 
+		var iframe = $("#video-1"); // Load video #1's iframe
 		iframe.attr("src", iframe.data("src"));
 	});
 	$(".page-video-2").click(function() {
@@ -432,17 +432,17 @@ $(document).ready(function() {
 });
 // Scroll back to top
 $(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 250) {
-            $('.menu-btn-backtotop').show();
-        } else {
-            $('.menu-btn-backtotop').hide();
-        }
-    });
-    $('.menu-btn-backtotop').click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 400);
-        return false;
-    });
+		$(window).scroll(function () {
+				if ($(this).scrollTop() > 250) {
+						$('.menu-btn-backtotop').show();
+				} else {
+						$('.menu-btn-backtotop').hide();
+				}
+		});
+		$('.menu-btn-backtotop').click(function () {
+				$("html, body").animate({
+						scrollTop: 0
+				}, 400);
+				return false;
+		});
 });
