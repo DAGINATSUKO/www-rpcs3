@@ -970,7 +970,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (3200MHz)</span>
+										<span>32GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
