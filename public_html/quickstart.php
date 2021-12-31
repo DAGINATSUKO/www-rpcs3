@@ -150,7 +150,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For BSD users, check your system package manager</span>
+						 For BSD users, check your system package manager
 					</p>
 				</div>
 			</div>
@@ -184,13 +184,13 @@
 						<br>
 						<p>
 							 Both Blu-ray and PlayStation Network titles (PSN) must be placed into a single folder with their respective files and the folder name must correspond to the title's ID. If you are not sure what your dumped title's region ID is, you can find your region ID on the bottom side-edge of your game case. If you are no longer in possession of your title's game case or your title is only accessible through PSN, you can do an internet search for <span class="highlight darkmode-highlight">"Your game name here</span> + <span class="highlight darkmode-highlight">region ID"</span>. Please note that it is very important that you use the correct region ID. <br>
-							<br>
-							<p>
-								 Typical layout of a Blu-ray disc title's directory: <span class="highlight darkmode-highlight">PS3_GAME folder, PS3_DISC.sfb, PS3_UPDATE folder (not required)</span>
-							</p>
-							<p>
-								 Typical layout of a PSN title's directory: <span class="highlight darkmode-highlight">TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc</span>
-							</p>
+						</p>
+						<br>
+						<p>
+							 Typical layout of a Blu-ray disc title's directory: <span class="highlight darkmode-highlight">PS3_GAME folder, PS3_DISC.sfb, PS3_UPDATE folder (not required)</span>
+						</p>
+						<p>
+							 Typical layout of a PSN title's directory: <span class="highlight darkmode-highlight">TROPDIR folder, USRDIR folder, ICON0.png, PARAM.sfo, etc</span>
 						</p>
 					</div>
 				</div>
