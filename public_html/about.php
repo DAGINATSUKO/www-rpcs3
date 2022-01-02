@@ -225,7 +225,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i7-10920X (3.9GHz)</span>
+										<span>Intel i9-10920X (3.9GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -291,7 +291,14 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R7 1700X (4.0GHz)</span>
+										<span>AMD R9 5900X (4.6GHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Radeon RX 6700 XT</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -299,13 +306,6 @@
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
 										<span>NVIDIA GTX 1050 Ti</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-specbox">
-									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part darkmode-txt">
-										<span>Radeon RX 480</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -420,7 +420,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R7 2700X (4.0GHz)</span>
+										<span>AMD R7 5800X (4.6GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -434,7 +434,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (3200MHz)</span>
+										<span>16GB DDR4 (3600MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -473,7 +473,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (2666MHz)</span>
+										<span>16GB DDR4 (2133MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -520,7 +520,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R9 5950X (4.7GHz)</span>
+										<span>Intel i9-12900K (5.4GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -534,7 +534,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR4 (3733MHz)</span>
+										<span>32GB DDR5 (5200MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -857,7 +857,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Windows 10</span>
+										<span>Linux</span>
 									</div>
 								</div>
 							</div>
@@ -1064,65 +1064,6 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #36393f url('/img/users/rajkosto.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/graphics/flags/serbia.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							rajkosto</span>
-							<span class="user-con-role user-role-contributor">
-							Project Contributor </span>
-						</div>
-						<div class='user-con-divider role-contributor darkmode-divider'>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-						<div class="user-con-specsheet">
-							<div class="user-con-specbox">
-								<div class="specbox-con-part darkmode-specbox">
-									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part darkmode-txt">
-										<span>Desktop</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-specbox">
-									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-9900KS (5.0GHz)</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-specbox">
-									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part darkmode-txt">
-										<span>NVIDIA GTX 1080 Ti</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-specbox">
-									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (3200MHz)</span>
-									</div>
-								</div>
-								<div class="specbox-con-part darkmode-specbox">
-									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
-									</div>
-									<div class="specbox-tx1-part darkmode-txt">
-										<span>Windows 10</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
 						</div>
@@ -1153,14 +1094,14 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R7 3800X (3.9GHz)</span>
+										<span>AMD R9 5950X (4.7GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Radeon RX 5700 XT</span>
+										<span>Radeon RX 6700 XT</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1241,26 +1182,6 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: url('/img/users/farseer.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							Farseer </span>
-							<span class="user-con-role user-role-contributor">
-							Project Contributor </span>
-						</div>
-						<div class='user-con-divider role-contributor darkmode-divider'>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/clienthax.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/graphics/flags/england.png') no-repeat center; background-size: cover;">
 						</div>
@@ -1298,7 +1219,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>NVIDIA GTX 2080 Ti</span>
+										<span>NVIDIA RTX 3090</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1370,7 +1291,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-11900K (5.4GHz)</span>
+										<span>Intel i9-12900K (5.3GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1384,14 +1305,14 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (4000MHz)</span>
+										<span>32GB DDR5 (6800MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Windows 10</span>
+										<span>Windows 11</span>
 									</div>
 								</div>
 							</div>
@@ -1478,46 +1399,6 @@
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/scribam.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/graphics/flags/european-union.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							scribam </span>
-							<span class="user-con-role user-role-contributor">
-							Project Contributor </span>
-						</div>
-						<div class='user-con-divider role-contributor darkmode-divider'>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
-					<div class='user-img-avatar' style="background: #e68364 url('/img/users/raven02.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
-						</div>
-					</div>
-					<div class="user-con-wrapper">
-						<div class='user-tx1-content darkmode-txt'>
-							<span class="user-tx2-member ">
-							raven02 </span>
-							<span class="user-con-role user-role-contributor">
-							Project Contributor </span>
-						</div>
-						<div class='user-con-divider role-contributor darkmode-divider'>
-						</div>
-						<div class='user-tx3-content darkmode-txt'>
-							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
-						</div>
-					</div>
-				</div>
-				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/asinine.png') no-repeat center; background-size: cover;">
 						<div class='user-img-flag' style="background: url('/img/graphics/flags/australia.png') no-repeat center; background-size: cover;">
 						</div>
@@ -1555,7 +1436,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>NVIDIA GTX 1080 Ti</span>
+										<span>NVIDIA RTX 3080</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1848,6 +1729,86 @@
 								Project Developer </span>
 							</div>
 							<div class='user-con-divider role-former darkmode-divider'>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: #e68364 url('/img/users/scribam.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/european-union.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								scribam </span>
+								<span class="user-con-role user-role-contributor">
+								Project Contributor </span>
+							</div>
+							<div class='user-con-divider role-contributor darkmode-divider'>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: #e68364 url('/img/users/raven02.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								raven02 </span>
+								<span class="user-con-role user-role-contributor">
+								Project Contributor </span>
+							</div>
+							<div class='user-con-divider role-contributor darkmode-divider'>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: #36393f url('/img/users/rajkosto.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/serbia.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								rajkosto</span>
+								<span class="user-con-role user-role-contributor">
+								Project Contributor </span>
+							</div>
+							<div class='user-con-divider role-contributor darkmode-divider'>
+							</div>
+							<div class='user-tx3-content darkmode-txt'>
+								<span>
+								There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							</div>
+						</div>
+					</div>
+					<div class="user-con-content darkmode-txt">
+						<div class='user-img-avatar' style="background: url('/img/users/farseer.png') no-repeat center; background-size: cover;">
+							<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
+							</div>
+						</div>
+						<div class="user-con-wrapper">
+							<div class='user-tx1-content darkmode-txt'>
+								<span class="user-tx2-member ">
+								Farseer </span>
+								<span class="user-con-role user-role-contributor">
+								Project Contributor </span>
+							</div>
+							<div class='user-con-divider role-contributor darkmode-divider'>
 							</div>
 							<div class='user-tx3-content darkmode-txt'>
 								<span>
