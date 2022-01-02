@@ -71,9 +71,9 @@
 								<div class="build-btn-button">
 									<div class="build-ico-button">
 										<div class="build-ico-os">
-											<img src="img/icons/os/windows.png" style='height: 100%; width: 100%; object-fit: contain'/>
-											<img src="img/icons/os/linux.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-											<img src="img/icons/os/bsd.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+											<img alt="Windows" src="img/icons/os/windows.png" style='height: 100%; width: 100%; object-fit: contain'/>
+											<img alt="Linux"   src="img/icons/os/linux.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+											<img alt="FreeBSD" src="img/icons/os/bsd.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
 										</div>
 									</div>
 									<a href="/download">
@@ -136,13 +136,13 @@
 	</div>
 	<div class="landing-con-discord darkmode-discord">
 		<div class="discord-left-logo">
-			<img src="/img/graphics/svg/discord-left.svg" style="width: 100%; height: 100%;">
+			<img alt="Discord Left Banner" src="/img/graphics/svg/discord-left.svg" style="width: 100%; height: 100%;">
 		</div>
 		<div class="discord-center-logo">
-			<img src="/img/graphics/svg/discord-center.svg" style="width: 100%; height: 100%;">
+			<img alt="Discord Logo" src="/img/graphics/svg/discord-center.svg" style="width: 100%; height: 100%;">
 		</div>
 		<div class="discord-right-logo">
-			<img src="/img/graphics/svg/discord-right.svg" style="width: 100%; height: 100%;">
+			<img alt="Discord Right Banner" src="/img/graphics/svg/discord-right.svg" style="width: 100%; height: 100%;">
 		</div>
 		<div class="content-con-outside">
 			<div class="content-con-inside">

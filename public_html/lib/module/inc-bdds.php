@@ -208,7 +208,6 @@
 		</div>
 		<div class='container-emp-block'>
 		</div>
-		<span>
 		<span>Samsung Drives </span>
 	</div>
 	<div class="drives-con-divider darkmode-divider">
@@ -242,7 +241,6 @@
 		</div>
 		<div class='container-emp-block'>
 		</div>
-		<span>
 		<span>LITE-ON Drives </span>
 	</div>
 	<div class="drives-con-divider darkmode-divider">

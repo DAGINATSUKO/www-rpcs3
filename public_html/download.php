@@ -218,7 +218,6 @@ $build = Build::get_latest();
 							 <b>Install as a package </b><span class="highlight darkmode-highlight">pkg install rpcs3</span>
 							 <br>
 							 <b>Compile using ports </b><span class="highlight darkmode-highlight">cd /usr/ports/emulators/rpcs3/ && make install clean</span>
-						 </p>
 						</p>
 					</div>
 				</div>

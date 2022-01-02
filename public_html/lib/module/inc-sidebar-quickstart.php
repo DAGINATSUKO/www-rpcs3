@@ -1,4 +1,3 @@
-<body>
 <div class="sidebar-btn-open nav-standard scale-menu-btn-remove">
 </div>
 <div class='sidebar-con-dimmer toggle-navsidebar' style="display:block">
