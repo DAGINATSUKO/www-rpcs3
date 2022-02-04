@@ -41,6 +41,8 @@ var dark_classes = [
 	{"base": ".darkmode-specbox", "toggle": "dm-specbox"},
 	{"base": ".darkmode-menu", "toggle": "dm-menu"},
 	{"base": ".menu-ico-logo", "toggle": "dm-menu-ico-logo"},
+	{"base": ".downloadable-con-inner-a", "toggle": "dm-bg-2"},
+	{"base": ".version-con-container", "toggle": "dm-bg-2"},
 	// Compatibility
 	{"base": ".compat-text", "toggle": "dm-txt"},
 	{"base": ".compat-menu a", "toggle": "dm-compat-menu"},

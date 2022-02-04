@@ -3,11 +3,25 @@
 <head>
 <title>RPCS3 - About</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, bsd, open source, nekotekina, kd11, about">
-<meta name="author" content="RPCS3">
-<meta name="copyright" content="RPCS3">
+<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of this project is to accurately emulate the PlayStation 3 in its entirety with the power of reverse engineering and community collaboration.">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, about">
 <?php include 'lib/module/sys-meta.php';?>
+<meta property="og:title" content="RPCS3 - The PlayStation 3 Emulator" />
+<meta property="og:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering." />
+<meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://rpcs3.net" />
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="RPCS3" />
+
+<meta name="twitter:title" content="RPCS3 - The PlayStation 3 Emulator">
+<meta name="twitter:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering.">
+<meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
+<meta name="twitter:site" content="@rpcs3">
+<meta name="twitter:creator" content="@rpcs3">
+<meta name="twitter:card" content="summary_large_image">
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 </head>
@@ -58,7 +72,7 @@
 							</div>
 							<div class='container-tx2-block darkmode-txt'>
 								<p>
-									 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. The purpose of the project is to completely and accurately emulate the Sony PlayStation 3 Computer Entertainment System in its entirety with the power of open-source community and reverse engineering. <br>
+									 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of the project is to completely and accurately emulate the Sony PlayStation 3 Computer Entertainment System in its entirety with the power of open-source community and reverse engineering. <br>
 									<br>
 									 Our goal is to preserve the legacy of the PlayStation 3 hardware and its vast library by bringing it and its exclusives to the PC platform. We want to achieve this by targeting and supporting multiple operating systems as well as being compatible with a wide range of computer hardware with realistic requirements.
 								</p>
@@ -520,7 +534,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-12900K (5.4GHz)</span>
+										<span>Intel i9-12900K (5.5GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -534,7 +548,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR5 (5200MHz)</span>
+										<span>32GB DDR5 (6200MHz C28)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -559,7 +573,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-10900K (5.0GHz)</span>
+										<span>Intel i9-10900K (5.4GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -573,7 +587,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (4200MHz)</span>
+										<span>16GB DDR4 (4266MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1035,7 +1049,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i7-6700K (4.4GHz)</span>
+										<span>Intel i9-12900K (Stock)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1049,7 +1063,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR4 (2400MHz)</span>
+										<span>32GB DDR4 (3600MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1305,7 +1319,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR5 (6800MHz)</span>
+										<span>32GB DDR5 (6200MHz C28)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">

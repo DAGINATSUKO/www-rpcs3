@@ -199,7 +199,7 @@
 								<div class="footer-ico-developer" style="background: url('/img/users/daginatsuko.png') center / cover no-repeat;">
 								</div>
 								<a href="https://daginatsuko.com" target="_blank">
-								<span>Website by DAGINATSUKO © 2021</span>
+								<span>Website by DAGINATSUKO © 2022</span>
 								</a>
 							</div>
 						</div>

@@ -73,6 +73,8 @@
 				<span>Windows 10 21H1 or newer</span><br><br>
 				<p>Linux</p>
 				<span>Linux 5.13 (Latest), 5.10 (LTS) or newer</span><br><br>
+				<p>macOS</p>
+				<span>macOS Monterey 12.0 or newer</span><br><br>
 				<p>FreeBSD</p>
 				<span>FreeBSD 13.0 or newer</span>
 				</div>
@@ -154,6 +156,8 @@
 					<span>Windows 7 SP1, Windows 8.1, Windows 10 2004 or newer</span><br><br>
 					<p>Linux</p>
 					<span>Linux 5.4 (Older LTS), Ubuntu 18.04 or newer</span><br><br>
+					<p>macOS</p>
+					<span>macOS Big Sur 11.0 or newer</span><br><br>
 					<p>FreeBSD</p>
 					<span>FreeBSD 12.2 or newer</span>
 					</div>

@@ -1,5 +1,5 @@
 <div class='menu-con-release'>
-	<span>Website Release Preview 2021.10.22</span>
+	<span>Website Release Preview 2021.12.05</span>
 </div>
 <div class='mini-menu-con-dimmer'>
 	<div class='mini-menu-con-container'>

@@ -3,11 +3,25 @@
 <head>
 <title>RPCS3 - FAQs</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, bsd, open source, nekotekina, kd11, faq">
-<meta name="author" content="RPCS3">
-<meta name="copyright" content="RPCS3">
+<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of this project is to accurately emulate the PlayStation 3 in its entirety with the power of reverse engineering and community collaboration.">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, faq">
 <?php include 'lib/module/sys-meta.php';?>
+<meta property="og:title" content="RPCS3 - The PlayStation 3 Emulator" />
+<meta property="og:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering." />
+<meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://rpcs3.net" />
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="RPCS3" />
+
+<meta name="twitter:title" content="RPCS3 - The PlayStation 3 Emulator">
+<meta name="twitter:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering.">
+<meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
+<meta name="twitter:site" content="@rpcs3">
+<meta name="twitter:creator" content="@rpcs3">
+<meta name="twitter:card" content="summary_large_image">
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 </head>
@@ -216,20 +230,6 @@
 						<p>
 							 We don't work on developing a game X or Y emulator, we work on developing a PlayStation 3 emulator.<br>
 							 Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
-						<div class='container-emp-block'>
-						</div>
-						<h2>Will RPCS3 be ported to platform X or include feature Y?</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 As long as the platform is powerful enough to emulate the PlayStation 3, probably yes. At the moment we only target Windows, Linux and BSD. macOS is not supported at the moment because it only supports up to OpenGL 4.1 and doesn't support Vulkan either. The same applies to additional features. If they are reasonable and are requested by enough people, we will most likely agree and implement it. For now, we consider the emulator itself our biggest priority rather than all the other secondary features such as GUI translations, PlayStation Move support, etc.
 						</p>
 					</div>
 				</div>

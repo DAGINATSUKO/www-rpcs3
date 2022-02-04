@@ -4,7 +4,7 @@
     font-style: inherit;
     margin: 0;
     padding: 0;
-    color: inherit;
+    color: inherit
 }
 
 @font-face {
@@ -558,7 +558,7 @@ a:hover {
     position: fixed;
     width: auto;
     height: 22px;
-    background: rgb(0 0 0 / 10%);
+    background: rgb(0 0 0/10%);
     z-index: 1111;
     bottom: 10px;
     left: 10px;
@@ -571,6 +571,7 @@ a:hover {
     padding-right: 10px;
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
+    display: none
 }
 
 .mobile-menu-con-container {
@@ -621,7 +622,7 @@ a:hover {
     color: #4e34c9;
     -webkit-box-shadow: rgba(0,0,0,.1) 10px 10px 32px 0;
     box-shadow: rgba(0,0,0,.1) 10px 10px 32px 0;
-    background: hsl(0 0% 100% / 0.9) !important
+    background: hsl(0 0% 100%/0.9)!important
 }
 
 .mobile-menu-con-scroll::-webkit-scrollbar {
@@ -686,7 +687,7 @@ a:hover {
     animation-duration: .5s;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    float: left;
+    float: left
 }
 
 .mobile-menu-btn-spacer {
@@ -1347,27 +1348,27 @@ a:hover {
     z-index: 9999;
     overflow: hidden scroll;
     width: 378px;
-    -webkit-transition: all 0.2s ease-in-out 0s;
-    -o-transition: all 0.2s ease-in-out 0s;
-    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
     -webkit-animation-name: fadeInLeft;
-            animation-name: fadeInLeft;
-    -webkit-animation-duration: 0.2s;
-            animation-duration: 0.2s;
+    animation-name: fadeInLeft;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
     -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
+    animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
-            backdrop-filter: blur(12px) saturate(500%);
-    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 64px 0px;
-            box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 64px 0px;
+    backdrop-filter: blur(12px) saturate(500%);
+    -webkit-box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
+    box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     display: block;
     position: fixed;
     height: auto;
-    inset: 0px;
+    inset: 0;
     margin: 20px;
     border-radius: 12px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    background: rgba(17, 21, 37, 0.9) !important;
+    border: 2px solid rgba(255,255,255,.1);
+    background: rgba(17,21,37,.9)!important
 }
 
 .blogbar-con-anim::-webkit-scrollbar {
@@ -1377,15 +1378,15 @@ a:hover {
 
 .blogbar-tx1-title {
     font-family: Roboto-Bold;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 70px;
     position: relative;
     z-index: 2;
     height: 70px;
     padding-left: 20px;
-    color: rgb(255, 255, 255);
-    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    background: rgba(0,0,0,.1)
 }
 
 .banner-con-container {
@@ -1418,12 +1419,12 @@ a:hover {
 
 .banner-tx1-title {
     font-family: Roboto-Bold;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 45px;
     line-height: 80px;
     height: 80px;
     text-align: center;
-    color: #fff;
+    color: #fff
 }
 
 .banner-tx1-title span {
@@ -1644,7 +1645,7 @@ a:hover {
     background: rgba(255,255,255,.2);
     padding: 4px 8px;
     border-radius: 30px;
-    margin-left: 4px;
+    margin-left: 4px
 }
 
 .spec-con-container {
@@ -2097,14 +2098,15 @@ a:hover {
 }
 
 .build-ico-os {
-    position:relative;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 100%
 }
+
 .build-ico-os img {
-    position:absolute;
-    top:0;
-    left:0;
+    position: absolute;
+    top: 0;
+    left: 0
 }
 
 .landing-ico-logo {
@@ -2992,159 +2994,178 @@ a:hover {
 }
 
 .palette-con-container {
-	width:100%;
-	height: 180px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
+
 .palette-con-outer {
-	width:33.3333333333%;
-	height:100%;
-	position:relative;
-	float:left;
+    width: 33.3333333333%;
+    height: 100%;
+    position: relative;
+    float: left
 }
+
 .palette-con-inner-a {
-	height:100%;
-	border-radius:12px;
-	background-color:#32353a;
-	background-image:-o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),-o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
-	background-image:linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
-	background-size:30px 30px;
-	background-position:0 0,45px 45px;
-	-webkit-box-shadow:rgb(0 0 0 / 20%) 0 10px 16px 0px;
-	        box-shadow:rgb(0 0 0 / 20%) 0 10px 16px 0px;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #32353a;
+    background-image: -o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),-o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
+    background-image: linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
+    background-size: 30px 30px;
+    background-position: 0 0,45px 45px;
+    -webkit-box-shadow: rgb(0 0 0/20%) 0 10px 16px 0;
+    box-shadow: rgb(0 0 0/20%) 0 10px 16px 0
 }
+
 .palette-con-inner-b {
-	margin-left:20px;
-	margin-right:20px;
-	height:100%;
-	border-radius:12px;
-	background-color:#fff;
-	background-image:-o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),-o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
-	background-image:linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
-	background-size:30px 30px;
-	background-position:0 0,45px 45px;
-	-webkit-box-shadow:rgb(0 0 0 / 20%) 0 10px 16px 0px;
-	        box-shadow:rgb(0 0 0 / 20%) 0 10px 16px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    background-image: -o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),-o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
+    background-image: linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
+    background-size: 30px 30px;
+    background-position: 0 0,45px 45px;
+    -webkit-box-shadow: rgb(0 0 0/20%) 0 10px 16px 0;
+    box-shadow: rgb(0 0 0/20%) 0 10px 16px 0
 }
+
 .palette-con-text h3 {
-	font-family:Roboto-Bold;
-	font-size:24px;
-	line-height:26px;
-	color:#fff;
-	height:24px;
-	padding-left:20px;
-	padding-top:20px;
-	margin-bottom: 15px;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #fff;
+    height: 24px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px
 }
+
 .palette-con-text p {
-	font-family:'Roboto-Regular';
-	font-size: 16px;
-	line-height:18px;
-	color:#fff;
-	height:18px;
-	padding-left:20px;
-	padding-top:5px;
+    font-family: roboto-regular;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    height: 18px;
+    padding-left: 20px;
+    padding-top: 5px
 }
+
 .palette-con-text-bold {
-	color:rgb(255 255 255 / 50%);
-	font-family:'Roboto-Bold';
+    color: rgb(255 255 255/50%);
+    font-family: roboto-bold
 }
+
 .palette-con-image {
-	background:red;
-	width:250px;
-	height:100px;
-	margin-right:20px;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-left:-125px;
-	margin-top:-50px;
+    background: red;
+    width: 250px;
+    height: 100px;
+    margin-right: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: -50px
 }
+
 .palette-con-download {
-	margin-right:20px;
-	height:28px;
-	position:relative;
-	bottom:-120px;
-	right:-24px;
+    margin-right: 20px;
+    height: 28px;
+    position: relative;
+    bottom: -120px;
+    right: -24px
 }
+
 .palette-btn-download {
-	width:auto;
-	height:20px;
-	background:rgb(0 0 0 / 30%);
-	font-family:Roboto-Regular;
-	font-size:14px;
-	line-height:20px;
-	position:relative;
-	color:#fff;
-	padding:4px 10px;
-	float:right;
-	border-radius:6px;
-	margin-right:12px;
-	-webkit-backdrop-filter:blur(5px);
-	        backdrop-filter:blur(5px);
-	border:solid 2px rgb(255 255 255 / 10%);
-	-webkit-transition: all 0.1s ease-in-out 0s;
-	-o-transition: all 0.1s ease-in-out 0s;
-	transition: all 0.1s ease-in-out 0s;
+    width: auto;
+    height: 20px;
+    background: rgb(0 0 0/30%);
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    color: #fff;
+    padding: 4px 10px;
+    float: right;
+    border-radius: 6px;
+    margin-right: 12px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: solid 2px rgb(255 255 255/10%);
+    -webkit-transition: all .1s ease-in-out 0s;
+    -o-transition: all .1s ease-in-out 0s;
+    transition: all .1s ease-in-out 0s
 }
+
 .palette-btn-download:hover {
-    background:#1abc9c;
-	border:solid 2px #49ffdb;
+    background: #1abc9c;
+    border: solid 2px #49ffdb
 }
+
 .palette-swatch-a {
-	background-image:none;
-	background:#686de0;
-	-webkit-box-shadow:rgb(104 109 224 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(104 109 224 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #686de0;
+    -webkit-box-shadow: rgb(104 109 224/50%) 0 10px 16px 0;
+    box-shadow: rgb(104 109 224/50%) 0 10px 16px 0
 }
+
 .palette-swatch-b {
-	background-image:none;
-	background:#4e34c9;
-	-webkit-box-shadow:rgb(78 52 201 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(78 52 201 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #4e34c9;
+    -webkit-box-shadow: rgb(78 52 201/50%) 0 10px 16px 0;
+    box-shadow: rgb(78 52 201/50%) 0 10px 16px 0
 }
+
 .palette-swatch-c {
-	background-image:none;
-	background:#2e1f78;
-	-webkit-box-shadow:rgb(46 31 120 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(46 31 120 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #2e1f78;
+    -webkit-box-shadow: rgb(46 31 120/50%) 0 10px 16px 0;
+    box-shadow: rgb(46 31 120/50%) 0 10px 16px 0
 }
+
 .palette-swatch-d {
-	background-image:none;
-	background:#212947;
-	-webkit-box-shadow:rgb(33 41 71 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(33 41 71 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #212947;
+    -webkit-box-shadow: rgb(33 41 71/50%) 0 10px 16px 0;
+    box-shadow: rgb(33 41 71/50%) 0 10px 16px 0
 }
+
 .palette-swatch-e {
-	background-image:none;
-	background:#191f36;
-	-webkit-box-shadow:rgb(25 31 54 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(25 31 54 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #191f36;
+    -webkit-box-shadow: rgb(25 31 54/50%) 0 10px 16px 0;
+    box-shadow: rgb(25 31 54/50%) 0 10px 16px 0
 }
+
 .palette-swatch-f {
-	background-image:none;
-	background:#111525;
-	-webkit-box-shadow:rgb(17 21 37 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(17 21 37 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #111525;
+    -webkit-box-shadow: rgb(17 21 37/50%) 0 10px 16px 0;
+    box-shadow: rgb(17 21 37/50%) 0 10px 16px 0
 }
+
 .palette-swatch-g {
-	background-image:none;
-	background:#03A9F4;
-	-webkit-box-shadow:rgb(3 169 244 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(3 169 244 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #03a9f4;
+    -webkit-box-shadow: rgb(3 169 244/50%) 0 10px 16px 0;
+    box-shadow: rgb(3 169 244/50%) 0 10px 16px 0
 }
+
 .palette-swatch-h {
-	background-image:none;
-	background:#ff3434;
-	-webkit-box-shadow:rgb(255 52 52 / 50%) 0 10px 16px 0px;
-	        box-shadow:rgb(255 52 52 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #ff3434;
+    -webkit-box-shadow: rgb(255 52 52/50%) 0 10px 16px 0;
+    box-shadow: rgb(255 52 52/50%) 0 10px 16px 0
 }
+
 .palette-swatch-i {
-	background-image:none;
-	background:#ff9f43;
-	-webkit-box-shadow: rgb(255 159 67 / 50%) 0 10px 16px 0px;
-	        box-shadow: rgb(255 159 67 / 50%) 0 10px 16px 0px;
+    background-image: none;
+    background: #ff9f43;
+    -webkit-box-shadow: rgb(255 159 67/50%) 0 10px 16px 0;
+    box-shadow: rgb(255 159 67/50%) 0 10px 16px 0
 }
 
 .user-con-content {
@@ -3488,8 +3509,8 @@ a:hover {
 .button-con-container {
     position: relative;
     height: 64px;
-    margin-bottom: 20px;
-	z-index:1;
+    padding-bottom: 40px;
+    z-index: 1;
 }
 
 .button-con-wrapper {
@@ -3952,7 +3973,7 @@ a:hover {
     width: 100%;
     height: 290px;
     padding-top: 56px;
-    padding-bottom: 50px;
+    padding-bottom: 50px
 }
 
 .footer-con-outer {

@@ -1,5 +1,5 @@
 <script data-cfasync="false" src='/lib/js/jquery.js'></script>
-<script data-cfasync="false" src='/lib/js/dark.js'></script>
+<script data-cfasync="false" src='/lib/js/dark.js?v8'></script>
 <script data-cfasync="false" src='/lib/js/main.js'></script>
 <script data-cfasync="false" src='/lib/js/jscookie.js'></script>
 <script data-cfasync="false" src='/lib/js/particles.js'></script>

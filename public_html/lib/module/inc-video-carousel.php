@@ -21,8 +21,8 @@
 							<div class="video-tx1-description darkmode-txt scale-content-txt-4">
 								<div class='video-emp-block'>
 								</div>
-								<h2>Improved Graphical Accuracy</h2>
-								<h3>Over the past few months, lead graphics developer, kd-11 has made a slew of changes improving RPCS3's GPU accuracy which has fixed many graphical issues including those seen in God of War 3, Infamous 2, Dante's Inferno, The Darkness and more.</h3>
+								<h2>PlayStation 3 XMB Is Now Bootable</h2>
+								<h3>For the first time ever, RPCS3 now capable of booting into VSH, also known as the VirtualShell. This handles the XrossMediaBar that most PlayStation 3 players are familar with. The XMB  is used to launch games, browse media, manage settings and much more.</h3>
 							</div>
 						</div>
 					</div>
@@ -48,8 +48,8 @@
 							<div class="video-tx1-description darkmode-txt scale-content-txt-5">
 								<div class='video-emp-block'>
 								</div>
-								<h2>AMD FidelityFX Super Resolution</h2>
-								<h3>RPCS3 is the first ever emulator to implement AMD's FidelityFX Super Resolution upscaling technology. We use AMD FSR to computationally upscale PlayStation 3 titles for maximum clarity, and for select titles that do not work with native resolution scaling.</h3>
+								<h2>Improved Graphical Accuracy</h2>
+								<h3>Recently, lead graphics developer kd-11 improved RPCS3's immediate mode rendering and linear cubemap decoding which fixed broken lighting in many Insomniac games and fixed dynamic shadows in Naughty Dog games along with a handful of other titles.</h3>
 							</div>
 						</div>
 					</div>
@@ -75,8 +75,8 @@
 							<div class="video-tx1-description darkmode-txt scale-content-txt-6">
 								<div class='video-emp-block'>
 								</div>
-								<h2>All Sly Games Are Now Playable</h2>
-								<h3>For the first time ever, all Sly Cooper games are now fully playable from start to finish with support for 4K and beyond. This also includes various fixes for rendering bugs like scaling for character outlines, faster draw call performance and much more.</h3>
+								<h2>Improved Graphical Accuracy</h2>
+								<h3>Over the past few months, lead graphics developer, kd-11 has made a slew of changes improving RPCS3's GPU accuracy which has fixed many graphical issues including those seen in God of War 3, Infamous 2, Dante's Inferno, The Darkness and more.</h3>
 							</div>
 						</div>
 					</div>
