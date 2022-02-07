@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-<title>RPCS3 - Download (Beta)</title>
+<title>RPCS3 - Download</title>
 <meta charset="utf-8">
 <meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of this project is to accurately emulate the PlayStation 3 in its entirety with the power of reverse engineering and community collaboration.">
 <meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, download">
@@ -209,7 +209,7 @@ $build = Build::get_latest();
 							<span>macOS</span>
 						</div>
 						<div class='downloadable-tx2-desc darkmode-txt'>
-							<span>Users can expect to run RPCS3 on the latest performance iMacs and MacBooks with support for M1 and Intel Macs with dedicated graphics.</span>
+							<span>Users can expect to run RPCS3 on the latest performance Macs with support for M1 and Intel Macs with dedicated graphics on macOS 11.6 or later.</span>
 						</div>
 						<div class='sha2-tx1-title darkmode-txt'>
 							<span>SHA-256</span>

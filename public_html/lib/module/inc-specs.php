@@ -72,7 +72,7 @@
 				<p>Windows</p>
 				<span>Windows 10 21H1 or newer</span><br><br>
 				<p>Linux</p>
-				<span>Linux 5.13 (Latest), 5.10 (LTS) or newer</span><br><br>
+				<span>Linux 5.16 (Latest), 5.15 (LTS) or newer</span><br><br>
 				<p>macOS</p>
 				<span>macOS Monterey 12.0 or newer</span><br><br>
 				<p>FreeBSD</p>
@@ -110,7 +110,7 @@
 					<div class="item-tx1-title"><h3>GPU</h3></div>
 					<div class="item-tx2-desc">
 					<p>AMD - OpenGL 4.3 compatible or newer</p>
-					<span>AMD Southern Islands architecture, HD 7000 series or newer</span><br><br>
+					<span>AMD Evergreen architecture, HD 5000 series or newer</span><br><br>
 					<p>NVIDIA - OpenGL 4.3 compatible or newer</p>
 					<span>NVIDIA Fermi architecture, GTX 400 series or newer</span>
 					</div>
@@ -157,7 +157,7 @@
 					<p>Linux</p>
 					<span>Linux 5.4 (Older LTS), Ubuntu 18.04 or newer</span><br><br>
 					<p>macOS</p>
-					<span>macOS Big Sur 11.0 or newer</span><br><br>
+					<span>macOS Big Sur 11.6 or newer</span><br><br>
 					<p>FreeBSD</p>
 					<span>FreeBSD 12.2 or newer</span>
 					</div>

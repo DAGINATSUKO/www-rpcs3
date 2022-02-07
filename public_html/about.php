@@ -612,7 +612,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i7-9880H (4.8GHz)</span>
+										<span>Intel i9-9880H (4.8GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
