@@ -126,7 +126,7 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 We currently have support for the The PlayStation Eye Camera, however PlayStation 3 Move controller support is still under development.
+							 We currently have support for the PlayStation Eye Camera, however PlayStation 3 Move controller support is still under development.
 						</p>
 					</div>
 				</div>
