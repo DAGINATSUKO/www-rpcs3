@@ -112,7 +112,7 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 We currently support keyboard / mouse inputs and native DualShock 3/4 controllers. We plan to add additional input methods in the future as we implement more meaningful features to the emulator.
+							 We currently support keyboard / mouse inputs and native DualShock 3/4 & DualSense controllers. We plan to add additional input methods in the future as we implement more meaningful features to the emulator.
 						</p>
 					</div>
 				</div>
@@ -126,7 +126,7 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 We currently don't have support for additional PlayStation 3 peripherals such as the PlayStation 3 Move controller(s) or the PlayStation Eye Camera. We plan to add support for them in the future once development is farther along or if a contributor implements compatibility for said peripheral beforehand.
+							 We currently have support for the The PlayStation Eye Camera, however PlayStation 3 Move controller support is still under development.
 						</p>
 					</div>
 				</div>
