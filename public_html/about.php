@@ -1428,7 +1428,7 @@
 						</div>
 						<div class='user-tx3-content darkmode-txt'>
 							<span>
-							There is currently no description available for this team member. Please check back later or search the GitHub <a href='https://github.com/RPCS3/rpcs3' target="_blank">repository</a> for further details on this member. If appropriate, a proper description can be added upon the member's request. </span>
+							Asinine joined RPCS3 in late 2017, and started by contributing to the project by making videos for <a href='https://www.youtube.com/c/RPCS3_emu/' target="_blank">RPCS3's YouTube Channel</a>, writing progress reports for <a href='https://rpcs3.net/blog/' target="_blank">RPCS3's blog</a> and testing games with RPCS3 to update our <a href='https://rpcs3.net/compatibility' target="_blank">compatibility database</a>. Today Asinine focuses on making videos for our YouTube channel, testing changes made to the emulator and moderating our compatibility database, Discord and Wiki.</span>
 						</div>
 						<div class="user-con-specsheet">
 							<div class="user-con-specbox">
