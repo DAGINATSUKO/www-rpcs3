@@ -3805,6 +3805,12 @@ a:hover {
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(240,147,43,0.2))!important
 }
 
+.context-macos {
+    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(55 43 240 / 20%)))!important;
+    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(240,147,43,0.2))!important;
+    background: linear-gradient(to left,rgba(255,255,255,0),rgb(55 43 240 / 20%))!important;
+}
+
 .context-bsd {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(255,52,52,0.2)))!important;
     background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,52,52,0.2))!important;
@@ -3879,6 +3885,17 @@ a:hover {
     background: rgba(240,147,43,.1);
     border-radius: 24px;
     color: #f0932b;
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    user-select: all;
+    cursor: pointer
+}
+.macos-highlight {
+    padding: 2px 8px;
+    white-space: nowrap;
+    background: rgb(55 43 240 / 10%);
+    border-radius: 24px;
+    color: #372bf0;
     -webkit-user-select: all;
     -moz-user-select: all;
     user-select: all;
