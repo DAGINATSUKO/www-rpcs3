@@ -1,5 +1,4 @@
 <div class="spec-con-container">
-
 <div class="spec-con-max darkmode-txt">
 <div class="spec-con-title spec-max"><h2>Recommended Requirements</h2></div>
 <div class="spec-con-desc"><h3>For running all playable games with playable performance</h3></div>
@@ -82,7 +81,6 @@
 		</div>
 	</div>
 </div>
-
 <div class="spec-con-min darkmode-txt">
 <div class="spec-con-title spec-min"><h2>Minimum Requirements</h2></div>
 	<div class="spec-con-desc"><h3>For being able to run any games at all, no performance or stability guarantees</h3></div>
@@ -165,5 +163,4 @@
 			</div>
 		</div>
 	</div>
-
 </div>

@@ -112,7 +112,7 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 We currently support keyboard / mouse inputs and native DualShock 3/4 & DualSense controllers. We plan to add additional input methods in the future as we implement more meaningful features to the emulator.
+							 We currently support keyboard / mouse inputs and native DualShock 3, DualShock 4 and DualSense controllers. We plan to add additional input methods in the future as we implement more meaningful features to the emulator.
 						</p>
 					</div>
 				</div>
