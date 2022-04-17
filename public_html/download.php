@@ -28,10 +28,8 @@
 <body>
 <?php include 'lib/module/sys-php.php';?>
 <?php
-// Compatibility utils must exist for this page to work at the moment
-// TODO: Handle behavior when compatibility plugin is not present?
-include 'lib/compat/objects/Build.php';
-$build = Build::get_latest();
+if (@include_once("lib/compat/objects/Build.php"))
+	$build = Build::get_latest();
 ?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
@@ -76,9 +74,10 @@ $build = Build::get_latest();
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 RPCS3 is under steady development and the binaries we produce are highly experimental. System requirements may vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements, but you're always welcome to experiment. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase.<br>
+							RPCS3 is under steady development and the binaries we produce are highly experimental. System requirements may vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements, but you're always welcome to experiment. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase.
 							<br>
-							 If you come across any regressions upon a new release, please be sure to report your findings on our forum. See <a href="/quickstart">Quickstart</a> for more information.
+							<br>
+							If you come across any regressions upon a new release, please be sure to report your findings on our forum. See <a href="/quickstart">Quickstart</a> for more information.
 						</p>
 					</div>
 				</div>
@@ -92,29 +91,66 @@ $build = Build::get_latest();
 				</div>
 				<div class='version-txt-container'>
 					<div class='version-tx1-package darkmode-txt'>
-						<span>Build <span class='version-buildversion'><?php echo "{$build->
-						 version}"; ?></span></span>
+						<span>
+							<span class='version-buildversion'>
+								<?php
+								if (isset($build))
+									printf("Build %s", $build->version);
+								else
+									printf("Unavailable");
+								?>
+							</span>
+						</span>
 					</div>
 					<div class='version-tx2-package darkmode-txt'>
-						<span>This build was released on <span class='version-builddate'><?php echo "{$build->
-						 fulldate}"; ?></span></span>
+						<span>
+							<span class='version-builddate'>
+								<?php
+								if (isset($build))
+									printf("This build was released on %s", $build->fulldate);
+								else
+									printf("Unavailable");
+								?>
+							</span>
+						</span>
 					</div>
 					<div class='package-tx2-desc-wide'>
-						<span class='package-pr'>
-						<div class='version-ico-git' style="background: url(/img/icons/buttons/pull-h.png) center left / 24px no-repeat;">
+						<div class='package-pr'>
+							<div class='version-ico-git' style="background: url(/img/icons/buttons/pull-h.png) center left / 24px no-repeat;">
+							</div>
+							<?php
+							if (isset($build))
+								printf("Pull Request <a href=\"%s\" target=\"_blank\">#%d</a>",
+								       $build->get_url_pr(),
+								       $build->pr);
+							else
+								printf("Unavailable");
+							?>
 						</div>
-						 Pull Request <a href="<?php echo $build->get_url_pr(); ?>" target="_blank">#<?php echo $build->
-						 pr; ?></a></span>
-						<span class='package-commit'>Commit
-						<div class='version-ico-git' style="background: url(/img/icons/buttons/commit-h.png) center left / 24px no-repeat;">
+						<div class='package-commit'>
+							<div class='version-ico-git' style="background: url(/img/icons/buttons/commit-h.png) center left / 24px no-repeat;">
+							</div>
+							<?php
+							if (isset($build))
+								printf("Commit <a href=\"%s\" target=\"_blank\">%s</a>",
+								       $build->get_url_commit(),
+								       $build->get_commit_short());
+							else
+								printf("Unavailable");
+							?>
 						</div>
-						<a href="<?php echo $build->get_url_commit(); ?>" target="_blank"><?php echo $build->
-						 get_commit_short(); ?></a></span>
-						<span class='package-author'>Submitted by
-						<div class='version-ico-git' style="background: url(/img/icons/buttons/github-h.png) center left / 24px no-repeat;">
+						<div class='package-author'>
+							<div class='version-ico-git' style="background: url(/img/icons/buttons/github-h.png) center left / 24px no-repeat;">
+							</div>
+							<?php
+							if (isset($build))
+								printf("Submitted by <a href=\"%s\" target=\"_blank\">%s</a>",
+								       $build->get_url_author(),
+								       $build->author);
+							else
+								printf("Unavailable");
+							?>
 						</div>
-						<a href="<?php echo $build->get_url_author(); ?>" target="_blank"><?php echo $build->
-						 author; ?></a></span>
 					</div>
 				</div>
 			</div>
@@ -135,27 +171,50 @@ $build = Build::get_latest();
 							<span>SHA-256</span>
 						</div>
 						<div class='sha2-tx2-desc'>
-							<span><?php echo $build->
-							checksum_win; ?></span>
-							<!-- SHA-2 info -->
+							<span>
+							<?php
+							if (isset($build))
+								printf("%s", $build->checksum_win);
+							else
+								printf("Unavailable");
+							?>
+							</span>
 						</div>
 						<div class='package-tx1-title darkmode-txt'>
 							<span>Size</span>
 						</div>
 						<div class='package-tx2-desc darkmode-txt'>
-							<span><?php echo $build->get_size_mb_windows(); ?> MB</span>
-							<!-- File size info -->
+							<span>
+							<?php
+							if (isset($build))
+								printf("%s MB", $build->get_size_mb_windows());
+							else
+								printf("Unavailable");
+							?>
+							</span>
 						</div>
-						<a href='<?php echo $build->get_url_windows(); ?>' download>
+						<?php
+						if (isset($build))
+							printf("<a href=\"%s\" download>", $build->get_url_windows());
+						?>
 						<div class='package-con-button'>
-							<!-- Download link -->
 							<div class='package-ico-button' style="background: url(/img/icons/buttons/windows-h.png) center / 22px no-repeat;">
 							</div>
 							<div class='package-tx1-button'>
-								<span>Download</span>
+								<span>
+								<?php
+								if (isset($build))
+									printf("Download");
+								else
+									printf("Unavailable");
+								?>
+								</span>
 							</div>
 						</div>
-						</a>
+						<?php
+						if (isset($build))
+							printf("</a>");
+						?>
 					</div>
 				</div>
 				<div class='downloadable-con-outer'>
@@ -174,27 +233,50 @@ $build = Build::get_latest();
 							<span>SHA-256</span>
 						</div>
 						<div class='sha2-tx2-desc'>
-							<span><?php echo $build->
-							checksum_linux; ?></span>
-							<!-- SHA2 info -->
+							<span>
+							<?php
+							if (isset($build))
+								printf("%s", $build->checksum_linux);
+							else
+								printf("Unavailable");
+							?>
+							</span>
 						</div>
 						<div class='package-tx1-title darkmode-txt'>
 							<span>Size</span>
 						</div>
 						<div class='package-tx2-desc darkmode-txt'>
-							<span><?php echo $build->get_size_mb_linux(); ?> MB</span>
-							<!-- File size info -->
+							<span>
+							<?php
+							if (isset($build))
+								printf("%s MB", $build->get_size_mb_linux());
+							else
+								printf("Unavailable");
+							?>
+							</span>
 						</div>
-						<a href='<?php echo $build->get_url_linux(); ?>' download>
+						<?php
+						if (isset($build))
+							printf("<a href=\"%s\" download>", $build->get_url_linux());
+						?>
 						<div class='package-con-button'>
-							<!-- Download link -->
 							<div class='package-ico-button' style="background: url(/img/icons/buttons/linux-h.png) center / 22px no-repeat;">
 							</div>
 							<div class='package-tx1-button'>
-								<span>Download</span>
+								<span>
+								<?php
+								if (isset($build))
+									printf("Download");
+								else
+									printf("Unavailable");
+								?>
+								</span>
 							</div>
 						</div>
-						</a>
+						<?php
+						if (isset($build))
+							printf("</a>");
+						?>
 					</div>
 				</div>
 				<div class='downloadable-con-outer'>
@@ -213,25 +295,50 @@ $build = Build::get_latest();
 							<span>SHA-256</span>
 						</div>
 						<div class='sha2-tx2-desc'>
-							<span><?php echo $build->checksum_mac; ?></span>
-							<!-- SHA2 info -->
+							<span>
+							<?php
+							if (isset($build))
+								printf("%s", $build->checksum_mac);
+							else
+								printf("Unavailable");
+							?>
+							</span>
 						</div>
 						<div class='package-tx1-title darkmode-txt'>
 							<span>Size</span>
 						</div>
 						<div class='package-tx2-desc darkmode-txt'>
-							<span><?php echo $build->get_size_mb_mac(); ?> MB</span>
-							<!--  File size info -->
+							<span>
+							<?php
+							if (isset($build))
+								printf("%s MB", $build->get_size_mb_mac());
+							else
+								printf("Unavailable");
+							?>
+							</span>
 						</div>
-						<a href='<?php echo $build->get_url_mac(); ?>' download>
-						<div class='package-con-button package-con-button'>
+						<?php
+						if (isset($build))
+							printf("<a href=\"%s\" download>", $build->get_url_mac());
+						?>
+						<div class='package-con-button'>
 							<div class='package-ico-button' style="background: url(/img/icons/buttons/macos-h.png) center / 22px no-repeat;">
 							</div>
 							<div class='package-tx1-button'>
-								<span>Download</span>
+								<span>
+								<?php
+								if (isset($build))
+									printf("Download");
+								else
+									printf("Unavailable");
+								?>
+								</span>
 							</div>
 						</div>
-						</a>
+						<?php
+						if (isset($build))
+							printf("</a>");
+						?>
 					</div>
 				</div>
 			</div>
@@ -247,7 +354,7 @@ $build = Build::get_latest();
 							 <br>
 							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ 2019 Redistributable</a></span>
 							 <br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.</span>
+							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 						</p>
 					</div>
 				</div>
@@ -266,7 +373,7 @@ $build = Build::get_latest();
 							<br>
 							<b>Compile on Arch using AUR </b><span class="highlight darkmode-highlight">git clone https://aur.archlinux.org/rpcs3-git.git && cd rpcs3-git && makepkg -sri</span>
 							<br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.</span>
+							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 							<br>
 						</p>
 					</div>
@@ -286,7 +393,7 @@ $build = Build::get_latest();
 							<br>
 							<b>Compile using ports </b><span class="highlight darkmode-highlight">cd /usr/ports/emulators/rpcs3/ && make install clean</span>
 							<br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.</span>
+							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 							<br>
 							<br>
 						</p>
