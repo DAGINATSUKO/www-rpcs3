@@ -548,7 +548,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR5 (6600MHz C30)</span>
+										<span>32GB DDR5 (6800MHz C28)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1305,7 +1305,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-12900K (5.1-5.5GHz)</span>
+										<span>Intel i9-12900K (5.2-5.5GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1319,7 +1319,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR5 (6200MHz C28)</span>
+										<span>32GB DDR5 (6800MHz C28)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">

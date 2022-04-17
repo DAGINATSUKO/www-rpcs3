@@ -143,8 +143,7 @@ $build = Build::get_latest();
 							<span>Size</span>
 						</div>
 						<div class='package-tx2-desc darkmode-txt'>
-							<span><?php echo $build->
-							get_size_mb_windows(); ?> MB</span>
+							<span><?php echo $build->get_size_mb_windows(); ?> MB</span>
 							<!-- File size info -->
 						</div>
 						<a href='<?php echo $build->get_url_windows(); ?>' download>
@@ -183,8 +182,7 @@ $build = Build::get_latest();
 							<span>Size</span>
 						</div>
 						<div class='package-tx2-desc darkmode-txt'>
-							<span><?php echo $build->
-							get_size_mb_linux(); ?> MB</span>
+							<span><?php echo $build->get_size_mb_linux(); ?> MB</span>
 							<!-- File size info -->
 						</div>
 						<a href='<?php echo $build->get_url_linux(); ?>' download>
@@ -215,25 +213,25 @@ $build = Build::get_latest();
 							<span>SHA-256</span>
 						</div>
 						<div class='sha2-tx2-desc'>
-							<span><?php echo $build->
-							checksum_macos; ?>0000000000000000000000000000000000000000000000000000000000000000000</span>
+							<span><?php echo $build->checksum_mac; ?></span>
 							<!-- SHA2 info -->
 						</div>
 						<div class='package-tx1-title darkmode-txt'>
 							<span>Size</span>
 						</div>
 						<div class='package-tx2-desc darkmode-txt'>
-							<span>No file information</span>
+							<span><?php echo $build->get_size_mb_mac(); ?> MB</span>
 							<!--  File size info -->
 						</div>
-						<div class='package-con-button package-con-button-disabled'>
-							<!-- Download link -->
+						<a href='<?php echo $build->get_url_mac(); ?>' download>
+						<div class='package-con-button package-con-button'>
 							<div class='package-ico-button' style="background: url(/img/icons/buttons/macos-h.png) center / 22px no-repeat;">
 							</div>
 							<div class='package-tx1-button'>
-								<span>Unavailable</span>
+								<span>Download</span>
 							</div>
 						</div>
+						</a>
 					</div>
 				</div>
 			</div>
