@@ -100,18 +100,18 @@ $build = Build::get_latest();
 						 fulldate}"; ?></span></span>
 					</div>
 					<div class='package-tx2-desc-wide'>
-						<span class='package-pr'>
 						<div class='version-ico-git' style="background: url(/img/icons/buttons/pull-h.png) center left / 24px no-repeat;">
+						<div class='package-pr'>
 						</div>
 						 Pull Request <a href="<?php echo $build->get_url_pr(); ?>" target="_blank">#<?php echo $build->
 						 pr; ?></a></span>
-						<span class='package-commit'>Commit
 						<div class='version-ico-git' style="background: url(/img/icons/buttons/commit-h.png) center left / 24px no-repeat;">
+						<div class='package-commit'>
 						</div>
 						<a href="<?php echo $build->get_url_commit(); ?>" target="_blank"><?php echo $build->
 						 get_commit_short(); ?></a></span>
-						<span class='package-author'>Submitted by
 						<div class='version-ico-git' style="background: url(/img/icons/buttons/github-h.png) center left / 24px no-repeat;">
+						<div class='package-author'>
 						</div>
 						<a href="<?php echo $build->get_url_author(); ?>" target="_blank"><?php echo $build->
 						 author; ?></a></span>
@@ -247,7 +247,7 @@ $build = Build::get_latest();
 							 <br>
 							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ 2019 Redistributable</a></span>
 							 <br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.</span>
+							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 						</p>
 					</div>
 				</div>
@@ -266,7 +266,7 @@ $build = Build::get_latest();
 							<br>
 							<b>Compile on Arch using AUR </b><span class="highlight darkmode-highlight">git clone https://aur.archlinux.org/rpcs3-git.git && cd rpcs3-git && makepkg -sri</span>
 							<br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.</span>
+							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 							<br>
 						</p>
 					</div>
@@ -286,7 +286,7 @@ $build = Build::get_latest();
 							<br>
 							<b>Compile using ports </b><span class="highlight darkmode-highlight">cd /usr/ports/emulators/rpcs3/ && make install clean</span>
 							<br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.</span>
+							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 							<br>
 							<br>
 						</p>
