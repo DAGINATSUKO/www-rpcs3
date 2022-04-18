@@ -3250,7 +3250,6 @@ a:hover {
     padding-right: 24px;
     color: #fff;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     overflow: hidden
 }
@@ -3324,7 +3323,6 @@ a:hover {
     color: #000;
     white-space: nowrap;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
 
@@ -3355,7 +3353,6 @@ a:hover {
     padding-right: 1%;
     text-align: left;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     color: #000
 }
@@ -3413,7 +3410,6 @@ a:hover {
     color: #000;
     white-space: nowrap;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     -webkit-user-select: all;
     user-select: all
