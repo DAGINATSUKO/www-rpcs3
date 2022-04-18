@@ -759,7 +759,6 @@
 }
 .animated.flip {
 	animation-name:flip;
-	-webkit-backface-visibility:visible;
 	backface-visibility:visible;
 }
 @keyframes flipInX {
@@ -785,7 +784,6 @@
 }
 .flipInX {
 	animation-name:flipInX;
-	-webkit-backface-visibility:visible !important;
 	backface-visibility:visible !important;
 }
 @keyframes flipInY {
@@ -811,7 +809,6 @@
 }
 .flipInY {
 	animation-name:flipInY;
-	-webkit-backface-visibility:visible !important;
 	backface-visibility:visible !important;
 }
 @keyframes flipOutX {
@@ -829,7 +826,6 @@
 }
 .flipOutX {
 	animation-name:flipOutX;
-	-webkit-backface-visibility:visible !important;
 	backface-visibility:visible !important;
 }
 @keyframes flipOutY {
@@ -847,7 +843,6 @@
 }
 .flipOutY {
 	animation-name:flipOutY;
-	-webkit-backface-visibility:visible !important;
 	backface-visibility:visible !important;
 }
 @keyframes lightSpeedIn {
