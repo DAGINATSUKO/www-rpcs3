@@ -13,7 +13,6 @@
 	background: #111525!important;
 }
 .dm-divider {
-	background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(rgb(255 255 255 / 10%))) !important;
 	background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255 255 255 / 10%)) !important;
 }
 .dm-bg-2 {
