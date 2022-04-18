@@ -1414,8 +1414,6 @@ a:hover {
 
 .splitter-con-container {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex
 }
 
@@ -4015,28 +4013,20 @@ a:hover {
 }
 
 .flex-row-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap
 }
 
 .flex-col-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-flow: column wrap;
     flex-flow: column wrap
 }
 
 .flexchild-img {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     margin: 10px
 }
