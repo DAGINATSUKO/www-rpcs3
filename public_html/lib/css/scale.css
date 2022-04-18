@@ -248,43 +248,31 @@
 }
 @media screen and (max-height:780px) {
 	.video-con-viewport {
-		-webkit-transform: scale(.70);
-		-ms-transform: scale(.70);
 		transform: scale(.70);
 	}
 }
 @media screen and (max-height:600px) {
 	.video-con-viewport {
-		-webkit-transform: scale(.60);
-		-ms-transform: scale(.60);
 		transform: scale(.60);
 	}
 }
 @media screen and (max-height:400px) {
 	.video-con-viewport {
-		-webkit-transform: scale(.50);
-		-ms-transform: scale(.50);
 		transform: scale(.50);
 	}
 }
 @media screen and (max-width:1240px) {
 	.video-con-viewport {
-		-webkit-transform: scale(.80);
-		-ms-transform: scale(.80);
 		transform: scale(.80);
 	}
 }
 @media screen and (max-width:1010px) {
 	.video-con-viewport {
-		-webkit-transform: scale(.60);
-		-ms-transform: scale(.60);
 		transform: scale(.60);
 	}
 }
 @media screen and (max-width: 800px) {
 	.video-con-viewport {
-		-webkit-transform: scale(.25);
-		-ms-transform: scale(.25);
 		transform: scale(.25);
 	}
 }
@@ -307,8 +295,6 @@
 	.landing-btn-download {
 		margin-left: 26px;
 		bottom: -15px;
-		-webkit-transform: scale(1.4);
-		-ms-transform: scale(1.4);
 		transform: scale(1.4);
 	}
 	.landing-tx1-download {

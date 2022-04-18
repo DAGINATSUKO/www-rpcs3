@@ -151,7 +151,6 @@ a:hover {
     width: 6144px;
     height: 198px;
     animation: 11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
-    -webkit-transform: translate3d(0px,0px,0px);
     transform: translate3d(0px,0px,0px)
 }
 
@@ -330,8 +329,6 @@ a:hover {
 }
 
 .menu-btn-close:hover {
-    -webkit-transform: scale(.9);
-    -ms-transform: scale(.9);
     transform: scale(.9);
     border-color: red;
     background: url("/img/icons/menu/close.png") center center/cover no-repeat rgb(255,0,0)!important
@@ -354,8 +351,6 @@ a:hover {
 }
 
 .menu-btn-close:hover>.menu-tx1-tooltip {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
     transform: scale(1.1);
     display: block!important
 }
@@ -2573,8 +2568,6 @@ a:hover {
 }
 
 .search-con-author a:hover .search-img-author {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
     transform: scale(1.05)
 }
 
@@ -2627,8 +2620,6 @@ a:hover {
 }
 
 .video-con-wrapper:hover>.video-btn-play {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
     transform: scale(1.2)
 }
 
@@ -2769,8 +2760,6 @@ a:hover {
     overflow: hidden;
     z-index: 1;
     cursor: pointer;
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
     transform: scale(1.01);
     border-radius: 12px
 }
@@ -2783,8 +2772,6 @@ a:hover {
     width: 200%;
     height: 200%;
     opacity: 0;
-    -webkit-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
     transform: rotate(30deg);
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(77%,rgba(255,255,255,0.14)),color-stop(92%,rgba(255,255,255,0.5)),to(rgba(255,255,255,0)));
     background: -o-linear-gradient(left,rgba(255,255,255,0) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
@@ -2814,8 +2801,6 @@ a:hover {
 }
 
 .video-con-animate:hover+.video-img-thumbnail {
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
     transform: scale(1.01)
 }
 
@@ -3050,8 +3035,6 @@ a:hover {
 }
 
 .user-con-content:hover .user-img-avatar {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
     transform: scale(1.05)
 }
 
