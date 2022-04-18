@@ -392,7 +392,6 @@ a:hover {
     display: none;
     width: 100%;
     height: 100%;
-    background: -o-linear-gradient(225deg,rgba(0,42,135,0.8) 25%,rgba(147,64,255,0.8) 100%);
     background: linear-gradient(-135deg,rgba(0,42,135,0.8) 25%,rgba(147,64,255,0.8) 100%)
 }
 
@@ -609,7 +608,6 @@ a:hover {
     height: 2px;
     border-radius: 2px;
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(255,255,255,0.5)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.5));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,0.5));
     margin-top: 10px;
     margin-bottom: 30px;
@@ -980,7 +978,6 @@ a:hover {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: -o-linear-gradient(225deg,rgb(135,0,93) 25%,rgb(255,64,64) 100%);
     background: linear-gradient(-135deg,rgb(135,0,93) 25%,rgb(255,64,64) 100%);
     display: none
 }
@@ -1274,7 +1271,6 @@ a:hover {
     overflow: hidden;
     width: 100%;
     height: 380px;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1282,7 +1278,6 @@ a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1474,7 +1469,6 @@ a:hover {
     width: auto;
     height: 46px;
     border-radius: 46px;
-    background: -o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     background: linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     cursor: pointer;
     padding-left: 4px;
@@ -1488,7 +1482,6 @@ a:hover {
 }
 
 .generic-btn-button:hover {
-    background: -o-linear-gradient(225deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     background: linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
@@ -1551,7 +1544,6 @@ a:hover {
 }
 
 .spec-max {
-    background: -o-linear-gradient(135deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(39 174 96);
     background: linear-gradient(-45deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(39 174 96);
     box-shadow: rgba(39,174,96,.5) 10px 10px 32px 0;
     margin-right: 20px;
@@ -1560,7 +1552,6 @@ a:hover {
 }
 
 .spec-min {
-    background: -o-linear-gradient(135deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(250,152,58);
     background: linear-gradient(-45deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(250,152,58);
     box-shadow: rgba(231,76,60,.4) 10px 10px 32px 0;
     margin-bottom: 10px;
@@ -1591,7 +1582,6 @@ a:hover {
     height: 2px;
     border-radius: 4px;
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05));
     margin-top: 30px;
     margin-bottom: 30px
@@ -1666,7 +1656,6 @@ a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1780,7 +1769,6 @@ a:hover {
     height: 700px;
     min-height: 600px;
     max-height: 1080px;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1863,7 +1851,6 @@ a:hover {
 
 .landing-ovr-panel {
     background: -webkit-gradient(linear,left top,left bottom,color-stop(25%,rgba(0,0,0,0)),to(rgb(104,109,224)));
-    background: -o-linear-gradient(top,rgba(0,0,0,0) 25%,rgb(104,109,224) 100%);
     background: linear-gradient(-180deg,rgba(0,0,0,0) 25%,rgb(104,109,224) 100%);
     height: 100%;
     position: absolute;
@@ -2324,7 +2311,6 @@ a:hover {
 }
 
 .patreon-btn-button:hover {
-    background: -o-linear-gradient(225deg,rgb(255,145,130) 25%,rgb(255,177,117) 100%);
     background: linear-gradient(-135deg,rgb(255,145,130) 25%,rgb(255,177,117) 100%)
 }
 
@@ -2583,7 +2569,7 @@ a:hover {
 }
 
 .video-con-divider {
-    background: -webkit-linear-gradient(-70deg,rgb(78,52,201),rgb(104,109,224));
+    background: linear-gradient(-70deg, rgb(78,52,201), rgb(104,109,224));
     height: 4px;
     border-radius: 4px;
     width: 50px;
@@ -2606,7 +2592,7 @@ a:hover {
     position: absolute;
     top: 44px;
     z-index: 1;
-    background: -webkit-linear-gradient( -70deg,#4e34c9,#686de0);
+    background: linear-gradient(-70deg, #4e34c9, #686de0);
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
     -webkit-background-clip: text;
@@ -2705,7 +2691,6 @@ a:hover {
     opacity: 0;
     transform: rotate(30deg);
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(77%,rgba(255,255,255,0.14)),color-stop(92%,rgba(255,255,255,0.5)),to(rgba(255,255,255,0)));
-    background: -o-linear-gradient(left,rgba(255,255,255,0) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
     transition: all .7s ease-in-out 0s
 }
@@ -2786,7 +2771,6 @@ a:hover {
     height: 100%;
     border-radius: 12px;
     background-color: #32353a;
-    background-image: -o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),-o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
     background-image: linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
     background-size: 30px 30px;
     background-position: 0 0,45px 45px;
@@ -2799,7 +2783,6 @@ a:hover {
     height: 100%;
     border-radius: 12px;
     background-color: #fff;
-    background-image: -o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),-o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
     background-image: linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
     background-size: 30px 30px;
     background-position: 0 0,45px 45px;
@@ -3006,7 +2989,6 @@ a:hover {
     border-radius: 4px;
     margin-bottom: 12px;
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05))
 }
 
@@ -3059,7 +3041,6 @@ a:hover {
 
 .role-lead {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(9,132,227)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(9,132,227));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(9,132,227))
 }
 
@@ -3070,7 +3051,6 @@ a:hover {
 
 .role-graphics {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(253,121,168)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(253,121,168));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(253,121,168))
 }
 
@@ -3081,7 +3061,6 @@ a:hover {
 
 .role-manager {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(254,164,127)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(254,164,127));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(254,164,127))
 }
 
@@ -3092,7 +3071,6 @@ a:hover {
 
 .role-web {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(108,92,231)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(108,92,231));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(108,92,231))
 }
 
@@ -3108,7 +3086,6 @@ a:hover {
 
 .role-ui {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(207,106,135)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(207,106,135));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(207,106,135))
 }
 
@@ -3124,7 +3101,6 @@ a:hover {
 
 .role-developer {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(0,184,148)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(0,184,148));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(0,184,148))
 }
 
@@ -3135,7 +3111,6 @@ a:hover {
 
 .role-contributor {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(255,140,103)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(255,140,103));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(255,140,103))
 }
 
@@ -3146,7 +3121,6 @@ a:hover {
 
 .role-editor {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(74,105,189)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(74,105,189));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(74,105,189))
 }
 
@@ -3157,7 +3131,6 @@ a:hover {
 
 .role-wiki {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(120,224,143)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(120,224,143));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(120,224,143))
 }
 
@@ -3178,7 +3151,6 @@ a:hover {
 
 .role-founder {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(144,121,255)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(144,121,255));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(144,121,255))
 }
 
@@ -3189,7 +3161,6 @@ a:hover {
 
 .role-former {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(0,206,201)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(0,206,201));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(0,206,201))
 }
 
@@ -3248,7 +3219,6 @@ a:hover {
     height: auto;
     min-height: 60px;
     border-radius: 12px;
-    background: -o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     background: linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
     transition: all .1s ease-in-out 0s;
@@ -3257,7 +3227,6 @@ a:hover {
 
 .button-con-wrapper:hover {
     padding-bottom: 0;
-    background: -o-linear-gradient(225deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     background: linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
@@ -3408,7 +3377,6 @@ a:hover {
     color: #0074e7;
     border-radius: 32px;
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,116,231,0.1)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,116,231,0.1));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,116,231,0.1))
 }
 
@@ -3477,7 +3445,6 @@ a:hover {
     height: 2px;
     border-radius: 4px;
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05));
     margin-top: 10px;
     margin-bottom: 10px
@@ -3517,25 +3484,21 @@ a:hover {
 
 .context-windows {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(9,132,227,0.2)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(9,132,227,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(9,132,227,0.2))!important
 }
 
 .context-linux {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(240,147,43,0.2)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(240,147,43,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(240,147,43,0.2))!important
 }
 
 .context-macos {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(55 43 240 / 20%)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(240,147,43,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(55 43 240 / 20%))!important;
 }
 
 .context-bsd {
     background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(255,52,52,0.2)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,52,52,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(255,52,52,0.2))!important
 }
 
@@ -3697,7 +3660,6 @@ a:hover {
     overflow: hidden;
     width: 100%;
     height: auto;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -3969,7 +3931,6 @@ a:hover {
 
 .button-enabled {
     border-radius: 6px;
-    background: -o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     background: linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     cursor: pointer;
     color: #fff;
