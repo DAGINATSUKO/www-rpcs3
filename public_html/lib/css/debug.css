@@ -158,7 +158,6 @@
 }
 
 .package-con-button-disabled {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   cursor:not-allowed;
   background: #525252 !important;

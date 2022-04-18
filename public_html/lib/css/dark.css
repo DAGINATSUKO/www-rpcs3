@@ -21,7 +21,6 @@
 	background: #191f36!important
 }
 .dm-invert {
-	-webkit-filter: invert(100%)!important;
 	filter: invert(100%)!important
 }
 .dm-default {

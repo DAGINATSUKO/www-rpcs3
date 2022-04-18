@@ -719,37 +719,31 @@ a:hover {
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-darkmode {
     background: url("/img/icons/submenu/darkmode.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-particles {
     background: url("/img/icons/submenu/particles.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-pulsate {
     background: url("/img/icons/submenu/pulsate.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-waves {
     background: url("/img/icons/submenu/waves.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-transparency {
     background: url("/img/icons/submenu/transparency.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-theme {
     background: url("/img/icons/submenu/theme.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
