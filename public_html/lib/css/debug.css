@@ -25,8 +25,6 @@
     margin: 10px;
     overflow: hidden;
     position: relative;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
 }
 
@@ -177,8 +175,6 @@
     bottom: 22px;
     background: linear-gradient( -135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     box-shadow: rgb(0 116 231/40%) 0 10px 32px 0;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #0080ff!important;
 }
@@ -213,8 +209,6 @@
     margin-right: 5px;
     float: left;
     border:solid 2px transparent;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     margin-bottom: 10px;
 }
@@ -240,8 +234,6 @@
     margin-right: 5px;
     float: left;
     border:solid 2px transparent;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     margin-bottom: 10px;
 }
@@ -269,8 +261,6 @@
     margin-right: 25px;
     float: left;
     border:solid 2px transparent;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     margin-bottom: 10px;
 }
