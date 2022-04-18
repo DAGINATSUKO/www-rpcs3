@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @media screen and (max-device-width:480px) {
 	body {
 		-webkit-text-size-adjust: none;
@@ -34,12 +34,12 @@
 	.menu-con-outer {
 		margin: auto 30px;
 	}
-	
+
 	.content-con-inside {
 		margin-right: 20px;
 		margin-left: 20px;
 	}
-	
+
 	.generic-tx1-button {
 		font-size: 12px;
 	}
@@ -81,7 +81,7 @@
 	.footer-tx1-webmaster {
 	left:0px;
 	}
-	
+
 	.splitter-con-container {
 		display: unset;
 	}
