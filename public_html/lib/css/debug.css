@@ -149,7 +149,7 @@
     margin-right: 20px;
     position: relative;
     text-overflow: ellipsis;
-    word-break: break-word;
+    word-wrap: break-word;
     border-radius: 6px;
     padding: 6px 8px;
     margin-bottom: 17px;
