@@ -3951,7 +3951,6 @@ a:hover {
 
 .markdown {
     padding-bottom: 15px;
-    -webkit-box-sizing: border-box!important;
     box-sizing: border-box!important;
     margin-bottom: 20px!important;
     padding-top: 0!important
