@@ -86,7 +86,7 @@ a:hover {
     background: #a9a9a9
 }
 
-::-webkit-input-placeholder {
+::placeholder {
     color: #0074e7
 }
 
@@ -2450,16 +2450,16 @@ a:hover {
     color: #0074e7
 }
 
-.search-inp-search input::-webkit-input-placeholder {
+.search-inp-search input::placeholder {
     transition: all .1s ease-in-out 0s;
     color: inherit
 }
 
-.search-inp-search:hover input::-webkit-input-placeholder {
+.search-inp-search:hover input::placeholder {
     color: #686de0
 }
 
-.search-inp-search input:focus::-webkit-input-placeholder {
+.search-inp-search input:focus::placeholder {
     color: #686de0
 }
 
