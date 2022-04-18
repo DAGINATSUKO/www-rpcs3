@@ -4048,7 +4048,6 @@ a:hover {
 .carousel {
     position: relative;
     backface-visibility: hidden;
-    -webkit-perspective: 1000px;
     perspective: 1000px
 }
 
