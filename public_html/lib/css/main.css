@@ -150,7 +150,6 @@ a:hover {
     top: -198px;
     width: 6144px;
     height: 198px;
-    -webkit-animation: 11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
     animation: 11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
     -webkit-transform: translate3d(0px,0px,0px);
     transform: translate3d(0px,0px,0px)
@@ -158,7 +157,6 @@ a:hover {
 
 .wavebar-svg-object:nth-of-type(2) {
     top: -174px;
-    -webkit-animation: 11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
     animation: 11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
     opacity: 1
 }
@@ -184,11 +182,8 @@ a:hover {
     left: 50%;
     border-radius: 12px;
     box-shadow: rgba(0,0,0,.2) 0 32px 32px 0;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(14px) saturate(500%);
     backdrop-filter: blur(14px) saturate(500%);
@@ -203,33 +198,24 @@ a:hover {
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
 .mini-menu-tx1-block {
     margin-bottom: 10px;
     margin-top: 10px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     color: #000
 }
 
 .mini-menu-tx2-block {
     margin-bottom: 20px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     color: #000
 }
@@ -275,11 +261,8 @@ a:hover {
     cursor: pointer;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-transition: all .1s ease-in-out 0s;
     -o-transition: all .1s ease-in-out 0s;
@@ -331,11 +314,8 @@ a:hover {
     -webkit-transition: all .1s ease-in-out 0s;
     -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     border-radius: 100%;
     background-image: url(/img/icons/menu/close.png);
@@ -367,11 +347,8 @@ a:hover {
     position: absolute;
     top: 12px;
     padding-left: 60px;
-    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     display: none
 }
@@ -600,11 +577,8 @@ a:hover {
     height: 50px;
     padding-left: 20px;
     color: #fff;
-    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     border-radius: 6px;
     margin-bottom: 10px;
@@ -642,11 +616,8 @@ a:hover {
     height: 20px;
     position: relative;
     margin-top: 20px;
-    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -660,11 +631,8 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 30px;
     position: relative;
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -673,11 +641,8 @@ a:hover {
     height: 54px;
     background: url("/img/icons/arrows/left-h.png") center center/18px no-repeat;
     position: relative;
-    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     float: left
 }
@@ -697,11 +662,8 @@ a:hover {
     cursor: pointer;
     border-bottom: 2px solid transparent;
     background: url("/img/icons/menu/settings.png") center center/20px no-repeat;
-    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-transition: all .1s ease-in-out 0s;
     -o-transition: all .1s ease-in-out 0s;
@@ -740,11 +702,8 @@ a:hover {
     height: 395px;
     box-shadow: rgba(0,0,0,.2) 0 0 80px 0;
     border-radius: 12px;
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
@@ -910,11 +869,8 @@ a:hover {
     -webkit-transition: all .1s ease-in-out 0s;
     -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -941,11 +897,8 @@ a:hover {
     box-shadow: rgba(0,0,0,.2) 0 0 80px 0;
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,.1);
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
@@ -1122,7 +1075,6 @@ a:hover {
     width: 100px;
     height: 100px;
     position: absolute;
-    -webkit-animation: 1s linear 0s infinite normal none running spinnerRotate;
     animation: 1s linear 0s infinite normal none running spinnerRotate
 }
 
@@ -1135,9 +1087,7 @@ a:hover {
     width: 380px;
     height: auto;
     margin: -295px -190px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
     border-radius: 12px;
     -webkit-backdrop-filter: blur(6px);
@@ -1203,9 +1153,7 @@ a:hover {
 
 .sidebar-con-container {
     position: relative;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .3s;
     animation-duration: .3s;
     margin-top: 10px
 }
@@ -1247,11 +1195,8 @@ a:hover {
     -webkit-transition: all .2s ease-in-out 0s;
     -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
@@ -1338,11 +1283,8 @@ a:hover {
     -webkit-transition: all .2s ease-in-out 0s;
     -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
@@ -1790,11 +1732,8 @@ a:hover {
     -webkit-transition: all .1s ease-in-out 0s;
     -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: drifting-left;
     animation-name: drifting-left;
-    -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     z-index: 4
 }
@@ -1810,11 +1749,8 @@ a:hover {
     -webkit-transition: all .1s ease-in-out 0s;
     -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: drifting-right;
     animation-name: drifting-right;
-    -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     z-index: 4
 }
@@ -1839,11 +1775,8 @@ a:hover {
     width: 80px;
     height: 80px;
     margin: 0 0 0 -40px;
-    -webkit-animation-name: bobbing;
     animation-name: bobbing;
-    -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     background: url("/img/icons/arrows/down.png") center center/42px no-repeat
 }
@@ -1952,11 +1885,8 @@ a:hover {
     right: 0;
     width: 47%;
     height: 100%;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -1970,11 +1900,8 @@ a:hover {
     width: 100%;
     height: 44px;
     margin-top: 30px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1.4s;
     animation-duration: 1.4s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2093,11 +2020,8 @@ a:hover {
     height: 64px;
     margin-bottom: 18px;
     background: url("/img/icons/menu/logo.png") left center/64px no-repeat;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2117,11 +2041,8 @@ a:hover {
     height: auto;
     margin-bottom: 16px;
     color: #fff;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     text-rendering: optimizelegibility
 }
@@ -2132,11 +2053,8 @@ a:hover {
     line-height: 30px;
     position: relative;
     color: #fff;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1.2s;
     animation-duration: 1.2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     text-shadow: rgba(0,0,0,.4) 2px 0 16px
 }
@@ -2265,7 +2183,6 @@ a:hover {
 }
 
 .discord-svg-animate {
-    -webkit-animation: 30s linear 0s infinite alternate none running blobby;
     animation: 30s linear 0s infinite alternate none running blobby
 }
 
@@ -2548,11 +2465,8 @@ a:hover {
     width: 100%;
     height: auto;
     margin: -25px 0;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2780,12 +2694,9 @@ a:hover {
     height: auto;
     color: #000;
     position: relative;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     padding: 0 30px;
-    -webkit-animation-name: fadeInUp!important;
     animation-name: fadeInUp!important
 }
 
@@ -2794,11 +2705,8 @@ a:hover {
     font-size: 26px;
     line-height: 34px;
     padding: 0 15px;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-animation-name: fadeInUp!important;
     animation-name: fadeInUp!important
 }
 
@@ -2807,11 +2715,8 @@ a:hover {
     font-size: 16px;
     line-height: 32px;
     margin-top: 20px;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-animation-name: fadeInUp!important;
     animation-name: fadeInUp!important
 }
 
@@ -2842,9 +2747,7 @@ a:hover {
     backdrop-filter: blur(6px);
     border-radius: 100%;
     pointer-events: none;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2948,11 +2851,8 @@ a:hover {
     height: 675px;
     margin-top: -338px;
     margin-left: -600px;
-    -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
-    -webkit-animation-duration: .4s;
     animation-duration: .4s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     background: #000;
     border-radius: 12px;
@@ -3137,11 +3037,8 @@ a:hover {
     -webkit-transition: all .2s ease-in-out 0s;
     -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -4142,9 +4039,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 60px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s
 }
 
@@ -4156,9 +4051,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 60px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
     text-align: center;
     color: #fff
@@ -4171,9 +4064,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 25px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
     text-align: center;
     color: #fff
@@ -4375,9 +4266,7 @@ a:hover {
 
 .carousel-inner>.active {
     left: 0;
-    -webkit-animation-duration: .6s;
     animation-duration: .6s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -4483,12 +4372,10 @@ a:hover {
 }
 
 .carousel-left {
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft
 }
 
 .carousel-right {
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight
 }
 
