@@ -4027,27 +4027,22 @@ a:hover {
 }
 
 .img-col-2 {
-    -ms-flex-preferred-size: 50%;
     flex-basis: 50%
 }
 
 .img-col-3 {
-    -ms-flex-preferred-size: 33.33%;
     flex-basis: 33.33%
 }
 
 .img-row-2 {
-    -ms-flex-preferred-size: 450px;
     flex-basis: 450px
 }
 
 .img-row-3 {
-    -ms-flex-preferred-size: 250px;
     flex-basis: 250px
 }
 
 .img-row-4 {
-    -ms-flex-preferred-size: 200px;
     flex-basis: 200px
 }
 
