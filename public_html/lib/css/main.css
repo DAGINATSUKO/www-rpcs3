@@ -419,7 +419,6 @@ a:hover {
     backdrop-filter: blur(6px);
     border-bottom: 2px solid rgba(255,255,255,.05);
     -webkit-user-select: none;
-    -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
@@ -3662,7 +3661,6 @@ a:hover {
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all
 }
 
@@ -3677,7 +3675,6 @@ a:hover {
     margin-left: 7px;
     padding: 2px 8px;
     -webkit-user-select: none;
-    -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
@@ -3822,7 +3819,6 @@ a:hover {
     border-radius: 24px;
     color: #f0932b;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     cursor: pointer
 }
@@ -3833,7 +3829,6 @@ a:hover {
     border-radius: 24px;
     color: #372bf0;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     cursor: pointer
 }
@@ -3845,7 +3840,6 @@ a:hover {
     border-radius: 24px;
     color: #ff3434;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     cursor: pointer
 }
@@ -3855,7 +3849,6 @@ a:hover {
     border-radius: 21px;
     background: rgba(0,128,255,.1);
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     padding: 2px 8px
 }
