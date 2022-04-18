@@ -1,4 +1,5 @@
-@charset 'utf-8';ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
+@charset "utf-8";
+ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
     font-size: inherit;
     font-weight: inherit;
     font-style: inherit;
@@ -85,7 +86,7 @@ a:hover {
     background: #a9a9a9
 }
 
-::-webkit-input-placeholder {
+::placeholder {
     color: #0074e7
 }
 
@@ -138,8 +139,6 @@ a:hover {
     width: 100%;
     position: absolute;
     bottom: 0;
-    -webkit-transition: all 1s ease-in-out 0s;
-    -o-transition: all 1s ease-in-out 0s;
     transition: all 1s ease-in-out 0s
 }
 
@@ -149,15 +148,12 @@ a:hover {
     top: -198px;
     width: 6144px;
     height: 198px;
-    -webkit-animation: 11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
     animation: 11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
-    -webkit-transform: translate3d(0px,0px,0px);
     transform: translate3d(0px,0px,0px)
 }
 
 .wavebar-svg-object:nth-of-type(2) {
     top: -174px;
-    -webkit-animation: 11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
     animation: 11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
     opacity: 1
 }
@@ -182,13 +178,9 @@ a:hover {
     top: 50%;
     left: 50%;
     border-radius: 12px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 32px 32px 0;
     box-shadow: rgba(0,0,0,.2) 0 32px 32px 0;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(14px) saturate(500%);
     backdrop-filter: blur(14px) saturate(500%);
@@ -203,33 +195,24 @@ a:hover {
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
 .mini-menu-tx1-block {
     margin-bottom: 10px;
     margin-top: 10px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     color: #000
 }
 
 .mini-menu-tx2-block {
     margin-bottom: 20px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     color: #000
 }
@@ -275,23 +258,16 @@ a:hover {
     cursor: pointer;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     bottom: 0;
-    -webkit-box-shadow: #686de0 0 0 64px 0;
     box-shadow: #686de0 0 0 64px 0
 }
 
 .mini-menu-btn-agree:hover {
     background: #1abc9c;
-    -webkit-box-shadow: rgba(46,204,113,.5) 0 0 64px 0;
     box-shadow: rgba(46,204,113,.5) 0 0 64px 0
 }
 
@@ -318,7 +294,6 @@ a:hover {
     margin-left: 20px;
     margin-right: 20px;
     border: 2px solid rgba(255,52,52,.8);
-    -webkit-box-shadow: rgba(255,52,52,.4) 0 10px 32px 0;
     box-shadow: rgba(255,52,52,.4) 0 10px 32px 0
 }
 
@@ -331,14 +306,9 @@ a:hover {
     width: 40px;
     height: 40px;
     cursor: pointer;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     border-radius: 100%;
     background-image: url(/img/icons/menu/close.png);
@@ -348,14 +318,11 @@ a:hover {
     background-origin: initial;
     background-clip: initial;
     background-color: #4e34c9;
-    -webkit-box-shadow: rgba(0,0,0,.05) 0 10px 16px 0;
     box-shadow: rgba(0,0,0,.05) 0 10px 16px 0;
     background-size: cover!important
 }
 
 .menu-btn-close:hover {
-    -webkit-transform: scale(.9);
-    -ms-transform: scale(.9);
     transform: scale(.9);
     border-color: red;
     background: url("/img/icons/menu/close.png") center center/cover no-repeat rgb(255,0,0)!important
@@ -371,18 +338,13 @@ a:hover {
     position: absolute;
     top: 12px;
     padding-left: 60px;
-    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     display: none
 }
 
 .menu-btn-close:hover>.menu-tx1-tooltip {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
     transform: scale(1.1);
     display: block!important
 }
@@ -402,8 +364,6 @@ a:hover {
     height: 70px;
     border-bottom: 2px solid transparent;
     background: url("/img/icons/menu/logo.png") center center/36px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -423,7 +383,6 @@ a:hover {
     backdrop-filter: blur(6px);
     border-bottom: 2px solid rgba(255,255,255,.05);
     -webkit-user-select: none;
-    -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
@@ -433,7 +392,6 @@ a:hover {
     display: none;
     width: 100%;
     height: 100%;
-    background: -o-linear-gradient(225deg,rgba(0,42,135,0.8) 25%,rgba(147,64,255,0.8) 100%);
     background: linear-gradient(-135deg,rgba(0,42,135,0.8) 25%,rgba(147,64,255,0.8) 100%)
 }
 
@@ -468,8 +426,6 @@ a:hover {
     margin-bottom: -2px;
     color: #fff;
     border-bottom: 2px solid transparent;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -486,12 +442,9 @@ a:hover {
     border-radius: 100%;
     bottom: 20px;
     right: 20px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     z-index: 9999;
     cursor: pointer;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     display: none;
     border: 2px solid #fff
@@ -499,7 +452,6 @@ a:hover {
 
 .menu-btn-backtotop:hover {
     background: url("/img/icons/buttons/backtotop-h.png") center center/24px no-repeat rgb(26,188,156);
-    -webkit-box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694
 }
@@ -607,11 +559,8 @@ a:hover {
     height: 50px;
     padding-left: 20px;
     color: #fff;
-    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     border-radius: 6px;
     margin-bottom: 10px;
@@ -620,7 +569,6 @@ a:hover {
 
 .mobile-menu-btn-select:hover {
     color: #4e34c9;
-    -webkit-box-shadow: rgba(0,0,0,.1) 10px 10px 32px 0;
     box-shadow: rgba(0,0,0,.1) 10px 10px 32px 0;
     background: hsl(0 0% 100%/0.9)!important
 }
@@ -650,11 +598,8 @@ a:hover {
     height: 20px;
     position: relative;
     margin-top: 20px;
-    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -662,17 +607,12 @@ a:hover {
     width: 100%;
     height: 2px;
     border-radius: 2px;
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(255,255,255,0.5)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.5));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,0.5));
     margin-top: 10px;
     margin-bottom: 30px;
     position: relative;
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -681,11 +621,8 @@ a:hover {
     height: 54px;
     background: url("/img/icons/arrows/left-h.png") center center/18px no-repeat;
     position: relative;
-    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     float: left
 }
@@ -705,14 +642,9 @@ a:hover {
     cursor: pointer;
     border-bottom: 2px solid transparent;
     background: url("/img/icons/menu/settings.png") center center/20px no-repeat;
-    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -746,14 +678,10 @@ a:hover {
     display: none;
     width: 222px;
     height: 395px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 0 80px 0;
     box-shadow: rgba(0,0,0,.2) 0 0 80px 0;
     border-radius: 12px;
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
@@ -766,8 +694,6 @@ a:hover {
     width: 100%;
     height: 64px;
     cursor: pointer;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -781,7 +707,6 @@ a:hover {
 
 .settings-menu-con-wrapper:hover {
     background: #1abc9c;
-    -webkit-box-shadow: rgba(26,188,156,.5) 0 0 32px 0;
     box-shadow: rgba(26,188,156,.5) 0 0 32px 0
 }
 
@@ -791,37 +716,31 @@ a:hover {
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-darkmode {
     background: url("/img/icons/submenu/darkmode.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-particles {
     background: url("/img/icons/submenu/particles.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-pulsate {
     background: url("/img/icons/submenu/pulsate.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-waves {
     background: url("/img/icons/submenu/waves.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-transparency {
     background: url("/img/icons/submenu/transparency.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
 .settings-menu-con-wrapper:hover .settings-menu-ico-theme {
     background: url("/img/icons/submenu/theme.png") center center/24px no-repeat;
-    -webkit-filter: invert(1);
     filter: invert(1)
 }
 
@@ -905,8 +824,6 @@ a:hover {
     height: 70px;
     margin-bottom: -2px;
     border-bottom: 2px solid transparent;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -917,14 +834,9 @@ a:hover {
     height: 70px;
     background: url("/img/icons/submenu/support.png") center center/contain no-repeat;
     cursor: pointer;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -948,15 +860,11 @@ a:hover {
     display: none;
     width: 228px;
     height: 261px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 0 80px 0;
     box-shadow: rgba(0,0,0,.2) 0 0 80px 0;
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,.1);
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
@@ -969,8 +877,6 @@ a:hover {
     height: 64px;
     border-bottom: 1px solid rgba(0,0,0,.05);
     cursor: pointer;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -984,7 +890,6 @@ a:hover {
 
 .support-con-wrapper:hover {
     background: #1abc9c;
-    -webkit-box-shadow: rgba(26,188,156,.5) 0 0 32px 0;
     box-shadow: rgba(26,188,156,.5) 0 0 32px 0
 }
 
@@ -1028,8 +933,6 @@ a:hover {
     width: 64px;
     height: 64px;
     background: url("/img/icons/submenu/patreon.png") center center/28px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -1039,8 +942,6 @@ a:hover {
     width: 64px;
     height: 64px;
     background: url("/img/icons/submenu/alipay-h.png") center center/28px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -1050,8 +951,6 @@ a:hover {
     width: 64px;
     height: 64px;
     background: url("/img/icons/submenu/code-h.png") center center/28px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -1061,8 +960,6 @@ a:hover {
     width: 64px;
     height: 64px;
     background: url("/img/icons/submenu/testing-h.png") center center/28px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -1080,7 +977,6 @@ a:hover {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: -o-linear-gradient(225deg,rgb(135,0,93) 25%,rgb(255,64,64) 100%);
     background: linear-gradient(-135deg,rgb(135,0,93) 25%,rgb(255,64,64) 100%);
     display: none
 }
@@ -1134,7 +1030,6 @@ a:hover {
     width: 100px;
     height: 100px;
     position: absolute;
-    -webkit-animation: 1s linear 0s infinite normal none running spinnerRotate;
     animation: 1s linear 0s infinite normal none running spinnerRotate
 }
 
@@ -1147,9 +1042,7 @@ a:hover {
     width: 380px;
     height: auto;
     margin: -295px -190px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
     border-radius: 12px;
     -webkit-backdrop-filter: blur(6px);
@@ -1215,9 +1108,7 @@ a:hover {
 
 .sidebar-con-container {
     position: relative;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .3s;
     animation-duration: .3s;
     margin-top: 10px
 }
@@ -1232,8 +1123,6 @@ a:hover {
     cursor: pointer;
     border-bottom: 2px solid transparent;
     background: url("/img/icons/menu/menu.png") center center/18px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -1256,18 +1145,12 @@ a:hover {
     z-index: 9999;
     overflow: hidden scroll;
     width: 378px;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
-    -webkit-box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     display: block;
     position: fixed;
@@ -1328,8 +1211,6 @@ a:hover {
     text-align: left;
     border-left: 1px solid rgba(255,255,255,.2);
     color: rgba(255,255,255,.5);
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -1348,18 +1229,12 @@ a:hover {
     z-index: 9999;
     overflow: hidden scroll;
     width: 378px;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
-    -webkit-box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     display: block;
     position: fixed;
@@ -1395,7 +1270,6 @@ a:hover {
     overflow: hidden;
     width: 100%;
     height: 380px;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1403,7 +1277,6 @@ a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1540,8 +1413,6 @@ a:hover {
 
 .splitter-con-container {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex
 }
 
@@ -1554,7 +1425,6 @@ a:hover {
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 20px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0
 }
 
@@ -1596,7 +1466,6 @@ a:hover {
     width: auto;
     height: 46px;
     border-radius: 46px;
-    background: -o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     background: linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     cursor: pointer;
     padding-left: 4px;
@@ -1604,18 +1473,13 @@ a:hover {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 15px;
-    -webkit-box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
     box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #0080ff!important
 }
 
 .generic-btn-button:hover {
-    background: -o-linear-gradient(225deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     background: linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
-    -webkit-box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
 }
@@ -1677,9 +1541,7 @@ a:hover {
 }
 
 .spec-max {
-    background: -o-linear-gradient(135deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(39 174 96);
     background: linear-gradient(-45deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(39 174 96);
-    -webkit-box-shadow: rgba(39,174,96,.5) 10px 10px 32px 0;
     box-shadow: rgba(39,174,96,.5) 10px 10px 32px 0;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -1687,9 +1549,7 @@ a:hover {
 }
 
 .spec-min {
-    background: -o-linear-gradient(135deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(250,152,58);
     background: linear-gradient(-45deg,rgba(255,255,255,0.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,transparent 75%,transparent) 0% 0%/40px 40px rgb(250,152,58);
-    -webkit-box-shadow: rgba(231,76,60,.4) 10px 10px 32px 0;
     box-shadow: rgba(231,76,60,.4) 10px 10px 32px 0;
     margin-bottom: 10px;
     border: 2px solid #fba34e
@@ -1718,8 +1578,6 @@ a:hover {
     width: 100%;
     height: 2px;
     border-radius: 4px;
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05));
     margin-top: 30px;
     margin-bottom: 30px
@@ -1794,7 +1652,6 @@ a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1806,14 +1663,9 @@ a:hover {
     height: 100px;
     margin-top: -50px;
     background: url("/img/icons/arrows/left.png") center center/64px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: drifting-left;
     animation-name: drifting-left;
-    -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     z-index: 4
 }
@@ -1826,14 +1678,9 @@ a:hover {
     height: 100px;
     margin-top: -50px;
     background: url("/img/icons/arrows/right.png") center center/64px no-repeat;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
-    -webkit-animation-name: drifting-right;
     animation-name: drifting-right;
-    -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     z-index: 4
 }
@@ -1858,11 +1705,8 @@ a:hover {
     width: 80px;
     height: 80px;
     margin: 0 0 0 -40px;
-    -webkit-animation-name: bobbing;
     animation-name: bobbing;
-    -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     background: url("/img/icons/arrows/down.png") center center/42px no-repeat
 }
@@ -1921,7 +1765,6 @@ a:hover {
     height: 700px;
     min-height: 600px;
     max-height: 1080px;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -1971,11 +1814,8 @@ a:hover {
     right: 0;
     width: 47%;
     height: 100%;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -1989,11 +1829,8 @@ a:hover {
     width: 100%;
     height: 44px;
     margin-top: 30px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1.4s;
     animation-duration: 1.4s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2001,7 +1838,6 @@ a:hover {
     height: 200px;
     margin-top: 30px;
     border-radius: 12px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     position: relative;
     overflow: hidden;
@@ -2010,8 +1846,6 @@ a:hover {
 }
 
 .landing-ovr-panel {
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(25%,rgba(0,0,0,0)),to(rgb(104,109,224)));
-    background: -o-linear-gradient(top,rgba(0,0,0,0) 25%,rgb(104,109,224) 100%);
     background: linear-gradient(-180deg,rgba(0,0,0,0) 25%,rgb(104,109,224) 100%);
     height: 100%;
     position: absolute;
@@ -2040,20 +1874,16 @@ a:hover {
     border-radius: 46px;
     margin-top: 35px;
     background: #fff;
-    -webkit-box-shadow: rgba(0,0,0,.05) 0 10px 32px 0;
     box-shadow: rgba(0,0,0,.05) 0 10px 32px 0;
     cursor: pointer;
     padding-left: 4px;
     padding-right: 4px;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #fff
 }
 
 .build-btn-button:hover {
     background: #1abc9c;
-    -webkit-box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
 }
@@ -2115,11 +1945,8 @@ a:hover {
     height: 64px;
     margin-bottom: 18px;
     background: url("/img/icons/menu/logo.png") left center/64px no-repeat;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2139,11 +1966,8 @@ a:hover {
     height: auto;
     margin-bottom: 16px;
     color: #fff;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     text-rendering: optimizelegibility
 }
@@ -2154,11 +1978,8 @@ a:hover {
     line-height: 30px;
     position: relative;
     color: #fff;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1.2s;
     animation-duration: 1.2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     text-shadow: rgba(0,0,0,.4) 2px 0 16px
 }
@@ -2238,20 +2059,16 @@ a:hover {
     margin-left: 100px;
     margin-top: 35px;
     background: #fff;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     cursor: pointer;
     padding-left: 4px;
     padding-right: 4px;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #fff
 }
 
 .github-btn-button:hover {
     background: #1abc9c;
-    -webkit-box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
 }
@@ -2289,7 +2106,6 @@ a:hover {
 }
 
 .discord-svg-animate {
-    -webkit-animation: 30s linear 0s infinite alternate none running blobby;
     animation: 30s linear 0s infinite alternate none running blobby
 }
 
@@ -2378,20 +2194,16 @@ a:hover {
     margin-left: 100px;
     margin-top: 35px;
     background: #fff;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     box-shadow: rgba(0,0,0,.2) 0 10px 32px 0;
     cursor: pointer;
     padding-left: 4px;
     padding-right: 4px;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #fff
 }
 
 .discord-btn-button:hover {
     background: #1abc9c;
-    -webkit-box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
 }
@@ -2485,25 +2297,20 @@ a:hover {
     border-radius: 46px;
     margin-left: 100px;
     margin-top: 35px;
-    -webkit-box-shadow: rgba(255,66,77,.5) 0 10px 32px 0;
     box-shadow: rgba(255,66,77,.5) 0 10px 32px 0;
     cursor: pointer;
     padding-left: 4px;
     padding-right: 4px;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #ff2633
 }
 
 .patreon-btn-button:hover {
-    background: -o-linear-gradient(225deg,rgb(255,145,130) 25%,rgb(255,177,117) 100%);
     background: linear-gradient(-135deg,rgb(255,145,130) 25%,rgb(255,177,117) 100%)
 }
 
 .patreon-btn-button:hover {
     background: #1abc9c;
-    -webkit-box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
 }
@@ -2576,11 +2383,8 @@ a:hover {
     width: 100%;
     height: auto;
     margin: -25px 0;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2611,11 +2415,8 @@ a:hover {
     height: 50px;
     margin: 0 auto;
     border-radius: 50px;
-    -webkit-box-shadow: rgba(0,0,0,.1) 0 16px 32px 0;
     box-shadow: rgba(0,0,0,.1) 0 16px 32px 0;
     border: 2px solid transparent;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -2625,7 +2426,6 @@ a:hover {
     border-style: solid;
     border-color: #686de0;
     color: #686de0;
-    -webkit-box-shadow: rgba(0,0,0,.1) 0 16px 32px 0;
     box-shadow: rgba(0,0,0,.1) 0 16px 32px 0
 }
 
@@ -2650,17 +2450,16 @@ a:hover {
     color: #0074e7
 }
 
-.search-inp-search input::-webkit-input-placeholder {
-    -webkit-transition: all .1s ease-in-out 0s;
+.search-inp-search input::placeholder {
     transition: all .1s ease-in-out 0s;
     color: inherit
 }
 
-.search-inp-search:hover input::-webkit-input-placeholder {
+.search-inp-search:hover input::placeholder {
     color: #686de0
 }
 
-.search-inp-search input:focus::-webkit-input-placeholder {
+.search-inp-search input:focus::placeholder {
     color: #686de0
 }
 
@@ -2689,8 +2488,6 @@ a:hover {
 }
 
 .search-con-author a:hover .search-img-author {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
     transform: scale(1.05)
 }
 
@@ -2703,12 +2500,9 @@ a:hover {
     top: 14px;
     margin-left: 4px;
     margin-right: 4px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 0 0 10px 0;
     box-shadow: rgba(0,0,0,.2) 0 0 10px 0;
     border: 2px solid #fff;
     background: url("/img/users/ani.png") center center/cover no-repeat;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s
 }
 
@@ -2735,18 +2529,13 @@ a:hover {
     position: relative;
     width: 550px;
     height: 309px;
-    -webkit-box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
     border-radius: 12px;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
     z-index: 2
 }
 
 .video-con-wrapper:hover>.video-btn-play {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
     transform: scale(1.2)
 }
 
@@ -2775,7 +2564,7 @@ a:hover {
 }
 
 .video-con-divider {
-    background: -webkit-linear-gradient(-70deg,rgb(78,52,201),rgb(104,109,224));
+    background: linear-gradient(-70deg, rgb(78,52,201), rgb(104,109,224));
     height: 4px;
     border-radius: 4px;
     width: 50px;
@@ -2798,7 +2587,7 @@ a:hover {
     position: absolute;
     top: 44px;
     z-index: 1;
-    background: -webkit-linear-gradient( -70deg,#4e34c9,#686de0);
+    background: linear-gradient(-70deg, #4e34c9, #686de0);
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
     -webkit-background-clip: text;
@@ -2812,12 +2601,9 @@ a:hover {
     height: auto;
     color: #000;
     position: relative;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     padding: 0 30px;
-    -webkit-animation-name: fadeInUp!important;
     animation-name: fadeInUp!important
 }
 
@@ -2826,11 +2612,8 @@ a:hover {
     font-size: 26px;
     line-height: 34px;
     padding: 0 15px;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-animation-name: fadeInUp!important;
     animation-name: fadeInUp!important
 }
 
@@ -2839,11 +2622,8 @@ a:hover {
     font-size: 16px;
     line-height: 32px;
     margin-top: 20px;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-animation-name: fadeInUp!important;
     animation-name: fadeInUp!important
 }
 
@@ -2852,8 +2632,6 @@ a:hover {
     width: 100%;
     height: 100%;
     border-radius: 12px;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
     overflow: hidden
 }
@@ -2866,17 +2644,13 @@ a:hover {
     margin: -35px;
     width: 70px;
     height: 70px;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
     background: url("/img/icons/menu/play.png") center center/cover no-repeat rgba(255,255,255,0.1);
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
     border-radius: 100%;
     pointer-events: none;
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -2898,8 +2672,6 @@ a:hover {
     overflow: hidden;
     z-index: 1;
     cursor: pointer;
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
     transform: scale(1.01);
     border-radius: 12px
 }
@@ -2912,14 +2684,8 @@ a:hover {
     width: 200%;
     height: 200%;
     opacity: 0;
-    -webkit-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
     transform: rotate(30deg);
-    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(77%,rgba(255,255,255,0.14)),color-stop(92%,rgba(255,255,255,0.5)),to(rgba(255,255,255,0)));
-    background: -o-linear-gradient(left,rgba(255,255,255,0) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
-    -webkit-transition: all .7s ease-in-out 0s;
-    -o-transition: all .7s ease-in-out 0s;
     transition: all .7s ease-in-out 0s
 }
 
@@ -2927,14 +2693,8 @@ a:hover {
     opacity: 1;
     top: -30%;
     left: -30%;
-    -webkit-transition-property: left,top,opacity;
-    -o-transition-property: left,top,opacity;
     transition-property: left,top,opacity;
-    -webkit-transition-duration: .7s,.7s,.15s;
-    -o-transition-duration: .7s,.7s,.15s;
     transition-duration: .7s,.7s,.15s;
-    -webkit-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
     transition-timing-function: ease
 }
 
@@ -2943,8 +2703,6 @@ a:hover {
 }
 
 .video-con-animate:hover+.video-img-thumbnail {
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
     transform: scale(1.01)
 }
 
@@ -2980,16 +2738,12 @@ a:hover {
     height: 675px;
     margin-top: -338px;
     margin-left: -600px;
-    -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
-    -webkit-animation-duration: .4s;
     animation-duration: .4s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     background: #000;
     border-radius: 12px;
     overflow: hidden;
-    -webkit-box-shadow: rgba(0,0,0,.4) 0 0 64px 0;
     box-shadow: rgba(0,0,0,.4) 0 0 64px 0
 }
 
@@ -3011,11 +2765,9 @@ a:hover {
     height: 100%;
     border-radius: 12px;
     background-color: #32353a;
-    background-image: -o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),-o-linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
     background-image: linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427),linear-gradient(45deg,#222427 25%,transparent 0,transparent 75%,#222427 0,#222427);
     background-size: 30px 30px;
     background-position: 0 0,45px 45px;
-    -webkit-box-shadow: rgb(0 0 0/20%) 0 10px 16px 0;
     box-shadow: rgb(0 0 0/20%) 0 10px 16px 0
 }
 
@@ -3025,11 +2777,9 @@ a:hover {
     height: 100%;
     border-radius: 12px;
     background-color: #fff;
-    background-image: -o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),-o-linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
     background-image: linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4),linear-gradient(45deg,#e4e4e4 25%,transparent 0,transparent 75%,#e4e4e4 0,#e4e4e4);
     background-size: 30px 30px;
     background-position: 0 0,45px 45px;
-    -webkit-box-shadow: rgb(0 0 0/20%) 0 10px 16px 0;
     box-shadow: rgb(0 0 0/20%) 0 10px 16px 0
 }
 
@@ -3095,8 +2845,6 @@ a:hover {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border: solid 2px rgb(255 255 255/10%);
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s
 }
 
@@ -3108,63 +2856,54 @@ a:hover {
 .palette-swatch-a {
     background-image: none;
     background: #686de0;
-    -webkit-box-shadow: rgb(104 109 224/50%) 0 10px 16px 0;
     box-shadow: rgb(104 109 224/50%) 0 10px 16px 0
 }
 
 .palette-swatch-b {
     background-image: none;
     background: #4e34c9;
-    -webkit-box-shadow: rgb(78 52 201/50%) 0 10px 16px 0;
     box-shadow: rgb(78 52 201/50%) 0 10px 16px 0
 }
 
 .palette-swatch-c {
     background-image: none;
     background: #2e1f78;
-    -webkit-box-shadow: rgb(46 31 120/50%) 0 10px 16px 0;
     box-shadow: rgb(46 31 120/50%) 0 10px 16px 0
 }
 
 .palette-swatch-d {
     background-image: none;
     background: #212947;
-    -webkit-box-shadow: rgb(33 41 71/50%) 0 10px 16px 0;
     box-shadow: rgb(33 41 71/50%) 0 10px 16px 0
 }
 
 .palette-swatch-e {
     background-image: none;
     background: #191f36;
-    -webkit-box-shadow: rgb(25 31 54/50%) 0 10px 16px 0;
     box-shadow: rgb(25 31 54/50%) 0 10px 16px 0
 }
 
 .palette-swatch-f {
     background-image: none;
     background: #111525;
-    -webkit-box-shadow: rgb(17 21 37/50%) 0 10px 16px 0;
     box-shadow: rgb(17 21 37/50%) 0 10px 16px 0
 }
 
 .palette-swatch-g {
     background-image: none;
     background: #03a9f4;
-    -webkit-box-shadow: rgb(3 169 244/50%) 0 10px 16px 0;
     box-shadow: rgb(3 169 244/50%) 0 10px 16px 0
 }
 
 .palette-swatch-h {
     background-image: none;
     background: #ff3434;
-    -webkit-box-shadow: rgb(255 52 52/50%) 0 10px 16px 0;
     box-shadow: rgb(255 52 52/50%) 0 10px 16px 0
 }
 
 .palette-swatch-i {
     background-image: none;
     background: #ff9f43;
-    -webkit-box-shadow: rgb(255 159 67/50%) 0 10px 16px 0;
     box-shadow: rgb(255 159 67/50%) 0 10px 16px 0
 }
 
@@ -3178,27 +2917,18 @@ a:hover {
 
 .user-con-content:hover .user-img-flag {
     display: block;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: .2s;
     animation-duration: .2s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
 .user-con-content:hover .user-con-role {
     opacity: 1;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s
 }
 
 .user-con-content:hover .user-img-avatar {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
     transform: scale(1.05)
 }
 
@@ -3252,8 +2982,6 @@ a:hover {
     position: relative;
     border-radius: 4px;
     margin-bottom: 12px;
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05))
 }
 
@@ -3262,11 +2990,8 @@ a:hover {
     top: 0;
     width: 80px;
     height: 80px;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
     border-radius: 100%;
-    -webkit-box-shadow: rgba(0,0,0,.15) 0 16px 16px 0;
     box-shadow: rgba(0,0,0,.15) 0 16px 16px 0;
     border: 2px solid #fff
 }
@@ -3279,11 +3004,8 @@ a:hover {
     width: 56px;
     height: 36px;
     margin-top: -24px;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
     border: 2px solid #fff;
-    -webkit-box-shadow: rgba(0,0,0,.2) 10px 10px 32px 0;
     box-shadow: rgba(0,0,0,.2) 10px 10px 32px 0;
     border-radius: 6px
 }
@@ -3302,164 +3024,125 @@ a:hover {
     color: #fff;
     border-radius: 6px;
     opacity: 0;
-    -webkit-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s
 }
 
 .user-role-lead {
     background: #0984e3;
-    -webkit-box-shadow: rgba(9,132,227,.4) 0 8px 16px 0;
     box-shadow: rgba(9,132,227,.4) 0 8px 16px 0
 }
 
 .role-lead {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(9,132,227)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(9,132,227));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(9,132,227))
 }
 
 .user-role-graphics {
     background: #fd79a8;
-    -webkit-box-shadow: rgba(253,121,168,.4) 0 8px 16px 0;
     box-shadow: rgba(253,121,168,.4) 0 8px 16px 0
 }
 
 .role-graphics {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(253,121,168)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(253,121,168));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(253,121,168))
 }
 
 .user-role-manager {
     background: #fea47f;
-    -webkit-box-shadow: rgba(253,163,127,.4) 0 8px 16px 0;
     box-shadow: rgba(253,163,127,.4) 0 8px 16px 0
 }
 
 .role-manager {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(254,164,127)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(254,164,127));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(254,164,127))
 }
 
 .user-role-web {
     background: #6c5ce7;
-    -webkit-box-shadow: rgba(108,92,231,.4) 0 5px 16px 0;
     box-shadow: rgba(108,92,231,.4) 0 5px 16px 0
 }
 
 .role-web {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(108,92,231)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(108,92,231));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(108,92,231))
 }
 
 .user-role-designer {
     background: #0fbcf9;
-    -webkit-box-shadow: rgba(15,188,249,.4) 0 5px 16px 0;
     box-shadow: rgba(15,188,249,.4) 0 5px 16px 0
 }
 
 .user-role-ui {
     background: #cf6a87;
-    -webkit-box-shadow: rgba(207,106,135,.4) 0 8px 16px 0;
     box-shadow: rgba(207,106,135,.4) 0 8px 16px 0
 }
 
 .role-ui {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(207,106,135)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(207,106,135));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(207,106,135))
 }
 
 .user-role-firmware {
     background: #9b59b6;
-    -webkit-box-shadow: rgba(155,89,182,.4) 0 8px 16px 0;
     box-shadow: rgba(155,89,182,.4) 0 8px 16px 0
 }
 
 .user-role-developer {
     background: #00b894;
-    -webkit-box-shadow: rgba(0,184,148,.4) 0 8px 16px 0;
     box-shadow: rgba(0,184,148,.4) 0 8px 16px 0
 }
 
 .role-developer {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(0,184,148)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(0,184,148));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(0,184,148))
 }
 
 .user-role-contributor {
     background: #ff8c67;
-    -webkit-box-shadow: rgba(230,131,100,.4) 0 8px 16px 0;
     box-shadow: rgba(230,131,100,.4) 0 8px 16px 0
 }
 
 .role-contributor {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(255,140,103)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(255,140,103));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(255,140,103))
 }
 
 .user-role-editor {
     background: #4a69bd;
-    -webkit-box-shadow: rgba(74,105,189,.4) 0 8px 16px 0;
     box-shadow: rgba(74,105,189,.4) 0 8px 16px 0
 }
 
 .role-editor {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(74,105,189)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(74,105,189));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(74,105,189))
 }
 
 .user-role-wiki {
     background: #78e08f;
-    -webkit-box-shadow: rgba(120,224,143,.4) 0 5px 16px 0;
     box-shadow: rgba(120,224,143,.4) 0 5px 16px 0
 }
 
 .role-wiki {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(120,224,143)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(120,224,143));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(120,224,143))
 }
 
 .user-role-server {
     background: #38ada9;
-    -webkit-box-shadow: rgba(56,173,169,.4) 0 8px 16px 0;
     box-shadow: rgba(56,173,169,.4) 0 8px 16px 0
 }
 
 .user-role-debugger {
     background-color: #f1c40f;
-    -webkit-box-shadow: rgba(241,196,15,.4) 0 5px 16px 0;
     box-shadow: rgba(241,196,15,.4) 0 5px 16px 0
 }
 
 .user-role-founder {
     background: #9079ff;
-    -webkit-box-shadow: rgba(76,91,215,.4) 0 8px 16px 0;
     box-shadow: rgba(76,91,215,.4) 0 8px 16px 0
 }
 
 .role-founder {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(144,121,255)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(144,121,255));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(144,121,255))
 }
 
 .user-role-former {
     background: #00cec9;
-    -webkit-box-shadow: rgba(0,206,201,.4) 0 8px 16px 0;
     box-shadow: rgba(0,206,201,.4) 0 8px 16px 0
 }
 
 .role-former {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(0,206,201)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(0,206,201));
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(0,206,201))
 }
 
@@ -3481,7 +3164,6 @@ a:hover {
     border-radius: 6px;
     padding: 6px 8px;
     background: #fff;
-    -webkit-box-shadow: rgba(0,0,0,.1) 0 8px 24px 0;
     box-shadow: rgba(0,0,0,.1) 0 8px 24px 0;
     margin-bottom: 4px
 }
@@ -3519,21 +3201,15 @@ a:hover {
     height: auto;
     min-height: 60px;
     border-radius: 12px;
-    background: -o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     background: linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
-    -webkit-box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
     box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #0080ff!important
 }
 
 .button-con-wrapper:hover {
     padding-bottom: 0;
-    background: -o-linear-gradient(225deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     background: linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
-    -webkit-box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
 }
@@ -3558,7 +3234,6 @@ a:hover {
     padding-right: 24px;
     color: #fff;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     overflow: hidden
 }
@@ -3608,7 +3283,6 @@ a:hover {
     height: auto;
     min-height: 64px;
     border-radius: 12px;
-    -webkit-box-shadow: rgba(0,0,0,.1) 10px 10px 32px 0;
     box-shadow: rgba(0,0,0,.1) 10px 10px 32px 0
 }
 
@@ -3633,7 +3307,6 @@ a:hover {
     color: #000;
     white-space: nowrap;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis
 }
 
@@ -3664,7 +3337,6 @@ a:hover {
     padding-right: 1%;
     text-align: left;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     color: #000
 }
@@ -3683,8 +3355,6 @@ a:hover {
     padding-left: 10px;
     color: #0074e7;
     border-radius: 32px;
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,116,231,0.1)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,116,231,0.1));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,116,231,0.1))
 }
 
@@ -3723,10 +3393,8 @@ a:hover {
     color: #000;
     white-space: nowrap;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all
 }
 
@@ -3741,7 +3409,6 @@ a:hover {
     margin-left: 7px;
     padding: 2px 8px;
     -webkit-user-select: none;
-    -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
@@ -3754,8 +3421,6 @@ a:hover {
     width: 100%;
     height: 2px;
     border-radius: 4px;
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05));
     margin-top: 10px;
     margin-bottom: 10px
@@ -3794,26 +3459,18 @@ a:hover {
 }
 
 .context-windows {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(9,132,227,0.2)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(9,132,227,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(9,132,227,0.2))!important
 }
 
 .context-linux {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(240,147,43,0.2)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(240,147,43,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(240,147,43,0.2))!important
 }
 
 .context-macos {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgb(55 43 240 / 20%)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(240,147,43,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(55 43 240 / 20%))!important;
 }
 
 .context-bsd {
-    background: -webkit-gradient(linear,right top,left top,from(rgba(255,255,255,0)),to(rgba(255,52,52,0.2)))!important;
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,52,52,0.2))!important;
     background: linear-gradient(to left,rgba(255,255,255,0),rgba(255,52,52,0.2))!important
 }
 
@@ -3886,7 +3543,6 @@ a:hover {
     border-radius: 24px;
     color: #f0932b;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     cursor: pointer
 }
@@ -3897,7 +3553,6 @@ a:hover {
     border-radius: 24px;
     color: #372bf0;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     cursor: pointer
 }
@@ -3909,7 +3564,6 @@ a:hover {
     border-radius: 24px;
     color: #ff3434;
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     cursor: pointer
 }
@@ -3919,7 +3573,6 @@ a:hover {
     border-radius: 21px;
     background: rgba(0,128,255,.1);
     -webkit-user-select: all;
-    -moz-user-select: all;
     user-select: all;
     padding: 2px 8px
 }
@@ -3952,7 +3605,6 @@ a:hover {
     top: 50%;
     margin-top: -23px;
     position: absolute;
-    -webkit-box-shadow: rgba(0,0,0,.1) 0 16px 32px 0;
     box-shadow: rgba(0,0,0,.1) 0 16px 32px 0
 }
 
@@ -3980,7 +3632,6 @@ a:hover {
     overflow: hidden;
     width: 100%;
     height: auto;
-    background: -o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
     background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 
@@ -4121,7 +3772,6 @@ a:hover {
     height: 42px;
     margin-right: 6px;
     border-radius: 100%;
-    -webkit-box-shadow: rgba(0,0,0,.2) 6px 6px 10px 0;
     box-shadow: rgba(0,0,0,.2) 6px 6px 10px 0;
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px)
@@ -4215,9 +3865,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 60px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s
 }
 
@@ -4229,9 +3877,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 60px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
     text-align: center;
     color: #fff
@@ -4244,9 +3890,7 @@ a:hover {
     position: relative;
     width: 100%;
     height: 25px;
-    -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
     text-align: center;
     color: #fff
@@ -4259,11 +3903,9 @@ a:hover {
 
 .button-enabled {
     border-radius: 6px;
-    background: -o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     background: linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     cursor: pointer;
     color: #fff;
-    -webkit-box-shadow: rgba(0,116,231,.2) 10px 10px 32px 0;
     box-shadow: rgba(0,116,231,.2) 10px 10px 32px 0;
     border: 2px solid #0080ff!important
 }
@@ -4283,7 +3925,6 @@ a:hover {
 
 .markdown {
     padding-bottom: 15px;
-    -webkit-box-sizing: border-box!important;
     box-sizing: border-box!important;
     margin-bottom: 20px!important;
     padding-top: 0!important
@@ -4345,54 +3986,41 @@ a:hover {
 }
 
 .flex-row-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap
 }
 
 .flex-col-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-flow: column wrap;
     flex-flow: column wrap
 }
 
 .flexchild-img {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
     margin: 10px
 }
 
 .img-col-2 {
-    -ms-flex-preferred-size: 50%;
     flex-basis: 50%
 }
 
 .img-col-3 {
-    -ms-flex-preferred-size: 33.33%;
     flex-basis: 33.33%
 }
 
 .img-row-2 {
-    -ms-flex-preferred-size: 450px;
     flex-basis: 450px
 }
 
 .img-row-3 {
-    -ms-flex-preferred-size: 250px;
     flex-basis: 250px
 }
 
 .img-row-4 {
-    -ms-flex-preferred-size: 200px;
     flex-basis: 200px
 }
 
@@ -4419,9 +4047,7 @@ a:hover {
 
 .carousel {
     position: relative;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-perspective: 1000px;
     perspective: 1000px
 }
 
@@ -4433,8 +4059,6 @@ a:hover {
 .carousel-inner>.item {
     position: relative;
     display: none;
-    -webkit-transition: left .6s ease-in-out 0s;
-    -o-transition: left .6s ease-in-out 0s;
     transition: left .6s ease-in-out 0s
 }
 
@@ -4449,9 +4073,7 @@ a:hover {
 
 .carousel-inner>.active {
     left: 0;
-    -webkit-animation-duration: .6s;
     animation-duration: .6s;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
@@ -4557,12 +4179,10 @@ a:hover {
 }
 
 .carousel-left {
-    -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft
 }
 
 .carousel-right {
-    -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight
 }
 
@@ -4580,11 +4200,8 @@ a:hover {
 }
 
 .object-focused {
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
     transition: all .1s ease-in-out 0s;
     border: 2px solid #686de0!important;
-    -webkit-box-shadow: rgba(104,109,224,.2) 0 16px 32px 0!important;
     box-shadow: rgba(104,109,224,.2) 0 16px 32px 0!important
 }
 
@@ -4609,8 +4226,6 @@ a:hover {
 }
 
 .pulsate {
-    -webkit-transition: text-shadow 1s linear 0s;
-    -o-transition: text-shadow 1s linear 0s;
     transition: text-shadow 1s linear 0s
 }
 

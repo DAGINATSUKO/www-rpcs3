@@ -279,37 +279,13 @@
     color: #fff;
 }
 
-.search-btn-input::-webkit-input-placeholder {
+.search-btn-input::placeholder {
     font-family: Roboto-Regular;
     font-size: 14px;
     text-align: center;
     color: inherit;
 }
 
-.search-btn-input::-moz-placeholder {
-    font-family: Roboto-Regular;
-    font-size: 14px;
-    margin-top: 10px;
-    text-align: center;
-    opacity: 1;
-    color: inherit;
-}
-
-.search-btn-input:-ms-input-placeholder {
-    font-family: Roboto-Regular;
-    font-size: 14px;
-    text-align: center;
-    color: inherit;
-}
-
-.search-btn-input input::-webkit-input-placeholder {
-    color: inherit;
-}
-
-.search-btn-input input::-moz-input-placeholder {
-    color: inherit;
-}
-
-.search-btn-input input:-ms-input-placeholder {
+.search-btn-input input::placeholder {
     color: inherit;
 }

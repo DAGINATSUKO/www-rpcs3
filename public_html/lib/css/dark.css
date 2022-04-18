@@ -13,15 +13,12 @@
 	background: #111525!important;
 }
 .dm-divider {
-	background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(rgb(255 255 255 / 10%))) !important;
-	background: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgb(255 255 255 / 10%)) !important;
 	background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255 255 255 / 10%)) !important;
 }
 .dm-bg-2 {
 	background: #191f36!important
 }
 .dm-invert {
-	-webkit-filter: invert(100%)!important;
 	filter: invert(100%)!important
 }
 .dm-default {
@@ -41,7 +38,6 @@
 	color: #fff!important
 }
 .dm-header {
-	background: -o-linear-gradient(225deg, rgba(0, 18, 59, .7) 25%, rgba(105, 0, 243, .7) 100%)!important;
 	background: linear-gradient(-135deg, rgba(0, 18, 59, .7) 25%, rgba(105, 0, 243, .7) 100%)!important
 }
 .dm-discord {
