@@ -3,11 +3,11 @@
 <head>
 <title>RPCS3 - About</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of this project is to accurately emulate the PlayStation 3 in its entirety with the power of reverse engineering and community collaboration.">
+<meta name="description" content="Our goal is to preserve the legacy of the PlayStation 3 by completely and accurately emulating its vast library in its entirety with the power of open-source community and reverse engineering.">
 <meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, about">
 <?php include 'lib/module/sys-meta.php';?>
-<meta property="og:title" content="RPCS3 - The PlayStation 3 Emulator" />
-<meta property="og:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering." />
+<meta property="og:title" content="RPCS3 - About" />
+<meta property="og:description" content="Our goal is to preserve the legacy of the PlayStation 3 by completely and accurately emulating its vast library in its entirety with the power of open-source community and reverse engineering." />
 <meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="RPCS3" />
 
-<meta name="twitter:title" content="RPCS3 - The PlayStation 3 Emulator">
-<meta name="twitter:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering.">
+<meta name="twitter:title" content="RPCS3 - About">
+<meta name="twitter:description" content="Our goal is to preserve the legacy of the PlayStation 3 by completely and accurately emulating its vast library in its entirety with the power of open-source community and reverse engineering.">
 <meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
 <meta name="twitter:site" content="@rpcs3">
 <meta name="twitter:creator" content="@rpcs3">
@@ -54,13 +54,6 @@
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-			<div class="landing-con-panel" style="background: url('/img/graphics/panels/about.jpg') no-repeat center;">
-				<div class='landing-ovr-panel'>
-					<div class='landing-tx1-panel'>
-						<h2>We are RPCS3</h2>
-					</div>
-				</div>
-			</div>
 			<div class='splitter-con-container'>
 				<div class='splitter-txt-wrapper'>
 					<div class='container-con-block darkmode-block'>
@@ -150,7 +143,7 @@
 			<div class="user-con-grouped">
 				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/dh.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/graphics/flags/ukraine.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -172,7 +165,7 @@
 				</div>
 				<div class="user-con-content darkmode-txt">
 					<div class='user-img-avatar' style="background: url('/img/users/hykem.png') no-repeat center; background-size: cover;">
-						<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+						<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
 						</div>
 					</div>
 					<div class="user-con-wrapper">
@@ -473,21 +466,21 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i7-6700HQ (3.5GHz)</span>
+										<span>AMD R9 5900HX (4.4GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel HD 530</span>
+										<span>Radeon RX 6700M</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>16GB DDR4 (2133MHz)</span>
+										<span>16GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -495,6 +488,45 @@
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
 										<span>Linux (Manjaro)</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="user-con-specsheet">
+							<div class="user-con-specbox">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Steam Deck</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD Custom APU 0405</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD Van Gogh</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>16GB LPDDR5 (5500MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Linux (SteamOS)</span>
 									</div>
 								</div>
 							</div>
@@ -534,7 +566,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-12900KS (5.2-5.5GHz)</span>
+										<span>Intel i9-12900KS (5.2-5.6GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
