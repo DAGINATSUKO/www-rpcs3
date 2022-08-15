@@ -3,11 +3,11 @@
 <head>
 <title>RPCS3 - Download</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of this project is to accurately emulate the PlayStation 3 in its entirety with the power of reverse engineering and community collaboration.">
+<meta name="description" content="RPCS3 is under steady development and the binaries we produce are highly experimental. Your system requirements may vary depending on your hardware configuration.">
 <meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, download">
 <?php include 'lib/module/sys-meta.php';?>
-<meta property="og:title" content="RPCS3 - The PlayStation 3 Emulator" />
-<meta property="og:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering." />
+<meta property="og:title" content="RPCS3 - Download" />
+<meta property="og:description" content="RPCS3 is under steady development and the binaries we produce are highly experimental. Your system requirements may vary depending on your hardware configuration." />
 <meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="RPCS3" />
 
-<meta name="twitter:title" content="RPCS3 - The PlayStation 3 Emulator">
-<meta name="twitter:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering.">
+<meta name="twitter:title" content="RPCS3 - Download">
+<meta name="twitter:description" content="RPCS3 is under steady development and the binaries we produce are highly experimental. Your system requirements may vary depending on your hardware configuration.">
 <meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
 <meta name="twitter:site" content="@rpcs3">
 <meta name="twitter:creator" content="@rpcs3">
@@ -58,27 +58,12 @@ if (@include_once("lib/compat/objects/Build.php"))
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-			<div class="landing-con-panel" style="background: url('/img/graphics/panels/download.jpg') no-repeat center;">
-				<div class='landing-ovr-panel'>
-					<div class='landing-tx1-panel'>
-						<h2>Immortalize Your Library</h2>
-					</div>
-				</div>
-			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
 						<div class='container-emp-block'>
 						</div>
 						<h2>Latest Builds</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p class="download-desc">
-							RPCS3 is under steady development and the binaries we produce are highly experimental. System requirements may vary depending on your hardware configuration. For the best experience, users should be running within the recommended system requirements. We cannot guarantee the performance of system specifications below the minimum requirements, but you're always welcome to experiment. Do not expect stable performance or consistent compatibility as changes are always being made to the codebase.
-							<br>
-							<br>
-							If you come across any regressions upon a new release, please be sure to report your findings on our forum. See <a href="/quickstart">Quickstart</a> for more information.
-						</p>
 					</div>
 				</div>
 			</div>
@@ -342,6 +327,59 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 				</div>
 			</div>
+			<div class='downloadable-con-container'>
+				<div class='downloadable-con-outer'>
+					<div class='downloadable-con-inner-a'>
+						<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/bsd.png) center top no-repeat; right: -52px; bottom: -38px;">
+						</div>
+						<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/buttons/bsd.png) center left / 42px no-repeat;">
+						</div>
+						<div class='downloadable-tx1-title darkmode-txt'>
+							<span>FreeBSD</span>
+						</div>
+						<div class='downloadable-tx2-desc darkmode-txt'>
+							<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 12.3 or later.<br><br><br><br></span>
+						</div>
+						<a href="https://cgit.freebsd.org/ports/log/emulators/rpcs3">
+						<div class='package-con-button'>
+							<div class='package-ico-button' style="background: url(/img/icons/buttons/bsd-h.png) center / 22px no-repeat;">
+							</div>
+							<div class='package-tx1-button'>
+								<span>BSD Ports</span>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class='downloadable-con-outer' style="width: 66.6666666666%;">
+					<div class='downloadable-con-inner-a'>
+						<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/builds.png) center top no-repeat; right: -52px; bottom: -52px; width: 250px; height: 250px;">
+						</div>
+						<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/buttons/history.png) center left / 42px no-repeat;">
+						</div>
+						<div class='downloadable-tx1-title darkmode-txt'>
+							<span>Previous Builds</span>
+						</div>
+						<div class='downloadable-tx2-desc darkmode-txt'>
+							<span>With every new compiled binary RPCS3.net saves a record and stores it in our build catalog. The build catalog allows you browse and download every publicly released and compiled build recorded by our system. This allows users to view useful metadata for each build such as file size, SHA, author and the commit it was compiled from. <br><br>
+							For furthers details on each build, see our <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> log via GitHub. </span>
+							</span>
+							<br><br>
+						</div>
+						<a href="https://rpcs3.net/compatibility?b">
+							<div class='package-con-button' style="width: 225px;">
+								<div class='package-ico-button' style="background: url(/img/icons/buttons/history-h.png) center / 22px no-repeat;">
+								</div>
+								<div class='package-tx1-button'>
+									<span>
+										View Previous Builds
+									</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -349,12 +387,11 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 For Windows users, simply extract the downloaded file, place the files in a folder of your choosing. For example: <span class="highlight darkmode-highlight">C:\Users\Kratos\Desktop\RPCS3\rpcs3.exe</span>
+							 For Windows users, simply extract the compressed file using any decompression software that supports .7z.
 							 <br>
+							 Once uncompressed, place your RPCS3 folder in a convenient location to start, such as: <span class="highlight darkmode-highlight">C:\Users\Kratos\Desktop\RPCS3\rpcs3.exe</span>
 							 <br>
 							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ 2019 Redistributable</a></span>
-							 <br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 						</p>
 					</div>
 				</div>
@@ -368,13 +405,24 @@ if (@include_once("lib/compat/objects/Build.php"))
 						<p class="download-desc">
 							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
 							<br>
-							<br>
 							<b>Download AppImage using CLI </b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span> or <span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
 							<br>
 							<b>Compile on Arch using AUR </b><span class="highlight darkmode-highlight">git clone https://aur.archlinux.org/rpcs3-git.git && cd rpcs3-git && makepkg -sri</span>
 							<br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
+						<h2>Installing on macOS</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<p class="download-desc">
+							For macOS users, simply open the downloaded .DMG file and drag and drop the RPCS3 app into your applications folder when prompted.
 							<br>
+							Once installed, your RPCS3 application directory will be found in: <span class="highlight darkmode-highlight">~/Library/Application Support/rpcs3/dev_hdd0/home/00000001/savedata/</span>
 						</p>
 					</div>
 				</div>
@@ -388,12 +436,9 @@ if (@include_once("lib/compat/objects/Build.php"))
 						<p class="download-desc">
 							 For FreeBSD users, RPCS3 supports active FreeBSD 13 and FreeBSD 12 versions.
 							<br>
-							<br>
 							<b>Install as a package </b><span class="highlight darkmode-highlight">pkg install rpcs3</span>
 							<br>
 							<b>Compile using ports </b><span class="highlight darkmode-highlight">cd /usr/ports/emulators/rpcs3/ && make install clean</span>
-							<br>
-							  For more details on system requirements, dumping games legally and more, see our <a href="/quickstart">quickstart</a> guide.
 							<br>
 							<br>
 						</p>
@@ -409,44 +454,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
-						<h2>Previous Builds</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 With every new compiled binary RPCS3.net saves a record and stores it in our build catalog. The build catalog allows you browse and download every compiled build recorded by our system as well as view useful metadata for each build such as file size, SHA, author and the commit it was compiled from.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class='button-con-container'>
-				<a href='https://rpcs3.net/compatibility?b'>
-				<div class="button-con-wrapper button-left darkmode-panel">
-					<div class='button-ico-container' style="background: url('/img/icons/buttons/history-h.png') no-repeat center;">
-					</div>
-					<div class="button-tx1-text darkmode-txt">
-						<span>
-						Download Previous Builds </span>
-					</div>
-				</div>
-				</a>
-				<div class="label-con-wrapper label-right darkmode-panel">
-					<div class='label-ico-container darkmode-invert' style="background: url('/img/icons/buttons/commit.png') no-repeat center;">
-					</div>
-					<div class="label-tx1-text darkmode-txt">
-						<span>
-						For details, see <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> via GitHub. </span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="page-con-content">
-	<div class="page-con-container">
-		<div class="page-in-container">
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
+						<div class="container-emp-block"></div>
 						<h2>Website Source Code</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -479,6 +487,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
+						<div class="container-emp-block"></div>
 						<h2>Press Kit and Documentation</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>

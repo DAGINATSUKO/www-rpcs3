@@ -66,6 +66,12 @@ var dark_classes = [
 	{"base": ".compat-table-row", "toggle": "dm-txt"},
 	{"base": ".debug-main", "toggle": "dm-default"},
 	{"base": ".debug-left", "toggle": "dm-default"},
+	
+	{"base": ".compat-searchbox-div", "toggle": "dm-compat-searchbox-div"},
+	{"base": ".compat-search-inner a", "toggle": "dm-compat-search-inner"},
+	{"base": ".searchbox input", "toggle": "dm-searchbox input"},
+	{"base": ".compat-search-outer", "toggle": "dm-compat-search-outer"},
+	
 	// Blog
 	{"base": ".nav-links", "toggle": "dm-default dm-txt"},
 	{"base": ".entry-content", "toggle": "dm-txt"},

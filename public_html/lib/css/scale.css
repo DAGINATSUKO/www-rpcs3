@@ -530,6 +530,52 @@
 		line-height: 100px !important;
 	}
 }
+
+@media screen and (max-width: 800px) {
+    .downloadable-con-container {
+        height:auto!important;
+        margin-left: unset
+    }
+    .downloadable-con-outer {
+        float: unset!important;
+        width: 100%!important;
+        margin-bottom: 20px
+    }
+    .downloadable-con-inner-b {
+        margin-left: 0!important;
+        margin-right: 0!important
+    }
+    .downloadable-con-inner-a {
+        margin: 0px;
+    }
+	.version-con-container {
+		margin-right: 0px;
+		width: 100%;
+	}
+	.package-pr {
+		margin-left:0px;
+		margin-right: 8px;
+	}
+	.package-commit {
+		margin-left:0px;
+		margin-right: 8px;
+	}
+	.package-author {
+		margin-left:0px;
+		margin-right: 8px;
+	}
+}
+@media screen and (max-width: 445px) {
+    .downloadable-con-graphic {
+        display:none! important
+    }
+}
+@media screen and (max-width: 600px) {
+    .version-img-container{
+        display:none! important;
+    }
+}
+
 /* Compatibility page scaling */
 
 @media screen and (max-width:800px) {

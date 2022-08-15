@@ -3,11 +3,11 @@
 <head>
 <title>RPCS3 - Branding</title>
 <meta charset="utf-8">
-<meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of this project is to accurately emulate the PlayStation 3 in its entirety with the power of reverse engineering and community collaboration.">
+<meta name="description" content="RPCS3's core logo is used as the main icon for the RPCS3 executable. It is also used as the favicon for the website in addition to rich embed previews for rich embed capable applications such as Discord.">
 <meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, branding">
 <?php include 'lib/module/sys-meta.php';?>
-<meta property="og:title" content="RPCS3 - The PlayStation 3 Emulator" />
-<meta property="og:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering." />
+<meta property="og:title" content="RPCS3 - Branding" />
+<meta property="og:description" content="RPCS3's core logo is used as the main icon for the RPCS3 executable. It is also used as the favicon for the website in addition to rich embed previews for rich embed capable applications such as Discord." />
 <meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -16,8 +16,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="RPCS3" />
 
-<meta name="twitter:title" content="RPCS3 - The PlayStation 3 Emulator">
-<meta name="twitter:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering.">
+<meta name="twitter:title" content="RPCS3 - Branding">
+<meta name="twitter:description" content="RPCS3's core logo is used as the main icon for the RPCS3 executable. It is also used as the favicon for the website in addition to rich embed previews for rich embed capable applications such as Discord.">
 <meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
 <meta name="twitter:site" content="@rpcs3">
 <meta name="twitter:creator" content="@rpcs3">
@@ -54,13 +54,6 @@
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
-			<div class="landing-con-panel" style="background: url('/img/graphics/panels/branding.jpg') no-repeat center;">
-				<div class='landing-ovr-panel'>
-					<div class='landing-tx1-panel'>
-						<h2>We Stand Out</h2>
-					</div>
-				</div>
-			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
