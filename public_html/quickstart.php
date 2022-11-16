@@ -96,7 +96,7 @@
 					<p>
 						 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and FreeBSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.<br>
 						<br>
-						<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8, 10 and 11 are supported as well as Linux and FreeBSD. <br>
+						<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8, 10 and 11 are supported as well as Linux, FreeBSD and macOS.<br>
 					</p>
 				</div>
 			</div>
@@ -129,7 +129,7 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 RPCS3 features an auto-updater which will prompt you if you want to update after loading the emulator. You can either accept, deny or disable updates all together if you wish, though it is not recommended due to the volume of fixes that roll out each day. In the instance that you need to update RPCS3 manually, you can follow the following instructions:
+							 RPCS3 features an auto-updater which will prompt you if you want to update after loading the emulator. You can either accept, deny or disable updates all together if you wish, though it is not recommended to disable updates due to the volume of fixes that roll out each day. In the instance that you need to update RPCS3 manually, you can follow the following instructions:
 						</p>
 					</div>
 				</div>
@@ -139,7 +139,7 @@
 				</div>
 				<div class="guide-tx1-heading darkmode-txt">
 					<p>
-						 For Windows users, download the latest build and drag and drop all files into your RPCS3 root directory, replacing all files when prompted.
+						 For Windows users, download and extract the latest build then drag and drop all files into your RPCS3 root directory, overwriting all files when prompted.
 					</p>
 				</div>
 			</div>
@@ -181,7 +181,7 @@
 						<p>
 							 Due to legal reasons, we cannot distribute official PlayStation 3 firmware files. You must download the latest PlayStation 3 firmware update file from <a href="https://www.playstation.com/en-us/support/hardware/ps3/system-software/">PlayStation.com</a> for use with RPCS3. Once downloaded, you must install the firmware using RPCS3's built in firmware installer found under <span class="highlight darkmode-highlight">File &gt; Install Firmware.</span><br>
 							<br>
-							 By default, firmware modules are loaded automatically based on the PlayStation 3 title that is loaded. You can still override automatic module loading and choose which firmware modules you want to use manually. This is not recommended.
+							 By default, firmware modules are loaded automatically based on the PlayStation 3 title that is loaded. You can still override automatic module loading and choose which firmware modules you want to use manually. Manually overriding firmware modules is not recommended.
 						</p>
 					</div>
 				</div>
@@ -300,10 +300,10 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="highlight darkmode-highlight">File &gt; Install .pkg</span> (or simply drag and drop .pkg to the main emulator window)
+							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="highlight darkmode-highlight">File &gt; Install Packages/Raps/Edats</span> (or simply drag and drop the .pkg into the main emulator window)
 						</p>
 						<p>
-							 .pkg files will be automatically installed to <span class="highlight darkmode-highlight">\dev_hdd0\game\</span>
+							 .pkg files will be automatically extracted and installed to <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> It is recommended to keep your .pkg files in a safe place on your pc after installing. 
 						</p>
 						<p>
 							 Blu-ray disc title data can be placed in <span class="highlight darkmode-highlight">\dev_hdd0\disc\</span> or anywhere else except for <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="highlight darkmode-highlight">File &gt; Boot Game</span> if not present on the game list.
@@ -318,6 +318,9 @@
 						<p>
 							<i>Note: If you're on Linux, RPCS3 folders are located in <span class="highlight darkmode-highlight">~/.config/rpcs3/dev_hdd0/</span></i>
 						</p>
+						<p>
+							<i>Note: If you're on macOS, RPCS3 folders are located in <span class="highlight darkmode-highlight">~/Library/Application Support/rpcs3/dev_hdd0/</span></i>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -330,7 +333,7 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 Title updates are handled the same as PSN .pkg files. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="highlight darkmode-highlight">File &gt; Install .pkg</span><br>
+							 Title updates are handled the same as PSN .pkg files. The. pkg update file must be installed using RPCS3's built-in package installer found under <span class="highlight darkmode-highlight">File &gt; Install Packages/Raps/Edats</span><br>
 							 The update will be placed in the title folder that corresponds to the correct region ID. Please note that title updates must be the same region in order to work. Cross-mixing title regions may create irreversible damage to the title.
 						</p>
 					</div>
@@ -365,7 +368,7 @@
 							<br>
 							 For dumping disc-based games, you need to use multiMAN homebrew software in order to dump your disc files. You can transfer those files over to a computer through an external drive or using a FTP connection between your PlayStation 3 and your computer.<br>
 							<br>
-							<i>Note: The PlayStation 3 has a maximum file size of 4GB. When dumping games which contain files bigger than 4GB, multiMAN will split those files. When you have your dump over on your computer, you must rejoin the split files back together with part merging software such as <a href="http://karmian.org/projects/ps3merge">ps3merge</a>, otherwise the dump won't work.</i><br>
+							<i>Note: The PlayStation 3 has a maximum file size of 4GB. When dumping games which contain files bigger than 4GB, multiMAN will split those files. When you have your dump over on your computer, you must rejoin the split files back together with part merging software such as <a href="http://karmian.org/projects/ps3merge">ps3merge</a>, otherwise the dump will not work.</i><br>
 							<br>
 							 For dumping digital games, you must copy the game folder from dev_hdd0/game/GameID on your console over to the same path on your RPCS3 folder. You also need to get your console's IDPS, the game's RIF and ACT.DAT, in order to generate a .RAP license file to be used in the emulator.<br>
 							 It is also possible to dump digital content and licenses on <i>any</i> PS3 even without custom firmware, by the way of creating a system backup, and then extracting it with ps3xport software.
@@ -412,7 +415,7 @@
 							 If you're comfortable with the Linux command-line and you have a compatible Blu-ray drive, you can try ripping PlayStation 3 discs using a Python program called <a href="https://notabug.org/necklace/libray" target="_blank" rel="noopener noreferrer">LibRay</a>.
 						</p>
 						<p>
-							 Do note that this method requires an .ird file that matches your title ID to be available on <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a>. (libray will automatically attempt to download the correct .ird file, if it exists, so you do not need to do so manually.) If a matching .ird file is not present, please try the PS3 Disc Dumper mentioned below.
+							 Do note that this method requires an .ird file that matches your title ID to be available on <a href="https://ps3.aldostools.org/ird.html" target="_blank" rel="noopener noreferrer">ps3.aldostools.org/ird</a>. (LibRay will automatically attempt to download the correct .ird file, if it exists, so you do not need to do so manually.) If a matching .ird file is not present, please try the PS3 Disc Dumper mentioned below.
 						</p>
 					</div>
 				</div>
@@ -473,6 +476,16 @@
 					</p>
 				</div>
 			</div>
+			<div class='list-con-container'>
+				<div class='list-tx1-item darkmode-txt'>
+					 3
+				</div>
+				<div class='list-tx2-description darkmode-txt'>
+					<p>
+						 Press Start.
+					</p>
+				</div>
+			</div>
 			<div class="container-con-block darkmode-block">
 				<div class="anchor-point" id="dumping_step_by_step">
 				</div>
@@ -482,7 +495,7 @@
 					</div>
 					<div class="container-tx2-block darkmode-txt">
 						<p>
-							 In case the easy way didn't work for you, here's a compiled list of the step-by-step instructions we used for dumping disc-based PlayStation 3 titles.
+							 In case the easy way didn't work for you, here's a compiled list of the step-by-step instructions we used for dumping disc-based PlayStation 3 titles. (Not recommended)
 						</p>
 					</div>
 				</div>
@@ -542,7 +555,7 @@
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
-						 Use <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a> to download the appropriate .ird file that matches your title ID. If there isn't an .ird file that matches your title ID, you cannot use this method to dump your selected PlayStation 3 disc at this time.
+						 Use <a href="https://ps3.aldostools.org/ird.html" target="_blank" rel="noopener noreferrer">ps3.aldostools.org/ird</a> to download the appropriate .ird file that matches your title ID. If there isn't an .ird file that matches your title ID, you cannot use this method to dump your selected PlayStation 3 disc at this time and will need to use your PS3.
 					</p>
 				</div>
 			</div>
@@ -552,7 +565,7 @@
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
-						 Be sure to check the title ID in case there is a different edition of that title. e.g. Uncharted 2 Game of the Year Edition. You must use the correct .ird with the same title ID, otherwise it won't work. (<i>Example: .ird file for Demon's Souls US disc doesn't work with Demon's Souls EU disc</i>).
+						 Be sure to check the title ID in case there is a different edition of that title. e.g. Uncharted 2 Game of the Year Edition. You must use the correct .ird with the same title ID, otherwise it will not work. (<i>Example: .ird file for Demon's Souls US disc does not work with Demon's Souls EU disc</i>).
 					</p>
 				</div>
 			</div>
@@ -572,7 +585,7 @@
 				</div>
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
-						 Using 3K3Y IsoTools press Decrypt button and select the .iso with patched-in decryption keys. This will produce decrypted .dec.iso file.
+						 Using 3K3Y IsoTools press Decrypt button and select the .iso with patched-in decryption keys. This will produce a decrypted .dec.iso file.
 					</p>
 				</div>
 			</div>
@@ -583,7 +596,7 @@
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
 						 Optionally, validate that you have successfully obtained the correct copy of your game. <br>
-						 You will need to install PS3 ISO Rebuilder tool from <a href="http://jonnysp.bplaced.net" target="_blank" rel="noopener noreferrer">jonnysp.bplaced.net</a>
+						 You will need to install PS3 ISO Rebuilder tool from <a href="https://archive.org/download/ps3-iso-rebuilder-1.0.4.1/PS3-ISO-Rebuilder.zip" target="_blank" rel="noopener noreferrer">archive.org/download/ps3-iso-rebuilder-1.0.4.1</a>
 						<br>
 						 Load your .dec.iso file and your .ird file in the program and let it verify the dump. All of your files must be either Valid or Not required.
 					</p>
@@ -596,7 +609,7 @@
 				<div class='list-tx2-description darkmode-txt'>
 					<p>
 						 In 3K3Y ISO Tools, use the Tools drop-down menu to select <span class="highlight darkmode-highlight">ISO > Extract ISO</span> and then select the decrypted .iso file to extract its files.<br>
-						 Another option is to use 7-zip or any other software that is capable of extracting .iso images.
+						 Another option is to use 7-zip or any other software that is capable of extracting .iso images and extract to a folder.
 					</p>
 				</div>
 			</div>
