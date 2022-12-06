@@ -361,7 +361,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 							<span>Previous Builds</span>
 						</div>
 						<div class='downloadable-tx2-desc darkmode-txt'>
-							<span>With every new compiled binary RPCS3.net saves a record and stores it in our build catalog. The build catalog allows you browse and download every publicly released and compiled build recorded by our system. This allows users to view useful metadata for each build such as file size, SHA, author and the commit it was compiled from. <br><br>
+							<span>With every new compiled binary RPCS3.net saves a record and stores it in our build catalog. The build catalog allows you to browse and download every publicly released and compiled build recorded by our system. This allows users to view useful metadata for each build such as file size, SHA, author and the commit it was compiled from. <br><br>
 							For furthers details on each build, see our <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> log via GitHub. </span>
 							</span>
 							<br><br>
