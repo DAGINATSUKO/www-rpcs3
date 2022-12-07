@@ -566,7 +566,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-13900K (5.5-5.9GHz)</span>
+										<span>Intel i9-13900K (5.9GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -605,7 +605,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-10900K (5.0-5.4GHz)</span>
+										<span>Intel i9-10900K (5.0GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -862,21 +862,21 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R9 3950X (3.8GHz)</span>
+										<span>Intel i9-13900K (5.5GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>NVIDIA GTX 1660 Super</span>
+										<span>NVIDIA RTX 4090</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR4 (3200MHz)</span>
+										<span>64GB DDR4 (3200MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1297,7 +1297,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>AMD R7 1800X (3.8GHz)</span>
+										<span>Intel i9-13900K (5.5GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1311,14 +1311,14 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR4 (3200MHz)</span>
+										<span>32GB DDR5 (7600MHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Windows 10</span>
+										<span>Windows 11</span>
 									</div>
 								</div>
 							</div>
@@ -1376,21 +1376,21 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-12900K (5.2-5.5GHz)</span>
+										<span>Intel i9-13900K (6.0GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>NVIDIA RTX 3090</span>
+										<span>NVIDIA RTX 4090</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR5 (6800MHz C28)</span>
+										<span>32GB DDR5 (7800MHz C30)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
