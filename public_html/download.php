@@ -422,7 +422,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 						<p class="download-desc">
 							For macOS users, simply open the downloaded .DMG file and drag and drop the RPCS3 app into your applications folder when prompted.
 							<br>
-							Once installed, your RPCS3 application directory will be found in: <span class="highlight darkmode-highlight">~/Library/Application Support/rpcs3/dev_hdd0/home/00000001/savedata/</span>
+							Once installed, your RPCS3 application support directory will be found in: <span class="highlight darkmode-highlight">~/Library/Application Support/rpcs3/</span>
 						</p>
 					</div>
 				</div>
