@@ -274,7 +274,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 							<span>macOS</span>
 						</div>
 						<div class='downloadable-tx2-desc darkmode-txt'>
-							<span>Users can expect to run RPCS3 on the latest performance Macs with support for M1 and Intel Macs with dedicated graphics on macOS 11.6 or later.</span>
+							<span>Users can expect to run RPCS3 on the latest performance Macs with support for M1 and Intel Macs with dedicated graphics on macOS 12.0 or later.</span>
 						</div>
 						<div class='sha2-tx1-title darkmode-txt'>
 							<span>SHA-256</span>
@@ -282,7 +282,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 						<div class='sha2-tx2-desc'>
 							<span>
 							<?php
-							if (isset($build))
+							if (isset($build) && !is_null($build->checksum_mac))
 								printf("%s", $build->checksum_mac);
 							else
 								printf("Unavailable");
@@ -295,7 +295,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 						<div class='package-tx2-desc darkmode-txt'>
 							<span>
 							<?php
-							if (isset($build))
+							if (isset($build) && !is_null($build->get_size_mb_mac()))
 								printf("%s MB", $build->get_size_mb_mac());
 							else
 								printf("Unavailable");
@@ -303,7 +303,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 							</span>
 						</div>
 						<?php
-						if (isset($build))
+						if (isset($build) && !is_null($build->get_url_mac()))
 							printf("<a href=\"%s\" download>", $build->get_url_mac());
 						?>
 						<div class='package-con-button'>
@@ -312,7 +312,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 							<div class='package-tx1-button'>
 								<span>
 								<?php
-								if (isset($build))
+								if (isset($build) && !is_null($build->get_url_mac()))
 									printf("Download");
 								else
 									printf("Unavailable");
@@ -321,7 +321,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 							</div>
 						</div>
 						<?php
-						if (isset($build))
+						if (isset($build) && !is_null($build->get_url_mac()))
 							printf("</a>");
 						?>
 					</div>
