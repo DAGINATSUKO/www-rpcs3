@@ -306,7 +306,7 @@
 							 .pkg files will be automatically extracted and installed to <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> It is recommended to keep your .pkg files in a safe place on your pc after installing. 
 						</p>
 						<p>
-							 Blu-ray disc title data can be placed in <span class="highlight darkmode-highlight">\dev_hdd0\disc\</span> or anywhere else except for <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="highlight darkmode-highlight">File &gt; Boot Game</span> if not present on the game list.
+							 Blu-ray disc title data can be placed in <span class="highlight darkmode-highlight">\games</span> located in your RPCS3's root folder or anywhere else except for <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="highlight darkmode-highlight">File &gt; Boot Game</span> if not present on the game list.
 						</p>
 						<p>
 							 PSN title data must be placed in <span class="highlight darkmode-highlight">\dev_hdd0\game\</span>
