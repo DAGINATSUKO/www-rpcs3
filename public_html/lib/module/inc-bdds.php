@@ -125,8 +125,10 @@
 			</div>
 			<span>WP50NB40</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>XX-XXXXXX</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray darkmode-invert">
+			</div>
+			<span>WH16NS60</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>XX-XXXXXX</span>
