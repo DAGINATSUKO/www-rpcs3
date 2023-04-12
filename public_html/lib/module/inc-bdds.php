@@ -131,7 +131,7 @@
 			<span>WH16NS60</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
-			<span>XX-XXXXXX</span>
+			<span>WH16NS60</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>XX-XXXXXX</span>

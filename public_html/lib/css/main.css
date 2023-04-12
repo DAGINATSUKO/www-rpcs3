@@ -381,7 +381,7 @@ a:hover {
     background: rgba(255,255,255,.05);
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
-    border-bottom: 2px solid rgba(255,255,255,.05);
+    border-bottom: 1px solid rgba(255,255,255,.1);
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none
@@ -685,7 +685,7 @@ a:hover {
     animation-iteration-count: 1;
     -webkit-backdrop-filter: blur(12px) saturate(500%);
     backdrop-filter: blur(12px) saturate(500%);
-    border: 2px solid rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.1);
     background: rgba(17,21,37,.8)!important
 }
 
@@ -746,7 +746,7 @@ a:hover {
 
 .settings-menu-con-divider {
     background: rgba(255,255,255,.1);
-    height: 2px;
+    height: 1px;
     border-radius: 2px;
     position: relative;
     margin-left: 12px;
@@ -1158,7 +1158,7 @@ a:hover {
     inset: 0;
     margin: 20px;
     border-radius: 12px;
-    border: 2px solid rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.1);
     background: rgba(17,21,37,.9)!important
 }
 
@@ -1475,13 +1475,13 @@ a:hover {
     margin-bottom: 15px;
     box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #0080ff!important
+    border: 1px solid #0080ff!important;
 }
 
 .generic-btn-button:hover {
     background: linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
-    border: 2px solid #57e694!important
+    border: 1px solid #57e694!important
 }
 
 .generic-ico-button {
@@ -1850,7 +1850,7 @@ a:hover {
     padding-left: 4px;
     padding-right: 4px;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #fff
+    border: 2px solid #fff;
 }
 
 .build-btn-button:hover {
