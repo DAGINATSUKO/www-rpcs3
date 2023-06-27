@@ -182,8 +182,10 @@
 			</div>
 			<span>BW-16D1HT</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>XX-XXXXXX</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray darkmode-invert">
+			</div>
+			<span>BW-14D1XT</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>XX-XXXXXX</span>
