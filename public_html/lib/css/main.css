@@ -1,5 +1,4 @@
-@charset "utf-8";
-ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
+@charset "utf-8";ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
     font-size: inherit;
     font-weight: inherit;
     font-style: inherit;
@@ -1475,7 +1474,7 @@ a:hover {
     margin-bottom: 15px;
     box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
     transition: all .1s ease-in-out 0s;
-    border: 1px solid #0080ff!important;
+    border: 1px solid #0080ff!important
 }
 
 .generic-btn-button:hover {
@@ -1834,11 +1833,6 @@ a:hover {
     animation-iteration-count: 1
 }
 
-
-
-
-
-
 .build-btn-button {
     width: 198px;
     height: 46px;
@@ -1850,7 +1844,7 @@ a:hover {
     padding-left: 4px;
     padding-right: 4px;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #fff;
+    border: 2px solid #fff
 }
 
 .build-btn-button:hover {
@@ -2535,7 +2529,7 @@ a:hover {
 }
 
 .video-con-divider {
-    background: linear-gradient(-70deg, rgb(78,52,201), rgb(104,109,224));
+    background: linear-gradient(-70deg,rgb(78,52,201),rgb(104,109,224));
     height: 4px;
     border-radius: 4px;
     width: 50px;
@@ -2558,7 +2552,7 @@ a:hover {
     position: absolute;
     top: 44px;
     z-index: 1;
-    background: linear-gradient(-70deg, #4e34c9, #686de0);
+    background: linear-gradient(-70deg,#4e34c9,#686de0);
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
     -webkit-background-clip: text;
@@ -3164,14 +3158,16 @@ a:hover {
     height: auto;
     margin-top: 20px;
     margin-left: -10px;
-    display: inline-block;
+    display: inline-block
 }
+
 .downloadable-con-outer {
     width: 33.3333333333%;
     height: 100%;
     position: relative;
     float: left
 }
+
 .downloadable-con-inner-a {
     border-radius: 12px;
     background: #fff;
@@ -3179,11 +3175,13 @@ a:hover {
     margin: 10px;
     overflow: hidden;
     position: relative;
-    transition: all .1s ease-in-out 0s;
+    transition: all .1s ease-in-out 0s
 }
+
 .downloadable-con-inner-a:hover {
-  transform: translate(0, -10px);
+    transform: translate(0,-10px)
 }
+
 .downloadable-con-text h3 {
     font-family: Roboto-Bold;
     font-size: 24px;
@@ -3194,6 +3192,7 @@ a:hover {
     padding-top: 20px;
     margin-bottom: 15px
 }
+
 .downloadable-con-text p {
     font-family: roboto-regular;
     font-size: 16px;
@@ -3203,22 +3202,26 @@ a:hover {
     padding-left: 20px;
     padding-top: 5px
 }
+
 .downloadable-con-text-bold {
     color: rgb(255 255 255/50%);
     font-family: roboto-bold
 }
+
 .downloadable-con-image {
     background-size: 32px!important;
     height: 80px;
     position: relative;
     margin-left: 20px
 }
+
 .downloadable-con-graphic {
     background-size: contain!important;
     height: 184px;
     width: 206px;
-    position: absolute;
+    position: absolute
 }
+
 .downloadable-tx1-title {
     font-family: Roboto-Bold;
     font-size: 24px;
@@ -3227,6 +3230,7 @@ a:hover {
     margin-bottom: 20px;
     margin-right: 20px
 }
+
 .downloadable-tx2-desc {
     font-family: Roboto-Regular;
     font-size: 14px;
@@ -3235,14 +3239,16 @@ a:hover {
     margin-right: 20px;
     margin-bottom: 20px
 }
+
 .package-tx1-title {
     font-family: Roboto-Bold;
     font-size: 14px;
     line-height: 24px;
     margin-left: 20px;
     width: 150px;
-    margin-bottom: 4px;
+    margin-bottom: 4px
 }
+
 .package-tx2-desc {
     font-family: Roboto-Regular;
     font-size: 14px;
@@ -3253,33 +3259,37 @@ a:hover {
     width: 170px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-bottom: 15px;
+    margin-bottom: 15px
 }
+
 .package-tx2-desc span {
     font-size: 14px;
-    font-family: "Roboto-Bold";
-    background: rgb(0 0 0 / 5%);
+    font-family: roboto-bold;
+    background: rgb(0 0 0/5%);
     padding: 6px 12px;
     border-radius: 12px;
     position: relative;
     line-height: 36px;
-    margin-top: 6px;
+    margin-top: 6px
 }
+
 .package-tx2-desc-wide {
     font-family: Roboto-Regular;
     font-size: 14px;
     line-height: 26px;
     position: relative;
-    color: #fff;
+    color: #fff
 }
+
 .sha2-tx1-title {
     font-family: Roboto-Bold;
     font-size: 14px;
     line-height: 16px;
     margin-left: 20px;
     width: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
+
 .sha2-tx2-desc {
     width: unset;
     font-family: roboto-regular;
@@ -3294,13 +3304,15 @@ a:hover {
     padding: 6px 8px;
     margin-bottom: 17px;
     color: #1abc9c;
-    background: rgb(26 188 156 / 10%);
+    background: rgb(26 188 156/10%)
 }
+
 .package-con-button-disabled {
-  filter: grayscale(100%);
-  cursor:not-allowed;
-  background: #525252 !important;
+    filter: grayscale(100%);
+    cursor: not-allowed;
+    background: #525252!important
 }
+
 .package-con-button {
     margin-right: 20px;
     width: 150px;
@@ -3313,13 +3325,15 @@ a:hover {
     background: linear-gradient( -135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     box-shadow: rgb(0 116 231/40%) 0 10px 32px 0;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #0080ff!important;
+    border: 2px solid #0080ff!important
 }
+
 .package-con-button:hover {
     background: linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694!important
 }
+
 .package-tx1-button {
     font-family: roboto-regular;
     font-size: 18px;
@@ -3327,151 +3341,170 @@ a:hover {
     color: #fff;
     height: 100%
 }
+
 .package-ico-button {
     height: 44px;
     width: 44px;
     float: left;
-    margin-right: 0;
+    margin-right: 0
 }
+
 .package-pr {
     background: #8256d0;
     border-radius: 12px;
     padding: 8px 12px;
-    box-shadow: rgb(130 86 208 / .5) 0 8px 24px 0;
+    box-shadow: rgb(130 86 208/.5) 0 8px 24px 0;
     margin-right: 5px;
     float: left;
-    border:solid 2px transparent;
+    border: solid 2px transparent;
     transition: all .1s ease-in-out 0s;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
+
 .package-pr:hover {
-    border:solid 2px #af81ff;
+    border: solid 2px #af81ff
 }
+
 .package-pr a {
-   color:#fff;
-   background: rgb(255 255 255 / 20%);
-   border-radius: 6px;
-   padding: 4px 8px;
-   margin-left: 8px;
-   font-weight: bold;
+    color: #fff;
+    background: rgb(255 255 255/20%);
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin-left: 8px;
+    font-weight: 700
 }
+
 .package-commit {
-    background: #FF9F43;
+    background: #ff9f43;
     border-radius: 12px;
     padding: 8px 12px;
-    box-shadow: rgb(255 159 67 / .5) 0 8px 24px 0;
+    box-shadow: rgb(255 159 67/.5) 0 8px 24px 0;
     margin-left: 5px;
     margin-right: 5px;
     float: left;
-    border:solid 2px transparent;
+    border: solid 2px transparent;
     transition: all .1s ease-in-out 0s;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
+
 .package-commit:hover {
-    border:solid 2px #ffc690;
+    border: solid 2px #ffc690
 }
+
 .package-commit a {
-   color:#fff;
-   background: rgb(255 255 255 / 20%);
-   border-radius: 6px;
-   padding: 4px 8px;
-   margin-left: 8px;
-   font-weight: bold;
-   text-transform: uppercase;
+    color: #fff;
+    background: rgb(255 255 255/20%);
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin-left: 8px;
+    font-weight: 700;
+    text-transform: uppercase
 }
+
 .package-author {
     background: #1abc9c;
     border-radius: 12px;
     padding: 8px 12px;
-    box-shadow: rgb(26 188 156 / .5) 0 8px 24px 0;
+    box-shadow: rgb(26 188 156/.5) 0 8px 24px 0;
     margin-left: 5px;
     margin-right: 25px;
     float: left;
-    border:solid 2px transparent;
+    border: solid 2px transparent;
     transition: all .1s ease-in-out 0s;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
+
 .package-author a {
-   color:#fff;
-   background: rgb(255 255 255 / 20%);
-   border-radius: 6px;
-   padding: 4px 8px;
-   margin-left: 8px;
-   font-weight: bold;
+    color: #fff;
+    background: rgb(255 255 255/20%);
+    border-radius: 6px;
+    padding: 4px 8px;
+    margin-left: 8px;
+    font-weight: 700
 }
+
 .package-author:hover {
-    border:solid 2px #57e694;
+    border: solid 2px #57e694
 }
+
 .version-con-container {
-	background: #fff;
-	box-shadow: rgb(0 0 0 / 10%) 0 10px 32px 0;
-	width: calc(100% - 20px);
-	height: auto;
-	border-radius: 12px;
-	
-	display: inline-block;
-	padding-bottom: 25px;
-	margin-right: 52px;
-	overflow: hidden;
-	position: relative;
+    background: #fff;
+    box-shadow: rgb(0 0 0/10%) 0 10px 32px 0;
+    width: calc(100% - 20px);
+    height: auto;
+    border-radius: 12px;
+    display: inline-block;
+    padding-bottom: 25px;
+    margin-right: 52px;
+    overflow: hidden;
+    position: relative
 }
+
 .version-ico-package {
-	background: url("/img/graphics/download/package.png") no-repeat center;
-	background-size: cover;
-	width: 100px;
-	height: 100px;
-	position: relative;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	top: 20px;
-	float: left;
+    background: url(/img/graphics/download/package.png) no-repeat center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    top: 20px;
+    float: left
 }
+
 .version-img-package {
-	background: url("/img/graphics/download/playstation.png") no-repeat center;
-	background-size: 600px;
-	width: 100%;
-	height: 100%;
-	position: relative;
+    background: url(/img/graphics/download/playstation.png) no-repeat center;
+    background-size: 600px;
+    width: 100%;
+    height: 100%;
+    position: relative
 }
+
 .version-img-container {
-	width: 290px;
-	height: 100%;
-	position: absolute;
-	right: 0px;
+    width: 290px;
+    height: 100%;
+    position: absolute;
+    right: 0
 }
+
 .version-tx1-package {
-    font-family: "Roboto-Bold";
+    font-family: roboto-bold;
     font-size: 24px;
     line-height: 26px;
     color: #000;
-    margin-bottom: 4px;
+    margin-bottom: 4px
 }
+
 .version-tx2-package {
-    font-family: "Roboto-Regular";
+    font-family: roboto-regular;
     font-size: 16px;
     line-height: 26px;
     color: #000;
-    margin-bottom: 16px;
+    margin-bottom: 16px
 }
+
 .version-txt-container {
     color: #000;
     float: left;
     margin-top: 20px;
-    padding-left: 15px;
+    padding-left: 15px
 }
+
 .version-builddate {
-	color: #03A9F4;
+    color: #03a9f4
 }
+
 .version-buildversion {
-	color: #686de0;
+    color: #686de0
 }
+
 .version-ico-git {
-	color: #686de0;
-	width: 26px;
-	height: 26px;
-	float: left;
-	margin-right: 8px;
-	position: relative;
+    color: #686de0;
+    width: 26px;
+    height: 26px;
+    float: left;
+    margin-right: 8px;
+    position: relative
 }
 
 .reqs-con-container {
@@ -3576,7 +3609,7 @@ a:hover {
 }
 
 .context-macos {
-    background: linear-gradient(to left,rgba(255,255,255,0),rgb(55 43 240 / 20%))!important;
+    background: linear-gradient(to left,rgba(255,255,255,0),rgb(55 43 240/20%))!important
 }
 
 .context-bsd {
@@ -3647,7 +3680,6 @@ a:hover {
 
 .linux-highlight {
     padding: 2px 8px;
-    white-space: nowrap;
     background: rgba(240,147,43,.1);
     border-radius: 24px;
     color: #f0932b;
@@ -3655,10 +3687,10 @@ a:hover {
     user-select: all;
     cursor: pointer
 }
+
 .macos-highlight {
     padding: 2px 8px;
-    white-space: nowrap;
-    background: rgb(55 43 240 / 10%);
+    background: rgb(55 43 240/10%);
     border-radius: 24px;
     color: #372bf0;
     -webkit-user-select: all;
@@ -3668,7 +3700,6 @@ a:hover {
 
 .bsd-highlight {
     padding: 2px 8px;
-    white-space: nowrap;
     background: rgba(255,52,52,.1);
     border-radius: 24px;
     color: #ff3434;

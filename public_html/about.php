@@ -580,7 +580,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>64GB DDR5 (6933MHz C34)</span>
+										<span>48GB DDR5 (8266MHz C36)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1146,6 +1146,45 @@
 								</div>
 							</div>
 						</div>
+						<div class="user-con-specsheet">
+							<div class="user-con-specbox">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/laptop.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Steam Deck</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD Custom APU 0405</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD Van Gogh</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>16GB LPDDR5 (5500MHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Linux (SteamOS)</span>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="user-con-content darkmode-txt">
@@ -1376,7 +1415,7 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Intel i9-13900KS (6.3GHz)</span>
+										<span>Intel i9-13900KS (5.9GHz)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
@@ -1390,17 +1429,56 @@
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>32GB DDR5 (8000MHz C30)</span>
+										<span>32GB DDR5 (8000MHz C32)</span>
 									</div>
 								</div>
 								<div class="specbox-con-part darkmode-specbox">
 									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
 									</div>
 									<div class="specbox-tx1-part darkmode-txt">
-										<span>Windows 11</span>
+										<span>Windows 10</span>
 									</div>
 								</div>
 							</div>
+							<div class="user-con-specsheet">
+							<div class="user-con-specbox">
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/desktop.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Desktop</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>AMD Ryzen 7 5800X3D (4.5GHz)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>NVIDIA RTX 3090</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>32GB DDR4 (3866MHz C14)</span>
+									</div>
+								</div>
+								<div class="specbox-con-part darkmode-specbox">
+									<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os.png') no-repeat center;">
+									</div>
+									<div class="specbox-tx1-part darkmode-txt">
+										<span>Windows 10</span>
+									</div>
+								</div>
+							</div>
+						</div>
 						</div>
 					</div>
 				</div>
