@@ -425,7 +425,8 @@ a:hover {
     margin-bottom: -2px;
     color: #fff;
     border-bottom: 2px solid transparent;
-    transition: all .1s ease-in-out 0s
+    transition: all .1s ease-in-out 0s;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .menu-btn-select:hover {
@@ -1500,7 +1501,8 @@ a:hover {
     height: 100%;
     color: #fff;
     position: relative;
-    display: inline-block
+    display: inline-block;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .generic-tx2-label {
@@ -1561,7 +1563,8 @@ a:hover {
     font-size: 24px;
     line-height: 32px;
     padding-top: 4px;
-    padding-bottom: 4px
+    padding-bottom: 4px;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .spec-con-desc h3 {
@@ -1934,7 +1937,8 @@ a:hover {
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    text-rendering: optimizelegibility
+    text-rendering: optimizelegibility;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .landing-tx2-heading {
@@ -1946,7 +1950,7 @@ a:hover {
     animation-name: fadeInUp;
     animation-duration: 1.2s;
     animation-iteration-count: 1;
-    text-shadow: rgba(0,0,0,.4) 2px 0 16px
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .landing-con-divider {
@@ -2006,7 +2010,8 @@ a:hover {
     height: auto;
     padding-left: 100px;
     color: #fff;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .github-tx2-mantra {
@@ -2014,7 +2019,8 @@ a:hover {
     font-size: 16px;
     line-height: 30px;
     padding-left: 100px;
-    color: #fff
+    color: #fff;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .github-btn-button {
@@ -2141,7 +2147,8 @@ a:hover {
     padding-left: 100px;
     color: #fff;
     margin-bottom: 20px;
-    text-rendering: optimizelegibility
+    text-rendering: optimizelegibility;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .discord-tx2-mantra {
@@ -2149,7 +2156,8 @@ a:hover {
     font-size: 16px;
     line-height: 30px;
     padding-left: 100px;
-    color: #fff
+    color: #fff;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .discord-btn-button {
@@ -2301,7 +2309,8 @@ a:hover {
     font-size: 16px;
     line-height: 46px;
     height: 100%;
-    color: #fff
+    color: #fff;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .adsense-con-container {
@@ -2875,9 +2884,11 @@ a:hover {
 .user-con-content {
     position: relative;
     height: auto;
-    overflow: visible!important;
-    min-height: 114px!important;
-    padding-bottom: 15px
+    min-height: 175px!important;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: rgb(0 0 0/10%) 0 10px 32px 0;
+    border: solid 1px #fff;
 }
 
 .user-con-content:hover .user-img-flag {
@@ -2901,8 +2912,46 @@ a:hover {
     position: relative;
     width: auto;
     height: auto;
-    padding-bottom: 30px;
-    padding-left: 100px
+    padding-bottom: 20px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+.user-con-backdrop {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	-webkit-backdrop-filter: blur(64px);
+	backdrop-filter: blur(64px);
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.user-img-backdrop {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius: 12px;
+	opacity: .2;
+}
+
+.user-tx1-backdrop {
+    font-family: Roboto-Bold;
+    font-size: 140px;
+    line-height: 150px;
+    color: #fff;
+    right: 0px;
+    height: 150px;
+    width: 450px;
+    padding-right: 12px;
+    position: absolute;
+    top: 50%;
+    margin-top: -75px;
+    opacity: .3;
+    text-align: right;
 }
 
 .user-tx1-content {
@@ -2913,17 +2962,16 @@ a:hover {
     width: 100%;
     height: auto;
     min-height: 26px;
-    margin-top: 8px;
-    margin-bottom: 18px;
     text-align: left;
-    color: #000
+    color: #000;
+    margin-bottom: 15px;
 }
 
 .user-tx2-member {
-    font-family: Roboto-Bold;
-    font-size: 20px;
+    font-family: 'Roboto-Bold';
+    font-size: 24px;
     font-weight: 400;
-    float: left
+    float: left;
 }
 
 .user-tx3-content {
@@ -2952,49 +3000,60 @@ a:hover {
 
 .user-img-avatar {
     position: absolute;
-    top: 0;
+    left: 20px;
+    top: 25px;
     width: 80px;
     height: 80px;
     transition: all .2s ease-in-out 0s;
     border-radius: 100%;
-    box-shadow: rgba(0,0,0,.15) 0 16px 16px 0;
-    border: 2px solid #fff
+    box-shadow: rgba(0,0,0,.15) 0 8px 8px 0;
+    z-index: 2;
+    border: solid 2px #fff;
 }
 
 .user-img-flag {
     position: absolute;
     top: 50%;
-    left: -72px;
+    left: -92px;
     display: none;
-    width: 56px;
-    height: 36px;
-    margin-top: -24px;
+    width: 80px;
+    height: 51px;
+    margin-top: -30.5px;
     transition: all .2s ease-in-out 0s;
     border: 2px solid #fff;
     box-shadow: rgba(0,0,0,.2) 10px 10px 32px 0;
-    border-radius: 6px
+    border-radius: 8px;
 }
 
 .user-con-role {
     font-family: Roboto-Regular;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 100;
-    line-height: 20px;
+    line-height: 16px;
     position: relative;
-    top: -4px;
+    top: -2px;
     float: left;
-    height: 20px;
+    height: 16px;
     margin-left: 10px;
-    padding: 6px 8px;
     color: #fff;
-    border-radius: 6px;
+    border-radius: 36px;
     opacity: 0;
-    transition: all .2s ease-in-out 0s
+    transition: all .2s ease-in-out 0s;
+    padding: 6px 10px;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+}
+
+.user-con-role-gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 12px;
 }
 
 .user-role-lead {
     background: #0984e3;
-    box-shadow: rgba(9,132,227,.4) 0 8px 16px 0
+    box-shadow: rgba(9,132,227,.4) 0 8px 16px 0;
+    border: solid 1px #6bbeff;
 }
 
 .role-lead {
@@ -3003,7 +3062,9 @@ a:hover {
 
 .user-role-graphics {
     background: #fd79a8;
-    box-shadow: rgba(253,121,168,.4) 0 8px 16px 0
+    box-shadow: rgba(253,121,168,.4) 0 8px 16px 0;
+    border: solid 1px #ffb6d0;
+}
 }
 
 .role-graphics {
@@ -3012,7 +3073,8 @@ a:hover {
 
 .user-role-manager {
     background: #fea47f;
-    box-shadow: rgba(253,163,127,.4) 0 8px 16px 0
+    box-shadow: rgba(253,163,127,.4) 0 8px 16px 0;
+    border: solid 1px #ffccb7;
 }
 
 .role-manager {
@@ -3021,21 +3083,24 @@ a:hover {
 
 .user-role-web {
     background: #6c5ce7;
-    box-shadow: rgba(108,92,231,.4) 0 5px 16px 0
+    box-shadow: rgba(108,92,231,.4) 0 5px 16px 0;
+    border: solid 1px #b5aeeb;
 }
 
 .role-web {
-    background: linear-gradient(to left,rgba(255,255,255,0),rgb(108,92,231))
+    background: linear-gradient(to left,rgba(255,255,255,0),rgb(108,92,231));
 }
 
 .user-role-designer {
     background: #0fbcf9;
-    box-shadow: rgba(15,188,249,.4) 0 5px 16px 0
+    box-shadow: rgba(15,188,249,.4) 0 5px 16px 0;
+	border: solid 1px #6bbeff;
 }
 
 .user-role-ui {
     background: #cf6a87;
-    box-shadow: rgba(207,106,135,.4) 0 8px 16px 0
+    box-shadow: rgba(207,106,135,.4) 0 8px 16px 0;
+    border: solid 1px #dfb3c0;
 }
 
 .role-ui {
@@ -3045,11 +3110,13 @@ a:hover {
 .user-role-firmware {
     background: #9b59b6;
     box-shadow: rgba(155,89,182,.4) 0 8px 16px 0
+	border: solid 1px #6bbeff;
 }
 
 .user-role-developer {
     background: #00b894;
-    box-shadow: rgba(0,184,148,.4) 0 8px 16px 0
+    box-shadow: rgba(0,184,148,.4) 0 8px 16px 0;
+    border: solid 1px #96cdc2;
 }
 
 .role-developer {
@@ -3058,7 +3125,8 @@ a:hover {
 
 .user-role-contributor {
     background: #ff8c67;
-    box-shadow: rgba(230,131,100,.4) 0 8px 16px 0
+    box-shadow: rgba(230,131,100,.4) 0 8px 16px 0;
+    border: solid 1px #ffc6b4;
 }
 
 .role-contributor {
@@ -3067,7 +3135,8 @@ a:hover {
 
 .user-role-editor {
     background: #4a69bd;
-    box-shadow: rgba(74,105,189,.4) 0 8px 16px 0
+    box-shadow: rgba(74,105,189,.4) 0 8px 16px 0;
+    border: solid 1px #98aad9;
 }
 
 .role-editor {
@@ -3076,7 +3145,8 @@ a:hover {
 
 .user-role-wiki {
     background: #78e08f;
-    box-shadow: rgba(120,224,143,.4) 0 5px 16px 0
+    box-shadow: rgba(120,224,143,.4) 0 5px 16px 0;
+    border: solid 1px #b4e6bf;
 }
 
 .role-wiki {
@@ -3085,7 +3155,8 @@ a:hover {
 
 .user-role-server {
     background: #38ada9;
-    box-shadow: rgba(56,173,169,.4) 0 8px 16px 0
+    box-shadow: rgba(56,173,169,.4) 0 8px 16px 0;
+    border: solid 1px #97e1df;
 }
 
 .user-role-debugger {
@@ -3095,7 +3166,8 @@ a:hover {
 
 .user-role-founder {
     background: #9079ff;
-    box-shadow: rgba(76,91,215,.4) 0 8px 16px 0
+    box-shadow: rgba(76,91,215,.4) 0 8px 16px 0;
+    border: solid 1px #d0c6ff;
 }
 
 .role-founder {
@@ -3104,44 +3176,128 @@ a:hover {
 
 .user-role-former {
     background: #00cec9;
-    box-shadow: rgba(0,206,201,.4) 0 8px 16px 0
+    box-shadow: rgba(0,206,201,.4) 0 8px 16px 0;
+    border: solid 1px #acdfde;
 }
 
 .role-former {
     background: linear-gradient(to left,rgba(255,255,255,0),rgb(0,206,201))
 }
 
+.user-con-subtitle {
+	height: 30px;
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.user-tx1-subtitle {
+	font-family: Roboto-Bold;
+	font-size: 16px;
+	line-height: 30px;
+	opacity: .5;
+}
+
+.user-con-socialsheet {
+    height: auto;
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+
+.user-con-socialbox {
+    height: auto;
+    position: relative;
+    border-radius: 12px;
+    margin-bottom: -6px;
+}
+
+.socialbox-con-button {
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: 9px;
+    padding: 10px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px 0px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(16px);
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 0.1s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.socialbox-con-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.socialbox-tx1-platform {
+    color: rgb(0, 0, 0);
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    line-height: 25px;
+    width: auto;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.socialbox-ico-platform {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    background-size: 22px !important;
+}
+
+
+
 .user-con-specsheet {
     height: auto;
     position: relative;
-    margin-top: 12px
+    margin-top: 12px;
+    background: rgb(255 255 255 / 10%);
+    padding: 6px 6px;
+    border-radius: 12px;
+    border: solid 1px rgb(255 255 255 / 50%);
 }
 
 .user-con-specbox {
     height: auto;
     position: relative;
-    border-radius: 12px
+    border-radius: 12px;
+	margin-bottom: -6px;
 }
 
 .specbox-con-part {
     display: inline-block;
     margin-right: 2px;
-    border-radius: 6px;
-    padding: 6px 8px;
-    background: #fff;
+    border-radius: 9px;
+    padding: 4px 8px;
+    padding-right: 12px;
     box-shadow: rgba(0,0,0,.1) 0 8px 24px 0;
-    margin-bottom: 4px
+    margin-bottom: 8px;
+    border: solid 1px rgb(255 255 255 / 50%);
+    backdrop-filter: blur(16px);
+    background: rgb(255 255 255 / 10%);
+    transition: all .1s ease-in-out 0s;
+}
+.specbox-con-part:hover {
+    background: rgb(255 255 255 / 20%);
+    cursor:default;
 }
 
 .specbox-tx1-part {
-    color: #000;
+    color: #000000;
     font-family: Roboto-Regular;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 25px;
     width: auto;
     height: 25px;
     position: relative;
-    display: inline-block
+    display: inline-block;
 }
 
 .specbox-ico-part {
@@ -3150,7 +3306,18 @@ a:hover {
     position: relative;
     float: left;
     margin-right: 6px;
-    background-size: 18px!important
+    background-size: 18px!important;
+    opacity: .5;
+}
+
+.specbox-ico-mod {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    float: right;
+    margin-right: -6px;
+    opacity: 0.5;
+    background-size: 18px !important;
 }
 
 .downloadable-con-container {
@@ -3291,6 +3458,7 @@ a:hover {
 }
 
 .sha2-tx2-desc {
+	min-height: 44px;
     width: unset;
     font-family: roboto-regular;
     font-size: 12px;
@@ -3314,7 +3482,6 @@ a:hover {
 }
 
 .package-con-button {
-    margin-right: 20px;
     width: 150px;
     height: 44px;
     position: relative;
@@ -3325,7 +3492,8 @@ a:hover {
     background: linear-gradient( -135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
     box-shadow: rgb(0 116 231/40%) 0 10px 32px 0;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #0080ff!important
+    border: 2px solid #0080ff!important;
+    float: left;
 }
 
 .package-con-button:hover {
@@ -3339,7 +3507,8 @@ a:hover {
     font-size: 18px;
     line-height: 44px;
     color: #fff;
-    height: 100%
+    height: 100%;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .package-ico-button {
@@ -3358,7 +3527,8 @@ a:hover {
     float: left;
     border: solid 2px transparent;
     transition: all .1s ease-in-out 0s;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .package-pr:hover {
@@ -3384,7 +3554,8 @@ a:hover {
     float: left;
     border: solid 2px transparent;
     transition: all .1s ease-in-out 0s;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .package-commit:hover {
@@ -3411,7 +3582,8 @@ a:hover {
     float: left;
     border: solid 2px transparent;
     transition: all .1s ease-in-out 0s;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .package-author a {
@@ -3552,7 +3724,8 @@ a:hover {
     padding: 2px 8px;
     -webkit-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 10%);
 }
 
 .drives-txt-hidden {
@@ -3685,7 +3858,8 @@ a:hover {
     color: #f0932b;
     -webkit-user-select: all;
     user-select: all;
-    cursor: pointer
+    cursor: pointer;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 10%);
 }
 
 .macos-highlight {
@@ -3695,7 +3869,8 @@ a:hover {
     color: #372bf0;
     -webkit-user-select: all;
     user-select: all;
-    cursor: pointer
+    cursor: pointer;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 10%);
 }
 
 .bsd-highlight {
@@ -3705,7 +3880,8 @@ a:hover {
     color: #ff3434;
     -webkit-user-select: all;
     user-select: all;
-    cursor: pointer
+    cursor: pointer;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 10%);
 }
 
 .highlight {
@@ -3714,7 +3890,8 @@ a:hover {
     background: rgba(0,128,255,.1);
     -webkit-user-select: all;
     user-select: all;
-    padding: 2px 8px
+    padding: 2px 8px;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 10%);
 }
 
 .list-con-container {
@@ -3832,7 +4009,8 @@ a:hover {
     margin-bottom: 16px;
     text-align: left;
     color: #fff;
-    text-rendering: optimizelegibility
+    text-rendering: optimizelegibility;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .footer-tx2-bound {
@@ -3840,7 +4018,8 @@ a:hover {
     font-size: 14px;
     line-height: 28px;
     position: relative;
-    color: #fff
+    color: #fff;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .footer-tx2-bound a {
@@ -3874,7 +4053,8 @@ a:hover {
     width: auto;
     height: 100%;
     color: #fff;
-    right: 0
+    right: 0;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .footer-tx1-webmaster a {
@@ -3893,7 +4073,8 @@ a:hover {
     width: auto;
     height: 100%;
     color: #fff;
-    left: 0
+    left: 0;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 25%);
 }
 
 .footer-tx1-founder a {
@@ -4380,3 +4561,4 @@ a:hover {
 #ad_position_box {
     display: none!important
 }
+	

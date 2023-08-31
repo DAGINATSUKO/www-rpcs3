@@ -33,7 +33,7 @@
 <img src="/img/videos/2.jpg" width="1" height="1" alt="Preload"/>
 <img src="/img/videos/3.jpg" width="1" height="1" alt="Preload"/>
 <?php include 'lib/module/sys-php.php';?>
-<?php include 'lib/module/inc-video-popout.php'?>
+<?php include 'lib/module/home/inc-home-player.php'?>
 <?php
 	preloadVideo(
 	'1',
@@ -145,7 +145,7 @@
 				</div>
 				<div class="video-con-divider">
 				</div>
-				<?php include 'lib/module/inc-video-carousel.php';?>
+				<?php include 'lib/module/home/inc-home-carousel.php';?>
 			</div>
 		</div>
 	</div>

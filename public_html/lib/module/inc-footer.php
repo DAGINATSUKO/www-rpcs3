@@ -136,13 +136,13 @@
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://twitter.com/rpcs3" target="_blank">
-										<span>Twitter</span>
+										<a href="https://www.reddit.com/r/rpcs3" target="_blank">
+										<span>Reddit</span>
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
-										<a href="https://www.reddit.com/r/rpcs3" target="_blank">
-										<span>Reddit</span>
+										<a href="https://x.com/rpcs3" target="_blank">
+										<span>X</span>
 										</a>
 									</div>
 								</div>

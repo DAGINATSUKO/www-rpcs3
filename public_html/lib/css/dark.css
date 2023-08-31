@@ -142,15 +142,29 @@ border: solid 2px #293358!important;
 .dm-highlightedText {
 	color: #fff !important;
 }
-
 .dm-specbox {
-	background: #1d233f !important;
+	border: solid 1px rgb(255 255 255 / 20%) !important;
+}
+.dm-spechseet {
+	background: rgb(255 255 255 / 5%) !important;
+}
+.dm-socialbox-con-button {
+	background: rgb(17 21 37 / 50%)!important;
+	border: solid 1px rgb(41 51 88 / 50%)!important;
 }
 .dm-menu {
 	    background: rgba(16, 24, 56, 0.8) !important;
 }
-
-
+.dm-user-con-specsheet {
+    background: rgb(0 0 0 / 10%) !important;
+    border: solid 1px rgb(0 0 0 / 20%) !important;
+}
+.dm-user-con-content {
+	    border-color: #191f36 !important;
+}
+.dm-user-tx1-backdrop {
+	    opacity: 0.1 !important;
+}
 .dm-compat-searchbox-div {
     background: url(/img/icons/menu/search-h.png) no-repeat center !important;
     background-size: 20px !important;
