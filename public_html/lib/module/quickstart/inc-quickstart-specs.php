@@ -69,13 +69,13 @@
 				<div class="item-tx1-title"><h3>OS</h3></div>
 				<div class="item-tx2-desc">
 				<p>Windows</p>
-				<span>Windows 10 21H2 or newer, Windows 11 21H2 or newer</span><br><br>
+				<span>Windows 10 22H2 or newer, Windows 11 22H2 or newer</span><br><br>
 				<p>Linux</p>
-				<span>Linux 5.17 (Latest), 5.15 (LTS) or newer</span><br><br>
+				<span>Linux 6.5 (Latest), 6.1 (LTS) or newer</span><br><br>
 				<p>macOS</p>
-				<span>macOS Monterey 12.0 or newer</span><br><br>
+				<span>macOS Monterey 12.6 or newer</span><br><br>
 				<p>FreeBSD</p>
-				<span>FreeBSD 13.0 or newer</span>
+				<span>FreeBSD 13.2 or newer</span>
 				</div>
 			</div>
 		</div>
@@ -151,13 +151,13 @@
 					<div class="item-tx1-title"><h3>OS</h3></div>
 					<div class="item-tx2-desc">
 					<p>Windows</p>
-					<span>Windows 7 SP1, Windows 8.1, Windows 10, Windows 11</span><br><br>
+					<span>Windows 10, Windows 11</span><br><br>
 					<p>Linux</p>
-					<span>Linux 5.4 (Older LTS), Ubuntu 18.04 or newer</span><br><br>
+					<span>Linux 5.4 (Older LTS), Ubuntu 20.04 or newer</span><br><br>
 					<p>macOS</p>
-					<span>macOS Big Sur 11.6 or newer</span><br><br>
+					<span>macOS Monterey 12.0 or newer</span><br><br>
 					<p>FreeBSD</p>
-					<span>FreeBSD 12.3 or newer</span>
+					<span>FreeBSD 12.4 or newer</span>
 					</div>
 				</div>
 			</div>
