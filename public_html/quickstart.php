@@ -96,7 +96,7 @@
 					<p>
 						 The software requirements for running the emulator must be met in order for the software to function at all. The PlayStation 3 system software is required because it is utilized to load system files for the emulator such as the PlayStation 3's proprietary system libraries. Linux and FreeBSD based operating systems do not require the Microsoft Visual C++ 2019 redistributable.<br>
 						<br>
-						<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 7, 8, 10 and 11 are supported as well as Linux, FreeBSD and macOS.<br>
+						<span class="context-important">Please note - </span> A 64-bit operating system is required. Windows 10 and 11 are supported as well as Linux, FreeBSD and macOS.<br>
 					</p>
 				</div>
 			</div>
@@ -303,7 +303,7 @@
 							 .pkg files must be extracted using RPCS3's built-in package installer found under <span class="highlight darkmode-highlight">File &gt; Install Packages/Raps/Edats</span> (or simply drag and drop the .pkg into the main emulator window)
 						</p>
 						<p>
-							 .pkg files will be automatically extracted and installed to <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> It is recommended to keep your .pkg files in a safe place on your pc after installing. 
+							 .pkg files will be automatically extracted and installed to <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> It is recommended to keep your .pkg files in a safe place on your pc after installing.
 						</p>
 						<p>
 							 Blu-ray disc title data can be placed in <span class="highlight darkmode-highlight">\games</span> located in your RPCS3 root folder or anywhere else except for <span class="highlight darkmode-highlight">\dev_hdd0\game\</span> and can be booted from <span class="highlight darkmode-highlight">File &gt; Boot Game</span> if not present on the game list.
