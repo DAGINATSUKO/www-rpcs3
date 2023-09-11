@@ -286,7 +286,12 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray darkmode-invert">
 			</div>
-			<span>Optiarc 5300S</span>
+			<span>Optiarc BD-5300S</span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray darkmode-invert">
+			</div>
+			<span>Optiarc BWU-500S</span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray darkmode-invert">
