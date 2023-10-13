@@ -1102,7 +1102,7 @@
 		</div>
 		<div class='user-tx3-content darkmode-txt'>
 			<span>
-			HerrHulaHoop joined RPCS3 in early 2018 and took up the task to design and set-up RPCS3's Wiki. He is currently the Wiki Maintainer, tasked with developing templates that suit RPCS3's specific needs and also moderating contributions made by the community. Following the Wiki's launch, Hula also began writing the monthly progress reports on the Blog and still maintains an active role in publishing them. </span>
+			HerrHulaHoop joined RPCS3 in early 2018 and took up the task to design and set-up RPCS3's Wiki. He is currently the Wiki Maintainer, tasked with developing templates that suit RPCS3's specific needs and also moderating contributions made by the community. Following the Wiki's launch, Hula also began writing and publishing the monthly progress reports on the Blog. </span>
 		</div>
 		<div class="user-con-subtitle">
 			<span class="user-tx1-subtitle ">Computer Specifications</span>
@@ -1120,14 +1120,14 @@
 					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i7-8700K (5.0GHz)</span>
+						<span>Intel Core i7-8700K (4.8GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
 					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 970</span>
+						<span>Radeon RX 6700 XT</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1141,7 +1141,7 @@
 					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 10</span>
+						<span>Windows 11</span>
 					</div>
 				</div>
 			</div>
