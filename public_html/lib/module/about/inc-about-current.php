@@ -1124,7 +1124,7 @@
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
 						<span>Radeon RX 6700 XT</span>
@@ -1138,7 +1138,39 @@
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Windows 11</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="user-con-specsheet">
+			<div class="user-con-specbox">
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/rog-ally.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Asus ROG Ally</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>AMD Ryzen Z1 Extreme</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/ram.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>16GB LPDDR5 (6400MHz)</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
 						<span>Windows 11</span>
