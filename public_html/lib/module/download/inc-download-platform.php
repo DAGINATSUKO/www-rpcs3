@@ -3,7 +3,7 @@
 		<div class='downloadable-con-inner-a'>
 			<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/windows.png) center top no-repeat; right: -52px; bottom: -38px;">
 			</div>
-			<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/buttons/windows.png) center left / 42px no-repeat;">
+			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-windows-11.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
 				<span>Windows</span>
@@ -65,7 +65,7 @@
 		<div class='downloadable-con-inner-a'>
 			<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/linux.png) center top no-repeat; right: -52px; bottom: -38px;">
 			</div>
-			<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/buttons/linux.png) center left / 42px no-repeat;">
+			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-linux-na.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
 				<span>Linux</span>
@@ -127,13 +127,13 @@
 		<div class='downloadable-con-inner-a'>
 			<div class="downloadable-con-graphic" style="background: url(/img/graphics/download/macos.png) center top no-repeat;right: -74px;bottom: -128px;width: 246px;height: 272px;">
 			</div>
-			<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/buttons/macos.png) center left / 42px no-repeat;">
+			<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/list/os-macos.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
 				<span>macOS</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 on the latest performance Macs with support for M1 and Intel Macs with dedicated graphics on macOS 12.0 or later.</span>
+				<span>Users can expect to run RPCS3 on Macs with Apple Silicon or Intel processors with dedicated graphics on macOS 12 and 13. macOS 14 is not yet supported.</span>
 			</div>
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
@@ -191,7 +191,7 @@
 		<div class='downloadable-con-inner-a'>
 			<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/bsd.png) center top no-repeat; right: -52px; bottom: -38px;">
 			</div>
-			<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/buttons/bsd.png) center left / 42px no-repeat;">
+			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-bsd.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
 				<span>FreeBSD</span>

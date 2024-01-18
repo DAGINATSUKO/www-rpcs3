@@ -117,6 +117,30 @@ $(document).ready(function() {
 			.next().fadeIn(200).end().appendTo('.build-ico-os');
 	}, 5000);
 });
+// Cycle between OS icons for system requirements
+$(document).ready(function() {
+	$('.item-ico-dynamic-a img:gt(0)').hide();
+	setInterval(function () {
+		$('.item-ico-dynamic-a :first-child').fadeOut(200)
+			.next().fadeIn(200).end().appendTo('.item-ico-dynamic-a');
+	}, 2000);
+});
+// Cycle between OS icons for system requirements
+$(document).ready(function() {
+	$('.item-ico-dynamic-b img:gt(0)').hide();
+	setInterval(function () {
+		$('.item-ico-dynamic-b :first-child').fadeOut(200)
+			.next().fadeIn(200).end().appendTo('.item-ico-dynamic-b');
+	}, 2000);
+});
+// Cycle between handheld screens for download button
+$(document).ready(function() {
+	$('.handheld-ico-screen img:gt(0)').hide();
+	setInterval(function () {
+		$('.handheld-ico-screen :first-child').fadeOut(200)
+			.next().fadeIn(200).end().appendTo('.handheld-ico-screen');
+	}, 5000);
+});
 // Text pulsate setting states
 $(document).ready(function() {
 	var sel = Cookies.get("save-pulsate"); // Retrieve cookie
@@ -430,6 +454,27 @@ $(document).ready(function() {
 		return false;
 	});
 });
+
+// Horizontal scrolling
+$(document).ready(function() {
+  $.fn.hScroll = function(amount) {
+    amount = amount || 120;
+    $(this).bind("DOMMouseScroll mousewheel", function(event) {
+      var oEvent = event.originalEvent,
+        direction = oEvent.detail ? oEvent.detail * -amount : oEvent.wheelDelta,
+        position = $(this).scrollLeft();
+      position += direction > 0 ? -amount : amount;
+      $(this).scrollLeft(position);
+      event.preventDefault();
+    })
+  };
+});
+
+// Horizontal scrolling for inputs/gamepad section
+$(document).ready(function() {
+  $('.gamepad-con-wrapper').hScroll(60); // You can pass (optionally) scrolling amount
+});
+
 // Scroll back to top
 $(document).ready(function () {
 		$(window).scroll(function () {
@@ -445,4 +490,9 @@ $(document).ready(function () {
 				}, 400);
 				return false;
 		});
+});
+
+// Fade out 
+$(document).ready(function () {
+    $('.menu-btn-tx1-settings-tooltip').delay(16000).fadeOut(1000);
 });

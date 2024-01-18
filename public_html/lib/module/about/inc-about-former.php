@@ -1,7 +1,11 @@
 <div class="user-con-grouped">
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/alexaltea.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/spain.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/alexaltea.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/spain.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -13,7 +17,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				AlexAltea </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -57,8 +61,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/tambry.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/estonia.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/tambry.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/estonia.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -70,7 +78,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				Tambry </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -102,8 +110,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/bigpet.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/germany.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/bigpet.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/germany.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -115,7 +127,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				Bigpet </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -147,8 +159,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/vlj.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/france.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/vlj.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/france.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -160,7 +176,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				vlj </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -192,8 +208,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/gopalsr83.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/india.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/gopalsr83.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/india.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -205,7 +225,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				gopalsr83 </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -237,8 +257,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: #e68364 url('/img/users/jarves.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/jarves.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -250,7 +274,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				Jarves </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -282,8 +306,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/numan.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/principality-of-sealand.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/numan.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/principality-of-sealand.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -295,7 +323,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				Numan </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -311,8 +339,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: #e68364 url('/img/users/flashofsloth.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/flashofsloth.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -324,7 +356,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				FlashOfSloth </span>
 				<span class="user-con-role user-role-former">
 				Former Developer </span>
@@ -356,8 +388,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/dangles.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/australia.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/dangles.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/australia.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -369,7 +405,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				Dangles </span>
 				<span class="user-con-role user-role-former">
 				Former Contributor </span>
@@ -385,8 +421,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/pauls-gh.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/pauls-gh.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -398,7 +438,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				pauls-gh </span>
 				<span class="user-con-role user-role-former">
 				Former Contributor </span>
@@ -430,8 +470,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/o1l.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/o1l.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -443,7 +487,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				O1L </span>
 				<span class="user-con-role user-role-former">
 				Former Contributor </span>
@@ -475,8 +519,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/ruipin.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/portugal.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/ruipin.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/portugal.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -488,7 +536,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				ruipin </span>
 				<span class="user-con-role user-role-former">
 				Former Contributor </span>
@@ -520,8 +568,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: #e68364 url('/img/users/scribam.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/european-union.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/scribam.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/european-union.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -533,7 +585,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				scribam </span>
 				<span class="user-con-role user-role-contributor">
 				Project Contributor </span>
@@ -563,8 +615,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: #e68364 url('/img/users/raven02.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="display:none; background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/raven02.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -576,7 +632,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				raven02 </span>
 				<span class="user-con-role user-role-contributor">
 				Project Contributor </span>
@@ -606,8 +662,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: #36393f url('/img/users/rajkosto.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/serbia.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/rajkosto.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/serbia.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -619,7 +679,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				rajkosto</span>
 				<span class="user-con-role user-role-contributor">
 				Project Contributor </span>
@@ -649,8 +709,12 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/farseer.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/farseer.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -662,7 +726,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				Farseer </span>
 				<span class="user-con-role user-role-contributor">
 				Project Contributor </span>
@@ -688,6 +752,128 @@
 					</div>
 					</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="user-con-content darkmode-txt">
+	<div class="user-con-avatar">
+		<div class='user-img-avatar' style="background: url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+			<div class="user-con-flag">
+				<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="user-con-backdrop">
+		<span class="user-tx1-backdrop " style="color: #bcbcd0">2013</span>
+		<div class="user-con-role-gradient">
+		</div>
+	</div>
+	<div class="user-img-backdrop" style="background: url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+	</div>
+	<div class="user-con-wrapper">
+		<div class='user-tx1-content darkmode-txt'>
+			<span class="user-tx2-member">
+			ssshadow </span>
+			<span class="user-con-role user-role-manager">
+			Community Manager </span>
+			<span class="user-con-role user-role-contributor">
+			Former Contributor </span>
+		</div>
+		<div class='user-con-divider role-manager darkmode-divider'>
+		</div>
+		<div class='user-tx3-content darkmode-txt'>
+			<span>
+			ssshadow is a human RPCS3 Wiki and has been around since 2013, joining the staff in early 2017. Previously head of Blog and the writer for RPCS3's progress reports, he currently helps the project as a Community Manager. </span>
+		</div>
+		<div class="user-con-subtitle">
+			<span class="user-tx1-subtitle ">Computer Specifications</span>
+		</div>
+		<div class="user-con-specsheet">
+			<div class="user-con-specbox">
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-laptop.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Laptop</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Intel Core i7-7820HQ (2.9GHz)</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>NVIDIA Quadro M2200 </span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>16GB DDR4 (3200MHz)</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Windows 10</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="user-con-content darkmode-txt">
+	<div class="user-con-avatar">
+		<div class='user-img-avatar' style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
+			<div class="user-con-flag">
+				<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="user-con-backdrop">
+		<span class="user-tx1-backdrop " style="color: #a2a2a2">2013</span>
+		<div class="user-con-role-gradient">
+		</div>
+	</div>
+	<div class="user-img-backdrop" style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
+	</div>
+	<div class="user-con-wrapper">
+		<div class='user-tx1-content darkmode-txt'>
+			<span class="user-tx2-member pulsate">
+			Shadow </span>
+			<span class="user-con-role user-role-contributor">
+			Project Contributor </span>
+		</div>
+		<div class='user-con-divider role-contributor darkmode-divider'>
+		</div>
+		<div class='user-tx3-content darkmode-txt'>
+			<span>
+			shadow contributed MMJoystick support to the emulator, which allows players to use non-XInput controllers such as DualShock 2 on Windows through this API, as well as per-game config files and a few bug fixes. </span>
+		</div>
+		<div class="user-con-subtitle">
+			<span class="user-tx1-subtitle ">You can also find them on...</span>
+		</div>
+		<div class="user-con-socialsheet">
+			<div class="user-con-socialbox">
+				<a href="https://github.com/georgemoralis" target="_blank">
+				<div class="socialbox-con-button">
+					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+					</div>
+					<div class="socialbox-tx1-platform darkmode-txt">
+						<span>GitHub</span>
+					</div>
+				</div>
+				</a>
 			</div>
 		</div>
 	</div>

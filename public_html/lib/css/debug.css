@@ -1,9 +1,153 @@
 @charset "utf-8";
 .toggle-message {
-    display: none
+	display: none
 }
-
-
-.pc-specs {
-    display: none
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.window-con-emu {
+	display:block;
+	background:rgb(255 255 255 / 10%);
+	border:1px solid rgba(255,255,255,0.1);
+	border-radius:12px;
+	height:600px;
+	box-shadow:rgba(0,0,0,0.1) 0px 10px 32px 0px;
+	position:relative;
+	cursor:default;
+	margin-bottom:40px;
+	overflow:hidden;
+}
+.window-emu-titlebar {
+	background:rgb(0 0 0 / 20%);
+	height:36px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+}
+.window-emu-title-icon {
+	background:url('/img/graphics/quickstart/rpcs3.png') no-repeat center;
+	background-size:18px;
+	height:20px;
+	width:20px;
+	position:relative;
+	float:left;
+	top:8px;
+	padding-left:20px;
+}
+.window-emu-title-text {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:36px;
+	color:#fff;
+}
+.window-emu-subtitle-bar {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:28px;
+	padding-left:12px;
+}
+.window-emu-subtitle-bar span {
+	margin-right:24px;
+}
+.window-emu-iconbar {
+	height:68px;
+	background:rgb(0 0 0 / 5%);
+	display:inline-block;
+	width:100%;
+	margin-bottom:-3px;
+	border-top:1px solid rgb(0 0 0 / 10%);
+}
+.window-emu-game-list-bar {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:24px;
+	padding-left:12px;
+	background:rgb(0 0 0 / 10%);
+	border-top:1px solid rgb(0 0 0 / 10%);
+	border-bottom:1px solid rgb(0 0 0 / 10%);
+}
+.window-emu-game-list-tabs {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:28px;
+	margin-top:7px;
+}
+.window-emu-game-list-tabs span {
+	margin-right:2px;
+	background:rgb(0 0 0 / 10%);
+	padding:10px 12px;
+	padding-right:36px;
+	padding-left:12px;
+	border:solid 1px rgb(0 0 0 / 10%);
+}
+.window-emu-bottom {
+	bottom:0px;
+	position:absolute;
+	width:-webkit-fill-available;
+	height:240px;
+	background:rgb(0 0 0 / 10%);
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.window-emu-log-bar {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:24px;
+	padding-left:12px;
+	background:rgb(0 0 0 / 10%);
+	position:relative;
+	display:block;
+	border-top:1px solid rgb(0 0 0 / 10%);
+	border-bottom:1px solid rgb(0 0 0 / 10%);
+}
+.window-emu-log-tabs {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:28px;
+	margin-top:2px;
+	text-align:center;
+	float:inline-end;
+	position:absolute;
+	display:block;
+	left:-1px;
+}
+.window-emu-log-tabs span {
+	margin-right:2px;
+	background:rgb(0 0 0 / 10%);
+	padding:6px 18px;
+	border:solid 1px rgb(255 255 255 / 10%);
+}
+.window-emu-log-tabs span:first-child {
+	background:rgb(255 255 255 / 10%);
+}
+.window-emu-log-box {
+	background:rgb(0 0 0 / 80%);
+	height:180px;
+	margin-left:2px;
+	margin-right:2px;
+	position:relative;
+	bottom:-32px;
+	display:block;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.window-emu-logtext {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:24px;
+	color:rgb(111 183 255);
+	text-align:left;
+	padding:8px 14px;
+}
+.window-emu-nav-icon {
+	background-size:34px ! important;
+	height:60px;
+	width:40px;
+	float:left;
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:94px;
+	margin-left:16px;
+	margin-right:16px;
+	margin-top:6px;
+	text-align:center;
+	position:relative;
+	opacity: .6;
 }

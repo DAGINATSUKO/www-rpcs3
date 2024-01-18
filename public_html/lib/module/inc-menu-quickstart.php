@@ -1,4 +1,7 @@
 <div class="sidebar-btn-open nav-standard scale-menu-btn-remove">
+	<div class='sidebar-btn-tx1-tooltip pulsate'>
+		<span>Table of Contents</span>
+	</div>
 </div>
 <div class='sidebar-con-dimmer toggle-navsidebar' style="display:block">
 	<div class='sidebar-con-anim dropin-load darkmode-navsidebar-anim'>
@@ -10,145 +13,143 @@
 		<div class="sidebar-con-container">
 			<!-- End -->
 			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>System requirements</span>
+				<span>Supported Devices and Platforms</span>
 			</div>
-			<a href="#requirements_desktop" rel="anchor-select">
+			<a href="#supported_devices_devices" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Hardware requirements</span>
-			</div>
-			</a>
-			<a href="#requirements_laptop" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Laptop requirements</span>
+				<span>Supported Devices</span>
 			</div>
 			</a>
-			<a href="#requirements_software" rel="anchor-select">
+			<a href="#supported_devices_pcs" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Software requirements</span>
+				<span>Requirements for PCs</span>
+			</div>
+			</a>
+			<a href="#supported_devices_laptops" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Requirements for Laptops</span>
+			</div>
+			</a>
+			<a href="#supported_devices_macs" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Requirements for Macs</span>
+			</div>
+			</a>
+			<a href="#supported_devices_handhelds" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Requirements for Handhelds</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Updates and firmware</span>
+				<span>Software and Setup</span>
 			</div>
-			<a href="#update_rpcs3" rel="anchor-select">
+			<a href="#software_redist" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>PS3 System Software</span>
+			</div>
+			</a>
+			<a href="#software_firmware" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Updating Firmware</span>
+			</div>
+			</a>
+			<a href="#software_rpcs3" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Updating RPCS3</span>
 			</div>
-			</a><a href="#install_rpcs3_firmware" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Installing RPCS3 firmware</span>
-			</div>
 			</a>
 			<!-- Next Category -->
-			<a href="#manage_playstation_3_game_data" rel="anchor-select">
+			<a href="#software_dirs" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Managing PS3 game data</span>
+				<span>PS3 Game Dirs</span>
 			</div>
 			</a>
-			<a href="#manage_playstation_3_save_data" rel="anchor-select">
+			<a href="#software_saves" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Managing PS3 save data</span>
+				<span>PS3 Saves Dir</span>
 			</div>
 			</a>
-			<a href="#manage_playstation_3_formats" rel="anchor-select">
+			<a href="#software_updates" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Managing PS3 formats</span>
+				<span>PS3 Game Updates</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Installing and updating games</span>
+				<span>Dumping and Decryption</span>
 			</div>
-			<a href="#install_playstation_3_games" rel="anchor-select">
+			<a href="#dumping_methods" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Installing PS3 game data</span>
+				<span>Dumping Methods</span>
 			</div>
 			</a>
-			<a href="#install_playstation_3_updates" rel="anchor-select">
+			<a href="#dumping_ps3" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Installing PS3 game updates</span>
+				<span>Dumping with a PS3</span>
 			</div>
 			</a>
-			<!-- Next Category -->
-			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Software legalities</span>
-			</div>
-			<a href="#software_distribution" rel="anchor-select">
+			<a href="#dumping_pc" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Software distribution</span>
+				<span>Dumping with a PC</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Dumping devices</span>
+				<span>Blu-ray PC Drives</span>
 			</div>
-			<a href="#dumping_with_playstation_3" rel="anchor-select">
+			<a href="#dumping_drives" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Dumping with a PlayStation 3</span>
+				<span>Compatible Drives</span>
 			</div>
 			</a>
-			<a href="#dumping_with_pc" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Dumping with a desktop PC</span>
-			</div>
-			</a>
-			<!-- Next Category -->
-			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Compatible BD drives</span>
-			</div>
-			<a href="#compatible_bd_drives" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Compatible BD drives</span>
-			</div>
-			</a>
-			<a href="#compatible_bdd_lg" rel="anchor-select">
+			<a href="#dumping_bdd_lg" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Manufactured by LG</span>
 			</div>
 			</a>
-			<a href="#compatible_bdd_asus" rel="anchor-select">
+			<a href="#dumping_bdd_asus" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Manufactured by ASUS</span>
 			</div>
 			</a>
-			<a href="#compatible_bdd_samsung" rel="anchor-select">
+			<a href="#dumping_bdd_samsung" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Manufactured by Samsung</span>
 			</div>
 			</a>
-			<a href="#compatible_bdd_lite_on" rel="anchor-select">
+			<a href="#dumping_bdd_lite-on" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Manufactured by LITE-ON</span>
 			</div>
 			</a>
-			<a href="#compatible_bdd_sony" rel="anchor-select">
+			<a href="#dumping_bdd_sony" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Manufactured by Sony</span>
 			</div>
 			</a>
-			<a href="#compatible_bdd_benq" rel="anchor-select">
+			<a href="#dumping_bdd_benq" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Manufactured by BenQ</span>
 			</div>
 			</a>
 			<!-- Next Category -->
 			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Dumping methods</span>
+				<span>Dumping Methods</span>
 			</div>
-			<a href="#dumping_with_linux" rel="anchor-select">
+			<a href="#dumping_on_windows" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Dumping with Linux command line</span>
-			</div>
-			</a>
-			<a href="#dumping_with_disc_dumper" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Dumping with Disc Dumper</span>
+				<span>Dumping on Windows</span>
 			</div>
 			</a>
-			<a href="#dumping_step_by_step" rel="anchor-select">
+			<a href="#dumping_on_windows_advanced" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Dumping Step-by-step</span>
+				<span>Dumping on Windows (Advanced)</span>
+			</div>
+			</a>
+			<a href="#dumping_on_linux" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Dumping on Linux</span>
 			</div>
 			</a>
 			<div class="sidebar-con-spacer">

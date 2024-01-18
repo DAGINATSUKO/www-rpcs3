@@ -1,7 +1,11 @@
 <div class="user-con-grouped">
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/dh.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="display:none; background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/dh.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
@@ -13,7 +17,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				DH </span>
 				<span class="user-con-role user-role-founder">
 				Project Founder </span>
@@ -45,12 +49,16 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-		<div class='user-img-avatar' style="background: url('/img/users/hykem.png') no-repeat center; background-size: cover;">
-			<div class='user-img-flag' style="display:none; background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/hykem.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="user-con-backdrop">
-			<span class="user-tx1-backdrop " style="color: #ffe9c2">2017</span>
+			<span class="user-tx1-backdrop " style="color: #ffe9c2">2016</span>
 			<div class="user-con-role-gradient">
 			</div>
 		</div>
@@ -58,7 +66,7 @@
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
-				<span class="user-tx2-member ">
+				<span class="user-tx2-member pulsate">
 				Hykem </span>
 				<span class="user-con-role user-role-founder">
 				Project Founder </span>

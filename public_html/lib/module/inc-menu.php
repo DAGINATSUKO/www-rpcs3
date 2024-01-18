@@ -1,5 +1,5 @@
 <div class='menu-con-release'>
-	<span>Website Release Preview 2021.12.05</span>
+	<span>Website Release Preview</span>
 </div>
 <div class='mini-menu-con-dimmer'>
 	<div class='mini-menu-con-container'>
@@ -8,7 +8,7 @@
 		<div class='mini-menu-tx1-block'>
 			<div class='mini-menu-emp-block'>
 			</div>
-			<h2>No Piracy.</h2>
+			<h2 class="pulsate">No Piracy.</h2>
 		</div>
 		<div class='mini-menu-tx2-block'>
 			<p>
@@ -108,6 +108,9 @@
 	<div class="menu-con-backdrop darkmode-menu">
 	</div>
 	<div class="menu-btn-settings toggle-settings">
+		<div class='menu-btn-tx1-settings-tooltip pulsate'>
+		<span>Settings</span>
+	</div>
 	</div>
 	<div class="menu-con-outer">
 		<div class="menu-con-inner">

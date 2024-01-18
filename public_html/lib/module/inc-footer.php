@@ -185,21 +185,49 @@
 					<div class="footer-con-foot">
 						<div class="footer-con-side">
 							<div class="footer-tx1-founder">
-								<div class="footer-ico-developer" style="background: url('/img/icons/footer/dh.png') center center / cover no-repeat;">
+								<a href="https://github.com/dhrpcs3" target="_blank">
+								<div class="footer-ico-container">
+									<div class="footer-ico-developer" style="background: rgb(255 255 255 / 10%) url('/img/icons/footer/dh.png') center center / cover no-repeat;">
+									</div>
 								</div>
-								<div class="footer-ico-developer" style="background: url('/img/icons/footer/hykem.png') center center / cover no-repeat;">
+								</a>
+								<a href="https://github.com/erikpshat" target="_blank">
+								<div class="footer-ico-container">
+									<div class="footer-ico-developer" style="background: rgb(255 255 255 / 10%) url('/img/icons/footer/hykem.png') center center / cover no-repeat;">
+									</div>
 								</div>
+								</a>
 								<a href="/about">
-								<span>Founded by DH and Hykem</span>
+								<div class="footer-tx1-developer pulsate">
+									<span>Founded by DH and Hykem</span>
+								</div>
 								</a>
 							</div>
 						</div>
 						<div class="footer-con-side">
 							<div class="footer-tx1-webmaster">
-								<div class="footer-ico-developer" style="background: url('/img/users/daginatsuko.png') center / cover no-repeat;">
+								<a href="https://github.com/anileo" target="_blank">
+								<div class="footer-ico-container">
+									<div class="footer-ico-developer" style="background: url('/img/users/ani.png') center / cover no-repeat;">
+									</div>
 								</div>
+								</a>
+								<a href="https://github.com/herrhulahoop" target="_blank">
+								<div class="footer-ico-container">
+									<div class="footer-ico-developer" style="background: url('/img/users/herrhulahoop.png') center / cover no-repeat;">
+									</div>
+								</div>
+								</a>
+								<a href="https://github.com/daginatsuko" target="_blank">
+								<div class="footer-ico-container">
+									<div class="footer-ico-developer" style="background: url('/img/users/daginatsuko.png') center / cover no-repeat;">
+									</div>
+								</div>
+								</a>
 								<a href="https://daginatsuko.com" target="_blank">
-								<span>Website by DAGINATSUKO © 2023</span>
+								<div class="footer-tx1-developer pulsate">
+									<span>Website by DAGINATSUKO © 2024</span>
+								</div>
 								</a>
 							</div>
 						</div>

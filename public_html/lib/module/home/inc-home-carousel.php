@@ -14,6 +14,8 @@
 								<div class='video-con-animate page-video-1'>
 								</div>
 								<div class='video-img-thumbnail' style="background: url('/img/videos/1.jpg') no-repeat center; background-size: cover;">
+								<div class="video-img-overlay">
+								</div>
 								</div>
 							</div>
 						</div>
@@ -41,6 +43,8 @@
 								<div class='video-con-animate page-video-2'>
 								</div>
 								<div class='video-img-thumbnail' style="background: url('/img/videos/2.jpg') no-repeat center; background-size: cover;">
+								<div class="video-img-overlay">
+								</div>
 								</div>
 							</div>
 						</div>
@@ -68,6 +72,8 @@
 								<div class='video-con-animate page-video-3'>
 								</div>
 								<div class='video-img-thumbnail' style="background: url('/img/videos/3.jpg') no-repeat center; background-size: cover;">
+								<div class="video-img-overlay">
+								</div>
 								</div>
 							</div>
 						</div>

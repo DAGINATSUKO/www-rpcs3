@@ -85,10 +85,10 @@
 								<div class="build-btn-button">
 									<div class="build-ico-button">
 										<div class="build-ico-os">
-											<img alt="Windows" src="img/icons/os/windows.png" style='height: 100%; width: 100%; object-fit: contain'/>
-											<img alt="Linux"   src="img/icons/os/linux.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-											<img alt="Linux"   src="img/icons/os/macos.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-											<img alt="FreeBSD" src="img/icons/os/bsd.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+											<img alt="Windows" src="img/icons/list/os-windows-11.png" style='height: 100%; width: 100%; object-fit: contain'/>
+											<img alt="Linux" src="img/icons/list/os-linux-na.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+											<img alt="macOS" src="img/icons/list/os-macos.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+											<img alt="FreeBSD" src="img/icons/list/os-bsd.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
 										</div>
 									</div>
 									<a href="/download">
@@ -133,7 +133,55 @@
 			</div>
 		</div>
 	</div>
+	<div class="landing-con-handheld darkmode-feature">
+		<div class="handheld-img-backdrop">
+		</div>
+		<div class="handheld-img-overlay">
+		</div>
+		<div class="content-con-outside">
+			<div class="content-con-inside">
+				<div class="video-tx1-heading darkmode-txt">
+					<h2>Play Beyond.</h2>
+				</div>
+				<div class="video-con-divider">
+				</div>
+				<div class="handheld-con-container">
+					<div class="handheld-con-screen">
+						<div class="handheld-img-screen">
+							<img alt="1" src="img/graphics/landing/handheld-1.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+							<img alt="2" src="img/graphics/landing/handheld-2.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="3" src="img/graphics/landing/handheld-3.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="4" src="img/graphics/landing/handheld-4.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="5" src="img/graphics/landing/handheld-5.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="6" src="img/graphics/landing/handheld-6.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="7" src="img/graphics/landing/handheld-7.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="8" src="img/graphics/landing/handheld-8.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+						</div>
+					</div>
+					<div class="handheld-txt-container">
+						<div class="handheld-tx1-title darkmode-txt">
+							<span>Your PlayStation 3 library on the go.</span>
+						</div>
+						<div class="handheld-tx2-desc darkmode-txt">
+							<span>ASUS ROG Ally pictured. RPCS3's performance may vary per device.</span>
+						</div>
+						<a href="/quickstart">
+						<div class="handheld-btn-button">
+							<div class="handheld-ico-button">
+							</div>
+							<div class="handheld-tx1-button">
+								<span>Get started with a PC or Handheld</span>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="landing-con-video darkmode-feature">
+	<div class="featured-img-overlay darkmode-invert">
+		</div>
 		<div class="content-con-outside">
 			<div class="content-btn-left darkmode-arrow-left left" href="#myCarousel" data-slide="prev">
 			</div>
@@ -141,7 +189,7 @@
 			</div>
 			<div class="content-con-inside">
 				<div class="video-tx1-heading darkmode-txt">
-					<h2>Featured</h2>
+					<h2>Featured.</h2>
 				</div>
 				<div class="video-con-divider">
 				</div>
@@ -150,6 +198,8 @@
 		</div>
 	</div>
 	<div class="landing-con-discord darkmode-discord">
+	<div class="discord-img-overlay">
+		</div>
 		<div class="discord-left-logo">
 			<img alt="Discord Left Banner" src="/img/graphics/svg/discord-left.svg" style="width: 100%; height: 100%;">
 		</div>
@@ -169,7 +219,7 @@
 					<div class="discord-con-mantra">
 						<div class="discord-wrp-mantra scale-content-txt-1">
 							<div class="discord-tx1-mantra darkmode-txt">
-								<h2>The Community</h2>
+								<h2>Join the Discord.</h2>
 								<div class="landing-con-divider">
 								</div>
 							</div>
@@ -193,7 +243,7 @@
 			</div>
 		</div>
 		<svg class="discord-con-animate" preserveaspectratio="none" width="1920" height="100%" viewbox="0 0 1920 330">
-		<path class="discord-svg-animate" fill="#fff" fill-opacity="0.1" d="M140.881198,194.260295 C257.600568,129.32862 342.939626,119.84993 418.009939,203.154617 C493.080251,286.459305 545.728689,70.9046172 636.439626,63.9593047 C727.150564,57.0139922 768.99822,139.670242 858.802907,119.431961 C948.607595,99.1936797 1071.91228,-32.9977266 1243.91228,7.75227342 C1415.91228,48.5022734 1404.10369,208.584305 1508.27166,178.709305 C1612.43963,148.834305 1633.73291,79.913472 1711.63588,98.8569055 C1776.28676,114.577866 1819.96778,221.391836 1889.37253,185.808108 C2017.32661,120.206212 2004.01952,336.769569 2004.01952,336.769569 L271.635881,337 L-149.063338,337 C-149.063338,337 -245.850307,175.637635 -58.0633382,228.867188 C33.8652851,254.92501 64.1722713,236.933925 140.881198,194.260295 Z"></path>
+		<path class="discord-svg-animate" fill="#fff" fill-opacity="0.2" d="M140.881198,194.260295 C257.600568,129.32862 342.939626,119.84993 418.009939,203.154617 C493.080251,286.459305 545.728689,70.9046172 636.439626,63.9593047 C727.150564,57.0139922 768.99822,139.670242 858.802907,119.431961 C948.607595,99.1936797 1071.91228,-32.9977266 1243.91228,7.75227342 C1415.91228,48.5022734 1404.10369,208.584305 1508.27166,178.709305 C1612.43963,148.834305 1633.73291,79.913472 1711.63588,98.8569055 C1776.28676,114.577866 1819.96778,221.391836 1889.37253,185.808108 C2017.32661,120.206212 2004.01952,336.769569 2004.01952,336.769569 L271.635881,337 L-149.063338,337 C-149.063338,337 -245.850307,175.637635 -58.0633382,228.867188 C33.8652851,254.92501 64.1722713,236.933925 140.881198,194.260295 Z"></path>
 		</svg>
 	</div>
 	<div class="landing-con-adsense">
@@ -214,6 +264,8 @@
 	<div class="landing-con-contribute darkmode-github">
 		<div class="github-img-backdrop">
 		</div>
+		<div class="github-img-overlay">
+		</div>
 		<div class="content-con-outside">
 			<div class="content-con-inside">
 				<div class="github-con-container">
@@ -223,9 +275,9 @@
 					</div>
 					<div class="github-con-mantra">
 						<div class="github-wrp-mantra scale-content-txt-1 ">
-							<div class="github-tx1-mantra darkmode-txt">
-								<h2>Contribute Code</h2>
-								<div class="landing-con-divider">
+							<div class="github-tx1-mantra">
+								<h2>Contributing Code.</h2>
+								<div class="landing-con-divider" style="background: #9647c7">
 								</div>
 							</div>
 							<div class="github-tx2-mantra darkmode-txt">
@@ -263,8 +315,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="landing-con-patreon darkmode-feature">
+	<div class="landing-con-patreon darkmode-patreon">
 		<div class="patreon-img-backdrop">
+		</div>
+		<div class="patreon-img-overlay">
 		</div>
 		<div class="content-con-outside">
 			<div class="content-con-inside">
@@ -276,7 +330,7 @@
 					<div class="patreon-con-mantra">
 						<div class="patreon-wrp-mantra scale-content-txt-1 ">
 							<div class="patreon-tx1-mantra">
-								<h2>Support Us</h2>
+								<h2>We're on Patreon.</h2>
 								<div class="landing-con-divider" style="background: #ff424d">
 								</div>
 							</div>
