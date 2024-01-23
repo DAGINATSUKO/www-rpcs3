@@ -1283,7 +1283,6 @@ a:hover {
 	line-height:80px;
 	position:relative;
 	height:80px;
-	margin-top:40px;
 }
 .container-con-superblock-emp {
 	border:solid 5px rgb(104,109,224);
@@ -2289,7 +2288,7 @@ a:hover {
 	top:50%;
 	width:100%;
 	height:auto;
-	margin: -27px 0;
+	margin:-25px 0;
 	animation-name:fadeInUp;
 	animation-duration:1s;
 	animation-iteration-count:1
@@ -2302,7 +2301,7 @@ a:hover {
 }
 .search-con-inner {
 	max-width:1080px;
-	min-height: 54px;
+	min-height:50px;
 	margin:0 auto
 }
 .search-ovr-container {

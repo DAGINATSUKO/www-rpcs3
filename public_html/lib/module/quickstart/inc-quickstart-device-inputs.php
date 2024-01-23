@@ -63,7 +63,7 @@
 				<div class='device-tx2-desc darkmode-txt'>
 					<span>
 					<p>
-						 Expect decent performance on Macs with high-end Intel CPUs and variable performance with Apple Silicon on macOS 12 and 13. macOS 14 is not yet supported.<br>
+						 Expect decent performance on Macs with high-end Intel CPUs and variable performance with Apple Silicon on macOS 13 or later.<br>
 						<br>
 						 See the <b>For Mac</b> section for more details.
 					</p>

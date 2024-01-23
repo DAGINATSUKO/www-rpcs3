@@ -136,22 +136,22 @@
 						<p>
 							 Windows
 						</p>
-						<span>Windows 10 22H2 or newer, Windows 11 22H2 or newer</span><br>
+						<span>Windows 10 22H2 or later, Windows 11 22H2 or later</span><br>
 						<br>
 						<p>
 							 Linux
 						</p>
-						<span>Linux 6.5 (Latest), 6.1 (LTS) or newer</span><br>
+						<span>Linux 6.5 (Latest), 6.1 (LTS) or later</span><br>
 						<br>
 						<p>
 							 macOS
 						</p>
-						<span>macOS 12.6 and 13.0. macOS 14.0 is not yet supported.</span><br>
+						<span>macOS 13 or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.2 or newer</span>
+						<span>FreeBSD 13.2 or later</span>
 					</div>
 				</div>
 			</div>
@@ -284,17 +284,17 @@
 						<p>
 							 Linux
 						</p>
-						<span>Linux 5.4 (Older LTS), Ubuntu 20.04 or newer</span><br>
+						<span>Linux 5.4 (Older LTS), Ubuntu 20.04 or later</span><br>
 						<br>
 						<p>
 							 macOS
 						</p>
-						<span>macOS 12.6 and 13.0. macOS 14.0 is not yet supported.</span><br>
+						<span>macOS 13 or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 12.4 or newer</span>
+						<span>FreeBSD 12.4 or later</span>
 					</div>
 				</div>
 			</div>
