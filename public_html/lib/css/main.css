@@ -3737,8 +3737,9 @@ a:hover {
 	margin-bottom:25px
 }
 .drives-con-outer {
-	height:50px;
-	position:relative
+	height: 60px;
+	position:relative;
+	margin-bottom: 12px;
 }
 .drives-con-inner {
 	float:left;
@@ -3753,11 +3754,11 @@ a:hover {
 	text-overflow:ellipsis;
 	user-select:all;
 	margin-right:12px;
-	margin-bottom:12px;
 	padding:4px 10px;
 	background:rgb(0 0 0/5%);
 	border-radius:6px;
-	border:solid 1px rgb(255 255 255/10%)
+	border:solid 1px rgb(255 255 255/10%);
+	display: inline-block;
 }
 .drives-txt-revisions {
 	position:absolute;

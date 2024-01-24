@@ -142,8 +142,10 @@
 			</div>
 			<span>WH16NS60</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BP55EB40</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>NaN</span>
