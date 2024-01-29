@@ -133,7 +133,7 @@
 				<span>macOS</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 on Macs with Apple Silicon or Intel processors with dedicated graphics on macOS 13 or later.</span>
+				<span>Users can expect to run RPCS3 on Macs with Apple Silicon or Intel processors with dedicated graphics on macOS 12.6+, 13.0+, 14.3+ or later.</span>
 			</div>
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
