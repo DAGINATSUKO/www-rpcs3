@@ -87,7 +87,7 @@
 				<div class='device-tx2-desc darkmode-txt'>
 					<span>
 					<p>
-						 Expect highly variable performance for handhelds with less than 6 cores and/or 16GB of RAM. Using Linux is highly recommended due to it's lower software overhead.<br>
+						 Expect highly variable performance for handhelds with less than 6 cores and/or 16GB of RAM. Using Linux is highly recommended due to its lower software overhead.<br>
 						<br>
 						 See the <b>For handhelds</b> section for more details.
 					</p>
