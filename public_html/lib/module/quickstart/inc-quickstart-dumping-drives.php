@@ -145,7 +145,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BP55EB40</span>
+			<span>BP55EB40<span class="drives-txt-revisions">External Drive</span></span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>NaN</span>

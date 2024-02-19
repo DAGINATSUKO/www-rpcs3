@@ -132,7 +132,9 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							For macOS users, simply open the downloaded .DMG file and drag and drop the RPCS3 app into your applications folder when prompted.
+							For macOS users, simply open the downloaded .7z file and drag and drop the RPCS3.app file into the Applications folder.
+							<br>
+							Hold the Ctrl key on your keyboard and double click the binary to open it for the first time. This is required as RPCS3 is an unsigned application, and this step adds it to the exception list.
 							<br>
 							Once installed, your RPCS3 application support directory will be found in: <span class="highlight darkmode-highlight">~/Library/Application Support/rpcs3/</span>
 						</p>
