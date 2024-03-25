@@ -3755,7 +3755,7 @@ a:hover {
 	user-select:all;
 	margin-right:12px;
 	padding:4px 10px;
-	background:rgb(0 0 0/5%);
+	background: linear-gradient(90deg,rgb(104 109 224 / 10%) 0%,rgb(104 109 224 / 5%) 70%);
 	border-radius:6px;
 	border:solid 1px rgb(255 255 255/10%);
 	display: inline-block;
@@ -3776,7 +3776,9 @@ a:hover {
 	border:solid 1px rgb(255 255 255/20%)
 }
 .drives-txt-hidden {
-	color:transparent
+	color:transparent;
+	pointer-events: none;
+	opacity: 0;
 }
 .drives-ico-bluray {
 	background:url("/img/icons/list/bd.png") left center/26px no-repeat;

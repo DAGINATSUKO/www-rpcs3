@@ -128,9 +128,24 @@
 				<span>Manufactured by Sony</span>
 			</div>
 			</a>
+			<a href="#dumping_bdd_hp" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Manufactured by HP</span>
+			</div>
+			</a>
+			<a href="#dumping_bdd_plextor" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Manufactured by Plextor</span>
+			</div>
+			</a>
 			<a href="#dumping_bdd_benq" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
 				<span>Manufactured by BenQ</span>
+			</div>
+			</a>
+			<a href="#dumping_bdd_teac" rel="anchor-select">
+			<div class="sidebar-tx2-subtitle">
+				<span>Manufactured by TEAC</span>
 			</div>
 			</a>
 			<!-- Next Category -->

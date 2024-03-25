@@ -12,6 +12,7 @@
 		</div>
 	</div>
 </div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_lg">
@@ -147,11 +148,32 @@
 			</div>
 			<span>BP55EB40<span class="drives-txt-revisions">External Drive</span></span>
 		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>UH12NS40</span>
+		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BH16NS58</span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BH14NS58</span>
+		</div>
 		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 	</div>
 </div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_asus">
@@ -200,24 +222,11 @@
 			<span>BW-14D1XT</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
-		</div>
-	</div>
-	<div class="drives-con-outer darkmode-txt" style="display:none">
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 	</div>
 </div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_samsung">
@@ -240,15 +249,32 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>SE-506</span>
+			<span>SE-506<span class="drives-txt-revisions">External Drive</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>SE-406</span>
+			<span>SE-406<span class="drives-txt-revisions">External Drive</span></span>
+		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>SE-506CB<span class="drives-txt-revisions">External Drive</span></span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 	</div>
 </div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_lite-on">
@@ -279,6 +305,24 @@
 			<span>DS-6E2SH <span class="drives-txt-revisions">19C revision</span></span>
 		</div>
 	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>DH-8B2SH</span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>DH-12B2SH</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+	</div>
 </div>
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
@@ -304,11 +348,72 @@
 			</div>
 			<span>PlayStation 3 BDD<span class="drives-txt-revisions">Adapter required</span></span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>PlayStation 4 BDD<span class="drives-txt-revisions">CFW required</span></span>
 		</div>
 	</div>
 </div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<div class="drives-con-container">
+	<div class="container-tx3-block darkmode-txt">
+		<div class="anchor-point" id="dumping_bdd_hp">
+		</div>
+		<div class='container-emp-block'>
+		</div>
+		<span>
+		HP Drives </span>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BD335E</span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BD335i</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+	</div>
+</div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<div class="drives-con-container">
+	<div class="container-tx3-block darkmode-txt">
+		<div class="anchor-point" id="dumping_bdd_plextor">
+		</div>
+		<div class='container-emp-block'>
+		</div>
+		<span>
+		Plextor Drives </span>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>PX-B950UE<span class="drives-txt-revisions">External Drive</span></span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>PX-B950SA </span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+	</div>
+</div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_benq">
@@ -325,13 +430,40 @@
 			<span>BR1000</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
-			<span>NaN</span>
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+	</div>
+</div>
+<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<div class="drives-con-container">
+	<div class="container-tx3-block darkmode-txt">
+		<div class="anchor-point" id="dumping_bdd_teac">
+		</div>
+		<div class='container-emp-block'>
+		</div>
+		<span>
+		TEAC Drives </span>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BD-W512GSA</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 	</div>
 </div>
