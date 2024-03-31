@@ -39,9 +39,9 @@
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
 				<p>
-					 PlayStation 3 games can be dumped using an original PlayStation 3 console running multiMAN homebrew software via a custom firmware but may require basic knowledge regarding the installation and use of CFW/HEN and multiMAN on a PS3. <br>
+					 PlayStation 3 games can be dumped using an original console running a file manager homebrew software such as ManagunZ, IRISMAN or MultiMAN via a custom or hybrid firmware but will require basic knowledge regarding the installation its use.<br>
 					<br>
-					 For more information about CFW or HEN, check <a href='https://psx-place.com' target="_blank">psx-place.com</a>.
+					 For more information on this topic, check our <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#How_to_jailbreak_a_PS3_using_PS3HEN' target="_blank">Wiki</a> page.
 				</p>
 				</span>
 			</div>
@@ -83,15 +83,17 @@
 		</div>
 		<div class="container-tx2-block">
 			<p>
-				 We recommend that you dump your own PlayStation 3 games from your own console. This is the most compatible way to migrate your games and the only way to copy digital games to a PC. To do this, you will need a PlayStation 3 system with custom firmware.<br>
+				 We recommend that you dump your own PlayStation 3 games from your own console. This is the most compatible way to migrate your games and the only way to copy digital games to a PC. To do this, you will need a PlayStation 3 system with custom or hybrid firmware.<br>
 				<br>
-				 For dumping disc-based games, you need to use multiMAN homebrew software. You can transfer game files to a PC through an external drive or by using an FTP connection between your PlayStation 3 and PC.<br>
+				 For dumping disc-based games, you need to use file manager homebrew software such as ManagunZ, IRISMAN, or MultiMAN. You can transfer game files to a PC through an external drive or by using an FTP connection between your PlayStation 3 and PC.
+				<br>
 				<br>
 				<b>Note: The PlayStation 3 has a maximum file size of 4GB. When dumping games which contain files larger than 4GB, multiMAN will split those files when the 4GB limit is reached. After the game is dumped from the console and into your PC, you must rejoin the split files back together with part merging software such as <a href="http://karmian.org/projects/ps3merge" target="_blank">ps3merge</a>, otherwise the dump will not work.</b><br>
 				<br>
-				 For dumping digital games, you must copy the game folder from <span class="highlight darkmode-highlight">/dev_hdd0/game/GameID</span> on your console over to the same path within your RPCS3 folder. You will also need to obtain your console's IDPS, the game's RIF and ACT.DAT, in order to generate a .RAP license file to be used with RPCS3.<br>
+				 For dumping digital games, you must copy the game folder from <span class="highlight darkmode-highlight">/dev_hdd0/game/GameID</span> on your console over to the same path within your RPCS3 folder. You will also need a backup of their .RAP (license) files to be used with RPCS3.<br>
 				<br>
-				<b>Note: It is also possible to dump digital content and licenses on any PS3 even without custom firmware by the way of creating a system backup and then extracting it with ps3xport software.</b>
+				<b>Note: It is also possible to dump digital content and licenses on any PS3 even without custom firmware by the way of creating a system backup and then extracting it with ps3xport software.
+				</b>
 			</p>
 		</div>
 	</div>
