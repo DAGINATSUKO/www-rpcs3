@@ -1,9 +1,9 @@
-<script data-cfasync="false" src='/lib/js/jquery.js?v11'></script>
-<script data-cfasync="false" src='/lib/js/dark.js?v11'></script>
-<script data-cfasync="false" src='/lib/js/main.js?v11'></script>
-<script data-cfasync="false" src='/lib/js/jscookie.js?v11'></script>
-<script data-cfasync="false" src='/lib/js/particles.js?v11'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v11'></script>
+<script data-cfasync="false" src='/lib/js/jquery.js?v12'></script>
+<script data-cfasync="false" src='/lib/js/dark.js?v12'></script>
+<script data-cfasync="false" src='/lib/js/main.js?v12'></script>
+<script data-cfasync="false" src='/lib/js/jscookie.js?v12'></script>
+<script data-cfasync="false" src='/lib/js/particles.js?v12'></script>
+<script data-cfasync="false" src='/lib/js/particles-sel.js?v12'></script>
 <noscript>
 <style>
 /*

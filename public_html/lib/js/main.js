@@ -135,10 +135,10 @@ $(document).ready(function() {
 });
 // Cycle between handheld screens for download button
 $(document).ready(function() {
-	$('.handheld-ico-screen img:gt(0)').hide();
+	$('.handheld-img-screen img:gt(0)').hide();
 	setInterval(function () {
-		$('.handheld-ico-screen :first-child').fadeOut(200)
-			.next().fadeIn(200).end().appendTo('.handheld-ico-screen');
+		$('.handheld-img-screen :first-child').fadeOut(200)
+			.next().fadeIn(200).end().appendTo('.handheld-img-screen');
 	}, 5000);
 });
 // Text pulsate setting states
