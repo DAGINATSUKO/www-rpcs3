@@ -53,6 +53,11 @@
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
+										<a href="/faq">
+										<span>FAQs</span>
+										</a>
+									</div>
+									<div class="footer-tx2-bound">
 										<a href="/branding">
 										<span>Branding</span>
 										</a>
@@ -60,11 +65,6 @@
 									<div class="footer-tx2-bound">
 										<a href="/disclaimer">
 										<span>Disclaimer</span>
-										</a>
-									</div>
-									<div class="footer-tx2-bound">
-										<a href="/alipay">
-										<span>Alipay</span>
 										</a>
 									</div>
 								</div>
@@ -120,10 +120,8 @@
 									<div class="footer-tx1-bound">
 										<span>Social</span>
 									</div>
-									<div class="footer-tx2-bound">
-										<a href="https://discord.me/RPCS3" target="_blank">
+									<div class="footer-tx2-bound toggle-discord">
 										<span>Discord</span>
-										</a>
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://forums.rpcs3.net" target="_blank">
@@ -135,10 +133,8 @@
 										<span>YouTube</span>
 										</a>
 									</div>
-									<div class="footer-tx2-bound">
-										<a href="https://www.reddit.com/r/rpcs3" target="_blank">
+									<div class="footer-tx2-bound toggle-reddit">
 										<span>Reddit</span>
-										</a>
 									</div>
 									<div class="footer-tx2-bound">
 										<a href="https://x.com/rpcs3" target="_blank">

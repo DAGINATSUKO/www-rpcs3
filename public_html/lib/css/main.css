@@ -1,3 +1,4 @@
+@charset "utf-8";
 ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 	font-size:inherit;
 	font-weight:inherit;
@@ -20,10 +21,6 @@ ul,li,ol,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 @font-face {
 	font-family:Roboto-Bold;
 	src:url(/lib/font/Roboto-Bold.woff) format("woff")
-}
-@font-face {
-	font-family:SunlightGothic;
-	src:url(/lib/font/SunlightGothic.woff) format("woff")
 }
 body {
 	width:100%;
@@ -50,6 +47,10 @@ a:hover {
 	text-decoration:none;
 	color:#39f
 }
+::-moz-selection {
+	background:#39f;
+	color:#fff
+}
 ::selection {
 	background:#39f;
 	color:#fff
@@ -62,6 +63,18 @@ a:hover {
 }
 ::-webkit-scrollbar-thumb {
 	background:#a9a9a9
+}
+::-webkit-input-placeholder {
+	color:#0074e7
+}
+::-moz-placeholder {
+	color:#0074e7
+}
+:-ms-input-placeholder {
+	color:#0074e7
+}
+::-ms-input-placeholder {
+	color:#0074e7
 }
 ::placeholder {
 	color:#0074e7
@@ -110,6 +123,8 @@ a:hover {
 	width:100%;
 	position:absolute;
 	bottom:0;
+	-webkit-transition:all 1s ease-in-out 0s;
+	-o-transition:all 1s ease-in-out 0s;
 	transition:all 1s ease-in-out 0s
 }
 .wavebar-svg-object {
@@ -118,12 +133,15 @@ a:hover {
 	top:-198px;
 	width:6144px;
 	height:198px;
-	animation:11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
-	transform:translate3d(0px,0px,0px)
+	-webkit-animation:11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
+	        animation:11s cubic-bezier(.36,.45,.63,.53) 0s infinite normal none running wavebar-svg-object;
+	-webkit-transform:translate3d(0px,0px,0px);
+	        transform:translate3d(0px,0px,0px)
 }
 .wavebar-svg-object:nth-of-type(2) {
 	top:-174px;
-	animation:11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
+	-webkit-animation:11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
+	        animation:11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
 	opacity:1
 }
 .mini-menu-con-dimmer {
@@ -137,20 +155,26 @@ a:hover {
 }
 .mini-menu-con-container {
 	position:fixed;
-	height:506px;
+	height: auto;
 	width:356px;
-	background:rgb(25 31 54/90%);
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgb(82 86 179 / 10%)), to(rgb(82 86 179 / 80%)));
+	background: -o-linear-gradient(bottom, rgb(82 86 179 / 10%) 10%, rgb(82 86 179 / 80%) 100%);
+	background: linear-gradient(0deg, rgb(82 86 179 / 10%) 10%, rgb(82 86 179 / 80%) 100%);
+	-webkit-box-shadow: inset 0 0 0 1px rgb(255 255 255 / 20%);
+	        box-shadow: inset 0 0 0 1px rgb(255 255 255 / 20%);
 	margin-left:-178px;
 	margin-top:-253px;
 	top:50%;
 	left:50%;
-	border-radius:12px;
-	box-shadow:rgba(0,0,0,.2) 0 32px 32px 0;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1;
-	backdrop-filter:blur(14px) saturate(500%);
-	border:1px solid rgba(255,255,255,.1)
+	border-radius: 16px;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration: .5s;
+	        animation-duration: .5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-backdrop-filter: blur(16px) saturate(200%);
+	        backdrop-filter: blur(16px) saturate(200%);
 }
 .mini-menu-ico-logo {
 	background:url("/img/icons/menu/logo-wide-dark.png") left center/180px no-repeat;
@@ -160,23 +184,33 @@ a:hover {
 	margin-left:30px;
 	margin-top:20px;
 	margin-bottom:10px;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration: .5s;
+	        animation-duration: .5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .mini-menu-tx1-block {
 	margin-bottom:10px;
 	margin-top:10px;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration: .5s;
+	        animation-duration: .5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	text-shadow: rgba(0,0,0,.25) 0 2px 2px;
 	color:#fff
 }
 .mini-menu-tx2-block {
 	margin-bottom:20px;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration: .5s;
+	        animation-duration: .5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	color:#fff
 }
 .mini-menu-tx1-block h2 {
@@ -209,22 +243,32 @@ a:hover {
 	line-height:60px;
 	font-size:18px;
 	text-align:center;
-	color:#fff;
-	background:#686de0;
+	color: #000;
+	background: rgb(255 255 255 / 90%);
+	border: solid 2px #fff;
 	height:60px;
 	cursor:pointer;
-	border-bottom-right-radius:10px;
-	border-bottom-left-radius:10px;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1;
+	border-radius: 10px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration: .5s;
+	        animation-duration: .5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
-	bottom:0;
-	border:solid 2px rgb(255 255 255/40%)
+	bottom: 0px;
 }
 .mini-menu-btn-agree:hover {
-	background:#1abc9c;
-	box-shadow:rgba(46,204,113,.5) 0 0 64px 0
+	color: #fff;
+	border: solid 2px #878cff;
+	background:#686de0;
+	-webkit-box-shadow:rgb(104 109 224 / 50%) 0 0 64px 0;
+	        box-shadow:rgb(104 109 224 / 50%) 0 0 64px 0
 }
 .menu-con-message {
 	position:fixed;
@@ -242,12 +286,14 @@ a:hover {
 	text-align:center;
 	color:#fff;
 	background:rgba(255,52,52,.8);
-	backdrop-filter:blur(4px);
+	-webkit-backdrop-filter:blur(4px);
+	        backdrop-filter:blur(4px);
 	border-radius:12px;
 	margin-left:20px;
 	margin-right:20px;
 	border:2px solid rgba(255,52,52,.8);
-	box-shadow:rgba(255,52,52,.4) 0 10px 32px 0
+	-webkit-box-shadow:rgba(255,52,52,.4) 0 10px 32px 0;
+	        box-shadow:rgba(255,52,52,.4) 0 10px 32px 0
 }
 .menu-btn-close {
 	border:2px solid #fff;
@@ -258,10 +304,15 @@ a:hover {
 	width:40px;
 	height:40px;
 	cursor:pointer;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
-	animation-name:zoomIn;
-	animation-duration:.5s;
-	animation-iteration-count:1;
+	-webkit-animation-name:zoomIn;
+	        animation-name:zoomIn;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	border-radius:100%;
 	background-image:url(/img/icons/menu/close.png);
 	background-position:center center;
@@ -270,11 +321,14 @@ a:hover {
 	background-origin:initial;
 	background-clip:initial;
 	background-color:#4e34c9;
-	box-shadow:rgba(0,0,0,.05) 0 10px 16px 0;
+	-webkit-box-shadow:rgba(0,0,0,.05) 0 10px 16px 0;
+	        box-shadow:rgba(0,0,0,.05) 0 10px 16px 0;
 	background-size:cover!important
 }
 .menu-btn-close:hover {
-	transform:scale(.9);
+	-webkit-transform:scale(.9);
+	    -ms-transform:scale(.9);
+	        transform:scale(.9);
 	border-color:red;
 	background:url("/img/icons/menu/close.png") center center/cover no-repeat rgb(255,0,0)!important
 }
@@ -288,13 +342,18 @@ a:hover {
 	position:absolute;
 	top:12px;
 	padding-left:60px;
-	animation-name:fadeIn;
-	animation-duration:.5s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeIn;
+	        animation-name:fadeIn;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	display:none
 }
 .menu-btn-close:hover>.menu-tx1-tooltip {
-	transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	    -ms-transform:scale(1.1);
+	        transform:scale(1.1);
 	display:block!important
 }
 .menu-con-logo {
@@ -311,6 +370,8 @@ a:hover {
 	height:70px;
 	border-bottom:2px solid transparent;
 	background:url("/img/icons/menu/logo.png") center center/36px no-repeat;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .menu-ico-logo:hover {
@@ -324,15 +385,20 @@ a:hover {
 	width:100%;
 	height:auto;
 	background:rgba(255,255,255,.05);
-	backdrop-filter:blur(6px);
+	-webkit-backdrop-filter:blur(16px);
+	        backdrop-filter:blur(16px);
 	border-bottom:1px solid rgba(255,255,255,.1);
-	user-select:none
+	-webkit-user-select:none;
+	   -moz-user-select:none;
+	    -ms-user-select:none;
+	        user-select:none
 }
 .menu-con-backdrop {
 	position:absolute;
 	display:none;
 	width:100%;
 	height:100%;
+	background:-o-linear-gradient(225deg,rgba(0,42,135,0.8) 25%,rgba(147,64,255,0.8) 100%);
 	background:linear-gradient(-135deg,rgba(0,42,135,0.8) 25%,rgba(147,64,255,0.8) 100%)
 }
 .menu-con-outer {
@@ -363,8 +429,10 @@ a:hover {
 	margin-bottom:-2px;
 	color:#fff;
 	border-bottom:2px solid transparent;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
-	text-shadow:rgba(0,0,0,.25) 0 2px 2px
+	text-shadow:rgba(0,0,0,.25) 0 2px 2px;
 }
 .menu-btn-select:hover {
 	height:70px;
@@ -378,16 +446,20 @@ a:hover {
 	border-radius:100%;
 	bottom:20px;
 	right:20px;
-	box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
 	z-index:9999;
 	cursor:pointer;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	display:none;
 	border:2px solid #fff
 }
 .menu-btn-backtotop:hover {
 	background:url("/img/icons/buttons/backtotop-h.png") center center/24px no-repeat rgb(26,188,156);
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:2px solid #57e694
 }
 .menu-con-divider {
@@ -449,7 +521,8 @@ a:hover {
 	line-height:24px;
 	border-radius:22px;
 	padding:2px 14px;
-	backdrop-filter:blur(6px);
+	-webkit-backdrop-filter:blur(6px);
+	        backdrop-filter:blur(6px);
 	border:solid 1px rgb(255 255 255/20%);
 	display:none;
 }
@@ -460,7 +533,8 @@ a:hover {
 	width:100%;
 	height:100%;
 	background:rgba(17,21,37,.9);
-	backdrop-filter:blur(14px)
+	-webkit-backdrop-filter:blur(14px);
+	        backdrop-filter:blur(14px)
 }
 .mobile-menu-con-outter {
 	position:relative;
@@ -482,16 +556,20 @@ a:hover {
 	height:50px;
 	padding-left:20px;
 	color:#fff;
-	animation-name:fadeInDown;
-	animation-duration:.5s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeInDown;
+	        animation-name:fadeInDown;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	border-radius:6px;
 	margin-bottom:10px;
 	border:2px solid rgba(255,255,255,.03)
 }
 .mobile-menu-btn-select:hover {
 	color:#4e34c9;
-	box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
 	background:rgba(255,255,255,.9)!important
 }
 .mobile-menu-con-scroll::-webkit-scrollbar {
@@ -516,30 +594,41 @@ a:hover {
 	height:20px;
 	position:relative;
 	margin-top:20px;
-	animation-name:fadeInDown;
-	animation-duration:.5s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInDown;
+	        animation-name:fadeInDown;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .mobile-menu-con-divider {
 	width:100%;
 	height:2px;
 	border-radius:2px;
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgba(255,255,255,0.5)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,0.5));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,0.5));
 	margin-top:10px;
 	margin-bottom:30px;
 	position:relative;
-	animation-name:fadeInRight;
-	animation-duration:.5s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInRight;
+	        animation-name:fadeInRight;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .mobile-menu-btn-icon {
 	width:50px;
 	height:54px;
 	background:url("/img/icons/arrows/left-h.png") center center/18px no-repeat;
 	position:relative;
-	animation-name:fadeInDown;
-	animation-duration:.5s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeInDown;
+	        animation-name:fadeInDown;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	float:left
 }
 .mobile-menu-btn-spacer {
@@ -556,9 +645,14 @@ a:hover {
 	cursor:pointer;
 	border-bottom:2px solid transparent;
 	background:url("/img/icons/menu/settings.png") center center/28px no-repeat;
-	animation-name:fadeIn;
-	animation-duration:.5s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeIn;
+	        animation-name:fadeIn;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .menu-btn-settings:hover {
@@ -596,38 +690,46 @@ a:hover {
 	border-bottom:2px solid #fff
 }
 .settings-menu-con-outer {
-	z-index:9990;
+	z-index:9999;
 	position:fixed;
 	top:80px;
 	right:8px;
 	display:none;
 	width:222px;
 	height:390px;
-	box-shadow:rgba(0,0,0,.2) 0 0 80px 0;
-	border-radius:12px;
-	animation-name:fadeInRight;
-	animation-duration:.2s;
-	animation-iteration-count:1;
-	backdrop-filter:blur(12px) saturate(500%);
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 0 80px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 0 80px 0;
+	border-radius:16px;
+	-webkit-animation-name:fadeInRight;
+	        animation-name:fadeInRight;
+	-webkit-animation-duration:.2s;
+	        animation-duration:.2s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-backdrop-filter: blur(32px) saturate(200%);
+	        backdrop-filter: blur(32px) saturate(200%);
 	border:1px solid rgba(255,255,255,.1);
-	background:rgba(17,21,37,.8)!important
+	background:rgba(17,21,37,.6)!important;
 }
 .settings-menu-con-wrapper {
 	position:relative;
 	width:100%;
 	height:64px;
 	cursor:pointer;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .settings-menu-upper {
-	border-radius:10px 10px 0 0
+	border-radius: 15px 15px 0 0;
 }
 .settings-menu-lower {
-	border-radius:0 0 10px 10px
+	border-radius:0 0 15px 15px
 }
 .settings-menu-con-wrapper:hover {
-	background:#1abc9c;
-	box-shadow:rgba(26,188,156,.5) 0 0 32px 0
+	background:#03A9F4;
+	-webkit-box-shadow:rgb(3 169 244 / 50%) 0 0 32px 0;
+	        box-shadow:rgb(3 169 244 / 50%) 0 0 32px 0
 }
 .settings-menu-con-wrapper:hover .settings-menu-btn-button {
 	color:#fff
@@ -651,7 +753,8 @@ a:hover {
 	height:64px;
 	text-align:left;
 	pointer-events:none;
-	color:#fff
+	color:#fff;
+	text-shadow: rgba(0,0,0,.25) 0 2px 2px;
 }
 .settings-menu-ico-darkmode {
 	display:inline-block;
@@ -661,10 +764,9 @@ a:hover {
 	margin-top:10px;
 	margin-left:10px;
 	margin-right:10px;
-	border-radius:12px;
-	border:solid 1px rgb(255 255 255/10%);
-	background:rgb(255 255 255/10%) url("/img/icons/submenu/darkmode-h.png") center center/24px no-repeat;
-	box-shadow:rgb(0 0 0/30%) 0 10px 32px 0
+	border-radius:100%;
+	background:rgb(255 255 255/10%) url("/img/icons/submenu/darkmode-h.png") center center/20px no-repeat;
+	border: solid 1px rgb(255 255 255 / 10%);
 }
 .settings-menu-ico-particles {
 	display:inline-block;
@@ -674,10 +776,9 @@ a:hover {
 	margin-top:10px;
 	margin-left:10px;
 	margin-right:10px;
-	border-radius:12px;
-	border:solid 1px rgb(255 255 255/10%);
-	background:rgb(255 255 255/10%) url("/img/icons/submenu/particles-h.png") center center/24px no-repeat;
-	box-shadow:rgb(0 0 0/30%) 0 10px 32px 0
+	border-radius:100%;
+	background:rgb(255 255 255/10%) url("/img/icons/submenu/particles-h.png") center center/20px no-repeat;
+	border: solid 1px rgb(255 255 255 / 10%);
 }
 .settings-menu-ico-pulsate {
 	display:inline-block;
@@ -687,10 +788,9 @@ a:hover {
 	margin-top:10px;
 	margin-left:10px;
 	margin-right:10px;
-	border-radius:12px;
-	border:solid 1px rgb(255 255 255/10%);
-	background:rgb(255 255 255/10%) url(/img/icons/submenu/pulsate-h.png) center center/24px no-repeat;
-	box-shadow:rgb(0 0 0/30%) 0 10px 32px 0
+	border-radius:100%;
+	background:rgb(255 255 255/10%) url(/img/icons/submenu/pulsate-h.png) center center/20px no-repeat;
+	border: solid 1px rgb(255 255 255 / 10%);
 }
 .settings-menu-ico-waves {
 	display:inline-block;
@@ -700,10 +800,9 @@ a:hover {
 	margin-top:10px;
 	margin-left:10px;
 	margin-right:10px;
-	border-radius:12px;
-	border:solid 1px rgb(255 255 255/10%);
-	background:rgb(255 255 255/10%) url(/img/icons/submenu/waves-h.png) center center/24px no-repeat;
-	box-shadow:rgb(0 0 0/30%) 0 10px 32px 0
+	border-radius:100%;
+	background:rgb(255 255 255/10%) url(/img/icons/submenu/waves-h.png) center center/20px no-repeat;
+	border: solid 1px rgb(255 255 255 / 10%);
 }
 .settings-menu-ico-transparency {
 	display:inline-block;
@@ -713,10 +812,9 @@ a:hover {
 	margin-top:10px;
 	margin-left:10px;
 	margin-right:10px;
-	border-radius:12px;
-	border:solid 1px rgb(255 255 255/10%);
-	background:rgb(255 255 255/10%) url("/img/icons/submenu/transparency-h.png") center center/24px no-repeat;
-	box-shadow:rgb(0 0 0/30%) 0 10px 32px 0
+	border-radius:100%;
+	background:rgb(255 255 255/10%) url("/img/icons/submenu/transparency-h.png") center center/20px no-repeat;
+	border: solid 1px rgb(255 255 255 / 10%);
 }
 .settings-menu-ico-theme {
 	display:inline-block;
@@ -726,10 +824,9 @@ a:hover {
 	margin-top:10px;
 	margin-left:10px;
 	margin-right:10px;
-	border-radius:12px;
-	background:rgb(255 255 255/10%) url(/img/icons/submenu/theme-h.png) center center/24px no-repeat;
-	border:solid 1px rgb(255 255 255/10%);
-	box-shadow:rgb(0 0 0/30%) 0 10px 32px 0
+	border-radius:100%;
+	background:rgb(255 255 255/10%) url(/img/icons/submenu/theme-h.png) center center/20px no-repeat;
+	border: solid 1px rgb(255 255 255 / 10%);
 }
 .support-con-menu {
 	position:relative;
@@ -740,6 +837,8 @@ a:hover {
 	height:70px;
 	margin-bottom:-2px;
 	border-bottom:2px solid transparent;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .support-ico-menu {
@@ -749,10 +848,15 @@ a:hover {
 	height:70px;
 	background:url("/img/icons/services/patreon.png") center center/contain no-repeat;
 	cursor:pointer;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
-	animation-name:fadeInRight;
-	animation-duration:.5s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInRight;
+	        animation-name:fadeInRight;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .support-ico-menu:hover {
 	position:absolute;
@@ -772,13 +876,18 @@ a:hover {
 	display:none;
 	width:228px;
 	height:261px;
-	box-shadow:rgba(0,0,0,.2) 0 0 80px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 0 80px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 0 80px 0;
 	border-radius:12px;
 	border:2px solid rgba(255,255,255,.1);
-	animation-name:fadeInUp;
-	animation-duration:.2s;
-	animation-iteration-count:1;
-	backdrop-filter:blur(12px) saturate(500%);
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:.2s;
+	        animation-duration:.2s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-backdrop-filter:blur(12px) saturate(500%);
+	        backdrop-filter:blur(12px) saturate(500%);
 	background:rgba(17,21,37,.8)!important
 }
 .support-con-wrapper {
@@ -787,6 +896,8 @@ a:hover {
 	height:64px;
 	border-bottom:1px solid rgba(0,0,0,.05);
 	cursor:pointer;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .support-upper {
@@ -797,16 +908,14 @@ a:hover {
 }
 .support-con-wrapper:hover {
 	background:#1abc9c;
-	box-shadow:rgba(26,188,156,.5) 0 0 32px 0
+	-webkit-box-shadow:rgba(26,188,156,.5) 0 0 32px 0;
+	        box-shadow:rgba(26,188,156,.5) 0 0 32px 0
 }
 .support-con-wrapper:hover .support-btn-button {
 	color:#fff
 }
 .support-con-wrapper:hover .support-ico-patreon {
 	background:url("/img/icons/submenu/patreon-h.png") center center/24px no-repeat
-}
-.support-con-wrapper:hover .support-ico-alipay {
-	background:url("/img/icons/submenu/alipay-h.png") center center/24px no-repeat
 }
 .support-con-wrapper:hover .support-ico-github {
 	background:url("/img/icons/submenu/code-h.png") center center/24px no-repeat
@@ -833,14 +942,8 @@ a:hover {
 	width:64px;
 	height:64px;
 	background:url("/img/icons/submenu/patreon.png") center center/28px no-repeat;
-	transition:all .1s ease-in-out 0s
-}
-.support-ico-alipay {
-	display:inline-block;
-	float:left;
-	width:64px;
-	height:64px;
-	background:url("/img/icons/submenu/alipay-h.png") center center/28px no-repeat;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .support-ico-github {
@@ -849,6 +952,8 @@ a:hover {
 	width:64px;
 	height:64px;
 	background:url("/img/icons/submenu/code-h.png") center center/28px no-repeat;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .support-ico-testing {
@@ -857,6 +962,8 @@ a:hover {
 	width:64px;
 	height:64px;
 	background:url("/img/icons/submenu/testing-h.png") center center/28px no-repeat;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .window-con-theme {
@@ -872,6 +979,7 @@ a:hover {
 	width:100%;
 	height:100%;
 	position:absolute;
+	background:-o-linear-gradient(225deg,rgb(135,0,93) 25%,rgb(255,64,64) 100%);
 	background:linear-gradient(-135deg,rgb(135,0,93) 25%,rgb(255,64,64) 100%);
 	display:none
 }
@@ -920,78 +1028,15 @@ a:hover {
 	width:100px;
 	height:100px;
 	position:absolute;
-	animation:1s linear 0s infinite normal none running spinnerRotate
-}
-.alipay-con-alipay {
-	position:fixed;
-	z-index:1;
-	top:50%;
-	left:50%;
-	overflow:hidden;
-	width:380px;
-	height:auto;
-	margin:-295px -190px;
-	animation-name:fadeInUp;
-	animation-duration:.5s;
-	border-radius:12px;
-	backdrop-filter:blur(6px);
-	background:rgba(255,255,255,.1)
-}
-.alipay-ico-logo {
-	position:relative;
-	width:100%;
-	height:90px;
-	background:url("/img/icons/services/alipay.png") center center/130px no-repeat
-}
-.alipay-ico-alipay {
-	position:relative;
-	width:100%;
-	height:384px;
-	cursor:pointer;
-	background:url("/img/icons/qr/alipay.png") center center/304px no-repeat rgb(255,255,255)
-}
-.alipay-tx1-prompt {
-	font-family:SunlightGothic;
-	font-size:18px;
-	line-height:60px;
-	position:relative;
-	z-index:1;
-	left:50%;
-	width:60px;
-	height:60px;
-	margin:-30px -30px -38px;
-	text-align:center;
-	color:#fff;
-	border:4px solid #fff;
-	border-radius:100%;
-	background:#000
-}
-.alipay-tx2-prompt {
-	font-family:SunlightGothic;
-	font-size:22px;
-	line-height:125px;
-	position:relative;
-	width:100%;
-	height:115px;
-	text-align:center;
-	color:#fff
-}
-.alipay-con-footer {
-	font-family:Roboto-Regular;
-	font-size:16px;
-	line-height:100px;
-	position:fixed;
-	z-index:1;
-	bottom:0;
-	width:100%;
-	height:100px;
-	text-align:center;
-	color:#fff
+	-webkit-animation:1s linear 0s infinite normal none running spinnerRotate;
+	        animation:1s linear 0s infinite normal none running spinnerRotate
 }
 .sidebar-con-container {
 	position:relative;
-	animation-name:fadeInLeft;
-	animation-duration:.3s;
+	-webkit-animation-name:fadeInLeft;
+	        animation-name:fadeInLeft;
+	-webkit-animation-duration:.3s;
+	        animation-duration:.3s;
 	margin-top:10px
 }
 .sidebar-btn-open {
@@ -1004,6 +1049,8 @@ a:hover {
 	cursor:pointer;
 	border-bottom:2px solid transparent;
 	background:url("/img/icons/menu/menu.png") center center/18px no-repeat;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .sidebar-btn-open:hover {
@@ -1034,12 +1081,19 @@ a:hover {
 	z-index:9999;
 	overflow:hidden scroll;
 	width:378px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
-	animation-name:fadeInLeft;
-	animation-duration:.2s;
-	animation-iteration-count:1;
-	backdrop-filter:blur(12px) saturate(500%);
-	box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	-webkit-animation-name:fadeInLeft;
+	        animation-name:fadeInLeft;
+	-webkit-animation-duration:.2s;
+	        animation-duration:.2s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-backdrop-filter:blur(12px) saturate(500%);
+	        backdrop-filter:blur(12px) saturate(500%);
+	-webkit-box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	        box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
 	display:block;
 	position:fixed;
 	height:auto;
@@ -1099,6 +1153,8 @@ a:hover {
 	text-align:left;
 	border-left:1px solid rgba(255,255,255,.2);
 	color:rgba(255,255,255,.5);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .sidebar-tx2-subtitle:hover {
@@ -1114,19 +1170,26 @@ a:hover {
 	z-index:9999;
 	overflow:hidden scroll;
 	width:378px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
-	animation-name:fadeInLeft;
-	animation-duration:.2s;
-	animation-iteration-count:1;
-	backdrop-filter:blur(12px) saturate(500%);
-	box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	-webkit-animation-name:fadeInLeft;
+	        animation-name:fadeInLeft;
+	-webkit-animation-duration:.2s;
+	        animation-duration:.2s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-backdrop-filter:blur(12px) saturate(500%);
+	        backdrop-filter:blur(12px) saturate(500%);
+	-webkit-box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	        box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
 	display:block;
 	position:fixed;
 	height:auto;
 	inset:0;
 	margin:20px;
 	border-radius:12px;
-	border:2px solid rgba(255,255,255,.1);
+	border:1px solid rgba(255,255,255,.1);
 	background:rgba(17,21,37,.9)!important
 }
 .blogbar-con-anim::-webkit-scrollbar {
@@ -1151,12 +1214,14 @@ a:hover {
 	overflow:hidden;
 	width:100%;
 	height:380px;
+	background:-o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
 	background:linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 .banner-con-backdrop {
 	position:absolute;
 	width:100%;
 	height:100%;
+	background:-o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
 	background:linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 .banner-con-title {
@@ -1300,10 +1365,14 @@ a:hover {
 	position:relative;
 	border-radius:2px;
 	margin-bottom:12px;
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(104,109,224)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(104,109,224));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(104,109,224));
 }
 .splitter-con-container {
 	position:relative;
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex
 }
 .splitter-img-container {
@@ -1311,11 +1380,12 @@ a:hover {
 	width:50%;
 	display:inline-block;
 	float:right;
-	border-radius:12px;
+	border-radius:16px;
 	overflow:hidden;
 	margin-top:40px;
 	margin-bottom:20px;
-	box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	        box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
 	border:solid 1px rgb(255 255 255/10%)
 }
 .splitter-img-wrapper {
@@ -1350,6 +1420,7 @@ a:hover {
 	width:auto;
 	height:46px;
 	border-radius:46px;
+	background:-o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
 	background:linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
 	cursor:pointer;
 	padding-left:4px;
@@ -1357,14 +1428,19 @@ a:hover {
 	display:inline-block;
 	margin-right:20px;
 	margin-bottom:15px;
-	box-shadow:rgba(0,116,231,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,116,231,.4) 0 10px 32px 0;
+	        box-shadow:rgba(0,116,231,.4) 0 10px 32px 0;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:1px solid #0080ff!important;
 	position:relative
 }
 .generic-btn-button:hover {
+	background:-o-linear-gradient(225deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
 	background:linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:1px solid #57e694!important
 }
 .generic-ico-button {
@@ -1411,6 +1487,8 @@ a:hover {
 	height:auto;
 	display:block;
 	float:left;
+	background:-webkit-gradient(linear,left bottom, left top,color-stop(10%, rgb(0 0 0/0%)),to(rgb(26 188 156/20%)));
+	background:-o-linear-gradient(bottom,rgb(0 0 0/0%) 10%,rgb(26 188 156/20%) 100%);
 	background:linear-gradient(0deg,rgb(0 0 0/0%) 10%,rgb(26 188 156/20%) 100%);
 	border-radius:12px;
 	margin-right:2%
@@ -1420,12 +1498,14 @@ a:hover {
 	height:auto;
 	display:block;
 	float:left;
+	background:-webkit-gradient(linear,left bottom, left top,color-stop(10%, rgb(0 0 0/0%)),to(rgb(255 155 67/20%)));
+	background:-o-linear-gradient(bottom,rgb(0 0 0/0%) 10%,rgb(255 155 67/20%) 100%);
 	background:linear-gradient(0deg,rgb(0 0 0/0%) 10%,rgb(255 155 67/20%) 100%);
-	border-radius:12px
+	border-radius:16px;
 }
 .spec-con-title {
 	padding:12px 16px;
-	border-radius:12px;
+	border-radius:16px;
 	color:#fff;
 	height:auto;
 	position:relative
@@ -1433,14 +1513,16 @@ a:hover {
 .spec-max {
 	background:#1abc9c;
 	border:solid 1px rgb(255 255 255/60%);
-	box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
 	margin-bottom:10px;
 	overflow:hidden
 }
 .spec-min {
 	background:#ff9b43;
 	border:solid 1px rgb(255 255 255/60%);
-	box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 10px 10px 32px 0;
 	margin-bottom:10px;
 	overflow:hidden
 }
@@ -1463,7 +1545,7 @@ a:hover {
 	background:rgb(104,109,224);
 	width:52px;
 	height:52px;
-	border-radius:12px;
+	border-radius:16px;
 	margin-right:10px;
 	float:left;
 	margin-left:0px;
@@ -1499,6 +1581,8 @@ a:hover {
 	margin:0 16px;
 	height:2px;
 	border-radius:2px;
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05));
 	margin-top:30px;
 	margin-bottom:30px
@@ -1521,9 +1605,10 @@ a:hover {
 	position:relative;
 	top:0;
 	float:left;
-	border-radius:12px;
+	border-radius:16px;
 	padding:10px;
-	box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	-webkit-box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	        box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
 	border:solid 1px rgb(255 255 255/10%)
 }
 .item-ico-dynamic-a,.item-ico-dynamic-b {
@@ -1581,6 +1666,7 @@ a:hover {
 	position:absolute;
 	width:100%;
 	height:100%;
+	background:-o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
 	background:linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 .content-btn-left {
@@ -1591,10 +1677,15 @@ a:hover {
 	height:100px;
 	margin-top:-50px;
 	background:url("/img/icons/arrows/left.png") center center/64px no-repeat;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
-	animation-name:drifting-left;
-	animation-duration:2s;
-	animation-iteration-count:infinite;
+	-webkit-animation-name:drifting-left;
+	        animation-name:drifting-left;
+	-webkit-animation-duration:2s;
+	        animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	        animation-iteration-count:infinite;
 	z-index:4
 }
 .content-btn-right {
@@ -1605,10 +1696,15 @@ a:hover {
 	height:100px;
 	margin-top:-50px;
 	background:url("/img/icons/arrows/right.png") center center/64px no-repeat;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
-	animation-name:drifting-right;
-	animation-duration:2s;
-	animation-iteration-count:infinite;
+	-webkit-animation-name:drifting-right;
+	        animation-name:drifting-right;
+	-webkit-animation-duration:2s;
+	        animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	        animation-iteration-count:infinite;
 	z-index:4
 }
 .content-btn-left:hover {
@@ -1629,10 +1725,13 @@ a:hover {
 	width:80px;
 	height:80px;
 	margin:0 0 0 -40px;
-	animation-name:bobbing;
-	animation-duration:2s;
-	animation-iteration-count:infinite;
-	background:url("/img/icons/arrows/down.png") center center/42px no-repeat
+	-webkit-animation-name:bobbing;
+	        animation-name:bobbing;
+	-webkit-animation-duration:2s;
+	        animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	        animation-iteration-count:infinite;
+	background:url("/img/icons/arrows/down.png") center center/50px no-repeat;
 }
 .landing-img-backdrop {
 	height:100%;
@@ -1690,6 +1789,7 @@ a:hover {
 	height:700px;
 	min-height:600px;
 	max-height:1080px;
+	background:-o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
 	background:linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 .landing-con-patreon {
@@ -1733,9 +1833,12 @@ a:hover {
 	right:0;
 	width:47%;
 	height:100%;
-	animation-name:fadeInLeft;
-	animation-duration:1s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInLeft;
+	        animation-name:fadeInLeft;
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .landing-con-container {
 	position:absolute;
@@ -1746,9 +1849,12 @@ a:hover {
 	width:100%;
 	height:44px;
 	margin-top:30px;
-	animation-name:fadeInUp;
-	animation-duration:1.4s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:1.4s;
+	        animation-duration:1.4s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .build-btn-button {
 	width:198px;
@@ -1756,16 +1862,20 @@ a:hover {
 	border-radius:46px;
 	margin-top:35px;
 	background:#fff;
-	box-shadow:rgba(0,0,0,.05) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.05) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.05) 0 10px 32px 0;
 	cursor:pointer;
 	padding-left:4px;
 	padding-right:4px;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:2px solid #fff
 }
 .build-btn-button:hover {
 	background:#1abc9c;
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:2px solid #57e694!important
 }
 .build-btn-button:hover .build-tx1-button {
@@ -1819,9 +1929,12 @@ a:hover {
 	height:64px;
 	margin-bottom:18px;
 	background:url("/img/icons/menu/logo.png") left center/64px no-repeat;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .landing-img-hero {
 	position:absolute;
@@ -1838,9 +1951,12 @@ a:hover {
 	height:auto;
 	margin-bottom:16px;
 	color:#fff;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	text-rendering:optimizelegibility;
 	text-shadow:rgba(0,0,0,.25) 0 2px 2px
 }
@@ -1850,9 +1966,12 @@ a:hover {
 	line-height:30px;
 	position:relative;
 	color:#fff;
-	animation-name:fadeInUp;
-	animation-duration:1.2s;
-	animation-iteration-count:1;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:1.2s;
+	        animation-duration:1.2s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	text-shadow:rgba(0,0,0,.25) 0 2px 2px
 }
 .landing-con-divider {
@@ -1877,7 +1996,8 @@ a:hover {
 	height:100%;
 	position:absolute;
 	opacity:.2;
-	filter:blur(20px) saturate(200%);
+	-webkit-filter:blur(20px) saturate(200%);
+	        filter:blur(20px) saturate(200%);
 	zoom:4
 }
 .handheld-img-overlay {
@@ -1894,10 +2014,13 @@ a:hover {
 	margin-left:-156px;
 	margin-top:35px;
 	background:#fff;
-	box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
 	cursor:pointer;
 	padding-left:4px;
 	padding-right:4px;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:2px solid #fff;
 	position:relative;
@@ -1905,7 +2028,8 @@ a:hover {
 }
 .handheld-btn-button:hover {
 	background:#1abc9c;
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:2px solid #57e694!important
 }
 .handheld-btn-button:hover .handheld-ico-button {
@@ -1991,16 +2115,20 @@ a:hover {
 	margin-left:100px;
 	margin-top:35px;
 	background:#fff;
-	box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
 	cursor:pointer;
 	padding-left:4px;
 	padding-right:4px;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:2px solid #fff
 }
 .github-btn-button:hover {
 	background:#1abc9c;
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:2px solid #57e694!important
 }
 .github-btn-button:hover .github-ico-button {
@@ -2031,7 +2159,8 @@ a:hover {
 	width:100%
 }
 .discord-svg-animate {
-	animation:30s linear 0s infinite alternate none running blobby
+	-webkit-animation:30s linear 0s infinite alternate none running blobby;
+	        animation:30s linear 0s infinite alternate none running blobby
 }
 .discord-con-container {
 	height:500px;
@@ -2117,16 +2246,20 @@ a:hover {
 	margin-left:100px;
 	margin-top:35px;
 	background:#fff;
-	box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 10px 32px 0;
 	cursor:pointer;
 	padding-left:4px;
 	padding-right:4px;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:2px solid #fff
 }
 .discord-btn-button:hover {
 	background:#1abc9c;
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:2px solid #57e694!important
 }
 .discord-btn-button:hover .discord-ico-button {
@@ -2213,19 +2346,24 @@ a:hover {
 	border-radius:46px;
 	margin-left:100px;
 	margin-top:35px;
-	box-shadow:rgba(255,66,77,.5) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(255,66,77,.5) 0 10px 32px 0;
+	        box-shadow:rgba(255,66,77,.5) 0 10px 32px 0;
 	cursor:pointer;
 	padding-left:4px;
 	padding-right:4px;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:2px solid #ff2633
 }
 .patreon-btn-button:hover {
+	background:-o-linear-gradient(225deg,rgb(255,145,130) 25%,rgb(255,177,117) 100%);
 	background:linear-gradient(-135deg,rgb(255,145,130) 25%,rgb(255,177,117) 100%)
 }
 .patreon-btn-button:hover {
 	background:#1abc9c;
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:2px solid #57e694!important
 }
 .patreon-btn-button:hover .patreon-ico-patreon {
@@ -2289,9 +2427,12 @@ a:hover {
 	width:100%;
 	height:auto;
 	margin:-25px 0;
-	animation-name:fadeInUp;
-	animation-duration:1s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .search-con-outer {
 	position:relative;
@@ -2317,8 +2458,11 @@ a:hover {
 	height:50px;
 	margin:0 auto;
 	border-radius:50px;
-	box-shadow:rgba(0,0,0,.1) 0 16px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 0 16px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 0 16px 32px 0;
 	border:2px solid transparent;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .search-inp-search:hover {
@@ -2327,7 +2471,8 @@ a:hover {
 	border-style:solid;
 	border-color:#686de0;
 	color:#686de0;
-	box-shadow:rgba(0,0,0,.1) 0 16px 32px 0
+	-webkit-box-shadow:rgba(0,0,0,.1) 0 16px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 0 16px 32px 0
 }
 .search-inp-search input {
 	font-size:18px;
@@ -2347,11 +2492,57 @@ a:hover {
 	outline:0;
 	color:#0074e7
 }
-.search-inp-search input::placeholder {
+.search-inp-search input::-webkit-input-placeholder {
+	-webkit-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	color:inherit
 }
+.search-inp-search input::-moz-placeholder {
+	-moz-transition:all .1s ease-in-out 0s;
+	transition:all .1s ease-in-out 0s;
+	color:inherit
+}
+.search-inp-search input:-ms-input-placeholder {
+	-ms-transition:all .1s ease-in-out 0s;
+	transition:all .1s ease-in-out 0s;
+	color:inherit
+}
+.search-inp-search input::-ms-input-placeholder {
+	-ms-transition:all .1s ease-in-out 0s;
+	transition:all .1s ease-in-out 0s;
+	color:inherit
+}
+.search-inp-search input::placeholder {
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
+	transition:all .1s ease-in-out 0s;
+	color:inherit
+}
+.search-inp-search:hover input::-webkit-input-placeholder {
+	color:#686de0
+}
+.search-inp-search:hover input::-moz-placeholder {
+	color:#686de0
+}
+.search-inp-search:hover input:-ms-input-placeholder {
+	color:#686de0
+}
+.search-inp-search:hover input::-ms-input-placeholder {
+	color:#686de0
+}
 .search-inp-search:hover input::placeholder {
+	color:#686de0
+}
+.search-inp-search input:focus::-webkit-input-placeholder {
+	color:#686de0
+}
+.search-inp-search input:focus::-moz-placeholder {
+	color:#686de0
+}
+.search-inp-search input:focus:-ms-input-placeholder {
+	color:#686de0
+}
+.search-inp-search input:focus::-ms-input-placeholder {
 	color:#686de0
 }
 .search-inp-search input:focus::placeholder {
@@ -2380,7 +2571,9 @@ a:hover {
 	cursor:default
 }
 .search-con-author a:hover .search-img-author {
-	transform:scale(1.05)
+	-webkit-transform:scale(1.05);
+	    -ms-transform:scale(1.05);
+	        transform:scale(1.05)
 }
 .search-img-author {
 	width:32px;
@@ -2391,9 +2584,12 @@ a:hover {
 	top:14px;
 	margin-left:4px;
 	margin-right:4px;
-	box-shadow:rgba(0,0,0,.2) 0 0 10px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 0 10px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 0 10px 0;
 	border:2px solid #fff;
 	background:url("/img/users/ani.png") center center/cover no-repeat;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s
 }
 .search-con-author a {
@@ -2416,13 +2612,18 @@ a:hover {
 	position:relative;
 	width:550px;
 	height:309px;
-	box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
+	        box-shadow:rgba(0,0,0,.2) 20px 20px 64px 0;
 	border-radius:16px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
 	z-index:2
 }
 .video-con-wrapper:hover>.video-btn-play {
-	transform:scale(1.2)
+	-webkit-transform:scale(1.2);
+	    -ms-transform:scale(1.2);
+	        transform:scale(1.2)
 }
 .video-con-left {
 	width:50%;
@@ -2446,6 +2647,7 @@ a:hover {
 	float:left
 }
 .video-con-divider {
+	background:-o-linear-gradient(160deg,rgb(78,52,201),rgb(104,109,224));
 	background:linear-gradient(-70deg,rgb(78,52,201),rgb(104,109,224));
 	height:6px;
 	border-radius:4px;
@@ -2468,6 +2670,7 @@ a:hover {
 	position:absolute;
 	top:44px;
 	z-index:1;
+	background:-o-linear-gradient(160deg,#4e34c9,#686de0);
 	background:linear-gradient(-70deg,#4e34c9,#686de0);
 	-webkit-text-fill-color:transparent;
 	-webkit-box-decoration-break:clone;
@@ -2481,34 +2684,45 @@ a:hover {
 	height:auto;
 	color:#000;
 	position:relative;
-	animation-duration:1s;
-	animation-iteration-count:1;
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	padding:0 30px;
-	animation-name:fadeInUp!important
+	-webkit-animation-name:fadeInUp!important;
+	        animation-name:fadeInUp!important
 }
 .video-tx1-description h2 {
 	font-family:Roboto-Bold;
 	font-size:26px;
 	line-height:34px;
 	padding:0 15px;
-	animation-duration:1s;
-	animation-iteration-count:1;
-	animation-name:fadeInUp!important
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-animation-name:fadeInUp!important;
+	        animation-name:fadeInUp!important
 }
 .video-tx1-description h3 {
 	font-family:Roboto-Regular;
 	font-size:16px;
 	line-height:32px;
 	margin-top:20px;
-	animation-duration:1s;
-	animation-iteration-count:1;
-	animation-name:fadeInUp!important
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
+	-webkit-animation-name:fadeInUp!important;
+	        animation-name:fadeInUp!important
 }
 .video-img-thumbnail {
 	position:relative;
 	width:100%;
 	height:100%;
 	border-radius:16px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
 	overflow:hidden;
 }
@@ -2517,8 +2731,12 @@ a:hover {
 	top:0;
 	width:100%;
 	height:100%;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
 	overflow:hidden;
+	background:-webkit-gradient(linear,left top, left bottom,color-stop(45%, rgb(0 0 0/0%)),to(rgb(104 109 224/80%)));
+	background:-o-linear-gradient(top,rgb(0 0 0/0%) 45%,rgb(104 109 224/80%) 100%);
 	background:linear-gradient(180deg,rgb(0 0 0/0%) 45%,rgb(104 109 224/80%) 100%)
 }
 .video-btn-play {
@@ -2529,13 +2747,18 @@ a:hover {
 	margin:-36px;
 	width:70px;
 	height:70px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
 	background:url("/img/icons/menu/play.png") center center/cover no-repeat rgba(255,255,255,0.1);
-	backdrop-filter:blur(6px);
+	-webkit-backdrop-filter:blur(6px);
+	        backdrop-filter:blur(6px);
 	border-radius:100%;
 	pointer-events:none;
-	animation-duration:1s;
-	animation-iteration-count:1;
+	-webkit-animation-duration:1s;
+	        animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	border:solid 1px rgb(255 255 255/20%)
 }
 .video-ico-service {
@@ -2555,7 +2778,9 @@ a:hover {
 	overflow:hidden;
 	z-index:1;
 	cursor:pointer;
-	transform:scale(1.01);
+	-webkit-transform:scale(1.01);
+	    -ms-transform:scale(1.01);
+	        transform:scale(1.01);
 	border-radius:16px;
 }
 .video-con-animate::after {
@@ -2566,23 +2791,37 @@ a:hover {
 	width:200%;
 	height:200%;
 	opacity:0;
-	transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);
+	    -ms-transform:rotate(30deg);
+	        transform:rotate(30deg);
+	background:-webkit-gradient(linear,left top, right top,from(rgba(255,255,255,0)),color-stop(77%, rgba(255,255,255,0.14)),color-stop(92%, rgba(255,255,255,0.5)),to(rgba(255,255,255,0)));
+	background:-o-linear-gradient(left,rgba(255,255,255,0) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
 	background:linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,0.14) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
+	-webkit-transition:all .7s ease-in-out 0s;
+	-o-transition:all .7s ease-in-out 0s;
 	transition:all .7s ease-in-out 0s
 }
 .video-con-animate:hover::after {
 	opacity:1;
 	top:-30%;
 	left:-30%;
+	-webkit-transition-property:left,top,opacity;
+	-o-transition-property:left,top,opacity;
 	transition-property:left,top,opacity;
-	transition-duration:.7s,.7s,.15s;
-	transition-timing-function:ease
+	-webkit-transition-duration:.7s,.7s,.15s;
+	     -o-transition-duration:.7s,.7s,.15s;
+	        transition-duration:.7s,.7s,.15s;
+	-webkit-transition-timing-function:ease;
+	     -o-transition-timing-function:ease;
+	        transition-timing-function:ease
 }
 .video-con-animate:active::after {
 	opacity:0
 }
 .video-con-animate:hover+.video-img-thumbnail {
-	transform:scale(1.01)
+	-webkit-transform:scale(1.01);
+	    -ms-transform:scale(1.01);
+	        transform:scale(1.01)
 }
 .video-con-dimmer {
 	position:fixed;
@@ -2590,6 +2829,8 @@ a:hover {
 	width:100%;
 	height:100%;
 	background:rgba(0,0,0,.9);
+	-webkit-backdrop-filter:blur(100px) saturate(800%);
+	        backdrop-filter:blur(100px) saturate(800%);
 	display:none;
 	top:0
 }
@@ -2613,13 +2854,17 @@ a:hover {
 	height:675px;
 	margin-top:-338px;
 	margin-left:-600px;
-	animation-name:zoomIn;
-	animation-duration:.4s;
-	animation-iteration-count:1;
+	-webkit-animation-name:zoomIn;
+	        animation-name:zoomIn;
+	-webkit-animation-duration:.4s;
+	        animation-duration:.4s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1;
 	background:#000;
-	border-radius:12px;
+	border-radius:16px;
 	overflow:hidden;
-	box-shadow:rgba(0,0,0,.4) 0 0 64px 0
+	-webkit-box-shadow:rgba(0,0,0,.4) 0 0 64px 0;
+	        box-shadow:rgba(0,0,0,.4) 0 0 64px 0
 }
 .handheld-con-container {
 	background:url(/img/graphics/landing/hero-handheld.png) no-repeat center;
@@ -2693,10 +2938,12 @@ a:hover {
 	height:100%;
 	border-radius:12px;
 	background-color:#32353a;
+	background-image:-o-linear-gradient(45deg,rgb(34,36,39) 25%,transparent 0px,transparent 75%,rgb(34,36,39) 0px,rgb(34,36,39)),-o-linear-gradient(45deg,rgb(34,36,39) 25%,transparent 0px,transparent 75%,rgb(34,36,39) 0px,rgb(34,36,39));
 	background-image:linear-gradient(45deg,rgb(34,36,39) 25%,transparent 0px,transparent 75%,rgb(34,36,39) 0px,rgb(34,36,39)),linear-gradient(45deg,rgb(34,36,39) 25%,transparent 0px,transparent 75%,rgb(34,36,39) 0px,rgb(34,36,39));
 	background-size:30px 30px;
 	background-position:0 0,45px 45px;
-	box-shadow:rgba(0,0,0,.2) 0 10px 16px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 10px 16px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 10px 16px 0;
 	border:solid 1px rgb(255 255 255/20%)
 }
 .palette-con-inner-b {
@@ -2705,10 +2952,12 @@ a:hover {
 	height:100%;
 	border-radius:12px;
 	background-color:#fff;
+	background-image:-o-linear-gradient(45deg,rgb(228,228,228) 25%,transparent 0px,transparent 75%,rgb(228,228,228) 0px,rgb(228,228,228)),-o-linear-gradient(45deg,rgb(228,228,228) 25%,transparent 0px,transparent 75%,rgb(228,228,228) 0px,rgb(228,228,228));
 	background-image:linear-gradient(45deg,rgb(228,228,228) 25%,transparent 0px,transparent 75%,rgb(228,228,228) 0px,rgb(228,228,228)),linear-gradient(45deg,rgb(228,228,228) 25%,transparent 0px,transparent 75%,rgb(228,228,228) 0px,rgb(228,228,228));
 	background-size:30px 30px;
 	background-position:0 0,45px 45px;
-	box-shadow:rgba(0,0,0,.2) 0 10px 16px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 10px 16px 0;
+	        box-shadow:rgba(0,0,0,.2) 0 10px 16px 0;
 	border:solid 1px rgb(255 255 255/20%)
 }
 .palette-con-text h3 {
@@ -2765,8 +3014,11 @@ a:hover {
 	float:right;
 	border-radius:6px;
 	margin-right:12px;
-	backdrop-filter:blur(5px);
+	-webkit-backdrop-filter:blur(5px);
+	        backdrop-filter:blur(5px);
 	border:2px solid rgba(255,255,255,.1);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .palette-btn-download:hover {
@@ -2775,62 +3027,81 @@ a:hover {
 }
 .palette-swatch-a {
 	background:#686de0;
-	box-shadow:rgba(104,109,224,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(104,109,224,.5) 0 10px 16px 0;
+	        box-shadow:rgba(104,109,224,.5) 0 10px 16px 0
 }
 .palette-swatch-b {
 	background:#4e34c9;
-	box-shadow:rgba(78,52,201,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(78,52,201,.5) 0 10px 16px 0;
+	        box-shadow:rgba(78,52,201,.5) 0 10px 16px 0
 }
 .palette-swatch-c {
 	background:#2e1f78;
-	box-shadow:rgba(46,31,120,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(46,31,120,.5) 0 10px 16px 0;
+	        box-shadow:rgba(46,31,120,.5) 0 10px 16px 0
 }
 .palette-swatch-d {
 	background:#212947;
-	box-shadow:rgba(33,41,71,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(33,41,71,.5) 0 10px 16px 0;
+	        box-shadow:rgba(33,41,71,.5) 0 10px 16px 0
 }
 .palette-swatch-e {
 	background:#191f36;
-	box-shadow:rgba(25,31,54,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(25,31,54,.5) 0 10px 16px 0;
+	        box-shadow:rgba(25,31,54,.5) 0 10px 16px 0
 }
 .palette-swatch-f {
 	background:#111525;
-	box-shadow:rgba(17,21,37,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(17,21,37,.5) 0 10px 16px 0;
+	        box-shadow:rgba(17,21,37,.5) 0 10px 16px 0
 }
 .palette-swatch-g {
 	background:#03a9f4;
-	box-shadow:rgba(3,169,244,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(3,169,244,.5) 0 10px 16px 0;
+	        box-shadow:rgba(3,169,244,.5) 0 10px 16px 0
 }
 .palette-swatch-h {
 	background:#ff3434;
-	box-shadow:rgba(255,52,52,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(255,52,52,.5) 0 10px 16px 0;
+	        box-shadow:rgba(255,52,52,.5) 0 10px 16px 0
 }
 .palette-swatch-i {
 	background:#ff9f43;
-	box-shadow:rgba(255,159,67,.5) 0 10px 16px 0
+	-webkit-box-shadow:rgba(255,159,67,.5) 0 10px 16px 0;
+	        box-shadow:rgba(255,159,67,.5) 0 10px 16px 0
 }
 .user-con-content {
 	position:relative;
 	height:auto;
 	margin-bottom:40px;
-	border-radius:12px;
-	box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
+	border-radius:16px;
+	-webkit-box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
 	border:1px solid rgb(255 255 255 / 20%);
 	min-height:175px!important
 }
 .user-con-content:hover .user-con-flag {
 	display:block;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
-	animation-name:fadeInLeft;
-	animation-duration:.2s;
-	animation-iteration-count:1
+	-webkit-animation-name:fadeInLeft;
+	        animation-name:fadeInLeft;
+	-webkit-animation-duration:.2s;
+	        animation-duration:.2s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .user-con-content:hover .user-con-role {
 	opacity:1;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s
 }
 .user-con-content:hover .user-img-avatar {
-	transform:scale(1.05)
+	-webkit-transform:scale(1.05);
+	    -ms-transform:scale(1.05);
+	        transform:scale(1.05)
 }
 .user-con-wrapper {
 	position:relative;
@@ -2844,15 +3115,16 @@ a:hover {
 	height:100%;
 	position:absolute;
 	z-index:1;
-	backdrop-filter:blur(64px) saturate(200%);
-	border-radius:12px;
+	-webkit-backdrop-filter:blur(64px) saturate(200%);
+	        backdrop-filter:blur(64px) saturate(200%);
+	border-radius:16px;
 	overflow:hidden
 }
 .user-img-backdrop {
 	width:100%;
 	height:100%;
 	position:absolute;
-	border-radius:12px;
+	border-radius:16px;
 	opacity:.2;
 }
 .user-tx1-backdrop {
@@ -2907,6 +3179,8 @@ a:hover {
 	position:relative;
 	border-radius:4px;
 	margin-bottom:12px;
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgba(0,0,0,0.05)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgba(0,0,0,0.05));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgba(0,0,0,0.05))
 }
 .user-con-avatar {
@@ -2917,9 +3191,12 @@ a:hover {
 	top:25px;
 	width:80px;
 	height:80px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
 	border-radius:100%;
-	box-shadow:rgba(0,0,0,.15) 0 8px 8px 0;
+	-webkit-box-shadow:rgba(0,0,0,.15) 0 8px 8px 0;
+	        box-shadow:rgba(0,0,0,.15) 0 8px 8px 0;
 	z-index:2;
 }
 .user-img-avatar {
@@ -2928,6 +3205,8 @@ a:hover {
 	top:6px;
 	width:68px;
 	height:68px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
 	border-radius:100%;
 	z-index:2;
@@ -2940,12 +3219,16 @@ a:hover {
 	width:83px;
 	height:57px;
 	margin-top:-30.5px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
-	box-shadow:rgba(0,0,0,.2) 10px 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 10px 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.2) 10px 10px 32px 0;
 	border-radius:8px;
 	background:rgb(255 255 255/10%);
 	border:solid 1px rgb(255 255 255/20%);
-	backdrop-filter:blur(6px);
+	-webkit-backdrop-filter:blur(6px);
+	        backdrop-filter:blur(6px);
 }
 .user-img-flag {
 	position:absolute;
@@ -2953,8 +3236,11 @@ a:hover {
 	left:4px;
 	width:75px;
 	height:51px;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
-	box-shadow:rgba(0,0,0,.2) 10px 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.2) 10px 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.2) 10px 10px 32px 0;
 	border-radius:6px;
 }
 .user-con-role {
@@ -2970,6 +3256,8 @@ a:hover {
 	color:#fff;
 	border-radius:36px;
 	opacity:0;
+	-webkit-transition:all .2s ease-in-out 0s;
+	-o-transition:all .2s ease-in-out 0s;
 	transition:all .2s ease-in-out 0s;
 	padding:6px 10px;
 	text-shadow:rgba(0,0,0,.25) 0 2px 2px
@@ -2982,44 +3270,58 @@ a:hover {
 }
 .user-role-lead {
 	background:#0984e3;
-	box-shadow:rgba(9,132,227,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(9,132,227,.4) 0 8px 16px 0;
+	        box-shadow:rgba(9,132,227,.4) 0 8px 16px 0;
 	border:1px solid #6bbeff
 }
 .role-lead {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(9,132,227)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(9,132,227));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(9,132,227))
 }
 .user-role-graphics {
 	background:#fd79a8;
-	box-shadow:rgba(253,121,168,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(253,121,168,.4) 0 8px 16px 0;
+	        box-shadow:rgba(253,121,168,.4) 0 8px 16px 0;
 	border:1px solid #ffb6d0
 }
 .user-role-manager {
 	background:#fea47f;
-	box-shadow:rgba(253,163,127,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(253,163,127,.4) 0 8px 16px 0;
+	        box-shadow:rgba(253,163,127,.4) 0 8px 16px 0;
 	border:1px solid #ffccb7
 }
 .role-manager {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(254,164,127)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(254,164,127));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(254,164,127))
 }
 .user-role-web {
 	background:#6c5ce7;
-	box-shadow:rgba(108,92,231,.4) 0 5px 16px 0;
+	-webkit-box-shadow:rgba(108,92,231,.4) 0 5px 16px 0;
+	        box-shadow:rgba(108,92,231,.4) 0 5px 16px 0;
 	border:1px solid #b5aeeb
 }
 .role-web {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(108,92,231)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(108,92,231));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(108,92,231))
 }
 .user-role-designer {
 	background:#0fbcf9;
-	box-shadow:rgba(15,188,249,.4) 0 5px 16px 0;
+	-webkit-box-shadow:rgba(15,188,249,.4) 0 5px 16px 0;
+	        box-shadow:rgba(15,188,249,.4) 0 5px 16px 0;
 	border:1px solid #6bbeff
 }
 .user-role-ui {
 	background:#cf6a87;
-	box-shadow:rgba(207,106,135,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(207,106,135,.4) 0 8px 16px 0;
+	        box-shadow:rgba(207,106,135,.4) 0 8px 16px 0;
 	border:1px solid #dfb3c0
 }
 .role-ui {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(207,106,135)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(207,106,135));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(207,106,135))
 }
 .user-role-firmware {
@@ -3027,59 +3329,79 @@ a:hover {
 }
 .user-role-developer {
 	background:#00b894;
-	box-shadow:rgba(0,184,148,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(0,184,148,.4) 0 8px 16px 0;
+	        box-shadow:rgba(0,184,148,.4) 0 8px 16px 0;
 	border:1px solid #96cdc2
 }
 .role-developer {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(0,184,148)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(0,184,148));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(0,184,148))
 }
 .user-role-contributor {
 	background:#ff8c67;
-	box-shadow:rgba(230,131,100,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(230,131,100,.4) 0 8px 16px 0;
+	        box-shadow:rgba(230,131,100,.4) 0 8px 16px 0;
 	border:1px solid #ffc6b4
 }
 .role-contributor {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(255,140,103)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(255,140,103));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(255,140,103))
 }
 .user-role-editor {
 	background:#4a69bd;
-	box-shadow:rgba(74,105,189,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(74,105,189,.4) 0 8px 16px 0;
+	        box-shadow:rgba(74,105,189,.4) 0 8px 16px 0;
 	border:1px solid #98aad9
 }
 .role-editor {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(74,105,189)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(74,105,189));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(74,105,189))
 }
 .user-role-wiki {
 	background:#78e08f;
-	box-shadow:rgba(120,224,143,.4) 0 5px 16px 0;
+	-webkit-box-shadow:rgba(120,224,143,.4) 0 5px 16px 0;
+	        box-shadow:rgba(120,224,143,.4) 0 5px 16px 0;
 	border:1px solid #b4e6bf
 }
 .role-wiki {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(120,224,143)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(120,224,143));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(120,224,143))
 }
 .user-role-server {
 	background:#38ada9;
-	box-shadow:rgba(56,173,169,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(56,173,169,.4) 0 8px 16px 0;
+	        box-shadow:rgba(56,173,169,.4) 0 8px 16px 0;
 	border:1px solid #97e1df
 }
 .user-role-debugger {
 	background-color:#f1c40f;
-	box-shadow:rgba(241,196,15,.4) 0 5px 16px 0
+	-webkit-box-shadow:rgba(241,196,15,.4) 0 5px 16px 0;
+	        box-shadow:rgba(241,196,15,.4) 0 5px 16px 0
 }
 .user-role-founder {
 	background:#9079ff;
-	box-shadow:rgba(76,91,215,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(76,91,215,.4) 0 8px 16px 0;
+	        box-shadow:rgba(76,91,215,.4) 0 8px 16px 0;
 	border:1px solid #d0c6ff
 }
 .role-founder {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(144,121,255)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(144,121,255));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(144,121,255))
 }
 .user-role-former {
 	background:#00cec9;
-	box-shadow:rgba(0,206,201,.4) 0 8px 16px 0;
+	-webkit-box-shadow:rgba(0,206,201,.4) 0 8px 16px 0;
+	        box-shadow:rgba(0,206,201,.4) 0 8px 16px 0;
 	border:1px solid #acdfde
 }
 .role-former {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(0,206,201)));
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(0,206,201));
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(0,206,201))
 }
 .user-con-subtitle {
@@ -3110,13 +3432,17 @@ a:hover {
 .socialbox-con-button {
 	display:inline-block;
 	margin-right:2px;
-	border-radius:9px;
+	border-radius:12px;
 	padding:10px 12px;
-	box-shadow:rgba(0,0,0,.1) 0 8px 24px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 0 8px 24px 0;
+	        box-shadow:rgba(0,0,0,.1) 0 8px 24px 0;
 	margin-bottom:8px;
 	border:1px solid rgba(255,255,255,.5);
-	backdrop-filter:blur(16px);
+	-webkit-backdrop-filter:blur(16px);
+	        backdrop-filter:blur(16px);
 	background:rgba(255,255,255,.5);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	cursor:pointer
 }
@@ -3155,13 +3481,17 @@ a:hover {
 .specbox-con-part {
 	display:inline-block;
 	margin-right:2px;
-	border-radius:9px;
+	border-radius:12px;
 	padding:4px 12px 4px 8px;
-	box-shadow:rgba(0,0,0,.1) 0 8px 24px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 0 8px 24px 0;
+	        box-shadow:rgba(0,0,0,.1) 0 8px 24px 0;
 	margin-bottom:8px;
 	border:1px solid rgba(255,255,255,.5);
-	backdrop-filter:blur(16px);
+	-webkit-backdrop-filter:blur(16px);
+	        backdrop-filter:blur(16px);
 	background:rgba(255,255,255,.1);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .specbox-con-part:hover {
@@ -3208,17 +3538,22 @@ a:hover {
 	float:left
 }
 .downloadable-con-inner-a {
-	border-radius:12px;
+	border-radius:16px;
 	background:#fff;
-	box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
 	margin:10px;
 	overflow:hidden;
 	position:relative;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:1px solid rgba(255,255,255,.1)
 }
 .downloadable-con-inner-a:hover {
-	transform:translate(0px,-10px)
+	-webkit-transform:translate(0px,-10px);
+	    -ms-transform:translate(0px,-10px);
+	        transform:translate(0px,-10px)
 }
 .downloadable-con-text h3 {
 	font-family:Roboto-Bold;
@@ -3287,7 +3622,8 @@ a:hover {
 	margin-right:20px;
 	position:relative;
 	width:170px;
-	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
 	white-space:nowrap;
 	margin-bottom:15px
 }
@@ -3326,9 +3662,10 @@ a:hover {
 	margin-left:20px;
 	margin-right:20px;
 	position:relative;
-	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
 	overflow-wrap:break-word;
-	border-radius:6px;
+	border-radius:8px;
 	padding:6px 8px;
 	margin-bottom:17px;
 	color:#1abc9c;
@@ -3336,7 +3673,8 @@ a:hover {
 	border:solid 1px rgb(255 255 255/12%)
 }
 .package-con-button-disabled {
-	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+	        filter:grayscale(100%);
 	cursor:not-allowed;
 	background:#525252!important
 }
@@ -3348,15 +3686,21 @@ a:hover {
 	margin-left:20px;
 	border-radius:12px;
 	bottom:22px;
+	background:-o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
 	background:linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
-	box-shadow:rgba(0,116,231,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,116,231,.4) 0 10px 32px 0;
+	        box-shadow:rgba(0,116,231,.4) 0 10px 32px 0;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	float:left;
 	border:2px solid #0080ff!important
 }
 .package-con-button:hover {
+	background:-o-linear-gradient(225deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
 	background:linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
-	box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
+	        box-shadow:rgba(46,204,113,.4) 0 10px 32px 0;
 	border:2px solid #57e694!important
 }
 .package-tx1-button {
@@ -3377,10 +3721,13 @@ a:hover {
 	background:#8256d0;
 	border-radius:12px;
 	padding:8px 12px;
-	box-shadow:rgba(130,86,208,.5) 0 8px 24px 0;
+	-webkit-box-shadow:rgba(130,86,208,.5) 0 8px 24px 0;
+	        box-shadow:rgba(130,86,208,.5) 0 8px 24px 0;
 	margin-right:5px;
 	float:left;
 	border:2px solid rgb(255 255 255/20%);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	margin-bottom:10px;
 	text-shadow:rgba(0,0,0,.25) 0 2px 2px
@@ -3400,11 +3747,14 @@ a:hover {
 	background:#ff9f43;
 	border-radius:12px;
 	padding:8px 12px;
-	box-shadow:rgba(255,159,67,.5) 0 8px 24px 0;
+	-webkit-box-shadow:rgba(255,159,67,.5) 0 8px 24px 0;
+	        box-shadow:rgba(255,159,67,.5) 0 8px 24px 0;
 	margin-left:5px;
 	margin-right:5px;
 	float:left;
 	border:2px solid rgb(255 255 255/20%);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	margin-bottom:10px;
 	text-shadow:rgba(0,0,0,.25) 0 2px 2px
@@ -3425,11 +3775,14 @@ a:hover {
 	background:#1abc9c;
 	border-radius:12px;
 	padding:8px 12px;
-	box-shadow:rgba(26,188,156,.5) 0 8px 24px 0;
+	-webkit-box-shadow:rgba(26,188,156,.5) 0 8px 24px 0;
+	        box-shadow:rgba(26,188,156,.5) 0 8px 24px 0;
 	margin-left:5px;
 	margin-right:25px;
 	float:left;
 	border:2px solid rgb(255 255 255/20%);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	margin-bottom:10px;
 	text-shadow:rgba(0,0,0,.25) 0 2px 2px
@@ -3447,10 +3800,11 @@ a:hover {
 }
 .version-con-container {
 	background:#fff;
-	box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
+	-webkit-box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
+	        box-shadow:rgba(0,0,0,.1) 0 10px 32px 0;
 	width:calc(100% - 20px);
 	height:auto;
-	border-radius:12px;
+	border-radius:16px;
 	display:inline-block;
 	padding-bottom:25px;
 	margin-right:52px;
@@ -3543,18 +3897,23 @@ a:hover {
 	float:left
 }
 .device-con-inner-a {
-	border-radius:12px;
+	border-radius:16px;
 	background:#fff;
-	box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	-webkit-box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	        box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
 	margin:10px;
 	overflow:hidden;
 	position:relative;
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:solid 1px rgb(255 255 255 / 10%);
 	min-height:640px;
 }
 .device-con-inner-a:hover {
-	transform:translate(0,-10px)
+	-webkit-transform:translate(0,-10px);
+	    -ms-transform:translate(0,-10px);
+	        transform:translate(0,-10px)
 }
 .device-con-text h3 {
 	font-family:Roboto-Bold;
@@ -3584,12 +3943,14 @@ a:hover {
 	width:100%;
 }
 .device-con-gradient {
+	background:-webkit-gradient(linear,left bottom, left top,from(rgb(104 109 224 / 15%)),color-stop(70%, rgb(186 190 206 / 10%)));
+	background:-o-linear-gradient(bottom,rgb(104 109 224 / 15%) 0%,rgb(186 190 206 / 10%) 70%);
 	background:linear-gradient(0deg,rgb(104 109 224 / 15%) 0%,rgb(186 190 206 / 10%) 70%);
 	height:360px;
 	margin-top:10px;
 	position:relative;
 	margin-bottom:20px;
-	border-radius:12px;
+	border-radius:16px;
 	margin-left:10px;
 	margin-right:10px;
 	position:relative;
@@ -3619,8 +3980,9 @@ a:hover {
 	z-index:1;
 	top:20px;
 	right:20px;
-	border-radius:10px;
-	box-shadow:rgba(0,0,0,0.1) 10px 10px 32px 0px;
+	border-radius:16px;
+	-webkit-box-shadow:rgba(0,0,0,0.1) 10px 10px 32px 0px;
+	        box-shadow:rgba(0,0,0,0.1) 10px 10px 32px 0px;
 	border:solid 2px rgb(255 255 255 / 40%);
 }
 .performance-ico-spec {
@@ -3643,7 +4005,7 @@ a:hover {
 	float:left;
 	margin-top:20px;
 	margin-bottom:20px;
-	border-radius:12px;
+	border-radius:16px;
 	-webkit-box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
 	box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
 }
@@ -3660,6 +4022,8 @@ a:hover {
 	cursor:ew-resize;
 }
 .gamepad-con-wrapper-gradient {
+	background:-webkit-gradient(linear,right top, left top,from(rgb(6 46 55)),to(rgb(0 0 0 / 0%)));
+	background:-o-linear-gradient(right,rgb(6 46 55) 0%,rgb(0 0 0 / 0%) 100%);
 	background:linear-gradient(-90deg,rgb(6 46 55) 0%,rgb(0 0 0 / 0%) 100%);
 	height:100%;
 	width:100px;
@@ -3679,13 +4043,26 @@ a:hover {
 	width:365px;
 	height:365px;
 	font-size:140px;
-	border-radius:12px;
+	border-radius:20px;
 	white-space:normal;
 	vertical-align:top;
 	position:relative;
+	background:-webkit-gradient(linear,left bottom, left top,from(rgb(104 109 224 / 15%)),color-stop(70%, rgb(186 190 206 / 10%)));
+	background:-o-linear-gradient(bottom,rgb(104 109 224 / 15%) 0%,rgb(186 190 206 / 10%) 70%);
 	background:linear-gradient(0deg,rgb(104 109 224 / 15%) 0%,rgb(186 190 206 / 10%) 70%);
 	-webkit-box-shadow:0 10px 16px 0 rgba(0,0,0,.2);
 	box-shadow:0 10px 6px 0 rgba(0,0,0,.2);
+	-webkit-transition: 1s ease-in-out;
+	-o-transition: .1s ease-in-out;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+	-webkit-box-shadow: inset 0 0 0 2px rgb(0 0 0 / 5%);
+	        box-shadow: inset 0 0 0 2px rgb(0 0 0 / 5%);
+	
+}
+.gamepad-con-item:hover {
+	-webkit-box-shadow: inset 0 0 0 2px #03A9F4;
+	        box-shadow: inset 0 0 0 2px #03A9F4;
 }
 .gamepad-con-tx1 {
 	font-family:Roboto-Bold;
@@ -3737,9 +4114,9 @@ a:hover {
 	margin-bottom:25px
 }
 .drives-con-outer {
-	height: 60px;
+	height:60px;
 	position:relative;
-	margin-bottom: 12px;
+	margin-bottom:12px;
 }
 .drives-con-inner {
 	float:left;
@@ -3751,14 +4128,19 @@ a:hover {
 	color:#000;
 	white-space:nowrap;
 	overflow:hidden;
-	text-overflow:ellipsis;
-	user-select:all;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	-webkit-user-select:all;
+	   -moz-user-select:all;
+	        user-select:all;
 	margin-right:12px;
 	padding:4px 10px;
-	background: linear-gradient(90deg,rgb(104 109 224 / 10%) 0%,rgb(104 109 224 / 5%) 70%);
-	border-radius:6px;
+	background:-webkit-gradient(linear,left top, right top,from(rgb(104 109 224 / 10%)),color-stop(70%, rgb(104 109 224 / 5%)));
+	background:-o-linear-gradient(left,rgb(104 109 224 / 10%) 0%,rgb(104 109 224 / 5%) 70%);
+	background:linear-gradient(90deg,rgb(104 109 224 / 10%) 0%,rgb(104 109 224 / 5%) 70%);
+	border-radius:12px;
 	border:solid 1px rgb(255 255 255/10%);
-	display: inline-block;
+	display:inline-block;
 }
 .drives-txt-revisions {
 	position:absolute;
@@ -3766,10 +4148,13 @@ a:hover {
 	height:20px;
 	line-height:18px;
 	font-size:12px;
-	border-radius:6px;
-	margin-left:6px;
-	padding:8px 10px;
-	user-select:none;
+	border-radius:12px;
+	margin-left:8px;
+	padding:8px 8px;
+	-webkit-user-select:none;
+	   -moz-user-select:none;
+	    -ms-user-select:none;
+	        user-select:none;
 	position:relative;
 	background:rgb(0 0 0/5%);
 	top:-1px;
@@ -3777,8 +4162,8 @@ a:hover {
 }
 .drives-txt-hidden {
 	color:transparent;
-	pointer-events: none;
-	opacity: 0;
+	pointer-events:none;
+	opacity:0;
 }
 .drives-ico-bluray {
 	background:url("/img/icons/list/bd.png") left center/26px no-repeat;
@@ -3789,18 +4174,18 @@ a:hover {
 }
 @media(min-width:906px) {
 	.drives-con-inner {
-		width:22%
+			width:22%
 	}
 }
 @media(max-width:906px) {
 	.drives-txt-hidden {
-		display:none
+			display:none
 	}
 	.drives-con-inner:nth-child(2n+1) {
-		background:rgba(0,0,0,.03)
+			background:rgba(0,0,0,.03)
 	}
 	.drives-con-outer:nth-child(2n+2) {
-		background:unset
+			background:unset
 	}
 }
 .context-important {
@@ -3815,9 +4200,10 @@ a:hover {
 .guide-ico-container {
 	float:left;
 	background:rgb(255 255 255/5%);
-	border-radius:12px;
+	border-radius:15px;
 	margin-right:19px;
-	box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	-webkit-box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	        box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
 	border:solid 1px rgb(255 255 255/10%)
 }
 .guide-ico-content {
@@ -3873,7 +4259,9 @@ a:hover {
 	border-radius:24px;
 	color:#f0932b;
 	border:solid 1px rgb(240 147 43/20%);
-	user-select:all;
+	-webkit-user-select:all;
+	   -moz-user-select:all;
+	        user-select:all;
 	cursor:pointer
 }
 .macos-highlight {
@@ -3882,7 +4270,9 @@ a:hover {
 	border-radius:24px;
 	border:solid 1px rgb(55 43 240/20%);
 	color:#372bf0;
-	user-select:all;
+	-webkit-user-select:all;
+	   -moz-user-select:all;
+	        user-select:all;
 	cursor:pointer
 }
 .bsd-highlight {
@@ -3891,7 +4281,9 @@ a:hover {
 	border-radius:24px;
 	color:#ff3434;
 	border:solid 1px rgb(255 52 52/20%);
-	user-select:all;
+	-webkit-user-select:all;
+	   -moz-user-select:all;
+	        user-select:all;
 	cursor:pointer
 }
 .highlight {
@@ -3899,7 +4291,9 @@ a:hover {
 	border-radius:21px;
 	border:solid 1px rgb(0 116 231/20%);
 	background:rgba(0,128,255,.1);
-	user-select:all;
+	-webkit-user-select:all;
+	   -moz-user-select:all;
+	        user-select:all;
 	padding:2px 8px;
 	font-weight:400
 }
@@ -3930,7 +4324,8 @@ a:hover {
 	margin-left:10px;
 	position:absolute;
 	background:rgb(255 255 255/5%);
-	box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	-webkit-box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
+	        box-shadow:rgb(0 0 0/10%) 0 10px 32px 0;
 	border:solid 1px rgb(255 255 255/10%)
 }
 .list-tx2-description {
@@ -3955,6 +4350,7 @@ a:hover {
 	overflow:hidden;
 	width:100%;
 	height:auto;
+	background:-o-linear-gradient(225deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%);
 	background:linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
 }
 .footer-con-header {
@@ -4019,6 +4415,9 @@ a:hover {
 	color:#fff;
 	text-shadow:rgba(0,0,0,.25) 0 2px 2px
 }
+.footer-tx2-bound span:hover {
+	text-decoration:underline
+}
 .footer-tx2-bound a {
 	color:#fff
 }
@@ -4072,8 +4471,12 @@ a:hover {
 	border-radius:100%;
 	padding:2px;
 	margin-right:10px;
-	box-shadow:rgba(0,0,0,.2) 6px 6px 10px 0;
-	backdrop-filter:blur(6px);
+	-webkit-box-shadow:rgba(0,0,0,.2) 6px 6px 10px 0;
+	        box-shadow:rgba(0,0,0,.2) 6px 6px 10px 0;
+	-webkit-backdrop-filter:blur(6px);
+	        backdrop-filter:blur(6px);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .footer-ico-container:hover {
@@ -4101,8 +4504,12 @@ a:hover {
 	border-radius:38px;
 	border:solid 1px rgb(255 255 255/10%);
 	top:-18px;
-	box-shadow:rgba(0,0,0,.2) 6px 6px 10px 0;
-	backdrop-filter:blur(6px);
+	-webkit-box-shadow:rgba(0,0,0,.2) 6px 6px 10px 0;
+	        box-shadow:rgba(0,0,0,.2) 6px 6px 10px 0;
+	-webkit-backdrop-filter:blur(6px);
+	        backdrop-filter:blur(6px);
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s
 }
 .footer-tx1-developer:hover {
@@ -4185,8 +4592,10 @@ a:hover {
 	position:relative;
 	width:100%;
 	height:60px;
-	animation-name:fadeInUp;
-	animation-duration:.5s
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s
 }
 .error-tx1-content {
 	font-family:Roboto-Light;
@@ -4196,8 +4605,10 @@ a:hover {
 	position:relative;
 	width:100%;
 	height:60px;
-	animation-name:fadeInUp;
-	animation-duration:.5s;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
 	text-align:center;
 	color:#fff
 }
@@ -4208,8 +4619,10 @@ a:hover {
 	position:relative;
 	width:100%;
 	height:25px;
-	animation-name:fadeInUp;
-	animation-duration:.5s;
+	-webkit-animation-name:fadeInUp;
+	        animation-name:fadeInUp;
+	-webkit-animation-duration:.5s;
+	        animation-duration:.5s;
 	text-align:center;
 	color:#fff
 }
@@ -4219,24 +4632,28 @@ a:hover {
 }
 .button-enabled {
 	border-radius:6px;
+	background:-o-linear-gradient(225deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
 	background:linear-gradient(-135deg,rgb(73,164,255) 25%,rgb(0,116,231) 100%);
 	cursor:pointer;
 	color:#fff;
-	box-shadow:rgba(0,116,231,.2) 10px 10px 32px 0;
+	-webkit-box-shadow:rgba(0,116,231,.2) 10px 10px 32px 0;
+	        box-shadow:rgba(0,116,231,.2) 10px 10px 32px 0;
 	border:2px solid #0080ff!important
 }
 .button-enabled:hover {
 	border:2px solid #80bfff!important
 }
 .disable-transparency {
-	backdrop-filter:unset
+	-webkit-backdrop-filter:unset;
+	        backdrop-filter:unset
 }
 .disable-pulsate {
 	text-shadow:none!important
 }
 .markdown {
 	padding-bottom:15px;
-	box-sizing:border-box!important;
+	-webkit-box-sizing:border-box!important;
+	        box-sizing:border-box!important;
 	margin-bottom:20px!important;
 	padding-top:0!important
 }
@@ -4288,35 +4705,48 @@ a:hover {
 	margin-bottom:20px
 }
 .flex-row-wrap {
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
 	-webkit-box-orient:horizontal;
 	-webkit-box-direction:normal;
-	flex-flow:wrap
+	-ms-flex-flow:wrap;
+	    flex-flow:wrap
 }
 .flex-col-wrap {
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
 	-webkit-box-orient:vertical;
 	-webkit-box-direction:normal;
-	flex-flow:column wrap
+	-ms-flex-flow:column wrap;
+	    flex-flow:column wrap
 }
 .flexchild-img {
-	flex-grow:1;
+	-webkit-box-flex:1;
+	    -ms-flex-positive:1;
+	        flex-grow:1;
 	margin:10px
 }
 .img-col-2 {
-	flex-basis:50%
+	-ms-flex-preferred-size:50%;
+	    flex-basis:50%
 }
 .img-col-3 {
-	flex-basis:33.33%
+	-ms-flex-preferred-size:33.33%;
+	    flex-basis:33.33%
 }
 .img-row-2 {
-	flex-basis:450px
+	-ms-flex-preferred-size:450px;
+	    flex-basis:450px
 }
 .img-row-3 {
-	flex-basis:250px
+	-ms-flex-preferred-size:250px;
+	    flex-basis:250px
 }
 .img-row-4 {
-	flex-basis:200px
+	-ms-flex-preferred-size:200px;
+	    flex-basis:200px
 }
 .horizontal-center {
 	margin-left:auto;
@@ -4337,8 +4767,10 @@ a:hover {
 }
 .carousel {
 	position:relative;
-	backface-visibility:hidden;
-	perspective:1000px
+	-webkit-backface-visibility:hidden;
+	        backface-visibility:hidden;
+	-webkit-perspective:1000px;
+	        perspective:1000px
 }
 .carousel-inner {
 	position:relative;
@@ -4347,6 +4779,8 @@ a:hover {
 .carousel-inner>.item {
 	position:relative;
 	display:none;
+	-webkit-transition:left .6s ease-in-out 0s;
+	-o-transition:left .6s ease-in-out 0s;
 	transition:left .6s ease-in-out 0s
 }
 .carousel-inner>.item>img,.carousel-inner>.item>a>img {
@@ -4358,8 +4792,10 @@ a:hover {
 }
 .carousel-inner>.active {
 	left:0;
-	animation-duration:.6s;
-	animation-iteration-count:1
+	-webkit-animation-duration:.6s;
+	        animation-duration:.6s;
+	-webkit-animation-iteration-count:1;
+	        animation-iteration-count:1
 }
 .carousel-inner>.next,.carousel-inner>.prev {
 	position:absolute;
@@ -4447,10 +4883,12 @@ a:hover {
 	margin-bottom:0
 }
 .carousel-left {
-	animation-name:fadeInLeft
+	-webkit-animation-name:fadeInLeft;
+	        animation-name:fadeInLeft
 }
 .carousel-right {
-	animation-name:fadeInRight
+	-webkit-animation-name:fadeInRight;
+	        animation-name:fadeInRight
 }
 #object-particles {
 	position:absolute;
@@ -4468,12 +4906,15 @@ a:hover {
 	width:100% !important;
 }
 .object-focused {
+	-webkit-transition:all .1s ease-in-out 0s;
+	-o-transition:all .1s ease-in-out 0s;
 	transition:all .1s ease-in-out 0s;
 	border:2px solid #686de0!important;
-	box-shadow:rgba(104,109,224,.2) 0 16px 32px 0!important
+	-webkit-box-shadow:rgba(104,109,224,.2) 0 16px 32px 0!important;
+	        box-shadow:rgba(104,109,224,.2) 0 16px 32px 0!important
 }
 .object-hidden {
-	display:none
+	display:none;
 }
 .object-show {
 	display:block
@@ -4489,6 +4930,8 @@ a:hover {
 	display:none!important
 }
 .pulsate {
+	-webkit-transition:text-shadow 1s linear 0s;
+	-o-transition:text-shadow 1s linear 0s;
 	transition:text-shadow 1s linear 0s
 }
 .pulsate.glow {

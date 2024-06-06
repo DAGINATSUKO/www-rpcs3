@@ -8,17 +8,16 @@
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - Disclaimer" />
 <meta property="og:description" content="RPCS3 uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3 and its source code for any purpose, but distributing RPCS3 requires that the source code be released and attribution given." />
-<meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png" />
+<meta property="og:image" content="/img/meta/mobile/1200.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://rpcs3.net" />
 <meta property="og:locale" content="en_US"/>
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="RPCS3" />
-
 <meta name="twitter:title" content="RPCS3 - Disclaimer">
 <meta name="twitter:description" content="RPCS3 uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3 and its source code for any purpose, but distributing RPCS3 requires that the source code be released and attribution given.">
-<meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
+<meta name="twitter:image" content="/img/meta/mobile/1200.png">
 <meta name="twitter:site" content="@rpcs3">
 <meta name="twitter:creator" content="@rpcs3">
 <meta name="twitter:card" content="summary_large_image">
@@ -26,7 +25,7 @@
 <?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
-<?php include 'lib/module/sys-php.php';?>
+<?php include 'lib/module/sys-global.php';?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
 		<div id="object-particles">

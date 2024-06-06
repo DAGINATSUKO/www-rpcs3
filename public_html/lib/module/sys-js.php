@@ -1,9 +1,12 @@
-<script data-cfasync="false" src='/lib/js/jquery.js?v12'></script>
-<script data-cfasync="false" src='/lib/js/dark.js?v12'></script>
-<script data-cfasync="false" src='/lib/js/main.js?v12'></script>
-<script data-cfasync="false" src='/lib/js/jscookie.js?v12'></script>
-<script data-cfasync="false" src='/lib/js/particles.js?v12'></script>
-<script data-cfasync="false" src='/lib/js/particles-sel.js?v12'></script>
+<script data-cfasync="false" src='/lib/js/lib-jquery.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/lib-jscookie.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/lib-particles.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/lib-easing.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/inc-main.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/inc-anim.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/inc-darkmode.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/inc-settings.js?v1'></script>
+<script data-cfasync="false" src='/lib/js/inc-particles.js?v1'></script>
 <noscript>
 <style>
 /*

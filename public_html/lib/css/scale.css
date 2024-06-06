@@ -1,621 +1,640 @@
 @charset "utf-8";
 @media screen and (max-width:480px) {
 	body {
-		-webkit-text-size-adjust:none
+			-webkit-text-size-adjust:none
 	}
 }
 @media screen and (max-width:800px) {
 	.landing-ico-scrolldown {
-		display:none!Important
+			display:none!Important
 	}
 	.menu-con-release {
-		width:100%;
-		border-radius:unset;
-		bottom:0;
-		left:0;
-		text-align:center;
-		background:rgba(17,21,37,.5);
-		height:30px;
-		line-height:30px;
-		padding:unset
+			width:100%;
+			border-radius:unset;
+			bottom:0;
+			left:0;
+			text-align:center;
+			background:rgba(17,21,37,.5);
+			height:30px;
+			line-height:30px;
+			padding:unset
 	}
 	.menu-btn-select {
-		display:none
+			display:none
 	}
 	.menu-con-divider {
-		display:none
+			display:none
 	}
 	.menu-btn-backtotop {
-		display:none!important
+			display:none!important
 	}
 	.menu-btn-settings {
-		display:none
+			display:none
 	}
 	.menu-con-outer {
-		margin:auto 30px
+			margin:auto 30px
 	}
 	.content-con-inside {
-		margin-right:20px;
-		margin-left:20px
+			margin-right:20px;
+			margin-left:20px
 	}
 	.generic-tx1-button {
-		font-size:12px
+			font-size:12px
 	}
 	.spec-con-min {
-		width:100%;
-		float:unset
+			width:100%;
+			float:unset
 	}
 	.spec-con-max {
-		width:100%;
-		float:unset
+			width:100%;
+			float:unset
 	}
 	.req-item {
-		margin-bottom:30px
+			margin-bottom:30px
 	}
 	.landing-con-panel {
-		height:100px
+			height:100px
 	}
 	.landing-tx1-panel {
-		font-size:20px;
-		letter-spacing:8px;
-		text-indent:8px;
-		line-height:20px;
-		top:40px
+			font-size:20px;
+			letter-spacing:8px;
+			text-indent:8px;
+			line-height:20px;
+			top:40px
 	}
 	.footer-con-inner {
-		margin-right:20px;
-		margin-left:20px
+			margin-right:20px;
+			margin-left:20px
 	}
 	.footer-con-bound {
-		left:0
+			left:0
 	}
 	.footer-ico-logo {
-		display:none
+			display:none
 	}
 	.footer-con-side {
-		width:100%;
-		top:30px
+			width:100%;
+			top:30px
 	}
 	.footer-tx1-webmaster {
-		left:0
+			left:0
 	}
 	.splitter-con-container {
-		display:unset
+			display:unset
 	}
 	.splitter-txt-wrapper {
-		width:100%
+			width:100%
 	}
 	.splitter-con-right {
-		margin-top:20px;
-		margin-bottom:30px;
-		display:unset;
-		width:100%
+			margin-top:20px;
+			margin-bottom:30px;
+			display:unset;
+			width:100%
 	}
 	.splitter-con-left {
-		margin:unset;
-		display:unset;
-		width:100%
+			margin:unset;
+			display:unset;
+			width:100%
 	}
 	.splitter-img-wrapper {
-		width:100%;
-		height:300px
+			width:100%;
+			height:300px
 	}
 	.splitter-img-container {
-		display:none
+			display:none
 	}
 	.mini-menu-con-container {
-		width:unset;
-		margin-left:20px;
-		margin-right:20px;
-		left: unset
+			width:unset;
+			margin-left:20px;
+			margin-right:20px;
+			left: unset
 	}
 	.highlight {
-		/* white-space:unset;*/
+			/* white-space:unset;*/
 		/* border:unset;*/
 		/* background:unset;*/
 	}
 	.windows-highlight {
-		white-space:unset;
-		border:unset;
-		background: unset
+			white-space:unset;
+			border:unset;
+			background: unset
 	}
 	.linux-highlight {
-		white-space:unset;
-		/* border:unset;*/
+			white-space:unset;
+			/* border:unset;*/
 		/* background:unset;*/
 	}
 	.bsd-highlight {
-		/* white-space:unset;*/
+			/* white-space:unset;*/
 		/* border:unset;*/
 		/* background:unset;*/
 	}
 }
 @media screen and (max-width:1260px) {
 	.page-con-container {
-		margin:auto 20px
+			margin:auto 20px
 	}
 }
 @media screen and (max-width:800px) {
 	.footer-con-sources {
-		display:none
+			display:none
 	}
 }
 @media screen and (max-width:800px) {
 	.video-con-left {
-		width:100%
+			width:100%
 	}
 	.video-con-right {
-		width:100%;
-		margin-top:30px
+			width:100%;
+			margin-top:30px
 	}
 	.video-con-container {
-		top:unset;
-		margin-top:unset;
-		height:100%
+			top:unset;
+			margin-top:unset;
+			height:100%
 	}
 	.video-con-wrapper {
-		margin-top:18px!important;
-		margin-left:unset!important
+			margin-top:18px!important;
+			margin-left:unset!important
 	}
 	.video-tx1-heading {
-		display:none
+			display:none
 	}
 	.video-tx1-description {
-		top:unset!important;
-		margin-top:unset!important;
-		padding:0!important
+			top:unset!important;
+			margin-top:unset!important;
+			padding:0!important
 	}
 	.video-tx1-description h2 {
-		font-size:32px;
-		line-height:46px;
-		padding:0
+			font-size:32px;
+			line-height:46px;
+			padding:0
 	}
 	.content-btn-left {
-		width:60px;
-		height:60px;
-		top:190px
+			width:60px;
+			height:60px;
+			top:190px
 	}
 	.content-btn-right {
-		width:60px;
-		height:60px;
-		top:190px
+			width:60px;
+			height:60px;
+			top:190px
 	}
 	.video-emp-block {
-		display:none
+			display:none
 	}
 	.video-con-divider {
-		display:none
+			display:none
 	}
 	.palette-con-container {
-		height:auto!important
+			height:auto!important
 	}
 	.palette-con-outer {
-		float:unset!important;
-		width:100%!important;
-		margin-bottom:20px;
-		height:170px!important
+			float:unset!important;
+			width:100%!important;
+			margin-bottom:20px;
+			height:170px!important
 	}
 	.palette-con-inner-b {
-		margin-left:0!important;
-		margin-right:0!important
+			margin-left:0!important;
+			margin-right:0!important
 	}
 	.generic-btn-button {
-		width:unset;
-		padding-left:0;
-		padding-right:0;
-		display:block;
-		margin-right:unset
-	}
-	.alipay-con-alipay {
-		width:100%;
-		left:unset;
-		margin-left:unset;
-		background:unset
+			width:unset;
+			padding-left:0;
+			padding-right:0;
+			display:block;
+			margin-right:unset
 	}
 }
 @media screen and (max-width:800px) {
 	.mobile-menu-btn-open {
-		display:block;
-		height:70px;
-		background-size:20px
+			display:block;
+			height:70px;
+			background-size:20px
 	}
 }
 @media screen and (max-width:800px) {
 	.footer-tx1-developer {
-		display:none
+			display:none
 	}
 }
 @media screen and (max-width:1260px) {
 	.override-show {
-		display:block
+			display:block
 	}
 }
 @media screen and (max-width:1260px) {
 	.override-hide {
-		display:none
+			display:none
 	}
 }
 @media screen and (max-width:1260px) {
 	.override-promote {
-		left:50%!important;
-		display:block!important;
-		width:372px!important;
-		margin-left:-186px!important
+			left:50%!important;
+			display:block!important;
+			width:372px!important;
+			margin-left:-186px!important
 	}
 }
 @media screen and (max-height:780px) {
 	.video-con-viewport {
-		transform:scale(.7)
+			-webkit-transform:scale(.7);
+			    -ms-transform:scale(.7);
+			        transform:scale(.7)
 	}
 }
 @media screen and (max-height:600px) {
 	.video-con-viewport {
-		transform:scale(.6)
+			-webkit-transform:scale(.6);
+			    -ms-transform:scale(.6);
+			        transform:scale(.6)
 	}
 }
 @media screen and (max-height:400px) {
 	.video-con-viewport {
-		transform:scale(.5)
+			-webkit-transform:scale(.5);
+			    -ms-transform:scale(.5);
+			        transform:scale(.5)
 	}
 }
 @media screen and (max-width:1240px) {
 	.video-con-viewport {
-		transform:scale(.8)
+			-webkit-transform:scale(.8);
+			    -ms-transform:scale(.8);
+			        transform:scale(.8)
 	}
 }
 @media screen and (max-width:1010px) {
 	.video-con-viewport {
-		transform:scale(.6)
+			-webkit-transform:scale(.6);
+			    -ms-transform:scale(.6);
+			        transform:scale(.6)
 	}
 }
 @media screen and (max-width:800px) {
 	.video-con-viewport {
-		transform:scale(.25)
+			-webkit-transform:scale(.25);
+			    -ms-transform:scale(.25);
+			        transform:scale(.25)
 	}
 }
 @media screen and (max-width:750px) {
 	.download-define-build {
-		display:none
+			display:none
 	}
 }
 @media screen and (max-width:800px) {
 	.landing-con-main {
-		height:90%
+			height:90%
 	}
 	.landing-ico-logo {
-		display:block!important
+			display:block!important
 	}
 	.landing-tx1-heading {
-		font-size:32px;
-		line-height:46px
+			font-size:32px;
+			line-height:46px
 	}
 	.landing-btn-download {
-		margin-left:26px;
-		bottom:-15px;
-		transform:scale(1.4)
+			margin-left:26px;
+			bottom:-15px;
+			-webkit-transform:scale(1.4);
+			    -ms-transform:scale(1.4);
+			        transform:scale(1.4)
 	}
 	.landing-tx1-download {
-		display:none
+			display:none
 	}
 	.wavebar-con-container-master {
-		height:90%
+			height:90%
 	}
 	.content-expand {
-		width:100%
+			width:100%
 	}
 	.content-remove {
-		display:none
+			display:none
 	}
 	.img-row-3 {
-		flex-basis:450px
+			-ms-flex-preferred-size:450px;
+			    flex-basis:450px
 	}
 	.img-row-4 {
-		flex-basis:250px
+			-ms-flex-preferred-size:250px;
+			    flex-basis:250px
 	}
 	.img-col-2,.img-col-3 {
-		flex-basis:100%
+			-ms-flex-preferred-size:100%;
+			    flex-basis:100%
 	}
 }
 @media screen and (max-width:1395px) {
 	.user-con-flag {
-		display:none!important
+			display:none!important
 	}
 }
 @media screen and (max-width:1090px) {
 	.video-ico-service {
-		display:none!important
+			display:none!important
 	}
 }
 @media screen and (max-width:800px) {
 	#object-particles {
-		display:none
+			display:none
 	}
 	.revision-tx1-container {
-		display:none
+			display:none
 	}
 	.menu-con-container {
-		height:70px
+			height:70px
 	}
 	.menu-btn-darkmode {
-		height:100px
+			height:100px
 	}
 	.menu-ico-logo {
-		height:70px;
-		width:140px;
-		background:url("/img/icons/menu/logo-wide-light.png") center center/36px no-repeat;
-		background-size:contain
+			height:70px;
+			width:140px;
+			background:url("/img/icons/menu/logo-wide-light.png") center center/36px no-repeat;
+			background-size:contain
 	}
 	.support-ico-menu {
-		height:100px
+			height:100px
 	}
 	.support-con-outer {
-		display:none;
-		top:100px;
-		left:-128px
+			display:none;
+			top:100px;
+			left:-128px
 	}
 	.content-btn-left {
-		left:6px;
-		background:rgba(255,255,255,.8) url(/img/icons/arrows/left.png) no-repeat center!important;
-		background-size:32px!important;
-		border-radius:12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px);
-		box-shadow:rgb(0 0 0/20%) 0 6px 10px 0
+			left:6px;
+			background:rgba(255,255,255,.8) url(/img/icons/arrows/left.png) no-repeat center!important;
+			background-size:32px!important;
+			border-radius:12px;
+			backdrop-filter:blur(6px);
+			-webkit-backdrop-filter:blur(6px);
+			-webkit-box-shadow:rgb(0 0 0/20%) 0 6px 10px 0;
+			        box-shadow:rgb(0 0 0/20%) 0 6px 10px 0
 	}
 	.content-btn-right {
-		right:14px;
-		background:rgba(255,255,255,.8) url(/img/icons/arrows/right.png) no-repeat center!important;
-		background-size:32px!important;
-		border-radius:12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px);
-		box-shadow:rgb(0 0 0/20%) 0 6px 10px 0
+			right:14px;
+			background:rgba(255,255,255,.8) url(/img/icons/arrows/right.png) no-repeat center!important;
+			background-size:32px!important;
+			border-radius:12px;
+			backdrop-filter:blur(6px);
+			-webkit-backdrop-filter:blur(6px);
+			-webkit-box-shadow:rgb(0 0 0/20%) 0 6px 10px 0;
+			        box-shadow:rgb(0 0 0/20%) 0 6px 10px 0
 	}
 	.content-btn-left:hover {
-		left:6px;
-		background:rgba(255,255,255,.8) url(/img/icons/arrows/left-a.png) no-repeat center!important;
-		background-size:32px!important;
-		border-radius:12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px)
+			left:6px;
+			background:rgba(255,255,255,.8) url(/img/icons/arrows/left-a.png) no-repeat center!important;
+			background-size:32px!important;
+			border-radius:12px;
+			backdrop-filter:blur(6px);
+			-webkit-backdrop-filter:blur(6px)
 	}
 	.content-btn-right:hover {
-		right:14px;
-		background:rgba(255,255,255,.8) url(/img/icons/arrows/right-a.png) no-repeat center!important;
-		background-size:32px!important;
-		border-radius:12px;
-		backdrop-filter:blur(6px);
-		-webkit-backdrop-filter:blur(6px)
+			right:14px;
+			background:rgba(255,255,255,.8) url(/img/icons/arrows/right-a.png) no-repeat center!important;
+			background-size:32px!important;
+			border-radius:12px;
+			backdrop-filter:blur(6px);
+			-webkit-backdrop-filter:blur(6px)
 	}
 	.video-con-wrapper {
-		width:100%;
-		left:unset;
-		margin-top:-304px;
-		margin-left:unset
+			width:100%;
+			left:unset;
+			margin-top:-304px;
+			margin-left:unset
 	}
 	.dm-gradient {
-		background:url(/img/graphics/landing/gradient-dark.png) no-repeat center bottom;
-		background-size:contain
+			background:url(/img/graphics/landing/gradient-dark.png) no-repeat center bottom;
+			background-size:contain
 	}
 	.landing-con-search {
-		display:none
+			display:none
 	}
 	.landing-tx2-heading {
-		font-size:16px;
-		line-height:30px
+			font-size:16px;
+			line-height:30px
 	}
 	.github-con-logo {
-		display:none!important
+			display:none!important
 	}
 	.github-con-mantra {
-		width:100%!important
+			width:100%!important
 	}
 	.github-tx1-mantra {
-		padding-left:0!important;
-		font-size:32px;
-		line-height:46px
+			padding-left:0!important;
+			font-size:32px;
+			line-height:46px
 	}
 	.github-tx2-mantra {
-		padding-left:0!important;
-		font-size:16px;
-		line-height:30px
+			padding-left:0!important;
+			font-size:16px;
+			line-height:30px
 	}
 	.github-btn-button {
-		margin-left:0!important;
-		position:absolute!important
+			margin-left:0!important;
+			position:absolute!important
 	}
 	.patreon-con-logo {
-		display:none!important
+			display:none!important
 	}
 	.patreon-con-mantra {
-		width:100%!important
+			width:100%!important
 	}
 	.patreon-tx1-mantra {
-		padding-left:0!important;
-		font-size:32px;
-		line-height:46px
+			padding-left:0!important;
+			font-size:32px;
+			line-height:46px
 	}
 	.patreon-tx2-mantra {
-		padding-left:0!important;
-		font-size:16px;
-		line-height:30px
+			padding-left:0!important;
+			font-size:16px;
+			line-height:30px
 	}
 	.patreon-btn-button {
-		margin-left:0!important;
-		position:absolute!important
+			margin-left:0!important;
+			position:absolute!important
 	}
 	.discord-con-logo {
-		display:none!important
+			display:none!important
 	}
 	.discord-con-mantra {
-		width:100%!important
+			width:100%!important
 	}
 	.discord-tx1-mantra {
-		padding-left:0!important;
-		font-size:32px;
-		line-height:46px
+			padding-left:0!important;
+			font-size:32px;
+			line-height:46px
 	}
 	.discord-tx2-mantra {
-		padding-left:0!important;
-		font-size:16px;
-		line-height:30px
+			padding-left:0!important;
+			font-size:16px;
+			line-height:30px
 	}
 	.discord-btn-button {
-		margin-left:0!important;
-		position:absolute!important
+			margin-left:0!important;
+			position:absolute!important
 	}
 	.footer-tx2-developer {
-		width:100%;
-		text-align:center;
-		font-size:20px
+			width:100%;
+			text-align:center;
+			font-size:20px
 	}
 	.user-img-avatar {
-		background:url(/img/users/avatars/nekotekina.png) no-repeat center;
-		background-size:cover;
-		top:0;
-		margin-top:6px;
+			background:url(/img/users/avatars/nekotekina.png) no-repeat center;
+			background-size:cover;
+			top:0;
+			margin-top:6px;
 	}
 	.user-con-wrapper {
-		padding-top:20px;
-		padding-bottom:20px;
-		padding-left:20px;
-		padding-right:20px;
-		margin-top:100px;
+			padding-top:20px;
+			padding-bottom:20px;
+			padding-left:20px;
+			padding-right:20px;
+			margin-top:100px;
 	}
 	.user-con-role {
-		display:none
+			display:none
 	}
 	.sidebar-btn-open {
-		display:none
+			display:none
 	}
 	.landing-con-video {
-		height:680px
+			height:680px
 	}
 	.landing-con-discord {
-		height:500px
+			height:500px
 	}
 	.discord-right-logo {
-		width:100%;
-		left:25%
+			width:100%;
+			left:25%
 	}
 	.discord-left-logo {
-		display:none
+			display:none
 	}
 	.landing-con-contribute {
-		height:500px
+			height:500px
 	}
 	.landing-con-patreon {
-		height:500px
+			height:500px
 	}
 }
 @media screen and (max-width:1492px) {
 	.menu-tx1-settings span {
-		display:none
+			display:none
 	}
 }
 @media screen and (max-width:1325px) {
 	.support-con-menu {
-		display:none
+			display:none
 	}
 }
 @media screen and (max-width:800px) {
 	.settings-menu-con-outer {
-		display:none!important
+			display:none!important
 	}
 }
 @media screen and (max-width:800px) {
 	.menu-tx1-settings {
-		display:block;
-		line-height:100px!important
+			display:block;
+			line-height:100px!important
 	}
 }
 @media screen and (max-width:800px) {
 	.downloadable-con-container {
-		height:auto!important;
-		margin-left:unset
+			height:auto!important;
+			margin-left:unset
 	}
 	.downloadable-con-outer {
-		float:unset!important;
-		width:100%!important;
-		margin-bottom:20px
+			float:unset!important;
+			width:100%!important;
+			margin-bottom:20px
 	}
 	.downloadable-con-inner-b {
-		margin-left:0!important;
-		margin-right:0!important
+			margin-left:0!important;
+			margin-right:0!important
 	}
 	.downloadable-con-inner-a {
-		margin:0
+			margin:0
 	}
 	.version-con-container {
-		margin-right:0;
-		width:100%
+			margin-right:0;
+			width:100%
 	}
 	.package-pr {
-		margin-left:0;
-		margin-right:8px
+			margin-left:0;
+			margin-right:8px
 	}
 	.package-commit {
-		margin-left:0;
-		margin-right:8px
+			margin-left:0;
+			margin-right:8px
 	}
 	.package-author {
-		margin-left:0;
-		margin-right:8px
+			margin-left:0;
+			margin-right:8px
 	}
 }
 @media screen and (max-width:445px) {
 	.downloadable-con-graphic {
-		display:none!important
+			display:none!important
 	}
 }
 @media screen and (max-width:600px) {
 	.version-img-container {
-		display:none!important
+			display:none!important
 	}
 }
 @media screen and (max-width:800px) {
 	.divTableCell,.divTableHead {
-		white-space:nowrap;
-		overflow:hidden;
-		text-overflow:ellipsis
+			white-space:nowrap;
+			overflow:hidden;
+			-o-text-overflow:ellipsis;
+			   text-overflow:ellipsis
 	}
 }
 @media screen and (max-width:1660px) {
 	.sidebar span {
-		display:none;
+			display:none;
 	}
 	.sidebarsettings span {
-		display:none;
+			display:none;
 	}
 }
 @media screen and (max-width:830px) {
 		.landing-con-handheld {
-		display:none;
+			display:none;
 	}
 }
-@media screen and (max-width:800px) {
-	.device-con-container {
-		height:auto!important;
-		margin-left:unset
+@media screen and (max-width:1630px) {
+	.sidebar-btn-tx1-tooltip {
+			display:none;
 	}
-	.device-con-outer {
-		float:unset!important;
-		width:100%!important;
-		margin-bottom:20px
-	}
-		.device-con-outer-left,.device-con-outer-right {
-		float:unset!important;
-		width:100%!important;
-		margin-bottom:20px
-	}
-	 .device-con-inner-b {
-		margin-left:0!important;
-		margin-right:0!important
-	}
-	.device-con-inner-a {
-		margin:0
-	}
-		.window-con-emu {
-			display: none;
+	@media screen and (max-width:800px) {
+		.device-con-container {
+				height:auto!important;
+				margin-left:unset
+		}
+		.device-con-outer {
+				float:unset!important;
+				width:100%!important;
+				margin-bottom:20px
+		}
+			.device-con-outer-left,.device-con-outer-right {
+				float:unset!important;
+				width:100%!important;
+				margin-bottom:20px
+		}
+		 .device-con-inner-b {
+				margin-left:0!important;
+				margin-right:0!important
+		}
+		.device-con-inner-a {
+				margin:0
+		}
+			.window-con-emu {
+					display: none;
+		}
 	}
 }

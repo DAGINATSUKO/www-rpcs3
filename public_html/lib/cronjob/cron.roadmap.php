@@ -22,7 +22,10 @@ function cacheRoadmap()
 	if (!empty($content))
 	{
 		$start = "<div class=\"markdown-body\">";
-		$end = "</div>";
+		$end = "</div>
+
+          </div>
+</div>";
 
 		$roadmap = explode($end, explode($start, $content)[1])[0];
 

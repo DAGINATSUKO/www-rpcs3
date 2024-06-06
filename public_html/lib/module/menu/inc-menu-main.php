@@ -1,6 +1,68 @@
 <div class='menu-con-release'>
 	<span>Website Release Preview</span>
 </div>
+
+
+<div class='discord-menu-con-dimmer popup-discord'>
+	<div class='discord-menu-con-container'>
+		<div class='discord-menu-ico-logo'>
+		</div>
+		<div class='discord-menu-tx1-block'>
+			<div class='discord-menu-emp-block'>
+			</div>
+			<h2 class="pulsate">Be advised.</h2>
+		</div>
+		<div class='discord-menu-tx2-block'>
+			<p>
+				Discord allows us to keep our conversations open and accessible. This applies to users new and old who wish to learn how to use, stay up to date and assist in project's development.
+				<br>
+				<br>
+				 If you need help, check our <a href="/quickstart" target="_blank">Quickstart</a> guide. Most common questions can be answered here or via the FAQ.
+				 <br>
+				<br>
+				Press the <b>Join</b> button to continue.
+			</p>
+		</div>
+		<a href='https://discord.me/RPCS3' target="_blank">
+		<div class="discord-menu-btn-agree">
+			<h2>Join</h2>
+		</div>
+		</a>
+	</div>
+</div>
+
+<div class='reddit-menu-con-dimmer popup-reddit'>
+	<div class='reddit-menu-con-container'>
+		<div class='reddit-menu-ico-logo'>
+		</div>
+		<div class='reddit-menu-tx1-block'>
+			<div class='reddit-menu-emp-block'>
+			</div>
+			<h2 class="pulsate">Be advised.</h2>
+		</div>
+		<div class='reddit-menu-tx2-block'>
+			<p>
+				Our Reddit community is only used to showcase project improvements. We kindly ask users to refrain from requesting community access for help and join our <span>Discord</span> instead.
+				<br>
+				<br>
+				 If you need help, check our <a href="/quickstart" target="_blank">Quickstart</a> guide. Most common questions can be answered here or via the FAQ.
+				 <br>
+				<br>
+				Press the <b>Browse</b> button to continue.
+			</p>
+		</div>
+		<a href='https://reddit.com/r/rpcs3' target="_blank">
+		<div class="reddit-menu-btn-agree button">
+		<div class="progress-bar"></div>
+			<h2>Browse</h2>
+		</div>
+		</a>
+	</div>
+</div>
+
+
+
+
 <div class='mini-menu-con-dimmer'>
 	<div class='mini-menu-con-container'>
 		<div class='mini-menu-ico-logo'>
@@ -12,9 +74,9 @@
 		</div>
 		<div class='mini-menu-tx2-block'>
 			<p>
-				 We do not condone piracy of any kind. <u>Asking</u> for, <u>providing</u> or <u>discussing</u> illegal download links is <b>not allowed</b> in our communities.<br>
+				 We do not condone piracy of any kind. <u>Asking</u> for, <u>providing</u> or <u>discussing</u> illegal download links is not allowed in our communities.<br>
 				<br>
-				 Purchasing legitimate game copies, through the <u>PlayStation Store</u> or through acquiring game discs, and using those copies with RPCS3 is the best way to ensure you will have a clean copy that will work with the emulator. You can use your <b>legal</b> copies with RPCS3 by following the instructions in our <a href="/quickstart" target="_blank">Quickstart</a> guide.
+				 Purchasing legitimate game copies, through the <u>PlayStation Store</u> or through acquiring game discs, and using those copies with RPCS3 is the best way to ensure you will have a clean copy that will work with the emulator. You can use your legal copies with RPCS3 by following the instructions in our <a href="/quickstart" target="_blank">Quickstart</a> guide.
 			</p>
 		</div>
 		<div class="mini-menu-btn-agree">
@@ -22,6 +84,7 @@
 		</div>
 	</div>
 </div>
+
 <div class='menu-con-message fade-out-onload'>
 	<div class='menu-tx1-message toggle-message fade-out-onload'>
 		<span>We are currently experiencing a higher server volume than usual. We sincerely apologize for any inconveniences.</span>
@@ -176,11 +239,9 @@
 				<span>Wiki</span>
 			</div>
 			</a>
-			<a href='https://discord.me/RPCS3' target="_blank">
-			<div class="menu-btn-select">
+			<div class="menu-btn-select toggle-discord">
 				<span>Discord</span>
 			</div>
-			</a>
 			<a href='https://www.youtube.com/c/RPCS3_emu/videos' target="_blank">
 			<div class="menu-btn-select">
 				<span>YouTube</span>
@@ -314,6 +375,13 @@
 					<span>Discord</span>
 				</div>
 				</a>
+				<a href="https://reddit.com/r/rpcs3" target="_blank">
+				<div class='mobile-menu-btn-icon'>
+				</div>
+				<div class='mobile-menu-btn-select'>
+					<span>Reddit</span>
+				</div>
+				</a>
 				<a href="https://www.youtube.com/c/RPCS3_emu/videos" target="_blank">
 				<div class='mobile-menu-btn-icon'>
 				</div>
@@ -331,13 +399,6 @@
 				</div>
 				<div class='mobile-menu-btn-select'>
 					<span>Patreon</span>
-				</div>
-				</a>
-				<a href="/alipay">
-				<div class='mobile-menu-btn-icon'>
-				</div>
-				<div class='mobile-menu-btn-select'>
-					<span>Alipay</span>
 				</div>
 				</a>
 				<div class='mobile-menu-btn-spacer'>

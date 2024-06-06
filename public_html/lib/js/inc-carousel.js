@@ -1,11 +1,8 @@
 $(document).ready(function() {
     $('.carousel').carousel();
 });
-
 !function ($) {
-
   "use strict";
-
   var Carousel = function (element, options) {
     this.$element = $(element)
     this.options = options
@@ -14,9 +11,7 @@ $(document).ready(function() {
       .on('mouseenter', $.proxy(this.pause, this))
       .on('mouseleave', $.proxy(this.cycle, this))
   }
-
   Carousel.prototype = {
-
     cycle: function (e) {
       if (!e) this.paused = false
       this.options.interval
@@ -24,45 +19,36 @@ $(document).ready(function() {
         && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
       return this
     }
-
   , to: function (pos) {
       var $active = this.$element.find('.active')
         , children = $active.parent().children()
         , activePos = children.index($active)
         , that = this
-
       if (pos > (children.length - 1) || pos < 0) return
-
       if (this.sliding) {
         return this.$element.one('slid', function () {
           that.to(pos)
         })
       }
-
       if (activePos == pos) {
         return this.pause().cycle()
       }
-
       return this.slide(pos > activePos ? 'next' : 'prev', $(children[pos]))
     }
-
   , pause: function (e) {
       if (!e) this.paused = true
       clearInterval(this.interval)
       this.interval = null
       return this
     }
-
   , next: function () {
       if (this.sliding) return
       return this.slide('next')
     }
-
   , prev: function () {
       if (this.sliding) return
       return this.slide('prev')
     }
-
   , slide: function (type, next) {
       var $active = this.$element.find('.active')
         , $next = next || $active[type]()
@@ -71,15 +57,10 @@ $(document).ready(function() {
         , fallback  = type == 'next' ? 'first' : 'last'
         , that = this
         , e = $.Event('slide')
-
       this.sliding = true
-
       isCycling && this.pause()
-
       $next = $next.length ? $next : this.$element.find('.item')[fallback]()
-
       if ($next.hasClass('active')) return
-
       if ($.support.transition && this.$element.hasClass('slide')) {
         this.$element.trigger(e)
         if (e.isDefaultPrevented()) return
@@ -101,14 +82,10 @@ $(document).ready(function() {
         this.sliding = false
         this.$element.trigger('slid')
       }
-
       isCycling && this.cycle()
-
       return this
     }
-
   }
-
   $.fn.carousel = function (option) {
     return this.each(function () {
       var $this = $(this)
@@ -120,14 +97,11 @@ $(document).ready(function() {
       else if (options.interval) data.cycle()
     })
   }
-
   $.fn.carousel.defaults = {
     interval: false
   , pause: 'hover'
   }
-
   $.fn.carousel.Constructor = Carousel
-
   $(function () {
     $('body').on('click.carousel.data-api', '[data-slide]', function ( e ) {
       var $this = $(this), href
@@ -137,5 +111,4 @@ $(document).ready(function() {
       e.preventDefault()
     })
   })
-
 }(window.jQuery);

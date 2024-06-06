@@ -8,7 +8,7 @@
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - About"/>
 <meta property="og:description" content="Our goal is to preserve the legacy of the PlayStation 3 by completely and accurately emulating its vast library in its entirety with the power of open-source community and reverse engineering."/>
-<meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png"/>
+<meta property="og:image" content="/img/meta/mobile/1200.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta property="og:url" content="https://rpcs3.net"/>
@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="RPCS3"/>
 <meta name="twitter:title" content="RPCS3 - About">
 <meta name="twitter:description" content="Our goal is to preserve the legacy of the PlayStation 3 by completely and accurately emulating its vast library in its entirety with the power of open-source community and reverse engineering.">
-<meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
+<meta name="twitter:image" content="/img/meta/mobile/1200.png">
 <meta name="twitter:site" content="@rpcs3">
 <meta name="twitter:creator" content="@rpcs3">
 <meta name="twitter:card" content="summary_large_image">
@@ -25,7 +25,7 @@
 <?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
-<?php include 'lib/module/sys-php.php';?>
+<?php include 'lib/module/sys-global.php';?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
 		<div id="object-particles">

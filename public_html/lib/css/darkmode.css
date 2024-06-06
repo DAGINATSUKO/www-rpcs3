@@ -1,8 +1,8 @@
 @charset "utf-8";
 @media screen and (max-width:800px) {
 	.dm-menu-ico-logo {
-		background:url(/img/icons/menu/logo-wide-dark.png) center center/36px no-repeat!important;
-		background-size:contain!important
+			background:url(/img/icons/menu/logo-wide-dark.png) center center/36px no-repeat!important;
+			background-size:contain!important
 	}
 }
 .dm-gradient {
@@ -13,13 +13,16 @@
 	background:#111525!important
 }
 .dm-divider {
+	background:-webkit-gradient(linear,right top, left top,from(rgba(255,255,255,0)),to(rgb(255 255 255/20%)))!important;
+	background:-o-linear-gradient(right,rgba(255,255,255,0),rgb(255 255 255/20%))!important;
 	background:linear-gradient(to left,rgba(255,255,255,0),rgb(255 255 255/20%))!important
 }
 .dm-bg-2 {
 	background:#191f36!important
 }
 .dm-invert {
-	filter:invert(100%)!important
+	-webkit-filter:invert(100%)!important;
+	        filter:invert(100%)!important
 }
 .dm-default {
 	background:#111525!important
@@ -38,6 +41,7 @@
 	color:#fff!important
 }
 .dm-header {
+	background:-o-linear-gradient(225deg,rgba(0,18,59,.7) 25%,rgba(105,0,243,.7) 100%)!important;
 	background:linear-gradient(-135deg,rgba(0,18,59,.7) 25%,rgba(105,0,243,.7) 100%)!important
 }
 .dm-discord {

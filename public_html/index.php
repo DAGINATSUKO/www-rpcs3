@@ -9,7 +9,7 @@
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - The PlayStation 3 Emulator" />
 <meta property="og:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering." />
-<meta property="og:image" content="https://rpcs3.net/img/meta/mobile/1200.png" />
+<meta property="og:image" content="/img/meta/mobile/1200.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://rpcs3.net" />
@@ -18,13 +18,13 @@
 <meta property="og:site_name" content="RPCS3" />
 <meta name="twitter:title" content="RPCS3 - The PlayStation 3 Emulator">
 <meta name="twitter:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering.">
-<meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
+<meta name="twitter:image" content="/img/meta/mobile/1200.png">
 <meta name="twitter:site" content="@rpcs3">
 <meta name="twitter:creator" content="@rpcs3">
 <meta name="twitter:card" content="summary_large_image">
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
-<script data-cfasync="false" src='/lib/js/carousel.js?v=1'></script>
+<script data-cfasync="false" src='/lib/js/inc-carousel.js?v=1'></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -32,7 +32,7 @@
 <img src="/img/videos/1.jpg" width="1" height="1" alt="Preload"/>
 <img src="/img/videos/2.jpg" width="1" height="1" alt="Preload"/>
 <img src="/img/videos/3.jpg" width="1" height="1" alt="Preload"/>
-<?php include 'lib/module/sys-php.php';?>
+<?php include 'lib/module/sys-global.php';?>
 <?php include 'lib/module/home/inc-home-player.php'?>
 <?php
 	preloadVideo(
@@ -225,18 +225,16 @@
 							</div>
 							<div class="discord-tx2-mantra darkmode-txt">
 								<p>
-									 We use Discord to house our community. Discord allows us to keep our conversations open and accessible. This applies to users new and old who wish to learn how to use, stay up to date and aid to the project's development.
+									 We use Discord to house our community. Discord allows us to keep our conversations open and accessible. This applies to users new and old who wish to learn how to use, stay up to date and assist in the project's development.
 								</p>
 							</div>
-							<a href="https://discord.me/rpcs3" target="_blank">
-							<div class="discord-btn-button">
+							<div class="discord-btn-button toggle-discord">
 								<div class="discord-ico-button">
 								</div>
 								<div class="discord-tx1-button">
 									<span>Join the discussion</span>
 								</div>
 							</div>
-							</a>
 						</div>
 					</div>
 				</div>

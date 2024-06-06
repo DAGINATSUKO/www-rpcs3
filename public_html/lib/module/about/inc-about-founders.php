@@ -79,22 +79,6 @@
 				<span>
 				Co-founding the project with DH, Hykem is responsible for reverse-engineering many of PlayStation 3's features. He reversed the security features and built a cryptographic engine which emulated many of the PlayStation 3's security components. He is the developer of many well known tools in the scene such as make_npdata. He was forced to leave the <a href='http://www.emunewz.net/forum/showthread.php?tid=174735' target="_blank">emulation</a> scene in mid 2016. </span>
 			</div>
-			<div class="user-con-subtitle">
-				<span class="user-tx1-subtitle ">You can also find them on...</span>
-			</div>
-			<div class="user-con-socialsheet">
-				<div class="user-con-socialbox">
-					<a href="https://github.com/erikpshat" target="_blank">
-					<div class="socialbox-con-button">
-						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-						</div>
-						<div class="socialbox-tx1-platform darkmode-txt">
-							<span>GitHub</span>
-						</div>
-					</div>
-					</a>
-				</div>
-			</div>
 		</div>
 	</div>
 </div>

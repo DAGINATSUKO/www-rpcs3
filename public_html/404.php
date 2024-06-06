@@ -9,7 +9,7 @@
 <?php include 'lib/module/sys-js.php';?>
 </head>
 <body style="background: #000;">
-<?php include 'lib/module/sys-php.php';?>
+<?php include 'lib/module/sys-global.php';?>
 <div class="page-con-content">
 	<div class="banner-con-backdrop darkmode-header" style="position:fixed;">
 		<div id="object-particles">

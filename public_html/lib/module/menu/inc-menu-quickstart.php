@@ -152,19 +152,9 @@
 			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
 				<span>Dumping Methods</span>
 			</div>
-			<a href="#dumping_on_windows" rel="anchor-select">
+			<a href="#dumping_tools" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Dumping on Windows</span>
-			</div>
-			</a>
-			<a href="#dumping_on_windows_advanced" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Dumping on Windows (Advanced)</span>
-			</div>
-			</a>
-			<a href="#dumping_on_linux" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Dumping on Linux</span>
+				<span>Dumping Tools</span>
 			</div>
 			</a>
 			<div class="sidebar-con-spacer">

@@ -39,7 +39,7 @@
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
 				<p>
-					 Here are the hardware specifications for this handled:
+					 Here are the hardware specifications for this handheld:
 				</p>
 				<br>
 				<ul>
@@ -68,7 +68,7 @@
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
 				<p>
-					 Here are the hardware specifications for this handled:
+					 Here are the hardware specifications for this handheld:
 				</p>
 				<br>
 				<ul>
@@ -98,7 +98,7 @@
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
 				<p>
-					 Here are the hardware specifications for this handled:
+					 Here are the hardware specifications for this handheld:
 				</p>
 				<br>
 				<ul>

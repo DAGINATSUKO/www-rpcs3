@@ -15,7 +15,6 @@
 <meta property="og:locale" content="en_US"/>
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="RPCS3" />
-
 <meta name="twitter:title" content="RPCS3 - Roadmap">
 <meta name="twitter:description" content="Our Roadmap is a non-exhaustive list of the current goals we aim to achieve through new developments and continuous integration, made possible with the support of our generous patrons.">
 <meta name="twitter:image" content="https://rpcs3.net/img/meta/mobile/1200.png">
@@ -26,7 +25,7 @@
 <?php include 'lib/module/sys-js.php';?>
 </head>
 <body>
-<?php include 'lib/module/sys-php.php';?>
+<?php include 'lib/module/sys-global.php';?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
 		<div id="object-particles">
