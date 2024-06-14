@@ -22,7 +22,7 @@
 		</div>
 	</div>
 	</a>
-	<a href='https://aka.ms/vs/16/release/VC_redist.x64.exe' target="_blank">
+	<a href='https://aka.ms/vs/17/release/VC_redist.x64.exe' target="_blank">
 	<div class="generic-btn-button">
 		<div class="generic-ico-button" style="background: url('/img/icons/buttons/redist-h.png') no-repeat center">
 		</div>
