@@ -130,7 +130,7 @@
 			<div class='downloadable-con-image darkmode-invert' style="background: url(/img/icons/list/os-macos.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
-				<span>macOS</span>
+				<span>macOS</span> <span  class='downloadable-tx3-label'->Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>Users can expect to run RPCS3 on Macs with Apple Silicon or Intel processors with dedicated graphics on macOS 12.6+, 13.0+, 14.3+ or later.</span>

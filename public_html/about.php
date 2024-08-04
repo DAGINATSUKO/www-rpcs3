@@ -94,7 +94,7 @@
 								<p>
 									 The project was founded by programmers DH and Hykem in May of 2011. RPCS3 was first hosted on Google Code and was eventually migrated to GitHub later on in its development. The emulator's first successful game boot were primarily composed of smaller homebrew projects and focused hardware tests. <br>
 									<br>
-									 The emulator was later publicly released in June of 2012 and gained substantial attention from both the open-source community and PlayStation enthusiasts alike. Today, RPCS3 is co-developed by two new developers, Nekotekina and kd-11 in tandem with an amazing team of GitHub contributors.
+									 The emulator was later publicly released in June of 2012 and gained substantial attention from both the open-source community and PlayStation enthusiasts alike. Today, RPCS3 is co-developed by two new lead developers, EladAsh and kd-11 in tandem with an amazing team of GitHub contributors.
 								</p>
 							</div>
 						</div>

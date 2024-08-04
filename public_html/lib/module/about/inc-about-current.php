@@ -1,6 +1,97 @@
 <div class="user-con-grouped">
 	<div class="user-con-content darkmode-txt">
 		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/elad.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #cc79d2">2017</span>
+			<div class="user-con-role-gradient">
+			</div>
+		</div>
+		<div class="user-img-backdrop" style="background: url('/img/users/elad.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				EladAsh </span>
+				<span class="user-con-role user-role-lead">
+				Lead Core Developer </span>
+			</div>
+			<div class='user-con-divider role-lead darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				Ever since EladAsh started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability.<br>
+				<br>
+				EladAsh is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Computer Specifications</span>
+			</div>
+			<div class="user-con-specsheet">
+				<div class="user-con-specbox">
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Desktop</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Intel Core i7-6700K (4.2GHz)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>NVIDIA GTX 980 Ti</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>16GB DDR4 (2133MHz)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Windows 10</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">You can also find them on...</span>
+			</div>
+			<div class="user-con-socialsheet">
+				<div class="user-con-socialbox">
+					<a href="https://github.com/elad335" target="_blank">
+					<div class="socialbox-con-button">
+						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+						</div>
+						<div class="socialbox-tx1-platform darkmode-txt">
+							<span>GitHub</span>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
 			<div class='user-img-avatar' style="background: url('/img/users/kd11.png') no-repeat center; background-size: cover;">
 				<div class="user-con-flag">
 					<div class='user-img-flag' style="background: url('/img/graphics/flags/european-union.png') no-repeat center; background-size: cover;">
@@ -92,102 +183,6 @@
 					</div>
 					</a>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/nekotekina.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #f9cf82">2013</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/nekotekina.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			Nekotekina </span>
-			<span class="user-con-role user-role-lead">
-			Lead Core Developer </span>
-		</div>
-		<div class='user-con-divider role-lead darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			Nekotekina joined RPCS3 in late 2013 as a contributor. He is currently the project lead and lead core developer. He is working full-time on RPCS3 thanks to the funding provided by our Patrons. Nekotekina is the single-most active developer. </span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i9-10920X (3.9GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Radeon RX 5500 XT</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 1650</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>64GB DDR4 (3000MHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-ubuntu.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Linux (Ubuntu)</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">You can also find them on...</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/nekotekina" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
-					</div>
-				</div>
-				</a>
 			</div>
 		</div>
 	</div>
@@ -364,7 +359,7 @@
 		</div>
 	</div>
 	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #ffd9d9">2017</span>
+		<span class="user-tx1-backdrop " style="color: #ffa9c2">2017</span>
 		<div class="user-con-role-gradient">
 		</div>
 	</div>
@@ -664,95 +659,6 @@
 		<div class="user-con-socialsheet">
 			<div class="user-con-socialbox">
 				<a href="https://github.com/megamouse" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
-					</div>
-				</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/elad.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/israel.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #d2a779">2017</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/elad.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			elad </span>
-			<span class="user-con-role user-role-developer">
-			Project Developer </span>
-		</div>
-		<div class='user-con-divider role-developer darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			Ever since elad started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability. He is also responsible for fixing countless RSX mishaps and getting significant amount of games from loadable/menu to ingame/playable with the most notable cases being getting several Naughty Dog titles ingame and figuring out the very last issue that kept MGS4 from properly booting.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i7-6700K (4.2GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 980 Ti</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB DDR4 (2133MHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 10</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">You can also find them on...</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/elad335" target="_blank">
 				<div class="socialbox-con-button">
 					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
 					</div>

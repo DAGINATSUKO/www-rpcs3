@@ -28,7 +28,7 @@
 			</div>
 			<div class='user-tx3-content darkmode-txt'>
 				<span>
-				DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing PlayStation 4 related <a href='https://github.com/RPCS4' target="_blank">research</a>. </span>
+				DH is RPCS3's father, founding the project on May 23rd, 2011. He is responsible for landing RPCS3's code base foundations and for many enhancements afterwards. He left the project in mid 2016 and started doing PlayStation 4 related <a href='https://github.com/RPCSX/rpcsx' target="_blank">research</a>. </span>
 			</div>
 			<div class="user-con-subtitle">
 				<span class="user-tx1-subtitle ">You can also find them on...</span>

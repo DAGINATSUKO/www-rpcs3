@@ -187,12 +187,10 @@
 									</div>
 								</div>
 								</a>
-								<a href="https://github.com/erikpshat" target="_blank">
 								<div class="footer-ico-container">
 									<div class="footer-ico-developer" style="background: rgb(255 255 255 / 10%) url('/img/icons/footer/hykem.png') center center / cover no-repeat;">
 									</div>
 								</div>
-								</a>
 								<a href="/about">
 								<div class="footer-tx1-developer pulsate">
 									<span>Founded by DH and Hykem</span>
