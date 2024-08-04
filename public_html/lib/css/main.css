@@ -1348,14 +1348,14 @@ a:hover {
 }
 
 .container-con-superblock-emp {
-    border: solid 5px #686de0;
-    background: #686de0;
-    width: 15px;
-    height: 16px;
-    border-radius: 4px;
-    margin-right: 10px;
-    float: left;
-    margin-top: 27px
+	border: solid 5px #686de0;
+  background: #686de0;
+	width:15px;
+	height:16px;
+	border-radius:4px;
+	margin-right:10px;
+	float:left;
+	margin-top:27px;
 }
 
 .container-con-superblock-div {
@@ -1546,14 +1546,14 @@ a:hover {
 }
 
 .spec-emp-block {
-    background: #686de0;
-    width: 52px;
-    height: 52px;
-    border-radius: 16px;
-    margin-right: 10px;
-    float: left;
-    margin-left: 0;
-    border: solid 1px rgb(255 255 255/50%)
+	background:#686de0;
+	width:52px;
+	height:52px;
+	border-radius:16px;
+	margin-right:10px;
+	float:left;
+	margin-left:0px;
+	border:solid 1px rgb(255 255 255 / 50%);
 }
 
 .spec-emp-icon {
@@ -2902,26 +2902,26 @@ a:hover {
 }
 
 .handheld-tx1-title {
-    font-family: roboto-bold;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    position: relative;
-    height: 30px;
-    width: 100%;
-    margin-bottom: 10px
+	font-family:Roboto-Bold;
+	font-size:24px;
+	line-height:30px;
+	text-align:center;
+	position:relative;
+	height:30px;
+	width:100%;
+	margin-bottom:10px;
 }
 
 .handheld-tx2-desc {
-    font-family: roboto-regular;
-    font-size: 11px;
-    line-height: 20px;
-    color: #000;
-    text-align: center;
-    position: relative;
-    height: 20px;
-    width: 100%;
-    opacity: .3
+	font-family:Roboto-Regular;
+	font-size:11px;
+	line-height:20px;
+	color:#000;
+	text-align:center;
+	position:relative;
+	height:20px;
+	width:100%;
+	opacity:.3;
 }
 
 .palette-con-container {
@@ -2974,18 +2974,18 @@ a:hover {
 }
 
 .palette-con-text p {
-    font-family: roboto-regular;
-    font-size: 16px;
-    line-height: 18px;
-    color: #fff;
-    height: 18px;
-    padding-left: 20px;
-    padding-top: 5px
+	font-family:Roboto-Regular;
+	font-size:16px;
+	line-height:18px;
+	color:#fff;
+	height:18px;
+	padding-left:20px;
+	padding-top:5px
 }
 
 .palette-con-text-bold {
-    color: rgba(255,255,255,.5);
-    font-family: roboto-bold
+	color:rgba(255,255,255,.5);
+	font-family:Roboto-Bold
 }
 
 .palette-con-image {
@@ -3166,19 +3166,19 @@ a:hover {
 }
 
 .user-tx3-content {
-    font-family: Roboto-Regular;
-    font-size: 14px;
-    line-height: 26px;
-    position: relative;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    color: #000;
-    /* background: rgb(0 0 0 / 5%); */
-    padding: 6px 12px;
-    border-radius: 10px;
-    -webkit-backdrop-filter: blur(32px);
-    /* backdrop-filter: blur(32px); */
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:26px;
+	position:relative;
+	width:100%;
+	height:auto;
+	text-align:left;
+	color: #000;
+	/* background: rgb(0 0 0 / 5%); */
+	padding: 6px 12px;
+	border-radius: 10px;
+	-webkit-backdrop-filter: blur(32px);
+	/* backdrop-filter: blur(32px); */
 }
 
 .user-tx3-content a:hover {
@@ -3196,14 +3196,16 @@ a:hover {
 
 .user-con-avatar {
 	position:absolute;
-	background:rgb(255 255 255/10%);
+	/* background: rgb(255 255 255 / 10%); */
+	background: linear-gradient(0deg, rgb(255 255 255 / 10%) 10%, rgba(255, 255, 255, 0) 100%);
+	/* border: solid 1px rgb(255 255 255/20%); */
 	border:solid 1px rgb(255 255 255/20%);
 	left:20px;
 	top:25px;
 	width:80px;
 	height:80px;
 	transition:all .2s ease-in-out 0s;
-	border-radius:100%;
+	border-radius:16px;
 	box-shadow:rgba(0,0,0,.15) 0 8px 8px 0;
 	z-index:2;
 }
@@ -3215,7 +3217,7 @@ a:hover {
 	width:68px;
 	height:68px;
 	transition:all .2s ease-in-out 0s;
-	border-radius:100%;
+	border-radius:10px;
 	z-index:2;
 }
 
@@ -3286,13 +3288,9 @@ a:hover {
 	box-shadow:rgba(253,121,168,.4) 0 8px 16px 0;
 	border:1px solid #ffb6d0
 }
-
 .role-graphics {
-    background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(rgb(253 121 168)));
-    background: -o-linear-gradient(right,rgba(255,255,255,0),rgb(9,132,227));
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(253 121 168));
+	background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(253 121 168));
 }
-
 .user-role-manager {
 	background:#fea47f;
 	box-shadow:rgba(253,163,127,.4) 0 8px 16px 0;
@@ -3414,10 +3412,10 @@ a:hover {
 }
 
 .user-tx1-subtitle {
-    font-family: roboto-regular;
-    font-size: 14px;
-    line-height: 30px;
-    opacity: .5
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:30px;
+	opacity:.5;
 }
 
 .user-con-socialsheet {
@@ -3573,18 +3571,18 @@ a:hover {
 }
 
 .downloadable-con-text p {
-    font-family: roboto-regular;
-    font-size: 16px;
-    line-height: 18px;
-    color: #fff;
-    height: 18px;
-    padding-left: 20px;
-    padding-top: 5px
+	font-family:Roboto-Regular;
+	font-size:16px;
+	line-height:18px;
+	color:#fff;
+	height:18px;
+	padding-left:20px;
+	padding-top:5px
 }
 
 .downloadable-con-text-bold {
-    color: rgba(255,255,255,.5);
-    font-family: roboto-bold
+	color:rgba(255,255,255,.5);
+	font-family:Roboto-Bold
 }
 
 .downloadable-con-image {
@@ -3618,19 +3616,17 @@ a:hover {
     margin-right: 20px;
     margin-bottom: 20px
 }
-
 .downloadable-tx3-label {
-    background: rgb(255 159 67 / 10%);
-    border: solid 1px rgb(255 159 67 / 60%);
-    border-radius: 6px;
-    padding: 2px 6px;
-    font-family: 'Roboto-Regular';
-    font-size: 14px;
-    top: -4px;
-    position: relative;
-    color: rgb(255 159 67);
+	background: rgb(255 159 67 / 10%);
+	border: solid 1px rgb(255 159 67 / 60%);
+	border-radius: 6px;
+	padding: 2px 6px;
+	font-family:Roboto-Regular;
+	font-size: 14px;
+	top: -4px;
+	position: relative;
+	color: rgb(255 159 67);
 }
-
 .package-tx1-title {
     font-family: Roboto-Bold;
     font-size: 14px;
@@ -3654,15 +3650,15 @@ a:hover {
 }
 
 .package-tx2-desc span {
-    font-size: 14px;
-    font-family: roboto-bold;
-    background: rgba(0,0,0,.05);
-    padding: 6px 12px;
-    border-radius: 12px;
-    position: relative;
-    line-height: 36px;
-    margin-top: 6px;
-    border: solid 1px rgb(255 255 255/10%)
+	font-size:14px;
+	font-family:Roboto-Bold;
+	background:rgba(0,0,0,.05);
+	padding:6px 12px;
+	border-radius:12px;
+	position:relative;
+	line-height:36px;
+	margin-top:6px;
+	border:solid 1px rgb(255 255 255/10%)
 }
 
 .package-tx2-desc-wide {
@@ -3685,7 +3681,7 @@ a:hover {
 .sha2-tx2-desc {
 	min-height:44px;
 	width:unset;
-	font-family:roboto-regular;
+	font-family:Roboto-Regular;
 	font-size:12px;
 	line-height:16px;
 	margin-left:20px;
@@ -3729,12 +3725,12 @@ a:hover {
 }
 
 .package-tx1-button {
-    font-family: roboto-regular;
-    font-size: 18px;
-    line-height: 44px;
-    color: #fff;
-    height: 100%;
-    text-shadow: rgba(0,0,0,.25) 0 2px 2px
+	font-family:Roboto-Regular;
+	font-size:18px;
+	line-height:44px;
+	color:#fff;
+	height:100%;
+	text-shadow:rgba(0,0,0,.25) 0 2px 2px
 }
 
 .package-ico-button {
@@ -3865,19 +3861,19 @@ a:hover {
 }
 
 .version-tx1-package {
-    font-family: roboto-bold;
-    font-size: 24px;
-    line-height: 26px;
-    color: #000;
-    margin-bottom: 4px
+	font-family:Roboto-Bold;
+	font-size:24px;
+	line-height:26px;
+	color:#000;
+	margin-bottom:4px
 }
 
 .version-tx2-package {
-    font-family: roboto-regular;
-    font-size: 16px;
-    line-height: 26px;
-    color: #000;
-    margin-bottom: 16px
+	font-family:Roboto-Regular;
+	font-size:16px;
+	line-height:26px;
+	color:#000;
+	margin-bottom:16px
 }
 
 .version-txt-container {
@@ -3913,7 +3909,7 @@ a:hover {
 }
 
 .device-con-container ul li {
-    font-family: roboto-bold
+	font-family:Roboto-Bold;
 }
 
 .device-con-outer-left {
@@ -3965,18 +3961,18 @@ a:hover {
 }
 
 .device-con-text p {
-    font-family: roboto-regular;
-    font-size: 16px;
-    line-height: 18px;
-    color: #fff;
-    height: 18px;
-    padding-left: 20px;
-    padding-top: 5px
+	font-family:Roboto-Regular;
+	font-size:16px;
+	line-height:18px;
+	color:#fff;
+	height:18px;
+	padding-left:20px;
+	padding-top:5px
 }
 
 .device-con-text-bold {
-    color: rgb(255 255 255/50%);
-    font-family: roboto-bold
+	color:rgb(255 255 255/50%);
+	font-family:Roboto-Bold
 }
 
 .device-con-graphic {
@@ -4573,10 +4569,8 @@ a:hover {
 }
 
 .footer-tx1-developer:hover {
-    background: rgb(255 255 255/20%);
-    -webkit-transition: all .1s ease-in-out 0s;
-    -o-transition: all .1s ease-in-out 0s;
-    transition: all .1s ease-in-out 0s;
+	background:rgb(255 255 255/20%);
+	transition: all .1s ease-in-out 0s;
 }
 
 .footer-con-powered {
