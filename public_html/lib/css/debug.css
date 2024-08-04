@@ -9,8 +9,7 @@
 	border:1px solid rgba(255,255,255,0.1);
 	border-radius:12px;
 	height:600px;
-	-webkit-box-shadow:rgba(0,0,0,0.1) 0px 10px 32px 0px;
-	        box-shadow:rgba(0,0,0,0.1) 0px 10px 32px 0px;
+	box-shadow:rgba(0,0,0,0.1) 0px 10px 32px 0px;
 	position:relative;
 	cursor:default;
 	margin-bottom:40px;
