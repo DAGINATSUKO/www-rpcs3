@@ -9,8 +9,7 @@
 	border:1px solid rgba(255,255,255,0.1);
 	border-radius:12px;
 	height:600px;
-	-webkit-box-shadow:rgba(0,0,0,0.1) 0px 10px 32px 0px;
-	        box-shadow:rgba(0,0,0,0.1) 0px 10px 32px 0px;
+	box-shadow:rgba(0,0,0,0.1) 0px 10px 32px 0px;
 	position:relative;
 	cursor:default;
 	margin-bottom:40px;
@@ -352,7 +351,7 @@
 	        animation-iteration-count:1;
 	color:#fff;
 	text-shadow: rgba(0,0,0,.25) 0 2px 2px;
-	display:none1;
+	display:none;
 }
 .reddit-menu-tx2-block {
 	margin-bottom:20px;
