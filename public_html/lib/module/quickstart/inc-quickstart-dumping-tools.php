@@ -24,7 +24,7 @@
 		<div class="generic-ico-button" style="background: url('/img/icons/buttons/discdumper-h.png') no-repeat center">
 		</div>
 		<div class="generic-tx1-button">
-			<span>Disc Dumper <span class="generic-tx2-label">36 MB - 13xforever</span></span>
+			<span>Disc Dumper <span class="generic-tx2-label">13xforever</span></span>
 		</div>
 	</div>
 	</a>

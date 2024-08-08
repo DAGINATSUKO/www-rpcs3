@@ -41,8 +41,8 @@
 						<p>
 							 AMD - 6 cores and 12 threads or more
 						</p>
-						<span>AMD Zen 2 architecture or newer</span><br>
-						<span>AMD Threadripper 1000 and 2000 series are not recommended</span><br>
+						<span>AMD Zen 2 architecture or newer</span>
+						<br>
 						<br>
 						<p>
 							 Intel - 6 cores and 12 threads, 8 cores or more
@@ -136,12 +136,12 @@
 						<p>
 							 Windows
 						</p>
-						<span>Windows 10 22H2 or later, Windows 11 22H2 or later</span><br>
+						<span>Windows 10 22H2 or later, Windows 11 23H2 or later</span><br>
 						<br>
 						<p>
 							 Linux
 						</p>
-						<span>Linux 6.5 (Latest), 6.1 (LTS) or later</span><br>
+						<span>Linux 6.10 (Latest), 6.6 (LTS) or later</span><br>
 						<br>
 						<p>
 							 macOS
@@ -151,7 +151,7 @@
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.2 or later</span>
+						<span>FreeBSD 13.3+, 14.1+ or later</span>
 					</div>
 				</div>
 			</div>
@@ -184,13 +184,13 @@
 						<p>
 							 AMD - Any x64 CPU
 						</p>
-						<span>CPUs without AVX2 and less than 4 cores and 8 threads can be expected to run poorly</span><br>
-						<span>CPUs with only 2 cores per CCX cluster can be expected to run poorly</span><br>
+						<span>CPUs without AVX2, with 4 threads or less, or with 2 cores per CCX should perform badly</span>
+						<br>
 						<br>
 						<p>
 							 Intel - Any x64 CPU
 						</p>
-						<span>CPUs without AVX2 and less than 4 cores and 8 threads can be expected to run poorly</span>
+						<span>CPUs without AVX2, or with 4 threads or less should perform badly</span>
 					</div>
 				</div>
 			</div>
@@ -294,7 +294,7 @@
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 12.4 or later</span>
+						<span>FreeBSD 13.3 or later</span>
 					</div>
 				</div>
 			</div>
