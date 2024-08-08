@@ -2,7 +2,7 @@
 	<div class='container-con-superblock-emp'>
 	</div>
 	<h1>
-	Advanced Setup </h1>
+	Adding Your Games </h1>
 	<div class='container-con-superblock-div'>
 	</div>
 </div>
