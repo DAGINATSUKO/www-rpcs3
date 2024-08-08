@@ -8,7 +8,7 @@
 	</div>
 	<div class="container-tx2-block darkmode-txt">
 		<p>
-			 RPCS3 requires the PlayStation 3 system software because it contains dependencies and proprietary libraries for the emulator to function. If you are running Windows, the Microsoft Visual C++ 2019 redistributable is required. Linux, macOS and FreeBSD do not require the Microsoft Visual C++ 2019 redistributable.
+			 RPCS3 requires the PlayStation 3 system software because it contains dependencies and proprietary libraries for the emulator to function. If you are running Windows, the Microsoft Visual C++ redistributable is required - Linux, macOS and FreeBSD do not require it.
 		</p>
 	</div>
 </div>
@@ -27,7 +27,7 @@
 		<div class="generic-ico-button" style="background: url('/img/icons/buttons/redist-h.png') no-repeat center">
 		</div>
 		<div class="generic-tx1-button">
-			<span>Visual C++ 2019 Redistributable <span class="generic-tx2-label">For Windows only</span></span>
+			<span>Visual C++ 2015-2022 Redistributable <span class="generic-tx2-label">For Windows only</span></span>
 		</div>
 	</div>
 	</a>
