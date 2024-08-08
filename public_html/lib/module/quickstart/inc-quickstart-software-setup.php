@@ -93,7 +93,7 @@
 	</div>
 	<div class="guide-tx1-heading darkmode-txt">
 		<p>
-			 Download the .DMG file and drag and drop the RPCS3 app into your applications folder when prompted.
+			 Download and open latest .7z macOS build and drag and drop the RPCS3.app file into the Applications folder.
 		</p>
 	</div>
 </div>
