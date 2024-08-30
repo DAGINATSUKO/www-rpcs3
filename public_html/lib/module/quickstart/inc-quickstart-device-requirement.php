@@ -41,13 +41,13 @@
 						<p>
 							 AMD - 6 cores and 12 threads or more
 						</p>
-						<span>AMD Zen 2 architecture or newer</span>
+						<span>AMD Zen 3 architecture or newer</span>
 						<br>
 						<br>
 						<p>
 							 Intel - 6 cores and 12 threads, 8 cores or more
 						</p>
-						<span>Intel Skylake architecture or newer</span>
+						<span>Intel Comet Lake architecture or newer</span>
 					</div>
 				</div>
 			</div>
@@ -88,7 +88,7 @@
 					</div>
 					<div class="item-tx2-desc">
 						<p>
-							 8 GB of dual-channel RAM or more
+							 16 GB of dual-channel RAM or more
 						</p>
 						<span>Memory in dual-channel mode is highly recommended over single-channel</span>
 					</div>
@@ -231,9 +231,9 @@
 					</div>
 					<div class="item-tx2-desc">
 						<p>
-							 4 GB of RAM or more
+							 8 GB of RAM or more
 						</p>
-						<span>4 GB is the absolute minimum requirement</span>
+						<span>Single-channel memory should perform badly</span>
 					</div>
 				</div>
 			</div>
