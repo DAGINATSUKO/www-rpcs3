@@ -235,7 +235,7 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 That's awesome, contributions are welcome! Check the <a href="https://github.com/RPCS3/rpcs3/wiki/coding-style">Coding Style Guidelines</a>, and <a href="https://github.com/RPCS3/rpcs3/wiki/developer-information">Developer Information</a>. Find something you want to implement or improve (such as broken games, bugs, missing features, Roadmap goals, etc.), work on it, test your changes and send a Pull Request. If you have any questions, hit us up on our <a href="https://discord.me/RPCS3">Discord Server</a> in the #development channel.
+							 That's awesome, contributions are welcome! Check the <a href="https://github.com/RPCS3/rpcs3/wiki/coding-style">Coding Style Guidelines</a>, and <a href="https://github.com/RPCS3/rpcs3/wiki/developer-information">Developer Information</a>. Find something you want to implement or improve (such as broken games, bugs, missing features, Roadmap goals, etc.), work on it, test your changes and send a Pull Request. If you have any questions, hit us up on our <a href="https://discord.gg/RPCS3">Discord Server</a> in the #development channel.
 						</p>
 					</div>
 				</div>

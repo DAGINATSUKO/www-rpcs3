@@ -23,7 +23,7 @@
 				Press the <b>Join</b> button to continue.
 			</p>
 		</div>
-		<a href='https://discord.me/RPCS3' target="_blank">
+		<a href='https://discord.gg/RPCS3' target="_blank">
 		<div class="discord-menu-btn-agree">
 			<h2>Join</h2>
 		</div>
@@ -368,7 +368,7 @@
 					<span>GitHub</span>
 				</div>
 				</a>
-				<a href="https://discord.me/RPCS3" target="_blank">
+				<a href="https://discord.gg/RPCS3" target="_blank">
 				<div class='mobile-menu-btn-icon'>
 				</div>
 				<div class='mobile-menu-btn-select'>
