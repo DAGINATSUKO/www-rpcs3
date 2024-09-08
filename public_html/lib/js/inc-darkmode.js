@@ -74,7 +74,8 @@ var dark_classes = [
 	{"base": ".compat-table-row", "toggle": "dm-txt"},
 	{"base": ".debug-main", "toggle": "dm-default"},
 	{"base": ".debug-left", "toggle": "dm-default"},
-	
+	{"base": ".debug-main input", "toggle": "dm-txt"},
+
 	{"base": ".compat-searchbox-div", "toggle": "dm-compat-searchbox-div"},
 	{"base": ".compat-search-inner a", "toggle": "dm-compat-search-inner"},
 	{"base": ".searchbox input", "toggle": "dm-searchbox input"},
