@@ -133,7 +133,7 @@
 				<span>macOS</span> <span  class='downloadable-tx3-label'->Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 on Macs with Apple Silicon or Intel processors with dedicated graphics on macOS 12.6+, 13.0+, 14.3+ or later.</span>
+				<span>Users can expect to run RPCS3 on Macs with Apple Silicon or Intel processors with dedicated graphics on macOS 13.0+, 14.3+, 15.0+ or later.</span>
 			</div>
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
@@ -197,7 +197,7 @@
 				<span>FreeBSD</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 12.3 or later.<br><br><br><br></span>
+				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 13.3 or later.<br><br><br><br></span>
 			</div>
 			<a href="https://cgit.freebsd.org/ports/log/emulators/rpcs3">
 			<div class='package-con-button'>
@@ -221,7 +221,6 @@
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>Checking previous builds allows you browse all publicly released official builds. We offer useful metadata for each build such as SHA, OS version, author and the commit it was compiled from. Please be aware that because these are previous builds they may be missing important fixes and additions found in later builds.<br><br>For furthers details see our <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> log via GitHub.</span>
-				</span>
 				<br><br>
 			</div>
 			<a href="https://rpcs3.net/compatibility?b">
