@@ -91,6 +91,28 @@ if (@include_once("lib/compat/objects/Build.php"))
 				</div>
 				</a>
 			</div>
+			<div class="generic-con-button">
+				<a href='https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-02362a480712a18cc3567eea2f9195fa65c4e117/rpcs3-v0.0.33-16940-02362a48_macos.7z' target="_blank">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
+					</div>
+					<div class="generic-tx1-button">
+						<span>Download <span class="generic-tx2-label">For macOS 12.6</span></span>
+					</div>
+				</div>
+				</a>
+			</div>
+			<div class="generic-con-button">
+				<a href='https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-310fa7127d4e6aeaac85f9d4f9efb3635b5d9861/rpcs3-v0.0.25-14517-310fa712_macos.dmg' target="_blank">
+				<div class="generic-btn-button">
+					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
+					</div>
+					<div class="generic-tx1-button">
+						<span>Download <span class="generic-tx2-label">For macOS 11.6</span></span>
+					</div>
+				</div>
+				</a>
+			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
