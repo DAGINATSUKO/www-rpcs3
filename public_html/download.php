@@ -147,7 +147,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 For FreeBSD users, RPCS3 supports active FreeBSD 13 and FreeBSD 12 versions.
+							 For FreeBSD users, RPCS3 supports active FreeBSD 14 and FreeBSD 13 versions.
 							<br>
 							<b>Install as a package </b><span class="highlight darkmode-highlight">pkg install rpcs3</span>
 							<br>
