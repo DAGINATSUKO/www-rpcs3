@@ -221,7 +221,6 @@
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>Checking previous builds allows you browse all publicly released official builds. We offer useful metadata for each build such as SHA, OS version, author and the commit it was compiled from. Please be aware that because these are previous builds they may be missing important fixes and additions found in later builds.<br><br>For furthers details see our <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> log via GitHub.</span>
-				</span>
 				<br><br>
 			</div>
 			<a href="https://rpcs3.net/compatibility?b">
