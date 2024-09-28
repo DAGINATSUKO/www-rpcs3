@@ -25,7 +25,7 @@
 <?php include 'lib/module/sys-js.php';?>
 <?php
 if (@include_once("lib/compat/objects/Build.php"))
-	$build = Build::get_latest();
+	$build = Build::get_latest(null);
 ?>
 </head>
 <body>
@@ -119,7 +119,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 	<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
 		<div class="page-con-container">
 			<div class="page-in-container">
-				<?php include 'lib/module/quickstart/inc-quickstart-dumping-devices.php';?>				
+				<?php include 'lib/module/quickstart/inc-quickstart-dumping-devices.php';?>
 			</div>
 		</div>
 	</div>
