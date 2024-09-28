@@ -28,7 +28,7 @@
 <?php include 'lib/module/sys-global.php';?>
 <?php
 if (@include_once("lib/compat/objects/Build.php"))
-	$build = Build::get_latest();
+	$build = Build::get_latest(null);
 ?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
