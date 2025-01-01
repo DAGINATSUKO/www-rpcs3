@@ -25,7 +25,8 @@
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 <script data-cfasync="false" src='/lib/js/inc-carousel.js?v=1'></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994" crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9076246674760451"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 <img src="/img/graphics/landing/hero-main.png" width="1" height="1" alt="preload"/>

@@ -854,7 +854,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 9 7800X3D (5.0GHz)</span>
+						<span>AMD Ryzen 7 7800X3D (5.0GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">

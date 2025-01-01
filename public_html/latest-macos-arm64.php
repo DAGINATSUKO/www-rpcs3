@@ -1,14 +1,14 @@
 <?php
 // 2024.09.28 - AniLeo
-// Permalink to latest macOS arm64 Build
+// Permalink to latest macOS x64 Build
 
 /*
 Usage:
 > wget
-wget --content-disposition https://rpcs3.net/latest-macos-arm64
+wget --content-disposition https://rpcs3.net/latest-macos-x64
 
 > curl
-curl -JLO https://rpcs3.net/latest-macos-arm64
+curl -JLO https://rpcs3.net/latest-macos-x64
 */
 
 require "lib/compat/objects/Build.php";

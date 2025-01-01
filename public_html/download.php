@@ -15,6 +15,7 @@
 <meta property="og:locale" content="en_US"/>
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="RPCS3" />
+
 <meta name="twitter:title" content="RPCS3 - Download">
 <meta name="twitter:description" content="RPCS3 is under steady development and the binaries we produce are highly experimental. Your system requirements may vary depending on your hardware configuration.">
 <meta name="twitter:image" content="/img/meta/mobile/1200.png">
@@ -91,28 +92,6 @@ if (@include_once("lib/compat/objects/Build.php"))
 				</div>
 				</a>
 			</div>
-			<div class="generic-con-button">
-				<a href='https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-02362a480712a18cc3567eea2f9195fa65c4e117/rpcs3-v0.0.33-16940-02362a48_macos.7z' target="_blank">
-				<div class="generic-btn-button">
-					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
-					</div>
-					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 12.6</span></span>
-					</div>
-				</div>
-				</a>
-			</div>
-			<div class="generic-con-button">
-				<a href='https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-310fa7127d4e6aeaac85f9d4f9efb3635b5d9861/rpcs3-v0.0.25-14517-310fa712_macos.dmg' target="_blank">
-				<div class="generic-btn-button">
-					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
-					</div>
-					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 11.6</span></span>
-					</div>
-				</div>
-				</a>
-			</div>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
@@ -124,7 +103,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 							 <br>
 							 Once uncompressed, place your RPCS3 folder in a convenient location to start, such as: <span class="highlight darkmode-highlight">C:\Users\Kratos\Desktop\RPCS3\rpcs3.exe</span>
 							 <br>
-							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ 2015-2022 Redistributable</a></span>
+							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ 2019 Redistributable</a></span>
 						</p>
 					</div>
 				</div>
@@ -169,7 +148,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 For FreeBSD users, RPCS3 supports active FreeBSD 14 and FreeBSD 13 versions.
+							 For FreeBSD users, RPCS3 supports active FreeBSD 13 and FreeBSD 12 versions.
 							<br>
 							<b>Install as a package </b><span class="highlight darkmode-highlight">pkg install rpcs3</span>
 							<br>
