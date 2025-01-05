@@ -184,7 +184,7 @@
         "comm_ids": ["NPWR00981"]
     },
     "Age of Booty": {
-        "title_ids": ["NPUB30033"],
+        "title_ids": ["NPUB30033", "NPEB00035"],
         "comm_ids": ["NPWR00629"]
     },
     "Air Conflicts: Pacific Carriers": {
@@ -2599,6 +2599,10 @@
         "title_ids": ["NPUA70042"],
         "comm_ids": ["NPWR00385"]
     },
+    "Fatal Inertia EX": {
+        "title_ids": ["NPJB00004"],
+        "comm_ids": [""]
+    },
     "Feeding Frenzy 2": {
         "title_ids": ["NPUA30006"],
         "comm_ids": ["NPWR01041"]
@@ -3019,6 +3023,10 @@
         "title_ids": ["BCAS25018", "BCES01893", "BCES01977", "BCJS37016", "BCUS98296", "NPEA00502", "NPUA81049", "NPHA80269", "NPJA00113", "BCUS99247"],
         "comm_ids": ["NPWR04712"]
     },
+    "Gran Turismo Academy 2012": {
+        "title_ids": ["NPUA70196"],
+        "comm_ids": [""]
+    },
     "GRAN TURISMO HD Concept": {
         "title_ids": ["NPEA90002", "NPUA80019", "NPJA00010", "NPHA00001"],
         "comm_ids": ["NPWR00064"]
@@ -3296,7 +3304,7 @@
         "comm_ids": ["NPWR00088"]
     },
     "High Velocity Bowling": {
-        "title_ids": ["NPEA00047"],
+        "title_ids": ["NPEA00047", "NPUA80044"],
         "comm_ids": ["NPWR00129"]
     },
     "Higurashi no Naku Koro ni Sui": {
@@ -3684,7 +3692,7 @@
         "comm_ids": ["NPWR01218"]
     },
     "Joe Danger 2: The Movie": {
-        "title_ids": ["NPUB31064"],
+        "title_ids": ["NPUB31064", "NPEB01167"],
         "comm_ids": ["NPWR03813"]
     },
     "John Daly's ProStroke Golf": {
@@ -4112,7 +4120,7 @@
         "comm_ids": ["NPWR07927"]
     },
     "LIGHTNING RETURNS: FINAL FANTASY XIII": {
-        "title_ids": ["BLJM60558", "BCAS20279"],
+        "title_ids": ["BLJM60558", "BCAS20279", "BLUS31164"],
         "comm_ids": ["NPWR04148"]
     },
     "Lights, Camera, Party!": {
@@ -6659,6 +6667,10 @@
         "title_ids": ["NPUB30375"],
         "comm_ids": ["NPWR01655"]
     },
+    "SEGA Superstars Tennis": {
+        "title_ids": ["BLES00232"],
+        "comm_ids": [""]
+    },
     "Sengoku Basara 4: Sumeragi": {
         "title_ids": ["BLJM61248"],
         "comm_ids": [""]
@@ -7412,7 +7424,7 @@
         "comm_ids": ["NPWR01063"]
     },
     "SUPER STARDUST HD": {
-        "title_ids": ["NPUA80068"],
+        "title_ids": ["NPUA80068", "NPEA00014"],
         "comm_ids": ["NPWR00117"]
     },
     "Super Street Fighter II Turbo HD": {
@@ -8553,7 +8565,7 @@
     },
     "Unknown Game": {
         "title_ids": [""],
-        "comm_ids": ["NPWR00119", "NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03900", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR08977", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR00091", "NPWR01232", "NPWR02570", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337"]
+        "comm_ids": ["NPWR00119", "NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03900", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR08977", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR00091", "NPWR01232", "NPWR02570", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344"]
     },
     "Unmechanical": {
         "title_ids": ["NPUB31605"],
