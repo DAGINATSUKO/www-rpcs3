@@ -212,9 +212,14 @@
 				<span>Quickstart</span>
 			</div>
 			</a>
-			<a href='/roadmap'>
+			<!--<a href='/roadmap'>
 			<div class="menu-btn-select">
 				<span>Roadmap</span>
+			</div>
+			</a>-->
+			<a href='/rpcn'>
+			<div class="menu-btn-select">
+				<span>RPCN</span>
 			</div>
 			</a>
 			<a href='/faq'>
@@ -309,11 +314,18 @@
 					<span>Quickstart</span>
 				</div>
 				</a>
-				<a href="/roadmap">
+				<!--<a href="/roadmap">
 				<div class='mobile-menu-btn-icon'>
 				</div>
 				<div class='mobile-menu-btn-select'>
 					<span>Roadmap</span>
+				</div>
+				</a>-->
+				<a href="/rpcn">
+				<div class='mobile-menu-btn-icon'>
+				</div>
+				<div class='mobile-menu-btn-select'>
+					<span>RPCN</span>
 				</div>
 				</a>
 				<a href="/faq">
