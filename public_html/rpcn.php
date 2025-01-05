@@ -80,7 +80,7 @@ $title_player_counts = $rpcn_stats->title_player_counts;
                 <?php if ($count > 0): ?>
                     <tr>
                         <td><?php echo htmlspecialchars($game_title ?? 'Unknown'); ?></td>
-                        <td><?php echo htmlspecialchars($count ?? '0'); ?></td>
+                        <td><?php echo htmlspecialchars($count); ?></td>
                     </tr>
                 <?php endif; ?>
             <?php endforeach; ?>
