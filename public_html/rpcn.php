@@ -5,7 +5,7 @@ include 'lib/module/rpcn/inc-rpcn-stats.php';
 
 $games_json = 'lib/module/rpcn/games.json';
 $log_file = 'lib/module/rpcn/log.txt';
-$api_url = "";
+$api_url = "http://np.rpcs3.net:31333/rpcn_stats";
 
 // Initialize RPCNStats class
 $rpcn_stats = new RPCNStats($games_json, $log_file, $api_url);
@@ -67,13 +67,11 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 	</div>
     <div class="total-users-container">
     <strong>Total Users</strong>
-    <span><?php echo htmlspecialchars($total_users); ?></span>
+    <span><?php echo htmlspecialchars($total_users ?? '0'); ?></span>
 </div>
 <div class="game-info-container">
     <strong>Game Title</strong>: 
-    <span><?php echo htmlspecialchars($game_title); ?></span>
     <strong>Current Players</strong>: 
-    <span><?php echo htmlspecialchars($count); ?></span>
 </div>
 <div class="rpcn-con-container">
     <table>
@@ -81,8 +79,8 @@ $title_player_counts = $rpcn_stats->title_player_counts;
             <?php foreach ($title_player_counts as $game_title => $count): ?>
                 <?php if ($count > 0): ?>
                     <tr>
-                        <td><?php echo htmlspecialchars($game_title); ?></td>
-                        <td><?php echo htmlspecialchars($count); ?></td>
+                        <td><?php echo htmlspecialchars($game_title ?? 'Unknown'); ?></td>
+                        <td><?php echo htmlspecialchars($count ?? '0'); ?></td>
                     </tr>
                 <?php endif; ?>
             <?php endforeach; ?>
