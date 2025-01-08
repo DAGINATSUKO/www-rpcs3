@@ -2519,15 +2519,15 @@
         "title_ids": ["BLJM60528"],
         "comm_ids": ["NPWR03493"]
     },
-    "EA SPORTS Active 2": {
+    "EA Sports Active 2": {
         "title_ids": ["BLES00965"],
         "comm_ids": ["NPWR01325"]
     },
-    "EA SPORTS GRAND SLAM TENNIS 2": {
+    "EA Sports Grand Slam Tennis 2": {
         "title_ids": ["BLES00709", "BLUS30417"],
         "comm_ids": ["NPWR00842"]
     },
-    "EA SPORTS MMA": {
+    "EA Sports MMA": {
         "title_ids": ["BLES00987", "BLUS30567", "BLJM60266"],
         "comm_ids": ["NPWR01360"]
     },
@@ -2575,15 +2575,15 @@
         "title_ids": ["BLUS31198"],
         "comm_ids": ["NPWR04811"]
     },
-    "El Shaddai ASCENSION OF THE METATRON ": {
+    "El Shaddai: Ascension of The Metatron": {
         "title_ids": ["BLJS10117"],
         "comm_ids": ["NPWR01400"]
     },
-    "ELEMENTAL MONSTER -ONLINE CARD GAME-": {
+    "Elemental Monster -Online Card Game-": {
         "title_ids": ["NPUB30248"],
         "comm_ids": ["NPWR01334"]
     },
-    "ELEVATOR ACTION DELUXE": {
+    "Elevator Action Deluxe": {
         "title_ids": ["NPUB30428"],
         "comm_ids": ["NPWR02219"]
     },
@@ -2595,7 +2595,7 @@
         "title_ids": ["BLUS30996"],
         "comm_ids": ["NPWR05091"]
     },
-    "ENSLAVED: Odyssey to the West": {
+    "Enslaved: Odyssey to the West": {
         "title_ids": ["BLES00990"],
         "comm_ids": ["NPWR01359"]
     },
@@ -5728,7 +5728,7 @@
         "comm_ids": ["NPWR01735"]
     },
     "Nobunaga no Yabou Online: Shinsei no Shou": {
-        "title_ids": ["BLJM60253"],
+        "title_ids": ["BLJM60253", "NPJB00425"],
         "comm_ids": ["NPWR01382"]
     },
     "Nobunaga no Yabou: Souzou - Sengoku Risshiden": {
@@ -5972,11 +5972,11 @@
         "comm_ids": ["NPWR00579"]
     },
     "Persona 4 Arena": {
-        "title_ids": ["BLUS30985"],
+        "title_ids": ["BLUS30985", "NPUB30923"],
         "comm_ids": ["NPWR02915"]
     },
     "Persona 4 Arena Ultimax": {
-        "title_ids": ["NPJB00599"],
+        "title_ids": ["NPJB00599", "NPEB02176"],
         "comm_ids": ["NPWR06200"]
     },
     "Persona 5 [EU/US]": {
@@ -6032,7 +6032,7 @@
         "comm_ids": ["NPWR00257"]
     },
     "PixelJunk Racers 2nd Lap": {
-        "title_ids": ["NPEA00182"],
+        "title_ids": ["NPEA00182", "NPHB00201"],
         "comm_ids": ["NPWR01109"]
     },
     "PixelJunk Shooter": {
@@ -6296,7 +6296,7 @@
         "comm_ids": ["NPWR09047"]
     },
     "Punisher: No Mercy": {
-        "title_ids": ["NPUB30070"],
+        "title_ids": ["NPUB30070", "NPEB00098"],
         "comm_ids": ["NPWR00306"]
     },
     "Puppeteer": {
@@ -6616,7 +6616,7 @@
         "comm_ids": ["NPWR01396"]
     },
     "Resident Evil": {
-        "title_ids": ["BLJM61211"],
+        "title_ids": ["BLJM61211", "NPEB02076"],
         "comm_ids": ["NPWR07057"]
     },
     "Resident Evil 0": {
@@ -6632,7 +6632,7 @@
         "comm_ids": ["NPWR00404"]
     },
     "Resident Evil 6": {
-        "title_ids": ["BLES01465", "BLJM60405", "BLES01683", "BLUS30855"],
+        "title_ids": ["BLES01465", "BLJM60405", "BLES01683", "BLUS30855", "NPEB01150"],
         "comm_ids": ["NPWR01577"]
     },
     "Resident Evil Code: Veronica X": {
@@ -6644,7 +6644,7 @@
         "comm_ids": ["NPWR03903"]
     },
     "Resident Evil Revelations 2": {
-        "title_ids": ["NPUB31518", "BLJM61199", "NPJB00621", "BLES02040", "BLUS31444"],
+        "title_ids": ["NPUB31518", "BLJM61199", "NPJB00621", "BLES02040", "BLUS31444", "NPEB02128"],
         "comm_ids": ["NPWR06575"]
     },
     "Resident Evil: Operation Raccoon City": {
@@ -7616,7 +7616,7 @@
         "comm_ids": ["NPWR01654"]
     },
     "Sniper Ghost Warrior 2": {
-        "title_ids": ["BLES01527"],
+        "title_ids": ["BLES01527", "NPEB01002"],
         "comm_ids": ["NPWR03180"]
     },
     "Sniper: Ghost Warrior": {
@@ -7680,7 +7680,7 @@
         "comm_ids": ["NPWR01768"]
     },
     "Sonic the Fighters": {
-        "title_ids": ["NPEB01162"],
+        "title_ids": ["NPEB01162", "NPJB00250"],
         "comm_ids": ["NPWR03869"]
     },
     "Sonic The Hedgehog": {
@@ -7740,7 +7740,7 @@
         "comm_ids": ["NPWR03207"]
     },
     "South Park: The Stick of Truth": {
-        "title_ids": ["BLUS31191"],
+        "title_ids": ["BLUS31191", "NPEB01125"],
         "comm_ids": ["NPWR03936"]
     },
     "Space Ace": {
@@ -7763,8 +7763,8 @@
         "title_ids": ["NPUB31662"],
         "comm_ids": ["NPWR08994"]
     },
-    "SPACE INVADERS INFINITY GENE": {
-        "title_ids": ["NPUB30305"],
+    "Space Invaders Infinity Gene": {
+        "title_ids": ["NPUB30305", "NPJB00064"],
         "comm_ids": ["NPWR01294"]
     },
     "Spare Parts": {
@@ -7859,11 +7859,11 @@
         "title_ids": ["BLJM61325"],
         "comm_ids": ["NPWR09718"]
     },
-    "STAR OCEAN Second Evolution": {
+    "Star Ocean Second Evolution": {
         "title_ids": ["NPJB00782"],
         "comm_ids": ["NPWR10125"]
     },
-    "STAR OCEAN THE LAST HOPE -INTERNATIONAL-": {
+    "Star Ocean The Last Hope -International-": {
         "title_ids": ["MRTC00001"],
         "comm_ids": ["NPWR00997"]
     },
@@ -8120,7 +8120,7 @@
         "comm_ids": ["NPWR00938"]
     },
     "Supercar Challenge": {
-        "title_ids": ["BLES00581"],
+        "title_ids": ["BLES00581", "BLET70001"],
         "comm_ids": ["NPWR00564"]
     },
     "Superfrog": {
@@ -8800,7 +8800,7 @@
         "comm_ids": ["NPWR01351"]
     },
     "THEXDER NEO": {
-        "title_ids": ["NPUB30157"],
+        "title_ids": ["NPUB30157", "NPJB00042"],
         "comm_ids": ["NPWR01018"]
     },
     "Thief": {
@@ -9052,7 +9052,7 @@
         "comm_ids": ["NPWR00161"]
     },
     "Top Spin 4": {
-        "title_ids": ["BLUS30427"],
+        "title_ids": ["BLUS30427", "BLES00668"],
         "comm_ids": ["NPWR00807"]
     },
     "topatoi": {
@@ -9128,7 +9128,7 @@
         "comm_ids": ["NPWR07958"]
     },
     "Transformers: Fall of Cybertron": {
-        "title_ids": ["BLUS30681"],
+        "title_ids": ["BLUS30681", "NPUB30824"],
         "comm_ids": ["NPWR01592"]
     },
     "Transformers: Revenge of the Fallen": {
@@ -9632,7 +9632,7 @@
         "comm_ids": ["NPWR02961"]
     },
     "Wheelman": {
-        "title_ids": ["BLUS30262"],
+        "title_ids": ["BLUS30262", "BLES00480"],
         "comm_ids": ["NPWR00466"]
     },
     "Wheels of Destruction.": {
@@ -10039,8 +10039,8 @@
         "title_ids": ["BLJM60208"],
         "comm_ids": ["NPWR00859"]
     },
-    "Yakuza 4 [US]": {
-        "title_ids": ["BLUS30643"],
+    "Yakuza 4 [EU/US]": {
+        "title_ids": ["BLUS30643", "NPEB02036"],
         "comm_ids": ["NPWR01642"]
     },
     "Yakuza 5 [JP]": {
@@ -10056,7 +10056,7 @@
         "comm_ids": ["NPWR09930"]
     },
     "Yakuza: Dead Souls [EU]": {
-        "title_ids": ["BLES01399"],
+        "title_ids": ["BLES01399", "NPEB02034"],
         "comm_ids": ["NPWR02712"]
     },
     "Yakuza: Dead Souls [JP]": {
