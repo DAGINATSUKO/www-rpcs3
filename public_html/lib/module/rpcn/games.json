@@ -116,7 +116,7 @@
         "comm_ids": ["NPWR02067"]
     },
     "Abyss Odyssey": {
-        "title_ids": ["NPUB31397"],
+        "title_ids": ["NPUB31397", "NPEB01910"],
         "comm_ids": ["NPWR05628"]
     },
     "AC/DC Live: Rock Band Track Pack": {
@@ -228,7 +228,7 @@
         "comm_ids": ["NPWR05831"]
     },
     "AKIBA'S TRIP: Undead & Undressed": {
-        "title_ids": ["BLUS31425"],
+        "title_ids": ["BLUS31425", "NPEB02125"],
         "comm_ids": ["NPWR06531"]
     },
     "Akimi Village": {
@@ -292,7 +292,7 @@
         "comm_ids": ["NPWR00461"]
     },
     "Aliens: Colonial Marines": {
-        "title_ids": ["BLUS30862"],
+        "title_ids": ["BLUS30862", "NPEB01224"],
         "comm_ids": ["NPWR00484"]
     },
     "All Pro Football 2K8": {
@@ -716,7 +716,7 @@
         "comm_ids": ["NPWR05988"]
     },
     "Batman: Arkham Asylum": {
-        "title_ids": ["BLES00503", "BLUS30279", "BLES00827", "BLUS30515"],
+        "title_ids": ["BLES00503", "BLUS30279", "BLES00827", "BLUS30515", "NPEB01156"],
         "comm_ids": ["NPWR00626"]
     },
     "Batman: Arkham Asylum [JP]": {
@@ -772,7 +772,7 @@
         "comm_ids": ["NPWR00756"]
     },
     "Battlefield 3": {
-        "title_ids": ["BLUS30762", "BLAS50380", "BLES01275", "BLJM60384", "NPUB30742"],
+        "title_ids": ["BLUS30762", "BLAS50380", "BLES01275", "BLJM60384", "NPUB30742", "NPEB00723"],
         "comm_ids": ["NPWR02011"]
     },
     "Battlefield 3 Beta": {
@@ -792,7 +792,7 @@
         "comm_ids": ["NPWR00323"]
     },
     "Battlefield: Bad Company 2": {
-        "title_ids": ["BLES00773", "BLJM60197", "BLUS30458"],
+        "title_ids": ["BLES00773", "BLJM60197", "BLUS30458", "NPEB00724"],
         "comm_ids": ["NPWR01006"]
     },
     "Battlefield: Bad Company 2 Closed Beta": {
@@ -1372,7 +1372,7 @@
         "comm_ids": ["NPWR06239"]
     },
     "CellFactor: Psychokinetic Wars": {
-        "title_ids": ["NPUB30042"],
+        "title_ids": ["NPUB30042", "NPEB00075"],
         "comm_ids": ["NPWR00602"]
     },
     "Champion Jockey: G1 Jockey & Gallop Racer [EU]": {
@@ -1491,13 +1491,13 @@
         "title_ids": ["NPUB31506"],
         "comm_ids": ["NPWR06380"]
     },
+    "Contrast [EU/US]": {
+        "title_ids": ["NPUB31364", "NPEB01861"],
+        "comm_ids": ["NPWR05188"]
+    },
     "Contrast [JP]": {
         "title_ids": ["NPJB00584"],
         "comm_ids": ["NPWR05964"]
-    },
-    "Contrast [US]": {
-        "title_ids": ["NPUB31364"],
-        "comm_ids": ["NPWR05188"]
     },
     "Cosmophony": {
         "title_ids": ["NPEB02190"],
@@ -1860,7 +1860,7 @@
         "comm_ids": ["NPWR04172"]
     },
     "Deadpool": {
-        "title_ids": ["BLUS31146", "BLES01789"],
+        "title_ids": ["BLUS31146", "BLES01789", "NPUB31069"],
         "comm_ids": ["NPWR04072"]
     },
     "Deadstorm Pirates": {
@@ -1908,7 +1908,7 @@
         "comm_ids": ["NPWR09249"]
     },
     "Deep Black": {
-        "title_ids": ["NPUB30532"],
+        "title_ids": ["NPUB30532", "NPEB00603"],
         "comm_ids": ["NPWR02401"]
     },
     "DEF JAM RAPSTAR": {
@@ -2084,7 +2084,7 @@
         "comm_ids": ["NPWR05028"]
     },
     "Dishonored": {
-        "title_ids": ["BLES01674"],
+        "title_ids": ["BLES01674", "BLES01924"],
         "comm_ids": ["NPWR01767"]
     },
     "Disney Epic Mickey 2: The Power of Two": {
@@ -2164,7 +2164,7 @@
         "comm_ids": ["NPWR02253"]
     },
     "Doctor Who: The Eternity Clock": {
-        "title_ids": ["BCES01645"],
+        "title_ids": ["BCES01645", "NPUB30751"],
         "comm_ids": ["NPWR03080"]
     },
     "Dogfight 1942": {
@@ -2300,7 +2300,7 @@
         "comm_ids": ["NPWR03852"]
     },
     "Dragon's Dogma": {
-        "title_ids": ["BLES01356", "BLJM60379", "BLUS30720", "BLES01794", "BLJM61012", "BLUS31155"],
+        "title_ids": ["BLES01356", "BLJM60379", "BLUS30720", "BLES01794", "BLJM61012", "BLUS31155", "NPUB31117"],
         "comm_ids": ["NPWR01682"]
     },
     "Dragon's Dogma Online": {
@@ -2736,7 +2736,7 @@
         "comm_ids": ["NPWR06363"]
     },
     "Fairytale Fights": {
-        "title_ids": ["BLUS30456", "NPHB00206"],
+        "title_ids": ["BLUS30456", "NPHB00206", "BLES00696"],
         "comm_ids": ["NPWR00870"]
     },
     "Falling Skies: The Game [EU]": {
@@ -3004,7 +3004,7 @@
         "comm_ids": ["NPWR00071"]
     },
     "Flower": {
-        "title_ids": ["NPUA80083"],
+        "title_ids": ["NPUA80083", "NPEA00094"],
         "comm_ids": ["NPWR00542"]
     },
     "Foosball 2012": {
@@ -3263,9 +3263,17 @@
         "title_ids": ["NPUB30252", "NPEB00239"],
         "comm_ids": ["NPWR01542"]
     },
+    "Gotham City Impostors Beta": {
+        "title_ids": ["NPUB90678"],
+        "comm_ids": ["NPWR02813"]
+    },
     "Gran Turismo 5": {
         "title_ids": ["BCES00569", "BCUS98114", "BCAS20108", "BCJS30001"],
         "comm_ids": ["NPWR00651"]
+    },
+    "Gran Turismo 5 Prologue": {
+        "title_ids": ["BCES00104"],
+        "comm_ids": ["NPWR00222"]
     },
     "Gran Turismo 5 Time Trial Challenge": {
         "title_ids": ["NPEA90052", "NPHA80080", "NPUA70087"],
@@ -3427,6 +3435,10 @@
         "title_ids": ["NPUB30078"],
         "comm_ids": ["NPWR00593"]
     },
+    "Hail to the Chimp": {
+        "title_ids": ["BLUS30153"],
+        "comm_ids": ["NPWR00437"]
+    },
     "Hajime no Ippo: The Fighting!": {
         "title_ids": ["BLJS10295"],
         "comm_ids": ["NPWR07543"]
@@ -3480,7 +3492,7 @@
         "comm_ids": ["NPWR05982"]
     },
     "Harry Potter and the Deathly Hallows - Part 1": {
-        "title_ids": ["BLES00931"],
+        "title_ids": ["BLES00931", "BLUS30575"],
         "comm_ids": ["NPWR01288"]
     },
     "Harry Potter and the Deathly Hallows - Part 2": {
@@ -3528,7 +3540,7 @@
         "comm_ids": ["NPWR03812"]
     },
     "Heavy Fire Shattered Spear": {
-        "title_ids": ["BLUS31000", "BLJM60570"],
+        "title_ids": ["BLUS31000", "BLJM60570", "NPJB00291"],
         "comm_ids": ["NPWR03830"]
     },
     "Heavy Fire: Afghanistan [EU]": {
@@ -3623,6 +3635,10 @@
         "title_ids": ["BLES00962"],
         "comm_ids": ["NPWR01289"]
     },
+    "Homefront Demo": {
+        "title_ids": ["NPEB90317"],
+        "comm_ids": ["NPWR01762"]
+    },
     "Hot Shots Golf: World Invitational": {
         "title_ids": ["NPUA80864"],
         "comm_ids": ["NPWR04447"]
@@ -3648,7 +3664,7 @@
         "comm_ids": ["NPWR01040"]
     },
     "How To Train Your Dragon 2": {
-        "title_ids": ["BLUS31388"],
+        "title_ids": ["BLUS31388", "NPEB01965"],
         "comm_ids": ["NPWR06265"]
     },
     "Hunted: The Demon's Forge [EU]": {
@@ -3797,7 +3813,7 @@
     },
     "Initial D Extreme Stage": {
         "title_ids": ["BLAS50053", "BLJM60055"],
-        "comm_ids": [""]
+        "comm_ids": ["NPWR00119"]
     },
     "Injustice: Gods Among Us": {
         "title_ids": ["BLES01673", "BLUS31018", "NPWR04034"],
@@ -3860,7 +3876,7 @@
         "comm_ids": ["NPWR08153"]
     },
     "J-STARS Victory VS+ [JP]": {
-        "title_ids": ["BLJS10258"],
+        "title_ids": ["BLJS10258", "BLJS10257"],
         "comm_ids": ["NPWR05794"]
     },
     "J-STARS Victory VS+ [US]": {
@@ -4060,7 +4076,7 @@
         "comm_ids": ["NPWR13195"]
     },
     "Just Dance 3 ": {
-        "title_ids": ["BLES01522", "BLUS30914"],
+        "title_ids": ["BLES01522", "BLUS30914", "BLES01506"],
         "comm_ids": ["NPWR02803"]
     },
     "Just Dance 4": {
@@ -4408,7 +4424,7 @@
         "comm_ids": ["NPWR03218"]
     },
     "Leisure Suit Larry Box Office Bust": {
-        "title_ids": ["BLUS30331"],
+        "title_ids": ["BLUS30331", "BLES00553"],
         "comm_ids": ["NPWR00687"]
     },
     "Lemmings [EU]": {
@@ -4540,7 +4556,7 @@
         "comm_ids": ["NPWR00928"]
     },
     "Lost Planet 2 Co-op Demo": {
-        "title_ids": ["NPUB90300"],
+        "title_ids": ["NPUB90300", "NPJB90199"],
         "comm_ids": ["NPWR00799"]
     },
     "Lost Planet 2 Multiplayer Demo": {
@@ -4550,6 +4566,10 @@
     "Lost Planet 3": {
         "title_ids": ["BLUS31020", "BLES01685", "BLJM60490"],
         "comm_ids": ["NPWR03601"]
+    },
+    "Lost Planet Online Demo": {
+        "title_ids": ["NPEB90061"],
+        "comm_ids": ["NPWR00309"]
     },
     "Lucha Libre AAA: Heroes del Ring": {
         "title_ids": ["BLUS30640"],
@@ -4752,7 +4772,7 @@
         "comm_ids": ["NPWR00576"]
     },
     "MALICIOUS": {
-        "title_ids": ["NPUA80797"],
+        "title_ids": ["NPUA80797", "NPEA00366"],
         "comm_ids": ["NPWR01415"]
     },
     "Mamoru-kun wa Norowarete Shimatta! Meikai Katsugeki Wide-ban": {
@@ -7619,6 +7639,10 @@
         "title_ids": ["BCES00938"],
         "comm_ids": ["NPWR01791"]
     },
+    "SOCOM: Special Forces Beta": {
+        "title_ids": ["BCET70030"],
+        "comm_ids": ["NPWR01778"]
+    },
     "SOCOM: U.S. Navy Seals Confrontation": {
         "title_ids": ["BCES00173", "BCUS98152", "BCUS98183"],
         "comm_ids": ["NPWR00302"]
@@ -9357,7 +9381,7 @@
     },
     "Unknown Game": {
         "title_ids": [""],
-        "comm_ids": ["NPWR00119", "NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03900", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR08977", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR00091", "NPWR01232", "NPWR02570", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470"]
+        "comm_ids": ["NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03900", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR08977", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR00091", "NPWR01232", "NPWR02570", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470"]
     },
     "Unmechanical": {
         "title_ids": ["NPUB31605"],
