@@ -1,5 +1,5 @@
 {
-    "#KILLALLZOMBIES": {
+    "#KillAllZombies": {
         "title_ids": ["NPUB31857"],
         "comm_ids": ["NPWR12226"]
     },
@@ -187,7 +187,7 @@
         "title_ids": ["BLES01875"],
         "comm_ids": ["NPWR04620"]
     },
-    "AFRIKA": {
+    "Afrika": {
         "title_ids": ["BLUS30399"],
         "comm_ids": ["NPWR00787"]
     },
@@ -219,10 +219,6 @@
         "title_ids": ["BLJS10241"],
         "comm_ids": ["NPWR04799"]
     },
-    "Akiba's Trip: Undead & Undressed [JP]": {
-        "title_ids": ["BLJM61105"],
-        "comm_ids": ["NPWR04263"]
-    },
     "Akiba's Trip: Undead & Undressed [Asia]": {
         "title_ids": ["BCAS20310"],
         "comm_ids": ["NPWR05831"]
@@ -230,6 +226,10 @@
     "Akiba's Trip: Undead & Undressed [EU/US]": {
         "title_ids": ["BLUS31425", "NPEB02125"],
         "comm_ids": ["NPWR06531"]
+    },
+    "Akiba's Trip: Undead & Undressed [JP]": {
+        "title_ids": ["BLJM61105"],
+        "comm_ids": ["NPWR04263"]
     },
     "Akimi Village": {
         "title_ids": ["NPUA30036"],
@@ -247,14 +247,6 @@
         "title_ids": ["BLJM60359"],
         "comm_ids": ["NPWR01969"]
     },
-    "ALIEN BREED [EU]": {
-        "title_ids": ["NPEB01221"],
-        "comm_ids": ["NPWR04116"]
-    },
-    "ALIEN BREED [US]": {
-        "title_ids": ["NPUB31085"],
-        "comm_ids": ["NPWR03900"]
-    },
     "Alien Breed 2: Assault": {
         "title_ids": ["NPUB30335"],
         "comm_ids": ["NPWR01413"]
@@ -262,6 +254,14 @@
     "Alien Breed 3: Descent": {
         "title_ids": ["NPUB30336"],
         "comm_ids": ["NPWR01488"]
+    },
+    "Alien Breed [EU]": {
+        "title_ids": ["NPEB01221"],
+        "comm_ids": ["NPWR04116"]
+    },
+    "Alien Breed [US]": {
+        "title_ids": ["NPUB31085"],
+        "comm_ids": ["NPWR03900"]
     },
     "Alien Breed: Impact": {
         "title_ids": ["NPUB30141"],
@@ -327,7 +327,7 @@
         "title_ids": ["NPUB31810"],
         "comm_ids": ["NPWR08945"]
     },
-    "AMY": {
+    "Amy": {
         "title_ids": ["NPUB30613"],
         "comm_ids": ["NPWR02848"]
     },
@@ -403,15 +403,15 @@
         "title_ids": ["NPUB30425", "BLES01295"],
         "comm_ids": ["NPWR01464"]
     },
-    "Arcana Heart 3: LOVE MAX!!!!! [EU]": {
+    "Arcana Heart 3: Love Max!!!!! [EU]": {
         "title_ids": ["BLES02126"],
         "comm_ids": ["NPWR07830"]
     },
-    "Arcana Heart 3: LOVE MAX!!!!! [JP]": {
+    "Arcana Heart 3: Love Max!!!!! [JP]": {
         "title_ids": ["BLJS10274"],
         "comm_ids": ["NPWR05696"]
     },
-    "Arcana Heart 3: LOVE MAX!!!!! [US]": {
+    "Arcana Heart 3: Love Max!!!!! [US]": {
         "title_ids": ["BLUS31424"],
         "comm_ids": ["NPWR06231"]
     },
@@ -419,19 +419,19 @@
         "title_ids": ["BLES01783"],
         "comm_ids": ["NPWR04104"]
     },
-    "ARKEDO SERIES": {
+    "Arkedo Series": {
         "title_ids": ["NPUB30703"],
         "comm_ids": ["NPWR03105"]
     },
-    "ARKEDO SERIES - 01 JUMP!": {
+    "Arkedo Series - 01 Jump!": {
         "title_ids": ["NPEB00598"],
         "comm_ids": ["NPWR02072"]
     },
-    "ARKEDO SERIES - 02 SWAP!": {
+    "Arkedo Series - 02 Swap!": {
         "title_ids": ["NPEB00614"],
         "comm_ids": ["NPWR02097"]
     },
-    "ARKEDO SERIES - 03 PIXEL!": {
+    "Arkedo Series - 03 Pixel!": {
         "title_ids": ["NPEB00615"],
         "comm_ids": ["NPWR02098"]
     },
@@ -743,7 +743,7 @@
         "title_ids": ["NPUB31845", "BLES02245", "BLUS31605"],
         "comm_ids": ["NPWR11244"]
     },
-    "BATTLE OF TILES EX": {
+    "Battle of Tiles EX": {
         "title_ids": ["NPJB00305"],
         "comm_ids": ["NPWR03836"]
     },
@@ -827,7 +827,7 @@
         "title_ids": ["BLES01520"],
         "comm_ids": ["NPWR02920"]
     },
-    "BAYONETTA": {
+    "Bayonetta": {
         "title_ids": ["BLES00599", "BLUS30367"],
         "comm_ids": ["NPWR00851"]
     },
@@ -863,11 +863,11 @@
         "title_ids": ["BLUS30822"],
         "comm_ids": ["NPWR02153"]
     },
-    "BEN 10 OMNIVERSE": {
+    "Ben 10 Omniverse": {
         "title_ids": ["BLES01753"],
         "comm_ids": ["NPWR03520"]
     },
-    "BEN 10 OMNIVERSE 2": {
+    "Ben 10 Omniverse 2": {
         "title_ids": ["BLUS31215"],
         "comm_ids": ["NPWR05232"]
     },
@@ -895,7 +895,7 @@
         "title_ids": ["NPEB00435", "NPUB30394"],
         "comm_ids": ["NPWR01576"]
     },
-    "BEYOND THE FUTURE - FIX THE TIME ARROWS -": {
+    "Beyond the Future: Fix the Time Arrows": {
         "title_ids": ["BLJM60408"],
         "comm_ids": ["NPWR02779"]
     },
@@ -911,7 +911,7 @@
         "title_ids": ["BLJS10102"],
         "comm_ids": ["NPWR01643"]
     },
-    "BINARY DOMAIN": {
+    "Binary Domain": {
         "title_ids": ["BLES01211"],
         "comm_ids": ["NPWR02497"]
     },
@@ -1383,29 +1383,29 @@
         "title_ids": ["BLES01235"],
         "comm_ids": ["NPWR01750"]
     },
+    "Champion Jockey: G1 Jockey & Gallop Racer [JP]": {
+        "title_ids": ["BLJM60367"],
+        "comm_ids": ["NPWR01749"]
+    },
     "Champion Jockey: G1 Jockey & Gallop Racer [US]": {
         "title_ids": ["BLUS30863"],
         "comm_ids": ["NPWR02537"]
-    },
-    "Champion Jockey: Gallop Racer & GⅠ Jockey": {
-        "title_ids": ["BLJM60367"],
-        "comm_ids": ["NPWR01749"]
     },
     "Chaos Code": {
         "title_ids": ["NPUB31340"],
         "comm_ids": ["NPWR04103"]
     },
-    "CHAOS;CHILD": {
+    "Chaos;Child": {
         "title_ids": ["BLJM61269"],
         "comm_ids": ["NPWR08288"]
     },
-    "CHAOS;HEAD NOAH": {
-        "title_ids": ["BLJM60542"],
-        "comm_ids": ["NPWR03264"]
-    },
-    "CHAOS;HEAD らぶChu☆Chu!": {
+    "Chaos;Head Love Chu*Chu!": {
         "title_ids": ["BLJM60543"],
         "comm_ids": ["NPWR03263"]
+    },
+    "Chaos;Head Noah": {
+        "title_ids": ["BLJM60542"],
+        "comm_ids": ["NPWR03264"]
     },
     "Chaotic: Shadow Warriors": {
         "title_ids": ["BLUS30389"],
@@ -1439,7 +1439,7 @@
         "title_ids": ["BLJS93007"],
         "comm_ids": ["NPWR03348"]
     },
-    "CLANNAD": {
+    "Clannad": {
         "title_ids": ["BLJM60329"],
         "comm_ids": ["NPWR01746"]
     },
@@ -1471,7 +1471,7 @@
         "title_ids": ["NPUB31177"],
         "comm_ids": ["NPWR04413"]
     },
-    "CLOUDY WITH A CHANCE OF MEATBALLS": {
+    "Cloudy with a Chance of Meatballs: The Video Game": {
         "title_ids": ["BLES00618"],
         "comm_ids": ["NPWR00771"]
     },
@@ -1523,7 +1523,7 @@
         "title_ids": ["NPUA80870"],
         "comm_ids": ["NPWR04887"]
     },
-    "CRASH COMMANDO": {
+    "Crash Commando": {
         "title_ids": ["NPUA80216"],
         "comm_ids": ["NPWR00362"]
     },
@@ -1563,6 +1563,10 @@
         "title_ids": ["NPUB30059"],
         "comm_ids": ["NPWR00469"]
     },
+    "Cross Channel: For All People": {
+        "title_ids": ["BLJM61187"],
+        "comm_ids": ["NPWR06414"]
+    },
     "Cross Edge [EU]": {
         "title_ids": ["BLES00650"],
         "comm_ids": ["NPWR00849"]
@@ -1570,10 +1574,6 @@
     "Cross Edge [US]": {
         "title_ids": ["BLUS30348"],
         "comm_ids": ["NPWR00691"]
-    },
-    "CROSS†CHANNEL ～For all people～": {
-        "title_ids": ["BLJM61187"],
-        "comm_ids": ["NPWR06414"]
     },
     "Crysis": {
         "title_ids": ["NPUB30302"],
@@ -1595,7 +1595,7 @@
         "title_ids": ["NPEB90465", "NPUB90826"],
         "comm_ids": [""]
     },
-    "CRYSTAL DEFENDERS": {
+    "Crystal Defenders": {
         "title_ids": ["NPUB30092"],
         "comm_ids": ["NPWR00664"]
     },
@@ -1695,11 +1695,11 @@
         "title_ids": ["BLES00713", "BLES00714", "BLUS30405"],
         "comm_ids": ["NPWR00745"]
     },
-    "DARE TO FLY!": {
+    "Dare to Fly!": {
         "title_ids": ["NPEA00357"],
         "comm_ids": ["NPWR03190"]
     },
-    "DARK AWAKE": {
+    "Dark Awake": {
         "title_ids": ["NPJB00076"],
         "comm_ids": ["NPWR01312"]
     },
@@ -1915,7 +1915,7 @@
         "title_ids": ["NPUB30532", "NPEB00603"],
         "comm_ids": ["NPWR02401"]
     },
-    "DEF JAM RAPSTAR": {
+    "Def Jam Rapstar": {
         "title_ids": ["BLES00983", "BLUS30551"],
         "comm_ids": ["NPWR01234"]
     },
@@ -2135,7 +2135,7 @@
         "title_ids": ["BLUS30773", "BLES01354"],
         "comm_ids": ["NPWR01994"]
     },
-    "DISORDER6": {
+    "Disorder 6": {
         "title_ids": ["BLJM61067"],
         "comm_ids": ["NPWR04716"]
     },
@@ -3820,7 +3820,7 @@
         "comm_ids": ["NPWR00119"]
     },
     "Injustice: Gods Among Us": {
-        "title_ids": ["BLES01673", "BLUS31018", "NPWR04034"],
+        "title_ids": ["BLES01673", "BLUS31018", "BLJM60515", "BLES01967", "BLUS31364"],
         "comm_ids": ["NPWR04034"]
     },
     "Instant Artist": {
@@ -4343,10 +4343,6 @@
         "title_ids": ["BLES00405", "BLUS30210"],
         "comm_ids": [""]
     },
-    "Legends of War: Patton [NPUB31185]": {
-        "title_ids": ["NPUB31185"],
-        "comm_ids": ["NPWR04503"]
-    },
     "Legends of War: Patton's Campaign [BLES01744]": {
         "title_ids": ["BLES01744"],
         "comm_ids": ["NPWR03821"]
@@ -4358,6 +4354,10 @@
     "Legends of War: Patton's Campaign [NPEB01311]": {
         "title_ids": ["NPEB01311"],
         "comm_ids": ["NPWR04433"]
+    },
+    "Legends of War: Patton's Campaign [NPUB31185]": {
+        "title_ids": ["NPUB31185"],
+        "comm_ids": ["NPWR04503"]
     },
     "LEGO Batman 2: DC Super Heroes": {
         "title_ids": ["BLES01613", "BLUS30837"],
@@ -6987,13 +6987,13 @@
         "title_ids": ["BLES01421"],
         "comm_ids": ["NPWR01952"]
     },
-    "Saint Seiya: Soldiers' Soul [EU]": {
-        "title_ids": ["BLES02181"],
-        "comm_ids": ["NPWR08976"]
-    },
     "Saint Seiya: Soldiers' Soul [BLUS31559]": {
         "title_ids": ["BLUS31559"],
         "comm_ids": ["NPWR09221"]
+    },
+    "Saint Seiya: Soldiers' Soul [EU]": {
+        "title_ids": ["BLES02181"],
+        "comm_ids": ["NPWR08976"]
     },
     "Saint Seiya: Soldiers' Soul [NPUB31729]": {
         "title_ids": ["NPUB31729"],
@@ -10043,13 +10043,13 @@
         "title_ids": ["BLUS30494"],
         "comm_ids": ["NPWR01101"]
     },
-    "Yakuza 4 [JP]": {
-        "title_ids": ["BLJM60208"],
-        "comm_ids": ["NPWR00859"]
-    },
     "Yakuza 4 [EU/US]": {
         "title_ids": ["BLUS30643", "NPEB02036"],
         "comm_ids": ["NPWR01642"]
+    },
+    "Yakuza 4 [JP]": {
+        "title_ids": ["BLJM60208"],
+        "comm_ids": ["NPWR00859"]
     },
     "Yakuza 5 [JP]": {
         "title_ids": ["BLJM60489"],
