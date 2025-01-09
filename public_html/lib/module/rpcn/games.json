@@ -247,9 +247,13 @@
         "title_ids": ["BLJM60359"],
         "comm_ids": ["NPWR01969"]
     },
-    "ALIEN BREED": {
+    "ALIEN BREED [EU]": {
         "title_ids": ["NPEB01221"],
         "comm_ids": ["NPWR04116"]
+    },
+    "ALIEN BREED [US]": {
+        "title_ids": ["NPUB31085"],
+        "comm_ids": ["NPWR03900"]
     },
     "Alien Breed 2: Assault": {
         "title_ids": ["NPUB30335"],
@@ -6987,9 +6991,13 @@
         "title_ids": ["BLES02181"],
         "comm_ids": ["NPWR08976"]
     },
-    "Saint Seiya: Soldiers' Soul [US]": {
+    "Saint Seiya: Soldiers' Soul [BLUS31559]": {
         "title_ids": ["BLUS31559"],
         "comm_ids": ["NPWR09221"]
+    },
+    "Saint Seiya: Soldiers' Soul [NPUB31729]": {
+        "title_ids": ["NPUB31729"],
+        "comm_ids": ["NPWR08977"]
     },
     "Saints Row 2": {
         "title_ids": ["BLES00373", "NPEB00637", "BLUS30201"],
@@ -9381,7 +9389,7 @@
     },
     "Unknown Game": {
         "title_ids": [""],
-        "comm_ids": ["NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03900", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR08977", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR00091", "NPWR01232", "NPWR02570", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470"]
+        "comm_ids": ["NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR00091", "NPWR01232", "NPWR02570", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470"]
     },
     "Unmechanical": {
         "title_ids": ["NPUB31605"],
