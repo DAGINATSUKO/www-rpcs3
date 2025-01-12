@@ -736,7 +736,7 @@
         "comm_ids": ["NPWR04151"]
     },
     "Batman: Arkham Origins Blackgate - Deluxe Edition": {
-        "title_ids": ["NPEB01968"],
+        "title_ids": ["NPEB01968", "NPUB31441"],
         "comm_ids": ["NPWR05907"]
     },
     "Batman: The Telltale Series": {
@@ -1308,7 +1308,7 @@
         "comm_ids": ["NPWR04216"]
     },
     "Cars 2": {
-        "title_ids": ["BLES01328"],
+        "title_ids": ["BLES01328", "BLES01244"],
         "comm_ids": ["NPWR01571"]
     },
     "Cars 3: Driven to Win": {
@@ -3291,8 +3291,20 @@
         "title_ids": ["NPUA70196"],
         "comm_ids": [""]
     },
-    "GRAN TURISMO HD Concept": {
-        "title_ids": ["NPEA90002", "NPUA80019", "NPJA00010", "NPHA00001"],
+    "Gran Turismo HD Concept [Asia]": {
+        "title_ids": ["NPHA00001"],
+        "comm_ids": ["NPWR00065"]
+    },
+    "Gran Turismo HD Concept [EU]": {
+        "title_ids": ["NPEA90002"],
+        "comm_ids": ["NPWR00091"]
+    },
+    "Gran Turismo HD Concept [JP]": {
+        "title_ids": ["NPJA00010"],
+        "comm_ids": ["NPWR00010"]
+    },
+    "Gran Turismo HD Concept [US]": {
+        "title_ids": ["NPUA80019"],
         "comm_ids": ["NPWR00064"]
     },
     "Grand Theft Auto IV": {
@@ -3572,7 +3584,7 @@
         "comm_ids": ["NPWR02857"]
     },
     "Helldivers": {
-        "title_ids": ["NPUA80930"],
+        "title_ids": ["NPUA80930", "NPEA00505"],
         "comm_ids": ["NPWR06183"]
     },
     "Heroes Over Europe": {
@@ -4223,8 +4235,8 @@
         "title_ids": [""],
         "comm_ids": ["NPWR06246"]
     },
-    "Kingdoms of Amalur: Reckoning [EU]": {
-        "title_ids": ["BLES01251"],
+    "Kingdoms of Amalur: Reckoning [EU/US]": {
+        "title_ids": ["BLES01251", "BLUS30710"],
         "comm_ids": ["NPWR02553"]
     },
     "Kingdoms of Amalur: Reckoning [JP]": {
@@ -5112,8 +5124,12 @@
         "comm_ids": ["NPWR01355"]
     },
     "ModNation Racers": {
-        "title_ids": ["BCES00764", "BCUS98167", "BCES00701", "BCAS20105", "BCET70020"],
+        "title_ids": ["BCES00764", "BCUS98167", "BCES00701", "BCAS20105"],
         "comm_ids": ["NPWR00300"]
+    },
+    "ModNation Racers Beta": {
+        "title_ids": ["BCET70020", "NPUA70074"],
+        "comm_ids": [""]
     },
     "Moe Moe Daisensou Gendaiban Plus Plus": {
         "title_ids": ["BLJS10163"],
@@ -5595,6 +5611,10 @@
         "title_ids": ["BLUS30840"],
         "comm_ids": ["NPWR02359"]
     },
+    "Need for Speed: Carbon": {
+        "title_ids": ["BLUS30016"],
+        "comm_ids": [""]
+    },
     "Need for Speed: Hot Pursuit": {
         "title_ids": ["NPUB30521", "BLES00949", "BLJM60297"],
         "comm_ids": ["NPWR01269"]
@@ -5620,7 +5640,7 @@
         "comm_ids": ["NPWR00599"]
     },
     "Need for Speed: The Run": {
-        "title_ids": ["NPUB30664"],
+        "title_ids": ["NPUB30664", "BLES01298"],
         "comm_ids": ["NPWR01835"]
     },
     "Need for Speed: Undercover": {
@@ -5630,6 +5650,54 @@
     "Nelson Tethers: Puzzle Agent": {
         "title_ids": ["NPEB00489"],
         "comm_ids": ["NPWR01799"]
+    },
+    "NEOGEO STATION ALPHA MISSION II": {
+        "title_ids": ["NPUB30263"],
+        "comm_ids": ["NPWR01155"]
+    },
+    "NEOGEO STATION Art Of Fighting": {
+        "title_ids": ["NPUB30261"],
+        "comm_ids": ["NPWR01163"]
+    },
+    "NEOGEO STATION Baseballstars 2": {
+        "title_ids": ["NPJB70011"],
+        "comm_ids": ["NPWR02033"]
+    },
+    "NEOGEO STATION Baseballstars Professional": {
+        "title_ids": ["NPUB30262"],
+        "comm_ids": ["NPWR01158"]
+    },
+    "NEOGEO STATION Fatal Fury King Of Fighters": {
+        "title_ids": ["NPUB30260"],
+        "comm_ids": ["NPWR01093"]
+    },
+    "NEOGEO STATION League Bowling": {
+        "title_ids": ["NPUB30257"],
+        "comm_ids": ["NPWR01161"]
+    },
+    "NEOGEO STATION Magician Lord": {
+        "title_ids": ["NPUB30264"],
+        "comm_ids": ["NPWR01159"]
+    },
+    "NEOGEO STATION Metal Slug": {
+        "title_ids": ["NPUB30258"],
+        "comm_ids": ["NPWR01160"]
+    },
+    "NEOGEO STATION Metal Slug 2": {
+        "title_ids": ["NPJB70016"],
+        "comm_ids": ["NPWR02570"]
+    },
+    "NEOGEO STATION Samurai Shodown": {
+        "title_ids": ["NPUB30265"],
+        "comm_ids": ["NPWR01157"]
+    },
+    "NEOGEO STATION Super Sidekicks": {
+        "title_ids": ["NPUB30259"],
+        "comm_ids": ["NPWR01162"]
+    },
+    "NEOGEO STATION The King Of Fighters'94": {
+        "title_ids": ["NPUB30266"],
+        "comm_ids": ["NPWR01156"]
     },
     "Never Alone": {
         "title_ids": ["NPEB02346"],
@@ -5664,7 +5732,7 @@
         "comm_ids": ["NPWR03044"]
     },
     "NHL 14": {
-        "title_ids": ["BLUS31179"],
+        "title_ids": ["BLUS31179", "BLES01853"],
         "comm_ids": ["NPWR04578"]
     },
     "NHL 15": {
@@ -6076,7 +6144,7 @@
         "comm_ids": ["NPWR02621"]
     },
     "PlayStation Home": {
-        "title_ids": ["NPEA00013", "NPIA00005", "NPIA00010", "NPEQ00001", "NPEQ00004", "NPEQ00005", "NPEQ00021", "NPEQ00023", "NPEQ10001", "NPUQ00001", "NPUQ00002", "NPUQ00003", "NPUQ00004", "NPUQ00005", "NPUQ00006", "NPUQ00007", "NPUQ00008", "NPUQ00010", "NPUQ00011", "NPUQ00012", "NPUQ00013", "NPUQ00015", "NPUQ00016", "NPUQ00020", "NPUQ00030", "NPUQ10001", "NPUQ10012", "NPJQ50100", "NPJQ50140", "NPUR00001", "NPUR00002", "NPUR00003", "NPUR00010", "NPUR00011", "NPUR00012", "NPUR00020", "NPUR00021", "NPUR00022", "NPUR00030", "NPUR00031", "NPUR00032", "NPUR00040", "NPER00003", "NPER00008", "NPER00009", "NPER00011", "NPER00014", "NPER00017", "NPER00024", "NPER00025", "NPER00027", "NPER00034", "NPER00035", "NPER00037", "NPER00040", "NPER00042", "NPER00046", "NPER00048", "NPUR00052", "NPER00050", "NPER00052", "NPER00053", "NPER00055", "NPER00056", "NPER00057", "NPER00061", "NPER00062", "NPER00063", "NPER00064", "NPER00066", "NPER00071", "NPER00072", "NPER00073", "NPER00075", "NPER00078", "NPER10001", "NPUR00050", "NPUR00051", "NPUR00060", "NPUR00061", "NPUR00070", "NPUR00071", "NPUR00072", "NPUR00080", "NPUR00081", "NPUR00090", "NPUR00091", "NPUR00100", "NPUR00110", "NPUR00120", "NPUR00121", "NPUR00130", "NPUR00140", "NPUR00141", "NPUR00150", "NPUR00160", "NPUR00170", "NPUR00180", "NPUR00190", "NPUR00191", "NPUR00200", "NPUR00320", "NPUR10001", "NPUR10002", "NPUR10010", "NPUR10011", "NPUR10012", "NPUR10013", "NPUR10014", "NPUR10015", "NPUR10016", "NPUR30001", "NPUR30020", "NPUR30030", "NPUR30040", "NPUR30050", "NPUR30051", "NPUR30060", "NPUR30070", "NPUR30090", "NPUR30092", "NPUR30100", "NPUR30110", "NPUR30111", "NPUR30120", "NPUR30130", "NPUR30151", "NPUR30160", "NPUR30170", "NPUR30180", "NPUR30181", "NPUR30190", "NPUR30200", "NPUR30210", "NPUR30220", "NPUR30230", "NPUR30231", "NPUR30250", "NPUR30260", "NPUR30261", "NPUR30262", "NPUR30270", "NPUR30290", "NPUR30300", "NPJR50030", "NPJR50120", "NPJR50190", "NPJR50260", "NPJR50310"],
+        "title_ids": ["NPEA00013", "NPIA00005", "NPIA00010", "NPEQ00001", "NPEQ00004", "NPEQ00005", "NPEQ00021", "NPEQ00023", "NPEQ10001", "NPUQ00001", "NPUQ00002", "NPUQ00003", "NPUQ00004", "NPUQ00005", "NPUQ00006", "NPUQ00007", "NPUQ00008", "NPUQ00010", "NPUQ00011", "NPUQ00012", "NPUQ00013", "NPUQ00015", "NPUQ00016", "NPUQ00020", "NPUQ00030", "NPUQ10001", "NPUQ10012", "NPJQ50100", "NPJQ50140", "NPUR00001", "NPUR00002", "NPUR00003", "NPUR00010", "NPUR00011", "NPUR00012", "NPUR00020", "NPUR00021", "NPUR00022", "NPUR00030", "NPUR00031", "NPUR00032", "NPUR00040", "NPER00003", "NPER00008", "NPER00009", "NPER00011", "NPER00014", "NPER00017", "NPER00024", "NPER00025", "NPER00027", "NPER00031", "NPER00034", "NPER00035", "NPER00037", "NPER00040", "NPER00042", "NPER00046", "NPER00048", "NPUR00052", "NPER00050", "NPER00052", "NPER00053", "NPER00055", "NPER00056", "NPER00057", "NPER00061", "NPER00062", "NPER00063", "NPER00064", "NPER00066", "NPER00071", "NPER00072", "NPER00073", "NPER00075", "NPER00078", "NPER10001", "NPUR00050", "NPUR00051", "NPUR00060", "NPUR00061", "NPUR00070", "NPUR00071", "NPUR00072", "NPUR00080", "NPUR00081", "NPUR00090", "NPUR00091", "NPUR00100", "NPUR00110", "NPUR00120", "NPUR00121", "NPUR00130", "NPUR00140", "NPUR00141", "NPUR00150", "NPUR00160", "NPUR00170", "NPUR00180", "NPUR00190", "NPUR00191", "NPUR00200", "NPUR00320", "NPUR10001", "NPUR10002", "NPUR10010", "NPUR10011", "NPUR10012", "NPUR10013", "NPUR10014", "NPUR10015", "NPUR10016", "NPUR30001", "NPUR30020", "NPUR30030", "NPUR30040", "NPUR30050", "NPUR30051", "NPUR30060", "NPUR30070", "NPUR30090", "NPUR30092", "NPUR30100", "NPUR30110", "NPUR30111", "NPUR30120", "NPUR30130", "NPUR30151", "NPUR30160", "NPUR30170", "NPUR30180", "NPUR30181", "NPUR30190", "NPUR30200", "NPUR30210", "NPUR30220", "NPUR30230", "NPUR30231", "NPUR30250", "NPUR30260", "NPUR30261", "NPUR30262", "NPUR30270", "NPUR30290", "NPUR30300", "NPJR50030", "NPJR50120", "NPJR50190", "NPJR50260", "NPJR50310"],
         "comm_ids": ["NPWR00050", "NPWR00432"]
     },
     "PlayStation Move Fitness": {
@@ -6148,15 +6216,15 @@
         "comm_ids": ["NPWR01112"]
     },
     "Prince of Persia: The Sands of Time": {
-        "title_ids": ["NPUB30303"],
+        "title_ids": ["NPUB30303", "NPEB00341"],
         "comm_ids": ["NPWR01506"]
     },
     "Prince of Persia: The Two Thrones": {
-        "title_ids": [""],
+        "title_ids": ["NPEB00390"],
         "comm_ids": ["NPWR01551"]
     },
     "Prince of Persia: Warrior Within": {
-        "title_ids": [""],
+        "title_ids": ["NPEB00389"],
         "comm_ids": ["NPWR01526"]
     },
     "Prison Break": {
@@ -8848,7 +8916,7 @@
         "comm_ids": ["NPWR02636"]
     },
     "Tiger Woods PGA TOUR 14": {
-        "title_ids": ["BLUS31063"],
+        "title_ids": ["BLUS31063", "BLES01754"],
         "comm_ids": ["NPWR03990"]
     },
     "Time and Eternity [EU]": {
@@ -8994,6 +9062,10 @@
     "Tom Clancy's Splinter Cell Pandora Tomorrow HD": {
         "title_ids": ["NPUB30455"],
         "comm_ids": ["NPWR01812"]
+    },
+    "Tom Clancy's Splinter Cell: Double Agent": {
+        "title_ids": ["BLES00024"],
+        "comm_ids": [""]
     },
     "Tomb Raider": {
         "title_ids": ["BLES01780", "BCAS20272", "BLUS31036"],
@@ -9389,7 +9461,7 @@
     },
     "Unknown Game": {
         "title_ids": [""],
-        "comm_ids": ["NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR00091", "NPWR01232", "NPWR02570", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470"]
+        "comm_ids": ["NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR01232", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470", "NPWR00057", "NPWR00019", "NPWR00189"]
     },
     "Unmechanical": {
         "title_ids": ["NPUB31605"],
@@ -9427,13 +9499,13 @@
         "title_ids": ["BLJM61288"],
         "comm_ids": ["NPWR08811"]
     },
+    "Valiant Hearts: The Great War [EU/US]": {
+        "title_ids": ["NPUB31400", "NPEB01909"],
+        "comm_ids": ["NPWR06174"]
+    },
     "Valiant Hearts: The Great War [JP]": {
         "title_ids": ["NPJB00660"],
         "comm_ids": ["NPWR07170"]
-    },
-    "Valiant Hearts: The Great War [US]": {
-        "title_ids": ["NPUB31400"],
-        "comm_ids": ["NPWR06174"]
     },
     "Vancouver 2010": {
         "title_ids": ["BLES00660"],
@@ -9663,17 +9735,17 @@
         "title_ids": ["BLJM60571"],
         "comm_ids": ["NPWR03729"]
     },
-    "White Knight Chronicles": {
+    "White Knight Chronicles [EU/US]": {
+        "title_ids": ["BCUS98146", "BCES00225"],
+        "comm_ids": ["NPWR00940"]
+    },
+    "White Knight Chronicles [JP]": {
         "title_ids": ["BCJS30030"],
         "comm_ids": ["NPWR00314"]
     },
     "White Knight Chronicles II": {
         "title_ids": ["BCES01085", "BLUS30784", "BCES01156"],
         "comm_ids": ["NPWR01681"]
-    },
-    "White Knight Chronicles: International Edition": {
-        "title_ids": ["BCUS98146"],
-        "comm_ids": ["NPWR00940"]
     },
     "Whitetail Challenge": {
         "title_ids": ["NPUB31796"],
