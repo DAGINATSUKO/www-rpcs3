@@ -22,6 +22,8 @@
 				<?php
 				if (isset($build) && !is_null($build->checksum_win))
 					printf("%s", $build->checksum_win);
+				else if (isset($build_windows_x64))
+					printf("%s", $build_windows_x64->checksum_win);
 				else
 					printf("Unavailable");
 				?>
@@ -33,6 +35,8 @@
 					<?php
 					if (false /*isset($build) && !is_null($build->checksum_win_arm64)*/)
 						printf("%s", $build->checksum_win_arm64);
+					else if (isset($build_windows_arm64))
+						printf("%s", $build_windows_arm64->checksum_win_arm64);
 					else
 						printf("Coming soon...");
 					?>
@@ -45,6 +49,8 @@
 			<?php
 			if (isset($build) && !is_null($build->get_url_windows()))
 				printf("<a href=\"%s\" download>", $build->get_url_windows());
+			else if (isset($build_windows_x64))
+				printf("<a href=\"%s\" download>", $build_windows_x64->get_url_windows());
 			?>
 			<div class='package-con-button'>
 				<div class='package-ico-button' style="background: url(/img/icons/buttons/x64-h.png) center / 30px no-repeat;">
@@ -52,7 +58,7 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 						<?php
-						if (isset($build) && !is_null($build->get_url_windows()))
+						if ((isset($build) && !is_null($build->get_url_windows())) || isset($build_windows_x64))
 							printf("Download for x64");
 						else
 							printf("Unavailable");
@@ -63,6 +69,8 @@
 						<?php
 						if (isset($build) && !is_null($build->get_size_mb_windows()))
 							printf("%s MB", $build->get_size_mb_windows());
+						else if (isset($build_windows_x64))
+							printf("%s MB", $build_windows_x64->get_size_mb_windows());
 						else
 							printf("Unavailable");
 						?>
@@ -70,12 +78,14 @@
 				</div>
 			</div>
 			<?php
-			if (isset($build) && !is_null($build->get_url_windows()))
+			if ((isset($build) && !is_null($build->get_url_windows())) || isset($build_windows_x64))
 				printf("</a>");
 			?>
 			<?php
 			if (false /*isset($build) && !is_null($build->get_url_windows_arm64())*/)
 				printf("<a href=\"%s\" download>", $build->get_url_windows_arm64());
+			else if (isset($build_windows_arm64))
+				printf("<a href=\"%s\" download>", $build_windows_arm64->get_url_windows_arm64());
 			?>
 			<div class='package-con-mini-button'>
 				<div class='package-ico-button' style="background: url(/img/icons/buttons/arm64-h.png) center / 30px no-repeat;">
@@ -129,6 +139,8 @@
 					<?php
 					if (isset($build) && !is_null($build->checksum_linux))
 						printf("%s", $build->checksum_linux);
+					else if (isset($build_linux_x64))
+						printf("%s", $build_linux_x64->checksum_linux);
 					else
 						printf("Unavailable");
 					?>
@@ -140,6 +152,8 @@
 				<?php
 				if (isset($build) && !is_null($build->checksum_linux_arm64))
 					printf("%s", $build->checksum_linux_arm64);
+				else if (isset($build_linux_arm64))
+					printf("%s", $build_linux_arm64->checksum_linux_arm64);
 				else
 					printf("Unavailable");
 				?>
@@ -152,6 +166,8 @@
 			<?php
 			if (isset($build) && !is_null($build->get_url_linux()))
 				printf("<a href=\"%s\" download>", $build->get_url_linux());
+			else if (isset($build_linux_x64))
+				printf("<a href=\"%s\" download>", $build_linux_x64->get_url_linux());
 			?>
 			<div class='package-con-button'>
 				<div class='package-ico-button' style="background: url(/img/icons/buttons/x64-h.png) center / 30px no-repeat;">
@@ -159,7 +175,7 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 					<?php
-					if (isset($build) && !is_null($build->get_url_linux()))
+					if ((isset($build) && !is_null($build->get_url_linux())) || isset($build_linux_x64))
 						printf("Download for x64");
 					else
 						printf("Unavailable");
@@ -170,6 +186,8 @@
 						<?php
 						if (isset($build) && !is_null($build->get_size_mb_linux()))
 							printf("%s MB", $build->get_size_mb_linux());
+						else if (isset($build_linux_x64))
+							printf("%s MB", $build_linux_x64->get_size_mb_linux());
 						else
 							printf("Unavailable");
 						?>
@@ -177,12 +195,14 @@
 				</div>
 			</div>
 			<?php
-			if (isset($build) && !is_null($build->get_url_linux()))
+			if ((isset($build) && !is_null($build->get_url_linux())) || isset($build_linux_x64))
 				printf("</a>");
 			?>
 			<?php
 			if (isset($build) && !is_null($build->get_url_linux_arm64()))
 				printf("<a href=\"%s\" download>", $build->get_url_linux_arm64());
+			else if (isset($build_linux_arm64))
+				printf("<a href=\"%s\" download>", $build_linux_arm64->get_url_linux_arm64());
 			?>
 			<div class='package-con-mini-button'>
 				<div class='package-ico-button' style="background: url(/img/icons/buttons/arm64-h.png) center / 30px no-repeat;">
@@ -190,7 +210,7 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 					<?php
-					if (isset($build) && !is_null($build->get_url_linux_arm64()))
+					if ((isset($build) && !is_null($build->get_url_linux_arm64())) || isset($build_linux_arm64))
 						printf("Download for arm64");
 					else
 						printf("Unavailable");
@@ -201,6 +221,8 @@
 						<?php
 						if (isset($build) && !is_null($build->get_size_mb_linux_arm64()))
 							printf("%s MB", $build->get_size_mb_linux_arm64());
+						else if (isset($build_linux_arm64))
+							printf("%s MB", $build_linux_arm64->get_size_mb_linux_arm64());
 						else
 							printf("Unavailable");
 						?>
@@ -236,6 +258,8 @@
 					<?php
 					if (isset($build) && !is_null($build->checksum_mac))
 						printf("%s", $build->checksum_mac);
+					else if (isset($build_macos_x64))
+						printf("%s", $build_macos_x64->checksum_mac);
 					else
 						printf("Unavailable");
 					?>
@@ -247,6 +271,8 @@
 					<?php
 					if (isset($build) && !is_null($build->checksum_mac_arm64))
 						printf("%s", $build->checksum_mac_arm64);
+					else if (isset($build_macos_arm64))
+						printf("%s", $build_macos_arm64->checksum_mac);
 					else
 						printf("Unavailable");
 					?>
@@ -259,6 +285,8 @@
 			<?php
 			if (isset($build) && !is_null($build->get_url_mac()))
 				printf("<a href=\"%s\" download>", $build->get_url_mac());
+			else if (isset($build_macos_x64))
+				printf("<a href=\"%s\" download>", $build_macos_x64->get_url_mac());
 			?>
 			<div class='package-con-button'>
 				<div class='package-ico-button' style="background: url(/img/icons/buttons/x64-h.png) center / 30px no-repeat;">
@@ -266,7 +294,7 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 					<?php
-					if (isset($build) && !is_null($build->get_url_mac()))
+					if ((isset($build) && !is_null($build->get_url_mac())) || isset($build_macos_x64))
 						printf("Download for x64");
 					else
 						printf("Unavailable");
@@ -277,6 +305,8 @@
 						<?php
 						if (isset($build) && !is_null($build->get_size_mb_mac()))
 							printf("%s MB", $build->get_size_mb_mac());
+						else if (isset($build_macos_x64))
+							printf("%s MB", $build_macos_x64->get_size_mb_mac());
 						else
 							printf("Unavailable");
 						?>
@@ -284,12 +314,14 @@
 				</div>
 			</div>
 			<?php
-			if (isset($build) && !is_null($build->get_url_mac()))
+			if ((isset($build) && !is_null($build->get_url_mac())) || isset($build_macos_x64))
 				printf("</a>");
 			?>
 			<?php
 			if (isset($build) && !is_null($build->get_url_mac_arm64()))
 				printf("<a href=\"%s\" download>", $build->get_url_mac_arm64());
+			else if (isset($build_macos_arm64))
+				printf("<a href=\"%s\" download>", $build_macos_arm64->get_url_mac_arm64());
 			?>
 			<div class='package-con-mini-button'>
 				<div class='package-ico-button' style="background: url(/img/icons/buttons/arm64-h.png) center / 30px no-repeat;">
@@ -297,7 +329,7 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 						<?php
-						if (isset($build) && !is_null($build->get_url_mac_arm64()))
+						if ((isset($build) && !is_null($build->get_url_mac_arm64())) || isset($build_macos_arm64))
 							printf("Download for arm64");
 						else
 							printf("Unavailable");
@@ -308,6 +340,8 @@
 						<?php
 						if (isset($build) && !is_null($build->get_size_mb_mac_arm64()))
 							printf("%s MB", $build->get_size_mb_mac_arm64());
+						else if (isset($build_macos_arm64))
+							printf("%s MB", $build_macos_arm64->get_size_mb_mac_arm64());
 						else
 							printf("Unavailable");
 						?>
@@ -315,7 +349,7 @@
 				</div>
 			</div>
 			<?php
-			if (isset($build) && !is_null($build->get_url_mac_arm64()))
+			if ((isset($build) && !is_null($build->get_url_mac_arm64())) || isset($build_macos_arm64))
 				printf("</a>");
 			?>
 		</div>
