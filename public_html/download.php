@@ -29,7 +29,31 @@
 <?php include 'lib/module/sys-global.php';?>
 <?php
 if (@include_once("lib/compat/objects/Build.php"))
+{
 	$build = Build::get_latest(null);
+
+	// Fallbacks in case any of these builds failed in the latest version
+	if (isset($build) && is_null($build->get_url_windows()))
+	{
+		$build_windows_x64 = Build::get_latest("win");
+	}
+	if (isset($build) && is_null($build->get_url_linux()))
+	{
+		$build_linux_x64 = Build::get_latest("linux");
+	}
+	if (isset($build) && is_null($build->get_url_linux_arm64()))
+	{
+		$build_linux_arm64 = Build::get_latest("linux_arm64");
+	}
+	if (isset($build) && is_null($build->get_url_mac()))
+	{
+		$build_macos_x64 = Build::get_latest("mac");
+	}
+	if (isset($build) && is_null($build->get_url_mac_arm64()))
+	{
+		$build_macos_arm64 = Build::get_latest("mac_arm64");
+	}
+}
 ?>
 <div class="page-con-content">
 	<div class="banner-con-container darkmode-header">
