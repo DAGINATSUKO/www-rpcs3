@@ -108,9 +108,11 @@ class RPCNStats {
                         $normalized_comm_id = $this->normalize_id($comm_id);
 
                         if (isset($data['psn_games']) && is_array($data['psn_games'])) {
-                            foreach ($data['psn_games'] as $api_comm_id => $count) {
+                            foreach ($data['psn_games'] as $api_comm_id => $value) {
+                                $player_count = is_array($value) ? (int)$value[0] : (int)$value;
                                 if ($this->normalize_id($api_comm_id) === $normalized_comm_id) {
                                     $comm_id_player_count += (is_numeric($count)) ? (int)$count : 0;
+                                    $comm_id_player_count += $player_count;
                                 }
                             }
                         }
