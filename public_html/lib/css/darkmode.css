@@ -13,10 +13,13 @@
 	background:#111525!important
 }
 .dm-divider {
-	background:linear-gradient(to left,rgba(255,255,255,0),rgb(255 255 255/20%))!important
+	background:linear-gradient(to left,rgba(255,255,255,0),rgb(255 255 255/20%))!important;
 }
 .dm-bg-2 {
 	background:#191f36!important
+}
+.dm-rpcn-gradient {
+	background: linear-gradient(-90deg, rgb(255 255 255 / 0%) 25%, rgb(25 31 54) 100%) !important;
 }
 .dm-invert {
 	filter:invert(100%)!important

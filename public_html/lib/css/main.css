@@ -406,8 +406,8 @@ a:hover {
     display: inline-block;
     width: auto;
     height: 70px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
     margin-bottom: -2px;
     color: #fff;
     border-bottom: 2px solid transparent;

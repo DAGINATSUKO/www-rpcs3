@@ -428,3 +428,364 @@
 	-webkit-box-shadow: rgb(255 172 128 / 50%) 0 0 64px 0;
 	        box-shadow: rgb(255 172 128 / 50%) 0 0 64px 0
 }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.rpcn-playerbase-con-container {
+    background: #fff;
+    box-shadow: rgba(0,0,0,.1) 0 10px 32px 0;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    display: inline-block;
+    padding-bottom: 25px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(255,255,255,.1)
+}
+
+.rpcn-playerbase-ico-banner {
+    background: url("/img/graphics/rpcn/service.png") center center/cover no-repeat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    top: 20px;
+    float: left
+}
+
+.rpcn-playerbase-con-banner {
+    background: linear-gradient(-90deg, rgb(255 255 255 / 0%) 25%, rgb(255 255 255) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.rpcn-playerbase-ovr-banner {
+    background: linear-gradient(90deg, rgb(255 255 255 / 0%) 25%, rgb(0 0 0 / 20%) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.rpcn-playerbase-img-banner {
+    background: unset;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.rpcn-playerbase-user-count {
+	padding: 12px 12px;
+	font-family: Roboto-Bold;
+	font-size: 32px;
+	line-height: 26px;
+	border-radius: 12px;
+	color: #686de0;
+}
+
+.rpcn-playerbase-user-desc {
+    padding-left: 12px;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 12px;
+    color: #000;
+}
+
+.rpcn-playerbase-ico-service {
+    background: url("/img/graphics/rpcn/logo.png") center right / contain no-repeat;
+    width: 192px;
+    height: 70px;
+    position: absolute;
+    right: 40px;
+    z-index: 2;
+    top: 36px;
+}
+
+.rpcn-playerbase-img-container {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: rgb(200 203 255 / 50%);
+}
+
+.rpcn-playerbase-tx1-banner {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000;
+    margin-bottom: 4px
+}
+
+.rpcn-playerbase-txt-container {
+    color: #000;
+    float: left;
+    margin-top: 31px;
+    padding-left: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.rpcn-infopane-con-container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block
+}
+
+.rpcn-infopane-con-outer {
+    width: 33.3333%;
+    height: 100%;
+    position: relative;
+    float: left
+}
+
+.rpcn-infopane-con-inner-a {
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: rgba(0,0,0,.1) 0 10px 32px 0;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all .1s ease-in-out 0s;
+    border: 1px solid rgba(255,255,255,.1)
+}
+
+.rpcn-infopane-con-inner-a:hover {
+    transform: translate(0px,-10px)
+}
+
+.rpcn-infopane-con-text h3 {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #fff;
+    height: 24px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px
+}
+
+.rpcn-infopane-con-text p {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    height: 18px;
+    padding-left: 20px;
+    padding-top: 5px
+}
+
+.rpcn-infopane-con-text-bold {
+    color: rgba(255,255,255,.5);
+    font-family: Roboto-Bold
+}
+
+.rpcn-infopane-con-image {
+    height: 64px;
+    position: relative;
+    margin-left: 20px;
+    background-size: 32px!important
+}
+
+.rpcn-infopane-con-graphic {
+    height: 184px;
+    width: 206px;
+    position: absolute;
+    background-size: contain!important
+}
+
+.rpcn-infopane-tx1-title {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    line-height: 26px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.rpcn-infopane-tx2-desc {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 28px;
+    z-index: 1;
+    position: relative;
+}
+
+.rpcn-infopane-tx3-label {
+    background: rgb(255 159 67/10%);
+    border: solid 1px rgb(255 159 67/60%);
+    border-radius: 6px;
+    padding: 2px 6px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    top: -4px;
+    position: relative;
+    color: rgb(255 159 67);
+    line-height: 0px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.rpcn-list-con-container {
+	width: 100%;
+}
+
+.rpcn-list-con-container table {
+	font-family: Roboto-Regular;
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 20px;
+	table-layout: fixed;
+	margin-bottom: 60px;
+}
+
+.rpcn-list-con-container tr {
+	height:40px;
+	margin-bottom:10px;
+}
+
+.rpcn-list-con-container td {
+	background: rgba(0,102,204,.05);
+	width: 100%;
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:12px;
+	border: 1px solid rgb(210 210 210 / 10%);
+}
+
+.rpcn-list-con-container td:hover {
+	background: rgba(0,102,204,.1);
+}
+
+.rpcn-list-con-container td:last-child {
+	text-align:center;
+	position: relative;
+	color: #fff;
+	background: linear-gradient(-135deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-top-right-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+	-moz-border-radius-topright: 12px;
+	-moz-border-radius-bottomright: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	display: flex;
+	line-height: 40px;
+	padding-left:unset;
+	padding-right:6px;
+	border: 1px solid rgb(255 255 255 / 50%);
+	font-weight: bold;
+	box-shadow: rgb(26 188 156 / 40%) 0 10px 32px 0;
+}
+
+.rpcn-list-con-container tr:nth-child(2n) {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.0), rgba(0, 102, 204, 0.1));
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.rpcn-list-ico-player  {
+    top: 3px;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-right: 10px;
+    box-shadow: rgb(0 0 0/10%) 0 2px 2px;
+    border: solid 1px rgb(255 255 255 / 40%);
+}
+
+.rpcn-list-ico-status {
+    background: linear-gradient(-180deg,rgb(46,204,113) 25%,rgb(26,188,156) 100%);
+    box-shadow: rgba(0,116,231,.4) 0 10px 32px 0;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin-right: 9px;
+    top: 8px;
+    animation: anim-rpcn-status-pulse 2s ease-in-out infinite;
+}
+
+.rpcn-list-ico-status::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: rgb(46 204 113);
+    animation: anim-rpcn-status-pulse-ring 2s ease-in-out infinite;
+}
+
+@keyframes anim-rpcn-status-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes anim-rpcn-status-pulse-ring {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .rpcn-infopane-con-outer {
+        float: unset !important;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rpcn-infopane-con-inner-a {
+        margin: 0;
+    }
+}

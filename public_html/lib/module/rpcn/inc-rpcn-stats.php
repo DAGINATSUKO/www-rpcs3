@@ -7,15 +7,22 @@ class RPCNStats {
     public int $total_users = 0;
     /** @var array<string, int> */
     public array $title_player_counts = [];
+    public bool $has_error = false;
 
     public function __construct(string $games_json, string $log_file, string $api_url) {
         $this->games_json = $games_json;
         $this->log_file = $log_file;
         $this->api_url = $api_url;
 
-        $this->processStats();
+        try {
+            $this->processStats();
+        } catch (Exception $e) {
+            $this->log_error($e->getMessage());
+            $this->has_error = true;
+        }
     }
 
+    // Log errors to the log file
     private function log_error(string $message): void {
         $timestamp = date('Y-m-d H:i:s');
         file_put_contents($this->log_file, "[$timestamp] ERROR: $message" . PHP_EOL, FILE_APPEND);
@@ -27,72 +34,65 @@ class RPCNStats {
             return substr($matches[0], strpos($matches[0], '-') + 1);
         }
         $normalized = preg_replace('/_\d+$/', '', $id); // Remove _XX suffix
-        
         return $normalized ?: $id;
     }
-
-    /*
-    private function log_missing_id($id) {
-        $timestamp = date('Y-m-d H:i:s');
-        $log_entries = file_exists($this->log_file) ? file($this->log_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) : [];
-        $updated_entries = [];
-        $found = false;
-
-        foreach ($log_entries as $entry) {
-            // Check if the current entry matches the missing ID
-            if (strpos($entry, $id) !== false) {
-                $found = true;
-                if (preg_match('/x(\d+)$/', $entry, $matches)) {
-                    $count = (int)$matches[1] + 1;
-                } else {
-                    $count = 2; // If there's no count, start from 2
-                }
-                // Update the entry with the new timestamp and count
-                $updated_entries[] = "[$timestamp] UNKNOWN ID: $id x$count";
-            } else {
-                $updated_entries[] = $entry;
-            }
-        }
-        if (!$found) {
-            // Add a new entry if the ID was not found
-            $updated_entries[] = "[$timestamp] UNKNOWN ID: $id";
-        }
-        file_put_contents($this->log_file, implode(PHP_EOL, $updated_entries) . PHP_EOL);
-    }
-    */
 
     private function processStats(): void {
         // Load JSON file
         if (!file_exists($this->games_json)) {
-            $this->log_error("JSON file not found: {$this->games_json}");
-            die("Error: JSON file is missing. Check log for details.");
+            throw new Exception("Games JSON file not found: " . $this->games_json);
         }
 
-        // Get file contents and check for failure
         $json_content = file_get_contents($this->games_json);
-        if ($json_content === false) {
-            $this->log_error("Failed to read JSON file: {$this->games_json}");
-            die("Error: Failed to read JSON file. Check log for details.");
-        }
-
-        // Decode JSON content
         $game_mappings = json_decode($json_content, true);
+
         if (json_last_error() !== JSON_ERROR_NONE) {
-            $this->log_error("Failed to decode JSON file: " . json_last_error_msg());
-            die("Error: Failed to parse JSON file. Check log for details.");
+            throw new Exception(json_last_error_msg());
         }
 
-        // Fetch API data
-        $api_data = @file_get_contents($this->api_url);
+        // cURL
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $this->api_url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Accept: application/json',
+        ]);
+
+        $response = curl_exec($ch);
+
+        if (curl_errno($ch)) {
+            $error_message = 'cURL error: ' . curl_error($ch);
+            $this->log_error($error_message);
+            throw new Exception($error_message);
+        }
+
+        // Get HTTP status code
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        if ($http_code !== 200) {
+            $error_message = "HTTP $http_code";
+            $this->log_error($error_message);
+            throw new Exception($error_message);
+        }
+
+        $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+        $headers = substr($response, 0, $header_size);
+        $api_data = substr($response, $header_size);
+
+        curl_close($ch);
+
         if ($api_data === false) {
-            $this->log_error("Failed to fetch API data from {$this->api_url}");
-            die("Error: Unable to connect to API. Check log for details.");
+            $last_error = error_get_last();
+            $error_message = $last_error ? $last_error['message'] : 'Unknown error occurred while fetching API data';
+            $this->log_error($error_message);
+            throw new Exception($error_message);
         }
 
         $data = json_decode($api_data, true);
         if (json_last_error() !== JSON_ERROR_NONE) {
-            $this->log_error("Failed to decode API response: " . json_last_error_msg());
-            die("Error: Failed to parse API response. Check log for details.");
+            $error_message = json_last_error_msg();
+            $this->log_error($error_message);
+            throw new Exception($error_message);
         }
 
         $this->total_users = isset($data['num_users']) && is_int($data['num_users']) ? $data['num_users'] : 0;
@@ -111,7 +111,6 @@ class RPCNStats {
                             foreach ($data['psn_games'] as $api_comm_id => $value) {
                                 $player_count = is_array($value) ? (int)$value[0] : (int)$value;
                                 if ($this->normalize_id($api_comm_id) === $normalized_comm_id) {
-                                    $comm_id_player_count += (is_numeric($count)) ? (int)$count : 0;
                                     $comm_id_player_count += $player_count;
                                 }
                             }
@@ -143,40 +142,22 @@ class RPCNStats {
             }
         }
 
-        /*
-        // Check for IDs in the API data that are not in the JSON file
-        foreach ($data['psn_games'] as $api_comm_id => $count) {
-            $found = false;
-            foreach ($game_mappings as $ids) {
-                foreach ($ids['comm_ids'] as $comm_id) {
-                    if ($this->normalize_id($api_comm_id) === $this->normalize_id($comm_id)) {
-                        $found = true;
-                        break 2;
-                    }
-                }
-            }
-            if (!$found) {
-                $this->log_missing_id($api_comm_id);
-            }
+        $temp_array = [];
+        foreach ($this->title_player_counts as $game_title => $player_count) {
+        $temp_array[] = ['game_title' => $game_title, 'player_count' => $player_count];
         }
 
-        foreach ($data['ticket_games'] as $api_title_id => $count) {
-            $found = false;
-            foreach ($game_mappings as $ids) {
-                foreach ($ids['title_ids'] as $title_id) {
-                    if ($this->normalize_id($api_title_id) === $this->normalize_id($title_id)) {
-                        $found = true;
-                        break 2;
-                    }
-                }
+        usort($temp_array, function ($a, $b) {
+            if ($a['player_count'] != $b['player_count']) {
+                return $b['player_count'] - $a['player_count'];
             }
-            if (!$found) {
-                $this->log_missing_id($api_title_id);
-            }
-        }
-        */
+            return strcmp($a['game_title'], $b['game_title']);
+        });
 
-        arsort($this->title_player_counts); // Sort the results by player count in descending order
+        $this->title_player_counts = [];
+        foreach ($temp_array as $item) {
+            $this->title_player_counts[$item['game_title']] = $item['player_count'];
+        }
     }
 }
 ?>

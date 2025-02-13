@@ -80,6 +80,11 @@ var dark_classes = [
 	{"base": ".compat-search-inner a", "toggle": "dm-compat-search-inner"},
 	{"base": ".searchbox input", "toggle": "dm-searchbox input"},
 	{"base": ".compat-search-outer", "toggle": "dm-compat-search-outer"},
+	
+	// RPCN
+	{"base": ".rpcn-infopane-con-inner-a", "toggle": "dm-bg-2"},
+	{"base": ".rpcn-playerbase-con-container", "toggle": "dm-bg-2"},
+	{"base": ".rpcn-playerbase-con-banner", "toggle": "dm-rpcn-gradient"},
 
 	// Blog
 	{"base": ".nav-links", "toggle": "dm-default dm-txt"},
@@ -96,27 +101,50 @@ var dark_classes = [
 ];
 // Website dark mode setting states
 $(document).ready(function() {
-	var sel = Cookies.get("save-darkmode") == "true";
+    // Check if user already has a theme preference cookie
+    var savedThemeCookie = Cookies.get("save-darkmode");
+    
+    // If no cookie exists, check system preference
+    if (savedThemeCookie === undefined) {
+        // Check if system is in dark mode
+        var systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        // Set initial state based on system preference
+        sel = systemDarkMode;
+        if (systemDarkMode) {
+            Cookies.set("save-darkmode", true, {
+                expires: 365,
+                path: '/'
+            });
+        }
+    } else {
+        // Use existing cookie value if it exists
+        sel = savedThemeCookie == "true";
+    }
 
-	$('.toggle-darkmode').toggleClass("activate-darkmode", sel).on('click', function() {
-		dark_classes.forEach(function(item) {
-			$(item.base).toggleClass(item.toggle);
-		});
+    // Set initial UI state
+    $('.toggle-darkmode').toggleClass("activate-darkmode", sel);
 
-		var $this = $(this);
-		sel = !sel;
-		$this.toggleClass("activate-darkmode", sel);
-		Cookies.set("save-darkmode", sel, {
-			expires: 365,
-			path: '/'
-		});
-	});
+    // Handle click events
+    $('.toggle-darkmode').on('click', function() {
+        dark_classes.forEach(function(item) {
+            $(item.base).toggleClass(item.toggle);
+        });
+        var $this = $(this);
+        sel = !sel;
+        $this.toggleClass("activate-darkmode", sel);
+        Cookies.set("save-darkmode", sel, {
+            expires: 365,
+            path: '/'
+        });
+    });
 
-	dark_classes.forEach(function(item) {
-		if ($('.toggle-darkmode').hasClass('activate-darkmode')) {
-			$(item.base).addClass(item.toggle);
-		} else {
-			$(item.base).removeClass(item.toggle);
-		}
-	});
+    // Apply theme classes based on current state
+    dark_classes.forEach(function(item) {
+        if ($('.toggle-darkmode').hasClass('activate-darkmode')) {
+            $(item.base).addClass(item.toggle);
+        } else {
+            $(item.base).removeClass(item.toggle);
+        }
+    });
 });

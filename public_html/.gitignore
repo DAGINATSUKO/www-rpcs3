@@ -2,15 +2,18 @@
 .well-known/
 /cdn/press/
 /cdn/press/Press Kit.zip
-/img/icons/arrows/src/
 /img/graphics/about/src/
 /img/graphics/download/src/
 /img/graphics/landing/src/
 /img/graphics/quickstart/src/
+/img/graphics/rpcn/src/
+/img/icons/arrows/src/
 /img/meta/mobile/src/
 /lib/compat/
 /lib/cronjob/
+/lib/module/rpcn/log.txt
 ads.txt
+backup.bat
 blog/
 cache/
 compatibility2.php
@@ -26,4 +29,3 @@ robots.txt
 rpcs4.php
 update/
 wiki/
-yaml_test_script.php

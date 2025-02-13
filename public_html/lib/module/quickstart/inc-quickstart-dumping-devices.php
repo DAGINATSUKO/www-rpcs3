@@ -23,6 +23,10 @@
 	</div>
 </div>
 <div class='device-con-container'>
+<div class="anchor-point" id="dumping_pc">
+	</div>
+	<div class="anchor-point" id="dumping_ps3">
+	</div>
 	<div class='device-con-outer-left'>
 		<div class='device-con-inner-a'>
 			<div class='performance-con-spec performance-ico-good'>

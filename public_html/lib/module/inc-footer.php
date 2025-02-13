@@ -53,6 +53,11 @@
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
+										<a href="/rpcn">
+										<span>RPCN</span>
+										</a>
+									</div>
+									<div class="footer-tx2-bound">
 										<a href="/faq">
 										<span>FAQs</span>
 										</a>

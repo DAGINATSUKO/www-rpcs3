@@ -268,7 +268,7 @@
         "comm_ids": ["NPWR00726"]
     },
     "Alien Rage": {
-        "title_ids": ["NPEB01088"],
+        "title_ids": ["NPEB01088", "NPUB30863"],
         "comm_ids": ["NPWR03983"]
     },
     "Alien Shooter [EU]": {
@@ -1332,7 +1332,7 @@
         "comm_ids": ["NPWR06364"]
     },
     "Castle Crashers": {
-        "title_ids": ["NPUB30181"],
+        "title_ids": ["NPUB30181", "NPEB00293"],
         "comm_ids": ["NPWR00765"]
     },
     "Castle of Illusion Starring Mickey Mouse": {
@@ -2648,7 +2648,7 @@
         "comm_ids": ["NPWR04429"]
     },
     "Everybody's Golf 6 [JP]": {
-        "title_ids": ["BCJS30089"],
+        "title_ids": ["BCJS30089", "NPJA00086"],
         "comm_ids": ["NPWR03752"]
     },
     "Everybody's Putter Golf with Toro": {
@@ -2875,6 +2875,10 @@
         "title_ids": ["BLES01059", "BLJM60274", "BLUS30630"],
         "comm_ids": ["NPWR01198"]
     },
+    "FIFA 11 Demo": {
+        "title_ids": ["NPUB90479"],
+        "comm_ids": [""]
+    },
     "FIFA 12": {
         "title_ids": ["BLES01381", "BLUS30809", "BLJM60996"],
         "comm_ids": ["NPWR02104"]
@@ -2917,6 +2921,10 @@
     },
     "FIFA Street 3": {
         "title_ids": ["BLES00188", "BLUS30099", "BLJM60079"],
+        "comm_ids": [""]
+    },
+    "FIFA Street Demo": {
+        "title_ids": ["NPUB90696"],
         "comm_ids": [""]
     },
     "Fight Night Champion": {
@@ -3056,7 +3064,7 @@
         "comm_ids": ["NPWR00672"]
     },
     "Frozen Free Fall - Snowball Fight": {
-        "title_ids": ["NPEB02288"],
+        "title_ids": ["NPEB02288", "NPUB31726"],
         "comm_ids": ["NPWR08931"]
     },
     "Frozen Synapse Prime": {
@@ -3202,6 +3210,10 @@
     "GLADIATOR VS": {
         "title_ids": ["BLJM60398"],
         "comm_ids": ["NPWR02544"]
+    },
+    "Go! Puzzle": {
+        "title_ids": ["NPUA80022"],
+        "comm_ids": ["NPWR00039"]
     },
     "Go! Sudoku": {
         "title_ids": ["NPUA80011"],
@@ -3630,6 +3642,10 @@
     "Hitman: Contracts": {
         "title_ids": [""],
         "comm_ids": ["NPWR03681"]
+    },
+    "Hitman: Sniper Challenge": {
+        "title_ids": ["NPEB00867"],
+        "comm_ids": [""]
     },
     "Hitogata Happa": {
         "title_ids": ["NPUA30030"],
@@ -4072,7 +4088,7 @@
         "comm_ids": ["NPWR00133"]
     },
     "Just Dance 2014": {
-        "title_ids": ["BLES01955"],
+        "title_ids": ["BLES01955", "BLUS31315"],
         "comm_ids": ["NPWR05003"]
     },
     "Just Dance 2015": {
@@ -4084,7 +4100,7 @@
         "comm_ids": ["NPWR08881"]
     },
     "Just Dance 2017": {
-        "title_ids": ["BLES02231"],
+        "title_ids": ["BLES02231", "BLUS31595"],
         "comm_ids": ["NPWR10901"]
     },
     "Just Dance 2018": {
@@ -4180,7 +4196,7 @@
         "comm_ids": ["NPWR01794"]
     },
     "KILLER IS DEAD": {
-        "title_ids": ["BLJS10215", "NPEB01370", "BCAS20292"],
+        "title_ids": ["BLJS10215", "NPEB01370", "BCAS20292", "BLUS31186"],
         "comm_ids": ["NPWR04374"]
     },
     "Killzone": {
@@ -5579,6 +5595,10 @@
         "title_ids": ["NPUB30146"],
         "comm_ids": ["NPWR00883"]
     },
+    "NCAA Basketball 09": {
+        "title_ids": ["BLUS30231"],
+        "comm_ids": ["NPWR00515"]
+    },
     "NCAA Basketball 10": {
         "title_ids": ["BLUS30444"],
         "comm_ids": ["NPWR00908"]
@@ -5730,6 +5750,10 @@
     "NHL 13": {
         "title_ids": ["BLES01691", "BLUS31003"],
         "comm_ids": ["NPWR03044"]
+    },
+    "NHL 13 Demo": {
+        "title_ids": ["NPUB90801"],
+        "comm_ids": ["NPWR03691"]
     },
     "NHL 14": {
         "title_ids": ["BLUS31179", "BLES01853"],
@@ -6144,7 +6168,7 @@
         "comm_ids": ["NPWR02621"]
     },
     "PlayStation Home": {
-        "title_ids": ["NPEA00013", "NPIA00005", "NPIA00010", "NPEQ00001", "NPEQ00004", "NPEQ00005", "NPEQ00021", "NPEQ00023", "NPEQ10001", "NPUQ00001", "NPUQ00002", "NPUQ00003", "NPUQ00004", "NPUQ00005", "NPUQ00006", "NPUQ00007", "NPUQ00008", "NPUQ00010", "NPUQ00011", "NPUQ00012", "NPUQ00013", "NPUQ00015", "NPUQ00016", "NPUQ00020", "NPUQ00030", "NPUQ10001", "NPUQ10012", "NPJQ50100", "NPJQ50140", "NPUR00001", "NPUR00002", "NPUR00003", "NPUR00010", "NPUR00011", "NPUR00012", "NPUR00020", "NPUR00021", "NPUR00022", "NPUR00030", "NPUR00031", "NPUR00032", "NPUR00040", "NPER00003", "NPER00008", "NPER00009", "NPER00011", "NPER00014", "NPER00017", "NPER00024", "NPER00025", "NPER00027", "NPER00031", "NPER00034", "NPER00035", "NPER00037", "NPER00040", "NPER00042", "NPER00046", "NPER00048", "NPUR00052", "NPER00050", "NPER00052", "NPER00053", "NPER00055", "NPER00056", "NPER00057", "NPER00061", "NPER00062", "NPER00063", "NPER00064", "NPER00066", "NPER00071", "NPER00072", "NPER00073", "NPER00075", "NPER00078", "NPER10001", "NPUR00050", "NPUR00051", "NPUR00060", "NPUR00061", "NPUR00070", "NPUR00071", "NPUR00072", "NPUR00080", "NPUR00081", "NPUR00090", "NPUR00091", "NPUR00100", "NPUR00110", "NPUR00120", "NPUR00121", "NPUR00130", "NPUR00140", "NPUR00141", "NPUR00150", "NPUR00160", "NPUR00170", "NPUR00180", "NPUR00190", "NPUR00191", "NPUR00200", "NPUR00320", "NPUR10001", "NPUR10002", "NPUR10010", "NPUR10011", "NPUR10012", "NPUR10013", "NPUR10014", "NPUR10015", "NPUR10016", "NPUR30001", "NPUR30020", "NPUR30030", "NPUR30040", "NPUR30050", "NPUR30051", "NPUR30060", "NPUR30070", "NPUR30090", "NPUR30092", "NPUR30100", "NPUR30110", "NPUR30111", "NPUR30120", "NPUR30130", "NPUR30151", "NPUR30160", "NPUR30170", "NPUR30180", "NPUR30181", "NPUR30190", "NPUR30200", "NPUR30210", "NPUR30220", "NPUR30230", "NPUR30231", "NPUR30250", "NPUR30260", "NPUR30261", "NPUR30262", "NPUR30270", "NPUR30290", "NPUR30300", "NPJR50030", "NPJR50120", "NPJR50190", "NPJR50260", "NPJR50310"],
+        "title_ids": ["NPEA00013", "NPIA00005", "NPIA00010", "NPEQ00001", "NPEQ00004", "NPEQ00005", "NPEQ00021", "NPEQ00023", "NPEQ10001", "NPUQ00001", "NPUQ00002", "NPUQ00003", "NPUQ00004", "NPUQ00005", "NPUQ00006", "NPUQ00007", "NPUQ00008", "NPUQ00010", "NPUQ00011", "NPUQ00012", "NPUQ00013", "NPUQ00015", "NPUQ00016", "NPUQ00020", "NPUQ00030", "NPUQ10001", "NPUQ10012", "NPJQ50100", "NPJQ50140", "NPUR00001", "NPUR00002", "NPUR00003", "NPUR00010", "NPUR00011", "NPUR00012", "NPUR00020", "NPUR00021", "NPUR00022", "NPUR00030", "NPUR00031", "NPUR00032", "NPUR00040", "NPER00003", "NPER00008", "NPER00009", "NPER00011", "NPER00014", "NPER00017", "NPER00024", "NPER00025", "NPER00027", "NPER00031", "NPER00034", "NPER00035", "NPER00037", "NPER00040", "NPER00042", "NPER00046", "NPER00048", "NPUR00052", "NPER00050", "NPER00052", "NPER00053", "NPER00055", "NPER00056", "NPER00057", "NPER00059", "NPER00061", "NPER00062", "NPER00063", "NPER00064", "NPER00066", "NPER00071", "NPER00072", "NPER00073", "NPER00075", "NPER00076", "NPER00078", "NPER10001", "NPUR00050", "NPUR00051", "NPUR00060", "NPUR00061", "NPUR00070", "NPUR00071", "NPUR00072", "NPUR00080", "NPUR00081", "NPUR00090", "NPUR00091", "NPUR00100", "NPUR00110", "NPUR00120", "NPUR00121", "NPUR00130", "NPUR00140", "NPUR00141", "NPUR00150", "NPUR00160", "NPUR00170", "NPUR00180", "NPUR00190", "NPUR00191", "NPUR00200", "NPUR00320", "NPUR10001", "NPUR10002", "NPUR10010", "NPUR10011", "NPUR10012", "NPUR10013", "NPUR10014", "NPUR10015", "NPUR10016", "NPUR30001", "NPUR30020", "NPUR30030", "NPUR30040", "NPUR30050", "NPUR30051", "NPUR30060", "NPUR30070", "NPUR30090", "NPUR30092", "NPUR30100", "NPUR30110", "NPUR30111", "NPUR30120", "NPUR30130", "NPUR30151", "NPUR30160", "NPUR30170", "NPUR30180", "NPUR30181", "NPUR30190", "NPUR30200", "NPUR30210", "NPUR30220", "NPUR30230", "NPUR30231", "NPUR30250", "NPUR30260", "NPUR30261", "NPUR30262", "NPUR30270", "NPUR30290", "NPUR30300", "NPJR50030", "NPJR50120", "NPJR50190", "NPJR50260", "NPJR50310"],
         "comm_ids": ["NPWR00050", "NPWR00432"]
     },
     "PlayStation Move Fitness": {
@@ -6212,7 +6236,7 @@
         "comm_ids": ["NPWR00374"]
     },
     "Prince of Persia The Forgotten Sands": {
-        "title_ids": ["BLES00840", "BLUS30401", "BLKS20193"],
+        "title_ids": ["BLES00840", "BLUS30401", "BLKS20193", "NPEB00774"],
         "comm_ids": ["NPWR01112"]
     },
     "Prince of Persia: The Sands of Time": {
@@ -6568,7 +6592,7 @@
         "comm_ids": ["NPWR00941"]
     },
     "Ratchet & Clank: All 4 One": {
-        "title_ids": ["BCES01142", "BCUS98175", "NPUA80695"],
+        "title_ids": ["BCES01141", "BCES01142", "BCUS98175", "NPUA80695", "NPEA00356"],
         "comm_ids": ["NPWR01008"]
     },
     "Ratchet & Clank: Into the Nexus": {
@@ -6828,7 +6852,7 @@
         "comm_ids": ["NPWR06135"]
     },
     "RISK": {
-        "title_ids": ["NPUB31577"],
+        "title_ids": ["NPUB31577", "NPEB02103"],
         "comm_ids": ["NPWR07145"]
     },
     "RISK URBAN ASSAULT": {
@@ -7280,7 +7304,7 @@
         "comm_ids": ["NPWR01031"]
     },
     "Section 8: Prejudice": {
-        "title_ids": ["NPEB00386"],
+        "title_ids": ["NPEB00386", "NPUB30381"],
         "comm_ids": ["NPWR01361"]
     },
     "SEGA Bass Fishing": {
@@ -8732,7 +8756,7 @@
         "comm_ids": ["NPWR01348"]
     },
     "The Lord of the Rings: Conquest": {
-        "title_ids": ["BLUS30226"],
+        "title_ids": ["BLUS30226", "BLES00412"],
         "comm_ids": ["NPWR00537"]
     },
     "The Lord of the Rings: War in the North": {
@@ -8788,7 +8812,7 @@
         "comm_ids": ["NPWR01305"]
     },
     "The Sims 3 Pets": {
-        "title_ids": ["BLJM60988"],
+        "title_ids": ["BLJM60988", "BLUS30803"],
         "comm_ids": ["NPWR02094"]
     },
     "The Smurfs 2": {
@@ -8899,6 +8923,10 @@
         "title_ids": ["BLUS30013"],
         "comm_ids": [""]
     },
+    "Tiger Woods PGA TOUR 08": {
+        "title_ids": ["BLUS30053"],
+        "comm_ids": [""]
+    },
     "Tiger Woods PGA TOUR 10": {
         "title_ids": ["BLUS30286"],
         "comm_ids": ["NPWR00640"]
@@ -8908,7 +8936,7 @@
         "comm_ids": ["NPWR01174"]
     },
     "Tiger Woods PGA TOUR 12: The Masters": {
-        "title_ids": ["BLES01270"],
+        "title_ids": ["BLES01270", "NPEB90306"],
         "comm_ids": ["NPWR01650"]
     },
     "Tiger Woods PGA TOUR 13": {
@@ -9030,6 +9058,10 @@
     "Tom Clancy's Ghost Recon Future Soldier": {
         "title_ids": ["BLES00924", "BLUS30521", "BLES00922"],
         "comm_ids": ["NPWR00848"]
+    },
+    "Tom Clancy's Ghost Recon Future Soldier - Multiplayer Beta": {
+        "title_ids": ["NPUB90777"],
+        "comm_ids": [""]
     },
     "Tom Clancy's Ghost Recon: Advanced Warfighter 2": {
         "title_ids": ["BLUS30034"],
@@ -9461,7 +9493,7 @@
     },
     "Unknown Game": {
         "title_ids": [""],
-        "comm_ids": ["NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR01232", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470", "NPWR00057", "NPWR00019", "NPWR00189"]
+        "comm_ids": ["NPWR06053", "NPWR10955", "NPWR02966", "NPWR00059", "NPWR03536", "NPWR01918", "NPWR00075", "NPWR09695", "NPWR01637", "NPWR01138", "NPWR00250", "NPWR01787", "NPWR03377", "NPWR00006", "NPWR04446", "NPWR00137", "NPWR03015", "NPWR04378", "NPWR03383", "NPWR03943", "NPWR03082", "NPWR02479", "NPWR06866", "NPWR03405", "NPWR00335", "NPWR04189", "NPWR07087", "NPWR00326", "NPWR05071", "NPWR02707", "NPWR02227", "NPWR06976", "NPWR01232", "NPWR02297", "NPWR00930", "NPWR00197", "NPWR13864", "NPWR00337", "NPWR03344", "NPWR00470", "NPWR00057", "NPWR00019", "NPWR00189", "NPWR01594", "NPWR03163", "NPWR00125", "NPWR00107", "NPWR00067", "NPWR00069", "NPWR00169", "NPWR01803", "NPWR00522", "NPWR01501", "NPWR00101", "NPWR00082"]
     },
     "Unmechanical": {
         "title_ids": ["NPUB31605"],
@@ -9476,7 +9508,7 @@
         "comm_ids": ["NPWR00707"]
     },
     "Unreal Tournament  3": {
-        "title_ids": ["BLES00200", "BLUS30086"],
+        "title_ids": ["BLES00200", "BLUS30086", "BLJM60090"],
         "comm_ids": ["NPWR00194"]
     },
     "Untold Legends: Dark Kingdom": {
@@ -10004,7 +10036,7 @@
         "comm_ids": ["NPWR03495"]
     },
     "WWE 2K14": {
-        "title_ids": ["BLES01937"],
+        "title_ids": ["BLES01937", "NPUB31343"],
         "comm_ids": ["NPWR05041"]
     },
     "WWE 2K15": {

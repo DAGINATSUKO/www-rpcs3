@@ -299,3 +299,111 @@ $(document).ready(function() {
   // Attach blur event handler to the search bar
   $('.database-search').on('blur', removeFocusEffect);
 });
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+// Function to generate array of image paths
+function generateImagePaths(count) {
+    return Array.from({ length: count }, (_, i) => `/img/graphics/rpcn/games/game-${i + 1}.jpg`);
+}
+
+class ImageCycler {
+    constructor(elementSelector, imageCount) {
+        // Get the container element
+        this.container = document.querySelector(elementSelector);
+        
+        // Create two image elements for cross-fading
+        this.imageElements = [
+            document.createElement('div'),
+            document.createElement('div')
+        ];
+        
+        // Set up the image elements
+        this.imageElements.forEach(el => {
+            el.style.position = 'absolute';
+            el.style.top = '0';
+            el.style.left = '0';
+            el.style.width = '100%';
+            el.style.height = '100%';
+            el.style.backgroundSize = 'cover';
+            el.style.backgroundPosition = 'center';
+            el.style.transition = 'opacity 1s ease-in-out';
+            this.container.appendChild(el);
+        });
+        
+        // Make sure container has relative positioning
+        this.container.style.position = 'relative';
+        
+        // Initialize state
+        this.images = generateImagePaths(imageCount);
+        this.unusedImages = [...this.images];
+        this.currentIndex = 0; // Track which image element is currently visible
+        this.isTransitioning = false;
+        
+        // Set initial random image
+        this.setRandomImage();
+    }
+    
+    async setRandomImage() {
+        if (this.isTransitioning) return;
+        this.isTransitioning = true;
+        
+        // Reset unused images if necessary
+        if (this.unusedImages.length === 0) {
+            this.unusedImages = [...this.images];
+            if (this.currentImage) {
+                const index = this.unusedImages.indexOf(this.currentImage);
+                if (index > -1) {
+                    this.unusedImages.splice(index, 1);
+                }
+            }
+        }
+        
+        // Get next random image
+        const randomIndex = Math.floor(Math.random() * this.unusedImages.length);
+        const newImage = this.unusedImages[randomIndex];
+        this.unusedImages.splice(randomIndex, 1);
+        
+        // Get references to current and next elements
+        const currentEl = this.imageElements[this.currentIndex];
+        const nextEl = this.imageElements[this.currentIndex === 0 ? 1 : 0];
+        
+        // Set up next image
+        nextEl.style.backgroundImage = `url('${newImage}')`;
+        nextEl.style.opacity = '0';
+        
+        // Force browser reflow
+        void nextEl.offsetHeight;
+        
+        // Perform the cross-fade
+        currentEl.style.opacity = '0';
+        nextEl.style.opacity = '1';
+        
+        // Update state
+        this.currentImage = newImage;
+        this.currentIndex = this.currentIndex === 0 ? 1 : 0;
+        
+        // Wait for transition to complete
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        this.isTransitioning = false;
+    }
+}
+
+// Initialize the cycler when the DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    // Add necessary CSS
+    const style = document.createElement('style');
+    style.textContent = `
+        .rpcn-playerbase-img-banner {
+            position: relative;
+            overflow: hidden;
+        }
+    `;
+    document.head.appendChild(style);
+    
+    const imageCycler = new ImageCycler('.rpcn-playerbase-img-banner', 20);
+    
+    // Change image every 10 seconds
+    setInterval(() => {
+        imageCycler.setRandomImage();
+    }, 10000);
+});
