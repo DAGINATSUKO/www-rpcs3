@@ -136,7 +136,7 @@
 						<p>
 							 Windows
 						</p>
-						<span>Windows 10 22H2 or later, Windows 11 23H2 or later</span><br>
+						<span>Windows 10 22H2 or later, Windows 11 24H2 or later</span><br>
 						<br>
 						<p>
 							 Linux
@@ -146,7 +146,7 @@
 						<p>
 							 macOS
 						</p>
-						<span>macOS 12.6+, 13.0+, 14.3+ or later</span><br>
+						<span>macOS 13.0+, 14.3+, 15.0+ or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
@@ -289,7 +289,7 @@
 						<p>
 							 macOS
 						</p>
-						<span>macOS 12.6+, 13.0+, 14.3+ or later</span><br>
+						<span>macOS 13.0+, 14.3+, 15.0+ or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
