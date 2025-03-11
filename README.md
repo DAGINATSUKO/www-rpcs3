@@ -21,9 +21,6 @@ docker-compose up
 From there, open a web browser of your choosing and navigate to your preferred [localhost](http://localhost:8080) address.
 However, you will need to access it from your browser by adding the `:8080` to your localhost address.
 
-This website uses a cron job to fetch the Roadmap. Your cron job should be similar to `php public_html/lib/cronjob/cron.roadmap.php` (using the appropriate paths to the php executable and the public_html directory) with a recommended timing of once every hour (`0 * * * *`).
-
-
 #### External Resources
 * [Flaticon](http://www.flaticon.com)
 * [Freepik](http://www.freepik.com)
