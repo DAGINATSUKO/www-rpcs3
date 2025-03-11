@@ -130,21 +130,6 @@
 					<div class='container-tx1-block darkmode-txt'>
 						<div class='container-emp-block'>
 						</div>
-						<h2>Founders</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 A list of the project founders who are also considered former, non-active developers.
-						</p>
-					</div>
-				</div>
-			</div>
-			<?php include 'lib/module/about/inc-about-founders.php';?>
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
-						<div class='container-emp-block'>
-						</div>
 						<h2>Current Developers</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
@@ -155,6 +140,21 @@
 				</div>
 			</div>
 			<?php include 'lib/module/about/inc-about-current.php';?>
+			<div class='container-con-block darkmode-block'>
+				<div class='container-con-wrapper'>
+					<div class='container-tx1-block darkmode-txt'>
+						<div class='container-emp-block'>
+						</div>
+						<h2>Founders</h2>
+					</div>
+					<div class='container-tx2-block darkmode-txt'>
+						<p>
+							 A list of the project founders who are also considered former, non-active developers.
+						</p>
+					</div>
+				</div>
+			</div>
+			<?php include 'lib/module/about/inc-about-founders.php';?>
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
