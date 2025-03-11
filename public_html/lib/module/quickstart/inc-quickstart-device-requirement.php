@@ -141,7 +141,7 @@
 						<p>
 							 Linux
 						</p>
-						<span>Linux 6.10 (Latest), 6.6 (LTS) or later</span><br>
+						<span>Linux 6.13 (Latest), 6.12 (LTS) or later</span><br>
 						<br>
 						<p>
 							 macOS
@@ -151,7 +151,7 @@
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.3+, 14.1+ or later</span>
+						<span>FreeBSD 13.4+, 14.1+ or later</span>
 					</div>
 				</div>
 			</div>
@@ -284,7 +284,7 @@
 						<p>
 							 Linux
 						</p>
-						<span>Linux 5.4 (Older LTS), Ubuntu 20.04 or later</span><br>
+						<span>Linux 5.15 (Older LTS), Ubuntu 22.04 or later</span><br>
 						<br>
 						<p>
 							 macOS
@@ -294,7 +294,7 @@
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.3 or later</span>
+						<span>FreeBSD 13.4 or later</span>
 					</div>
 				</div>
 			</div>
