@@ -146,7 +146,7 @@
 						<p>
 							 macOS
 						</p>
-						<span>macOS 13.0+, 14.3+, 15.0+ or later</span><br>
+						<span>macOS 14.3+, 15.0+ or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
@@ -289,7 +289,7 @@
 						<p>
 							 macOS
 						</p>
-						<span>macOS 13.0+, 14.3+, 15.0+ or later</span><br>
+						<span>macOS 14.3+, 15.0+ or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
