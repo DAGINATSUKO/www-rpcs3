@@ -18,7 +18,7 @@
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
 				<span class="user-tx2-member pulsate">
-				EladAsh </span>
+				Elad335 </span>
 				<span class="user-con-role user-role-lead">
 				Lead Core Developer </span>
 			</div>
@@ -26,9 +26,9 @@
 			</div>
 			<div class='user-tx3-content darkmode-txt'>
 				<span>
-				Ever since EladAsh started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability.<br>
+				Ever since Elad335 started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability.<br>
 				<br>
-				EladAsh is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
+				Elad335 is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
 			</div>
 			<div class="user-con-subtitle">
 				<span class="user-tx1-subtitle ">Computer Specifications</span>
@@ -46,28 +46,28 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Intel Core i7-6700K (4.2GHz)</span>
+							<span>Intel Core i7-14700K (5.6GHz)</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>NVIDIA GTX 980 Ti</span>
+							<span>NVIDIA RTX 4070 SUPER</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>16GB DDR4 (2133MHz)</span>
+							<span>32GB RAM</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
-						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Windows 10</span>
+							<span>Windows 11</span>
 						</div>
 					</div>
 				</div>
@@ -142,21 +142,21 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Radeon RX 6700 XT</span>
+							<span>Radeon RX 7900 GRE</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>NVIDIA GTX 1050 Ti</span>
+							<span>NVIDIA RTX 3050</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>40GB DDR4 (3200MHz)</span>
+							<span>64GB DDR4 (3200MHz)</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
@@ -234,7 +234,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 7 5800X (4.6GHz)</span>
+						<span>AMD Ryzen 7 9800X3D (5.2GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -248,7 +248,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB DDR4 (3600MHz)</span>
+						<span>32GB DDR5 (6000MHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -634,7 +634,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 2070</span>
+						<span>NVIDIA RTX 3070</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -645,10 +645,10 @@
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 10</span>
+						<span>Windows 11</span>
 					</div>
 				</div>
 			</div>
@@ -944,21 +944,21 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD R7 5900X (3.8GHz)</span>
+						<span>AMD R9 9950X (5.7GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 1070</span>
+						<span>NVIDIA RTX 3070</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3200MHz)</span>
+						<span>128GB DDR5 (5600 MHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1044,7 +1044,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i7-8700K (4.8GHz)</span>
+						<span>Intel Core i7-8700K (4.7GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
