@@ -18,7 +18,7 @@
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
 				<span class="user-tx2-member pulsate">
-				EladAsh </span>
+				Elad335 </span>
 				<span class="user-con-role user-role-lead">
 				Lead Core Developer </span>
 			</div>
@@ -26,9 +26,9 @@
 			</div>
 			<div class='user-tx3-content darkmode-txt'>
 				<span>
-				Ever since EladAsh started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability.<br>
+				Ever since Elad335 started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability.<br>
 				<br>
-				EladAsh is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
+				Elad335 is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
 			</div>
 			<div class="user-con-subtitle">
 				<span class="user-tx1-subtitle ">Computer Specifications</span>
@@ -46,28 +46,28 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Intel Core i7-6700K (4.2GHz)</span>
+							<span>Intel Core i7-14700K (5.6GHz)</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>NVIDIA GTX 980 Ti</span>
+							<span>NVIDIA RTX 4070 SUPER</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>16GB DDR4 (2133MHz)</span>
+							<span>32GB RAM</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
-						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Windows 10</span>
+							<span>Windows 11</span>
 						</div>
 					</div>
 				</div>
@@ -142,21 +142,21 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Radeon RX 6700 XT</span>
+							<span>Radeon RX 7900 GRE</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>NVIDIA GTX 1050 Ti</span>
+							<span>NVIDIA RTX 3050</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>40GB DDR4 (3200MHz)</span>
+							<span>64GB DDR4 (3200MHz)</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
@@ -234,7 +234,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 7 5800X (4.6GHz)</span>
+						<span>AMD Ryzen 7 9800X3D (5.2GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -248,7 +248,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB DDR4 (3600MHz)</span>
+						<span>32GB DDR5 (6000MHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -634,7 +634,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 2070</span>
+						<span>NVIDIA RTX 3070</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -645,10 +645,10 @@
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 10</span>
+						<span>Windows 11</span>
 					</div>
 				</div>
 			</div>
@@ -944,21 +944,21 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD R7 5900X (3.8GHz)</span>
+						<span>AMD R9 9950X (5.7GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 1070</span>
+						<span>NVIDIA RTX 3070</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3200MHz)</span>
+						<span>128GB DDR5 (5600 MHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1044,7 +1044,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i7-8700K (4.8GHz)</span>
+						<span>Intel Core i7-8700K (4.7GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1122,53 +1122,6 @@
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
 						<span>X (Twitter)</span>
-					</div>
-				</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/velocity.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #c2b3c5">2018</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/velocity.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			velocity </span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			There is no description available for this team member. Please check back later or feel free to review their <a href='https://github.com/RPCS3/rpcs3' target="_blank">contributions</a>.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">You can also find them on...</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/velocityra" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
 					</div>
 				</div>
 				</a>
@@ -1298,95 +1251,6 @@
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
 						<span>X (Twitter)</span>
-					</div>
-				</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #e1cbc5">2017</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			JohnHolmesII </span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			JohnHolmesII began contributing with edits to the README, and these efforts slowly evolved into various DevOps roles including maintaining build steps, cleaning build output, and helping to maintain CI/CD functions. In the Discord community, he is known as "hurb".</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 9 5950X (4.7GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Radeon RX 6700 XT</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3600MHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-na.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Linux</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">You can also find them on...</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/johnholmesii" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
 					</div>
 				</div>
 				</a>
@@ -1736,126 +1600,6 @@
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
 						<span>X (Twitter)</span>
-					</div>
-				</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/tge.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/netherlands.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #ceced9">2018</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/tge.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			TGE </span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			There is no description available for this team member. Please check back later or feel free to review their <a href='https://github.com/RPCS3/rpcs3' target="_blank">contributions</a>.</span>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/juhn.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #b0b294">2017</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/juhn.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			Juhn 0xCA7F00D</span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			There is no description available for this team member. Please check back later or feel free to review their <a href='https://github.com/RPCS3/rpcs3' target="_blank">contributions</a>.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD R7 3800X (3.9GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 1080 Ti</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3733MHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 10</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">You can also find them on...</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/isjuhn" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
 					</div>
 				</div>
 				</a>
