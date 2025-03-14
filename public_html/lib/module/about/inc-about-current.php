@@ -389,14 +389,14 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
+						<span>Desktop (ATX)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i9-13900KS (6.2GHz)</span>
+						<span>AMD Ryzen 9950X3D (5.6GHz)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -405,7 +405,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 4090 FE</span>
+						<span>NVIDIA RTX 5090 FE</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -414,7 +414,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>48GB DDR4 (8200MHz C34)</span>
+						<span>64GB DDR4 (7600MHz C30)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -434,14 +434,14 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
+						<span>Desktop (ITX)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i9-10900K (5.1GHz)</span>
+						<span>Intel Core i9-13900KS (5.7GHz)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -450,7 +450,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 3080 FE</span>
+						<span>NVIDIA RTX 4090 FE</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -459,7 +459,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB DDR4 (4266MHz C16)</span>
+						<span>48GB DDR4 (8266MHz C36)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -504,42 +504,10 @@
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os-macos.png') no-repeat center;">
+					<div class="specbox-ico-part darkmode-invert" style="background: url('/img/icons/list/os-macos.png') no-repeat center; filter: unset !important;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>macOS 14 / Windows 11</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-steam-deck.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Steam Deck</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Van Gogh APU</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB LPDDR5 (5500MHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-steam.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Linux (SteamOS)</span>
+						<span>macOS 15 / Windows 11</span>
 					</div>
 				</div>
 			</div>
@@ -563,7 +531,7 @@
 					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>X (Twitter)</span>
+						<span>X</span>
 					</div>
 				</div>
 				</a>
@@ -989,7 +957,7 @@
 					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>X (Twitter)</span>
+						<span>X</span>
 					</div>
 				</div>
 				</a>
@@ -1121,7 +1089,7 @@
 					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>X (Twitter)</span>
+						<span>X</span>
 					</div>
 				</div>
 				</a>
@@ -1250,7 +1218,7 @@
 					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>X (Twitter)</span>
+						<span>X</span>
 					</div>
 				</div>
 				</a>
@@ -1452,7 +1420,7 @@
 					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>X (Twitter)</span>
+						<span>X</span>
 					</div>
 				</div>
 				</a>
@@ -1498,14 +1466,14 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
+						<span>Desktop (ATX)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i9-13900KS (5.9GHz)</span>
+						<span>AMD Ryzen 9800X3D (5.6GHz)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -1523,7 +1491,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR5 (8000MHz C32)</span>
+						<span>32GB DDR5 (8200MHz C32)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -1543,7 +1511,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
+						<span>Desktop (ITX)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1557,7 +1525,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 3090</span>
+						<span>NVIDIA RTX 4070</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -1599,7 +1567,7 @@
 					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
 					</div>
 					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>X (Twitter)</span>
+						<span>X</span>
 					</div>
 				</div>
 				</a>

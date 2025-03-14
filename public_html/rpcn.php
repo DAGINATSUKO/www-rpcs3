@@ -61,7 +61,7 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 			</div>
 			<div class="banner-tx2-title fade-up-onstart">
 				<p>
-                    Real-time stats for games currently being played online via RPCN
+                    Real-time stats for games being played via RPCN
 				</p>
 			</div>
 		</div>
