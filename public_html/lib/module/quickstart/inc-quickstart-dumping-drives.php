@@ -136,7 +136,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>WP50NB40</span>
+			<span>WP50NB40 <span class="drives-txt-revisions">External Drive</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
