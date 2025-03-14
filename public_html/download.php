@@ -115,8 +115,6 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 				</div>
 				</a>
-			</div>
-			<div class="generic-con-button">
 				<a href='https://github.com/RPCS3/rpcs3-binaries-linux-arm64/releases/download/build-563a3d3587b309bdbad947363faf1b9dab434d46/rpcs3-v0.0.35-17589-563a3d35_linux_aarch64.AppImage' target="_blank">
 				<div class="generic-btn-button">
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
@@ -126,8 +124,6 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 				</div>
 				</a>
-			</div>
-			<div class="generic-con-button">
 				<a href='https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-563a3d3587b309bdbad947363faf1b9dab434d46/rpcs3-v0.0.35-17589-563a3d35_macos.7z' target="_blank">
 				<div class="generic-btn-button">
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
@@ -137,8 +133,6 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 				</div>
 				</a>
-			</div>
-			<div class="generic-con-button">
 				<a href='https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-02362a480712a18cc3567eea2f9195fa65c4e117/rpcs3-v0.0.33-16940-02362a48_macos.7z' target="_blank">
 				<div class="generic-btn-button">
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
@@ -148,8 +142,6 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 				</div>
 				</a>
-			</div>
-			<div class="generic-con-button">
 				<a href='https://github.com/RPCS3/rpcs3-binaries-mac/releases/download/build-310fa7127d4e6aeaac85f9d4f9efb3635b5d9861/rpcs3-v0.0.25-14517-310fa712_macos.dmg' target="_blank">
 				<div class="generic-btn-button">
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
