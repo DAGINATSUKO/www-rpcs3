@@ -99,10 +99,6 @@ $(document).ready(function() {
 		$(".settings-submenu").fadeToggle(100);
 		$(".patreon-submenu").fadeOut();
 	});
-	$(".settings-submenu").fadeOut();
-	$(".settings-submenu").click(function() {
-		$(".settings-submenu").fadeOut(100);
-	});
 });
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 // Menu: Toggle for mobile

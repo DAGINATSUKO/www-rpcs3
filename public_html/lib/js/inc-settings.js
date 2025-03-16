@@ -1,96 +1,101 @@
-// Cookie Setting: Piracy notice popup
 $(document).ready(function() {
-  var piracyPolicyAgreed = Cookies.get("save-piracy-policy") === "true"; // Retrieve cookie value
-  // Function to update the piracy policy state
+  // Piracy notice popup - keeping this separately to ensure it works exactly as before
+  var piracyPolicyAgreed = Cookies.get("save-piracy-policy") === "true";
+  
   function updatePiracyPolicyState(agreed) {
     $('.mini-menu-btn-agree').toggleClass("activate-accept", agreed);
     $('.mini-menu-con-dimmer').toggleClass("object-show", !agreed).toggleClass("object-hidden", agreed);
   }
-  // Initialize piracy policy state based on cookie value
+  
   updatePiracyPolicyState(piracyPolicyAgreed);
-  // Toggle piracy policy on click
+  
   $('.mini-menu-btn-agree').on('click', function() {
     piracyPolicyAgreed = !piracyPolicyAgreed;
     updatePiracyPolicyState(piracyPolicyAgreed);
-    Cookies.set("save-piracy-policy", piracyPolicyAgreed, { expires: 365, path: '/' }); // Save cookie
+    Cookies.set("save-piracy-policy", piracyPolicyAgreed, { expires: 365, path: '/' });
   });
-});
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-// Cookie Setting: Text pulsate setting states
-$(document).ready(function() {
-  var pulsateEnabled = Cookies.get("save-pulsate") === "true"; // Retrieve cookie value
-  // Function to update the pulsate state
-  function updatePulsateState(enabled) {
-    $('.toggle-pulsate').toggleClass("activate-pulsate", enabled);
-    $('.pulsate').toggleClass("disable-pulsate", enabled);
-    $('.btn-pulsate').text(enabled ? "Pulsate - Off" : "Pulsate - On");
-  }
-  // Initialize pulsate state based on cookie value
-  updatePulsateState(pulsateEnabled);
-  // Toggle pulsate on click
-  $('.toggle-pulsate').on('click', function() {
-    pulsateEnabled = !pulsateEnabled;
-    updatePulsateState(pulsateEnabled);
-    Cookies.set("save-pulsate", pulsateEnabled, { expires: 365, path: '/' }); // Save cookie
-    location.reload(); // Reload on apply
-  });
-});
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-// Cookie Setting: GPU transparency
-$(document).ready(function() {
-  var transparencyEnabled = Cookies.get("save-transparency") === "true"; // Retrieve cookie value
-  // Function to update the transparency state
-  function updateTransparencyState(enabled) {
-    $('.toggle-transparency').toggleClass("activate-transparency", enabled);
-    $('.menu-con-container, .video-btn-play, .menu-tx1-message, .mobile-menu-con-container').toggleClass("disable-transparency", enabled);
-    $('.btn-transparency').text(enabled ? "Transparency - Off" : "Transparency - On");
-  }
-  // Initialize transparency state based on cookie value
-  updateTransparencyState(transparencyEnabled);
-  // Toggle transparency on click
-  $('.toggle-transparency').on('click', function() {
-    transparencyEnabled = !transparencyEnabled;
-    updateTransparencyState(transparencyEnabled);
-    Cookies.set("save-transparency", transparencyEnabled, { expires: 365, path: '/' }); // Save cookie
-    location.reload(); // Reload on apply
-  });
-});
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-$(document).ready(function() {
-  var particlesEnabled = Cookies.get("save-particles") === "true"; // Retrieve cookie value
-  // Function to update the particles state
-  function updateParticlesState(enabled) {
-    $('.toggle-particles').toggleClass("activate-particles", enabled);
-    $('#object-particles').toggleClass("object-hidden", enabled);
-    $('.btn-particles').text(enabled ? "Particles - Off" : "Particles - On");
-  }
-  // Initialize particles state based on cookie value
-  updateParticlesState(particlesEnabled);
-  // Toggle particles on click
-  $('.toggle-particles').on('click', function() {
-    particlesEnabled = !particlesEnabled;
-    updateParticlesState(particlesEnabled);
-    Cookies.set("save-particles", particlesEnabled, { expires: 365, path: '/' }); // Save cookie
-    location.reload(); // Reload on apply
-  });
-});
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-// Cookie Setting: GPU wavebar
-$(document).ready(function() {
-  var wavesEnabled = Cookies.get("save-waves") === "true"; // Retrieve cookie value
-  // Function to update the waves state
-  function updateWavesState(enabled) {
-    $('.toggle-waves').toggleClass("activate-waves", enabled);
-    $('.wavebar-con-wrap').toggleClass("object-hidden", enabled);
-    $('.btn-waves').text(enabled ? "Waves - Off" : "Waves - On");
-  }
-  // Initialize waves state based on cookie value
-  updateWavesState(wavesEnabled);
-  // Toggle waves on click
-  $('.toggle-waves').on('click', function() {
-    wavesEnabled = !wavesEnabled;
-    updateWavesState(wavesEnabled);
-    Cookies.set("save-waves", wavesEnabled, { expires: 365, path: '/' }); // Save cookie
-    location.reload(); // Reload on apply
+
+  // Configuration for other toggle features
+  const features = [
+    {
+      name: 'pulsate',
+      selector: '.toggle-pulsate',
+      activeClass: 'activate-pulsate',
+      toggleElements: [{
+        selector: '.pulsate',
+        hideClass: 'disable-pulsate'
+      }],
+      buttonTextSelector: '.btn-pulsate',
+      onText: 'Pulsate Off',
+      offText: 'Pulsate On'
+    },
+    {
+      name: 'transparency',
+      selector: '.toggle-transparency',
+      activeClass: 'activate-transparency',
+      toggleElements: [{
+        selector: '.menu-con-container, .video-btn-play, .menu-tx1-message, .mobile-menu-con-container',
+        hideClass: 'disable-transparency'
+      }],
+      buttonTextSelector: '.btn-transparency',
+      onText: 'Gaussian Off',
+      offText: 'Gaussian On'
+    },
+    {
+      name: 'particles',
+      selector: '.toggle-particles',
+      activeClass: 'activate-particles',
+      toggleElements: [{
+        selector: '#object-particles',
+        hideClass: 'object-hidden'
+      }],
+      buttonTextSelector: '.btn-particles',
+      onText: 'Particles Off',
+      offText: 'Particles On'
+    },
+    {
+      name: 'waves',
+      selector: '.toggle-waves',
+      activeClass: 'activate-waves',
+      toggleElements: [{
+        selector: '.wavebar-con-wrap',
+        hideClass: 'object-hidden'
+      }],
+      buttonTextSelector: '.btn-waves',
+      onText: 'Waves Off',
+      offText: 'Waves On'
+    }
+  ];
+
+  // Initialize and set up event handlers for all features
+  features.forEach(feature => {
+    const cookieName = `save-${feature.name}`;
+    let isEnabled = Cookies.get(cookieName) === "true";
+    
+    // Function to update the feature state
+    function updateState(enabled) {
+      // Toggle active class on the control element
+      $(feature.selector).toggleClass(feature.activeClass, enabled);
+      
+      // Toggle classes on elements
+      feature.toggleElements.forEach(element => {
+        $(element.selector).toggleClass(element.hideClass, enabled);
+      });
+      
+      // Update button text if applicable
+      if (feature.buttonTextSelector) {
+        $(feature.buttonTextSelector).text(enabled ? feature.onText : feature.offText);
+      }
+    }
+    
+    // Initialize state based on cookie value
+    updateState(isEnabled);
+    
+    // Set up click handler
+    $(feature.selector).on('click', function() {
+      isEnabled = !isEnabled;
+      updateState(isEnabled);
+      Cookies.set(cookieName, isEnabled, { expires: 365, path: '/' });
+    });
   });
 });

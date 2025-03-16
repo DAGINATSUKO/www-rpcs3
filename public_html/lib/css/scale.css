@@ -624,3 +624,15 @@
 			display: none;
 	}
 }
+
+
+@media screen and (max-width:1520px) {
+	.menu-btn-tx1-settings-tooltip {
+		display:none;
+	}
+}
+@media screen and (max-width:1620px) {
+	.sidebar-btn-tx1-tooltip {
+		display:none;
+	}
+}

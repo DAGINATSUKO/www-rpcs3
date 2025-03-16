@@ -1,8 +1,6 @@
 <div class='menu-con-release'>
 	<span>Website Release Preview</span>
 </div>
-
-
 <div class='discord-menu-con-dimmer popup-discord'>
 	<div class='discord-menu-con-container'>
 		<div class='discord-menu-ico-logo'>
@@ -30,7 +28,6 @@
 		</a>
 	</div>
 </div>
-
 <div class='reddit-menu-con-dimmer popup-reddit'>
 	<div class='reddit-menu-con-container'>
 		<div class='reddit-menu-ico-logo'>
@@ -59,10 +56,6 @@
 		</a>
 	</div>
 </div>
-
-
-
-
 <div class='mini-menu-con-dimmer'>
 	<div class='mini-menu-con-container'>
 		<div class='mini-menu-ico-logo'>
@@ -84,7 +77,6 @@
 		</div>
 	</div>
 </div>
-
 <div class='menu-con-message fade-out-onload'>
 	<div class='menu-tx1-message toggle-message fade-out-onload'>
 		<span>We are currently experiencing a higher server volume than usual. We sincerely apologize for any inconveniences.</span>
@@ -116,7 +108,8 @@
 		<div class="settings-menu-ico-darkmode">
 		</div>
 		<div class="settings-menu-btn-button btn-darkmode">
-			<span>Dark Theme - On/Off</span>
+			<span>Dark Theme</span>
+			<span class="settings-menu-tx2-button" >A darker theme for the website</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-divider">
@@ -124,8 +117,9 @@
 	<div class="settings-menu-con-wrapper toggle-transparency">
 		<div class="settings-menu-ico-transparency">
 		</div>
-		<div class="settings-menu-btn-button btn-transparency">
-			<span>Transparency - On</span>
+		<div class="settings-menu-btn-button">
+			<span class="btn-transparency">Gaussian Off</span>
+			<span class="settings-menu-tx2-button" >Gaussian blur for various elements</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-divider">
@@ -133,8 +127,9 @@
 	<div class="settings-menu-con-wrapper toggle-particles">
 		<div class="settings-menu-ico-particles">
 		</div>
-		<div class="settings-menu-btn-button btn-particles">
-			<span>Particles - On</span>
+		<div class="settings-menu-btn-button">
+			<span class="btn-particles">Particles Off</span>
+			<span class="settings-menu-tx2-button" >Particle effect for headings and footers</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-divider">
@@ -142,8 +137,9 @@
 	<div class="settings-menu-con-wrapper toggle-pulsate">
 		<div class="settings-menu-ico-pulsate">
 		</div>
-		<div class="settings-menu-btn-button btn-pulsate">
-			<span>Pulsate - On</span>
+		<div class="settings-menu-btn-button">
+			<span class="btn-pulsate">Pulsate Off</span>
+			<span class="settings-menu-tx2-button" >Pulsate effect for headings and text</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-divider">
@@ -151,17 +147,19 @@
 	<div class="settings-menu-con-wrapper toggle-waves">
 		<div class="settings-menu-ico-waves">
 		</div>
-		<div class="settings-menu-btn-button btn-waves">
-			<span>Waves - On</span>
+		<div class="settings-menu-btn-button">
+			<span class="btn-waves">Waves Off</span>
+			<span class="settings-menu-tx2-button" >Wave effect for headings and footers</span>
 		</div>
 	</div>
 	<div class="settings-menu-con-divider">
 	</div>
-	<div class="settings-menu-con-wrapper toggle-theme settings-menu-lower" style="border-top: solid 1px rgba(0,0,0,.02);">
+	<div class="settings-menu-con-wrapper toggle-theme settings-menu-lower" style="border-top: solid 1px rgba(0,0,0,.02); opacity: .25; pointer-events:none;">
 		<div class="settings-menu-ico-theme">
 		</div>
 		<div class="settings-menu-btn-button btn-theme">
 			<span>Change Theme</span>
+			<span class="settings-menu-tx2-button" >Website theme and colors</span>
 		</div>
 	</div>
 </div>

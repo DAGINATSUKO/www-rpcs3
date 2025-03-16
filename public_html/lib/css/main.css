@@ -676,7 +676,7 @@ a:hover {
     top: 80px;
     right: 8px;
     display: none;
-    width: 222px;
+    width: 286px;
     height: 390px;
     box-shadow: rgba(0,0,0,.2) 0 0 80px 0;
     border-radius: 16px;
@@ -725,7 +725,7 @@ a:hover {
 .settings-menu-btn-button {
     font-family: Roboto-Regular;
     font-size: 14px;
-    line-height: 64px;
+    line-height: 40px;
     position: relative;
     display: inline-block;
     float: left;
@@ -737,6 +737,12 @@ a:hover {
     color: #fff
 }
 
+.settings-menu-tx2-button {
+    font-size: 12px;
+    display: block;
+    line-height: 12px;
+}
+
 .settings-menu-ico-darkmode {
     display: inline-block;
     float: left;
@@ -745,7 +751,7 @@ a:hover {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 100%;
+    border-radius: 12px;
     border: solid 1px rgb(255 255 255/10%);
     background: rgb(255 255 255/10%) url("/img/icons/submenu/darkmode-h.png") center center/20px no-repeat
 }
@@ -758,7 +764,7 @@ a:hover {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 100%;
+    border-radius: 12px;
     border: solid 1px rgb(255 255 255/10%);
     background: rgb(255 255 255/10%) url("/img/icons/submenu/particles-h.png") center center/20px no-repeat
 }
@@ -771,7 +777,7 @@ a:hover {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 100%;
+    border-radius: 12px;
     border: solid 1px rgb(255 255 255/10%);
     background: rgb(255 255 255/10%) url(/img/icons/submenu/pulsate-h.png) center center/20px no-repeat
 }
@@ -784,7 +790,7 @@ a:hover {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 100%;
+    border-radius: 12px;
     border: solid 1px rgb(255 255 255/10%);
     background: rgb(255 255 255/10%) url(/img/icons/submenu/waves-h.png) center center/20px no-repeat
 }
@@ -797,7 +803,7 @@ a:hover {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 100%;
+    border-radius: 12px;
     border: solid 1px rgb(255 255 255/10%);
     background: rgb(255 255 255/10%) url("/img/icons/submenu/transparency-h.png") center center/20px no-repeat
 }
@@ -810,7 +816,7 @@ a:hover {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 100%;
+    border-radius: 12px;
     background: rgb(255 255 255/10%) url(/img/icons/submenu/theme-h.png) center center/20px no-repeat;
     border: solid 1px rgb(255 255 255/10%)
 }
