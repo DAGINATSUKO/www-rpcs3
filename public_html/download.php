@@ -115,7 +115,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 				</div>
 				</a>
-				<a href='https://github.com/RPCS3/rpcs3-binaries-linux-arm64/releases/download/build-563a3d3587b309bdbad947363faf1b9dab434d46/rpcs3-v0.0.35-17589-563a3d35_linux_aarch64.AppImage' target="_blank">
+				<a href='https://github.com/RPCS3/rpcs3-binaries-mac-arm64/releases/download/build-563a3d3587b309bdbad947363faf1b9dab434d46/rpcs3-v0.0.35-17589-563a3d35_macos_arm64.7z' target="_blank">
 				<div class="generic-btn-button">
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
