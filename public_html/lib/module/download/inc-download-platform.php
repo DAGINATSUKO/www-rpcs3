@@ -272,7 +272,7 @@
 					if (isset($build) && !is_null($build->checksum_mac_arm64))
 						printf("%s", $build->checksum_mac_arm64);
 					else if (isset($build_macos_arm64))
-						printf("%s", $build_macos_arm64->checksum_mac);
+						printf("%s", $build_macos_arm64->checksum_mac_arm64);
 					else
 						printf("Unavailable");
 					?>
