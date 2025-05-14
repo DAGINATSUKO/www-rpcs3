@@ -248,7 +248,7 @@
 				<span>macOS</span> <span  class='downloadable-tx3-label'->Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 13.0+, 14.3+, 15.0+ or later.</span>
+				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 14.3+, 15.0+ or later.</span>
 			</div>
 			<!-- SHA Section -------------------------------------------------------------------------------------------------------------------------------- -->
 			<div class='sha2-tx1-title darkmode-txt'>
