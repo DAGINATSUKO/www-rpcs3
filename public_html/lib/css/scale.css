@@ -136,11 +136,6 @@
 	}
 }
 @media screen and (max-width:800px) {
-	.footer-con-sources {
-		display:none
-	}
-}
-@media screen and (max-width:800px) {
 	.video-con-left {
 		width:100%
 	}
@@ -314,6 +309,9 @@
 	}
 	.img-col-2,.img-col-3 {
 		flex-basis:100%
+	}
+	.footer-tx2-bound {
+		font-size:12px
 	}
 }
 @media screen and (max-width:1395px) {
