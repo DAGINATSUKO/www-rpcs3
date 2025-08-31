@@ -1,12 +1,12 @@
-<script data-cfasync="false" src='/lib/js/lib-jquery.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/lib-jscookie.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/lib-particles.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/lib-easing.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/inc-main.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/inc-anim.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/inc-darkmode.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/inc-settings.js?v4'></script>
-<script data-cfasync="false" src='/lib/js/inc-particles.js?v4'></script>
+<script data-cfasync="false" src='/lib/js/lib-jquery.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/lib-jscookie.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/lib-particles.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/lib-easing.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/inc-main.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/inc-anim.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/inc-darkmode.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/inc-settings.js?v8'></script>
+<script data-cfasync="false" src='/lib/js/inc-particles.js?v8'></script>
 <noscript>
 <style>
 /*

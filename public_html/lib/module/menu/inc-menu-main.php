@@ -168,12 +168,17 @@
 <div class='menu-con-container'>
 	<div class="menu-con-backdrop darkmode-menu">
 	</div>
-	<div class="menu-btn-settings toggle-settings">
-		<div class='menu-btn-tx1-settings-tooltip pulsate'>
-		<span>Settings</span>
-	</div>
+	<div class="menu-con-inform">
+		<span><a href='https://eci.ec.europa.eu/045/public/' target="_blank">If you're a citizen of the European Union, consider adding your signature to the Stop Destroying Videogames initiative</a>.</span>
+		<span class="menu-btn-inform-close"></span>
+		</span>
 	</div>
 	<div class="menu-con-outer">
+		<div class="menu-btn-settings toggle-settings">
+			<div class='menu-btn-tx1-settings-tooltip pulsate'>
+			<span>Settings</span>
+			</div>
+		</div>
 		<div class="menu-con-inner">
 			<div class="menu-con-logo">
 				<a href='/'>

@@ -18,7 +18,7 @@
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
 				<span class="user-tx2-member pulsate">
-				knight4u32 </span>
+				elad335 </span>
 				<span class="user-con-role user-role-lead">
 				Lead Core Developer </span>
 			</div>
@@ -26,9 +26,9 @@
 			</div>
 			<div class='user-tx3-content darkmode-txt'>
 				<span>
-				Ever since knight4u32 started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability.<br>
+				Ever since elad335 started contributing in November of 2017, he's been constantly pushing improvements to every part of the emulator as well as improving his own skills exponentially. Thanks to his work, a large number of games have become compatible with the PPU and SPU LLVM recompilers, performance on non-TSX CPUs has drastically improved and his lv2 &amp; MFC related contributions largely increased game stability.<br>
 				<br>
-				knight4u32 is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
+				elad335 is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
 			</div>
 			<div class="user-con-subtitle">
 				<span class="user-tx1-subtitle ">Computer Specifications</span>
@@ -77,7 +77,7 @@
 			</div>
 			<div class="user-con-socialsheet">
 				<div class="user-con-socialbox">
-					<a href="https://github.com/knight4u32" target="_blank">
+					<a href="https://github.com/elad335" target="_blank">
 					<div class="socialbox-con-button">
 						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
 						</div>
@@ -459,7 +459,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR5 (7800MHz C32)</span>
+						<span>32GB DDR5 (8000MHz C32)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>

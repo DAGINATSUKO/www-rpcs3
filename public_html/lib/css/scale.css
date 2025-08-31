@@ -214,6 +214,9 @@
 		height:70px;
 		background-size:20px
 	}
+	.menu-con-inform {
+		display:none !important;
+	}
 }
 @media screen and (max-width:800px) {
 	.footer-tx1-developer {
