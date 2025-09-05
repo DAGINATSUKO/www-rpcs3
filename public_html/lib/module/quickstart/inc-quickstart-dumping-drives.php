@@ -318,8 +318,10 @@
 			</div>
 			<span>DH-12B2SH</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>DS-4E1S</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
