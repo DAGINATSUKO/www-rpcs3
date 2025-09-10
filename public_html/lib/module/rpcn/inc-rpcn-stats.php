@@ -40,7 +40,6 @@ class RPCNStats {
 
     private function get_region_from_id(string $id): string {
         $third_letter = strtoupper($id[2] ?? ''); // Third character, fallback to empty
-    
         switch ($third_letter) {
             case 'E': return 'EU';   // Europe
             case 'U': return 'US';   // USA
@@ -116,15 +115,15 @@ class RPCNStats {
         foreach ($game_mappings as $comm_id => $info) {
             $titles = $info['title'] ?? ["Unknown Game"];
             $game_title = $titles[0];
-        
+
             // Initialize counts and ID array if not already set
             if (!isset($this->title_player_counts[$game_title])) {
                 $this->title_player_counts[$game_title] = 0;
                 $this->title_ids[$game_title] = [];
             }
-        
+
             $ids = $info['id'] ?? [$comm_id];
-        
+
             // Collect regions for display
             if (!isset($this->title_regions[$game_title])) {
                 $this->title_regions[$game_title] = [];
@@ -136,15 +135,16 @@ class RPCNStats {
                     $this->title_regions[$game_title][] = $region;
                 }
             }
-        
+
+            sort($this->title_regions[$game_title], SORT_STRING);
             $comm_id_player_count = 0;
-        
+
             // First try psn_games (comm_id)
             if (isset($data['psn_games'][$comm_id])) {
                 $value = $data['psn_games'][$comm_id];
                 $comm_id_player_count += is_array($value) ? (int)$value[0] : (int)$value;
             }
-        
+
             // If we got a comm_id match, skip ticket_games
             if ($comm_id_player_count > 0) {
                 $this->title_player_counts[$game_title] += $comm_id_player_count;
@@ -168,7 +168,7 @@ class RPCNStats {
             array_keys($this->title_player_counts),
             $this->title_player_counts
         );
-        
+
         usort($temp_array, function ($a, $b) {
             // Sort by player_count descending
             $diff = $b['player_count'] <=> $a['player_count'];

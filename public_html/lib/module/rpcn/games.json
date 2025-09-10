@@ -76,7 +76,7 @@
     "id": []
 },
 "NPWR00050_00": {
-    "title": ["PlayStationHome"],
+    "title": ["PlayStation Home"],
     "id": []
 },
 "NPWR00051_00": {
@@ -293,7 +293,7 @@
 },
 "NPWR00187_00": {
     "title": ["WipEout HD"],
-    "id": ["BCAS20100", "BCES00664"]
+    "id": ["BCAS20100", "BCES00664", "NPUA80105", "NPEA00057"]
 },
 "NPWR00189_00": {
     "title": ["Unknown Game"],
@@ -649,7 +649,7 @@
 },
 "NPWR00406_00": {
     "title": ["Supersonic Acrobatic Rocket-Powered Battle-Cars"],
-    "id": ["NPUB30035"]
+    "id": ["NPUB30035", "NPEB00062"]
 },
 "NPWR00408_00": {
     "title": ["ZEN Pinball"],
@@ -2980,7 +2980,7 @@
     "id": ["BCES01070", "BLJS10091", "BLUS30528"]
 },
 "NPWR01286_00": {
-    "title": ["ドラゴンボール　レイジングブラスト２　トロフィーセット"],
+    "title": ["Dragon Ball: Raging Blast 2"],
     "id": ["BLES00978", "BLJS10085", "BLUS30581"]
 },
 "NPWR01287_00": {
