@@ -149,8 +149,6 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 			<table>
 				<tbody>
 					<?php foreach ($title_player_counts as $game_title => $count): ?>
-						<?php if ($count > 0): ?>
-							<tr class='darkmode-txt'>
 					    <?php if ($count > 0): ?>
 					        <tr class='darkmode-txt'>
 					            <td>
