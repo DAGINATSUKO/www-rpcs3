@@ -1461,7 +1461,7 @@
 },
 "NPWR00701_00": {
     "title": ["G-Force"],
-    "id": ["BLES00573", "BLES00572", "BLES00575", "BLUS30354"]
+    "id": ["BLES00572", "BLES00573", "BLES00574", "BLES00575", "BLUS30354"]
 },
 "NPWR00702_00": {
     "title": ["Hasbro Family Game Night"],
@@ -2745,7 +2745,7 @@
 },
 "NPWR01210_00": {
     "title": ["LittleBigPlanet 2"],
-    "id": ["BCES01694", "BCES00850", "BCES01086", "BCES01693", "BCJS30058", "BCUS98245", "BCUS98372", "NPEA00324", "NPUA80662", "NPEA00437"]
+    "id": ["BCES01694", "BCES00850", "BCES01086", "BCES01693", "BCJS30058", "BCUS98245", "BCUS98372", "NPEA00324", "NPUA80662", "NPEA00437", "BCAS20201"]
 },
 "NPWR01212_00": {
     "title": ["Dragon's Lair"],
@@ -7533,7 +7533,7 @@
 },
 "NPWR04508_00": {
     "title": ["真・三國無雙７"],
-    "id": []
+    "id": ["BLAS50582"]
 },
 "NPWR04516_00": {
     "title": ["Motorbike"],
@@ -7721,7 +7721,7 @@
 },
 "NPWR04712_00": {
     "title": ["Gran Turismo 6"],
-    "id": ["BCES01893", "BCES01977", "BCJS37016", "BCUS98296", "BCUS99247"]
+    "id": ["BCES01893", "BCES01977", "BCJS37016", "BCUS98296", "BCUS99247", "BCAS25018"]
 },
 "NPWR04714_00": {
     "title": ["Hot Wheels World's Best Driver"],
@@ -8393,7 +8393,7 @@
 },
 "NPWR05676_00": {
     "title": ["真・三國無雙７ 猛將傳"],
-    "id": []
+    "id": ["BLAS50672"]
 },
 "NPWR05679_00": {
     "title": ["Rozen Maiden -Wechseln sie welt ab-"],
