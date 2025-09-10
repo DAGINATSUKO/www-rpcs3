@@ -457,7 +457,7 @@
 },
 "NPWR00306_00": {
     "title": ["Punisher: No Mercy"],
-    "id": []
+    "id": ["NPEB00098"]
 },
 "NPWR00309_00": {
     "title": ["Lost Planet Online Demo"],
@@ -469,7 +469,7 @@
 },
 "NPWR00313_00": {
     "title": ["Geon"],
-    "id": []
+    "id": ["NPEB00034"]
 },
 "NPWR00314_00": {
     "title": ["白騎士物語－古の鼓動－トロフィーセット"],
@@ -481,7 +481,7 @@
 },
 "NPWR00322_00": {
     "title": ["Rock Revolution"],
-    "id": [""]
+    "id": ["BLUS30212"]
 },
 "NPWR00323_00": {
     "title": ["Battlefield: Bad Company"],
@@ -533,7 +533,7 @@
 },
 "NPWR00350_00": {
     "title": ["PixelJunk Eden / Encore"],
-    "id": []
+    "id": ["NPEA00089", "NPUA80160"]
 },
 "NPWR00352_00": {
     "title": ["BioShock"],
@@ -737,7 +737,7 @@
 },
 "NPWR00449_00": {
     "title": ["Uncharted: Drake's Fortune"],
-    "id": ["BCES00065"]
+    "id": ["BCES00065", "BCAS20024", "BCJS30015", "BCUS98103", "NPEA00363", "NPHA80193", "NPUA80697"]
 },
 "NPWR00450_00": {
     "title": ["Blitz: The League II"],
@@ -1178,6 +1178,10 @@
 "NPWR00608_00": {
     "title": ["WWE SmackDown vs. RAW 2010"],
     "id": ["BLES00651", "BLJM60179", "BLUS30412"]
+},
+"NPWR00610_00": {
+    "title": ["Rock Revolution"],
+    "id": ["BLES00474"]
 },
 "NPWR00611_00": {
     "title": ["EyePet"],
@@ -2121,7 +2125,7 @@
 },
 "NPWR00954_00": {
     "title": ["SONIC THE HEDGEHOG 4 Episode I"],
-    "id": []
+    "id": ["NPHB00187"]
 },
 "NPWR00956_00": {
     "title": ["Dead Island"],
@@ -2869,7 +2873,7 @@
 },
 "NPWR01251_00": {
     "title": ["PixelJunk Shooter 2"],
-    "id": []
+    "id": ["NPEA90093", "NPHB00326", "NPHB00353", "NPUA70142"]
 },
 "NPWR01252_00": {
     "title": ["Magic: The Gathering - Duels of the Planeswalkers"],
@@ -4509,7 +4513,7 @@
 },
 "NPWR01823_00": {
     "title": ["Castlevania: Harmony of Despair"],
-    "id": []
+    "id": ["NPEB00563", "NPUB30505"]
 },
 "NPWR01825_00": {
     "title": ["Burnout CRASH!"],
@@ -4693,7 +4697,7 @@
 },
 "NPWR01898_00": {
     "title": ["PixelJunk SideScroller"],
-    "id": []
+    "id": ["NPUA80567"]
 },
 "NPWR01899_00": {
     "title": ["Spider-Man: Edge of Time"],
@@ -4913,11 +4917,11 @@
 },
 "NPWR02107_00": {
     "title": ["TEKKEN TAG TOURNAMENT 2 PROLOGUE"],
-    "id": []
+    "id": ["NPUB30591"]
 },
 "NPWR02108_00": {
     "title": ["TEKKEN TAG TOURNAMENT HD"],
-    "id": []
+    "id": ["NPEA00326", "NPUB30590"]
 },
 "NPWR02111_00": {
     "title": ["NASCAR Unleashed"],
@@ -4925,7 +4929,7 @@
 },
 "NPWR02112_00": {
     "title": ["PixelJunk 4am"],
-    "id": []
+    "id": ["NPEA00376", "NPUA80538"]
 },
 "NPWR02113_00": {
     "title": ["Skullgirls"],
@@ -4941,11 +4945,11 @@
 },
 "NPWR02122_00": {
     "title": ["Okabu"],
-    "id": []
+    "id": ["NPEB00621", "NPUB30514"]
 },
 "NPWR02123_00": {
     "title": ["Babel Rising"],
-    "id": []
+    "id": ["NPEB00617", "NPUB30536"]
 },
 "NPWR02125_00": {
     "title": ["EyePet & Friends"],
@@ -5307,6 +5311,10 @@
     "title": ["CastleStorm - Complete Edition"],
     "id": []
 },
+"NPWR02458_00": {
+    "title": ["DRIVER San Francisco Online Demo"],
+    "id": ["NPEB90356"]
+},
 "NPWR02466_00": {
     "title": ["Rune Factory: Tides of Destiny"],
     "id": ["BLUS30759"]
@@ -5337,7 +5345,7 @@
 },
 "NPWR02484_00": {
     "title": ["SONIC THE HEDGEHOG 4 Episode II"],
-    "id": []
+    "id": ["NPHB00459"]
 },
 "NPWR02485_00": {
     "title": ["Silent Hill Downpour"],
@@ -5825,7 +5833,7 @@
 },
 "NPWR02973_00": {
     "title": ["Tekken Tag Tournament 2"],
-    "id": ["BLES02129", "BLES01702", "BLJS10187", "BLUS31002"]
+    "id": ["BLES02129", "BLES01702", "BLJS10187", "BLUS31002", "NPEB01140", "NPJB00236", "NPUB30899"]
 },
 "NPWR02976_00": {
     "title": ["Summer Stars 2012"],
