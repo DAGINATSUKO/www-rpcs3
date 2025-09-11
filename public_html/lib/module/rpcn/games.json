@@ -1973,7 +1973,7 @@
 },
 "NPWR00893_00": {
     "title": ["Frogger Returns"],
-    "id": []
+    "id": ["NPUB30118"]
 },
 "NPWR00894_00": {
     "title": ["Assassin's Creed II"],
@@ -2093,11 +2093,11 @@
 },
 "NPWR00944_00": {
     "title": ["Frogger Returns"],
-    "id": []
+    "id": ["NPEB00162"]
 },
 "NPWR00945_00": {
     "title": ["Frogger Returns"],
-    "id": []
+    "id": ["NPJB00041"]
 },
 "NPWR00946_00": {
     "title": ["James Cameron's AVATAR: THE GAME"],
@@ -2297,7 +2297,7 @@
 },
 "NPWR01028_00": {
     "title": ["ANARCHY REIGNS"],
-    "id": ["BLES01232", "BLUS30632"]
+    "id": ["BLES01232", "BLUS30632", "NPEB01246"]
 },
 "NPWR01031_00": {
     "title": ["Section 8"],
@@ -3137,7 +3137,7 @@
 },
 "NPWR01334_00": {
     "title": ["ELEMENTAL MONSTER -ONLINE CARD GAME-"],
-    "id": ["NPJB00065"]
+    "id": ["NPUB30248","NPJB00065"]
 },
 "NPWR01335_00": {
     "title": ["SHIFT 2 UNLEASHED"],
@@ -3161,7 +3161,7 @@
 },
 "NPWR01342_00": {
     "title": ["Greg Hastings Paintball 2"],
-    "id": []
+    "id": ["NPUB30334"]
 },
 "NPWR01344_00": {
     "title": ["TOKYO JUNGLE"],
@@ -3777,7 +3777,7 @@
 },
 "NPWR01568_00": {
     "title": ["Blokus"],
-    "id": []
+    "id": ["NPEB00373"]
 },
 "NPWR01569_00": {
     "title": ["Killzone 3"],
@@ -5565,7 +5565,7 @@
 },
 "NPWR02715_00": {
     "title": ["Lights, Camera, Party!"],
-    "id": []
+    "id": ["NPUB30435"]
 },
 "NPWR02717_00": {
     "title": ["PooYoos - Episode 2"],
@@ -6553,7 +6553,7 @@
 },
 "NPWR03642_00": {
     "title": ["Disney Epic Mickey 2: The Power of Two"],
-    "id": ["BLES01627", "BLES01628", "BLUS30962"]
+    "id": ["BLES01627", "BLES01628", "BLUS30962", "NPEB00951", "NPUB30857"]
 },
 "NPWR03649_00": {
     "title": ["OKAMI HD"],
@@ -8161,7 +8161,7 @@
 },
 "NPWR05194_00": {
     "title": ["Aabs Animals"],
-    "id": []
+    "id": ["NPEB01872", "NPUB31365"]
 },
 "NPWR05200_00": {
     "title": ["Super Motherload"],
@@ -8297,7 +8297,7 @@
 },
 "NPWR05479_00": {
     "title": ["BLOODBATH"],
-    "id": ["BLES01988"]
+    "id": ["BLES01988", "NPEB01932"]
 },
 "NPWR05486_00": {
     "title": ["戦国無双４"],
