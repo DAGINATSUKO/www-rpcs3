@@ -307,6 +307,10 @@
     "title": ["Unreal Tournament  3"],
     "id": []
 },
+"NPWR00195_00": {
+    "title": ["Sid Meier's Civilization Revolution"],
+    "id": ["BLES00238"]
+},
 "NPWR00196_00": {
     "title": ["PAIN"],
     "id": ["BCES00548", "NPEA00054"]
@@ -3761,7 +3765,7 @@
 },
 "NPWR01563_00": {
     "title": ["TableTop Cricket"],
-    "id": []
+    "id": ["NPEB00368"]
 },
 "NPWR01565_00": {
     "title": ["第２次スーパーロボット大戦ＯＧ"],
@@ -7605,7 +7609,7 @@
 },
 "NPWR04577_00": {
     "title": ["Q.U.B.E: Director's Cut"],
-    "id": []
+    "id": ["NPEB01306", "NPUB31480"]
 },
 "NPWR04578_00": {
     "title": ["NHL 14"],
@@ -7713,7 +7717,7 @@
 },
 "NPWR04695_00": {
     "title": ["Ratchet & Clank: Into the Nexus"],
-    "id": ["BCES01908", "BCES01949", "BCJS30092", "BCUS99245"]
+    "id": ["BCES01908", "BCES01949", "BCJS30092", "BCUS99245", "NPUA80908"]
 },
 "NPWR04706_00": {
     "title": ["三極姫２～皇旗咆哮・覚醒めし大牙～"],
@@ -7917,7 +7921,7 @@
 },
 "NPWR04927_00": {
     "title": ["Splice"],
-    "id": []
+    "id": ["NPUB31319"]
 },
 "NPWR04936_00": {
     "title": ["Destiny"],
@@ -8329,7 +8333,7 @@
 },
 "NPWR05555_00": {
     "title": ["Treasures of Montezuma Arena"],
-    "id": []
+    "id": ["NPEB01871", "NPUB31369"]
 },
 "NPWR05566_00": {
     "title": ["Ace Combat Infinity Beta"],
@@ -8953,7 +8957,7 @@
 },
 "NPWR06724_00": {
     "title": ["Rogue Legacy"],
-    "id": []
+    "id": ["NPEB02037"]
 },
 "NPWR06729_00": {
     "title": ["Chivalry: Medieval Warfare"],
@@ -8989,7 +8993,7 @@
 },
 "NPWR06764_00": {
     "title": ["Teslagrad"],
-    "id": ["BLES02134", "BLUS31520"]
+    "id": ["BLES02134", "BLUS31520", "NPEB01928", "NPJB00658"]
 },
 "NPWR06778_00": {
     "title": ["The Legend of Korra"],
@@ -9089,11 +9093,11 @@
 },
 "NPWR07079_00": {
     "title": ["Trivial Pursuit Live!"],
-    "id": []
+    "id": ["NPEB02091", "NPUB31578"]
 },
 "NPWR07086_00": {
     "title": ["RESOGUN"],
-    "id": []
+    "id": ["NPUA80900", "NPEA00433"]
 },
 "NPWR07087_00": {
     "title": ["Unknown Game"],
@@ -9133,7 +9137,7 @@
 },
 "NPWR07145_00": {
     "title": ["RISK"],
-    "id": []
+    "id": ["NPEB02103"]
 },
 "NPWR07161_00": {
     "title": ["Hohokum"],
@@ -9245,7 +9249,7 @@
 },
 "NPWR07427_00": {
     "title": ["Syberia 2"],
-    "id": []
+    "id": ["NPEB02016"]
 },
 "NPWR07430_00": {
     "title": ["黒蝶のサイケデリカ"],
@@ -9277,7 +9281,7 @@
 },
 "NPWR07480_00": {
     "title": ["Legend of Kay Anniversary "],
-    "id": []
+    "id": ["NPEB02143"]
 },
 "NPWR07515_00": {
     "title": ["Rugby 15"],
@@ -9285,7 +9289,7 @@
 },
 "NPWR07523_00": {
     "title": ["Unmechanical"],
-    "id": []
+    "id": ["NPEB02150", "NPUB31605"]
 },
 "NPWR07526_00": {
     "title": ["Snark Busters: High Society"],
@@ -9381,7 +9385,7 @@
 },
 "NPWR07797_00": {
     "title": ["Sparkle 2"],
-    "id": []
+    "id": ["NPEB02120"]
 },
 "NPWR07801_00": {
     "title": ["Chariot"],
@@ -9413,15 +9417,15 @@
 },
 "NPWR07887_00": {
     "title": ["Stealth Inc 2: A Game of Clones"],
-    "id": []
+    "id": ["NPEB02181"]
 },
 "NPWR07904_00": {
     "title": ["King's Quest"],
-    "id": []
+    "id": ["NPEB02301"]
 },
 "NPWR07916_00": {
     "title": ["Hyper Void"],
-    "id": []
+    "id": ["NPUB31617"]
 },
 "NPWR07927_00": {
     "title": ["Life Is Strange"],
@@ -9481,7 +9485,7 @@
 },
 "NPWR07993_00": {
     "title": ["Cosmophony"],
-    "id": []
+    "id": ["NPEB02190"]
 },
 "NPWR07998_00": {
     "title": ["DEAD OR ALIVE 5 Last Round"],
@@ -9521,7 +9525,7 @@
 },
 "NPWR08129_00": {
     "title": ["King Oddball"],
-    "id": []
+    "id": ["NPEB02118"]
 },
 "NPWR08135_00": {
     "title": ["魔物獵人FRONTIER Z"],
@@ -9549,7 +9553,7 @@
 },
 "NPWR08168_00": {
     "title": ["World Hunter"],
-    "id": []
+    "id": ["NPUB31660"]
 },
 "NPWR08180_00": {
     "title": ["ワンピース 海賊無双３"],
@@ -9565,7 +9569,7 @@
 },
 "NPWR08221_00": {
     "title": ["Tennis in the Face"],
-    "id": []
+    "id": ["NPEB02173"]
 },
 "NPWR08224_00": {
     "title": ["MotoGP15"],
@@ -9633,7 +9637,7 @@
 },
 "NPWR08318_00": {
     "title": ["Paranormal Pursuit: The Gifted One Collector's Edition"],
-    "id": []
+    "id": ["NPEB02225"]
 },
 "NPWR08321_00": {
     "title": ["Kung Fu Panda: Showdown of Legendary Legends"],
@@ -9657,7 +9661,7 @@
 },
 "NPWR08332_00": {
     "title": ["The Bridge"],
-    "id": []
+    "id": ["NPUB31592"]
 },
 "NPWR08354_00": {
     "title": ["電擊文庫 FIGHTING CLIMAX 獎盃組"],
@@ -9677,7 +9681,7 @@
 },
 "NPWR08376_00": {
     "title": ["Krinkle Krusher"],
-    "id": []
+    "id": ["NPUB31670"]
 },
 "NPWR08380_00": {
     "title": ["Chariot"],
@@ -9685,11 +9689,11 @@
 },
 "NPWR08388_00": {
     "title": ["Shovel Knight: Treasure Trove"],
-    "id": []
+    "id": ["NPEB02248"]
 },
 "NPWR08402_00": {
     "title": ["Weird Park: The Final Show"],
-    "id": []
+    "id": ["NPEB02245"]
 },
 "NPWR08418_00": {
     "title": ["STEINS;GATE"],
@@ -9829,7 +9833,7 @@
 },
 "NPWR08827_00": {
     "title": ["The Book of Unwritten Tales 2"],
-    "id": []
+    "id": ["NPEB02256"]
 },
 "NPWR08836_00": {
     "title": ["Sparkle Unleashed"],
@@ -9877,7 +9881,7 @@
 },
 "NPWR08916_00": {
     "title": ["The Swindle"],
-    "id": []
+    "id": ["NPUB31718"]
 },
 "NPWR08923_00": {
     "title": ["LEGO MARVEL's Avengers"],
@@ -9897,7 +9901,7 @@
 },
 "NPWR08952_00": {
     "title": ["Quiplash"],
-    "id": []
+    "id": ["NPUB31723"]
 },
 "NPWR08958_00": {
     "title": ["ペルソナ５"],
@@ -9925,7 +9929,7 @@
 },
 "NPWR08994_00": {
     "title": ["Space Hulk"],
-    "id": []
+    "id": ["NPUB31662"]
 },
 "NPWR09007_00": {
     "title": ["NASCAR '15"],
@@ -9945,7 +9949,7 @@
 },
 "NPWR09047_00": {
     "title": ["Pumped BMX +"],
-    "id": []
+    "id": ["NPEB02299", "NPUB31728"]
 },
 "NPWR09061_00": {
     "title": ["RUGBY CHALLENGE 3"],
@@ -10029,11 +10033,11 @@
 },
 "NPWR09318_00": {
     "title": ["SAMURAI WARRIORS 4-Ⅱ"],
-    "id": []
+    "id": ["NPUB31751"]
 },
 "NPWR09320_00": {
     "title": ["River City Super Sports Challenge"],
-    "id": []
+    "id": ["NPUB31757"]
 },
 "NPWR09350_00": {
     "title": ["Atelier Sophie ~The Alchemist of the Mysterious Book~"],
@@ -10181,7 +10185,7 @@
 },
 "NPWR09957_00": {
     "title": ["Teslagrad"],
-    "id": []
+    "id": ["NPHB00733"]
 },
 "NPWR09967_00": {
     "title": ["電撃文庫 FIGHTING CLIMAX IGNITION"],
@@ -10289,7 +10293,7 @@
 },
 "NPWR10432_00": {
     "title": ["SAMURAI WARRIORS 4 Empires"],
-    "id": []
+    "id": ["NPEB02376", "NPUB31799"]
 },
 "NPWR10453_00": {
     "title": ["信長の野望・創造 戦国立志伝"],
