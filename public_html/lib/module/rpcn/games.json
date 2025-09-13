@@ -201,7 +201,7 @@
 },
 "NPWR00117_00": {
     "title": ["SUPER STARDUST HD"],
-    "id": []
+    "id": ["NPEA00014", "NPUA80068"]
 },
 "NPWR00119_00": {
     "title": ["Initial D Extreme Stage"],
@@ -273,7 +273,7 @@
 },
 "NPWR00156_00": {
     "title": ["Star Wars: The Force Unleashed"],
-    "id": ["BLES00678", "BLUS30445"]
+    "id": ["BLES00678", "BLUS30445", "BLES00262", "BLUS30144"]
 },
 "NPWR00160_00": {
     "title": ["LittleBigPlanet"],
@@ -285,7 +285,7 @@
 },
 "NPWR00163_00": {
     "title": ["Warhawk"],
-    "id": ["BCUS98117", "NPUA70023", "NPUA80077"]
+    "id": ["BCUS98117", "NPUA70023", "NPUA80077", "BCAS20015", "BCES00008", "BCJS30013", "NPEA00017", "NPHA80002", "NPJA00008", "NPUA80077"]
 },
 "NPWR00165_00": {
     "title": ["Calling All Cars!"],
@@ -336,8 +336,8 @@
     "id": ["BLES00121"]
 },
 "NPWR00194_00": {
-    "title": ["Unreal Tournament  3"],
-    "id": []
+    "title": ["Unreal Tournament 3"],
+    "id": ["BLES00200", "BLES00201", "BLUS30086"]
 },
 "NPWR00195_00": {
     "title": ["Sid Meier's Civilization Revolution"],
@@ -529,7 +529,7 @@
 },
 "NPWR00323_00": {
     "title": ["Battlefield: Bad Company"],
-    "id": ["BLES00259"]
+    "id": ["BLES00259", "BLES00261", "BLJM60071", "BLUS30118", "BLUS30121"]
 },
 "NPWR00324_00": {
     "title": ["HEAVY RAIN"],
@@ -565,7 +565,7 @@
 },
 "NPWR00339_00": {
     "title": ["Mercenaries 2: World in Flames"],
-    "id": []
+    "id": ["BLES00323", "BLES00328", "BLJM60101", "BLUS30056"]
 },
 "NPWR00345_00": {
     "title": ["GHOSTBUSTERS: The Video Game"],
@@ -601,11 +601,11 @@
 },
 "NPWR00356_00": {
     "title": ["Mahjong Tales: Ancient Wisdom"],
-    "id": []
+    "id": ["NPEB00067"]
 },
 "NPWR00357_00": {
     "title": ["FIFA 09"],
-    "id": []
+    "id": ["BLUS30176", "BLKS20101", "BLJM60103", "BLES00314", "BLES00315"]
 },
 "NPWR00359_00": {
     "title": ["Quantum of Solace"],
@@ -677,7 +677,7 @@
 },
 "NPWR00398_00": {
     "title": ["Brain Challenge"],
-    "id": ["BLES00420"]
+    "id": ["BLES00420", "NPEB00064"]
 },
 "NPWR00399_00": {
     "title": ["AQUANAUT'S HOLIDAY 　～隠された記録～"],
@@ -685,7 +685,7 @@
 },
 "NPWR00400_00": {
     "title": ["魔界戦記ディスガイア３ "],
-    "id": ["BLJS10063"]
+    "id": ["BLJS10063", "BLJS10011"]
 },
 "NPWR00403_00": {
     "title": ["Astro Tripper"],
@@ -721,7 +721,7 @@
 },
 "NPWR00416_00": {
     "title": ["Disgaea 3"],
-    "id": []
+    "id": ["BLUS30181"]
 },
 "NPWR00419_00": {
     "title": ["Far Cry 2"],
@@ -1101,7 +1101,7 @@
 },
 "NPWR00563_00": {
     "title": ["Alone In The Dark"],
-    "id": []
+    "id": ["BLAS50043", "BLES00422", "BLUS30232"]
 },
 "NPWR00564_00": {
     "title": ["Supercar Challenge"],
@@ -1209,7 +1209,7 @@
 },
 "NPWR00603_00": {
     "title": ["FALLOUT 3"],
-    "id": ["BLES00740", "BLES00741", "BLES00737", "BLES00738", "BLES00739", "BLES00742", "BLJS10068", "BLJS10069", "BLUS30451", "BLUS30455"]
+    "id": ["BLES00740", "BLES00741", "BLES00737", "BLES00738", "BLES00739", "BLES00742", "BLJS10068", "BLJS10069", "BLUS30451", "BLUS30455", "BLJS10040", "BLES00333", "BLES00334", "BLES00335", "BLES00336", "BLES00399", "BLUS30185", "BLUS30234"]
 },
 "NPWR00605_00": {
     "title": ["QUANTUM THEORY"],
@@ -1241,7 +1241,7 @@
 },
 "NPWR00614_00": {
     "title": ["トゥームレイダー：アンダーワールド"],
-    "id": []
+    "id": ["BLJS10044"]
 },
 "NPWR00615_00": {
     "title": ["The Shoot"],
@@ -1269,7 +1269,7 @@
 },
 "NPWR00622_00": {
     "title": ["Inferno Pool"],
-    "id": []
+    "id": ["NPEB00086"]
 },
 "NPWR00623_00": {
     "title": ["Terminator Salvation"],
@@ -1557,7 +1557,7 @@
 },
 "NPWR00716_00": {
     "title": ["Tomb Raider: Underworld"],
-    "id": ["BLES01195", "BLUS30718"]
+    "id": ["BLES01195", "BLUS30718", "BLES00409", "BLUS30224"]
 },
 "NPWR00717_00": {
     "title": ["ティアーズ・トゥ・ティアラ 外伝 アヴァロンの謎"],
@@ -1869,7 +1869,7 @@
 },
 "NPWR00827_00": {
     "title": ["Disgaea 3"],
-    "id": []
+    "id": ["BLES00452"]
 },
 "NPWR00829_00": {
     "title": ["Heavy Weapon"],
@@ -7197,7 +7197,7 @@
 },
 "NPWR04182_00": {
     "title": ["Star Wars Pinball"],
-    "id": []
+    "id": ["NPEB01260", "NPUB31132"]
 },
 "NPWR04186_00": {
     "title": ["Zeno Clash 2"],
