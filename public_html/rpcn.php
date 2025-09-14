@@ -151,9 +151,8 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 					<?php foreach ($title_player_counts as $game_title => $count): ?>
 						<?php if ($count > 0): ?>
 							<tr class='darkmode-txt'>
-								<td><div class='rpcn-list-ico-status'></div><?php echo htmlspecialchars($game_title ?? 'Unknown'); ?></td>
-								<td><div class='rpcn-list-ico-player' style="background: url(/img/icons/rpcn/user.png) center / 18px no-repeat;">
-					</div><?php echo htmlspecialchars($count); ?>&nbspOnline</td>
+								<td><div class='rpcn-list-ico-status'></div><?php echo htmlspecialchars(!empty($game_title) ? $game_title : 'Unknown'); ?></td>
+								<td><div class='rpcn-list-ico-player' style="background: url(/img/icons/rpcn/user.png) center / 18px no-repeat;"></div><?php echo htmlspecialchars($count); ?>&nbspOnline</td>
 							</tr>
 						<?php endif; ?>
 					<?php endforeach; ?>
