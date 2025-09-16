@@ -1289,7 +1289,7 @@
 },
 "NPWR00628_00": {
     "title": ["無双OROCHI Z"],
-    "id": ["BLJM60139"]
+    "id": ["BLJM60139", "BLAS50130"]
 },
 "NPWR00629_00": {
     "title": ["Age of Booty"],
@@ -4257,7 +4257,7 @@
 },
 "NPWR01730_00": {
     "title": ["inFAMOUS 2"],
-    "id": ["BCES01143", "BCES01144", "BCES01229", "BCJS30075", "BCUS98125", "NPEA00318"]
+    "id": ["BCES01143", "BCES01144", "BCES01229", "BCJS30075", "BCUS98125", "NPEA00318", "BCAS20181"]
 },
 "NPWR01731_00": {
     "title": ["Mercury Hg"],
@@ -6337,7 +6337,7 @@
 },
 "NPWR03466_00": {
     "title": ["アーシャのアトリエ　～黄昏の大地の錬金術士～"],
-    "id": ["BLES01793", "BLJM60486", "BLUS31152"]
+    "id": ["BLES01793", "BLJM60486", "BLUS31152", "BLAS50502"]
 },
 "NPWR03468_00": {
     "title": ["Far Cry 3"],
@@ -9025,7 +9025,7 @@
 },
 "NPWR06754_00": {
     "title": ["MOBILE SUIT GUNDAM SIDE STORIES"],
-    "id": []
+    "id": ["BLAS50710"]
 },
 "NPWR06757_00": {
     "title": ["Disney Infinity [2.0]"],
@@ -9341,7 +9341,7 @@
 },
 "NPWR07534_00": {
     "title": ["The Evil Within"],
-    "id": []
+    "id": ["BCAS20333"]
 },
 "NPWR07535_00": {
     "title": ["The Evil Within"],

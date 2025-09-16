@@ -3,11 +3,18 @@ class RPCNStats {
     private string $games_json;
     private string $log_file;
     private string $api_url;
-    public array $title_regions = [];
 
     public int $total_users = 0;
+
+    /** @var array<string, array<int, string>> */
+    public array $title_regions = [];
+
     /** @var array<string, int> */
     public array $title_player_counts = [];
+
+    /** @var array<string, array<string>> */
+    public array $title_ids = [];
+
     public bool $has_error = false;
 
     public function __construct(string $games_json, string $log_file, string $api_url) {
@@ -59,6 +66,9 @@ class RPCNStats {
         }
 
         $json_content = file_get_contents($this->games_json);
+        if ($json_content === false) {
+            throw new Exception("Unable to read {$this->games_json}");
+        }
         $game_mappings = json_decode($json_content, true);
 
         if (json_last_error() !== JSON_ERROR_NONE) {
@@ -67,14 +77,13 @@ class RPCNStats {
 
         // cURL
         $ch = curl_init();
+        assert($this->api_url !== '');
         curl_setopt($ch, CURLOPT_URL, $this->api_url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HEADER, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
             'Accept: application/json',
         ]);
-
-        $response = curl_exec($ch);
 
         if (curl_errno($ch)) {
             $error_message = 'cURL error: ' . curl_error($ch);
@@ -90,17 +99,18 @@ class RPCNStats {
             throw new Exception($error_message);
         }
 
-        $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
-        $api_data = substr($response, $header_size);
-
-        curl_close($ch);
-
-        if ($api_data === false) {
-            $last_error = error_get_last();
-            $error_message = $last_error ? $last_error['message'] : 'Unknown error occurred while fetching API data';
+        $response = curl_exec($ch);
+        if ($response === false) {
+            $error_message = 'cURL error: ' . curl_error($ch);
             $this->log_error($error_message);
             throw new Exception($error_message);
         }
+
+        /** @var string $response */
+        $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+        $api_data    = substr($response, $header_size);
+
+        curl_close($ch);
 
         $data = json_decode($api_data, true);
         if (json_last_error() !== JSON_ERROR_NONE) {
@@ -114,7 +124,7 @@ class RPCNStats {
         // Merge Player Counts from API Data
         foreach ($game_mappings as $comm_id => $info) {
             $titles = $info['title'] ?? ["Unknown Game"];
-            $game_title = $titles[0];
+            $game_title = $titles[0] ?? 'Unknown Game';
 
             // Initialize counts and ID array if not already set
             if (!isset($this->title_player_counts[$game_title])) {
@@ -131,18 +141,28 @@ class RPCNStats {
 
             foreach ($ids as $entry_id) {
                 $region = $this->get_region_from_id($entry_id);
-                if (!in_array($region, $this->title_regions[$game_title])) {
+                if (!array_key_exists($game_title, $this->title_regions)) {
+                    $this->title_regions[$game_title] = [];
+                }
+                if (!in_array($region, $this->title_regions[$game_title], true)) {
                     $this->title_regions[$game_title][] = $region;
                 }
             }
 
-            sort($this->title_regions[$game_title], SORT_STRING);
+            if (!empty($this->title_regions[$game_title])) {
+                sort($this->title_regions[$game_title], SORT_STRING);
+            }
             $comm_id_player_count = 0;
 
             // First try psn_games (comm_id)
             if (isset($data['psn_games'][$comm_id])) {
                 $value = $data['psn_games'][$comm_id];
-                $comm_id_player_count += is_array($value) ? (int)$value[0] : (int)$value;
+            
+                if (is_array($value) && isset($value[0])) {
+                    $comm_id_player_count += (int) $value[0];
+                } elseif (is_int($value)) {
+                    $comm_id_player_count += $value;
+                }
             }
 
             // If we got a comm_id match, skip ticket_games
