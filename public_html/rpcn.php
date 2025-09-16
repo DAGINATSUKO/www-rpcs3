@@ -154,7 +154,7 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 					            <td>
 					                <div class='rpcn-list-ico-status'></div>
 					                <div class='rpcn-list-title'>
-					                    <?php echo htmlspecialchars($game_title); ?>
+					                    <?php echo htmlspecialchars(!empty($game_title) ? $game_title : 'Unknown'); ?>
 					                    <?php if (!empty($rpcn_stats->title_regions[$game_title])): ?>
 					                        <div class='rpcn-list-regions'>
 					                            <?php foreach ($rpcn_stats->title_regions[$game_title] as $region): ?>
