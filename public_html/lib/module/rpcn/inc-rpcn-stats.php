@@ -85,30 +85,26 @@ class RPCNStats {
             'Accept: application/json',
         ]);
 
-        if (curl_errno($ch)) {
-            $error_message = 'cURL error: ' . curl_error($ch);
-            $this->log_error($error_message);
-            throw new Exception($error_message);
-        }
-
-        // Get HTTP status code
-        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        if ($http_code !== 200) {
-            $error_message = "HTTP $http_code";
-            $this->log_error($error_message);
-            throw new Exception($error_message);
-        }
-
         $response = curl_exec($ch);
+
         if ($response === false) {
             $error_message = 'cURL error: ' . curl_error($ch);
             $this->log_error($error_message);
             throw new Exception($error_message);
         }
 
-        /** @var string $response */
+        // Get HTTP status code
+        $http_code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
-        $api_data    = substr($response, $header_size);
+
+        if ($http_code !== 200) {
+            $error_message = "HTTP $http_code";
+            $this->log_error($error_message);
+            throw new Exception($error_message);
+        }
+
+        /** @var string $response */
+        $api_data = substr($response, $header_size);
 
         curl_close($ch);
 
