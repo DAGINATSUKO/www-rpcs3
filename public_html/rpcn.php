@@ -149,12 +149,27 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 			<table>
 				<tbody>
 					<?php foreach ($title_player_counts as $game_title => $count): ?>
-						<?php if ($count > 0): ?>
-							<tr class='darkmode-txt'>
-								<td><div class='rpcn-list-ico-status'></div><?php echo htmlspecialchars(!empty($game_title) ? $game_title : 'Unknown'); ?></td>
-								<td><div class='rpcn-list-ico-player' style="background: url(/img/icons/rpcn/user.png) center / 18px no-repeat;"></div><?php echo htmlspecialchars($count); ?>&nbspOnline</td>
-							</tr>
-						<?php endif; ?>
+					    <?php if ($count > 0): ?>
+					        <tr class='darkmode-txt'>
+					            <td>
+					                <div class='rpcn-list-ico-status'></div>
+					                <div class='rpcn-list-title'>
+					                    <?php echo htmlspecialchars(!empty($game_title) ? $game_title : 'Unknown'); ?>
+					                    <?php if (!empty($rpcn_stats->title_regions[$game_title])): ?>
+					                        <div class='rpcn-list-regions'>
+					                            <?php foreach ($rpcn_stats->title_regions[$game_title] as $region): ?>
+					                                <img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>" class="rpcn-flag" width="20" height="20">
+					                            <?php endforeach; ?>
+					                        </div>
+					                    <?php endif; ?>
+					                </div>
+					            </td>
+					            <td>
+					                <div class='rpcn-list-ico-player' style="background: url(/img/icons/rpcn/user.png) center / 18px no-repeat;"></div>
+					                <?php echo htmlspecialchars($count); ?>&nbsp;Online
+					            </td>
+					        </tr>
+					    <?php endif; ?>
 					<?php endforeach; ?>
 				</tbody>
 			</table>
