@@ -31,6 +31,14 @@
     "title": ["MotorStorm"],
     "id": ["BCES00006", "BCUS98137"]
 },
+"NPWR00015_00": {
+    "title": ["Fight Night Round 3"],
+    "id": ["BLJM60020"]
+},
+"NPWR00016_00": {
+    "title": ["Tiger Woods PGA TOUR 07"],
+    "id": ["BLES00012"]
+},
 "NPWR00017_00": {
     "title": ["Untold Legends: Dark Kingdom"],
     "id": ["BLES00019", "BLUS30002"]
@@ -66,6 +74,10 @@
 "NPWR00039_00": {
     "title": ["Go! Puzzle"],
     "id": ["NPUA80022"]
+},
+"NPWR00043_00": {
+    "title": ["Need for Speed Carbon"],
+    "id": ["BLJM60014"]
 },
 "NPWR00044_00": {
     "title": ["Lemmings"],
@@ -166,6 +178,10 @@
 "NPWR00091_00": {
     "title": ["Gran Turismo HD Concept"],
     "id": ["NPEA90002"]
+},
+"NPWR00092_00": {
+    "title": ["NHL 08"],
+    "id": ["BLUS30062"]
 },
 "NPWR00094_00": {
     "title": ["Haze"],
@@ -335,6 +351,10 @@
     "title": ["LEGO Star Wars: The Complete Saga"],
     "id": ["BLES00121"]
 },
+"NPWR00192_00": {
+    "title": ["Tiger Woods PGA TOUR 08"],
+    "id": ["BLES00105"]
+},
 "NPWR00194_00": {
     "title": ["Unreal Tournament 3"],
     "id": ["BLES00200", "BLES00201", "BLUS30086"]
@@ -366,6 +386,10 @@
 "NPWR00212_00": {
     "title": ["Ferrari Challenge"],
     "id": ["BLES01451"]
+},
+"NPWR00213_00": {
+    "title": ["FIFA 08"],
+    "id": []
 },
 "NPWR00214_00": {
     "title": ["MotorStorm: Pacific Rift"],
@@ -710,6 +734,10 @@
 "NPWR00410_00": {
     "title": ["Buzz!: Quiz TV"],
     "id": ["BCES00303", "BCES00304", "BCES00305"]
+},
+"NPWR00411_00": {
+    "title": ["Tiger Woods PGA TOUR 09"],
+    "id": ["BLES00295"]
 },
 "NPWR00413_00": {
     "title": ["Linger In Shadows"],
@@ -2033,7 +2061,7 @@
 },
 "NPWR00899_00": {
     "title": ["MOTORSTORM: APOCALYPSE"],
-    "id": ["BCES00484", "BCES01104", "BCUS98242", "BCET70028"]
+    "id": ["BCES00484", "BCES01104", "BCUS98242", "BCET70028", "BCAS20160"]
 },
 "NPWR00900_00": {
     "title": ["Naughty Bear"],
@@ -2289,7 +2317,7 @@
 },
 "NPWR01007_00": {
     "title": ["Dead Nation"],
-    "id": []
+    "id": ["BCET70025"]
 },
 "NPWR01008_00": {
     "title": ["Ratchet & Clank: All 4 One"],
@@ -2870,6 +2898,10 @@
 "NPWR01232_00": {
     "title": ["Unknown Game"],
     "id": []
+},
+"NPWR01233_00": {
+    "title": ["2010 FIFA World Cup Demo"],
+    "id": ["NPEB90228", "NPUB90369"]
 },
 "NPWR01234_00": {
     "title": ["DEF JAM RAPSTAR"],
@@ -3620,8 +3652,8 @@
     "id": ["BCES01048", "BLUS30583"]
 },
 "NPWR01501_00": {
-    "title": ["Unknown Game"],
-    "id": []
+    "title": ["FIFA 11 Demo"],
+    "id": ["NPEB90274"]
 },
 "NPWR01502_00": {
     "title": ["Sackboy's Prehistoric Moves"],
@@ -5363,6 +5395,10 @@
     "title": ["DRIVER San Francisco Online Demo"],
     "id": ["NPEB90356"]
 },
+"NPWR02461_00": {
+    "title": ["FIFA 12 Demo"],
+    "id": ["NPEB90357"]
+},
 "NPWR02466_00": {
     "title": ["Rune Factory: Tides of Destiny"],
     "id": ["BLUS30759"]
@@ -6056,8 +6092,8 @@
     "id": []
 },
 "NPWR03163_00": {
-    "title": ["Unknown Game"],
-    "id": []
+    "title": ["FIFA Street Demo"],
+    "id": ["NPEB90378"]
 },
 "NPWR03165_00": {
     "title": ["JOJO'S BIZARRE ADVENTURE HD Ver."],
@@ -6899,6 +6935,10 @@
     "title": ["Sonic the Fighters"],
     "id": ["NPJB00250"]
 },
+"NPWR03876_00": {
+    "title": ["FIFA 13 Demo"],
+    "id": ["NPEB90444"]
+},
 "NPWR03880_00": {
     "title": ["STEINS;GATE"],
     "id": []
@@ -6982,6 +7022,10 @@
 "NPWR03984_00": {
     "title": ["Army of TWO The Devil's Cartel"],
     "id": ["BLES01763", "BLES01767", "BLJM60578", "BLUS31069"]
+},
+"NPWR03986_00": {
+    "title": ["God of War Ascension Multiplayer Beta"],
+    "id": ["BCET70050", "NPUA70216"]
 },
 "NPWR03988_00": {
     "title": ["Do Not Fall"],
@@ -8167,6 +8211,10 @@
     "title": ["Winning Post 8"],
     "id": ["BLJM61119"]
 },
+"NPWR05166_00": {
+    "title": ["FIFA 14 Demo"],
+    "id": ["NPEB90506"]
+},
 "NPWR05167_00": {
     "title": ["The LEGO Movie - Videogame"],
     "id": ["BLES01964", "BLJM61234", "BLUS31373"]
@@ -9198,6 +9246,10 @@
 "NPWR07178_00": {
     "title": ["Falling Skies: The Game"],
     "id": ["BLES02041"]
+},
+"NPWR07186_00": {
+    "title": ["FIFA 15 Demo"],
+    "id": ["NPEB90542"]
 },
 "NPWR07211_00": {
     "title": ["Toybox Turbos"],
@@ -10462,6 +10514,10 @@
 "NPWR11597_00": {
     "title": ["THE LEGEND OF HEROES: TRAILS OF COLD STEEL II"],
     "id": ["BLES02244", "BLUS31597"]
+},
+"NPWR11626_00": {
+    "title": ["FIFA 17 Demo"],
+    "id": ["NPEB90567"]
 },
 "NPWR11719_00": {
     "title": ["Asdivine Hearts"],
