@@ -2960,7 +2960,7 @@
     "id": []
 },
 "NPWR01254_00": {
-    "title": ["AC Brotherhood"],
+    "title": ["Assassin's Creed: Brotherhood"],
     "id": ["BLES00909", "BLES00910", "BLES00911", "BLJM60250", "BLKS20231", "BLUS30537"]
 },
 "NPWR01255_00": {
@@ -5300,7 +5300,7 @@
     "id": ["BLES01601", "BLUS30865"]
 },
 "NPWR02350_00": {
-    "title": ["AC Revelations"],
+    "title": ["Assassin's Creed: Revelations"],
     "id": ["BLES01772", "BLES01384", "BLES01385", "BLES01466", "BLES01467", "BLJM60412", "BLJM60573", "BLJM67011", "BLKS20325", "BLUS30808", "BLUS30905", "BLUS31145"]
 },
 "NPWR02355_00": {
@@ -7084,7 +7084,7 @@
     "id": ["BLJS10226", "BLUS31213"]
 },
 "NPWR04034_00": {
-    "title": ["Injustice"],
+    "title": ["Injustice: Gods Among Us"],
     "id": ["BLES01673", "BLES01967", "BLJM60515", "BLUS31018", "BLUS31364"]
 },
 "NPWR04036_00": {
@@ -10469,7 +10469,7 @@
 },
 "NPWR11024_00": {
     "title": ["Pro Evolution Soccer 2017"],
-    "id": ["BLES02237", "BLES02238"]
+    "id": ["BLES02237", "BLES02238", "BLAS50824"]
 },
 "NPWR11032_00": {
     "title": ["Skylanders Imaginators"],
