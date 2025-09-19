@@ -55,7 +55,8 @@ class RPCNStats {
             case 'H': return 'HK';   // Hong Kong
             case 'K': return 'KR';   // South Korea
             case 'I': return 'IN';   // International
-            default:  return 'Other';
+            case 'T': return 'IN';   // MRTC
+            default:  return 'unknown';
         }
     }
 
