@@ -333,7 +333,7 @@
 },
 "NPWR00181_00": {
     "title": ["echochrome"],
-    "id": []
+    "id": ["NPEA00071"]
 },
 "NPWR00185_00": {
     "title": ["Buzz!: Quiz TV"],
@@ -733,7 +733,7 @@
 },
 "NPWR00410_00": {
     "title": ["Buzz!: Quiz TV"],
-    "id": ["BCES00303", "BCES00304", "BCES00305"]
+    "id": ["BCES00195", "BCES00303", "BCES00304", "BCES00305"]
 },
 "NPWR00411_00": {
     "title": ["Tiger Woods PGA TOUR 09"],
@@ -3129,7 +3129,7 @@
 },
 "NPWR01307_00": {
     "title": ["Tetris"],
-    "id": []
+    "id": ["NPEB00219"]
 },
 "NPWR01308_00": {
     "title": ["My Aquarium"],
@@ -3401,11 +3401,11 @@
 },
 "NPWR01403_00": {
     "title": ["SPELUNKER HD"],
-    "id": []
+    "id": ["NPUB30152"]
 },
 "NPWR01404_00": {
     "title": ["Medal of Honor Frontline"],
-    "id": []
+    "id": ["NPUB30288"]
 },
 "NPWR01405_00": {
     "title": ["Pro Evolution Soccer 2011"],
@@ -3877,7 +3877,7 @@
 },
 "NPWR01574_00": {
     "title": ["Kung-Fu Live"],
-    "id": []
+    "id": ["NPUB30376"]
 },
 "NPWR01576_00": {
     "title": ["Beyond Good & Evil HD"],
@@ -3885,7 +3885,7 @@
 },
 "NPWR01577_00": {
     "title": ["RESIDENT EVIL 6"],
-    "id": ["BLES01465", "BLES01683", "BLJM60405", "BLUS30855"]
+    "id": ["BLES01465", "BLES01683", "BLJM60405", "BLUS30855", "NPEB01150"]
 },
 "NPWR01580_00": {
     "title": ["Mass Effect 2"],
@@ -6137,7 +6137,7 @@
 },
 "NPWR03204_00": {
     "title": ["SingStar"],
-    "id": ["BCES02042", "BCES02044", "BCES02045", "BCES02046", "BCES02111", "BCES02112", "BCES02118", "BCES02120", "BCES02025", "BCES02043", "BCES02113"]
+    "id": ["BCES02042", "BCES02044", "BCES02045", "BCES02046", "BCES02111", "BCES02112", "BCES02118", "BCES02120", "BCES02025", "BCES02043", "BCES02113", "NPEA00374"]
 },
 "NPWR03207_00": {
     "title": ["Sound Shapes"],
@@ -6849,7 +6849,7 @@
 },
 "NPWR03806_00": {
     "title": ["Dead Island Riptide"],
-    "id": ["BLES01739", "BLES01956", "BLUS31052"]
+    "id": ["BLES01739", "BLES01956", "BLUS31052", "NPUB31145"]
 },
 "NPWR03808_00": {
     "title": ["Dead Space 3"],
@@ -7789,7 +7789,7 @@
 },
 "NPWR04682_00": {
     "title": ["DRAG-ON DRAGOON 3"],
-    "id": ["BLJM61043", "BLUS31197", "NPUB31251"]
+    "id": ["BLJM61043", "BLUS31197", "NPUB31251", "NPHB00633"]
 },
 "NPWR04685_00": {
     "title": ["Dungeons & Dragons ―ミスタラ英雄戦記―"],
@@ -9413,7 +9413,7 @@
 },
 "NPWR07574_00": {
     "title": ["光明之響"],
-    "id": []
+    "id": ["BLAS50745"]
 },
 "NPWR07589_00": {
     "title": ["Costume Quest 2"],
