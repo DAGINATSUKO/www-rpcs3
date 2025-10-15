@@ -513,7 +513,7 @@
 },
 "NPWR00302_00": {
     "title": ["SOCOM: U.S. NAVY SEALS CONFRONTATION"],
-    "id": ["BCES00173"]
+    "id": ["BCES00173", "BCAS20051"]
 },
 "NPWR00305_00": {
     "title": ["Bionic Commando"],
@@ -2069,7 +2069,7 @@
 },
 "NPWR00901_00": {
     "title": ["NASCAR The Game 2011"],
-    "id": ["BLUS30604"]
+    "id": ["BLUS30604", "NPEB00682"]
 },
 "NPWR00905_00": {
     "title": ["Polar Panic"],
@@ -3757,7 +3757,7 @@
 },
 "NPWR01536_00": {
     "title": ["Star Trek"],
-    "id": ["BLES01792", "BLUS30935"]
+    "id": ["BLES01792", "BLUS30935", "NPEB01294"]
 },
 "NPWR01537_00": {
     "title": ["Borderlands 2"],
@@ -4569,7 +4569,7 @@
 },
 "NPWR01817_00": {
     "title": ["The Darkness II"],
-    "id": ["BLES01389", "BLES01388", "BLES01390", "BLJS10137", "BLUS30743"]
+    "id": ["BLES01389", "BLES01388", "BLES01390", "BLJS10137", "BLUS30743", "NPEB00934"]
 },
 "NPWR01818_00": {
     "title": ["Jak and Daxter: The Precursor Legacy"],
@@ -5497,7 +5497,7 @@
 },
 "NPWR02541_00": {
     "title": ["NASCAR The Game: Inside Line"],
-    "id": ["BLUS30932"]
+    "id": ["BLUS30932", "NPEB01256"]
 },
 "NPWR02544_00": {
     "title": ["Clan of Champions"],
@@ -6057,7 +6057,7 @@
 },
 "NPWR03117_00": {
     "title": ["GUILTY GEAR XX ΛCORE PLUS"],
-    "id": []
+    "id": ["NPJB00241"]
 },
 "NPWR03118_00": {
     "title": ["Mad Riders"],
@@ -7125,7 +7125,7 @@
 },
 "NPWR04077_00": {
     "title": ["Scourge: Outbreak"],
-    "id": []
+    "id": ["NPEB01220"]
 },
 "NPWR04081_00": {
     "title": ["American Mensa Academy"],
@@ -8721,7 +8721,7 @@
 },
 "NPWR06055_00": {
     "title": ["Skullgirls Encore"],
-    "id": []
+    "id": ["NPJB00628"]
 },
 "NPWR06070_00": {
     "title": ["Ranko Tsukigime's Longest Day"],
