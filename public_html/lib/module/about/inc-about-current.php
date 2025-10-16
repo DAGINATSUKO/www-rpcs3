@@ -156,7 +156,7 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>64GB DDR4 (3200MHz)</span>
+							<span>64GB DDR4 (3200MT/s)</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
@@ -248,7 +248,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR5 (6000MHz)</span>
+						<span>32GB DDR5 (6000MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -287,7 +287,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB DDR4 (3200MHz)</span>
+						<span>16GB DDR4 (3200MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -319,7 +319,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB LPDDR5 (5500MHz)</span>
+						<span>16GB LPDDR5 (5500MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -396,7 +396,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 9950X3D (5.8GHz)</span>
+						<span>AMD Ryzen 9 9950X3D (5.8GHz)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -414,7 +414,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>64GB DDR4 (6400MHz C26)</span>
+						<span>64GB DDR5 (6400MT/s C26)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -441,7 +441,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 9950X3D (5.5GHz)</span>
+						<span>AMD Ryzen 9 9950X3D (5.5GHz)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -459,7 +459,50 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR5 (8000MHz C32)</span>
+						<span>32GB DDR5 (8000MT/s C32)</span>
+					</div>
+					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Windows 11</span>
+					</div>
+				</div>
+			</div>
+			<div class="user-con-specbox">
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Server (E-ATX)</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Intel Core Ultra 9 285K (5.6GHz)</span>
+					</div>
+					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>NVIDIA RTX 3080 FE</span>
+					</div>
+					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>128GB DDR5 (7800MT/s C48)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -570,7 +613,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3600MHz)</span>
+						<span>32GB DDR4 (3600MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -659,7 +702,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>64GB DDR4 (3200MHz)</span>
+						<span>64GB DDR4 (3200MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -797,7 +840,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>64GB DDR5 (6000MHz C30)</span>
+						<span>64GB DDR5 (6000MT/s C30)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -887,7 +930,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>128GB DDR5 (5600 MHz)</span>
+						<span>128GB DDR5 (5600 MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -987,7 +1030,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3200MHz)</span>
+						<span>32GB DDR4 (3200MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1019,7 +1062,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB LPDDR5 (6400MHz)</span>
+						<span>16GB LPDDR5 (6400MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1116,7 +1159,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3600MHz)</span>
+						<span>32GB DDR4 (3600MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1148,7 +1191,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB LPDDR5 (5500MHz)</span>
+						<span>16GB LPDDR5 (5500MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1229,31 +1272,31 @@
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i7-5820K (3.5GHz)</span>
+						<span>AMD Ryzen 7 9700X (5.5GHz)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 970</span>
+						<span>AMD Radeon RX 9070 XT</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (2133MHz)</span>
+						<span>32GB DDR5 (6000MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-7.png') no-repeat center;">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 7</span>
+						<span>Windows 11</span>
 					</div>
 				</div>
 			</div>
@@ -1318,7 +1361,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR5 (7600MHz)</span>
+						<span>32GB DDR5 (7600MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1350,7 +1393,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB LPDDR5 (5500MHz)</span>
+						<span>16GB LPDDR5 (5500MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1434,7 +1477,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 9800X3D (5.6GHz)</span>
+						<span>AMD Ryzen 7 9800X3D (5.6GHz)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -1452,7 +1495,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR5 (8200MHz C32)</span>
+						<span>32GB DDR5 (8200MT/s C32)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -1495,7 +1538,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3866MHz C14)</span>
+						<span>32GB DDR4 (3866MT/s C14)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -1595,7 +1638,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR5 (7600MHz)</span>
+						<span>32GB DDR5 (7600MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">

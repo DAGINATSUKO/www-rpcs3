@@ -33,7 +33,7 @@
 			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-arm64.png) center / contain no-repeat;"></div>
 				<span>
 					<?php
-					if (isset($build) && !is_null($build->checksum_win_arm64) && false) // Disabled
+					if (/*isset($build) && !is_null($build->checksum_win_arm64) &&*/ false) // Disabled
 						printf("%s", $build->checksum_win_arm64);
 					else if (isset($build_windows_arm64))
 						printf("%s", $build_windows_arm64->checksum_win_arm64);
@@ -82,7 +82,7 @@
 				printf("</a>");
 			?>
 			<?php
-			if (isset($build) && !is_null($build->get_url_windows_arm64()) && false) // Disabled
+			if (/*isset($build) && !is_null($build->get_url_windows_arm64()) &&*/ false) // Disabled
 				printf("<a href=\"%s\" download>", $build->get_url_windows_arm64());
 			else if (isset($build_windows_arm64))
 				printf("<a href=\"%s\" download>", $build_windows_arm64->get_url_windows_arm64());
@@ -93,7 +93,7 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 					<?php
-					if (isset($build) && !is_null($build->get_url_windows_arm64()) && false) // Disabled
+					if (/*isset($build) && !is_null($build->get_url_windows_arm64()) &&*/ false) // Disabled
 						printf("Download for arm64");
 					else
 						printf("Coming soon...");
@@ -102,7 +102,7 @@
 					<br>
 					<span class='package-tx2-metabutton'>
 						<?php
-						if (isset($build) && !is_null($build->get_size_mb_windows_arm64()) && false) // Disabled
+						if (/*isset($build) && !is_null($build->get_size_mb_windows_arm64()) &&*/ false) // Disabled
 							printf("%s MB", $build->get_size_mb_windows_arm64());
 						else
 							printf("");
@@ -111,7 +111,7 @@
 				</div>
 			</div>
 			<?php
-			if (isset($build) && !is_null($build->get_url_windows_arm64()) && false) // Disabled
+			if (/*isset($build) && !is_null($build->get_url_windows_arm64()) &&*/ false) // Disabled
 				printf("</a>");
 			?>
 		</div>
