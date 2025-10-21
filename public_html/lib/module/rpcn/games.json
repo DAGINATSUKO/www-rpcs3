@@ -59,9 +59,13 @@
     "title": ["Super Rub'a'Dub"],
     "id": ["NPEA00016", "NPUA80063", "NPJA00013"]
 },
+"NPWR00030_00": {
+    "title": ["Mahjong Taikai IV"],
+    "id": ["BLJM60011"]
+},
 "NPWR00032_00": {
     "title": ["Lemmings"],
-    "id": ["BCES01334", "BCET00025"]
+    "id": ["BCES01334", "BCET00025", "NPEA00004"]
 },
 "NPWR00036_00": {
     "title": ["SingStar"],
@@ -89,7 +93,7 @@
 },
 "NPWR00049_00": {
     "title": ["Lemmings"],
-    "id": []
+    "id": ["NPJA00005"]
 },
 "NPWR00050_00": {
     "title": ["PlayStation Home"],
@@ -141,7 +145,7 @@
 },
 "NPWR00072_00": {
     "title": ["PIYOTAMA"],
-    "id": ["NPJA00017"]
+    "id": ["NPJA00017", "NPEA00065"]
 },
 "NPWR00075_00": {
     "title": ["Unknown Game"],
@@ -277,7 +281,7 @@
 },
 "NPWR00150_00": {
     "title": ["Toy Home"],
-    "id": []
+    "id": ["NPHA80029"]
 },
 "NPWR00152_00": {
     "title": ["Dark Mist"],
@@ -290,6 +294,10 @@
 "NPWR00156_00": {
     "title": ["Star Wars: The Force Unleashed"],
     "id": ["BLES00678", "BLUS30445", "BLES00262", "BLUS30144"]
+},
+"NPWR00158_00": {
+    "title": ["MX vs. ATV: Untamed"],
+    "id": ["BLES00178"]
 },
 "NPWR00160_00": {
     "title": ["LittleBigPlanet"],
@@ -394,6 +402,10 @@
 "NPWR00214_00": {
     "title": ["MotorStorm: Pacific Rift"],
     "id": ["BCES00129", "BCJS30027", "BCUS98155"]
+},
+"NPWR00219_00": {
+    "title": ["The Simpsons Game"],
+    "id": ["BLUS30065"]
 },
 "NPWR00221_00": {
     "title": ["DiRT"],
@@ -513,7 +525,7 @@
 },
 "NPWR00302_00": {
     "title": ["SOCOM: U.S. NAVY SEALS CONFRONTATION"],
-    "id": ["BCES00173"]
+    "id": ["BCES00173", "BCAS20051"]
 },
 "NPWR00305_00": {
     "title": ["Bionic Commando"],
@@ -729,7 +741,7 @@
 },
 "NPWR00409_00": {
     "title": ["SPELUNKER HD"],
-    "id": []
+    "id": ["NPJB00187"]
 },
 "NPWR00410_00": {
     "title": ["Buzz!: Quiz TV"],
@@ -1629,7 +1641,7 @@
 },
 "NPWR00729_00": {
     "title": ["RAYSTORM HD"],
-    "id": []
+    "id": ["NPJB00034"]
 },
 "NPWR00730_00": {
     "title": ["Peggle"],
@@ -2069,7 +2081,7 @@
 },
 "NPWR00901_00": {
     "title": ["NASCAR The Game 2011"],
-    "id": ["BLUS30604"]
+    "id": ["BLUS30604", "NPEB00682"]
 },
 "NPWR00905_00": {
     "title": ["Polar Panic"],
@@ -2457,7 +2469,7 @@
 },
 "NPWR01075_00": {
     "title": ["Deadliest Warrior: The Game"],
-    "id": []
+    "id": ["NPUB30309"]
 },
 "NPWR01076_00": {
     "title": ["MIGHT & MAGIC CLASH OF HEROES"],
@@ -2469,7 +2481,7 @@
 },
 "NPWR01079_00": {
     "title": ["SPELUNKER BLACK"],
-    "id": []
+    "id": ["NPHB00176"]
 },
 "NPWR01080_00": {
     "title": ["Top Gun"],
@@ -2705,7 +2717,7 @@
 },
 "NPWR01163_00": {
     "title": ["NEOGEO STATION Art Of Fighting"],
-    "id": ["NPUB30261"]
+    "id": ["NPUB30261", "NPJB70010"]
 },
 "NPWR01173_00": {
     "title": ["Spare Parts"],
@@ -3401,7 +3413,7 @@
 },
 "NPWR01403_00": {
     "title": ["SPELUNKER HD"],
-    "id": ["NPUB30152"]
+    "id": ["NPUB30152", "NPEB00469"]
 },
 "NPWR01404_00": {
     "title": ["Medal of Honor Frontline"],
@@ -3757,7 +3769,7 @@
 },
 "NPWR01536_00": {
     "title": ["Star Trek"],
-    "id": ["BLES01792", "BLUS30935"]
+    "id": ["BLES01792", "BLUS30935", "NPEB01294"]
 },
 "NPWR01537_00": {
     "title": ["Borderlands 2"],
@@ -4065,7 +4077,7 @@
 },
 "NPWR01644_00": {
     "title": ["Storm"],
-    "id": []
+    "id": ["NPUB30210"]
 },
 "NPWR01645_00": {
     "title": ["Dragon's Lair II: Time Warp"],
@@ -4084,8 +4096,8 @@
     "id": ["BLES01195", "BLUS30718"]
 },
 "NPWR01652_00": {
-    "title": ["resident evil 4"],
-    "id": []
+    "title": ["Resident Evil 4"],
+    "id": ["NPEB00342", "NPJB00084"]
 },
 "NPWR01653_00": {
     "title": ["ダンシングアイ"],
@@ -4565,11 +4577,11 @@
 },
 "NPWR01816_00": {
     "title": ["Deadliest Warrior: Legends"],
-    "id": []
+    "id": ["NPUB30490"]
 },
 "NPWR01817_00": {
     "title": ["The Darkness II"],
-    "id": ["BLES01389", "BLES01388", "BLES01390", "BLJS10137", "BLUS30743"]
+    "id": ["BLES01389", "BLES01388", "BLES01390", "BLJS10137", "BLUS30743", "NPEB00934"]
 },
 "NPWR01818_00": {
     "title": ["Jak and Daxter: The Precursor Legacy"],
@@ -4790,6 +4802,10 @@
 "NPWR01902_00": {
     "title": ["激アツ!! パチゲー魂 VOL 2 「ヱヴァンゲリヲン～真実の翼～」"],
     "id": ["BLJM60369"]
+},
+"NPWR01911_00": {
+    "title": ["NEOGEO STATION ザ・キング・オブ・ファイターズ'95"],
+    "id": ["NPJB70012"]
 },
 "NPWR01913_00": {
     "title": ["BloodRayne: Betrayal"],
@@ -5379,6 +5395,10 @@
     "title": ["Pure Chess"],
     "id": []
 },
+"NPWR02418_00": {
+    "title": ["NEOGEO STATION ワールドヒーローズ"],
+    "id": ["NPJB70013"]
+},
 "NPWR02426_00": {
     "title": ["マージャン★ドリームクラブ"],
     "id": ["BLJS10149"]
@@ -5497,7 +5517,7 @@
 },
 "NPWR02541_00": {
     "title": ["NASCAR The Game: Inside Line"],
-    "id": ["BLUS30932"]
+    "id": ["BLUS30932", "NPEB01256"]
 },
 "NPWR02544_00": {
     "title": ["Clan of Champions"],
@@ -5534,6 +5554,10 @@
 "NPWR02570_00": {
     "title": ["NEOGEO STATION Metal Slug 2"],
     "id": ["NPJB70016"]
+},
+"NPWR02571_00": {
+    "title": ["NEOGEO STATION ザ・キング・オブ・ファイターズ'96"],
+    "id": ["NPJB70015"]
 },
 "NPWR02572_00": {
     "title": ["無双OROCHI２"],
@@ -5893,7 +5917,7 @@
 },
 "NPWR02955_00": {
     "title": ["Beer Pong"],
-    "id": []
+    "id": ["NPUB31227"]
 },
 "NPWR02961_00": {
     "title": ["Wheel of Fortune"],
@@ -5926,6 +5950,10 @@
 "NPWR02986_00": {
     "title": ["Syndicate"],
     "id": ["BLES01371", "BLUS30804"]
+},
+"NPWR02995_00": {
+    "title": ["Spelunker HD"],
+    "id": ["NPJB00187"]
 },
 "NPWR02997_00": {
     "title": ["LEGO Batman 2: DC Super Heroes"],
@@ -6057,7 +6085,7 @@
 },
 "NPWR03117_00": {
     "title": ["GUILTY GEAR XX ΛCORE PLUS"],
-    "id": []
+    "id": ["NPJB00241"]
 },
 "NPWR03118_00": {
     "title": ["Mad Riders"],
@@ -6837,7 +6865,7 @@
 },
 "NPWR03789_00": {
     "title": ["When Vikings Attack!"],
-    "id": []
+    "id": ["NPEA00372"]
 },
 "NPWR03797_00": {
     "title": ["Beyond: Two Souls"],
@@ -6929,7 +6957,7 @@
 },
 "NPWR03868_00": {
     "title": ["Fighting Vipers"],
-    "id": []
+    "id": ["NPEB01164"]
 },
 "NPWR03869_00": {
     "title": ["Sonic the Fighters"],
@@ -7125,7 +7153,7 @@
 },
 "NPWR04077_00": {
     "title": ["Scourge: Outbreak"],
-    "id": []
+    "id": ["NPEB01220"]
 },
 "NPWR04081_00": {
     "title": ["American Mensa Academy"],
@@ -7153,7 +7181,7 @@
 },
 "NPWR04103_00": {
     "title": ["Chaos Code"],
-    "id": []
+    "id": ["NPUB31340"]
 },
 "NPWR04104_00": {
     "title": ["Arcania"],
@@ -7885,7 +7913,7 @@
 },
 "NPWR04780_00": {
     "title": ["Shake Spears!"],
-    "id": []
+    "id": ["NPUB31270"]
 },
 "NPWR04787_00": {
     "title": ["Assassin's Creed Liberation HD"],
@@ -7897,7 +7925,7 @@
 },
 "NPWR04810_00": {
     "title": ["Divekick"],
-    "id": []
+    "id": ["NPEB01796"]
 },
 "NPWR04811_00": {
     "title": ["El Chavo Kart"],
@@ -8721,7 +8749,7 @@
 },
 "NPWR06055_00": {
     "title": ["Skullgirls Encore"],
-    "id": []
+    "id": ["NPJB00628"]
 },
 "NPWR06070_00": {
     "title": ["Ranko Tsukigime's Longest Day"],
@@ -9993,7 +10021,7 @@
 },
 "NPWR08945_00": {
     "title": ["Amplitude"],
-    "id": []
+    "id": ["NPEB02398"]
 },
 "NPWR08952_00": {
     "title": ["Quiplash"],
