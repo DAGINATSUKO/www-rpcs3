@@ -546,7 +546,7 @@ a:hover {
     animation-name: fadeInDown;
     animation-duration: .5s;
     animation-iteration-count: 1;
-    border-radius: 6px;
+    border-radius: 16px;
     margin-bottom: 10px;
     border: 2px solid rgba(255,255,255,.03)
 }
@@ -2213,7 +2213,7 @@ a:hover {
     padding-left: 4px;
     padding-right: 4px;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #fff
+    border: 2px solid rgb(0 0 0 / 10%);
 }
 
 .build-btn-button:hover {
@@ -2367,7 +2367,7 @@ a:hover {
     padding-left: 4px;
     padding-right: 4px;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #fff;
+    border: 2px solid rgb(0 0 0 / 10%);
     position: relative;
     left: 50%
 }
@@ -2479,7 +2479,7 @@ a:hover {
     padding-left: 4px;
     padding-right: 4px;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #fff
+    border: 2px solid rgb(0 0 0 / 10%);
 }
 
 .github-btn-button:hover {
@@ -2624,7 +2624,7 @@ a:hover {
     padding-left: 4px;
     padding-right: 4px;
     transition: all .1s ease-in-out 0s;
-    border: 2px solid #fff
+    border: 2px solid rgb(0 0 0 / 10%);
 }
 
 .discord-btn-button:hover {
@@ -2964,9 +2964,10 @@ a:hover {
     width: 550px;
     height: 309px;
     box-shadow: rgba(0,0,0,.2) 20px 20px 64px 0;
-    border-radius: 16px;
+    border-radius: 18px;
     transition: all .2s ease-in-out 0s;
-    z-index: 2
+    z-index: 2;
+    border: solid 2px rgb(255 255 255 / 20%);
 }
 
 .video-con-wrapper:hover>.video-btn-play {
@@ -3526,7 +3527,7 @@ a:hover {
     background: linear-gradient(0deg,rgb(255 255 255/10%) 10%,rgba(255,255,255,0) 100%);
     border: solid 1px rgb(255 255 255/20%);
     left: 20px;
-    top: 25px;
+    top: 21px;
     width: 80px;
     height: 80px;
     transition: all .2s ease-in-out 0s;

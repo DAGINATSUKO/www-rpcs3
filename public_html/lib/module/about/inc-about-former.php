@@ -67,7 +67,7 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>64GB DDR4 (3000MHz)</span>
+							<span>64GB DDR4 (3000MT/s)</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
@@ -915,7 +915,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB DDR4 (3200MHz)</span>
+						<span>16GB DDR4 (3200MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1035,7 +1035,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3600MHz)</span>
+						<span>32GB DDR4 (3600MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
@@ -1155,7 +1155,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3733MHz)</span>
+						<span>32GB DDR4 (3733MT/s)</span>
 					</div>
 				</div>
 				<div class="specbox-con-part darkmode-specbox">
