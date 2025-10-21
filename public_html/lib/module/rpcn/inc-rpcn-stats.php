@@ -152,13 +152,16 @@ class RPCNStats {
             $comm_id_player_count = 0;
 
             // First try psn_games (comm_id)
-            if (isset($data['psn_games'][$comm_id])) {
-                $value = $data['psn_games'][$comm_id];
-            
-                if (is_array($value) && isset($value[0])) {
-                    $comm_id_player_count += (int) $value[0];
-                } elseif (is_int($value)) {
-                    $comm_id_player_count += $value;
+            $normalized_entry_id = $this->normalize_id($comm_id);
+            if (isset($data['psn_games']) && is_array($data['psn_games'])) {
+                foreach ($data['psn_games'] as $api_title_id => $value) {
+                    if ($this->normalize_id($api_title_id) === $normalized_entry_id) {
+                        if (is_array($value) && isset($value[0])) {
+                            $comm_id_player_count += (int) $value[0];
+                        } elseif (is_int($value)) {
+                            $comm_id_player_count += $value;
+                        }
+                    }
                 }
             }
 
