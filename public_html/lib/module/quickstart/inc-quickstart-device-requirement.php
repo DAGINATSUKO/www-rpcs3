@@ -64,14 +64,19 @@
 					</div>
 					<div class="item-tx2-desc">
 						<p>
-							 AMD - Vulkan compatible with active driver support
+							 AMD - Vulkan 1.2 compatible with active driver support
 						</p>
-						<span>AMD Polaris architecture, RX 400 series or newer</span><br>
+						<span>AMD RDNA architecture, RX 5000 series or newer</span><br>
 						<br>
 						<p>
-							 NVIDIA - Vulkan compatible with active driver support
+							 NVIDIA - Vulkan 1.2 compatible with active driver support
 						</p>
-						<span>NVIDIA Maxwell architecture, GTX 900 series or newer</span>
+						<span>NVIDIA Turing architecture, RTX 2000 series or newer</span><br>
+						<br>
+						<p>
+							 Intel - Not recommended
+						</p>
+						<span>Intel GPUs and drivers are currently unsupported</span>
 					</div>
 				</div>
 			</div>
@@ -207,14 +212,19 @@
 					</div>
 					<div class="item-tx2-desc">
 						<p>
-							 AMD - OpenGL 4.3 compatible or newer
+							 AMD - OpenGL 4.3 compatible or newer, running on Linux
 						</p>
 						<span>AMD Evergreen architecture, HD 5000 series or newer</span><br>
 						<br>
 						<p>
 							 NVIDIA - OpenGL 4.3 compatible or newer
 						</p>
-						<span>NVIDIA Fermi architecture, GTX 400 series or newer</span>
+						<span>NVIDIA Fermi architecture, GTX 400 series or newer</span><br>
+						<br>
+						<p>
+							 Intel - OpenGL 4.3 compatible or newer, running on Linux
+						</p>
+						<span>Intel GPUs and drivers are currently unsupported, but can run some games on Linux</span>
 					</div>
 				</div>
 			</div>
