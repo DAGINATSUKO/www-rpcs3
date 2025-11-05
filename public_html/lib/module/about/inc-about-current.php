@@ -405,7 +405,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 4090 FE</span>
+						<span>NVIDIA RTX 5090 FE</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -450,7 +450,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 3090 FE</span>
+						<span>NVIDIA RTX 4090 FE</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -484,7 +484,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core Ultra 9 285K (5.6GHz)</span>
+						<span>Intel Core Ultra 9 285K (5.7GHz)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -493,7 +493,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 3080 FE</span>
+						<span>NVIDIA RTX 3090 FE</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>

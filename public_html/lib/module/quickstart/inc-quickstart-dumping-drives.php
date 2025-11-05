@@ -170,8 +170,10 @@
 			</div>
 			<span>CH30N</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BU50N</span>
 		</div>
 	</div>
 </div>
