@@ -71,6 +71,10 @@
     "title": ["SingStar"],
     "id": ["BCES00293", "BCES00343", "BCES00344", "BCES00345", "BCES00518", "BCES00519", "BCES00621", "BCES00622", "BCES00625", "BCES00846", "BCES00852", "BCES00981", "BCES01023", "BCES01083", "BCES01103", "BCES01255", "BCES01441", "BCES01735", "BCES00341", "BCES00342", "BCES00346", "BCES00531", "BCES00583", "BCES00596", "BCES00607", "BCES00614", "BCES00617", "BCES00624", "BCES00640", "BCES00722", "BCES00835", "BCES00847", "BCES00856", "BCES00869", "BCES00871", "BCES00894", "BCES00979", "BCES00980", "BCES01024", "BCES01049", "BCES01257", "BCES01258", "BCUS94344", "BCUS98206", "BCUS98266"]
 },
+"NPWR00037_00": {
+    "title": ["カズオ"],
+    "id": ["NPJA00006"]
+},
 "NPWR00038_00": {
     "title": ["Formula One Championship Edition"],
     "id": ["BCAS20009"]
@@ -258,6 +262,10 @@
 "NPWR00135_00": {
     "title": ["Snakeline"],
     "id": ["NPHA80027"]
+},
+"NPWR00136_00": {
+    "title": ["The Club"],
+    "id": ["BLES00192"]
 },
 "NPWR00137_00": {
     "title": ["Dragon Ball Z: Burst Limit"],
@@ -609,7 +617,7 @@
 },
 "NPWR00346_00": {
     "title": ["Novastrike"],
-    "id": []
+    "id": ["NPEB00041"]
 },
 "NPWR00349_00": {
     "title": ["Guitar Hero: World Tour"],
@@ -1645,7 +1653,7 @@
 },
 "NPWR00730_00": {
     "title": ["Peggle"],
-    "id": ["BLUS30852"]
+    "id": ["BLUS30852", "NPUA30005"]
 },
 "NPWR00731_00": {
     "title": ["Death Track: Resurrection"],
@@ -3529,7 +3537,7 @@
 },
 "NPWR01444_00": {
     "title": ["The Simpsons Arcade Game"],
-    "id": []
+    "id": ["NPEB00727"]
 },
 "NPWR01445_00": {
     "title": ["プロ野球スピリッツ2011"],
@@ -3569,7 +3577,7 @@
 },
 "NPWR01460_00": {
     "title": ["Fallout: New Vegas"],
-    "id": ["BLES01057", "BLES01475", "BLES01476", "BLES01477", "BLES01479", "BLES00901", "BLES00902", "BLES00903", "BLES00904", "BLES00905", "BLES01478", "BLJM60449", "BLJM60282", "BLUS30889", "BLUS30500", "BLUS30626", "BLUS30888"]
+    "id": ["BLES01057", "BLES01475", "BLES01476", "BLES01477", "BLES01479", "BLES00901", "BLES00902", "BLES00903", "BLES00904", "BLES00905", "BLES01478", "BLJM60449", "BLJM60282", "BLUS30889", "BLUS30500", "BLUS30626", "BLUS30888", "BLUS30890"]
 },
 "NPWR01462_00": {
     "title": ["Dead Space Extraction"],
@@ -4273,7 +4281,7 @@
 },
 "NPWR01721_00": {
     "title": ["All Zombies Must Die!"],
-    "id": []
+    "id": ["NPUB30308", "NPEB00316"]
 },
 "NPWR01722_00": {
     "title": ["Who Wants To Be A Millionaire"],
@@ -5117,7 +5125,7 @@
 },
 "NPWR02175_00": {
     "title": ["Magic 2013"],
-    "id": ["NPUB30627"]
+    "id": ["NPUB30627", "NPEB00819"]
 },
 "NPWR02181_00": {
     "title": ["NINJA GAIDEN 3"],
@@ -5201,7 +5209,7 @@
 },
 "NPWR02253_00": {
     "title": ["Doc Clock : The Toasted Sandwich of Time"],
-    "id": []
+    "id": ["NPEB00893"]
 },
 "NPWR02260_00": {
     "title": ["Medieval Moves"],
@@ -7201,7 +7209,7 @@
 },
 "NPWR04119_00": {
     "title": ["Ragnarok Odyssey ACE"],
-    "id": ["BLUS31386"]
+    "id": ["BLUS31386", "BCAS20317"]
 },
 "NPWR04128_00": {
     "title": ["DRAGON BALL XENOVERSE"],
@@ -7741,7 +7749,7 @@
 },
 "NPWR04605_00": {
     "title": ["Invizimals: The Lost Kingdom "],
-    "id": ["BCES01970", "BCES01700", "BCUS99192"]
+    "id": ["BCES01970", "BCES01700", "BCUS99192", "NPEA00473"]
 },
 "NPWR04608_00": {
     "title": ["アルカディアスの戦姫"],
@@ -9117,7 +9125,7 @@
 },
 "NPWR06778_00": {
     "title": ["The Legend of Korra"],
-    "id": []
+    "id": ["NPEB02082"]
 },
 "NPWR06783_00": {
     "title": ["PAC-MAN and the Ghostly Adventures 2"],
@@ -9201,7 +9209,7 @@
 },
 "NPWR07053_00": {
     "title": ["MONOPOLY PLUS"],
-    "id": []
+    "id": ["NPEB02090"]
 },
 "NPWR07057_00": {
     "title": ["Resident Evil"],
@@ -9278,6 +9286,10 @@
 "NPWR07186_00": {
     "title": ["FIFA 15 Demo"],
     "id": ["NPEB90542"]
+},
+"NPWR07192_00": {
+    "title": ["Dragon Ball Xenoverse Network Test"],
+    "id": ["NPUB31623"]
 },
 "NPWR07211_00": {
     "title": ["Toybox Turbos"],
