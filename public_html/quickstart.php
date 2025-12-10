@@ -23,10 +23,6 @@
 <meta name="twitter:card" content="summary_large_image">
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
-<?php
-if (@include_once("lib/compat/objects/Build.php"))
-	$build = Build::get_latest(null);
-?>
 </head>
 <body>
 <?php include 'lib/module/sys-global.php';?>

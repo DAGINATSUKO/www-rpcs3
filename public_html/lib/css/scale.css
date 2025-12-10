@@ -208,7 +208,7 @@
 		background:unset
 	}
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
 	.mobile-menu-btn-open {
 		display:block;
 		height:70px;
@@ -218,7 +218,7 @@
 		display:none !important;
 	}
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width: 1030px) {
 	.footer-tx1-developer {
 		display:none
 	}

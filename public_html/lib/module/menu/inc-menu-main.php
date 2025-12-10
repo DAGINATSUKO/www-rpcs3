@@ -190,7 +190,7 @@
 			</div>
 			<div class="mobile-menu-btn-darkmode toggle-darkmode">
 			</div>
-			<a href='/blog'>
+			<a href='https://blog.rpcs3.net' target="_blank">
 			<div class="menu-btn-select">
 				<span>Blog</span>
 			</div>
@@ -237,7 +237,7 @@
 				<span>Forum</span>
 			</div>
 			</a>
-			<a href='https://wiki.rpcs3.net'>
+			<a href='https://wiki.rpcs3.net' target="_blank">
 			<div class="menu-btn-select">
 				<span>Wiki</span>
 			</div>
@@ -245,13 +245,13 @@
 			<div class="menu-btn-select toggle-discord">
 				<span>Discord</span>
 			</div>
-			<a href='https://www.youtube.com/c/RPCS3_emu/videos' target="_blank">
+			<a href='https://youtube.com/c/RPCS3_emu/videos' target="_blank">
 			<div class="menu-btn-select">
 				<span>YouTube</span>
 			</div>
 			</a>
 			<div class="support-con-menu">
-				<a href="https://www.patreon.com/Nekotekina" target="_blank">
+				<a href="/patreon" target="_blank">
 				<div class="support-ico-menu">
 				</div>
 				</a>

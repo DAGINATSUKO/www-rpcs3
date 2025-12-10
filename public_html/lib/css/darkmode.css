@@ -148,15 +148,13 @@
 	color:#fff!important
 }
 .dm-specbox {
-	background:rgb(17 21 37/50%)!important;
-	border:solid 1px rgb(41 51 88/50%)!important;
+	background: linear-gradient(0deg, rgb(104 109 224 / 15%) 0%, rgb(186 190 206 / 10%) 70%);
 }
 .dm-spechseet {
 	background:rgb(255 255 255/5%)!important
 }
 .dm-socialbox-con-button {
-	background:rgb(17 21 37/50%)!important;
-	border:solid 1px rgb(41 51 88/50%)!important
+	background: linear-gradient(0deg, rgb(104 109 224 / 15%) 0%, rgb(186 190 206 / 10%) 70%);
 }
 .dm-menu {
 	background:rgba(16,24,56,.8)!important
