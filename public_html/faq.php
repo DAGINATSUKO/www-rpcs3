@@ -4,7 +4,7 @@
 <title>RPCS3 - FAQs</title>
 <meta charset="utf-8">
 <meta name="description" content="RPCS3 is stable enough to boot into games and play many of them with ease. Stability is more of a per-game factor that may change with new builds as new features get implemented.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, faq">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, faq">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - FAQs" />
 <meta property="og:description" content="RPCS3 is stable enough to boot into games and play many of them with ease. Stability is more of a per-game factor that may change with new builds as new features get implemented." />

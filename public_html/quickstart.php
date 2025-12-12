@@ -4,7 +4,7 @@
 <title>RPCS3 - Quickstart</title>
 <meta charset="utf-8">
 <meta name="description" content="Hardware requirements for RPCS3 may vary depending on your system. We cannot guarantee the performance of system specifications below the recommended requirements, but you're welcome to experiment.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, quickstart">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, quickstart">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - Quickstart"/>
 <meta property="og:description" content="Hardware requirements for RPCS3 may vary depending on your system. We cannot guarantee the performance of system specifications below the recommended requirements, but you're welcome to experiment."/>

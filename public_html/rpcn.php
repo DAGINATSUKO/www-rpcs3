@@ -19,7 +19,7 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 <title>RPCS3 - RPCN Browser</title>
 <meta charset="utf-8">
 <meta name="description" content="Real-time stats for games currently being played online via RPCN.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, rpcn">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, rpcn">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - RPCN Browser"/>
 <meta property="og:description" content="Real-time stats for games currently being played online via RPCN."/>

@@ -4,7 +4,7 @@
 <title>RPCS3 - Disclaimer</title>
 <meta charset="utf-8">
 <meta name="description" content="RPCS3 uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3 and its source code for any purpose, but distributing RPCS3 requires that the source code be released and attribution given.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, disclaimer">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, disclaimer">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - Disclaimer" />
 <meta property="og:description" content="RPCS3 uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3 and its source code for any purpose, but distributing RPCS3 requires that the source code be released and attribution given." />
