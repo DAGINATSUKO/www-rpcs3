@@ -115,8 +115,9 @@
 							 SSD storage for emulator data, SSD or HDD storage for games
 						</p>
 						<br>
-						<span>512 MB for base emulator data, 5 GB for virtual console dev_hdd1 cache</span><br>
+						<span>512 MB for base emulator data</span><br>
 						<span>128 MB for emulator cache and console user data per installed game</span><br>
+						<span>Highly variable dev_hdd1 virtual console cache per installed game</span><br>
 					</div>
 				</div>
 			</div>
@@ -263,8 +264,9 @@
 							 SSD or HDD storage for emulator data and games
 						</p>
 						<br>
-						<span>512 MB for base emulator data, 5 GB for virtual console dev_hdd1 cache</span><br>
+						<span>512 MB for base emulator data</span><br>
 						<span>128 MB for emulator cache and console user data per installed game</span><br>
+						<span>Highly variable dev_hdd1 virtual console cache per installed game</span><br>
 					</div>
 				</div>
 			</div>
