@@ -156,7 +156,7 @@
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.4+, 14.1+ or later</span>
+						<span>FreeBSD 13.5+, 14.3+, 15.0+ or later</span>
 					</div>
 				</div>
 			</div>

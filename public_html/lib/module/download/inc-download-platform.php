@@ -366,7 +366,7 @@
 				<span>FreeBSD</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 12.3 or later.<br><br><br><br></span>
+				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 13.5 or later.<br><br><br><br></span>
 			</div>
 			<a href="https://cgit.freebsd.org/ports/log/emulators/rpcs3">
 			<div class='package-con-button'>
