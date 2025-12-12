@@ -25,8 +25,7 @@
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 <script data-cfasync="false" src='/lib/js/inc-carousel.js?v=1'></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9076246674760451"
-     crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994" crossorigin="anonymous"></script>
 </head>
 <body>
 <img src="/img/graphics/landing/hero-main.png" width="1" height="1" alt="preload"/>
@@ -38,17 +37,17 @@
 <?php
 	preloadVideo(
 	'1',
-	'Zh_bRbJs2SQ',
+	'QyeXbg7kXMQ',
 	'1'
 	);
 	preloadVideo(
 	'2',
-	'BIqK3SZU_HU',
+	'GWD5B87W3ig',
 	'2'
 	);
 	preloadVideo(
 	'3',
-	'QyeXbg7kXMQ',
+	'mKON3RwjnEU',
 	'3'
 	);
 ?>
@@ -251,11 +250,16 @@
 		</div>
 		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
 			<div class="adsense-con-frame">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-						</script>
-				<ins class="adsense-con-insert adsbygoogle" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994"
+					crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
+					data-ad-client="ca-pub-6161192934701994"
+					data-ad-slot="9881955294"
+					data-full-width-responsive="true">
+				</ins>
 				<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
+					(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
 		</div>
@@ -305,11 +309,16 @@
 		</div>
 		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
 			<div class="adsense-con-frame">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-						</script>
-				<ins class="adsense-con-insert adsbygoogle" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994"
+					crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
+					data-ad-client="ca-pub-6161192934701994"
+					data-ad-slot="7356682545"
+					data-full-width-responsive="true">
+				</ins>
 				<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
+					(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
 		</div>
