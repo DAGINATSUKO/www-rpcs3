@@ -397,7 +397,7 @@
 				</div>
 				<div class='mobile-menu-con-divider'>
 				</div>
-				<a href="https://www.patreon.com/Nekotekina">
+				<a href="/patreon">
 				<div class='mobile-menu-btn-icon'>
 				</div>
 				<div class='mobile-menu-btn-select'>

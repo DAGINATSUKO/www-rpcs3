@@ -347,7 +347,7 @@
 									 Our developers are pushing the very boundaries of PlayStation 3 emulation. Our rapid progression would not be possible without our contributors and Patrons. Our patrons not only keep us motivated, but keep our lead developers working on the project full time.
 								</p>
 							</div>
-							<a href="https://www.patreon.com/Nekotekina" target="_blank">
+							<a href="/patreon" target="_blank">
 							<div class="patreon-btn-button">
 								<div class="patreon-ico-button">
 								</div>
