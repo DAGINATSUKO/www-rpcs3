@@ -147,7 +147,7 @@
 						<p>
 							 Linux
 						</p>
-						<span>Linux 6.13 (Latest), 6.12 (LTS) or later</span><br>
+						<span>Linux with latest stable or latest LTS kernel</span><br>
 						<br>
 						<p>
 							 macOS
@@ -296,7 +296,7 @@
 						<p>
 							 Linux
 						</p>
-						<span>Linux 5.15 (Older LTS), Ubuntu 22.04 or later</span><br>
+						<span>Linux 6.6 (Older LTS), Ubuntu 22.04 or later</span><br>
 						<br>
 						<p>
 							 macOS
@@ -306,7 +306,7 @@
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.4 or later</span>
+						<span>FreeBSD 13.5 or later</span>
 					</div>
 				</div>
 			</div>
