@@ -11,6 +11,10 @@ Options All -Indexes
 	Header set X-Content-Type-Options nosniff
 </IfModule>
 
+# Redirect /blog/ (and anything under it) to https://blog.rpcs3.net/
+RewriteCond %{HTTP_HOST} ^(www\.)?rpcs3\.net$ [NC]
+RewriteRule ^blog(?:/(.*))?$ https://blog.rpcs3.net/$1 [R=301,L]
+
 # Unless directory, remove trailing slash
 RewriteCond %{HTTP_HOST} !^wiki\.rpcs3\.net$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -56,6 +60,9 @@ Redirect "/nightly" "/compatibility?b"
 Redirect "/builds" "/compatibility?b"
 Redirect "/compat" "/compatibility"
 Redirect "/library" "/compatibility?l"
+Redirect "/patreon" "https://patreon.com/Nekotekina"
+Redirect "/cputierlist" "https://docs.google.com/spreadsheets/d/1Rpq_2D4Rf3g6O-x2R1fwTSKWvJH7X63kExsVxHnT2Mc/htmlview"
+Redirect "/2024/09/19/introducing-rpcs3-for-arm64/" "/2024/12/09/introducing-rpcs3-for-arm64/"
 
 # Assigns an error page
 ErrorDocument 404 /404.php
