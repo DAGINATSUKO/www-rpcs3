@@ -22,14 +22,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # Run PHPStan level 3 analysis
       - name: PHPStan Static Analysis
         uses: php-actions/phpstan@v3
         with:
           version: latest
-          php-version: latest
+          php_version: latest
           path: .
           level: 3
           memory_limit: 256M
