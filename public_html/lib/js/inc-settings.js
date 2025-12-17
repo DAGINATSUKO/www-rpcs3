@@ -15,35 +15,6 @@ $(document).ready(function() {
     Cookies.set("save-piracy-policy", piracyPolicyAgreed, { expires: 365, path: '/' });
   });
   
- /*
-  // Inform notice popup - keeping this separately to ensure it works exactly as before
-var informPolicyAgreed = Cookies.get("save-inform-policy") === "true";
-
-function updateInformPolicyState(agreed) {
-  $('.menu-btn-inform-close').toggleClass("activate-accept", agreed);
-  $('.menu-con-inform').toggleClass("object-show", !agreed).toggleClass("object-hidden", agreed);
-  
-  // Force display block when showing, none when hiding
-  if (!agreed) {
-    $('.menu-con-inform').css('display', 'block');
-  } else {
-    $('.menu-con-inform').css('display', 'none');
-  }
-}
-*/
-
-// Force display block on initial load if not agreed
-if (!informPolicyAgreed) {
-  $('.menu-con-inform').css('display', 'block');
-}
-
-updateInformPolicyState(informPolicyAgreed);
-
-$('.menu-btn-inform-close').on('click', function() {
-  informPolicyAgreed = !informPolicyAgreed;
-  updateInformPolicyState(informPolicyAgreed);
-  Cookies.set("save-inform-policy", informPolicyAgreed, { expires: 365, path: '/' });
-});
 
   // Configuration for other toggle features
   const features = [
