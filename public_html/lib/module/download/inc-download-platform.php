@@ -1,5 +1,5 @@
 <div class='downloadable-con-container'>
-	<!-- Windows Section -------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- Windows Section -->
 	<div class='downloadable-con-outer'>
 		<div class='downloadable-con-inner-a'>
 			<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/windows.png) center top no-repeat; right: -52px; bottom: -38px;">
@@ -12,7 +12,7 @@
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For a wide range of hardware setups on both laptops and desktops with support for Windows 10 and 11.</span>
 			</div>
-			<!-- SHA Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- SHA Section -->
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
 			</div>
@@ -42,7 +42,7 @@
 					?>
 				</span>
 			</div>
-			<!-- Download Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
 			</div>
@@ -116,7 +116,7 @@
 			?>
 		</div>
 	</div>
-	<!-- Linux Section -------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- Linux Section -->
 	<div class='downloadable-con-outer'>
 		<div class='downloadable-con-inner-a'>
 			<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/linux.png) center top no-repeat; right: -52px; bottom: -38px;">
@@ -129,7 +129,7 @@
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For a wide range of hardware setups on both laptops and desktops with support for most common distros.</span>
 			</div>
-			<!-- SHA Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- SHA Section -->
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
 			</div>
@@ -159,7 +159,7 @@
 				?>
 				</span>
 			</div>
-		<!-- Download Section -------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
 			</div>
@@ -235,7 +235,7 @@
 			?>
 		</div>
 	</div>
-	<!-- macOS Section -------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- macOS Section -->
 	<div class='downloadable-con-outer'>
 		<div class='downloadable-con-inner-a'>
 			<div class="downloadable-con-graphic" style="background: url(/img/graphics/download/macos.png) center top no-repeat;right: -74px;bottom: -128px;width: 246px;height: 272px;">
@@ -243,12 +243,12 @@
 			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-macos.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
-				<span>macOS</span> <span  class='downloadable-tx3-label'->Experimental</span>
+				<span>macOS</span> <span  class='downloadable-tx3-label'>Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 14.4+, 15.0+ or later.</span>
 			</div>
-			<!-- SHA Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- SHA Section -->
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
 			</div>
@@ -278,7 +278,7 @@
 					?>
 				</span>
 			</div>
-			<!-- Download Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
 			</div>

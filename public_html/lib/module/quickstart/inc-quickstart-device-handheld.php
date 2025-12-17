@@ -38,17 +38,14 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are the hardware specifications for this handheld:
-				</p>
-				<br>
+					Here are the hardware specifications for this handheld:
+				</span>
 				<ul>
 					<li>AMD 4-cores / 8-threads APU (Custom)</li>
 					<li>16GB LPDDR5 (5500MHz)</li>
 					<li>64GB - 512GB (Expandable)</li>
 					<li>SteamOS</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>
@@ -67,10 +64,8 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are the hardware specifications for this handheld:
-				</p>
-				<br>
+					Here are the hardware specifications for this handheld:
+				</span>
 				<ul>
 					<li>AMD 8-cores / 16-threads APU (Z1 Extreme)</li>
 					<li>AMD 6-cores / 12-threads APU (Z1)</li>
@@ -78,7 +73,6 @@
 					<li>512GB (Expandable)</li>
 					<li>Windows 11</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>
@@ -97,10 +91,8 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are the hardware specifications for this handheld:
-				</p>
-				<br>
+					Here are the hardware specifications for this handheld:
+				</span>
 				<ul>
 					<li>AMD 8-cores / 16-threads APU (Z1 Extreme)</li>
 					<li>AMD 6-cores / 12-threads APU (Z1)</li>
@@ -108,7 +100,6 @@
 					<li>512GB (Expandable)</li>
 					<li>Windows 11</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>

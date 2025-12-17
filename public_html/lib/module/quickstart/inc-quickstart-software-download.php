@@ -7,8 +7,6 @@
 	</div>
 </div>
 <div class='container-con-wrapper'>
-	<div class="anchor-point" id="requirements_handheld">
-	</div>
 	<div class='container-tx1-block darkmode-txt'>
 		<div class='container-emp-block'>
 		</div>

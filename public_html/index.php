@@ -182,9 +182,9 @@
 	<div class="featured-img-overlay darkmode-invert">
 		</div>
 		<div class="content-con-outside">
-			<div class="content-btn-left darkmode-arrow-left left" href="#myCarousel" data-slide="prev">
+			<div class="content-btn-left darkmode-arrow-left left" data-slide="prev">
 			</div>
-			<div class="content-btn-right darkmode-arrow-right right" href="#myCarousel" data-slide="next">
+			<div class="content-btn-right darkmode-arrow-right right" data-slide="next">
 			</div>
 			<div class="content-con-inside">
 				<div class="video-tx1-heading darkmode-txt">
