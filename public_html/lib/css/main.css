@@ -2064,7 +2064,6 @@ a:hover {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 140px;
     background: #f7f7f7
 }
 
@@ -2742,7 +2741,7 @@ a:hover {
 
 .adsense-con-frame {
     text-align: center;
-    top: 26px;
+    top: 3px;
     position: relative;
     z-index: 2
 }
