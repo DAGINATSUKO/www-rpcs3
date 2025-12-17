@@ -63,7 +63,7 @@
 				<div class='device-tx2-desc darkmode-txt'>
 					<span>
 					<p>
-						 Expect decent performance on Macs with high-end Intel CPUs and variable performance with Apple Silicon on macOS 14.3+, 15.0+ or later.<br>
+						 Expect decent performance on Macs with high-end Intel CPUs and variable performance with Apple Silicon on macOS 14.4+, 15.0+ or later.<br>
 						<br>
 						 See the <b>For Mac</b> section for more details.
 					</p>
