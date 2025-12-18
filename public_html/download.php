@@ -295,7 +295,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/inc-footer.php';?>
 </div>
+<?php include 'lib/module/inc-footer.php';?>
 </body>
 </html>

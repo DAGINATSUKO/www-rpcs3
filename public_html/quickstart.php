@@ -110,6 +110,7 @@
 		<div class="page-con-container">
 			<div class="page-in-container">
 				<?php include 'lib/module/quickstart/inc-quickstart-software-dirs.php';?>
+			</div>
 		</div>
 	</div>
 	<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">

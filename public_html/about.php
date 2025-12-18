@@ -174,6 +174,5 @@
 	</div>
 </div>
 <?php include 'lib/module/inc-footer.php';?>
-</div>
 </body>
 </html>
