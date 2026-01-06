@@ -178,13 +178,33 @@
 			</div>
 		</div>
 	</div>
+	<div class="landing-con-adsense">
+		<div class='adsense-tx1-description darkmode-txt'>
+			<span>Advertisement</span>
+		</div>
+		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
+			<div class="adsense-con-frame">
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994"
+					crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
+					data-ad-client="ca-pub-6161192934701994"
+					data-ad-slot="9881955294"
+					data-full-width-responsive="true">
+				</ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+	</div>
 	<div class="landing-con-video darkmode-feature">
 	<div class="featured-img-overlay darkmode-invert">
 		</div>
 		<div class="content-con-outside">
-			<div class="content-btn-left darkmode-arrow-left left" data-slide="prev">
+			<div class="content-btn-left darkmode-arrow-left left" href="#myCarousel" data-slide="prev">
 			</div>
-			<div class="content-btn-right darkmode-arrow-right right" data-slide="next">
+			<div class="content-btn-right darkmode-arrow-right right" href="#myCarousel" data-slide="next">
 			</div>
 			<div class="content-con-inside">
 				<div class="video-tx1-heading darkmode-txt">
@@ -207,7 +227,7 @@
 				<ins class="adsbygoogle"
 					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
 					data-ad-client="ca-pub-6161192934701994"
-					data-ad-slot="9881955294"
+					data-ad-slot="7356682545"
 					data-full-width-responsive="true">
 				</ins>
 				<script>
@@ -274,7 +294,7 @@
 				<ins class="adsbygoogle"
 					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
 					data-ad-client="ca-pub-6161192934701994"
-					data-ad-slot="7356682545"
+					data-ad-slot="9732005384"
 					data-full-width-responsive="true">
 				</ins>
 				<script>
@@ -333,7 +353,7 @@
 				<ins class="adsbygoogle"
 					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
 					data-ad-client="ca-pub-6161192934701994"
-					data-ad-slot="9732005384"
+					data-ad-slot="9554506442"
 					data-full-width-responsive="true">
 				</ins>
 				<script>
