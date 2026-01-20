@@ -271,6 +271,13 @@
 				</div>
 			</div>
 		</div>
+		<div class="page-con-content">
+			<div class="page-con-container">
+				<div class="page-in-container">
+					<?php include 'lib/module/quickstart/inc-quickstart-software-interface.php';?>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <?php include 'lib/module/inc-footer.php';?>
