@@ -39,11 +39,11 @@
 		<div class="anchor-point" id="update_firmware">
 		</div>
 		<div class="container-tx1-block darkmode-txt">
-			<h2>Updating / Installing PS3 System Software</h2>
+			<h2>Installing / Updating PS3 System Software</h2>
 		</div>
 		<div class="container-tx2-block darkmode-txt">
 			<p>
-				 To install the PlayStation 3 system software, simply use RPCS3's built in firmware installer found under <span class="highlight darkmode-highlight">File &gt; Install Firmware</span>. To update the PlayStation 3 system software or install a custom firmware, simply repeat these steps to overwrite any existing firmware files.
+				To install or update the PlayStation 3 system software, simply use RPCS3's built in firmware installer found under <span class="highlight darkmode-highlight">File &gt; Install Firmware</span>.
 			</p>
 		</div>
 	</div>
