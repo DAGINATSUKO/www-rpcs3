@@ -245,12 +245,61 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="page-con-content">
-			<div class="page-con-container">
-				<div class="page-in-container">
-					<?php include 'lib/module/quickstart/inc-quickstart-software-interface.php';?>
+			<div class="container-con-block darkmode-block">
+				<div class='container-con-wrapper'>
+					<div class="container-tx1-block darkmode-txt">
+						<div class='container-emp-block'>
+						</div>
+						<h2>Updating RPCS3 Manually</h2>
+					</div>
 				</div>
+				<div class="guide-con-content context-windows darkmode-panel">
+					<div class='guide-ico-container'>
+						<div class='guide-ico-content' style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
+						</div>
+					</div>
+					<div class="guide-tx1-heading darkmode-txt">
+						<p>
+							Download and extract the latest build then overwrite copy/paste the files into your RPCS3 root directory.
+						</p>
+					</div>
+				</div>
+				<div class="guide-con-content context-linux darkmode-panel">
+					<div class='guide-ico-container'>
+						<div class='guide-ico-content' style="background: url('/img/icons/list/os-linux-na.png') no-repeat center;">
+						</div>
+					</div>
+					<div class="guide-tx1-heading darkmode-txt">
+						<p>
+							Download the latest AppImage and make it executable with <span class="linux-highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage && ./rpcs3-*_linux64.AppImage</span>
+						</p>
+					</div>
+				</div>
+				<div class="guide-con-content context-macos darkmode-panel">
+					<div class='guide-ico-container'>
+						<div class='guide-ico-content darkmode-invert' style="background: url('/img/icons/list/os-macos.png') no-repeat center;">
+						</div>
+					</div>
+					<div class="guide-tx1-heading darkmode-txt">
+						<p>
+							Download and open latest .7z macOS build and drag and drop the RPCS3.app file into the Applications folder.
+						</p>
+					</div>
+				</div>
+				<div class="guide-con-content context-bsd darkmode-panel">
+					<div class='guide-ico-container'>
+						<div class='guide-ico-content' style="background: url('/img/icons/list/os-bsd.png') no-repeat center;">
+						</div>
+					</div>
+					<div class="guide-tx1-heading darkmode-txt">
+						<p>
+							Check your system package manager for the latest build.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container-con-block darkmode-block">
+				<?php include 'lib/module/quickstart/inc-quickstart-software-interface.php';?>
 			</div>
 		</div>
 	</div>
