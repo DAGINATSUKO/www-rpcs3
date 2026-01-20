@@ -58,25 +58,11 @@
 					<div class='container-tx1-block darkmode-txt'>
 						<div class='container-emp-block'>
 						</div>
-						<h2>What is RPCS3 licensed under? </h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 RPCS3 uses the GNU General Public License Version 2 (June 1991). According to the license, you are welcome to use RPCS3 and its source code for any purpose, but distributing RPCS3 requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to <a href="https://www.gnu.org/">GNU.org</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
-						<div class='container-emp-block'>
-						</div>
 						<h2>How can I get started using RPCS3 on my PC?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Please refer to the <a href="/quickstart">Quickstart Guide</a> for detailed information on how to get started.
+							Please refer to the <a href="/quickstart">Quickstart Guide</a> for detailed information on how to get started.
 						</p>
 					</div>
 				</div>
@@ -90,35 +76,10 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 RPCS3 is stable enough to boot into games and play many of them with ease. Stability is more of a per-game factor that may change with new builds as new features get implemented. As emulators progress in accuracy, there may be some regressions that occur and stability is typically one of them. Rest assured, the developers are always hard at work when it comes to keeping RPCS3 as stable as possible for now and into the future.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
-						<div class='container-emp-block'>
-						</div>
-						<h2>What input devices can I use with RPCS3?</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 We currently support keyboard / mouse inputs and native DualShock 3, DualShock 4 and DualSense controllers. We plan to add additional input methods in the future as we implement more meaningful features to the emulator.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class='container-con-block darkmode-block'>
-				<div class='container-con-wrapper'>
-					<div class='container-tx1-block darkmode-txt'>
-						<div class='container-emp-block'>
-						</div>
-						<h2>What PlayStation 3 peripherals can I use with RPCS3?</h2>
-					</div>
-					<div class='container-tx2-block darkmode-txt'>
-						<p>
-							 We currently have support for the PlayStation Eye Camera, however PlayStation 3 Move controller support is still under development.
+							RPCS3 is stable enough to boot into every single PS3 game and correctly play many of them with ease. 
+							Stability is more of a per-game factor that may change with new builds as new features get implemented. 
+							As emulators progress in accuracy, there may be some regressions that occur and stability is typically one of them. 
+							Rest assured, the developers are always hard at work when it comes to keeping RPCS3 as stable as possible for now and into the future.
 						</p>
 					</div>
 				</div>
@@ -132,7 +93,9 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 In its current state, RPCS3 does not support reading game data directly from PlayStation 3 format discs. PlayStation 3 discs are formatted in a very special way that can only be read with an actual PlayStation 3 system, or a compatible Blu-ray drive from select manufacturers. For more information on what Blu-ray drives are capable of reading games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							In its current state, RPCS3 does not support reading game data directly from PlayStation 3 format discs. 
+							PlayStation 3 discs are formatted in a very special way that can only be read with an actual PlayStation 3 system, or a compatible Blu-ray drive from select manufacturers. 
+							For more information on what Blu-ray drives are capable of reading games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -146,11 +109,14 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Typically, you want to dump your own PlayStation 3 games and software from your own console. We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC.
+							Typically, you want to dump your own PlayStation 3 games and software from your own console. 
+							We believe that this is the most efficient and safest way to migrate your disc-based games and digital games from your console to your PC.
 						</p>
 						<br>
 						<p>
-							 You can also dump games using select compatible Blu-ray drives. Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. For more information on what Blu-ray drives are capable of reading games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							You can also dump games using select compatible Blu-ray drives. 
+							Not every Blu-ray drive will recognize PlayStation 3 games due to how data is formatted on the disc. 
+							For more information on what Blu-ray drives are capable of reading games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -160,11 +126,12 @@
 					<div class='container-tx1-block darkmode-txt'>
 						<div class='container-emp-block'>
 						</div>
-						<h2>How do I dump PlayStation 3 games and software?</h2>
+						<h2>How can I use my PlayStation 3 games and software with RPCS3?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 You will need two different tools for dumping PlayStation 3 game discs from a Blu-ray drive. For more information on how to get started dumping your own games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							You will need two different tools for dumping PlayStation 3 game discs from a Blu-ray drive. 
+							For more information on how to get started dumping your own games, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -174,11 +141,13 @@
 					<div class='container-tx1-block darkmode-txt'>
 						<div class='container-emp-block'>
 						</div>
-						<h2>Can I play multiplayer games online with real consoles or other RPCS3 users?</h2>
+						<h2>Can I play multiplayer games online?</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Online multiplayer is something we're thinking about and that already works on a very small amount of games with simple network code. We may not focus on it until RPCS3 is as stable and as accurate as possible. Playing games online with real PlayStation 3 systems will require the user to connect to a PlayStation Network server in many cases, thus requiring private PSN servers to be made first.
+							Online multiplayer already works with many games.
+							For games that require a dedicated server besides basic PSN matchmaking, compatibility depends on whether a community-based custom server replacement exists. 
+							You can consult the Netplay Compatibility List at <a href="https://wiki.rpcs3.net/index.php?title=RPCN_Compatibility_List"></a>
 						</p>
 					</div>
 				</div>
@@ -192,7 +161,11 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Local-multiplayer is completely supported. We support up to 7 concurrent controllers at any given time, just like original PlayStation 3 hardware on both Windows and Linux. The controllers can be assigned with a wide range of configurations. For example, one player can use a keyboard while another can use a compatible gamepad. To learn more about compatible gamepads, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							Local-multiplayer is completely supported. 
+							We support up to 7 concurrent controllers at any given time, just like original PlayStation 3 hardware. 
+							The controllers can be assigned with a wide range of configurations. 
+							For example, one player can use a keyboard while another can use a compatible gamepad. 
+							To learn more about compatible gamepads, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -206,7 +179,9 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 Yes, saves can be imported from a real PlayStation 3 system using the standard USB flash drive transfer method. Due to how the user account system works on a real PlayStation 3 system, in some cases, you may need to re-sign your save. For more information on how to manage your save data within RPCS3, please refer to the <a href="/quickstart">Quickstart Guide</a>.
+							Yes, saves can be imported from a real PlayStation 3 system using the standard USB flash drive transfer method. 
+							Due to how the user account system works on a real PlayStation 3 system, in some cases, you may need to re-sign your save. 
+							For more information on how to manage your save data within RPCS3, please refer to the <a href="/quickstart">Quickstart Guide</a>.
 						</p>
 					</div>
 				</div>
@@ -220,8 +195,8 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 We don't work on developing a game X or Y emulator, we work on developing a PlayStation 3 emulator.<br>
-							 Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks.
+							We don't work on developing a game X or Y emulator, we work on developing a PlayStation 3 emulator.<br>
+							Improvements to the emulator apply to all games that use the updated functionality, as our goal is to create the most accurate PlayStation 3 emulator possible and therefore we do <b>not</b> include game specific hacks.
 						</p>
 					</div>
 				</div>
@@ -235,7 +210,10 @@
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>
-							 That's awesome, contributions are welcome! Check the <a href="https://github.com/RPCS3/rpcs3/wiki/coding-style">Coding Style Guidelines</a>, and <a href="https://github.com/RPCS3/rpcs3/wiki/developer-information">Developer Information</a>. Find something you want to implement or improve (such as broken games, bugs, missing features, Roadmap goals, etc.), work on it, test your changes and send a Pull Request. If you have any questions, hit us up on our <a href="https://discord.gg/RPCS3">Discord Server</a> in the #development channel.
+							That's awesome, contributions are welcome! 
+							Check the <a href="https://github.com/RPCS3/rpcs3/wiki/coding-style">Coding Style Guidelines</a>, and <a href="https://github.com/RPCS3/rpcs3/wiki/developer-information">Developer Information</a>. 
+							Find something you want to implement or improve (such as broken games, bugs, missing features, Roadmap goals, etc.), work on it, test your changes and send a Pull Request. 
+							If you have any questions, hit us up on our <a href="https://discord.gg/RPCS3">Discord Server</a> in the #development channel.
 						</p>
 					</div>
 				</div>
@@ -253,19 +231,16 @@
 						</p>
 						<br>
 						<p>
-							 • Check if your system matches all the system minimum requirements;
+							• Check if your system matches all the system minimum requirements;
 						</p>
 						<p>
-							 • Check if the issue is meaningful for the team (e.g. The Last of Us doesn't work is obvious and therefore useless);
+							• Search older issue tickets to see if your issue was already submitted;
 						</p>
 						<p>
-							 • Search older issues/forum threads to see if your issue was already submitted;
+							• While reporting issues, make sure to follow the provided issue template as closely as possible, and include detailed steps on how can we reproduce your issue;
 						</p>
 						<p>
-							 • While reporting issues, don't forget to include details about your system (OS, CPU, GPU, etc.), as well as the RPCS3.log file.
-						</p>
-						<p>
-							 • Use understandable English. It doesn't need to be perfect, but clear enough to understand your message;
+							• Use understandable English. It doesn't need to be perfect, but clear enough to understand your message;
 						</p>
 					</div>
 				</div>
