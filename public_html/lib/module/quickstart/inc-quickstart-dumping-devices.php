@@ -23,7 +23,7 @@
 	</div>
 </div>
 <div class='device-con-container'>
-<div class="anchor-point" id="dumping_pc">
+	<div class="anchor-point" id="dumping_pc">
 	</div>
 	<div class="anchor-point" id="dumping_ps3">
 	</div>
@@ -42,11 +42,9 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 PlayStation 3 games can be dumped using an original console running a file manager homebrew software such as ManagunZ, IRISMAN or MultiMAN via a custom or hybrid firmware but will require basic knowledge regarding the installation its use.<br>
+					PlayStation 3 games can be dumped using an original console running a file manager homebrew software such as ManagunZ, IRISMAN or MultiMAN via a custom or hybrid firmware but will require basic knowledge regarding the installation its use.<br>
 					<br>
-					 For more information on this topic, check our <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#How_to_jailbreak_a_PS3_using_PS3HEN' target="_blank">Wiki</a> page.
-				</p>
+					For more information on this topic, check our <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#How_to_jailbreak_a_PS3_using_PS3HEN' target="_blank">Wiki</a> page.
 				</span>
 			</div>
 		</div>
@@ -66,11 +64,9 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 PlayStation 3 games can be dumped using a PC with a compatible Blu-ray disc drive using dedicated software but may require advanced knowledge regarding dumping data from game discs. <br>
+					PlayStation 3 games can be dumped using a PC with a compatible Blu-ray disc drive using dedicated software but may require advanced knowledge regarding dumping data from game discs. <br>
 					<br>
-					 More information on compatible Blu-ray drives can be found <b>below</b>.
-				</p>
+					More information on compatible Blu-ray drives can be found <b>below</b>.
 				</span>
 			</div>
 		</div>

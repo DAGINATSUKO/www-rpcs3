@@ -38,17 +38,14 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are some examples of performant MacBooks for use with RPCS3:
-				</p>
-				<br>
+					Here are some examples of performant MacBooks for use with RPCS3:
+				</span>
 				<ul>
 					<li>MacBook Pro w/ Apple M2 (2023)</li>
 					<li>MacBook Pro w/ Apple M1 (2021)</li>
 					<li>MacBook Air w/ Apple M1 (2020)</li>
 					<li>MacBook Pro w/ Intel i9 8-core (2019)</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>
@@ -67,17 +64,14 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are some examples of performant iMacs for use with RPCS3:
-				</p>
-				<br>
+					Here are some examples of performant iMacs for use with RPCS3:
+				</span>
 				<ul>
 					<li>iMac w/ Apple M1 (2023)</li>
 					<li>iMac Pro w/ Intel Xeon 8-core (2020)</li>
 					<li>iMac w/ Intel i9 10-core (2020)</li>
 					<li>iMac w/ Intel i7 8-core (2020)</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>
@@ -96,17 +90,14 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are some examples of performant Mac Studios and Mac Minis for use with RPCS3:
-				</p>
-				<br>
+					Here are some examples of performant Mac Studios and Mac Minis for use with RPCS3:
+				</span>
 				<ul>
 					<li>Mac Studio w/ Apple M2 Max (2023)</li>
 					<li>Mac Studio w/ Apple M1 Max (2022)</li>
 					<li>Mac Mini w/ Apple M2 (2023)</li>
 					<li>Mac Mini w/ Apple M1 (2020)</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>

@@ -39,17 +39,14 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are some examples of performant mobile Intel CPUs for use with RPCS3:
-				</p>
-				<br>
+					Here are some examples of performant mobile Intel CPUs for use with RPCS3:
+				</span>
 				<ul>
 					<li>Intel Core i9-13980HX</li>
 					<li>Intel Core i9-12900HX</li>
 					<li>Intel Core i7-11800H (AVX-512)</li>
 					<li>Intel Core i5-11400H (AVX-512)</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>
@@ -68,17 +65,14 @@
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-				<p>
-					 Here are some examples of performant mobile AMD CPUs for use with RPCS3:
-				</p>
-				<br>
+					Here are some examples of performant mobile AMD CPUs for use with RPCS3:
+				</span>
 				<ul>
 					<li>AMD Ryzen 9 7945HX (AVX-512)</li>
 					<li>AMD Ryzen 9 6900HX</li>
 					<li>AMD Ryzen 7 6800H</li>
 					<li>AMD Ryzen 7 5800H</li>
 				</ul>
-				</span>
 			</div>
 		</div>
 	</div>

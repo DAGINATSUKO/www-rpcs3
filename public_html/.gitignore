@@ -3,8 +3,6 @@
 *.html
 *.bat
 *.sh
-*.zip
-*log
 .well-known/
 /img/graphics/about/src/
 /img/graphics/download/src/
@@ -14,8 +12,3 @@
 /img/icons/arrows/src/
 /img/meta/mobile/src/
 /lib/compat/
-blog/
-cache/
-forum/
-update/
-wiki/

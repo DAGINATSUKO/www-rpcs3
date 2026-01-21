@@ -206,12 +206,6 @@
 									</div>
 								</div>
 								</a>
-								<a href="https://github.com/flexby420" target="_blank">
-								<div class="footer-ico-container">
-									<div class="footer-ico-developer" style="background: url('/img/users/flexby.png') center / cover no-repeat;">
-									</div>
-								</div>
-								</a>
 								<a href="https://github.com/herrhulahoop" target="_blank">
 								<div class="footer-ico-container">
 									<div class="footer-ico-developer" style="background: url('/img/users/herrhulahoop.png') center / cover no-repeat;">
@@ -226,7 +220,7 @@
 								</a>
 								<a href="https://daginatsuko.com" target="_blank">
 								<div class="footer-tx1-developer pulsate">
-									<span>Designed by DAGINATSUKO</span>
+									<span>Website by DAGINATSUKO © 2025</span>
 								</div>
 								</a>
 							</div>

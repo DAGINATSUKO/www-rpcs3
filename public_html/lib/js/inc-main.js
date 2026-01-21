@@ -386,6 +386,7 @@ class ImageCycler {
 
 // Initialize the cycler when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+    if (document.querySelector('.rpcn-playerbase-img-banner')) {
     // Add necessary CSS
     const style = document.createElement('style');
     style.textContent = `
@@ -402,4 +403,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(() => {
         imageCycler.setRandomImage();
     }, 10000);
+  }
 });

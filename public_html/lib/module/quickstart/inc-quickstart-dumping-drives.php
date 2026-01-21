@@ -12,7 +12,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_lg">
@@ -177,7 +177,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_asus">
@@ -230,7 +230,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_samsung">
@@ -278,7 +278,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_lite-on">
@@ -361,7 +361,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_hp">
@@ -390,7 +390,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_plextor">
@@ -419,7 +419,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_benq">
@@ -446,7 +446,7 @@
 		</div>
 	</div>
 </div>
-<!-- -New Drive Section ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
 		<div class="anchor-point" id="dumping_bdd_teac">

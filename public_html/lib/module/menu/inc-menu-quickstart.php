@@ -51,7 +51,7 @@
 			</a>
 			<a href="#software_firmware" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Updating Firmware</span>
+				<span>Installing Firmware</span>
 			</div>
 			</a>
 			<a href="#software_rpcs3" rel="anchor-select">
@@ -59,15 +59,14 @@
 				<span>Updating RPCS3</span>
 			</div>
 			</a>
-			<!-- Next Category -->
 			<a href="#software_dirs" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>PS3 Game Dirs</span>
+				<span>PS3 Game Paths</span>
 			</div>
 			</a>
 			<a href="#software_saves" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>PS3 Saves Dir</span>
+				<span>PS3 Saves Paths</span>
 			</div>
 			</a>
 			<a href="#software_updates" rel="anchor-select">
@@ -77,84 +76,21 @@
 			</a>
 			<!-- Next Category -->
 			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Dumping and Decryption</span>
+				<span>Dumping Games</span>
 			</div>
 			<a href="#dumping_methods" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Dumping Methods</span>
+				<span>Dumping with a PS3 or PC</span>
 			</div>
 			</a>
-			<a href="#dumping_ps3" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Dumping with a PS3</span>
-			</div>
-			</a>
-			<a href="#dumping_pc" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Dumping with a PC</span>
-			</div>
-			</a>
-			<!-- Next Category -->
-			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Blu-ray PC Drives</span>
-			</div>
 			<a href="#dumping_drives" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Compatible Drives</span>
+				<span>Compatible PC Blu-Ray Drives</span>
 			</div>
 			</a>
-			<a href="#dumping_bdd_lg" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by LG</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_asus" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by ASUS</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_samsung" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by Samsung</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_lite-on" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by LITE-ON</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_sony" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by Sony</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_hp" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by HP</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_plextor" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by Plextor</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_benq" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by BenQ</span>
-			</div>
-			</a>
-			<a href="#dumping_bdd_teac" rel="anchor-select">
-			<div class="sidebar-tx2-subtitle">
-				<span>Manufactured by TEAC</span>
-			</div>
-			</a>
-			<!-- Next Category -->
-			<div class="sidebar-tx1-subtitle darkmode-navsidebar-txt">
-				<span>Dumping Methods</span>
-			</div>
 			<a href="#dumping_tools" rel="anchor-select">
 			<div class="sidebar-tx2-subtitle">
-				<span>Dumping Tools</span>
+				<span>Disc Dumper Tool</span>
 			</div>
 			</a>
 			<div class="sidebar-con-spacer">

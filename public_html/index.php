@@ -4,8 +4,7 @@
 <title>RPCS3 - The PlayStation 3 Emulator</title>
 <meta charset="utf-8">
 <meta name="description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD. The purpose of this project is to accurately emulate the PlayStation 3 in its entirety with the power of reverse engineering and community collaboration.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, home">
-<meta name="google-site-verification" content="cO1o6sx54cvKxhbnYsABWtl4sYFj9uVKV0DxLKZkWv8"/>
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, home">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - The PlayStation 3 Emulator" />
 <meta property="og:description" content="RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD made possible with the power of reverse engineering." />
@@ -25,8 +24,7 @@
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 <script data-cfasync="false" src='/lib/js/inc-carousel.js?v=1'></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9076246674760451"
-     crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994" crossorigin="anonymous"></script>
 </head>
 <body>
 <img src="/img/graphics/landing/hero-main.png" width="1" height="1" alt="preload"/>
@@ -38,17 +36,17 @@
 <?php
 	preloadVideo(
 	'1',
-	'Zh_bRbJs2SQ',
+	'FWERSzfT9Rs',
 	'1'
 	);
 	preloadVideo(
 	'2',
-	'BIqK3SZU_HU',
+	'QyeXbg7kXMQ',
 	'2'
 	);
 	preloadVideo(
 	'3',
-	'QyeXbg7kXMQ',
+	'GWD5B87W3ig',
 	'3'
 	);
 ?>
@@ -180,6 +178,26 @@
 			</div>
 		</div>
 	</div>
+	<div class="landing-con-adsense">
+		<div class='adsense-tx1-description darkmode-txt'>
+			<span>Advertisement</span>
+		</div>
+		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
+			<div class="adsense-con-frame">
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994"
+					crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
+					data-ad-client="ca-pub-6161192934701994"
+					data-ad-slot="9881955294"
+					data-full-width-responsive="true">
+				</ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+	</div>
 	<div class="landing-con-video darkmode-feature">
 	<div class="featured-img-overlay darkmode-invert">
 		</div>
@@ -195,6 +213,26 @@
 				<div class="video-con-divider">
 				</div>
 				<?php include 'lib/module/home/inc-home-carousel.php';?>
+			</div>
+		</div>
+	</div>
+	<div class="landing-con-adsense">
+		<div class='adsense-tx1-description darkmode-txt'>
+			<span>Advertisement</span>
+		</div>
+		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
+			<div class="adsense-con-frame">
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994"
+					crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
+					data-ad-client="ca-pub-6161192934701994"
+					data-ad-slot="7356682545"
+					data-full-width-responsive="true">
+				</ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 			</div>
 		</div>
 	</div>
@@ -251,11 +289,16 @@
 		</div>
 		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
 			<div class="adsense-con-frame">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-						</script>
-				<ins class="adsense-con-insert adsbygoogle" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994"
+					crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
+					data-ad-client="ca-pub-6161192934701994"
+					data-ad-slot="9732005384"
+					data-full-width-responsive="true">
+				</ins>
 				<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
+					(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
 		</div>
@@ -305,11 +348,16 @@
 		</div>
 		<div class="adsense-con-container darkmode-slimbar div-css-board-ad">
 			<div class="adsense-con-frame">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-						</script>
-				<ins class="adsense-con-insert adsbygoogle" data-ad-client="ca-pub-9076246674760451" data-ad-slot="1835527222"></ins>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994"
+					crossorigin="anonymous"></script>
+				<ins class="adsbygoogle"
+					style="display:inline-block;min-width:100px;max-width:980px;width:100%;height:120px"
+					data-ad-client="ca-pub-6161192934701994"
+					data-ad-slot="9554506442"
+					data-full-width-responsive="true">
+				</ins>
 				<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
+					(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
 		</div>
@@ -338,7 +386,7 @@
 									 Our developers are pushing the very boundaries of PlayStation 3 emulation. Our rapid progression would not be possible without our contributors and Patrons. Our patrons not only keep us motivated, but keep our lead developers working on the project full time.
 								</p>
 							</div>
-							<a href="https://www.patreon.com/Nekotekina" target="_blank">
+							<a href="/patreon" target="_blank">
 							<div class="patreon-btn-button">
 								<div class="patreon-ico-button">
 								</div>

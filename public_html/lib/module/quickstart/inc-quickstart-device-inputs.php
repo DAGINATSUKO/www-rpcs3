@@ -38,11 +38,9 @@
 				</div>
 				<div class='device-tx2-desc darkmode-txt'>
 					<span>
-					<p>
-						 Expect good performance for desktop and laptop PCs running on any of the supported operating systems as well as the recommended system hardware specifications.<br>
+						Expect good performance for desktop and laptop PCs running on any of the supported operating systems as well as the recommended system hardware specifications.<br>
 						<br>
-						 See the <b>PC Requirements</b> section for more details.
-					</p>
+						See the <b>PC Requirements</b> section for more details.
 					</span>
 				</div>
 			</div>
@@ -62,11 +60,9 @@
 				</div>
 				<div class='device-tx2-desc darkmode-txt'>
 					<span>
-					<p>
-						 Expect decent performance on Macs with high-end Intel CPUs and variable performance with Apple Silicon on macOS 14.3+, 15.0+ or later.<br>
+						Expect decent performance on Macs with high-end Intel CPUs and variable performance with Apple Silicon on macOS 14.4+, 15.0+ or later.<br>
 						<br>
-						 See the <b>For Mac</b> section for more details.
-					</p>
+						See the <b>For Mac</b> section for more details.
 					</span>
 				</div>
 			</div>
@@ -86,11 +82,9 @@
 				</div>
 				<div class='device-tx2-desc darkmode-txt'>
 					<span>
-					<p>
-						 Expect highly variable performance for handhelds with less than 6 cores and/or 16GB of RAM. Using Linux is highly recommended due to its lower software overhead.<br>
+						Expect highly variable performance for handhelds with less than 6 cores and/or 16GB of RAM. Using Linux is highly recommended due to its lower software overhead.<br>
 						<br>
-						 See the <b>For handhelds</b> section for more details.
-					</p>
+						See the <b>For handhelds</b> section for more details.
 					</span>
 				</div>
 			</div>
@@ -191,11 +185,6 @@
 				<div class="gamepad-con-icon" style="background: url(/img/graphics/quickstart/pad-camera.png) center no-repeat; background-size: 300px;">
 				</div>
 			</div>
-			
-
-			
-			
-			
 		</div>
 	</div>
 </div>

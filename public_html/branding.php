@@ -4,7 +4,7 @@
 <title>RPCS3 - Branding</title>
 <meta charset="utf-8">
 <meta name="description" content="RPCS3's core logo is used as the main icon for the RPCS3 executable. It is also used as the favicon for the website in addition to rich embed previews for rich embed capable applications such as Discord.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, branding">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, branding">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - Branding"/>
 <meta property="og:description" content="RPCS3's core logo is used as the main icon for the RPCS3 executable. It is also used as the favicon for the website in addition to rich embed previews for rich embed capable applications such as Discord."/>

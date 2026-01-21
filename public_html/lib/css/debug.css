@@ -386,7 +386,7 @@
 	display: flex;
 	padding: 8px 0px;
 }
-.rpcn-list-title span {
+.rpcn-list-title-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;

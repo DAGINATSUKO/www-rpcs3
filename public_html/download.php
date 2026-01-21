@@ -4,7 +4,7 @@
 <title>RPCS3 - Download</title>
 <meta charset="utf-8">
 <meta name="description" content="RPCS3 is under steady development and the binaries we produce are highly experimental. Your system requirements may vary depending on your hardware configuration.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, download">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, download">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - Download" />
 <meta property="og:description" content="RPCS3 is under steady development and the binaries we produce are highly experimental. Your system requirements may vary depending on your hardware configuration." />
@@ -161,7 +161,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 						<p class="download-desc">
 							 For Windows users, simply extract the compressed file using any decompression software that supports .7z.
 							 <br>
-							 Once uncompressed, place your RPCS3 folder in a convenient location to start, such as: <span class="highlight darkmode-highlight">C:\Users\Kratos\Desktop\RPCS3\rpcs3.exe</span>
+							 Once uncompressed, place your RPCS3 folder in a convenient location to start, such as: <span class="highlight darkmode-highlight">C:\Users\Kratos\RPCS3\rpcs3.exe</span>
 							 <br>
 							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ 2015-2022 Redistributable</a></span>
 						</p>
@@ -177,7 +177,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 						<p class="download-desc">
 							 For Linux users, RPCS3 is packaged using the AppImage format. To run, execute <span class="highlight darkmode-highlight">chmod a+x ./rpcs3-*_linux64.AppImage &amp;&amp; ./rpcs3-*_linux64.AppImage</span>
 							<br>
-							<b>Download AppImage using CLI </b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-appimage</span> or <span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-appimage</span>
+							<b>Download AppImage using CLI </b><span class="highlight darkmode-highlight">wget --content-disposition https://rpcs3.net/latest-linux-x64</span> or <span class="highlight darkmode-highlight">curl -JLO https://rpcs3.net/latest-linux-x64</span>
 							<br>
 							<b>Compile on Arch using AUR </b><span class="highlight darkmode-highlight">git clone https://aur.archlinux.org/rpcs3-git.git && cd rpcs3-git && makepkg -sri</span>
 							<br>
@@ -208,7 +208,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p class="download-desc">
-							 For FreeBSD users, RPCS3 supports active FreeBSD 14 and FreeBSD 13 versions.
+							 For FreeBSD users, RPCS3 supports actively supported FreeBSD versions.
 							<br>
 							<b>Install as a package </b><span class="highlight darkmode-highlight">pkg install rpcs3</span>
 							<br>
@@ -295,7 +295,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 			</div>
 		</div>
 	</div>
-	<?php include 'lib/module/inc-footer.php';?>
 </div>
+<?php include 'lib/module/inc-footer.php';?>
 </body>
 </html>

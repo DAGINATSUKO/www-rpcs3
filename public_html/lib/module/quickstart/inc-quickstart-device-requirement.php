@@ -115,8 +115,9 @@
 							 SSD storage for emulator data, SSD or HDD storage for games
 						</p>
 						<br>
-						<span>512 MB for base emulator data, 5 GB for virtual console dev_hdd1 cache</span><br>
+						<span>512 MB for base emulator data</span><br>
 						<span>128 MB for emulator cache and console user data per installed game</span><br>
+						<span>Highly variable dev_hdd1 virtual console cache per installed game</span><br>
 					</div>
 				</div>
 			</div>
@@ -141,22 +142,22 @@
 						<p>
 							 Windows
 						</p>
-						<span>Windows 10 22H2 or later, Windows 11 24H2 or later</span><br>
+						<span>Windows 11 24H2 or later</span><br>
 						<br>
 						<p>
 							 Linux
 						</p>
-						<span>Linux 6.13 (Latest), 6.12 (LTS) or later</span><br>
+						<span>Linux with latest stable or latest LTS kernel</span><br>
 						<br>
 						<p>
 							 macOS
 						</p>
-						<span>macOS 14.3+, 15.0+ or later</span><br>
+						<span>macOS 14.4+, 15.0+ or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.4+, 14.1+ or later</span>
+						<span>FreeBSD 13.5+, 14.3+, 15.0+ or later</span>
 					</div>
 				</div>
 			</div>
@@ -263,8 +264,9 @@
 							 SSD or HDD storage for emulator data and games
 						</p>
 						<br>
-						<span>512 MB for base emulator data, 5 GB for virtual console dev_hdd1 cache</span><br>
+						<span>512 MB for base emulator data</span><br>
 						<span>128 MB for emulator cache and console user data per installed game</span><br>
+						<span>Highly variable dev_hdd1 virtual console cache per installed game</span><br>
 					</div>
 				</div>
 			</div>
@@ -294,17 +296,17 @@
 						<p>
 							 Linux
 						</p>
-						<span>Linux 5.15 (Older LTS), Ubuntu 22.04 or later</span><br>
+						<span>Linux 6.6 (Older LTS), Ubuntu 22.04 or later</span><br>
 						<br>
 						<p>
 							 macOS
 						</p>
-						<span>macOS 14.3+, 15.0+ or later</span><br>
+						<span>macOS 14.4+, 15.0+ or later</span><br>
 						<br>
 						<p>
 							 FreeBSD
 						</p>
-						<span>FreeBSD 13.4 or later</span>
+						<span>FreeBSD 13.5 or later</span>
 					</div>
 				</div>
 			</div>

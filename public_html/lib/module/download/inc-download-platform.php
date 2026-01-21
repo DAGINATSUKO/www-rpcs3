@@ -1,5 +1,5 @@
 <div class='downloadable-con-container'>
-	<!-- Windows Section -------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- Windows Section -->
 	<div class='downloadable-con-outer'>
 		<div class='downloadable-con-inner-a'>
 			<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/windows.png) center top no-repeat; right: -52px; bottom: -38px;">
@@ -12,7 +12,7 @@
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For a wide range of hardware setups on both laptops and desktops with support for Windows 10 and 11.</span>
 			</div>
-			<!-- SHA Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- SHA Section -->
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
 			</div>
@@ -33,7 +33,7 @@
 			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-arm64.png) center / contain no-repeat;"></div>
 				<span>
 					<?php
-					if (/*isset($build) && !is_null($build->checksum_win_arm64) &&*/ false) // Disabled
+					if (isset($build) && !is_null($build->checksum_win_arm64))
 						printf("%s", $build->checksum_win_arm64);
 					else if (isset($build_windows_arm64))
 						printf("%s", $build_windows_arm64->checksum_win_arm64);
@@ -42,7 +42,7 @@
 					?>
 				</span>
 			</div>
-			<!-- Download Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
 			</div>
@@ -82,7 +82,7 @@
 				printf("</a>");
 			?>
 			<?php
-			if (/*isset($build) && !is_null($build->get_url_windows_arm64()) &&*/ false) // Disabled
+			if (isset($build) && !is_null($build->get_url_windows_arm64()))
 				printf("<a href=\"%s\" download>", $build->get_url_windows_arm64());
 			else if (isset($build_windows_arm64))
 				printf("<a href=\"%s\" download>", $build_windows_arm64->get_url_windows_arm64());
@@ -93,7 +93,7 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 					<?php
-					if (/*isset($build) && !is_null($build->get_url_windows_arm64()) &&*/ false) // Disabled
+					if (isset($build) && !is_null($build->get_url_windows_arm64()))
 						printf("Download for arm64");
 					else
 						printf("Coming soon...");
@@ -102,7 +102,7 @@
 					<br>
 					<span class='package-tx2-metabutton'>
 						<?php
-						if (/*isset($build) && !is_null($build->get_size_mb_windows_arm64()) &&*/ false) // Disabled
+						if (isset($build) && !is_null($build->get_size_mb_windows_arm64()))
 							printf("%s MB", $build->get_size_mb_windows_arm64());
 						else
 							printf("");
@@ -111,12 +111,12 @@
 				</div>
 			</div>
 			<?php
-			if (/*isset($build) && !is_null($build->get_url_windows_arm64()) &&*/ false) // Disabled
+			if (isset($build) && !is_null($build->get_url_windows_arm64()))
 				printf("</a>");
 			?>
 		</div>
 	</div>
-	<!-- Linux Section -------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- Linux Section -->
 	<div class='downloadable-con-outer'>
 		<div class='downloadable-con-inner-a'>
 			<div class='downloadable-con-graphic' style="background: url(/img/graphics/download/linux.png) center top no-repeat; right: -52px; bottom: -38px;">
@@ -129,7 +129,7 @@
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For a wide range of hardware setups on both laptops and desktops with support for most common distros.</span>
 			</div>
-			<!-- SHA Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- SHA Section -->
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
 			</div>
@@ -159,7 +159,7 @@
 				?>
 				</span>
 			</div>
-		<!-- Download Section -------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
 			</div>
@@ -235,7 +235,7 @@
 			?>
 		</div>
 	</div>
-	<!-- macOS Section -------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- macOS Section -->
 	<div class='downloadable-con-outer'>
 		<div class='downloadable-con-inner-a'>
 			<div class="downloadable-con-graphic" style="background: url(/img/graphics/download/macos.png) center top no-repeat;right: -74px;bottom: -128px;width: 246px;height: 272px;">
@@ -243,12 +243,12 @@
 			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-macos.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
-				<span>macOS</span> <span  class='downloadable-tx3-label'->Experimental</span>
+				<span>macOS</span> <span  class='downloadable-tx3-label'>Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 14.3+, 15.0+ or later.</span>
+				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 14.4+, 15.0+ or later.</span>
 			</div>
-			<!-- SHA Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- SHA Section -->
 			<div class='sha2-tx1-title darkmode-txt'>
 				<span>SHA-256</span>
 			</div>
@@ -278,7 +278,7 @@
 					?>
 				</span>
 			</div>
-			<!-- Download Section -------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
 			</div>
@@ -366,7 +366,7 @@
 				<span>FreeBSD</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 12.3 or later.<br><br><br><br></span>
+				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 13.5 or later.<br><br><br><br></span>
 			</div>
 			<a href="https://cgit.freebsd.org/ports/log/emulators/rpcs3">
 			<div class='package-con-button'>

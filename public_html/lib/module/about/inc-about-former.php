@@ -156,104 +156,104 @@
 		</div>
 	</div>
 	<div class="user-con-content darkmode-txt">
-	<span class="user-tx1-backdrop " style="color: #94a4b5">2017</span>
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/canada.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #bdbd8a">2017</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			hcorion </span>
-			<span class="user-con-role user-role-developer">
-			Project Developer </span>
-		</div>
-		<div class='user-con-divider role-developer darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			hcorion joined the team in 2017 and made meaningful contributions to the project over the years. His work helped advance RPCS3's development during his time with the team. Eventually, hcorion's interests led him toward other projects outside the scope of RPCS3, but his contributions during his tenure remain appreciated by the community and fellow developers alike.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD R9 9950X (5.7GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA RTX 3070</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>128GB DDR5 (5600 MT/s)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-na.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Linux</span>
+		<span class="user-tx1-backdrop " style="color: #94a4b5">2017</span>
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/canada.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Social Links</span>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #bdbd8a">2017</span>
+			<div class="user-con-role-gradient">
+			</div>
 		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/hcorion" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+		<div class="user-img-backdrop" style="background: url('/img/users/hcorion.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				hcorion </span>
+				<span class="user-con-role user-role-developer">
+				Project Developer </span>
+			</div>
+			<div class='user-con-divider role-developer darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				hcorion joined the team in 2017 and made meaningful contributions to the project over the years. His work helped advance RPCS3's development during his time with the team. Eventually, hcorion's interests led him toward other projects outside the scope of RPCS3, but his contributions during his tenure remain appreciated by the community and fellow developers alike.</span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			</div>
+			<div class="user-con-specsheet">
+				<div class="user-con-specbox">
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Desktop</span>
+						</div>
 					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>AMD R9 9950X (5.7GHz)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>NVIDIA RTX 3070</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>128GB DDR5 (5600 MT/s)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-na.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Linux</span>
+						</div>
 					</div>
 				</div>
-				</a>
-				<a href="https://x.com/hcorion_" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Social Links</span>
+			</div>
+			<div class="user-con-socialsheet">
+				<div class="user-con-socialbox">
+					<a href="https://github.com/hcorion" target="_blank">
+					<div class="socialbox-con-button">
+						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+						</div>
+						<div class="socialbox-tx1-platform darkmode-txt">
+							<span>GitHub</span>
+						</div>
 					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>X</span>
+					</a>
+					<a href="https://x.com/hcorion_" target="_blank">
+					<div class="socialbox-con-button">
+						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/x.png') no-repeat center;">
+						</div>
+						<div class="socialbox-tx1-platform darkmode-txt">
+							<span>X</span>
+						</div>
 					</div>
+					</a>
 				</div>
-				</a>
 			</div>
 		</div>
 	</div>
-</div>
 	<div class="user-con-content darkmode-txt">
 		<div class="user-con-avatar">
 			<div class='user-img-avatar' style="background: url('/img/users/tambry.png') no-repeat center; background-size: cover;">
@@ -949,381 +949,381 @@
 			</div>
 		</div>
 	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #bcbcd0">2013</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member">
-			ssshadow </span>
-			<span class="user-con-role user-role-manager">
-			Community Manager </span>
-			<span class="user-con-role user-role-contributor">
-			Former Contributor </span>
-		</div>
-		<div class='user-con-divider role-manager darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			ssshadow joined the staff in early 2017, though he has been around since 2013 and is known as a the human RPCS3 Wiki. He previously served as head of the Blog and was the writer for RPCS3's progress reports, documenting the emulator's development milestones for the community. He currently helps the project as a Community Manager, leveraging his deep knowledge of RPCS3 to support and engage with users. </span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2018)</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-laptop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Laptop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Intel Core i7-7820HQ (2.9GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA Quadro M2200 </span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>16GB DDR4 (3200MT/s)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 10</span>
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #bcbcd0">2013</span>
+			<div class="user-con-role-gradient">
+			</div>
+		</div>
+		<div class="user-img-backdrop" style="background: url('/img/users/ssshadow.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member">
+				ssshadow </span>
+				<span class="user-con-role user-role-manager">
+				Community Manager </span>
+				<span class="user-con-role user-role-contributor">
+				Former Contributor </span>
+			</div>
+			<div class='user-con-divider role-manager darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				ssshadow joined the staff in early 2017, though he has been around since 2013 and is known as a the human RPCS3 Wiki. He previously served as head of the Blog and was the writer for RPCS3's progress reports, documenting the emulator's development milestones for the community. He currently helps the project as a Community Manager, leveraging his deep knowledge of RPCS3 to support and engage with users. </span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Computer Specifications (2018)</span>
+			</div>
+			<div class="user-con-specsheet">
+				<div class="user-con-specbox">
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/device-laptop.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Laptop</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Intel Core i7-7820HQ (2.9GHz)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>NVIDIA Quadro M2200 </span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>16GB DDR4 (3200MT/s)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Windows 10</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #a2a2a2">2013</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			Shadow </span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			Shadow joined in 2013 and made notable contributions to RPCS3's controller support and configuration options. He implemented MMJoystick support, allowing players to use non-XInput controllers such as DualShock 2 on Windows through this API. Additionally, Shadow developed per-game configuration files and provided several bug fixes, enhancing both flexibility and stability for users across different hardware setups.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Social Links</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/georgemoralis" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
-					</div>
-				</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #e1cbc5">2017</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			JohnHolmesII </span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			JohnHolmesII joined in 2017, initially contributing through edits to the README. His involvement gradually expanded into various DevOps roles, including maintaining build steps, cleaning build output, and helping to sustain CI/CD functions. His behind-the-scenes work helped keep RPCS3's development infrastructure running smoothly during his time with the project. In the Discord community, he was known as "Hurb" before moving on to other endeavors.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2020)</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD Ryzen 9 5950X (4.7GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Radeon RX 6700 XT</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3600MT/s)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-na.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Linux</span>
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Social Links</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/johnholmesii" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
-					</div>
-				</div>
-				</a>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #a2a2a2">2013</span>
+			<div class="user-con-role-gradient">
 			</div>
 		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/tge.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/netherlands.png') no-repeat center; background-size: cover;">
-				</div>
+		<div class="user-img-backdrop" style="background: url('/img/users/shadow.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				Shadow </span>
+				<span class="user-con-role user-role-contributor">
+				Project Contributor </span>
 			</div>
-		</div>
-	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #ceced9">2018</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/tge.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			TGE </span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			TGE joined in 2018 and made valuable contributions that helped advance RPCS3 during his time with the team. His work addressed various development needs and supported the emulator's continuous improvement. As his priorities evolved, TGE eventually stepped away from RPCS3 to focus on different projects and pursuits, leaving behind contributions that aided the project's progress.</span>
-		</div>
-	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/juhn.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
+			<div class='user-con-divider role-contributor darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				Shadow joined in 2013 and made notable contributions to RPCS3's controller support and configuration options. He implemented MMJoystick support, allowing players to use non-XInput controllers such as DualShock 2 on Windows through this API. Additionally, Shadow developed per-game configuration files and provided several bug fixes, enhancing both flexibility and stability for users across different hardware setups.</span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Social Links</span>
+			</div>
+			<div class="user-con-socialsheet">
+				<div class="user-con-socialbox">
+					<a href="https://github.com/georgemoralis" target="_blank">
+					<div class="socialbox-con-button">
+						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+						</div>
+						<div class="socialbox-tx1-platform darkmode-txt">
+							<span>GitHub</span>
+						</div>
+					</div>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #b0b294">2017</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/juhn.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			Juhn 0xCA7F00D</span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			Juhn 0xCA7F00D joined the team in 2017 and contributed meaningfully to RPCS3's development through his technical work. His efforts helped tackle various challenges and improve the emulator's capabilities during his involvement. In time, Juhn 0xCA7F00D transitioned away from the project to pursue different interests and opportunities, though his contributions during those years remain part of RPCS3's developmental history.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2020)</span>
-		</div>
-		<div class="user-con-specsheet">
-			<div class="user-con-specbox">
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Desktop</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>AMD R7 3800X (3.9GHz)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>NVIDIA GTX 1080 Ti</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>32GB DDR4 (3733MT/s)</span>
-					</div>
-				</div>
-				<div class="specbox-con-part darkmode-specbox">
-					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
-					</div>
-					<div class="specbox-tx1-part darkmode-txt">
-						<span>Windows 10</span>
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/united-states.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Social Links</span>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #e1cbc5">2017</span>
+			<div class="user-con-role-gradient">
+			</div>
 		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/isjuhn" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+		<div class="user-img-backdrop" style="background: url('/img/users/johnholmesii.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				JohnHolmesII </span>
+				<span class="user-con-role user-role-contributor">
+				Project Contributor </span>
+			</div>
+			<div class='user-con-divider role-contributor darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				JohnHolmesII joined in 2017, initially contributing through edits to the README. His involvement gradually expanded into various DevOps roles, including maintaining build steps, cleaning build output, and helping to sustain CI/CD functions. His behind-the-scenes work helped keep RPCS3's development infrastructure running smoothly during his time with the project. In the Discord community, he was known as "Hurb" before moving on to other endeavors.</span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Computer Specifications (2020)</span>
+			</div>
+			<div class="user-con-specsheet">
+				<div class="user-con-specbox">
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Desktop</span>
+						</div>
 					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>AMD Ryzen 9 5950X (4.7GHz)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Radeon RX 6700 XT</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>32GB DDR4 (3600MT/s)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-na.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Linux</span>
+						</div>
 					</div>
 				</div>
-				</a>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Social Links</span>
+			</div>
+			<div class="user-con-socialsheet">
+				<div class="user-con-socialbox">
+					<a href="https://github.com/johnholmesii" target="_blank">
+					<div class="socialbox-con-button">
+						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+						</div>
+						<div class="socialbox-tx1-platform darkmode-txt">
+							<span>GitHub</span>
+						</div>
+					</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="user-con-content darkmode-txt">
-	<div class="user-con-avatar">
-		<div class='user-img-avatar' style="background: url('/img/users/velocity.png') no-repeat center; background-size: cover;">
-			<div class="user-con-flag">
-				<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/tge.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/netherlands.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #ceced9">2018</span>
+			<div class="user-con-role-gradient">
+			</div>
+		</div>
+		<div class="user-img-backdrop" style="background: url('/img/users/tge.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				TGE </span>
+				<span class="user-con-role user-role-contributor">
+				Project Contributor </span>
+			</div>
+			<div class='user-con-divider role-contributor darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				TGE joined in 2018 and made valuable contributions that helped advance RPCS3 during his time with the team. His work addressed various development needs and supported the emulator's continuous improvement. As his priorities evolved, TGE eventually stepped away from RPCS3 to focus on different projects and pursuits, leaving behind contributions that aided the project's progress.</span>
+			</div>
+		</div>
+	</div>
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/juhn.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/sweden.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #b0b294">2017</span>
+			<div class="user-con-role-gradient">
+			</div>
+		</div>
+		<div class="user-img-backdrop" style="background: url('/img/users/juhn.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				Juhn 0xCA7F00D</span>
+				<span class="user-con-role user-role-contributor">
+				Project Contributor </span>
+			</div>
+			<div class='user-con-divider role-contributor darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				Juhn 0xCA7F00D joined the team in 2017 and contributed meaningfully to RPCS3's development through his technical work. His efforts helped tackle various challenges and improve the emulator's capabilities during his involvement. In time, Juhn 0xCA7F00D transitioned away from the project to pursue different interests and opportunities, though his contributions during those years remain part of RPCS3's developmental history.</span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Computer Specifications (2020)</span>
+			</div>
+			<div class="user-con-specsheet">
+				<div class="user-con-specbox">
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Desktop</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>AMD R7 3800X (3.9GHz)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>NVIDIA GTX 1080 Ti</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>32GB DDR4 (3733MT/s)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Windows 10</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Social Links</span>
+			</div>
+			<div class="user-con-socialsheet">
+				<div class="user-con-socialbox">
+					<a href="https://github.com/isjuhn" target="_blank">
+					<div class="socialbox-con-button">
+						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+						</div>
+						<div class="socialbox-tx1-platform darkmode-txt">
+							<span>GitHub</span>
+						</div>
+					</div>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="user-con-backdrop">
-		<span class="user-tx1-backdrop " style="color: #c2b3c5">2018</span>
-		<div class="user-con-role-gradient">
-		</div>
-	</div>
-	<div class="user-img-backdrop" style="background: url('/img/users/velocity.png') no-repeat center; background-size: cover;">
-	</div>
-	<div class="user-con-wrapper">
-		<div class='user-tx1-content darkmode-txt'>
-			<span class="user-tx2-member pulsate">
-			Velocity </span>
-			<span class="user-con-role user-role-contributor">
-			Project Contributor </span>
-		</div>
-		<div class='user-con-divider role-contributor darkmode-divider'>
-		</div>
-		<div class='user-tx3-content darkmode-txt'>
-			<span>
-			Velocity joined the project in 2018 and made notable contributions that supported RPCS3's advancement. His involvement helped improve the emulator's functionality and address development challenges during his time with the team. As his interests shifted, Velocity moved on to pursue other projects outside of RPCS3, though his work during those years contributed to the emulator's steady progress.</span>
-		</div>
-		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Social Links</span>
-		</div>
-		<div class="user-con-socialsheet">
-			<div class="user-con-socialbox">
-				<a href="https://github.com/velocityra" target="_blank">
-				<div class="socialbox-con-button">
-					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
-					</div>
-					<div class="socialbox-tx1-platform darkmode-txt">
-						<span>GitHub</span>
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/velocity.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/greece.png') no-repeat center; background-size: cover;">
 					</div>
 				</div>
-				</a>
+			</div>
+		</div>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #c2b3c5">2018</span>
+			<div class="user-con-role-gradient">
+			</div>
+		</div>
+		<div class="user-img-backdrop" style="background: url('/img/users/velocity.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				Velocity </span>
+				<span class="user-con-role user-role-contributor">
+				Project Contributor </span>
+			</div>
+			<div class='user-con-divider role-contributor darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				Velocity joined the project in 2018 and made notable contributions that supported RPCS3's advancement. His involvement helped improve the emulator's functionality and address development challenges during his time with the team. As his interests shifted, Velocity moved on to pursue other projects outside of RPCS3, though his work during those years contributed to the emulator's steady progress.</span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Social Links</span>
+			</div>
+			<div class="user-con-socialsheet">
+				<div class="user-con-socialbox">
+					<a href="https://github.com/velocityra" target="_blank">
+					<div class="socialbox-con-button">
+						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+						</div>
+						<div class="socialbox-tx1-platform darkmode-txt">
+							<span>GitHub</span>
+						</div>
+					</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

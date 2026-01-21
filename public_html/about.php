@@ -4,7 +4,7 @@
 <title>RPCS3 - About</title>
 <meta charset="utf-8">
 <meta name="description" content="Our goal is to preserve the legacy of the PlayStation 3 by completely and accurately emulating its vast library in its entirety with the power of open-source community and reverse engineering.">
-<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, nekotekina, kd11, about">
+<meta name="keywords" content="rpcs3, playstation, playstation 3, ps3, emulator, debugger, windows, linux, macos, freebsd, open source, x64, arm64, about">
 <?php include 'lib/module/sys-meta.php';?>
 <meta property="og:title" content="RPCS3 - About"/>
 <meta property="og:description" content="Our goal is to preserve the legacy of the PlayStation 3 by completely and accurately emulating its vast library in its entirety with the power of open-source community and reverse engineering."/>
@@ -173,8 +173,6 @@
 		</div>
 	</div>
 </div>
-</div>
 <?php include 'lib/module/inc-footer.php';?>
-</div>
 </body>
 </html>
