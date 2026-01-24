@@ -72,8 +72,8 @@
 				 Purchasing legitimate game copies, through the <u>PlayStation Store</u> or through acquiring game discs, and using those copies with RPCS3 is the best way to ensure you will have a clean copy that will work with the emulator. You can use your legal copies with RPCS3 by following the instructions in our <a href="/quickstart" target="_blank">Quickstart</a> guide.
 			</p>
 		</div>
-		<div class="mini-menu-btn-agree">
-			<h2>I Understand</h2>
+		<div tabindex="0" class="mini-menu-btn-agree">
+			I Understand
 		</div>
 	</div>
 </div>
