@@ -1,9 +1,6 @@
 <?php
+include 'lib/module/rpcn/config.php';
 include 'lib/module/rpcn/inc-rpcn-stats.php';
-
-$games_json = 'lib/module/rpcn/games.json';
-$log_file = 'lib/module/rpcn/log.txt';
-$api_url = "http://np.rpcs3.net:31333/rpcn_stats";
 
 // Initialize RPCNStats class
 $rpcn_stats = new RPCNStats($games_json, $log_file, $api_url);
