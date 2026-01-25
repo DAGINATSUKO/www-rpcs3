@@ -69,7 +69,7 @@
 },
 "NPWR00036_00": {
     "title": ["SingStar"],
-    "id": ["BCES00293", "BCES00343", "BCES00344", "BCES00345", "BCES00518", "BCES00519", "BCES00621", "BCES00622", "BCES00625", "BCES00846", "BCES00852", "BCES00981", "BCES01023", "BCES01083", "BCES01103", "BCES01255", "BCES01441", "BCES01735", "BCES00341", "BCES00342", "BCES00346", "BCES00531", "BCES00583", "BCES00596", "BCES00607", "BCES00614", "BCES00617", "BCES00624", "BCES00640", "BCES00722", "BCES00835", "BCES00847", "BCES00856", "BCES00869", "BCES00871", "BCES00894", "BCES00979", "BCES00980", "BCES01024", "BCES01049", "BCES01257", "BCES01258", "BCUS94344", "BCUS98206", "BCUS98266"]
+    "id": ["BCES00293", "BCES00343", "BCES00344", "BCES00345", "BCES00518", "BCES00519", "BCES00621", "BCES00622", "BCES00625", "BCES00846", "BCES00852", "BCES00981", "BCES01023", "BCES01083", "BCES01103", "BCES01255", "BCES01441", "BCES01735", "BCES00341", "BCES00342", "BCES00346", "BCES00531", "BCES00583", "BCES00596", "BCES00607", "BCES00614", "BCES00617", "BCES00624", "BCES00640", "BCES00722", "BCES00835", "BCES00847", "BCES00856", "BCES00869", "BCES00871", "BCES00894", "BCES00979", "BCES00980", "BCES01024", "BCES01049", "BCES01257", "BCES01258", "BCUS94344", "BCUS98206", "BCUS98266", "BCAS20153"]
 },
 "NPWR00037_00": {
     "title": ["カズオ"],
@@ -533,7 +533,7 @@
 },
 "NPWR00302_00": {
     "title": ["SOCOM: U.S. NAVY SEALS CONFRONTATION"],
-    "id": ["BCES00173", "BCAS20051"]
+    "id": ["BCES00173", "BCAS20051", "NPUA70015"]
 },
 "NPWR00305_00": {
     "title": ["Bionic Commando"],
@@ -658,6 +658,10 @@
 "NPWR00362_00": {
     "title": ["CRASH COMMANDO"],
     "id": ["NPEA00107"]
+},
+"NPWR00363_00": {
+    "title": ["Unknown Game"],
+    "id": []
 },
 "NPWR00373_00": {
     "title": ["THE KING OF FIGHTERS XII"],
@@ -953,7 +957,7 @@
 },
 "NPWR00493_00": {
     "title": ["UP"],
-    "id": ["BLES00550", "BLES00552", "BLES00541", "BLES00542", "BLES00544", "BLUS30305"]
+    "id": ["BLES00550", "BLES00552", "BLES00541", "BLES00542", "BLES00543", "BLES00544", "BLUS30305"]
 },
 "NPWR00494_00": {
     "title": ["Brütal Legend"],
@@ -1733,7 +1737,7 @@
 },
 "NPWR00757_00": {
     "title": ["NINJA GAIDEN Σ2"],
-    "id": ["BLES00736", "BLJM60168", "BLKS20170", "BLUS30380"]
+    "id": ["BLES00736", "BLJM60168", "BLKS20170", "BLUS30380", "BLAS50160"]
 },
 "NPWR00758_00": {
     "title": ["Record of Agarest War Zero"],
@@ -2341,7 +2345,7 @@
 },
 "NPWR01008_00": {
     "title": ["Ratchet & Clank: All 4 One"],
-    "id": ["BCES01141", "BCES01142", "BCJS30081", "BCUS98175"]
+    "id": ["BCES01141", "BCES01142", "BCJS30081", "BCUS98175", "NPUA70177", "NPEA00356"]
 },
 "NPWR01012_00": {
     "title": ["Batman: Arkham Asylum"],
@@ -2429,7 +2433,7 @@
 },
 "NPWR01056_00": {
     "title": ["実況パワフルプロ野球２０１０"],
-    "id": ["BLJM60243", "BLKS20206"]
+    "id": ["BLJM60243", "BLKS20206", "BLAS50217"]
 },
 "NPWR01057_00": {
     "title": ["Buzz!: The Ultimate Music Quiz"],
@@ -2625,7 +2629,7 @@
 },
 "NPWR01130_00": {
     "title": ["Medal of Honor"],
-    "id": ["BLES01067", "BLES01107", "BLES00860", "BLES01106", "BLES01108", "BLJM60275", "BLUS30436"]
+    "id": ["BLES01067", "BLES01107", "BLES00860", "BLES01106", "BLES01108", "BLJM60275", "BLUS30436", "BLAS50238"]
 },
 "NPWR01132_00": {
     "title": ["NieR Replicant"],
@@ -3289,7 +3293,7 @@
 },
 "NPWR01351_00": {
     "title": ["The X Factor"],
-    "id": ["BLES01025"]
+    "id": ["BLES01025", "BLES01253"]
 },
 "NPWR01355_00": {
     "title": ["Modern Combat: Domination"],
@@ -4593,15 +4597,15 @@
 },
 "NPWR01818_00": {
     "title": ["Jak and Daxter: The Precursor Legacy"],
-    "id": ["BCES01325", "BCUS98281"]
+    "id": ["BCES01325", "BCUS98281", "BCAS20222"]
 },
 "NPWR01819_00": {
     "title": ["Jak II"],
-    "id": ["BCES01325", "BCUS98281"]
+    "id": ["BCES01325", "BCUS98281", "BCAS20222"]
 },
 "NPWR01820_00": {
     "title": ["Jak 3"],
-    "id": ["BCES01325", "BCUS98281"]
+    "id": ["BCES01325", "BCUS98281", "BCAS20222"]
 },
 "NPWR01821_00": {
     "title": ["Snowy: Treasure Hunter"],
@@ -4826,6 +4830,10 @@
 "NPWR01918_00": {
     "title": ["Unknown Game"],
     "id": []
+},
+"NPWR01933_00": {
+    "title": ["Resistance 3 Online Beta"],
+    "id": ["NPUA70161", "NPHA80159"]
 },
 "NPWR01946_00": {
     "title": [".hack//Versus"],
@@ -5217,7 +5225,7 @@
 },
 "NPWR02261_00": {
     "title": ["Starhawk"],
-    "id": ["BCES01234", "BCES00907", "BCJS30076", "BCUS98181"]
+    "id": ["BCES01234", "BCES00907", "BCJS30076", "BCUS98181", "BCAS20171"]
 },
 "NPWR02269_00": {
     "title": ["Premier Manager 2012"],
@@ -5252,8 +5260,8 @@
     "id": ["BLES01379", "BLUS30813"]
 },
 "NPWR02297_00": {
-    "title": ["Unknown Game"],
-    "id": []
+    "title": ["Starhawk Online Beta"],
+    "id": ["NPUA70136"]
 },
 "NPWR02298_00": {
     "title": ["Black Knight Sword"],
@@ -5269,7 +5277,7 @@
 },
 "NPWR02312_00": {
     "title": ["LittleBigPlanet Karting"],
-    "id": ["BCES01422", "BCES01423", "BCJS30085", "BCUS98254"]
+    "id": ["BCES01422", "BCES01423", "BCJS30085", "BCUS98254", "BCAS20205"]
 },
 "NPWR02314_00": {
     "title": ["Cartoon Network Punch Time Explosion XL"],
@@ -5590,6 +5598,10 @@
 "NPWR02609_00": {
     "title": ["Rugby League Live 2"],
     "id": ["BLES01472"]
+},
+"NPWR02617_00": {
+    "title": ["Assassin's Creed Revelations Multiplayer Beta"],
+    "id": ["BLET70017", "NPUB90674"]
 },
 "NPWR02621_00": {
     "title": ["PlayStation All-Stars Battle Royale"],
@@ -6265,7 +6277,7 @@
 },
 "NPWR03295_00": {
     "title": ["Jet Set Radio"],
-    "id": []
+    "id": ["NPJB00225", "NPEB00924"]
 },
 "NPWR03297_00": {
     "title": ["007 Legends"],
@@ -6349,7 +6361,7 @@
 },
 "NPWR03396_00": {
     "title": ["機動戦士ガンダム　バトルオペレーション"],
-    "id": []
+    "id": ["NPJB00178"]
 },
 "NPWR03400_00": {
     "title": ["スーパーヒーロージェネレーション"],
@@ -6521,7 +6533,7 @@
 },
 "NPWR03525_00": {
     "title": ["NARUTO STORM 3"],
-    "id": ["BLES02221", "BLES01764", "BLES01951", "BLJS10200", "BLUS31066", "BLUS31350"]
+    "id": ["BLES02221", "BLES01764", "BLES01951", "BLJS10200", "BLUS31066", "BLUS31350", "BLAS50630"]
 },
 "NPWR03526_00": {
     "title": ["ONE PIECE: PIRATE WARRIORS"],
@@ -6645,7 +6657,7 @@
 },
 "NPWR03622_00": {
     "title": ["Medal of Honor Warfighter"],
-    "id": ["BLES01636", "BLJM60541", "BLUS30990"]
+    "id": ["BLES01636", "BLJM60541", "BLUS30990", "BLAS50505"]
 },
 "NPWR03623_00": {
     "title": ["Karateka"],
@@ -7129,7 +7141,7 @@
 },
 "NPWR04043_00": {
     "title": ["Spartacus Legends"],
-    "id": []
+    "id": ["NPUB30746"]
 },
 "NPWR04053_00": {
     "title": ["Everybody Dance Digital"],
@@ -7269,7 +7281,7 @@
 },
 "NPWR04175_00": {
     "title": ["Defiance"],
-    "id": ["BLES01787", "BLUS30936"]
+    "id": ["BLES01787", "BLUS30936", "NPUB90931"]
 },
 "NPWR04178_00": {
     "title": ["Winning Post 7 2013"],
@@ -7426,6 +7438,10 @@
 "NPWR04317_00": {
     "title": ["NINJA GAIDEN 3: Razor's Edge"],
     "id": ["BLES01845", "BLJM61010", "BLUS31175"]
+},
+"NPWR04318_00": {
+    "title": ["Crysis 3 Multiplayer Beta"],
+    "id": ["NPUB90826"]
 },
 "NPWR04319_00": {
     "title": ["Far Cry 3 Blood Dragon"],
@@ -8381,7 +8397,7 @@
 },
 "NPWR05394_00": {
     "title": ["初音ミク -Project DIVA- F 2nd"],
-    "id": ["BLES02029", "BLJM61079", "BLUS31431"]
+    "id": ["BLES02029", "BLJM61079", "BLUS31431", "BLAS50723"]
 },
 "NPWR05400_00": {
     "title": ["Middle-earth: Shadow of Mordor"],
@@ -8959,6 +8975,10 @@
     "title": ["覆面闘士"],
     "id": []
 },
+"NPWR06396_00": {
+    "title": ["Call of Duty Ghosts Multiplayer Demo"],
+    "id": ["NPEB90534"]
+},
 "NPWR06397_00": {
     "title": ["Another World"],
     "id": []
@@ -9130,6 +9150,10 @@
 "NPWR06783_00": {
     "title": ["PAC-MAN and the Ghostly Adventures 2"],
     "id": ["BLES02056", "BLUS31458"]
+},
+"NPWR06854_00": {
+    "title": ["Destiny Beta"],
+    "id": ["NPEB02097"]
 },
 "NPWR06855_00": {
     "title": ["Battlefield Hardline"],
@@ -9337,7 +9361,7 @@
 },
 "NPWR07319_00": {
     "title": ["龍が如く０　誓いの場所"],
-    "id": ["BLJM61249"]
+    "id": ["BLJM61249", "NPJB00684"]
 },
 "NPWR07321_00": {
     "title": ["LOS 40 PRINCIPALES: KARAOKE PARTY"],
@@ -9477,7 +9501,7 @@
 },
 "NPWR07666_00": {
     "title": ["The Jackbox Party Pack"],
-    "id": ["BLES02210", "BLUS31576"]
+    "id": ["BLES02210", "BLUS31576", "NPUB31611"]
 },
 "NPWR07672_00": {
     "title": ["電撃文庫 FIGHTING CLIMAX トロフィーセット"],
@@ -9741,7 +9765,7 @@
 },
 "NPWR08256_00": {
     "title": ["Sword Art Online: Lost Song"],
-    "id": ["BLJS10312"]
+    "id": ["BLJS10312", "BLAS50789"]
 },
 "NPWR08257_00": {
     "title": ["Unknown Game"],
@@ -9877,7 +9901,7 @@
 },
 "NPWR08547_00": {
     "title": ["人中之龍０　誓約的場所"],
-    "id": []
+    "id": ["BLAS50796"]
 },
 "NPWR08560_00": {
     "title": ["Tales of Zestiria"],
@@ -10101,7 +10125,7 @@
 },
 "NPWR09105_00": {
     "title": ["ガンダムバトルオペレーションＮＥＸＴ"],
-    "id": []
+    "id": ["NPJB00749"]
 },
 "NPWR09144_00": {
     "title": ["Winning Eleven 2016"],
@@ -10285,7 +10309,7 @@
 },
 "NPWR09774_00": {
     "title": ["The Jackbox Party Pack 2"],
-    "id": []
+    "id": ["NPEB02360", "NPUB31767"]
 },
 "NPWR09814_00": {
     "title": ["LEGO STAR WARS: The Force Awakens"],
@@ -10317,7 +10341,7 @@
 },
 "NPWR09930_00": {
     "title": ["龍が如く 極"],
-    "id": ["BLJM61313"]
+    "id": ["BLJM61313", "NPJB00772"]
 },
 "NPWR09957_00": {
     "title": ["Teslagrad"],
@@ -10690,5 +10714,9 @@
 "BLUS30009_00": {
     "title": ["Full Auto 2: Battlelines"],
     "id": ["BLUS30009"]
+},
+"BLES00124_00": {
+    "title": ["skate."],
+    "id": ["BLES00124"]
 }
 }
