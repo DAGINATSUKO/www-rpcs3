@@ -414,7 +414,7 @@
 					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 					</div>
 					<div class="specbox-tx1-part darkmode-txt">
-						<span>64GB DDR5 (6400MT/s C26)</span>
+						<span>64GB DDR5 (8000MT/s C30)</span>
 					</div>
 					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 					</div>
@@ -485,7 +485,7 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Intel Core Ultra 9 285K (5.7GHz)</span>
+							<span>Intel Core Ultra 9 285K (5.6GHz)</span>
 						</div>
 						<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 						</div>
@@ -503,7 +503,7 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>128GB DDR5 (7800MT/s C48)</span>
+							<span>128GB DDR5 (7600MT/s C36)</span>
 						</div>
 						<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
 						</div>
@@ -512,7 +512,7 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Windows 11</span>
+							<span>Windows Server</span>
 						</div>
 					</div>
 				</div>
