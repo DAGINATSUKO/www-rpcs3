@@ -220,7 +220,7 @@
 								</a>
 								<a href="https://daginatsuko.com" target="_blank">
 								<div class="footer-tx1-developer pulsate">
-									<span>Website by DAGINATSUKO © 2025</span>
+									<span>Website by DAGINATSUKO © 2026</span>
 								</div>
 								</a>
 							</div>

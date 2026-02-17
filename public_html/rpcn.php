@@ -114,7 +114,7 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 							<span>Netplay Compatibility</span>
 						</div>
 						<div class='rpcn-infopane-tx2-desc darkmode-txt'>
-							<span>Check games that support netplay with our compatibility list. From beloved fighting games to racing and cooperative adventures, explore a growing collection of PlayStation 3 games revived with netplay.<br><br>For game compatibility, see the <a href="http://localhost/compatibility" target="_blank">compatibility list</a>.</span>
+							<span>Check games that support netplay with our compatibility list. From beloved fighting games to racing and cooperative adventures, explore a growing collection of PlayStation 3 games revived with netplay.<br><br>For game compatibility, see the <a href="/compatibility" target="_blank">compatibility list</a>.</span>
 							<br><br>
 						</div>
 						<a href="https://wiki.rpcs3.net/index.php?title=RPCN_Compatibility_List" target="_blank">
