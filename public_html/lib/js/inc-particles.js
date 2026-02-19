@@ -1,133 +1,75 @@
 // Handles Particles.js simulation
-$(document).ready(function() {
-  var particlesJS = window.particlesJS;
-  var particlesContainer = "object-particles";
-  var particlesOptions = {
-    "particles": {
-      "number": {
-        "value": 32,
-        "density": {
-          "enable": true,
-          "value_area": 768
+$(document).ready(function () {
+  const config = {
+    particles: {
+      number: {
+        value: 32, // Number of particles to display
+        density: {
+          enable: true, // Enable density-based particle distribution
+          value_area: 768 // Area density (particles per square unit)
         }
       },
-      "color": {
-        "value": "#fff"
+      color: {
+        value: '#fff' // Particle color (white)
       },
-      "shape": {
-        "type": "circle",
-        "stroke": {
-          "width": 0,
-          "color": "#fff"
-        },
-        "polygon": {
-          "nb_sides": 3
-        },
-        "image": {
-          "src": " ",
-          "width": 100,
-          "height": 100
+      shape: {
+        type: 'circle' // Particle shape
+      },
+      opacity: {
+        value: 1, // Initial opacity value
+        random: true, // Randomize opacity values
+        anim: {
+          enable: true, // Enable opacity animation
+          speed: 1, // Animation speed
+          opacity_min: 0, // Minimum opacity value
+          sync: false // Synchronize animation
         }
       },
-      "opacity": {
-        "value": 1,
-        "random": true,
-        "anim": {
-          "enable": true,
-          "speed": 1,
-          "opacity_min": 0,
-          "sync": false
+      size: {
+        value: 6, // Base particle size
+        random: true, // Randomize particle sizes
+        anim: {
+          enable: true, // Enable size animation
+          speed: 4, // Animation speed
+          size_min: 0.1, // Minimum size value
+          sync: false // Synchronize animation
         }
       },
-      "size": {
-        "value": 6,
-        "random": true,
-        "anim": {
-          "enable": true,
-          "speed": 4,
-          "size_min": 0.1,
-          "sync": false
-        }
+      line_linked: {
+        enable: false // Disable connections between particles
       },
-      "line_linked": {
-        "enable": false,
-        "distance": 200,
-        "color": "#fff",
-        "opacity": 0.5,
-        "width": 1
-      },
-      "move": {
-        "enable": true,
-        "speed": 1,
-        "direction": "none",
-        "random": false,
-        "straight": false,
-        "out_mode": "out",
-        "bounce": false,
-        "attract": {
-          "enable": false,
-          "rotateX": 1200,
-          "rotateY": 1200
-        }
+      move: {
+        enable: true, // Enable particle movement
+        speed: 1, // Movement speed
+        out_mode: 'out' // Behavior when particles leave canvas
       }
     },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": false,
-          "mode": "grab"
-        },
-        "onclick": {
-          "enable": false,
-          "mode": "push"
-        },
-        "resize": true
+    interactivity: {
+      detect_on: 'canvas', // Detect interactions on canvas
+      events: {
+        onhover: { enable: false }, // Disable hover effects
+        onclick: { enable: false }, // Disable click effects
+        resize: true // Enable resize detection
       },
-      "modes": {
-        "grab": {
-          "distance": 400,
-          "line_linked": {
-            "opacity": 1
-          }
-        },
-        "grab": {
-          "distance": 400,
-          "size": 40,
-          "duration": 2,
-          "opacity": 4,
-          "speed": 3
-        },
-        "grab": {
-          "distance": 200,
-          "duration": 0.4
-        },
-        "push": {
-          "particles_nb": 4
-        },
-        "remove": {
-          "particles_nb": 2
-        }
+      modes: {
+        push: { particles_nb: 4 }, // Number of particles to push
+        remove: { particles_nb: 2 } // Number of particles to remove
       }
     },
-    "retina_detect": true
+    retina_detect: true // Enable retina display support
   };
 
-  // Initialize particles
   function initParticles() {
-    particlesJS(particlesContainer, particlesOptions);
+    // Initialize particles.js with the specified container and options
+    particlesJS('object-particles', config);
   }
 
-  // Refresh particles on window resize
   function refreshParticles() {
-    pJSDom[0].pJS.fn.vendors.destroypJS();
-    pJSDom = [];
-    initParticles();
+    pJSDom[0].pJS.fn.vendors.destroypJS(); // Destroy existing particles.js instance
+    pJSDom = []; // Clear the pJSDom array
+    initParticles(); // Reinitialize particles
   }
 
-  // Initialize particles on document ready
-  initParticles();
-
-  // Refresh particles on window resize
-  $(window).on('resize', refreshParticles);
+  initParticles(); // Initialize particles on document ready
+  $(window).on('resize', refreshParticles); // Refresh particles on window resize
 });

@@ -41,12 +41,12 @@
 	);
 	preloadVideo(
 	'2',
-	'QyeXbg7kXMQ',
+	'Zh_bRbJs2SQ',
 	'2'
 	);
 	preloadVideo(
 	'3',
-	'GWD5B87W3ig',
+	'BIqK3SZU_HU',
 	'3'
 	);
 ?>

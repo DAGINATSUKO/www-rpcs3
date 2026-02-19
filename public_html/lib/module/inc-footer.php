@@ -111,6 +111,11 @@
 										<span>Wiki</span>
 										</a>
 									</div>
+									<div class="footer-tx2-bound">
+										<a href="https://git.rpcs3.net/explore/repos" target="_blank">
+										<span>Mirror</span>
+										</a>
+									</div>
 								</div>
 							</div>
 						</td>
