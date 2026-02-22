@@ -31,7 +31,7 @@
 				elad335 is most known for his work in implementing save-states as well as fixing countless RSX mishaps, moving a significant amount of games from loadable/menu to in-game/playable with the most notable cases being Naughty Dog titles and figuring out the last issues that prevented Metal Gear Solid 4 from properly booting.</span>
 			</div>
 			<div class="user-con-subtitle">
-				<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+				<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 			</div>
 			<div class="user-con-specsheet">
 				<div class="user-con-specbox">
@@ -120,7 +120,7 @@
 				kd-11 joined RPCS3 in early 2016 as a contributor. He is a veteran in graphics various shenanigans and is currently the lead graphics developer for RPCS3. kd-11 is constantly improving the emulator, mainly its graphical back-end parts and greatly enjoys doings so. Thanks to the funding provided by our Patrons, kd-11 was able to join RPCS3 as a full-time developer in mid-late 2017. </span>
 			</div>
 			<div class="user-con-subtitle">
-				<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+				<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 			</div>
 			<div class="user-con-specsheet">
 				<div class="user-con-specbox">
@@ -219,7 +219,7 @@
 			Ani joined the staff in mid 2016 as a Forum Moderator and Helper for the old RPCS3 forums. Ani currently serves RPCS3 as a Web Developer, having developed RPCS3's Compatibility List, as well as Social Media Manager, responsible for managing and moderating the Forums, the Subreddit and running RPCS3's X account. He also writes the full version changelogs, and used to contribute to writing the progress reports. </span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -381,7 +381,7 @@
 			DAGINATSUKO joined RPCS3 in early 2017 as the web developer and graphic designer. They are in charge of the project's overall branding and presentation on the world wide web. Following the website's initial launch, they have further developed and maintained it with annual updates, up-to-the-minute fixes and additions out of pure passion and devotion to the project.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -675,7 +675,7 @@
 			GalCiv joined the team in 2017 and leads the development of RPCS3's online play system, RPCN. He works extensively on the networking infrastructure, including account creation and the security systems that protect user data. His expertise ensures that players can safely connect and enjoy online multiplayer experiences. Beyond networking, GalCiv has also contributed to various other parts of the emulator throughout his time with the project.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -813,7 +813,7 @@
 			Whatcookie joined the team in 2017 and has made valuable contributions to RPCS3's performance through his work on the LLVM recompiler for the Cell Broadband Engine. He implemented various optimizations for the recompiler and the instructions it processes, resulting in notable speed improvements across many games. His technical expertise in low-level optimization has helped make RPCS3 faster and more efficient for users.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -892,6 +892,143 @@
 </div>
 <div class="user-con-content darkmode-txt">
 	<div class="user-con-avatar">
+		<div class='user-img-avatar' style="background: url('/img/users/loweys-litsman.png') no-repeat center; background-size: cover;">
+			<div class="user-con-flag">
+				<div class='user-img-flag' style="background: url('/img/graphics/flags/portugal.png') no-repeat center; background-size: cover;">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="user-con-backdrop">
+		<span class="user-tx1-backdrop " style="color: #a5bc95">2019</span>
+		<div class="user-con-role-gradient">
+		</div>
+	</div>
+	<div class="user-img-backdrop" style="background: url('/img/users/loweys-litsman.png') no-repeat center; background-size: cover;">
+	</div>
+	<div class="user-con-wrapper">
+		<div class='user-tx1-content darkmode-txt'>
+			<span class="user-tx2-member pulsate">
+			Loweys Litsman </span>
+			<span class="user-con-role user-role-contributor">
+			Project Contributor </span>
+		</div>
+		<div class='user-con-divider role-wiki darkmode-divider'>
+		</div>
+		<div class='user-tx3-content darkmode-txt'>
+			<span>
+			Loweys Litsman joined the team in March of 2019 as a Tester and has since become one of the project's most methodical contributors. Known for his extensive Yakuza series testing and detailed GitHub documentation. One of his most distinctive contributions is his hardware scaling research — producing comparison videos that stress-test RPCS3 under intentionally limited conditions, from varying core counts to RAM speeds and GPU PCIe generations.<br><br>
+			This work has directly shaped the <a href="https://rpcs3.net/cputierlist" target="_blank">RPCS3 CPU Tier List</a>, where he continues to help maintain compatibility data for lower core count systems. He currently handles editing and publishing for the official RPCS3 YouTube channel.</span>
+		</div>
+		<div class="user-con-subtitle">
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
+		</div>
+		<div class="user-con-specsheet">
+			<div class="user-con-specbox">
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Desktop</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-intel.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Intel Core i9-13900K (5.5GHz)</span>
+					</div>
+					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-uv.png') no-repeat center;">
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>NVIDA RTX 3080</span>
+					</div>
+					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-uv.png') no-repeat center;">
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>32GB DDR5 (8000MT/s)</span>
+					</div>
+					<div class="specbox-ico-mod" style="background: url('/img/icons/list/device-oc.png') no-repeat center;">
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Windows 11</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="user-con-specsheet">
+			<div class="user-con-specbox">
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/device-steam-deck.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Steam Deck</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>AMD Van Gogh APU</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>16GB LPDDR5 (5500MT/s)</span>
+					</div>
+				</div>
+				<div class="specbox-con-part darkmode-specbox">
+					<div class="specbox-ico-part" style="background: url('/img/icons/list/os-linux-steam.png') no-repeat center;">
+					</div>
+					<div class="specbox-tx1-part darkmode-txt">
+						<span>Linux (SteamOS)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="user-con-subtitle">
+			<span class="user-tx1-subtitle ">Social Links</span>
+		</div>
+		<div class="user-con-socialsheet">
+			<div class="user-con-socialbox">
+				<a href="https://github.com/LoweysLitsman" target="_blank">
+				<div class="socialbox-con-button">
+					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
+					</div>
+					<div class="socialbox-tx1-platform darkmode-txt">
+						<span>GitHub</span>
+					</div>
+				</div>
+				</a>
+				<a href="https://www.youtube.com/c/LoweysLitsman" target="_blank">
+				<div class="socialbox-con-button">
+					<div class="socialbox-ico-platform" style="background: url('/img/icons/social/youtube.png') no-repeat center;">
+					</div>
+					<div class="socialbox-tx1-platform darkmode-txt">
+						<span>YouTube</span>
+					</div>
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="user-con-content darkmode-txt">
+	<div class="user-con-avatar">
 		<div class='user-img-avatar' style="background: url('/img/users/flexby.png') no-repeat center; background-size: cover;">
 			<div class="user-con-flag">
 				<div class='user-img-flag' style="background: url('/img/graphics/flags/poland.png') no-repeat center; background-size: cover;">
@@ -920,7 +1057,7 @@
 			FlexBy joined the team in 2021 and has made significant contributions across multiple areas of the project. He established and maintains RPCS3's translation repository, while also being actively involved in game testing, submitting detailed game reports, and developing game patches. Additionally, he records gameplay footage for RPCS3's YouTube channel and helped develop the RPCN server browser for the website, enhancing the online discovery experience for the community.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -1011,7 +1148,7 @@
 			HerrHulaHoop joined RPCS3 in early 2018 and took up the task to design and set-up RPCS3's Wiki. He is currently the Wiki Maintainer, tasked with developing templates that suit RPCS3's specific needs and also moderating contributions made by the community. Following the Wiki's launch, Hula also began writing and publishing the monthly progress reports on the Blog. </span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -1140,7 +1277,7 @@
 			<span>Silent joined the team in 2019, initially contributing miscellaneous UI fixes to the project. He later focused his efforts on implementing different Windows input APIs, along with tackling his personal pet peeve: unicode support. His work has improved input compatibility and text handling across the emulator, making RPCS3 more robust and accessible for users worldwide.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -1270,7 +1407,7 @@
 			BlackDaemon joined in 2011 and has been with the project since its earliest days as a global forum moderator and dedicated tester. He has tested and debugged countless games over the years, identifying peculiar issues and reporting them to developers for resolution. His thorough testing work and keen eye for problems have been invaluable in improving game compatibility and stability throughout RPCS3's development.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -1342,7 +1479,7 @@
 			<span>Joining RPCS3 in 2017, Clienthax has significantly enhanced the emulator. They've implemented essential functions for the VSH, also known as the XMB, enabling users to access the original system menu. Additionally, Clienthax integrated the PS1 emulator from the firmware, improving system emulation accuracy. Importantly, by providing the team with the PS3 development kit (DECR), Clienthax has enabled invaluable debugging capabilities, essential for refining the emulator.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -1472,7 +1609,7 @@
 			Yahfz joined the team in 2017 and currently supports the project as a debugger focused on identifying and resolving performance bottlenecks. His work aims to optimize RPCS3's performance across all platforms, ensuring that the emulator runs smoothly for everyone. With a relentless dedication to improvement, Yahfz continues to tackle technical challenges that enhance the overall user experience.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
@@ -1619,7 +1756,7 @@
 			Asinine joined RPCS3 in late 2017, and started by contributing to the project by making videos for <a href='https://www.youtube.com/c/RPCS3_emu/' target="_blank">RPCS3's YouTube Channel</a>, writing progress reports for <a href='https://rpcs3.net/blog/' target="_blank">RPCS3's blog</a> and testing games with RPCS3 to update our <a href='https://rpcs3.net/compatibility' target="_blank">compatibility database</a>. Today Asinine focuses on making videos for our YouTube channel, testing changes made to the emulator and moderating our compatibility database, Discord and Wiki.</span>
 		</div>
 		<div class="user-con-subtitle">
-			<span class="user-tx1-subtitle ">Computer Specifications (2025)</span>
+			<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
 		</div>
 		<div class="user-con-specsheet">
 			<div class="user-con-specbox">
