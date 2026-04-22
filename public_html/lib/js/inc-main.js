@@ -1,9 +1,12 @@
 // Global: Scroll to top controller
 $(document).ready(function () {
-
   // Show or hide the "Back to Top" button based on scroll position
   $(window).on('scroll', function () {
-    $('.menu-btn-backtotop').fadeToggle($(window).scrollTop() > 250);
+    if ($(window).scrollTop() > 250) {
+      $('.menu-btn-backtotop').fadeIn();
+    } else {
+      $('.menu-btn-backtotop').fadeOut();
+    }
   });
 
   // Animate scroll to top on "Back to Top" button click
@@ -11,7 +14,6 @@ $(document).ready(function () {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, 400);
   });
-
 });
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Global: scroll anchor controller

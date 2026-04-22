@@ -81,4 +81,77 @@
 			</div>
 		</div>
 	</div>
+	<div class="user-con-content darkmode-txt">
+		<div class="user-con-avatar">
+			<div class='user-img-avatar' style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
+				<div class="user-con-flag">
+					<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="user-con-backdrop">
+			<span class="user-tx1-backdrop " style="color: #98abc1">2011</span>
+			<div class="user-con-role-gradient">
+			</div>
+		</div>
+		<div class="user-img-backdrop" style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
+		</div>
+		<div class="user-con-wrapper">
+			<div class='user-tx1-content darkmode-txt'>
+				<span class="user-tx2-member pulsate">
+				BlackDaemon </span>
+				<span class="user-con-role user-role-editor">
+				Original Tester </span>
+			</div>
+			<div class='user-con-divider role-contributor darkmode-divider'>
+			</div>
+			<div class='user-tx3-content darkmode-txt'>
+				<span>
+				BlackDaemon joined in 2011 and has been with the project since its earliest days as a global forum moderator and dedicated tester. He has tested and debugged countless games over the years, identifying peculiar issues and reporting them to developers for resolution. His thorough testing work and keen eye for problems have been invaluable in improving game compatibility and stability throughout RPCS3's development.</span>
+			</div>
+			<div class="user-con-subtitle">
+				<span class="user-tx1-subtitle ">Computer Specifications (2026)</span>
+			</div>
+			<div class="user-con-specsheet">
+				<div class="user-con-specbox">
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/device-desktop.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Desktop</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/cpu-amd.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>AMD Ryzen 7 9700X (5.5GHz)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-amd.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>AMD Radeon RX 9070 XT</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/ram-generic.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>32GB DDR5 (6000MT/s)</span>
+						</div>
+					</div>
+					<div class="specbox-con-part darkmode-specbox">
+						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-11.png') no-repeat center;">
+						</div>
+						<div class="specbox-tx1-part darkmode-txt">
+							<span>Windows 11</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
