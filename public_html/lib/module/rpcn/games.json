@@ -706,7 +706,7 @@
 },
 "NPWR00389_00": {
     "title": ["Bomberman ULTRA"],
-    "id": []
+    "id": ["NPEB00076", "NPUB30051"]
 },
 "NPWR00390_00": {
     "title": ["Shaun White Snowboarding"],
@@ -3690,6 +3690,10 @@
     "title": ["Qlione 2"],
     "id": ["NPEA00262"]
 },
+"NPWR01493_00": {
+    "title": ["NBA 2K11 Demo"],
+    "id": ["NPUB90472"]
+},
 "NPWR01495_00": {
     "title": ["The UnderGarden"],
     "id": []
@@ -4690,7 +4694,7 @@
 },
 "NPWR01838_00": {
     "title": ["Ugly Americans"],
-    "id": []
+    "id": ["NPUB30491"]
 },
 "NPWR01839_00": {
     "title": ["Shadows of the Damned"],
@@ -6668,7 +6672,7 @@
 },
 "NPWR03597_00": {
     "title": ["Double Dragon Neon"],
-    "id": ["NPUB30764", "NPEB01168"]
+    "id": ["NPUB30764", "NPEB01168", "NPJB90717"]
 },
 "NPWR03598_00": {
     "title": ["ドリームクラブComplete Edipyon!"],
@@ -8288,7 +8292,7 @@
 },
 "NPWR05073_00": {
     "title": ["Tales from Space: Mutant Blobs Attack"],
-    "id": []
+    "id": ["NPUB30617"]
 },
 "NPWR05076_00": {
     "title": ["Pro Evolution Soccer 2014"],
