@@ -19,6 +19,9 @@ class RPCNStats {
     /** @var array<string, string> */
     public array $title_icons = [];
 
+    /** @var array<string, string> */
+    public array $app_title = [];
+
     public bool $has_error = false;
 
     private array $icon_alias = [
@@ -142,35 +145,34 @@ class RPCNStats {
         foreach ($game_mappings as $comm_id => $info) {
             $titles = $info['title'] ?? ["Unknown Game"];
             $game_title = $titles[0] ?? 'Unknown Game';
+            $this->app_title[$comm_id] = $game_title;
 
             // Initialize counts and ID array if not already set
-            if (!isset($this->title_player_counts[$game_title])) {
-                $this->title_player_counts[$game_title] = 0;
-                $this->title_ids[$game_title] = [];
+            if (!isset($this->title_player_counts[$comm_id])) {
+                $this->title_player_counts[$comm_id] = 0;
+                $this->title_ids[$comm_id] = [];
             }
 
             $ids = $info['id'] ?? [$comm_id];
 
-            $this->title_ids[$game_title] = array_unique(array_merge($this->title_ids[$game_title], $ids));
+            $this->title_ids[$comm_id] = array_unique(array_merge($this->title_ids[$comm_id], $ids));
 
             // Collect regions for display
-            if (!isset($this->title_regions[$game_title])) {
-                $this->title_regions[$game_title] = [];
+            if (!isset($this->title_regions[$comm_id])) {
+                $this->title_regions[$comm_id] = [];
             }
 
             foreach ($ids as $entry_id) {
                 $region = $this->get_region_from_id($entry_id);
-                if (!array_key_exists($game_title, $this->title_regions)) {
-                    $this->title_regions[$game_title] = [];
-                }
-                if (!in_array($region, $this->title_regions[$game_title], true)) {
-                    $this->title_regions[$game_title][] = $region;
+                if (!in_array($region, $this->title_regions[$comm_id], true)) {
+                    $this->title_regions[$comm_id][] = $region;
                 }
             }
 
-            if (!empty($this->title_regions[$game_title])) {
-                sort($this->title_regions[$game_title], SORT_STRING);
+            if (!empty($this->title_regions[$comm_id])) {
+                sort($this->title_regions[$comm_id], SORT_STRING);
             }
+            
             $comm_id_player_count = 0;
 
             // First try psn_games (comm_id)
@@ -189,7 +191,7 @@ class RPCNStats {
 
             // If we got a comm_id match, skip ticket_games
             if ($comm_id_player_count > 0) {
-                $this->title_player_counts[$game_title] += $comm_id_player_count;
+                $this->title_player_counts[$comm_id] += $comm_id_player_count;
             } else {
                 // Otherwise, check ticket_games
                 if (isset($data['ticket_games']) && is_array($data['ticket_games'])) {
@@ -197,16 +199,21 @@ class RPCNStats {
                         $normalized_entry_id = $this->normalize_id($entry_id);
                         foreach ($data['ticket_games'] as $api_title_id => $count) {
                             if ($this->normalize_id($api_title_id) === $normalized_entry_id) {
-                                $this->title_player_counts[$game_title] += is_numeric($count) ? (int)$count : 0;
+                                $this->title_player_counts[$comm_id] += is_numeric($count) ? (int)$count : 0;
                             }
                         }
                     }
                 }
             }
         }
+        
         // Sort results
         $temp_array = array_map(
-            fn($game_title, $player_count) => ['game_title' => $game_title, 'player_count' => $player_count],
+            fn($comm_id, $player_count) => [
+                'comm_id' => $comm_id, 
+                'game_title' => $this->app_title[$comm_id], 
+                'player_count' => $player_count
+            ],
             array_keys($this->title_player_counts),
             $this->title_player_counts
         );
@@ -222,14 +229,16 @@ class RPCNStats {
 
         $this->title_player_counts = [];
         foreach ($temp_array as $item) {
-            $this->title_player_counts[$item['game_title']] = $item['player_count'];
+            $comm_id = $item['comm_id'];
+
+            $this->title_player_counts[$comm_id] = $item['player_count'];
             
-            if ($item['player_count'] > 0 && !isset($this->title_icons[$item['game_title']])) {
-                foreach ($this->title_ids[$item['game_title']] as $id_to_check) {
+            if ($item['player_count'] > 0 && !isset($this->title_icons[$comm_id])) {
+                foreach ($this->title_ids[$comm_id] as $id_to_check) {
                     $search_id = $this->icon_alias[$id_to_check] ?? $id_to_check;
                     if (isset($icons_db[$search_id])) {
                         $hash = $icons_db[$search_id];
-                        $this->title_icons[$item['game_title']] = "/cdn/rpcn/icon0/{$hash}.png";
+                        $this->title_icons[$comm_id] = "/cdn/rpcn/icon0/{$hash}.png";
                         break;
                     }
                 }

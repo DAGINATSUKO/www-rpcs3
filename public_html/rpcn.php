@@ -158,21 +158,22 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 			<?php if (!$has_error): ?>
 				<table>
 					<tbody>
-						<?php foreach ($title_player_counts as $game_title => $count): ?>
+						<?php foreach ($title_player_counts as $comm_id => $count): ?>
 							<?php if ($count > 0): ?>
+                                <?php $game_title = $rpcn_stats->app_title[$comm_id] ?? 'Unknown'; ?>
 								<tr class='darkmode-txt'>
 									<td>
 										<div class='rpcn-list-title'>
 											<div class='rpcn-list-title-container'>
 												<div class='rpcn-list-ico-status'></div>
-                                                <?php if (!empty($rpcn_stats->title_icons[$game_title])): ?>
-                                                    <img src="<?php echo htmlspecialchars($rpcn_stats->title_icons[$game_title]); ?>" alt="Game Icon" class="rpcn-game-icon">
+                                                <?php if (!empty($rpcn_stats->title_icons[$comm_id])): ?>
+                                                    <img src="<?php echo htmlspecialchars($rpcn_stats->title_icons[$comm_id]); ?>" alt="Game Icon" class="rpcn-game-icon">
                                                 <?php endif; ?>
 												<?php echo htmlspecialchars(!empty($game_title) ? $game_title : 'Unknown'); ?>
 											</div>
-											<?php if (!empty($rpcn_stats->title_regions[$game_title])): ?>
+											<?php if (!empty($rpcn_stats->title_regions[$comm_id])): ?>
 											<div class='rpcn-list-regions'>
-												<?php foreach ($rpcn_stats->title_regions[$game_title] as $region): ?>
+												<?php foreach ($rpcn_stats->title_regions[$comm_id] as $region): ?>
 												<div class='rpcn-list-flags'>
 													<img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>">
 												</div>
