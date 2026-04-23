@@ -224,7 +224,7 @@ class RPCNStats {
             if ($diff !== 0) return $diff;
             
             // If player_count is equal, sort by game_title ascending
-            return strcmp($a['game_title'], $b['game_title']);
+            return strnatcasecmp($a['game_title'], $b['game_title']);
         });
 
         $this->title_player_counts = [];
