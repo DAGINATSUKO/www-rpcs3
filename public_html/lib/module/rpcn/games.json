@@ -1745,7 +1745,7 @@
 },
 "NPWR00756_00": {
     "title": ["Battlefield 1943"],
-    "id": ["NPEB00092", "NPHB00098"]
+    "id": ["NPEB00092", "NPHB00098", "NPUB30077"]
 },
 "NPWR00757_00": {
     "title": ["NINJA GAIDEN Σ2"],
@@ -3696,7 +3696,7 @@
 },
 "NPWR01495_00": {
     "title": ["The UnderGarden"],
-    "id": []
+    "id": ["NPUB30297"]
 },
 "NPWR01496_00": {
     "title": ["X-MEN"],
@@ -3728,7 +3728,7 @@
 },
 "NPWR01505_00": {
     "title": ["BurgerTime World Tour"],
-    "id": []
+    "id": ["NPUB30384"]
 },
 "NPWR01506_00": {
     "title": ["Prince of Persia: The Sands of Time"],
@@ -4431,6 +4431,10 @@
 "NPWR01750_00": {
     "title": ["Champion Jockey: G1 Jockey & Gallop Racer"],
     "id": ["BLES01235"]
+},
+"NPWR01752_00": {
+    "title": ["Fight Night Champion Demo"],
+    "id": ["NPUB90513"]
 },
 "NPWR01753_00": {
     "title": ["Putty Squad"],
