@@ -3,7 +3,7 @@ include 'lib/module/rpcn/config.php';
 include 'lib/module/rpcn/inc-rpcn-stats.php';
 
 // Initialize RPCNStats class
-$rpcn_stats = new RPCNStats($games_json, $log_file, $api_url, $icons_json);
+$rpcn_stats = new RPCNStats($games_json, $log_file, $api_url, $icons_json, $cache);
 
 // Fetch data and check for errors
 $has_error = $rpcn_stats->has_error;

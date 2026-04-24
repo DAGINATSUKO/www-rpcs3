@@ -4,6 +4,7 @@ class RPCNStats {
     private string $log_file;
     private string $api_url;
     private string $icons_json;
+    private string $cache;
 
     public int $total_users = 0;
 
@@ -34,11 +35,12 @@ class RPCNStats {
         "BLES01112" => "MRTC00016"
     ];
 
-    public function __construct(string $games_json, string $log_file, string $api_url, string $icons_json) {
+    public function __construct(string $games_json, string $log_file, string $api_url, string $icons_json, string $cache) {
         $this->games_json = $games_json;
         $this->log_file = $log_file;
         $this->api_url = $api_url;
         $this->icons_json = $icons_json;
+        $this->cache = $cache;
 
         try {
             $this->processStats();
@@ -99,38 +101,56 @@ class RPCNStats {
             $icons_db = json_decode(file_get_contents($this->icons_json), true) ?: [];
         }
 
-        // cURL
-        $ch = curl_init();
-        assert($this->api_url !== '');
-        curl_setopt($ch, CURLOPT_URL, $this->api_url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'Accept: application/json',
-        ]);
+        $api_data = null;
+        $cache_lifetime = 300; // 5 minutes
 
-        $response = curl_exec($ch);
-
-        if ($response === false) {
-            $error_message = 'cURL error: ' . curl_error($ch);
-            $this->log_error($error_message);
-            throw new Exception($error_message);
+        // check cache
+        if (file_exists($this->cache) && (time() - filemtime($this->cache)) < $cache_lifetime) {
+            $api_data = file_get_contents($this->cache);
+            if ($api_data === false) {
+                $this->log_error("Failed to read cache: {$this->cache}. Fetching from API.");
+                $api_data = null;
+            }
         }
 
-        // Get HTTP status code
-        $http_code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+        if ($api_data === null) {
+            // cURL
+            $ch = curl_init();
+            assert($this->api_url !== '');
+            curl_setopt($ch, CURLOPT_URL, $this->api_url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_HEADER, true);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Accept: application/json',
+            ]);
 
-        if ($http_code !== 200) {
-            $error_message = "HTTP $http_code";
-            $this->log_error($error_message);
-            throw new Exception($error_message);
+            $response = curl_exec($ch);
+
+            if ($response === false) {
+                $error_message = 'cURL error: ' . curl_error($ch);
+                $this->log_error($error_message);
+                throw new Exception($error_message);
+            }
+
+            // Get HTTP status code
+            $http_code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+
+            if ($http_code !== 200) {
+                $error_message = "HTTP $http_code";
+                $this->log_error($error_message);
+                throw new Exception($error_message);
+            }
+
+            /** @var string $response */
+            $api_data = substr($response, $header_size);
+            curl_close($ch);
+
+            // save cache
+            if (file_put_contents($this->cache, $api_data) === false) {
+                $this->log_error("Failed to save cache: {$this->cache}");
+            }
         }
-
-        /** @var string $response */
-        $api_data = substr($response, $header_size);
-
-        curl_close($ch);
 
         $data = json_decode($api_data, true);
         if (json_last_error() !== JSON_ERROR_NONE) {
