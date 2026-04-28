@@ -28,9 +28,9 @@
 </head>
 <body>
 <img src="/img/graphics/index/hero-main.png" width="1" height="1" alt="preload"/>
-<img src="/img/videos/1.jpg" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/2.jpg" width="1" height="1" alt="Preload"/>
-<img src="/img/videos/3.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/graphics/videos/1.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/graphics/videos/2.jpg" width="1" height="1" alt="Preload"/>
+<img src="/img/graphics/videos/3.jpg" width="1" height="1" alt="Preload"/>
 <?php include 'lib/module/sys-global.php';?>
 <?php include 'lib/module/index/inc-index-player.php'?>
 <?php
