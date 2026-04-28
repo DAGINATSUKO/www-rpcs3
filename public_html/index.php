@@ -27,12 +27,12 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6161192934701994" crossorigin="anonymous"></script>
 </head>
 <body>
-<img src="/img/graphics/landing/hero-main.png" width="1" height="1" alt="preload"/>
+<img src="/img/graphics/index/hero-main.png" width="1" height="1" alt="preload"/>
 <img src="/img/videos/1.jpg" width="1" height="1" alt="Preload"/>
 <img src="/img/videos/2.jpg" width="1" height="1" alt="Preload"/>
 <img src="/img/videos/3.jpg" width="1" height="1" alt="Preload"/>
 <?php include 'lib/module/sys-global.php';?>
-<?php include 'lib/module/home/inc-home-player.php'?>
+<?php include 'lib/module/index/inc-index-player.php'?>
 <?php
 	preloadVideo(
 	'1',
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 				<div class='landing-con-right content-remove '>
-					<div class='landing-img-hero' style="background: url(/img/graphics/landing/hero-main.png) no-repeat center; background-size: contain;">
+					<div class='landing-img-hero' style="background: url(/img/graphics/index/hero-main.png) no-repeat center; background-size: contain;">
 					</div>
 				</div>
 			</div>
@@ -147,22 +147,22 @@
 				<div class="handheld-con-container">
 					<div class="handheld-con-screen">
 						<div class="handheld-img-screen">
-							<img alt="1" src="img/graphics/landing/handheld-1.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
-							<img alt="2" src="img/graphics/landing/handheld-2.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-							<img alt="3" src="img/graphics/landing/handheld-3.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-							<img alt="4" src="img/graphics/landing/handheld-4.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-							<img alt="5" src="img/graphics/landing/handheld-5.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-							<img alt="6" src="img/graphics/landing/handheld-6.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-							<img alt="7" src="img/graphics/landing/handheld-7.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-							<img alt="8" src="img/graphics/landing/handheld-8.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="1" src="img/graphics/index/handheld-1.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+							<img alt="2" src="img/graphics/index/handheld-2.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="3" src="img/graphics/index/handheld-3.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="4" src="img/graphics/index/handheld-4.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="5" src="img/graphics/index/handheld-5.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="6" src="img/graphics/index/handheld-6.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="7" src="img/graphics/index/handheld-7.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+							<img alt="8" src="img/graphics/index/handheld-8.jpg" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
 						</div>
 					</div>
 					<div class="handheld-txt-container">
 						<div class="handheld-tx1-title darkmode-txt">
-							<span>Your PlayStation 3 library on the go.</span>
+							<span>Your Library on the Go.</span>
 						</div>
 						<div class="handheld-tx2-desc darkmode-txt">
-							<span>ASUS ROG Ally pictured. RPCS3's performance may vary per device.</span>
+							<span>*Performance may vary per device.</span>
 						</div>
 						<a href="/quickstart">
 						<div class="handheld-btn-button">
@@ -212,7 +212,7 @@
 				</div>
 				<div class="video-con-divider">
 				</div>
-				<?php include 'lib/module/home/inc-home-carousel.php';?>
+				<?php include 'lib/module/index/inc-index-carousel.php';?>
 			</div>
 		</div>
 	</div>
@@ -240,13 +240,13 @@
 	<div class="discord-img-overlay">
 		</div>
 		<div class="discord-left-logo">
-			<img alt="Discord Left Banner" src="/img/graphics/svg/discord-left.svg" style="width: 100%; height: 100%;">
+			<img alt="Discord Left Banner" src="/img/graphics/index/svg/discord-left.svg" style="width: 100%; height: 100%;">
 		</div>
 		<div class="discord-center-logo">
-			<img alt="Discord Logo" src="/img/graphics/svg/discord-center.svg" style="width: 100%; height: 100%;">
+			<img alt="Discord Logo" src="/img/graphics/index/svg/discord-center.svg" style="width: 100%; height: 100%;">
 		</div>
 		<div class="discord-right-logo">
-			<img alt="Discord Right Banner" src="/img/graphics/svg/discord-right.svg" style="width: 100%; height: 100%;">
+			<img alt="Discord Right Banner" src="/img/graphics/index/svg/discord-right.svg" style="width: 100%; height: 100%;">
 		</div>
 		<div class="content-con-outside">
 			<div class="content-con-inside">

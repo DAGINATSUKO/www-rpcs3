@@ -392,7 +392,7 @@
 		margin-left:unset
 	}
 	.dm-gradient {
-		background:url(/img/graphics/landing/gradient-dark.png) no-repeat center bottom;
+		background:url(/img/graphics/index/gradient-dark.png) no-repeat center bottom;
 		background-size:contain
 	}
 	.landing-con-search {
@@ -468,7 +468,7 @@
 		font-size:20px
 	}
 	.user-img-avatar {
-		background:url(/img/users/avatars/nekotekina.png) no-repeat center;
+		background:url(/img/graphics/about/members/avatars/nekotekina.png) no-repeat center;
 		background-size:cover;
 		top:0;
 		margin-top:6px;

@@ -132,7 +132,7 @@ a:hover {
 }
 
 .wavebar-svg-object {
-    background: url(/img/graphics/svg/wavebar.svg) repeat-x;
+    background: url(/img/graphics/index/svg/wavebar.svg) repeat-x;
     position: absolute;
     top: -198px;
     width: 6144px;
@@ -2297,7 +2297,7 @@ a:hover {
 }
 
 .handheld-img-backdrop {
-    background: url("/img/graphics/landing/bg-handheld.jpg") center bottom/cover repeat;
+    background: url("/img/graphics/index/bg-handheld.jpg") center bottom/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2306,7 +2306,7 @@ a:hover {
     zoom:4}
 
 .handheld-img-overlay {
-    background: url("/img/graphics/landing/ol-handheld.png") center/cover repeat;
+    background: url("/img/graphics/index/ol-handheld.png") center/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2361,7 +2361,7 @@ a:hover {
 }
 
 .github-img-backdrop {
-    background: url("/img/graphics/landing/bg-github.jpg") center center/cover repeat;
+    background: url("/img/graphics/index/bg-github.jpg") center center/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2369,7 +2369,7 @@ a:hover {
 }
 
 .featured-img-overlay {
-    background: url("/img/graphics/landing/ol-featured.png") center/cover repeat;
+    background: url("/img/graphics/index/ol-featured.png") center/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2377,7 +2377,7 @@ a:hover {
 }
 
 .github-img-overlay {
-    background: url("/img/graphics/landing/ol-github.png") center/cover repeat;
+    background: url("/img/graphics/index/ol-github.png") center/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute
@@ -2404,7 +2404,7 @@ a:hover {
 .github-img-logo {
     height: 100%;
     width: 100%;
-    background: url("/img/graphics/landing/hero-github.png") center center/contain no-repeat
+    background: url("/img/graphics/index/hero-github.png") center center/contain no-repeat
 }
 
 .github-tx1-mantra {
@@ -2518,7 +2518,7 @@ a:hover {
 }
 
 .discord-img-overlay {
-    background: url("/img/graphics/landing/ol-discord.png") center/cover repeat;
+    background: url("/img/graphics/index/ol-discord.png") center/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2546,7 +2546,7 @@ a:hover {
 .discord-img-logo {
     height: 100%;
     width: 100%;
-    background: url("/img/graphics/landing/hero-discord.png") center center/400px no-repeat
+    background: url("/img/graphics/index/hero-discord.png") center center/400px no-repeat
 }
 
 .discord-tx1-mantra {
@@ -2624,7 +2624,7 @@ a:hover {
 }
 
 .patreon-img-overlay {
-    background: url("/img/graphics/landing/ol-patreon.png") center/cover repeat;
+    background: url("/img/graphics/index/ol-patreon.png") center/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2632,7 +2632,7 @@ a:hover {
 }
 
 .patreon-img-backdrop {
-    background: url("/img/graphics/landing/bg-patreon.jpg") center bottom/cover repeat;
+    background: url("/img/graphics/index/bg-patreon.jpg") center bottom/cover repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2660,7 +2660,7 @@ a:hover {
 .patreon-img-logo {
     height: 100%;
     width: 100%;
-    background: url("/img/graphics/landing/hero-patreon.png") center center/400px no-repeat
+    background: url("/img/graphics/index/hero-patreon.png") center center/400px no-repeat
 }
 
 .patreon-tx1-mantra {
@@ -2893,7 +2893,7 @@ a:hover {
     margin-right: 4px;
     box-shadow: rgba(0,0,0,.2) 0 0 10px 0;
     border: 2px solid rgb(255 255 255 / 25%);
-    background: url("/img/users/ani.png") center center/cover no-repeat;
+    background: url("/img/graphics/about/members/ani.png") center center/cover no-repeat;
     transition: all .2s ease-in-out 0s;
     background-clip: padding-box;
 }
@@ -3151,7 +3151,7 @@ a:hover {
 }
 
 .handheld-con-container {
-    background: url(/img/graphics/landing/hero-handheld.png) no-repeat center;
+    background: url(/img/graphics/index/hero-handheld.png) no-repeat center;
     background-size: contain;
     width: 900px;
     height: 490px;

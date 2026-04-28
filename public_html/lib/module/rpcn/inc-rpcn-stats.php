@@ -4,8 +4,12 @@ class RPCNStats {
     private string $log_file;
     private string $api_url;
     private string $icons_json;
+    private string $cache;
 
     public int $total_users = 0;
+
+    public int $peak_24h_users = 0;
+    public array $top_10_games_24h = [];
 
     /** @var array<string, array<int, string>> */
     public array $title_regions = [];
@@ -34,11 +38,12 @@ class RPCNStats {
         "BLES01112" => "MRTC00016"
     ];
 
-    public function __construct(string $games_json, string $log_file, string $api_url, string $icons_json) {
+    public function __construct(string $games_json, string $log_file, string $api_url, string $icons_json, string $cache) {
         $this->games_json = $games_json;
         $this->log_file = $log_file;
         $this->api_url = $api_url;
         $this->icons_json = $icons_json;
+        $this->cache = $cache;
 
         try {
             $this->processStats();
@@ -99,38 +104,56 @@ class RPCNStats {
             $icons_db = json_decode(file_get_contents($this->icons_json), true) ?: [];
         }
 
-        // cURL
-        $ch = curl_init();
-        assert($this->api_url !== '');
-        curl_setopt($ch, CURLOPT_URL, $this->api_url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            'Accept: application/json',
-        ]);
+        $api_data = null;
+        $cache_lifetime = 300; // 5 minutes
 
-        $response = curl_exec($ch);
-
-        if ($response === false) {
-            $error_message = 'cURL error: ' . curl_error($ch);
-            $this->log_error($error_message);
-            throw new Exception($error_message);
+        // check cache
+        if (file_exists($this->cache) && (time() - filemtime($this->cache)) < $cache_lifetime) {
+            $api_data = file_get_contents($this->cache);
+            if ($api_data === false) {
+                $this->log_error("Failed to read cache: {$this->cache}. Fetching from API.");
+                $api_data = null;
+            }
         }
 
-        // Get HTTP status code
-        $http_code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+        if ($api_data === null) {
+            // cURL
+            $ch = curl_init();
+            assert($this->api_url !== '');
+            curl_setopt($ch, CURLOPT_URL, $this->api_url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_HEADER, true);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Accept: application/json',
+            ]);
 
-        if ($http_code !== 200) {
-            $error_message = "HTTP $http_code";
-            $this->log_error($error_message);
-            throw new Exception($error_message);
+            $response = curl_exec($ch);
+
+            if ($response === false) {
+                $error_message = 'cURL error: ' . curl_error($ch);
+                $this->log_error($error_message);
+                throw new Exception($error_message);
+            }
+
+            // Get HTTP status code
+            $http_code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+
+            if ($http_code !== 200) {
+                $error_message = "HTTP $http_code";
+                $this->log_error($error_message);
+                throw new Exception($error_message);
+            }
+
+            /** @var string $response */
+            $api_data = substr($response, $header_size);
+            curl_close($ch);
+
+            // save cache
+            if (file_put_contents($this->cache, $api_data) === false) {
+                $this->log_error("Failed to save cache: {$this->cache}");
+            }
         }
-
-        /** @var string $response */
-        $api_data = substr($response, $header_size);
-
-        curl_close($ch);
 
         $data = json_decode($api_data, true);
         if (json_last_error() !== JSON_ERROR_NONE) {
@@ -242,6 +265,47 @@ class RPCNStats {
                         break;
                     }
                 }
+            }
+        }
+    }
+    public function fetchDatabaseStats(mysqli $db): void {
+        $res_global = $db->query("SELECT MAX(players) AS peak FROM np_players WHERE timestamp >= NOW() - INTERVAL 24 HOUR");
+        if ($res_global && $row = $res_global->fetch_assoc()) {
+            $this->peak_24h_users = (int)$row['peak'];
+        }
+        $res_games = $db->query("
+            SELECT comm_id, MAX(players) AS peak 
+            FROM np_psn_games 
+            WHERE timestamp >= NOW() - INTERVAL 24 HOUR 
+            GROUP BY comm_id 
+            ORDER BY peak DESC 
+            LIMIT 10
+        ");
+
+        if ($res_games) {
+            while ($row = $res_games->fetch_assoc()) {
+                $comm_id = $row['comm_id'];
+                $icon_url = null;
+                if (isset($this->title_icons[$comm_id])) {
+                    $icon_url = $this->title_icons[$comm_id];
+                } elseif (isset($this->title_ids[$comm_id])) {
+                    foreach ($this->title_ids[$comm_id] as $id_to_check) {
+                        $search_id = $this->icon_alias[$id_to_check] ?? $id_to_check;
+                        if (isset($this->icons_db[$search_id])) {
+                            $hash = $this->icons_db[$search_id];
+                            $icon_url = "/cdn/rpcn/icon0/{$hash}.png";
+                            $this->title_icons[$comm_id] = $icon_url;
+                            break;
+                        }
+                    }
+                }
+
+                $this->top_10_games_24h[] = [
+                    'comm_id' => $comm_id,
+                    'game_title' => $this->app_title[$comm_id] ?? 'Unknown Game',
+                    'peak' => (int)$row['peak'],
+                    'icon' => $icon_url
+                ];
             }
         }
     }
