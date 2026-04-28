@@ -5,6 +5,15 @@ include 'lib/module/rpcn/inc-rpcn-stats.php';
 // Initialize RPCNStats class
 $rpcn_stats = new RPCNStats($games_json, $log_file, $api_url, $icons_json, $cache);
 
+if (!@include_once("lib/compat/functions.php")){}
+$mysqli = get_database("compat");
+
+if ($mysqli && !$mysqli->connect_error)
+{
+    $rpcn_stats->fetchDatabaseStats($mysqli);
+    $mysqli->close();
+}
+
 // Fetch data and check for errors
 $has_error = $rpcn_stats->has_error;
 $total_users = $rpcn_stats->total_users;
@@ -144,7 +153,106 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 					</div>
 				</div>
 			</div>
-			<div class='container-tx1-block darkmode-txt'>
+<div class='container-tx1-block darkmode-txt' style="margin-top: 40px;">
+                <div class='container-emp-block'>
+                </div>
+                <h2>All-Time Peak Statistics</h2>
+            </div>
+            <div class='rpcn-infopane-con-container'>
+                <div class='rpcn-infopane-con-outer' style="width: 33.3333333333%;">
+                    <div class='rpcn-infopane-con-inner-a'>
+                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+                            <span>All-Time Total Users Peak</span>
+                        </div>
+                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; margin-top: 20px; padding-bottom: 30px;">
+                            <span style="font-size: 56px; font-weight: bold;"><?php echo $rpcn_stats->peak_alltime_users; ?></span>
+                            <span style="font-size: 18px; opacity: 0.8;">Players Online</span>
+                            <span style="font-size: 14px; opacity: 0.6; margin-top: 5px;"><?php echo $rpcn_stats->peak_alltime_users_date; ?></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='rpcn-infopane-con-outer' style="width: 66.6666666666%;">
+                    <div class='rpcn-infopane-con-inner-a'>
+                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+                            <span>Top 10 Games (All-Time Peak)</span>
+                        </div>
+                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="margin-top: 15px;">
+                            <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                                <tbody>
+                                    <?php if (!empty($rpcn_stats->top_10_games_alltime)): ?>
+                                        <?php foreach ($rpcn_stats->top_10_games_alltime as $index => $game): ?>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 8px 0; width: 40px; opacity: 0.7;"><strong>#<?php echo $index + 1; ?></strong></td>
+                                            <td style="padding: 8px 0;">
+                                                <?php if (!empty($game['icon'])): ?>
+                                                    <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 24px; border-radius: 2px; vertical-align: middle; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
+                                                <?php endif; ?>
+                                                <?php echo htmlspecialchars($game['game_title']); ?>
+                                            </td>
+                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;">
+                                                <strong><?php echo $game['peak']; ?></strong> peak
+                                                <span style="display:block; font-size:12px; opacity:0.6;"><?php echo $game['time_ago']; ?></span>
+                                            </td>
+                                        </tr>
+                                        <?php endforeach; ?>
+                                    <?php else: ?>
+                                        <tr><td style="padding: 10px 0;">No data available.</td></tr>
+                                    <?php endif; ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='container-tx1-block darkmode-txt' style="margin-top: 20px;">
+                <div class='container-emp-block'>
+                </div>
+                <h2>24H Peak Statistics</h2>
+            </div>
+            <div class='rpcn-infopane-con-container'>
+                <div class='rpcn-infopane-con-outer' style="width: 33.3333333333%;">
+                    <div class='rpcn-infopane-con-inner-a'>
+                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+                            <span>Total Users 24H Peak</span>
+                        </div>
+                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; margin-top: 20px; padding-bottom: 30px;">
+                            <span style="font-size: 56px; font-weight: bold;"><?php echo $rpcn_stats->peak_24h_users; ?></span>
+                            <span style="font-size: 18px; opacity: 0.8;">Players Online</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='rpcn-infopane-con-outer' style="width: 66.6666666666%;">
+                    <div class='rpcn-infopane-con-inner-a'>
+                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+                            <span>Top 10 Games (24H Peak)</span>
+                        </div>
+                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="margin-top: 15px;">
+                            <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                                <tbody>
+                                    <?php if (!empty($rpcn_stats->top_10_games_24h)): ?>
+                                        <?php foreach ($rpcn_stats->top_10_games_24h as $index => $game): ?>
+                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                            <td style="padding: 8px 0; width: 40px; opacity: 0.7;"><strong>#<?php echo $index + 1; ?></strong></td>
+                                            <td style="padding: 8px 0;">
+                                                <?php if (!empty($game['icon'])): ?>
+                                                    <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 24px; border-radius: 2px; vertical-align: middle; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
+                                                <?php endif; ?>
+                                                <?php echo htmlspecialchars($game['game_title']); ?>
+                                            </td>
+                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;"><strong><?php echo $game['peak']; ?></strong> peak</td>
+                                        </tr>
+                                        <?php endforeach; ?>
+                                    <?php else: ?>
+                                        <tr><td style="padding: 10px 0;">No data available for the last 24 hours.</td></tr>
+                                    <?php endif; ?>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='container-tx1-block darkmode-txt'>
 				<div class='container-emp-block'>
 				</div>
 				<h2>Active Games</h2>
