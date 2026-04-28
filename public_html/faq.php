@@ -299,7 +299,7 @@
 				</div>
 			</div>
 			<div class="container-con-block darkmode-block">
-				<?php include 'lib/module/quickstart/inc-quickstart-software-interface.php';?>
+				<?php include 'lib/module/faq/inc-faq-software-interface.php';?>
 			</div>
 		</div>
 	</div>

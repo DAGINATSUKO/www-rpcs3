@@ -1,7 +1,7 @@
 <div class="user-con-grouped">
 	<div class="user-con-content darkmode-txt">
 		<div class="user-con-avatar">
-			<div class='user-img-avatar' style="background: url('/img/users/dh.png') no-repeat center; background-size: cover;">
+			<div class='user-img-avatar' style="background: url('/img/graphics/about/members/dh.png') no-repeat center; background-size: cover;">
 				<div class="user-con-flag">
 					<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
 					</div>
@@ -13,7 +13,7 @@
 			<div class="user-con-role-gradient">
 			</div>
 		</div>
-		<div class="user-img-backdrop" style="background: url('/img/users/dh.png') no-repeat center; background-size: cover;">
+		<div class="user-img-backdrop" style="background: url('/img/graphics/about/members/dh.png') no-repeat center; background-size: cover;">
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
@@ -50,7 +50,7 @@
 	</div>
 	<div class="user-con-content darkmode-txt">
 		<div class="user-con-avatar">
-			<div class='user-img-avatar' style="background: url('/img/users/hykem.png') no-repeat center; background-size: cover;">
+			<div class='user-img-avatar' style="background: url('/img/graphics/about/members/hykem.png') no-repeat center; background-size: cover;">
 				<div class="user-con-flag">
 					<div class='user-img-flag' style="background: url('/img/graphics/flags/unknown.png') no-repeat center; background-size: cover;">
 					</div>
@@ -62,7 +62,7 @@
 			<div class="user-con-role-gradient">
 			</div>
 		</div>
-		<div class="user-img-backdrop" style="background: url('/img/users/hykem.png') no-repeat center; background-size: cover;">
+		<div class="user-img-backdrop" style="background: url('/img/graphics/about/members/hykem.png') no-repeat center; background-size: cover;">
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>
@@ -83,7 +83,7 @@
 	</div>
 	<div class="user-con-content darkmode-txt">
 		<div class="user-con-avatar">
-			<div class='user-img-avatar' style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
+			<div class='user-img-avatar' style="background: url('/img/graphics/about/members/blackdaemon.png') no-repeat center; background-size: cover;">
 				<div class="user-con-flag">
 					<div class='user-img-flag' style="background: url('/img/graphics/flags/russia.png') no-repeat center; background-size: cover;">
 					</div>
@@ -95,7 +95,7 @@
 			<div class="user-con-role-gradient">
 			</div>
 		</div>
-		<div class="user-img-backdrop" style="background: url('/img/users/blackdaemon.png') no-repeat center; background-size: cover;">
+		<div class="user-img-backdrop" style="background: url('/img/graphics/about/members/blackdaemon.png') no-repeat center; background-size: cover;">
 		</div>
 		<div class="user-con-wrapper">
 			<div class='user-tx1-content darkmode-txt'>

@@ -11,6 +11,10 @@ Options All -Indexes
 	Header set X-Content-Type-Options nosniff
 </IfModule>
 
+# Block access to specific files
+RewriteRule ^cdn/rpcn/cache/usage\.json$ - [F,L]
+RewriteRule ^lib/module/rpcn/log\.txt$ - [F,L]
+
 # Redirect /blog/ (and anything under it) to https://blog.rpcs3.net/
 RewriteCond %{HTTP_HOST} ^(www\.)?rpcs3\.net$ [NC]
 RewriteRule ^blog(?:/(.*))?$ https://blog.rpcs3.net/$1 [R=301,L]

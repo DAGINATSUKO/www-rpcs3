@@ -235,113 +235,98 @@ $(document).ready(function() {
 });
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// Function to generate array of image paths
-$(document).ready(function() {
-function generateImagePaths(count) {
+$(document).ready(function () {
+
+  // Generate sequential image paths: game-1.jpg, game-2.jpg, etc.
+  function generateImagePaths(count) {
     return Array.from({ length: count }, (_, i) => `/img/graphics/rpcn/games/game-${i + 1}.jpg`);
-}
+  }
 
-class ImageCycler {
+  class ImageCycler {
     constructor(elementSelector, imageCount) {
-        // Get the container element
-        this.container = document.querySelector(elementSelector);
-        
-        // Create two image elements for cross-fading
-        this.imageElements = [
-            document.createElement('div'),
-            document.createElement('div')
-        ];
-        
-        // Set up the image elements
-        this.imageElements.forEach(el => {
-            el.style.position = 'absolute';
-            el.style.top = '0';
-            el.style.left = '0';
-            el.style.width = '100%';
-            el.style.height = '100%';
-            el.style.backgroundSize = 'cover';
-            el.style.backgroundPosition = 'center';
-            el.style.transition = 'opacity 1s ease-in-out';
-            this.container.appendChild(el);
-        });
-        
-        // Make sure container has relative positioning
-        this.container.style.position = 'relative';
-        
-        // Initialize state
-        this.images = generateImagePaths(imageCount);
-        this.unusedImages = [...this.images];
-        this.currentIndex = 0; // Track which image element is currently visible
-        this.isTransitioning = false;
-        
-        // Set initial random image
-        this.setRandomImage();
-    }
-    
-    async setRandomImage() {
-        if (this.isTransitioning) return;
-        this.isTransitioning = true;
-        
-        // Reset unused images if necessary
-        if (this.unusedImages.length === 0) {
-            this.unusedImages = [...this.images];
-            if (this.currentImage) {
-                const index = this.unusedImages.indexOf(this.currentImage);
-                if (index > -1) {
-                    this.unusedImages.splice(index, 1);
-                }
-            }
-        }
-        
-        // Get next random image
-        const randomIndex = Math.floor(Math.random() * this.unusedImages.length);
-        const newImage = this.unusedImages[randomIndex];
-        this.unusedImages.splice(randomIndex, 1);
-        
-        // Get references to current and next elements
-        const currentEl = this.imageElements[this.currentIndex];
-        const nextEl = this.imageElements[this.currentIndex === 0 ? 1 : 0];
-        
-        // Set up next image
-        nextEl.style.backgroundImage = `url('${newImage}')`;
-        nextEl.style.opacity = '0';
-        
-        // Force browser reflow
-        void nextEl.offsetHeight;
-        
-        // Perform the cross-fade
-        currentEl.style.opacity = '0';
-        nextEl.style.opacity = '1';
-        
-        // Update state
-        this.currentImage = newImage;
-        this.currentIndex = this.currentIndex === 0 ? 1 : 0;
-        
-        // Wait for transition to complete
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        this.isTransitioning = false;
-    }
-}
+      this.container = document.querySelector(elementSelector);
 
-// Initialize the cycler when the DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    if (document.querySelector('.rpcn-playerbase-img-banner')) {
-    // Add necessary CSS
+      // Two divs for crossfading — one fades out while the other fades in
+      this.imageElements = [
+        document.createElement('div'),
+        document.createElement('div')
+      ];
+
+      this.imageElements.forEach(el => {
+        el.style.position = 'absolute';
+        el.style.top = '0';
+        el.style.left = '0';
+        el.style.width = '100%';
+        el.style.height = '100%';
+        el.style.backgroundSize = 'cover';
+        el.style.backgroundPosition = 'center';
+        el.style.transition = 'opacity 1s ease-in-out';
+        el.style.opacity = '0';
+        this.container.appendChild(el);
+      });
+
+      this.container.style.position = 'relative';
+
+      this.images = generateImagePaths(imageCount);
+      this.unusedImages = [...this.images]; // Tracks images not yet shown in current cycle
+      this.currentIndex = 0;
+      this.currentImage = null;
+      this.isTransitioning = false;
+
+      // Seed the first image directly so the initial fade-in has something to transition from
+      const firstIndex = Math.floor(Math.random() * this.unusedImages.length);
+      this.currentImage = this.unusedImages.splice(firstIndex, 1)[0];
+      this.imageElements[0].style.backgroundImage = `url('${this.currentImage}')`;
+      this.imageElements[0].style.opacity = '1';
+    }
+
+    async setRandomImage() {
+      if (this.isTransitioning) return;
+      this.isTransitioning = true;
+
+      // Refill the pool once all images have been shown, excluding the current one
+      if (this.unusedImages.length === 0) {
+        this.unusedImages = [...this.images];
+        const idx = this.unusedImages.indexOf(this.currentImage);
+        if (idx > -1) this.unusedImages.splice(idx, 1);
+      }
+
+      const randomIndex = Math.floor(Math.random() * this.unusedImages.length);
+      const newImage = this.unusedImages.splice(randomIndex, 1)[0];
+
+      const currentEl = this.imageElements[this.currentIndex];
+      const nextIndex = this.currentIndex === 0 ? 1 : 0;
+      const nextEl = this.imageElements[nextIndex];
+
+      // Stage the next image behind the current one, then crossfade
+      nextEl.style.backgroundImage = `url('${newImage}')`;
+      nextEl.style.opacity = '0';
+      void nextEl.offsetHeight; // Force reflow so the transition fires correctly
+      currentEl.style.opacity = '0';
+      nextEl.style.opacity = '1';
+
+      this.currentImage = newImage;
+      this.currentIndex = nextIndex;
+
+      await new Promise(resolve => setTimeout(resolve, 1000)); // Match the CSS transition duration
+      this.isTransitioning = false;
+    }
+  }
+
+  const banner = document.querySelector('.rpcn-playerbase-img-banner');
+  if (banner) {
     const style = document.createElement('style');
     style.textContent = `
-        .rpcn-playerbase-img-banner {
-            position: relative;
-            overflow: hidden;
-        }
+      .rpcn-playerbase-img-banner {
+        position: relative;
+        overflow: hidden;
+      }
     `;
     document.head.appendChild(style);
-    
+
     const imageCycler = new ImageCycler('.rpcn-playerbase-img-banner', 20);
-    
-    // Change image every 10 seconds
-    setInterval(() => {
-        imageCycler.setRandomImage();
-    }, 10000);
+
+    setInterval(() => imageCycler.setRandomImage(), 10000);
   }
-});
+
 });

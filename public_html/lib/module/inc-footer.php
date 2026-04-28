@@ -58,6 +58,11 @@
 										</a>
 									</div>
 									<div class="footer-tx2-bound">
+										<a href="/requirements">
+										<span>Requirements</span>
+										</a>
+									</div>
+									<div class="footer-tx2-bound">
 										<a href="/branding">
 										<span>Branding</span>
 										</a>
@@ -207,19 +212,19 @@
 							<div class="footer-tx1-webmaster">
 								<a href="https://github.com/anileo" target="_blank">
 								<div class="footer-ico-container">
-									<div class="footer-ico-developer" style="background: url('/img/users/ani.png') center / cover no-repeat;">
+									<div class="footer-ico-developer" style="background: url('/img/graphics/about/members/ani.png') center / cover no-repeat;">
 									</div>
 								</div>
 								</a>
 								<a href="https://github.com/herrhulahoop" target="_blank">
 								<div class="footer-ico-container">
-									<div class="footer-ico-developer" style="background: url('/img/users/herrhulahoop.png') center / cover no-repeat;">
+									<div class="footer-ico-developer" style="background: url('/img/graphics/about/members/herrhulahoop.png') center / cover no-repeat;">
 									</div>
 								</div>
 								</a>
 								<a href="https://github.com/daginatsuko" target="_blank">
 								<div class="footer-ico-container">
-									<div class="footer-ico-developer" style="background: url('/img/users/daginatsuko.png') center / cover no-repeat;">
+									<div class="footer-ico-developer" style="background: url('/img/graphics/about/members/daginatsuko.png') center / cover no-repeat;">
 									</div>
 								</div>
 								</a>
