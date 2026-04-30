@@ -5,8 +5,7 @@ include 'lib/module/rpcn/inc-rpcn-stats.php';
 // Initialize RPCNStats class
 $rpcn_stats = new RPCNStats($games_json, $log_file, $api_url, $icons_json, $cache);
 
-if (!@include_once("lib/compat/functions.php")){}
-$mysqli = get_database("compat");
+$mysqli = mysqli_connect($db_host, $db_user, $db_pass, $db_name, (int) $db_port);
 
 if ($mysqli && !$mysqli->connect_error)
 {
