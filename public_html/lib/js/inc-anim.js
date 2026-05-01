@@ -53,14 +53,29 @@ $(document).ready(function () {
     { selector: '.handheld-img-screen', interval: 5000 } // Handheld screens for download button
   ];
 
+  const intervals = {};
   cyclers.forEach(function ({ selector, interval }) {
     $(`${selector} img:gt(0)`).hide();
-    setInterval(function () {
+    intervals[selector] = setInterval(function () {
       $(`${selector} :first-child`).fadeOut(200)
         .next().fadeIn(200).end().appendTo(selector);
     }, interval);
   });
 
+  // Platform detection: only show the user's OS icon for download button
+  const ua = navigator.userAgent;
+  let platform;
+  if (ua.includes('FreeBSD'))                          platform = 'FreeBSD';
+  else if (ua.includes('Windows'))                     platform = 'Windows';
+  else if (ua.includes('Mac OS X'))                    platform = 'macOS';
+  else if (ua.includes('Linux') && !ua.includes('Android')) platform = 'Linux';
+
+  if (platform) {
+    clearInterval(intervals['.build-ico-os']);
+    const $osImgs = $('.build-ico-os img');
+    $osImgs.not('[alt="' + platform + '"]').hide();
+    $osImgs.filter('[alt="' + platform + '"]').show();
+  }
 });
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Theme menu fade-out and fade-in animations
