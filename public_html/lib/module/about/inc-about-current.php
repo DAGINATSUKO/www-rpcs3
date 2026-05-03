@@ -1452,7 +1452,7 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/gpu-nvidia.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>NVIDIA GTX 1070</span>
+							<span>NVIDIA GTX 5070 Ti</span>
 						</div>
 					</div>
 					<div class="specbox-con-part darkmode-specbox">
@@ -1466,7 +1466,7 @@
 						<div class="specbox-ico-part" style="background: url('/img/icons/list/os-windows-10.png') no-repeat center;">
 						</div>
 						<div class="specbox-tx1-part darkmode-txt">
-							<span>Windows 10</span>
+							<span>Windows 11</span>
 						</div>
 					</div>
 				</div>
