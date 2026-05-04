@@ -104,7 +104,7 @@ function rpcn_build_svg(array $data, string $gradId): string
     return $out;
 }
 
-//  Pre-compute all chart ranges 
+//  Pre-compute all chart ranges
 $chartPeriodsMeta = ['48h' => '48H', '1w' => '1W', '1m' => '1M', '3m' => '3M', '6m' => '6M', '1y' => '1Y'];
 $chartSvgs        = [];
 foreach ($chartPeriodsMeta as $key => $label) {
@@ -114,19 +114,10 @@ foreach ($chartPeriodsMeta as $key => $label) {
     $chartSvgs[$key] = rpcn_build_svg($filtered, 'rpcn-grad-' . $key);
 }
 
-//  Pre-render leaderboard boards server-side 
-$boardContents  = [];
-$autoShowBoard  = null;
-if ($hasLeaderboard && !empty($boards)) {
-    foreach ($boards as $boardId => $boardName) {
-        ob_start();
-        $rpcn_game->handle_ajax($commId, (string)$boardId);
-        $boardContents[(int)$boardId] = ob_get_clean();
-    }
-    if (count($boards) === 1) {
-        $autoShowBoard = (int)array_key_first($boards);
-    }
-}
+// Leaderboard boards
+$autoShowBoard = ($hasLeaderboard && !empty($boards) && count($boards) === 1)
+    ? (int)array_key_first($boards)
+    : null;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -468,13 +459,8 @@ if ($hasLeaderboard && !empty($boards)) {
             transform:    translateY(-1px);
         }
 
-        /* Board selection & views */
-        #rpcn-board-selection { display: none; }
-        .rpcn-board-view      { display: none; }
-        #board-list:checked ~ #rpcn-board-selection { display: block; }
-        <?php foreach (array_keys($boardContents) as $bid): ?>
-        #board-<?= (int)$bid ?>:checked ~ #board-view-<?= (int)$bid ?> { display: block; }
-        <?php endforeach; ?>
+        /* Board selection & view panes */
+        #rpcn-board-view { display: none; }
 
         .rpcn-btn-back-lb {
             display:       inline-flex;
@@ -540,6 +526,28 @@ if ($hasLeaderboard && !empty($boards)) {
         }
         .rpcn-no-scores { color: var(--rpcn-subtle); padding: 20px 0; text-align: center; font-style: italic; }
 
+        /* Loading spinner */
+        .rpcn-lb-loading {
+            display:         flex;
+            align-items:     center;
+            justify-content: center;
+            gap:             10px;
+            padding:         50px 0;
+            color:           var(--rpcn-muted);
+            font-size:       .88rem;
+        }
+        .rpcn-lb-loading::before {
+            content:      '';
+            width:        18px;
+            height:       18px;
+            border:       2px solid var(--rpcn-border);
+            border-top:   2px solid var(--rpcn-accent);
+            border-radius: 50%;
+            animation:    rpcn-spin .7s linear infinite;
+            flex-shrink:  0;
+        }
+        @keyframes rpcn-spin { to { transform: rotate(360deg); } }
+
         @media (max-width: 640px) {
             .rpcn-game { flex-direction: column; }
             .rpcn-game-icon,
@@ -559,8 +567,8 @@ if ($hasLeaderboard && !empty($boards)) {
     <!--  Game header  -->
     <div class="rpcn-game">
         <div class="rpcn-game-icon-wrap">
-            <img src="<?= htmlspecialchars($gameIcon) ?>" 
-                 alt="Game Icon" 
+            <img src="<?= htmlspecialchars($gameIcon) ?>"
+                 alt="Game Icon"
                  class="rpcn-game-icon"
                  onerror="this.src='/cdn/rpcn/icon0/default.png'">
         </div>
@@ -637,37 +645,33 @@ if ($hasLeaderboard && !empty($boards)) {
 
         </div><!-- /#panel-charts -->
 
-        <!--  Leaderboards tab  -->
-        <?php if ($hasLeaderboard && !empty($boardContents)): ?>
+        <!-- Leaderboards tab -->
+        <?php if ($hasLeaderboard && !empty($boards)): ?>
         <div id="panel-lb" class="rpcn-tab-panel">
-
-            <input type="radio" name="rpcn-board" id="board-list" class="rpcn-sr"
-                   <?= $autoShowBoard === null ? 'checked' : '' ?>>
-            <?php foreach (array_keys($boardContents) as $bid): ?>
-            <input type="radio" name="rpcn-board" id="board-<?= (int)$bid ?>" class="rpcn-sr"
-                   <?= $autoShowBoard === (int)$bid ? 'checked' : '' ?>>
-            <?php endforeach; ?>
 
             <!-- Board selection grid -->
             <div id="rpcn-board-selection">
+                <?php if (count($boards) > 1): ?>
                 <p class="rpcn-lb-section-title">Choose Scoreboard</p>
+                <?php endif; ?>
                 <div class="rpcn-board-grid">
                     <?php foreach ($boards as $boardId => $boardName): ?>
-                    <label for="board-<?= (int)$boardId ?>" class="rpcn-board-btn">
+                    <button class="rpcn-board-btn"
+                            data-board-id="<?= (int)$boardId ?>"
+                            data-board-name="<?= htmlspecialchars($boardName) ?>">
                         <?= htmlspecialchars($boardName) ?>
-                    </label>
+                    </button>
                     <?php endforeach; ?>
                 </div>
             </div>
 
-            <?php foreach ($boardContents as $bid => $content): ?>
-            <div id="board-view-<?= (int)$bid ?>" class="rpcn-board-view">
-                <?php if ($autoShowBoard === null): ?>
-                    <label for="board-list" class="rpcn-btn-back-lb">Back to boards</label>
+            <!-- Board content pane (shown after a board is selected) -->
+            <div id="rpcn-board-view">
+                <?php if (count($boards) > 1): ?>
+                <button class="rpcn-btn-back-lb" id="rpcn-back-lb">&#8592; Back to boards</button>
                 <?php endif; ?>
-                <?= $content ?>
+                <div id="rpcn-board-content"></div>
             </div>
-            <?php endforeach; ?>
 
         </div><!-- /#panel-lb -->
         <?php endif; ?>
@@ -675,5 +679,64 @@ if ($hasLeaderboard && !empty($boards)) {
     </div><!-- /.rpcn-tab-panels -->
 
 </div><!-- /.rpcn-page-wrap -->
+<script>
+(function () {
+    const commId      = <?= json_encode($commId) ?>;
+    const autoBoard   = <?= json_encode($autoShowBoard) ?>;
+    const multiBoard  = <?= json_encode(count($boards) > 1) ?>;
+
+    const selection   = document.getElementById('rpcn-board-selection');
+    const view        = document.getElementById('rpcn-board-view');
+    const content     = document.getElementById('rpcn-board-content');
+    const backBtn     = document.getElementById('rpcn-back-lb');
+
+    if (!selection || !view || !content) return;
+
+    function loadBoard(boardId) {
+        selection.style.display = 'none';
+        view.style.display      = 'block';
+        content.innerHTML       = '<div class="rpcn-lb-loading">Loading scores</div>';
+
+        fetch('rpcn-game.php?comm_id=' + encodeURIComponent(commId) + '&ajax=1&board_id=' + encodeURIComponent(boardId))
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.text();
+            })
+            .then(function (html) {
+                content.innerHTML = html;
+            })
+            .catch(function () {
+                content.innerHTML = "<p class='rpcn-error'>Failed to load scores. Please try again.</p>";
+            });
+    }
+
+    document.querySelectorAll('.rpcn-board-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            loadBoard(btn.dataset.boardId);
+        });
+    });
+
+    // Back button
+    if (backBtn) {
+        backBtn.addEventListener('click', function () {
+            view.style.display      = 'none';
+            content.innerHTML       = '';
+            selection.style.display = 'block';
+        });
+    }
+
+    // Autoload when there is only one board
+    if (autoBoard !== null) {
+        // Trigger when user switches to the Leaderboards tab
+        var tabLb = document.getElementById('tab-lb');
+        if (tabLb) {
+            var loaded = false;
+            tabLb.addEventListener('change', function () {
+                if (!loaded) { loaded = true; loadBoard(autoBoard); }
+            });
+        }
+    }
+})();
+</script>
 </body>
 </html>
