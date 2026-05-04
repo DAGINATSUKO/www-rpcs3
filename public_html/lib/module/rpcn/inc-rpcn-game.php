@@ -332,8 +332,13 @@ class RPCNGame
                 $search = $stats->icon_alias[$id] ?? $id;
                 if (isset($stats->icons_db[$search]))
                 {
-                    $this->gameIcon = $this->iconBasePath . $stats->icons_db[$search] . '.png';
-                    break;
+                    $temp_url = $this->iconBasePath . $stats->icons_db[$search] . '.png';
+
+                    if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
+                    {
+                        $this->gameIcon = $temp_url;
+                        break;
+                    }
                 }
             }
         }
@@ -350,7 +355,46 @@ class RPCNGame
         // Database stats
         if ($db === null) return;
 
+        $pgCacheFile = $this->cacheDir . preg_replace('/[^A-Za-z0-9_]/', '_', $commId) . '_pgstats.json';
+        $pgCacheTtl  = 300; // 5 minutes
+        if (
+            file_exists($pgCacheFile) &&
+            (time() - filemtime($pgCacheFile)) < $pgCacheTtl
+        )
+        {
+            $raw = @file_get_contents($pgCacheFile);
+            if ($raw !== false)
+            {
+                $pg = json_decode($raw, true);
+                if (is_array($pg))
+                {
+                    $this->peak24h         = (int)($pg['peak24h']         ?? 0);
+                    $this->peakAllTime     = (int)($pg['peakAllTime']     ?? 0);
+                    $this->peakAllTimeDate = (string)($pg['peakAllTimeDate'] ?? '');
+                    $this->timeAgoStr      = (string)($pg['timeAgoStr']      ?? '');
+                    $this->chartDataHourly = (array)($pg['chartDataHourly']  ?? []);
+                    $this->chartDataDaily  = (array)($pg['chartDataDaily']   ?? []);
+                    return;
+                }
+            }
+        }
+
+        $this->loadDbStats($db, $commId, $stats);
+
+        @file_put_contents($pgCacheFile, json_encode([
+            'peak24h'         => $this->peak24h,
+            'peakAllTime'     => $this->peakAllTime,
+            'peakAllTimeDate' => $this->peakAllTimeDate,
+            'timeAgoStr'      => $this->timeAgoStr,
+            'chartDataHourly' => $this->chartDataHourly,
+            'chartDataDaily'  => $this->chartDataDaily,
+        ]));
+    }
+
+    private function loadDbStats(mysqli $db, string $commId, RPCNStats $stats): void
+    {
         $titleIds = $stats->title_ids[$commId] ?? [];
+
         $queryTicketMax = function(string $extraWhere = '') use ($db, $titleIds): int
         {
             if (empty($titleIds)) return 0;
@@ -374,7 +418,7 @@ class RPCNGame
             return $val;
         };
 
-        // Peak 24 h 
+        // Peak 24 h
         $stmt = $db->prepare("
             SELECT MAX(players) AS peak
             FROM   np_psn_games
@@ -388,10 +432,10 @@ class RPCNGame
             $peak24h_psn = (int)($stmt->get_result()->fetch_assoc()['peak'] ?? 0);
             $stmt->close();
         }
-        $peak24h_tkt    = $queryTicketMax("AND timestamp >= NOW() - INTERVAL 24 HOUR");
-        $this->peak24h  = max($peak24h_psn, $peak24h_tkt);
+        $peak24h_tkt   = $queryTicketMax("AND timestamp >= NOW() - INTERVAL 24 HOUR");
+        $this->peak24h = max($peak24h_psn, $peak24h_tkt);
 
-        // All-time peak 
+        // All-time peak
         $stmt = $db->prepare("
             SELECT players AS peak, timestamp
             FROM   np_psn_games
@@ -399,15 +443,15 @@ class RPCNGame
             ORDER  BY players DESC, timestamp DESC
             LIMIT  1
         ");
-        $peakAllTime_psn  = 0;
-        $peakDate_psn     = '';
+        $peakAllTime_psn = 0;
+        $peakDate_psn    = '';
         if ($stmt)
         {
             $stmt->bind_param('s', $commId);
             $stmt->execute();
-            $rowAt            = $stmt->get_result()->fetch_assoc();
-            $peakAllTime_psn  = (int)($rowAt['peak']      ?? 0);
-            $peakDate_psn     = (string)($rowAt['timestamp'] ?? '');
+            $rowAt           = $stmt->get_result()->fetch_assoc();
+            $peakAllTime_psn = (int)($rowAt['peak']      ?? 0);
+            $peakDate_psn    = (string)($rowAt['timestamp'] ?? '');
             $stmt->close();
         }
 
@@ -444,7 +488,7 @@ class RPCNGame
             $this->peakAllTimeDate = $peakDate_tkt;
         }
 
-        // Hourly chart data (last 7 days) 
+        // Hourly chart data (last 7 days)
         $hourly = [];
 
         $stmt = $db->prepare("
@@ -497,7 +541,7 @@ class RPCNGame
             $this->chartDataHourly[] = ['x' => $date, 'y' => $peak];
         }
 
-        // Daily chart data (last 1 year) 
+        // Daily chart data (last 1 year)
         $daily = [];
 
         $stmt = $db->prepare("

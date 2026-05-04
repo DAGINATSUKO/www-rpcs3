@@ -36,6 +36,8 @@ class RPCNStats
 
     public array $icons_db = [];
 
+    private string $db_cache_file = '';
+
     public array $icon_alias = [
         "BLES00767" => "MRTC00001", "BLUS30462" => "MRTC00001", "BCKS10106" => "MRTC00001", "BLJM60189" => "MRTC00001", "BLJM60338" => "MRTC00001",
         "BLES00710" => "MRTC00002", "BLUS30434" => "MRTC00002", "BLAS50173" => "MRTC00002", "BLJM60177" => "MRTC00002",
@@ -58,6 +60,8 @@ class RPCNStats
         } else {
             $this->cache = $cache;
         }
+
+        $this->db_cache_file = dirname($this->cache) . '/db_stats.json';
 
         try
         {
@@ -351,8 +355,13 @@ class RPCNStats
                     if (isset($this->icons_db[$search_id]))
                     {
                         $hash = $this->icons_db[$search_id];
-                        $this->title_icons[$comm_id] = "/cdn/rpcn/icon0/{$hash}.png";
-                        break;
+                        $temp_url = "/cdn/rpcn/icon0/{$hash}.png";
+
+                        if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
+                        {
+                            $this->title_icons[$comm_id] = $temp_url;
+                            break;
+                        }
                     }
                 }
             }
@@ -379,7 +388,45 @@ class RPCNStats
         return strtok($after, '_') ?: $after;
     }
 
-    public function fetchDatabaseStats(mysqli $db): void
+    public function fetchDatabaseStats(mysqli $db, int $cacheTtl = 300): void
+    {
+        if(
+            $this->db_cache_file !== '' &&
+            file_exists($this->db_cache_file) &&
+            (time() - filemtime($this->db_cache_file)) < $cacheTtl)
+        {
+            $cached = @file_get_contents($this->db_cache_file);
+            if ($cached !== false)
+            {
+                $data = json_decode($cached, true);
+                if (is_array($data))
+                {
+                    $this->peak_24h_users          = (int)($data['peak_24h_users']          ?? 0);
+                    $this->peak_alltime_users      = (int)($data['peak_alltime_users']      ?? 0);
+                    $this->peak_alltime_users_date = (string)($data['peak_alltime_users_date'] ?? '');
+                    $this->top_10_games_24h        = (array)($data['top_10_games_24h']        ?? []);
+                    $this->top_10_games_alltime    = (array)($data['top_10_games_alltime']    ?? []);
+                    return;
+                }
+            }
+        }
+
+        $this->fetchDatabaseStatsFromDb($db);
+
+        if ($this->db_cache_file !== '')
+        {
+            $payload = json_encode([
+                'peak_24h_users'          => $this->peak_24h_users,
+                'peak_alltime_users'      => $this->peak_alltime_users,
+                'peak_alltime_users_date' => $this->peak_alltime_users_date,
+                'top_10_games_24h'        => $this->top_10_games_24h,
+                'top_10_games_alltime'    => $this->top_10_games_alltime,
+            ]);
+            @file_put_contents($this->db_cache_file, $payload);
+        }
+    }
+
+    private function fetchDatabaseStatsFromDb(mysqli $db): void
     {
         $titleIdMap = $this->buildTitleIdMap();
 
@@ -530,8 +577,13 @@ class RPCNStats
                 if (isset($this->icons_db[$search_id]))
                 {
                     $hash = $this->icons_db[$search_id];
-                    $this->title_icons[$comm_id] = "/cdn/rpcn/icon0/{$hash}.png";
-                    return $this->title_icons[$comm_id];
+                    $temp_url = "/cdn/rpcn/icon0/{$hash}.png";
+
+                    if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
+                    {
+                        $this->title_icons[$comm_id] = $temp_url;
+                        return $temp_url;
+                    }
                 }
             }
         }

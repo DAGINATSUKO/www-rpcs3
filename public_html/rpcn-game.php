@@ -15,7 +15,8 @@ function rpcn_filter_range(array $data, string $period): array
 
 function rpcn_build_svg(array $data, string $gradId): string
 {
-    if (empty($data)) {
+    if (empty($data))
+    {
         return '<p class="rpcn-chart-empty">No data available for this period.</p>';
     }
 
@@ -35,7 +36,8 @@ function rpcn_build_svg(array $data, string $gradId): string
 
     // Pixel coordinates
     $coords = [];
-    foreach ($data as $i => $d) {
+    foreach ($data as $i => $d)
+    {
         $px       = (float)($pL + ($n > 1 ? ($i / ($n - 1)) * $iW : $iW / 2));
         $ratio    = max(0.0, min(1.0, (float)$d['y'] / $niceMax));
         $py       = (float)($pT + $iH - $ratio * $iH);
@@ -44,7 +46,8 @@ function rpcn_build_svg(array $data, string $gradId): string
 
     // Y grid + labels
     $gridOut = ''; $yLblOut = '';
-    for ($t = 0; $t <= 4; $t++) {
+    for ($t = 0; $t <= 4; $t++)
+    {
         $val  = (int)round($niceMax * $t / 4);
         $cy   = (float)($pT + $iH - ($t / 4) * $iH);
         $gridOut .= sprintf(
@@ -60,7 +63,8 @@ function rpcn_build_svg(array $data, string $gradId): string
     // X labels
     $xLblOut = '';
     $step    = max(1, (int)round($n / 7));
-    for ($i = 0; $i < $n; $i += $step) {
+    for ($i = 0; $i < $n; $i += $step)
+    {
         [$px, , $xs] = $coords[$i];
         $lbl = substr($xs, 0, 10); // YYYY-MM-DD
         $xLblOut .= sprintf(
@@ -77,8 +81,10 @@ function rpcn_build_svg(array $data, string $gradId): string
 
     // Data-point circles with native tooltips
     $dotsOut = '';
-    if ($n <= 150) {
-        foreach ($coords as [$px, $py, $xs, $yv]) {
+    if ($n <= 150)
+    {
+        foreach ($coords as [$px, $py, $xs, $yv])
+        {
             $dotsOut .= sprintf(
                 '<g class="rpcn-dp"><circle cx="%.1f" cy="%.1f" r="3.5"/>' .
                 '<title>%s: %s players</title></g>',
@@ -107,7 +113,8 @@ function rpcn_build_svg(array $data, string $gradId): string
 //  Pre-compute all chart ranges
 $chartPeriodsMeta = ['48h' => '48H', '1w' => '1W', '1m' => '1M', '3m' => '3M', '6m' => '6M', '1y' => '1Y'];
 $chartSvgs        = [];
-foreach ($chartPeriodsMeta as $key => $label) {
+foreach ($chartPeriodsMeta as $key => $label)
+{
     $isHourly        = in_array($key, ['48h', '1w'], true);
     $source          = $isHourly ? $chartDataHourly : $chartDataDaily;
     $filtered        = rpcn_filter_range($source, $key);
@@ -120,12 +127,16 @@ $autoShowBoard = ($hasLeaderboard && !empty($boards) && count($boards) === 1)
     : null;
 
 // nojs leaderboard
-$lb_back_url   = 'rpcn-game.php?comm_id=' . urlencode($commId);
+$lb_back_url   = 'rpcn-game.php?comm_id=' . urlencode($commId) . '&tab=lb';
 $nojsBoardId   = null;
 $nojsBoardHtml = '';
-if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id'])) {
+
+$show_lb_tab = $hasLeaderboard && (isset($_GET['board_id']) || ($_GET['tab'] ?? '') === 'lb');
+if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
+{
     $bid = (int)$_GET['board_id'];
-    if (array_key_exists($bid, $boards)) {
+    if (array_key_exists($bid, $boards))
+    {
         $nojsBoardId   = $bid;
         $nojsBoardHtml = $rpcn_game->get_board_html($commId, $bid);
     }
@@ -620,9 +631,9 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id'])) {
         </div>
     </div>
 
-    <input type="radio" name="rpcn-tab" id="tab-charts" class="rpcn-sr" <?= (!$hasLeaderboard || $nojsBoardId === null) ? 'checked' : '' ?>>
+    <input type="radio" name="rpcn-tab" id="tab-charts" class="rpcn-sr" <?= (!$hasLeaderboard || !$show_lb_tab) ? 'checked' : '' ?>>
     <?php if ($hasLeaderboard): ?>
-    <input type="radio" name="rpcn-tab" id="tab-lb" class="rpcn-sr" <?= $nojsBoardId !== null ? 'checked' : '' ?>>
+    <input type="radio" name="rpcn-tab" id="tab-lb" class="rpcn-sr" <?= $show_lb_tab ? 'checked' : '' ?>>
     <?php endif; ?>
 
     <div class="rpcn-tabs-nav">
@@ -715,6 +726,8 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id'])) {
         view.style.display      = 'block';
         content.innerHTML       = '<div class="rpcn-lb-loading">Loading scores</div>';
 
+        var phpUrl = 'rpcn-game.php?comm_id=' + encodeURIComponent(commId) + '&board_id=' + encodeURIComponent(boardId);
+
         fetch('rpcn-game.php?comm_id=' + encodeURIComponent(commId) + '&ajax=1&board_id=' + encodeURIComponent(boardId))
             .then(function (r)
             {
@@ -724,10 +737,14 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id'])) {
             .then(function (html)
             {
                 content.innerHTML = html;
+                if (history.replaceState)
+                {
+                    history.replaceState(null, '', phpUrl);
+                }
             })
             .catch(function ()
             {
-                content.innerHTML = "<p class='rpcn-error'>Failed to load scores. Please try again.</p>";
+                window.location.href = phpUrl;
             });
     }
 
@@ -745,6 +762,10 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id'])) {
         backBtn.addEventListener('click', function (e)
         {
             e.preventDefault();
+            if (history.replaceState)
+            {
+                history.replaceState(null, '', 'rpcn-game.php?comm_id=' + encodeURIComponent(commId) + '&tab=lb');
+            }
             view.style.display      = 'none';
             content.innerHTML       = '';
             selection.style.display = 'block';

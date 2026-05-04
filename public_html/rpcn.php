@@ -30,8 +30,13 @@ foreach ($rpcn_stats->app_title as $comm_id => $title)
             if (isset($rpcn_stats->icons_db[$search_id]))
             {
                 $hash     = $rpcn_stats->icons_db[$search_id];
-                $icon_url = "/cdn/rpcn/icon0/{$hash}.png";
-                break;
+                $temp_url = "/cdn/rpcn/icon0/{$hash}.png";
+                
+                if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
+                {
+                    $icon_url = $temp_url;
+                    break;
+                }
             }
         }
     }
