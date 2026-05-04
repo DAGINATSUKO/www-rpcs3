@@ -62,21 +62,6 @@ $(document).ready(function () {
 
 });
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// Mobile: Touch overflow controller
-$(document).on('mobileinit', function () {
-  $.mobile.touchOverflowEnabled = true;
-});
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// Mobile: Touch controller
-$(document).ready(function () {
-
-  // Prevent default behavior for multi-touch events
-  document.documentElement.addEventListener('touchstart', function (e) {
-    if (e.touches.length > 1) e.preventDefault();
-  }, false);
-
-});
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Menu: Toggle for submenu/settings
 $(document).ready(function() {
 	$(".settings-submenu").fadeOut();
