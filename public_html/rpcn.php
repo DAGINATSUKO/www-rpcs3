@@ -469,7 +469,9 @@ if ($search_query !== '')
                                             </td>
                                             <td style="padding: 8px 0; text-align: right; white-space: nowrap;">
                                                 <strong><?php echo $game['peak']; ?></strong> peak
+                                                <?php if (!empty($game['time_ago'])): ?>
                                                 <span style="display:block; font-size:11px; opacity:0.6;"><?php echo $game['time_ago']; ?></span>
+                                                <?php endif; ?>
                                             </td>
                                         </tr>
                                         <?php endforeach; ?>

@@ -4085,7 +4085,7 @@
 },
 "NPWR01625_00": {
     "title": ["Puzzle Dimension"],
-    "id": []
+    "id": ["NPUB30525"]
 },
 "NPWR01626_00": {
     "title": ["Zumba"],
@@ -4811,7 +4811,7 @@
 },
 "NPWR01868_00": {
     "title": ["GoldenEye 007: Reloaded"],
-    "id": ["BLES01292", "BLUS30755"]
+    "id": ["BLES01292", "BLUS30755", "NPUB30752"]
 },
 "NPWR01869_00": {
     "title": ["Wipeout 2"],
@@ -8659,7 +8659,7 @@
 },
 "NPWR05543_00": {
     "title": ["Blood Knights"],
-    "id": ["NPUB31394"]
+    "id": ["NPUB31394", "NPEB01901"]
 },
 "NPWR05555_00": {
     "title": ["Treasures of Montezuma Arena"],

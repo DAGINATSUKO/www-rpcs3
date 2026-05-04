@@ -462,9 +462,11 @@ class RPCNGame
             $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
             $types        = str_repeat('s', count($titleIds));
             $stmt = $db->prepare("
-                SELECT MAX(players) AS peak, MAX(timestamp) AS peak_date
+                SELECT players AS peak, timestamp AS peak_date
                 FROM   np_ticket_games
                 WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                ORDER BY players DESC, timestamp ASC
+                LIMIT 1
             ");
             if ($stmt)
             {

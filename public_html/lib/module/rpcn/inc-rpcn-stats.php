@@ -529,7 +529,7 @@ class RPCNStats
         $res_all_tkt = $db->query("
             SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS title_id,
                    MAX(players) AS peak,
-                   MAX(timestamp) AS peak_date
+                   SUBSTRING_INDEX(GROUP_CONCAT(timestamp ORDER BY players DESC, timestamp ASC), ',', 1) AS peak_date
             FROM   np_ticket_games
             GROUP  BY title_id
         ");
@@ -556,7 +556,7 @@ class RPCNStats
                 'comm_id'    => $comm_id,
                 'game_title' => $this->app_title[$comm_id] ?? 'Unknown Game',
                 'peak'       => $data['peak'],
-                'time_ago'   => $this->time_ago($data['date']),
+                'time_ago'   => !empty($data['date']) ? $this->time_ago($data['date']) : '',
                 'icon'       => $this->resolveIcon($comm_id),
             ];
         }
