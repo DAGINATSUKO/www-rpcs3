@@ -17,8 +17,7 @@ if (!$has_db_error)
 $search_data = [];
 foreach ($rpcn_stats->app_title as $comm_id => $title)
 {
-
-    $icon_url = '/cdn/rpcn/icon0/default.png'; 
+    $icon_url = '/cdn/rpcn/icon0/default.png';
     if (isset($rpcn_stats->title_icons[$comm_id]))
     {
         $icon_url = $rpcn_stats->title_icons[$comm_id];
@@ -54,6 +53,21 @@ $search_json = json_encode($search_data);
 $has_error           = $rpcn_stats->has_error;
 $total_users         = $rpcn_stats->total_users;
 $title_player_counts = $rpcn_stats->title_player_counts;
+
+// nojs
+$search_query   = trim($_GET['q'] ?? '');
+$search_results = [];
+if ($search_query !== '')
+{
+    $q_lower = mb_strtolower($search_query);
+    foreach ($search_data as $game)
+    {
+        if (mb_strpos(mb_strtolower($game['title']), $q_lower) !== false)
+        {
+            $search_results[] = $game;
+        }
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -92,24 +106,132 @@ $title_player_counts = $rpcn_stats->title_player_counts;
     margin: 0 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
-.search-container { position: relative; max-width: 600px; margin: 20px auto; z-index: 100; }
-.search-input { width: 100%; padding: 15px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.1); background: #1b2838; color: #fff; font-size: 16px; box-sizing: border-box; }
+
+/* Search form */
+.search-container {
+    position:   relative;
+    max-width:  600px;
+    margin:     20px auto;
+    z-index:    100;
+}
+.search-form {
+    display: flex;
+    gap:     0;
+}
+.search-input {
+    flex:         1;
+    padding:      15px;
+    border-radius: 4px 0 0 4px;
+    border:       1px solid rgba(255,255,255,0.1);
+    border-right: none;
+    background:   #1b2838;
+    color:        #fff;
+    font-size:    16px;
+    box-sizing:   border-box;
+    min-width:    0;
+}
 .search-input:focus { outline: none; border-color: #66c0f4; }
-.search-results { position: absolute; top: 100%; left: 0; right: 0; background: #16202d; border: 1px solid #1b2838; border-top: none; max-height: 400px; overflow-y: auto; display: none; box-shadow: 0 4px 10px rgba(0,0,0,0.5); border-radius: 0 0 4px 4px; }
+.search-submit {
+    padding:       0 18px;
+    background:    #2a475e;
+    border:        1px solid rgba(255,255,255,0.1);
+    border-left:   none;
+    border-radius: 0 4px 4px 0;
+    color:         #c7d5e0;
+    font-size:     15px;
+    cursor:        pointer;
+    white-space:   nowrap;
+    transition:    background .15s, color .15s;
+    line-height:   1;
+}
+.search-submit:hover { background: #3d6b8a; color: #fff; }
+
+.js-ready .search-submit { display: none; }
+.js-ready .search-input  { border-radius: 4px; border-right: 1px solid rgba(255,255,255,0.1); }
+.js-ready .search-input:focus { border-color: #66c0f4; }
+
+.search-results {
+    position:      absolute;
+    top:           100%;
+    left:          0;
+    right:         0;
+    background:    #16202d;
+    border:        1px solid #1b2838;
+    border-top:    none;
+    max-height:    400px;
+    overflow-y:    auto;
+    display:       none;
+    box-shadow:    0 4px 10px rgba(0,0,0,0.5);
+    border-radius: 0 0 4px 4px;
+}
 .search-item { display: flex; align-items: center; padding: 10px; cursor: pointer; border-bottom: 1px solid rgba(255,255,255,0.05); text-decoration: none; color: #d5d6d8; }
 .search-item:hover { background: #2a475e; }
-.search-icon { width: 40px; border-radius: 2px; margin-right: 15px; }
+.search-icon { width: 40px; border-radius: 2px; margin-right: 15px; flex-shrink: 0; }
 .search-title { flex-grow: 1; font-weight: bold; }
 .search-flags img { height: 14px; margin-left: 5px; }
+
+.search-results-section {
+    margin-top: 30px;
+}
+.search-results-header {
+    display:       flex;
+    align-items:   center;
+    gap:           12px;
+    margin-bottom: 12px;
+    flex-wrap:     wrap;
+}
+.search-results-title {
+    font-size:   1.1rem;
+    font-weight: 700;
+    color:       #c7d5e0;
+}
+.search-results-count {
+    font-size:  0.82rem;
+    color:      #69707a;
+    background: rgba(255,255,255,0.05);
+    padding:    2px 10px;
+    border-radius: 20px;
+}
+.search-clear-link {
+    margin-left: auto;
+    font-size:   0.82rem;
+    color:       #66c0f4;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.search-clear-link:hover { opacity: 1; }
+.search-no-results {
+    color:      #69707a;
+    font-style: italic;
+    padding:    20px 0;
+    text-align: center;
+}
+.search-result-online-badge {
+    display:     inline-flex;
+    align-items: center;
+    gap:         5px;
+    color:       #4cffb3;
+    font-size:   0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.search-result-online-dot {
+    width:         7px;
+    height:        7px;
+    border-radius: 50%;
+    background:    #4cffb3;
+    flex-shrink:   0;
+}
+
 .table-game-link { display: flex; align-items: center; color: inherit; text-decoration: none; transition: 0.15s ease-in-out; }
 .table-game-link:hover { color: #66c0f4; }
 .rpcn-service-error {
-    display: flex;
+    display:    flex;
     align-items: center;
-    gap: 8px;
-    color: #ffaaaa;
-    font-size: 14px;
-    padding: 6px 0;
+    gap:        8px;
+    color:      #ffaaaa;
+    font-size:  14px;
+    padding:    6px 0;
 }
 </style>
 </head>
@@ -145,10 +267,88 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 					<div class='container-tx2-block darkmode-txt'>
 						<p>RPCN is a netplay service that allows you to play revived PlayStation 3 games. See real-time statistics of currently active players, popular games, and ongoing multiplayer sessions.</p>
 					</div>
+
 					<div class="search-container">
-						<input type="text" id="gameSearch" class="search-input" placeholder="Search Title..." autocomplete="off">
-						<div id="searchResults" class="search-results"></div>
+						<form method="get" action="" class="search-form" id="searchForm">
+							<input type="text"
+							       name="q"
+							       id="gameSearch"
+							       class="search-input"
+							       value="<?php echo htmlspecialchars($search_query); ?>"
+							       placeholder="Search Title..."
+							       autocomplete="off"
+							       aria-label="Search games">
+							<button type="submit" class="search-submit" aria-label="Submit search">&#128269; Search</button>
+						</form>
+						<div id="searchResults" class="search-results" role="listbox" aria-label="Search suggestions"></div>
 					</div>
+
+					<?php if ($search_query !== ''): ?>
+					<div class="search-results-section" id="serverSearchResults">
+						<div class="search-results-header">
+							<span class="search-results-title">
+								Results for &ldquo;<?php echo htmlspecialchars($search_query); ?>&rdquo;
+							</span>
+							<span class="search-results-count">
+								<?php echo count($search_results); ?> game<?php echo count($search_results) !== 1 ? 's' : ''; ?>
+							</span>
+							<a href="rpcn.php" class="search-clear-link">&#10005; Clear search</a>
+						</div>
+
+						<?php if (empty($search_results)): ?>
+							<p class="search-no-results">No games found matching your search.</p>
+						<?php else: ?>
+							<div class="rpcn-list-con-container">
+								<table>
+									<tbody>
+										<?php foreach ($search_results as $game):
+											$online_count = $title_player_counts[$game['id']] ?? 0;
+										?>
+										<tr class='darkmode-txt'>
+											<td>
+												<div class='rpcn-list-title'>
+													<div class='rpcn-list-title-container'>
+														<?php if ($online_count > 0): ?>
+														<div class='rpcn-list-ico-status'></div>
+														<?php else: ?>
+														<div class='rpcn-list-ico-status' style="background: rgba(255,255,255,0.1);"></div>
+														<?php endif; ?>
+														<a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($game['id']); ?>" class="table-game-link" style="display:flex; align-items:center;">
+															<img src="<?php echo htmlspecialchars($game['icon']); ?>"
+															     alt="Game Icon"
+															     class="rpcn-game-icon"
+															     onerror="this.src='/cdn/rpcn/icon0/default.png'">
+															<?php echo htmlspecialchars($game['title']); ?>
+														</a>
+													</div>
+													<?php if (!empty($game['regions'])): ?>
+													<div class='rpcn-list-regions'>
+														<?php foreach ($game['regions'] as $region): ?>
+														<div class='rpcn-list-flags'>
+															<img src="/img/icons/compat/<?php echo strtoupper(htmlspecialchars($region)); ?>.png" alt="<?php echo htmlspecialchars($region); ?>">
+														</div>
+														<?php endforeach; ?>
+													</div>
+													<?php endif; ?>
+												</div>
+											</td>
+											<td>
+												<?php if ($online_count > 0): ?>
+													<div class='rpcn-list-ico-player' style="background: url(/img/icons/rpcn/user.png) center / 20px no-repeat;"></div>
+													<span><?php echo htmlspecialchars((string)$online_count); ?>&nbsp;Online</span>
+												<?php else: ?>
+													<span style="color: #69707a; font-size: 0.85rem;">No players online</span>
+												<?php endif; ?>
+											</td>
+										</tr>
+										<?php endforeach; ?>
+									</tbody>
+								</table>
+							</div>
+						<?php endif; ?>
+					</div>
+					<?php endif; ?>
+
 				</div>
 			</div>
 			<?php include 'lib/module/rpcn/inc-rpcn-playerbase.php';?>
@@ -346,9 +546,9 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 											<div class='rpcn-list-title-container'>
 												<div class='rpcn-list-ico-status'></div>
                                                 <a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($comm_id); ?>" class="table-game-link" style="display:flex; align-items:center;">
-                                                    <?php 
-                                                        $display_icon = !empty($rpcn_stats->title_icons[$comm_id]) 
-                                                                        ? $rpcn_stats->title_icons[$comm_id] 
+                                                    <?php
+                                                        $display_icon = !empty($rpcn_stats->title_icons[$comm_id])
+                                                                        ? $rpcn_stats->title_icons[$comm_id]
                                                                         : '/cdn/rpcn/icon0/default.png';
                                                     ?>
                                                     <img src="<?php echo htmlspecialchars($display_icon); ?>" alt="Game Icon" class="rpcn-game-icon">
@@ -382,55 +582,89 @@ $title_player_counts = $rpcn_stats->title_player_counts;
 </div>
 <?php include 'lib/module/inc-footer.php';?>
 <script>
-    const gamesData = <?php echo $search_json; ?>;
-    const searchInput = document.getElementById('gameSearch');
-    const searchResults = document.getElementById('searchResults');
+(function ()
+{
+    document.documentElement.classList.add('js-ready');
 
-    searchInput.addEventListener('input', function() {
-        const query = this.value.toLowerCase().trim();
-        searchResults.innerHTML = '';
+    const gamesData    = <?php echo $search_json; ?>;
+    const searchInput  = document.getElementById('gameSearch');
+    const searchDropdown = document.getElementById('searchResults');
+    const searchForm   = document.getElementById('searchForm');
+    const serverResults = document.getElementById('serverSearchResults');
 
-        if (query.length < 2) {
-            searchResults.style.display = 'none';
+    if (!searchInput || !searchDropdown) return;
+
+    if (serverResults) {
+        serverResults.style.display = 'none';
+    }
+
+    function renderDropdown(query)
+    {
+        searchDropdown.innerHTML = '';
+
+        if (query.length < 2)
+        {
+            searchDropdown.style.display = 'none';
             return;
         }
 
-        const filtered = gamesData.filter(g => g.title.toLowerCase().includes(query)).slice(0, 10);
+        const q        = query.toLowerCase();
+        const filtered = gamesData.filter(g => g.title.toLowerCase().includes(q)).slice(0, 10);
 
-        if (filtered.length > 0) {
-            filtered.forEach(game => {
-                const a = document.createElement('a');
-                a.className = 'search-item';
-                a.href = 'rpcn-game.php?comm_id=' + game.id;
-
-                let flagsHtml = '';
-                if (game.regions && game.regions.length > 0) {
-                    game.regions.forEach(r => {
-                        flagsHtml += `<img src="/img/icons/compat/${r.toUpperCase()}.png" alt="${r}">`;
-                    });
-                }
-
-                a.innerHTML = `
-                    <img src="${game.icon}" 
-                         class="search-icon" 
-                         alt="icon" 
-                         onerror="this.src='/cdn/rpcn/icon0/default.png'">
-                    <span class="search-title">${game.title}</span>
-                    <div class="search-flags">${flagsHtml}</div>
-                `;
-                searchResults.appendChild(a);
-            });
-            searchResults.style.display = 'block';
-        } else {
-            searchResults.style.display = 'none';
+        if (filtered.length === 0)
+        {
+            searchDropdown.style.display = 'none';
+            return;
         }
+
+        filtered.forEach(game =>
+        {
+            const a = document.createElement('a');
+            a.className   = 'search-item';
+            a.href        = 'rpcn-game.php?comm_id=' + encodeURIComponent(game.id);
+            a.setAttribute('role', 'option');
+
+            let flagsHtml = '';
+            if (game.regions && game.regions.length > 0)
+            {
+                game.regions.forEach(r =>
+                {
+                    flagsHtml += `<img src="/img/icons/compat/${r.toUpperCase()}.png" alt="${r}">`;
+                });
+            }
+
+            a.innerHTML = `
+                <img src="${game.icon}"
+                     class="search-icon"
+                     alt="icon"
+                     onerror="this.src='/cdn/rpcn/icon0/default.png'">
+                <span class="search-title">${game.title}</span>
+                <div class="search-flags">${flagsHtml}</div>
+            `;
+            searchDropdown.appendChild(a);
+        });
+
+        searchDropdown.style.display = 'block';
+    }
+
+    searchInput.addEventListener('input', function ()
+    {
+        renderDropdown(this.value.trim());
     });
 
-    document.addEventListener('click', function(e) {
-        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-            searchResults.style.display = 'none';
+    searchInput.addEventListener('focus', function ()
+    {
+        if (this.value.trim().length >= 2) renderDropdown(this.value.trim());
+    });
+
+    document.addEventListener('click', function (e)
+    {
+        if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target))
+        {
+            searchDropdown.style.display = 'none';
         }
     });
+})();
 </script>
 </body>
 </html>

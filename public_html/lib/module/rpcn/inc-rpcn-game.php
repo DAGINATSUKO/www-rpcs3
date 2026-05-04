@@ -292,6 +292,13 @@ class RPCNGame
         echo "</tbody></table></div>";
     }
 
+    public function get_board_html(string $commId, int $boardId): string
+    {
+        ob_start();
+        $this->handle_ajax($commId, (string)$boardId);
+        return ob_get_clean() ?: '';
+    }
+
     public function load_page_data(string $commId, RPCNStats $stats, ?mysqli $db): void
     {
         // Basic game info from the stats object
