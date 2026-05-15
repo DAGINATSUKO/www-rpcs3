@@ -115,7 +115,16 @@ class RPCNStats
         $ago  = new DateTime($datetime);
         $diff = $now->diff($ago);
 
-        if ($diff->y > 0) return $diff->y . ' year'  . ($diff->y > 1 ? 's' : '') . ' ago';
+        $totalMonths = $diff->y * 12 + $diff->m;
+
+        if ($totalMonths >= 12)
+        {
+            $years   = $totalMonths / 12;
+            $rounded = round($years * 2) / 2; // nearest 0.5
+            if ($rounded == (int)$rounded)
+                return (int)$rounded . ' year' . ($rounded != 1 ? 's' : '') . ' ago';
+            return number_format($rounded, 1) . ' years ago';
+        }
         if ($diff->m > 0) return $diff->m . ' month' . ($diff->m > 1 ? 's' : '') . ' ago';
         if ($diff->d > 0)
         {
@@ -227,6 +236,8 @@ class RPCNStats
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_HEADER,         true);
             curl_setopt($ch, CURLOPT_HTTPHEADER,     ['Accept: application/json']);
+            curl_setopt($ch, CURLOPT_TIMEOUT,        10);
+            curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
 
             $response = curl_exec($ch);
 
@@ -493,7 +504,7 @@ class RPCNStats
         $res_all = $db->query("
             SELECT players AS peak, timestamp
             FROM   np_players
-            ORDER  BY players DESC, timestamp DESC
+            ORDER  BY players DESC, timestamp ASC
             LIMIT  1
         ");
         if ($res_all && $row = $res_all->fetch_assoc())
@@ -505,7 +516,7 @@ class RPCNStats
 
         // np_psn_games
         $res_all_psn = $db->query("
-            SELECT m.comm_id, m.peak, MAX(t.timestamp) AS peak_date
+            SELECT m.comm_id, m.peak, MIN(t.timestamp) AS peak_date
             FROM (
                 SELECT comm_id, MAX(players) AS peak
                 FROM   np_psn_games

@@ -13,23 +13,62 @@ function rpcn_filter_range(array $data, string $period): array
     return array_values(array_filter($data, static fn($d) => strtotime($d['x']) >= $cutoff));
 }
 
-function rpcn_build_svg(array $data, string $gradId): string
+function rpcn_aggregate_monthly(array $data): array
+{
+    $months = [];
+    foreach ($data as $d)
+    {
+        $key = substr($d['x'], 0, 7); // YYYY-MM
+        if (!isset($months[$key]) || (int)$d['y'] > $months[$key])
+            $months[$key] = (int)$d['y'];
+    }
+    ksort($months);
+    $out = [];
+    foreach ($months as $k => $v) $out[] = ['x' => $k, 'y' => $v];
+    return $out;
+}
+
+function rpcn_x_label(string $xStr, string $period): string
+{
+    static $M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    if ($period === 'max')
+    {
+        [$y, $m] = explode('-', $xStr);
+        return $M[(int)$m - 1] . ' ' . $y;
+    }
+    $ts = strtotime($xStr);
+    $lbl = $M[(int)date('n', $ts) - 1] . ' ' . (int)date('j', $ts);
+    if ($period === '48h') $lbl .= ' ' . date('H:i', $ts);
+    return $lbl;
+}
+
+function rpcn_tooltip_date(string $xStr, string $period): string
+{
+    static $M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    if ($period === 'max')
+    {
+        [$y, $m] = explode('-', $xStr);
+        return $M[(int)$m - 1] . ' ' . $y;
+    }
+    $ts   = strtotime($xStr);
+    $base = $M[(int)date('n', $ts) - 1] . ' ' . (int)date('j', $ts) . ', ' . date('Y', $ts);
+    if ($period === '48h' || $period === '1w') $base .= ' ' . date('H:i', $ts);
+    return $base;
+}
+
+function rpcn_build_svg(array $data, string $gradId, string $period = '1m'): string
 {
     if (empty($data))
-    {
         return '<p class="rpcn-chart-empty">No data available for this period.</p>';
-    }
 
-    $W = 860; $H = 276;
-    $pL = 50; $pR = 12; $pT = 12; $pB = 32;
+    $W = 860; $H = 280;
+    $pL = 54; $pR = 14; $pT = 16; $pB = 38;
     $iW = $W - $pL - $pR;
     $iH = $H - $pT - $pB;
     $n  = count($data);
 
     $rawMax = (float)max(array_column($data, 'y'));
     if ($rawMax <= 0) $rawMax = 1;
-
-    // Round ceiling
     $magnitude = pow(10, max(0, floor(log10($rawMax))));
     $niceMax   = (float)(ceil(($rawMax * 1.08) / $magnitude) * $magnitude);
     if ($niceMax <= 0) $niceMax = 1;
@@ -48,59 +87,74 @@ function rpcn_build_svg(array $data, string $gradId): string
     $gridOut = ''; $yLblOut = '';
     for ($t = 0; $t <= 4; $t++)
     {
-        $val  = (int)round($niceMax * $t / 4);
-        $cy   = (float)($pT + $iH - ($t / 4) * $iH);
-        $gridOut .= sprintf(
-            '<line x1="%d" y1="%.0f" x2="%d" y2="%.0f" class="rpcn-sg"/>',
-            $pL, $cy, $W - $pR, $cy
-        );
-        $yLblOut .= sprintf(
-            '<text x="%d" y="%.0f" class="rpcn-st rpcn-sty">%s</text>',
-            $pL - 5, $cy + 4, number_format($val)
-        );
+        $val = (int)round($niceMax * $t / 4);
+        $cy  = (float)($pT + $iH - ($t / 4) * $iH);
+        $gridOut  .= sprintf('<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" class="rpcn-sg"/>',
+            $pL, $cy, $W - $pR, $cy);
+        $yLblOut  .= sprintf('<text x="%d" y="%.1f" class="rpcn-st rpcn-sty">%s</text>',
+            $pL - 6, $cy + 4, number_format($val));
     }
 
     // X labels
+    $step = match($period) {
+        'max'       => max(1, (int)ceil($n / 9)),
+        '1y'        => 7,
+        '6m', '3m'  => max(1, (int)ceil($n / 8)),
+        default     => max(1, (int)ceil($n / 7)),
+    };
     $xLblOut = '';
-    $step    = max(1, (int)round($n / 7));
     for ($i = 0; $i < $n; $i += $step)
     {
         [$px, , $xs] = $coords[$i];
-        $lbl = substr($xs, 0, 10); // YYYY-MM-DD
-        $xLblOut .= sprintf(
-            '<text x="%.0f" y="%d" class="rpcn-st rpcn-stx">%s</text>',
-            $px, $H - 6, htmlspecialchars($lbl)
-        );
+        $xLblOut .= sprintf('<text x="%.1f" y="%d" class="rpcn-st rpcn-stx">%s</text>',
+            $px, $H - 8, htmlspecialchars(rpcn_x_label($xs, $period)));
     }
 
-    // Polyline & fill polygon
+    // Line + fill
     $ptStr   = implode(' ', array_map(static fn($c) => sprintf('%.1f,%.1f', $c[0], $c[1]), $coords));
-    $fillStr = sprintf('%.1f,%.0f ', $coords[0][0], $pT + $iH)
-             . $ptStr
-             . sprintf(' %.1f,%.0f', $coords[$n - 1][0], $pT + $iH);
+    $fillStr = sprintf('%.1f,%.1f ', $coords[0][0], $pT + $iH) . $ptStr
+             . sprintf(' %.1f,%.1f', $coords[$n - 1][0], $pT + $iH);
 
-    // Data-point circles with native tooltips
+    // Interactive data points: wide transparent hit area + vline + dot + tooltip
+    $hitW    = (int)max(6, $n > 1 ? ceil($iW / ($n - 1)) : $iW);
+    $ttW     = 152; $ttH = 42;
     $dotsOut = '';
-    if ($n <= 150)
+
+    foreach ($coords as [$px, $py, $xs, $yv])
     {
-        foreach ($coords as [$px, $py, $xs, $yv])
-        {
-            $dotsOut .= sprintf(
-                '<g class="rpcn-dp"><circle cx="%.1f" cy="%.1f" r="3.5"/>' .
-                '<title>%s: %s players</title></g>',
-                $px, $py,
-                htmlspecialchars(substr($xs, 0, 16)),
-                number_format($yv)
-            );
-        }
+        $tipDate = rpcn_tooltip_date($xs, $period);
+        $tipVal  = number_format($yv) . ' player' . ($yv !== 1 ? 's' : '');
+
+        // Clamp tooltip horizontally
+        $ttX = max((float)$pL, min($px - $ttW / 2, (float)($W - $pR - $ttW)));
+        // Tooltip above dot; flip below if too close to top
+        $ttY = ($py - 12 - $ttH >= $pT) ? $py - 12 - $ttH : $py + 12;
+
+        $dotsOut .=
+            '<g class="rpcn-dp">'
+            // Hit zone: full height at this x
+            . sprintf('<rect x="%.1f" y="%d" width="%d" height="%d" class="rpcn-dp-hit"/>',
+                $px - $hitW / 2, $pT, $hitW, $iH + 4)
+            // Vertical dashed guide
+            . sprintf('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" class="rpcn-dp-vline"/>',
+                $px, $pT, $px, $pT + $iH)
+            // Dot
+            . sprintf('<circle cx="%.1f" cy="%.1f" r="4" class="rpcn-dp-dot"/>', $px, $py)
+            // Tooltip
+            . sprintf('<g class="rpcn-dp-tt" transform="translate(%.1f,%.1f)">', $ttX, $ttY)
+            .   sprintf('<rect x="0" y="0" width="%d" height="%d" rx="5" class="rpcn-tt-bg"/>', $ttW, $ttH)
+            .   sprintf('<text x="%d" y="15" class="rpcn-tt-date">%s</text>', $ttW / 2, htmlspecialchars($tipDate))
+            .   sprintf('<text x="%d" y="31" class="rpcn-tt-val">%s</text>',  $ttW / 2, htmlspecialchars($tipVal))
+            . '</g>'
+            . '</g>';
     }
 
-    $gid  = htmlspecialchars($gradId);
+    $gid = htmlspecialchars($gradId);
     $out  = '<svg viewBox="0 0 ' . $W . ' ' . $H . '" class="rpcn-svg-chart"'
           . ' xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Player count chart">';
     $out .= '<defs><linearGradient id="' . $gid . '" x1="0" y1="0" x2="0" y2="1">'
-          . '<stop offset="0%"   stop-color="rgba(102,252,241,.28)"/>'
-          . '<stop offset="100%" stop-color="rgba(102,252,241,.01)"/>'
+          . '<stop offset="0%" stop-color="rgba(104,109,224,.30)"/>'
+          . '<stop offset="100%" stop-color="rgba(104,109,224,.02)"/>'
           . '</linearGradient></defs>';
     $out .= $gridOut;
     $out .= '<polygon points="' . $fillStr . '" fill="url(#' . $gid . ')"/>';
@@ -111,14 +165,21 @@ function rpcn_build_svg(array $data, string $gradId): string
 }
 
 //  Pre-compute all chart ranges
-$chartPeriodsMeta = ['48h' => '48H', '1w' => '1W', '1m' => '1M', '3m' => '3M', '6m' => '6M', '1y' => '1Y'];
+$chartPeriodsMeta = ['48h' => '48H', '1w' => '1W', '1m' => '1M', '3m' => '3M', '6m' => '6M', '1y' => '1Y', 'max' => 'MAX'];
 $chartSvgs        = [];
+$chartDataAllTime = $rpcn_game->chartDataAllTime;
 foreach ($chartPeriodsMeta as $key => $label)
 {
-    $isHourly        = in_array($key, ['48h', '1w'], true);
-    $source          = $isHourly ? $chartDataHourly : $chartDataDaily;
-    $filtered        = rpcn_filter_range($source, $key);
-    $chartSvgs[$key] = rpcn_build_svg($filtered, 'rpcn-grad-' . $key);
+    if ($key === 'max')
+    {
+        $source = rpcn_aggregate_monthly($chartDataAllTime);
+    }
+    else
+    {
+        $isHourly = in_array($key, ['48h', '1w'], true);
+        $source   = rpcn_filter_range($isHourly ? $chartDataHourly : $chartDataDaily, $key);
+    }
+    $chartSvgs[$key] = rpcn_build_svg($source, 'rpcn-grad-' . $key, $key);
 }
 
 // Leaderboard boards
@@ -144,57 +205,78 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<?php include 'lib/module/sys-css.php';?>
+<?php include 'lib/module/sys-js.php';?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= htmlspecialchars($gameTitle) ?> – RPCN Stats</title>
     <style>
         :root {
-            --rpcn-bg:              #0d0f14;
-            --rpcn-text:            #c5c6c7;
-            --rpcn-text-strong:     #e2e8f0;
-            --rpcn-accent:          #66fcf1;
-            --rpcn-accent-dim:      #45a29e;
-            --rpcn-accent-bg:       rgba(102, 252, 241, .08);
-            --rpcn-accent-bg-hover: rgba(102, 252, 241, .12);
-            --rpcn-accent-border:   rgba(102, 252, 241, .2);
-            --rpcn-muted:           #69707a;
-            --rpcn-subtle:          #4a5568;
-            --rpcn-border:          rgba(255, 255, 255, .08);
-            --rpcn-border-faint:    rgba(255, 255, 255, .04);
-            --rpcn-surface:         rgba(255, 255, 255, .04);
-            --rpcn-surface-dark:    rgba(0, 0, 0, .2);
-            --rpcn-online:          #4cffb3;
-            --rpcn-gold:            #ffd166;
-            --rpcn-silver:          #b0bec5;
-            --rpcn-bronze:          #cd7f32;
-            --rpcn-error-bg:        rgba(230, 57, 70, .1);
-            --rpcn-error-border:    rgba(230, 57, 70, .4);
-            --rpcn-error-text:      #ffaaaa;
-            --rpcn-radius-sm:   4px;
-            --rpcn-radius:      8px;
-            --rpcn-radius-lg:   10px;
-            --rpcn-page-width:  980px;
-            --rpcn-font:        'Segoe UI', 'Roboto', sans-serif;
-            --rpcn-font-mono:   'Consolas', monospace;
-            --rpcn-font-size:   14px;
+			--rpcn-bg: #111525;
+			--rpcn-text: #fff;
+			--rpcn-text-strong: #fff;
+			--rpcn-accent: #686DE0;
+			--rpcn-accent-dim: #686DE0;
+			--rpcn-accent-bg: rgb(255 255 255 / 10%);
+			--rpcn-accent-bg-hover: rgb(255 255 255 / 10%);
+			--rpcn-accent-border: rgb(255 255 255 / 10%);
+			--rpcn-muted: #ffffff;
+			--rpcn-subtle: rgb(255 255 255 / 50%);
+			--rpcn-border: rgb(255 255 255 / 10%);
+			--rpcn-border-faint: rgba(255, 255, 255, .04);
+			--rpcn-surface: #191f36;
+			--rpcn-surface-dark: rgba(0, 0, 0, .2);
+			--rpcn-online: #686DE0;
+			--rpcn-gold: #ffd166;
+			--rpcn-silver: #ffffff;
+			--rpcn-bronze: #cd7f32;
+			--rpcn-error-bg: rgba(230, 57, 70, .1);
+			--rpcn-error-border: rgb(255 0 19);
+			--rpcn-error-text: #ff0000;
+			--rpcn-radius-sm: 8px;
+			--rpcn-radius: 16px;
+			--rpcn-radius-lg: 10px;
+			--rpcn-page-width: 1200px;
+			--rpcn-font: 'Segoe UI', 'Roboto', sans-serif;
+			--rpcn-font-mono: 'Consolas', monospace;
+			--rpcn-font-size: 14px;
+			--rpcn-pic1-url: <?= $gamePic1 !== '' ? 'url(' . htmlspecialchars($gamePic1, ENT_QUOTES) . ')' : 'none' ?>;
         }
 
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        body {
-            background:  var(--rpcn-bg);
-            color:       var(--rpcn-text);
-            font-family: var(--rpcn-font);
-            font-size:   var(--rpcn-font-size);
-            line-height: 1.6;
-            min-height:  100vh;
-        }
+body {
+    background: var(--rpcn-bg);
+    color:       var(--rpcn-text);
+    font-family: var(--rpcn-font);
+    font-size:   var(--rpcn-font-size);
+    line-height: 1.6;
+    min-height:  100vh;
+    position:    relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--rpcn-pic1-url);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+    pointer-events: none;
+    transform: scale(1.1);
+}
 
         .rpcn-page-wrap {
             max-width: var(--rpcn-page-width);
             margin:    0 auto;
             padding:   30px 16px 60px;
+			font-family: Roboto-Regular;
         }
 
         /*  Hide all radio/checkbox helpers  */
@@ -224,13 +306,13 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
         }
         .rpcn-game-icon-wrap { flex-shrink: 0; }
         .rpcn-game-icon {
-            width:         280px;
-            height:        154px;
-            object-fit:    cover;
-            border-radius: var(--rpcn-radius);
-            box-shadow:    0 4px 20px rgba(0,0,0,.6);
-            background:    var(--rpcn-surface);
-            display:       block;
+			width: 342px;
+			height: 188px;
+			object-fit: cover;
+			display: block;
+			border-radius: 16px;
+			box-shadow: rgb(0 0 0 / 10%) 0 10px 32px 0;
+			border: solid 1px rgb(255 255 255 / 10%);
         }
         .rpcn-game-icon-fallback {
             width:           280px;
@@ -290,6 +372,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
             padding:       16px 18px;
             text-align:    center;
             transition:    border-color .2s;
+			box-shadow: rgb(0 0 0 / 10%) 0 10px 32px 0;
         }
         .rpcn-stat-card:hover { border-color: var(--rpcn-accent-border); }
         .rpcn-stat-label {
@@ -343,12 +426,13 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
 
         .rpcn-tab-panels { }
         .rpcn-tab-panel {
-            display:       none;
-            background:    rgba(255,255,255,.02);
-            border:        1px solid rgba(255,255,255,.07);
-            border-top:    none;
-            border-radius: 0 0 var(--rpcn-radius-lg) var(--rpcn-radius-lg);
-            padding:       22px;
+			display: none;
+			background: rgba(255, 255, 255, .02);
+			border: 1px solid rgba(255, 255, 255, .07);
+			border-radius: 16px;
+			padding: 22px;
+			margin-top: 30px;
+			box-shadow: rgb(0 0 0 / 10%) 0 10px 32px 0;
         }
 
         /* Show the correct panel */
@@ -412,28 +496,35 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
         /*  SVG chart  */
         .rpcn-svg-chart {
             width:    100%;
-            height:   256px;
+            height:   260px;
             display:  block;
             overflow: visible;
         }
         .rpcn-sg { stroke: rgba(255,255,255,.05); stroke-width: 1; fill: none; }
-        .rpcn-sl { stroke: #66fcf1; stroke-width: 2; }
+        .rpcn-sl { stroke: #686DE0; stroke-width: 2; }
         .rpcn-st {
-            fill:        #4a5568;
+            fill:        rgba(255,255,255,.38);
             font-size:   10px;
             font-family: 'Consolas', monospace;
         }
         .rpcn-sty { text-anchor: end;    dominant-baseline: middle; }
         .rpcn-stx { text-anchor: middle; dominant-baseline: auto; }
-        /* Hover dots */
-        .rpcn-dp > circle {
-            fill:         #66fcf1;
-            stroke:       var(--rpcn-bg);
-            stroke-width: 2;
-            opacity:      0;
-            transition:   opacity .12s;
-        }
-        .rpcn-dp:hover > circle { opacity: 1; }
+
+        /* Interactive hover points */
+        .rpcn-dp-hit   { fill: transparent; pointer-events: all; cursor: crosshair; }
+        .rpcn-dp-vline { stroke: rgba(255,255,255,.18); stroke-width: 1;
+                         stroke-dasharray: 3 3; visibility: hidden; }
+        .rpcn-dp-dot   { fill: #686DE0; stroke: var(--rpcn-bg); stroke-width: 2;
+                         visibility: hidden; }
+        .rpcn-dp-tt    { visibility: hidden; pointer-events: none; }
+        .rpcn-tt-bg    { fill: #151d3b; stroke: rgba(104,109,224,.65); stroke-width: 1; }
+        .rpcn-tt-date  { fill: rgba(255,255,255,.55); font-size: 10px;
+                         font-family: 'Consolas', monospace; text-anchor: middle; }
+        .rpcn-tt-val   { fill: #a0a8ff; font-size: 11.5px; font-weight: 700;
+                         font-family: 'Consolas', monospace; text-anchor: middle; }
+        .rpcn-dp:hover .rpcn-dp-vline,
+        .rpcn-dp:hover .rpcn-dp-dot,
+        .rpcn-dp:hover .rpcn-dp-tt { visibility: visible; }
         .rpcn-chart-empty {
             color:      var(--rpcn-subtle);
             font-size:  .85rem;
@@ -595,7 +686,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
             <img src="<?= htmlspecialchars($gameIcon) ?>"
                  alt="Game Icon"
                  class="rpcn-game-icon"
-                 onerror="this.src='/cdn/rpcn/icon0/default.png'">
+                 onerror="this.src='<?= htmlspecialchars($defaultIcon) ?>'">
         </div>
 
         <div class="rpcn-game-info">

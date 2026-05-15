@@ -5,8 +5,23 @@ include 'lib/module/rpcn/inc-rpcn-stats.php';
 // Initialize RPCNStats class
 $rpcn_stats = new RPCNStats($games_json, $log_file, $api_url, $icons_json, $cache);
 
-$mysqli = mysqli_connect($db_host, $db_user, $db_pass, $db_name, (int) $db_port);
-$has_db_error = !$mysqli || (bool)$mysqli->connect_error;
+$mysqli       = null;
+$has_db_error = true;
+$_db_init     = mysqli_init();
+if ($_db_init)
+{
+    mysqli_options($_db_init, MYSQLI_OPT_CONNECT_TIMEOUT, 5);
+    if (@mysqli_real_connect($_db_init, $db_host, $db_user, $db_pass, $db_name, (int)$db_port))
+    {
+        $mysqli       = $_db_init;
+        $has_db_error = false;
+    }
+    else
+    {
+        error_log('DB connect failed: ' . $_db_init->connect_error);
+    }
+}
+unset($_db_init);
 
 if (!$has_db_error)
 {
@@ -17,7 +32,8 @@ if (!$has_db_error)
 $search_data = [];
 foreach ($rpcn_stats->app_title as $comm_id => $title)
 {
-    $icon_url = '/cdn/rpcn/icon0/default.png';
+    $icon_url = $default_icon;
+    
     if (isset($rpcn_stats->title_icons[$comm_id]))
     {
         $icon_url = $rpcn_stats->title_icons[$comm_id];
@@ -27,14 +43,15 @@ foreach ($rpcn_stats->app_title as $comm_id => $title)
         foreach ($rpcn_stats->title_ids[$comm_id] as $id_to_check)
         {
             $search_id = $rpcn_stats->icon_alias[$id_to_check] ?? $id_to_check;
+
             if (isset($rpcn_stats->icons_db[$search_id]))
             {
                 $hash     = $rpcn_stats->icons_db[$search_id];
-                $temp_url = "/cdn/rpcn/icon0/{$hash}.png";
-                
-                if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
+                $file_name = "{$hash}.png";
+
+                if (file_exists($icon_base_path . $file_name))
                 {
-                    $icon_url = $temp_url;
+                    $icon_url = $icon_base_path . $file_name;
                     break;
                 }
             }
@@ -100,144 +117,6 @@ if ($search_query !== '')
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 <style>
-.rpcn-list-title-container {
-    display: flex;
-    align-items: center;
-}
-.rpcn-game-icon {
-    width: 64px;
-    height: auto;
-    border-radius: 4px;
-    margin: 0 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-}
-
-/* Search form */
-.search-container {
-    position:   relative;
-    max-width:  600px;
-    margin:     20px auto;
-    z-index:    100;
-}
-.search-form {
-    display: flex;
-    gap:     0;
-}
-.search-input {
-    flex:         1;
-    padding:      15px;
-    border-radius: 4px 0 0 4px;
-    border:       1px solid rgba(255,255,255,0.1);
-    border-right: none;
-    background:   #1b2838;
-    color:        #fff;
-    font-size:    16px;
-    box-sizing:   border-box;
-    min-width:    0;
-}
-.search-input:focus { outline: none; border-color: #66c0f4; }
-.search-submit {
-    padding:       0 18px;
-    background:    #2a475e;
-    border:        1px solid rgba(255,255,255,0.1);
-    border-left:   none;
-    border-radius: 0 4px 4px 0;
-    color:         #c7d5e0;
-    font-size:     15px;
-    cursor:        pointer;
-    white-space:   nowrap;
-    transition:    background .15s, color .15s;
-    line-height:   1;
-}
-.search-submit:hover { background: #3d6b8a; color: #fff; }
-
-.js-ready .search-submit { display: none; }
-.js-ready .search-input  { border-radius: 4px; border-right: 1px solid rgba(255,255,255,0.1); }
-.js-ready .search-input:focus { border-color: #66c0f4; }
-
-.search-results {
-    position:      absolute;
-    top:           100%;
-    left:          0;
-    right:         0;
-    background:    #16202d;
-    border:        1px solid #1b2838;
-    border-top:    none;
-    max-height:    400px;
-    overflow-y:    auto;
-    display:       none;
-    box-shadow:    0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 0 0 4px 4px;
-}
-.search-item { display: flex; align-items: center; padding: 10px; cursor: pointer; border-bottom: 1px solid rgba(255,255,255,0.05); text-decoration: none; color: #d5d6d8; }
-.search-item:hover { background: #2a475e; }
-.search-icon { width: 40px; border-radius: 2px; margin-right: 15px; flex-shrink: 0; }
-.search-title { flex-grow: 1; font-weight: bold; }
-.search-flags img { height: 14px; margin-left: 5px; }
-
-.search-results-section {
-    margin-top: 30px;
-}
-.search-results-header {
-    display:       flex;
-    align-items:   center;
-    gap:           12px;
-    margin-bottom: 12px;
-    flex-wrap:     wrap;
-}
-.search-results-title {
-    font-size:   1.1rem;
-    font-weight: 700;
-    color:       #c7d5e0;
-}
-.search-results-count {
-    font-size:  0.82rem;
-    color:      #69707a;
-    background: rgba(255,255,255,0.05);
-    padding:    2px 10px;
-    border-radius: 20px;
-}
-.search-clear-link {
-    margin-left: auto;
-    font-size:   0.82rem;
-    color:       #66c0f4;
-    text-decoration: none;
-    opacity: 0.7;
-}
-.search-clear-link:hover { opacity: 1; }
-.search-no-results {
-    color:      #69707a;
-    font-style: italic;
-    padding:    20px 0;
-    text-align: center;
-}
-.search-result-online-badge {
-    display:     inline-flex;
-    align-items: center;
-    gap:         5px;
-    color:       #4cffb3;
-    font-size:   0.85rem;
-    font-weight: 600;
-    white-space: nowrap;
-}
-.search-result-online-dot {
-    width:         7px;
-    height:        7px;
-    border-radius: 50%;
-    background:    #4cffb3;
-    flex-shrink:   0;
-}
-
-.table-game-link { display: flex; align-items: center; color: inherit; text-decoration: none; transition: 0.15s ease-in-out; }
-.table-game-link:hover { color: #66c0f4; }
-.rpcn-service-error {
-    display:    flex;
-    align-items: center;
-    gap:        8px;
-    color:      #ffaaaa;
-    font-size:  14px;
-    padding:    6px 0;
-}
 </style>
 </head>
 <body>
@@ -267,26 +146,73 @@ if ($search_query !== '')
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
 						<div class='container-emp-block'></div>
-						<h2>RPCN Browser</h2>
+						<h2>RPCN Browser (WIP)</h2>
 					</div>
 					<div class='container-tx2-block darkmode-txt'>
 						<p>RPCN is a netplay service that allows you to play revived PlayStation 3 games. See real-time statistics of currently active players, popular games, and ongoing multiplayer sessions.</p>
 					</div>
 
-					<div class="search-container">
-						<form method="get" action="" class="search-form" id="searchForm">
-							<input type="text"
-							       name="q"
-							       id="gameSearch"
-							       class="search-input"
-							       value="<?php echo htmlspecialchars($search_query); ?>"
-							       placeholder="Search Title..."
-							       autocomplete="off"
-							       aria-label="Search games">
-							<button type="submit" class="search-submit" aria-label="Submit search">&#128269; Search</button>
-						</form>
-						<div id="searchResults" class="search-results" role="listbox" aria-label="Search suggestions"></div>
+					
+
+				</div>
+			</div>
+			<?php include 'lib/module/rpcn/inc-rpcn-playerbase.php';?>
+			
+			
+
+			
+			
+			<div class='rpcn-infopane-con-container'>
+				<div class='rpcn-infopane-con-outer'>
+					<div class='rpcn-infopane-con-inner-a'>
+						<div class='rpcn-infopane-con-graphic' style="background: url(/img/graphics/rpcn/get-started.png) center top no-repeat; right: -52px; bottom: -38px;"></div>
+						<div class='rpcn-infopane-con-image' style="background: url(/img/icons/rpcn/psn.png) center left / 42px no-repeat;"></div>
+						<div class='rpcn-infopane-tx1-title darkmode-txt'><span>Get Started</span></div>
+						<div class='rpcn-infopane-tx2-desc darkmode-txt'><span>Get started by reading our comprehensive setup guide to learn how to connect your RPCS3 installation.<br><br><br><br></span></div>
+						<a href="https://wiki.rpcs3.net/index.php?title=Help:Netplay" target="_blank">
+						<div class='package-con-button'>
+							<div class='package-ico-button' style="background: url(/img/icons/buttons/docs-h.png) center / 22px no-repeat;"></div>
+							<div class='package-tx1-button'><span>Read More</span></div>
+						</div>
+						</a>
 					</div>
+				</div>
+				<div class='rpcn-infopane-con-outer' style="width: 66.6666666666%;">
+					<div class='rpcn-infopane-con-inner-a'>
+						<div class='rpcn-infopane-con-graphic' style="background: url(/img/graphics/rpcn/compat.png) right bottom no-repeat; right: -52px; bottom: 0; height: 150px; width: 420px;"></div>
+						<div class='rpcn-infopane-con-image darkmode-invert' style="background: url(/img/icons/buttons/compat.png) center left / 42px no-repeat;"></div>
+						<div class='rpcn-infopane-tx1-title darkmode-txt'><span>Netplay Compatibility</span></div>
+						<div class='rpcn-infopane-tx2-desc darkmode-txt'><span>Check games that support netplay with our compatibility list. From beloved fighting games to racing and cooperative adventures, explore a growing collection of PlayStation 3 games revived with netplay.<br><br>For game compatibility, see the <a href="/compatibility" target="_blank">compatibility list</a>.</span><br><br></div>
+						<a href="https://wiki.rpcs3.net/index.php?title=RPCN_Compatibility_List" target="_blank">
+							<div class='package-con-button' style="width: 225px;">
+								<div class='package-ico-button' style="background: url(/img/icons/buttons/compat-h.png) center / 22px no-repeat;"></div>
+								<div class='package-tx1-button'><span>View Compatibility List</span></div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+						<div class="search-container">
+				<form method="get" action="" class="search-form" id="searchForm">
+					<input type="text"
+						   name="q"
+						   id="gameSearch"
+						   class="search-input darkmode-search-bg darkmode-search-border""
+						   value="<?php echo htmlspecialchars($search_query); ?>"
+						   placeholder="Game Title..."
+						   autocomplete="off"
+						   aria-label="Search games">
+					<button type="submit" class="search-submit" aria-label="Submit search">&#128269; Search</button>
+				</form>
+				<div id="searchResults" class="search-results" role="listbox" aria-label="Search suggestions"></div>
+			</div>
 
 					<?php if ($search_query !== ''): ?>
 					<div class="search-results-section" id="serverSearchResults">
@@ -322,7 +248,7 @@ if ($search_query !== '')
 															<img src="<?php echo htmlspecialchars($game['icon']); ?>"
 															     alt="Game Icon"
 															     class="rpcn-game-icon"
-															     onerror="this.src='/cdn/rpcn/icon0/default.png'">
+															     onerror="this.src='<?= htmlspecialchars($default_icon) ?>'">
 															<?php echo htmlspecialchars($game['title']); ?>
 														</a>
 													</div>
@@ -354,72 +280,46 @@ if ($search_query !== '')
 					</div>
 					<?php endif; ?>
 
-				</div>
-			</div>
-			<?php include 'lib/module/rpcn/inc-rpcn-playerbase.php';?>
-			<div class='rpcn-infopane-con-container'>
-				<div class='rpcn-infopane-con-outer'>
-					<div class='rpcn-infopane-con-inner-a'>
-						<div class='rpcn-infopane-con-graphic' style="background: url(/img/graphics/rpcn/get-started.png) center top no-repeat; right: -52px; bottom: -38px;"></div>
-						<div class='rpcn-infopane-con-image' style="background: url(/img/icons/rpcn/psn.png) center left / 42px no-repeat;"></div>
-						<div class='rpcn-infopane-tx1-title darkmode-txt'><span>Get Started</span></div>
-						<div class='rpcn-infopane-tx2-desc darkmode-txt'><span>Get started by reading our comprehensive setup guide to learn how to connect your RPCS3 installation.<br><br><br><br></span></div>
-						<a href="https://wiki.rpcs3.net/index.php?title=Help:Netplay" target="_blank">
-						<div class='package-con-button'>
-							<div class='package-ico-button' style="background: url(/img/icons/buttons/docs-h.png) center / 22px no-repeat;"></div>
-							<div class='package-tx1-button'><span>Read More</span></div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<div class='rpcn-infopane-con-outer' style="width: 66.6666666666%;">
-					<div class='rpcn-infopane-con-inner-a'>
-						<div class='rpcn-infopane-con-graphic' style="background: url(/img/graphics/rpcn/compat.png) right bottom no-repeat; right: -52px; bottom: 0; height: 150px; width: 420px;"></div>
-						<div class='rpcn-infopane-con-image darkmode-invert' style="background: url(/img/icons/buttons/compat.png) center left / 42px no-repeat;"></div>
-						<div class='rpcn-infopane-tx1-title darkmode-txt'><span>Netplay Compatibility</span></div>
-						<div class='rpcn-infopane-tx2-desc darkmode-txt'><span>Check games that support netplay with our compatibility list. From beloved fighting games to racing and cooperative adventures, explore a growing collection of PlayStation 3 games revived with netplay.<br><br>For game compatibility, see the <a href="/compatibility" target="_blank">compatibility list</a>.</span><br><br></div>
-						<a href="https://wiki.rpcs3.net/index.php?title=RPCN_Compatibility_List" target="_blank">
-							<div class='package-con-button' style="width: 225px;">
-								<div class='package-ico-button' style="background: url(/img/icons/buttons/compat-h.png) center / 22px no-repeat;"></div>
-								<div class='package-tx1-button'><span>View Compatibility List</span></div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
+			<div id="jsSearchResults" style="display:none;"></div>
+			
+			
+			
+			
+			
+			
 
             <div class='container-tx1-block darkmode-txt' style="margin-top: 40px;">
                 <div class='container-emp-block'></div>
                 <h2>Global Users Peak</h2>
             </div>
-            <div class='rpcn-infopane-con-container'>
-                <div class='rpcn-infopane-con-outer' style="width: 50%;">
-                    <div class='rpcn-infopane-con-inner-a'>
-                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+            <div class='rpcn-datapane-con-container'>
+                <div class='rpcn-datapane-con-outer' style="width: 50%;">
+                    <div class='rpcn-datapane-con-inner-a'>
+                        <div class='rpcn-datapane-tx1-title darkmode-txt'>
                             <span>All-Time Total Users Peak</span>
                         </div>
-                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; margin-top: 20px; padding-bottom: 30px;">
+                        <div class='rpcn-datapane-tx2-desc darkmode-txt' style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; margin-top: 20px;">
                             <?php if ($has_db_error): ?>
                                 <div class="rpcn-service-error">Service unavailable - please try again later</div>
                             <?php else: ?>
-                                <span style="font-size: 56px; font-weight: bold;"><?php echo $rpcn_stats->peak_alltime_users; ?></span>
-                                <span style="font-size: 18px; opacity: 0.8; margin-top: 20px;">Players Online</span>
-                                <span style="font-size: 14px; opacity: 0.6; margin-top: 5px;"><?php echo $rpcn_stats->peak_alltime_users_date; ?></span>
+                                <span class="text1"><?php echo $rpcn_stats->peak_alltime_users; ?></span>
+                                <span class="text2">Players Online</span>
+                                <span class="text3"><?php echo $rpcn_stats->peak_alltime_users_date; ?></span>
                             <?php endif; ?>
                         </div>
                     </div>
                 </div>
-                <div class='rpcn-infopane-con-outer' style="width: 50%;">
-                    <div class='rpcn-infopane-con-inner-a'>
-                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+                <div class='rpcn-datapane-con-outer' style="width: 50%;">
+                    <div class='rpcn-datapane-con-inner-a'>
+                        <div class='rpcn-datapane-tx1-title darkmode-txt'>
                             <span>Total Users 24H Peak</span>
                         </div>
-                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; margin-top: 20px; padding-bottom: 30px;">
+                        <div class='rpcn-datapane-tx2-desc darkmode-txt' style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; margin-top: 20px;">
                             <?php if ($has_db_error): ?>
                                 <div class="rpcn-service-error">Service unavailable - please try again later</div>
                             <?php else: ?>
-                                <span style="font-size: 56px; font-weight: bold;"><?php echo $rpcn_stats->peak_24h_users; ?></span>
-                                <span style="font-size: 18px; opacity: 0.8; margin-top: 20px;">Players Online</span>
+                                <span class="text1"><?php echo $rpcn_stats->peak_24h_users; ?></span>
+                                <span class="text2">Players Online</span>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -430,13 +330,13 @@ if ($search_query !== '')
                 <div class='container-emp-block'></div>
                 <h2>Top 10 Games Peak</h2>
             </div>
-            <div class='rpcn-infopane-con-container'>
-                <div class='rpcn-infopane-con-outer' style="width: 50%;">
-                    <div class='rpcn-infopane-con-inner-a'>
-                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+            <div class='rpcn-datapane-con-container'>
+                <div class='rpcn-datapane-con-outer' style="width: 50%;">
+                    <div class='rpcn-datapane-con-inner-a'>
+                        <div class='rpcn-datapane-tx1-title darkmode-txt'>
                             <span>Top 10 Games (All-Time Peak)</span>
                         </div>
-                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="margin-top: 15px;">
+                        <div class='rpcn-datapane-tx2-desc darkmode-txt' style="margin-top: 15px;">
                             <table style="width: 100%; border-collapse: collapse; text-align: left;">
                                 <tbody>
                                     <?php if ($has_db_error): ?>
@@ -446,16 +346,16 @@ if ($search_query !== '')
                                             $g_comm_id = $game['comm_id'] ?? array_search($game['game_title'], $rpcn_stats->app_title);
                                             $g_regions = $g_comm_id ? ($rpcn_stats->title_regions[$g_comm_id] ?? []) : [];
                                         ?>
-                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                                            <td style="padding: 8px 0; width: 30px; opacity: 0.7;"><strong>#<?php echo $index + 1; ?></strong></td>
-                                            <td style="padding: 8px 0;">
+                                        <tr style="border-bottom: 1px solid rgb(219 219 219 / 50%)">
+                                            <td><strong>#<?php echo $index + 1; ?></strong></td>
+                                            <td >
                                                 <?php if($g_comm_id): ?>
                                                 <a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($g_comm_id); ?>" class="table-game-link">
                                                 <?php else: ?>
                                                 <div style="display:flex; align-items:center;">
                                                 <?php endif; ?>
                                                     <?php if (!empty($game['icon'])): ?>
-                                                        <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 24px; border-radius: 2px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
+                                                        <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 64px; border-radius: 4px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
                                                     <?php endif; ?>
                                                     <span style="margin-right: 6px;"><?php echo htmlspecialchars($game['game_title']); ?></span>
                                                     <?php foreach ($g_regions as $region): ?>
@@ -468,7 +368,7 @@ if ($search_query !== '')
                                                 <?php endif; ?>
                                             </td>
                                             <td style="padding: 8px 0; text-align: right; white-space: nowrap;">
-                                                <strong><?php echo $game['peak']; ?></strong> peak
+                                                <strong><?php echo $game['peak']; ?></strong> players
                                                 <?php if (!empty($game['time_ago'])): ?>
                                                 <span style="display:block; font-size:11px; opacity:0.6;"><?php echo $game['time_ago']; ?></span>
                                                 <?php endif; ?>
@@ -484,12 +384,12 @@ if ($search_query !== '')
                     </div>
                 </div>
 
-                <div class='rpcn-infopane-con-outer' style="width: 50%;">
-                    <div class='rpcn-infopane-con-inner-a'>
-                        <div class='rpcn-infopane-tx1-title darkmode-txt'>
+                <div class='rpcn-datapane-con-outer' style="width: 50%;">
+                    <div class='rpcn-datapane-con-inner-a'>
+                        <div class='rpcn-datapane-tx1-title darkmode-txt'>
                             <span>Top 10 Games (24H Peak)</span>
                         </div>
-                        <div class='rpcn-infopane-tx2-desc darkmode-txt' style="margin-top: 15px;">
+                        <div class='rpcn-datapane-tx2-desc darkmode-txt' style="margin-top: 15px;">
                             <table style="width: 100%; border-collapse: collapse; text-align: left;">
                                 <tbody>
                                     <?php if ($has_db_error): ?>
@@ -499,16 +399,16 @@ if ($search_query !== '')
                                             $g_comm_id = $game['comm_id'] ?? array_search($game['game_title'], $rpcn_stats->app_title);
                                             $g_regions = $g_comm_id ? ($rpcn_stats->title_regions[$g_comm_id] ?? []) : [];
                                         ?>
-                                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
-                                            <td style="padding: 8px 0; width: 30px; opacity: 0.7;"><strong>#<?php echo $index + 1; ?></strong></td>
-                                            <td style="padding: 8px 0;">
+                                        <tr style="border-bottom: 1px solid rgb(219 219 219 / 50%)">
+                                            <td><strong>#<?php echo $index + 1; ?></strong></td>
+                                            <td >
                                                 <?php if($g_comm_id): ?>
                                                 <a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($g_comm_id); ?>" class="table-game-link">
                                                 <?php else: ?>
                                                 <div style="display:flex; align-items:center;">
                                                 <?php endif; ?>
                                                     <?php if (!empty($game['icon'])): ?>
-                                                        <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 24px; border-radius: 2px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
+                                                        <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 64px; border-radius: 4px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
                                                     <?php endif; ?>
                                                     <span style="margin-right: 6px;"><?php echo htmlspecialchars($game['game_title']); ?></span>
                                                     <?php foreach ($g_regions as $region): ?>
@@ -520,7 +420,7 @@ if ($search_query !== '')
                                                 </div>
                                                 <?php endif; ?>
                                             </td>
-                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;"><strong><?php echo $game['peak']; ?></strong> peak</td>
+                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;"><strong><?php echo $game['peak']; ?></strong> players</td>
                                         </tr>
                                         <?php endforeach; ?>
                                     <?php else: ?>
@@ -532,6 +432,11 @@ if ($search_query !== '')
                     </div>
                 </div>
             </div>
+			
+			
+			
+			
+			
 
             <div class='container-tx1-block darkmode-txt'>
 				<div class='container-emp-block'></div>
@@ -556,7 +461,7 @@ if ($search_query !== '')
                                                     <?php
                                                         $display_icon = !empty($rpcn_stats->title_icons[$comm_id])
                                                                         ? $rpcn_stats->title_icons[$comm_id]
-                                                                        : '/cdn/rpcn/icon0/default.png';
+                                                                        : $default_icon;
                                                     ?>
                                                     <img src="<?php echo htmlspecialchars($display_icon); ?>" alt="Game Icon" class="rpcn-game-icon">
                                                     <?php echo htmlspecialchars(!empty($game_title) ? $game_title : 'Unknown'); ?>
@@ -593,16 +498,38 @@ if ($search_query !== '')
 {
     document.documentElement.classList.add('js-ready');
 
-    const gamesData    = <?php echo $search_json; ?>;
-    const searchInput  = document.getElementById('gameSearch');
+    const gamesData      = <?php echo $search_json; ?>;
+    const playerCounts   = <?php echo json_encode($title_player_counts); ?>;
+    const searchInput    = document.getElementById('gameSearch');
     const searchDropdown = document.getElementById('searchResults');
-    const searchForm   = document.getElementById('searchForm');
-    const serverResults = document.getElementById('serverSearchResults');
+    const searchForm     = document.getElementById('searchForm');
+    const serverResults  = document.getElementById('serverSearchResults');
+    const jsResults      = document.getElementById('jsSearchResults');
 
     if (!searchInput || !searchDropdown) return;
 
     if (serverResults) {
         serverResults.style.display = 'none';
+    }
+
+    function normalize(str)
+    {
+        return str
+            .toLowerCase()
+            .replace(/[^\w\s]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
+    function matchesQuery(title, query)
+    {
+        const nTitle = normalize(title);
+        const nQuery = normalize(query);
+
+        if (nTitle.includes(nQuery)) return true;
+
+        const words = nQuery.split(' ').filter(Boolean);
+        return words.every(w => nTitle.includes(w));
     }
 
     function renderDropdown(query)
@@ -615,8 +542,7 @@ if ($search_query !== '')
             return;
         }
 
-        const q        = query.toLowerCase();
-        const filtered = gamesData.filter(g => g.title.toLowerCase().includes(q)).slice(0, 10);
+        const filtered = gamesData.filter(g => matchesQuery(g.title, query)).slice(0, 10);
 
         if (filtered.length === 0)
         {
@@ -644,7 +570,7 @@ if ($search_query !== '')
                 <img src="${game.icon}"
                      class="search-icon"
                      alt="icon"
-                     onerror="this.src='/cdn/rpcn/icon0/default.png'">
+                     onerror="this.src='cdn/rpcn/icon0/default.png'">
                 <span class="search-title">${game.title}</span>
                 <div class="search-flags">${flagsHtml}</div>
             `;
@@ -654,14 +580,108 @@ if ($search_query !== '')
         searchDropdown.style.display = 'block';
     }
 
+    function renderInlineResults(query)
+    {
+        if (!jsResults) return;
+
+        searchDropdown.style.display = 'none';
+
+        if (query.length < 1)
+        {
+            jsResults.style.display = 'none';
+            return;
+        }
+
+        const filtered = gamesData.filter(g => matchesQuery(g.title, query));
+        const count    = filtered.length;
+        const esc      = str => str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+        let rowsHtml = '';
+        if (count === 0)
+        {
+            rowsHtml = '<p class="search-no-results">No games found matching your search.</p>';
+        }
+        else
+        {
+            let tableRows = '';
+            filtered.forEach(game =>
+            {
+                const online = playerCounts[game.id] ?? 0;
+
+                const statusDot = online > 0
+                    ? `<div class='rpcn-list-ico-status'></div>`
+                    : `<div class='rpcn-list-ico-status' style="background: rgba(255,255,255,0.1);"></div>`;
+
+                let flagsHtml = '';
+                if (game.regions && game.regions.length > 0)
+                {
+                    game.regions.forEach(r =>
+                    {
+                        flagsHtml += `<div class='rpcn-list-flags'><img src="/img/icons/compat/${esc(r.toUpperCase())}.png" alt="${esc(r)}"></div>`;
+                    });
+                }
+
+                const playerHtml = online > 0
+                    ? `<div class='rpcn-list-ico-player' style="background: url(/img/icons/rpcn/user.png) center / 20px no-repeat;"></div><span>${online}&nbsp;Online</span>`
+                    : `<span style="color: #69707a; font-size: 0.85rem;">No players online</span>`;
+
+                tableRows += `
+                    <tr class='darkmode-txt'>
+                        <td>
+                            <div class='rpcn-list-title'>
+                                <div class='rpcn-list-title-container'>
+                                    ${statusDot}
+                                    <a href="rpcn-game.php?comm_id=${encodeURIComponent(game.id)}" class="table-game-link" style="display:flex; align-items:center;">
+                                        <img src="${esc(game.icon)}" alt="Game Icon" class="rpcn-game-icon" onerror="this.src='cdn/rpcn/icon0/default.png'">
+                                        ${esc(game.title)}
+                                    </a>
+                                </div>
+                                ${flagsHtml ? `<div class='rpcn-list-regions'>${flagsHtml}</div>` : ''}
+                            </div>
+                        </td>
+                        <td>${playerHtml}</td>
+                    </tr>`;
+            });
+
+            rowsHtml = `<div class="rpcn-list-con-container"><table><tbody>${tableRows}</tbody></table></div>`;
+        }
+
+        jsResults.innerHTML = `
+            <div class="search-results-section">
+                <div class="search-results-header">
+                    <span class="search-results-title">Results for &ldquo;${esc(query)}&rdquo;</span>
+                    <span class="search-results-count">${count} game${count !== 1 ? 's' : ''}</span>
+                    <a href="rpcn.php" class="search-clear-link">&#10005; Clear search</a>
+                </div>
+                ${rowsHtml}
+            </div>`;
+        jsResults.style.display = 'block';
+    }
+
     searchInput.addEventListener('input', function ()
     {
         renderDropdown(this.value.trim());
+        if (jsResults) jsResults.style.display = 'none';
     });
 
     searchInput.addEventListener('focus', function ()
     {
         if (this.value.trim().length >= 2) renderDropdown(this.value.trim());
+    });
+
+    searchInput.addEventListener('keydown', function (e)
+    {
+        if (e.key === 'Enter')
+        {
+            e.preventDefault();
+            renderInlineResults(this.value.trim());
+        }
+    });
+
+    searchForm.addEventListener('submit', function (e)
+    {
+        e.preventDefault();
+        renderInlineResults(searchInput.value.trim());
     });
 
     document.addEventListener('click', function (e)

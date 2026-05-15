@@ -86,6 +86,12 @@ var dark_classes = [
 	{"base": ".rpcn-infopane-con-inner-a", "toggle": "dm-bg-2"},
 	{"base": ".rpcn-playerbase-con-container", "toggle": "dm-bg-2"},
 	{"base": ".rpcn-playerbase-con-banner", "toggle": "dm-rpcn-gradient"},
+	
+	{"base": ".rpcn-datapane-con-inner-a", "toggle": "dm-bg-2"},
+	{"base": ".rpcn-datapane-con-banner", "toggle": "dm-rpcn-gradient"},
+	
+	{"base": ".darkmode-search-border", "toggle": "dm-search-border"},
+	{"base": ".darkmode-search-bg", "toggle": "dm-search-bg"},
 
 	// Blog
 	{"base": ".nav-links", "toggle": "dm-default dm-txt"},

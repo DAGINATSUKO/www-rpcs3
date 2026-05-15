@@ -12,10 +12,13 @@ class RPCNGame
     private string $logFile;
     private string $iconBasePath;
     private string $defaultIcon;
+    private string $pic1JsonPath;
+    private string $pic1BasePath;
 
     public bool   $has_error        = false;
     public string $gameTitle        = 'Unknown Game';
     public string $gameIcon         = '';
+    public string $gamePic1         = '';
     public int    $currentPlayers   = 0;
     public array  $regions          = [];
     public bool   $hasLeaderboard   = false;
@@ -26,6 +29,7 @@ class RPCNGame
     public string $timeAgoStr       = '';
     public array  $chartDataHourly  = [];
     public array  $chartDataDaily   = [];
+    public array  $chartDataAllTime = [];
 
     public function __construct(
         string $cacheDir,
@@ -38,7 +42,9 @@ class RPCNGame
         string $parsersPath,
         string $logFile,
         string $iconBasePath,
-        string $defaultIcon
+        string $defaultIcon,
+        string $pic1JsonPath = '',
+        string $pic1BasePath = ''
     ) {
         $this->cacheDir       = rtrim($cacheDir, '/') . '/';
         $this->cacheTime      = $cacheTime;
@@ -51,6 +57,8 @@ class RPCNGame
         $this->logFile        = $logFile;
         $this->iconBasePath   = rtrim($iconBasePath, '/') . '/';
         $this->defaultIcon    = $defaultIcon;
+        $this->pic1JsonPath   = $pic1JsonPath;
+        $this->pic1BasePath   = rtrim($pic1BasePath, '/'). '/';
     }
 
     private function log_error(string $message): void
@@ -332,11 +340,34 @@ class RPCNGame
                 $search = $stats->icon_alias[$id] ?? $id;
                 if (isset($stats->icons_db[$search]))
                 {
-                    $temp_url = $this->iconBasePath . $stats->icons_db[$search] . '.png';
+                    $file_name = $stats->icons_db[$search] . '.png';
+                    $temp_url  = $this->iconBasePath . $file_name;
 
-                    if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
+                    if (file_exists($temp_url))
                     {
                         $this->gameIcon = $temp_url;
+                        break;
+                    }
+                }
+            }
+        }
+
+        // Resolve PIC1 background
+        $this->gamePic1 = ''; 
+        if ($this->pic1JsonPath !== '' && file_exists($this->pic1JsonPath))
+        {
+            $pic1Db = json_decode(file_get_contents($this->pic1JsonPath), true) ?: [];
+            foreach ($stats->title_ids[$commId] ?? [] as $id)
+            {
+                $search = $stats->icon_alias[$id] ?? $id;
+                if (isset($pic1Db[$search]))
+                {
+                    $file_name = $pic1Db[$search] . '.png';
+                    $temp_url  = $this->pic1BasePath . $file_name;
+
+                    if (file_exists($temp_url))
+                    {
+                        $this->gamePic1 = $temp_url;
                         break;
                     }
                 }
@@ -372,8 +403,9 @@ class RPCNGame
                     $this->peakAllTime     = (int)($pg['peakAllTime']     ?? 0);
                     $this->peakAllTimeDate = (string)($pg['peakAllTimeDate'] ?? '');
                     $this->timeAgoStr      = (string)($pg['timeAgoStr']      ?? '');
-                    $this->chartDataHourly = (array)($pg['chartDataHourly']  ?? []);
-                    $this->chartDataDaily  = (array)($pg['chartDataDaily']   ?? []);
+                    $this->chartDataHourly  = (array)($pg['chartDataHourly']  ?? []);
+                    $this->chartDataDaily   = (array)($pg['chartDataDaily']   ?? []);
+                    $this->chartDataAllTime = (array)($pg['chartDataAllTime'] ?? []);
                     return;
                 }
             }
@@ -386,8 +418,9 @@ class RPCNGame
             'peakAllTime'     => $this->peakAllTime,
             'peakAllTimeDate' => $this->peakAllTimeDate,
             'timeAgoStr'      => $this->timeAgoStr,
-            'chartDataHourly' => $this->chartDataHourly,
-            'chartDataDaily'  => $this->chartDataDaily,
+            'chartDataHourly'  => $this->chartDataHourly,
+            'chartDataDaily'   => $this->chartDataDaily,
+            'chartDataAllTime' => $this->chartDataAllTime,
         ]));
     }
 
@@ -440,7 +473,7 @@ class RPCNGame
             SELECT players AS peak, timestamp
             FROM   np_psn_games
             WHERE  comm_id = ?
-            ORDER  BY players DESC, timestamp DESC
+            ORDER  BY players DESC, timestamp ASC
             LIMIT  1
         ");
         $peakAllTime_psn = 0;
@@ -596,10 +629,71 @@ class RPCNGame
             $this->chartDataDaily[] = ['x' => $date, 'y' => $peak];
         }
 
+        // All-time daily chart data (no date limit)
+        $alltime = [];
+
+        $stmt = $db->prepare("
+            SELECT DATE(timestamp) AS date, MAX(players) AS peak
+            FROM   np_psn_games
+            WHERE  comm_id = ?
+            GROUP  BY DATE(timestamp)
+            ORDER  BY date ASC
+        ");
+        if ($stmt)
+        {
+            $stmt->bind_param('s', $commId);
+            $stmt->execute();
+            $res = $stmt->get_result();
+            while ($row = $res->fetch_assoc())
+            {
+                $alltime[$row['date']] = max($alltime[$row['date']] ?? 0, (int)$row['peak']);
+            }
+            $stmt->close();
+        }
+
+        if (!empty($titleIds))
+        {
+            $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
+            $types        = str_repeat('s', count($titleIds));
+            $stmt = $db->prepare("
+                SELECT DATE(timestamp) AS date, MAX(players) AS peak
+                FROM   np_ticket_games
+                WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                GROUP  BY DATE(timestamp)
+                ORDER  BY date ASC
+            ");
+            if ($stmt)
+            {
+                $stmt->bind_param($types, ...$titleIds);
+                $stmt->execute();
+                $res = $stmt->get_result();
+                while ($row = $res->fetch_assoc())
+                {
+                    $alltime[$row['date']] = max($alltime[$row['date']] ?? 0, (int)$row['peak']);
+                }
+                $stmt->close();
+            }
+        }
+
+        ksort($alltime);
+        foreach ($alltime as $date => $peak)
+        {
+            $this->chartDataAllTime[] = ['x' => $date, 'y' => $peak];
+        }
+
         if ($this->peakAllTimeDate !== '')
         {
-            $diff = (new DateTime())->diff(new DateTime($this->peakAllTimeDate));
-            if ($diff->y > 0)     $this->timeAgoStr = $diff->y . ' year'  . ($diff->y > 1 ? 's' : '') . ' ago';
+            $diff        = (new DateTime())->diff(new DateTime($this->peakAllTimeDate));
+            $totalMonths = $diff->y * 12 + $diff->m;
+            if ($totalMonths >= 12)
+            {
+                $years   = $totalMonths / 12;
+                $rounded = round($years * 2) / 2;
+                if ($rounded == (int)$rounded)
+                    $this->timeAgoStr = (int)$rounded . ' year' . ($rounded != 1 ? 's' : '') . ' ago';
+                else
+                    $this->timeAgoStr = number_format($rounded, 1) . ' years ago';
+            }
             elseif ($diff->m > 0) $this->timeAgoStr = $diff->m . ' month' . ($diff->m > 1 ? 's' : '') . ' ago';
             elseif ($diff->d > 0) $this->timeAgoStr = $diff->d . ' day'   . ($diff->d > 1 ? 's' : '') . ' ago';
             else                  $this->timeAgoStr = 'today';
@@ -633,7 +727,9 @@ $rpcn_game = new RPCNGame(
     $parsers_path,
     $log_file,
     $icon_base_path,
-    $default_icon
+    $default_icon,
+    $pic1_json,
+    $pic1_base_path
 );
 
 if ($isAjax)
@@ -659,6 +755,7 @@ if ($mysqli) $mysqli->close();
 
 $gameTitle       = $rpcn_game->gameTitle;
 $gameIcon        = $rpcn_game->gameIcon;
+$gamePic1        = $rpcn_game->gamePic1;
 $currentPlayers  = $rpcn_game->currentPlayers;
 $regions         = $rpcn_game->regions;
 $hasLeaderboard  = $rpcn_game->hasLeaderboard;
