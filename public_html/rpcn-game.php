@@ -192,6 +192,7 @@ $lb_back_url   = 'rpcn-game.php?comm_id=' . urlencode($commId) . '&tab=lb';
 $nojsBoardId   = null;
 $nojsBoardHtml = '';
 
+$show_trophies_tab = $rpcn_game->hasTrophies && ($_GET['tab'] ?? '') === 'trophies';
 $show_lb_tab = $hasLeaderboard && (isset($_GET['board_id']) || ($_GET['tab'] ?? '') === 'lb');
 if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
 {
@@ -722,15 +723,21 @@ body::before {
         </div>
     </div>
 
-    <input type="radio" name="rpcn-tab" id="tab-charts" class="rpcn-sr" <?= (!$hasLeaderboard || !$show_lb_tab) ? 'checked' : '' ?>>
+    <input type="radio" name="rpcn-tab" id="tab-charts" class="rpcn-sr" <?= (!$show_lb_tab && !$show_trophies_tab) ? 'checked' : '' ?>>
     <?php if ($hasLeaderboard): ?>
     <input type="radio" name="rpcn-tab" id="tab-lb" class="rpcn-sr" <?= $show_lb_tab ? 'checked' : '' ?>>
+    <?php endif; ?>
+    <?php if ($rpcn_game->hasTrophies): ?>
+    <input type="radio" name="rpcn-tab" id="tab-trophies" class="rpcn-sr" <?= $show_trophies_tab ? 'checked' : '' ?>>
     <?php endif; ?>
 
     <div class="rpcn-tabs-nav">
         <label for="tab-charts" class="rpcn-tab-btn">Player Charts</label>
         <?php if ($hasLeaderboard): ?>
             <label for="tab-lb" class="rpcn-tab-btn">Leaderboards</label>
+        <?php endif; ?>
+        <?php if ($rpcn_game->hasTrophies): ?>
+            <label for="tab-trophies" class="rpcn-tab-btn">Trophies (<?= $rpcn_game->totalTrophies ?>)</label>
         <?php endif; ?>
     </div>
 
@@ -792,7 +799,33 @@ body::before {
 
         </div><!-- /#panel-lb -->
         <?php endif; ?>
-
+        <?php if ($rpcn_game->hasTrophies): ?>
+        <div id="panel-trophies" class="rpcn-tab-panel">
+            <div class="rpcn-trophy-list">
+                <?php foreach ($rpcn_game->trophies as $t): ?>
+                <div class="rpcn-trophy-item">
+                    <img class="rpcn-trophy-icon" src="<?= htmlspecialchars($t['icon']) ?>" alt="Trophy Icon" onerror="this.src='<?= htmlspecialchars($default_icon) ?>'">
+                    <div class="rpcn-trophy-info">
+                        <div class="rpcn-trophy-name">
+                            <?= htmlspecialchars($t['name']) ?>
+                            <?php if ($t['hidden']): ?>
+                                <span class="rpcn-trophy-hidden">Hidden</span>
+                            <?php endif; ?>
+                        </div>
+                        <div class="rpcn-trophy-desc"><?= htmlspecialchars($t['detail']) ?></div>
+                        <div class="rpcn-trophy-stats">
+                            <span style="color: <?= $t['rarityColor'] ?>"><?= $t['rarity'] ?></span>
+                            <span style="color: var(--rpcn-subtle)"><?= number_format($t['percentage'], 1) ?>%</span>
+                        </div>
+                    </div>
+                    <div class="rpcn-trophy-type rpcn-type-<?= htmlspecialchars($t['type']) ?>" title="<?= ucfirst(htmlspecialchars($t['type'])) ?>">
+                        <svg viewBox="0 0 24 24"><path d="M20.2,4.6C19.7,4.2,19.1,4,18.5,4H18V3c0-0.6-0.4-1-1-1H7C6.4,2,6,2.4,6,3v1H5.5C4.9,4,4.3,4.2,3.8,4.6 C3.4,5,3,5.6,3,6.2V8c0,2.3,1.4,4.2,3.5,4.8C7.1,14.6,8.4,16,10,16.8V19H8c-0.6,0-1,0.4-1,1v1c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1v-1 c0-0.6-0.4-1-1-1h-2v-2.2c1.6-0.8,2.9-2.2,3.5-4C19.6,12.2,21,10.3,21,8V6.2C21,5.6,20.6,5,20.2,4.6z M5,8V6.2C5,6.1,5.1,5.9,5.2,5.9 C5.3,5.8,5.4,5.8,5.5,5.8H6v4.4C5.4,9.9,5,9,5,8z M19,8c0,1-0.4,1.9-1,2.3V5.8h0.5c0.1,0,0.2,0,0.3,0.1C18.9,5.9,19,6.1,19,6.2V8z"/></svg>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif; ?>
     </div><!-- /.rpcn-tab-panels -->
 
 </div><!-- /.rpcn-page-wrap -->

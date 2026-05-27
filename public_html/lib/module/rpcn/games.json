@@ -182,7 +182,7 @@
     "id": []
 },
 "NPWR00077_00": {
-    "title": ["Unknown Game"],
+    "title": ["skate."],
     "id": []
 },
 "NPWR00082_00": {
@@ -1246,7 +1246,7 @@
 },
 "NPWR00574_00": {
     "title": ["ゴミ箱 -GOMIBAKO-"],
-    "id": ["NPUA80247"]
+    "id": ["NPUA80247", "NPHA80058"]
 },
 "NPWR00575_00": {
     "title": ["真・三國無双５ Empires"],
@@ -2105,11 +2105,11 @@
 },
 "NPWR00875_00": {
     "title": ["Vandal Hearts: Flames of Judgment"],
-    "id": []
+    "id": ["NPUB30075"]
 },
 "NPWR00876_00": {
     "title": ["Vandal Hearts: Flames of Judgment"],
-    "id": []
+    "id": ["NPJB00038"]
 },
 "NPWR00877_00": {
     "title": ["Vandal Hearts: Flames of Judgment"],
@@ -2445,7 +2445,7 @@
 },
 "NPWR01014_00": {
     "title": ["Tumble"],
-    "id": ["BCJS30068", "NPUA80470", "NPEA00239", "NPHA80114"],
+    "id": ["BCJS30068", "NPUA80470", "NPEA00239", "NPHA80114", "NPJA00064"],
     "collection-id": ["BCES01334", "BCET00025", "BCUS98368"]
 },
 "NPWR01016_00": {
@@ -3816,7 +3816,8 @@
 },
 "NPWR01506_00": {
     "title": ["Prince of Persia: The Sands of Time"],
-    "id": ["BLES01092", "BLUS30754", "NPEB00341", "NPUB30303"]
+    "id": ["NPEB00341", "NPUB30303"],
+    "collection-id": ["BLES01092", "BLUS30754"]
 },
 "NPWR01507_00": {
     "title": ["Space Channel 5 Part 2"],
@@ -3881,7 +3882,8 @@
 },
 "NPWR01526_00": {
     "title": ["Prince of Persia: Warrior Within"],
-    "id": ["BLES01092", "BLUS30754", "NPUB30388", "NPEB00389"]
+    "id": [ "NPUB30388", "NPEB00389"],
+    "collection-id": ["BLES01092", "BLUS30754"]
 },
 "NPWR01527_00": {
     "title": ["Funky Lab Rat"],
@@ -3953,7 +3955,8 @@
 },
 "NPWR01551_00": {
     "title": ["Prince of Persia: The Two Thrones"],
-    "id": ["BLES01092", "BLUS30754", "NPUB30387", "NPEB00390"]
+    "id": ["NPUB30387", "NPEB00390"],
+    "collection-id": ["BLES01092", "BLUS30754"]
 },
 "NPWR01552_00": {
     "title": ["Alice: Madness Returns"],
@@ -6990,7 +6993,7 @@
     "id": ["BLAS50498", "BLKS20375"]
 },
 "NPWR03724_00": {
-    "title": ["マクロス30～銀河を繋ぐ歌声～"],
+    "title": ["Macross 30 Ginga o Tsunagu Utagoe"],
     "id": ["BLJS10184"]
 },
 "NPWR03725_00": {
@@ -6998,7 +7001,7 @@
     "id": ["BLUS31046"]
 },
 "NPWR03726_00": {
-    "title": ["激アツ!! パチゲー魂MAX ヱヴァンゲリヲン “7” × “生命の鼓動”"],
+    "title": ["Gekiatsu!! Pachige-Damashi Max Evangelion 7 x Seimei no kodou"],
     "id": ["BLJM60509"]
 },
 "NPWR03729_00": {
@@ -7018,23 +7021,23 @@
     "id": ["BLES01715", "BLJM60505", "BLUS31027", "NPEB01124", "NPUB30930"]
 },
 "NPWR03740_00": {
-    "title": ["三國志12"],
+    "title": ["Sangokushi 12"],
     "id": ["BLJM60550", "BLJM61078", "NPJB00253"]
 },
 "NPWR03742_00": {
-    "title": ["ドリームクラブZERO Special Edipyon!"],
+    "title": ["Dream C Club Zero: Special Edipyon!"],
     "id": ["BLJS10208"]
 },
 "NPWR03745_00": {
-    "title": ["真・三國無双７"],
+    "title": ["Dynasty Warriors 8"],
     "id": ["BLJM60586", "NPJB00325"]
 },
 "NPWR03752_00": {
-    "title": ["みんなのGOLF 6"],
+    "title": ["Everybody's Golf 6"],
     "id": ["BCJS30089", "NPJA00086"]
 },
 "NPWR03754_00": {
-    "title": ["ガンダムブレイカー"],
+    "title": ["Gundam Breaker"],
     "id": ["BLJS10197", "NPJB00357"]
 },
 "NPWR03755_00": {
@@ -7254,7 +7257,7 @@
     "id": ["BLES01752", "BLUS31077", "NPUB31062"]
 },
 "NPWR03959_00": {
-    "title": ["Brothers"],
+    "title": ["Brothers: A Tale of Two Sons"],
     "id": ["NPEB01201"]
 },
 "NPWR03961_00": {
@@ -8021,7 +8024,7 @@
 },
 "NPWR04643_00": {
     "title": ["Giana Sisters: Twisted Dreams"],
-    "id": ["NPEB01338"]
+    "id": ["NPEB01338", "NPUB31272"]
 },
 "NPWR04645_00": {
     "title": ["TEKKEN REVOLUTION"],
@@ -8512,7 +8515,7 @@
 },
 "NPWR05140_00": {
     "title": ["麻雀覇王 段級バトル3"],
-    "id": ["BLJM61030"]
+    "id": ["BLJM61030", "NPJB00522"]
 },
 "NPWR05149_00": {
     "title": ["戦国BASARA4"],
@@ -8958,8 +8961,8 @@
     "id": ["BLES01998", "BLUS31392", "NPEB01954", "NPUB31429"]
 },
 "NPWR05896_00": {
-    "title": ["ブラザーズ 2人の息子の物語"],
-    "id": []
+    "title": ["Brothers: A Tale of Two Sons"],
+    "id": ["NPJB00568"]
 },
 "NPWR05897_00": {
     "title": ["Jet Car Stunts"],

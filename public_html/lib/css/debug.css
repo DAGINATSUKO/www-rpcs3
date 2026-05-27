@@ -674,7 +674,42 @@
 	line-height:22px;
 	display: inline-block;
 }
+/* Trophies Tab  */
+.rpcn-trophy-list { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.rpcn-trophy-item {
+    display: flex; align-items: center; background: var(--rpcn-surface);
+    border: 1px solid var(--rpcn-border); border-radius: var(--rpcn-radius-sm);
+    padding: 14px 16px; gap: 16px; transition: background .2s;
+}
+.rpcn-trophy-item:hover { background: var(--rpcn-accent-bg); }
+.rpcn-trophy-icon {
+    width: 56px; height: 56px; flex-shrink: 0; border-radius: 4px;
+    background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+.rpcn-trophy-info { flex: 1; min-width: 0; }
+.rpcn-trophy-name { font-size: 1.05rem; font-weight: 700; color: var(--rpcn-text-strong); margin-bottom: 2px; display: flex; align-items: center; gap: 8px; }
+.rpcn-trophy-desc { font-size: 0.85rem; color: var(--rpcn-subtle); margin-bottom: 6px; }
+.rpcn-trophy-stats { display: flex; align-items: center; gap: 12px; font-size: 0.8rem; font-weight: 600; }
+.rpcn-trophy-hidden { font-size: 0.65rem; background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
 
+.rpcn-trophy-type {
+    width: 44px; height: 44px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+    border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.rpcn-trophy-type svg { width: 22px; height: 22px; }
+.rpcn-type-platinum { background: linear-gradient(135deg, #e6e9f0, #eef1f5); border: 2px solid #aeb5cc; }
+.rpcn-type-platinum svg { fill: #7b88a8; }
+.rpcn-type-gold { background: linear-gradient(135deg, #ffe066, #f5b041); border: 2px solid #b8860b; }
+.rpcn-type-gold svg { fill: #8a6300; }
+.rpcn-type-silver { background: linear-gradient(135deg, #e0e0e0, #bdc3c7); border: 2px solid #95a5a6; }
+.rpcn-type-silver svg { fill: #556061; }
+.rpcn-type-bronze { background: linear-gradient(135deg, #e09f67, #cd7f32); border: 2px solid #8b4513; }
+.rpcn-type-bronze svg { fill: #5c3016; }
+#tab-trophies:checked ~ .rpcn-tabs-nav label[for="tab-trophies"] {
+    color: var(--rpcn-accent); border-bottom-color: var(--rpcn-accent);
+}
+#tab-trophies:checked ~ .rpcn-tab-panels #panel-trophies { display: block; }
 
 
 

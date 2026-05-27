@@ -14,6 +14,11 @@ class RPCNGame
     private string $defaultIcon;
     private string $pic1JsonPath;
     private string $pic1BasePath;
+    private string $trophiesJsonPath;
+    private string $trophiesIconBasePath;
+    private string $trophiesSetsPath;
+    private int    $trophiesCacheTime;
+    private array  $raritySettings;
 
     public bool   $has_error        = false;
     public string $gameTitle        = 'Unknown Game';
@@ -30,6 +35,9 @@ class RPCNGame
     public array  $chartDataHourly  = [];
     public array  $chartDataDaily   = [];
     public array  $chartDataAllTime = [];
+    public bool   $hasTrophies      = false;
+    public int    $totalTrophies    = 0;
+    public array  $trophies         = [];
 
     public function __construct(
         string $cacheDir,
@@ -44,21 +52,31 @@ class RPCNGame
         string $iconBasePath,
         string $defaultIcon,
         string $pic1JsonPath = '',
-        string $pic1BasePath = ''
+        string $pic1BasePath = '',
+        string $trophiesJsonPath = '',
+        string $trophiesIconBasePath = '',
+        string $trophiesSetsPath = '',
+        int    $trophiesCacheTime = 3600,
+        array  $raritySettings = []
     ) {
-        $this->cacheDir       = rtrim($cacheDir, '/') . '/';
-        $this->cacheTime      = $cacheTime;
-        $this->maxDisplayRows = $maxDisplayRows;
-        $this->badwordsFile   = $badwordsFile;
-        $this->blacklistFile  = $blacklistFile;
-        $this->violationLog   = $violationLog;
-        $this->apiBase        = rtrim($apiBase, '/');
-        $this->parsersPath    = rtrim($parsersPath, '/') . '/';
-        $this->logFile        = $logFile;
-        $this->iconBasePath   = rtrim($iconBasePath, '/') . '/';
-        $this->defaultIcon    = $defaultIcon;
-        $this->pic1JsonPath   = $pic1JsonPath;
-        $this->pic1BasePath   = rtrim($pic1BasePath, '/'). '/';
+        $this->cacheDir             = rtrim($cacheDir, '/') . '/';
+        $this->cacheTime            = $cacheTime;
+        $this->maxDisplayRows       = $maxDisplayRows;
+        $this->badwordsFile         = $badwordsFile;
+        $this->blacklistFile        = $blacklistFile;
+        $this->violationLog         = $violationLog;
+        $this->apiBase              = rtrim($apiBase, '/');
+        $this->parsersPath          = rtrim($parsersPath, '/') . '/';
+        $this->logFile              = $logFile;
+        $this->iconBasePath         = rtrim($iconBasePath, '/') . '/';
+        $this->defaultIcon          = $defaultIcon;
+        $this->pic1JsonPath         = $pic1JsonPath;
+        $this->pic1BasePath         = rtrim($pic1BasePath, '/') . '/';
+        $this->trophiesJsonPath     = $trophiesJsonPath;
+        $this->trophiesIconBasePath = rtrim($trophiesIconBasePath, '/') . '/';
+        $this->trophiesSetsPath     = rtrim($trophiesSetsPath, '/') . '/';
+        $this->trophiesCacheTime    = $trophiesCacheTime;
+        $this->raritySettings       = $raritySettings;
     }
 
     private function log_error(string $message): void
@@ -152,6 +170,83 @@ class RPCNGame
 
         $this->log_error("API returned HTTP {$httpCode} for {$url} and no cache exists.");
         return '';
+    }
+
+    private function loadTrophies(string $commId): void
+    {
+        $cacheFile = $this->cacheDir . "trophies_{$commId}.json";
+        $url       = $this->apiBase . "/trophy/" . rawurlencode($commId);
+
+        $json = $this->fetch_api($url, $cacheFile);
+        if ($json === '') return;
+
+        $apiData = json_decode($json, true);
+        if (!is_array($apiData)) return;
+
+        $localFile = $this->trophiesSetsPath . $commId . '.json';
+        if (!file_exists($localFile)) return;
+
+        $localData = json_decode(@file_get_contents($localFile), true);
+        if (!is_array($localData) || empty($localData['trophies'])) return;
+
+        $this->hasTrophies   = true;
+        $this->totalTrophies = (int)($localData['totalItemCount'] ?? count($localData['trophies']));
+
+        $uniquePlayers = (int)($apiData['uniquePlayers'] ?? 0);
+        $earnerMap     = [];
+        foreach ($apiData['trophies'] ?? [] as $t)
+        {
+            $earnerMap[(int)$t['trophyId']] = (int)$t['earnerCount'];
+        }
+
+        $iconMap = [];
+        if ($this->trophiesJsonPath !== '' && file_exists($this->trophiesJsonPath))
+        {
+            $mapData = json_decode(@file_get_contents($this->trophiesJsonPath), true);
+            if (isset($mapData[$commId]))
+            {
+                $iconMap = $mapData[$commId];
+            }
+        }
+
+        foreach ($localData['trophies'] as $t)
+        {
+            $trophyId = (int)$t['trophyId'];
+            $tId      = (string)$trophyId;
+
+            $iconHash = $iconMap[$tId] ?? '';
+            $iconUrl  = $iconHash !== '' ? $this->trophiesIconBasePath . $iconHash . '.png' : $this->defaultIcon;
+
+            $earnerCount = $earnerMap[$trophyId] ?? 0;
+            $pct = ($uniquePlayers > 0)
+                ? round($earnerCount / $uniquePlayers * 100, 2)
+                : 0.0;
+
+            $rarity      = 'Common';
+            $rarityColor = '#a0aec0';
+            foreach ($this->raritySettings as $setting)
+            {
+                if (($pct == 0.0 && $setting['max_pct'] == 0.0) || ($pct > 0.0 && $pct <= $setting['max_pct']))
+                {
+                    $rarity      = $setting['name'];
+                    $rarityColor = $setting['color'];
+                    break;
+                }
+            }
+
+            $this->trophies[] = [
+                'id'          => $trophyId,
+                'hidden'      => (bool)($t['trophyHidden'] ?? false),
+                'type'        => $t['trophyType']   ?? 'unknown',
+                'name'        => $t['trophyName']   ?? 'Unknown',
+                'detail'      => $t['trophyDetail'] ?? '',
+                'earnerCount' => $earnerCount,
+                'percentage'  => $pct,
+                'rarity'      => $rarity,
+                'rarityColor' => $rarityColor,
+                'icon'        => $iconUrl,
+            ];
+        }
     }
 
     // Leaderboard ajax
@@ -382,6 +477,8 @@ class RPCNGame
             $loaded       = include $parserPath;
             $this->boards = is_array($loaded) ? ($loaded['config']['names'] ?? []) : [];
         }
+
+        $this->loadTrophies($commId);
 
         // Database stats
         if ($db === null) return;
@@ -729,7 +826,12 @@ $rpcn_game = new RPCNGame(
     $icon_base_path,
     $default_icon,
     $pic1_json,
-    $pic1_base_path
+    $pic1_base_path,
+    $trophies_json ?? '',
+    $trophies_icon_base_path ?? '',
+    $trophies_sets_path ?? '',
+    (int)($trophies_cache_time ?? 3600),
+    $trophies_rarity_settings ?? []
 );
 
 if ($isAjax)
