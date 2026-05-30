@@ -1,7 +1,12 @@
 @charset "utf-8";
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Debug CSS used for testing before adding to main.css */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .toggle-message {
-	display:none;
+	display: none;
 }
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* RPCN Testing */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .rpcn-playerbase-con-container {
 	background:#fff;
@@ -317,44 +322,362 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 @keyframes anim-rpcn-status-pulse {
 	0% {
-			transform:scale(1);
+				transform:scale(1);
 	}
 	50% {
-			transform:scale(1.1);
+				transform:scale(1.1);
 	}
 	100% {
-			transform:scale(1);
+				transform:scale(1);
 	}
 }
 @keyframes anim-rpcn-status-pulse-ring {
 	0% {
-			transform:scale(0.8);
-			opacity:0.5;
+				transform:scale(0.8);
+				opacity:0.5;
 	}
 	50% {
-			transform:scale(1.2);
-			opacity:0;
+				transform:scale(1.2);
+				opacity:0;
 	}
 	100% {
-			transform:scale(0.8);
-			opacity: 0.5;
+				transform:scale(0.8);
+				opacity: 0.5;
 	}
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 @media screen and (max-width:800px) {
 	.rpcn-infopane-con-outer {
-			float:unset !important;
-			width:100% !important;
-			margin-bottom:20px;
+				float:unset !important;
+				width:100% !important;
+				margin-bottom:20px;
 	}
 }
 @media screen and (max-width:800px) {
 	.rpcn-infopane-con-inner-a {
-			margin:0;
+				margin:0;
 	}
 }
 @media screen and (max-width:800px) {
 	.rpcn-list-ico-status {
-			display: none;
+				display: none;
 	}
 }
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* RPCN Testing 2 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.rpcn-list-title-container {
+	display:flex;
+	align-items:center;
+}
+.rpcn-game-icon {
+	width:64px;
+	height:auto;
+	border-radius:4px;
+	margin:0 10px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+/* Search form */
+.search-container {
+	position:relative;
+	margin-top: 20px;
+	z-index: 100;
+	box-shadow: rgba(0, 0, 0, .1) 0 16px 32px 0;
+	border-radius: 50px;
+}
+.search-form {
+	border-radius: 50px;
+}
+.search-input {
+	flex:1;
+	padding:15px;
+	border-radius:4px 0 0 4px;
+	border: solid 2px #fff;
+	background: #fff;
+	color:#fff;
+	font-size:16px;
+	box-sizing:border-box;
+	min-width:0;
+}
+.search-input:focus {
+	outline:none;
+	border-color:#66c0f4;
+}
+.search-submit {
+	padding:0 18px;
+	background:#2a475e;
+	border:1px solid rgba(255,255,255,0.1);
+	border-left:none;
+	border-radius:0 4px 4px 0;
+	color: #fff;
+	font-size:15px;
+	cursor:pointer;
+	white-space:nowrap;
+	transition:background .15s,color .15s;
+	line-height:1;
+}
+.search-submit:hover {
+	background:#3d6b8a;
+	color:#fff;
+}
+.js-ready .search-submit {
+	display:none;
+}
+.js-ready .search-input {
+	width: 100%;
+	color:#fff;
+	border-radius: 50px;
+	font-family: 'Roboto-Bold';
+	font-size: 18px;
+}
+.js-ready .search-input:focus::placeholder  {
+	color:#686de0;
+}
+.js-ready .search-input:hover::placeholder  {
+	color:#686de0;
+}
+.search-results {
+	position:absolute;
+	margin-top: 14px;
+	top:100%;
+	left:0;
+	right:0;
+	background: rgba(17,21,37,.6);
+	backdrop-filter: blur(32px) saturate(240%);
+	border: 1px solid rgba(255,255,255,0.1);
+	max-height: 312px;
+	overflow-y:auto;
+	display:none;
+	box-shadow: rgba(0,0,0,0.1) 0 10px 32px 0;
+	border-radius: 24px;
+}
+.search-item {
+	display:flex;
+	align-items:center;
+	padding:10px;
+	cursor:pointer;
+	border-bottom:1px solid rgba(255,255,255,0.05);
+	text-decoration:none;
+	color:#d5d6d8;
+}
+.search-item:hover {
+	background:#03A9F4;
+}
+.search-icon {
+	width: 64px;
+	border-radius: 6px;
+	margin-right: 12px;
+	margin-left: 2px;
+	margin-top: 4px;
+	flex-shrink:0;
+	box-shadow: rgba(0,0,0,0.1) 0 10px 32px 0;
+	border: solid 1px rgb(255 255 255 / 10%);
+}
+.search-title {
+	flex-grow:1;
+	font-family: Roboto-Regular;
+	font-size: 14px;
+	line-height: 14px;
+	color: #fff;
+	text-shadow: rgba(0,0,0,.25) 0 2px 2px;
+}
+.search-flags img {
+	height: 38px;
+	width: 36px;
+	margin-left: 12px;
+}
+.search-results-section {
+	margin-top:30px;
+}
+.search-results-header {
+	display:flex;
+	align-items:center;
+	gap:12px;
+	margin-bottom:12px;
+	flex-wrap:wrap;
+}
+.search-results-title {
+	font-size:1.1rem;
+	font-weight:700;
+	color:#c7d5e0;
+}
+.search-results-count {
+	font-size:0.82rem;
+	color:#69707a;
+	background:rgba(255,255,255,0.05);
+	padding:2px 10px;
+	border-radius:20px;
+}
+.search-clear-link {
+	margin-left:auto;
+	font-size:0.82rem;
+	color:#66c0f4;
+	text-decoration:none;
+	opacity:0.7;
+}
+.search-clear-link:hover {
+	opacity:1;
+}
+.search-no-results {
+	color:#69707a;
+	font-style:italic;
+	padding:20px 0;
+	text-align:center;
+}
+.search-result-online-badge {
+	display:inline-flex;
+	align-items:center;
+	gap:5px;
+	color:#4cffb3;
+	font-size:0.85rem;
+	font-weight:600;
+	white-space:nowrap;
+}
+.search-result-online-dot {
+	width:7px;
+	height:7px;
+	border-radius:50%;
+	background:#4cffb3;
+	flex-shrink:0;
+}
+.table-game-link {
+	display:flex;
+	align-items:center;
+	color:inherit;
+	text-decoration:none;
+	transition:0.15s ease-in-out;
+}
+.table-game-link:hover {
+	color:#66c0f4;
+}
+.rpcn-service-error {
+	display:flex;
+	align-items:center;
+	gap:8px;
+	color:#ffaaaa;
+	font-size:14px;
+	padding: 6px 0;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.rpcn-datapane-con-container {
+	width:100%;
+	height:auto;
+	display:inline-block;
+}
+.rpcn-datapane-con-outer {
+	width:33.3333%;
+	height:100%;
+	position:relative;
+	float:left;
+}
+.rpcn-datapane-con-inner-a {
+	border-radius:16px;
+	background:#fff;
+	box-shadow:rgba(0,0,0,0.1) 0 10px 32px 0;
+	margin:10px;
+	overflow:hidden;
+	position:relative;
+	transition:all 0.1s ease-in-out 0s;
+	border:1px solid rgba(255,255,255,0.1);
+	min-height: 230px;
+}
+.rpcn-datapane-con-inner-a:hover {
+	transform:translate(0px,-10px);
+}
+.rpcn-datapane-con-text h3 {
+	font-family:Roboto-Bold;
+	font-size:24px;
+	line-height:26px;
+	color:#fff;
+	height:24px;
+	padding-left:20px;
+	padding-top:20px;
+	margin-bottom:15px;
+}
+.rpcn-datapane-con-text p {
+	font-family:Roboto-Regular;
+	font-size:16px;
+	line-height:18px;
+	color:#fff;
+	height:18px;
+	padding-left:20px;
+	padding-top:5px;
+}
+.rpcn-datapane-con-text-bold {
+	color:rgba(255,255,255,0.5);
+	font-family:Roboto-Bold;
+}
+.rpcn-datapane-con-image {
+	height:64px;
+	position:relative;
+	margin-left:20px;
+	background-size:32px !important;
+}
+.rpcn-datapane-con-graphic {
+	height:184px;
+	width:206px;
+	position:absolute;
+	background-size:contain !important;
+}
+.rpcn-datapane-tx1-title {
+	font-family:Roboto-Bold;
+	font-size:24px;
+	line-height:26px;
+	margin:20px;
+	position:relative;
+}
+.rpcn-datapane-tx2-desc {
+	font-family:Roboto-Regular;
+	font-size:14px;
+	line-height:26px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:28px;
+	z-index:1;
+	position:relative;
+}
+.rpcn-datapane-tx3-label {
+	background:rgb(255 159 67 / 10%);
+	border:solid 1px rgb(255 159 67 / 60%);
+	border-radius:6px;
+	padding:2px 6px;
+	font-family:Roboto-Regular;
+	font-size:14px;
+	top:-4px;
+	position:relative;
+	color:rgb(255 159 67);
+	line-height:0px;
+}
+.text1 {
+	font-family:'Roboto-Bold';
+	font-size:70px;
+	text-align:left;
+	width:100%;
+	height:60px;
+	line-height:60px;
+	display:inline-block;
+}
+.text2 {
+	font-family:'Roboto-Bold';
+	font-size:25px;
+	margin-top:22px;
+	width:100%;
+	height:22px;
+	line-height:22px;
+	display:inline-block;
+}
+.text3 {
+	font-size:18px;
+	margin-top:5px;
+	width:100%;
+	height:22px;
+	line-height:22px;
+	display: inline-block;
+}
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* RPCN Testing 2 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

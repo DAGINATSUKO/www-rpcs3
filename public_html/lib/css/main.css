@@ -5,7 +5,9 @@
     margin: 0;
     color: inherit
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Core: Fonts */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 @font-face {
     font-family: Roboto-Thin;
     src: url(/lib/font/Roboto-Thin.woff) format("woff")
@@ -25,7 +27,9 @@
     font-family: Roboto-Bold;
     src: url(/lib/font/Roboto-Bold.woff) format("woff")
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Core: Core selectors */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 body {
     width: 100%;
     height: 100%;
@@ -77,7 +81,327 @@ a:hover {
 ::placeholder {
     color: #0074e7
 }
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Footer */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.footer-con-container {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background: #000
+}
 
+.footer-con-overlay {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
+}
+
+.footer-con-header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 290px;
+    padding-top: 56px;
+    padding-bottom: 50px
+}
+
+.footer-con-outer {
+    position: relative;
+    max-width: 1320px;
+    height: 100%;
+    margin: 0 auto
+}
+
+.footer-con-inner {
+    position: relative;
+    bottom: 0;
+    height: 100%;
+    margin-right: 60px;
+    margin-left: 60px
+}
+
+.footer-con-foot {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%
+}
+
+.footer-ico-logo {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    width: 42px;
+    height: 42px;
+    background: url("/img/icons/menu/logo.png") center center/36px no-repeat
+}
+
+.footer-con-bound {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto
+}
+
+.footer-tx1-bound {
+    font-family: Roboto-Bold;
+    font-size: 20px;
+    line-height: 20px;
+    position: relative;
+    height: 20px;
+    margin-bottom: 16px;
+    text-align: left;
+    color: #fff;
+    text-rendering: optimizelegibility;
+    text-shadow: rgba(0,0,0,.25) 0 2px 2px
+}
+
+.footer-tx2-bound {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    line-height: 28px;
+    position: relative;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.25) 0 2px 2px
+}
+
+.footer-tx2-bound span:hover {
+    text-decoration: underline
+}
+
+.footer-tx2-bound a {
+    color: #fff
+}
+
+.footer-tx2-bound a:hover {
+    text-decoration: underline
+}
+
+.footer-con-credits {
+    display: block;
+    width: 100%;
+    height: 200px
+}
+
+.footer-con-side {
+    width: 50%;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 60px
+}
+
+.footer-tx1-webmaster {
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    height: 100%;
+    right: 0
+}
+
+.footer-tx1-webmaster a {
+    color: #fff
+}
+
+.footer-tx1-founder {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    height: 100%;
+    color: #fff;
+    left: 0;
+    text-shadow: rgba(0,0,0,.25) 0 2px 2px
+}
+
+.footer-tx1-founder a {
+    color: #fff
+}
+
+.footer-ico-container {
+    position: relative;
+    background: rgb(255 255 255/10%);
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    border: solid 1px rgb(255 255 255/20%);
+    border-radius: 12px;
+    padding: 2px;
+    margin-right: 10px;
+    box-shadow: rgba(0,0,0,.2) 6px 6px 10px 0;
+    backdrop-filter: blur(6px);
+    transition: all .1s ease-in-out 0s
+}
+
+.footer-ico-container:hover {
+    background: rgb(255 255 255/20%)
+}
+
+.footer-ico-developer {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin: -20px;
+    top: 50%;
+    left: 50%
+}
+
+.footer-tx1-developer {
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    font-size: 14px;
+    text-shadow: rgba(0,0,0,.25) 0 2px 2px;
+    position: relative;
+    background: rgb(255 255 255/10%);
+    padding: 8px 10px;
+    display: inline-block;
+    border-radius: 38px;
+    border: solid 1px rgb(255 255 255/10%);
+    top: -18px;
+    box-shadow: rgba(0,0,0,.2) 6px 6px 10px 0;
+    backdrop-filter: blur(6px);
+    transition: all .1s ease-in-out 0s
+}
+
+.footer-tx1-developer:hover {
+    background: rgb(255 255 255/20%);
+    transition: all .1s ease-in-out 0s
+}
+
+.footer-con-powered {
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    position: relative;
+    opacity: .2;
+    padding-top: 30px
+}
+
+.footer-tx1-powered {
+    width: auto;
+    height: 15px;
+    float: left;
+    margin-right: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff
+}
+
+.footer-ico-powered {
+    width: unset;
+    height: 15px;
+    float: left;
+    margin-right: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-size: contain!important
+}
+
+.footer-con-seprator {
+    height: 2px;
+    background: rgba(255,255,255,.1);
+    border-radius: 2px
+}
+
+.footer-table-out {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+    border-collapse: collapse
+}
+
+.footer-table-out tr:nth-child(2n+1) {
+    background: 0 0!important
+}
+
+.footer-table-out tr:last-child {
+    border-bottom: 1px solid transparent!important
+}
+
+.footer-table-out tr {
+    background: 0 0!important
+}
+
+.footer-table-out tr td {
+    position: relative;
+    height: 100%
+}
+
+.footer-table-in {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Errors */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.error-con-content {
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 146px;
+    margin: -73px -250px
+}
+
+.error-ico-content {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    animation-name: fadeInUp;
+    animation-duration: .5s
+}
+
+.error-tx1-content {
+    font-family: Roboto-Light;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    animation-name: fadeInUp;
+    animation-duration: .5s;
+    text-align: center;
+    color: #fff
+}
+
+.error-tx2-content {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    width: 100%;
+    height: 25px;
+    animation-name: fadeInUp;
+    animation-duration: .5s;
+    text-align: center;
+    color: #fff
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Containers */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .page-con-content {
     position: relative;
     top: 0;
@@ -98,7 +422,9 @@ a:hover {
     min-height: 60px;
     margin: 0 auto
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Effects: Wavebar */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .wavebar-con-container-theme {
     width: 100%;
     height: 100%;
@@ -146,7 +472,9 @@ a:hover {
     animation: 11s cubic-bezier(.4,.2,.2,.2) -.124s infinite normal none running wavebar-svg-object,11s ease -1.24s infinite normal none running swell;
     opacity: 1
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Mini */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .mini-menu-con-dimmer {
     width: 100%;
     height: 100%;
@@ -259,7 +587,9 @@ a:hover {
     background: #686de0;
     box-shadow: rgb(104 109 224/50%) 0 0 64px 0
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Main */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .menu-con-message {
     position: fixed;
     z-index: 9990;
@@ -441,7 +771,9 @@ a:hover {
     box-shadow: rgba(46,204,113,.4) 0 10px 32px 0;
     border: 2px solid #57e694
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Mobile */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .menu-con-divider {
     position: relative;
     display: inline-block;
@@ -669,7 +1001,18 @@ a:hover {
     width: 60px;
     border-bottom: 2px solid #fff
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Advisory popup toggles */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.toggle-discord {
+	cursor:pointer;
+}
+.toggle-reddit {
+	cursor:pointer;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Popup: Discord advisory */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .discord-menu-con-dimmer {
 	width:100%;
 	height:100%;
@@ -803,7 +1146,9 @@ a:hover {
 	-webkit-box-shadow: rgb(88 101 242 / 50%) 0 0 64px 0;
 	        box-shadow: rgb(88 101 242 / 50%) 0 0 64px 0
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Popup: Reddit advisory */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .reddit-menu-con-dimmer {
 	width:100%;
 	height:100%;
@@ -939,14 +1284,9 @@ a:hover {
 	-webkit-box-shadow: rgb(255 172 128 / 50%) 0 0 64px 0;
 	        box-shadow: rgb(255 172 128 / 50%) 0 0 64px 0
 }
-
-.toggle-discord {
-	cursor:pointer;
-}
-.toggle-reddit {
-	cursor:pointer;
-}
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Settings */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .settings-menu-con-outer {
     z-index: 9999;
     position: fixed;
@@ -1097,7 +1437,9 @@ a:hover {
     background: rgb(255 255 255/10%) url(/img/icons/submenu/theme-h.png) center center/20px no-repeat;
     border: solid 1px rgb(255 255 255/10%)
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Patreon support + misc */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .support-con-menu {
     position: relative;
     top: 0;
@@ -1231,7 +1573,9 @@ a:hover {
     background: url("/img/icons/submenu/testing-h.png") center center/28px no-repeat;
     transition: all .1s ease-in-out 0s
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Themes Window */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .window-con-theme {
     width: 100%;
     height: 100%;
@@ -1301,7 +1645,9 @@ a:hover {
     position: absolute;
     animation: 1s linear 0s infinite normal none running spinnerRotate
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Generic Sidebar */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .sidebar-con-container {
     position: relative;
     animation-name: fadeInLeft;
@@ -1437,7 +1783,9 @@ a:hover {
     height: 100px;
     position: relative
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Menu: Blog sidebar */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .blogbar-con-anim {
     z-index: 9999;
     overflow: hidden scroll;
@@ -1475,7 +1823,9 @@ a:hover {
     color: #fff;
     background: rgba(0,0,0,.1)
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Banner */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .banner-con-container {
     position: relative;
     z-index: 2;
@@ -1540,7 +1890,9 @@ a:hover {
     margin-left: -25px;
     position: relative
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Content Containers */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .container-con-block {
     position: relative;
     height: auto;
@@ -1688,7 +2040,9 @@ a:hover {
 .splitter-con-left {
     margin-right: 40px
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Buttons: Generic */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .generic-con-button {
     position: relative;
     width: auto;
@@ -1761,7 +2115,9 @@ a:hover {
     height: 20px;
     line-height: 20px
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Quickstart */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .spec-con-container {
     width: 100%;
     height: auto;
@@ -2013,7 +2369,9 @@ a:hover {
     text-decoration: underline;
     background: url("/img/icons/arrows/right-a.png") center center/64px no-repeat!important
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Homepage */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .landing-ico-scrolldown {
     position: fixed;
     z-index: 3;
@@ -2906,7 +3264,9 @@ a:hover {
 .search-con-author a:hover {
     color: #686de0
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Video Player: Core */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .video-con-container {
     width: 100%;
     height: 310px;
@@ -3212,7 +3572,9 @@ a:hover {
     width: 100%;
     opacity: .3
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Branding */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .palette-con-container {
     width: 100%;
     height: 180px;
@@ -3364,7 +3726,9 @@ a:hover {
     background: #ff9f43;
     box-shadow: rgba(255,159,67,.5) 0 10px 16px 0
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: About */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .user-con-content {
     position: relative;
     height: auto;
@@ -3821,7 +4185,9 @@ a:hover {
     margin-right: -6px;
     background-size: 18px!important
 }
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Download */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .downloadable-con-container {
     width: 100%;
     height: auto;
@@ -4751,6 +5117,8 @@ a:hover {
     padding: 8px 16px
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Page Layout: Requirements */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .requirements-con-backdrop {
 	background:url(/img/graphics/index/handheld-1.jpg) no-repeat center / cover;
 	width:100%;
@@ -4977,7 +5345,7 @@ a:hover {
 	}
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/* FAQ RPCS3 UI */
+/* Page Layouts: FAQ RPCS3 UI */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .window-con-emu {
 	display:block;
@@ -5127,321 +5495,9 @@ a:hover {
 	position:relative;
 	opacity: 0.6;
 }
-/* Footer  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
-.footer-con-container {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    background: #000
-}
-
-.footer-con-overlay {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    background: linear-gradient(-135deg,rgb(0,42,135) 25%,rgb(147,64,255) 100%)
-}
-
-.footer-con-header {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 290px;
-    padding-top: 56px;
-    padding-bottom: 50px
-}
-
-.footer-con-outer {
-    position: relative;
-    max-width: 1320px;
-    height: 100%;
-    margin: 0 auto
-}
-
-.footer-con-inner {
-    position: relative;
-    bottom: 0;
-    height: 100%;
-    margin-right: 60px;
-    margin-left: 60px
-}
-
-.footer-con-foot {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 100%
-}
-
-.footer-ico-logo {
-    position: absolute;
-    top: -6px;
-    left: 0;
-    width: 42px;
-    height: 42px;
-    background: url("/img/icons/menu/logo.png") center center/36px no-repeat
-}
-
-.footer-con-bound {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px;
-    height: auto
-}
-
-.footer-tx1-bound {
-    font-family: Roboto-Bold;
-    font-size: 20px;
-    line-height: 20px;
-    position: relative;
-    height: 20px;
-    margin-bottom: 16px;
-    text-align: left;
-    color: #fff;
-    text-rendering: optimizelegibility;
-    text-shadow: rgba(0,0,0,.25) 0 2px 2px
-}
-
-.footer-tx2-bound {
-    font-family: Roboto-Regular;
-    font-size: 14px;
-    line-height: 28px;
-    position: relative;
-    color: #fff;
-    text-shadow: rgba(0,0,0,.25) 0 2px 2px
-}
-
-.footer-tx2-bound span:hover {
-    text-decoration: underline
-}
-
-.footer-tx2-bound a {
-    color: #fff
-}
-
-.footer-tx2-bound a:hover {
-    text-decoration: underline
-}
-
-.footer-con-credits {
-    display: block;
-    width: 100%;
-    height: 200px
-}
-
-.footer-con-side {
-    width: 50%;
-    height: 70px;
-    position: relative;
-    display: inline-block;
-    float: left;
-    top: 60px
-}
-
-.footer-tx1-webmaster {
-    position: absolute;
-    z-index: 1;
-    width: auto;
-    height: 100%;
-    right: 0
-}
-
-.footer-tx1-webmaster a {
-    color: #fff
-}
-
-.footer-tx1-founder {
-    font-family: Roboto-Regular;
-    font-size: 16px;
-    position: absolute;
-    z-index: 1;
-    width: auto;
-    height: 100%;
-    color: #fff;
-    left: 0;
-    text-shadow: rgba(0,0,0,.25) 0 2px 2px
-}
-
-.footer-tx1-founder a {
-    color: #fff
-}
-
-.footer-ico-container {
-    position: relative;
-    background: rgb(255 255 255/10%);
-    width: 44px;
-    height: 44px;
-    display: inline-block;
-    border: solid 1px rgb(255 255 255/20%);
-    border-radius: 12px;
-    padding: 2px;
-    margin-right: 10px;
-    box-shadow: rgba(0,0,0,.2) 6px 6px 10px 0;
-    backdrop-filter: blur(6px);
-    transition: all .1s ease-in-out 0s
-}
-
-.footer-ico-container:hover {
-    background: rgb(255 255 255/20%)
-}
-
-.footer-ico-developer {
-    position: absolute;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    margin: -20px;
-    top: 50%;
-    left: 50%
-}
-
-.footer-tx1-developer {
-    font-family: Roboto-Regular;
-    font-weight: 400;
-    font-size: 14px;
-    text-shadow: rgba(0,0,0,.25) 0 2px 2px;
-    position: relative;
-    background: rgb(255 255 255/10%);
-    padding: 8px 10px;
-    display: inline-block;
-    border-radius: 38px;
-    border: solid 1px rgb(255 255 255/10%);
-    top: -18px;
-    box-shadow: rgba(0,0,0,.2) 6px 6px 10px 0;
-    backdrop-filter: blur(6px);
-    transition: all .1s ease-in-out 0s
-}
-
-.footer-tx1-developer:hover {
-    background: rgb(255 255 255/20%);
-    transition: all .1s ease-in-out 0s
-}
-
-.footer-con-powered {
-    z-index: 9999;
-    width: 100%;
-    height: auto;
-    position: relative;
-    opacity: .2;
-    padding-top: 30px
-}
-
-.footer-tx1-powered {
-    width: auto;
-    height: 15px;
-    float: left;
-    margin-right: 30px;
-    display: inline-block;
-    margin-bottom: 20px;
-    font-family: Roboto-Regular;
-    font-size: 16px;
-    line-height: 16px;
-    color: #fff
-}
-
-.footer-ico-powered {
-    width: unset;
-    height: 15px;
-    float: left;
-    margin-right: 30px;
-    display: inline-block;
-    margin-bottom: 20px;
-    background-size: contain!important
-}
-
-.footer-con-seprator {
-    height: 2px;
-    background: rgba(255,255,255,.1);
-    border-radius: 2px
-}
-
-.footer-table-out {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin-top: 0;
-    padding: 0;
-    border-collapse: collapse
-}
-
-.footer-table-out tr:nth-child(2n+1) {
-    background: 0 0!important
-}
-
-.footer-table-out tr:last-child {
-    border-bottom: 1px solid transparent!important
-}
-
-.footer-table-out tr {
-    background: 0 0!important
-}
-
-.footer-table-out tr td {
-    position: relative;
-    height: 100%
-}
-
-.footer-table-in {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%
-}
-/* Error Pages  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
-.error-con-content {
-    position: fixed;
-    z-index: 9999;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 146px;
-    margin: -73px -250px
-}
-
-.error-ico-content {
-    position: relative;
-    width: 100%;
-    height: 60px;
-    animation-name: fadeInUp;
-    animation-duration: .5s
-}
-
-.error-tx1-content {
-    font-family: Roboto-Light;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 60px;
-    position: relative;
-    width: 100%;
-    height: 60px;
-    animation-name: fadeInUp;
-    animation-duration: .5s;
-    text-align: center;
-    color: #fff
-}
-
-.error-tx2-content {
-    font-family: Roboto-Regular;
-    font-size: 16px;
-    line-height: 24px;
-    position: relative;
-    width: 100%;
-    height: 25px;
-    animation-name: fadeInUp;
-    animation-duration: .5s;
-    text-align: center;
-    color: #fff
-}
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Misc */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .button-disabled {
     pointer-events: none;
     opacity: .5

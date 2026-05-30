@@ -84,10 +84,31 @@
 								<div class="build-btn-button">
 									<div class="build-ico-button">
 										<div class="build-ico-os">
-											<img alt="Windows" src="img/icons/list/os-windows-11.png" style='height: 100%; width: 100%; object-fit: contain'/>
-											<img alt="Linux" src="img/icons/list/os-linux-na.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-											<img alt="macOS" src="img/icons/list/os-macos.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
-											<img alt="FreeBSD" src="img/icons/list/os-bsd.png" style='height: 100%; width: 100%; object-fit: contain; display:none;'/>
+											<?php
+
+											$os_icons = [
+												'Windows' => 'img/icons/list/os-windows-11.png',
+												'Linux'   => 'img/icons/list/os-linux-na.png',
+												'macOS'   => 'img/icons/list/os-macos.png',
+												'FreeBSD' => 'img/icons/list/os-bsd.png',
+											];
+
+											$os_name = $os_icon = null;
+											$ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+
+											if      (str_contains($ua, 'FreeBSD'))                                { $os_name = 'FreeBSD'; $os_icon = $os_icons['FreeBSD']; }
+											elseif  (str_contains($ua, 'Windows'))                                { $os_name = 'Windows'; $os_icon = $os_icons['Windows']; }
+											elseif  (str_contains($ua, 'Mac OS X'))                               { $os_name = 'macOS';   $os_icon = $os_icons['macOS'];   }
+											elseif  (str_contains($ua, 'Linux') && !str_contains($ua, 'Android')) { $os_name = 'Linux';   $os_icon = $os_icons['Linux'];   }
+											?>
+
+											<?php if ($os_icon !== null): ?>
+												<img alt="<?= $os_name ?>" src="<?= $os_icon ?>" style='height: 100%; width: 100%; object-fit: contain'/>
+											<?php else: ?>
+												<?php $first = true; foreach ($os_icons as $name => $icon): ?>
+												<img alt="<?= $name ?>" src="<?= $icon ?>" style='height: 100%; width: 100%; object-fit: contain<?= $first ? '' : '; display:none' ?>'/>
+												<?php $first = false; endforeach; ?>
+											<?php endif; ?>
 										</div>
 									</div>
 									<a href="/download">
@@ -125,7 +146,7 @@
 							</a>
 						</div>
 						<form action='/compatibility' method='get'>
-							<input class="database-search darkmode-txt darkmode-search-bg" name="g" placeholder="Game Title / Game ID">
+							<input class="database-search darkmode-txt darkmode-search-bg" name="g" placeholder="Game Title / Game ID...">
 						</form>
 					</div>
 				</div>

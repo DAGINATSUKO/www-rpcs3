@@ -1,4 +1,7 @@
 @charset "utf-8";
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Dark mode CSS overrides */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 @media screen and (max-width:800px) {
 	.dm-menu-ico-logo {
 		background:url(/img/icons/menu/logo-wide-dark.png) center center/36px no-repeat!important;

@@ -54,6 +54,7 @@ $(document).ready(function () {
   ];
 
   cyclers.forEach(function ({ selector, interval }) {
+    if ($(`${selector} img`).length <= 1) return;
     $(`${selector} img:gt(0)`).hide();
     setInterval(function () {
       $(`${selector} :first-child`).fadeOut(200)

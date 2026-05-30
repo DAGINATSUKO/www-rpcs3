@@ -176,6 +176,22 @@
 			<span>BU50N</span>
 		</div>
 	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BH30N</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+	</div>
 </div>
 <!-- -New Drive Section -->
 <div class="drives-con-container">
@@ -461,6 +477,33 @@
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BD-W512GSA</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
+		</div>
+	</div>
+</div>
+<!-- -New Drive Section -->
+<div class="drives-con-container">
+	<div class="container-tx3-block darkmode-txt">
+		<div class="anchor-point" id="dumping_bdd_teac">
+		</div>
+		<div class='container-emp-block'>
+		</div>
+		<span>
+		Verbatim Drives </span>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>Verbatim 43888</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
