@@ -23,8 +23,8 @@
 							<div class="video-tx1-description darkmode-txt scale-content-txt-4">
 								<div class='video-emp-block'>
 								</div>
-								<h2>RPCS3's 2025 Highlights and Technical Showcase</h2>
-								<h3>In this showcase we highlight the major milestones and achievements of RPCS3 throughout 2025. From significant performance improvements to expanded game compatibility, we celebrate a year of remarkable progress in PlayStation 3 emulation.</h3>
+								<h2>April and May Visual Improvements</h2>
+								<h3>We've tackled numerous visual fixes across multiple games and added some new features to enhance the emulation experience. In this video, we showcase the bug fixes and refinements we've implemented to boost compatibility and performance.</h3>
 							</div>
 						</div>
 					</div>
@@ -52,8 +52,8 @@
 							<div class="video-tx1-description darkmode-txt scale-content-txt-5">
 								<div class='video-emp-block'>
 								</div>
-								<h2>RPCS3's 2024 Highlights and Technical Showcase</h2>
-								<h3>In this showcase we highlight the major milestones and achievements of RPCS3 throughout 2024. From significant performance improvements to expanded game compatibility, we celebrate a year of remarkable progress in PlayStation 3 emulation.</h3>
+								<h2>RPCS3's 2025 Highlights and Technical Showcase</h2>
+								<h3>In this showcase we highlight the major milestones and achievements of RPCS3 throughout 2025. From significant performance improvements to expanded game compatibility, we celebrate a year of remarkable progress in PlayStation 3 emulation.</h3>
 							</div>
 						</div>
 					</div>
@@ -81,8 +81,8 @@
 							<div class="video-tx1-description darkmode-txt scale-content-txt-6">
 								<div class='video-emp-block'>
 								</div>
-								<h2>MotorStorm is now Playable on PC and Steam Deck</h2>
-								<h3>In this showcase we demonstrate MotorStorm running on RPCS3 across PC and Steam Deck. With recent emulation improvements, this PlayStation 3 exclusive off-road racing title is now fully playable, delivering an exciting experience on modern hardware.</h3>
+								<h2>Every SingStar Title Is Now Playable!</h2>
+								<h3>We're excited to announce a major milestone—complete SingStar compatibility! Through dedicated debugging and optimization work, every SingStar title is now playable in RPCS3. In this video, we showcase the fixes and improvements that made this achievement possible, demonstrating how these beloved rhythm games now run smoothly on the emulator.</h3>
 							</div>
 						</div>
 					</div>

@@ -182,8 +182,10 @@
 			</div>
 			<span>BH30N</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>CP50NS20</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
