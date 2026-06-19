@@ -142,7 +142,7 @@
 						<p>
 							 Windows
 						</p>
-						<span>Windows 11 24H2 or later</span><br>
+						<span>Windows 11 25H2 or later</span><br>
 						<br>
 						<p>
 							 Linux
