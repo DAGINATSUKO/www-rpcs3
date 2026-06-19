@@ -122,7 +122,7 @@
 						<ul class="requirements-cell-list">
 							<li>Linux</li>
 							<li>Windows 10</li>
-							<li>macOS 14</li>
+							<li>macOS 15</li>
 							<li>FreeBSD 14</li>
 						</ul>
 					</td>
