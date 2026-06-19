@@ -122,7 +122,7 @@
 						<ul class="requirements-cell-list">
 							<li>Linux</li>
 							<li>Windows 10</li>
-							<li>macOS 14</li>
+							<li>macOS 15</li>
 							<li>FreeBSD 14</li>
 						</ul>
 					</td>
@@ -190,8 +190,8 @@
 					</td>
 					<td>
 						<ul class="requirements-cell-list">
-							<li>ATI HD 5450</li>
-							<li>NVIDIA GT 420</li>
+							<li>ATI HD 5550</li>
+							<li>NVIDIA GT 430</li>
 							<li>Intel Arc A310</li>
 						</ul>
 					</td>

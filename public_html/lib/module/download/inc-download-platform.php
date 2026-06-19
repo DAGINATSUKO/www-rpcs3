@@ -246,7 +246,7 @@
 				<span>macOS</span> <span  class='downloadable-tx3-label'>Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 14.4+, 15.0+ or later.</span>
+				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 15 or later.</span>
 			</div>
 			<!-- SHA Section -->
 			<div class='sha2-tx1-title darkmode-txt'>
@@ -366,7 +366,7 @@
 				<span>FreeBSD</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 13.5 or later.<br><br><br><br></span>
+				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 14.4 or later.<br><br><br><br></span>
 			</div>
 			<a href="https://cgit.freebsd.org/ports/log/emulators/rpcs3">
 			<div class='package-con-button'>
