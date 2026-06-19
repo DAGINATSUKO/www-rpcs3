@@ -191,7 +191,7 @@
 					<td>
 						<ul class="requirements-cell-list">
 							<li>ATI HD 5550</li>
-							<li>NVIDIA GT 420</li>
+							<li>NVIDIA GT 430</li>
 							<li>Intel Arc A310</li>
 						</ul>
 					</td>
