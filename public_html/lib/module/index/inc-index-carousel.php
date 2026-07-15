@@ -52,8 +52,8 @@
 							<div class="video-tx1-description darkmode-txt scale-content-txt-5">
 								<div class='video-emp-block'>
 								</div>
-								<h2>RPCS3's 2025 Highlights and Technical Showcase</h2>
-								<h3>In this showcase we highlight the major milestones and achievements of RPCS3 throughout 2025. From significant performance improvements to expanded game compatibility, we celebrate a year of remarkable progress in PlayStation 3 emulation.</h3>
+								<h2>RPCS3: Improving the Handheld Experience</h2>
+								<h3>Our lead developers have been focusing on redesigning the ingame overlay of the emulator and we're announcing these updates with this video!</h3>
 							</div>
 						</div>
 					</div>

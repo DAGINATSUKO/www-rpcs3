@@ -203,7 +203,7 @@
 								</div>
 								<a href="/about">
 								<div class="footer-tx1-developer pulsate">
-									<span>Founded by DH and Hykem</span>
+									<span>Developed by the RPCS3 team</span>
 								</div>
 								</a>
 							</div>

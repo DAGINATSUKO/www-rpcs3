@@ -155,8 +155,8 @@
 					</td>
 					<td>
 						<ul class="requirements-cell-list">
-							<li>Intel Core 2 Duo</li>
 							<li>AMD Athlon 64 X2</li>
+							<li>Intel Core 2 Duo</li>
 							<li>ARM Cortex-A55 / A75</li>
 							<li>Apple M1</li>
 						</ul>
@@ -225,22 +225,22 @@
 					</td>
 					<td>
 						<div class="requirements-cell-primary">
-							 8 GB RAM
+							 8 GB
 						</div>
 					</td>
 					<td class="requirements-cell-highlight">
 						<div class="requirements-cell-primary">
-							 16 GB RAM
+							 16 GB
 						</div>
 					</td>
 					<td>
 						<div class="requirements-cell-primary">
-							 16 GB RAM
+							 16 GB
 						</div>
 					</td>
 					<td>
 						<div class="requirements-cell-primary">
-							 16 GB RAM
+							 16 GB
 						</div>
 					</td>
 				</tr>
