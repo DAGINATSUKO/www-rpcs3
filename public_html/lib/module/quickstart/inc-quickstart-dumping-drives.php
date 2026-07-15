@@ -185,7 +185,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>CP50NS20</span>
+			<span>CP50NS20 </span><span class="drives-txt-revisions">External Drive</span></span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>

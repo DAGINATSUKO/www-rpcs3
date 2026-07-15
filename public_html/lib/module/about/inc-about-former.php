@@ -289,7 +289,7 @@
 			</div>
 			<div class="user-con-socialsheet">
 				<div class="user-con-socialbox">
-					<a href="https://github.com/blj" target="_blank">
+					<a href="https://github.com/vlj" target="_blank">
 					<div class="socialbox-con-button">
 						<div class="socialbox-ico-platform" style="background: url('/img/icons/social/github.png') no-repeat center;">
 						</div>
