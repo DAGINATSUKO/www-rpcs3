@@ -5,10 +5,10 @@
 /*
 Usage:
 > wget
-wget --content-disposition https://rpcs3.net/latest-linux-arm64
+wget --content-disposition https://api.rpcs3.net/latest-linux-arm64
 
 > curl
-curl -JLO https://rpcs3.net/latest-linux-arm64
+curl -JLO https://api.rpcs3.net/latest-linux-arm64
 */
 
 if(!@include_once(__DIR__."/../lib/compat/objects/Build.php")) throw new Exception("Compat: Compatibility is missing. Failed to include Compatibility");

@@ -1,14 +1,14 @@
 <?php
 // 2019.01.01 - AniLeo
-// Permalink to latest Windows Build
+// Permalink to latest Windows x64 Build
 
 /*
 Usage:
 > wget
-wget --content-disposition https://rpcs3.net/latest-windows
+wget --content-disposition https://api.rpcs3.net/latest-windows-x64
 
 > curl
-curl -JLO https://rpcs3.net/latest-windows
+curl -JLO https://api.rpcs3.net/latest-windows-x64
 */
 
 if(!@include_once(__DIR__."/../lib/compat/objects/Build.php")) throw new Exception("Compat: Compatibility is missing. Failed to include Compatibility");
