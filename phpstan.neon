@@ -1,0 +1,7 @@
+# Exclude paths that require the rpcs3-compatibility submodule
+parameters:
+  excludePaths:
+    - public_html/api
+    - public_html/update
+    - public_html/download.php
+    - public_html/compatibility.php

@@ -5,13 +5,13 @@
 /*
 Usage:
 > wget
-wget --content-disposition https://rpcs3.net/latest-linux-arm64
+wget --content-disposition https://api.rpcs3.net/latest-linux-arm64
 
 > curl
-curl -JLO https://rpcs3.net/latest-linux-arm64
+curl -JLO https://api.rpcs3.net/latest-linux-arm64
 */
 
-if(!@include_once("lib/compat/objects/Build.php")) throw new Exception("Compat: Compatibility is missing. Failed to include Compatibility");
+if(!@include_once(__DIR__."/../lib/compat/objects/Build.php")) throw new Exception("Compat: Compatibility is missing. Failed to include Compatibility");
 $build = Build::get_latest("linux_arm64");
 header("Content-Disposition: attachment; filename={$build->filename_linux_arm64}");
 header("Location: {$build->get_url_linux_arm64()}");
