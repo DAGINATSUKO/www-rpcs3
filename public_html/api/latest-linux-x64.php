@@ -11,7 +11,7 @@ wget --content-disposition https://rpcs3.net/latest-linux-x64
 curl -JLO https://rpcs3.net/latest-linux-x64
 */
 
-if(!@include_once("lib/compat/objects/Build.php")) throw new Exception("Compat: Compatibility is missing. Failed to include Compatibility");
+if(!@include_once(__DIR__."/../lib/compat/objects/Build.php")) throw new Exception("Compat: Compatibility is missing. Failed to include Compatibility");
 $build = Build::get_latest("linux");
 header("Content-Disposition: attachment; filename={$build->filename_linux}");
 header("Location: {$build->get_url_linux()}");
