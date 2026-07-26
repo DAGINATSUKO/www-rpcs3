@@ -5,7 +5,5 @@
 *.sh
 .well-known/
 /lib/compat/
+/lib/module/rpcn/cache/*
 /cdn/rpcn/
-/forums/
-/wiki/
-/netplay/
