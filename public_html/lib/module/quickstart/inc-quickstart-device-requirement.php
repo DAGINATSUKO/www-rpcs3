@@ -215,7 +215,7 @@
 						<p>
 							 AMD - OpenGL 4.3 compatible or newer, running on Linux
 						</p>
-						<span>AMD Evergreen architecture, HD 5000 series or newer</span><br>
+						<span>AMD TeraScale architecture, HD 2000 series or newer</span><br>
 						<br>
 						<p>
 							 NVIDIA - OpenGL 4.3 compatible or newer
@@ -223,9 +223,9 @@
 						<span>NVIDIA Fermi architecture, GTX 400 series or newer</span><br>
 						<br>
 						<p>
-							 Intel - OpenGL 4.3 compatible or newer, running on Linux
+							 Intel - Vulkan 1.2 compatible or newer
 						</p>
-						<span>Intel GPUs and drivers are currently unsupported, but can run some games on Linux</span>
+						<span>Intel Alchemist architecture, A series or newer</span>
 					</div>
 				</div>
 			</div>

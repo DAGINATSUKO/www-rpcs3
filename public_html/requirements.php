@@ -190,7 +190,7 @@
 					</td>
 					<td>
 						<ul class="requirements-cell-list">
-							<li>ATI HD 5550</li>
+							<li>ATI HD 2900 XT</li>
 							<li>NVIDIA GT 430</li>
 							<li>Intel Arc A310</li>
 						</ul>
