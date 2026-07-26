@@ -5,7 +5,6 @@
 *.sh
 .well-known/
 /lib/compat/
-/lib/module/rpcn/
 /cdn/rpcn/
 /forums/
 /wiki/
