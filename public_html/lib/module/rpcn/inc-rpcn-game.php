@@ -525,35 +525,10 @@ class RPCNGame
     {
         $titleIds = $stats->title_ids[$commId] ?? [];
 
-        $queryTicketMax = function(string $extraWhere = '') use ($db, $titleIds): int
-        {
-            if (empty($titleIds)) return 0;
-
-            $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
-            $types        = str_repeat('s', count($titleIds));
-
-            $sql = "
-                SELECT MAX(players) AS peak
-                FROM   np_ticket_games
-                WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
-                $extraWhere
-            ";
-            $stmt = $db->prepare($sql);
-            if (!$stmt) return 0;
-
-            $stmt->bind_param($types, ...$titleIds);
-            $stmt->execute();
-            $val = (int)($stmt->get_result()->fetch_assoc()['peak'] ?? 0);
-            $stmt->close();
-            return $val;
-        };
-
-        // Peak 24 h
-        $stmt = $db->prepare("
-            SELECT MAX(players) AS peak
-            FROM   np_psn_games
-            WHERE  comm_id = ? AND timestamp >= NOW() - INTERVAL 24 HOUR
-        ");
+        // Peak 24h (PSN Games)
+        $stmt = $db->prepare("SELECT MAX(players) AS peak
+                              FROM   np_psn_games
+                              WHERE  comm_id = ? AND timestamp >= NOW() - INTERVAL 24 HOUR;");
         $peak24h_psn = 0;
         if ($stmt)
         {
@@ -562,17 +537,29 @@ class RPCNGame
             $peak24h_psn = (int)($stmt->get_result()->fetch_assoc()['peak'] ?? 0);
             $stmt->close();
         }
-        $peak24h_tkt   = $queryTicketMax("AND timestamp >= NOW() - INTERVAL 24 HOUR");
+
+        // Peak 24h (Ticket Games)
+        $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
+        $types        = str_repeat('s', count($titleIds));
+        $stmt = $db->prepare("SELECT MAX(players) AS peak
+                              FROM   np_ticket_games
+                              WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                              AND timestamp >= NOW() - INTERVAL 24 HOUR;");
+        $peak24h_tkt = 0;
+        if ($stmt)
+        {
+            $stmt->bind_param($types, ...$titleIds);
+            $stmt->execute();
+            $val = (int)($stmt->get_result()->fetch_assoc()['peak'] ?? 0);
+            $stmt->close();
+        }
+
         $this->peak24h = max($peak24h_psn, $peak24h_tkt);
 
         // All-time peak
-        $stmt = $db->prepare("
-            SELECT players AS peak, timestamp
-            FROM   np_psn_games
-            WHERE  comm_id = ?
-            ORDER  BY players DESC, timestamp ASC
-            LIMIT  1
-        ");
+        $stmt = $db->prepare("SELECT players AS peak, timestamp
+                              FROM   np_psn_games_peak
+                              WHERE  comm_id = ?;");
         $peakAllTime_psn = 0;
         $peakDate_psn    = '';
         if ($stmt)
@@ -580,8 +567,8 @@ class RPCNGame
             $stmt->bind_param('s', $commId);
             $stmt->execute();
             $rowAt           = $stmt->get_result()->fetch_assoc();
-            $peakAllTime_psn = (int)($rowAt['peak']      ?? 0);
-            $peakDate_psn    = (string)($rowAt['timestamp'] ?? '');
+            $peakAllTime_psn = (int)    ($rowAt['peak']      ?? 0);
+            $peakDate_psn    = (string) ($rowAt['timestamp'] ?? '');
             $stmt->close();
         }
 
@@ -591,13 +578,11 @@ class RPCNGame
         {
             $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
             $types        = str_repeat('s', count($titleIds));
-            $stmt = $db->prepare("
-                SELECT players AS peak, timestamp AS peak_date
-                FROM   np_ticket_games
-                WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
-                ORDER BY players DESC, timestamp ASC
-                LIMIT 1
-            ");
+            $stmt = $db->prepare("SELECT players AS peak, timestamp AS peak_date
+                                  FROM   np_ticket_games_peak
+                                  WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                                  ORDER BY players DESC, timestamp ASC
+                                  LIMIT 1;");
             if ($stmt)
             {
                 $stmt->bind_param($types, ...$titleIds);
@@ -623,13 +608,11 @@ class RPCNGame
         // Hourly chart data (last 7 days)
         $hourly = [];
 
-        $stmt = $db->prepare("
-            SELECT DATE_FORMAT(timestamp, '%Y-%m-%d %H:00:00') AS date, MAX(players) AS peak
-            FROM   np_psn_games
-            WHERE  comm_id = ? AND timestamp >= NOW() - INTERVAL 7 DAY
-            GROUP  BY date
-            ORDER  BY date ASC
-        ");
+        $stmt = $db->prepare("SELECT DATE_FORMAT(timestamp, '%Y-%m-%d %H:00:00') AS date, MAX(players) AS peak
+                              FROM   np_psn_games
+                              WHERE  comm_id = ? AND timestamp >= NOW() - INTERVAL 7 DAY
+                              GROUP  BY date
+                              ORDER  BY date ASC;");
         if ($stmt)
         {
             $stmt->bind_param('s', $commId);
@@ -646,14 +629,12 @@ class RPCNGame
         {
             $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
             $types        = str_repeat('s', count($titleIds));
-            $stmt = $db->prepare("
-                SELECT DATE_FORMAT(timestamp, '%Y-%m-%d %H:00:00') AS date, MAX(players) AS peak
-                FROM   np_ticket_games
-                WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
-                  AND  timestamp >= NOW() - INTERVAL 7 DAY
-                GROUP  BY date
-                ORDER  BY date ASC
-            ");
+            $stmt = $db->prepare("SELECT DATE_FORMAT(timestamp, '%Y-%m-%d %H:00:00') AS date, MAX(players) AS peak
+                                  FROM   np_ticket_games
+                                  WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                                    AND  timestamp >= NOW() - INTERVAL 7 DAY
+                                  GROUP  BY date
+                                  ORDER  BY date ASC;");
             if ($stmt)
             {
                 $stmt->bind_param($types, ...$titleIds);
@@ -676,13 +657,12 @@ class RPCNGame
         // Daily chart data (last 1 year)
         $daily = [];
 
-        $stmt = $db->prepare("
-            SELECT DATE(timestamp) AS date, MAX(players) AS peak
-            FROM   np_psn_games
-            WHERE  comm_id = ? AND timestamp >= NOW() - INTERVAL 1 YEAR
-            GROUP  BY DATE(timestamp)
-            ORDER  BY date ASC
-        ");
+        $stmt = $db->prepare("SELECT DATE(timestamp) AS date, MAX(players) AS peak
+                              FROM   np_psn_games
+                              WHERE  comm_id = ? 
+                                AND timestamp >= NOW() - INTERVAL 1 YEAR
+                              GROUP  BY DATE(timestamp)
+                              ORDER  BY date ASC;");
         if ($stmt)
         {
             $stmt->bind_param('s', $commId);
@@ -699,14 +679,12 @@ class RPCNGame
         {
             $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
             $types        = str_repeat('s', count($titleIds));
-            $stmt = $db->prepare("
-                SELECT DATE(timestamp) AS date, MAX(players) AS peak
-                FROM   np_ticket_games
-                WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
-                  AND  timestamp >= NOW() - INTERVAL 1 YEAR
-                GROUP  BY DATE(timestamp)
-                ORDER  BY date ASC
-            ");
+            $stmt = $db->prepare("SELECT DATE(timestamp) AS date, MAX(players) AS peak
+                                  FROM   np_ticket_games
+                                  WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                                    AND  timestamp >= NOW() - INTERVAL 1 YEAR
+                                  GROUP  BY DATE(timestamp)
+                                  ORDER  BY date ASC;");
             if ($stmt)
             {
                 $stmt->bind_param($types, ...$titleIds);
@@ -729,13 +707,11 @@ class RPCNGame
         // All-time daily chart data (no date limit)
         $alltime = [];
 
-        $stmt = $db->prepare("
-            SELECT DATE(timestamp) AS date, MAX(players) AS peak
-            FROM   np_psn_games
-            WHERE  comm_id = ?
-            GROUP  BY DATE(timestamp)
-            ORDER  BY date ASC
-        ");
+        $stmt = $db->prepare("SELECT DATE(timestamp) AS date, MAX(players) AS peak
+                              FROM   np_psn_games
+                              WHERE  comm_id = ?
+                              GROUP  BY DATE(timestamp)
+                              ORDER  BY date ASC;");
         if ($stmt)
         {
             $stmt->bind_param('s', $commId);
@@ -752,13 +728,11 @@ class RPCNGame
         {
             $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
             $types        = str_repeat('s', count($titleIds));
-            $stmt = $db->prepare("
-                SELECT DATE(timestamp) AS date, MAX(players) AS peak
-                FROM   np_ticket_games
-                WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
-                GROUP  BY DATE(timestamp)
-                ORDER  BY date ASC
-            ");
+            $stmt = $db->prepare("SELECT DATE(timestamp) AS date, MAX(players) AS peak
+                                  FROM   np_ticket_games
+                                  WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                                  GROUP  BY DATE(timestamp)
+                                  ORDER  BY date ASC;");
             if ($stmt)
             {
                 $stmt->bind_param($types, ...$titleIds);

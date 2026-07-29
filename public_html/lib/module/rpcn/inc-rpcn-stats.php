@@ -442,7 +442,7 @@ class RPCNStats
         $titleIdMap = $this->buildTitleIdMap();
 
         // 24h global peak
-        $res = $db->query("SELECT MAX(players) AS peak FROM np_players WHERE timestamp >= NOW() - INTERVAL 24 HOUR");
+        $res = $db->query("SELECT MAX(players) AS peak FROM np_players WHERE timestamp >= NOW() - INTERVAL 24 HOUR;");
         if ($res && $row = $res->fetch_assoc())
         {
             $this->peak_24h_users = (int)$row['peak'];
@@ -452,12 +452,10 @@ class RPCNStats
         $games24h = [];   // comm_id => int peak
 
         // np_psn_games
-        $res24_psn = $db->query("
-            SELECT comm_id, MAX(players) AS peak
-            FROM   np_psn_games
-            WHERE  timestamp >= NOW() - INTERVAL 24 HOUR
-            GROUP  BY comm_id
-        ");
+        $res24_psn = $db->query("SELECT comm_id, MAX(players) AS peak
+                                 FROM   np_psn_games
+                                 WHERE  timestamp >= NOW() - INTERVAL 24 HOUR
+                                 GROUP  BY comm_id;");
         if ($res24_psn)
         {
             while ($row = $res24_psn->fetch_assoc())
@@ -467,13 +465,11 @@ class RPCNStats
         }
 
         // np_ticket_games
-        $res24_tkt = $db->query("
-            SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS title_id,
-                   MAX(players) AS peak
-            FROM   np_ticket_games
-            WHERE  timestamp >= NOW() - INTERVAL 24 HOUR
-            GROUP  BY title_id
-        ");
+        $res24_tkt = $db->query("SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS title_id,
+                                     MAX(players) AS peak
+                                 FROM   np_ticket_games
+                                 WHERE  timestamp >= NOW() - INTERVAL 24 HOUR
+                                 GROUP  BY title_id;");
         if ($res24_tkt)
         {
             while ($row = $res24_tkt->fetch_assoc())
@@ -501,12 +497,11 @@ class RPCNStats
             ];
         }
 
-        $res_all = $db->query("
-            SELECT players AS peak, timestamp
-            FROM   np_players
-            ORDER  BY players DESC, timestamp ASC
-            LIMIT  1
-        ");
+        // All time peak
+        $res_all = $db->query("SELECT players AS peak, timestamp
+                               FROM   np_players
+                               ORDER  BY players DESC, timestamp ASC
+                               LIMIT  1;");
         if ($res_all && $row = $res_all->fetch_assoc())
         {
             $this->peak_alltime_users      = (int)$row['peak'];
@@ -515,45 +510,32 @@ class RPCNStats
         $gamesAlltime = [];
 
         // np_psn_games
-        $res_all_psn = $db->query("
-            SELECT m.comm_id, m.peak, MIN(t.timestamp) AS peak_date
-            FROM (
-                SELECT comm_id, MAX(players) AS peak
-                FROM   np_psn_games
-                GROUP  BY comm_id
-            ) m
-            JOIN np_psn_games t ON t.comm_id = m.comm_id AND t.players = m.peak
-            GROUP  BY m.comm_id
-        ");
+        $res_all_psn = $db->query("SELECT `comm_id`, `timestamp`, `players` FROM np_psn_games_peak;");
         if ($res_all_psn)
         {
             while ($row = $res_all_psn->fetch_assoc())
             {
                 $gamesAlltime[$row['comm_id']] = [
-                    'peak' => (int)$row['peak'],
-                    'date' => $row['peak_date'],
+                    'peak' => (int)$row['players'],
+                    'date' => $row['timestamp'],
                 ];
             }
         }
 
         // np_ticket_games
-        $res_all_tkt = $db->query("
-            SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS title_id,
-                   MAX(players) AS peak,
-                   SUBSTRING_INDEX(GROUP_CONCAT(timestamp ORDER BY players DESC, timestamp ASC), ',', 1) AS peak_date
-            FROM   np_ticket_games
-            GROUP  BY title_id
-        ");
+        $res_all_tkt = $db->query("SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS `title_id`, `timestamp`, `players` 
+                                   FROM np_ticket_games_peak 
+                                   GROUP BY title_id");
         if ($res_all_tkt)
         {
             while ($row = $res_all_tkt->fetch_assoc())
             {
                 $comm_id = $titleIdMap[$row['title_id']] ?? null;
                 if ($comm_id === null) continue;
-                $peak = (int)$row['peak'];
-                if (!isset($gamesAlltime[$comm_id]) || $peak > $gamesAlltime[$comm_id]['peak'])
+                $peak = (int)$row['players'];
+                if (!isset($gamesAlltime[$comm_id]) || $peak > $gamesAlltime[$comm_id]['players'])
                 {
-                    $gamesAlltime[$comm_id] = ['peak' => $peak, 'date' => $row['peak_date']];
+                    $gamesAlltime[$comm_id] = ['peak' => $peak, 'date' => $row['timestamp']];
                 }
             }
         }
