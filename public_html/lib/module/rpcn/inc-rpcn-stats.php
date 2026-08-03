@@ -533,7 +533,7 @@ class RPCNStats
                 $comm_id = $titleIdMap[$row['title_id']] ?? null;
                 if ($comm_id === null) continue;
                 $peak = (int)$row['players'];
-                if (!isset($gamesAlltime[$comm_id]) || $peak > $gamesAlltime[$comm_id]['players'])
+                if (!isset($gamesAlltime[$comm_id]) || $peak > $gamesAlltime[$comm_id]['peak'])
                 {
                     $gamesAlltime[$comm_id] = ['peak' => $peak, 'date' => $row['timestamp']];
                 }
