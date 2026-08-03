@@ -822,6 +822,7 @@ $rpcn_stats = new RPCNStats(
     $cache . 'usage.json'
 );
 
+mysqli_report(MYSQLI_REPORT_OFF);
 $mysqli = @mysqli_connect($db_host, $db_user, $db_pass, $db_name, (int)$db_port);
 if ($mysqli && $mysqli->connect_error) $mysqli = null;
 
