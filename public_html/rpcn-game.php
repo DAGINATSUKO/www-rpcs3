@@ -1,8 +1,85 @@
 <?php
-require_once 'lib/module/rpcn/config.php';
-require_once 'lib/module/rpcn/inc-rpcn-stats.php';
-require_once 'lib/module/rpcn/inc-rpcn-game.php';
 
+/** @var array{
+ *   rpcn_game: RPCNGame, commId: string, gameTitle: string, gameIcon: string, gamePic1: string,
+ *   defaultIcon: string, default_icon: string, currentPlayers: int, regions: list<string>,
+ *   hasLeaderboard: bool, boards: array<int, string>, peak24h: int, peakAllTime: int,
+ *   timeAgoStr: string, chartDataHourly: list<array{x: string, y: int}>,
+ *   chartDataDaily: list<array{x: string, y: int}>
+ * } $pageContext
+ */
+$pageContext = require __DIR__ . '/lib/module/rpcn/inc-rpcn-game.php';
+
+$rpcn_game = $pageContext['rpcn_game'];
+$commId = $pageContext['commId'];
+$gameTitle = $pageContext['gameTitle'];
+$gameIcon = $pageContext['gameIcon'];
+$gamePic1 = $pageContext['gamePic1'];
+$defaultIcon = $pageContext['defaultIcon'];
+$default_icon = $pageContext['default_icon'];
+$currentPlayers = $pageContext['currentPlayers'];
+$regions = $pageContext['regions'];
+$hasLeaderboard = $pageContext['hasLeaderboard'];
+$boards = $pageContext['boards'];
+$peak24h = $pageContext['peak24h'];
+$peakAllTime = $pageContext['peakAllTime'];
+$timeAgoStr = $pageContext['timeAgoStr'];
+$chartDataHourly = $pageContext['chartDataHourly'];
+$chartDataDaily = $pageContext['chartDataDaily'];
+
+/**
+ * @param array<int, string> $boards
+ * @return list<array{title: string|null, boards: array<int, string>}>
+ */
+function rpcn_group_leaderboard_boards(array $boards): array
+{
+    /** @var array<string, array{title: string|null, boards: array<int, string>}> $groups */
+    $groups = [];
+
+    foreach ($boards as $boardId => $boardName)
+    {
+        $parts = explode('|', $boardName, 2);
+        $section = null;
+        $label = $boardName;
+
+        if (count($parts) === 2)
+        {
+            $candidateSection = trim($parts[0]);
+            $candidateLabel = trim($parts[1]);
+
+            if ($candidateSection !== '' && $candidateLabel !== '')
+            {
+                $section = $candidateSection;
+                $label = $candidateLabel;
+            }
+        }
+
+        $groupKey = $section === null ? '__ungrouped__' : 'section:' . $section;
+
+        if (!isset($groups[$groupKey]))
+        {
+            $groups[$groupKey] = [
+                'title' => $section,
+                'boards' => [],
+            ];
+        }
+
+        $groups[$groupKey]['boards'][$boardId] = $label;
+    }
+
+    return array_values($groups);
+}
+
+function rpcn_chart_timestamp(string $value): ?int
+{
+    $timestamp = strtotime($value . ' UTC');
+    return $timestamp === false ? null : $timestamp;
+}
+
+/**
+ * @param list<array{x: string, y: int}> $data
+ * @return list<array{x: string, y: int}>
+ */
 function rpcn_filter_range(array $data, string $period): array
 {
     if ($period === '1y') return $data;
@@ -10,9 +87,16 @@ function rpcn_filter_range(array $data, string $period): array
     $hours    = $hoursMap[$period] ?? 0;
     if ($hours === 0) return $data;
     $cutoff   = time() - $hours * 3600;
-    return array_values(array_filter($data, static fn($d) => strtotime($d['x']) >= $cutoff));
+    return array_values(array_filter($data, static function ($d) use ($cutoff): bool {
+        $timestamp = rpcn_chart_timestamp($d['x']);
+        return $timestamp !== null && $timestamp >= $cutoff;
+    }));
 }
 
+/**
+ * @param list<array{x: string, y: int}> $data
+ * @return list<array{x: string, y: int}>
+ */
 function rpcn_fill_hourly_gaps(array $data, int $gapThresholdHours = 2): array
 {
     if (count($data) < 2) return $data;
@@ -26,25 +110,30 @@ function rpcn_fill_hourly_gaps(array $data, int $gapThresholdHours = 2): array
         if ($i + 1 >= count($data)) break;
 
         $next        = $data[$i + 1];
-        $curTs       = strtotime($cur['x']);
-        $nextTs      = strtotime($next['x']);
-        $gapHours    = ($nextTs - $curTs) / 3600;
+        $curTs = rpcn_chart_timestamp($cur['x']);
+        $nextTs = rpcn_chart_timestamp($next['x']);
+        if ($curTs === null || $nextTs === null) continue;
+        $gapHours = ($nextTs - $curTs) / 3600;
 
         if ($gapHours > $gapThresholdHours)
         {
             // Zero point one hour after current
-            $out[] = ['x' => date('Y-m-d H:i:s', $curTs + 3600), 'y' => 0];
+            $out[] = ['x' => gmdate('Y-m-d H:i:s', $curTs + 3600), 'y' => 0];
             // Zero point one hour before next
             $beforeNext = $nextTs - 3600;
             if ($beforeNext > $curTs + 3600)
             {
-                $out[] = ['x' => date('Y-m-d H:i:s', $beforeNext), 'y' => 0];
+                $out[] = ['x' => gmdate('Y-m-d H:i:s', $beforeNext), 'y' => 0];
             }
         }
     }
     return $out;
 }
 
+/**
+ * @param list<array{x: string, y: int}> $data
+ * @return list<array{x: string, y: int}>
+ */
 function rpcn_fill_daily_gaps(array $data, int $gapDays = 2): array
 {
     if (count($data) < 2) return $data;
@@ -58,25 +147,30 @@ function rpcn_fill_daily_gaps(array $data, int $gapDays = 2): array
         if ($i + 1 >= count($data)) break;
 
         $next     = $data[$i + 1];
-        $curTs    = strtotime($cur['x']);
-        $nextTs   = strtotime($next['x']);
+        $curTs = rpcn_chart_timestamp($cur['x']);
+        $nextTs = rpcn_chart_timestamp($next['x']);
+        if ($curTs === null || $nextTs === null) continue;
         $gapDaysN = ($nextTs - $curTs) / 86400;
 
         if ($gapDaysN > $gapDays)
         {
             // Zero point one day after current
-            $out[] = ['x' => date('Y-m-d', $curTs + 86400), 'y' => 0];
+            $out[] = ['x' => gmdate('Y-m-d', $curTs + 86400), 'y' => 0];
             // Zero point one day before next
             $beforeNext = $nextTs - 86400;
             if ($beforeNext > $curTs + 86400)
             {
-                $out[] = ['x' => date('Y-m-d', $beforeNext), 'y' => 0];
+                $out[] = ['x' => gmdate('Y-m-d', $beforeNext), 'y' => 0];
             }
         }
     }
     return $out;
 }
 
+/**
+ * @param list<array{x: string, y: int}> $data
+ * @return list<array{x: string, y: int}>
+ */
 function rpcn_aggregate_monthly(array $data): array
 {
     $months = [];
@@ -97,12 +191,15 @@ function rpcn_x_label(string $xStr, string $period): string
     static $M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     if ($period === 'max')
     {
-        [$y, $m] = explode('-', $xStr);
-        return $M[(int)$m - 1] . ' ' . $y;
+        $parts = explode('-', $xStr);
+        $y = $parts[0];
+        $m = max(1, min(12, (int)($parts[1] ?? 1)));
+        return $M[$m - 1] . ' ' . $y;
     }
-    $ts = strtotime($xStr);
-    $lbl = $M[(int)date('n', $ts) - 1] . ' ' . (int)date('j', $ts);
-    if ($period === '48h') $lbl .= ' ' . date('H:i', $ts);
+    $ts = rpcn_chart_timestamp($xStr);
+    if ($ts === null) return $xStr;
+    $lbl = $M[(int)gmdate('n', $ts) - 1] . ' ' . (int)gmdate('j', $ts);
+    if ($period === '48h') $lbl .= ' ' . gmdate('H:i', $ts);
     return $lbl;
 }
 
@@ -111,22 +208,26 @@ function rpcn_tooltip_date(string $xStr, string $period): string
     static $M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     if ($period === 'max')
     {
-        [$y, $m] = explode('-', $xStr);
-        return $M[(int)$m - 1] . ' ' . $y;
+        $parts = explode('-', $xStr);
+        $y = $parts[0];
+        $m = max(1, min(12, (int)($parts[1] ?? 1)));
+        return $M[$m - 1] . ' ' . $y . ' UTC';
     }
-    $ts   = strtotime($xStr);
-    $base = $M[(int)date('n', $ts) - 1] . ' ' . (int)date('j', $ts) . ', ' . date('Y', $ts);
-    if ($period === '48h' || $period === '1w') $base .= ' ' . date('H:i', $ts);
-    return $base;
+    $ts = rpcn_chart_timestamp($xStr);
+    if ($ts === null) return $xStr;
+    $base = $M[(int)gmdate('n', $ts) - 1] . ' ' . (int)gmdate('j', $ts) . ', ' . gmdate('Y', $ts);
+    if ($period === '48h' || $period === '1w') $base .= ' ' . gmdate('H:i', $ts);
+    return $base . ' UTC';
 }
 
+/** @param list<array{x: string, y: int}> $data */
 function rpcn_build_svg(array $data, string $gradId, string $period = '1m'): string
 {
     if (empty($data))
         return '<p class="rpcn-chart-empty">No data available for this period.</p>';
 
-    $W = 860; $H = 280;
-    $pL = 54; $pR = 14; $pT = 16; $pB = 38;
+    $W = 1120; $H = 300;
+    $pL = 46; $pR = 8; $pT = 18; $pB = 42;
     $iW = $W - $pL - $pR;
     $iH = $H - $pT - $pB;
     $n  = count($data);
@@ -138,6 +239,7 @@ function rpcn_build_svg(array $data, string $gradId, string $period = '1m'): str
     if ($niceMax <= 0) $niceMax = 1;
 
     // Pixel coordinates
+    /** @var list<array{0: float, 1: float, 2: string, 3: int}> $coords */
     $coords = [];
     foreach ($data as $i => $d)
     {
@@ -149,10 +251,10 @@ function rpcn_build_svg(array $data, string $gradId, string $period = '1m'): str
 
     // Y grid + labels
     $gridOut = ''; $yLblOut = '';
-    for ($t = 0; $t <= 4; $t++)
+    for ($t = 0; $t <= 5; $t++)
     {
-        $val = (int)round($niceMax * $t / 4);
-        $cy  = (float)($pT + $iH - ($t / 4) * $iH);
+        $val = (int)round($niceMax * $t / 5);
+        $cy  = (float)($pT + $iH - ($t / 5) * $iH);
         $gridOut  .= sprintf('<line x1="%d" y1="%.1f" x2="%d" y2="%.1f" class="rpcn-sg"/>',
             $pL, $cy, $W - $pR, $cy);
         $yLblOut  .= sprintf('<text x="%d" y="%.1f" class="rpcn-st rpcn-sty">%s</text>',
@@ -185,7 +287,7 @@ function rpcn_build_svg(array $data, string $gradId, string $period = '1m'): str
 
     // Interactive data points: wide transparent hit area + vline + dot + tooltip
     $hitW    = (int)max(6, $n > 1 ? ceil($iW / ($n - 1)) : $iW);
-    $ttW     = 152; $ttH = 42;
+    $ttW     = 172; $ttH = 46;
     $dotsOut = '';
 
     foreach ($coords as [$px, $py, $xs, $yv])
@@ -211,15 +313,15 @@ function rpcn_build_svg(array $data, string $gradId, string $period = '1m'): str
             // Tooltip
             . sprintf('<g class="rpcn-dp-tt" transform="translate(%.1f,%.1f)">', $ttX, $ttY)
             .   sprintf('<rect x="0" y="0" width="%d" height="%d" rx="5" class="rpcn-tt-bg"/>', $ttW, $ttH)
-            .   sprintf('<text x="%d" y="15" class="rpcn-tt-date">%s</text>', $ttW / 2, htmlspecialchars($tipDate))
-            .   sprintf('<text x="%d" y="31" class="rpcn-tt-val">%s</text>',  $ttW / 2, htmlspecialchars($tipVal))
+            .   sprintf('<text x="%d" y="16" class="rpcn-tt-date">%s</text>', $ttW / 2, htmlspecialchars($tipDate))
+            .   sprintf('<text x="%d" y="34" class="rpcn-tt-val">%s</text>',  $ttW / 2, htmlspecialchars($tipVal))
             . '</g>'
             . '</g>';
     }
 
     $gid = htmlspecialchars($gradId);
     $out  = '<svg viewBox="0 0 ' . $W . ' ' . $H . '" class="rpcn-svg-chart"'
-          . ' xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Player count chart">';
+          . ' xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Player count chart in UTC">';
     $out .= '<defs><linearGradient id="' . $gid . '" x1="0" y1="0" x2="0" y2="1">'
           . '<stop offset="0%" stop-color="rgba(104,109,224,.30)"/>'
           . '<stop offset="100%" stop-color="rgba(104,109,224,.02)"/>'
@@ -229,7 +331,16 @@ function rpcn_build_svg(array $data, string $gradId, string $period = '1m'): str
     $out .= '<polyline points="' . $ptStr . '" class="rpcn-sl" fill="none"/>';
     $out .= $dotsOut . $xLblOut . $yLblOut;
     $out .= '</svg>';
-    return $out;
+
+    $latest = $data[$n - 1];
+    $peakValue = (int)max(array_column($data, 'y'));
+    $summary = '<div class="rpcn-chart-summary">'
+        . '<span>Peak <strong>' . number_format($peakValue) . '</strong></span>'
+        . '<span>Latest <strong>' . number_format($latest['y']) . '</strong></span>'
+        . '<span>' . htmlspecialchars(rpcn_tooltip_date($latest['x'], $period)) . '</span>'
+        . '</div>';
+
+    return $summary . $out;
 }
 
 //  Pre-compute all chart ranges
@@ -259,6 +370,7 @@ foreach ($chartPeriodsMeta as $key => $label)
 }
 
 // Leaderboard boards
+$boardGroups = rpcn_group_leaderboard_boards($boards);
 $autoShowBoard = ($hasLeaderboard && !empty($boards) && count($boards) === 1)
     ? (int)array_key_first($boards)
     : null;
@@ -272,7 +384,8 @@ $show_trophies_tab = $rpcn_game->hasTrophies && ($_GET['tab'] ?? '') === 'trophi
 $show_lb_tab = $hasLeaderboard && (isset($_GET['board_id']) || ($_GET['tab'] ?? '') === 'lb');
 if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
 {
-    $bid = (int)$_GET['board_id'];
+    $boardIdParam = $_GET['board_id'];
+    $bid = is_numeric($boardIdParam) ? (int)$boardIdParam : -1;
     if (array_key_exists($bid, $boards))
     {
         $nojsBoardId   = $bid;
@@ -370,7 +483,8 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
             <label for="tab-lb" class="rpcn-tab-btn">Leaderboards</label>
         <?php endif; ?>
         <?php if ($rpcn_game->hasTrophies): ?>
-            <label for="tab-trophies" class="rpcn-tab-btn">Trophies (<?= $rpcn_game->totalTrophies ?>)</label>
+            <a href="rpcn-game.php?comm_id=<?= urlencode($commId) ?>&amp;tab=trophies"
+               class="rpcn-tab-btn rpcn-tab-link<?= $show_trophies_tab ? ' rpcn-tab-link-active' : '' ?>">Trophies (<?= $rpcn_game->totalTrophies ?>)</a>
         <?php endif; ?>
     </div>
 
@@ -385,7 +499,10 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
             <?php endforeach; ?>
 
             <div class="rpcn-chart-header">
-                <span class="rpcn-chart-title">Player Count History</span>
+                <div class="rpcn-chart-heading">
+                    <span class="rpcn-chart-title">Player Count History</span>
+                    <span class="rpcn-chart-timezone" title="All chart timestamps are UTC">UTC</span>
+                </div>
                 <div class="rpcn-range-btns">
                     <?php foreach ($chartPeriodsMeta as $key => $label): ?>
                     <label for="r-<?= $key ?>" class="rpcn-range-btn"><?= $label ?></label>
@@ -410,16 +527,22 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
                 <?php if (count($boards) > 1): ?>
                 <p class="rpcn-lb-section-title">Choose Scoreboard</p>
                 <?php endif; ?>
-                <div class="rpcn-board-grid">
-                    <?php foreach ($boards as $boardId => $boardName): ?>
-                    <a  href="rpcn-game.php?comm_id=<?= urlencode($commId) ?>&amp;board_id=<?= (int)$boardId ?>"
-                        class="rpcn-board-btn"
-                        data-board-id="<?= (int)$boardId ?>"
-                        data-board-name="<?= htmlspecialchars($boardName) ?>">
-                        <?= htmlspecialchars($boardName) ?>
-                    </a>
-                    <?php endforeach; ?>
-                </div>
+                <?php foreach ($boardGroups as $group): ?>
+                    <?php if ($group['title'] !== null): ?>
+                    <p class="rpcn-lb-section-title"><?= htmlspecialchars($group['title']) ?></p>
+                    <?php endif; ?>
+
+                    <div class="rpcn-board-grid">
+                        <?php foreach ($group['boards'] as $boardId => $boardName): ?>
+                        <a  href="rpcn-game.php?comm_id=<?= urlencode($commId) ?>&amp;board_id=<?= (int)$boardId ?>"
+                            class="rpcn-board-btn"
+                            data-board-id="<?= (int)$boardId ?>"
+                            data-board-name="<?= htmlspecialchars($boardName) ?>">
+                            <?= htmlspecialchars($boardName) ?>
+                        </a>
+                        <?php endforeach; ?>
+                    </div>
+                <?php endforeach; ?>
             </div>
 
             <!-- Board content pane (shown after a board is selected) -->
@@ -437,7 +560,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
             <div class="rpcn-trophy-list">
                 <?php foreach ($rpcn_game->trophies as $t): ?>
                 <div class="rpcn-trophy-item">
-                    <img class="rpcn-trophy-icon" src="<?= htmlspecialchars($t['icon']) ?>" alt="Trophy Icon" onerror="this.src='<?= htmlspecialchars($default_icon) ?>'">
+                    <img class="rpcn-trophy-icon" src="<?= htmlspecialchars($t['icon']) ?>" alt="Trophy Icon" loading="lazy" decoding="async" onerror="this.src='<?= htmlspecialchars($default_icon) ?>'">
                     <div class="rpcn-trophy-info">
                         <div class="rpcn-trophy-name">
                             <?= htmlspecialchars($t['name']) ?>
@@ -462,6 +585,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
     </div><!-- /.rpcn-tab-panels -->
 
 </div><!-- /.rpcn-page-wrap -->
+
 <script>
 (function ()
 {
@@ -469,7 +593,6 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
 
     const commId    = <?= json_encode($commId) ?>;
     const autoBoard = <?= json_encode($autoShowBoard) ?>;
-
     const selection = document.getElementById('rpcn-board-selection');
     const view      = document.getElementById('rpcn-board-view');
     const content   = document.getElementById('rpcn-board-content');

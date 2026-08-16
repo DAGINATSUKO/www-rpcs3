@@ -254,6 +254,11 @@ body::before {
     margin-right: 20px;
 }
 .rpcn-tab-btn:hover { color: #a0aec0; }
+.rpcn-tab-link { text-decoration: none; }
+.rpcn-tab-link-active {
+    color: var(--rpcn-accent);
+    border-bottom-color: var(--rpcn-accent);
+}
 
 /* Active tab state Ã¢â‚â€ driven by checked radio inputs */
 #tab-charts:checked ~ .rpcn-tabs-nav label[for="tab-charts"],
@@ -295,10 +300,32 @@ body::before {
     gap:             10px;
 }
 
+.rpcn-chart-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .rpcn-chart-title {
     font-size: 24px;
     font-family: 'Roboto-Bold';
     text-shadow: rgba(0,0,0,.25) 0 2px 2px;
+}
+
+
+.rpcn-chart-timezone {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    padding: 0 9px;
+    border: 1px solid rgba(104,109,224,.55);
+    border-radius: 999px;
+    background: rgba(104,109,224,.14);
+    color: #b8bdff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 1;
 }
 
 .rpcn-range-btns { display: flex; gap: 4px; flex-wrap: wrap; }
@@ -334,7 +361,7 @@ body::before {
     background: rgb(0 0 0 / 60%);
     border: 1px solid rgb(0 0 0 / 20%);
     border-radius: 14px;
-    padding: 20px;
+    padding: 8px 4px 2px;
     overflow:      hidden;
 }
 
@@ -347,19 +374,37 @@ body::before {
 */
 
 
+
+.rpcn-chart-summary {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 14px;
+    min-height: 24px;
+    padding: 0 12px 2px 48px;
+    color: rgba(255,255,255,.46);
+    font-size: 11px;
+    letter-spacing: .15px;
+}
+.rpcn-chart-summary strong {
+    color: rgba(255,255,255,.82);
+    font-weight: 700;
+}
+
 /*  SVG Chart  */
 .rpcn-svg-chart {
     width:    100%;
-    height: 300px;
+    height: 330px;
     display:  block;
     overflow: visible;
 }
 
 /* Grid lines */
-.rpcn-sg { stroke: rgba(255,255,255,.05); stroke-width: 1; fill: none; }
+.rpcn-sg { stroke: rgba(255,255,255,.075); stroke-width: 1; fill: none; }
 
 /* Series line */
-.rpcn-sl { stroke: #686DE0; stroke-width: 2; }
+.rpcn-sl { stroke: #7c82ff; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Axis labels */
 .rpcn-st {
@@ -663,6 +708,9 @@ body::before {
 
 @media (max-width: 640px) {
     .rpcn-game { flex-direction: column; }
+    .rpcn-chart-wrap { padding-left: 0; padding-right: 0; }
+    .rpcn-svg-chart { height: 280px; }
+    .rpcn-chart-summary { justify-content: flex-start; padding-left: 46px; gap: 8px 12px; }
     .rpcn-game-icon,
     .rpcn-game-icon-fallback { width: 100%; height: auto; aspect-ratio: 16 / 9; }
     .rpcn-stat-value { font-size: 1.6rem; }

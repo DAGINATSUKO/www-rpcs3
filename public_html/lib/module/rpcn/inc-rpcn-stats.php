@@ -6,23 +6,29 @@ class RPCNStats
     private string $api_url;
     private string $icons_json;
     private string $cache;
+    private int $apiCacheLifetime;
+    private ?string $onlyCommId;
+    private bool $allowLiveApi;
 
     public int $total_users = 0;
-
     public int $peak_24h_users = 0;
+
+    /** @var list<array{comm_id: string, game_title: string, peak: int, icon: ?string}> */
     public array $top_10_games_24h = [];
 
     public int $peak_alltime_users = 0;
     public string $peak_alltime_users_date = '';
+
+    /** @var list<array{comm_id: string, game_title: string, peak: int, time_ago: string, icon: ?string}> */
     public array $top_10_games_alltime = [];
 
-    /** @var array<string, array<int, string>> */
+    /** @var array<string, list<string>> */
     public array $title_regions = [];
 
     /** @var array<string, int> */
     public array $title_player_counts = [];
 
-    /** @var array<string, array<string>> */
+    /** @var array<string, list<string>> */
     public array $title_ids = [];
 
     /** @var array<string, string> */
@@ -31,13 +37,15 @@ class RPCNStats
     /** @var array<string, string> */
     public array $app_title = [];
 
-    public bool $has_error     = false;
+    public bool $has_error = false;
     public bool $has_api_error = false;
 
+    /** @var array<string, string> */
     public array $icons_db = [];
 
     private string $db_cache_file = '';
 
+    /** @var array<string, string> */
     public array $icon_alias = [
         "BLES00767" => "MRTC00001", "BLUS30462" => "MRTC00001", "BCKS10106" => "MRTC00001", "BLJM60189" => "MRTC00001", "BLJM60338" => "MRTC00001",
         "BLES00710" => "MRTC00002", "BLUS30434" => "MRTC00002", "BLAS50173" => "MRTC00002", "BLJM60177" => "MRTC00002",
@@ -48,540 +56,630 @@ class RPCNStats
         "BLES01112" => "MRTC00016"
     ];
 
-    public function __construct(string $games_json, string $log_file, string $api_url, string $icons_json, string $cache)
+    public function __construct(string $games_json, string $log_file, string $api_url, string $icons_json, string $cache, int $apiCacheLifetime = 300, ?string $onlyCommId = null, bool $allowLiveApi = true)
     {
         $this->games_json = $games_json;
-        $this->log_file   = $log_file;
-        $this->api_url    = rtrim($api_url, '/') . '/usage';
+        $this->log_file = $log_file;
+        $this->api_url = rtrim($api_url, '/') . '/usage';
         $this->icons_json = $icons_json;
-
-        if (is_dir($cache)) {
-            $this->cache = rtrim($cache, '/') . '/usage.json';
-        } else {
-            $this->cache = $cache;
-        }
-
+        $this->cache = is_dir($cache) ? rtrim($cache, '/') . '/usage.json' : $cache;
+        $this->apiCacheLifetime = max(60, $apiCacheLifetime);
+        $this->onlyCommId = $onlyCommId;
+        $this->allowLiveApi = $allowLiveApi;
         $this->db_cache_file = dirname($this->cache) . '/db_stats.json';
 
         try
         {
             $this->processStats();
         }
-        catch (Exception $e)
+        catch (Throwable $e)
         {
             $this->log_error($e->getMessage());
             $this->has_error = true;
         }
     }
 
-    // Log errors to the log file
     private function log_error(string $message): void
     {
         $timestamp = date('Y-m-d H:i:s');
-        file_put_contents($this->log_file, "[$timestamp] ERROR: $message" . PHP_EOL, FILE_APPEND);
+        @file_put_contents($this->log_file, "[$timestamp] ERROR: $message" . PHP_EOL, FILE_APPEND);
     }
 
-    // Function to normalize IDs
     private function normalize_id(string $id): string
     {
-        if (preg_match('/[A-Z0-9]+-[A-Z0-9]+/', $id, $matches))
+        if (preg_match('/[A-Z0-9]+-[A-Z0-9]+/', $id, $matches) === 1)
         {
-            return substr($matches[0], strpos($matches[0], '-') + 1);
+            $dash = strpos($matches[0], '-');
+            return $dash === false ? $matches[0] : substr($matches[0], $dash + 1);
         }
+
         $normalized = preg_replace('/_\d+$/', '', $id); // Remove _XX suffix
-        return $normalized ?: $id;
+        return $normalized !== null && $normalized !== '' ? $normalized : $id;
     }
 
     private function get_region_from_id(string $id): string
     {
-        $third_letter = strtoupper($id[2] ?? ''); // Third character, fallback to empty
-        switch ($third_letter)
-        {
-            case 'E': return 'EU'; // Europe
-            case 'U': return 'US'; // USA
-            case 'A': return 'AS'; // Asia
-            case 'J': return 'JP'; // Japan
-            case 'H': return 'HK'; // Hong Kong
-            case 'K': return 'KR'; // South Korea
-            case 'I': return 'IN'; // International
-            case 'T': return 'IN'; // MRTC
-            default:  return 'unknown';
-        }
+        return match (strtoupper($id[2] ?? '')) {
+            'E' => 'EU', // Europe
+            'U' => 'US', // America
+            'A' => 'AS', // Asia
+            'J' => 'JP', // Japan
+            'H' => 'HK', // Hong Kong
+            'K' => 'KR', // South Korea
+            'I', 'T' => 'IN', // International, MRTC
+            default => 'unknown',
+        };
     }
 
     private function time_ago(string $datetime): string
     {
-        $now  = new DateTime();
-        $ago  = new DateTime($datetime);
-        $diff = $now->diff($ago);
+        try
+        {
+            $now = new DateTime();
+            $ago = new DateTime($datetime);
+        }
+        catch (Exception)
+        {
+            return '';
+        }
 
+        $diff = $now->diff($ago);
         $totalMonths = $diff->y * 12 + $diff->m;
 
         if ($totalMonths >= 12)
         {
-            $years   = $totalMonths / 12;
-            $rounded = round($years * 2) / 2; // nearest 0.5
+            $years = $totalMonths / 12;
+            $rounded = round($years * 2) / 2;
             if ($rounded == (int)$rounded)
+            {
                 return (int)$rounded . ' year' . ($rounded != 1 ? 's' : '') . ' ago';
+            }
             return number_format($rounded, 1) . ' years ago';
         }
         if ($diff->m > 0) return $diff->m . ' month' . ($diff->m > 1 ? 's' : '') . ' ago';
         if ($diff->d > 0)
         {
-            if ($diff->d >= 14) return floor($diff->d / 7) . ' weeks ago';
-            if ($diff->d >= 7)  return '1 week ago';
+            if ($diff->d >= 14) return (string)floor($diff->d / 7) . ' weeks ago';
+            if ($diff->d >= 7) return '1 week ago';
             return $diff->d . ' day' . ($diff->d > 1 ? 's' : '') . ' ago';
         }
-        if ($diff->h > 0) return $diff->h . ' hour'   . ($diff->h > 1 ? 's' : '') . ' ago';
+        if ($diff->h > 0) return $diff->h . ' hour' . ($diff->h > 1 ? 's' : '') . ' ago';
         if ($diff->i > 0) return $diff->i . ' minute' . ($diff->i > 1 ? 's' : '') . ' ago';
         return 'just now';
     }
 
+    /** @return array<string, mixed>|null */
+    private static function fetch_assoc(mysqli_result $result): ?array
+    {
+        $row = $result->fetch_assoc();
+        return is_array($row) ? $row : null;
+    }
+
     private function processStats(): void
     {
-        // Load Games JSON
         if (!file_exists($this->games_json))
         {
-            throw new Exception("Games JSON file not found: " . $this->games_json);
+            throw new RuntimeException('Games JSON file not found: ' . $this->games_json);
         }
 
-        $json_content = file_get_contents($this->games_json);
-        if ($json_content === false)
+        $jsonContent = file_get_contents($this->games_json);
+        if ($jsonContent === false)
         {
-            throw new Exception("Unable to read {$this->games_json}");
+            throw new RuntimeException("Unable to read {$this->games_json}");
         }
 
-        $game_mappings = json_decode($json_content, true);
-        if (json_last_error() !== JSON_ERROR_NONE)
+        $decodedMappings = json_decode($jsonContent, true);
+        if (!is_array($decodedMappings))
         {
-            throw new Exception(json_last_error_msg());
+            throw new RuntimeException(json_last_error_msg());
         }
 
-        // Load ICONS0 JSON
+        if ($this->onlyCommId !== null)
+        {
+            $selected = $decodedMappings[$this->onlyCommId] ?? null;
+            $decodedMappings = is_array($selected)
+                ? [$this->onlyCommId => $selected]
+                : [];
+        }
+
+        /** @var array<string, array<string, mixed>> $gameMappings */
+        $gameMappings = [];
+        foreach ($decodedMappings as $commId => $info)
+        {
+            if (is_string($commId) && is_array($info))
+            {
+                $gameMappings[$commId] = $info;
+            }
+        }
+
         $this->icons_db = [];
         if (file_exists($this->icons_json))
         {
-            $this->icons_db = json_decode(file_get_contents($this->icons_json), true) ?: [];
+            $iconsRaw = file_get_contents($this->icons_json);
+            if ($iconsRaw !== false)
+            {
+                $iconsDecoded = json_decode($iconsRaw, true);
+                if (is_array($iconsDecoded))
+                {
+                    foreach ($iconsDecoded as $titleId => $hash)
+                    {
+                        if (is_string($titleId) && is_string($hash))
+                        {
+                            $this->icons_db[$titleId] = $hash;
+                        }
+                    }
+                }
+            }
         }
 
-        foreach ($game_mappings as $comm_id => $info)
+        foreach ($gameMappings as $commId => $info)
         {
-            $titles     = $info['title'] ?? ["Unknown Game"];
-            $game_title = $titles[0] ?? 'Unknown Game';
-            $this->app_title[$comm_id] = $game_title;
+            $titlesRaw = $info['title'] ?? [];
+            $titles = is_array($titlesRaw)
+                ? array_values(array_filter($titlesRaw, 'is_string'))
+                : [];
+            $this->app_title[$commId] = $titles[0] ?? 'Unknown Game';
 
-            if (!isset($this->title_player_counts[$comm_id]))
+            $this->title_player_counts[$commId] ??= 0;
+            $this->title_ids[$commId] ??= [];
+            $this->title_regions[$commId] ??= [];
+
+            $idsRaw = $info['id'] ?? [$commId];
+            $ids = is_array($idsRaw)
+                ? array_values(array_filter($idsRaw, 'is_string'))
+                : [$commId];
+            if ($ids === []) $ids = [$commId];
+
+            $this->title_ids[$commId] = array_values(array_unique(array_merge($this->title_ids[$commId], $ids)));
+
+            foreach ($ids as $entryId)
             {
-                $this->title_player_counts[$comm_id] = 0;
-                $this->title_ids[$comm_id]           = [];
-            }
-
-            $ids = $info['id'] ?? [$comm_id];
-            $this->title_ids[$comm_id] = array_unique(array_merge($this->title_ids[$comm_id], $ids));
-
-            if (!isset($this->title_regions[$comm_id]))
-            {
-                $this->title_regions[$comm_id] = [];
-            }
-
-            foreach ($ids as $entry_id)
-            {
-                $region = $this->get_region_from_id($entry_id);
-                if (!in_array($region, $this->title_regions[$comm_id], true))
+                $region = $this->get_region_from_id($entryId);
+                if (!in_array($region, $this->title_regions[$commId], true))
                 {
-                    $this->title_regions[$comm_id][] = $region;
+                    $this->title_regions[$commId][] = $region;
                 }
             }
 
-            if (!empty($this->title_regions[$comm_id]))
-            {
-                sort($this->title_regions[$comm_id], SORT_STRING);
-            }
+            sort($this->title_regions[$commId], SORT_STRING);
         }
 
         try
         {
-            $this->fetchApiData($game_mappings);
+            $this->fetchApiData($gameMappings);
         }
-        catch (Exception $e)
+        catch (Throwable $e)
         {
             $this->log_error('API error: ' . $e->getMessage());
-            $this->has_error     = true;
+            $this->has_error = true;
             $this->has_api_error = true;
         }
     }
 
-    private function fetchApiData(array $game_mappings): void
+    /** @param array<string, array<string, mixed>> $gameMappings */
+    private function fetchApiData(array $gameMappings): void
     {
-        $api_data       = null;
-        $cache_lifetime = 300; // 5 minutes
+        $apiData = null;
+        $cacheLifetime = $this->apiCacheLifetime;
+        $staleApiData = null;
 
-        // Try cache first
-        if (file_exists($this->cache) && (time() - filemtime($this->cache)) < $cache_lifetime)
+        if (file_exists($this->cache))
         {
-            $api_data = file_get_contents($this->cache);
-            if ($api_data === false)
+            $cached = file_get_contents($this->cache);
+            if ($cached !== false)
             {
-                $this->log_error("Failed to read cache: {$this->cache}. Fetching from API.");
-                $api_data = null;
-            }
-        }
-
-        // Live fetch when cache is absent/stale
-        if ($api_data === null)
-        {
-            $ch = curl_init();
-            assert($this->api_url !== '');
-            curl_setopt($ch, CURLOPT_URL,            $this->api_url);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_HEADER,         true);
-            curl_setopt($ch, CURLOPT_HTTPHEADER,     ['Accept: application/json']);
-            curl_setopt($ch, CURLOPT_TIMEOUT,        10);
-            curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
-
-            $response = curl_exec($ch);
-
-            if ($response === false)
-            {
-                $error = 'cURL error: ' . curl_error($ch);
-                $this->log_error($error);
-                throw new Exception($error);
-            }
-
-            $http_code   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-            $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
-
-            if ($http_code !== 200)
-            {
-                $error = "HTTP $http_code";
-                $this->log_error($error);
-                throw new Exception($error);
-            }
-
-            /** @var string $response */
-            $api_data = substr($response, $header_size);
-            @curl_close($ch);
-
-            if (file_put_contents($this->cache, $api_data) === false)
-            {
-                $this->log_error("Failed to save cache: {$this->cache}");
-            }
-        }
-
-        $data = json_decode($api_data, true);
-        if (json_last_error() !== JSON_ERROR_NONE)
-        {
-            $error = json_last_error_msg();
-            $this->log_error($error);
-            throw new Exception($error);
-        }
-
-        $this->total_users = isset($data['num_users']) && is_int($data['num_users'])
-            ? $data['num_users']
-            : 0;
-
-        // Merge player counts from API
-        foreach ($game_mappings as $comm_id => $info)
-        {
-            $ids = $info['id'] ?? [$comm_id];
-
-            $comm_id_player_count    = 0;
-            $normalized_comm_id      = $this->normalize_id($comm_id);
-
-            // First try psn_games (comm_id)
-            if (isset($data['psn_games']) && is_array($data['psn_games']))
-            {
-                foreach ($data['psn_games'] as $api_title_id => $value)
+                $staleApiData = $cached;
+                $mtime = filemtime($this->cache);
+                if ($mtime !== false && time() - $mtime < $cacheLifetime)
                 {
-                    if ($this->normalize_id($api_title_id) === $normalized_comm_id)
-                    {
-                        if (is_array($value) && isset($value[0]))
-                        {
-                            $comm_id_player_count += (int) $value[0];
-                        }
-                        elseif (is_int($value))
-                        {
-                            $comm_id_player_count += $value;
-                        }
-                    }
+                    $apiData = $cached;
                 }
-            }
-
-            // If we got a comm_id match, skip ticket_games
-            if ($comm_id_player_count > 0)
-            {
-                $this->title_player_counts[$comm_id] += $comm_id_player_count;
             }
             else
             {
-                // Otherwise, check ticket_games
-                if (isset($data['ticket_games']) && is_array($data['ticket_games']))
+                $this->log_error("Failed to read cache: {$this->cache}. Fetching from API.");
+            }
+        }
+
+        if ($apiData === null && !$this->allowLiveApi)
+        {
+            $apiData = $staleApiData ?? '{"num_users":0,"psn_games":[],"ticket_games":[]}';
+        }
+
+        if ($apiData === null)
+        {
+            $ch = curl_init($this->api_url);
+            if ($ch === false)
+            {
+                throw new RuntimeException('Unable to initialize cURL.');
+            }
+
+            curl_setopt_array($ch, [
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HEADER => true,
+                CURLOPT_HTTPHEADER => ['Accept: application/json'],
+                CURLOPT_TIMEOUT => 3,
+                CURLOPT_CONNECTTIMEOUT => 2,
+            ]);
+
+            $response = curl_exec($ch);
+            if (!is_string($response))
+            {
+                $error = 'cURL error: ' . curl_error($ch);
+                curl_close($ch);
+                if ($staleApiData !== null)
                 {
-                    foreach ($ids as $entry_id)
+                    $this->log_error($error . '; using stale usage cache.');
+                    $apiData = $staleApiData;
+                }
+                else
+                {
+                    throw new RuntimeException($error);
+                }
+            }
+
+            if (is_string($response))
+            {
+                $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                $headerSize = (int)curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+                curl_close($ch);
+
+                if ($httpCode !== 200)
+                {
+                    if ($staleApiData !== null)
                     {
-                        $normalized_entry_id = $this->normalize_id($entry_id);
-                        foreach ($data['ticket_games'] as $api_title_id => $count)
-                        {
-                            if ($this->normalize_id($api_title_id) === $normalized_entry_id)
-                            {
-                                $this->title_player_counts[$comm_id] += is_numeric($count) ? (int)$count : 0;
-                            }
-                        }
+                        $this->log_error("HTTP $httpCode; using stale usage cache.");
+                        $apiData = $staleApiData;
+                    }
+                    else
+                    {
+                        throw new RuntimeException("HTTP $httpCode");
+                    }
+                }
+                else
+                {
+                    $apiData = substr($response, $headerSize);
+                    if (@file_put_contents($this->cache, $apiData) === false)
+                    {
+                        $this->log_error("Failed to save cache: {$this->cache}");
                     }
                 }
             }
         }
 
-        // Sort results
-        $temp_array = array_map(
-            fn($comm_id, $player_count) => [
-                'comm_id'      => $comm_id,
-                'game_title'   => $this->app_title[$comm_id],
-                'player_count' => $player_count,
-            ],
-            array_keys($this->title_player_counts),
-            $this->title_player_counts
-        );
-
-        usort($temp_array, function ($a, $b)
+        $data = json_decode($apiData, true);
+        if (!is_array($data))
         {
-            // Sort by player_count descending
+            throw new RuntimeException(json_last_error_msg());
+        }
+
+        $numUsers = $data['num_users'] ?? 0;
+        $this->total_users = is_numeric($numUsers) ? (int)$numUsers : 0;
+
+        $psnGames = isset($data['psn_games']) && is_array($data['psn_games']) ? $data['psn_games'] : [];
+        $ticketGames = isset($data['ticket_games']) && is_array($data['ticket_games']) ? $data['ticket_games'] : [];
+
+        foreach ($gameMappings as $commId => $info)
+        {
+            $idsRaw = $info['id'] ?? [$commId];
+            $ids = is_array($idsRaw) ? array_values(array_filter($idsRaw, 'is_string')) : [$commId];
+            if ($ids === []) $ids = [$commId];
+
+            $commIdPlayerCount = 0;
+            $normalizedCommId = $this->normalize_id($commId);
+
+            foreach ($psnGames as $apiTitleId => $value)
+            {
+                if ($this->normalize_id((string)$apiTitleId) !== $normalizedCommId) continue;
+
+                if (is_array($value) && isset($value[0]) && is_numeric($value[0]))
+                {
+                    $commIdPlayerCount += (int)$value[0];
+                }
+                elseif (is_numeric($value))
+                {
+                    $commIdPlayerCount += (int)$value;
+                }
+            }
+
+            if ($commIdPlayerCount > 0)
+            {
+                $this->title_player_counts[$commId] = ($this->title_player_counts[$commId] ?? 0) + $commIdPlayerCount;
+                continue;
+            }
+
+            foreach ($ids as $entryId)
+            {
+                $normalizedEntryId = $this->normalize_id($entryId);
+                foreach ($ticketGames as $apiTitleId => $count)
+                {
+                    if ($this->normalize_id((string)$apiTitleId) === $normalizedEntryId && is_numeric($count))
+                    {
+                        $this->title_player_counts[$commId] = ($this->title_player_counts[$commId] ?? 0) + (int)$count;
+                    }
+                }
+            }
+        }
+
+        /** @var list<array{comm_id: string, game_title: string, player_count: int}> $tempArray */
+        $tempArray = [];
+        foreach ($this->title_player_counts as $commId => $playerCount)
+        {
+            $tempArray[] = [
+                'comm_id' => $commId,
+                'game_title' => $this->app_title[$commId] ?? 'Unknown Game',
+                'player_count' => $playerCount,
+            ];
+        }
+
+        usort($tempArray, static function ($a, $b): int {
             $diff = $b['player_count'] <=> $a['player_count'];
-            if ($diff !== 0) return $diff;
-            // If player_count is equal, sort by game_title ascending
-            return strnatcasecmp($a['game_title'], $b['game_title']);
+            return $diff !== 0 ? $diff : strnatcasecmp($a['game_title'], $b['game_title']);
         });
 
         $this->title_player_counts = [];
-        foreach ($temp_array as $item)
+        foreach ($tempArray as $item)
         {
-            $comm_id = $item['comm_id'];
-            $this->title_player_counts[$comm_id] = $item['player_count'];
+            $commId = $item['comm_id'];
+            $this->title_player_counts[$commId] = $item['player_count'];
 
-            if ($item['player_count'] > 0 && !isset($this->title_icons[$comm_id]))
+            if ($item['player_count'] <= 0 || isset($this->title_icons[$commId])) continue;
+
+            foreach ($this->title_ids[$commId] ?? [] as $idToCheck)
             {
-                foreach ($this->title_ids[$comm_id] as $id_to_check)
-                {
-                    $search_id = $this->icon_alias[$id_to_check] ?? $id_to_check;
-                    if (isset($this->icons_db[$search_id]))
-                    {
-                        $hash = $this->icons_db[$search_id];
-                        $temp_url = "/cdn/rpcn/icon0/{$hash}.png";
+                $searchId = $this->icon_alias[$idToCheck] ?? $idToCheck;
+                $hash = $this->icons_db[$searchId] ?? null;
+                if ($hash === null) continue;
 
-                        if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
-                        {
-                            $this->title_icons[$comm_id] = $temp_url;
-                            break;
-                        }
-                    }
+                $tempUrl = "/cdn/rpcn/icon0/{$hash}.png";
+                $documentRoot = isset($_SERVER['DOCUMENT_ROOT']) && is_string($_SERVER['DOCUMENT_ROOT'])
+                    ? $_SERVER['DOCUMENT_ROOT']
+                    : '';
+                if ($documentRoot !== '' && file_exists($documentRoot . $tempUrl))
+                {
+                    $this->title_icons[$commId] = $tempUrl;
+                    break;
                 }
             }
         }
     }
 
+    /** @return array<string, string> */
     private function buildTitleIdMap(): array
     {
         $map = [];
-        foreach ($this->title_ids as $comm_id => $ids)
+        foreach ($this->title_ids as $commId => $ids)
         {
             foreach ($ids as $id)
             {
-                $map[$id] = $comm_id;
+                $map[$id] = $commId;
             }
         }
         return $map;
     }
 
-    private static function extractTitleId(string $contentId): string
-    {
-        $after = strstr($contentId, '-') ?: $contentId;
-        $after = ltrim($after, '-');
-        return strtok($after, '_') ?: $after;
-    }
-
     public function fetchDatabaseStats(mysqli $db, int $cacheTtl = 300): void
     {
-        if(
-            $this->db_cache_file !== '' &&
-            file_exists($this->db_cache_file) &&
-            (time() - filemtime($this->db_cache_file)) < $cacheTtl)
+        if ($this->db_cache_file !== '' && file_exists($this->db_cache_file))
         {
-            $cached = @file_get_contents($this->db_cache_file);
-            if ($cached !== false)
+            $mtime = filemtime($this->db_cache_file);
+            if ($mtime !== false && time() - $mtime < $cacheTtl)
             {
-                $data = json_decode($cached, true);
-                if (is_array($data))
+                $cached = @file_get_contents($this->db_cache_file);
+                if ($cached !== false)
                 {
-                    $this->peak_24h_users          = (int)($data['peak_24h_users']          ?? 0);
-                    $this->peak_alltime_users      = (int)($data['peak_alltime_users']      ?? 0);
-                    $this->peak_alltime_users_date = (string)($data['peak_alltime_users_date'] ?? '');
-                    $this->top_10_games_24h        = (array)($data['top_10_games_24h']        ?? []);
-                    $this->top_10_games_alltime    = (array)($data['top_10_games_alltime']    ?? []);
-                    return;
+                    $data = json_decode($cached, true);
+                    if (is_array($data))
+                    {
+                        $this->peak_24h_users = (int)($data['peak_24h_users'] ?? 0);
+                        $this->peak_alltime_users = (int)($data['peak_alltime_users'] ?? 0);
+                        $this->peak_alltime_users_date = (string)($data['peak_alltime_users_date'] ?? '');
+                        $this->top_10_games_24h = $this->parseTopGames24h($data['top_10_games_24h'] ?? []);
+                        $this->top_10_games_alltime = $this->parseTopGamesAlltime($data['top_10_games_alltime'] ?? []);
+                        return;
+                    }
                 }
             }
         }
 
         $this->fetchDatabaseStatsFromDb($db);
 
-        if ($this->db_cache_file !== '')
+        $payload = json_encode([
+            'peak_24h_users' => $this->peak_24h_users,
+            'peak_alltime_users' => $this->peak_alltime_users,
+            'peak_alltime_users_date' => $this->peak_alltime_users_date,
+            'top_10_games_24h' => $this->top_10_games_24h,
+            'top_10_games_alltime' => $this->top_10_games_alltime,
+        ]);
+        if ($payload !== false)
         {
-            $payload = json_encode([
-                'peak_24h_users'          => $this->peak_24h_users,
-                'peak_alltime_users'      => $this->peak_alltime_users,
-                'peak_alltime_users_date' => $this->peak_alltime_users_date,
-                'top_10_games_24h'        => $this->top_10_games_24h,
-                'top_10_games_alltime'    => $this->top_10_games_alltime,
-            ]);
             @file_put_contents($this->db_cache_file, $payload);
         }
+    }
+
+    /** @return list<array{comm_id: string, game_title: string, peak: int, icon: ?string}> */
+    private function parseTopGames24h(mixed $value): array
+    {
+        if (!is_array($value)) return [];
+        $out = [];
+        foreach ($value as $row)
+        {
+            if (!is_array($row)) continue;
+            $out[] = [
+                'comm_id' => (string)($row['comm_id'] ?? ''),
+                'game_title' => (string)($row['game_title'] ?? 'Unknown Game'),
+                'peak' => (int)($row['peak'] ?? 0),
+                'icon' => isset($row['icon']) && is_string($row['icon']) ? $row['icon'] : null,
+            ];
+        }
+        return $out;
+    }
+
+    /** @return list<array{comm_id: string, game_title: string, peak: int, time_ago: string, icon: ?string}> */
+    private function parseTopGamesAlltime(mixed $value): array
+    {
+        if (!is_array($value)) return [];
+        $out = [];
+        foreach ($value as $row)
+        {
+            if (!is_array($row)) continue;
+            $out[] = [
+                'comm_id' => (string)($row['comm_id'] ?? ''),
+                'game_title' => (string)($row['game_title'] ?? 'Unknown Game'),
+                'peak' => (int)($row['peak'] ?? 0),
+                'time_ago' => (string)($row['time_ago'] ?? ''),
+                'icon' => isset($row['icon']) && is_string($row['icon']) ? $row['icon'] : null,
+            ];
+        }
+        return $out;
     }
 
     private function fetchDatabaseStatsFromDb(mysqli $db): void
     {
         $titleIdMap = $this->buildTitleIdMap();
+        $this->top_10_games_24h = [];
+        $this->top_10_games_alltime = [];
 
-        // 24h global peak
-        $res = $db->query("SELECT MAX(players) AS peak FROM np_players WHERE timestamp >= NOW() - INTERVAL 24 HOUR;");
-        if ($res && $row = $res->fetch_assoc())
+        $res = $db->query('SELECT MAX(players) AS peak FROM np_players WHERE timestamp >= NOW() - INTERVAL 24 HOUR;');
+        if ($res instanceof mysqli_result)
         {
-            $this->peak_24h_users = (int)$row['peak'];
+            $row = self::fetch_assoc($res);
+            $this->peak_24h_users = (int)($row['peak'] ?? 0);
         }
 
-        // 24h per-game peak  
-        $games24h = [];   // comm_id => int peak
+        /** @var array<string, int> $games24h */
+        $games24h = [];
 
-        // np_psn_games
-        $res24_psn = $db->query("SELECT comm_id, MAX(players) AS peak
-                                 FROM   np_psn_games
-                                 WHERE  timestamp >= NOW() - INTERVAL 24 HOUR
-                                 GROUP  BY comm_id;");
-        if ($res24_psn)
+        $res24Psn = $db->query("SELECT comm_id, MAX(players) AS peak
+                                FROM np_psn_games
+                                WHERE timestamp >= NOW() - INTERVAL 24 HOUR
+                                GROUP BY comm_id;");
+        if ($res24Psn instanceof mysqli_result)
         {
-            while ($row = $res24_psn->fetch_assoc())
+            while (($row = self::fetch_assoc($res24Psn)) !== null)
             {
-                $games24h[$row['comm_id']] = (int)$row['peak'];
+                $commId = isset($row['comm_id']) ? (string)$row['comm_id'] : '';
+                if ($commId !== '') $games24h[$commId] = (int)($row['peak'] ?? 0);
             }
         }
 
-        // np_ticket_games
-        $res24_tkt = $db->query("SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS title_id,
-                                     MAX(players) AS peak
-                                 FROM   np_ticket_games
-                                 WHERE  timestamp >= NOW() - INTERVAL 24 HOUR
-                                 GROUP  BY title_id;");
-        if ($res24_tkt)
+        $res24Tkt = $db->query("SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS title_id,
+                                       MAX(players) AS peak
+                                FROM np_ticket_games
+                                WHERE timestamp >= NOW() - INTERVAL 24 HOUR
+                                GROUP BY title_id;");
+        if ($res24Tkt instanceof mysqli_result)
         {
-            while ($row = $res24_tkt->fetch_assoc())
+            while (($row = self::fetch_assoc($res24Tkt)) !== null)
             {
-                $comm_id = $titleIdMap[$row['title_id']] ?? null;
-                if ($comm_id === null) continue;
-                $peak = (int)$row['peak'];
-                if (!isset($games24h[$comm_id]) || $peak > $games24h[$comm_id])
+                $titleId = isset($row['title_id']) ? (string)$row['title_id'] : '';
+                $commId = $titleId !== '' ? ($titleIdMap[$titleId] ?? null) : null;
+                if ($commId === null) continue;
+
+                $peak = (int)($row['peak'] ?? 0);
+                if (!isset($games24h[$commId]) || $peak > $games24h[$commId])
                 {
-                    $games24h[$comm_id] = $peak;
+                    $games24h[$commId] = $peak;
                 }
             }
         }
 
         arsort($games24h);
-        $games24h = array_slice($games24h, 0, 10, true);
-
-        foreach ($games24h as $comm_id => $peak)
+        foreach (array_slice($games24h, 0, 10, true) as $commId => $peak)
         {
             $this->top_10_games_24h[] = [
-                'comm_id'    => $comm_id,
-                'game_title' => $this->app_title[$comm_id] ?? 'Unknown Game',
-                'peak'       => $peak,
-                'icon'       => $this->resolveIcon($comm_id),
+                'comm_id' => $commId,
+                'game_title' => $this->app_title[$commId] ?? 'Unknown Game',
+                'peak' => $peak,
+                'icon' => $this->resolveIcon($commId),
             ];
         }
 
-        // All time peak
-        $res_all = $db->query("SELECT players AS peak, timestamp
-                               FROM   np_players
-                               ORDER  BY players DESC, timestamp ASC
-                               LIMIT  1;");
-        if ($res_all && $row = $res_all->fetch_assoc())
+        $resAll = $db->query('SELECT players AS peak, timestamp FROM np_players ORDER BY players DESC, timestamp ASC LIMIT 1;');
+        if ($resAll instanceof mysqli_result)
         {
-            $this->peak_alltime_users      = (int)$row['peak'];
-            $this->peak_alltime_users_date = $this->time_ago($row['timestamp']);
+            $row = self::fetch_assoc($resAll);
+            if ($row !== null)
+            {
+                $this->peak_alltime_users = (int)($row['peak'] ?? 0);
+                $timestamp = isset($row['timestamp']) ? (string)$row['timestamp'] : '';
+                $this->peak_alltime_users_date = $timestamp !== '' ? $this->time_ago($timestamp) : '';
+            }
         }
+
+        /** @var array<string, array{peak: int, date: string}> $gamesAlltime */
         $gamesAlltime = [];
 
-        // np_psn_games
-        $res_all_psn = $db->query("SELECT `comm_id`, `timestamp`, `players` FROM np_psn_games_peak;");
-        if ($res_all_psn)
+        $resAllPsn = $db->query('SELECT `comm_id`, `timestamp`, `players` FROM np_psn_games_peak;');
+        if ($resAllPsn instanceof mysqli_result)
         {
-            while ($row = $res_all_psn->fetch_assoc())
+            while (($row = self::fetch_assoc($resAllPsn)) !== null)
             {
-                $gamesAlltime[$row['comm_id']] = [
-                    'peak' => (int)$row['players'],
-                    'date' => $row['timestamp'],
+                $commId = isset($row['comm_id']) ? (string)$row['comm_id'] : '';
+                if ($commId === '') continue;
+                $gamesAlltime[$commId] = [
+                    'peak' => (int)($row['players'] ?? 0),
+                    'date' => isset($row['timestamp']) ? (string)$row['timestamp'] : '',
                 ];
             }
         }
 
-        // np_ticket_games
-        $res_all_tkt = $db->query("SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS `title_id`, `timestamp`, `players` 
-                                   FROM np_ticket_games_peak 
-                                   GROUP BY title_id");
-        if ($res_all_tkt)
+        $resAllTkt = $db->query("SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) AS title_id, timestamp, players
+                                 FROM np_ticket_games_peak
+                                 GROUP BY title_id");
+        if ($resAllTkt instanceof mysqli_result)
         {
-            while ($row = $res_all_tkt->fetch_assoc())
+            while (($row = self::fetch_assoc($resAllTkt)) !== null)
             {
-                $comm_id = $titleIdMap[$row['title_id']] ?? null;
-                if ($comm_id === null) continue;
-                $peak = (int)$row['players'];
-                if (!isset($gamesAlltime[$comm_id]) || $peak > $gamesAlltime[$comm_id]['peak'])
+                $titleId = isset($row['title_id']) ? (string)$row['title_id'] : '';
+                $commId = $titleId !== '' ? ($titleIdMap[$titleId] ?? null) : null;
+                if ($commId === null) continue;
+
+                $peak = (int)($row['players'] ?? 0);
+                if (!isset($gamesAlltime[$commId]) || $peak > $gamesAlltime[$commId]['peak'])
                 {
-                    $gamesAlltime[$comm_id] = ['peak' => $peak, 'date' => $row['timestamp']];
+                    $gamesAlltime[$commId] = [
+                        'peak' => $peak,
+                        'date' => isset($row['timestamp']) ? (string)$row['timestamp'] : '',
+                    ];
                 }
             }
         }
 
-        uasort($gamesAlltime, static fn($a, $b) => $b['peak'] <=> $a['peak']);
-        $gamesAlltime = array_slice($gamesAlltime, 0, 10, true);
-
-        foreach ($gamesAlltime as $comm_id => $data)
+        uasort($gamesAlltime, static fn($a, $b): int => $b['peak'] <=> $a['peak']);
+        foreach (array_slice($gamesAlltime, 0, 10, true) as $commId => $data)
         {
             $this->top_10_games_alltime[] = [
-                'comm_id'    => $comm_id,
-                'game_title' => $this->app_title[$comm_id] ?? 'Unknown Game',
-                'peak'       => $data['peak'],
-                'time_ago'   => !empty($data['date']) ? $this->time_ago($data['date']) : '',
-                'icon'       => $this->resolveIcon($comm_id),
+                'comm_id' => $commId,
+                'game_title' => $this->app_title[$commId] ?? 'Unknown Game',
+                'peak' => $data['peak'],
+                'time_ago' => $data['date'] !== '' ? $this->time_ago($data['date']) : '',
+                'icon' => $this->resolveIcon($commId),
             ];
         }
     }
 
-    private function resolveIcon(string $comm_id): ?string
+    private function resolveIcon(string $commId): ?string
     {
-        if (isset($this->title_icons[$comm_id]))
-        {
-            return $this->title_icons[$comm_id];
-        }
+        if (isset($this->title_icons[$commId])) return $this->title_icons[$commId];
 
-        if (isset($this->title_ids[$comm_id]))
+        foreach ($this->title_ids[$commId] ?? [] as $idToCheck)
         {
-            foreach ($this->title_ids[$comm_id] as $id_to_check)
+            $searchId = $this->icon_alias[$idToCheck] ?? $idToCheck;
+            $hash = $this->icons_db[$searchId] ?? null;
+            if ($hash === null) continue;
+
+            $tempUrl = "/cdn/rpcn/icon0/{$hash}.png";
+            $documentRoot = isset($_SERVER['DOCUMENT_ROOT']) && is_string($_SERVER['DOCUMENT_ROOT'])
+                ? $_SERVER['DOCUMENT_ROOT']
+                : '';
+            if ($documentRoot !== '' && file_exists($documentRoot . $tempUrl))
             {
-                $search_id = $this->icon_alias[$id_to_check] ?? $id_to_check;
-                if (isset($this->icons_db[$search_id]))
-                {
-                    $hash = $this->icons_db[$search_id];
-                    $temp_url = "/cdn/rpcn/icon0/{$hash}.png";
-
-                    if (file_exists($_SERVER['DOCUMENT_ROOT'] . $temp_url))
-                    {
-                        $this->title_icons[$comm_id] = $temp_url;
-                        return $temp_url;
-                    }
-                }
+                $this->title_icons[$commId] = $tempUrl;
+                return $tempUrl;
             }
         }
 
         return null;
     }
 }
-?>

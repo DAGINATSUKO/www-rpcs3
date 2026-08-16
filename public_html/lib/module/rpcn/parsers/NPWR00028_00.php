@@ -5,6 +5,7 @@ $modes = [
     512 => ["name" => "Tricky", "count" => 20],
     768 => ["name" => "Tough",  "count" => 20]
 ];
+/** @var array<int, string> $customLevels */
 $customLevels = []; // for making board_id have specific title
 
 foreach ($modes as $startId => $modeData) {
