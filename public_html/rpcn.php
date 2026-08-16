@@ -1,5 +1,5 @@
 <?php
-include 'lib/module/rpcn/config.php';
+include '../configs/rpcn.php';
 include 'lib/module/rpcn/inc-rpcn-stats.php';
 
 // Initialize RPCNStats class
