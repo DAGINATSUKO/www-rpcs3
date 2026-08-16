@@ -1,5 +1,5 @@
 <?php
-require_once 'lib/module/rpcn/config.php';
+require_once '../configs/rpcn.php';
 require_once 'lib/module/rpcn/inc-rpcn-stats.php';
 require_once 'lib/module/rpcn/inc-rpcn-game.php';
 
