@@ -62,7 +62,6 @@ return [
             $base = 536870912; // 2^29
             $timeMs = $base - ($score % $base);
 
-            if ($timeMs < 0) return "00:00.00";
 
             $min = floor($timeMs / 60000);
             $sec = floor(($timeMs % 60000) / 1000);

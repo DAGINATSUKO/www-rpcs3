@@ -1,9 +1,28 @@
 <?php
+
+require_once __DIR__ . '/inc-rpcn-stats.php';
+
+/** @var array{
+ *   db_host: string, db_user: string, db_pass: string, db_name: string, db_port: string,
+ *   api_url: string, games_json: string, icons_json: string, log_file: string,
+ *   badwords: string, blacklist: string, violation_log: string, parsers_path: string,
+ *   cache: string, cache_time: int, max_display_rows: int,
+ *   game_api_timeout: int, game_api_connect_timeout: int, db_connect_timeout: int, icon_base_path: string,
+ *   default_icon: string, pic1_json: string, pic1_base_path: string, back_link_url: string,
+ *   trophies_json: string, trophies_icon_base_path: string, trophies_sets_path: string,
+ *   trophies_cache_time: int, trophies_enabled: bool,
+ *   trophies_rarity_settings: list<array{max_pct: float, name: string, color: string}>
+ * } $rpcnConfig
+ */
+$rpcnConfig = require __DIR__ . '/config.php';
+
 class RPCNGame
 {
     private string $cacheDir;
     private int    $cacheTime;
     private int    $maxDisplayRows;
+    private int    $apiTimeout;
+    private int    $apiConnectTimeout;
     private string $badwordsFile;
     private string $blacklistFile;
     private string $violationLog;
@@ -17,28 +36,47 @@ class RPCNGame
     private string $trophiesJsonPath;
     private string $trophiesIconBasePath;
     private string $trophiesSetsPath;
-    private int    $trophiesCacheTime;
-    private array  $raritySettings;
+    private int $trophiesCacheTime;
+    private bool $trophiesEnabled;
 
-    public bool   $has_error        = false;
-    public string $gameTitle        = 'Unknown Game';
-    public string $gameIcon         = '';
-    public string $gamePic1         = '';
-    public int    $currentPlayers   = 0;
-    public array  $regions          = [];
-    public bool   $hasLeaderboard   = false;
-    public array  $boards           = [];
-    public int    $peak24h          = 0;
-    public int    $peakAllTime      = 0;
-    public string $peakAllTimeDate  = '';
-    public string $timeAgoStr       = '';
-    public array  $chartDataHourly  = [];
-    public array  $chartDataDaily   = [];
-    public array  $chartDataAllTime = [];
-    public bool   $hasTrophies      = false;
-    public int    $totalTrophies    = 0;
-    public array  $trophies         = [];
+    /** @var list<array{max_pct: float, name: string, color: string}> */
+    private array $raritySettings;
 
+    public bool $has_error = false;
+    public string $gameTitle = 'Unknown Game';
+    public string $gameIcon = '';
+    public string $gamePic1 = '';
+    public int $currentPlayers = 0;
+
+    /** @var list<string> */
+    public array $regions = [];
+
+    public bool $hasLeaderboard = false;
+
+    /** @var array<int, string> */
+    public array $boards = [];
+
+    public int $peak24h = 0;
+    public int $peakAllTime = 0;
+    public string $peakAllTimeDate = '';
+    public string $timeAgoStr = '';
+
+    /** @var list<array{x: string, y: int}> */
+    public array $chartDataHourly = [];
+
+    /** @var list<array{x: string, y: int}> */
+    public array $chartDataDaily = [];
+
+    /** @var list<array{x: string, y: int}> */
+    public array $chartDataAllTime = [];
+
+    public bool $hasTrophies = false;
+    public int $totalTrophies = 0;
+
+    /** @var list<array{id: int, hidden: bool, type: string, name: string, detail: string, earnerCount: int, percentage: float, rarity: string, rarityColor: string, icon: string}> */
+    public array $trophies = [];
+
+    /** @param list<array{max_pct: float, name: string, color: string}> $raritySettings */
     public function __construct(
         string $cacheDir,
         int    $cacheTime,
@@ -51,17 +89,22 @@ class RPCNGame
         string $logFile,
         string $iconBasePath,
         string $defaultIcon,
-        string $pic1JsonPath = '',
-        string $pic1BasePath = '',
-        string $trophiesJsonPath = '',
-        string $trophiesIconBasePath = '',
-        string $trophiesSetsPath = '',
-        int    $trophiesCacheTime = 3600,
-        array  $raritySettings = []
+        string $pic1JsonPath,
+        string $pic1BasePath,
+        string $trophiesJsonPath,
+        string $trophiesIconBasePath,
+        string $trophiesSetsPath,
+        int    $trophiesCacheTime,
+        bool   $trophiesEnabled,
+        array  $raritySettings,
+        int    $apiTimeout,
+        int    $apiConnectTimeout
     ) {
         $this->cacheDir             = rtrim($cacheDir, '/') . '/';
         $this->cacheTime            = $cacheTime;
         $this->maxDisplayRows       = $maxDisplayRows;
+        $this->apiTimeout            = $apiTimeout;
+        $this->apiConnectTimeout     = $apiConnectTimeout;
         $this->badwordsFile         = $badwordsFile;
         $this->blacklistFile        = $blacklistFile;
         $this->violationLog         = $violationLog;
@@ -76,6 +119,7 @@ class RPCNGame
         $this->trophiesIconBasePath = rtrim($trophiesIconBasePath, '/') . '/';
         $this->trophiesSetsPath     = rtrim($trophiesSetsPath, '/') . '/';
         $this->trophiesCacheTime    = $trophiesCacheTime;
+        $this->trophiesEnabled       = $trophiesEnabled;
         $this->raritySettings       = $raritySettings;
     }
 
@@ -105,6 +149,7 @@ class RPCNGame
 
         foreach ($badWords as $pattern)
         {
+            if (!is_string($pattern)) continue;
             if (preg_match($pattern, $userName) || preg_match($pattern, $comment))
             {
                 $this->log_violation($userName, $comment, $commId, $boardId, $pattern);
@@ -133,22 +178,32 @@ class RPCNGame
         }
     }
 
-    private function is_cache_valid(string $path): bool
+    private function is_cache_valid(string $path, ?int $cacheTime = null): bool
     {
-        return file_exists($path) && (time() - filemtime($path) < $this->cacheTime);
+        $cacheTime ??= $this->cacheTime;
+
+        if (!file_exists($path)) return false;
+        $mtime = filemtime($path);
+        return $mtime !== false && (time() - $mtime < $cacheTime);
     }
 
-    private function fetch_api(string $url, string $cacheFile): string
+    private function fetch_api(string $url, string $cacheFile, ?int $cacheTime = null): string
     {
-        if ($this->is_cache_valid($cacheFile))
+        if ($this->is_cache_valid($cacheFile, $cacheTime))
         {
             return $this->read_cache($cacheFile);
         }
 
         $ch = curl_init($url);
+        if ($ch === false)
+        {
+            $this->log_error("Unable to initialize cURL for {$url}.");
+            return file_exists($cacheFile) ? $this->read_cache($cacheFile) : '';
+        }
         curl_setopt_array($ch, [
             CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_TIMEOUT        => 5,
+            CURLOPT_TIMEOUT        => $this->apiTimeout,
+            CURLOPT_CONNECTTIMEOUT => $this->apiConnectTimeout,
             CURLOPT_SSL_VERIFYPEER => false,
         ]);
         $response = curl_exec($ch);
@@ -161,7 +216,6 @@ class RPCNGame
             return $response;
         }
 
-        // Fall back to stale cache if available
         if (file_exists($cacheFile))
         {
             $this->log_error("API returned HTTP {$httpCode} for {$url}, using stale cache.");
@@ -172,49 +226,78 @@ class RPCNGame
         return '';
     }
 
-    private function loadTrophies(string $commId): void
+    private function loadTrophies(string $commId, bool $loadDetails): void
     {
+        $localFile = $this->trophiesSetsPath . $commId . '.json';
+        if (!file_exists($localFile)) return;
+
+        $localRaw = @file_get_contents($localFile);
+        if ($localRaw === false) return;
+        $localData = json_decode($localRaw, true);
+        if (!is_array($localData) || !isset($localData['trophies']) || !is_array($localData['trophies']) || $localData['trophies'] === []) return;
+
+        $this->hasTrophies   = true;
+        $this->totalTrophies = (int)($localData['totalItemCount'] ?? count($localData['trophies']));
+
+        if (!$loadDetails) return;
+
         $cacheFile = $this->cacheDir . "trophies_{$commId}.json";
         $url       = $this->apiBase . "/trophy/" . rawurlencode($commId);
-
-        $json = $this->fetch_api($url, $cacheFile);
+        $json      = $this->fetch_api($url, $cacheFile, $this->trophiesCacheTime);
         if ($json === '') return;
 
         $apiData = json_decode($json, true);
         if (!is_array($apiData)) return;
 
-        $localFile = $this->trophiesSetsPath . $commId . '.json';
-        if (!file_exists($localFile)) return;
-
-        $localData = json_decode(@file_get_contents($localFile), true);
-        if (!is_array($localData) || empty($localData['trophies'])) return;
-
-        $this->hasTrophies   = true;
-        $this->totalTrophies = (int)($localData['totalItemCount'] ?? count($localData['trophies']));
-
         $uniquePlayers = (int)($apiData['uniquePlayers'] ?? 0);
-        $earnerMap     = [];
-        foreach ($apiData['trophies'] ?? [] as $t)
+        /** @var array<int, int> $earnerMap */
+        $earnerMap = [];
+        $apiTrophies = $apiData['trophies'] ?? [];
+        if (is_array($apiTrophies))
         {
-            $earnerMap[(int)$t['trophyId']] = (int)$t['earnerCount'];
+            foreach ($apiTrophies as $t)
+            {
+                if (!is_array($t)) continue;
+                $trophyId = (int)($t['trophyId'] ?? -1);
+                if ($trophyId < 0) continue;
+                $earnerMap[$trophyId] = (int)($t['earnerCount'] ?? 0);
+            }
         }
 
+        /** @var array<int, string> $iconMap */
         $iconMap = [];
         if ($this->trophiesJsonPath !== '' && file_exists($this->trophiesJsonPath))
         {
-            $mapData = json_decode(@file_get_contents($this->trophiesJsonPath), true);
-            if (isset($mapData[$commId]))
+            $mapRaw = @file_get_contents($this->trophiesJsonPath);
+            if ($mapRaw !== false)
             {
-                $iconMap = $mapData[$commId];
+                $mapData = json_decode($mapRaw, true);
+                if (is_array($mapData) && isset($mapData[$commId]) && is_array($mapData[$commId]))
+                {
+                    foreach ($mapData[$commId] as $trophyId => $hash)
+                    {
+                        if (!is_string($hash)) continue;
+
+                        if (is_int($trophyId))
+                        {
+                            $iconMap[$trophyId] = $hash;
+                        }
+                        elseif (ctype_digit($trophyId))
+                        {
+                            $iconMap[(int)$trophyId] = $hash;
+                        }
+                    }
+                }
             }
         }
 
         foreach ($localData['trophies'] as $t)
         {
-            $trophyId = (int)$t['trophyId'];
-            $tId      = (string)$trophyId;
+            if (!is_array($t)) continue;
+            $trophyId = (int)($t['trophyId'] ?? -1);
+            if ($trophyId < 0) continue;
 
-            $iconHash = $iconMap[$tId] ?? '';
+            $iconHash = $iconMap[$trophyId] ?? '';
             $iconUrl  = $iconHash !== '' ? $this->trophiesIconBasePath . $iconHash . '.png' : $this->defaultIcon;
 
             $earnerCount = $earnerMap[$trophyId] ?? 0;
@@ -237,9 +320,9 @@ class RPCNGame
             $this->trophies[] = [
                 'id'          => $trophyId,
                 'hidden'      => (bool)($t['trophyHidden'] ?? false),
-                'type'        => $t['trophyType']   ?? 'unknown',
-                'name'        => $t['trophyName']   ?? 'Unknown',
-                'detail'      => $t['trophyDetail'] ?? '',
+                'type'        => (string)($t['trophyType'] ?? 'unknown'),
+                'name'        => (string)($t['trophyName'] ?? 'Unknown'),
+                'detail'      => (string)($t['trophyDetail'] ?? ''),
                 'earnerCount' => $earnerCount,
                 'percentage'  => $pct,
                 'rarity'      => $rarity,
@@ -262,16 +345,30 @@ class RPCNGame
         }
 
         $loaded = include $parserPath;
-        if (!is_array($loaded) || !isset($loaded['config']))
+        if (!is_array($loaded) || !isset($loaded['config']) || !is_array($loaded['config']) || !isset($loaded['formatter']) || !is_callable($loaded['formatter']))
         {
             $this->log_error("Invalid parser structure for comm_id '{$commId}'.");
             echo "<p class='rpcn-error'>An error occurred. Please try again later.</p>";
             return;
         }
 
-        $parser  = $loaded;
+        $parser = $loaded;
         $pConfig = $parser['config'];
-        $names   = $pConfig['names'] ?? [];
+        $formatter = $parser['formatter'];
+
+        /** @var array<int, string> $names */
+        $names = [];
+        $rawNames = $pConfig['names'] ?? [];
+        if (is_array($rawNames))
+        {
+            foreach ($rawNames as $id => $name)
+            {
+                if ((is_int($id) || ctype_digit((string)$id)) && is_string($name))
+                {
+                    $names[(int)$id] = $name;
+                }
+            }
+        }
 
         // Resolve board ID
         $boardId = null;
@@ -311,27 +408,45 @@ class RPCNGame
             return;
         }
 
-        $blacklist = file_exists($this->blacklistFile) ? include $this->blacklistFile : [];
-        if (!is_array($blacklist)) $blacklist = [];
+        $blacklistRaw = file_exists($this->blacklistFile) ? include $this->blacklistFile : [];
+        $blacklist = is_array($blacklistRaw) ? array_values(array_filter($blacklistRaw, 'is_string')) : [];
 
-        $apiData     = json_decode($json, true);
-        $scores      = $apiData['scores'] ?? ($apiData[0]['scores'] ?? []);
-        $timeBoards  = $pConfig['time_boards'] ?? [];
+        $apiData = json_decode($json, true);
+        if (!is_array($apiData))
+        {
+            $this->log_error("Invalid score JSON for comm_id '{$commId}'.");
+            return;
+        }
+
+        $scores = [];
+        if (isset($apiData['scores']) && is_array($apiData['scores']))
+        {
+            $scores = $apiData['scores'];
+        }
+        elseif (isset($apiData[0]) && is_array($apiData[0]) && isset($apiData[0]['scores']) && is_array($apiData[0]['scores']))
+        {
+            $scores = $apiData[0]['scores'];
+        }
+
+        $timeBoardsRaw = $pConfig['time_boards'] ?? [];
+        $timeBoards = is_array($timeBoardsRaw) ? array_map('intval', $timeBoardsRaw) : [];
         $isTimeBoard = in_array($boardId, $timeBoards, true);
 
+        /** @var list<array{user: string, sort: float|int, val: string}> $displayRows */
         $displayRows = [];
         foreach ($scores as $row)
         {
-            $userName = $row['online_name'] ?? 'Unknown';
+            if (!is_array($row)) continue;
+            $userName = (string)($row['online_name'] ?? 'Unknown');
             if (in_array($userName, $blacklist, true)) continue;
 
-            $comment = $row['comment'] ?? '';
+            $comment = (string)($row['comment'] ?? '');
             if ($this->check_content($userName, $comment, $commId, $boardId)) continue;
 
             $rawScore = (float)($row['score'] ?? 0);
             if ($rawScore == 0) continue;
 
-            $formattedValue = $parser['formatter']($rawScore, $boardId, $pConfig, $row['info'] ?? null, $comment);
+            $formattedValue = (string)$formatter($rawScore, $boardId, $pConfig, $row['info'] ?? null, $comment);
             $sortValue      = $rawScore;
 
             if ($isTimeBoard && preg_match('/(\d+):(\d+)\.(\d+)/', $formattedValue, $m))
@@ -342,7 +457,7 @@ class RPCNGame
             $displayRows[] = ['user' => $userName, 'sort' => $sortValue, 'val' => $formattedValue];
         }
 
-        usort($displayRows, static function ($a, $b) use ($isTimeBoard)
+        usort($displayRows, static function ($a, $b) use ($isTimeBoard): int
         {
             return $isTimeBoard ? ($a['sort'] <=> $b['sort']) : ($b['sort'] <=> $a['sort']);
         });
@@ -360,8 +475,9 @@ class RPCNGame
 
         // Resolve column headers
         $rawCols = $pConfig['column_names'] ?? 'Score';
-        $colDef  = is_array($rawCols) ? ($rawCols[$boardId] ?? 'Score') : $rawCols;
-        $cols    = array_map('trim', explode('|', $colDef));
+        $colDef = is_array($rawCols) ? ($rawCols[$boardId] ?? 'Score') : $rawCols;
+        $colDef = is_string($colDef) ? $colDef : 'Score';
+        $cols = array_map('trim', explode('|', $colDef));
 
         // Render table
         echo "<div class='rpcn-lb-table-wrap'><table class='rpcn-lb-table'>";
@@ -402,7 +518,53 @@ class RPCNGame
         return ob_get_clean() ?: '';
     }
 
-    public function load_page_data(string $commId, RPCNStats $stats, ?mysqli $db): void
+    /** @return list<array{x: string, y: int}> */
+    private static function parseChartData(mixed $value): array
+    {
+        if (!is_array($value)) return [];
+        $out = [];
+        foreach ($value as $point)
+        {
+            if (!is_array($point)) continue;
+            $x = $point['x'] ?? null;
+            $y = $point['y'] ?? null;
+            if (!is_string($x) || !is_numeric($y)) continue;
+            $out[] = ['x' => $x, 'y' => (int)$y];
+        }
+        return $out;
+    }
+
+    private function pageStatsCacheFile(string $commId): string
+    {
+        $safeCommId = preg_replace('/[^A-Za-z0-9_]/', '_', $commId) ?? $commId;
+        return $this->cacheDir . $safeCommId . '_pgstats_v2.json';
+    }
+
+    private function loadPageStatsCache(string $commId): bool
+    {
+        $path = $this->pageStatsCacheFile($commId);
+        if (!file_exists($path)) return false;
+
+        $mtime = filemtime($path);
+        if ($mtime === false || (time() - $mtime) >= $this->cacheTime) return false;
+
+        $raw = @file_get_contents($path);
+        if ($raw === false) return false;
+
+        $pg = json_decode($raw, true);
+        if (!is_array($pg)) return false;
+
+        $this->peak24h = (int)($pg['peak24h'] ?? 0);
+        $this->peakAllTime = (int)($pg['peakAllTime'] ?? 0);
+        $this->peakAllTimeDate = (string)($pg['peakAllTimeDate'] ?? '');
+        $this->timeAgoStr = (string)($pg['timeAgoStr'] ?? '');
+        $this->chartDataHourly = self::parseChartData($pg['chartDataHourly'] ?? []);
+        $this->chartDataDaily = self::parseChartData($pg['chartDataDaily'] ?? []);
+        $this->chartDataAllTime = self::parseChartData($pg['chartDataAllTime'] ?? []);
+        return true;
+    }
+
+    public function load_page_data(string $commId, RPCNStats $stats, ?mysqli $db, bool $loadTrophyDetails = false): void
     {
         // Basic game info from the stats object
         $this->gameTitle    = $stats->app_title[$commId] ?? 'Unknown Game';
@@ -451,11 +613,13 @@ class RPCNGame
         $this->gamePic1 = ''; 
         if ($this->pic1JsonPath !== '' && file_exists($this->pic1JsonPath))
         {
-            $pic1Db = json_decode(file_get_contents($this->pic1JsonPath), true) ?: [];
+            $pic1Raw = file_get_contents($this->pic1JsonPath);
+            $pic1Db = $pic1Raw !== false ? json_decode($pic1Raw, true) : [];
+            if (!is_array($pic1Db)) $pic1Db = [];
             foreach ($stats->title_ids[$commId] ?? [] as $id)
             {
                 $search = $stats->icon_alias[$id] ?? $id;
-                if (isset($pic1Db[$search]))
+                if (isset($pic1Db[$search]) && is_string($pic1Db[$search]))
                 {
                     $file_name = $pic1Db[$search] . '.png';
                     $temp_url  = $this->pic1BasePath . $file_name;
@@ -474,51 +638,53 @@ class RPCNGame
         $this->hasLeaderboard = file_exists($parserPath);
         if ($this->hasLeaderboard)
         {
-            $loaded       = include $parserPath;
-            $this->boards = is_array($loaded) ? ($loaded['config']['names'] ?? []) : [];
-        }
-
-        $this->loadTrophies($commId);
-
-        // Database stats
-        if ($db === null) return;
-
-        $pgCacheFile = $this->cacheDir . preg_replace('/[^A-Za-z0-9_]/', '_', $commId) . '_pgstats.json';
-        $pgCacheTtl  = 300; // 5 minutes
-        if (
-            file_exists($pgCacheFile) &&
-            (time() - filemtime($pgCacheFile)) < $pgCacheTtl
-        )
-        {
-            $raw = @file_get_contents($pgCacheFile);
-            if ($raw !== false)
+            $loaded = include $parserPath;
+            if (is_array($loaded) && isset($loaded['config']) && is_array($loaded['config']))
             {
-                $pg = json_decode($raw, true);
-                if (is_array($pg))
+                $rawNames = $loaded['config']['names'] ?? [];
+                if (is_array($rawNames))
                 {
-                    $this->peak24h         = (int)($pg['peak24h']         ?? 0);
-                    $this->peakAllTime     = (int)($pg['peakAllTime']     ?? 0);
-                    $this->peakAllTimeDate = (string)($pg['peakAllTimeDate'] ?? '');
-                    $this->timeAgoStr      = (string)($pg['timeAgoStr']      ?? '');
-                    $this->chartDataHourly  = (array)($pg['chartDataHourly']  ?? []);
-                    $this->chartDataDaily   = (array)($pg['chartDataDaily']   ?? []);
-                    $this->chartDataAllTime = (array)($pg['chartDataAllTime'] ?? []);
-                    return;
+                    foreach ($rawNames as $boardId => $name)
+                    {
+                        if ((is_int($boardId) || ctype_digit((string)$boardId)) && is_string($name))
+                        {
+                            $this->boards[(int)$boardId] = $name;
+                        }
+                    }
                 }
             }
         }
 
-        $this->loadDbStats($db, $commId, $stats);
+        if ($this->trophiesEnabled)
+        {
+            $this->loadTrophies($commId, $loadTrophyDetails);
+        }
 
-        @file_put_contents($pgCacheFile, json_encode([
-            'peak24h'         => $this->peak24h,
-            'peakAllTime'     => $this->peakAllTime,
+        if ($this->loadPageStatsCache($commId)) return;
+        if ($db === null) return;
+
+        $this->loadDbStats($db, $commId, $stats);
+        $pgCacheFile = $this->pageStatsCacheFile($commId);
+
+        $cachePayload = json_encode([
+            'peak24h' => $this->peak24h,
+            'peakAllTime' => $this->peakAllTime,
             'peakAllTimeDate' => $this->peakAllTimeDate,
-            'timeAgoStr'      => $this->timeAgoStr,
-            'chartDataHourly'  => $this->chartDataHourly,
-            'chartDataDaily'   => $this->chartDataDaily,
+            'timeAgoStr' => $this->timeAgoStr,
+            'chartDataHourly' => $this->chartDataHourly,
+            'chartDataDaily' => $this->chartDataDaily,
             'chartDataAllTime' => $this->chartDataAllTime,
-        ]));
+        ]);
+        if ($cachePayload !== false) @file_put_contents($pgCacheFile, $cachePayload);
+    }
+
+    /** @return array<string, mixed>|null */
+    private static function stmtFetchAssoc(mysqli_stmt $stmt): ?array
+    {
+        $result = $stmt->get_result();
+        if (!$result instanceof mysqli_result) return null;
+        $row = $result->fetch_assoc();
+        return is_array($row) ? $row : null;
     }
 
     private function loadDbStats(mysqli $db, string $commId, RPCNStats $stats): void
@@ -534,24 +700,29 @@ class RPCNGame
         {
             $stmt->bind_param('s', $commId);
             $stmt->execute();
-            $peak24h_psn = (int)($stmt->get_result()->fetch_assoc()['peak'] ?? 0);
+            $row = self::stmtFetchAssoc($stmt);
+            $peak24h_psn = (int)($row['peak'] ?? 0);
             $stmt->close();
         }
 
         // Peak 24h (Ticket Games)
-        $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
-        $types        = str_repeat('s', count($titleIds));
-        $stmt = $db->prepare("SELECT MAX(players) AS peak
-                              FROM   np_ticket_games
-                              WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
-                              AND timestamp >= NOW() - INTERVAL 24 HOUR;");
         $peak24h_tkt = 0;
-        if ($stmt)
+        if ($titleIds !== [])
         {
-            $stmt->bind_param($types, ...$titleIds);
-            $stmt->execute();
-            $val = (int)($stmt->get_result()->fetch_assoc()['peak'] ?? 0);
-            $stmt->close();
+            $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
+            $types = str_repeat('s', count($titleIds));
+            $stmt = $db->prepare("SELECT MAX(players) AS peak
+                                  FROM np_ticket_games
+                                  WHERE SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
+                                    AND timestamp >= NOW() - INTERVAL 24 HOUR;");
+            if ($stmt)
+            {
+                $stmt->bind_param($types, ...$titleIds);
+                $stmt->execute();
+                $row = self::stmtFetchAssoc($stmt);
+                $peak24h_tkt = (int)($row['peak'] ?? 0);
+                $stmt->close();
+            }
         }
 
         $this->peak24h = max($peak24h_psn, $peak24h_tkt);
@@ -566,7 +737,7 @@ class RPCNGame
         {
             $stmt->bind_param('s', $commId);
             $stmt->execute();
-            $rowAt           = $stmt->get_result()->fetch_assoc();
+            $rowAt = self::stmtFetchAssoc($stmt);
             $peakAllTime_psn = (int)    ($rowAt['peak']      ?? 0);
             $peakDate_psn    = (string) ($rowAt['timestamp'] ?? '');
             $stmt->close();
@@ -587,7 +758,7 @@ class RPCNGame
             {
                 $stmt->bind_param($types, ...$titleIds);
                 $stmt->execute();
-                $rowTkt          = $stmt->get_result()->fetch_assoc();
+                $rowTkt = self::stmtFetchAssoc($stmt);
                 $peakAllTime_tkt = (int)($rowTkt['peak']      ?? 0);
                 $peakDate_tkt    = (string)($rowTkt['peak_date'] ?? '');
                 $stmt->close();
@@ -606,6 +777,7 @@ class RPCNGame
         }
 
         // Hourly chart data (last 7 days)
+        /** @var array<string, int> $hourly */
         $hourly = [];
 
         $stmt = $db->prepare("SELECT DATE_FORMAT(timestamp, '%Y-%m-%d %H:00:00') AS date, MAX(players) AS peak
@@ -618,9 +790,13 @@ class RPCNGame
             $stmt->bind_param('s', $commId);
             $stmt->execute();
             $res = $stmt->get_result();
-            while ($row = $res->fetch_assoc())
+            if ($res instanceof mysqli_result)
             {
-                $hourly[$row['date']] = max($hourly[$row['date']] ?? 0, (int)$row['peak']);
+                while ($row = $res->fetch_assoc())
+                {
+                    $date = isset($row['date']) ? (string)$row['date'] : '';
+                    if ($date !== '') $hourly[$date] = max($hourly[$date] ?? 0, (int)($row['peak'] ?? 0));
+                }
             }
             $stmt->close();
         }
@@ -640,9 +816,13 @@ class RPCNGame
                 $stmt->bind_param($types, ...$titleIds);
                 $stmt->execute();
                 $res = $stmt->get_result();
-                while ($row = $res->fetch_assoc())
+                if ($res instanceof mysqli_result)
                 {
-                    $hourly[$row['date']] = max($hourly[$row['date']] ?? 0, (int)$row['peak']);
+                    while ($row = $res->fetch_assoc())
+                    {
+                        $date = isset($row['date']) ? (string)$row['date'] : '';
+                        if ($date !== '') $hourly[$date] = max($hourly[$date] ?? 0, (int)($row['peak'] ?? 0));
+                    }
                 }
                 $stmt->close();
             }
@@ -654,57 +834,8 @@ class RPCNGame
             $this->chartDataHourly[] = ['x' => $date, 'y' => $peak];
         }
 
-        // Daily chart data (last 1 year)
-        $daily = [];
-
-        $stmt = $db->prepare("SELECT DATE(timestamp) AS date, MAX(players) AS peak
-                              FROM   np_psn_games
-                              WHERE  comm_id = ? 
-                                AND timestamp >= NOW() - INTERVAL 1 YEAR
-                              GROUP  BY DATE(timestamp)
-                              ORDER  BY date ASC;");
-        if ($stmt)
-        {
-            $stmt->bind_param('s', $commId);
-            $stmt->execute();
-            $res = $stmt->get_result();
-            while ($row = $res->fetch_assoc())
-            {
-                $daily[$row['date']] = max($daily[$row['date']] ?? 0, (int)$row['peak']);
-            }
-            $stmt->close();
-        }
-
-        if (!empty($titleIds))
-        {
-            $placeholders = implode(',', array_fill(0, count($titleIds), '?'));
-            $types        = str_repeat('s', count($titleIds));
-            $stmt = $db->prepare("SELECT DATE(timestamp) AS date, MAX(players) AS peak
-                                  FROM   np_ticket_games
-                                  WHERE  SUBSTRING_INDEX(SUBSTRING_INDEX(content_id, '-', -1), '_', 1) IN ($placeholders)
-                                    AND  timestamp >= NOW() - INTERVAL 1 YEAR
-                                  GROUP  BY DATE(timestamp)
-                                  ORDER  BY date ASC;");
-            if ($stmt)
-            {
-                $stmt->bind_param($types, ...$titleIds);
-                $stmt->execute();
-                $res = $stmt->get_result();
-                while ($row = $res->fetch_assoc())
-                {
-                    $daily[$row['date']] = max($daily[$row['date']] ?? 0, (int)$row['peak']);
-                }
-                $stmt->close();
-            }
-        }
-
-        ksort($daily);
-        foreach ($daily as $date => $peak)
-        {
-            $this->chartDataDaily[] = ['x' => $date, 'y' => $peak];
-        }
-
         // All-time daily chart data (no date limit)
+        /** @var array<string, int> $alltime */
         $alltime = [];
 
         $stmt = $db->prepare("SELECT DATE(timestamp) AS date, MAX(players) AS peak
@@ -717,9 +848,13 @@ class RPCNGame
             $stmt->bind_param('s', $commId);
             $stmt->execute();
             $res = $stmt->get_result();
-            while ($row = $res->fetch_assoc())
+            if ($res instanceof mysqli_result)
             {
-                $alltime[$row['date']] = max($alltime[$row['date']] ?? 0, (int)$row['peak']);
+                while ($row = $res->fetch_assoc())
+                {
+                    $date = isset($row['date']) ? (string)$row['date'] : '';
+                    if ($date !== '') $alltime[$date] = max($alltime[$date] ?? 0, (int)($row['peak'] ?? 0));
+                }
             }
             $stmt->close();
         }
@@ -738,18 +873,30 @@ class RPCNGame
                 $stmt->bind_param($types, ...$titleIds);
                 $stmt->execute();
                 $res = $stmt->get_result();
-                while ($row = $res->fetch_assoc())
+                if ($res instanceof mysqli_result)
                 {
-                    $alltime[$row['date']] = max($alltime[$row['date']] ?? 0, (int)$row['peak']);
+                    while ($row = $res->fetch_assoc())
+                    {
+                        $date = isset($row['date']) ? (string)$row['date'] : '';
+                        if ($date !== '') $alltime[$date] = max($alltime[$date] ?? 0, (int)($row['peak'] ?? 0));
+                    }
                 }
                 $stmt->close();
             }
         }
 
         ksort($alltime);
+        $oneYearCutoff = (new DateTimeImmutable('now', new DateTimeZone('UTC')))
+            ->modify('-1 year')
+            ->format('Y-m-d');
         foreach ($alltime as $date => $peak)
         {
-            $this->chartDataAllTime[] = ['x' => $date, 'y' => $peak];
+            $point = ['x' => $date, 'y' => $peak];
+            $this->chartDataAllTime[] = $point;
+            if ($date >= $oneYearCutoff)
+            {
+                $this->chartDataDaily[] = $point;
+            }
         }
 
         if ($this->peakAllTimeDate !== '')
@@ -772,10 +919,11 @@ class RPCNGame
     }
 }
 
-$commId = trim($_GET['comm_id'] ?? '');
+$commIdParam = $_GET['comm_id'] ?? '';
+$commId = is_string($commIdParam) ? trim($commIdParam) : '';
 $isAjax = isset($_GET['ajax']) && $_GET['ajax'] === '1';
 
-if ($commId === '' || !preg_match('/^[A-Z0-9]{4}\d{5}_\d{2}$/', $commId))
+if ($commId === '' || preg_match('/^[A-Z0-9]{4}\d{5}_\d{2}$/', $commId) !== 1)
 {
     if ($isAjax)
     {
@@ -783,62 +931,104 @@ if ($commId === '' || !preg_match('/^[A-Z0-9]{4}\d{5}_\d{2}$/', $commId))
         echo "<p class='rpcn-error'>An error occurred. Please try again later.</p>";
         exit;
     }
-    header('Location: ' . $back_link_url);
+    header('Location: ' . $rpcnConfig['back_link_url']);
     exit;
 }
 
-$rpcn_game = new RPCNGame(
-    $cache,
-    (int)$cache_time,
-    (int)$max_display_rows,
-    $badwords,
-    $blacklist,
-    $violation_log,
-    $api_url,
-    $parsers_path,
-    $log_file,
-    $icon_base_path,
-    $default_icon,
-    $pic1_json,
-    $pic1_base_path,
-    $trophies_json ?? '',
-    $trophies_icon_base_path ?? '',
-    $trophies_sets_path ?? '',
-    (int)($trophies_cache_time ?? 3600),
-    $trophies_rarity_settings ?? []
+$trophiesEnabled = $rpcnConfig['trophies_enabled'];
+
+$rpcnGame = new RPCNGame(
+    $rpcnConfig['cache'],
+    $rpcnConfig['cache_time'],
+    $rpcnConfig['max_display_rows'],
+    $rpcnConfig['badwords'],
+    $rpcnConfig['blacklist'],
+    $rpcnConfig['violation_log'],
+    $rpcnConfig['api_url'],
+    $rpcnConfig['parsers_path'],
+    $rpcnConfig['log_file'],
+    $rpcnConfig['icon_base_path'],
+    $rpcnConfig['default_icon'],
+    $rpcnConfig['pic1_json'],
+    $rpcnConfig['pic1_base_path'],
+    $rpcnConfig['trophies_json'],
+    $rpcnConfig['trophies_icon_base_path'],
+    $rpcnConfig['trophies_sets_path'],
+    $rpcnConfig['trophies_cache_time'],
+    $trophiesEnabled,
+    $rpcnConfig['trophies_rarity_settings'],
+    $rpcnConfig['game_api_timeout'],
+    $rpcnConfig['game_api_connect_timeout']
 );
 
 if ($isAjax)
 {
-    $rpcn_game->handle_ajax($commId, $_GET['board_id'] ?? null);
+    $boardIdParam = $_GET['board_id'] ?? null;
+    $rpcnGame->handle_ajax($commId, is_string($boardIdParam) ? $boardIdParam : null);
     exit;
 }
 
-$rpcn_stats = new RPCNStats(
-    $games_json,
-    $log_file,
-    $api_url,
-    $icons_json,
-    $cache . 'usage.json'
+$rpcnStats = new RPCNStats(
+    $rpcnConfig['games_json'],
+    $rpcnConfig['log_file'],
+    $rpcnConfig['api_url'],
+    $rpcnConfig['icons_json'],
+    $rpcnConfig['cache'] . 'usage.json',
+    $rpcnConfig['cache_time'],
+    $commId,
+    false
 );
 
+$tabParam = $_GET['tab'] ?? '';
+$loadTrophyDetails = $trophiesEnabled && is_string($tabParam) && $tabParam === 'trophies';
+
 mysqli_report(MYSQLI_REPORT_OFF);
-$mysqli = @mysqli_connect($db_host, $db_user, $db_pass, $db_name, (int)$db_port);
-if ($mysqli && $mysqli->connect_error) $mysqli = null;
+$mysqli = null;
+$db = mysqli_init();
+if ($db instanceof mysqli)
+{
+    mysqli_options($db, MYSQLI_OPT_CONNECT_TIMEOUT, $rpcnConfig['db_connect_timeout']);
+    if (@mysqli_real_connect(
+        $db,
+        $rpcnConfig['db_host'],
+        $rpcnConfig['db_user'],
+        $rpcnConfig['db_pass'],
+        $rpcnConfig['db_name'],
+        (int)$rpcnConfig['db_port']
+    ))
+    {
+        $mysqli = $db;
+        @$mysqli->query("SET SESSION time_zone = '+00:00'");
+    }
+}
 
-$rpcn_game->load_page_data($commId, $rpcn_stats, $mysqli ?: null);
+$rpcnGame->load_page_data($commId, $rpcnStats, $mysqli, $loadTrophyDetails);
+if ($mysqli instanceof mysqli) $mysqli->close();
 
-if ($mysqli) $mysqli->close();
+/** @var array{
+ *   rpcn_game: RPCNGame, commId: string, gameTitle: string, gameIcon: string, gamePic1: string,
+ *   defaultIcon: string, default_icon: string, currentPlayers: int, regions: list<string>,
+ *   hasLeaderboard: bool, boards: array<int, string>, peak24h: int, peakAllTime: int,
+ *   timeAgoStr: string, chartDataHourly: list<array{x: string, y: int}>,
+ *   chartDataDaily: list<array{x: string, y: int}>
+ * } $pageContext */
+$pageContext = [
+    'rpcn_game' => $rpcnGame,
+    'commId' => $commId,
+    'gameTitle' => $rpcnGame->gameTitle,
+    'gameIcon' => $rpcnGame->gameIcon,
+    'gamePic1' => $rpcnGame->gamePic1,
+    'defaultIcon' => $rpcnConfig['default_icon'],
+    'default_icon' => $rpcnConfig['default_icon'],
+    'currentPlayers' => $rpcnGame->currentPlayers,
+    'regions' => $rpcnGame->regions,
+    'hasLeaderboard' => $rpcnGame->hasLeaderboard,
+    'boards' => $rpcnGame->boards,
+    'peak24h' => $rpcnGame->peak24h,
+    'peakAllTime' => $rpcnGame->peakAllTime,
+    'timeAgoStr' => $rpcnGame->timeAgoStr,
+    'chartDataHourly' => $rpcnGame->chartDataHourly,
+    'chartDataDaily' => $rpcnGame->chartDataDaily,
+];
 
-$gameTitle       = $rpcn_game->gameTitle;
-$gameIcon        = $rpcn_game->gameIcon;
-$gamePic1        = $rpcn_game->gamePic1;
-$currentPlayers  = $rpcn_game->currentPlayers;
-$regions         = $rpcn_game->regions;
-$hasLeaderboard  = $rpcn_game->hasLeaderboard;
-$boards          = $rpcn_game->boards;
-$peak24h         = $rpcn_game->peak24h;
-$peakAllTime     = $rpcn_game->peakAllTime;
-$timeAgoStr      = $rpcn_game->timeAgoStr;
-$chartDataHourly = $rpcn_game->chartDataHourly;
-$chartDataDaily  = $rpcn_game->chartDataDaily;
+return $pageContext;
