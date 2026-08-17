@@ -59,7 +59,7 @@ $names = [
 
     51 => "Grade Points | Tag",
 
-    52 => "Reward",
+    52 => "Overall | Reward",
 
     53 => "Character Points | Zack",
     54 => "Character Points | Tina",
@@ -123,7 +123,7 @@ $isType = function(int $id, string $type) use ($boardTypes): bool {
     return in_array($id, $ids, true);
 };
 
-$columnNames = ["default" => "Score | Region"];
+$columnNames = array_fill_keys(array_keys($names), "Score | Region");
 foreach ($boardTypes['grade']         as $id) $columnNames[$id] = "Score | Grade | Region";
 foreach ($boardTypes['arcade_solo']    as $id) $columnNames[$id] = "Score | Character | Region";
 foreach ($boardTypes['arcade_tag']     as $id) $columnNames[$id] = "Score | Characters | Region";

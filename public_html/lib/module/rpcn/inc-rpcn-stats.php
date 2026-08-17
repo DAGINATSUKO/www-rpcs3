@@ -151,11 +151,11 @@ class RPCNStats
         return 'just now';
     }
 
-    /** @return array<string, mixed>|null */
-    private static function fetch_assoc(mysqli_result $result): ?array
+    /** @return array<string, mixed> */
+    private static function fetch_assoc(mysqli_result $result): array
     {
         $row = $result->fetch_assoc();
-        return is_array($row) ? $row : null;
+        return is_array($row) ? $row : [];
     }
 
     private function processStats(): void
@@ -301,17 +301,17 @@ class RPCNStats
 
             curl_setopt_array($ch, [
                 CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_HEADER => true,
                 CURLOPT_HTTPHEADER => ['Accept: application/json'],
                 CURLOPT_TIMEOUT => 3,
                 CURLOPT_CONNECTTIMEOUT => 2,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_ENCODING => '',
             ]);
 
             $response = curl_exec($ch);
             if (!is_string($response))
             {
                 $error = 'cURL error: ' . curl_error($ch);
-                curl_close($ch);
                 if ($staleApiData !== null)
                 {
                     $this->log_error($error . '; using stale usage cache.');
@@ -322,12 +322,9 @@ class RPCNStats
                     throw new RuntimeException($error);
                 }
             }
-
-            if (is_string($response))
+            else
             {
                 $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
-                $headerSize = (int)curl_getinfo($ch, CURLINFO_HEADER_SIZE);
-                curl_close($ch);
 
                 if ($httpCode !== 200)
                 {
@@ -343,7 +340,7 @@ class RPCNStats
                 }
                 else
                 {
-                    $apiData = substr($response, $headerSize);
+                    $apiData = $response;
                     if (@file_put_contents($this->cache, $apiData) === false)
                     {
                         $this->log_error("Failed to save cache: {$this->cache}");
@@ -352,10 +349,20 @@ class RPCNStats
             }
         }
 
-        $data = json_decode($apiData, true);
+
+        try
+        {
+            $data = json_decode($apiData, true, 512, JSON_THROW_ON_ERROR);
+        }
+        catch (JsonException $e)
+        {
+            $preview = substr(trim($apiData), 0, 160);
+            throw new RuntimeException('Invalid usage JSON: ' . $e->getMessage() . '; response starts with: ' . $preview);
+        }
+
         if (!is_array($data))
         {
-            throw new RuntimeException(json_last_error_msg());
+            throw new RuntimeException('Usage API response must decode to an object.');
         }
 
         $numUsers = $data['num_users'] ?? 0;
@@ -563,7 +570,7 @@ class RPCNStats
                                 GROUP BY comm_id;");
         if ($res24Psn instanceof mysqli_result)
         {
-            while (($row = self::fetch_assoc($res24Psn)) !== null)
+            while (($row = self::fetch_assoc($res24Psn)) !== [])
             {
                 $commId = isset($row['comm_id']) ? RPCNValue::string($row['comm_id']) : '';
                 if ($commId !== '') $games24h[$commId] = RPCNValue::int($row['peak'] ?? null);
@@ -577,7 +584,7 @@ class RPCNStats
                                 GROUP BY title_id;");
         if ($res24Tkt instanceof mysqli_result)
         {
-            while (($row = self::fetch_assoc($res24Tkt)) !== null)
+            while (($row = self::fetch_assoc($res24Tkt)) !== [])
             {
                 $titleId = isset($row['title_id']) ? RPCNValue::string($row['title_id']) : '';
                 $commId = $titleId !== '' ? ($titleIdMap[$titleId] ?? null) : null;
@@ -606,7 +613,7 @@ class RPCNStats
         if ($resAll instanceof mysqli_result)
         {
             $row = self::fetch_assoc($resAll);
-            if ($row !== null)
+            if ($row !== [])
             {
                 $this->peak_alltime_users = RPCNValue::int($row['peak'] ?? null);
                 $timestamp = isset($row['timestamp']) ? RPCNValue::string($row['timestamp']) : '';
@@ -620,7 +627,7 @@ class RPCNStats
         $resAllPsn = $db->query('SELECT `comm_id`, `timestamp`, `players` FROM np_psn_games_peak;');
         if ($resAllPsn instanceof mysqli_result)
         {
-            while (($row = self::fetch_assoc($resAllPsn)) !== null)
+            while (($row = self::fetch_assoc($resAllPsn)) !== [])
             {
                 $commId = isset($row['comm_id']) ? RPCNValue::string($row['comm_id']) : '';
                 if ($commId === '') continue;
@@ -636,7 +643,7 @@ class RPCNStats
                                  GROUP BY title_id");
         if ($resAllTkt instanceof mysqli_result)
         {
-            while (($row = self::fetch_assoc($resAllTkt)) !== null)
+            while (($row = self::fetch_assoc($resAllTkt)) !== [])
             {
                 $titleId = isset($row['title_id']) ? RPCNValue::string($row['title_id']) : '';
                 $commId = $titleId !== '' ? ($titleIdMap[$titleId] ?? null) : null;

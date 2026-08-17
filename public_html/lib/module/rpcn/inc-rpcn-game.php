@@ -424,8 +424,7 @@ class RPCNGame
             return;
         }
 
-        $rawCols = $pConfig->columnNames;
-        $colDef = is_array($rawCols) ? ($rawCols[$boardId] ?? $rawCols['default'] ?? 'Score') : $rawCols;
+        $colDef = $pConfig->columnNames[$boardId] ?? 'Score';
         $cols = array_map('trim', explode('|', $colDef));
 
         echo "<div class='rpcn-lb-table-wrap'><table class='rpcn-lb-table'>";
@@ -619,13 +618,13 @@ class RPCNGame
         if ($cachePayload !== false) @file_put_contents($pgCacheFile, $cachePayload);
     }
 
-    /** @return array<string, mixed>|null */
-    private static function stmtFetchAssoc(mysqli_stmt $stmt): ?array
+    /** @return array<string, mixed> */
+    private static function stmtFetchAssoc(mysqli_stmt $stmt): array
     {
         $result = $stmt->get_result();
-        if (!$result instanceof mysqli_result) return null;
+        if (!$result instanceof mysqli_result) return [];
         $row = $result->fetch_assoc();
-        return is_array($row) ? $row : null;
+        return is_array($row) ? $row : [];
     }
 
     private function loadDbStats(mysqli $db, string $commId, RPCNStats $stats): void

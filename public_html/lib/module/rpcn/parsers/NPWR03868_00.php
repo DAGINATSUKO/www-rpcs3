@@ -3,7 +3,7 @@ return new RPCNParser(
     title: "Fighting Vipers",
     config: new RPCNParserConfig(
         icon: "",
-        gameIds: "NPEB01164",
+        gameIds: ["NPEB01164"],
         scoreBoards: [0],
         names: [
                     0 => "Battle Points"

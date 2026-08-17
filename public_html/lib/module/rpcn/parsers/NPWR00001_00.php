@@ -63,7 +63,7 @@ return new RPCNParser(
         scoreBoards: [],
         timeBoards: $time_boards,
         names: $names,
-        columnNames: "Time",
+        columnNames: array_fill_keys(array_keys($names), "Time"),
     ),
     formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         $timeBoards = $config->timeBoards;

@@ -28,25 +28,21 @@ final class RPCNValue
 
 final class RPCNParserConfig
 {
-    /** @var list<string> */
-    public array $gameIds;
-
     /**
-     * @param string|list<string> $gameIds
+     * @param list<string> $gameIds
      * @param list<int> $scoreBoards
      * @param list<int> $timeBoards
      * @param array<int, string> $names
-     * @param string|array<int|string, string> $columnNames
+     * @param array<int, string> $columnNames
      */
     public function __construct(
         public string $icon = '',
-        string|array $gameIds = [],
+        public array $gameIds = [],
         public array $scoreBoards = [],
         public array $timeBoards = [],
         public array $names = [],
-        public string|array $columnNames = 'Score'
+        public array $columnNames = []
     ) {
-        $this->gameIds = is_string($gameIds) ? [$gameIds] : $gameIds;
     }
 }
 
@@ -178,7 +174,7 @@ final class RPCNLeaderboardRow
 {
     public function __construct(
         public string $user,
-        public float|int $sort,
+        public int $sort,
         public string $value
     ) {
     }
