@@ -108,8 +108,19 @@ $boardTypes = [
     'char_points'   => range(52, 86),
 ];
 
-$isType = function($id, $type) use ($boardTypes) {
-    return in_array($id, $boardTypes[$type]);
+$isType = function(int $id, string $type) use ($boardTypes): bool {
+    $ids = match ($type) {
+        'grade' => $boardTypes['grade'],
+        'arcade_solo' => $boardTypes['arcade_solo'],
+        'arcade_tag' => $boardTypes['arcade_tag'],
+        'time_solo' => $boardTypes['time_solo'],
+        'time_tag' => $boardTypes['time_tag'],
+        'survival_solo' => $boardTypes['survival_solo'],
+        'survival_tag' => $boardTypes['survival_tag'],
+        'char_points' => $boardTypes['char_points'],
+        default => [],
+    };
+    return in_array($id, $ids, true);
 };
 
 $columnNames = ["default" => "Score | Region"];
@@ -122,16 +133,15 @@ foreach ($boardTypes['survival_solo']  as $id) $columnNames[$id] = "Score | Char
 foreach ($boardTypes['survival_tag']   as $id) $columnNames[$id] = "Score | Characters | Region";
 foreach ($boardTypes['char_points']    as $id) $columnNames[$id] = "Points | Region";
 
-return
-[
-    "title" => "Dead or Alive 5 Ultimate",
-    "config" => [
-        "game_id" => ["BLES01907", "BLJM61085", "BLUS31216", "NPUB31289", "NPJB00411", "NPEB01786"],
-        "names" => $names,
-        "time_boards" => array_merge($boardTypes['time_solo'], $boardTypes['time_tag']),
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) use ($isType)
+return new RPCNParser(
+    title: "Dead or Alive 5 Ultimate",
+    config: new RPCNParserConfig(
+        gameIds: ["BLES01907", "BLJM61085", "BLUS31216", "NPUB31289", "NPJB00411", "NPEB01786"],
+        timeBoards: array_merge($boardTypes['time_solo'], $boardTypes['time_tag']),
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment) use ($isType): string
     {
         $regions =
         [
@@ -211,10 +221,10 @@ return
 
         if ($isType($boardId, 'time_solo') || $isType($boardId, 'time_tag'))
         {
-            $totalCentiseconds = (int)($score / 10);
+            $totalCentiseconds = intdiv($score, 10);
             $centiseconds = $totalCentiseconds % 100;
-            $totalSeconds = (int)($totalCentiseconds / 100);
-            $minutes = (int)($totalSeconds / 60);
+            $totalSeconds = intdiv($totalCentiseconds, 100);
+            $minutes = intdiv($totalSeconds, 60);
             $seconds = $totalSeconds % 60;
             $formattedTime = sprintf("%d'%02d\"%02d", $minutes, $seconds, $centiseconds);
 
@@ -271,5 +281,5 @@ return
 
         return sprintf("%s | %s", $formattedScore, $region);
     }
-];
+);
 ?>

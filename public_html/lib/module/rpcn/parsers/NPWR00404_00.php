@@ -143,26 +143,26 @@ foreach ($names as $id => $name) {
     $columnNames[$id] = in_array($id, $versusBoards) ? "Score" : "Time";
 }
 
-return [
-    "title" => "Resident Evil 5",
-    "config" => [
-        "game_id" => ["BLES00485", "BLES00816", "BLJM60199", "BLJM90001", "BLUS30270", "BLUS30491", "NPEB00687"],
-        "names" => $names,
-        "time_boards" => [],
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) use ($versusBoards) {
+return new RPCNParser(
+    title: "Resident Evil 5",
+    config: new RPCNParserConfig(
+        gameIds: ["BLES00485", "BLES00816", "BLJM60199", "BLJM90001", "BLUS30270", "BLUS30491", "NPEB00687"],
+        timeBoards: [],
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment) use ($versusBoards): string {
         if (in_array($boardId, $versusBoards)) {
             return number_format($score, 0, '.', ' ');
         }
 
-        $totalMs = abs((int)$score);
-        $totalSeconds = floor($totalMs / 1000);
-        $h = floor($totalSeconds / 3600);
-        $m = floor(($totalSeconds % 3600) / 60);
+        $totalMs = abs($score);
+        $totalSeconds = intdiv($totalMs, 1000);
+        $h = intdiv($totalSeconds, 3600);
+        $m = intdiv($totalSeconds % 3600, 60);
         $s = $totalSeconds % 60;
 
         return sprintf("%d:%02d'%02d\"", $h, $m, $s);
     }
-];
+);
 ?>

@@ -12,15 +12,15 @@ $names = [
     14 => "The Mercenaries - Duo | Mining the Depths",
 ];
 
-return [
-    "title" => "Resident Evil 6",
-    "config" => [
-        "game_id" => ["BLES01465", "BLES01683", "BLJM60405", "BLUS30855", "NPEB01150"],
-        "names" => $names,
-        "time_boards" => [],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Resident Evil 6",
+    config: new RPCNParserConfig(
+        gameIds: ["BLES01465", "BLES01683", "BLJM60405", "BLUS30855", "NPEB01150"],
+        timeBoards: [],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format($score, 0, '.', ' ');
     }
-];
+);
 ?>

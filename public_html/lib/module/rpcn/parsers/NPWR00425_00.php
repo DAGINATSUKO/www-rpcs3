@@ -39,15 +39,15 @@ $names = [
     44 => "Online Co-Op Weekly | Hard",
 ];
 
-return [
-    "title" => "Assault Heroes",
-    "config" => [
-        "game_id" => ["NPUB30028"],
-        "names" => $names,
-        "time_boards" => [],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Assault Heroes",
+    config: new RPCNParserConfig(
+        gameIds: ["NPUB30028"],
+        timeBoards: [],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format($score, 0, '.', ' ');
     }
-];
+);
 ?>

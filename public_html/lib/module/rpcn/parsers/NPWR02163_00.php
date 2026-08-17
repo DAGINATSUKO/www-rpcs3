@@ -6,14 +6,14 @@ $names = [
     4 => "Highest Total Campaign XP",
 ];
 
-return [
-    "title" => "Resident Evil: Operation Raccoon City",
-    "config" => [
-        "game_id" => ["BLES01288", "BLES01417", "BLJM60342", "BLUS30750", "NPEB00985"],
-        "names" => $names,
-        "time_boards" => [],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Resident Evil: Operation Raccoon City",
+    config: new RPCNParserConfig(
+        gameIds: ["BLES01288", "BLES01417", "BLJM60342", "BLUS30750", "NPEB00985"],
+        timeBoards: [],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         if ($boardId == 2) {
             $totalSeconds = (int)$score;
 
@@ -27,5 +27,5 @@ return [
 
         return number_format($score, 0, '.', ' ');
     }
-];
+);
 ?>

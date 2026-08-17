@@ -2,19 +2,11 @@
 
 require_once __DIR__ . '/inc-rpcn-stats.php';
 
-/** @var array{
- *   db_host: string, db_user: string, db_pass: string, db_name: string, db_port: string,
- *   api_url: string, games_json: string, icons_json: string, log_file: string,
- *   badwords: string, blacklist: string, violation_log: string, parsers_path: string,
- *   cache: string, cache_time: int, max_display_rows: int,
- *   game_api_timeout: int, game_api_connect_timeout: int, db_connect_timeout: int, icon_base_path: string,
- *   default_icon: string, pic1_json: string, pic1_base_path: string, back_link_url: string,
- *   trophies_json: string, trophies_icon_base_path: string, trophies_sets_path: string,
- *   trophies_cache_time: int, trophies_enabled: bool,
- *   trophies_rarity_settings: list<array{max_pct: float, name: string, color: string}>
- * } $rpcnConfig
- */
-$rpcnConfig = require __DIR__ . '/config.php';
+$rpcnConfig = require dirname(__DIR__, 4) . '/configs/rpcn.php';
+if (!$rpcnConfig instanceof RPCNConfig)
+{
+    throw new RuntimeException('Invalid RPCN configuration.');
+}
 
 class RPCNGame
 {
@@ -39,7 +31,7 @@ class RPCNGame
     private int $trophiesCacheTime;
     private bool $trophiesEnabled;
 
-    /** @var list<array{max_pct: float, name: string, color: string}> */
+    /** @var list<RPCNRaritySetting> */
     private array $raritySettings;
 
     public bool $has_error = false;
@@ -61,66 +53,44 @@ class RPCNGame
     public string $peakAllTimeDate = '';
     public string $timeAgoStr = '';
 
-    /** @var list<array{x: string, y: int}> */
+    /** @var list<RPCNChartPoint> */
     public array $chartDataHourly = [];
 
-    /** @var list<array{x: string, y: int}> */
+    /** @var list<RPCNChartPoint> */
     public array $chartDataDaily = [];
 
-    /** @var list<array{x: string, y: int}> */
+    /** @var list<RPCNChartPoint> */
     public array $chartDataAllTime = [];
 
     public bool $hasTrophies = false;
     public int $totalTrophies = 0;
 
-    /** @var list<array{id: int, hidden: bool, type: string, name: string, detail: string, earnerCount: int, percentage: float, rarity: string, rarityColor: string, icon: string}> */
+    /** @var list<RPCNTrophy> */
     public array $trophies = [];
 
-    /** @param list<array{max_pct: float, name: string, color: string}> $raritySettings */
-    public function __construct(
-        string $cacheDir,
-        int    $cacheTime,
-        int    $maxDisplayRows,
-        string $badwordsFile,
-        string $blacklistFile,
-        string $violationLog,
-        string $apiBase,
-        string $parsersPath,
-        string $logFile,
-        string $iconBasePath,
-        string $defaultIcon,
-        string $pic1JsonPath,
-        string $pic1BasePath,
-        string $trophiesJsonPath,
-        string $trophiesIconBasePath,
-        string $trophiesSetsPath,
-        int    $trophiesCacheTime,
-        bool   $trophiesEnabled,
-        array  $raritySettings,
-        int    $apiTimeout,
-        int    $apiConnectTimeout
-    ) {
-        $this->cacheDir             = rtrim($cacheDir, '/') . '/';
-        $this->cacheTime            = $cacheTime;
-        $this->maxDisplayRows       = $maxDisplayRows;
-        $this->apiTimeout            = $apiTimeout;
-        $this->apiConnectTimeout     = $apiConnectTimeout;
-        $this->badwordsFile         = $badwordsFile;
-        $this->blacklistFile        = $blacklistFile;
-        $this->violationLog         = $violationLog;
-        $this->apiBase              = rtrim($apiBase, '/');
-        $this->parsersPath          = rtrim($parsersPath, '/') . '/';
-        $this->logFile              = $logFile;
-        $this->iconBasePath         = rtrim($iconBasePath, '/') . '/';
-        $this->defaultIcon          = $defaultIcon;
-        $this->pic1JsonPath         = $pic1JsonPath;
-        $this->pic1BasePath         = rtrim($pic1BasePath, '/') . '/';
-        $this->trophiesJsonPath     = $trophiesJsonPath;
-        $this->trophiesIconBasePath = rtrim($trophiesIconBasePath, '/') . '/';
-        $this->trophiesSetsPath     = rtrim($trophiesSetsPath, '/') . '/';
-        $this->trophiesCacheTime    = $trophiesCacheTime;
-        $this->trophiesEnabled       = $trophiesEnabled;
-        $this->raritySettings       = $raritySettings;
+    public function __construct(RPCNConfig $config)
+    {
+        $this->cacheDir = rtrim($config->cache, '/') . '/';
+        $this->cacheTime = $config->cacheTime;
+        $this->maxDisplayRows = $config->maxDisplayRows;
+        $this->apiTimeout = $config->gameApiTimeout;
+        $this->apiConnectTimeout = $config->gameApiConnectTimeout;
+        $this->badwordsFile = $config->badwords;
+        $this->blacklistFile = $config->blacklist;
+        $this->violationLog = $config->violationLog;
+        $this->apiBase = rtrim($config->apiUrl, '/');
+        $this->parsersPath = rtrim($config->parsersPath, '/') . '/';
+        $this->logFile = $config->logFile;
+        $this->iconBasePath = rtrim($config->iconBasePath, '/') . '/';
+        $this->defaultIcon = $config->defaultIcon;
+        $this->pic1JsonPath = $config->pic1Json;
+        $this->pic1BasePath = rtrim($config->pic1BasePath, '/') . '/';
+        $this->trophiesJsonPath = $config->trophiesJson;
+        $this->trophiesIconBasePath = rtrim($config->trophiesIconBasePath, '/') . '/';
+        $this->trophiesSetsPath = rtrim($config->trophiesSetsPath, '/') . '/';
+        $this->trophiesCacheTime = $config->trophiesCacheTime;
+        $this->trophiesEnabled = $config->trophiesEnabled;
+        $this->raritySettings = $config->trophiesRaritySettings;
     }
 
     private function log_error(string $message): void
@@ -237,7 +207,7 @@ class RPCNGame
         if (!is_array($localData) || !isset($localData['trophies']) || !is_array($localData['trophies']) || $localData['trophies'] === []) return;
 
         $this->hasTrophies   = true;
-        $this->totalTrophies = (int)($localData['totalItemCount'] ?? count($localData['trophies']));
+        $this->totalTrophies = RPCNValue::int($localData['totalItemCount'] ?? null, count($localData['trophies']));
 
         if (!$loadDetails) return;
 
@@ -249,7 +219,7 @@ class RPCNGame
         $apiData = json_decode($json, true);
         if (!is_array($apiData)) return;
 
-        $uniquePlayers = (int)($apiData['uniquePlayers'] ?? 0);
+        $uniquePlayers = RPCNValue::int($apiData['uniquePlayers'] ?? null);
         /** @var array<int, int> $earnerMap */
         $earnerMap = [];
         $apiTrophies = $apiData['trophies'] ?? [];
@@ -258,9 +228,9 @@ class RPCNGame
             foreach ($apiTrophies as $t)
             {
                 if (!is_array($t)) continue;
-                $trophyId = (int)($t['trophyId'] ?? -1);
+                $trophyId = RPCNValue::int($t['trophyId'] ?? null, -1);
                 if ($trophyId < 0) continue;
-                $earnerMap[$trophyId] = (int)($t['earnerCount'] ?? 0);
+                $earnerMap[$trophyId] = RPCNValue::int($t['earnerCount'] ?? null);
             }
         }
 
@@ -294,7 +264,7 @@ class RPCNGame
         foreach ($localData['trophies'] as $t)
         {
             if (!is_array($t)) continue;
-            $trophyId = (int)($t['trophyId'] ?? -1);
+            $trophyId = RPCNValue::int($t['trophyId'] ?? null, -1);
             if ($trophyId < 0) continue;
 
             $iconHash = $iconMap[$trophyId] ?? '';
@@ -309,30 +279,29 @@ class RPCNGame
             $rarityColor = '#a0aec0';
             foreach ($this->raritySettings as $setting)
             {
-                if (($pct == 0.0 && $setting['max_pct'] == 0.0) || ($pct > 0.0 && $pct <= $setting['max_pct']))
+                if (($pct == 0.0 && $setting->maxPct == 0.0) || ($pct > 0.0 && $pct <= $setting->maxPct))
                 {
-                    $rarity      = $setting['name'];
-                    $rarityColor = $setting['color'];
+                    $rarity      = $setting->name;
+                    $rarityColor = $setting->color;
                     break;
                 }
             }
 
-            $this->trophies[] = [
-                'id'          => $trophyId,
-                'hidden'      => (bool)($t['trophyHidden'] ?? false),
-                'type'        => (string)($t['trophyType'] ?? 'unknown'),
-                'name'        => (string)($t['trophyName'] ?? 'Unknown'),
-                'detail'      => (string)($t['trophyDetail'] ?? ''),
-                'earnerCount' => $earnerCount,
-                'percentage'  => $pct,
-                'rarity'      => $rarity,
-                'rarityColor' => $rarityColor,
-                'icon'        => $iconUrl,
-            ];
+            $this->trophies[] = new RPCNTrophy(
+                $trophyId,
+                RPCNValue::bool($t['trophyHidden'] ?? null),
+                RPCNValue::string($t['trophyType'] ?? null, 'unknown'),
+                RPCNValue::string($t['trophyName'] ?? null, 'Unknown'),
+                RPCNValue::string($t['trophyDetail'] ?? null),
+                $earnerCount,
+                $pct,
+                $rarity,
+                $rarityColor,
+                $iconUrl
+            );
         }
     }
 
-    // Leaderboard ajax
     public function handle_ajax(string $commId, ?string $boardIdParam): void
     {
         $parserPath = $this->parsersPath . "{$commId}.php";
@@ -345,7 +314,7 @@ class RPCNGame
         }
 
         $loaded = include $parserPath;
-        if (!is_array($loaded) || !isset($loaded['config']) || !is_array($loaded['config']) || !isset($loaded['formatter']) || !is_callable($loaded['formatter']))
+        if (!$loaded instanceof RPCNParser)
         {
             $this->log_error("Invalid parser structure for comm_id '{$commId}'.");
             echo "<p class='rpcn-error'>An error occurred. Please try again later.</p>";
@@ -353,24 +322,9 @@ class RPCNGame
         }
 
         $parser = $loaded;
-        $pConfig = $parser['config'];
-        $formatter = $parser['formatter'];
+        $pConfig = $parser->config;
+        $names = $pConfig->names;
 
-        /** @var array<int, string> $names */
-        $names = [];
-        $rawNames = $pConfig['names'] ?? [];
-        if (is_array($rawNames))
-        {
-            foreach ($rawNames as $id => $name)
-            {
-                if ((is_int($id) || ctype_digit((string)$id)) && is_string($name))
-                {
-                    $names[(int)$id] = $name;
-                }
-            }
-        }
-
-        // Resolve board ID
         $boardId = null;
         if ($boardIdParam !== null)
         {
@@ -397,14 +351,13 @@ class RPCNGame
             return;
         }
 
-        // Fetch scores
         $cacheFile = $this->cacheDir . "{$commId}_{$boardId}.json";
         $apiUrl    = $this->apiBase . "/score/" . rawurlencode($commId) . "/" . $boardId;
         $json      = $this->fetch_api($apiUrl, $cacheFile);
 
         if ($json === '')
         {
-            echo "<p class='rpcn-error'>No scores for this board found.</p>"; // not actual error
+            echo "<p class='rpcn-error'>No scores for this board found.</p>";
             return;
         }
 
@@ -428,25 +381,24 @@ class RPCNGame
             $scores = $apiData[0]['scores'];
         }
 
-        $timeBoardsRaw = $pConfig['time_boards'] ?? [];
-        $timeBoards = is_array($timeBoardsRaw) ? array_map('intval', $timeBoardsRaw) : [];
-        $isTimeBoard = in_array($boardId, $timeBoards, true);
+        $isTimeBoard = in_array($boardId, $pConfig->timeBoards, true);
 
-        /** @var list<array{user: string, sort: float|int, val: string}> $displayRows */
+        /** @var list<RPCNLeaderboardRow> $displayRows */
         $displayRows = [];
         foreach ($scores as $row)
         {
             if (!is_array($row)) continue;
-            $userName = (string)($row['online_name'] ?? 'Unknown');
+            $userName = RPCNValue::string($row['online_name'] ?? null, 'Unknown');
             if (in_array($userName, $blacklist, true)) continue;
 
-            $comment = (string)($row['comment'] ?? '');
+            $comment = RPCNValue::string($row['comment'] ?? null);
             if ($this->check_content($userName, $comment, $commId, $boardId)) continue;
 
-            $rawScore = (float)($row['score'] ?? 0);
+            $rawScore = RPCNValue::int($row['score'] ?? null);
             if ($rawScore == 0) continue;
 
-            $formattedValue = (string)$formatter($rawScore, $boardId, $pConfig, $row['info'] ?? null, $comment);
+            $info = RPCNValue::string($row['info'] ?? null);
+            $formattedValue = $parser->format($rawScore, $boardId, $info, $comment);
             $sortValue      = $rawScore;
 
             if ($isTimeBoard && preg_match('/(\d+):(\d+)\.(\d+)/', $formattedValue, $m))
@@ -454,16 +406,15 @@ class RPCNGame
                 $sortValue = ((int)$m[1] * 60000) + ((int)$m[2] * 1000) + (int)$m[3];
             }
 
-            $displayRows[] = ['user' => $userName, 'sort' => $sortValue, 'val' => $formattedValue];
+            $displayRows[] = new RPCNLeaderboardRow($userName, $sortValue, $formattedValue);
         }
 
-        usort($displayRows, static function ($a, $b) use ($isTimeBoard): int
+        usort($displayRows, static function (RPCNLeaderboardRow $a, RPCNLeaderboardRow $b) use ($isTimeBoard): int
         {
-            return $isTimeBoard ? ($a['sort'] <=> $b['sort']) : ($b['sort'] <=> $a['sort']);
+            return $isTimeBoard ? ($a->sort <=> $b->sort) : ($b->sort <=> $a->sort);
         });
         $displayRows = array_slice($displayRows, 0, $this->maxDisplayRows);
 
-        // Render board name
         $boardName = htmlspecialchars($names[$boardId] ?? 'Leaderboard');
         echo "<div class='rpcn-lb-board-name'>{$boardName}</div>";
 
@@ -473,13 +424,10 @@ class RPCNGame
             return;
         }
 
-        // Resolve column headers
-        $rawCols = $pConfig['column_names'] ?? 'Score';
-        $colDef = is_array($rawCols) ? ($rawCols[$boardId] ?? 'Score') : $rawCols;
-        $colDef = is_string($colDef) ? $colDef : 'Score';
+        $rawCols = $pConfig->columnNames;
+        $colDef = is_array($rawCols) ? ($rawCols[$boardId] ?? $rawCols['default'] ?? 'Score') : $rawCols;
         $cols = array_map('trim', explode('|', $colDef));
 
-        // Render table
         echo "<div class='rpcn-lb-table-wrap'><table class='rpcn-lb-table'>";
         echo "<thead><tr>";
         echo "<th class='rpcn-lb-th rpcn-lb-th-rank'>Rank</th>";
@@ -501,8 +449,8 @@ class RPCNGame
             };
             echo "<tr class='{$rowClass}'>";
             echo "<td class='rpcn-lb-rank'>{$rank}.</td>";
-            echo "<td class='rpcn-lb-player'>" . htmlspecialchars($row['user']) . "</td>";
-            foreach (explode('|', $row['val']) as $v)
+            echo "<td class='rpcn-lb-player'>" . htmlspecialchars($row->user) . "</td>";
+            foreach (explode('|', $row->value) as $v)
             {
                 echo "<td class='rpcn-lb-score'>" . htmlspecialchars(trim($v)) . "</td>";
             }
@@ -518,19 +466,23 @@ class RPCNGame
         return ob_get_clean() ?: '';
     }
 
-    /** @return list<array{x: string, y: int}> */
+    /** @return list<RPCNChartPoint> */
     private static function parseChartData(mixed $value): array
     {
         if (!is_array($value)) return [];
+
         $out = [];
         foreach ($value as $point)
         {
             if (!is_array($point)) continue;
+
             $x = $point['x'] ?? null;
             $y = $point['y'] ?? null;
             if (!is_string($x) || !is_numeric($y)) continue;
-            $out[] = ['x' => $x, 'y' => (int)$y];
+
+            $out[] = new RPCNChartPoint($x, (int)$y);
         }
+
         return $out;
     }
 
@@ -554,10 +506,10 @@ class RPCNGame
         $pg = json_decode($raw, true);
         if (!is_array($pg)) return false;
 
-        $this->peak24h = (int)($pg['peak24h'] ?? 0);
-        $this->peakAllTime = (int)($pg['peakAllTime'] ?? 0);
-        $this->peakAllTimeDate = (string)($pg['peakAllTimeDate'] ?? '');
-        $this->timeAgoStr = (string)($pg['timeAgoStr'] ?? '');
+        $this->peak24h = RPCNValue::int($pg['peak24h'] ?? null);
+        $this->peakAllTime = RPCNValue::int($pg['peakAllTime'] ?? null);
+        $this->peakAllTimeDate = RPCNValue::string($pg['peakAllTimeDate'] ?? null);
+        $this->timeAgoStr = RPCNValue::string($pg['timeAgoStr'] ?? null);
         $this->chartDataHourly = self::parseChartData($pg['chartDataHourly'] ?? []);
         $this->chartDataDaily = self::parseChartData($pg['chartDataDaily'] ?? []);
         $this->chartDataAllTime = self::parseChartData($pg['chartDataAllTime'] ?? []);
@@ -566,12 +518,10 @@ class RPCNGame
 
     public function load_page_data(string $commId, RPCNStats $stats, ?mysqli $db, bool $loadTrophyDetails = false): void
     {
-        // Basic game info from the stats object
         $this->gameTitle    = $stats->app_title[$commId] ?? 'Unknown Game';
         $this->regions      = $stats->title_regions[$commId] ?? [];
         $this->currentPlayers = $stats->title_player_counts[$commId] ?? 0;
 
-        // Player count fallback
         if ($this->currentPlayers === 0)
         {
             foreach ($stats->title_player_counts as $apiCommId => $count)
@@ -584,7 +534,6 @@ class RPCNGame
             }
         }
 
-        // Resolve game icon
         $this->gameIcon = $this->defaultIcon;
         if (isset($stats->title_icons[$commId]))
         {
@@ -609,7 +558,6 @@ class RPCNGame
             }
         }
 
-        // Resolve PIC1 background
         $this->gamePic1 = ''; 
         if ($this->pic1JsonPath !== '' && file_exists($this->pic1JsonPath))
         {
@@ -633,25 +581,18 @@ class RPCNGame
             }
         }
 
-        // Leaderboard presence
         $parserPath           = $this->parsersPath . "{$commId}.php";
         $this->hasLeaderboard = file_exists($parserPath);
         if ($this->hasLeaderboard)
         {
             $loaded = include $parserPath;
-            if (is_array($loaded) && isset($loaded['config']) && is_array($loaded['config']))
+            if ($loaded instanceof RPCNParser)
             {
-                $rawNames = $loaded['config']['names'] ?? [];
-                if (is_array($rawNames))
-                {
-                    foreach ($rawNames as $boardId => $name)
-                    {
-                        if ((is_int($boardId) || ctype_digit((string)$boardId)) && is_string($name))
-                        {
-                            $this->boards[(int)$boardId] = $name;
-                        }
-                    }
-                }
+                $this->boards = $loaded->config->names;
+            }
+            else
+            {
+                $this->hasLeaderboard = false;
             }
         }
 
@@ -691,7 +632,6 @@ class RPCNGame
     {
         $titleIds = $stats->title_ids[$commId] ?? [];
 
-        // Peak 24h (PSN Games)
         $stmt = $db->prepare("SELECT MAX(players) AS peak
                               FROM   np_psn_games
                               WHERE  comm_id = ? AND timestamp >= NOW() - INTERVAL 24 HOUR;");
@@ -701,11 +641,10 @@ class RPCNGame
             $stmt->bind_param('s', $commId);
             $stmt->execute();
             $row = self::stmtFetchAssoc($stmt);
-            $peak24h_psn = (int)($row['peak'] ?? 0);
+            $peak24h_psn = RPCNValue::int($row['peak'] ?? null);
             $stmt->close();
         }
 
-        // Peak 24h (Ticket Games)
         $peak24h_tkt = 0;
         if ($titleIds !== [])
         {
@@ -720,14 +659,13 @@ class RPCNGame
                 $stmt->bind_param($types, ...$titleIds);
                 $stmt->execute();
                 $row = self::stmtFetchAssoc($stmt);
-                $peak24h_tkt = (int)($row['peak'] ?? 0);
+                $peak24h_tkt = RPCNValue::int($row['peak'] ?? null);
                 $stmt->close();
             }
         }
 
         $this->peak24h = max($peak24h_psn, $peak24h_tkt);
 
-        // All-time peak
         $stmt = $db->prepare("SELECT players AS peak, timestamp
                               FROM   np_psn_games_peak
                               WHERE  comm_id = ?;");
@@ -738,8 +676,8 @@ class RPCNGame
             $stmt->bind_param('s', $commId);
             $stmt->execute();
             $rowAt = self::stmtFetchAssoc($stmt);
-            $peakAllTime_psn = (int)    ($rowAt['peak']      ?? 0);
-            $peakDate_psn    = (string) ($rowAt['timestamp'] ?? '');
+            $peakAllTime_psn = RPCNValue::int($rowAt['peak'] ?? null);
+            $peakDate_psn    = RPCNValue::string($rowAt['timestamp'] ?? null);
             $stmt->close();
         }
 
@@ -759,8 +697,8 @@ class RPCNGame
                 $stmt->bind_param($types, ...$titleIds);
                 $stmt->execute();
                 $rowTkt = self::stmtFetchAssoc($stmt);
-                $peakAllTime_tkt = (int)($rowTkt['peak']      ?? 0);
-                $peakDate_tkt    = (string)($rowTkt['peak_date'] ?? '');
+                $peakAllTime_tkt = RPCNValue::int($rowTkt['peak'] ?? null);
+                $peakDate_tkt    = RPCNValue::string($rowTkt['peak_date'] ?? null);
                 $stmt->close();
             }
         }
@@ -776,7 +714,6 @@ class RPCNGame
             $this->peakAllTimeDate = $peakDate_tkt;
         }
 
-        // Hourly chart data (last 7 days)
         /** @var array<string, int> $hourly */
         $hourly = [];
 
@@ -794,8 +731,8 @@ class RPCNGame
             {
                 while ($row = $res->fetch_assoc())
                 {
-                    $date = isset($row['date']) ? (string)$row['date'] : '';
-                    if ($date !== '') $hourly[$date] = max($hourly[$date] ?? 0, (int)($row['peak'] ?? 0));
+                    $date = RPCNValue::string($row['date'] ?? null);
+                    if ($date !== '') $hourly[$date] = max($hourly[$date] ?? 0, RPCNValue::int($row['peak'] ?? null));
                 }
             }
             $stmt->close();
@@ -820,8 +757,8 @@ class RPCNGame
                 {
                     while ($row = $res->fetch_assoc())
                     {
-                        $date = isset($row['date']) ? (string)$row['date'] : '';
-                        if ($date !== '') $hourly[$date] = max($hourly[$date] ?? 0, (int)($row['peak'] ?? 0));
+                        $date = RPCNValue::string($row['date'] ?? null);
+                        if ($date !== '') $hourly[$date] = max($hourly[$date] ?? 0, RPCNValue::int($row['peak'] ?? null));
                     }
                 }
                 $stmt->close();
@@ -831,10 +768,9 @@ class RPCNGame
         ksort($hourly);
         foreach ($hourly as $date => $peak)
         {
-            $this->chartDataHourly[] = ['x' => $date, 'y' => $peak];
+            $this->chartDataHourly[] = new RPCNChartPoint($date, $peak);
         }
 
-        // All-time daily chart data (no date limit)
         /** @var array<string, int> $alltime */
         $alltime = [];
 
@@ -852,8 +788,8 @@ class RPCNGame
             {
                 while ($row = $res->fetch_assoc())
                 {
-                    $date = isset($row['date']) ? (string)$row['date'] : '';
-                    if ($date !== '') $alltime[$date] = max($alltime[$date] ?? 0, (int)($row['peak'] ?? 0));
+                    $date = RPCNValue::string($row['date'] ?? null);
+                    if ($date !== '') $alltime[$date] = max($alltime[$date] ?? 0, RPCNValue::int($row['peak'] ?? null));
                 }
             }
             $stmt->close();
@@ -877,8 +813,8 @@ class RPCNGame
                 {
                     while ($row = $res->fetch_assoc())
                     {
-                        $date = isset($row['date']) ? (string)$row['date'] : '';
-                        if ($date !== '') $alltime[$date] = max($alltime[$date] ?? 0, (int)($row['peak'] ?? 0));
+                        $date = RPCNValue::string($row['date'] ?? null);
+                        if ($date !== '') $alltime[$date] = max($alltime[$date] ?? 0, RPCNValue::int($row['peak'] ?? null));
                     }
                 }
                 $stmt->close();
@@ -891,7 +827,7 @@ class RPCNGame
             ->format('Y-m-d');
         foreach ($alltime as $date => $peak)
         {
-            $point = ['x' => $date, 'y' => $peak];
+            $point = new RPCNChartPoint($date, $peak);
             $this->chartDataAllTime[] = $point;
             if ($date >= $oneYearCutoff)
             {
@@ -931,35 +867,11 @@ if ($commId === '' || preg_match('/^[A-Z0-9]{4}\d{5}_\d{2}$/', $commId) !== 1)
         echo "<p class='rpcn-error'>An error occurred. Please try again later.</p>";
         exit;
     }
-    header('Location: ' . $rpcnConfig['back_link_url']);
+    header('Location: ' . $rpcnConfig->backLinkUrl);
     exit;
 }
 
-$trophiesEnabled = $rpcnConfig['trophies_enabled'];
-
-$rpcnGame = new RPCNGame(
-    $rpcnConfig['cache'],
-    $rpcnConfig['cache_time'],
-    $rpcnConfig['max_display_rows'],
-    $rpcnConfig['badwords'],
-    $rpcnConfig['blacklist'],
-    $rpcnConfig['violation_log'],
-    $rpcnConfig['api_url'],
-    $rpcnConfig['parsers_path'],
-    $rpcnConfig['log_file'],
-    $rpcnConfig['icon_base_path'],
-    $rpcnConfig['default_icon'],
-    $rpcnConfig['pic1_json'],
-    $rpcnConfig['pic1_base_path'],
-    $rpcnConfig['trophies_json'],
-    $rpcnConfig['trophies_icon_base_path'],
-    $rpcnConfig['trophies_sets_path'],
-    $rpcnConfig['trophies_cache_time'],
-    $trophiesEnabled,
-    $rpcnConfig['trophies_rarity_settings'],
-    $rpcnConfig['game_api_timeout'],
-    $rpcnConfig['game_api_connect_timeout']
-);
+$rpcnGame = new RPCNGame($rpcnConfig);
 
 if ($isAjax)
 {
@@ -969,32 +881,27 @@ if ($isAjax)
 }
 
 $rpcnStats = new RPCNStats(
-    $rpcnConfig['games_json'],
-    $rpcnConfig['log_file'],
-    $rpcnConfig['api_url'],
-    $rpcnConfig['icons_json'],
-    $rpcnConfig['cache'] . 'usage.json',
-    $rpcnConfig['cache_time'],
+    $rpcnConfig,
     $commId,
-    false
+    true
 );
 
 $tabParam = $_GET['tab'] ?? '';
-$loadTrophyDetails = $trophiesEnabled && is_string($tabParam) && $tabParam === 'trophies';
+$loadTrophyDetails = $rpcnConfig->trophiesEnabled && is_string($tabParam) && $tabParam === 'trophies';
 
 mysqli_report(MYSQLI_REPORT_OFF);
 $mysqli = null;
 $db = mysqli_init();
 if ($db instanceof mysqli)
 {
-    mysqli_options($db, MYSQLI_OPT_CONNECT_TIMEOUT, $rpcnConfig['db_connect_timeout']);
+    mysqli_options($db, MYSQLI_OPT_CONNECT_TIMEOUT, $rpcnConfig->dbConnectTimeout);
     if (@mysqli_real_connect(
         $db,
-        $rpcnConfig['db_host'],
-        $rpcnConfig['db_user'],
-        $rpcnConfig['db_pass'],
-        $rpcnConfig['db_name'],
-        (int)$rpcnConfig['db_port']
+        $rpcnConfig->dbHost,
+        $rpcnConfig->dbUser,
+        $rpcnConfig->dbPass,
+        $rpcnConfig->dbName,
+        (int)$rpcnConfig->dbPort
     ))
     {
         $mysqli = $db;
@@ -1005,30 +912,22 @@ if ($db instanceof mysqli)
 $rpcnGame->load_page_data($commId, $rpcnStats, $mysqli, $loadTrophyDetails);
 if ($mysqli instanceof mysqli) $mysqli->close();
 
-/** @var array{
- *   rpcn_game: RPCNGame, commId: string, gameTitle: string, gameIcon: string, gamePic1: string,
- *   defaultIcon: string, default_icon: string, currentPlayers: int, regions: list<string>,
- *   hasLeaderboard: bool, boards: array<int, string>, peak24h: int, peakAllTime: int,
- *   timeAgoStr: string, chartDataHourly: list<array{x: string, y: int}>,
- *   chartDataDaily: list<array{x: string, y: int}>
- * } $pageContext */
-$pageContext = [
-    'rpcn_game' => $rpcnGame,
-    'commId' => $commId,
-    'gameTitle' => $rpcnGame->gameTitle,
-    'gameIcon' => $rpcnGame->gameIcon,
-    'gamePic1' => $rpcnGame->gamePic1,
-    'defaultIcon' => $rpcnConfig['default_icon'],
-    'default_icon' => $rpcnConfig['default_icon'],
-    'currentPlayers' => $rpcnGame->currentPlayers,
-    'regions' => $rpcnGame->regions,
-    'hasLeaderboard' => $rpcnGame->hasLeaderboard,
-    'boards' => $rpcnGame->boards,
-    'peak24h' => $rpcnGame->peak24h,
-    'peakAllTime' => $rpcnGame->peakAllTime,
-    'timeAgoStr' => $rpcnGame->timeAgoStr,
-    'chartDataHourly' => $rpcnGame->chartDataHourly,
-    'chartDataDaily' => $rpcnGame->chartDataDaily,
-];
+$pageContext = new RPCNGamePageContext(
+    $rpcnGame,
+    $commId,
+    $rpcnGame->gameTitle,
+    $rpcnGame->gameIcon,
+    $rpcnGame->gamePic1,
+    $rpcnConfig->defaultIcon,
+    $rpcnGame->currentPlayers,
+    $rpcnGame->regions,
+    $rpcnGame->hasLeaderboard,
+    $rpcnGame->boards,
+    $rpcnGame->peak24h,
+    $rpcnGame->peakAllTime,
+    $rpcnGame->timeAgoStr,
+    $rpcnGame->chartDataHourly,
+    $rpcnGame->chartDataDaily
+);
 
 return $pageContext;

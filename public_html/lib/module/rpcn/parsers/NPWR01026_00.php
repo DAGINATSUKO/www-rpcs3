@@ -5,15 +5,15 @@ $names = [
     2 => "Most Wanted | Deaths",
 ];
 
-return [
-    "title" => "Lead and Gold: Gangs of the Wild West",
-    "config" => [
-        "game_id" => ["NPEB00201", "NPJB00088"],
-        "names" => $names,
-        "column_names" => [],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Lead and Gold: Gangs of the Wild West",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00201", "NPJB00088"],
+        names: $names,
+        columnNames: [],
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format($score, 0, '.', ' ');
     }
-];
+);
 ?>

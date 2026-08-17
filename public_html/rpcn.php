@@ -1,32 +1,22 @@
 <?php
-require_once 'lib/module/rpcn/config.php';
-require_once 'lib/module/rpcn/inc-rpcn-stats.php';
 
-/** @var string $games_json */
-/** @var string $log_file */
-/** @var string $api_url */
-/** @var string $icons_json */
-/** @var string $cache */
+$rpcnConfig = require __DIR__ . '/../configs/rpcn.php';
+if (!$rpcnConfig instanceof RPCNConfig)
+{
+    throw new RuntimeException('Invalid RPCN configuration.');
+}
 
-/** @var string $db_host */
-/** @var string $db_user */
-/** @var string $db_pass */
-/** @var string $db_name */
-/** @var int|string $db_port */
+require_once __DIR__ . '/lib/module/rpcn/inc-rpcn-stats.php';
 
-/** @var string $default_icon */
-/** @var string $icon_base_path */
-
-// Initialize RPCNStats class
-$rpcn_stats = new RPCNStats($games_json, $log_file, $api_url, $icons_json, $cache);
+$rpcn_stats = new RPCNStats($rpcnConfig);
 
 $mysqli       = null;
 $has_db_error = true;
 $_db_init     = mysqli_init();
 if ($_db_init)
 {
-    mysqli_options($_db_init, MYSQLI_OPT_CONNECT_TIMEOUT, 5);
-    if (@mysqli_real_connect($_db_init, $db_host, $db_user, $db_pass, $db_name, (int)$db_port))
+    mysqli_options($_db_init, MYSQLI_OPT_CONNECT_TIMEOUT, $rpcnConfig->dbConnectTimeout);
+    if (@mysqli_real_connect($_db_init, $rpcnConfig->dbHost, $rpcnConfig->dbUser, $rpcnConfig->dbPass, $rpcnConfig->dbName, (int)$rpcnConfig->dbPort))
     {
         $mysqli       = $_db_init;
         $has_db_error = false;
@@ -40,14 +30,14 @@ unset($_db_init);
 
 if (!$has_db_error)
 {
-    $rpcn_stats->fetchDatabaseStats($mysqli);
+    $rpcn_stats->fetchDatabaseStats($mysqli, $rpcnConfig->cacheTime);
     $mysqli->close();
 }
 
 $search_data = [];
 foreach ($rpcn_stats->app_title as $comm_id => $title)
 {
-    $icon_url = $default_icon;
+    $icon_url = $rpcnConfig->defaultIcon;
     
     if (isset($rpcn_stats->title_icons[$comm_id]))
     {
@@ -64,25 +54,25 @@ foreach ($rpcn_stats->app_title as $comm_id => $title)
                 $hash     = $rpcn_stats->icons_db[$search_id];
                 $file_name = "{$hash}.png";
 
-                if (file_exists($icon_base_path . $file_name))
+                if (file_exists($rpcnConfig->iconBasePath . $file_name))
                 {
-                    $icon_url = $icon_base_path . $file_name;
+                    $icon_url = $rpcnConfig->iconBasePath . $file_name;
                     break;
                 }
             }
         }
     }
 
-    $search_data[] = [
-        'id'      => $comm_id,
-        'title'   => $title,
-        'icon'    => $icon_url,
-        'regions' => $rpcn_stats->title_regions[$comm_id] ?? [],
-    ];
+    $search_data[] = new RPCNSearchGame(
+        $comm_id,
+        $title,
+        $icon_url,
+        $rpcn_stats->title_regions[$comm_id] ?? []
+    );
 }
 
-usort($search_data, function($a, $b) {
-    return strcasecmp($a['title'], $b['title']);
+usort($search_data, static function (RPCNSearchGame $a, RPCNSearchGame $b): int {
+    return strcasecmp($a->title, $b->title);
 });
 
 $search_json = json_encode($search_data);
@@ -91,15 +81,15 @@ $has_error           = $rpcn_stats->has_error;
 $total_users         = $rpcn_stats->total_users;
 $title_player_counts = $rpcn_stats->title_player_counts;
 
-// nojs
-$search_query   = trim($_GET['q'] ?? '');
+$searchQueryParam = $_GET['q'] ?? '';
+$search_query = is_string($searchQueryParam) ? trim($searchQueryParam) : '';
 $search_results = [];
 if ($search_query !== '')
 {
     $q_lower = mb_strtolower($search_query);
     foreach ($search_data as $game)
     {
-        if (mb_strpos(mb_strtolower($game['title']), $q_lower) !== false)
+        if (mb_strpos(mb_strtolower($game->title), $q_lower) !== false)
         {
             $search_results[] = $game;
         }
@@ -248,7 +238,7 @@ if ($search_query !== '')
 								<table>
 									<tbody>
 										<?php foreach ($search_results as $game):
-											$online_count = $title_player_counts[$game['id']] ?? 0;
+											$online_count = $title_player_counts[$game->id] ?? 0;
 										?>
 										<tr class='darkmode-txt'>
 											<td>
@@ -259,17 +249,17 @@ if ($search_query !== '')
 														<?php else: ?>
 														<div class='rpcn-list-ico-status' style="background: rgba(255,255,255,0.1);"></div>
 														<?php endif; ?>
-														<a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($game['id']); ?>" class="table-game-link" style="display:flex; align-items:center;">
-															<img src="<?php echo htmlspecialchars($game['icon']); ?>"
+														<a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($game->id); ?>" class="table-game-link" style="display:flex; align-items:center;">
+															<img src="<?php echo htmlspecialchars($game->icon); ?>"
 															     alt="Game Icon"
 															     class="rpcn-game-icon"
-															     onerror="this.src='<?= htmlspecialchars($default_icon) ?>'">
-															<?php echo htmlspecialchars($game['title']); ?>
+															     onerror="this.src='<?= htmlspecialchars($rpcnConfig->defaultIcon) ?>'">
+															<?php echo htmlspecialchars($game->title); ?>
 														</a>
 													</div>
-													<?php if (!empty($game['regions'])): ?>
+													<?php if (!empty($game->regions)): ?>
 													<div class='rpcn-list-regions'>
-														<?php foreach ($game['regions'] as $region): ?>
+														<?php foreach ($game->regions as $region): ?>
 														<div class='rpcn-list-flags'>
 															<img src="/img/icons/compat/<?php echo strtoupper(htmlspecialchars($region)); ?>.png" alt="<?php echo htmlspecialchars($region); ?>">
 														</div>
@@ -358,7 +348,7 @@ if ($search_query !== '')
                                         <tr><td style="padding: 10px 0;"><div class="rpcn-service-error">Service unavailable - please try again later</div></td></tr>
                                     <?php elseif (!empty($rpcn_stats->top_10_games_alltime)): ?>
                                         <?php foreach ($rpcn_stats->top_10_games_alltime as $index => $game):
-                                            $g_comm_id = $game['comm_id'];
+                                            $g_comm_id = $game->commId;
                                             $g_regions = $g_comm_id ? ($rpcn_stats->title_regions[$g_comm_id] ?? []) : [];
                                         ?>
                                         <tr style="border-bottom: 1px solid rgb(219 219 219 / 50%)">
@@ -369,10 +359,10 @@ if ($search_query !== '')
                                                 <?php else: ?>
                                                 <div style="display:flex; align-items:center;">
                                                 <?php endif; ?>
-                                                    <?php if (!empty($game['icon'])): ?>
-                                                        <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 64px; border-radius: 4px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
+                                                    <?php if (!empty($game->icon)): ?>
+                                                        <img src="<?php echo htmlspecialchars($game->icon); ?>" alt="Icon" style="width: 64px; border-radius: 4px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
                                                     <?php endif; ?>
-                                                    <span style="margin-right: 6px;"><?php echo htmlspecialchars($game['game_title']); ?></span>
+                                                    <span style="margin-right: 6px;"><?php echo htmlspecialchars($game->gameTitle); ?></span>
                                                     <?php foreach ($g_regions as $region): ?>
                                                         <img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>" style="height: 12px; margin-right: 2px;">
                                                     <?php endforeach; ?>
@@ -383,9 +373,9 @@ if ($search_query !== '')
                                                 <?php endif; ?>
                                             </td>
                                             <td style="padding: 8px 0; text-align: right; white-space: nowrap;">
-                                                <strong><?php echo $game['peak']; ?></strong> players
-                                                <?php if (!empty($game['time_ago'])): ?>
-                                                <span style="display:block; font-size:11px; opacity:0.6;"><?php echo $game['time_ago']; ?></span>
+                                                <strong><?php echo $game->peak; ?></strong> players
+                                                <?php if (!empty($game->timeAgo)): ?>
+                                                <span style="display:block; font-size:11px; opacity:0.6;"><?php echo $game->timeAgo; ?></span>
                                                 <?php endif; ?>
                                             </td>
                                         </tr>
@@ -411,7 +401,7 @@ if ($search_query !== '')
                                         <tr><td style="padding: 10px 0;"><div class="rpcn-service-error">Service unavailable - please try again later</div></td></tr>
                                     <?php elseif (!empty($rpcn_stats->top_10_games_24h)): ?>
                                         <?php foreach ($rpcn_stats->top_10_games_24h as $index => $game):
-                                            $g_comm_id = $game['comm_id'];
+                                            $g_comm_id = $game->commId;
                                             $g_regions = $g_comm_id ? ($rpcn_stats->title_regions[$g_comm_id] ?? []) : [];
                                         ?>
                                         <tr style="border-bottom: 1px solid rgb(219 219 219 / 50%)">
@@ -422,10 +412,10 @@ if ($search_query !== '')
                                                 <?php else: ?>
                                                 <div style="display:flex; align-items:center;">
                                                 <?php endif; ?>
-                                                    <?php if (!empty($game['icon'])): ?>
-                                                        <img src="<?php echo htmlspecialchars($game['icon']); ?>" alt="Icon" style="width: 64px; border-radius: 4px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
+                                                    <?php if (!empty($game->icon)): ?>
+                                                        <img src="<?php echo htmlspecialchars($game->icon); ?>" alt="Icon" style="width: 64px; border-radius: 4px; margin-right: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.5);">
                                                     <?php endif; ?>
-                                                    <span style="margin-right: 6px;"><?php echo htmlspecialchars($game['game_title']); ?></span>
+                                                    <span style="margin-right: 6px;"><?php echo htmlspecialchars($game->gameTitle); ?></span>
                                                     <?php foreach ($g_regions as $region): ?>
                                                         <img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>" style="height: 12px; margin-right: 2px;">
                                                     <?php endforeach; ?>
@@ -435,7 +425,7 @@ if ($search_query !== '')
                                                 </div>
                                                 <?php endif; ?>
                                             </td>
-                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;"><strong><?php echo $game['peak']; ?></strong> players</td>
+                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;"><strong><?php echo $game->peak; ?></strong> players</td>
                                         </tr>
                                         <?php endforeach; ?>
                                     <?php else: ?>
@@ -476,7 +466,7 @@ if ($search_query !== '')
                                                     <?php
                                                         $display_icon = !empty($rpcn_stats->title_icons[$comm_id])
                                                                         ? $rpcn_stats->title_icons[$comm_id]
-                                                                        : $default_icon;
+                                                                        : $rpcnConfig->defaultIcon;
                                                     ?>
                                                     <img src="<?php echo htmlspecialchars($display_icon); ?>" alt="Game Icon" class="rpcn-game-icon">
                                                     <?php echo htmlspecialchars(!empty($game_title) ? $game_title : 'Unknown'); ?>

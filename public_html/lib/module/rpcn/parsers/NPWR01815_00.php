@@ -14,15 +14,15 @@ foreach ($names as $id => $name) {
     $columnNames[$id] = in_array($id, $timeBoards) ? "Transmission | Time" : "Total Score";
 }
 
-return [
-    "title" => "Daytona USA",
-    "config" => [
-        "game_id" => ["NPEB00630"],
-        "names" => $names,
-        "time_boards" => $timeBoards,
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) use ($timeBoards) {
+return new RPCNParser(
+    title: "Daytona USA",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00630"],
+        timeBoards: $timeBoards,
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment) use ($timeBoards): string {
         if (!in_array($boardId, $timeBoards)) {
             return number_format($score, 0, '.', ' ');
         }
@@ -46,5 +46,5 @@ return [
 
         return sprintf("%s|%s", $transmission, $timeStr);
     }
-];
+);
 ?>

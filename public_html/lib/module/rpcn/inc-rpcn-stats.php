@@ -1,4 +1,7 @@
 <?php
+
+require_once __DIR__ . '/rpcn-types.php';
+
 class RPCNStats
 {
     private string $games_json;
@@ -13,13 +16,13 @@ class RPCNStats
     public int $total_users = 0;
     public int $peak_24h_users = 0;
 
-    /** @var list<array{comm_id: string, game_title: string, peak: int, icon: ?string}> */
+    /** @var list<RPCNTopGame> */
     public array $top_10_games_24h = [];
 
     public int $peak_alltime_users = 0;
     public string $peak_alltime_users_date = '';
 
-    /** @var list<array{comm_id: string, game_title: string, peak: int, time_ago: string, icon: ?string}> */
+    /** @var list<RPCNTopGame> */
     public array $top_10_games_alltime = [];
 
     /** @var array<string, list<string>> */
@@ -56,14 +59,14 @@ class RPCNStats
         "BLES01112" => "MRTC00016"
     ];
 
-    public function __construct(string $games_json, string $log_file, string $api_url, string $icons_json, string $cache, int $apiCacheLifetime = 300, ?string $onlyCommId = null, bool $allowLiveApi = true)
+    public function __construct(RPCNConfig $config, ?string $onlyCommId = null, bool $allowLiveApi = true)
     {
-        $this->games_json = $games_json;
-        $this->log_file = $log_file;
-        $this->api_url = rtrim($api_url, '/') . '/usage';
-        $this->icons_json = $icons_json;
-        $this->cache = is_dir($cache) ? rtrim($cache, '/') . '/usage.json' : $cache;
-        $this->apiCacheLifetime = max(60, $apiCacheLifetime);
+        $this->games_json = $config->gamesJson;
+        $this->log_file = $config->logFile;
+        $this->api_url = rtrim($config->apiUrl, '/') . '/usage';
+        $this->icons_json = $config->iconsJson;
+        $this->cache = rtrim($config->cache, '/') . '/usage.json';
+        $this->apiCacheLifetime = max(60, $config->cacheTime);
         $this->onlyCommId = $onlyCommId;
         $this->allowLiveApi = $allowLiveApi;
         $this->db_cache_file = dirname($this->cache) . '/db_stats.json';
@@ -182,14 +185,27 @@ class RPCNStats
                 : [];
         }
 
-        /** @var array<string, array<string, mixed>> $gameMappings */
+        /** @var array<string, RPCNGameDefinition> $gameMappings */
         $gameMappings = [];
         foreach ($decodedMappings as $commId => $info)
         {
-            if (is_string($commId) && is_array($info))
-            {
-                $gameMappings[$commId] = $info;
-            }
+            if (!is_string($commId) || !is_array($info)) continue;
+
+            $titlesRaw = $info['title'] ?? [];
+            $titles = is_array($titlesRaw)
+                ? array_values(array_filter($titlesRaw, 'is_string'))
+                : [];
+
+            $idsRaw = $info['id'] ?? [$commId];
+            $ids = is_array($idsRaw)
+                ? array_values(array_filter($idsRaw, 'is_string'))
+                : [$commId];
+            if ($ids === []) $ids = [$commId];
+
+            $gameMappings[$commId] = new RPCNGameDefinition(
+                $titles[0] ?? 'Unknown Game',
+                $ids
+            );
         }
 
         $this->icons_db = [];
@@ -214,25 +230,14 @@ class RPCNStats
 
         foreach ($gameMappings as $commId => $info)
         {
-            $titlesRaw = $info['title'] ?? [];
-            $titles = is_array($titlesRaw)
-                ? array_values(array_filter($titlesRaw, 'is_string'))
-                : [];
-            $this->app_title[$commId] = $titles[0] ?? 'Unknown Game';
-
+            $this->app_title[$commId] = $info->title;
             $this->title_player_counts[$commId] ??= 0;
             $this->title_ids[$commId] ??= [];
             $this->title_regions[$commId] ??= [];
 
-            $idsRaw = $info['id'] ?? [$commId];
-            $ids = is_array($idsRaw)
-                ? array_values(array_filter($idsRaw, 'is_string'))
-                : [$commId];
-            if ($ids === []) $ids = [$commId];
+            $this->title_ids[$commId] = array_values(array_unique(array_merge($this->title_ids[$commId], $info->ids)));
 
-            $this->title_ids[$commId] = array_values(array_unique(array_merge($this->title_ids[$commId], $ids)));
-
-            foreach ($ids as $entryId)
+            foreach ($info->ids as $entryId)
             {
                 $region = $this->get_region_from_id($entryId);
                 if (!in_array($region, $this->title_regions[$commId], true))
@@ -256,7 +261,7 @@ class RPCNStats
         }
     }
 
-    /** @param array<string, array<string, mixed>> $gameMappings */
+    /** @param array<string, RPCNGameDefinition> $gameMappings */
     private function fetchApiData(array $gameMappings): void
     {
         $apiData = null;
@@ -361,10 +366,6 @@ class RPCNStats
 
         foreach ($gameMappings as $commId => $info)
         {
-            $idsRaw = $info['id'] ?? [$commId];
-            $ids = is_array($idsRaw) ? array_values(array_filter($idsRaw, 'is_string')) : [$commId];
-            if ($ids === []) $ids = [$commId];
-
             $commIdPlayerCount = 0;
             $normalizedCommId = $this->normalize_id($commId);
 
@@ -388,7 +389,7 @@ class RPCNStats
                 continue;
             }
 
-            foreach ($ids as $entryId)
+            foreach ($info->ids as $entryId)
             {
                 $normalizedEntryId = $this->normalize_id($entryId);
                 foreach ($ticketGames as $apiTitleId => $count)
@@ -401,29 +402,29 @@ class RPCNStats
             }
         }
 
-        /** @var list<array{comm_id: string, game_title: string, player_count: int}> $tempArray */
+        /** @var list<RPCNPlayerCountEntry> $tempArray */
         $tempArray = [];
         foreach ($this->title_player_counts as $commId => $playerCount)
         {
-            $tempArray[] = [
-                'comm_id' => $commId,
-                'game_title' => $this->app_title[$commId] ?? 'Unknown Game',
-                'player_count' => $playerCount,
-            ];
+            $tempArray[] = new RPCNPlayerCountEntry(
+                $commId,
+                $this->app_title[$commId] ?? 'Unknown Game',
+                $playerCount
+            );
         }
 
-        usort($tempArray, static function ($a, $b): int {
-            $diff = $b['player_count'] <=> $a['player_count'];
-            return $diff !== 0 ? $diff : strnatcasecmp($a['game_title'], $b['game_title']);
+        usort($tempArray, static function (RPCNPlayerCountEntry $a, RPCNPlayerCountEntry $b): int {
+            $diff = $b->playerCount <=> $a->playerCount;
+            return $diff !== 0 ? $diff : strnatcasecmp($a->gameTitle, $b->gameTitle);
         });
 
         $this->title_player_counts = [];
         foreach ($tempArray as $item)
         {
-            $commId = $item['comm_id'];
-            $this->title_player_counts[$commId] = $item['player_count'];
+            $commId = $item->commId;
+            $this->title_player_counts[$commId] = $item->playerCount;
 
-            if ($item['player_count'] <= 0 || isset($this->title_icons[$commId])) continue;
+            if ($item->playerCount <= 0 || isset($this->title_icons[$commId])) continue;
 
             foreach ($this->title_ids[$commId] ?? [] as $idToCheck)
             {
@@ -471,9 +472,9 @@ class RPCNStats
                     $data = json_decode($cached, true);
                     if (is_array($data))
                     {
-                        $this->peak_24h_users = (int)($data['peak_24h_users'] ?? 0);
-                        $this->peak_alltime_users = (int)($data['peak_alltime_users'] ?? 0);
-                        $this->peak_alltime_users_date = (string)($data['peak_alltime_users_date'] ?? '');
+                        $this->peak_24h_users = RPCNValue::int($data['peak_24h_users'] ?? null);
+                        $this->peak_alltime_users = RPCNValue::int($data['peak_alltime_users'] ?? null);
+                        $this->peak_alltime_users_date = RPCNValue::string($data['peak_alltime_users_date'] ?? null);
                         $this->top_10_games_24h = $this->parseTopGames24h($data['top_10_games_24h'] ?? []);
                         $this->top_10_games_alltime = $this->parseTopGamesAlltime($data['top_10_games_alltime'] ?? []);
                         return;
@@ -497,40 +498,46 @@ class RPCNStats
         }
     }
 
-    /** @return list<array{comm_id: string, game_title: string, peak: int, icon: ?string}> */
+    /** @return list<RPCNTopGame> */
     private function parseTopGames24h(mixed $value): array
     {
         if (!is_array($value)) return [];
+
         $out = [];
         foreach ($value as $row)
         {
             if (!is_array($row)) continue;
-            $out[] = [
-                'comm_id' => (string)($row['comm_id'] ?? ''),
-                'game_title' => (string)($row['game_title'] ?? 'Unknown Game'),
-                'peak' => (int)($row['peak'] ?? 0),
-                'icon' => isset($row['icon']) && is_string($row['icon']) ? $row['icon'] : null,
-            ];
+
+            $out[] = new RPCNTopGame(
+                RPCNValue::string($row['commId'] ?? $row['comm_id'] ?? null),
+                RPCNValue::string($row['gameTitle'] ?? $row['game_title'] ?? null, 'Unknown Game'),
+                RPCNValue::int($row['peak'] ?? null),
+                isset($row['icon']) && is_string($row['icon']) ? $row['icon'] : null
+            );
         }
+
         return $out;
     }
 
-    /** @return list<array{comm_id: string, game_title: string, peak: int, time_ago: string, icon: ?string}> */
+    /** @return list<RPCNTopGame> */
     private function parseTopGamesAlltime(mixed $value): array
     {
         if (!is_array($value)) return [];
+
         $out = [];
         foreach ($value as $row)
         {
             if (!is_array($row)) continue;
-            $out[] = [
-                'comm_id' => (string)($row['comm_id'] ?? ''),
-                'game_title' => (string)($row['game_title'] ?? 'Unknown Game'),
-                'peak' => (int)($row['peak'] ?? 0),
-                'time_ago' => (string)($row['time_ago'] ?? ''),
-                'icon' => isset($row['icon']) && is_string($row['icon']) ? $row['icon'] : null,
-            ];
+
+            $out[] = new RPCNTopGame(
+                RPCNValue::string($row['commId'] ?? $row['comm_id'] ?? null),
+                RPCNValue::string($row['gameTitle'] ?? $row['game_title'] ?? null, 'Unknown Game'),
+                RPCNValue::int($row['peak'] ?? null),
+                isset($row['icon']) && is_string($row['icon']) ? $row['icon'] : null,
+                RPCNValue::string($row['timeAgo'] ?? $row['time_ago'] ?? null)
+            );
         }
+
         return $out;
     }
 
@@ -544,7 +551,7 @@ class RPCNStats
         if ($res instanceof mysqli_result)
         {
             $row = self::fetch_assoc($res);
-            $this->peak_24h_users = (int)($row['peak'] ?? 0);
+            $this->peak_24h_users = RPCNValue::int($row['peak'] ?? null);
         }
 
         /** @var array<string, int> $games24h */
@@ -558,8 +565,8 @@ class RPCNStats
         {
             while (($row = self::fetch_assoc($res24Psn)) !== null)
             {
-                $commId = isset($row['comm_id']) ? (string)$row['comm_id'] : '';
-                if ($commId !== '') $games24h[$commId] = (int)($row['peak'] ?? 0);
+                $commId = isset($row['comm_id']) ? RPCNValue::string($row['comm_id']) : '';
+                if ($commId !== '') $games24h[$commId] = RPCNValue::int($row['peak'] ?? null);
             }
         }
 
@@ -572,11 +579,11 @@ class RPCNStats
         {
             while (($row = self::fetch_assoc($res24Tkt)) !== null)
             {
-                $titleId = isset($row['title_id']) ? (string)$row['title_id'] : '';
+                $titleId = isset($row['title_id']) ? RPCNValue::string($row['title_id']) : '';
                 $commId = $titleId !== '' ? ($titleIdMap[$titleId] ?? null) : null;
                 if ($commId === null) continue;
 
-                $peak = (int)($row['peak'] ?? 0);
+                $peak = RPCNValue::int($row['peak'] ?? null);
                 if (!isset($games24h[$commId]) || $peak > $games24h[$commId])
                 {
                     $games24h[$commId] = $peak;
@@ -587,12 +594,12 @@ class RPCNStats
         arsort($games24h);
         foreach (array_slice($games24h, 0, 10, true) as $commId => $peak)
         {
-            $this->top_10_games_24h[] = [
-                'comm_id' => $commId,
-                'game_title' => $this->app_title[$commId] ?? 'Unknown Game',
-                'peak' => $peak,
-                'icon' => $this->resolveIcon($commId),
-            ];
+            $this->top_10_games_24h[] = new RPCNTopGame(
+                $commId,
+                $this->app_title[$commId] ?? 'Unknown Game',
+                $peak,
+                $this->resolveIcon($commId)
+            );
         }
 
         $resAll = $db->query('SELECT players AS peak, timestamp FROM np_players ORDER BY players DESC, timestamp ASC LIMIT 1;');
@@ -601,13 +608,13 @@ class RPCNStats
             $row = self::fetch_assoc($resAll);
             if ($row !== null)
             {
-                $this->peak_alltime_users = (int)($row['peak'] ?? 0);
-                $timestamp = isset($row['timestamp']) ? (string)$row['timestamp'] : '';
+                $this->peak_alltime_users = RPCNValue::int($row['peak'] ?? null);
+                $timestamp = isset($row['timestamp']) ? RPCNValue::string($row['timestamp']) : '';
                 $this->peak_alltime_users_date = $timestamp !== '' ? $this->time_ago($timestamp) : '';
             }
         }
 
-        /** @var array<string, array{peak: int, date: string}> $gamesAlltime */
+        /** @var array<string, RPCNPeakRecord> $gamesAlltime */
         $gamesAlltime = [];
 
         $resAllPsn = $db->query('SELECT `comm_id`, `timestamp`, `players` FROM np_psn_games_peak;');
@@ -615,12 +622,12 @@ class RPCNStats
         {
             while (($row = self::fetch_assoc($resAllPsn)) !== null)
             {
-                $commId = isset($row['comm_id']) ? (string)$row['comm_id'] : '';
+                $commId = isset($row['comm_id']) ? RPCNValue::string($row['comm_id']) : '';
                 if ($commId === '') continue;
-                $gamesAlltime[$commId] = [
-                    'peak' => (int)($row['players'] ?? 0),
-                    'date' => isset($row['timestamp']) ? (string)$row['timestamp'] : '',
-                ];
+                $gamesAlltime[$commId] = new RPCNPeakRecord(
+                    RPCNValue::int($row['players'] ?? null),
+                    isset($row['timestamp']) ? RPCNValue::string($row['timestamp']) : ''
+                );
             }
         }
 
@@ -631,31 +638,31 @@ class RPCNStats
         {
             while (($row = self::fetch_assoc($resAllTkt)) !== null)
             {
-                $titleId = isset($row['title_id']) ? (string)$row['title_id'] : '';
+                $titleId = isset($row['title_id']) ? RPCNValue::string($row['title_id']) : '';
                 $commId = $titleId !== '' ? ($titleIdMap[$titleId] ?? null) : null;
                 if ($commId === null) continue;
 
-                $peak = (int)($row['players'] ?? 0);
-                if (!isset($gamesAlltime[$commId]) || $peak > $gamesAlltime[$commId]['peak'])
+                $peak = RPCNValue::int($row['players'] ?? null);
+                if (!isset($gamesAlltime[$commId]) || $peak > $gamesAlltime[$commId]->peak)
                 {
-                    $gamesAlltime[$commId] = [
-                        'peak' => $peak,
-                        'date' => isset($row['timestamp']) ? (string)$row['timestamp'] : '',
-                    ];
+                    $gamesAlltime[$commId] = new RPCNPeakRecord(
+                        $peak,
+                        isset($row['timestamp']) ? RPCNValue::string($row['timestamp']) : ''
+                    );
                 }
             }
         }
 
-        uasort($gamesAlltime, static fn($a, $b): int => $b['peak'] <=> $a['peak']);
+        uasort($gamesAlltime, static fn(RPCNPeakRecord $a, RPCNPeakRecord $b): int => $b->peak <=> $a->peak);
         foreach (array_slice($gamesAlltime, 0, 10, true) as $commId => $data)
         {
-            $this->top_10_games_alltime[] = [
-                'comm_id' => $commId,
-                'game_title' => $this->app_title[$commId] ?? 'Unknown Game',
-                'peak' => $data['peak'],
-                'time_ago' => $data['date'] !== '' ? $this->time_ago($data['date']) : '',
-                'icon' => $this->resolveIcon($commId),
-            ];
+            $this->top_10_games_alltime[] = new RPCNTopGame(
+                $commId,
+                $this->app_title[$commId] ?? 'Unknown Game',
+                $data->peak,
+                $this->resolveIcon($commId),
+                $data->date !== '' ? $this->time_ago($data->date) : ''
+            );
         }
     }
 

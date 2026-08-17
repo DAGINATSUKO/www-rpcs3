@@ -6,16 +6,16 @@ $names = [
     // 6 => "Unknown",
 ];
 
-return [
-    "title" => "Sonic The Hedgehog 2",
-    "config" => [
-        "game_id" => ["NPEB00477"],
-        "names" => $names,
-        "time_boards" => [],
-        "score_boards" => [1,2],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Sonic The Hedgehog 2",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00477"],
+        scoreBoards: [1,2],
+        timeBoards: [],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

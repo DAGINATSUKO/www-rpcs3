@@ -4,23 +4,23 @@ $names = [
     1 => "Darkstalkers 3 | Online Rank",
 ];
 
-return [
-    "title" => "Darkstalkers Resurrection",
-    "config" => [
-        "game_id" => ["BLJM60567", "NPEB00870"],
-        "names" => $names,
-        "time_boards" => [],
-        "column_names" => [
-            0 => "Rank Points | Wins | Losses | Disconnects",
-            1 => "Rank Points | Wins | Losses | Disconnects",
-        ]
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Darkstalkers Resurrection",
+    config: new RPCNParserConfig(
+        gameIds: ["BLJM60567", "NPEB00870"],
+        timeBoards: [],
+        names: $names,
+        columnNames: [
+                    0 => "Rank Points | Wins | Losses | Disconnects",
+                    1 => "Rank Points | Wins | Losses | Disconnects",
+                ],
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         $rankPoints = 2500 + (int)$score;
 
         if ($info && strlen($info) >= 40) {
-            $wins   = hexdec(substr($info, 8, 2));
-            $losses = hexdec(substr($info, 18, 2));
+            $wins   = (int)hexdec(substr($info, 8, 2));
+            $losses = (int)hexdec(substr($info, 18, 2));
 
             $total = $wins + $losses;
 
@@ -45,5 +45,5 @@ return [
 
         return number_format($rankPoints, 0, '.', ' ');
     }
-];
+);
 ?>

@@ -137,16 +137,16 @@ $names = [
     303 => "Vulgus - International Version | Ultimate",
 ];
 
-return [
-    "title" => "Capcom Arcade Cabinet",
-    "config" => [
-        "game_id" => ["NPEB00980"],
-        "names" => $names,
-        "time_boards" => [],
-        "score_boards" => [],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Capcom Arcade Cabinet",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00980"],
+        scoreBoards: [],
+        timeBoards: [],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

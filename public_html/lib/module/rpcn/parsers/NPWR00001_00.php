@@ -55,29 +55,30 @@ foreach ($tracks as $trackName => $startId) {
     }
 }
 
-return [
-    "title" => "Ridge Racer 7",
-    "config" => [
-        "icon" => "",
-        "game_id" => ["BCES00009", "BLUS30001"],
-        "time_boards"  => $time_boards,
-        "score_boards" => [],
-        "names" => $names,
-        "column_names" => "Time"
-    ],
-    "formatter" => function($score, $boardId, $config) {
-        if (in_array($boardId, $config["time_boards"])) {
+return new RPCNParser(
+    title: "Ridge Racer 7",
+    config: new RPCNParserConfig(
+        icon: "",
+        gameIds: ["BCES00009", "BLUS30001"],
+        scoreBoards: [],
+        timeBoards: $time_boards,
+        names: $names,
+        columnNames: "Time",
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
+        $timeBoards = $config->timeBoards;
+        if (in_array($boardId, $timeBoards, true)) {
             // RR7 Logic: Score = TimeInMS * 3
             // To get time, we divide score by 3
-            $timeMs = floor($score / 3);
+            $timeMs = intdiv($score, 3);
 
-            $min = floor($timeMs / 60000);
-            $sec = floor(($timeMs % 60000) / 1000);
+            $min = intdiv($timeMs, 60000);
+            $sec = intdiv($timeMs % 60000, 1000);
             $ms  = $timeMs % 1000;
 
             return sprintf("%02d:%02d.%03d", $min, $sec, $ms);
         }
         return number_format($score, 0, ".", " ");
     }
-];
+);
 ?>

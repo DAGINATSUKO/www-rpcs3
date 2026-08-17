@@ -10,15 +10,15 @@ $names = [
     6 => "Challenges | Cube",
 ];
 
-return [
-    "title" => "Astro Tripper",
-    "config" => [
-        "game_id" => ["NPEB00065"],
-        "names" => $names,
-        "time_boards" => [],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Astro Tripper",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00065"],
+        timeBoards: [],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format($score, 0, '.', ' ');
     }
-];
+);
 ?>

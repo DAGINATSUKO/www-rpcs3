@@ -4,15 +4,15 @@ $names = [
     2 => "Weekly | Best Scores",
 ];
 
-return [
-    "title" => "Sonic The Hedgehog",
-    "config" => [
-        "game_id" => ["NPEB00478"],
-        "names" => $names,
-        "score_boards" => [1,2],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Sonic The Hedgehog",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00478"],
+        scoreBoards: [1,2],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

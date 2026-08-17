@@ -9,16 +9,16 @@ $names = [
 
 $columnNames = array_fill_keys(array_keys($names), "Score");
 
-return [
-    "title" => "Goat Simulator",
-    "config" => [
-        "game_id" => ["NPJB00759", "NPEB02321"],
-        "names" => $names,
-        "time_boards" => [],
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Goat Simulator",
+    config: new RPCNParserConfig(
+        gameIds: ["NPJB00759", "NPEB02321"],
+        timeBoards: [],
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

@@ -38,30 +38,20 @@ foreach ($raw_names as $id => $name) {
     $names[$id] = $prefix . " | " . $name;
 }
 
-return [
-    "title" => "Batman: Arkham Asylum",
-    "config" => [
-        // Game icon, unused for now
-        "icon" => "",
-        // game id that use this comm id
-        "game_id" => ["BLES00503", "BLES00827", "BLUS30279", "BLUS30515", "NPEB01156"],
-        // Classification of boards: Combat challenges use scores, Predator challenges use time
-        "time_boards"  => $time_boards,
-        "score_boards" => [0,2,4,6,8,10,12,14,16,18,20,22],
-        // Mapping board IDs to their respective in-game challenge names
-        "names" => $names
-    ],
-
-    /**
-     * @param int $score The raw score value from the API
-     * @param int $boardId The ID of the current leaderboard
-     * @param array $config The configuration array defined above
-     */
-    "formatter" => function($score, $boardId, $config) {
-        if (in_array($boardId, $config["time_boards"])) {
+return new RPCNParser(
+    title: "Batman: Arkham Asylum",
+    config: new RPCNParserConfig(
+        icon: "",
+        gameIds: ["BLES00503", "BLES00827", "BLUS30279", "BLUS30515", "NPEB01156"],
+        scoreBoards: [0,2,4,6,8,10,12,14,16,18,20,22],
+        timeBoards: $time_boards,
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
+        $timeBoards = $config->timeBoards;
+        if (in_array($boardId, $timeBoards, true)) {
             $base = 536870912; // 2^29
             $timeMs = $base - ($score % $base);
-
 
             $min = floor($timeMs / 60000);
             $sec = floor(($timeMs % 60000) / 1000);
@@ -73,5 +63,5 @@ return [
         // format score for combat challenges
         return number_format($score, 0, ".", " ");
     }
-];
+);
 ?>

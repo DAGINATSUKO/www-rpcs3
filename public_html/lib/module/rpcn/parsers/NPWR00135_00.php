@@ -19,15 +19,15 @@ foreach ($ballFrenzyLevels as $id => $levelName) {
     $names[$id] = "Ball Frenzy | " . $levelName . " (Level " . $levelNumber . ")";
 }
 
-return [
-    "title" => "Snakeline",
-    "config" => [
-        "game_id" => ["NPHA80027"],
-        "names" => $names,
-        "time_boards" => [],
-        "column_names" => array_fill_keys(array_keys($names), "Score | Time")
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Snakeline",
+    config: new RPCNParserConfig(
+        gameIds: ["NPHA80027"],
+        timeBoards: [],
+        names: $names,
+        columnNames: array_fill_keys(array_keys($names), "Score | Time"),
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         $score = (float)$score;
         $points = floor($score / 1099511627776);
         $timePart = fmod($score, 1099511627776);
@@ -46,5 +46,5 @@ return [
             $timeStr
         );
     }
-];
+);
 ?>

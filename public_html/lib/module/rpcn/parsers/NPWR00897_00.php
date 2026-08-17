@@ -6,25 +6,25 @@ $names = [
     //5 => "Unknown",
 ];
 
-return [
-    "title" => "Final Fight: Double Impact",
-    "config" => [
-        "game_id" => ["NPEB00168"],
-        "names" => $names,
-        "time_boards" => [],
-        "column_names" => [
-            1 => "Lives | Continues | Time | Score",
-            2 => "Lives | Continues | Time | Score",
-            3 => "Lives | Continues | Time | Score",
-        ]
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Final Fight: Double Impact",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00168"],
+        timeBoards: [],
+        names: $names,
+        columnNames: [
+                    1 => "Lives | Continues | Time | Score",
+                    2 => "Lives | Continues | Time | Score",
+                    3 => "Lives | Continues | Time | Score",
+                ],
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         if ($info && strlen($info) >= 104) {
-            $lives = hexdec(substr($info, 24, 8));
-            $continues = hexdec(substr($info, 72, 8));
-            $totalSeconds = hexdec(substr($info, 96, 8));
+            $lives = (int)hexdec(substr($info, 24, 8));
+            $continues = (int)hexdec(substr($info, 72, 8));
+            $totalSeconds = (int)hexdec(substr($info, 96, 8));
 
-            $m = floor($totalSeconds / 60);
+            $m = intdiv($totalSeconds, 60);
             $s = $totalSeconds % 60;
             $timeStr = sprintf("%02d:%02d", $m, $s);
 
@@ -38,4 +38,4 @@ return [
         }
         return number_format($score, 0, '.', ' ');
     }
-];
+);
