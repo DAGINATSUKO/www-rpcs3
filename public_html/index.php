@@ -94,7 +94,7 @@
 											];
 
 											$os_name = $os_icon = null;
-											$ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+											$ua = is_string($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
 
 											if      (str_contains($ua, 'FreeBSD'))                                { $os_name = 'FreeBSD'; $os_icon = $os_icons['FreeBSD']; }
 											elseif  (str_contains($ua, 'Windows'))                                { $os_name = 'Windows'; $os_icon = $os_icons['Windows']; }

@@ -5,3 +5,5 @@ parameters:
     - public_html/update
     - public_html/download.php
     - public_html/compatibility.php
+    - public_html/lib/module/download/inc-download-buildbar.php
+    - public_html/lib/module/download/inc-download-platform.php

@@ -1,5 +1,6 @@
 <?php
-function preloadVideo($id, $vid, $img) {	
+function preloadVideo(string $id, string $vid, string $img) : void
+{	
 echo "
 <div class=\"video-con-dimmer toggle-video-{$id}\">
 	<div class=\"menu-btn-close close-video stop-video\">
