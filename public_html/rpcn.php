@@ -1,5 +1,4 @@
 <?php
-
 $rpcnConfig = require __DIR__ . '/../configs/rpcn.php';
 if (!$rpcnConfig instanceof RPCNConfig)
 {

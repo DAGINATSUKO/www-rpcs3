@@ -1,5 +1,4 @@
 <?php
-
 $pageContext = require __DIR__ . '/lib/module/rpcn/inc-rpcn-game.php';
 if (!$pageContext instanceof RPCNGamePageContext)
 {
