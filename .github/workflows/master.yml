@@ -24,12 +24,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v6
 
-      # Run PHPStan level 3 analysis
+      # Run PHPStan level 10 analysis
       - name: PHPStan Static Analysis
         uses: php-actions/phpstan@v3
         with:
           version: latest
           php_version: latest
           path: .
-          level: 3
+          level: 10
           memory_limit: 256M
