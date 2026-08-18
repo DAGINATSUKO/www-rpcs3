@@ -3,17 +3,17 @@ $names = [
     0 => "All Time",
 ];
 
-return [
-    "title" => "Jetpack Joyride",
-    "config" => [
-        "game_id" => ["NPEB01240"],
-        "names" => $names,
-        "column_names" => [
-            0 => "Distance"
-        ],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Jetpack Joyride",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB01240"],
+        names: $names,
+        columnNames: [
+                    0 => "Distance"
+                ],
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format($score, 0, '.', '') . "m";
     }
-];
+);
 ?>

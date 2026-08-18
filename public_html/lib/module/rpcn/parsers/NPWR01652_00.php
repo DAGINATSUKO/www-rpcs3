@@ -8,15 +8,15 @@ $names = [
     5 => "Separate Ways (All) | All Time",
 ];
 $columnNames = array_fill_keys(array_keys($names), "Time");
-return [
-    "title" => "Resident Evil 4",
-    "config" => [
-        "game_id" => ["NPEB00342", "NPJB00084"],
-        "names" => $names,
-        "time_boards" => [0,1,2,3,4,5],
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Resident Evil 4",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00342", "NPJB00084"],
+        timeBoards: [0,1,2,3,4,5],
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         $totalSeconds = (int)$score;
 
         $h = floor($totalSeconds / 3600);
@@ -25,5 +25,5 @@ return [
 
         return sprintf("%02d:%02d:%02d", $h, $m, $s);
     }
-];
+);
 ?>

@@ -12,14 +12,14 @@ $names = [
 
 $columnNames = array_fill_keys(array_keys($names), "Score | Time | Waves | Combo | Kills");
 
-return [
-    "title" => "Deadpool",
-    "config" => [
-        "game_id" => ["BLES01789", "BLUS31146", "NPUB31069"],
-        "names" => $names,
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Deadpool",
+    config: new RPCNParserConfig(
+        gameIds: ["BLES01789", "BLUS31146", "NPUB31069"],
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         $formattedScore = number_format((float)$score, 0, ".", " ");
 
         $timeStr = "0h 0m 0s";
@@ -29,13 +29,13 @@ return [
 
         // format player data
         if ($info && strlen($info) >= 32) {
-            $timeRaw  = hexdec(substr($info, 0, 8)); // 00000137 => 311
-            $waves    = hexdec(substr($info, 8, 8)); // 00000001 => 1
-            $combo    = hexdec(substr($info, 16, 8)); // 00000035 => 53
-            $kills    = hexdec(substr($info, 24, 8)); // 000000f4 => 244
+            $timeRaw  = (int)hexdec(substr($info, 0, 8)); // 00000137 => 311
+            $waves    = (int)hexdec(substr($info, 8, 8)); // 00000001 => 1
+            $combo    = (int)hexdec(substr($info, 16, 8)); // 00000035 => 53
+            $kills    = (int)hexdec(substr($info, 24, 8)); // 000000f4 => 244
 
-            $h = floor($timeRaw / 3600);
-            $m = floor(($timeRaw % 3600) / 60);
+            $h = intdiv($timeRaw, 3600);
+            $m = intdiv($timeRaw % 3600, 60);
             $s = $timeRaw % 60;
             $timeStr = sprintf("%dh %dm %ds", $h, $m, $s);
         }
@@ -49,5 +49,5 @@ return [
             $kills
         );
     }
-];
+);
 ?>

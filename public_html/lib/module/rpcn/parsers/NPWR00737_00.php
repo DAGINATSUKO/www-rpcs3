@@ -18,16 +18,16 @@ $names = [
 
 $columnNames = array_fill_keys(array_keys($names), "Score");
 
-return [
-    "title" => "Fat Princess",
-    "config" => [
-        "game_id" => ["NPEA00111"],
-        "names" => $names,
-        "time_boards" => [],
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Fat Princess",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEA00111"],
+        timeBoards: [],
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

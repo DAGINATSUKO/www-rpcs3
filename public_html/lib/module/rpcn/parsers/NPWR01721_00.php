@@ -11,16 +11,16 @@ $names = [
     8 => "The Park",
 ];
 
-return [
-    "title" => "All Zombies Must Die!",
-    "config" => [
-        "game_id" => ["NPUB30308", "NPEB00316"],
-        "names" => $names,
-        "column_names" => [],
-        "score_boards" => [0,1,2,3,4,5,6,7,8]
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "All Zombies Must Die!",
+    config: new RPCNParserConfig(
+        gameIds: ["NPUB30308", "NPEB00316"],
+        scoreBoards: [0,1,2,3,4,5,6,7,8],
+        names: $names,
+        columnNames: [],
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

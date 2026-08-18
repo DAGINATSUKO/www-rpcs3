@@ -4,15 +4,15 @@ $names = [
     2 => "Weapon Restricted | All Time",
 ];
 $columnNames = array_fill_keys(array_keys($names), "Time");
-return [
-    "title" => "Resident Evil Code: Veronica X",
-    "config" => [
-        "game_id" => ["NPUB30467"],
-        "names" => $names,
-        "time_boards" => [1,2],
-        "column_names" => $columnNames
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Resident Evil Code: Veronica X",
+    config: new RPCNParserConfig(
+        gameIds: ["NPUB30467"],
+        timeBoards: [1,2],
+        names: $names,
+        columnNames: $columnNames,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         $totalSeconds = (int)$score;
 
         $h = floor($totalSeconds / 3600);
@@ -21,5 +21,5 @@ return [
 
         return sprintf("%02d:%02d:%02d", $h, $m, $s);
     }
-];
+);
 ?>

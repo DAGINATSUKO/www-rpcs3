@@ -26,15 +26,15 @@ $names = [
     21 => "Campaign (Co-op) | Chapter 10",
 ];
 
-return [
-    "title" => "Tank Battles",
-    "config" => [
-        "game_id" => ["NPUB30108"],
-        "names" => $names,
-        "column_names" => [],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Tank Battles",
+    config: new RPCNParserConfig(
+        gameIds: ["NPUB30108"],
+        names: $names,
+        columnNames: [],
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

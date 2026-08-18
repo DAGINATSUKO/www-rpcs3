@@ -8,16 +8,16 @@ $names = [
     5 => "Online Versus | Best Scores",
 ];
 
-return [
-    "title" => "Critter Crunch",
-    "config" => [
-        "game_id" => ["NPEB00165"],
-        "names" => $names,
-        "time_boards" => [],
-        "score_boards" => [0,1,2,3,4,5],
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Critter Crunch",
+    config: new RPCNParserConfig(
+        gameIds: ["NPEB00165"],
+        scoreBoards: [0,1,2,3,4,5],
+        timeBoards: [],
+        names: $names,
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         return number_format((int)$score, 0, ".", " ");
     }
-];
+);
 ?>

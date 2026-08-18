@@ -3,24 +3,24 @@ $names = [
     0 => "Survival Endless",
 ];
 
-return [
-    "title" => "Plants vs. Zombies",
-    "config" => [
-        "game_id" => ["BLUS30852", "NPEA00271"],
-        "names" => $names,
-        "time_boards" => [],
-        "column_names" => [
-            0 => "Flags"
-        ]
-    ],
-    "formatter" => function($score, $boardId, $config, $info) {
+return new RPCNParser(
+    title: "Plants vs. Zombies",
+    config: new RPCNParserConfig(
+        gameIds: ["BLUS30852", "NPEA00271"],
+        timeBoards: [],
+        names: $names,
+        columnNames: [
+                    0 => "Flags"
+                ],
+    ),
+    formatter: function(int $score, int $boardId, RPCNParserConfig $config, string $info, string $comment): string {
         $flags = 0;
 
         if ($info && strlen($info) >= 40) {
             $flagsHex = substr($info, 36, 4);
-            $flags = hexdec($flagsHex);
+            $flags = (int)hexdec($flagsHex);
         }
-        return ($flags > 0) ? $flags : "0";
+        return $flags > 0 ? (string)$flags : "0";
     }
-];
+);
 ?>
