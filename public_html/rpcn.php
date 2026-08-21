@@ -36,36 +36,10 @@ if (!$has_db_error)
 $search_data = [];
 foreach ($rpcn_stats->app_title as $comm_id => $title)
 {
-    $icon_url = $rpcnConfig->defaultIcon;
-    
-    if (isset($rpcn_stats->title_icons[$comm_id]))
-    {
-        $icon_url = $rpcn_stats->title_icons[$comm_id];
-    }
-    elseif (isset($rpcn_stats->title_ids[$comm_id]))
-    {
-        foreach ($rpcn_stats->title_ids[$comm_id] as $id_to_check)
-        {
-            $search_id = $rpcn_stats->icon_alias[$id_to_check] ?? $id_to_check;
-
-            if (isset($rpcn_stats->icons_db[$search_id]))
-            {
-                $hash     = $rpcn_stats->icons_db[$search_id];
-                $file_name = "{$hash}.png";
-
-                if (file_exists($rpcnConfig->iconBasePath . $file_name))
-                {
-                    $icon_url = $rpcnConfig->iconBasePath . $file_name;
-                    break;
-                }
-            }
-        }
-    }
-
     $search_data[] = new RPCNSearchGame(
         $comm_id,
         $title,
-        $icon_url,
+        $rpcn_stats->getGameIcon($comm_id, $rpcnConfig->defaultIcon),
         $rpcn_stats->title_regions[$comm_id] ?? []
     );
 }
@@ -210,9 +184,9 @@ if ($search_query !== '')
 						   id="gameSearch"
 						   class="search-input darkmode-search-bg darkmode-search-border"
 						   value="<?php echo htmlspecialchars($search_query); ?>"
-						   placeholder="Game Title..."
+						   placeholder="Game title or RPCN username..."
 						   autocomplete="off"
-						   aria-label="Search games">
+						   aria-label="Search games or RPCN players">
 					<button type="submit" class="search-submit" aria-label="Submit search">&#128269; Search</button>
 				</form>
 				<div id="searchResults" class="search-results" role="listbox" aria-label="Search suggestions"></div>
@@ -225,13 +199,21 @@ if ($search_query !== '')
 								Results for &ldquo;<?php echo htmlspecialchars($search_query); ?>&rdquo;
 							</span>
 							<span class="search-results-count">
-								<?php echo count($search_results); ?> game<?php echo count($search_results) !== 1 ? 's' : ''; ?>
+								Player profile + <?php echo count($search_results); ?> game<?php echo count($search_results) !== 1 ? 's' : ''; ?>
 							</span>
 							<a href="rpcn.php" class="search-clear-link">&#10005; Clear search</a>
 						</div>
 
+                        <a class="rpcn-player-search-result" href="rpcn-profile.php?username=<?php echo rawurlencode($search_query); ?>">
+                            <span class="rpcn-player-search-avatar" aria-hidden="true"></span>
+                            <span class="rpcn-player-search-copy">
+                                <strong><?php echo htmlspecialchars($search_query); ?></strong>
+                                <small>View RPCN player profile</small>
+                            </span>
+                        </a>
+
 						<?php if (empty($search_results)): ?>
-							<p class="search-no-results">No games found matching your search.</p>
+							<p class="search-no-results">No games found matching your search. You can still try the player profile above.</p>
 						<?php else: ?>
 							<div class="rpcn-list-con-container">
 								<table>
@@ -546,13 +528,18 @@ if ($search_query !== '')
             return;
         }
 
-        const filtered = gamesData.filter(g => matchesQuery(g.title, query)).slice(0, 10);
+        const filtered = gamesData.filter(g => matchesQuery(g.title, query)).slice(0, 9);
+        const esc = str => str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
-        if (filtered.length === 0)
-        {
-            searchDropdown.style.display = 'none';
-            return;
-        }
+        const player = document.createElement('a');
+        player.className = 'search-item search-player-item';
+        player.href = 'rpcn-profile.php?username=' + encodeURIComponent(query);
+        player.setAttribute('role', 'option');
+        player.innerHTML = `
+            <span class="search-player-icon" aria-hidden="true"></span>
+            <span class="search-title"><strong>${esc(query)}</strong><small>RPCN player profile</small></span>
+        `;
+        searchDropdown.appendChild(player);
 
         filtered.forEach(game =>
         {
@@ -599,6 +586,14 @@ if ($search_query !== '')
         const filtered = gamesData.filter(g => matchesQuery(g.title, query));
         const count    = filtered.length;
         const esc      = str => str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        const playerHtml = `
+            <a class="rpcn-player-search-result" href="rpcn-profile.php?username=${encodeURIComponent(query)}">
+                <span class="rpcn-player-search-avatar" aria-hidden="true"></span>
+                <span class="rpcn-player-search-copy">
+                    <strong>${esc(query)}</strong>
+                    <small>View RPCN player profile</small>
+                </span>
+            </a>`;
 
         let rowsHtml = '';
         if (count === 0)
@@ -654,9 +649,10 @@ if ($search_query !== '')
             <div class="search-results-section">
                 <div class="search-results-header">
                     <span class="search-results-title">Results for &ldquo;${esc(query)}&rdquo;</span>
-                    <span class="search-results-count">${count} game${count !== 1 ? 's' : ''}</span>
+                    <span class="search-results-count">Player profile + ${count} game${count !== 1 ? 's' : ''}</span>
                     <a href="rpcn.php" class="search-clear-link">&#10005; Clear search</a>
                 </div>
+                ${playerHtml}
                 ${rowsHtml}
             </div>`;
         jsResults.style.display = 'block';

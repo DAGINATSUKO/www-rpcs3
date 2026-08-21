@@ -572,8 +572,20 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
                             <span style="color: var(--rpcn-subtle)"><?= number_format($t->percentage, 1) ?>%</span>
                         </div>
                     </div>
-                    <div class="rpcn-trophy-type rpcn-type-<?= htmlspecialchars($t->type) ?>" title="<?= ucfirst(htmlspecialchars($t->type)) ?>">
-                        <svg viewBox="0 0 24 24"><path d="M20.2,4.6C19.7,4.2,19.1,4,18.5,4H18V3c0-0.6-0.4-1-1-1H7C6.4,2,6,2.4,6,3v1H5.5C4.9,4,4.3,4.2,3.8,4.6 C3.4,5,3,5.6,3,6.2V8c0,2.3,1.4,4.2,3.5,4.8C7.1,14.6,8.4,16,10,16.8V19H8c-0.6,0-1,0.4-1,1v1c0,0.6,0.4,1,1,1h8c0.6,0,1-0.4,1-1v-1 c0-0.6-0.4-1-1-1h-2v-2.2c1.6-0.8,2.9-2.2,3.5-4C19.6,12.2,21,10.3,21,8V6.2C21,5.6,20.6,5,20.2,4.6z M5,8V6.2C5,6.1,5.1,5.9,5.2,5.9 C5.3,5.8,5.4,5.8,5.5,5.8H6v4.4C5.4,9.9,5,9,5,8z M19,8c0,1-0.4,1.9-1,2.3V5.8h0.5c0.1,0,0.2,0,0.3,0.1C18.9,5.9,19,6.1,19,6.2V8z"/></svg>
+                    <?php
+                    $trophyGrade = in_array($t->type, ['bronze', 'silver', 'gold', 'platinum'], true)
+                        ? $t->type
+                        : 'unknown';
+                    $trophyGradeIcon = '/img/icons/rpcn/' . $trophyGrade . '.png';
+                    ?>
+                    <div class="rpcn-trophy-type rpcn-type-<?= htmlspecialchars($trophyGrade) ?>" title="<?= ucfirst(htmlspecialchars($trophyGrade)) ?>">
+                        <img
+                            class="rpcn-trophy-grade-icon"
+                            src="<?= htmlspecialchars($trophyGradeIcon) ?>"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                        >
                     </div>
                 </div>
                 <?php endforeach; ?>
