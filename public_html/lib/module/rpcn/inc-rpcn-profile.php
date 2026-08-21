@@ -359,6 +359,7 @@ final class RPCNProfile
         usort($games, static function (RPCNProfileGame $a, RPCNProfileGame $b): int
         {
             $result = $b->completion <=> $a->completion;
+            if ($result === 0) $result = $b->earnedPoints <=> $a->earnedPoints;
             if ($result === 0) $result = $b->earnedCount <=> $a->earnedCount;
             if ($result === 0) $result = strnatcasecmp($a->title, $b->title);
             return $result;
