@@ -1529,3 +1529,107 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 	width: 34px;
 	height: 34px;
 }
+
+/* RPCN profile trophy controls */
+.rpcn-profile-trophy-controls {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 0 0 12px;
+	padding: 8px;
+	background: rgb(255 255 255 / 3%);
+	border: 1px solid var(--rpcn-profile-border);
+	border-radius: 10px;
+}
+.rpcn-profile-trophy-control-group {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	min-width: 0;
+	padding-right: 8px;
+	border-right: 1px solid rgb(255 255 255 / 8%);
+}
+.rpcn-profile-trophy-control-group:last-child {
+	padding-right: 0;
+	border-right: 0;
+}
+.rpcn-profile-trophy-control-sort {
+	flex: 1 1 420px;
+}
+.rpcn-profile-trophy-control-label {
+	flex: 0 0 auto;
+	padding: 0 4px;
+	font-family: Roboto-Bold, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	letter-spacing: .45px;
+	text-transform: uppercase;
+	color: var(--rpcn-profile-muted);
+}
+.rpcn-profile-trophy-control-options {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 3px;
+	min-width: 0;
+}
+.rpcn-profile-trophy-control-options a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 27px;
+	padding: 4px 8px;
+	border: 1px solid transparent;
+	border-radius: 6px;
+	font-size: 11px;
+	line-height: 17px;
+	color: rgb(255 255 255 / 68%);
+	text-decoration: none;
+	white-space: nowrap;
+}
+.rpcn-profile-trophy-control-options a:hover {
+	background: rgb(255 255 255 / 5%);
+	border-color: rgb(255 255 255 / 8%);
+	color: #fff;
+}
+.rpcn-profile-trophy-control-options .rpcn-profile-sort-active {
+	background: rgb(104 109 224 / 16%);
+	border-color: rgb(104 109 224 / 28%);
+	color: #b4b7ff;
+}
+.rpcn-profile-trophy-control-count {
+	flex: 0 0 auto;
+	margin-left: auto;
+	padding: 0 5px;
+	font-size: 10px;
+	color: var(--rpcn-profile-muted);
+	white-space: nowrap;
+}
+.rpcn-profile-trophy-controls-global .rpcn-profile-trophy-control-sort {
+	flex-basis: 330px;
+}
+@media screen and (max-width: 760px) {
+	.rpcn-profile-trophy-controls {
+		display: grid;
+		gap: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	.rpcn-profile-trophy-control-group,
+	.rpcn-profile-trophy-control-group:last-child {
+		display: grid;
+		grid-template-columns: 58px minmax(0, 1fr);
+		gap: 6px;
+		padding: 7px 8px;
+		border-right: 0;
+		border-bottom: 1px solid rgb(255 255 255 / 7%);
+	}
+	.rpcn-profile-trophy-control-group:last-child {
+		border-bottom: 0;
+	}
+	.rpcn-profile-trophy-control-count {
+		grid-column: 2;
+		margin: 2px 0 0;
+	}
+}

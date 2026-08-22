@@ -606,29 +606,103 @@ final class RPCNProfile
         );
     }
 
+    private static function trophyGradeRank(string $type): int
+    {
+        return match ($type) {
+            'bronze' => 0,
+            'silver' => 1,
+            'gold' => 2,
+            'platinum' => 3,
+            default => 4,
+        };
+    }
+
     /** @return list<RPCNProfileTrophy> */
-    private function buildEarnedTrophies(string $filter): array
+    private function buildTrophies(string $gradeFilter, string $sort, string $direction): array
     {
         $result = [];
         foreach ($this->gamesByCommId as $game)
         {
             $apiGame = $this->apiGames[$game->commId] ?? null;
             if ($apiGame === null) continue;
+
             foreach ($this->loadTrophySet($game->commId) as $local)
             {
                 $earned = $apiGame->earned[$local->id] ?? null;
                 if ($earned === null) continue;
-                if ($filter !== 'all' && $local->type !== $filter) continue;
+                if ($gradeFilter !== 'all' && $local->type !== $gradeFilter) continue;
+
                 $result[] = $this->makeProfileTrophy($game, $local, $earned);
             }
         }
 
-        usort($result, static fn(RPCNProfileTrophy $a, RPCNProfileTrophy $b): int => $b->earnedAtUnix <=> $a->earnedAtUnix);
+        usort($result, static function (RPCNProfileTrophy $a, RPCNProfileTrophy $b) use ($sort, $direction): int
+        {
+            $result = match ($sort) {
+                'game' => strnatcasecmp($a->gameTitle, $b->gameTitle),
+                'name' => strnatcasecmp($a->name, $b->name),
+                'grade' => self::trophyGradeRank($a->type) <=> self::trophyGradeRank($b->type),
+                'points' => $a->points <=> $b->points,
+                default => $a->earnedAtUnix <=> $b->earnedAtUnix,
+            };
+
+            if ($result === 0 && $sort !== 'game') $result = strnatcasecmp($a->gameTitle, $b->gameTitle);
+            if ($result === 0 && $sort !== 'name') $result = strnatcasecmp($a->name, $b->name);
+            return $direction === 'desc' ? -$result : $result;
+        });
+
         return $result;
     }
 
-    private function buildSelectedGame(string $commId): ?RPCNProfileGameDetails
-    {
+    /** @param list<RPCNProfileTrophy> $trophies
+     *  @return list<RPCNProfileTrophy>
+     */
+    private static function filterAndSortGameTrophies(
+        array $trophies,
+        string $statusFilter,
+        string $gradeFilter,
+        string $sort,
+        string $direction
+    ): array {
+        $result = array_values(array_filter(
+            $trophies,
+            static function (RPCNProfileTrophy $trophy) use ($statusFilter, $gradeFilter): bool
+            {
+                if ($statusFilter === 'earned' && !$trophy->earned) return false;
+                if ($statusFilter === 'unearned' && $trophy->earned) return false;
+                if ($statusFilter === 'hidden' && !$trophy->hidden) return false;
+                if ($gradeFilter !== 'all' && $trophy->type !== $gradeFilter) return false;
+                return true;
+            }
+        ));
+
+        usort($result, static function (RPCNProfileTrophy $a, RPCNProfileTrophy $b) use ($sort, $direction): int
+        {
+            $result = match ($sort) {
+                'name' => strnatcasecmp($a->name, $b->name),
+                'grade' => self::trophyGradeRank($a->type) <=> self::trophyGradeRank($b->type),
+                'points' => $a->points <=> $b->points,
+                'rarity' => ($a->percentage ?? 101.0) <=> ($b->percentage ?? 101.0),
+                'status' => (int)$a->earned <=> (int)$b->earned,
+                'date' => $a->earnedAtUnix <=> $b->earnedAtUnix,
+                default => $a->id <=> $b->id,
+            };
+
+            if ($result === 0 && $sort !== 'name') $result = strnatcasecmp($a->name, $b->name);
+            if ($result === 0) $result = $a->id <=> $b->id;
+            return $direction === 'desc' ? -$result : $result;
+        });
+
+        return $result;
+    }
+
+    private function buildSelectedGame(
+        string $commId,
+        string $statusFilter,
+        string $gradeFilter,
+        string $sort,
+        string $direction
+    ): ?RPCNProfileGameDetails {
         $game = $this->gamesByCommId[$commId] ?? null;
         if ($game === null) return null;
 
@@ -656,7 +730,12 @@ final class RPCNProfile
         }
 
         $regions = $this->stats->title_regions[$game->commId] ?? [];
-        return new RPCNProfileGameDetails($game, $stats->uniquePlayers, $trophies, $regions);
+        return new RPCNProfileGameDetails(
+            $game,
+            $stats->uniquePlayers,
+            self::filterAndSortGameTrophies($trophies, $statusFilter, $gradeFilter, $sort, $direction),
+            $regions
+        );
     }
 
     public function buildContext(
@@ -664,8 +743,16 @@ final class RPCNProfile
         string $direction,
         bool $completedOnly,
         string $trophyFilter,
+        string $trophyGrade,
+        string $trophySort,
+        string $trophyDirection,
+        string $gameTrophyFilter,
+        string $gameTrophyGrade,
+        string $gameTrophySort,
+        string $gameTrophyDirection,
         string $gameCommId,
-        int $gamePage
+        int $gamePage,
+        int $trophyPage
     ): RPCNProfilePageContext {
         if (!$this->loadUserApi())
         {
@@ -679,6 +766,13 @@ final class RPCNProfile
                 $direction,
                 $completedOnly,
                 $trophyFilter,
+                $trophyGrade,
+                $trophySort,
+                $trophyDirection,
+                $gameTrophyFilter,
+                $gameTrophyGrade,
+                $gameTrophySort,
+                $gameTrophyDirection,
                 $this->notFound,
                 $this->hasError,
                 $this->errorMessage,
@@ -688,34 +782,56 @@ final class RPCNProfile
                 0,
                 1,
                 1,
-                max(1, $this->config->profileGamesPerPage)
+                max(1, $this->config->profileGamesPerPage),
+                0,
+                1,
+                1,
+                max(1, $this->config->profileTrophiesPerPage)
             );
         }
 
         $games = $this->buildGames();
         $summary = self::buildSummary($games);
         $backgroundPic1 = $this->selectBackgroundPic1($games);
-        $selectedGame = $gameCommId !== '' ? $this->buildSelectedGame($gameCommId) : null;
-        $earnedTrophies = $trophyFilter !== '' ? $this->buildEarnedTrophies($trophyFilter) : [];
+        $selectedGame = $gameCommId !== ''
+            ? $this->buildSelectedGame($gameCommId, $gameTrophyFilter, $gameTrophyGrade, $gameTrophySort, $gameTrophyDirection)
+            : null;
+        $allFilteredTrophies = $trophyFilter !== ''
+            ? $this->buildTrophies($trophyGrade, $trophySort, $trophyDirection)
+            : [];
         $sortedGames = self::sortGames($games, $sort, $direction, $completedOnly);
 
         $gamesPerPage = max(1, $this->config->profileGamesPerPage);
         $filteredGameCount = count($sortedGames);
         $gamePageCount = max(1, (int)ceil($filteredGameCount / $gamesPerPage));
         $gamePage = min(max(1, $gamePage), $gamePageCount);
-        $offset = ($gamePage - 1) * $gamesPerPage;
-        $visibleGames = array_slice($sortedGames, $offset, $gamesPerPage);
+        $gameOffset = ($gamePage - 1) * $gamesPerPage;
+        $visibleGames = array_slice($sortedGames, $gameOffset, $gamesPerPage);
+
+        $trophiesPerPage = max(1, $this->config->profileTrophiesPerPage);
+        $filteredTrophyCount = count($allFilteredTrophies);
+        $trophyPageCount = max(1, (int)ceil($filteredTrophyCount / $trophiesPerPage));
+        $trophyPage = min(max(1, $trophyPage), $trophyPageCount);
+        $trophyOffset = ($trophyPage - 1) * $trophiesPerPage;
+        $visibleTrophies = array_slice($allFilteredTrophies, $trophyOffset, $trophiesPerPage);
 
         return new RPCNProfilePageContext(
             $this->username,
             $summary,
             $visibleGames,
-            $earnedTrophies,
+            $visibleTrophies,
             $selectedGame,
             $sort,
             $direction,
             $completedOnly,
             $trophyFilter,
+            $trophyGrade,
+            $trophySort,
+            $trophyDirection,
+            $gameTrophyFilter,
+            $gameTrophyGrade,
+            $gameTrophySort,
+            $gameTrophyDirection,
             false,
             false,
             '',
@@ -725,7 +841,11 @@ final class RPCNProfile
             $filteredGameCount,
             $gamePage,
             $gamePageCount,
-            $gamesPerPage
+            $gamesPerPage,
+            $filteredTrophyCount,
+            $trophyPage,
+            $trophyPageCount,
+            $trophiesPerPage
         );
     }
 }
@@ -751,15 +871,67 @@ $completedParam = $_GET['completed'] ?? '';
 $completedOnly = is_string($completedParam) && $completedParam === '1';
 
 $trophyParam = $_GET['trophies'] ?? '';
-$trophyFilter = is_string($trophyParam) && in_array($trophyParam, ['all', 'bronze', 'silver', 'gold', 'platinum'], true)
-    ? $trophyParam
-    : '';
+$trophyFilter = is_string($trophyParam) && $trophyParam === 'earned' ? 'earned' : '';
+
+$trophyGradeParam = $_GET['grade'] ?? 'all';
+$trophyGrade = is_string($trophyGradeParam) && in_array($trophyGradeParam, ['all', 'bronze', 'silver', 'gold', 'platinum'], true)
+    ? $trophyGradeParam
+    : 'all';
+
+$trophySortParam = $_GET['tsort'] ?? 'date';
+$trophySort = is_string($trophySortParam) && in_array($trophySortParam, ['date', 'game', 'name', 'grade', 'points'], true)
+    ? $trophySortParam
+    : 'date';
+
+$trophyDirectionParam = $_GET['tdir'] ?? ($trophySort === 'date' || $trophySort === 'points' ? 'desc' : 'asc');
+$trophyDirection = is_string($trophyDirectionParam) && in_array($trophyDirectionParam, ['asc', 'desc'], true)
+    ? $trophyDirectionParam
+    : ($trophySort === 'date' || $trophySort === 'points' ? 'desc' : 'asc');
+
+$gameTrophyFilterParam = $_GET['gstatus'] ?? 'all';
+$gameTrophyFilter = is_string($gameTrophyFilterParam) && in_array($gameTrophyFilterParam, ['all', 'earned', 'unearned', 'hidden'], true)
+    ? $gameTrophyFilterParam
+    : 'all';
+
+$gameTrophyGradeParam = $_GET['ggrade'] ?? 'all';
+$gameTrophyGrade = is_string($gameTrophyGradeParam) && in_array($gameTrophyGradeParam, ['all', 'bronze', 'silver', 'gold', 'platinum'], true)
+    ? $gameTrophyGradeParam
+    : 'all';
+
+$gameTrophySortParam = $_GET['gsort'] ?? 'default';
+$gameTrophySort = is_string($gameTrophySortParam) && in_array($gameTrophySortParam, ['default', 'name', 'grade', 'points', 'rarity', 'status', 'date'], true)
+    ? $gameTrophySortParam
+    : 'default';
+
+$gameTrophyDefaultDirection = in_array($gameTrophySort, ['default', 'name', 'rarity'], true) ? 'asc' : 'desc';
+$gameTrophyDirectionParam = $_GET['gdir'] ?? $gameTrophyDefaultDirection;
+$gameTrophyDirection = $gameTrophySort === 'default'
+    ? 'asc'
+    : (is_string($gameTrophyDirectionParam) && in_array($gameTrophyDirectionParam, ['asc', 'desc'], true)
+        ? $gameTrophyDirectionParam
+        : $gameTrophyDefaultDirection);
 
 $gameParam = $_GET['game'] ?? '';
 $gameCommId = is_string($gameParam) && preg_match('/^[A-Z0-9_]{1,32}$/', $gameParam) === 1 ? $gameParam : '';
 
 $gamePage = max(1, RPCNValue::int($_GET['page'] ?? 1, 1));
+$trophyPage = max(1, RPCNValue::int($_GET['tpage'] ?? 1, 1));
 
 $stats = new RPCNStats($rpcnConfig, null, false);
 $profile = new RPCNProfile($rpcnConfig, $stats, $username);
-return $profile->buildContext($sort, $direction, $completedOnly, $trophyFilter, $gameCommId, $gamePage);
+return $profile->buildContext(
+    $sort,
+    $direction,
+    $completedOnly,
+    $trophyFilter,
+    $trophyGrade,
+    $trophySort,
+    $trophyDirection,
+    $gameTrophyFilter,
+    $gameTrophyGrade,
+    $gameTrophySort,
+    $gameTrophyDirection,
+    $gameCommId,
+    $gamePage,
+    $trophyPage
+);

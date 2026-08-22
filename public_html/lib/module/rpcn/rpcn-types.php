@@ -406,18 +406,25 @@ final class RPCNProfilePageContext
 {
     /**
      * @param list<RPCNProfileGame> $games
-     * @param list<RPCNProfileTrophy> $earnedTrophies
+     * @param list<RPCNProfileTrophy> $trophies
      */
     public function __construct(
         public string $username,
         public RPCNProfileSummary $summary,
         public array $games,
-        public array $earnedTrophies,
+        public array $trophies,
         public ?RPCNProfileGameDetails $selectedGame,
         public string $sort,
         public string $direction,
         public bool $completedOnly,
         public string $trophyFilter,
+        public string $trophyGrade,
+        public string $trophySort,
+        public string $trophyDirection,
+        public string $gameTrophyFilter,
+        public string $gameTrophyGrade,
+        public string $gameTrophySort,
+        public string $gameTrophyDirection,
         public bool $notFound,
         public bool $hasError,
         public string $errorMessage,
@@ -427,7 +434,11 @@ final class RPCNProfilePageContext
         public int $filteredGameCount,
         public int $gamePage,
         public int $gamePageCount,
-        public int $gamesPerPage
+        public int $gamesPerPage,
+        public int $filteredTrophyCount,
+        public int $trophyPage,
+        public int $trophyPageCount,
+        public int $trophiesPerPage
     ) {
     }
 }
@@ -468,6 +479,7 @@ final class RPCNConfig
         public bool $trophiesEnabled,
         public RPCNTrophyPoints $trophyPoints,
         public int $profileGamesPerPage,
+        public int $profileTrophiesPerPage,
         public array $trophiesRaritySettings
     ) {
     }
