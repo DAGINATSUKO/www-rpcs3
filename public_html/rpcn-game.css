@@ -688,20 +688,19 @@ body::before {
     align-items:     center;
     justify-content: center;
 }
-.rpcn-trophy-type svg {
-    width:  20px;
-    height: 20px;
+.rpcn-trophy-grade-icon {
+    width:      24px;
+    height:     24px;
+    object-fit: contain;
+    display:    block;
 }
 
 /* Trophy type colours */
 .rpcn-type-platinum { background: rgba(160,200,240,.15); }
-.rpcn-type-platinum svg { fill: #a0c8f0; }
 .rpcn-type-gold     { background: rgba(255,209,102,.15); }
-.rpcn-type-gold     svg { fill: var(--rpcn-gold); }
 .rpcn-type-silver   { background: rgba(200,200,200,.10); }
-.rpcn-type-silver   svg { fill: #c8c8c8; }
 .rpcn-type-bronze   { background: rgba(205,127,50,.15); }
-.rpcn-type-bronze   svg { fill: var(--rpcn-bronze); }
+.rpcn-type-unknown  { background: var(--rpcn-accent-bg); }
 
 
 /* Responsive */

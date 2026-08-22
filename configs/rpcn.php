@@ -39,7 +39,15 @@ return new RPCNConfig(
     trophiesIconBasePath: 'cdn/rpcn/trophies/',
     trophiesSetsPath: 'lib/module/rpcn/trophysets/',
     trophiesCacheTime: 3600,
-    trophiesEnabled: false,
+    trophiesEnabled: true,
+    trophyPoints: new RPCNTrophyPoints(
+        bronze: 5,
+        silver: 15,
+        gold: 30,
+        platinum: 100,
+    ),
+    profileGamesPerPage: 50,
+    profileTrophiesPerPage: 100,
     trophiesRaritySettings: [
         new RPCNRaritySetting(0.0, 'Impossible', '#ef5350'),
         new RPCNRaritySetting(5.0, 'Very Rare', '#ffca28'),

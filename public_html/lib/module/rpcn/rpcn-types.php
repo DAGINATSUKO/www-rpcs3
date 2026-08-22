@@ -72,6 +72,38 @@ final class RPCNRaritySetting
     }
 }
 
+final class RPCNTrophyPoints
+{
+    public function __construct(
+        public int $bronze,
+        public int $silver,
+        public int $gold,
+        public int $platinum
+    ) {
+    }
+
+    public function get(string $type): int
+    {
+        return match (strtolower($type)) {
+            'bronze' => $this->bronze,
+            'silver' => $this->silver,
+            'gold' => $this->gold,
+            'platinum' => $this->platinum,
+            default => 0,
+        };
+    }
+}
+
+final class RPCNTrophyStats
+{
+    /** @param array<int, int> $earnerCounts */
+    public function __construct(
+        public int $uniquePlayers,
+        public array $earnerCounts
+    ) {
+    }
+}
+
 final class RPCNChartPoint
 {
     public function __construct(
@@ -217,6 +249,200 @@ final class RPCNGamePageContext
     }
 }
 
+
+final class RPCNTrophyBreakdown
+{
+    public int $bronze = 0;
+    public int $silver = 0;
+    public int $gold = 0;
+    public int $platinum = 0;
+
+    public function add(string $type): void
+    {
+        switch (strtolower($type))
+        {
+            case 'bronze':
+                $this->bronze++;
+                break;
+            case 'silver':
+                $this->silver++;
+                break;
+            case 'gold':
+                $this->gold++;
+                break;
+            case 'platinum':
+                $this->platinum++;
+                break;
+        }
+    }
+
+    public function get(string $type): int
+    {
+        return match (strtolower($type)) {
+            'bronze' => $this->bronze,
+            'silver' => $this->silver,
+            'gold' => $this->gold,
+            'platinum' => $this->platinum,
+            default => 0,
+        };
+    }
+}
+
+final class RPCNProfileSummary
+{
+    public function __construct(
+        public int $games,
+        public int $earnedTrophies,
+        public int $totalTrophies,
+        public int $completedGames,
+        public int $earnedPoints,
+        public int $maxPoints,
+        public RPCNTrophyBreakdown $earnedByType
+    ) {
+    }
+}
+
+final class RPCNProfileEarnedTrophy
+{
+    public function __construct(
+        public int $id,
+        public int $earnedAt
+    ) {
+    }
+}
+
+final class RPCNProfileApiGame
+{
+    /** @var array<int, RPCNProfileEarnedTrophy> */
+    public array $earned = [];
+
+    public function __construct(public string $commId)
+    {
+    }
+
+    public function addEarned(RPCNProfileEarnedTrophy $trophy): void
+    {
+        $this->earned[$trophy->id] = $trophy;
+    }
+}
+
+final class RPCNLocalTrophy
+{
+    public function __construct(
+        public int $id,
+        public bool $hidden,
+        public string $type,
+        public string $name,
+        public string $detail
+    ) {
+    }
+}
+
+final class RPCNProfileGame
+{
+    public function __construct(
+        public string $commId,
+        public string $title,
+        public string $icon,
+        public int $earnedCount,
+        public int $totalCount,
+        public int $earnedPoints,
+        public int $maxPoints,
+        public float $completion,
+        public bool $completed,
+        public bool $hasMetadata,
+        public RPCNTrophyBreakdown $earnedByType
+    ) {
+    }
+}
+
+final class RPCNProfileRarity
+{
+    public function __construct(
+        public string $name,
+        public int $tier
+    ) {
+    }
+}
+
+final class RPCNProfileTrophy
+{
+    public function __construct(
+        public int $id,
+        public string $gameTitle,
+        public bool $hidden,
+        public bool $earned,
+        public string $type,
+        public string $name,
+        public string $detail,
+        public string $icon,
+        public int $points,
+        public string $earnedAtLabel,
+        public int $earnedAtUnix,
+        public int $earnerCount,
+        public ?float $percentage,
+        public string $rarity,
+        public int $rarityTier
+    ) {
+    }
+}
+
+final class RPCNProfileGameDetails
+{
+    /**
+     * @param list<RPCNProfileTrophy> $trophies
+     * @param list<string> $regions
+     */
+    public function __construct(
+        public RPCNProfileGame $game,
+        public int $uniquePlayers,
+        public array $trophies,
+        public array $regions
+    ) {
+    }
+}
+
+final class RPCNProfilePageContext
+{
+    /**
+     * @param list<RPCNProfileGame> $games
+     * @param list<RPCNProfileTrophy> $trophies
+     */
+    public function __construct(
+        public string $username,
+        public RPCNProfileSummary $summary,
+        public array $games,
+        public array $trophies,
+        public ?RPCNProfileGameDetails $selectedGame,
+        public string $sort,
+        public string $direction,
+        public bool $completedOnly,
+        public string $trophyFilter,
+        public string $trophyGrade,
+        public string $trophySort,
+        public string $trophyDirection,
+        public string $gameTrophyFilter,
+        public string $gameTrophyGrade,
+        public string $gameTrophySort,
+        public string $gameTrophyDirection,
+        public bool $notFound,
+        public bool $hasError,
+        public string $errorMessage,
+        public RPCNTrophyPoints $trophyPoints,
+        public string $defaultIcon,
+        public string $backgroundPic1,
+        public int $filteredGameCount,
+        public int $gamePage,
+        public int $gamePageCount,
+        public int $gamesPerPage,
+        public int $filteredTrophyCount,
+        public int $trophyPage,
+        public int $trophyPageCount,
+        public int $trophiesPerPage
+    ) {
+    }
+}
+
 final class RPCNConfig
 {
     /** @param list<RPCNRaritySetting> $trophiesRaritySettings */
@@ -251,6 +477,9 @@ final class RPCNConfig
         public string $trophiesSetsPath,
         public int $trophiesCacheTime,
         public bool $trophiesEnabled,
+        public RPCNTrophyPoints $trophyPoints,
+        public int $profileGamesPerPage,
+        public int $profileTrophiesPerPage,
         public array $trophiesRaritySettings
     ) {
     }

@@ -8,6 +8,7 @@ class RPCNStats
     private string $log_file;
     private string $api_url;
     private string $icons_json;
+    private string $iconBasePath;
     private string $cache;
     private int $apiCacheLifetime;
     private ?string $onlyCommId;
@@ -65,6 +66,7 @@ class RPCNStats
         $this->log_file = $config->logFile;
         $this->api_url = rtrim($config->apiUrl, '/') . '/usage';
         $this->icons_json = $config->iconsJson;
+        $this->iconBasePath = rtrim($config->iconBasePath, '/') . '/';
         $this->cache = rtrim($config->cache, '/') . '/usage.json';
         $this->apiCacheLifetime = max(60, $config->cacheTime);
         $this->onlyCommId = $onlyCommId;
@@ -439,11 +441,11 @@ class RPCNStats
                 $hash = $this->icons_db[$searchId] ?? null;
                 if ($hash === null) continue;
 
-                $tempUrl = "/cdn/rpcn/icon0/{$hash}.png";
+                $tempUrl = '/' . ltrim($this->iconBasePath . $hash . '.png', '/');
                 $documentRoot = isset($_SERVER['DOCUMENT_ROOT']) && is_string($_SERVER['DOCUMENT_ROOT'])
-                    ? $_SERVER['DOCUMENT_ROOT']
-                    : '';
-                if ($documentRoot !== '' && file_exists($documentRoot . $tempUrl))
+                    ? rtrim($_SERVER['DOCUMENT_ROOT'], '/')
+                    : dirname(__DIR__, 3);
+                if (file_exists($documentRoot . $tempUrl))
                 {
                     $this->title_icons[$commId] = $tempUrl;
                     break;
@@ -673,6 +675,11 @@ class RPCNStats
         }
     }
 
+    public function getGameIcon(string $commId, string $defaultIcon): string
+    {
+        return $this->resolveIcon($commId) ?? $defaultIcon;
+    }
+
     private function resolveIcon(string $commId): ?string
     {
         if (isset($this->title_icons[$commId])) return $this->title_icons[$commId];
@@ -683,11 +690,11 @@ class RPCNStats
             $hash = $this->icons_db[$searchId] ?? null;
             if ($hash === null) continue;
 
-            $tempUrl = "/cdn/rpcn/icon0/{$hash}.png";
+            $tempUrl = '/' . ltrim($this->iconBasePath . $hash . '.png', '/');
             $documentRoot = isset($_SERVER['DOCUMENT_ROOT']) && is_string($_SERVER['DOCUMENT_ROOT'])
-                ? $_SERVER['DOCUMENT_ROOT']
-                : '';
-            if ($documentRoot !== '' && file_exists($documentRoot . $tempUrl))
+                ? rtrim($_SERVER['DOCUMENT_ROOT'], '/')
+                : dirname(__DIR__, 3);
+            if (file_exists($documentRoot . $tempUrl))
             {
                 $this->title_icons[$commId] = $tempUrl;
                 return $tempUrl;
