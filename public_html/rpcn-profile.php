@@ -24,6 +24,16 @@ function rpcn_profile_url(string $username, array $params = [], string $fragment
     return $fragment !== '' ? $url . '#' . rawurlencode($fragment) : $url;
 }
 
+/**
+ * @param array<string, string> $params
+ * @return array<string, string>
+ */
+function rpcn_profile_with_language(RPCNProfilePageContext $context, array $params): array
+{
+    if ($context->language !== 'en') $params['lang'] = $context->language;
+    return $params;
+}
+
 function rpcn_profile_grade_icon(string $type): string
 {
     $safeType = in_array($type, ['bronze', 'silver', 'gold', 'platinum'], true) ? $type : 'unknown';
@@ -32,6 +42,42 @@ function rpcn_profile_grade_icon(string $type): string
     return '<span class="rpcn-profile-grade rpcn-profile-grade-' . $safeType . '" aria-hidden="true">'
         . '<img src="' . $iconPath . '" alt="">'
         . '</span>';
+}
+
+
+/** @param array<string, RPCNTrophyGroupDefinition> $groups */
+function rpcn_profile_trophy_group_label(string $groupId, array $groups): string
+{
+    if ($groupId === '' || $groupId === 'default') return 'Base Game';
+
+    $group = $groups[$groupId] ?? null;
+    if ($group !== null && $group->name !== '') return $group->name;
+
+    $number = (int)$groupId;
+    return $number > 0 ? 'DLC Pack ' . $number : 'DLC Pack';
+}
+
+/**
+ * @param list<RPCNProfileTrophy> $trophies
+ * @return array<string, list<RPCNProfileTrophy>>
+ */
+function rpcn_profile_group_trophies(array $trophies): array
+{
+    $groups = [];
+    foreach ($trophies as $trophy)
+    {
+        $groupId = $trophy->groupId === '' ? 'default' : $trophy->groupId;
+        if (!isset($groups[$groupId])) $groups[$groupId] = [];
+        $groups[$groupId][] = $trophy;
+    }
+
+    uksort($groups, static function (string $a, string $b): int {
+        if ($a === 'default') return $b === 'default' ? 0 : -1;
+        if ($b === 'default') return 1;
+        return strnatcasecmp($a, $b);
+    });
+
+    return $groups;
 }
 
 function rpcn_profile_sort_url(RPCNProfilePageContext $context, string $sort): string
@@ -43,6 +89,7 @@ function rpcn_profile_sort_url(RPCNProfilePageContext $context, string $sort): s
 
     $params = ['sort' => $sort, 'dir' => $direction];
     if ($context->completedOnly) $params['completed'] = '1';
+    $params = rpcn_profile_with_language($context, $params);
     return rpcn_profile_url($context->username, $params, 'games');
 }
 
@@ -55,7 +102,7 @@ function rpcn_profile_list_params(RPCNProfilePageContext $context): array
     ];
     if ($context->completedOnly) $params['completed'] = '1';
     if ($context->gamePage > 1) $params['page'] = (string)$context->gamePage;
-    return $params;
+    return rpcn_profile_with_language($context, $params);
 }
 
 function rpcn_profile_game_url(RPCNProfilePageContext $context, string $commId): string
@@ -73,18 +120,19 @@ function rpcn_profile_page_url(RPCNProfilePageContext $context, int $page): stri
         'page' => (string)max(1, $page),
     ];
     if ($context->completedOnly) $params['completed'] = '1';
+    $params = rpcn_profile_with_language($context, $params);
     return rpcn_profile_url($context->username, $params, 'games');
 }
 
 /** @return array<string, string> */
 function rpcn_profile_trophy_params(RPCNProfilePageContext $context): array
 {
-    return [
+    return rpcn_profile_with_language($context, [
         'trophies' => 'earned',
         'grade' => $context->trophyGrade,
         'tsort' => $context->trophySort,
         'tdir' => $context->trophyDirection,
-    ];
+    ]);
 }
 
 function rpcn_profile_trophy_grade_url(RPCNProfilePageContext $context, string $grade): string
@@ -236,15 +284,15 @@ $profileCompletion = $summary->totalTrophies > 0
             </div>
 
             <div class="rpcn-profile-stats">
-                <a class="rpcn-profile-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, [], 'games')) ?>">
+                <a class="rpcn-profile-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, rpcn_profile_with_language($pageContext, []), 'games')) ?>">
                     <span class="rpcn-profile-stat-label">Games</span>
                     <strong><?= number_format($summary->games) ?></strong>
                 </a>
-                <a class="rpcn-profile-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, ['trophies' => 'earned'])) ?>">
+                <a class="rpcn-profile-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, rpcn_profile_with_language($pageContext, ['trophies' => 'earned']))) ?>">
                     <span class="rpcn-profile-stat-label">Trophies Earned</span>
                     <strong><?= number_format($summary->earnedTrophies) ?></strong>
                 </a>
-                <a class="rpcn-profile-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, ['completed' => '1'], 'games')) ?>">
+                <a class="rpcn-profile-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, rpcn_profile_with_language($pageContext, ['completed' => '1']), 'games')) ?>">
                     <span class="rpcn-profile-stat-label">Completed Games</span>
                     <strong><?= number_format($summary->completedGames) ?></strong>
                 </a>
@@ -257,7 +305,7 @@ $profileCompletion = $summary->totalTrophies > 0
             <div class="rpcn-profile-grades">
                 <?php foreach (['platinum', 'gold', 'silver', 'bronze'] as $grade): ?>
                     <?php $gradeCount = $summary->earnedByType->get($grade); ?>
-                    <a class="rpcn-profile-grade-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, ['trophies' => 'earned', 'grade' => $grade])) ?>">
+                    <a class="rpcn-profile-grade-stat" href="<?= htmlspecialchars(rpcn_profile_url($username, rpcn_profile_with_language($pageContext, ['trophies' => 'earned', 'grade' => $grade]))) ?>">
                         <?= rpcn_profile_grade_icon($grade) ?>
                         <span>
                             <strong><?= number_format($gradeCount) ?></strong>
@@ -300,6 +348,19 @@ $profileCompletion = $summary->totalTrophies > 0
                 </div>
 
                 <div class="rpcn-profile-trophy-controls" aria-label="Filter and sort game trophies">
+                    <form class="rpcn-profile-language-form" method="get" action="rpcn-profile.php">
+                        <?php foreach (rpcn_profile_game_trophy_params($pageContext, $selectedGame->game->commId) as $key => $value): ?>
+                            <?php if ($key !== 'lang'): ?><input type="hidden" name="<?= htmlspecialchars($key) ?>" value="<?= htmlspecialchars($value) ?>"><?php endif; ?>
+                        <?php endforeach; ?>
+                        <input type="hidden" name="username" value="<?= htmlspecialchars($username) ?>">
+                        <label for="rpcn-profile-game-language">Language</label>
+                        <select id="rpcn-profile-game-language" name="lang">
+                            <?php foreach ($selectedGame->languages as $language): ?>
+                                <option value="<?= htmlspecialchars($language) ?>"<?= $pageContext->language === $language ? ' selected' : '' ?>><?= htmlspecialchars(RPCNLanguage::label($language)) ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                        <button type="submit">Apply</button>
+                    </form>
                     <div class="rpcn-profile-trophy-control-group">
                         <span class="rpcn-profile-trophy-control-label">Show</span>
                         <div class="rpcn-profile-trophy-control-options">
@@ -336,8 +397,28 @@ $profileCompletion = $summary->totalTrophies > 0
                 <?php if ($selectedGame->trophies === []): ?>
                     <div class="rpcn-profile-empty">No trophies found for these filters.</div>
                 <?php else: ?>
-                <div class="rpcn-profile-trophy-list">
-                    <?php foreach ($selectedGame->trophies as $trophy): ?>
+                <?php $gameTrophyGroups = rpcn_profile_group_trophies($selectedGame->trophies); ?>
+                <div class="rpcn-profile-trophy-groups">
+                    <?php foreach ($gameTrophyGroups as $groupId => $groupTrophies): ?>
+                        <?php
+                        $groupEarned = 0;
+                        foreach ($groupTrophies as $groupTrophy)
+                        {
+                            if ($groupTrophy->earned) $groupEarned++;
+                        }
+                        ?>
+                        <section class="rpcn-profile-trophy-group">
+                            <div class="rpcn-profile-trophy-group-heading">
+                                <h3><?= htmlspecialchars(rpcn_profile_trophy_group_label($groupId, $selectedGame->groups)) ?></h3>
+                                <?php if ($pageContext->gameTrophyFilter === 'all' && $pageContext->gameTrophyGrade === 'all'): ?>
+                                    <?php $groupDefinition = $selectedGame->groups[$groupId] ?? null; $groupTotal = $groupDefinition !== null ? $groupDefinition->definedTrophies->total() : count($groupTrophies); ?>
+                                    <span><?= number_format($groupEarned) ?> / <?= number_format($groupTotal) ?> earned</span>
+                                <?php else: ?>
+                                    <span><?= number_format(count($groupTrophies)) ?> shown</span>
+                                <?php endif; ?>
+                            </div>
+                            <div class="rpcn-profile-trophy-list">
+                    <?php foreach ($groupTrophies as $trophy): ?>
                         <?php if ($trophy->hidden): ?>
                             <details class="rpcn-profile-trophy rpcn-profile-trophy-hidden<?= $trophy->earned ? ' rpcn-profile-trophy-earned' : '' ?>">
                                 <summary>
@@ -357,6 +438,11 @@ $profileCompletion = $summary->totalTrophies > 0
                                     <div class="rpcn-profile-trophy-copy">
                                         <div class="rpcn-profile-trophy-title-row">
                                             <strong><?= htmlspecialchars($trophy->name) ?></strong>
+                                            <?php if ($trophy->onlineOnly): ?>
+                                                <span class="rpcn-profile-online-only" title="Online-only trophy" aria-label="Online-only trophy">
+                                                    <img src="/img/icons/compat/online.png" alt="" aria-hidden="true">
+                                                </span>
+                                            <?php endif; ?>
                                         </div>
                                         <p><?= htmlspecialchars($trophy->detail) ?></p>
                                         <div class="rpcn-profile-trophy-meta">
@@ -387,6 +473,11 @@ $profileCompletion = $summary->totalTrophies > 0
                                 <div class="rpcn-profile-trophy-copy">
                                     <div class="rpcn-profile-trophy-title-row">
                                         <strong><?= htmlspecialchars($trophy->name) ?></strong>
+                                            <?php if ($trophy->onlineOnly): ?>
+                                                <span class="rpcn-profile-online-only" title="Online-only trophy" aria-label="Online-only trophy">
+                                                    <img src="/img/icons/compat/online.png" alt="" aria-hidden="true">
+                                                </span>
+                                            <?php endif; ?>
                                     </div>
                                     <p><?= htmlspecialchars($trophy->detail) ?></p>
                                     <div class="rpcn-profile-trophy-meta">
@@ -408,6 +499,9 @@ $profileCompletion = $summary->totalTrophies > 0
                             </article>
                         <?php endif; ?>
                     <?php endforeach; ?>
+                            </div>
+                        </section>
+                    <?php endforeach; ?>
                 </div>
                 <?php endif; ?>
             </section>
@@ -428,6 +522,19 @@ $profileCompletion = $summary->totalTrophies > 0
                 </div>
 
                 <div class="rpcn-profile-trophy-controls rpcn-profile-trophy-controls-global" aria-label="Filter and sort earned trophies">
+                    <form class="rpcn-profile-language-form" method="get" action="rpcn-profile.php">
+                        <?php foreach (rpcn_profile_trophy_params($pageContext) as $key => $value): ?>
+                            <?php if ($key !== 'lang'): ?><input type="hidden" name="<?= htmlspecialchars($key) ?>" value="<?= htmlspecialchars($value) ?>"><?php endif; ?>
+                        <?php endforeach; ?>
+                        <input type="hidden" name="username" value="<?= htmlspecialchars($username) ?>">
+                        <label for="rpcn-profile-trophy-language">Language</label>
+                        <select id="rpcn-profile-trophy-language" name="lang">
+                            <?php foreach ($pageContext->availableLanguages as $language): ?>
+                                <option value="<?= htmlspecialchars($language) ?>"<?= $pageContext->language === $language ? ' selected' : '' ?>><?= htmlspecialchars(RPCNLanguage::label($language)) ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                        <button type="submit">Apply</button>
+                    </form>
                     <div class="rpcn-profile-trophy-control-group">
                         <span class="rpcn-profile-trophy-control-label">Grade</span>
                         <div class="rpcn-profile-trophy-control-options">
@@ -475,6 +582,11 @@ $profileCompletion = $summary->totalTrophies > 0
                                             <div class="rpcn-profile-trophy-title-row">
                                                 <?= rpcn_profile_grade_icon($trophy->type) ?>
                                                 <strong><?= htmlspecialchars($trophy->name) ?></strong>
+                                            <?php if ($trophy->onlineOnly): ?>
+                                                <span class="rpcn-profile-online-only" title="Online-only trophy" aria-label="Online-only trophy">
+                                                    <img src="/img/icons/compat/online.png" alt="" aria-hidden="true">
+                                                </span>
+                                            <?php endif; ?>
                                             </div>
                                             <p><?= htmlspecialchars($trophy->detail) ?></p>
                                             <div class="rpcn-profile-trophy-meta">
@@ -497,6 +609,11 @@ $profileCompletion = $summary->totalTrophies > 0
                                         <div class="rpcn-profile-trophy-title-row">
                                             <?= rpcn_profile_grade_icon($trophy->type) ?>
                                             <strong><?= htmlspecialchars($trophy->name) ?></strong>
+                                            <?php if ($trophy->onlineOnly): ?>
+                                                <span class="rpcn-profile-online-only" title="Online-only trophy" aria-label="Online-only trophy">
+                                                    <img src="/img/icons/compat/online.png" alt="" aria-hidden="true">
+                                                </span>
+                                            <?php endif; ?>
                                         </div>
                                         <p><?= htmlspecialchars($trophy->detail) ?></p>
                                         <div class="rpcn-profile-trophy-meta">
@@ -543,7 +660,7 @@ $profileCompletion = $summary->totalTrophies > 0
                         <?php endif; ?>
                     </div>
                     <?php if ($pageContext->completedOnly): ?>
-                        <a class="rpcn-profile-back" href="<?= htmlspecialchars(rpcn_profile_url($username, [], 'games')) ?>">Show all games</a>
+                        <a class="rpcn-profile-back" href="<?= htmlspecialchars(rpcn_profile_url($username, rpcn_profile_with_language($pageContext, []), 'games')) ?>">Show all games</a>
                     <?php endif; ?>
                 </div>
 
