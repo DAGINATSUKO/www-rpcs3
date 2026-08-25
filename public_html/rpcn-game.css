@@ -622,6 +622,38 @@ body::before {
 
 
 /*  Trophies */
+.rpcn-trophy-groups {
+    display:        flex;
+    flex-direction: column;
+    gap:            24px;
+}
+
+.rpcn-trophy-group { min-width: 0; }
+
+.rpcn-trophy-group-heading {
+    display:         flex;
+    align-items:     baseline;
+    justify-content: space-between;
+    gap:             16px;
+    margin:          0 2px 9px;
+    padding-bottom:  7px;
+    border-bottom:   1px solid var(--rpcn-border);
+}
+
+.rpcn-trophy-group-heading h3 {
+    margin:      0;
+    font-size:   .92rem;
+    font-weight: 700;
+    color:       var(--rpcn-text);
+}
+
+.rpcn-trophy-group-heading span {
+    font-size:   .76rem;
+    font-weight: 600;
+    color:       var(--rpcn-subtle);
+    white-space: nowrap;
+}
+
 .rpcn-trophy-list { display: flex; flex-direction: column; gap: 12px; }
 
 .rpcn-trophy-item {
@@ -655,15 +687,88 @@ body::before {
     gap:          8px;
 }
 
-.rpcn-trophy-hidden {
-    font-size:     .65rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.rpcn-trophy-online-only {
+    display:         inline-flex;
+    align-items:     center;
+    justify-content: center;
+    width:           24px;
+    height:          20px;
+    flex:            0 0 24px;
+    background:      rgba(66, 165, 245, .85);
+    border:          1px solid rgba(144, 202, 249, .9);
+    border-radius:   5px;
+}
+
+.rpcn-trophy-online-only img {
+    display:    block;
+    width:      16px;
+    height:     16px;
+    object-fit: contain;
+}
+
+.rpcn-trophy-item-hidden {
+    display: block;
+    padding: 0;
+    overflow: hidden;
+}
+
+.rpcn-trophy-hidden-summary {
+    display:     flex;
+    align-items: center;
+    gap:         14px;
+    min-height:  48px;
+    padding:     14px 16px;
+    cursor:      pointer;
+    list-style:  none;
+    user-select: none;
+}
+
+.rpcn-trophy-hidden-summary::-webkit-details-marker { display: none; }
+
+.rpcn-trophy-hidden-placeholder {
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    width:           48px;
+    height:          48px;
+    flex:            0 0 48px;
+    border-radius:   8px;
+    background:      var(--rpcn-accent-bg);
+    border:          1px solid var(--rpcn-border);
+}
+
+.rpcn-trophy-hidden-placeholder img {
+    display:    block;
+    width:      26px;
+    height:     26px;
+    object-fit: contain;
+    opacity:    .7;
+}
+
+.rpcn-trophy-hidden-copy {
+    display:        flex;
+    flex-direction: column;
+    gap:            3px;
+    min-width:      0;
     color:          var(--rpcn-subtle);
-    background:     var(--rpcn-accent-bg);
-    border:         1px solid var(--rpcn-accent-border);
-    padding:        1px 6px;
-    border-radius:  20px;
+}
+
+.rpcn-trophy-hidden-copy strong {
+    color:       var(--rpcn-text);
+    font-size:   .92rem;
+    font-weight: 700;
+}
+
+.rpcn-trophy-hidden-open { display: none; }
+.rpcn-trophy-item-hidden[open] .rpcn-trophy-hidden-closed { display: none; }
+.rpcn-trophy-item-hidden[open] .rpcn-trophy-hidden-open { display: inline; }
+
+.rpcn-trophy-hidden-content {
+    display:     flex;
+    align-items: flex-start;
+    gap:         14px;
+    padding:     14px 16px;
+    border-top:  1px solid var(--rpcn-border);
 }
 
 .rpcn-trophy-desc {
@@ -708,6 +813,8 @@ body::before {
 @media (max-width: 640px) {
     .rpcn-game { flex-direction: column; }
     .rpcn-chart-wrap { padding-left: 0; padding-right: 0; }
+    .rpcn-trophy-group-heading { align-items: center; }
+    .rpcn-trophy-hidden-content { align-items: flex-start; }
     .rpcn-svg-chart { height: 280px; }
     .rpcn-chart-summary { justify-content: flex-start; padding-left: 46px; gap: 8px 12px; }
     .rpcn-game-icon,
@@ -717,4 +824,50 @@ body::before {
 
 @media (max-width: 480px) {
     .rpcn-stats-grid { grid-template-columns: 1fr; }
+}
+
+/* Trophy language selector */
+.rpcn-trophy-language-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7px;
+    margin: 0 0 14px;
+}
+.rpcn-trophy-language-form label {
+    font-size: .76rem;
+    font-weight: 600;
+    color: var(--rpcn-subtle);
+}
+.rpcn-trophy-language-form select,
+.rpcn-trophy-language-form button {
+    min-height: 30px;
+    border: 1px solid var(--rpcn-border);
+    border-radius: var(--rpcn-radius-sm);
+    background: var(--rpcn-surface);
+    color: var(--rpcn-text);
+    font: inherit;
+    font-size: .78rem;
+}
+.rpcn-trophy-language-form select {
+    min-width: 126px;
+    padding: 4px 28px 4px 9px;
+}
+.rpcn-trophy-language-form option {
+    background: #222;
+    color: #fff;
+}
+.rpcn-trophy-language-form button {
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.rpcn-trophy-language-form button:hover {
+    border-color: var(--rpcn-accent-border);
+    color: var(--rpcn-accent);
+}
+@media (max-width: 640px) {
+    .rpcn-trophy-language-form {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
 }

@@ -18,6 +18,39 @@ final class RPCNValue
         return $default;
     }
 
+    public static function localizedString(mixed $value, string $language, string $default = ''): string
+    {
+        if (is_string($value)) return $value;
+        if (!is_array($value)) return $default;
+
+        $localized = $value[$language] ?? null;
+        if (is_string($localized) && $localized !== '') return $localized;
+
+        $english = $value['en'] ?? null;
+        if (is_string($english) && $english !== '') return $english;
+
+        foreach ($value as $candidate)
+        {
+            if (is_string($candidate) && $candidate !== '') return $candidate;
+        }
+
+        return $default;
+    }
+
+    /** @return list<string> */
+    public static function stringList(mixed $value): array
+    {
+        if (!is_array($value)) return [];
+
+        $result = [];
+        foreach ($value as $entry)
+        {
+            if (!is_string($entry) || $entry === '' || in_array($entry, $result, true)) continue;
+            $result[] = $entry;
+        }
+        return $result;
+    }
+
     public static function bool(mixed $value, bool $default = false): bool
     {
         return is_bool($value) ? $value : $default;
@@ -25,6 +58,66 @@ final class RPCNValue
 
 }
 
+
+final class RPCNLanguage
+{
+    /** @var array<string, string> */
+    private const LABELS = [
+        'en' => 'English',
+        'en-gb' => 'English (UK)',
+        'jp' => 'Japanese',
+        'pl' => 'Polish',
+        'de' => 'German',
+        'fr' => 'French',
+        'es' => 'Spanish',
+        'it' => 'Italian',
+        'nl' => 'Dutch',
+        'pt' => 'Portuguese',
+        'pt-br' => 'Portuguese (Brazil)',
+        'ru' => 'Russian',
+        'ko' => 'Korean',
+        'sv' => 'Swedish',
+        'da' => 'Danish',
+        'no' => 'Norwegian',
+        'fi' => 'Finnish',
+        'ar' => 'Arabic',
+        'tr' => 'Turkish',
+    ];
+
+    public static function normalize(mixed $value): string
+    {
+        if (!is_string($value)) return 'en';
+        $value = strtolower(trim($value));
+        return preg_match('/^[a-z]{2}(?:-[a-z]{2})?$/', $value) === 1 ? $value : 'en';
+    }
+
+    public static function label(string $language): string
+    {
+        return self::LABELS[$language] ?? strtoupper($language);
+    }
+
+    /**
+     * @param list<string> $languages
+     * @return list<string>
+     */
+    public static function ordered(array $languages): array
+    {
+        $unique = [];
+        foreach ($languages as $language)
+        {
+            $language = self::normalize($language);
+            $unique[$language] = true;
+        }
+        $unique['en'] = true;
+        $result = array_keys($unique);
+        usort($result, static function (string $a, string $b): int {
+            if ($a === 'en') return $b === 'en' ? 0 : -1;
+            if ($b === 'en') return 1;
+            return strnatcasecmp(self::label($a), self::label($b));
+        });
+        return $result;
+    }
+}
 
 final class RPCNParserConfig
 {
@@ -136,7 +229,9 @@ final class RPCNTrophy
         public float $percentage,
         public string $rarity,
         public string $rarityColor,
-        public string $icon
+        public string $icon,
+        public string $groupId,
+        public bool $onlineOnly
     ) {
     }
 }
@@ -252,10 +347,45 @@ final class RPCNGamePageContext
 
 final class RPCNTrophyBreakdown
 {
-    public int $bronze = 0;
-    public int $silver = 0;
-    public int $gold = 0;
-    public int $platinum = 0;
+    public function __construct(
+        public int $bronze = 0,
+        public int $silver = 0,
+        public int $gold = 0,
+        public int $platinum = 0
+    ) {
+    }
+
+    public static function fromDefinedTrophies(mixed $value): ?self
+    {
+        if (!is_array($value)) return null;
+        if (!array_key_exists('bronze', $value)
+            && !array_key_exists('silver', $value)
+            && !array_key_exists('gold', $value)
+            && !array_key_exists('platinum', $value))
+        {
+            return null;
+        }
+
+        return new self(
+            max(0, RPCNValue::int($value['bronze'] ?? null)),
+            max(0, RPCNValue::int($value['silver'] ?? null)),
+            max(0, RPCNValue::int($value['gold'] ?? null)),
+            max(0, RPCNValue::int($value['platinum'] ?? null))
+        );
+    }
+
+    public function total(): int
+    {
+        return $this->bronze + $this->silver + $this->gold + $this->platinum;
+    }
+
+    public function points(RPCNTrophyPoints $points): int
+    {
+        return ($this->bronze * $points->bronze)
+            + ($this->silver * $points->silver)
+            + ($this->gold * $points->gold)
+            + ($this->platinum * $points->platinum);
+    }
 
     public function add(string $type): void
     {
@@ -333,8 +463,112 @@ final class RPCNLocalTrophy
         public bool $hidden,
         public string $type,
         public string $name,
-        public string $detail
+        public string $detail,
+        public string $groupId,
+        public bool $onlineOnly
     ) {
+    }
+}
+
+final class RPCNTrophyGroupDefinition
+{
+    public function __construct(
+        public string $id,
+        public string $name,
+        public RPCNTrophyBreakdown $definedTrophies
+    ) {
+    }
+}
+
+final class RPCNLocalTrophySet
+{
+    /**
+     * @param list<RPCNLocalTrophy> $trophies
+     * @param list<string> $languages
+     * @param array<string, RPCNTrophyGroupDefinition> $groups
+     */
+    public function __construct(
+        public array $trophies,
+        public array $languages,
+        public array $groups,
+        public RPCNTrophyBreakdown $definedTrophies,
+        public int $totalItemCount
+    ) {
+    }
+}
+
+final class RPCNTrophySetParser
+{
+    public static function parse(mixed $decoded, string $language): ?RPCNLocalTrophySet
+    {
+        if (!is_array($decoded)) return null;
+
+        $language = RPCNLanguage::normalize($language);
+        $languages = RPCNLanguage::ordered(RPCNValue::stringList($decoded['languages'] ?? []));
+        $rawTrophies = $decoded['trophies'] ?? null;
+        if (!is_array($rawTrophies)) return null;
+
+        $trophies = [];
+        $fallbackDefined = new RPCNTrophyBreakdown();
+        /** @var array<string, RPCNTrophyBreakdown> $fallbackGroupDefined */
+        $fallbackGroupDefined = [];
+
+        foreach ($rawTrophies as $rawTrophy)
+        {
+            if (!is_array($rawTrophy)) continue;
+            $id = RPCNValue::int($rawTrophy['trophyId'] ?? null, -1);
+            if ($id < 0) continue;
+
+            $type = strtolower(RPCNValue::string($rawTrophy['trophyType'] ?? null, 'unknown'));
+            $groupId = RPCNValue::string($rawTrophy['trophyGroupId'] ?? null, 'default');
+            if ($groupId === '') $groupId = 'default';
+
+            $trophies[] = new RPCNLocalTrophy(
+                $id,
+                RPCNValue::bool($rawTrophy['trophyHidden'] ?? null),
+                $type,
+                RPCNValue::localizedString($rawTrophy['name'] ?? ($rawTrophy['trophyName'] ?? null), $language, 'Unknown Trophy'),
+                RPCNValue::localizedString($rawTrophy['detail'] ?? ($rawTrophy['trophyDetail'] ?? null), $language),
+                $groupId,
+                RPCNValue::bool($rawTrophy['onlineOnly'] ?? null)
+            );
+
+            $fallbackDefined->add($type);
+            if (!isset($fallbackGroupDefined[$groupId])) $fallbackGroupDefined[$groupId] = new RPCNTrophyBreakdown();
+            $fallbackGroupDefined[$groupId]->add($type);
+        }
+
+        $definedTrophies = RPCNTrophyBreakdown::fromDefinedTrophies($decoded['definedTrophies'] ?? null) ?? $fallbackDefined;
+
+        /** @var array<string, RPCNTrophyGroupDefinition> $groups */
+        $groups = [];
+        $rawGroups = $decoded['trophyGroups'] ?? [];
+        if (is_array($rawGroups))
+        {
+            foreach ($rawGroups as $rawGroup)
+            {
+                if (!is_array($rawGroup)) continue;
+                $groupId = RPCNValue::string($rawGroup['trophyGroupId'] ?? null, 'default');
+                if ($groupId === '') $groupId = 'default';
+                $fallbackName = $groupId === 'default' ? 'Base Game' : 'DLC Pack ' . max(1, (int)$groupId);
+                $groupName = RPCNValue::localizedString($rawGroup['name'] ?? null, $language, $fallbackName);
+                $groupDefined = RPCNTrophyBreakdown::fromDefinedTrophies($rawGroup['definedTrophies'] ?? null)
+                    ?? ($fallbackGroupDefined[$groupId] ?? new RPCNTrophyBreakdown());
+                $groups[$groupId] = new RPCNTrophyGroupDefinition($groupId, $groupName, $groupDefined);
+            }
+        }
+
+        foreach ($fallbackGroupDefined as $groupId => $groupDefined)
+        {
+            if (isset($groups[$groupId])) continue;
+            $fallbackName = $groupId === 'default' ? 'Base Game' : 'DLC Pack ' . max(1, (int)$groupId);
+            $groups[$groupId] = new RPCNTrophyGroupDefinition($groupId, $fallbackName, $groupDefined);
+        }
+
+        $totalItemCount = max(0, RPCNValue::int($decoded['totalItemCount'] ?? null, $definedTrophies->total()));
+        if ($totalItemCount === 0 && $trophies !== []) $totalItemCount = count($trophies);
+
+        return new RPCNLocalTrophySet($trophies, $languages, $groups, $definedTrophies, $totalItemCount);
     }
 }
 
@@ -375,6 +609,8 @@ final class RPCNProfileTrophy
         public string $type,
         public string $name,
         public string $detail,
+        public string $groupId,
+        public bool $onlineOnly,
         public string $icon,
         public int $points,
         public string $earnedAtLabel,
@@ -392,12 +628,16 @@ final class RPCNProfileGameDetails
     /**
      * @param list<RPCNProfileTrophy> $trophies
      * @param list<string> $regions
+     * @param array<string, RPCNTrophyGroupDefinition> $groups
+     * @param list<string> $languages
      */
     public function __construct(
         public RPCNProfileGame $game,
         public int $uniquePlayers,
         public array $trophies,
-        public array $regions
+        public array $regions,
+        public array $groups,
+        public array $languages
     ) {
     }
 }
@@ -407,6 +647,7 @@ final class RPCNProfilePageContext
     /**
      * @param list<RPCNProfileGame> $games
      * @param list<RPCNProfileTrophy> $trophies
+     * @param list<string> $availableLanguages
      */
     public function __construct(
         public string $username,
@@ -425,6 +666,8 @@ final class RPCNProfilePageContext
         public string $gameTrophyGrade,
         public string $gameTrophySort,
         public string $gameTrophyDirection,
+        public string $language,
+        public array $availableLanguages,
         public bool $notFound,
         public bool $hasError,
         public string $errorMessage,

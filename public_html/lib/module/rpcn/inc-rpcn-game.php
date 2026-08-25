@@ -68,6 +68,15 @@ class RPCNGame
     /** @var list<RPCNTrophy> */
     public array $trophies = [];
 
+    /** @var list<string> */
+    public array $trophyLanguages = ['en'];
+
+    /** @var array<string, RPCNTrophyGroupDefinition> */
+    public array $trophyGroups = [];
+
+    public RPCNTrophyBreakdown $definedTrophies;
+    public string $trophyLanguage = 'en';
+
     public function __construct(RPCNConfig $config)
     {
         $this->cacheDir = rtrim($config->cache, '/') . '/';
@@ -91,6 +100,7 @@ class RPCNGame
         $this->trophiesCacheTime = $config->trophiesCacheTime;
         $this->trophiesEnabled = $config->trophiesEnabled;
         $this->raritySettings = $config->trophiesRaritySettings;
+        $this->definedTrophies = new RPCNTrophyBreakdown();
     }
 
     private function log_error(string $message): void
@@ -196,24 +206,40 @@ class RPCNGame
         return '';
     }
 
-    private function loadTrophies(string $commId, bool $loadDetails): void
+    private function loadTrophies(string $commId, bool $loadDetails, string $language): void
     {
         $localFile = $this->trophiesSetsPath . $commId . '.json';
         if (!file_exists($localFile)) return;
 
         $localRaw = @file_get_contents($localFile);
         if ($localRaw === false) return;
-        $localData = json_decode($localRaw, true);
-        if (!is_array($localData) || !isset($localData['trophies']) || !is_array($localData['trophies']) || $localData['trophies'] === []) return;
 
-        $this->hasTrophies   = true;
-        $this->totalTrophies = RPCNValue::int($localData['totalItemCount'] ?? null, count($localData['trophies']));
+        try
+        {
+            $localData = json_decode($localRaw, true, 512, JSON_THROW_ON_ERROR);
+        }
+        catch (JsonException $e)
+        {
+            $this->log_error("Invalid trophy set {$commId}: " . $e->getMessage());
+            return;
+        }
+
+        $language = RPCNLanguage::normalize($language);
+        $trophySet = RPCNTrophySetParser::parse($localData, $language);
+        if ($trophySet === null || $trophySet->trophies === []) return;
+
+        $this->hasTrophies = true;
+        $this->totalTrophies = $trophySet->totalItemCount;
+        $this->definedTrophies = $trophySet->definedTrophies;
+        $this->trophyLanguages = $trophySet->languages;
+        $this->trophyGroups = $trophySet->groups;
+        $this->trophyLanguage = $language;
 
         if (!$loadDetails) return;
 
         $cacheFile = $this->cacheDir . "trophies_{$commId}.json";
-        $url       = $this->apiBase . "/trophy/" . rawurlencode($commId);
-        $json      = $this->fetch_api($url, $cacheFile, $this->trophiesCacheTime);
+        $url = $this->apiBase . "/trophy/" . rawurlencode($commId);
+        $json = $this->fetch_api($url, $cacheFile, $this->trophiesCacheTime);
         if ($json === '') return;
 
         $apiData = json_decode($json, true);
@@ -261,43 +287,41 @@ class RPCNGame
             }
         }
 
-        foreach ($localData['trophies'] as $t)
+        foreach ($trophySet->trophies as $trophy)
         {
-            if (!is_array($t)) continue;
-            $trophyId = RPCNValue::int($t['trophyId'] ?? null, -1);
-            if ($trophyId < 0) continue;
+            $iconHash = $iconMap[$trophy->id] ?? '';
+            $iconUrl = $iconHash !== '' ? $this->trophiesIconBasePath . $iconHash . '.png' : $this->defaultIcon;
 
-            $iconHash = $iconMap[$trophyId] ?? '';
-            $iconUrl  = $iconHash !== '' ? $this->trophiesIconBasePath . $iconHash . '.png' : $this->defaultIcon;
-
-            $earnerCount = $earnerMap[$trophyId] ?? 0;
+            $earnerCount = $earnerMap[$trophy->id] ?? 0;
             $pct = ($uniquePlayers > 0)
                 ? round($earnerCount / $uniquePlayers * 100, 2)
                 : 0.0;
 
-            $rarity      = 'Common';
+            $rarity = 'Common';
             $rarityColor = '#a0aec0';
             foreach ($this->raritySettings as $setting)
             {
                 if (($pct == 0.0 && $setting->maxPct == 0.0) || ($pct > 0.0 && $pct <= $setting->maxPct))
                 {
-                    $rarity      = $setting->name;
+                    $rarity = $setting->name;
                     $rarityColor = $setting->color;
                     break;
                 }
             }
 
             $this->trophies[] = new RPCNTrophy(
-                $trophyId,
-                RPCNValue::bool($t['trophyHidden'] ?? null),
-                RPCNValue::string($t['trophyType'] ?? null, 'unknown'),
-                RPCNValue::string($t['trophyName'] ?? null, 'Unknown'),
-                RPCNValue::string($t['trophyDetail'] ?? null),
+                $trophy->id,
+                $trophy->hidden,
+                $trophy->type,
+                $trophy->name,
+                $trophy->detail,
                 $earnerCount,
                 $pct,
                 $rarity,
                 $rarityColor,
-                $iconUrl
+                $iconUrl,
+                $trophy->groupId,
+                $trophy->onlineOnly
             );
         }
     }
@@ -515,7 +539,7 @@ class RPCNGame
         return true;
     }
 
-    public function load_page_data(string $commId, RPCNStats $stats, ?mysqli $db, bool $loadTrophyDetails = false): void
+    public function load_page_data(string $commId, RPCNStats $stats, ?mysqli $db, bool $loadTrophyDetails = false, string $trophyLanguage = 'en'): void
     {
         $this->gameTitle    = $stats->app_title[$commId] ?? 'Unknown Game';
         $this->regions      = $stats->title_regions[$commId] ?? [];
@@ -597,7 +621,7 @@ class RPCNGame
 
         if ($this->trophiesEnabled)
         {
-            $this->loadTrophies($commId, $loadTrophyDetails);
+            $this->loadTrophies($commId, $loadTrophyDetails, $trophyLanguage);
         }
 
         if ($this->loadPageStatsCache($commId)) return;
@@ -888,6 +912,8 @@ $rpcnStats = new RPCNStats(
 $tabParam = $_GET['tab'] ?? '';
 $loadTrophyDetails = $rpcnConfig->trophiesEnabled && is_string($tabParam) && $tabParam === 'trophies';
 
+$trophyLanguage = RPCNLanguage::normalize($_GET['lang'] ?? 'en');
+
 mysqli_report(MYSQLI_REPORT_OFF);
 $mysqli = null;
 $db = mysqli_init();
@@ -908,7 +934,7 @@ if ($db instanceof mysqli)
     }
 }
 
-$rpcnGame->load_page_data($commId, $rpcnStats, $mysqli, $loadTrophyDetails);
+$rpcnGame->load_page_data($commId, $rpcnStats, $mysqli, $loadTrophyDetails, $trophyLanguage);
 if ($mysqli instanceof mysqli) $mysqli->close();
 
 $pageContext = new RPCNGamePageContext(

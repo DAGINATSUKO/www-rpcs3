@@ -43,6 +43,12 @@ final class RPCNProfile
     /** @var array<string, RPCNProfileGame> */
     private array $gamesByCommId = [];
 
+    /** @var array<string, RPCNLocalTrophySet> */
+    private array $trophySetCache = [];
+
+    /** @var array<string, true> */
+    private array $availableLanguageMap = ['en' => true];
+
     public bool $notFound = false;
     public bool $hasError = false;
     public string $errorMessage = '';
@@ -220,13 +226,17 @@ final class RPCNProfile
         return true;
     }
 
-    /** @return list<RPCNLocalTrophy> */
-    private function loadTrophySet(string $commId): array
+    private function loadTrophySet(string $commId, string $language): ?RPCNLocalTrophySet
     {
-        if (!self::isSafeCommId($commId)) return [];
+        if (!self::isSafeCommId($commId)) return null;
+
+        $language = RPCNLanguage::normalize($language);
+        $cacheKey = $commId . '|' . $language;
+        if (isset($this->trophySetCache[$cacheKey])) return $this->trophySetCache[$cacheKey];
+
         $path = $this->trophiesSetsPath . $commId . '.json';
         $raw = $this->readFile($path);
-        if ($raw === null) return [];
+        if ($raw === null) return null;
 
         try
         {
@@ -235,30 +245,19 @@ final class RPCNProfile
         catch (JsonException $e)
         {
             $this->logError("Invalid trophy set {$commId}: " . $e->getMessage());
-            return [];
+            return null;
         }
 
-        if (!is_array($decoded)) return [];
-        $rawTrophies = $decoded['trophies'] ?? null;
-        if (!is_array($rawTrophies)) return [];
+        $set = RPCNTrophySetParser::parse($decoded, $language);
+        if ($set === null) return null;
 
-        $trophies = [];
-        foreach ($rawTrophies as $rawTrophy)
+        foreach ($set->languages as $availableLanguage)
         {
-            if (!is_array($rawTrophy)) continue;
-            $id = RPCNValue::int($rawTrophy['trophyId'] ?? null, -1);
-            if ($id < 0) continue;
-
-            $trophies[] = new RPCNLocalTrophy(
-                $id,
-                RPCNValue::bool($rawTrophy['trophyHidden'] ?? null),
-                strtolower(RPCNValue::string($rawTrophy['trophyType'] ?? null, 'unknown')),
-                RPCNValue::string($rawTrophy['trophyName'] ?? null, 'Unknown Trophy'),
-                RPCNValue::string($rawTrophy['trophyDetail'] ?? null)
-            );
+            $this->availableLanguageMap[$availableLanguage] = true;
         }
 
-        return $trophies;
+        $this->trophySetCache[$cacheKey] = $set;
+        return $set;
     }
 
     private function loadTrophyIconMap(): void
@@ -467,23 +466,25 @@ final class RPCNProfile
     }
 
     /** @return list<RPCNProfileGame> */
-    private function buildGames(): array
+    private function buildGames(string $language): array
     {
         $games = [];
         foreach ($this->apiGames as $commId => $apiGame)
         {
-            $localTrophies = $this->loadTrophySet($commId);
-            $hasMetadata = $localTrophies !== [];
-            $totalCount = count($localTrophies);
+            $trophySet = $this->loadTrophySet($commId, $language);
+            $localTrophies = $trophySet->trophies ?? [];
+            $hasMetadata = $trophySet !== null;
+            $totalCount = $trophySet->totalItemCount ?? count($localTrophies);
             $earnedCount = count($apiGame->earned);
             $earnedPoints = 0;
-            $maxPoints = 0;
+            $maxPoints = $trophySet !== null
+                ? $trophySet->definedTrophies->points($this->config->trophyPoints)
+                : 0;
             $earnedByType = new RPCNTrophyBreakdown();
 
             foreach ($localTrophies as $localTrophy)
             {
                 $points = $this->trophyPoints($localTrophy->type);
-                $maxPoints += $points;
                 if (isset($apiGame->earned[$localTrophy->id]))
                 {
                     $earnedPoints += $points;
@@ -595,6 +596,8 @@ final class RPCNProfile
             $local->type,
             $local->name,
             $local->detail,
+            $local->groupId,
+            $local->onlineOnly,
             $this->trophyIcon($game->commId, $local->id),
             $this->trophyPoints($local->type),
             self::formatEarnedAt($earnedAt),
@@ -618,7 +621,7 @@ final class RPCNProfile
     }
 
     /** @return list<RPCNProfileTrophy> */
-    private function buildTrophies(string $gradeFilter, string $sort, string $direction): array
+    private function buildTrophies(string $gradeFilter, string $sort, string $direction, string $language): array
     {
         $result = [];
         foreach ($this->gamesByCommId as $game)
@@ -626,7 +629,10 @@ final class RPCNProfile
             $apiGame = $this->apiGames[$game->commId] ?? null;
             if ($apiGame === null) continue;
 
-            foreach ($this->loadTrophySet($game->commId) as $local)
+            $trophySet = $this->loadTrophySet($game->commId, $language);
+            if ($trophySet === null) continue;
+
+            foreach ($trophySet->trophies as $local)
             {
                 $earned = $apiGame->earned[$local->id] ?? null;
                 if ($earned === null) continue;
@@ -701,7 +707,8 @@ final class RPCNProfile
         string $statusFilter,
         string $gradeFilter,
         string $sort,
-        string $direction
+        string $direction,
+        string $language
     ): ?RPCNProfileGameDetails {
         $game = $this->gamesByCommId[$commId] ?? null;
         if ($game === null) return null;
@@ -711,8 +718,10 @@ final class RPCNProfile
 
         $stats = $this->loadTrophyStats($game->commId);
         $trophies = [];
+        $trophySet = $this->loadTrophySet($game->commId, $language);
+        if ($trophySet === null) return null;
 
-        foreach ($this->loadTrophySet($game->commId) as $local)
+        foreach ($trophySet->trophies as $local)
         {
             $earnerCount = $stats->earnerCounts[$local->id] ?? 0;
             $percentage = $stats->uniquePlayers > 0
@@ -734,7 +743,9 @@ final class RPCNProfile
             $game,
             $stats->uniquePlayers,
             self::filterAndSortGameTrophies($trophies, $statusFilter, $gradeFilter, $sort, $direction),
-            $regions
+            $regions,
+            $trophySet->groups,
+            $trophySet->languages
         );
     }
 
@@ -752,8 +763,10 @@ final class RPCNProfile
         string $gameTrophyDirection,
         string $gameCommId,
         int $gamePage,
-        int $trophyPage
+        int $trophyPage,
+        string $language
     ): RPCNProfilePageContext {
+        $language = RPCNLanguage::normalize($language);
         if (!$this->loadUserApi())
         {
             return new RPCNProfilePageContext(
@@ -773,6 +786,8 @@ final class RPCNProfile
                 $gameTrophyGrade,
                 $gameTrophySort,
                 $gameTrophyDirection,
+                $language,
+                ['en'],
                 $this->notFound,
                 $this->hasError,
                 $this->errorMessage,
@@ -790,14 +805,15 @@ final class RPCNProfile
             );
         }
 
-        $games = $this->buildGames();
+        $games = $this->buildGames($language);
+        if (!isset($this->availableLanguageMap[$language])) $language = 'en';
         $summary = self::buildSummary($games);
         $backgroundPic1 = $this->selectBackgroundPic1($games);
         $selectedGame = $gameCommId !== ''
-            ? $this->buildSelectedGame($gameCommId, $gameTrophyFilter, $gameTrophyGrade, $gameTrophySort, $gameTrophyDirection)
+            ? $this->buildSelectedGame($gameCommId, $gameTrophyFilter, $gameTrophyGrade, $gameTrophySort, $gameTrophyDirection, $language)
             : null;
         $allFilteredTrophies = $trophyFilter !== ''
-            ? $this->buildTrophies($trophyGrade, $trophySort, $trophyDirection)
+            ? $this->buildTrophies($trophyGrade, $trophySort, $trophyDirection, $language)
             : [];
         $sortedGames = self::sortGames($games, $sort, $direction, $completedOnly);
 
@@ -832,6 +848,8 @@ final class RPCNProfile
             $gameTrophyGrade,
             $gameTrophySort,
             $gameTrophyDirection,
+            $language,
+            RPCNLanguage::ordered(RPCNValue::stringList(array_keys($this->availableLanguageMap))),
             false,
             false,
             '',
@@ -917,6 +935,8 @@ $gameCommId = is_string($gameParam) && preg_match('/^[A-Z0-9_]{1,32}$/', $gamePa
 $gamePage = max(1, RPCNValue::int($_GET['page'] ?? 1, 1));
 $trophyPage = max(1, RPCNValue::int($_GET['tpage'] ?? 1, 1));
 
+$language = RPCNLanguage::normalize($_GET['lang'] ?? 'en');
+
 $stats = new RPCNStats($rpcnConfig, null, false);
 $profile = new RPCNProfile($rpcnConfig, $stats, $username);
 return $profile->buildContext(
@@ -933,5 +953,6 @@ return $profile->buildContext(
     $gameTrophyDirection,
     $gameCommId,
     $gamePage,
-    $trophyPage
+    $trophyPage,
+    $language
 );

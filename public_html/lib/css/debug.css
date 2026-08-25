@@ -1136,6 +1136,35 @@ a.rpcn-profile-stat:hover {
 	font-size: 17px;
 	font-weight: normal;
 }
+.rpcn-profile-trophy-groups {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+.rpcn-profile-trophy-group {
+	min-width: 0;
+}
+.rpcn-profile-trophy-group-heading {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 12px;
+	margin: 0 2px 7px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid var(--rpcn-profile-border);
+}
+.rpcn-profile-trophy-group-heading h3 {
+	margin: 0;
+	font-family: Roboto-Bold, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+}
+.rpcn-profile-trophy-group-heading span {
+	font-size: 10px;
+	color: var(--rpcn-profile-muted);
+	white-space: nowrap;
+}
 .rpcn-profile-trophy-list {
 	display: flex;
 	flex-direction: column;
@@ -1154,8 +1183,17 @@ a.rpcn-profile-stat:hover {
 	color: rgb(255 255 255 / 58%);
 }
 .rpcn-profile-trophy-earned {
-	background: var(--rpcn-profile-surface);
+	background-color: rgb(76 175 80 / 8%);
+	border-color: rgb(76 175 80 / 28%);
 	color: #fff;
+}
+.rpcn-profile-trophy-earned .rpcn-profile-trophy-meta span {
+	color: #81c784;
+	font-family: Roboto-Bold, sans-serif;
+}
+.rpcn-profile-trophy-earned > summary .rpcn-profile-hidden-copy small {
+	color: #81c784;
+	font-family: Roboto-Bold, sans-serif;
 }
 .rpcn-profile-trophy-icon {
 	display: block;
@@ -1180,6 +1218,25 @@ a.rpcn-profile-stat:hover {
 	font-size: 15px;
 	font-weight: normal;
 	color: inherit;
+}
+
+.rpcn-profile-online-only {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 20px;
+	flex: 0 0 24px;
+	margin-left: 2px;
+	background: rgba(66, 165, 245, 0.85);
+	border: 1px solid rgba(144, 202, 249, 0.9);
+	border-radius: 5px;
+}
+.rpcn-profile-online-only img {
+	display: block;
+	width: 16px;
+	height: 16px;
+	object-fit: contain;
 }
 .rpcn-profile-trophy-title-row .rpcn-profile-grade {
 	width: 22px;
@@ -1631,5 +1688,66 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 	.rpcn-profile-trophy-control-count {
 		grid-column: 2;
 		margin: 2px 0 0;
+	}
+}
+
+/* RPCN trophy language selector */
+.rpcn-profile-language-form {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding-right: 8px;
+	border-right: 1px solid rgb(255 255 255 / 8%);
+}
+.rpcn-profile-language-form label {
+	padding: 0 4px;
+	font-family: Roboto-Bold, sans-serif;
+	font-size: 10px;
+	letter-spacing: .45px;
+	text-transform: uppercase;
+	color: var(--rpcn-profile-muted);
+}
+.rpcn-profile-language-form select,
+.rpcn-profile-language-form button {
+	height: 27px;
+	border: 1px solid rgb(255 255 255 / 10%);
+	border-radius: 6px;
+	background: rgb(255 255 255 / 5%);
+	color: rgb(255 255 255 / 82%);
+	font: inherit;
+	font-size: 11px;
+}
+.rpcn-profile-language-form select {
+	min-width: 112px;
+	padding: 0 24px 0 8px;
+}
+.rpcn-profile-language-form option {
+	background: #222;
+	color: #fff;
+}
+.rpcn-profile-language-form button {
+	padding: 0 9px;
+	cursor: pointer;
+}
+.rpcn-profile-language-form button:hover {
+	border-color: rgb(104 109 224 / 38%);
+	background: rgb(104 109 224 / 14%);
+	color: #fff;
+}
+@media screen and (max-width: 760px) {
+	.rpcn-profile-language-form {
+		display: grid;
+		grid-template-columns: 58px minmax(0, 1fr) auto;
+		gap: 6px;
+		padding: 7px 8px;
+		border-right: 0;
+		border-bottom: 1px solid rgb(255 255 255 / 7%);
+	}
+	.rpcn-profile-language-form label {
+		padding: 0 4px;
+	}
+	.rpcn-profile-language-form select {
+		width: 100%;
+		min-width: 0;
 	}
 }

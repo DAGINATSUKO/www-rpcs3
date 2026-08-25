@@ -61,6 +61,48 @@ function rpcn_group_leaderboard_boards(array $boards): array
     return array_values($groups);
 }
 
+/** @param array<string, RPCNTrophyGroupDefinition> $groups */
+function rpcn_trophy_group_label(string $groupId, array $groups): string
+{
+    if ($groupId === '' || $groupId === 'default') return 'Base Game';
+
+    $group = $groups[$groupId] ?? null;
+    if ($group !== null && $group->name !== '') return $group->name;
+
+    $number = (int)$groupId;
+    return $number > 0 ? 'DLC Pack ' . $number : 'DLC Pack';
+}
+
+/**
+ * @param list<RPCNTrophy> $trophies
+ * @return array<string, list<RPCNTrophy>>
+ */
+function rpcn_group_trophies(array $trophies): array
+{
+    /** @var array<string, list<RPCNTrophy>> $groups */
+    $groups = [];
+
+    foreach ($trophies as $trophy)
+    {
+        $groupId = $trophy->groupId === '' ? 'default' : $trophy->groupId;
+        if (!isset($groups[$groupId])) $groups[$groupId] = [];
+        $groups[$groupId][] = $trophy;
+    }
+
+    uksort($groups, static function (string $a, string $b): int {
+        if ($a === 'default') return $b === 'default' ? 0 : -1;
+        if ($b === 'default') return 1;
+        return strnatcasecmp($a, $b);
+    });
+
+    return $groups;
+}
+
+function rpcn_trophy_grade(string $type): string
+{
+    return in_array($type, ['bronze', 'silver', 'gold', 'platinum'], true) ? $type : 'unknown';
+}
+
 function rpcn_chart_timestamp(string $value): ?int
 {
     $timestamp = strtotime($value . ' UTC');
@@ -485,7 +527,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
             <label for="tab-lb" class="rpcn-tab-btn">Leaderboards</label>
         <?php endif; ?>
         <?php if ($rpcn_game->hasTrophies): ?>
-            <a href="rpcn-game.php?comm_id=<?= urlencode($commId) ?>&amp;tab=trophies"
+            <a href="rpcn-game.php?comm_id=<?= urlencode($commId) ?>&amp;tab=trophies<?= $rpcn_game->trophyLanguage !== 'en' ? '&amp;lang=' . urlencode($rpcn_game->trophyLanguage) : '' ?>"
                class="rpcn-tab-btn rpcn-tab-link<?= $show_trophies_tab ? ' rpcn-tab-link-active' : '' ?>">Trophies (<?= $rpcn_game->totalTrophies ?>)</a>
         <?php endif; ?>
     </div>
@@ -555,39 +597,91 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
         <?php endif; ?>
         <?php if ($rpcn_game->hasTrophies): ?>
         <div id="panel-trophies" class="rpcn-tab-panel">
-            <div class="rpcn-trophy-list">
-                <?php foreach ($rpcn_game->trophies as $t): ?>
-                <div class="rpcn-trophy-item">
-                    <img class="rpcn-trophy-icon" src="<?= htmlspecialchars($t->icon) ?>" alt="Trophy Icon" loading="lazy" decoding="async" onerror="this.src='<?= htmlspecialchars($defaultIcon) ?>'">
-                    <div class="rpcn-trophy-info">
-                        <div class="rpcn-trophy-name">
-                            <?= htmlspecialchars($t->name) ?>
+            <form class="rpcn-trophy-language-form" method="get" action="rpcn-game.php">
+                <input type="hidden" name="comm_id" value="<?= htmlspecialchars($commId) ?>">
+                <input type="hidden" name="tab" value="trophies">
+                <label for="rpcn-trophy-language">Language</label>
+                <select id="rpcn-trophy-language" name="lang">
+                    <?php foreach ($rpcn_game->trophyLanguages as $language): ?>
+                        <option value="<?= htmlspecialchars($language) ?>"<?= $rpcn_game->trophyLanguage === $language ? ' selected' : '' ?>><?= htmlspecialchars(RPCNLanguage::label($language)) ?></option>
+                    <?php endforeach; ?>
+                </select>
+                <button type="submit">Apply</button>
+            </form>
+            <?php $trophyGroups = rpcn_group_trophies($rpcn_game->trophies); ?>
+            <div class="rpcn-trophy-groups">
+                <?php foreach ($trophyGroups as $groupId => $groupTrophies): ?>
+                <section class="rpcn-trophy-group">
+                    <div class="rpcn-trophy-group-heading">
+                        <h3><?= htmlspecialchars(rpcn_trophy_group_label($groupId, $rpcn_game->trophyGroups)) ?></h3>
+                        <?php $groupDefinition = $rpcn_game->trophyGroups[$groupId] ?? null; $groupTotal = $groupDefinition !== null ? $groupDefinition->definedTrophies->total() : count($groupTrophies); ?>
+                        <span><?= number_format($groupTotal) ?> trophies</span>
+                    </div>
+                    <div class="rpcn-trophy-list">
+                        <?php foreach ($groupTrophies as $t): ?>
+                            <?php
+                            $trophyGrade = rpcn_trophy_grade($t->type);
+                            $trophyGradeIcon = '/img/icons/rpcn/' . $trophyGrade . '.png';
+                            ?>
                             <?php if ($t->hidden): ?>
-                                <span class="rpcn-trophy-hidden">Hidden</span>
+                            <details class="rpcn-trophy-item rpcn-trophy-item-hidden">
+                                <summary class="rpcn-trophy-hidden-summary">
+                                    <span class="rpcn-trophy-hidden-placeholder" aria-hidden="true">
+                                        <img src="/img/icons/rpcn/unknown.png" alt="">
+                                    </span>
+                                    <span class="rpcn-trophy-hidden-copy">
+                                        <strong class="rpcn-trophy-hidden-closed">Hidden trophy. Click to reveal.</strong>
+                                        <strong class="rpcn-trophy-hidden-open">Hide trophy details</strong>
+                                    </span>
+                                </summary>
+                                <div class="rpcn-trophy-hidden-content">
+                                    <img class="rpcn-trophy-icon" src="<?= htmlspecialchars($t->icon) ?>" alt="Trophy Icon" loading="lazy" decoding="async" onerror="this.src='<?= htmlspecialchars($defaultIcon) ?>'">
+                                    <div class="rpcn-trophy-info">
+                                        <div class="rpcn-trophy-name">
+                                            <?= htmlspecialchars($t->name) ?>
+                                            <?php if ($t->onlineOnly): ?>
+                                                <span class="rpcn-trophy-online-only" title="Online-only trophy" aria-label="Online-only trophy">
+                                                    <img src="/img/icons/compat/online.png" alt="" aria-hidden="true">
+                                                </span>
+                                            <?php endif; ?>
+                                        </div>
+                                        <div class="rpcn-trophy-desc"><?= htmlspecialchars($t->detail) ?></div>
+                                        <div class="rpcn-trophy-stats">
+                                            <span style="color: <?= htmlspecialchars($t->rarityColor) ?>"><?= htmlspecialchars($t->rarity) ?></span>
+                                            <span style="color: var(--rpcn-subtle)"><?= number_format($t->percentage, 1) ?>%</span>
+                                        </div>
+                                    </div>
+                                    <div class="rpcn-trophy-type rpcn-type-<?= htmlspecialchars($trophyGrade) ?>" title="<?= ucfirst(htmlspecialchars($trophyGrade)) ?>">
+                                        <img class="rpcn-trophy-grade-icon" src="<?= htmlspecialchars($trophyGradeIcon) ?>" alt="" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                            </details>
+                            <?php else: ?>
+                            <div class="rpcn-trophy-item">
+                                <img class="rpcn-trophy-icon" src="<?= htmlspecialchars($t->icon) ?>" alt="Trophy Icon" loading="lazy" decoding="async" onerror="this.src='<?= htmlspecialchars($defaultIcon) ?>'">
+                                <div class="rpcn-trophy-info">
+                                    <div class="rpcn-trophy-name">
+                                        <?= htmlspecialchars($t->name) ?>
+                                        <?php if ($t->onlineOnly): ?>
+                                            <span class="rpcn-trophy-online-only" title="Online-only trophy" aria-label="Online-only trophy">
+                                                <img src="/img/icons/compat/online.png" alt="" aria-hidden="true">
+                                            </span>
+                                        <?php endif; ?>
+                                    </div>
+                                    <div class="rpcn-trophy-desc"><?= htmlspecialchars($t->detail) ?></div>
+                                    <div class="rpcn-trophy-stats">
+                                        <span style="color: <?= htmlspecialchars($t->rarityColor) ?>"><?= htmlspecialchars($t->rarity) ?></span>
+                                        <span style="color: var(--rpcn-subtle)"><?= number_format($t->percentage, 1) ?>%</span>
+                                    </div>
+                                </div>
+                                <div class="rpcn-trophy-type rpcn-type-<?= htmlspecialchars($trophyGrade) ?>" title="<?= ucfirst(htmlspecialchars($trophyGrade)) ?>">
+                                    <img class="rpcn-trophy-grade-icon" src="<?= htmlspecialchars($trophyGradeIcon) ?>" alt="" loading="lazy" decoding="async">
+                                </div>
+                            </div>
                             <?php endif; ?>
-                        </div>
-                        <div class="rpcn-trophy-desc"><?= htmlspecialchars($t->detail) ?></div>
-                        <div class="rpcn-trophy-stats">
-                            <span style="color: <?= $t->rarityColor ?>"><?= $t->rarity ?></span>
-                            <span style="color: var(--rpcn-subtle)"><?= number_format($t->percentage, 1) ?>%</span>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
-                    <?php
-                    $trophyGrade = in_array($t->type, ['bronze', 'silver', 'gold', 'platinum'], true)
-                        ? $t->type
-                        : 'unknown';
-                    $trophyGradeIcon = '/img/icons/rpcn/' . $trophyGrade . '.png';
-                    ?>
-                    <div class="rpcn-trophy-type rpcn-type-<?= htmlspecialchars($trophyGrade) ?>" title="<?= ucfirst(htmlspecialchars($trophyGrade)) ?>">
-                        <img
-                            class="rpcn-trophy-grade-icon"
-                            src="<?= htmlspecialchars($trophyGradeIcon) ?>"
-                            alt=""
-                            loading="lazy"
-                            decoding="async"
-                        >
-                    </div>
-                </div>
+                </section>
                 <?php endforeach; ?>
             </div>
         </div>
