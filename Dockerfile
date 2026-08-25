@@ -1,4 +1,4 @@
 FROM php:8.5-apache
 
-RUN a2enmod rewrite
-RUN a2enmod headers
+RUN docker-php-ext-install mysqli \
+    && a2enmod rewrite headers
