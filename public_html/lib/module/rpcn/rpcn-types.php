@@ -102,13 +102,14 @@ final class RPCNLanguage
      */
     public static function ordered(array $languages): array
     {
+        /** @var array<string, true> $unique */
         $unique = [];
         foreach ($languages as $language)
         {
             $language = self::normalize($language);
             $unique[$language] = true;
         }
-        $unique['en'] = true;
+
         $result = array_keys($unique);
         usort($result, static function (string $a, string $b): int {
             if ($a === 'en') return $b === 'en' ? 0 : -1;
@@ -116,6 +117,18 @@ final class RPCNLanguage
             return strnatcasecmp(self::label($a), self::label($b));
         });
         return $result;
+    }
+
+    /** @param list<string> $languages */
+    public static function select(array $languages, string $requested = 'en'): string
+    {
+        $languages = self::ordered($languages);
+        if ($languages === []) return 'en';
+
+        $requested = self::normalize($requested);
+        if (in_array($requested, $languages, true)) return $requested;
+        if (in_array('en', $languages, true)) return 'en';
+        return $languages[0];
     }
 }
 
@@ -503,8 +516,9 @@ final class RPCNTrophySetParser
     {
         if (!is_array($decoded)) return null;
 
-        $language = RPCNLanguage::normalize($language);
         $languages = RPCNLanguage::ordered(RPCNValue::stringList($decoded['languages'] ?? []));
+        if ($languages === []) $languages = ['en'];
+        $language = RPCNLanguage::select($languages, $language);
         $rawTrophies = $decoded['trophies'] ?? null;
         if (!is_array($rawTrophies)) return null;
 

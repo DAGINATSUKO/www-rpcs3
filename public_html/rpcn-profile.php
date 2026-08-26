@@ -164,6 +164,12 @@ function rpcn_profile_trophy_page_url(RPCNProfilePageContext $context, int $page
     return rpcn_profile_url($context->username, $params);
 }
 
+function rpcn_profile_reveal_hidden(): bool
+{
+    $value = $_GET['reveal_hidden'] ?? null;
+    return is_string($value) && $value === '1';
+}
+
 /** @return array<string, string> */
 function rpcn_profile_game_trophy_params(RPCNProfilePageContext $context, string $commId): array
 {
@@ -174,8 +180,17 @@ function rpcn_profile_game_trophy_params(RPCNProfilePageContext $context, string
     if ($context->gameTrophyGrade !== 'all') $params['ggrade'] = $context->gameTrophyGrade;
     if ($context->gameTrophySort !== 'default') $params['gsort'] = $context->gameTrophySort;
     if ($context->gameTrophySort !== 'default') $params['gdir'] = $context->gameTrophyDirection;
+    if (rpcn_profile_reveal_hidden()) $params['reveal_hidden'] = '1';
 
     return $params;
+}
+
+function rpcn_profile_game_hidden_toggle_url(RPCNProfilePageContext $context, string $commId): string
+{
+    $params = rpcn_profile_game_trophy_params($context, $commId);
+    if (rpcn_profile_reveal_hidden()) unset($params['reveal_hidden']);
+    else $params['reveal_hidden'] = '1';
+    return rpcn_profile_url($context->username, $params);
 }
 
 function rpcn_profile_game_trophy_filter_url(RPCNProfilePageContext $context, string $commId, string $filter): string
@@ -219,6 +234,7 @@ $summary = $pageContext->summary;
 $selectedGame = $pageContext->selectedGame;
 $showTrophyList = $pageContext->trophyFilter !== '';
 $showGames = $selectedGame === null && !$showTrophyList;
+$revealHidden = rpcn_profile_reveal_hidden();
 $profileCompletion = $summary->totalTrophies > 0
     ? min(100.0, ($summary->earnedTrophies / $summary->totalTrophies) * 100.0)
     : 0.0;
@@ -362,6 +378,14 @@ $profileCompletion = $summary->totalTrophies > 0
                         <button type="submit">Apply</button>
                     </form>
                     <div class="rpcn-profile-trophy-control-group">
+                        <span class="rpcn-profile-trophy-control-label">Hidden</span>
+                        <div class="rpcn-profile-trophy-control-options">
+                            <a class="<?= $revealHidden ? 'rpcn-profile-sort-active' : '' ?>" href="<?= htmlspecialchars(rpcn_profile_game_hidden_toggle_url($pageContext, $selectedGame->game->commId)) ?>">
+                                <?= $revealHidden ? 'Hide all' : 'Reveal all' ?>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rpcn-profile-trophy-control-group">
                         <span class="rpcn-profile-trophy-control-label">Show</span>
                         <div class="rpcn-profile-trophy-control-options">
                             <?php foreach (['all' => 'All', 'earned' => 'Earned', 'unearned' => 'Unearned', 'hidden' => 'Hidden'] as $filterKey => $filterLabel): ?>
@@ -420,7 +444,7 @@ $profileCompletion = $summary->totalTrophies > 0
                             <div class="rpcn-profile-trophy-list">
                     <?php foreach ($groupTrophies as $trophy): ?>
                         <?php if ($trophy->hidden): ?>
-                            <details class="rpcn-profile-trophy rpcn-profile-trophy-hidden<?= $trophy->earned ? ' rpcn-profile-trophy-earned' : '' ?>">
+                            <details class="rpcn-profile-trophy rpcn-profile-trophy-hidden<?= $trophy->earned ? ' rpcn-profile-trophy-earned' : '' ?>"<?= $revealHidden ? ' open' : '' ?>>
                                 <summary>
                                     <span class="rpcn-profile-hidden-mark"><?= rpcn_profile_grade_icon('unknown') ?></span>
                                     <span class="rpcn-profile-hidden-copy">

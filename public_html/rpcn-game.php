@@ -103,6 +103,34 @@ function rpcn_trophy_grade(string $type): string
     return in_array($type, ['bronze', 'silver', 'gold', 'platinum'], true) ? $type : 'unknown';
 }
 
+function rpcn_game_reveal_hidden(): bool
+{
+    $value = $_GET['reveal_hidden'] ?? null;
+    return is_string($value) && $value === '1';
+}
+
+function rpcn_game_trophy_url(string $commId, string $language, bool $revealHidden): string
+{
+    $params = [
+        'comm_id' => $commId,
+        'tab' => 'trophies',
+        'lang' => $language,
+    ];
+    if ($revealHidden) $params['reveal_hidden'] = '1';
+    return 'rpcn-game.php?' . http_build_query($params, '', '&', PHP_QUERY_RFC3986);
+}
+
+/** @param list<RPCNTrophy> $trophies */
+function rpcn_game_hidden_trophy_count(array $trophies): int
+{
+    $count = 0;
+    foreach ($trophies as $trophy)
+    {
+        if ($trophy->hidden) $count++;
+    }
+    return $count;
+}
+
 function rpcn_chart_timestamp(string $value): ?int
 {
     $timestamp = strtotime($value . ' UTC');
@@ -427,6 +455,8 @@ $nojsBoardHtml = '';
 
 $show_trophies_tab = $rpcn_game->hasTrophies && ($_GET['tab'] ?? '') === 'trophies';
 $show_lb_tab = $hasLeaderboard && (isset($_GET['board_id']) || ($_GET['tab'] ?? '') === 'lb');
+$revealHiddenTrophies = rpcn_game_reveal_hidden();
+$hiddenTrophyCount = rpcn_game_hidden_trophy_count($rpcn_game->trophies);
 if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
 {
     $boardIdParam = $_GET['board_id'];
@@ -527,7 +557,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
             <label for="tab-lb" class="rpcn-tab-btn">Leaderboards</label>
         <?php endif; ?>
         <?php if ($rpcn_game->hasTrophies): ?>
-            <a href="rpcn-game.php?comm_id=<?= urlencode($commId) ?>&amp;tab=trophies<?= $rpcn_game->trophyLanguage !== 'en' ? '&amp;lang=' . urlencode($rpcn_game->trophyLanguage) : '' ?>"
+            <a href="<?= htmlspecialchars(rpcn_game_trophy_url($commId, $rpcn_game->trophyLanguage, $revealHiddenTrophies)) ?>"
                class="rpcn-tab-btn rpcn-tab-link<?= $show_trophies_tab ? ' rpcn-tab-link-active' : '' ?>">Trophies (<?= $rpcn_game->totalTrophies ?>)</a>
         <?php endif; ?>
     </div>
@@ -597,17 +627,25 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
         <?php endif; ?>
         <?php if ($rpcn_game->hasTrophies): ?>
         <div id="panel-trophies" class="rpcn-tab-panel">
-            <form class="rpcn-trophy-language-form" method="get" action="rpcn-game.php">
-                <input type="hidden" name="comm_id" value="<?= htmlspecialchars($commId) ?>">
-                <input type="hidden" name="tab" value="trophies">
-                <label for="rpcn-trophy-language">Language</label>
-                <select id="rpcn-trophy-language" name="lang">
-                    <?php foreach ($rpcn_game->trophyLanguages as $language): ?>
-                        <option value="<?= htmlspecialchars($language) ?>"<?= $rpcn_game->trophyLanguage === $language ? ' selected' : '' ?>><?= htmlspecialchars(RPCNLanguage::label($language)) ?></option>
-                    <?php endforeach; ?>
-                </select>
-                <button type="submit">Apply</button>
-            </form>
+            <div class="rpcn-trophy-toolbar">
+                <form class="rpcn-trophy-language-form" method="get" action="rpcn-game.php">
+                    <input type="hidden" name="comm_id" value="<?= htmlspecialchars($commId) ?>">
+                    <input type="hidden" name="tab" value="trophies">
+                    <?php if ($revealHiddenTrophies): ?><input type="hidden" name="reveal_hidden" value="1"><?php endif; ?>
+                    <label for="rpcn-trophy-language">Language</label>
+                    <select id="rpcn-trophy-language" name="lang">
+                        <?php foreach ($rpcn_game->trophyLanguages as $language): ?>
+                            <option value="<?= htmlspecialchars($language) ?>"<?= $rpcn_game->trophyLanguage === $language ? ' selected' : '' ?>><?= htmlspecialchars(RPCNLanguage::label($language)) ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                    <button type="submit">Apply</button>
+                </form>
+                <?php if ($hiddenTrophyCount > 0): ?>
+                    <a class="rpcn-trophy-hidden-toggle-all<?= $revealHiddenTrophies ? ' rpcn-trophy-hidden-toggle-all-active' : '' ?>" href="<?= htmlspecialchars(rpcn_game_trophy_url($commId, $rpcn_game->trophyLanguage, !$revealHiddenTrophies)) ?>">
+                        <?= $revealHiddenTrophies ? 'Hide all hidden trophies' : 'Reveal all hidden trophies' ?>
+                    </a>
+                <?php endif; ?>
+            </div>
             <?php $trophyGroups = rpcn_group_trophies($rpcn_game->trophies); ?>
             <div class="rpcn-trophy-groups">
                 <?php foreach ($trophyGroups as $groupId => $groupTrophies): ?>
@@ -624,7 +662,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
                             $trophyGradeIcon = '/img/icons/rpcn/' . $trophyGrade . '.png';
                             ?>
                             <?php if ($t->hidden): ?>
-                            <details class="rpcn-trophy-item rpcn-trophy-item-hidden">
+                            <details class="rpcn-trophy-item rpcn-trophy-item-hidden"<?= $revealHiddenTrophies ? ' open' : '' ?>>
                                 <summary class="rpcn-trophy-hidden-summary">
                                     <span class="rpcn-trophy-hidden-placeholder" aria-hidden="true">
                                         <img src="/img/icons/rpcn/unknown.png" alt="">

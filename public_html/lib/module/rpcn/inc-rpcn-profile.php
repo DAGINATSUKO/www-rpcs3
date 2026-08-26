@@ -47,7 +47,7 @@ final class RPCNProfile
     private array $trophySetCache = [];
 
     /** @var array<string, true> */
-    private array $availableLanguageMap = ['en' => true];
+    private array $availableLanguageMap = [];
 
     public bool $notFound = false;
     public bool $hasError = false;
@@ -806,12 +806,25 @@ final class RPCNProfile
         }
 
         $games = $this->buildGames($language);
-        if (!isset($this->availableLanguageMap[$language])) $language = 'en';
+        $availableLanguages = RPCNLanguage::ordered(RPCNValue::stringList(array_keys($this->availableLanguageMap)));
+        if ($availableLanguages === []) $availableLanguages = ['en'];
+        $language = RPCNLanguage::select($availableLanguages, $language);
         $summary = self::buildSummary($games);
         $backgroundPic1 = $this->selectBackgroundPic1($games);
-        $selectedGame = $gameCommId !== ''
-            ? $this->buildSelectedGame($gameCommId, $gameTrophyFilter, $gameTrophyGrade, $gameTrophySort, $gameTrophyDirection, $language)
-            : null;
+        $selectedGame = null;
+        if ($gameCommId !== '')
+        {
+            $selectedGame = $this->buildSelectedGame($gameCommId, $gameTrophyFilter, $gameTrophyGrade, $gameTrophySort, $gameTrophyDirection, $language);
+            if ($selectedGame !== null)
+            {
+                $gameLanguage = RPCNLanguage::select($selectedGame->languages, $language);
+                if ($gameLanguage !== $language)
+                {
+                    $language = $gameLanguage;
+                    $selectedGame = $this->buildSelectedGame($gameCommId, $gameTrophyFilter, $gameTrophyGrade, $gameTrophySort, $gameTrophyDirection, $language);
+                }
+            }
+        }
         $allFilteredTrophies = $trophyFilter !== ''
             ? $this->buildTrophies($trophyGrade, $trophySort, $trophyDirection, $language)
             : [];
@@ -849,7 +862,7 @@ final class RPCNProfile
             $gameTrophySort,
             $gameTrophyDirection,
             $language,
-            RPCNLanguage::ordered(RPCNValue::stringList(array_keys($this->availableLanguageMap))),
+            $availableLanguages,
             false,
             false,
             '',
