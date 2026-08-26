@@ -129,27 +129,33 @@ class RPCNStats
         }
 
         $diff = $now->diff($ago);
-        $totalMonths = $diff->y * 12 + $diff->m;
+        $parts = [];
 
-        if ($totalMonths >= 12)
-        {
-            $years = $totalMonths / 12;
-            $rounded = round($years * 2) / 2;
-            if ($rounded == (int)$rounded)
-            {
-                return (int)$rounded . ' year' . ($rounded != 1 ? 's' : '') . ' ago';
-            }
-            return number_format($rounded, 1) . ' years ago';
+        if ($diff->y > 0) {
+            $parts[] = $diff->y . ' year' . ($diff->y > 1 ? 's' : '');
         }
-        if ($diff->m > 0) return $diff->m . ' month' . ($diff->m > 1 ? 's' : '') . ' ago';
-        if ($diff->d > 0)
-        {
-            if ($diff->d >= 14) return (string)floor($diff->d / 7) . ' weeks ago';
-            if ($diff->d >= 7) return '1 week ago';
-            return $diff->d . ' day' . ($diff->d > 1 ? 's' : '') . ' ago';
+        if ($diff->m > 0) {
+            $parts[] = $diff->m . ' month' . ($diff->m > 1 ? 's' : '');
         }
-        if ($diff->h > 0) return $diff->h . ' hour' . ($diff->h > 1 ? 's' : '') . ' ago';
-        if ($diff->i > 0) return $diff->i . ' minute' . ($diff->i > 1 ? 's' : '') . ' ago';
+        if ($diff->m == 0 && $diff->d >= 7) {
+            $weeks = floor($diff->d / 7);
+            $parts[] = $weeks . ' week' . ($weeks > 1 ? 's' : '');
+            $diff->d = $diff->d % 7; // Get remaining days
+        }
+        if ($diff->m == 0 && $diff->d > 0) {
+            $parts[] = $diff->d . ' day' . ($diff->d > 1 ? 's' : '');
+        }
+        if ($diff->d == 0 && $diff->h > 0) {
+            $parts[] = $diff->h . ' hour' . ($diff->h > 1 ? 's' : '');
+        }
+        if ($diff->d == 0 && $diff->h == 0 && $diff->i > 0) {
+            $parts[] = $diff->i . ' minute' . ($diff->i > 1 ? 's' : '');
+        }
+        
+        if (!empty($parts)) {
+            return implode(', ', $parts) . ' ago';
+        }
+
         return 'just now';
     }
 

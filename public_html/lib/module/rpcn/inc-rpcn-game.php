@@ -860,20 +860,29 @@ class RPCNGame
 
         if ($this->peakAllTimeDate !== '')
         {
-            $diff        = (new DateTime())->diff(new DateTime($this->peakAllTimeDate));
+            $diff = (new DateTime())->diff(new DateTime($this->peakAllTimeDate));
             $totalMonths = $diff->y * 12 + $diff->m;
-            if ($totalMonths >= 12)
-            {
-                $years   = $totalMonths / 12;
-                $rounded = round($years * 2) / 2;
-                if ($rounded == (int)$rounded)
-                    $this->timeAgoStr = (int)$rounded . ' year' . ($rounded != 1 ? 's' : '') . ' ago';
-                else
-                    $this->timeAgoStr = number_format($rounded, 1) . ' years ago';
+
+            $parts = [];
+
+            if ($diff->y > 0) {
+                $parts[] = $diff->y . ' year' . ($diff->y > 1 ? 's' : '');
             }
-            elseif ($diff->m > 0) $this->timeAgoStr = $diff->m . ' month' . ($diff->m > 1 ? 's' : '') . ' ago';
-            elseif ($diff->d > 0) $this->timeAgoStr = $diff->d . ' day'   . ($diff->d > 1 ? 's' : '') . ' ago';
-            else                  $this->timeAgoStr = 'today';
+            if ($diff->m > 0) {
+                $parts[] = $diff->m . ' month' . ($diff->m > 1 ? 's' : '');
+            }
+            if ($diff->m == 0 && $diff->d > 0) {
+                $parts[] = $diff->d . ' day' . ($diff->d > 1 ? 's' : '');
+            }
+            if ($diff->d == 0 && $diff->h == 0 && $diff->i > 0) {
+                $parts[] = $diff->i . ' minute' . ($diff->i > 1 ? 's' : '');
+            }
+
+            if (!empty($parts)) {
+                $this->timeAgoStr = implode(', ', $parts) . ' ago';
+            } else {
+                $this->timeAgoStr = 'today';
+            }
         }
     }
 }

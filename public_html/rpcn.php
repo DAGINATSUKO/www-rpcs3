@@ -332,8 +332,8 @@ if ($search_query !== '')
                                             $g_comm_id = $game->commId;
                                             $g_regions = $g_comm_id ? ($rpcn_stats->title_regions[$g_comm_id] ?? []) : [];
                                         ?>
-                                        <tr style="border-bottom: 1px solid rgb(219 219 219 / 50%)">
-                                            <td><strong>#<?php echo $index + 1; ?></strong></td>
+                                        <tr style="height: 54px;">
+                                            <td style="padding-right:10px"><strong>#<?php echo $index + 1; ?></strong></td>
                                             <td >
                                                 <?php if($g_comm_id): ?>
                                                 <a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($g_comm_id); ?>" class="table-game-link">
@@ -345,7 +345,7 @@ if ($search_query !== '')
                                                     <?php endif; ?>
                                                     <span style="margin-right: 6px;"><?php echo htmlspecialchars($game->gameTitle); ?></span>
                                                     <?php foreach ($g_regions as $region): ?>
-                                                        <img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>" style="height: 12px; margin-right: 2px;">
+                                                        <img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>" style="height: 22px; margin-right: 2px;">
                                                     <?php endforeach; ?>
                                                 <?php if($g_comm_id): ?>
                                                 </a>
@@ -353,10 +353,10 @@ if ($search_query !== '')
                                                 </div>
                                                 <?php endif; ?>
                                             </td>
-                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;">
+                                            <td style="padding-left: 16px; text-align: right; white-space: nowrap;">
                                                 <strong><?php echo $game->peak; ?></strong> players
                                                 <?php if (!empty($game->timeAgo)): ?>
-                                                <span style="display:block; font-size:11px; opacity:0.6;"><?php echo $game->timeAgo; ?></span>
+                                                <span style="display:block; opacity:0.6; line-height:16px;"><?php echo $game->timeAgo; ?></span>
                                                 <?php endif; ?>
                                             </td>
                                         </tr>
@@ -385,8 +385,8 @@ if ($search_query !== '')
                                             $g_comm_id = $game->commId;
                                             $g_regions = $g_comm_id ? ($rpcn_stats->title_regions[$g_comm_id] ?? []) : [];
                                         ?>
-                                        <tr style="border-bottom: 1px solid rgb(219 219 219 / 50%)">
-                                            <td><strong>#<?php echo $index + 1; ?></strong></td>
+                                        <tr style="height: 54px;">
+                                            <td style="padding-right:10px"><strong>#<?php echo $index + 1; ?></strong></td>
                                             <td >
                                                 <?php if($g_comm_id): ?>
                                                 <a href="rpcn-game.php?comm_id=<?php echo htmlspecialchars($g_comm_id); ?>" class="table-game-link">
@@ -398,7 +398,7 @@ if ($search_query !== '')
                                                     <?php endif; ?>
                                                     <span style="margin-right: 6px;"><?php echo htmlspecialchars($game->gameTitle); ?></span>
                                                     <?php foreach ($g_regions as $region): ?>
-                                                        <img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>" style="height: 12px; margin-right: 2px;">
+                                                        <img src="/img/icons/compat/<?php echo strtoupper($region); ?>.png" alt="<?php echo $region; ?>" style="height: 22px; margin-right: 2px;">
                                                     <?php endforeach; ?>
                                                 <?php if($g_comm_id): ?>
                                                 </a>
@@ -406,7 +406,7 @@ if ($search_query !== '')
                                                 </div>
                                                 <?php endif; ?>
                                             </td>
-                                            <td style="padding: 8px 0; text-align: right; white-space: nowrap;"><strong><?php echo $game->peak; ?></strong> players</td>
+                                            <td style="padding-left: 16px; text-align: right; white-space: nowrap;"><strong><?php echo $game->peak; ?></strong> players</td>
                                         </tr>
                                         <?php endforeach; ?>
                                     <?php else: ?>

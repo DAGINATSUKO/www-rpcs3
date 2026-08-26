@@ -693,6 +693,8 @@ final class RPCNConfig
         public string $dbHost,
         public string $dbUser,
         public string $dbPass,
+        public string $dbrwUser,
+        public string $dbrwPass,
         public string $dbName,
         public string $dbPort,
         public string $apiUrl,

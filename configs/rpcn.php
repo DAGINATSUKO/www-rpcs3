@@ -13,6 +13,8 @@ return new RPCNConfig(
     dbHost: '',
     dbUser: '',
     dbPass: '',
+    dbrwUser: '',
+    dbrwPass: '',
     dbName: '',
     dbPort: '',
     apiUrl: '',
