@@ -233,7 +233,7 @@ class RPCNGame
         $this->definedTrophies = $trophySet->definedTrophies;
         $this->trophyLanguages = $trophySet->languages;
         $this->trophyGroups = $trophySet->groups;
-        $this->trophyLanguage = $language;
+        $this->trophyLanguage = RPCNLanguage::select($trophySet->languages, $language);
 
         if (!$loadDetails) return;
 

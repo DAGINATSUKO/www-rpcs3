@@ -871,3 +871,39 @@ body::before {
         flex-wrap: wrap;
     }
 }
+
+/* Trophy toolbar */
+.rpcn-trophy-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 0 0 14px;
+}
+.rpcn-trophy-toolbar .rpcn-trophy-language-form {
+    margin: 0;
+}
+.rpcn-trophy-hidden-toggle-all {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    padding: 4px 10px;
+    border: 1px solid var(--rpcn-border);
+    border-radius: var(--rpcn-radius-sm);
+    background: var(--rpcn-surface);
+    color: var(--rpcn-text);
+    font-size: .78rem;
+    text-decoration: none;
+}
+.rpcn-trophy-hidden-toggle-all:hover,
+.rpcn-trophy-hidden-toggle-all-active {
+    border-color: var(--rpcn-accent-border);
+    color: var(--rpcn-accent);
+}
+@media (max-width: 640px) {
+    .rpcn-trophy-toolbar {
+        justify-content: flex-start;
+    }
+}
