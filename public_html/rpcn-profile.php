@@ -360,6 +360,9 @@ $profileCompletion = $summary->totalTrophies > 0
                         <div><span>Completion</span><strong><?= number_format($selectedGame->game->completion, 1) ?>%</strong></div>
                         <div><span>Points</span><strong><?= number_format($selectedGame->game->earnedPoints) ?> / <?= number_format($selectedGame->game->maxPoints) ?></strong></div>
                         <div><span>Tracked Players</span><strong><?= number_format($selectedGame->uniquePlayers) ?></strong></div>
+                        <?php if ($selectedGame->game->completionTimeLabel !== ''): ?>
+                            <div><span>100% Time</span><strong><?= htmlspecialchars($selectedGame->game->completionTimeLabel) ?></strong></div>
+                        <?php endif; ?>
                     </div>
                 </div>
 
@@ -725,13 +728,13 @@ $profileCompletion = $summary->totalTrophies > 0
                         <nav class="rpcn-profile-pagination" aria-label="Game list pages">
                             <div>
                                 <?php if ($pageContext->gamePage > 1): ?>
-                                    <a href="<?= htmlspecialchars(rpcn_profile_page_url($pageContext, $pageContext->gamePage - 1)) ?>">Previous 50</a>
+                                    <a href="<?= htmlspecialchars(rpcn_profile_page_url($pageContext, $pageContext->gamePage - 1)) ?>">Previous</a>
                                 <?php endif; ?>
                             </div>
                             <span>Page <?= number_format($pageContext->gamePage) ?> of <?= number_format($pageContext->gamePageCount) ?></span>
                             <div>
                                 <?php if ($pageContext->gamePage < $pageContext->gamePageCount): ?>
-                                    <a href="<?= htmlspecialchars(rpcn_profile_page_url($pageContext, $pageContext->gamePage + 1)) ?>">Next 50 games</a>
+                                    <a href="<?= htmlspecialchars(rpcn_profile_page_url($pageContext, $pageContext->gamePage + 1)) ?>">Next</a>
                                 <?php endif; ?>
                             </div>
                         </nav>

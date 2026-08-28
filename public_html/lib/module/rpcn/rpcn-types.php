@@ -599,7 +599,8 @@ final class RPCNProfileGame
         public float $completion,
         public bool $completed,
         public bool $hasMetadata,
-        public RPCNTrophyBreakdown $earnedByType
+        public RPCNTrophyBreakdown $earnedByType,
+        public string $completionTimeLabel
     ) {
     }
 }
