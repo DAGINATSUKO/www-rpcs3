@@ -410,6 +410,24 @@ final class RPCNProfile
         return $date->format('M j, Y H:i') . ' UTC';
     }
 
+    private static function formatCompletionDuration(int $seconds): string
+    {
+        if ($seconds < 0) return '';
+
+        $days = intdiv($seconds, 86400);
+        $seconds %= 86400;
+        $hours = intdiv($seconds, 3600);
+        $seconds %= 3600;
+        $minutes = intdiv($seconds, 60);
+
+        $parts = [];
+        if ($days > 0) $parts[] = $days . 'd';
+        if ($hours > 0) $parts[] = $hours . 'h';
+        if ($minutes > 0 || $parts === []) $parts[] = $minutes . 'm';
+
+        return implode(' ', $parts);
+    }
+
     private function rarity(float $percentage): RPCNProfileRarity
     {
         foreach ($this->raritySettings as $index => $setting)
@@ -494,6 +512,38 @@ final class RPCNProfile
 
             $completion = $totalCount > 0 ? min(100.0, ($earnedCount / $totalCount) * 100.0) : 0.0;
             $completed = $totalCount > 0 && $earnedCount >= $totalCount;
+            $completionTimeLabel = '';
+
+            if ($completed && $trophySet !== null && count($localTrophies) === $totalCount)
+            {
+                $earnedTimestamps = [];
+                foreach ($localTrophies as $localTrophy)
+                {
+                    $earnedTrophy = $apiGame->earned[$localTrophy->id] ?? null;
+                    if ($earnedTrophy === null)
+                    {
+                        $earnedTimestamps = [];
+                        break;
+                    }
+
+                    $earnedTimestamp = self::trophyTimestampToUnix($earnedTrophy->earnedAt);
+                    if ($earnedTimestamp <= 0)
+                    {
+                        $earnedTimestamps = [];
+                        break;
+                    }
+
+                    $earnedTimestamps[] = $earnedTimestamp;
+                }
+
+                if (count($earnedTimestamps) === $totalCount)
+                {
+                    $firstEarned = min($earnedTimestamps);
+                    $lastEarned = max($earnedTimestamps);
+                    $completionTimeLabel = self::formatCompletionDuration($lastEarned - $firstEarned);
+                }
+            }
+
             $title = $this->stats->app_title[$commId] ?? 'Unknown Game';
 
             $game = new RPCNProfileGame(
@@ -507,7 +557,8 @@ final class RPCNProfile
                 $completion,
                 $completed,
                 $hasMetadata,
-                $earnedByType
+                $earnedByType,
+                $completionTimeLabel
             );
             $games[] = $game;
             $this->gamesByCommId[$commId] = $game;

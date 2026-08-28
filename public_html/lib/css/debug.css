@@ -1117,7 +1117,7 @@ a.rpcn-profile-stat:hover {
 }
 .rpcn-profile-game-overview-stats {
 	display: grid;
-	grid-template-columns: repeat(4, minmax(0, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
 	gap: 10px;
 }
 .rpcn-profile-game-overview-stats div {
@@ -1204,6 +1204,23 @@ a.rpcn-profile-stat:hover {
 	border-radius: 8px;
 	background: rgb(0 0 0 / 22%);
 	border: 1px solid rgb(255 255 255 / 10%);
+}
+
+.rpcn-profile-trophy:not(.rpcn-profile-trophy-earned) img.rpcn-profile-trophy-icon {
+	filter: grayscale(1);
+	opacity: .62;
+}
+.rpcn-profile-trophy-earned img.rpcn-profile-trophy-icon {
+	filter: none;
+	opacity: 1;
+}
+.rpcn-profile-trophy:not(.rpcn-profile-trophy-earned) .rpcn-profile-trophy-icon-fallback img {
+	filter: grayscale(1);
+	opacity: .62;
+}
+.rpcn-profile-trophy-earned .rpcn-profile-trophy-icon-fallback img {
+	filter: none;
+	opacity: 1;
 }
 .rpcn-profile-trophy-copy {
 	min-width: 0;
@@ -1540,10 +1557,8 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 	display: block;
 	width: 44px;
 	height: 44px;
+	flex: 0 0 44px;
 	border-radius: 10px;
-	margin-right: 12px;
-	margin-left: 2px;
-	margin-top: 4px;
 	background: rgb(255 255 255 / 8%) url(/img/icons/rpcn/user.png) center / 22px no-repeat;
 	border: 1px solid rgb(255 255 255 / 10%);
 }
@@ -1571,6 +1586,9 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 }
 .search-player-item {
 	background: rgb(104 109 224 / 8%);
+}
+.search-player-item .search-player-icon {
+	margin-right: 2px;
 }
 .rpcn-profile-trophy-icon-fallback {
 	display: flex;
