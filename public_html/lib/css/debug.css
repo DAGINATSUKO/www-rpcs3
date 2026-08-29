@@ -1557,8 +1557,10 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 	display: block;
 	width: 44px;
 	height: 44px;
-	flex: 0 0 44px;
 	border-radius: 10px;
+	margin-right: 12px;
+	margin-left: 2px;
+	margin-top: 4px;
 	background: rgb(255 255 255 / 8%) url(/img/icons/rpcn/user.png) center / 22px no-repeat;
 	border: 1px solid rgb(255 255 255 / 10%);
 }
@@ -1586,9 +1588,6 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 }
 .search-player-item {
 	background: rgb(104 109 224 / 8%);
-}
-.search-player-item .search-player-icon {
-	margin-right: 2px;
 }
 .rpcn-profile-trophy-icon-fallback {
 	display: flex;

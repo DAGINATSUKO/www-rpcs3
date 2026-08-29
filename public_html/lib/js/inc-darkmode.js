@@ -98,7 +98,6 @@ var dark_classes = [
 	{"base": ".entry-content", "toggle": "dm-txt"},
 	{"base": ".entry-title a", "toggle": "dm-txt"},
 	{"base": ".entry-title", "toggle": "dm-txt"},
-	{"base": ".entry-footer", "toggle": "dm-blog-footer"},
 	{"base": ".entry-content h2", "toggle": "dm-blog-h2"},
 	{"base": ".entry-content ul li", "toggle": "dm-txt"},
 	{"base": ".site-description", "toggle": "dm-blog-sidebar"},
