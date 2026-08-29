@@ -103,10 +103,6 @@
 	color:#fff!important;
 	border-bottom:solid 1px rgba(255,255,255,.06)!important
 }
-.dm-blog-footer {
-	border:solid 1px rgba(255,255,255,.06)!important;
-	background:#111525!important
-}
 .dm-blog-sidebar {
 	color:#fff!important
 }
@@ -117,7 +113,6 @@
 .dm-compat-header-left {
 	background:#191f36!important;
 	border-color:transparent!important;
-	color:#596282!important
 }
 .dm-compat-criteria {
 	background:#111525!important;
