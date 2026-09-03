@@ -26,7 +26,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BE16NU50 <span class="drives-txt-revisions">External Drive</span></span>
+			<span>BE16NU50 <span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
@@ -58,7 +58,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BP50NB40 <span class="drives-txt-revisions">External Drive</span></span>
+			<span>BP50NB40 <span class="drives-txt-revisions">External, some revisions</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
@@ -136,7 +136,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>WP50NB40 <span class="drives-txt-revisions">External Drive</span></span>
+			<span>WP50NB40 <span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
@@ -146,7 +146,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BP55EB40<span class="drives-txt-revisions">External Drive</span></span>
+			<span>BP55EB40<span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
@@ -185,7 +185,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>CP50NS20 </span><span class="drives-txt-revisions">External Drive</span></span>
+			<span>CP50NS20 </span><span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
@@ -271,19 +271,19 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>SE-506<span class="drives-txt-revisions">External Drive</span></span>
+			<span>SE-506<span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>SE-406<span class="drives-txt-revisions">External Drive</span></span>
+			<span>SE-406<span class="drives-txt-revisions">External</span></span>
 		</div>
 	</div>
 	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>SE-506CB<span class="drives-txt-revisions">External Drive</span></span>
+			<span>SE-506CB<span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
@@ -422,7 +422,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>PX-B950UE<span class="drives-txt-revisions">External Drive</span></span>
+			<span>PX-B950UE<span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
