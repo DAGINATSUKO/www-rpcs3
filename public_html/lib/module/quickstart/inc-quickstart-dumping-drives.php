@@ -179,11 +179,6 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BU50N</span>
-		</div>
-		<div class="drives-con-inner darkmode-txt">
-			<div class="drives-ico-bluray">
-			</div>
 			<span>BH30N</span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
@@ -191,13 +186,13 @@
 			</div>
 			<span>CP50NS20 </span><span class="drives-txt-revisions">External</span></span>
 		</div>
-	</div>
-	<div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BH12LS38</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
