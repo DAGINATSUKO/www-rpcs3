@@ -38,13 +38,13 @@
 			</div>
 			<span>BH16NS40</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BH16NS48</span>
 		</div>
-	</div>
-	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
@@ -55,22 +55,29 @@
 			</div>
 			<span>BH26NS40</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BP50NB40 <span class="drives-txt-revisions">External, some revisions</span></span>
+			<span>BP50NB40 (svc code NB50 or NB52) <span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BU20N</span>
 		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BU40N</span>
+		</div>
 	</div>
 	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BU40N</span>
+			<span>BU50N</span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
@@ -81,11 +88,6 @@
 			<div class="drives-ico-bluray">
 			</div>
 			<span>UH12NS30</span>
-		</div>
-		<div class="drives-con-inner darkmode-txt">
-			<div class="drives-ico-bluray">
-			</div>
-			<span>WH12LS30 <span class="drives-txt-revisions">Some revisions</span></span>
 		</div>
 	</div>
 	<div class="drives-con-outer darkmode-txt">
@@ -104,13 +106,13 @@
 			</div>
 			<span>WH16NS48</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>WH24LS30</span>
 		</div>
-	</div>
-	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
@@ -121,6 +123,8 @@
 			</div>
 			<span>WH26NS40</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
@@ -131,13 +135,13 @@
 			</div>
 			<span>BE14NU40</span>
 		</div>
-	</div>
-	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>WP50NB40 <span class="drives-txt-revisions">External</span></span>
+			<span>WP50NB40 (svc code NB50 or NB52) <span class="drives-txt-revisions">External</span></span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
@@ -146,7 +150,7 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BP55EB40<span class="drives-txt-revisions">External</span></span>
+			<span>BP55EB40 (svc code EB50 or EB52)<span class="drives-txt-revisions">External</span></span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
@@ -170,13 +174,13 @@
 			</div>
 			<span>CH30N</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BU50N</span>
 		</div>
-	</div>
-	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
@@ -187,10 +191,38 @@
 			</div>
 			<span>CP50NS20 </span><span class="drives-txt-revisions">External</span></span>
 		</div>
+	</div>
+	<div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BH12LS38</span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>WH12LS30 <span class="drives-txt-revisions">Some revisions</span></span>
+		</div>
+	</div>
+</div>
+<!-- -New Drive Section -->
+<div class="drives-con-container">
+	<div class="container-tx3-block darkmode-txt">
+		<div class="anchor-point" id="dumping_bdd_archgon">
+		</div>
+		<div class='container-emp-block'>
+		</div>
+		<span>
+		Archgon Drives </span>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>MD-8107-U3 (BU40N model only) <span class="drives-txt-revisions">External</span></span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
@@ -223,13 +255,13 @@
 			</div>
 			<span>BC-12D2HT</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BC-16D1HT</span>
 		</div>
-	</div>
-	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
@@ -240,10 +272,33 @@
 			</div>
 			<span>BW-16D1HT</span>
 		</div>
+	</div>
+	<div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BW-14D1XT</span>
+		</div>
+	</div>
+</div>
+<!-- -New Drive Section -->
+<div class="drives-con-container">
+	<div class="container-tx3-block darkmode-txt">
+		<div class="anchor-point" id="dumping_bdd_benq">
+		</div>
+		<div class='container-emp-block'>
+		</div>
+		<span>
+		BenQ Drives </span>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>BR1000</span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
@@ -275,23 +330,17 @@
 			</div>
 			<span>SE-506<span class="drives-txt-revisions">External</span></span>
 		</div>
-		<div class="drives-con-inner darkmode-txt">
-			<div class="drives-ico-bluray">
-			</div>
-			<span>SE-406<span class="drives-txt-revisions">External</span></span>
-		</div>
 	</div>
 	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
+			<span>SE-406<span class="drives-txt-revisions">External</span></span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
 			<span>SE-506CB<span class="drives-txt-revisions">External</span></span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
@@ -323,13 +372,13 @@
 			</div>
 			<span>IHBS312</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>DS-6E2SH <span class="drives-txt-revisions">19C revision</span></span>
 		</div>
-	</div>
-	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
@@ -340,14 +389,13 @@
 			</div>
 			<span>DH-12B2SH</span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>DS-4E1S</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
+		</div>	
 	</div>
 </div>
 <div class="drives-con-container">
@@ -374,10 +422,20 @@
 			</div>
 			<span>PlayStation 3 BDD<span class="drives-txt-revisions">Adapter required</span></span>
 		</div>
+	</div>
+	<div class="drives-con-outer darkmode-txt">
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>PlayStation 4 BDD<span class="drives-txt-revisions">CFW required</span></span>
+		</div>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>PlayStation 5 BDD<span class="drives-txt-revisions">CFW required</span></span>
+		</div>
+		<div class="drives-con-inner drives-txt-hidden">
+			<span>ADD BD DRIVE HERE</span>
 		</div>
 	</div>
 </div>
@@ -395,15 +453,12 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>BD335E</span>
+			<span>BD335e</span>
 		</div>
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
 			<span>BD335i</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
 		</div>
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
@@ -434,36 +489,6 @@
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
-	</div>
-</div>
-<!-- -New Drive Section -->
-<div class="drives-con-container">
-	<div class="container-tx3-block darkmode-txt">
-		<div class="anchor-point" id="dumping_bdd_benq">
-		</div>
-		<div class='container-emp-block'>
-		</div>
-		<span>
-		BenQ Drives </span>
-	</div>
-	<div class="drives-con-outer darkmode-txt">
-		<div class="drives-con-inner darkmode-txt">
-			<div class="drives-ico-bluray">
-			</div>
-			<span>BR1000</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
 	</div>
 </div>
 <!-- -New Drive Section -->
@@ -488,15 +513,12 @@
 		<div class="drives-con-inner drives-txt-hidden">
 			<span>ADD BD DRIVE HERE</span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
 	</div>
 </div>
 <!-- -New Drive Section -->
 <div class="drives-con-container">
 	<div class="container-tx3-block darkmode-txt">
-		<div class="anchor-point" id="dumping_bdd_teac">
+		<div class="anchor-point" id="dumping_bdd_verbatim">
 		</div>
 		<div class='container-emp-block'>
 		</div>
@@ -507,16 +529,17 @@
 		<div class="drives-con-inner darkmode-txt">
 			<div class="drives-ico-bluray">
 			</div>
-			<span>Verbatim 43888</span>
+			<span>Verbatim 43888 (BU40N model only) <span class="drives-txt-revisions">External</span></span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>Verbatim 43889 (BU40N model only) <span class="drives-txt-revisions">External</span></span>
 		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
-		</div>
-		<div class="drives-con-inner drives-txt-hidden">
-			<span>ADD BD DRIVE HERE</span>
+		<div class="drives-con-inner darkmode-txt">
+			<div class="drives-ico-bluray">
+			</div>
+			<span>Verbatim 43890 (BU40N model only) <span class="drives-txt-revisions">External</span></span>
 		</div>
 	</div>
 </div>
