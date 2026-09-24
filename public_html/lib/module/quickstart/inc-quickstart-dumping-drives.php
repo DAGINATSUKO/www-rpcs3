@@ -2,6 +2,7 @@
 include_once __DIR__.'/../objects/DriveCatalog.php';
 
 $drives = new DriveCatalog();
+$drives->add_drive('LG', 'BH-A10AME', DriveType::Internal);
 $drives->add_drive('LG', 'BE14NU40', DriveType::External);
 $drives->add_drive('LG', 'BE16NU50', DriveType::External);
 $drives->add_drive('LG', 'BH14NS40', DriveType::Internal);
@@ -44,6 +45,7 @@ $drives->add_drive('ASUS', 'BC-08B1LT', DriveType::Internal);
 $drives->add_drive('ASUS', 'BC-12B1ST', DriveType::Internal, 'b revision');
 $drives->add_drive('ASUS', 'BC-12D2HT', DriveType::Internal);
 $drives->add_drive('ASUS', 'BC-16D1HT', DriveType::Internal);
+$drives->add_drive('ASUS', 'BW-12B1ST', DriveType::Internal, 'base and a revision');
 $drives->add_drive('ASUS', 'BW-14D1XT', DriveType::Internal);
 $drives->add_drive('ASUS', 'BW-16D1HT', DriveType::Internal);
 $drives->add_drive('ASUS', 'BW-16D1H-U', DriveType::External);
