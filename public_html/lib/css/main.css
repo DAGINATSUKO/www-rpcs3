@@ -2046,9 +2046,7 @@ a:hover {
 .generic-con-button {
     position: relative;
     width: auto;
-    height: auto;
-    padding-top: 15px;
-    padding-bottom: 15px
+    height: auto
 }
 
 .generic-con-button-single {
