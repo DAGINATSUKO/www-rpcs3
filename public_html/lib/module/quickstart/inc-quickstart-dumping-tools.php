@@ -6,7 +6,7 @@
 		</div>
 		<div class='container-con-wrapper'>
 			<div class="container-tx1-block darkmode-txt">
-				<h2>Using Windows, Linux or macOS w/ Disc Dumper</h2>
+				<h2>Using the PS3 Disc Dumper</h2>
 			</div>
 			<div class="container-tx2-block darkmode-txt">
 				<p>
@@ -24,7 +24,7 @@
 		<div class="generic-ico-button" style="background: url('/img/icons/buttons/discdumper-h.png') no-repeat center">
 		</div>
 		<div class="generic-tx1-button">
-			<span>Disc Dumper <span class="generic-tx2-label">13xforever</span></span>
+			<span>PS3 Disc Dumper <span class="generic-tx2-label">13xforever</span></span>
 		</div>
 	</div>
 	</a>

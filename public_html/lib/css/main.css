@@ -2046,9 +2046,7 @@ a:hover {
 .generic-con-button {
     position: relative;
     width: auto;
-    height: auto;
-    padding-top: 15px;
-    padding-bottom: 15px
+    height: auto
 }
 
 .generic-con-button-single {
@@ -4676,8 +4674,7 @@ a:hover {
     overflow: hidden;
     position: relative;
     transition: all .1s ease-in-out 0s;
-    border: solid 1px rgb(255 255 255/10%);
-    min-height: 640px
+    border: solid 1px rgb(255 255 255/10%)
 }
 
 .device-con-inner-a:hover {

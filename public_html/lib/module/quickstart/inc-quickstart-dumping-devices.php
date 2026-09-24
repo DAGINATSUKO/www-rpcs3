@@ -1,8 +1,7 @@
 <div class="container-con-superblock darkmode-txt">
 	<div class='container-con-superblock-emp'>
 	</div>
-	<h1>
-	Adding Your Games </h1>
+	<h1>Adding Your Games</h1>
 	<div class='container-con-superblock-div'>
 	</div>
 </div>
@@ -17,7 +16,8 @@
 		</div>
 		<div class='container-tx2-block darkmode-txt'>
 			<p class="download-desc">
-				 You can use both an original PlayStation 3 console with custom firmware or a PC with a compatible Blu-ray disc drive to dump your games.
+				Dumping a game is the process of extracting the files from your legally acquired disc or digital game copy.<br>
+				You can use both an original PlayStation 3 console with custom firmware or a PC with a compatible Blu-ray disc drive to dump your games.
 			</p>
 		</div>
 	</div>
@@ -38,13 +38,16 @@
 				</div>
 			</div>
 			<div class='device-tx1-title darkmode-txt' style="text-align: left !important;">
-				<span>PlayStation 3 w/ CFW or HEN</span>
+				<span>PlayStation 3 with Custom Firmware</span>
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-					PlayStation 3 games can be dumped using an original console running a file manager homebrew software such as ManagunZ, IRISMAN or MultiMAN via a custom or hybrid firmware but will require basic knowledge regarding the installation its use.<br>
+					An original console running a file manager homebrew software can be used to dump your PS3 games.<br>
 					<br>
-					For more information on this topic, check our <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#How_to_jailbreak_a_PS3_using_PS3HEN' target="_blank">Wiki</a> page.
+					<span style="color:#54cd54;"><b>✓ Physical PS3 games</b></span><br>
+					<span style="color:#54cd54;"><b>✓ Digital PS3 games and DLC</b></span><br>
+					<br>
+					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games' target="_blank">this RPCS3 Wiki page</a>.
 				</span>
 			</div>
 		</div>
@@ -60,13 +63,16 @@
 				</div>
 			</div>
 			<div class='device-tx1-title darkmode-txt' style="text-align: left !important;">
-				<span>PC w/ Blu-ray Drive</span>
+				<span>PC with a Blu-ray Drive</span>
 			</div>
 			<div class='device-tx2-desc darkmode-txt'>
 				<span>
-					PlayStation 3 games can be dumped using a PC with a compatible Blu-ray disc drive using dedicated software but may require advanced knowledge regarding dumping data from game discs. <br>
+					Your PC with a compatible Blu-ray disc drive is also capable of dumping PS3 games. More information on compatible Blu-ray drives can be found <b>below</b>.<br>
 					<br>
-					More information on compatible Blu-ray drives can be found <b>below</b>.
+					<span style="color:#54cd54;"><b>✓ Physical PS3 games</b></span><br>
+					<span style="color:#dc8b8b;"><b>✗ Digital PS3 games and DLC</b></span><br>	
+					<br>
+					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games' target="_blank">this RPCS3 Wiki page</a>.
 				</span>
 			</div>
 		</div>
