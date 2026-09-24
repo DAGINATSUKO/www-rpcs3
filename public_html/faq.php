@@ -53,6 +53,46 @@
 	</div>
 	<div class="page-con-container">
 		<div class="page-in-container">
+			<?php include 'lib/module/quickstart/inc-quickstart-device-inputs.php';?>
+		</div>
+	</div>
+	<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+		<div class="page-con-container">
+			<div class="page-in-container">
+				<?php include 'lib/module/quickstart/inc-quickstart-device-requirement.php';?>
+			</div>
+		</div>
+	</div>
+	<div class="page-con-content">
+		<div class="page-con-container">
+			<div class="page-in-container">
+				<?php include 'lib/module/quickstart/inc-quickstart-device-laptop.php';?>
+			</div>
+		</div>
+	</div>
+	<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+		<div class="page-con-container">
+			<div class="page-in-container">
+				<?php include 'lib/module/quickstart/inc-quickstart-device-mac.php';?>
+			</div>
+		</div>
+	</div>
+	<div class="page-con-content">
+		<div class="page-con-container">
+			<div class="page-in-container">
+				<?php include 'lib/module/quickstart/inc-quickstart-device-handheld.php';?>
+			</div>
+		</div>
+	</div>
+	<div class="page-con-content darkmode-slimbar" style="background:#f7f7f7">
+		<div class="page-con-container">
+			<div class="page-in-container">
+				<?php include 'lib/module/quickstart/inc-quickstart-software-dirs.php';?>
+			</div>
+		</div>
+	</div>
+	<div class="page-con-container">
+		<div class="page-in-container">
 			<div class='container-con-block darkmode-block'>
 				<div class='container-con-wrapper'>
 					<div class='container-tx1-block darkmode-txt'>
