@@ -2,7 +2,7 @@
 include_once __DIR__.'/../objects/DriveCatalog.php';
 
 $drives = new DriveCatalog();
-$drives->add_drive('LG', 'BE14NU40', DriveType::Internal);
+$drives->add_drive('LG', 'BE14NU40', DriveType::External);
 $drives->add_drive('LG', 'BE16NU50', DriveType::External);
 $drives->add_drive('LG', 'BH12LS38', DriveType::Internal);
 $drives->add_drive('LG', 'BH14NS40', DriveType::Internal);
@@ -59,7 +59,7 @@ $drives->add_drive('Sony', 'Optiarc BWU-500S', DriveType::Internal);
 $drives->add_drive('Sony', 'PlayStation 3 BDD', DriveType::Internal, 'Adapter required');
 $drives->add_drive('Sony', 'PlayStation 4 BDD', DriveType::Internal, 'CFW required');
 $drives->add_drive('Sony', 'PlayStation 5 BDD', DriveType::Internal, 'CFW required');
-$drives->add_drive('HP', 'BD335e', DriveType::Internal);
+$drives->add_drive('HP', 'BD335e', DriveType::External);
 $drives->add_drive('HP', 'BD335i', DriveType::Internal);
 $drives->add_drive('Plextor', 'PX-B950SA', DriveType::Internal);
 $drives->add_drive('Plextor', 'PX-B950UE', DriveType::External);
