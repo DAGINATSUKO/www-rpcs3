@@ -15,19 +15,28 @@
 	</div>
 	<div class="container-tx2-block darkmode-txt">
 		<p>
-			The first step is to download RPCS3 for your platform. RPCS3 is available for Windows, Linux, macOS and FreeBSD.
+			The first step is to download RPCS3 for your platform, as well as ensuring your device is capable of running RPCS3.
 		</p>
 	</div>
 </div>
 <div class="generic-con-button">
 	<a href='/download' target="_blank">
-	<div class="generic-btn-button">
-		<div class="generic-ico-button" style="background: url('/img/icons/buttons/download-h.png') no-repeat center">
+		<div class="generic-btn-button">
+			<div class="generic-ico-button" style="background: url('/img/icons/buttons/download-h.png') no-repeat center">
+			</div>
+			<div class="generic-tx1-button">
+				<span>Download RPCS3 <span class="generic-tx2-label">For all platforms</span></span>
+			</div>
 		</div>
-		<div class="generic-tx1-button">
-			<span>Download RPCS3 <span class="generic-tx2-label">For all platforms</span></span>
+	</a>
+	<a href='/requirements' target="_blank">
+		<div class="generic-btn-button">
+			<div class="generic-ico-button" style="background: url('/img/icons/buttons/cpu-h.png') no-repeat center">
+			</div>
+			<div class="generic-tx1-button">
+				<span>Check the RPCS3 system requirements</span>
+			</div>
 		</div>
-	</div>
 	</a>
 </div>
 <div class="container-con-wrapper">
