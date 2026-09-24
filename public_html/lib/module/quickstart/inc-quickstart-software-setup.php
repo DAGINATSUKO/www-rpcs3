@@ -43,12 +43,12 @@
 	</div>
 </div>
 <div class="generic-con-button ">
-	<a href='https://aka.ms/vs/17/release/VC_redist.x64.exe' target="_blank">
+	<a href='https://aka.ms/vs/18/release/VC_redist.x64.exe' target="_blank">
 	<div class="generic-btn-button">
 		<div class="generic-ico-button" style="background: url('/img/icons/buttons/redist-h.png') no-repeat center">
 		</div>
 		<div class="generic-tx1-button">
-			<span>Visual C++ 2015-2022 Redistributable <span class="generic-tx2-label">For Windows only</span></span>
+			<span>Visual C++ v14 Redistributable (2026) <span class="generic-tx2-label">For Windows only</span></span>
 		</div>
 	</div>
 	</a>
