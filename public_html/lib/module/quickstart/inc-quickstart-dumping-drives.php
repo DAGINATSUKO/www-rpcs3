@@ -1,5 +1,5 @@
 <?php
-include_once 'DriveCatalog.php';
+include_once __DIR__.'/../objects/DriveCatalog.php';
 
 $drives = new DriveCatalog();
 $drives->add_drive('LG', 'BE14NU40', DriveType::Internal);
