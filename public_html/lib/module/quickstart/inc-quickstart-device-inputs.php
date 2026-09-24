@@ -1,7 +1,7 @@
 <div class="container-con-superblock darkmode-txt">
 	<div class='container-con-superblock-emp'>
 	</div>
-	<h1>Initial Setup</h1>
+	<h1>Requirements</h1>
 	<div class='container-con-superblock-div'>
 	</div>
 </div>

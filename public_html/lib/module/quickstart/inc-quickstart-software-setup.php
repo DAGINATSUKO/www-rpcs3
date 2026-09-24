@@ -1,12 +1,13 @@
 <div class="container-con-superblock darkmode-txt">
 	<div class='container-con-superblock-emp'>
 	</div>
-	<h1>
-	Software Setup </h1>
+	<h1>Software Setup</h1>
 	<div class='container-con-superblock-div'>
 	</div>
 </div>
 <div class='container-con-wrapper'>
+	<div class="anchor-point" id="download_rpcs3">
+	</div>
 	<div class='container-tx1-block darkmode-txt'>
 		<div class='container-emp-block'>
 		</div>
@@ -14,7 +15,7 @@
 	</div>
 	<div class="container-tx2-block darkmode-txt">
 		<p>
-			Start by downloading RPCS3.
+			The first step is to download RPCS3 for your platform. RPCS3 is available for Windows, Linux, macOS and FreeBSD.
 		</p>
 	</div>
 </div>
@@ -30,8 +31,6 @@
 	</a>
 </div>
 <div class="container-con-wrapper">
-	<div class="anchor-point" id="software_redist">
-	</div>
 	<div class="container-tx1-block darkmode-txt">
 		<div class='container-emp-block'>
 		</div>
@@ -55,7 +54,7 @@
 	</a>
 </div>
 <div class="container-con-wrapper">
-	<div class="anchor-point" id="software_redist">
+	<div class="anchor-point" id="ps3_system_software">
 	</div>
 	<div class="container-tx1-block darkmode-txt">
 		<div class='container-emp-block'>
