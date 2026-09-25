@@ -47,7 +47,7 @@
 					<span style="color:#54cd54;"><b>✓ Physical PS3 games</b></span><br>
 					<span style="color:#54cd54;"><b>✓ Digital PS3 games and DLC</b></span><br>
 					<br>
-					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games' target="_blank">this RPCS3 Wiki page</a>.
+					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#How_to_dump_Digital_games_&_DLCs_on_a_jailbroken_PS3' target="_blank"><b>this RPCS3 Wiki page</b></a>.
 				</span>
 			</div>
 		</div>
@@ -72,7 +72,7 @@
 					<span style="color:#54cd54;"><b>✓ Physical PS3 games</b></span><br>
 					<span style="color:#dc8b8b;"><b>✗ Digital PS3 games and DLC</b></span><br>	
 					<br>
-					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games' target="_blank">this RPCS3 Wiki page</a>.
+					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#How_to_dump_Disc_games_with_a_compatible_Blu-ray_drive_on_PC_using_PS3_Disc_Dumper' target="_blank"><b>this RPCS3 Wiki page</b></a>.
 				</span>
 			</div>
 		</div>
