@@ -1,7 +1,7 @@
 <div class="container-con-superblock darkmode-txt">
 	<div class='container-con-superblock-emp'>
 	</div>
-	<h1>Adding Your Games</h1>
+	<h1>Adding Games</h1>
 	<div class='container-con-superblock-div'>
 	</div>
 </div>
