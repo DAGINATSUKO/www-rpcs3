@@ -5617,7 +5617,7 @@
 },
 "NPWR02484_00": {
     "title": ["SONIC THE HEDGEHOG 4 Episode II"],
-    "id": ["NPHB00459", "NPUB30581", "NPJB00164"]
+    "id": ["NPEB00717", "NPHB00459", "NPUB30581", "NPJB00164"]
 },
 "NPWR02485_00": {
     "title": ["Silent Hill Downpour"],
@@ -5922,7 +5922,7 @@
 },
 "NPWR02783_00": {
     "title": ["Sonic CD"],
-    "id": ["NPUB30624"]
+    "id": ["NPEB00787", "NPUB30624"]
 },
 "NPWR02803_00": {
     "title": ["Just Dance 3 "],
