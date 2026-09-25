@@ -1,7 +1,7 @@
 <div class="container-con-superblock darkmode-txt">
 	<div class='container-con-superblock-emp'>
 	</div>
-	<h1>Adding Your Games</h1>
+	<h1>Adding Games</h1>
 	<div class='container-con-superblock-div'>
 	</div>
 </div>
@@ -47,7 +47,7 @@
 					<span style="color:#54cd54;"><b>✓ Physical PS3 games</b></span><br>
 					<span style="color:#54cd54;"><b>✓ Digital PS3 games and DLC</b></span><br>
 					<br>
-					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games' target="_blank">this RPCS3 Wiki page</a>.
+					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#Dumping_PS3_games_from_a_PlayStation_3_console' target="_blank"><b>this RPCS3 Wiki page</b></a>.
 				</span>
 			</div>
 		</div>
@@ -72,7 +72,7 @@
 					<span style="color:#54cd54;"><b>✓ Physical PS3 games</b></span><br>
 					<span style="color:#dc8b8b;"><b>✗ Digital PS3 games and DLC</b></span><br>	
 					<br>
-					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games' target="_blank">this RPCS3 Wiki page</a>.
+					For more information on this topic, read <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#Dumping_PS3_games_on_a_PC' target="_blank"><b>this RPCS3 Wiki page</b></a>.
 				</span>
 			</div>
 		</div>

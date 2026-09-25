@@ -25,7 +25,7 @@
 			<div class="generic-ico-button" style="background: url('/img/icons/buttons/download-h.png') no-repeat center">
 			</div>
 			<div class="generic-tx1-button">
-				<span>Download RPCS3 <span class="generic-tx2-label">For all platforms</span></span>
+				<span>Download RPCS3</span>
 			</div>
 		</div>
 	</a>
@@ -57,7 +57,7 @@
 		<div class="generic-ico-button" style="background: url('/img/icons/buttons/redist-h.png') no-repeat center">
 		</div>
 		<div class="generic-tx1-button">
-			<span>Visual C++ v14 Redistributable (2026) <span class="generic-tx2-label">For Windows only</span></span>
+			<span>Visual C++ v14 Redistributable (2026)</span>
 		</div>
 	</div>
 	</a>
@@ -85,7 +85,7 @@
 		<div class="generic-ico-button" style="background: url('/img/icons/buttons/playstation-h.png') no-repeat center">
 		</div>
 		<div class="generic-tx1-button">
-			<span>PlayStation 3 System Software <span class="generic-tx2-label">For all platforms</span></span>
+			<span>PS3 System Software</span>
 		</div>
 	</div>
 	</a>

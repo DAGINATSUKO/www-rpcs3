@@ -4674,7 +4674,8 @@ a:hover {
     overflow: hidden;
     position: relative;
     transition: all .1s ease-in-out 0s;
-    border: solid 1px rgb(255 255 255/10%)
+    border: solid 1px rgb(255 255 255/10%);
+    min-height: 640px
 }
 
 .device-con-inner-a:hover {
@@ -4884,17 +4885,16 @@ a:hover {
 }
 
 .drives-con-outer {
-    height: 60px;
-    position: relative;
-    margin-bottom: 12px
+    height: 46px;
+    position: relative
 }
 
 .drives-con-inner {
     float: left;
     width: -webkit-fill-available;
     font-family: Roboto-Bold;
-    font-size: 12px;
-    line-height: 50px;
+    font-size: 13px;
+    line-height: 46px;
     text-align: left;
     color: #000;
     white-space: nowrap;
@@ -4902,17 +4902,15 @@ a:hover {
     text-overflow: ellipsis;
     user-select: all;
     margin-right: 12px;
-    padding: 4px 10px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: linear-gradient(90deg,rgb(104 109 224/10%) 0%,rgb(104 109 224/5%) 70%);
     border-radius: 12px;
-    border: solid 1px rgb(255 255 255/10%);
-    display: inline-block
+    border: solid 1px rgb(255 255 255/10%)
 }
 
 .drives-txt-revisions {
-    position: absolute;
-    background: rgba(0,0,0,.1);
-    height: 20px;
     line-height: 18px;
     font-size: 12px;
     border-radius: 12px;
@@ -4933,7 +4931,7 @@ a:hover {
 
 .drives-ico-bluray {
     background: url("/img/icons/list/bd.png") left center/26px no-repeat;
-    height: 50px;
+    height: 46px;
     width: 38px;
     position: relative;
     float: left

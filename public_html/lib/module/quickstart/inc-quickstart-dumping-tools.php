@@ -10,9 +10,8 @@
 			</div>
 			<div class="container-tx2-block darkmode-txt">
 				<p>
-					 This is an automated and user-friendly way of getting a decrypted copy of your PlayStation 3 discs. You must possess one of the aforementioned compatible disc drives to complete the disc dumping procedure. Again, this method will not work with standard Blu-ray drives. <br>
-					<br>
-					<b>For detailed information on dumping PlayStation 3 games using this tool, check the official <a href='https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games' target="_blank">RPCS3 Wiki</a>.</b>
+					This is an automated, user-friendly way to create a copy of your PlayStation 3 discs that can be played on RPCS3.<br>
+					You must have one of the compatible PC Blu-Ray drives listed below to complete the disc-dumping process, as not all Blu-ray drives are capable of reading PS3 discs.
 				</p>
 			</div>
 		</div>
