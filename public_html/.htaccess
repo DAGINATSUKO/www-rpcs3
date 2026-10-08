@@ -60,10 +60,11 @@ RewriteRule ^([^/.]+)$ $1.php [L]
 # </filesMatch>
 
 # Compatibility: Rewrite URLs
-Redirect "/nightly" "/compatibility?b"
-Redirect "/builds" "/compatibility?b"
 Redirect "/compat" "/compatibility"
-Redirect "/library" "/compatibility?l"
+RewriteEngine On
+RewriteCond %{QUERY_STRING} (^|&)b(=|&|$)
+RewriteRule ^compatibility(?:\.php)?$ /builds? [R=301,L,QSD]
+
 Redirect "/patreon" "https://patreon.com/Nekotekina"
 Redirect "/cputierlist" "https://docs.google.com/spreadsheets/d/1Rpq_2D4Rf3g6O-x2R1fwTSKWvJH7X63kExsVxHnT2Mc/htmlview"
 Redirect "/game-report" https://forums.rpcs3.net/thread-196671.html
