@@ -662,7 +662,7 @@ if ($hasLeaderboard && !empty($boards) && isset($_GET['board_id']))
                             $trophyGradeIcon = '/img/icons/rpcn/' . $trophyGrade . '.png';
                             ?>
                             <?php if ($t->hidden && !$revealHiddenTrophies): ?>
-                            <details class="rpcn-trophy-item rpcn-trophy-item-hidden"<?= $revealHiddenTrophies ? ' open' : '' ?>>
+                            <details class="rpcn-trophy-item rpcn-trophy-item-hidden">
                                 <summary class="rpcn-trophy-hidden-summary">
                                     <span class="rpcn-trophy-hidden-placeholder" aria-hidden="true">
                                         <img src="/img/icons/rpcn/unknown.png" alt="">
