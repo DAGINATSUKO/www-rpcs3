@@ -394,7 +394,6 @@
 	border-radius:4px 0 0 4px;
 	border: solid 2px #fff;
 	background: #fff;
-	color:#fff;
 	font-size:16px;
 	box-sizing:border-box;
 	min-width:0;
@@ -425,7 +424,6 @@
 }
 .js-ready .search-input {
 	width: 100%;
-	color:#fff;
 	border-radius: 50px;
 	font-family: 'Roboto-Bold';
 	font-size: 18px;

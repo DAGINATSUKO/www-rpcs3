@@ -182,7 +182,7 @@ if ($search_query !== '')
 					<input type="text"
 						   name="q"
 						   id="gameSearch"
-						   class="search-input darkmode-search-bg darkmode-search-border"
+						   class="search-input darkmode-search-bg darkmode-search-border darkmode-search-text"
 						   value="<?php echo htmlspecialchars($search_query); ?>"
 						   placeholder="Game title or RPCN username..."
 						   autocomplete="off"
