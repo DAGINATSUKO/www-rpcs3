@@ -60,7 +60,8 @@
 	background:rgba(40,167,69,.2)
 }
 .dm-txt {
-	color:#fff!important
+	color:#fff!important;
+	fill:#fff!important
 }
 .dm-udl {
 	border-bottom:2px solid #191f36!important

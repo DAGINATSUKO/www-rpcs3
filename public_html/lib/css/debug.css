@@ -1359,6 +1359,13 @@ details.rpcn-profile-trophy-hidden {
 .rpcn-profile-trophy-hidden > summary::-webkit-details-marker {
 	display: none;
 }
+.rpcn-profile-trophy-hidden[open] summary,
+.rpcn-profile-trophy-hidden[open] .rpcn-profile-hidden-copy {
+    display: none;
+}
+.rpcn-profile-trophy-hidden[open] .rpcn-profile-hidden-content {
+    border-top: none;
+}
 .rpcn-profile-hidden-mark {
 	display: flex;
 	align-items: center;
