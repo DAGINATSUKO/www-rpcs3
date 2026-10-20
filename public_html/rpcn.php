@@ -306,6 +306,9 @@ if ($search_query !== '')
                             <?php else: ?>
                                 <span class="text1"><?php echo $rpcn_stats->peak_24h_users; ?></span>
                                 <span class="text2">Players Online</span>
+                                <?php if ($rpcn_stats->peak_24h_users_date !== ''): ?>
+                                <span class="text3"><?php echo htmlspecialchars($rpcn_stats->peak_24h_users_date); ?></span>
+                                <?php endif; ?>
                             <?php endif; ?>
                         </div>
                     </div>
