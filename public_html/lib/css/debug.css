@@ -882,7 +882,7 @@ a.rpcn-profile-stat:hover {
 	color: #fff;
 }
 .rpcn-profile-grade-stat small {
-	font-size: 11px;
+	font-size: 12px;
 	color: var(--rpcn-profile-muted);
 	white-space: nowrap;
 }
@@ -960,7 +960,7 @@ a.rpcn-profile-stat:hover {
 .rpcn-profile-list-count {
 	display: block;
 	margin-top: 3px;
-	font-size: 11px;
+	font-size: 12px;
 	color: var(--rpcn-profile-muted);
 }
 .rpcn-profile-back {
@@ -1048,7 +1048,7 @@ a.rpcn-profile-stat:hover {
 	white-space: nowrap;
 }
 .rpcn-profile-game-copy small {
-	font-size: 11px;
+	font-size: 12px;
 	color: var(--rpcn-profile-muted);
 }
 .rpcn-profile-game-progress {
@@ -1126,7 +1126,7 @@ a.rpcn-profile-stat:hover {
 }
 .rpcn-profile-game-overview-stats span {
 	display: block;
-	font-size: 11px;
+	font-size: 12px;
 	color: var(--rpcn-profile-muted);
 }
 .rpcn-profile-game-overview-stats strong {
@@ -1275,7 +1275,7 @@ a.rpcn-profile-stat:hover {
 	gap: 8px 14px;
 	flex-wrap: wrap;
 	margin-top: 7px;
-	font-size: 11px;
+	font-size: 12px;
 	color: var(--rpcn-profile-muted);
 }
 .rpcn-profile-rarity {
@@ -1317,7 +1317,7 @@ a.rpcn-profile-stat:hover {
 .rpcn-profile-trophy-rarity > small {
 	display: block;
 	margin-top: 2px;
-	font-size: 9px;
+	font-size: 10px;
 	line-height: 12px;
 	color: rgb(255 255 255 / 50%);
 }
@@ -1327,7 +1327,7 @@ a.rpcn-profile-stat:hover {
 	justify-content: center;
 	gap: 4px;
 	margin-top: 4px;
-	font-size: 9px;
+	font-size: 10px;
 	line-height: 14px;
 	color: rgb(255 255 255 / 65%);
 }
@@ -1388,7 +1388,7 @@ details.rpcn-profile-trophy-hidden {
 }
 .rpcn-profile-hidden-copy small {
 	margin-top: 2px;
-	font-size: 11px;
+	font-size: 12px;
 	color: var(--rpcn-profile-muted);
 }
 .rpcn-profile-hidden-open {
@@ -1532,11 +1532,11 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 		line-height: 20px;
 	}
 	.rpcn-profile-trophy-rarity > strong {
-		font-size: 11px;
+		font-size: 12px;
 	}
 	.rpcn-profile-trophy-rarity > small,
 	.rpcn-profile-trophy-grade-info {
-		font-size: 8px;
+		font-size: 9px;
 	}
 }
 
@@ -1590,7 +1590,7 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 .rpcn-player-search-copy small,
 .search-player-item .search-title small {
 	margin-top: 3px;
-	font-size: 11px;
+	font-size: 12px;
 	color: rgb(255 255 255 / 55%);
 }
 .search-player-item {
@@ -1662,7 +1662,7 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 	padding: 4px 8px;
 	border: 1px solid transparent;
 	border-radius: 6px;
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 17px;
 	color: rgb(255 255 255 / 68%);
 	text-decoration: none;
@@ -1738,7 +1738,7 @@ details[open].rpcn-profile-trophy-hidden .rpcn-profile-hidden-open {
 	background: rgb(255 255 255 / 5%);
 	color: rgb(255 255 255 / 82%);
 	font: inherit;
-	font-size: 11px;
+	font-size: 12px;
 }
 .rpcn-profile-language-form select {
 	min-width: 112px;
