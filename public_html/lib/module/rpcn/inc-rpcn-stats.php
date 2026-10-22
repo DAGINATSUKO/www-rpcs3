@@ -16,6 +16,7 @@ class RPCNStats
 
     public int $total_users = 0;
     public int $peak_24h_users = 0;
+    public string $peak_24h_users_date = '';
 
     /** @var list<RPCNTopGame> */
     public array $top_10_games_24h = [];
@@ -488,6 +489,7 @@ class RPCNStats
                     if (is_array($data))
                     {
                         $this->peak_24h_users = RPCNValue::int($data['peak_24h_users'] ?? null);
+                        $this->peak_24h_users_date = RPCNValue::string($data['peak_24h_users_date'] ?? null);
                         $this->peak_alltime_users = RPCNValue::int($data['peak_alltime_users'] ?? null);
                         $this->peak_alltime_users_date = RPCNValue::string($data['peak_alltime_users_date'] ?? null);
                         $this->top_10_games_24h = $this->parseTopGames24h($data['top_10_games_24h'] ?? []);
@@ -502,6 +504,7 @@ class RPCNStats
 
         $payload = json_encode([
             'peak_24h_users' => $this->peak_24h_users,
+            'peak_24h_users_date' => $this->peak_24h_users_date,
             'peak_alltime_users' => $this->peak_alltime_users,
             'peak_alltime_users_date' => $this->peak_alltime_users_date,
             'top_10_games_24h' => $this->top_10_games_24h,
@@ -562,11 +565,18 @@ class RPCNStats
         $this->top_10_games_24h = [];
         $this->top_10_games_alltime = [];
 
-        $res = $db->query('SELECT MAX(players) AS peak FROM np_players WHERE timestamp >= NOW() - INTERVAL 24 HOUR;');
+        $res = $db->query('SELECT players AS peak, timestamp FROM np_players 
+                           WHERE timestamp >= NOW() - INTERVAL 24 HOUR 
+                           ORDER BY players DESC, timestamp ASC LIMIT 1;');
         if ($res instanceof mysqli_result)
         {
             $row = self::fetch_assoc($res);
-            $this->peak_24h_users = RPCNValue::int($row['peak'] ?? null);
+            if (!empty($row))
+            {
+                $this->peak_24h_users = RPCNValue::int($row['peak'] ?? null);
+                $timestamp = isset($row['timestamp']) ? RPCNValue::string($row['timestamp']) : '';
+                $this->peak_24h_users_date = $timestamp !== '' ? $this->time_ago($timestamp) : '';
+            }
         }
 
         /** @var array<string, int> $games24h */

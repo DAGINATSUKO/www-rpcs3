@@ -759,9 +759,15 @@ body::before {
     font-weight: 700;
 }
 
-.rpcn-trophy-hidden-open { display: none; }
-.rpcn-trophy-item-hidden[open] .rpcn-trophy-hidden-closed { display: none; }
-.rpcn-trophy-item-hidden[open] .rpcn-trophy-hidden-open { display: inline; }
+.rpcn-trophy-item-hidden[open] .rpcn-trophy-hidden-summary {
+    display: none;
+}
+.rpcn-trophy-item-hidden[open] .rpcn-trophy-hidden-content {
+    border-top: none;
+}
+.rpcn-trophy-item-hidden[open] {
+    padding: 14px 16px;
+}
 
 .rpcn-trophy-hidden-content {
     display:     flex;

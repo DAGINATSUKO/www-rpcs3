@@ -446,13 +446,12 @@ $profileCompletion = $summary->totalTrophies > 0
                             </div>
                             <div class="rpcn-profile-trophy-list">
                     <?php foreach ($groupTrophies as $trophy): ?>
-                        <?php if ($trophy->hidden): ?>
-                            <details class="rpcn-profile-trophy rpcn-profile-trophy-hidden<?= $trophy->earned ? ' rpcn-profile-trophy-earned' : '' ?>"<?= $revealHidden ? ' open' : '' ?>>
+                        <?php if ($trophy->hidden && !$revealHidden): ?>
+                            <details class="rpcn-profile-trophy rpcn-profile-trophy-hidden<?= $trophy->earned ? ' rpcn-profile-trophy-earned' : '' ?>">
                                 <summary>
                                     <span class="rpcn-profile-hidden-mark"><?= rpcn_profile_grade_icon('unknown') ?></span>
                                     <span class="rpcn-profile-hidden-copy">
-                                        <strong class="rpcn-profile-hidden-closed">Hidden trophy. Click to reveal.</strong>
-                                        <strong class="rpcn-profile-hidden-open">Hide trophy details</strong>
+                                        <strong>Hidden trophy. Click to reveal.</strong>
                                         <small><?= $trophy->earned ? 'Earned' : 'Not earned' ?><?= $trophy->earnedAtLabel !== '' ? ' · ' . htmlspecialchars($trophy->earnedAtLabel) : '' ?></small>
                                     </span>
                                 </summary>

@@ -90,6 +90,7 @@ var dark_classes = [
 	
 	{"base": ".darkmode-search-border", "toggle": "dm-search-border"},
 	{"base": ".darkmode-search-bg", "toggle": "dm-search-bg"},
+	{"base": ".darkmode-search-text", "toggle": "dm-txt"},
 
 	// Blog
 	{"base": ".nav-links", "toggle": "dm-default dm-txt"},
