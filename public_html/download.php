@@ -115,7 +115,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/legacy-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For Windows 7/8</span></span>
+						<span>Download <span class="generic-tx2-label">For Windows 7/8 (v0.0.28-15417)</span></span>
 					</div>
 				</div>
 				</a>
@@ -124,7 +124,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 14.4 (arm64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 14.4, arm64 (v0.0.41-19492)</span></span>
 					</div>
 				</div>
 				</a>
@@ -133,7 +133,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 14.4 (x64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 14.4, x64 (v0.0.41-19492)</span></span>
 					</div>
 				</div>
 				</a>
@@ -142,7 +142,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 13 (arm64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 13, arm64 (v0.0.35-17589)</span></span>
 					</div>
 				</div>
 				</a>
@@ -151,7 +151,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 13 (x64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 13, x64 (v0.0.35-17589)</span></span>
 					</div>
 				</div>
 				</a>
@@ -160,7 +160,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 12.6</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 12.6, x64 (v0.0.33-16940)</span></span>
 					</div>
 				</div>
 				</a>
@@ -169,7 +169,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 11.6</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 11.6, x64 (v0.0.25-14517)</span></span>
 					</div>
 				</div>
 				</a>
