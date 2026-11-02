@@ -37,6 +37,10 @@ if (@include_once("lib/compat/objects/Build.php"))
 	{
 		$build_windows_x64 = Build::get_latest("win");
 	}
+	if (isset($build) && is_null($build->get_url_windows_arm64()))
+	{
+		$build_windows_arm64 = Build::get_latest("win_arm64");
+	}
 	if (isset($build) && is_null($build->get_url_linux()))
 	{
 		$build_linux_x64 = Build::get_latest("linux");
