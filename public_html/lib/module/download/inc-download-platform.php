@@ -12,36 +12,6 @@
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For a wide range of hardware setups on both laptops and desktops with support for Windows 10 and 11.</span>
 			</div>
-			<!-- SHA Section -->
-			<div class='sha2-tx1-title darkmode-txt'>
-				<span>SHA-256</span>
-			</div>
-			<div class='sha2-tx2-desc'>
-			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-x64.png) center / contain no-repeat;"></div>
-				<span>
-				<?php
-				if (isset($build) && !is_null($build->checksum_win))
-					printf("%s", $build->checksum_win);
-				else if (isset($build_windows_x64))
-					printf("%s", $build_windows_x64->checksum_win);
-				else
-					printf("Unavailable");
-				?>
-				</span>
-			</div>
-			<div class='sha2-tx2-desc'>
-			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-arm64.png) center / contain no-repeat;"></div>
-				<span>
-					<?php
-					if (isset($build) && !is_null($build->checksum_win_arm64))
-						printf("%s", $build->checksum_win_arm64);
-					else if (isset($build_windows_arm64))
-						printf("%s", $build_windows_arm64->checksum_win_arm64);
-					else
-						printf("Coming soon...");
-					?>
-				</span>
-			</div>
 			<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
@@ -93,10 +63,10 @@
 				<div class='package-con-metabutton'>
 					<span class='package-tx1-metabutton'>
 					<?php
-					if (isset($build) && !is_null($build->get_url_windows_arm64()))
+					if (isset($build) && !is_null($build->get_url_windows_arm64()) || isset($build_windows_arm64))
 						printf("Download for arm64");
 					else
-						printf("Coming soon...");
+						printf("Unavailable");
 					?>
 					</span>
 					<br>
@@ -104,6 +74,8 @@
 						<?php
 						if (isset($build) && !is_null($build->get_size_mb_windows_arm64()))
 							printf("%s MB", $build->get_size_mb_windows_arm64());
+						else if (isset($build_windows_arm64))
+							printf("%s MB", $build_windows_arm64->get_size_mb_windows());
 						else
 							printf("");
 						?>
@@ -111,7 +83,7 @@
 				</div>
 			</div>
 			<?php
-			if (isset($build) && !is_null($build->get_url_windows_arm64()))
+			if (isset($build) && !is_null($build->get_url_windows_arm64()) || isset($build_windows_arm64))
 				printf("</a>");
 			?>
 		</div>
@@ -124,42 +96,12 @@
 			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-linux-na.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
-				<span>Linux</span>
+				<span>Linux</span> <span class='downloadable-tx4-label'>Recommended</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For a wide range of hardware setups on both laptops and desktops with support for most common distros.</span>
 			</div>
-			<!-- SHA Section -->
-			<div class='sha2-tx1-title darkmode-txt'>
-				<span>SHA-256</span>
-			</div>
-			<div class='sha2-tx2-desc'>
-			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-x64.png) center / contain no-repeat;"></div>
-				<span>
-					<?php
-					if (isset($build) && !is_null($build->checksum_linux))
-						printf("%s", $build->checksum_linux);
-					else if (isset($build_linux_x64))
-						printf("%s", $build_linux_x64->checksum_linux);
-					else
-						printf("Unavailable");
-					?>
-				</span>
-			</div>
-			<div class='sha2-tx2-desc'>
-			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-arm64.png) center / contain no-repeat;"></div>
-				<span>
-				<?php
-				if (isset($build) && !is_null($build->checksum_linux_arm64))
-					printf("%s", $build->checksum_linux_arm64);
-				else if (isset($build_linux_arm64))
-					printf("%s", $build_linux_arm64->checksum_linux_arm64);
-				else
-					printf("Unavailable");
-				?>
-				</span>
-			</div>
-		<!-- Download Section -->
+			<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
 				<span>Download Packages</span>
 			</div>
@@ -243,40 +185,10 @@
 			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-macos.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
-				<span>macOS</span> <span  class='downloadable-tx3-label'>Experimental</span>
+				<span>macOS</span> <span class='downloadable-tx3-label'>Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 15 or later.</span>
-			</div>
-			<!-- SHA Section -->
-			<div class='sha2-tx1-title darkmode-txt'>
-				<span>SHA-256</span>
-			</div>
-			<div class='sha2-tx2-desc'>
-			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-x64.png) center / contain no-repeat;"></div>
-				<span>
-					<?php
-					if (isset($build) && !is_null($build->checksum_mac))
-						printf("%s", $build->checksum_mac);
-					else if (isset($build_macos_x64))
-						printf("%s", $build_macos_x64->checksum_mac);
-					else
-						printf("Unavailable");
-					?>
-				</span>
-			</div>
-			<div class='sha2-tx2-desc'>
-			<div class='sha2-ico-desc' style="background: url(/img/icons/buttons/sha2-arm64.png) center / contain no-repeat;"></div>
-				<span>
-					<?php
-					if (isset($build) && !is_null($build->checksum_mac_arm64))
-						printf("%s", $build->checksum_mac_arm64);
-					else if (isset($build_macos_arm64))
-						printf("%s", $build_macos_arm64->checksum_mac_arm64);
-					else
-						printf("Unavailable");
-					?>
-				</span>
 			</div>
 			<!-- Download Section -->
 			<div class='package-tx1-title darkmode-txt'>
@@ -366,7 +278,7 @@
 				<span>FreeBSD</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Users can expect to run RPCS3 at the best possible performance on a wide range of hardware setups on FreeBSD 14.4 or later.<br><br><br><br></span>
+				<span>For a wide range of hardware setups on FreeBSD 14.5 or later.<br><br><br><br></span>
 			</div>
 			<a href="https://cgit.freebsd.org/ports/log/emulators/rpcs3">
 			<div class='package-con-button'>
@@ -389,7 +301,7 @@
 				<span>Previous Builds</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
-				<span>Checking previous builds allows you browse all publicly released official builds. We offer useful metadata for each build such as SHA, OS version, author and the commit it was compiled from. Please be aware that because these are previous builds they may be missing important fixes and additions found in later builds.<br><br>For furthers details see our <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> log via GitHub.</span>
+				<span>You can find useful metadata for each released build such as the SHA-256 checksum, author and the commit it was compiled from. Please note that these earlier builds may lack important fixes and additions included in newer builds.<br><br>For further details see our <a href="https://github.com/RPCS3/rpcs3/commits/master" target="_blank">commits</a> log via GitHub.</span>
 				<br><br>
 			</div>
 			<a href="https://rpcs3.net/builds">

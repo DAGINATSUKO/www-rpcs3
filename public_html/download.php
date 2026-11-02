@@ -37,6 +37,10 @@ if (@include_once("lib/compat/objects/Build.php"))
 	{
 		$build_windows_x64 = Build::get_latest("win");
 	}
+	if (isset($build) && is_null($build->get_url_windows_arm64()))
+	{
+		$build_windows_arm64 = Build::get_latest("win_arm64");
+	}
 	if (isset($build) && is_null($build->get_url_linux()))
 	{
 		$build_linux_x64 = Build::get_latest("linux");
@@ -111,7 +115,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/legacy-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For Windows 7/8</span></span>
+						<span>Download <span class="generic-tx2-label">For Windows 7/8 (v0.0.28-15417)</span></span>
 					</div>
 				</div>
 				</a>
@@ -120,7 +124,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 14.4 (arm64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 14.4, arm64 (v0.0.41-19492)</span></span>
 					</div>
 				</div>
 				</a>
@@ -129,7 +133,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 14.4 (x64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 14.4, x64 (v0.0.41-19492)</span></span>
 					</div>
 				</div>
 				</a>
@@ -138,7 +142,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 13 (arm64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 13, arm64 (v0.0.35-17589)</span></span>
 					</div>
 				</div>
 				</a>
@@ -147,7 +151,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 13 (x64)</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 13, x64 (v0.0.35-17589)</span></span>
 					</div>
 				</div>
 				</a>
@@ -156,7 +160,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 12.6</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 12.6, x64 (v0.0.33-16940)</span></span>
 					</div>
 				</div>
 				</a>
@@ -165,7 +169,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 					<div class="generic-ico-button" style="background: url('/img/icons/buttons/macos-h.png') no-repeat center">
 					</div>
 					<div class="generic-tx1-button">
-						<span>Download <span class="generic-tx2-label">For macOS 11.6</span></span>
+						<span>Download <span class="generic-tx2-label">For macOS 11.6, x64 (v0.0.25-14517)</span></span>
 					</div>
 				</div>
 				</a>
@@ -181,7 +185,7 @@ if (@include_once("lib/compat/objects/Build.php"))
 							 <br>
 							 Once uncompressed, place your RPCS3 folder in a convenient location to start, such as: <span class="highlight darkmode-highlight">C:\Users\Kratos\RPCS3\rpcs3.exe</span>
 							 <br>
-							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank">Microsoft Visual C++ 2015-2022 Redistributable</a></span>
+							 <b>Download dependencies </b><span class="highlight darkmode-highlight"><a href="https://aka.ms/vs/18/release/VC_redist.x64.exe" target="_blank">Microsoft Visual C++ v14 Redistributable (2026)</a></span>
 						</p>
 					</div>
 				</div>
