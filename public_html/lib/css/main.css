@@ -4287,6 +4287,19 @@ a:hover {
     line-height: 0px;
 }
 
+.downloadable-tx4-label {
+    background: rgb(46 204 113 / 10%);
+    border: solid 1px rgb(46 204 113 / 60%);
+    border-radius: 6px;
+    padding: 2px 6px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    top: -4px;
+    position: relative;
+    color: rgb(46 204 113);
+    line-height: 0px;
+}
+
 .package-tx1-title {
     font-family: Roboto-Bold;
     font-size: 14px;

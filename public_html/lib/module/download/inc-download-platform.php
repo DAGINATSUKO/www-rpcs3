@@ -96,7 +96,7 @@
 			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-linux-na.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
-				<span>Linux</span>
+				<span>Linux</span> <span class='downloadable-tx4-label'>Recommended</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For a wide range of hardware setups on both laptops and desktops with support for most common distros.</span>
@@ -185,7 +185,7 @@
 			<div class='downloadable-con-image' style="background: url(/img/icons/list/os-macos.png) center left / 42px no-repeat;">
 			</div>
 			<div class='downloadable-tx1-title darkmode-txt'>
-				<span>macOS</span> <span  class='downloadable-tx3-label'>Experimental</span>
+				<span>macOS</span> <span class='downloadable-tx3-label'>Experimental</span>
 			</div>
 			<div class='downloadable-tx2-desc darkmode-txt'>
 				<span>For Apple Silicon or Intel hardware with dedicated graphics on macOS 15 or later.</span>
