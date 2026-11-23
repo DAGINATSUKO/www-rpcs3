@@ -83,6 +83,7 @@ $drives->add_drive('Sony', 'PlayStation 3 BDD', DriveType::Internal, 'Adapter or
 $drives->add_drive('Sony', 'PlayStation 4 BDD', DriveType::Internal, 'CFW required');
 $drives->add_drive('Sony', 'PlayStation 5 BDD', DriveType::Internal, 'CFW required');
 $drives->add_drive('TEAC', 'BD-W512GSA', DriveType::Internal);
+$drives->add_drive('techPulse120', 'UltraSlim Aluminium Edition', DriveType::External, 'BU40N model only');
 $drives->add_drive('Verbatim', 'Verbatim 43888', DriveType::External, 'BU40N model only');
 $drives->add_drive('Verbatim', 'Verbatim 43889', DriveType::External, 'BU40N model only');
 $drives->add_drive('Verbatim', 'Verbatim 43890', DriveType::External, 'BU40N model only');
